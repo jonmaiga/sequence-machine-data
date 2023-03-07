@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of exponential transform of 1/n.",
+  "id": "A177208",
+  "mentions": [
+    "A000110",
+    "A000248",
+    "A001620",
+    "A177209",
+    "A322364",
+    "A322365",
+    "A322380",
+    "A322381",
+    "A323339",
+    "A323340"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

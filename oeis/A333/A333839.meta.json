@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k = 4..n} ((prevprime(k) + nextprime(k))/2 - k).",
+  "id": "A333839",
+  "mentions": [
+    "A013632",
+    "A033559",
+    "A049711",
+    "A145025"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 4,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

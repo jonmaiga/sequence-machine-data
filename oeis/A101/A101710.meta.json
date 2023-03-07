@@ -1,0 +1,20 @@
+{
+  "description": "Primes p for which the least-magnitude negative primitive root is not a primitive root of p^2. Like A055578, but for negative rather than positive primitive roots.",
+  "id": "A101710",
+  "mentions": [
+    "A055578",
+    "A060503",
+    "A060504"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

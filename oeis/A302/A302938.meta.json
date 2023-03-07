@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically first sequence of distinct terms such that the sum of any two terms is not a term of the sequence, and the sum of any two digits is not a digit of the sequence.",
+  "id": "A302938",
+  "mentions": [
+    "A014261",
+    "A284971",
+    "A302940"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

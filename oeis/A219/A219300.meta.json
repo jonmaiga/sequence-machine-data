@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the second smallest known Salem number.",
+  "id": "A219300",
+  "mentions": [
+    "A073011",
+    "A173911"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

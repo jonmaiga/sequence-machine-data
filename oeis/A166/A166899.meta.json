@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..[n/2]} C(n-k,k)^4*n/(n-k), n>=1.",
+  "id": "A166899",
+  "mentions": [
+    "A001622",
+    "A166895",
+    "A166897",
+    "A166898",
+    "A167539"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

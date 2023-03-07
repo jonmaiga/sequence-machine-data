@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple strong triangulations of a fixed hexagon with n interior nodes.",
+  "id": "A341921",
+  "mentions": [
+    "A210664",
+    "A341918"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

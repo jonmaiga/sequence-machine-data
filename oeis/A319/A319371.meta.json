@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the characteristic polynomial of a wheel graph of k nodes has exactly one monomial with vanishing coefficient.",
+  "id": "A319371",
+  "mentions": [
+    "A004772"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

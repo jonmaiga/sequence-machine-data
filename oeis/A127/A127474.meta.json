@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, square of A054522.",
+  "id": "A127474",
+  "mentions": [
+    "A054522",
+    "A057660",
+    "A127473"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

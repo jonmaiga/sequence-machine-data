@@ -1,0 +1,19 @@
+{
+  "description": "Positions at which the truncated square root of triangular numbers is unique.",
+  "id": "A137362",
+  "mentions": [
+    "A061288",
+    "A161680"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

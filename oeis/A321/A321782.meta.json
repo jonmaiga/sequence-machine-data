@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k) read by rows, n > 0 and 0 < k <= 3^(n-1): T(n, k) = sqrt((A321768(n, k) + A321770(n, k))/2).",
+  "id": "A321782",
+  "mentions": [
+    "A000129",
+    "A001542",
+    "A321768",
+    "A321770",
+    "A321783",
+    "A351702"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

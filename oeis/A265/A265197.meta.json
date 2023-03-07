@@ -1,0 +1,19 @@
+{
+  "description": "Magic sums of 3 X 3 semimagic squares composed of triangular numbers.",
+  "id": "A265197",
+  "mentions": [
+    "A000217",
+    "A265141",
+    "A265198"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

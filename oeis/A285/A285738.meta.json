@@ -1,0 +1,22 @@
+{
+  "description": "Greatest prime less than 2*n^2 for n > 1, a(1) = 1.",
+  "id": "A285738",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A285388",
+    "A285786"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

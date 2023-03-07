@@ -1,0 +1,22 @@
+{
+  "description": "String of digits encountered in decimal expansion of successive ratios k/(k+1), treating only non-repeating expansions, with decimal point and leading and trailing zeros removed.",
+  "id": "A156703",
+  "mentions": [
+    "A003592",
+    "A158911"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

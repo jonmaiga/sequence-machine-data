@@ -1,0 +1,20 @@
+{
+  "description": "If the set of nonzero digits of n in some base of the form 2^2^k (with k >= 0) has exactly two elements, let b be the least such base and u and v the corresponding two nonzero digits; the base b representation of a(n) is obtained by replacing the u's by v's and vice versa in the base b representation of n; otherwise a(n) = n.",
+  "id": "A331364",
+  "mentions": [
+    "A001146",
+    "A332520"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

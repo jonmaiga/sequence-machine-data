@@ -1,0 +1,19 @@
+{
+  "description": "Fractional part of (3/2)^n without the decimal point.",
+  "id": "A204544",
+  "mentions": [
+    "A170827",
+    "A170828"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:54:07",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

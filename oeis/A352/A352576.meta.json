@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = length(A352575(n)).",
+  "id": "A352576",
+  "mentions": [
+    "A109812",
+    "A352575"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

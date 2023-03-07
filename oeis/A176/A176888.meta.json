@@ -1,0 +1,18 @@
+{
+  "description": "Unsafe primes minus 1.",
+  "id": "A176888",
+  "mentions": [
+    "A059456"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

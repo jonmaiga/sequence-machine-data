@@ -1,0 +1,25 @@
+{
+  "description": "Magic sums of 3 X 3 magic squares composed of primes.",
+  "id": "A268790",
+  "mentions": [
+    "A000040",
+    "A024351",
+    "A073350",
+    "A164843",
+    "A227284",
+    "A320871",
+    "A320872",
+    "A320873"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

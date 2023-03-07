@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) = number of self-avoiding walks of any length from NW to SW corners on a grid with n rows and m columns.",
+  "id": "A271465",
+  "mentions": [
+    "A005409",
+    "A006189",
+    "A064298",
+    "A214931",
+    "A216211",
+    "A271507"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

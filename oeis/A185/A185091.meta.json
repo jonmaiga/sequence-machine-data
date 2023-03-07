@@ -1,0 +1,19 @@
+{
+  "description": "The smallest positive noncomposite q such that 2n-1 = 2p+q for some positive noncomposite p.",
+  "id": "A185091",
+  "mentions": [
+    "A002091",
+    "A002092"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 2,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of connected arrangements of n equal circles in the affine plane, in the sense that the union of the boundaries of the circles is a connected set.",
+  "id": "A339266",
+  "mentions": [
+    "A250001",
+    "A275923",
+    "A275924",
+    "A288554",
+    "A288568",
+    "A296407"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

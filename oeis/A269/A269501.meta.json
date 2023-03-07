@@ -1,0 +1,25 @@
+{
+  "description": "Subsequence immediately following the instances of n in the sequence is n, n-1, ..., 1, n+1, n+2, ....",
+  "id": "A269501",
+  "mentions": [
+    "A000326",
+    "A003059",
+    "A060747",
+    "A097291",
+    "A269780",
+    "A305615",
+    "A315615"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

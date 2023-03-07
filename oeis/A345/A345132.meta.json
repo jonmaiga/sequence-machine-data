@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2) X (n+2) symmetric matrices with nonnegative integer entries, trace 0, with n rows that sum to 2, and 2 rows that sum to 1.",
+  "id": "A345132",
+  "mentions": [
+    "A002137"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

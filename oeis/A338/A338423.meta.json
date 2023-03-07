@@ -1,0 +1,20 @@
+{
+  "description": "Place four points evenly spaced on a circle, draw n evenly spaced rays from each of the points, a(n) is the number of edges thus created. See Comments for details.",
+  "id": "A338423",
+  "mentions": [
+    "A338124",
+    "A338421",
+    "A338422"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 X 2 matrices with all elements in {0,...,n} with permanent = determinant^n.",
+  "id": "A280364",
+  "mentions": [
+    "A280344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:35",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

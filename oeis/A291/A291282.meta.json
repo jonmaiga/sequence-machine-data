@@ -1,0 +1,32 @@
+{
+  "description": "Primes p such that p does not divide any term of the Apery-like sequence A002895.",
+  "id": "A291282",
+  "mentions": [
+    "A000172",
+    "A002893",
+    "A002895",
+    "A005258",
+    "A005259",
+    "A006077",
+    "A081085",
+    "A093388",
+    "A125143",
+    "A133370",
+    "A229111",
+    "A260793",
+    "A290575",
+    "A290576",
+    "A291275",
+    "A291284"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

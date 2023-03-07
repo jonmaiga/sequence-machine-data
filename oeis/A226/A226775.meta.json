@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the number x other than -2 defined by x*exp(x) = -2/e^2.",
+  "id": "A226775",
+  "mentions": [
+    "A106533",
+    "A187655",
+    "A187657",
+    "A217899",
+    "A217900",
+    "A226750",
+    "A243227",
+    "A245109",
+    "A247238",
+    "A258467",
+    "A337458"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

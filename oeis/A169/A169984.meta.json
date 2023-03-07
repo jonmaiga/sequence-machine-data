@@ -1,0 +1,19 @@
+{
+  "description": "Primes in carryless arithmetic mod 10 in which all digits except the rightmost are zero or five.",
+  "id": "A169984",
+  "mentions": [
+    "A163396",
+    "A169887"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

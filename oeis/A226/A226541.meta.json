@@ -1,0 +1,28 @@
+{
+  "description": "Number of unimodal compositions of n where the maximal part appears three times.",
+  "id": "A226541",
+  "mentions": [
+    "A000009",
+    "A001522",
+    "A001523",
+    "A006330",
+    "A027349",
+    "A035363",
+    "A087897",
+    "A114921",
+    "A188674",
+    "A189357",
+    "A247255"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

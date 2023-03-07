@@ -1,0 +1,30 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(2n) = 2*a(n), a(2n+1) = A250469(1+a(n)).",
+  "id": "A269865",
+  "mentions": [
+    "A135141",
+    "A246375",
+    "A249814",
+    "A250469",
+    "A252755",
+    "A269359",
+    "A269863",
+    "A269864",
+    "A269866",
+    "A269867",
+    "A270195"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

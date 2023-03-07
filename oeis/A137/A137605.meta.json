@@ -1,0 +1,21 @@
+{
+  "description": "Consider the sequence: b(0) = n, and for k >= 1, b(k) = b(k-1)/2 if b(k-1) is even, otherwise b(k) = k-(b(k-1)+1)/2. Then a(n) = m, where m is the smallest index such that b(m) = 1.",
+  "id": "A137605",
+  "mentions": [
+    "A002326",
+    "A003558",
+    "A014657",
+    "A137604"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

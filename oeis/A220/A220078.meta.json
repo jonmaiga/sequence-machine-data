@@ -1,0 +1,21 @@
+{
+  "description": "5^(n!).",
+  "id": "A220078",
+  "mentions": [
+    "A000142",
+    "A000351",
+    "A050923",
+    "A100731"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

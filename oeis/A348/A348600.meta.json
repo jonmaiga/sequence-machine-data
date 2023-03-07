@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of (unlabeled) connected graphs with n nodes and metric dimension k, 0 <= k < n.",
+  "id": "A348600",
+  "mentions": [
+    "A001349",
+    "A047209",
+    "A303735"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

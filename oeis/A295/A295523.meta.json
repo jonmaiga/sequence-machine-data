@@ -1,0 +1,28 @@
+{
+  "description": "Nonprime numbers n such that A243822(n) >= A243823(n).",
+  "id": "A295523",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A010846",
+    "A045763",
+    "A133995",
+    "A243822",
+    "A243823",
+    "A272618",
+    "A272619"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

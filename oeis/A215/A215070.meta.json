@@ -1,0 +1,17 @@
+{
+  "description": "Number of squarefree words of length n in an n-ary alphabet, with new values 0..n-1 introduced in increasing order.",
+  "id": "A215070",
+  "mentions": [
+    "A215075"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

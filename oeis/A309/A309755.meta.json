@@ -1,0 +1,18 @@
+{
+  "description": "Primes with record Euclidean distance from the origin. When starting rightwards in a grid, turn left after a prime number, if not walk straight on.",
+  "id": "A309755",
+  "mentions": [
+    "A000040",
+    "A309701"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

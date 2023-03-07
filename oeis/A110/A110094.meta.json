@@ -1,0 +1,28 @@
+{
+  "description": "Startorial primes.",
+  "id": "A110094",
+  "mentions": [
+    "A000040",
+    "A002981",
+    "A037083",
+    "A046882",
+    "A073828",
+    "A080778",
+    "A100015",
+    "A103317",
+    "A109834"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

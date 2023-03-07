@@ -1,0 +1,34 @@
+{
+  "description": "Number of integer partitions of n whose parts have weakly decreasing numbers of prime factors (A001222).",
+  "id": "A358909",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A001222",
+    "A011782",
+    "A056239",
+    "A063834",
+    "A141199",
+    "A218482",
+    "A300335",
+    "A319169",
+    "A320324",
+    "A358335",
+    "A358831",
+    "A358901",
+    "A358903",
+    "A358908",
+    "A358910",
+    "A358911"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The a(k)-th Mersenne prime exponent is not a Gaussian prime (not 3 mod 4).",
+  "id": "A112649",
+  "mentions": [
+    "A000043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

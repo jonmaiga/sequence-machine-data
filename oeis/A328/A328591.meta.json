@@ -1,0 +1,21 @@
+{
+  "description": "Even bisection of A328590: a(n) = A328578(2n) - A257993(2n).",
+  "id": "A328591",
+  "mentions": [
+    "A257993",
+    "A276086",
+    "A328578",
+    "A328590"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

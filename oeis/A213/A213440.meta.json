@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1 + log(gamma), where gamma is Euler's constant A001620.",
+  "id": "A213440",
+  "mentions": [
+    "A001620",
+    "A002389"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

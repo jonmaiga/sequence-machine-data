@@ -1,0 +1,25 @@
+{
+  "description": "Indices of 9-almost prime triangular numbers.",
+  "id": "A240529",
+  "mentions": [
+    "A000217",
+    "A069904",
+    "A108815",
+    "A114435",
+    "A114436",
+    "A114437",
+    "A164977"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

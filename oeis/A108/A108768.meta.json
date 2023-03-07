@@ -1,0 +1,23 @@
+{
+  "description": "Primes that appear in the sequence p:=x^2+x+1, sieved with a quadratic sieve construction.",
+  "id": "A108768",
+  "mentions": [
+    "A002061",
+    "A002383",
+    "A007645",
+    "A162471",
+    "A256148"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

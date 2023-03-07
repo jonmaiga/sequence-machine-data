@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer compositions of n with exactly one part above the diagonal.",
+  "id": "A351983",
+  "mentions": [
+    "A000295",
+    "A001477",
+    "A002620",
+    "A008930",
+    "A010054",
+    "A057427",
+    "A088218",
+    "A098825",
+    "A115994",
+    "A177510",
+    "A219282",
+    "A238349",
+    "A238351",
+    "A238352",
+    "A238874",
+    "A240736",
+    "A330644",
+    "A352516",
+    "A352520",
+    "A352521",
+    "A352522",
+    "A352523",
+    "A352524",
+    "A352525"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

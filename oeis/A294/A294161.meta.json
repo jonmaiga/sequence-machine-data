@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of triangle A291844.",
+  "id": "A294161",
+  "mentions": [
+    "A291843",
+    "A291844"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

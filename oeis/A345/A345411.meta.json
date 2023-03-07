@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the ratio between the position of the peak of the wavelength distribution of black-body radiation and the wavelength corresponding to the position of the peak of this distribution in the frequency domain.",
+  "id": "A345411",
+  "mentions": [
+    "A094090",
+    "A194567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

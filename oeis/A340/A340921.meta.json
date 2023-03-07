@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct resistances that can be produced using at most n unit resistors in a planar network.",
+  "id": "A340921",
+  "mentions": [
+    "A153588",
+    "A174284",
+    "A174286",
+    "A180414",
+    "A337517",
+    "A340920"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

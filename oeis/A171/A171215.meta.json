@@ -1,0 +1,21 @@
+{
+  "description": "Row cubed sums of triangle of Lucas polynomials (A034807) for n>0: Sum_{k=0..[n/2]} A034807(n,k)^3.",
+  "id": "A171215",
+  "mentions": [
+    "A034807",
+    "A132461",
+    "A171185",
+    "A171187"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

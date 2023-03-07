@@ -1,0 +1,21 @@
+{
+  "description": "Number of successive odd numbers that are not twin primes and number of successive twin primes, interleaved.",
+  "id": "A256262",
+  "mentions": [
+    "A001097",
+    "A005408",
+    "A255763",
+    "A256252",
+    "A256253"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

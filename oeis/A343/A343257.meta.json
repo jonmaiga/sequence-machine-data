@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n+2-sided polygons whose points lie on a circle and with the property that one makes k turns on itself, always in the same direction (right or left) while following its edges, 1 <= k <= ceiling(n/2).",
+  "id": "A343257",
+  "mentions": [
+    "A029760",
+    "A030110",
+    "A295264",
+    "A342968"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

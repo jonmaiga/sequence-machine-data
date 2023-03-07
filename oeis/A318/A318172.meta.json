@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic density of deficient numbers.",
+  "id": "A318172",
+  "mentions": [
+    "A005100",
+    "A302991",
+    "A303736"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

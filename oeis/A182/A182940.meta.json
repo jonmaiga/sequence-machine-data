@@ -1,0 +1,18 @@
+{
+  "description": "List of divisors of the sequence A094348 in their order of occurrence.",
+  "id": "A182940",
+  "mentions": [
+    "A094348",
+    "A096179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

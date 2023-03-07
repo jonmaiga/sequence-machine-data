@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of n X n {0,1}-matrices (over the reals) that contain no zeros when squared.",
+  "id": "A307232",
+  "mentions": [
+    "A002416",
+    "A002720",
+    "A055601",
+    "A055602",
+    "A307248"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

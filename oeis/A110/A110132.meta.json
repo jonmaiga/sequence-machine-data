@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n/2)^ceiling(n/2).",
+  "id": "A110132",
+  "mentions": [
+    "A000312",
+    "A004248",
+    "A110138"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

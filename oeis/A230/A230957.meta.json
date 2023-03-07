@@ -1,0 +1,20 @@
+{
+  "description": "Boustrophedon transform of partition numbers A000009.",
+  "id": "A230957",
+  "mentions": [
+    "A000009",
+    "A000751",
+    "A109449"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

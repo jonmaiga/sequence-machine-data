@@ -1,0 +1,34 @@
+{
+  "description": "Coefficient array for the minimal polynomials of 2*cos(2*Pi/n) for n >= 1.",
+  "id": "A232624",
+  "mentions": [
+    "A000010",
+    "A003557",
+    "A003558",
+    "A008683",
+    "A014657",
+    "A014659",
+    "A023022",
+    "A055034",
+    "A065941",
+    "A076479",
+    "A127672",
+    "A181875",
+    "A181876",
+    "A181877",
+    "A187360"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

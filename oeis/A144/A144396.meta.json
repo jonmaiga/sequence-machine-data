@@ -1,0 +1,32 @@
+{
+  "description": "The odd numbers greater than 1.",
+  "id": "A144396",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A002378",
+    "A004275",
+    "A004277",
+    "A005408",
+    "A007395",
+    "A046092",
+    "A099776",
+    "A141620",
+    "A142717",
+    "A237593",
+    "A254858"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:47",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

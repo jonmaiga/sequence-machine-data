@@ -1,0 +1,22 @@
+{
+  "description": "Start with 1 and repeatedly reverse the digits and add 66 to get the next term.",
+  "id": "A118200",
+  "mentions": [
+    "A117816",
+    "A117817",
+    "A117828"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:51",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

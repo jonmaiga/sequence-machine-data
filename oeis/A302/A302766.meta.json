@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*((4*n + 1)*(7*n - 4) + 15*n*(-1)^n)/48.",
+  "id": "A302766",
+  "mentions": [
+    "A302647",
+    "A302758"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:29",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

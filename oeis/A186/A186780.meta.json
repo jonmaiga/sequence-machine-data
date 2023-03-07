@@ -1,0 +1,23 @@
+{
+  "description": "Solutions n of equation A064380(n)-A000010(n)=4 in integers n>=2.",
+  "id": "A186780",
+  "mentions": [
+    "A000010",
+    "A064380",
+    "A176472",
+    "A176509",
+    "A186777",
+    "A186778",
+    "A186779"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

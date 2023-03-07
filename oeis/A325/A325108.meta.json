@@ -1,0 +1,28 @@
+{
+  "description": "Number of maximal subsets of {1...n} with no binary containments.",
+  "id": "A325108",
+  "mentions": [
+    "A006126",
+    "A014466",
+    "A019565",
+    "A267610",
+    "A325095",
+    "A325096",
+    "A325101",
+    "A325106",
+    "A325107",
+    "A325109",
+    "A325110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

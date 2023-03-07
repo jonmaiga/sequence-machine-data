@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 1 + sigma(n) + sigma(n)^2 + sigma(n)^3 + sigma(n)^4 + sigma(n)^5 + sigma(n)^6 is prime.",
+  "id": "A259252",
+  "mentions": [
+    "A000203",
+    "A259251",
+    "A259253"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

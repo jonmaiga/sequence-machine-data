@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the sum of the 5th powers of the digits of k is prime.",
+  "id": "A359610",
+  "mentions": [
+    "A028834",
+    "A031974",
+    "A055014",
+    "A108662",
+    "A210767",
+    "A225534",
+    "A245358"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

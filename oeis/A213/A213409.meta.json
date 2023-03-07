@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} binomial(3*n^2,n^2) * x^n/n ).",
+  "id": "A213409",
+  "mentions": [
+    "A001764",
+    "A201556",
+    "A213410",
+    "A245245"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

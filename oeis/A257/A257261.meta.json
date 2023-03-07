@@ -1,0 +1,23 @@
+{
+  "description": "One-based position of the rightmost one in the factorial base representation (A007623) of n, 0 if no one is present.",
+  "id": "A257261",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A007623",
+    "A255411",
+    "A257260"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

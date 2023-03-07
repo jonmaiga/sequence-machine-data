@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 157^k - 156^k.",
+  "id": "A255388",
+  "mentions": [
+    "A254298"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

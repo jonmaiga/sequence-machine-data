@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=1} 1 / (1 - x^(i*j*(j + 1)/2)).",
+  "id": "A327744",
+  "mentions": [
+    "A004101",
+    "A007862",
+    "A327745"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

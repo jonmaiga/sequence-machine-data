@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimal dominating sets in the n-cycle complement graph.",
+  "id": "A347513",
+  "mentions": [
+    "A000096"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:31:39",
+    "offset": 3,
+    "size": 53,
+    "source": "joeis"
+  }
+}

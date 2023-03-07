@@ -1,0 +1,26 @@
+{
+  "description": "Intersection of A001950 and A022839.",
+  "id": "A356102",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A022839",
+    "A108598",
+    "A190509",
+    "A351415",
+    "A356101",
+    "A356103",
+    "A356104"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

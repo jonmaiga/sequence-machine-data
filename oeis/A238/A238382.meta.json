@@ -1,0 +1,21 @@
+{
+  "description": "Untouchable amicable numbers: amicable pairs which cannot be reached by any aliquot sequence starting from a number that does not belong to this pair.",
+  "id": "A238382",
+  "mentions": [
+    "A001065",
+    "A002025",
+    "A002046",
+    "A048138",
+    "A063990"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

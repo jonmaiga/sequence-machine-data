@@ -1,0 +1,22 @@
+{
+  "description": "Table read by ascending antidiagonals. T(n, k) is the minimum number of pebbles such that any assignment of those pebbles on a complete graph with n vertices is a next-player winning game in the two-player impartial (k+1, k) pebbling game. T(n, k) for n >= 5 and k >= 1.",
+  "id": "A347637",
+  "mentions": [
+    "A016921",
+    "A340631",
+    "A346197",
+    "A346401"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 5,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

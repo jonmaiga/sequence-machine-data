@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n / (1-x)^sigma(n).",
+  "id": "A227237",
+  "mentions": [
+    "A000203",
+    "A227236"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

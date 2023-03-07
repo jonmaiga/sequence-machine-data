@@ -1,0 +1,22 @@
+{
+  "description": "A subsequence of the denominators of the Bernoulli numbers: a(n) = A027642(A131577(n)).",
+  "id": "A219196",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A027642",
+    "A092506",
+    "A131577",
+    "A141531"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

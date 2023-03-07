@@ -1,0 +1,20 @@
+{
+  "description": "Pairs of consecutive primes {p,q} for which the numbers of distinct residues of all factorials mod p and mod q coincide.",
+  "id": "A210242",
+  "mentions": [
+    "A210184",
+    "A210336"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

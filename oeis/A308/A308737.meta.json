@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of scaled 1-tiered binomial coefficients, T(n,k) = 2^(n+1)*(n-k,k)_1 (n >= 0, 0 <= k <= n), where (N,M)_1 is the 1-tiered binomial coefficient.",
+  "id": "A308737",
+  "mentions": [
+    "A007318",
+    "A038208",
+    "A145071"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

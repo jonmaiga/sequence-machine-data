@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. C(x) + S(x), where C(x*y*z) + S(x*y*z) = exp( Integral Integral Integral C(x*y*z) dx dy dz ) such that C(x)^2 - S(x)^2 = 1.",
+  "id": "A325293",
+  "mentions": [
+    "A325290"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

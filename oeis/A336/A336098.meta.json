@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that equation x = k*sopf(x) has no solutions in positive integers.",
+  "id": "A336098",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A008472",
+    "A336099"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

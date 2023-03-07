@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive b such that for all k >= 1 the numbers n*b^k + 1 are composite and gcd(n+1, b-1) = 1, or 0 if n > 1 is of the form 2^m - 1.",
+  "id": "A263500",
+  "mentions": [
+    "A123159"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

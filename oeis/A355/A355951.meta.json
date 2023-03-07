@@ -1,0 +1,23 @@
+{
+  "description": "Negated column 0 of the irregular triangle A355587.",
+  "id": "A355951",
+  "mentions": [
+    "A084768",
+    "A355585",
+    "A355586",
+    "A355587",
+    "A355588",
+    "A355952"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

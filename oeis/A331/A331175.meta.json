@@ -1,0 +1,24 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A109395(k) = A109395(n), where A109395(n) = n/gcd(n, phi(n)).",
+  "id": "A331175",
+  "mentions": [
+    "A000010",
+    "A003277",
+    "A009195",
+    "A081373",
+    "A109395",
+    "A330746",
+    "A331177"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

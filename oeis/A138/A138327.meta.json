@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquares not representable as p+g, where p is a prime and g is a primitive root of p.",
+  "id": "A138327",
+  "mentions": [
+    "A060749",
+    "A138326"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

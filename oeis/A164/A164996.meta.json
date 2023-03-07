@@ -1,0 +1,27 @@
+{
+  "description": "(Length of preperiodic part) + (length of cycle) of trajectory of n under iteration of the base-3 Kaprekar map in A164993",
+  "id": "A164996",
+  "mentions": [
+    "A151963",
+    "A164886",
+    "A164993",
+    "A164995",
+    "A165015",
+    "A165035",
+    "A165054",
+    "A165074",
+    "A165093",
+    "A165113"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

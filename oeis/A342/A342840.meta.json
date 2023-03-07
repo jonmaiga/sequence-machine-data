@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle: T(n,k) is the number of permutations in S_n that have exactly k occurrences of the pattern 4213. 0 <= k <= A342646(n).",
+  "id": "A342840",
+  "mentions": [
+    "A022558",
+    "A263771",
+    "A342646"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

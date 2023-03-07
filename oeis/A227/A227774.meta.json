@@ -1,0 +1,31 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of rooted identity trees with n nodes having exactly k subtrees from the root.",
+  "id": "A227774",
+  "mentions": [
+    "A004111",
+    "A227806",
+    "A227807",
+    "A227808",
+    "A227809",
+    "A227810",
+    "A227811",
+    "A227812",
+    "A227813",
+    "A227814",
+    "A291529",
+    "A291532"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

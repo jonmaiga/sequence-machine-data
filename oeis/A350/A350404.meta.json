@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to +-2 +- 3 +- 5 +- 7 +- ... +- prime(n) = 0 or 1.",
+  "id": "A350404",
+  "mentions": [
+    "A000040",
+    "A022894",
+    "A025591",
+    "A113040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime immediately preceding a Fibonacci number.",
+  "id": "A180422",
+  "mentions": [
+    "A000045",
+    "A138184"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 4,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

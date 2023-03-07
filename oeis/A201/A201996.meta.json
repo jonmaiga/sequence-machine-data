@@ -1,0 +1,18 @@
+{
+  "description": "The number of endofunctions on n points such that all recurrent elements have at most 3 preimages and all nonrecurrent elements have at most 2 preimages.",
+  "id": "A201996",
+  "mentions": [
+    "A036774"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

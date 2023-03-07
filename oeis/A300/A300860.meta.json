@@ -1,0 +1,26 @@
+{
+  "description": "Indices of records in A300858.",
+  "id": "A300860",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002110",
+    "A121998",
+    "A133995",
+    "A243822",
+    "A243823",
+    "A272618",
+    "A272619",
+    "A300858"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

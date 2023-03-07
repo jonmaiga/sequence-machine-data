@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into positive Loeschian numbers (cf. A003136).",
+  "id": "A198726",
+  "mentions": [
+    "A003136",
+    "A198727"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:44:13",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

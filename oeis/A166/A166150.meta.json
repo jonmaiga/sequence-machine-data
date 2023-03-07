@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 5*n^2 + 5*n - 9.",
+  "id": "A166150",
+  "mentions": [
+    "A008592"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:17",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

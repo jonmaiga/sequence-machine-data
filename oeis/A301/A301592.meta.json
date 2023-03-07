@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k at which the ratio A288814(k) / k reaches a record high.",
+  "id": "A301592",
+  "mentions": [
+    "A288814"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

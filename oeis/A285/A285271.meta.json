@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are divisible by each of their digits but that are not divisible by the sum of their digits or by the product of their digits.",
+  "id": "A285271",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A034838",
+    "A038186"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

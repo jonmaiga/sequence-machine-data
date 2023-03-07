@@ -1,0 +1,29 @@
+{
+  "description": "Denominator of 2*n*A000111(n-1)/A000111(n): approximations of Pi using Euler (up/down) numbers.",
+  "id": "A132050",
+  "mentions": [
+    "A000111",
+    "A000265",
+    "A008281",
+    "A016116",
+    "A046978",
+    "A061037",
+    "A063673",
+    "A063674",
+    "A076109",
+    "A132049"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

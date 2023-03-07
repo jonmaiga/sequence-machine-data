@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. cos( sqrt(3) * log(1+x) ).",
+  "id": "A357718",
+  "mentions": [
+    "A357703",
+    "A357720",
+    "A357726"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

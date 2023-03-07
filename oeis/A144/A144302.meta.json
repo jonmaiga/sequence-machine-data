@@ -1,0 +1,20 @@
+{
+  "description": "Odd members of A049445.",
+  "id": "A144302",
+  "mentions": [
+    "A005349",
+    "A005408",
+    "A049445",
+    "A152567"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest term in Zeckendorf representation of n.",
+  "id": "A139764",
+  "mentions": [
+    "A000045",
+    "A006519",
+    "A014417",
+    "A035517",
+    "A035614",
+    "A087172",
+    "A107017"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

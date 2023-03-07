@@ -1,0 +1,25 @@
+{
+  "description": "Irregular table: row n (n>=1) consists of A084556(n) copies of A130664(n).",
+  "id": "A220662",
+  "mentions": [
+    "A030298",
+    "A084555",
+    "A084556",
+    "A084557",
+    "A130664",
+    "A220660",
+    "A220663"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

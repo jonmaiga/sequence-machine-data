@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x such that x^3 = y^2 + z for some y and some nonzero z with -x < z < x.",
+  "id": "A268509",
+  "mentions": [
+    "A029728",
+    "A253181",
+    "A268510"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

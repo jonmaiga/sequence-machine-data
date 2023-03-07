@@ -1,0 +1,21 @@
+{
+  "description": "Primes or negative values of primes of the form 8*n^2 - 298*n + 2113 for n >= 0.",
+  "id": "A217439",
+  "mentions": [
+    "A050267",
+    "A050268",
+    "A217440"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

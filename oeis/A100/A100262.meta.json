@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of A(x)^2, where A(x) = o.g.f. of n^n (A000312).",
+  "id": "A100262",
+  "mentions": [
+    "A000312",
+    "A053729",
+    "A062817",
+    "A349874"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

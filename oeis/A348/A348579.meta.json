@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k), n > 0, 0 < k <= n, read by rows; the n-th row contains, in ascending order, the numbers m such that A307730(m) = n.",
+  "id": "A348579",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348246",
+    "A348409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

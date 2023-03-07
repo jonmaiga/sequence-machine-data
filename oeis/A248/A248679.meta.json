@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of r = sum_{n >= 0} floor(3n/2)!/(2n)!.",
+  "id": "A248679",
+  "mentions": [
+    "A248680",
+    "A248681"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor, without 2-loops or left turns",
+  "id": "A221825",
+  "mentions": [
+    "A221828"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

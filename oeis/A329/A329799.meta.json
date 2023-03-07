@@ -1,0 +1,21 @@
+{
+  "description": "Odd squarefree composite numbers k such that p-1 divides k-1 and p-1 does not divide (k-1)/2 for every prime p|k.",
+  "id": "A329799",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A056912",
+    "A262043",
+    "A329538"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

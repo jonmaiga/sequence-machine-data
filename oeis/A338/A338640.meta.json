@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with the property that concatenating all successive absolute differences between two successive digits of k produces a divisor of k.",
+  "id": "A338640",
+  "mentions": [
+    "A338641",
+    "A338855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of totally symmetric partitions of n of any dimension.",
+  "id": "A234968",
+  "mentions": [
+    "A000700",
+    "A048141",
+    "A097516"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 2,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

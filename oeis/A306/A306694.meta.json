@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the denominator of log(A014963(n))/log(n) if n > 1 and a(1) = 1.",
+  "id": "A306694",
+  "mentions": [
+    "A014963",
+    "A112624",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

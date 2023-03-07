@@ -1,0 +1,18 @@
+{
+  "description": "6th column of A145142.",
+  "id": "A145148",
+  "mentions": [
+    "A145142",
+    "A145153"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

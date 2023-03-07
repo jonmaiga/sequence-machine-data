@@ -1,0 +1,28 @@
+{
+  "description": "Starting from n: as long as the decimal representation starts with a positive even number, divide the largest such prefix by 2; a(n) corresponds to the final value.",
+  "id": "A327539",
+  "mentions": [
+    "A005009",
+    "A005010",
+    "A007283",
+    "A014261",
+    "A020714",
+    "A215145",
+    "A329249",
+    "A329424",
+    "A329428"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

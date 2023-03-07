@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k concatenated with itself gives the product of two numbers which differ by 5.",
+  "id": "A116158",
+  "mentions": [
+    "A116112",
+    "A116125",
+    "A116159",
+    "A116172",
+    "A116289"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

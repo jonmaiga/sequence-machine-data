@@ -1,0 +1,23 @@
+{
+  "description": "Ranks of (even i)+j/r when all i+j/r are ranked; r=sqrt(2), i>=0, j>=0. Complement of A184410.",
+  "id": "A184411",
+  "mentions": [
+    "A184397",
+    "A184410",
+    "A184412",
+    "A184413",
+    "A184414",
+    "A184415",
+    "A184416"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

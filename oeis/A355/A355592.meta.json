@@ -1,0 +1,22 @@
+{
+  "description": "Positions of records in A357299: integers m such that the number of divisors whose first digit equals the first digit of m sets a new record.",
+  "id": "A355592",
+  "mentions": [
+    "A000005",
+    "A206287",
+    "A342833",
+    "A357299",
+    "A357300"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

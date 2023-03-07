@@ -1,0 +1,26 @@
+{
+  "description": "Number of semiprimes between n and n + sqrt(n).",
+  "id": "A114021",
+  "mentions": [
+    "A001358",
+    "A060715",
+    "A065516",
+    "A077463",
+    "A085809",
+    "A097824",
+    "A114412",
+    "A115766"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

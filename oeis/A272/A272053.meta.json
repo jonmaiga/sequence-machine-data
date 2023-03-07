@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of equivalence classes of simple, open polygonal chains consisting of two segments and with all three vertices on the lattice points of an n X n grid.",
+  "id": "A272053",
+  "mentions": [
+    "A189978",
+    "A190313"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

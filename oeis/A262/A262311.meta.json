@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write n = x^2 + y^2 + phi(z^2) (0 <= x <= y and z > 0) with y or z prime, where phi(.) is Euler's totient function given by A000010.",
+  "id": "A262311",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000290",
+    "A001481",
+    "A002618",
+    "A262747",
+    "A262781"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

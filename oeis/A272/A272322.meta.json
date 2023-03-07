@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n^n does not contain all ten decimal digits.",
+  "id": "A272322",
+  "mentions": [
+    "A000312",
+    "A011557",
+    "A130696",
+    "A171102",
+    "A240963",
+    "A272269"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

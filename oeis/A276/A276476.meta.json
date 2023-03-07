@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct integers of the form x^2-x-prime(n) for 0<=x<=prime(n)+1 whose absolute value is prime.",
+  "id": "A276476",
+  "mentions": [
+    "A014556",
+    "A253827"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

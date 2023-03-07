@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2^n - n + k - 1 for n >= 1, with 1 <= k <= 2n-1.",
+  "id": "A277046",
+  "mentions": [
+    "A000225",
+    "A000325",
+    "A005408",
+    "A083706",
+    "A118413",
+    "A118414"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "T(n,k) = Number of n-bead necklaces of k colors allowing reversal, with no adjacent beads having the same color.",
+  "id": "A208544",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A002817",
+    "A027670",
+    "A081720",
+    "A106512",
+    "A164938",
+    "A208535",
+    "A208538",
+    "A208539",
+    "A208540",
+    "A208541",
+    "A208542",
+    "A208543"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

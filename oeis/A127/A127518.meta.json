@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer which does not occur earlier in the sequence and is such that sum{k=1 to n} 1/a(k) has a numerator which is composite (or is 1).",
+  "id": "A127518",
+  "mentions": [
+    "A127515",
+    "A127519",
+    "A127520"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of ordered pairs (k, m) of nonnegative integers such that 5^k + 10^m is not only a primitive root modulo prime(n) but also smaller than prime(n).",
+  "id": "A305048",
+  "mentions": [
+    "A000040",
+    "A000351",
+    "A011557",
+    "A239957",
+    "A241476",
+    "A241504",
+    "A241516",
+    "A303540",
+    "A305030"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

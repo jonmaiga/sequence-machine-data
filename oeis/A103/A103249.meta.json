@@ -1,0 +1,18 @@
+{
+  "description": "Numbers y, without duplication, in Pythagorean triples x,y,z where x,y,z are relatively prime composite numbers and x is a perfect square.",
+  "id": "A103249",
+  "mentions": [
+    "A103246"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

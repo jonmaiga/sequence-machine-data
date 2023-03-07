@@ -1,0 +1,22 @@
+{
+  "description": "Absolute discriminants of complex quadratic fields with 3-class group of type (3,3) and 3-principalization type (2241).",
+  "id": "A247689",
+  "mentions": [
+    "A242862",
+    "A242863",
+    "A242864",
+    "A242873",
+    "A247690"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

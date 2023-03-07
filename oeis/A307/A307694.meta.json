@@ -1,0 +1,20 @@
+{
+  "description": "b values of Triphosian primes.",
+  "id": "A307694",
+  "mentions": [
+    "A007528",
+    "A307692",
+    "A327152"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Indices of prime Ulam numbers: numbers k such that A002858(k) is prime.",
+  "id": "A307328",
+  "mentions": [
+    "A002858",
+    "A068820"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

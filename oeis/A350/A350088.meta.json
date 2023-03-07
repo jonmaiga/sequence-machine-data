@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as t^2 + w^4 + 2*x^4 + 4*y^4 + 8*z^4, where t is a positive integer, and w,x,y,z are nonnegative integers.",
+  "id": "A350088",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A349246"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

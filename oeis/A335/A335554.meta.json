@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of vertices formed by n-secting the angles of a pentagon.",
+  "id": "A335554",
+  "mentions": [
+    "A330847",
+    "A335553",
+    "A335555",
+    "A335556"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

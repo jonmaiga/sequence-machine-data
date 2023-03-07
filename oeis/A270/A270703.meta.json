@@ -1,0 +1,20 @@
+{
+  "description": "Total sum of the sizes of all blocks with maximal element n in all set partitions of {1,2,...,2n-1}.",
+  "id": "A270703",
+  "mentions": [
+    "A000110",
+    "A270701",
+    "A270702"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

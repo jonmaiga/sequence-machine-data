@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Omega(k+1) = Omega(k) + 2, where Omega(k) = A001222(k) is the number of prime factors of k with multiplicity.",
+  "id": "A335652",
+  "mentions": [
+    "A001222",
+    "A045920",
+    "A063639",
+    "A076156",
+    "A335655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

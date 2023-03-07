@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of n X n 0..k arrays with row sums equal and no column sum equal to the previous",
+  "id": "A202714",
+  "mentions": [
+    "A006331"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

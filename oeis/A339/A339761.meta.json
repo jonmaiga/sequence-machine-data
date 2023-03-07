@@ -1,0 +1,24 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the 3 X n king graph.",
+  "id": "A339761",
+  "mentions": [
+    "A003685",
+    "A308129",
+    "A339751",
+    "A339760",
+    "A339762",
+    "A339763",
+    "A350729"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

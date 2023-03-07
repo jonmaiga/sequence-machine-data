@@ -1,0 +1,19 @@
+{
+  "description": "Homomorphic inverse images of elementary h-ary relations.",
+  "id": "A246417",
+  "mentions": [
+    "A002824",
+    "A002826"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:07:33",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

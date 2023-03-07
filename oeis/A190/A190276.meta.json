@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that tau(2n-1) = tau(2n+1) where tau(n) = A000005(n).",
+  "id": "A190276",
+  "mentions": [
+    "A000005",
+    "A066692"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

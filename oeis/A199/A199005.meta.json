@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent cocyclic Hadamard matrices of order 4n.",
+  "id": "A199005",
+  "mentions": [
+    "A007299",
+    "A199006",
+    "A199007"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

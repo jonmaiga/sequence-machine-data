@@ -1,0 +1,19 @@
+{
+  "description": "Number of imprimitive transitive groups of order n.",
+  "id": "A132221",
+  "mentions": [
+    "A000019",
+    "A002106"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

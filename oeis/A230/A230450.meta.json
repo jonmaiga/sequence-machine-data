@@ -1,0 +1,20 @@
+{
+  "description": "\"Comma sum\" sequence: a(n+1)-a(n) = rightmost digit of a(n) + leftmost digit of a(n+1), use smallest possible solution; starting with 396.",
+  "id": "A230450",
+  "mentions": [
+    "A230288",
+    "A230452",
+    "A230453"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

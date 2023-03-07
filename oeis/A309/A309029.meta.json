@@ -1,0 +1,28 @@
+{
+  "description": "Smallest k>0 such that the elliptic curve y^2 = x^3 - k*x has rank n, if k exists.",
+  "id": "A309029",
+  "mentions": [
+    "A002156",
+    "A002157",
+    "A031508",
+    "A060952",
+    "A194687",
+    "A309028",
+    "A309032",
+    "A309033",
+    "A309034",
+    "A309100"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

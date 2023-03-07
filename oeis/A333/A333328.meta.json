@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,0) = A002182(n) and T(n,k + 1) = A000005(T(n,k)), terminating at the first number which is not highly composite, n > 2.",
+  "id": "A333328",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A189394"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

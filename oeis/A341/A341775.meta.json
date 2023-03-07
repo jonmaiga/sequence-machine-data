@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into 4 nonzero tetrahedral numbers.",
+  "id": "A341775",
+  "mentions": [
+    "A000292",
+    "A023533",
+    "A024692",
+    "A068980",
+    "A319814",
+    "A341774",
+    "A341776",
+    "A341777",
+    "A341778"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

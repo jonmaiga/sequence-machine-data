@@ -1,0 +1,18 @@
+{
+  "description": "Second smallest distinct prime factor of repunit(n) = (10^n-1)/9 (A002275), zero if repunit is prime.",
+  "id": "A176973",
+  "mentions": [
+    "A002275",
+    "A067063"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the start of the least run of exactly n consecutive positive integers with strictly decreasing values of A071626, or -1 if no such run exists.",
+  "id": "A357391",
+  "mentions": [
+    "A071626",
+    "A342091",
+    "A357389",
+    "A357390"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the number of interior intersection points A091908(n) of the n-intersected triangle increases exactly by 1 when the subdivision of the triangle is refined from n-1 to n cutting line segments.",
+  "id": "A309361",
+  "mentions": [
+    "A091908",
+    "A092098",
+    "A309360"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

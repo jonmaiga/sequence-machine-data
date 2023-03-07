@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n!)^n * [x^n] -log(Sum_{k>=0} (-x)^k / (k!)^n).",
+  "id": "A336439",
+  "mentions": [
+    "A002190",
+    "A193420",
+    "A275044",
+    "A336437",
+    "A336438",
+    "A336440"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

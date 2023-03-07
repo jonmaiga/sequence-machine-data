@@ -1,0 +1,19 @@
+{
+  "description": "Q-residue of the triangle p(n,k)=floor(1/2+(n+1)/(n+k+2)/2), 0<=k<=n, where Q is the triangular array (t(i,j)) given by t(i,j)=1. (See Comments.)",
+  "id": "A193655",
+  "mentions": [
+    "A193649",
+    "A193654"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

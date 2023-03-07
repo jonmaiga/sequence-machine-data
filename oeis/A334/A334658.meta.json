@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of length n words on alphabet {0,1} with k maximal runs of 0's having length 2 or more, n>=0, 0<=k<=nearest integer to n/3.",
+  "id": "A334658",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A006478"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

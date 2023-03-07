@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n - prevprime(n - 1), where prevprime(n) is the largest prime < n.",
+  "id": "A308050",
+  "mentions": [
+    "A151799"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 4,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

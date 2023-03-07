@@ -1,0 +1,18 @@
+{
+  "description": "Primes p = prime(9*t+1) such that the 9 consecutive primes prime(9*t+1) .. prime(9*t+9) arranged in a 3 X 3 array have at least 2 equal sums along the rows, columns or main diagonals.",
+  "id": "A358028",
+  "mentions": [
+    "A031918",
+    "A105093"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

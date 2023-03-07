@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree part of A078522(n+1).",
+  "id": "A327248",
+  "mentions": [
+    "A001653",
+    "A002315",
+    "A007913",
+    "A078522"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

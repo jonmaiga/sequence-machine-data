@@ -1,0 +1,19 @@
+{
+  "description": "The number of tilings of the 3 X 4 X n room by 1 X 1 X 3 boxes.",
+  "id": "A237355",
+  "mentions": [
+    "A233247",
+    "A233289",
+    "A273474"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

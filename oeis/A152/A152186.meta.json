@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2; then: if n is even, a(n)=next_square_after a(n - 1), else a(n)=next_prime_after a(n - 1).",
+  "id": "A152186",
+  "mentions": [
+    "A035552"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

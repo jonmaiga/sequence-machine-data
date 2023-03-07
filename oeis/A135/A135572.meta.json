@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the largest prime-power dividing k is a square.",
+  "id": "A135572",
+  "mentions": [
+    "A000961",
+    "A034699"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

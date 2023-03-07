@@ -1,0 +1,25 @@
+{
+  "description": "If n is a ludic number, a(n)=0; if n is not a ludic number, a(n) is the ludic number that rejects n from the ludic number sieve.",
+  "id": "A271419",
+  "mentions": [
+    "A003309",
+    "A192490",
+    "A192607",
+    "A255127",
+    "A260738",
+    "A264940",
+    "A271420",
+    "A272565"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

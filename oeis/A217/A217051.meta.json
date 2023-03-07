@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that the number k^n in its decimal representation has a prime number of copies of the digit d for each d from 0 through 9.",
+  "id": "A217051",
+  "mentions": [
+    "A216855"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

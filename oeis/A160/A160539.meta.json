@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in the expansion of C/B^7, in Watson's notation of page 118.",
+  "id": "A160539",
+  "mentions": [
+    "A160525"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:33:59",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

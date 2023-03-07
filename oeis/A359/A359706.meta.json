@@ -1,0 +1,20 @@
+{
+  "description": "Number of free (2-sided) ouroboros polyominoes with k=2n cells.",
+  "id": "A359706",
+  "mentions": [
+    "A002013",
+    "A324407",
+    "A359707"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

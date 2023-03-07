@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of positive integers k, k < n, where the cosine of k radians is > the cosine of n radians.",
+  "id": "A141335",
+  "mentions": [
+    "A141330",
+    "A141331",
+    "A141332",
+    "A141333",
+    "A141334"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

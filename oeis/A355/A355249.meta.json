@@ -1,0 +1,27 @@
+{
+  "description": "Maximal GCD of three positive integers with sum n.",
+  "id": "A355249",
+  "mentions": [
+    "A032742",
+    "A085891",
+    "A129648",
+    "A354598",
+    "A354599",
+    "A354601",
+    "A355319",
+    "A355366",
+    "A355368",
+    "A355402"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

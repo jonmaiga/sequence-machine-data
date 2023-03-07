@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) satisfies: A( A(x) - x ) = 2*x + 9*x^2.",
+  "id": "A292811",
+  "mentions": [
+    "A291198",
+    "A292812",
+    "A292813",
+    "A292814"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

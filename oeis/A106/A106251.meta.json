@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1-x+x^2+x^3+x^5)/(1-x-x^6+x^7).",
+  "id": "A106251",
+  "mentions": [
+    "A008611",
+    "A106249",
+    "A106250"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:11",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

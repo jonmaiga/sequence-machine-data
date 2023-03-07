@@ -1,0 +1,23 @@
+{
+  "description": "The 10-adic integer cube root of one seventh (1/7), that is, satisfying 7 * x^3 == 1 (mod 10^(n+1)), for all n.",
+  "id": "A319739",
+  "mentions": [
+    "A225405",
+    "A225411",
+    "A225412",
+    "A225451",
+    "A319740"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

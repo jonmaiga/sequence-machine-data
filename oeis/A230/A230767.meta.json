@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of Mertens' constant (A077761).",
+  "id": "A230767",
+  "mentions": [
+    "A077761"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

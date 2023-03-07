@@ -1,0 +1,25 @@
+{
+  "description": "a(n) gives the sum of the odd numbers of the smallest nonnegative reduced residue system modulo 2*n + 1, for n >= 0.",
+  "id": "A333848",
+  "mentions": [
+    "A038566",
+    "A055034",
+    "A135303",
+    "A216319",
+    "A332441",
+    "A333849",
+    "A333854"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

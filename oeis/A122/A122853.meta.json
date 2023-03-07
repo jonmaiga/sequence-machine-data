@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that (3^k + 5^k)/8 = A074606(k)/8 is a prime.",
+  "id": "A122853",
+  "mentions": [
+    "A005058",
+    "A005059",
+    "A074606",
+    "A079773",
+    "A081186",
+    "A109347",
+    "A121824",
+    "A121877",
+    "A121938"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

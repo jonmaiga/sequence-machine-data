@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/6)} binomial(n-3k,3k).",
+  "id": "A100134",
+  "mentions": [
+    "A000045",
+    "A100135",
+    "A100136",
+    "A100137",
+    "A100138",
+    "A100139",
+    "A101551",
+    "A102516"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

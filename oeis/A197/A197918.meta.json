@@ -1,0 +1,23 @@
+{
+  "description": "Pythagorean primes p such that for all primes q < p, p XOR q is not equal to p - q.",
+  "id": "A197918",
+  "mentions": [
+    "A000668",
+    "A057733",
+    "A081091",
+    "A123250",
+    "A140660",
+    "A214643"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

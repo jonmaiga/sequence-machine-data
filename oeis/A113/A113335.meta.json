@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 3^5 * binomial(n+4, 5).",
+  "id": "A113335",
+  "mentions": [
+    "A008585",
+    "A027465",
+    "A027468",
+    "A102741",
+    "A134171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:12:13",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

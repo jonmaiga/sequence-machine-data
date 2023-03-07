@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that (number of prime factors of k counted with multiplicity) less (number of distinct prime factors of k) = 3.",
+  "id": "A195087",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A025487",
+    "A046660",
+    "A060687",
+    "A195069",
+    "A195086",
+    "A195088",
+    "A195089",
+    "A195090",
+    "A195091",
+    "A195092",
+    "A195093",
+    "A257851",
+    "A261256",
+    "A264959"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

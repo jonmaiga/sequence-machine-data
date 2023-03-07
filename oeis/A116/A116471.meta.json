@@ -1,0 +1,23 @@
+{
+  "description": "Values 2*(n -+ 1)^2 sorted.",
+  "id": "A116471",
+  "mentions": [
+    "A000217",
+    "A001057",
+    "A001105",
+    "A016742",
+    "A093907"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:00:15",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

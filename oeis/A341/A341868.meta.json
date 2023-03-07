@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 4 distinct and relatively prime parts.",
+  "id": "A341868",
+  "mentions": [
+    "A000742",
+    "A023022",
+    "A023024",
+    "A078374",
+    "A101271",
+    "A339672",
+    "A340719",
+    "A341870",
+    "A341912",
+    "A341913",
+    "A341914"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

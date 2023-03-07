@@ -1,0 +1,20 @@
+{
+  "description": "Indices n of odd numbers 2n+1 such that k + 2^m is prime, where k and m are the odd part and 2-valuation, respectively, of 2n.",
+  "id": "A332076",
+  "mentions": [
+    "A000040",
+    "A000265",
+    "A007814",
+    "A332075"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

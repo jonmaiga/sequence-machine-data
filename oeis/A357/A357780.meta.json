@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that changing, in p, all 1's to 2's we get semiprimes and changing all 1's to 3's we get triprimes.",
+  "id": "A357780",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A014612"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

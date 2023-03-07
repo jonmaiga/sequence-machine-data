@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are highest in their respective Collatz (3x+1) trajectories only.",
+  "id": "A222562",
+  "mentions": [
+    "A033496",
+    "A176869"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

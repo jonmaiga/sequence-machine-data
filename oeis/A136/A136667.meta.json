@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the coefficient of x^k in the polynomial 1 - T_n(x)^2, where T_n(x) is the n-th Hermite polynomial of the Hochstadt kind (A137286) as related to the generalized Chebyshev in a Shabat way (A123583): p(x,n)=x*p(x,n-1)-p(x,n-2); q(x,n)=1-p(x,n)^2.",
+  "id": "A136667",
+  "mentions": [
+    "A123583",
+    "A136247",
+    "A137286"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

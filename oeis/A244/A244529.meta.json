@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers whose decimal expansion contains no repeated digits or zeros, whose digits cannot be rearranged to form another prime number.",
+  "id": "A244529",
+  "mentions": [
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

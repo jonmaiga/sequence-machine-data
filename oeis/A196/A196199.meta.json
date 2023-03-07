@@ -1,0 +1,30 @@
+{
+  "description": "Count up from -n to n for n = 0, 1, 2, ... .",
+  "id": "A196199",
+  "mentions": [
+    "A000004",
+    "A002260",
+    "A002262",
+    "A004737",
+    "A005408",
+    "A053615",
+    "A071797",
+    "A253580",
+    "A257564"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

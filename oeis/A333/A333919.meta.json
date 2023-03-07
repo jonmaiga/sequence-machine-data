@@ -1,0 +1,19 @@
+{
+  "description": "Perimeters of integer-sided triangles with side lengths a <= b <= c whose altitude from side b is an integer.",
+  "id": "A333919",
+  "mentions": [
+    "A005044",
+    "A333917",
+    "A333918"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

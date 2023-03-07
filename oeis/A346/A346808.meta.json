@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of ten squares in ten or more ways.",
+  "id": "A346808",
+  "mentions": [
+    "A345558",
+    "A346803",
+    "A346807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

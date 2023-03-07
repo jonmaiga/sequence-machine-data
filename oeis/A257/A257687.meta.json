@@ -1,0 +1,29 @@
+{
+  "description": "Discard the most significant digit from factorial base representation of n, then convert back to decimal: a(n) = n - A257686(n).",
+  "id": "A257687",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A060130",
+    "A099563",
+    "A227153",
+    "A246359",
+    "A257511",
+    "A257679",
+    "A257680",
+    "A257684",
+    "A257686"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

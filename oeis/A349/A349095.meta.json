@@ -1,0 +1,20 @@
+{
+  "description": "Where ones occur in A349082. These correspond to rationals, 0 < p/q < 1, that have a unique solution, p/q = 1/x + 1/y, 0 < x < y.",
+  "id": "A349095",
+  "mentions": [
+    "A002260",
+    "A003057",
+    "A349082",
+    "A349090"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

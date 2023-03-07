@@ -1,0 +1,23 @@
+{
+  "description": "Relative of Hofstadter Q-sequence: a(-311) = 312, a(-310) = 4, a(-309) = 312, a(-308) = 4; thereafter a(n) = a(n-a(n-1)) + a(n-a(n-2)).",
+  "id": "A283898",
+  "mentions": [
+    "A005185",
+    "A283899",
+    "A283900",
+    "A283901",
+    "A283902"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

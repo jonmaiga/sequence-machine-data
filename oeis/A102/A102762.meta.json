@@ -1,0 +1,20 @@
+{
+  "description": "Curvatures of (largest) kissing circles along the circumference, starting with curvature = -1 and 2.",
+  "id": "A102762",
+  "mentions": [
+    "A059100",
+    "A060790"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:23:21",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

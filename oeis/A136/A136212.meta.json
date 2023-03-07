@@ -1,0 +1,30 @@
+{
+  "description": "Triple factorial array, read by antidiagonals, where row n+1 is generated from row n by first removing terms in row n at positions {[m*(m+5)/6], m>=0} and then taking partial sums, starting with all 1's in row 0.",
+  "id": "A136212",
+  "mentions": [
+    "A007559",
+    "A008544",
+    "A024216",
+    "A024395",
+    "A032031",
+    "A125714",
+    "A125781",
+    "A127054",
+    "A135876",
+    "A136213",
+    "A136217"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

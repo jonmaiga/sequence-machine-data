@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} C(k)^n, where C(k) is a Catalan number.",
+  "id": "A211611",
+  "mentions": [
+    "A000108",
+    "A002476",
+    "A211610",
+    "A238717"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

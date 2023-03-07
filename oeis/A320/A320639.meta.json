@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (C + sqrt(4 + C^2))/2, where C is the Catalan constant.",
+  "id": "A320639",
+  "mentions": [
+    "A006752",
+    "A188640",
+    "A320640"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 131,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lucky numbers for which the sum of the digits is also a lucky number.",
+  "id": "A118555",
+  "mentions": [
+    "A000959",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

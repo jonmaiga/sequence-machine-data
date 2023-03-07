@@ -1,0 +1,19 @@
+{
+  "description": "Let s = sum of digits of n, let t = decimal concatenation of n and s, let u be obtained by deleting all copies of the leading digit of t from t, if this digit occurs in s. Then if u has only zero digits, a(n) = 0; if u has leading digit 0 but not all its digits are 0, delete all leading 0's from u and negate the result to get a(n); otherwise a(n) = u.",
+  "id": "A359142",
+  "mentions": [
+    "A359143",
+    "A359144"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sums of 2 successive primes s = prime(m) + prime(m+1) such that all digits of s are primes.",
+  "id": "A173719",
+  "mentions": [
+    "A001043",
+    "A046034"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

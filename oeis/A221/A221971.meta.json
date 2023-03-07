@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x,y) = Sum_{n>=0} n! * x^n*y^n * Product_{k=1..n} (1 + k*x) / (1 + k*x*y + k^2*x^2*y).",
+  "id": "A221971",
+  "mentions": [
+    "A005439",
+    "A110501",
+    "A136126",
+    "A208237"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

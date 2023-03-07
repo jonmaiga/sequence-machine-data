@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive integers that are not the sum of distinct n-gonal pyramidal numbers.",
+  "id": "A352585",
+  "mentions": [
+    "A025524",
+    "A080851",
+    "A352350",
+    "A352481"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose cube is a concatenation of primes, i.e., in A152242.",
+  "id": "A165631",
+  "mentions": [
+    "A019549",
+    "A038692",
+    "A105184",
+    "A152242",
+    "A166503"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

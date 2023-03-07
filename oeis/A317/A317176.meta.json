@@ -1,0 +1,29 @@
+{
+  "description": "Number of chains of factorizations of n into factors > 1, ordered by refinement, starting with the prime factorization of n and ending with the maximum factorization (n).",
+  "id": "A317176",
+  "mentions": [
+    "A001055",
+    "A002846",
+    "A007716",
+    "A045778",
+    "A162247",
+    "A213427",
+    "A275024",
+    "A281113",
+    "A299202",
+    "A317144",
+    "A317145",
+    "A317146"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

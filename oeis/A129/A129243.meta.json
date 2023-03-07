@@ -1,0 +1,18 @@
+{
+  "description": "Least K such that K*(prime(n)^n)-1 is prime with prime(n)=n-th prime.",
+  "id": "A129243",
+  "mentions": [
+    "A129244",
+    "A129245"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

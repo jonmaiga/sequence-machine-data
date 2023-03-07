@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 257543 * Pi^8 / (1410877440 * sqrt(3)).",
+  "id": "A346449",
+  "mentions": [
+    "A258414",
+    "A346450",
+    "A346451"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:53:07",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

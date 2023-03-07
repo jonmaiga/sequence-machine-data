@@ -1,0 +1,37 @@
+{
+  "description": "Numbers n such that 1^(k*n) + 2^(k*n) + ... + (k*n)^(k*n) == k (mod k*n) for some k; that is, numbers n such that A031971(k*n) == k (mod k*n) for some k.",
+  "id": "A230311",
+  "mentions": [
+    "A031971",
+    "A054377",
+    "A229300",
+    "A229301",
+    "A229302",
+    "A229303",
+    "A229304",
+    "A229305",
+    "A229306",
+    "A229307",
+    "A229308",
+    "A229309",
+    "A229310",
+    "A229311",
+    "A229312",
+    "A229313",
+    "A231409",
+    "A231562"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

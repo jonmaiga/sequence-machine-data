@@ -1,0 +1,31 @@
+{
+  "description": "Number of primitive inequivalent inclined square sublattices of square lattice of index n.",
+  "id": "A157228",
+  "mentions": [
+    "A000089",
+    "A019590",
+    "A024362",
+    "A025441",
+    "A053866",
+    "A145393",
+    "A157226",
+    "A157230",
+    "A157231",
+    "A193138",
+    "A224450",
+    "A224770",
+    "A281877",
+    "A304182"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:14:41",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

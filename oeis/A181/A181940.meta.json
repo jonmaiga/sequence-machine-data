@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=0, and there are a(n) terms between a(n) and the nearest a(n)+1.",
+  "id": "A181940",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

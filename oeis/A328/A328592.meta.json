@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose binary expansion has all different lengths of runs of 1's.",
+  "id": "A328592",
+  "mentions": [
+    "A000120",
+    "A003714",
+    "A014081",
+    "A048793",
+    "A069010",
+    "A098859",
+    "A121016",
+    "A130091",
+    "A164707",
+    "A245563",
+    "A328593",
+    "A328595",
+    "A328596"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Records in A245509: smallest m > 1 such that the first odd number greater than m^k is prime for every 0 < k < n, but not for k = n.",
+  "id": "A245510",
+  "mentions": [
+    "A245509",
+    "A245511",
+    "A245512",
+    "A245513",
+    "A245514"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

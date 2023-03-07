@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of modular form (E6(q)+8*E6(q^2))/9, where E6 = A013973.",
+  "id": "A198948",
+  "mentions": [
+    "A004016",
+    "A013973"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

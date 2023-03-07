@@ -1,0 +1,30 @@
+{
+  "description": "Toothpick sequence on the hexagonal net starting from a node.",
+  "id": "A182632",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A151723",
+    "A160120",
+    "A161206",
+    "A161644",
+    "A182617",
+    "A182633",
+    "A182634",
+    "A182836",
+    "A182838",
+    "A182840"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

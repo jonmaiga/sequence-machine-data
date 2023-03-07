@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m)=4^(n-1)*C(n,m)*C(3*n/2-2,n-1)/n, for 0 <= m <= n, with T(0,0)=1.",
+  "id": "A360667",
+  "mentions": [
+    "A078531"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

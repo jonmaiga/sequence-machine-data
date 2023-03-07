@@ -1,0 +1,20 @@
+{
+  "description": "Number of words with n letters from an alphabet of size 26 with at least two equal consecutive letters.",
+  "id": "A106710",
+  "mentions": [
+    "A009969",
+    "A009970"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

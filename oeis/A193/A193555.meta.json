@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the squared radii of the smallest enclosing circles of n points with integer coordinates and distinct mutual distances, arranged such that the radius of their enclosing circle is minimized. Denominators are given in A193556.",
+  "id": "A193555",
+  "mentions": [
+    "A193556",
+    "A193838",
+    "A193839"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "frac",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

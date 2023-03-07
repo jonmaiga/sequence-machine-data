@@ -1,0 +1,20 @@
+{
+  "description": "Fixed points of the transform A284807.",
+  "id": "A284808",
+  "mentions": [
+    "A035928",
+    "A284807"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

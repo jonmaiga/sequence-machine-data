@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the number of unlabeled even graphs with n vertices and k edges; irregular triangular array T read by rows (n >= 0, 0 <= k <= n*(n-1)/2).",
+  "id": "A341941",
+  "mentions": [
+    "A002854",
+    "A003049",
+    "A007814",
+    "A263626"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 130,
+    "source": "oeis-entry"
+  }
+}

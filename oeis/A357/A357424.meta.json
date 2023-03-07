@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies A(x) * exp(A(x)) = exp(x * exp(A(x))) - 1.",
+  "id": "A357424",
+  "mentions": [
+    "A349588",
+    "A357346",
+    "A357347",
+    "A357348"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

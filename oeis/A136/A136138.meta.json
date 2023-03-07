@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1)=sopfr(4a(n)+1), with sopfr=A001414. Finishes with the cycle (34, 137, 67, 269, 362, 36).",
+  "id": "A136138",
+  "mentions": [
+    "A001414",
+    "A136136",
+    "A136137"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

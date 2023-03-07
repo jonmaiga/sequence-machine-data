@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of p_n# into parts (q, k) both coprime to p_n#, with q prime and k nonprime, where p_n# = A002110(n).",
+  "id": "A286424",
+  "mentions": [
+    "A000010",
+    "A000849",
+    "A002110",
+    "A005867",
+    "A048862",
+    "A048863",
+    "A057704",
+    "A057705",
+    "A116979",
+    "A117929"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Given a number n with k digits, enumerate the positions of the digits starting from LSD = 1 to MSD = k. Then concatenate in ascending order the positions of the minimum digit in n. Repeat the same process for all the different digits, in ascending order, in n. Sequence lists the fixed points of this transform.",
+  "id": "A260274",
+  "mentions": [
+    "A260275",
+    "A260385",
+    "A260386"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers between -(2*n+1)*Pi and (2*n+2)*Pi.",
+  "id": "A217573",
+  "mentions": [
+    "A001951"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

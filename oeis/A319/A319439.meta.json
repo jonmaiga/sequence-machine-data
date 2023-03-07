@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as the sum, u + v + w, of three base-2 palindromes (from A006995) with 0 <= u <= v <= w.",
+  "id": "A319439",
+  "mentions": [
+    "A006995",
+    "A261132",
+    "A261678"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

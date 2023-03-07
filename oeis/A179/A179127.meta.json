@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which the order of Tate-Shafarevich group Ш of the elliptic curve y^2=x^3+n is 4.",
+  "id": "A179127",
+  "mentions": [
+    "A001014",
+    "A002151",
+    "A002153",
+    "A002155",
+    "A002833",
+    "A031507"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

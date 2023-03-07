@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n*lim_{x->0} F(2*n) where F(n) = (d/dx)F(n-1) for n >= 1 and F(0) = exp(BesselI(0, x) - 1).",
+  "id": "A350291",
+  "mentions": [
+    "A350462",
+    "A352284"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

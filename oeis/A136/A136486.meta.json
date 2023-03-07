@@ -1,0 +1,21 @@
+{
+  "description": "Number of unit square lattice cells enclosed by origin centered circle of diameter 2n+1.",
+  "id": "A136486",
+  "mentions": [
+    "A136484",
+    "A136485",
+    "A136515"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

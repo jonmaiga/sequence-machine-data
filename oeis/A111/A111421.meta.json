@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n-th decimal digit + 1 of the fraction formed by the square root of the n-th prime.",
+  "id": "A111421",
+  "mentions": [
+    "A071901"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

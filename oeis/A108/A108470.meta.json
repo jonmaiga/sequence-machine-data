@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = number of labeled partitions of (n,k) into pairs (i,j).",
+  "id": "A108470",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A023997",
+    "A058481",
+    "A108461"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

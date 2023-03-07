@@ -1,0 +1,23 @@
+{
+  "description": "Sequence is {a(0,n)}, where a(m,0)=1, a(m,n) = a(m,n-1) + a(m-1,n), a(0,n+1) = a(n,n).",
+  "id": "A110576",
+  "mentions": [
+    "A100100",
+    "A110577",
+    "A110578",
+    "A110579",
+    "A110580"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

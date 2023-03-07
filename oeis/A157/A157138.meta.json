@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers k such that k and prime(k) have the same number of even digits.",
+  "id": "A157138",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A155548",
+    "A196563"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

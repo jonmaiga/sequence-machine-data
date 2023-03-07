@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (2n+1)*(n+1)!*Bernoulli(2n).",
+  "id": "A263445",
+  "mentions": [
+    "A000182",
+    "A000367",
+    "A001332",
+    "A001469",
+    "A002445",
+    "A004193"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The period of the sequence i^i (mod n) starts from i=a(n).",
+  "id": "A185358",
+  "mentions": [
+    "A185359"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

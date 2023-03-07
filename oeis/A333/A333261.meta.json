@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A071324(k) = A071324(k+1).",
+  "id": "A333261",
+  "mentions": [
+    "A002961",
+    "A071324",
+    "A206368"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

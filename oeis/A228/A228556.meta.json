@@ -1,0 +1,21 @@
+{
+  "description": "Sums of two coprime positive cubes that are also sums of two coprime positive fifth powers.",
+  "id": "A228556",
+  "mentions": [
+    "A035046",
+    "A202679",
+    "A228541",
+    "A228542"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4^n mod 17.",
+  "id": "A266973",
+  "mentions": [
+    "A010685",
+    "A153727",
+    "A168429",
+    "A168430",
+    "A187532"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:12:57",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of (Product_{j>=1} (1 - x^(2*j))^5/((1 - x^j)*(1 - x^(4*j)))^2)^k.",
+  "id": "A286815",
+  "mentions": [
+    "A000007",
+    "A000118",
+    "A000122",
+    "A000132",
+    "A000141",
+    "A000143",
+    "A000144",
+    "A000145",
+    "A000152",
+    "A004018",
+    "A005875",
+    "A008451",
+    "A008452",
+    "A008453",
+    "A066535",
+    "A122141",
+    "A276285",
+    "A276286",
+    "A276287"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

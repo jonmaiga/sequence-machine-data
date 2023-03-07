@@ -1,0 +1,31 @@
+{
+  "description": "Perfect powers p^k, k >= 2 of palindromic primes p when p^k is not a palindrome.",
+  "id": "A339624",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000351",
+    "A000420",
+    "A001020",
+    "A002778",
+    "A025475",
+    "A056781",
+    "A087990",
+    "A087999",
+    "A096884",
+    "A334139",
+    "A334391",
+    "A334392"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

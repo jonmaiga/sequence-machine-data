@@ -1,0 +1,40 @@
+{
+  "description": "Number T(n,k) of partitions of n into k distinct nonzero squares; triangle T(n,k), n>=0, 0<=k<=A248509(n), read by rows.",
+  "id": "A341040",
+  "mentions": [
+    "A000007",
+    "A000290",
+    "A000330",
+    "A001422",
+    "A010052",
+    "A025441",
+    "A025442",
+    "A025443",
+    "A025444",
+    "A033461",
+    "A243148",
+    "A248509",
+    "A276516",
+    "A279360",
+    "A281542",
+    "A337165",
+    "A340988",
+    "A340998",
+    "A340999",
+    "A341000",
+    "A341001"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

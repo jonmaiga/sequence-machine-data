@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(5*k,k) / (4*k + 1).",
+  "id": "A346647",
+  "mentions": [
+    "A002294",
+    "A007317",
+    "A188687",
+    "A227035",
+    "A346646",
+    "A346648",
+    "A346649",
+    "A346650"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of odious integers (A000069) not exceeding n and respectively prime to n.",
+  "id": "A230070",
+  "mentions": [
+    "A000010",
+    "A000069",
+    "A001969",
+    "A027697",
+    "A027699"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Indecomposable sigma-powerful numbers: powerful numbers k such that sigma(k) is also powerful, but restricted to terms that are not the product of 2 terms > 1 of A337044.",
+  "id": "A337045",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A128607",
+    "A180090",
+    "A337044"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

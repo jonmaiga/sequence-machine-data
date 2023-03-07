@@ -1,0 +1,19 @@
+{
+  "description": "Number of integer solutions to n = x^2 + (2y)^2 + z(z+1)/2.",
+  "id": "A118421",
+  "mentions": [
+    "A118422",
+    "A118423",
+    "A118426"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

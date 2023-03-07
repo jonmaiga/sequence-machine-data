@@ -1,0 +1,22 @@
+{
+  "description": "Define b(n) by 1/cm(w) = Sum_{n >= 0} b(3*n)*w^(3*n), where cm(w) is the elliptic function defined in A104134; a(n) = denominator of b(3*n).",
+  "id": "A335181",
+  "mentions": [
+    "A104133",
+    "A104134",
+    "A335157",
+    "A335158",
+    "A335180"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

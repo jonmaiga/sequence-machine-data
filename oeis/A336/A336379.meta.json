@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gcd(k, prime(k-1) + prime(k+1)) > 1.",
+  "id": "A336379",
+  "mentions": [
+    "A000040",
+    "A336366",
+    "A336378",
+    "A336380",
+    "A336381"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

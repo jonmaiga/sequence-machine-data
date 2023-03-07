@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] containing exactly three occurrences of the consecutive pattern 132.",
+  "id": "A263887",
+  "mentions": [
+    "A197365"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

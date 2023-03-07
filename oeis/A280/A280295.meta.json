@@ -1,0 +1,33 @@
+{
+  "description": "Smallest number with precipice n. Descending by the main diagonal of the pyramid described in A245092, the height difference between the level a(n) (starting from the top) and the level of the next terrace is equal to n.",
+  "id": "A280295",
+  "mentions": [
+    "A000203",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237591",
+    "A237593",
+    "A240542",
+    "A244050",
+    "A245092",
+    "A259179",
+    "A262626",
+    "A276112",
+    "A277437",
+    "A279286",
+    "A279385",
+    "A280223"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

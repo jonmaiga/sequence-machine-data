@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of (log(1+sqrt(2))+Pi/2)/(2*sqrt(2)) = Sum_{k>=0} (-1)^k/(4*k+1).",
+  "id": "A181048",
+  "mentions": [
+    "A001586",
+    "A003881",
+    "A007696",
+    "A091648",
+    "A093954",
+    "A113476",
+    "A181049",
+    "A181122",
+    "A188458"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

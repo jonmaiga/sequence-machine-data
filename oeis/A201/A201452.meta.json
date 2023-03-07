@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] with both a fixed point and a succession.",
+  "id": "A201452",
+  "mentions": [
+    "A002467",
+    "A180191",
+    "A207819",
+    "A207821"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

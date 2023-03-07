@@ -1,0 +1,24 @@
+{
+  "description": "Positions of words in A076478 that start with 0 and end with 0.",
+  "id": "A346303",
+  "mentions": [
+    "A000225",
+    "A007931",
+    "A052548",
+    "A076478",
+    "A171757",
+    "A346304",
+    "A346305"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:08:49",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

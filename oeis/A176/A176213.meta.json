@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2+sqrt(6).",
+  "id": "A176213",
+  "mentions": [
+    "A010464",
+    "A010694",
+    "A086180"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:59",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

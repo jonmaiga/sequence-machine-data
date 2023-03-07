@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of labeled cyclic chord diagrams having n chords and minimal chord length k (or k=0 if n=0); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A324429",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001147",
+    "A001610",
+    "A293157",
+    "A293881",
+    "A324428",
+    "A324445",
+    "A324446",
+    "A324447",
+    "A324448",
+    "A324449",
+    "A324450",
+    "A324451",
+    "A324452",
+    "A324453",
+    "A324454"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

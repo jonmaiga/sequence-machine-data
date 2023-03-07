@@ -1,0 +1,23 @@
+{
+  "description": "Indicator sequence for the Fibonacci numbers.",
+  "id": "A104162",
+  "mentions": [
+    "A000045",
+    "A010056",
+    "A108852",
+    "A130233",
+    "A130234"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "(k+1)-digit primes which can be represented by 10*q+r where q and r are k-digit primes.",
+  "id": "A129351",
+  "mentions": [
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

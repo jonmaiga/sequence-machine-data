@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2^A007013(4) mod prime(n); the last term of this sequences is when a(n) = 1.",
+  "id": "A353214",
+  "mentions": [
+    "A000225",
+    "A007013",
+    "A014664",
+    "A201908",
+    "A201912",
+    "A353171"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

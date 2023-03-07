@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n!/6) * Sum_{i,j,k > 0 and i+j+k=n} d(i)*d(j)*d(k)/(i*j*k), where d(n) is the number of divisors of n.",
+  "id": "A338811",
+  "mentions": [
+    "A000005",
+    "A059357",
+    "A338805"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

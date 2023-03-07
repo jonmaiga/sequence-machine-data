@@ -1,0 +1,36 @@
+{
+  "description": "Nontrivial odd numbers in writing first the numerator and then the denominator (left to right) of Leibniz's harmonic-like triangle.",
+  "id": "A137768",
+  "mentions": [
+    "A046212",
+    "A137752",
+    "A137753",
+    "A137754",
+    "A137755",
+    "A137756",
+    "A137757",
+    "A137758",
+    "A137759",
+    "A137760",
+    "A137761",
+    "A137762",
+    "A137763",
+    "A137764",
+    "A137765",
+    "A137766",
+    "A137767"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

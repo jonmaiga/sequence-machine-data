@@ -1,0 +1,22 @@
+{
+  "description": "The number of palindromic primes in the first n terms of A006530.",
+  "id": "A180613",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

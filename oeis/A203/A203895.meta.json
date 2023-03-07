@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X8 0..4 arrays with column and row pair sums b(i,j)=a(i,j)+a(i,j-1) and c(i,j)=a(i,j)+a(i-1,j) such that rows of b(i,j) and columns of c(i,j) are lexicographically nondecreasing",
+  "id": "A203895",
+  "mentions": [
+    "A203896"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

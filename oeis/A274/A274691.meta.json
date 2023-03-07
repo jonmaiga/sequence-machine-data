@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd entries in the character table of the symmetric group S_n.",
+  "id": "A274691",
+  "mentions": [
+    "A001255",
+    "A006907",
+    "A335686"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) is the sum of the numbers inside the k-th square of size n X n when the square spiral is tiled with these squares, where each tile contains numbers which sum to the minimum possible value, and each number on the spiral can only be in one tile.",
+  "id": "A341363",
+  "mentions": [
+    "A000217",
+    "A174344",
+    "A274923",
+    "A275161",
+    "A296030",
+    "A340974",
+    "A341160",
+    "A341278",
+    "A341327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

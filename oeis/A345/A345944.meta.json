@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A002034(d) < A002034(k) for all the proper divisors d of k.",
+  "id": "A345944",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A002034",
+    "A344881",
+    "A345935",
+    "A345945",
+    "A345950"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

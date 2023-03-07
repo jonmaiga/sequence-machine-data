@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2 X 2 matrices with entries in {0,1,...,n} and odd trace with no elements repeated.",
+  "id": "A279905",
+  "mentions": [
+    "A210379"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:31",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

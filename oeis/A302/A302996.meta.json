@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals: A(n,k) = [x^(n^2)] theta_3(x)^k, where theta_3() is the Jacobi theta function.",
+  "id": "A302996",
+  "mentions": [
+    "A000007",
+    "A000122",
+    "A016725",
+    "A040000",
+    "A046109",
+    "A122141",
+    "A232173",
+    "A255212",
+    "A267326",
+    "A286815"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

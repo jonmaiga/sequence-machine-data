@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of J_5 = Integral_{0..Pi/2} x^5/sin(x) dx.",
+  "id": "A261069",
+  "mentions": [
+    "A006752",
+    "A225125",
+    "A245073",
+    "A261068"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

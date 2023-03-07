@@ -1,0 +1,22 @@
+{
+  "description": "Sequence of numerators associated with the continued fraction based on the sequence d(n)= distance of n from closest prime ( A051699).",
+  "id": "A110976",
+  "mentions": [
+    "A051699",
+    "A109139",
+    "A109140",
+    "A110977"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least prime p such that p plus the multiplication of its digits is the n-th prime after p.",
+  "id": "A321569",
+  "mentions": [
+    "A000040",
+    "A007954",
+    "A321568",
+    "A321570"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: coefficient of the Euler-Mascheroni constant in below expression.",
+  "id": "A182534",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A002420",
+    "A002421",
+    "A002422",
+    "A002423",
+    "A007054",
+    "A007272",
+    "A089408",
+    "A126596"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

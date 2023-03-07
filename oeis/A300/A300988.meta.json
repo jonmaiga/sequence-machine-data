@@ -1,0 +1,26 @@
+{
+  "description": "E.g.f. A(x) satisfies: [x^n] A(x)^(4*n) = (n + 3) * [x^(n-1)] A(x)^(4*n) for n>=1.",
+  "id": "A300988",
+  "mentions": [
+    "A182962",
+    "A296170",
+    "A300590",
+    "A300735",
+    "A300870",
+    "A300986",
+    "A300989",
+    "A300990",
+    "A300992"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

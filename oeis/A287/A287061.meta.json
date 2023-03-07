@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (10^(k+3)*6319 + 863)/9 is prime (k > 0).",
+  "id": "A287061",
+  "mentions": [
+    "A032674",
+    "A260405",
+    "A286916"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Bond percolation coefficients S_0 for square lattice.",
+  "id": "A260330",
+  "mentions": [
+    "A006727",
+    "A006728",
+    "A006729",
+    "A006730"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

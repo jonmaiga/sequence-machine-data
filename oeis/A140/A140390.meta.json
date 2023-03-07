@@ -1,0 +1,18 @@
+{
+  "description": "Nonprimes of the form 21k+1.",
+  "id": "A140390",
+  "mentions": [
+    "A136069"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:47",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

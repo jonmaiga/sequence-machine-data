@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers not representable as p+g, where p is a prime and g is a prime primitive root of p.",
+  "id": "A138307",
+  "mentions": [
+    "A016742",
+    "A138305",
+    "A138318"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

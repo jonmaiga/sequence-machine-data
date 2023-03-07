@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of n-permutations whose third-shortest cycle has length exactly k; n >= 0, 0 <= k <= max(0,n-2).",
+  "id": "A350016",
+  "mentions": [
+    "A000142",
+    "A000774",
+    "A126074",
+    "A145877",
+    "A208956",
+    "A332907",
+    "A349979",
+    "A349980",
+    "A350015",
+    "A350273",
+    "A350274"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

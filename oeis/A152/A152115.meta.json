@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the dilogarithm of (the golden mean minus 1), Li_2(phi-1).",
+  "id": "A152115",
+  "mentions": [
+    "A002388",
+    "A002390",
+    "A094214"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

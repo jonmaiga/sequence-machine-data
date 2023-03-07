@@ -1,0 +1,37 @@
+{
+  "description": "Index of the smallest prime in the n-Fibonacci sequence, or the Lucas U(n,-1) sequence.",
+  "id": "A305534",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001076",
+    "A001605",
+    "A005478",
+    "A005574",
+    "A005668",
+    "A006190",
+    "A041025",
+    "A041041",
+    "A041061",
+    "A049666",
+    "A052918",
+    "A054413",
+    "A086383",
+    "A096650",
+    "A099371",
+    "A201001",
+    "A209493",
+    "A302990"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

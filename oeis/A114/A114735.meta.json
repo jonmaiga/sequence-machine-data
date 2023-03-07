@@ -1,0 +1,20 @@
+{
+  "description": "Least odd number k such that Phi(k,x) is a flat cyclotomic polynomial of order n.",
+  "id": "A114735",
+  "mentions": [
+    "A000217",
+    "A117223",
+    "A117318"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

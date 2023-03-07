@@ -1,0 +1,23 @@
+{
+  "description": "Euler transform of Pell-Lucas numbers.",
+  "id": "A261330",
+  "mentions": [
+    "A002203",
+    "A166861",
+    "A261031",
+    "A261329",
+    "A261331",
+    "A261332"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the shyest prime in base n.",
+  "id": "A272043",
+  "mentions": [
+    "A269364",
+    "A270310"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

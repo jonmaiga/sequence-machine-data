@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct representations of (2n)^2 as the sum of two primes.",
+  "id": "A113631",
+  "mentions": [
+    "A000040",
+    "A016742",
+    "A045917",
+    "A061358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

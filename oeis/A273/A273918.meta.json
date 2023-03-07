@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of z(n), where z(n) = z(n - 1)^2 + 1/4 and z(0) = 1.",
+  "id": "A273918",
+  "mentions": [
+    "A015701",
+    "A020773"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

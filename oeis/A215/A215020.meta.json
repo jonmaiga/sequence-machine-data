@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = log_2( A182105(n) ).",
+  "id": "A215020",
+  "mentions": [
+    "A007814",
+    "A082850",
+    "A169683",
+    "A182105"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:19",
+    "offset": 1,
+    "size": 119,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals in which column k gives the partial sums of column k of A144064.",
+  "id": "A210764",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000027",
+    "A000041",
+    "A000070",
+    "A000712",
+    "A000713",
+    "A000716",
+    "A005758",
+    "A006922",
+    "A023003",
+    "A023021",
+    "A034856",
+    "A144064",
+    "A195825",
+    "A210843",
+    "A211970",
+    "A303070"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

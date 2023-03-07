@@ -1,0 +1,22 @@
+{
+  "description": "Difference between n and the result obtained when n is remultiplied from N to GF(2)[X]: a(n) = n - A234741(n).",
+  "id": "A236378",
+  "mentions": [
+    "A048720",
+    "A061858",
+    "A234741",
+    "A235034",
+    "A236379",
+    "A236380"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

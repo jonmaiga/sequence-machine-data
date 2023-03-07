@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the angle in radians at the apex of the Calabi triangle.",
+  "id": "A343143",
+  "mentions": [
+    "A046095"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

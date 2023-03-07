@@ -1,0 +1,19 @@
+{
+  "description": "Primes p, such that p+72 and p+144 are both prime.",
+  "id": "A156124",
+  "mentions": [
+    "A156105",
+    "A156107"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

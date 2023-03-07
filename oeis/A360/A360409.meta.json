@@ -1,0 +1,19 @@
+{
+  "description": "The minimum number of facets among all symmetric edge polytopes for connected graphs on n vertices having m edges for n >= 2 and m between n-1 and binomial(n,2).",
+  "id": "A360409",
+  "mentions": [
+    "A360408"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

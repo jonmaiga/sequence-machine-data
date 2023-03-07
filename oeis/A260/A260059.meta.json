@@ -1,0 +1,21 @@
+{
+  "description": "Infinite square array whose n-th row lists the numbers k for which A086793(k)=n, where A086793 = number of iteration of A034690 (sum of digits of divisors) to reach a fixed point, read by antidiagonals.",
+  "id": "A260059",
+  "mentions": [
+    "A034690",
+    "A086793",
+    "A094501"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

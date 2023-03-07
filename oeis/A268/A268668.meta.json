@@ -1,0 +1,18 @@
+{
+  "description": "Number of factorizations of m^4 into n factors, where m is a product of exactly n distinct primes and each factor is a product of 4 primes (counted with multiplicity).",
+  "id": "A268668",
+  "mentions": [
+    "A257463",
+    "A333900"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

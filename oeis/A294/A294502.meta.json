@@ -1,0 +1,22 @@
+{
+  "description": "Binomial transform of A026007.",
+  "id": "A294502",
+  "mentions": [
+    "A026007",
+    "A218481",
+    "A294500",
+    "A294503",
+    "A294504"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

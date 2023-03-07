@@ -1,0 +1,17 @@
+{
+  "description": "Eigenvector of the triangle of distinct partitions (A008289), so that: a(n) = Sum_{k=1..tri(n)} A008289(n,k)*a(k) for n>=1 with a(1)=1, where tri(n) = floor((sqrt(8*n+1)-1)/2).",
+  "id": "A118399",
+  "mentions": [
+    "A008289"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

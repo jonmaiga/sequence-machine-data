@@ -1,0 +1,27 @@
+{
+  "description": "Smallest m >= 19 containing no nines when represented in any base from 10 through n.",
+  "id": "A270045",
+  "mentions": [
+    "A216192",
+    "A270035",
+    "A270037",
+    "A270038",
+    "A270039",
+    "A270040",
+    "A270041",
+    "A270042",
+    "A270043",
+    "A270044"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 10,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

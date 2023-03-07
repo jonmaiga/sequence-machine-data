@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] having exactly one fixed point and avoiding the patterns 123 and 231.",
+  "id": "A114208",
+  "mentions": [
+    "A114209",
+    "A114210"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:25",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

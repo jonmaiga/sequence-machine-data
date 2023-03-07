@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,0) = 3^n, T(n,k) = T(n,k-1) + T(n-1,k) for 0 < k < n, and T(n,n) = T(n,n-1).",
+  "id": "A165992",
+  "mentions": [
+    "A007854"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

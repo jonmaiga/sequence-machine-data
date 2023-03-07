@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct squares D(n) in the n-th iterate of the tribonacci morphism (a -> ab, b -> ac, c -> a) on the letter a.",
+  "id": "A116576",
+  "mentions": [
+    "A080843"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 4,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

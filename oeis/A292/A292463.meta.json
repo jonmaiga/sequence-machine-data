@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n with n kinds of 1.",
+  "id": "A292463",
+  "mentions": [
+    "A000041",
+    "A014329",
+    "A292462",
+    "A292503",
+    "A292507",
+    "A292508",
+    "A292541"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

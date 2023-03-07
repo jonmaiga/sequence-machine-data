@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of inf{f(n,1)}, where f(1,x) = x + 1 and thereafter f(n,x) = x + 1 if n is in A054385, else f(n,x) = 1/x.",
+  "id": "A245223",
+  "mentions": [
+    "A054385",
+    "A226080",
+    "A245215",
+    "A245217",
+    "A245220",
+    "A245224"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

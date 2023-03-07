@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 10*a(n-1)-a(n-2)-4 with a(1)=1 and a(2)=3.",
+  "id": "A171640",
+  "mentions": [
+    "A001263",
+    "A087799",
+    "A122653",
+    "A132596"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

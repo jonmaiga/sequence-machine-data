@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of primes with odd primes.",
+  "id": "A209403",
+  "mentions": [
+    "A000040",
+    "A014342",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

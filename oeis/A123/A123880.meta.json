@@ -1,0 +1,20 @@
+{
+  "description": "Inverse of number triangle A123878.",
+  "id": "A123880",
+  "mentions": [
+    "A000108",
+    "A055113",
+    "A123878"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

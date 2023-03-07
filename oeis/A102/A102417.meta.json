@@ -1,0 +1,19 @@
+{
+  "description": "In the lexicographically ordered table of permutations of [n], there are two entries that give the greatest sum of pairwise products and they are reversals of each other. The items in this sequence are the indices of the earlier of the two.",
+  "id": "A102417",
+  "mentions": [
+    "A101986"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

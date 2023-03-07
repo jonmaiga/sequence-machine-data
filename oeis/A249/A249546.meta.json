@@ -1,0 +1,21 @@
+{
+  "description": "Speed of light in km/h.",
+  "id": "A249546",
+  "mentions": [
+    "A003678"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 10,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

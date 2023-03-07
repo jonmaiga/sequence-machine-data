@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the number of divisors of Fibonacci(n), tau(Fibonacci(n)), is not a perfect power of 2.",
+  "id": "A119588",
+  "mentions": [
+    "A023172"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

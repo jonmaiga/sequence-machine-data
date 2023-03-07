@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 24*n + 14.",
+  "id": "A142241",
+  "mentions": [
+    "A017605"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

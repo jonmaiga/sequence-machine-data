@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: Take a regular n-sided polygon (n>=3) with all diagonals drawn, as in A007678. Then T(n,k) = number of k-sided polygons in that figure for k = 3, 4, ..., max_k.",
+  "id": "A331450",
+  "mentions": [
+    "A006561",
+    "A007678",
+    "A062361",
+    "A331451",
+    "A335000",
+    "A341729",
+    "A341730",
+    "A350000"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

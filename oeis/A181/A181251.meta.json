@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 8 binary matrices with no 2 X 2 block having four 1's.",
+  "id": "A181251",
+  "mentions": [
+    "A181253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

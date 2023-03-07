@@ -1,0 +1,21 @@
+{
+  "description": "Array A(n, k) = Product_{j=1..n} Product_{i=1..j} (1 - (k+1)^i)/(1 - (k+1))^j, with A(n, k) = n!, read by antidiagonals.",
+  "id": "A156953",
+  "mentions": [
+    "A156950",
+    "A156951",
+    "A156952"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

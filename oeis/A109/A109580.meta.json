@@ -1,0 +1,19 @@
+{
+  "description": "Primes in A109579.",
+  "id": "A109580",
+  "mentions": [
+    "A001223",
+    "A010051",
+    "A109579"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

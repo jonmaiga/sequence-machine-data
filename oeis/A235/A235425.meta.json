@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that between k and the next prime there are gpf(k) numbers, where gpf(k) denotes the largest prime factor of k.",
+  "id": "A235425",
+  "mentions": [
+    "A050765",
+    "A105779"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

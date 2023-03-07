@@ -1,0 +1,33 @@
+{
+  "description": "Two column recursive array A(n,k), relating expressions based on half-squares (A007590) to each other and several other sequences, read by rows.",
+  "id": "A227972",
+  "mentions": [
+    "A000129",
+    "A001109",
+    "A001333",
+    "A001541",
+    "A001542",
+    "A001653",
+    "A002315",
+    "A005319",
+    "A007590",
+    "A048739",
+    "A052542",
+    "A075870",
+    "A078570",
+    "A079496",
+    "A083374",
+    "A143608"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose absolute difference from a square is never a prime.",
+  "id": "A296304",
+  "mentions": [
+    "A104278",
+    "A292990"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

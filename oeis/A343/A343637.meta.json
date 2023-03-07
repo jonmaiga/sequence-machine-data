@@ -1,0 +1,22 @@
+{
+  "description": "10^n + a(n) is the least (n+1)-digit prime member of a prime septuplet, or a(n) = 0 if no such number exists.",
+  "id": "A343637",
+  "mentions": [
+    "A022009",
+    "A022010",
+    "A343635",
+    "A343636"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

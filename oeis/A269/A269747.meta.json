@@ -1,0 +1,22 @@
+{
+  "description": "Number of regular tetrahedra in an n-node-per-edge tetrahedral grid.",
+  "id": "A269747",
+  "mentions": [
+    "A000332",
+    "A216173",
+    "A270805",
+    "A270806"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers L such that 1LMN1 is prime, where M=L+1 and N=M+1.",
+  "id": "A102607",
+  "mentions": [
+    "A102606",
+    "A102608"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

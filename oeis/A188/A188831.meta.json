@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form k^2 - prime(k).",
+  "id": "A188831",
+  "mentions": [
+    "A004232",
+    "A064711",
+    "A064712",
+    "A073497",
+    "A184935"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

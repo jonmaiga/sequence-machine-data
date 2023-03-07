@@ -1,0 +1,26 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Sum ((-1)^(pi(p_j) + 1) * pi(p_j)), where pi = A000720.",
+  "id": "A332422",
+  "mentions": [
+    "A000720",
+    "A002129",
+    "A066328",
+    "A071321",
+    "A112798",
+    "A195017",
+    "A316524",
+    "A325699",
+    "A332423"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

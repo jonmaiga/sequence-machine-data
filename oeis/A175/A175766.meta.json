@@ -1,0 +1,19 @@
+{
+  "description": "Greater of \"twin numbers\": Omega(n) = Omega(n - 2^Omega(n)), where Omega is A001222.",
+  "id": "A175766",
+  "mentions": [
+    "A001222",
+    "A006512",
+    "A175612"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

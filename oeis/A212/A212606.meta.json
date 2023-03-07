@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct sums <= 1 of reciprocals of positive integers <= n.",
+  "id": "A212606",
+  "mentions": [
+    "A020473",
+    "A092669",
+    "A092671",
+    "A208480",
+    "A212607"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

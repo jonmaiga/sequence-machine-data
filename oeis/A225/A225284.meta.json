@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct values of the sum of i*(i-1) over 4 realizations of i in 0..n.",
+  "id": "A225284",
+  "mentions": [
+    "A225281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

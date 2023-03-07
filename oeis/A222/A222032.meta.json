@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows in which row n gives denominators of the coefficients of the partition class polynomial Hpart_n(x), n >= 1.",
+  "id": "A222032",
+  "mentions": [
+    "A000041",
+    "A183007",
+    "A183010",
+    "A183011",
+    "A187218",
+    "A188569",
+    "A220515",
+    "A222031"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

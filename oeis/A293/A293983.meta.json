@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least k > 0 such that prime(k) XOR prime(k+1) XOR ... XOR prime(A293927(n)) = 0 (where XOR denotes the binary XOR operator, and prime(n) = A000040(n)).",
+  "id": "A293983",
+  "mentions": [
+    "A000040",
+    "A126084",
+    "A293927"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

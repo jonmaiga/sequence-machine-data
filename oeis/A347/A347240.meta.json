@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the largest prime factor (A006530) of all terms encountered when iterating the map x -> A000593(x), when starting from x = n, but excluding the n itself. If n is a power of 2, then a(n) = 1. If 1 is never reached, then a(n) = -1.",
+  "id": "A347240",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A006530",
+    "A161942",
+    "A336361",
+    "A347241",
+    "A347242",
+    "A347243",
+    "A347244"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

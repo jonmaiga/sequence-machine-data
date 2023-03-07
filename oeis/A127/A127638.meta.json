@@ -1,0 +1,23 @@
+{
+  "description": "A054525 * A127640, where A127640 = infinite lower triangular matrix with the sequence of primes in the main diagonal and the rest zeros.",
+  "id": "A127638",
+  "mentions": [
+    "A007444",
+    "A054525",
+    "A127639",
+    "A127640",
+    "A127648"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

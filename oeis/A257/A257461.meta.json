@@ -1,0 +1,21 @@
+{
+  "description": "Let b_k=9...9 consist of k>0 9's. Then a(n) is the smallest k such that the concatenation prime(n)b_k is prime, or a(n)=0 if there is no such prime.",
+  "id": "A257461",
+  "mentions": [
+    "A232210",
+    "A257459",
+    "A257460"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes k such that the sum of prime factors of composite(k) is an even composite.",
+  "id": "A155101",
+  "mentions": [
+    "A000027",
+    "A002808",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

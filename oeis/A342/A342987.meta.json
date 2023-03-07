@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of tree-rooted planar maps with n edges, k faces and no isthmuses, n >= 0, k = 1..n+1.",
+  "id": "A342987",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000108",
+    "A002740",
+    "A006432",
+    "A006433",
+    "A006470",
+    "A006471",
+    "A342981",
+    "A342982",
+    "A342984",
+    "A342985",
+    "A342988"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

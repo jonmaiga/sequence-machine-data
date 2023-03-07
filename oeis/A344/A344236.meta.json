@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step walks from a universal vertex to the other on the diamond graph.",
+  "id": "A344236",
+  "mentions": [
+    "A006131",
+    "A344261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:24:55",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

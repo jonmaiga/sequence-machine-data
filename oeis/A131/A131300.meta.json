@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*a(n-1) - 2*a(n-2) - a(n-3) + a(n-4) with n>3, a(0)=1, a(1)=2, a(2)=3, a(3)=7.",
+  "id": "A131300",
+  "mentions": [
+    "A000045",
+    "A131269",
+    "A131299",
+    "A131301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

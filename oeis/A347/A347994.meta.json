@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n-1} (-1)^(k+1) * n^(n-k-2) / (n-k-1)!.",
+  "id": "A347994",
+  "mentions": [
+    "A000169",
+    "A000435",
+    "A133297",
+    "A134095",
+    "A347993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

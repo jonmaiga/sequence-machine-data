@@ -1,0 +1,20 @@
+{
+  "description": "Number of length n binary words which contain 00 and 01 and 10 and 11 as (possibly overlapping) contiguous subsequences.",
+  "id": "A242206",
+  "mentions": [
+    "A242167",
+    "A242257",
+    "A242323"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 5,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

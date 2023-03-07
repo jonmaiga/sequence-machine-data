@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with 4n binary digits where every run length is 4, written in binary.",
+  "id": "A154805",
+  "mentions": [
+    "A152775",
+    "A153435",
+    "A154806",
+    "A154807"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

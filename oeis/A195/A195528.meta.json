@@ -1,0 +1,21 @@
+{
+  "description": "Integers n that are k-gonal for precisely 4 distinct values of k, where k >= 3.",
+  "id": "A195528",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A051865",
+    "A177025",
+    "A177029"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

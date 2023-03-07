@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(3) = 1, a(2) = 2, a(4) = a(5) = 4; a(n) = a(n-a(n-1)) + a(n-a(n-2)) for n > 5.",
+  "id": "A296337",
+  "mentions": [
+    "A244477"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:29",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

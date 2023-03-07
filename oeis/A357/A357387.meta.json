@@ -1,0 +1,21 @@
+{
+  "description": "Starts of record-length runs of consecutive positive integers with the same value of A071626.",
+  "id": "A357387",
+  "mentions": [
+    "A071626",
+    "A357385",
+    "A357386"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-permutations such that all cycle lengths have a common divisor >= 2.",
+  "id": "A226388",
+  "mentions": [
+    "A000142",
+    "A079128",
+    "A335088"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

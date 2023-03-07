@@ -1,0 +1,18 @@
+{
+  "description": "Prime summand recurrence: a(n+1) = the sum of the primes <= a(n) with a(0) = 3.",
+  "id": "A283462",
+  "mentions": [
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

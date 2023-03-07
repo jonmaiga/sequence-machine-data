@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (a(n-1) + a(n-3))/2^m, where 2^m is the highest power of 2 that divides both a(n-1) and a(n-3), with a(0) = a(1) = a(2) = 1.",
+  "id": "A341313",
+  "mentions": [
+    "A000930",
+    "A214551",
+    "A241551",
+    "A341312"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

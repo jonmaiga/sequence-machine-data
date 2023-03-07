@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = binomial(n+5, 5)*7^n.",
+  "id": "A140404",
+  "mentions": [
+    "A000389",
+    "A036084",
+    "A036219",
+    "A045543",
+    "A050982",
+    "A054849"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

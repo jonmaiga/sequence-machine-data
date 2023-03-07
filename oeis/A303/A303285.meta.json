@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations p of [2n] such that the sequence of ascents and descents of p0 forms a Dyck path.",
+  "id": "A303285",
+  "mentions": [
+    "A177042",
+    "A180056",
+    "A303284",
+    "A303287",
+    "A316727",
+    "A316728",
+    "A321280"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) = if a(n) is prime then (number of primes so far) else (number of nonprimes so far), a(1) = 1.",
+  "id": "A137661",
+  "mentions": [
+    "A005171",
+    "A010051",
+    "A137662"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

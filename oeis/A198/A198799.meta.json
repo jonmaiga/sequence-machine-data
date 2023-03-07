@@ -1,0 +1,25 @@
+{
+  "description": "Smallest m such that m can be written in exactly n ways as x^2 + xy + y^2 with 0 <= x <= y.",
+  "id": "A198799",
+  "mentions": [
+    "A034020",
+    "A088534",
+    "A118886",
+    "A198772",
+    "A198773",
+    "A198774",
+    "A198775",
+    "A300419"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

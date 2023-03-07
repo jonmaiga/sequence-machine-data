@@ -1,0 +1,27 @@
+{
+  "description": "Composite numbers n such that (A001065(n) - A032742(n)) divides (n - A032742(n)), where A032742 gives the largest proper divisor, and A001065 is the sum of proper divisors.",
+  "id": "A326063",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A001248",
+    "A032742",
+    "A060681",
+    "A318505",
+    "A325981",
+    "A326062",
+    "A326064",
+    "A326137"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

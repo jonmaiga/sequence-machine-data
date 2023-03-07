@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of AGM(1, phi/2), where phi is the golden ratio (A001622).",
+  "id": "A310000",
+  "mentions": [
+    "A001622",
+    "A014549",
+    "A053004",
+    "A068521",
+    "A309893"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:19:57",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

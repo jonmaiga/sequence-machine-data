@@ -1,0 +1,20 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n, k) = P(n, k) where P(n, x) are the scaled Mandelbrot-Larsen polynomials defined in A347928.",
+  "id": "A348686",
+  "mentions": [
+    "A088674",
+    "A319539",
+    "A347928"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

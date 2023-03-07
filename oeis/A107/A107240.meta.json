@@ -1,0 +1,23 @@
+{
+  "description": "Sum of squares of first n tribonacci numbers (A000213).",
+  "id": "A107240",
+  "mentions": [
+    "A000213",
+    "A001654",
+    "A107239",
+    "A107241",
+    "A107247"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

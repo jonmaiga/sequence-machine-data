@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m with property that m^2 + (m+1)^2 and (m+1)^2 + (m+2)^2 are prime.",
+  "id": "A238222",
+  "mentions": [
+    "A002144",
+    "A027861",
+    "A027862",
+    "A062067"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

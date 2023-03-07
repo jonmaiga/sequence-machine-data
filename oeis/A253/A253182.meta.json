@@ -1,0 +1,20 @@
+{
+  "description": "The continued fraction expansion of e! (A178394).",
+  "id": "A253182",
+  "mentions": [
+    "A178394",
+    "A255196"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of coefficients of polynomials with roots as the Pi-digits base ten A000796(n)=d(n):d(1)=3; p(x,n)=-d(1)*Product[x-d(m),{m,2,n}].",
+  "id": "A152575",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Squares representable as b! + triangular(c).",
+  "id": "A230365",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

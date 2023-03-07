@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having a 1 in position 4 of their binary expansion.",
+  "id": "A115420",
+  "mentions": [
+    "A005408",
+    "A042964",
+    "A047566",
+    "A115419",
+    "A115421"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

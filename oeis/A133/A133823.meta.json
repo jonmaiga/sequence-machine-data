@@ -1,0 +1,25 @@
+{
+  "description": "Triangle whose rows are sequences of increasing and decreasing cubes:1; 1,8,1; 1,8,27,8,1; ... .",
+  "id": "A133823",
+  "mentions": [
+    "A003983",
+    "A004737",
+    "A037270",
+    "A124258",
+    "A133820",
+    "A133824"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

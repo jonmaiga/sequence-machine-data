@@ -1,0 +1,24 @@
+{
+  "description": "Primes p for which the smallest m such that p*2^m + 1 is prime increases. Sequence terminates with the smallest prime Sierpiński number.",
+  "id": "A350118",
+  "mentions": [
+    "A057192",
+    "A058887",
+    "A064699",
+    "A076336",
+    "A350119"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

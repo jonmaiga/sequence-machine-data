@@ -1,0 +1,19 @@
+{
+  "description": "Number of ON cells after n generations in 4-D cellular automaton defined by 4-dimensional analog of Moore neighborhood, when started with a single ON cell at generation 0.",
+  "id": "A255477",
+  "mentions": [
+    "A160239",
+    "A246031",
+    "A255478"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

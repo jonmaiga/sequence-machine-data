@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>0} (1 + x^k/(1 + x^k/(1 + x^k))).",
+  "id": "A327684",
+  "mentions": [
+    "A000009",
+    "A268498",
+    "A327683"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

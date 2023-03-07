@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer written with n different letters when spelled out in French.",
+  "id": "A167509",
+  "mentions": [
+    "A080777",
+    "A134629",
+    "A167507",
+    "A167508"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers in which all substrings and reversal substrings are composites.",
+  "id": "A202266",
+  "mentions": [
+    "A202262",
+    "A202263",
+    "A202264",
+    "A202265"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

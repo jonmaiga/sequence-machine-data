@@ -1,0 +1,21 @@
+{
+  "description": "p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S^5.",
+  "id": "A291380",
+  "mentions": [
+    "A019590",
+    "A033453",
+    "A291382"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

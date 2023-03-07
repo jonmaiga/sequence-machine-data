@@ -1,0 +1,19 @@
+{
+  "description": "Full autoinsertable primes are such primes that remain prime after all the possible internal autoinsertions, one at a time.",
+  "id": "A335271",
+  "mentions": [
+    "A247098"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

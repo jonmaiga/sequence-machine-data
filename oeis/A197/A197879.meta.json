@@ -1,0 +1,26 @@
+{
+  "description": "Parity of floor(n*sqrt(8)).",
+  "id": "A197879",
+  "mentions": [
+    "A022842",
+    "A086843",
+    "A086844",
+    "A187976",
+    "A196468",
+    "A197878",
+    "A272170",
+    "A272532"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

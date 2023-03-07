@@ -1,0 +1,21 @@
+{
+  "description": "Least number k > 0 such that n^k - (n-1)^k - ... - 3^k - 2^k is prime, or 0 if no such k exists.",
+  "id": "A240509",
+  "mentions": [
+    "A000040",
+    "A042963",
+    "A057468",
+    "A138699"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

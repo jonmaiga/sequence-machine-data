@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k > 1 such that A014574(n)*k is in A014574.",
+  "id": "A307775",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

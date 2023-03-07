@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of the n-dimensional hypercube resulting from a sequence of 2n bisections, each of which splits any part perpendicular to any of the axes, such that each axis is used at least once.",
+  "id": "A258426",
+  "mentions": [
+    "A255982",
+    "A256254",
+    "A258399"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

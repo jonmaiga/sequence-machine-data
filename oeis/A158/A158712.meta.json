@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p1=Floor[p/2]+p is prime and p2=Ceiling[p1/2]+p1 is prime.",
+  "id": "A158712",
+  "mentions": [
+    "A158708",
+    "A158709",
+    "A158710",
+    "A158711"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

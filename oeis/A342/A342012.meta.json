@@ -1,0 +1,30 @@
+{
+  "description": "Primorial deflation of the n-th colossally abundant number: the unique integer k such that A108951(k) = A004490(n).",
+  "id": "A342012",
+  "mentions": [
+    "A001222",
+    "A004490",
+    "A005940",
+    "A064989",
+    "A073751",
+    "A108951",
+    "A217867",
+    "A319626",
+    "A329900",
+    "A329902",
+    "A342010",
+    "A342011",
+    "A342013"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Let r be the largest real zero of x^n - x^(n-1) - x^(n-2) - ... - 1 = 0. Then a(n) is the value of k which satisfies the equation 0.5/10^k < 2 - r < 5/10^k.",
+  "id": "A192543",
+  "mentions": [
+    "A034887"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of mutually nonattacking Super Queens on an n X n board. (A Super Queen is a queen with both queen and knight powers.)",
+  "id": "A133143",
+  "mentions": [
+    "A051223",
+    "A085801"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

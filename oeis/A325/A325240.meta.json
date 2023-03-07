@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose minimum prime exponent is 2.",
+  "id": "A325240",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001358",
+    "A001694",
+    "A007774",
+    "A036966",
+    "A051903",
+    "A051904",
+    "A052485",
+    "A065483",
+    "A067259",
+    "A082695",
+    "A118914",
+    "A244515",
+    "A325241"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

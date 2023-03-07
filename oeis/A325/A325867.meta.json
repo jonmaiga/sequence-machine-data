@@ -1,0 +1,29 @@
+{
+  "description": "Number of maximal subsets of {1..n} containing n such that every subset has a different sum.",
+  "id": "A325867",
+  "mentions": [
+    "A002033",
+    "A108917",
+    "A143823",
+    "A143824",
+    "A196723",
+    "A275972",
+    "A325860",
+    "A325861",
+    "A325864",
+    "A325865",
+    "A325866",
+    "A325880",
+    "A326015"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

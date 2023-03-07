@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of eta(q)*eta(q^2)*eta(q^4), where eta(q) = Product((1-q^m), m=1..oo).",
+  "id": "A160832",
+  "mentions": [
+    "A010815",
+    "A030189",
+    "A083650",
+    "A170925"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

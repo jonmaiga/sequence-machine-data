@@ -1,0 +1,24 @@
+{
+  "description": "Dual Zeckendorf representation of n or the maximal (binary) Fibonacci representation. Also list of binary vectors not containing 00.",
+  "id": "A104326",
+  "mentions": [
+    "A000045",
+    "A001950",
+    "A003754",
+    "A007088",
+    "A014417",
+    "A095791",
+    "A104324"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

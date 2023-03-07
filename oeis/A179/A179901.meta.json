@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, antidiagonals of an array generated from (1, r, r, r, ...) convolved with (1, 0, r, r, r, ...).",
+  "id": "A179901",
+  "mentions": [
+    "A019442",
+    "A179805",
+    "A179902"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

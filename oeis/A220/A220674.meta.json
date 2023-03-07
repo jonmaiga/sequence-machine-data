@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the area of Dürer's approximation of a regular pentagon with each side of unit length.",
+  "id": "A220674",
+  "mentions": [
+    "A102771"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

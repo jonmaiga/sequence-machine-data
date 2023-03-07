@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that the sum of squares of the first n primes (A024450) is the sum of 4 but no fewer nonzero squares.",
+  "id": "A269931",
+  "mentions": [
+    "A004215",
+    "A024450"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

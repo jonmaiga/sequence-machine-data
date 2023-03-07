@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A000203(k) and A007955(k) are both divisible by A187680(k).",
+  "id": "A346956",
+  "mentions": [
+    "A000203",
+    "A007955",
+    "A187680",
+    "A188061"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

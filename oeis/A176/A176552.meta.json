@@ -1,0 +1,17 @@
+{
+  "description": "Complement of A174894, where A174894 = numbers such that both arithmetic means of distinct and all prime factors are integers.",
+  "id": "A176552",
+  "mentions": [
+    "A174894"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

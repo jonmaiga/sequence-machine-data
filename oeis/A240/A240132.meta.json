@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions of 1/x_1 + 1/x_2 + ... + 1/x_{2n-1} = 1 in distinct odd numbers > 1.",
+  "id": "A240132",
+  "mentions": [
+    "A201644",
+    "A201646",
+    "A201647",
+    "A201648",
+    "A201649",
+    "A238795",
+    "A239036"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

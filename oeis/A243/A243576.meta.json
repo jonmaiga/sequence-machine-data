@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of largest minimal l^1 distance for n points in the simplex x+y+z=1, 0<=x,y,z<=1.",
+  "id": "A243576",
+  "mentions": [
+    "A243487"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

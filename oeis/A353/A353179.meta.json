@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first nonzero digit in the decimal expansion of 1/prime(n).",
+  "id": "A353179",
+  "mentions": [
+    "A000040",
+    "A052038"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

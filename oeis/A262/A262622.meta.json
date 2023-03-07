@@ -1,0 +1,25 @@
+{
+  "description": "Amicable pairs of even numbers.",
+  "id": "A262622",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A005843",
+    "A063990",
+    "A259180",
+    "A259933",
+    "A262623",
+    "A262624"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

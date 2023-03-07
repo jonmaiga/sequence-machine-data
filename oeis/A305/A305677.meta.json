@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of {n+1, n+2, ..., A072905(n)-1} whose product has the same squarefree part as n.",
+  "id": "A305677",
+  "mentions": [
+    "A005117",
+    "A006255",
+    "A066400",
+    "A067722",
+    "A072905",
+    "A255167",
+    "A259527"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

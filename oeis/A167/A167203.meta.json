@@ -1,0 +1,26 @@
+{
+  "description": "Number of Young tableaux with n cells and k inversions.",
+  "id": "A167203",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000085",
+    "A002865",
+    "A007318",
+    "A036799",
+    "A059797",
+    "A117506"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

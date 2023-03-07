@@ -1,0 +1,24 @@
+{
+  "description": "The number of regions inside a heptagon formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A329713",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A329714",
+    "A331452",
+    "A331931",
+    "A333112",
+    "A333113"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

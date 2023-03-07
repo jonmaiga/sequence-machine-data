@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = binomial(n, k)^2 - binomial(n, k) - 1, read by rows.",
+  "id": "A144403",
+  "mentions": [
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

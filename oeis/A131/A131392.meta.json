@@ -1,0 +1,26 @@
+{
+  "description": "Positions of negative integers in A131389, minus 1.",
+  "id": "A131392",
+  "mentions": [
+    "A131388",
+    "A131389",
+    "A131390",
+    "A131391",
+    "A131393",
+    "A131394",
+    "A131395",
+    "A131396",
+    "A131397"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

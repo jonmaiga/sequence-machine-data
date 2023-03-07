@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose reverse is the square of a Fibonacci number.",
+  "id": "A345956",
+  "mentions": [
+    "A000045",
+    "A007488",
+    "A007598",
+    "A036797"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

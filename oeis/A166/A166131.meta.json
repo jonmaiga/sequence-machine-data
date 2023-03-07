@@ -1,0 +1,19 @@
+{
+  "description": "a(j) = minimum value of n for each distinct increasing value of (Sum of the quadratic non-residues of prime(n) - Sum of the quadratic residues of prime(n)) / prime(n) for each j.",
+  "id": "A166131",
+  "mentions": [
+    "A004273",
+    "A165951",
+    "A165974"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

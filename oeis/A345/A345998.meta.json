@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = m/gcd(m,n), where m = A344005(n).",
+  "id": "A345998",
+  "mentions": [
+    "A344005",
+    "A345992",
+    "A345999"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

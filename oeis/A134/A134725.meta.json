@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of next n squares of positive integers.",
+  "id": "A134725",
+  "mentions": [
+    "A000290",
+    "A053067"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Starting with a(1) = 1, a(n) = smallest nonnegative integer not yet in the sequence such that the last digit of a(n-1) plus the first digit of a(n) is equal to 8. The digit 0 is not allowed.",
+  "id": "A289286",
+  "mentions": [
+    "A002061",
+    "A289283",
+    "A289284",
+    "A289285"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

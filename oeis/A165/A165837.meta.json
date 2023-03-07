@@ -1,0 +1,20 @@
+{
+  "description": "Totally multiplicative sequence with a(p) = 16.",
+  "id": "A165837",
+  "mentions": [
+    "A001025",
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

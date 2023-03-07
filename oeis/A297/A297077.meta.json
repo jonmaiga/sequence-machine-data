@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct row and column sums for n X n (0, 1)-matrices.",
+  "id": "A297077",
+  "mentions": [
+    "A048163",
+    "A328887"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

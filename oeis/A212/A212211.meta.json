@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = pi(n)+pi(k)-pi(n+k), n >= 2, 2 <= k <= n, where pi() = A000720().",
+  "id": "A212211",
+  "mentions": [
+    "A000720",
+    "A047885",
+    "A047886",
+    "A060208",
+    "A212210",
+    "A212212",
+    "A212213"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

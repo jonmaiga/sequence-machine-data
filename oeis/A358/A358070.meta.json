@@ -1,0 +1,18 @@
+{
+  "description": "Largest order of element in direct product S_n * S_n where S_n is the symmetric group.",
+  "id": "A358070",
+  "mentions": [
+    "A000793",
+    "A063183"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

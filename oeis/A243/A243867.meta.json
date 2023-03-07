@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the numbers N*(n) and N**(n) in A242974.",
+  "id": "A243867",
+  "mentions": [
+    "A002110",
+    "A242719",
+    "A242720",
+    "A242758",
+    "A242974",
+    "A243803",
+    "A243804"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

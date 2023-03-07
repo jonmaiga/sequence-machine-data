@@ -1,0 +1,17 @@
+{
+  "description": "Number of set partitions of [n] having exactly eight pairs (m,m+1) such that m is in some block b and m+1 is in block b+1.",
+  "id": "A271795",
+  "mentions": [
+    "A185982"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 8,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

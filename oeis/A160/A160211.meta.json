@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (933747 +224782*sqrt(2))/937^2.",
+  "id": "A160211",
+  "mentions": [
+    "A002193",
+    "A129974",
+    "A160209",
+    "A160210"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

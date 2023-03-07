@@ -1,0 +1,33 @@
+{
+  "description": "Characteristic function of numbers that have middle divisors.",
+  "id": "A347950",
+  "mentions": [
+    "A000035",
+    "A067742",
+    "A071090",
+    "A071562",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A240542",
+    "A281007",
+    "A299761",
+    "A303297",
+    "A348110",
+    "A348327",
+    "A348364"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations b of length n that satisfy the Diaconis-Graham inequality I_n(b) + EX_n(b) <= D_n(b) with equality.",
+  "id": "A301897",
+  "mentions": [
+    "A000045",
+    "A001006",
+    "A001519",
+    "A062869"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

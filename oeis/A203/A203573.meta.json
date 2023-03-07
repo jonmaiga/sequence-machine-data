@@ -1,0 +1,22 @@
+{
+  "description": "Bisection of A099924 (convolution of Lucas numbers); even arguments.",
+  "id": "A203573",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A099924",
+    "A203574"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:31:50",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

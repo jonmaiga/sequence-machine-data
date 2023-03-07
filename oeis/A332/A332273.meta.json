@@ -1,0 +1,30 @@
+{
+  "description": "Sizes of maximal weakly decreasing subsequences of A000002.",
+  "id": "A332273",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A013947",
+    "A013948",
+    "A088568",
+    "A156253",
+    "A288605",
+    "A296658",
+    "A329315",
+    "A329316",
+    "A329317",
+    "A329362",
+    "A332875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

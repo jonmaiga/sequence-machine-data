@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(n+1)/2 mod (sum (with multiplicity) of prime factors of n).",
+  "id": "A352996",
+  "mentions": [
+    "A000217",
+    "A001414",
+    "A352989",
+    "A352990",
+    "A352997"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 2,
+    "size": 96,
+    "source": "joeis"
+  }
+}

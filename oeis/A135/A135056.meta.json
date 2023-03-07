@@ -1,0 +1,19 @@
+{
+  "description": "Pentanacci numbers: a(n) = a(n-1) + a(n-2) + a(n-3) + a(n-4) + a(n-5) if n>=5, and a(n) = n otherwise.",
+  "id": "A135056",
+  "mentions": [
+    "A001591",
+    "A135055"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

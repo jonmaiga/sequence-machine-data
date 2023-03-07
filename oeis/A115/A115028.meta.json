@@ -1,0 +1,19 @@
+{
+  "description": "Special triangle sides and areas of triangles that transform as Weierstrass elliptic in structure based on the formula A=s*(s-a)*s-b)*(s-c): s=36.",
+  "id": "A115028",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

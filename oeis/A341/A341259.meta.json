@@ -1,0 +1,19 @@
+{
+  "description": "Number of 0's in n-th word defined at A341258.",
+  "id": "A341259",
+  "mentions": [
+    "A117479",
+    "A200649",
+    "A341258"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

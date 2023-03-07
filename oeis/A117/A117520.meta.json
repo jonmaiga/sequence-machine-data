@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers for which the digital root is also a triangular number.",
+  "id": "A117520",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

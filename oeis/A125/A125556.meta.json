@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime p = n*m + 1 that divides m^m - 1 for some m > 1.",
+  "id": "A125556",
+  "mentions": [
+    "A048861"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Starts of runs of 5 consecutive numbers that have an equal number of unitary and nonunitary divisors (A048109).",
+  "id": "A335399",
+  "mentions": [
+    "A000005",
+    "A034444",
+    "A048105",
+    "A048109",
+    "A335328",
+    "A335397",
+    "A335398"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

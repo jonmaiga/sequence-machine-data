@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = x/(x - B(x^2)) where B(x/A(x)) = x and B(x) is the g.f. of A141200.",
+  "id": "A178852",
+  "mentions": [
+    "A141200"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

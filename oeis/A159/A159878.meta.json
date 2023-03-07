@@ -1,0 +1,22 @@
+{
+  "description": "The digits of Pi whose spellings in English contain no i's.",
+  "id": "A159878",
+  "mentions": [
+    "A000796",
+    "A003077",
+    "A089589",
+    "A095763"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:39",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

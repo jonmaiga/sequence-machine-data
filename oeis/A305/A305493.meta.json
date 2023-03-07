@@ -1,0 +1,26 @@
+{
+  "description": "A binary encoding of the decimal representation of a number: for any number n >= 0, consider its decimal representation and replace each 9 with \"111111111\" and each other digit d with a \"0\" followed by d \"1\"s and interpret the result as a binary string.",
+  "id": "A305493",
+  "mentions": [
+    "A000120",
+    "A001202",
+    "A002275",
+    "A002450",
+    "A007953",
+    "A037308",
+    "A051885"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

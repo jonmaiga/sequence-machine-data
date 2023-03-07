@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5X5 nonnegative integer matrices with row and column i=1..5 having sum <= i*n",
+  "id": "A214014",
+  "mentions": [
+    "A214011"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

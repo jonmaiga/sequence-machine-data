@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: minimum inversion terminator in rooted labeled trees.",
+  "id": "A217877",
+  "mentions": [
+    "A000272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer m > 1 such that m^(n-1) == 1 (mod n).",
+  "id": "A105222",
+  "mentions": [
+    "A007535",
+    "A181780",
+    "A239452"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

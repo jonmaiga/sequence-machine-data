@@ -1,0 +1,20 @@
+{
+  "description": "Numbers x such that sigma(x) = sigma(y), with x<>y, where y is the 10's complement mod 10 of the digits of x.",
+  "id": "A300447",
+  "mentions": [
+    "A000203",
+    "A055120"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if A053669(n) [the smallest prime not dividing n] is of the form 4m+1, otherwise a(n) = 0.",
+  "id": "A353528",
+  "mentions": [
+    "A053669",
+    "A059841",
+    "A319691",
+    "A353488",
+    "A353526",
+    "A353529",
+    "A353530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

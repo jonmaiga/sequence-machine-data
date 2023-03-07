@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. B(x) = 4 + Integral A(x)*C(x) dx such that C(x)^2 - B(x)^2 = 9 and B(x)^2 - A(x)^2 = 7.",
+  "id": "A323564",
+  "mentions": [
+    "A323563",
+    "A323565",
+    "A323566",
+    "A323567",
+    "A323568",
+    "A323569"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

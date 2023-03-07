@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(sqrt(2*n)).",
+  "id": "A172471",
+  "mentions": [
+    "A000196",
+    "A003056",
+    "A005843",
+    "A103128"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

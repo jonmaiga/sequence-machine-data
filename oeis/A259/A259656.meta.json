@@ -1,0 +1,18 @@
+{
+  "description": "Let f(x) be the absolute value of the difference between x and its base-2 reversal. a(n) is the number of times f(x) must be applied starting with n for the result to be 0.",
+  "id": "A259656",
+  "mentions": [
+    "A055945"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

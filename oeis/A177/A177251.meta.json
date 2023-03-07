@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of [n] having no adjacent 3-cycles, i.e., no cycles of the form (i, i+1, i+2).",
+  "id": "A177251",
+  "mentions": [
+    "A000166",
+    "A008290",
+    "A177248",
+    "A177249",
+    "A177250",
+    "A177252",
+    "A177253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

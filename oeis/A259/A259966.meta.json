@@ -1,0 +1,21 @@
+{
+  "description": "Total binary weight (cf. A000120) of all A005251(n) binary sequences of length n not containing any isolated 1's.",
+  "id": "A259966",
+  "mentions": [
+    "A000120",
+    "A005251",
+    "A097230"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

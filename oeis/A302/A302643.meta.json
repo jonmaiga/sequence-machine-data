@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into two parts such that the positive difference of the parts is a squarefree semiprime.",
+  "id": "A302643",
+  "mentions": [
+    "A280710",
+    "A302604",
+    "A302642"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

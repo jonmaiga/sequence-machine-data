@@ -1,0 +1,19 @@
+{
+  "description": "Multiperfect numbers, sigma(n) = k*n, which are divisible by their sums of prime factors with and without repetition.",
+  "id": "A114888",
+  "mentions": [
+    "A091443",
+    "A114887"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

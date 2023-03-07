@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A063994(n) / A049559(n) = (1/gcd(n-1, phi(n))) * Product_{primes p dividing n} gcd(p-1, n-1).",
+  "id": "A318829",
+  "mentions": [
+    "A049559",
+    "A063994",
+    "A160595",
+    "A247074",
+    "A318828"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

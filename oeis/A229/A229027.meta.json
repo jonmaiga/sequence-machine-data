@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n/rad(n) equals the greatest prime dividing n.",
+  "id": "A229027",
+  "mentions": [
+    "A006530",
+    "A007947",
+    "A228957"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

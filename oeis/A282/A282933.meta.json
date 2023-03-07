@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write n as x^4 + y^2 + z^2 + w^2 with x,y,z nonnegative integers and w a positive integer such that 8*y^2 - 8*y*z + 9*z^2 is a square.",
+  "id": "A282933",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000583",
+    "A270969",
+    "A271518",
+    "A281976",
+    "A281977",
+    "A282013",
+    "A282014",
+    "A282494",
+    "A282495"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

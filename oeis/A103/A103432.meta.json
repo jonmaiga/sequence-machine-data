@@ -1,0 +1,17 @@
+{
+  "description": "Subsequence of the Gaussian primes, where only Gaussian primes a+bi with a>0, b>=0 are listed. Ordered by the norm N(a+bi)=a^2+b^2 and the size of the real part when the norms are equal. The sequence gives the imaginary parts. See A103431 for the real parts.",
+  "id": "A103432",
+  "mentions": [
+    "A103431"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

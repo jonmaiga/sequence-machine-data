@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: a(n,k) = number of partitions of an n-set into exactly k nonempty subsets, each of size <= 3.",
+  "id": "A111246",
+  "mentions": [
+    "A001680",
+    "A008277",
+    "A144385",
+    "A144402",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

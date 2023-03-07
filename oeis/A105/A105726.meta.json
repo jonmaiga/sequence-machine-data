@@ -1,0 +1,18 @@
+{
+  "description": "Involution of nonnegative integers. A deeply recursive variant of A056539.",
+  "id": "A105726",
+  "mentions": [
+    "A056539"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

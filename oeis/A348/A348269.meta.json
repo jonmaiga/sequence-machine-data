@@ -1,0 +1,20 @@
+{
+  "description": "A 5 X 5 pandiagonal magic square read by rows: the entries have digits which are only 0's and 1's and form a magic square in any base b >= 2.",
+  "id": "A348269",
+  "mentions": [
+    "A347911"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

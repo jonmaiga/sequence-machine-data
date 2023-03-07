@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3*n*(310*n^2 + 63*n - 12).",
+  "id": "A165809",
+  "mentions": [
+    "A165808"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:43",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

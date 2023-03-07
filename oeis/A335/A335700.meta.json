@@ -1,0 +1,18 @@
+{
+  "description": "A variant of A000179 and A102761.",
+  "id": "A335700",
+  "mentions": [
+    "A000179",
+    "A102761"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

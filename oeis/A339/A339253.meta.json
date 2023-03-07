@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the unique real nontrivial zero of the Fredholm series, i.e., the complex equation Sum_{k>=0} z^(2^k) = 0 (negated).",
+  "id": "A339253",
+  "mentions": [
+    "A007404",
+    "A036987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest integer >= n which has only prime factors 2 and 3.",
+  "id": "A134361",
+  "mentions": [
+    "A084788",
+    "A084789",
+    "A084790",
+    "A130916",
+    "A151969"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "2*A046854 - A000012 (signed by columns + - + -, ...).",
+  "id": "A131781",
+  "mentions": [
+    "A000012",
+    "A046854",
+    "A131779",
+    "A131780"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

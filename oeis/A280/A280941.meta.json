@@ -1,0 +1,21 @@
+{
+  "description": "Least integer k such that prime(k+1) - prime(k) = 2 and prime(k+2) - prime(k+1) = 2n, or 0 if no such k exists.",
+  "id": "A280941",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006512",
+    "A029707",
+    "A107770"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

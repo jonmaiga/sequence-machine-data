@@ -1,0 +1,29 @@
+{
+  "description": "Decimal repunits written in base 4.",
+  "id": "A353143",
+  "mentions": [
+    "A002275",
+    "A002450",
+    "A007090",
+    "A291962",
+    "A353142",
+    "A353144",
+    "A353145",
+    "A353146",
+    "A353147",
+    "A353148"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

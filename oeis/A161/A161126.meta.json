@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of involutions of {1,2,...,n} having k descents (n >= 1; 0 <= k < n).",
+  "id": "A161126",
+  "mentions": [
+    "A000085",
+    "A138177",
+    "A161125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

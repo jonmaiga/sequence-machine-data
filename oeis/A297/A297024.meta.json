@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the smaller parts of the partitions of n into two parts such that the smaller part does not divide the larger.",
+  "id": "A297024",
+  "mentions": [
+    "A296955"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

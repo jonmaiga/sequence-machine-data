@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 10^n + 109 is prime.",
+  "id": "A258933",
+  "mentions": [
+    "A258932"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

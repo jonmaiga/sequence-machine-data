@@ -1,0 +1,23 @@
+{
+  "description": "Largest side of integer-sided triangles whose sides a < b < c are in arithmetic progression.",
+  "id": "A336753",
+  "mentions": [
+    "A002264",
+    "A307136",
+    "A335896",
+    "A336750",
+    "A336751",
+    "A336754"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

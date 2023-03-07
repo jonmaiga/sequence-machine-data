@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct n-th rows in arrays whose columns are running modulus recurrence sequences.",
+  "id": "A208125",
+  "mentions": [
+    "A177356",
+    "A330411"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

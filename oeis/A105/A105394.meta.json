@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of sum of reciprocals of squares of Lucas numbers.",
+  "id": "A105394",
+  "mentions": [
+    "A000032",
+    "A001254",
+    "A079586",
+    "A093540",
+    "A105393",
+    "A153415"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

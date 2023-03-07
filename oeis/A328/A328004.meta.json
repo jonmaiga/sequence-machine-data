@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - Sum_{k>=1} binomial(2*k,k) * x^k / k!).",
+  "id": "A328004",
+  "mentions": [
+    "A000984",
+    "A075436",
+    "A308847",
+    "A328006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

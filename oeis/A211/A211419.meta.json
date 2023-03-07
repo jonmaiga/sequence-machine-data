@@ -1,0 +1,30 @@
+{
+  "description": "Integral factorial ratio sequence: a(n) = (6*n)!*(2*n)!/((4*n)!*(3*n)!*n!).",
+  "id": "A211419",
+  "mentions": [
+    "A000984",
+    "A001448",
+    "A061162",
+    "A061163",
+    "A091527",
+    "A100100",
+    "A182400",
+    "A211420",
+    "A211421",
+    "A262732",
+    "A262733",
+    "A262738"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

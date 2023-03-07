@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of arranging the numbers 1 through n on a circle so that no sum of two adjacent numbers is prime, up to rotations and reflections.",
+  "id": "A182540",
+  "mentions": [
+    "A051252",
+    "A073452",
+    "A191374"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

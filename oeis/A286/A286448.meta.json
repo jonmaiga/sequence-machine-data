@@ -1,0 +1,20 @@
+{
+  "description": "Restricted growth sequence computed for A252748 (= A003961(n) - 2*n).",
+  "id": "A286448",
+  "mentions": [
+    "A003961",
+    "A252748",
+    "A286449",
+    "A286450"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

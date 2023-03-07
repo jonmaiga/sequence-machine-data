@@ -1,0 +1,22 @@
+{
+  "description": "Coordinates X_lower(n) of P-positions in Maharaja Nim on square spiral (see Comments for precise definition).",
+  "id": "A307286",
+  "mentions": [
+    "A140100",
+    "A140101",
+    "A307282",
+    "A307283",
+    "A307284",
+    "A307287"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

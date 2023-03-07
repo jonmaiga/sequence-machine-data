@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 + 3 * Sum_{k=0..n-1} a(k) * a(n-k-1).",
+  "id": "A337167",
+  "mentions": [
+    "A000108",
+    "A005159",
+    "A007317",
+    "A162326",
+    "A337169",
+    "A338979",
+    "A340968"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

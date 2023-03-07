@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime p1 starting an n-tuple of consecutive primes p1, ..., pn of minimal span pn - p1, with first gap p2 - p1 = 4, such that the difference of the occurrence count of these n-tuples and the prediction by the first Hardy-Littlewood conjecture has its first sign change.",
+  "id": "A333587",
+  "mentions": [
+    "A023200",
+    "A065418",
+    "A333586"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^2 + 3, n^3 + 3, n^4 + 3, n^5 + 3, n^6 + 3 and n^7 + 3 are semiprime.",
+  "id": "A253907",
+  "mentions": [
+    "A001358",
+    "A108868",
+    "A242331",
+    "A253906"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

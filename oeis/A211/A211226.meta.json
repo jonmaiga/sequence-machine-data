@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array: T(n,k) = f(n)/(f(k)*f(n-k)), where f(n) = (floor(n/2))!.",
+  "id": "A211226",
+  "mentions": [
+    "A000166",
+    "A007318",
+    "A056040",
+    "A211227",
+    "A211228",
+    "A211229",
+    "A211230"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:35",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

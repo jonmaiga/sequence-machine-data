@@ -1,0 +1,22 @@
+{
+  "description": "Central diagonal and left half of table A054225 which counts the partitions of n objects of 2 colors.",
+  "id": "A131419",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A054225",
+    "A108464",
+    "A129306"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

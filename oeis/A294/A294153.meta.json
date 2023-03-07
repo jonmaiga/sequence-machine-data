@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k = a * b, such that k' = a' * b' where k', a' and b' are the arithmetic derivatives of k, a and b.",
+  "id": "A294153",
+  "mentions": [
+    "A003415",
+    "A046311",
+    "A165558"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

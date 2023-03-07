@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that a term with the largest coefficient in Product_{k=1..m} (1 + x^k) is unique.",
+  "id": "A350395",
+  "mentions": [
+    "A014601",
+    "A025591",
+    "A350393",
+    "A350394",
+    "A350396"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

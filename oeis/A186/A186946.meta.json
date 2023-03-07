@@ -1,0 +1,23 @@
+{
+  "description": "The smallest integer x > 0 such that the number of prime powers p^k (k>=1) in (x/2,x] equals n.",
+  "id": "A186946",
+  "mentions": [
+    "A000961",
+    "A080359",
+    "A080459",
+    "A186945",
+    "A228520",
+    "A228592"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

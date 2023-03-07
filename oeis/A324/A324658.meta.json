@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n - A324659(n), where A324659(n) is half of bitwise-AND of 2*n and sigma(n).",
+  "id": "A324658",
+  "mentions": [
+    "A000203",
+    "A004198",
+    "A318468",
+    "A324648",
+    "A324652",
+    "A324659"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

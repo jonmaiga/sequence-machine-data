@@ -1,0 +1,21 @@
+{
+  "description": "Table T(n,k) read by rows: number of compositions of n into k parts of size 1, 5, 10 or 25.",
+  "id": "A351726",
+  "mentions": [
+    "A351724",
+    "A351725"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

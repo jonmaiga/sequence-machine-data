@@ -1,0 +1,18 @@
+{
+  "description": "Let H(n) be the reduced fraction Sum_{i=1..n} 1/i. a(n) is the least factor of H(n)'s numerator or denominator that doesn't divide either part of any earlier H(m).",
+  "id": "A113571",
+  "mentions": [
+    "A001008",
+    "A110545"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

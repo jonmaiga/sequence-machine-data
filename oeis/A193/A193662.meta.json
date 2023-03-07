@@ -1,0 +1,19 @@
+{
+  "description": "Q-residue of the Lucas triangle A114525, where Q is the triangle given by t(i,j)=1 for 0<=i<=j. (See Comments.)",
+  "id": "A193662",
+  "mentions": [
+    "A114525",
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

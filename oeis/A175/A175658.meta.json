@@ -1,0 +1,26 @@
+{
+  "description": "Eight bishops and one elephant on a 3 X 3 chessboard: a(n) = 2*Pell(n+1)+2*Pell(n)-2^n, with Pell = A000129.",
+  "id": "A175658",
+  "mentions": [
+    "A000079",
+    "A000129",
+    "A033453",
+    "A078057",
+    "A094723",
+    "A175654",
+    "A175655",
+    "A291000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

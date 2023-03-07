@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the denominator of Sum_{d|n} sigma(n/d)^d/d, where sigma is A000203.",
+  "id": "A268982",
+  "mentions": [
+    "A000203",
+    "A267310",
+    "A268983"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

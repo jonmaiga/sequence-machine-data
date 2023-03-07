@@ -1,0 +1,17 @@
+{
+  "description": "a(k) such that A225267 column k of T(n,k) = 3*n*k^2 - a(k) for large n",
+  "id": "A225270",
+  "mentions": [
+    "A225267"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

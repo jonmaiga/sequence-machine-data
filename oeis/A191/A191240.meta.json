@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose binary digits are the concatenation of the first k bits in the concatenation of the bits of the primes.",
+  "id": "A191240",
+  "mentions": [
+    "A000079",
+    "A004676",
+    "A019518",
+    "A190480"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

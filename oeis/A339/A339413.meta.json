@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) = a(n-1) if c0 == c1; a(n) = a(n-1) - c0 if c0 > c1; a(n) = a(n - 1) + c1 if c1 > c0, where c0 and c1 are respectively the number of 0's and 1's in the binary expansion of n.",
+  "id": "A339413",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A268289"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

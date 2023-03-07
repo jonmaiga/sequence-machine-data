@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers n such that (sopf(n)*d(n))^2 = sigma(n) where sopf(n) = sum of prime factors of n and d(n) = number of divisors of n.",
+  "id": "A226480",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A006532",
+    "A008472",
+    "A126028",
+    "A226479"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

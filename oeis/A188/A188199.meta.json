@@ -1,0 +1,22 @@
+{
+  "description": "Base-8 Keith numbers.",
+  "id": "A188199",
+  "mentions": [
+    "A007629",
+    "A162724",
+    "A187713",
+    "A188195",
+    "A188200"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

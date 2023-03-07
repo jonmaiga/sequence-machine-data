@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps k to make g_k(n) converge to zero.",
+  "id": "A266203",
+  "mentions": [
+    "A266202"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Even composite positive integers m such that A052918(m-1)^2 == 1 (mod m).",
+  "id": "A338313",
+  "mentions": [
+    "A052918",
+    "A337235"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

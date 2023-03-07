@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having each digit once and whose square has each digit twice.",
+  "id": "A199630",
+  "mentions": [
+    "A050278",
+    "A114260",
+    "A199631",
+    "A199632",
+    "A199633"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

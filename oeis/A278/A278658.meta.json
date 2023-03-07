@@ -1,0 +1,20 @@
+{
+  "description": "Value of Margot's planetary discriminant Pi for n-th planet from the Sun.",
+  "id": "A278658",
+  "mentions": [
+    "A116448",
+    "A118652",
+    "A130788",
+    "A131500"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

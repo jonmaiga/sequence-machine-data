@@ -1,0 +1,24 @@
+{
+  "description": "Integer part of the height of an equilateral triangle with side length n.",
+  "id": "A171970",
+  "mentions": [
+    "A004526",
+    "A005843",
+    "A010527",
+    "A022838",
+    "A171971",
+    "A171972"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

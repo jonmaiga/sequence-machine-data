@@ -1,0 +1,23 @@
+{
+  "description": "Twisted variant of A276086.",
+  "id": "A328624",
+  "mentions": [
+    "A001222",
+    "A276086",
+    "A328625",
+    "A328627",
+    "A328628",
+    "A328630"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

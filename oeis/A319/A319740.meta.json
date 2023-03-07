@@ -1,0 +1,21 @@
+{
+  "description": "The 10-adic integer cube root of one eleventh (1/11), that is, satisfying 11 * x^3 == 1 (mod 10^n), for all n.",
+  "id": "A319740",
+  "mentions": [
+    "A225402",
+    "A225411",
+    "A225412"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

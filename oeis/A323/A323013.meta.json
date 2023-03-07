@@ -1,0 +1,24 @@
+{
+  "description": "Form of Zorach additive triangle T(n,k) (see A035312) where each number is sum of west and northwest numbers, with the additional condition that the first element T(n,1) is a Fibonacci number.",
+  "id": "A323013",
+  "mentions": [
+    "A000045",
+    "A002878",
+    "A033887",
+    "A035312",
+    "A036561",
+    "A048876",
+    "A117647"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = a(floor(n/2)) + (-1)^(n*(n+1)/2) with a(1)=0.",
+  "id": "A320042",
+  "mentions": [
+    "A000523",
+    "A000984",
+    "A007088",
+    "A092339"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

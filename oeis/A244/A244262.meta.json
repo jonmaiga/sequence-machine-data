@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of theta = 2.472548..., an auxiliary constant used to compute the best constant in Friedrichs' inequality in one dimension.",
+  "id": "A244262",
+  "mentions": [
+    "A244263"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

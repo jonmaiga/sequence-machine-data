@@ -1,0 +1,20 @@
+{
+  "description": "1+floor((2/3)*n^2).",
+  "id": "A194069",
+  "mentions": [
+    "A030511",
+    "A194070",
+    "A194071"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:09:11",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

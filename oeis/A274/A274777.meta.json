@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of arrangements of n circles in the affine plane forming k regions, excluding the regions that do not belong to the circles.",
+  "id": "A274777",
+  "mentions": [
+    "A249752",
+    "A250001",
+    "A252158",
+    "A261070",
+    "A274776",
+    "A274819",
+    "A274823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

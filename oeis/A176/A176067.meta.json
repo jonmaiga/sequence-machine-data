@@ -1,0 +1,24 @@
+{
+  "description": "Binary analog of A098755 and A098756: Binary representation of least available nonnegative integer with bit values alternating for entire sequence.",
+  "id": "A176067",
+  "mentions": [
+    "A007088",
+    "A020988",
+    "A098755",
+    "A098756",
+    "A163662"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:36:21",
+    "offset": -1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

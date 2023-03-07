@@ -1,0 +1,33 @@
+{
+  "description": "Number of pairwise coprime subsets of {1,...,n} of maximum cardinality (A036234).",
+  "id": "A319187",
+  "mentions": [
+    "A000005",
+    "A015614",
+    "A036234",
+    "A045948",
+    "A051424",
+    "A053707",
+    "A085945",
+    "A186971",
+    "A186972",
+    "A186974",
+    "A186994",
+    "A276187",
+    "A303139",
+    "A320423",
+    "A320426",
+    "A320436"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

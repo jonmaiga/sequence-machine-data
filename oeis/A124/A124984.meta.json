@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form 8*k + 3 generated recursively. Initial prime is 3. General term is a(n) = Min_{p is prime; p divides 2 + Q^2; p == 3 (mod 8)}, where Q is the product of previous terms in the sequence.",
+  "id": "A124984",
+  "mentions": [
+    "A000945",
+    "A007520",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208",
+    "A124993",
+    "A125037",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

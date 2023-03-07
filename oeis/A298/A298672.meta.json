@@ -1,0 +1,27 @@
+{
+  "description": "Number of ordered ways of writing n^3 as a sum of n positive cubes.",
+  "id": "A298672",
+  "mentions": [
+    "A000578",
+    "A030272",
+    "A232173",
+    "A259792",
+    "A290247",
+    "A291700",
+    "A298329",
+    "A298330",
+    "A298641",
+    "A298671"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

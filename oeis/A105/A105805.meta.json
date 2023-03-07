@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the Dyson's rank of the k-th partition of n in Abramowitz-Stegun order.",
+  "id": "A105805",
+  "mentions": [
+    "A000041",
+    "A036043",
+    "A049085",
+    "A105806",
+    "A119441",
+    "A209616",
+    "A330368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

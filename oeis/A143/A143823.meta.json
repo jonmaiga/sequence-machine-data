@@ -1,0 +1,33 @@
+{
+  "description": "Number of subsets {x(1),x(2),...,x(k)} of {1,2,...,n} such that all differences |x(i)-x(j)| are distinct.",
+  "id": "A143823",
+  "mentions": [
+    "A000079",
+    "A054578",
+    "A108917",
+    "A143824",
+    "A169942",
+    "A169947",
+    "A308251",
+    "A325676",
+    "A325677",
+    "A325679",
+    "A325683",
+    "A325858",
+    "A325860",
+    "A325864",
+    "A325876",
+    "A325879",
+    "A325992"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

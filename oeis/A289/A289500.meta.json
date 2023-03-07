@@ -1,0 +1,27 @@
+{
+  "description": "Number of primes in the interval [9n, 10n].",
+  "id": "A289500",
+  "mentions": [
+    "A035250",
+    "A038801",
+    "A289493",
+    "A289494",
+    "A289495",
+    "A289496",
+    "A289497",
+    "A289498",
+    "A289499"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

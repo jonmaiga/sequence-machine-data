@@ -1,0 +1,20 @@
+{
+  "description": "Number of e's in the English name of the n-th odd number.",
+  "id": "A191784",
+  "mentions": [
+    "A085513"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "dumb",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

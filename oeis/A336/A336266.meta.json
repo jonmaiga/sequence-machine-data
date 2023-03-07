@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (3/16)*Pi.",
+  "id": "A336266",
+  "mentions": [
+    "A019692",
+    "A122952",
+    "A180434",
+    "A197723",
+    "A259830"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:55",
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

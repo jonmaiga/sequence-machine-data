@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x * exp(2 * Sum_{k>=1} (-1)^k * A(x^k) / k).",
+  "id": "A345884",
+  "mentions": [
+    "A000151",
+    "A005753",
+    "A049075",
+    "A345885"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

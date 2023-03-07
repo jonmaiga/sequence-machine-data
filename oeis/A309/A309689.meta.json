@@ -1,0 +1,29 @@
+{
+  "description": "Number of even parts appearing among the second largest parts of the partitions of n into 3 parts.",
+  "id": "A309689",
+  "mentions": [
+    "A026923",
+    "A026927",
+    "A309683",
+    "A309684",
+    "A309685",
+    "A309686",
+    "A309687",
+    "A309688",
+    "A309690",
+    "A309692",
+    "A309694"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:39",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider the positive squares summing to n as obtained by the greedy algorithm; a(n) is the least of these squares.",
+  "id": "A350698",
+  "mentions": [
+    "A053610",
+    "A350674"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

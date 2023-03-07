@@ -1,0 +1,21 @@
+{
+  "description": "Least primitive weird number with n prime divisors, counting multiplicity.",
+  "id": "A258375",
+  "mentions": [
+    "A002975",
+    "A006037",
+    "A258374",
+    "A258882"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients for an expansion of the Schwarzian derivative of a power series.",
+  "id": "A263646",
+  "mentions": [
+    "A001787",
+    "A085750",
+    "A263916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

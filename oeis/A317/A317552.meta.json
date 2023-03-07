@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle where T(n,k) is the sum of coefficients in the expansion of p(y) in terms of Schur functions, where p is power-sum symmetric functions and y is the integer partition with Heinz number A215366(n,k).",
+  "id": "A317552",
+  "mentions": [
+    "A000085",
+    "A056239",
+    "A082733",
+    "A093641",
+    "A153452",
+    "A153734",
+    "A215366",
+    "A296188",
+    "A296561",
+    "A299699",
+    "A305940",
+    "A317554"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

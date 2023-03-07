@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers n>5 in the representation n=2*p+q, p, q prime, q minimal, at which a larger q than for any smaller n is needed. A194829 gives values of q.",
+  "id": "A194828",
+  "mentions": [
+    "A002091",
+    "A002092",
+    "A194829",
+    "A195353"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

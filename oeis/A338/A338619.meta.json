@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that among three consecutive terms there is exactly one pair of terms that are not coprime.",
+  "id": "A338619",
+  "mentions": [
+    "A084937",
+    "A098550",
+    "A338618"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

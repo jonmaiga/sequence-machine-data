@@ -1,0 +1,25 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+79)^2 = y^2.",
+  "id": "A118676",
+  "mentions": [
+    "A001652",
+    "A028871",
+    "A118337",
+    "A156035",
+    "A159758",
+    "A159759",
+    "A159760"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

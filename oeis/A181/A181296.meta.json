@@ -1,0 +1,22 @@
+{
+  "description": "The number of odd entries in all the 2-compositions of n.",
+  "id": "A181296",
+  "mentions": [
+    "A181295",
+    "A181297",
+    "A181298",
+    "A181302",
+    "A181305"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:23:24",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

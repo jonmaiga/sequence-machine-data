@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array (read by rows) containing the least n integers < 2n such that no integer divides another.",
+  "id": "A174063",
+  "mentions": [
+    "A174062",
+    "A174094"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers > 1, not powers of primes, for which A326147(n) is equal to abs(A326146(n).",
+  "id": "A326148",
+  "mentions": [
+    "A020639",
+    "A046666",
+    "A326064",
+    "A326074",
+    "A326146",
+    "A326147"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of length n+3 0..k arrays with some disjoint pairs in every consecutive four terms having the same sum",
+  "id": "A247533",
+  "mentions": [
+    "A060942",
+    "A212133"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

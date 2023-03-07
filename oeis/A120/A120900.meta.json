@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = C(x)*A(x^3*C(x)^4), where C(x) is the g.f. of the Catalan numbers (A000108).",
+  "id": "A120900",
+  "mentions": [
+    "A000108",
+    "A120898",
+    "A120899"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

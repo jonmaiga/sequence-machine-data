@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] with symmetric block size list of length k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A275281",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001700",
+    "A002623",
+    "A004525",
+    "A109613",
+    "A275282",
+    "A275283",
+    "A275289",
+    "A275290",
+    "A275291",
+    "A275292",
+    "A275293",
+    "A275294",
+    "A275295",
+    "A275296",
+    "A305197",
+    "A305198"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

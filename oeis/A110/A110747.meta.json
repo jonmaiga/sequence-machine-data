@@ -1,0 +1,18 @@
+{
+  "description": "Primes arising as the digitwise backward concatenation of terms of A110746.",
+  "id": "A110747",
+  "mentions": [
+    "A110746"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

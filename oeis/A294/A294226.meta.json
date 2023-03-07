@@ -1,0 +1,22 @@
+{
+  "description": "Length of period of continued fraction expansion of sqrt(3*2^n).",
+  "id": "A294226",
+  "mentions": [
+    "A003285",
+    "A007283",
+    "A059927",
+    "A064932",
+    "A293028"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

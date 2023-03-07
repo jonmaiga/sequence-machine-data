@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 2n+1 of type OO (see Comments).",
+  "id": "A236914",
+  "mentions": [
+    "A000041",
+    "A000701",
+    "A027187",
+    "A027193",
+    "A160786",
+    "A236559",
+    "A236913"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

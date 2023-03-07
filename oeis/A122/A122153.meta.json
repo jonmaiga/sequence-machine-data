@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Parity Prime Constant: Sum_{k>=1} (-1)^(k+1) * 1/(2^prime(k)).",
+  "id": "A122153",
+  "mentions": [
+    "A000720",
+    "A034765",
+    "A071986",
+    "A122150",
+    "A122151",
+    "A122152"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

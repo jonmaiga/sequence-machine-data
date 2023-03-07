@@ -1,0 +1,22 @@
+{
+  "description": "Gray code variant of A147582.",
+  "id": "A224512",
+  "mentions": [
+    "A000120",
+    "A003188",
+    "A005811",
+    "A147582",
+    "A224513"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

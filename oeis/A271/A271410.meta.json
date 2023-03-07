@@ -1,0 +1,21 @@
+{
+  "description": "LCM of exponents in binary expansion of 2n.",
+  "id": "A271410",
+  "mentions": [
+    "A029931",
+    "A064894",
+    "A073642",
+    "A096111",
+    "A116417"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

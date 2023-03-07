@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 15780962*n^2 - 5618000*n + 500001.",
+  "id": "A157762",
+  "mentions": [
+    "A157760",
+    "A157761"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

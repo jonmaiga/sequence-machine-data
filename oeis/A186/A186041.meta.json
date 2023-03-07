@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 3*k + 2, 5*k + 3, or 7*k + 4.",
+  "id": "A186041",
+  "mentions": [
+    "A016789",
+    "A016885",
+    "A017029",
+    "A053726",
+    "A104275"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:29:03",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

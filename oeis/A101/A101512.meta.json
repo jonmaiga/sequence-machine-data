@@ -1,0 +1,21 @@
+{
+  "description": "Decimal representation of the SinIntegral(2Pi).",
+  "id": "A101512",
+  "mentions": [
+    "A019669",
+    "A036792",
+    "A099281"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:43:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

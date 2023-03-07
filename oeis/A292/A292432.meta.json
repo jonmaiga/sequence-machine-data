@@ -1,0 +1,22 @@
+{
+  "description": "Number of normal multisets that cannot be expressed as the multiset-union of a set of sets.",
+  "id": "A292432",
+  "mentions": [
+    "A049311",
+    "A089259",
+    "A116540",
+    "A283877",
+    "A292444"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

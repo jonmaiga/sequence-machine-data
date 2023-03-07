@@ -1,0 +1,20 @@
+{
+  "description": "Let f(p, q) denote the pair (p + q, wt(p) + wt(q)); a(n) is obtained by iterating f starting at (n, 1) until p/q is an integer (and then a(n) is that integer), or if no integer is ever reached then a(n) = -1. (Here wt is binary weight, A000120.)",
+  "id": "A323275",
+  "mentions": [
+    "A000120",
+    "A059175",
+    "A323375"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Fermat pseudoprimes to bases 2 and 3 less than 10^n.",
+  "id": "A114246",
+  "mentions": [
+    "A052155"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (sqrt(29) + 1)/2.",
+  "id": "A223140",
+  "mentions": [
+    "A085551",
+    "A098318",
+    "A223141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:07",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

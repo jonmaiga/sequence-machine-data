@@ -1,0 +1,22 @@
+{
+  "description": "Number of closed knight's tour diagrams of a 3 X n chessboard that are symmetric with respect to left-right reflection about a vertical axis.",
+  "id": "A169765",
+  "mentions": [
+    "A070030",
+    "A169696",
+    "A169764",
+    "A169767",
+    "A169777"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 4,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "First differences of the Beatty sequence A001952 for 2 + sqrt(2).",
+  "id": "A276864",
+  "mentions": [
+    "A001952",
+    "A006337",
+    "A159684",
+    "A276882"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

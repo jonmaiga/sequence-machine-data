@@ -1,0 +1,25 @@
+{
+  "description": "Nonnegative integers that are the difference of two squares but not the sum of two squares.",
+  "id": "A263737",
+  "mentions": [
+    "A001481",
+    "A016825",
+    "A020668",
+    "A022544",
+    "A042965",
+    "A062316",
+    "A084109",
+    "A097269",
+    "A263715"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

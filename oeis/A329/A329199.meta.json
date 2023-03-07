@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = round(log_3(n)).",
+  "id": "A329199",
+  "mentions": [
+    "A000523",
+    "A004257",
+    "A029837",
+    "A062153",
+    "A329194"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:41",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

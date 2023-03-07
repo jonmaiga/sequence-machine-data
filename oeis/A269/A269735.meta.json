@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum_{k >= 0} x^(2^k)*(1-x^(2^k))/(1+x^(2^k)).",
+  "id": "A269735",
+  "mentions": [
+    "A187038",
+    "A268289"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

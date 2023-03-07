@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 2, a(n) = Min(n,a(n-1)) if gcd(n,a(n-1)) = 1, else a(n) = n + 2.",
+  "id": "A352962",
+  "mentions": [
+    "A000040",
+    "A201854"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

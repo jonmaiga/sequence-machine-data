@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation to A163361.",
+  "id": "A163362",
+  "mentions": [
+    "A163358",
+    "A163361"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

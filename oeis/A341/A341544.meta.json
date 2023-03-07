@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sqrt( Product_{j=1..n} Product_{k=1..4} (4*sin((2*j-1)*Pi/(2*n))^2 + 4*sin((2*k-1)*Pi/4)^2) ).",
+  "id": "A341544",
+  "mentions": [
+    "A341533"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:51:18",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

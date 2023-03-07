@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having a total of k double rises and double falls (n>=2,k>=0). A double rise (fall) in a bargraph is any pair of adjacent up (down) steps.",
+  "id": "A276066",
+  "mentions": [
+    "A023431",
+    "A025246",
+    "A082582",
+    "A273714"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where sequence a_k of column k is the exponential transform of C(n,k).",
+  "id": "A145460",
+  "mentions": [
+    "A000110",
+    "A000248",
+    "A007318",
+    "A029651",
+    "A133189",
+    "A143398",
+    "A145453",
+    "A145454",
+    "A145455",
+    "A145456",
+    "A145457",
+    "A145458",
+    "A145459",
+    "A292948"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

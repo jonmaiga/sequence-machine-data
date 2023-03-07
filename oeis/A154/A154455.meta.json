@@ -1,0 +1,28 @@
+{
+  "description": "Signature permutation of a Catalan bijection induced by generator \"b\" of the leftward recursing instance of Basilica group wreath recursion: a = (b,1), b = s(a,1).",
+  "id": "A154455",
+  "mentions": [
+    "A057163",
+    "A069767",
+    "A069770",
+    "A082345",
+    "A122327",
+    "A129612",
+    "A153141",
+    "A154445",
+    "A154449",
+    "A154451",
+    "A154453",
+    "A154456"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

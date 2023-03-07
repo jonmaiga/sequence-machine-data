@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that there are exactly n powerful numbers between k^2 and (k+1)^2.",
+  "id": "A119242",
+  "mentions": [
+    "A001694",
+    "A119241"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

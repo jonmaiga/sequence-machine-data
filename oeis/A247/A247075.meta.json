@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: x^2*G'(x)/G(x)^2, where G(x) satisfies G(x) = x*(1+log(1+G(x))).",
+  "id": "A247075",
+  "mentions": [
+    "A177380"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

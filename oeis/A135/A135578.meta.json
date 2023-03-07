@@ -1,0 +1,17 @@
+{
+  "description": "Not the sum of three distinct perfect powers (assuming 1, but not 0, is a perfect power).",
+  "id": "A135578",
+  "mentions": [
+    "A113505"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

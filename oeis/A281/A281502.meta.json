@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that the numerator of Bernoulli(2m) is divisible by 691.",
+  "id": "A281502",
+  "mentions": [
+    "A000928",
+    "A091216",
+    "A092221",
+    "A092229",
+    "A119864"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

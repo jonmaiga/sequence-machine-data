@@ -1,0 +1,19 @@
+{
+  "description": "Number of equivalence classes of 132-avoiding permutations of [n], where two permutations are equivalent if they have the same set of pure descents.",
+  "id": "A295704",
+  "mentions": [
+    "A005773",
+    "A152225"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

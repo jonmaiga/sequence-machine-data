@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A349937 that are not divisible by 3: numbers k > 1 not divisible by 2 or 3 such that A309906(k-1) < A309906(k) > A309906(k+1).",
+  "id": "A349941",
+  "mentions": [
+    "A000005",
+    "A309906",
+    "A349937"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

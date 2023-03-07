@@ -1,0 +1,22 @@
+{
+  "description": "Initial primes of 5 consecutive primes with consecutive gaps 8,6,4,2.",
+  "id": "A289907",
+  "mentions": [
+    "A078847",
+    "A153419",
+    "A190814",
+    "A190817",
+    "A190819",
+    "A190838"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of maximal transitive finitary sets with n brackets.",
+  "id": "A279863",
+  "mentions": [
+    "A001192",
+    "A004111",
+    "A276625",
+    "A279065",
+    "A279614",
+    "A279861"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

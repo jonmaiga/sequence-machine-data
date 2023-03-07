@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n that contain exactly two isolated singletons.",
+  "id": "A303588",
+  "mentions": [
+    "A303586",
+    "A303587"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

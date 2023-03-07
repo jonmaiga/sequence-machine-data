@@ -1,0 +1,19 @@
+{
+  "description": "2*a(n) is the first of 5 consecutive even numbers that are sums of divisors, i.e., terms of A000203.",
+  "id": "A342560",
+  "mentions": [
+    "A000203",
+    "A085790",
+    "A342555"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

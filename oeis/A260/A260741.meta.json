@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, for n > 1: a(n) = A255127(A260438(n), a(A260439(n))).",
+  "id": "A260741",
+  "mentions": [
+    "A000959",
+    "A003309",
+    "A250245",
+    "A250246",
+    "A255127",
+    "A260435",
+    "A260438",
+    "A260439",
+    "A260742"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

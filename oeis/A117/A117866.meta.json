@@ -1,0 +1,20 @@
+{
+  "description": "Number of palindromes (in base 7) below 7^n.",
+  "id": "A117866",
+  "mentions": [
+    "A050250"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

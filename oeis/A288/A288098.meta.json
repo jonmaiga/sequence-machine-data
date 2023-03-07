@@ -1,0 +1,24 @@
+{
+  "description": "Convolution inverse of A006171.",
+  "id": "A288098",
+  "mentions": [
+    "A006171",
+    "A060640",
+    "A107742",
+    "A288385",
+    "A288389",
+    "A288392"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

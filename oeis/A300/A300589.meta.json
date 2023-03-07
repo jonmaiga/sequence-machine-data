@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A300617(n) / (n*(n+1)/2) for n>=1.",
+  "id": "A300589",
+  "mentions": [
+    "A300616",
+    "A300617"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

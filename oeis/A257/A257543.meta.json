@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1 / (1 - x^5 - x^8 + x^9) in powers of x.",
+  "id": "A257543",
+  "mentions": [
+    "A104769",
+    "A233522",
+    "A247917",
+    "A247918"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

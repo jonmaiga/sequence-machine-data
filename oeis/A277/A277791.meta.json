@@ -1,0 +1,28 @@
+{
+  "description": "Denominator of sum of reciprocals of proper divisors of n.",
+  "id": "A277791",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A017665",
+    "A017666",
+    "A277790",
+    "A281086",
+    "A355003",
+    "A355694",
+    "A355815"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

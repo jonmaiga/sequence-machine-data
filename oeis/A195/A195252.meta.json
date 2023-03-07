@@ -1,0 +1,18 @@
+{
+  "description": "Number of lower triangles of a 6X6 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by two or less",
+  "id": "A195252",
+  "mentions": [
+    "A195248"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

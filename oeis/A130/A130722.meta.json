@@ -1,0 +1,22 @@
+{
+  "description": "The twice repeated nonnegative integers at even indices, the non-repeated nonnegative integers at odd indices.",
+  "id": "A130722",
+  "mentions": [
+    "A001477",
+    "A004526",
+    "A005044",
+    "A106466"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:17",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

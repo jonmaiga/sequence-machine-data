@@ -1,0 +1,19 @@
+{
+  "description": "Primes one less than the sum of the square of a prime and the cube of a prime.",
+  "id": "A217722",
+  "mentions": [
+    "A045699",
+    "A045700",
+    "A217734"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

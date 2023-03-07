@@ -1,0 +1,22 @@
+{
+  "description": "Binary digits, representing the rows of triangle A141728, written in base 10.",
+  "id": "A141734",
+  "mentions": [
+    "A141727",
+    "A141728",
+    "A141733",
+    "A141735",
+    "A141746"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

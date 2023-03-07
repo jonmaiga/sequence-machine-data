@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the upper bound of 1/Gamma(x) - x on the unit interval x = [0,1].",
+  "id": "A268895",
+  "mentions": [
+    "A082633",
+    "A268893",
+    "A268911"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": -1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

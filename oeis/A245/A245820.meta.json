@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of natural numbers induced when A245704 is restricted to {1} and binary codes for polynomials reducible over GF(2): a(1) = 1, a(n) = A062298(A245704(A091242(n-1))).",
+  "id": "A245820",
+  "mentions": [
+    "A014580",
+    "A036234",
+    "A062298",
+    "A091242",
+    "A245703",
+    "A245704",
+    "A245813",
+    "A245816",
+    "A245819"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

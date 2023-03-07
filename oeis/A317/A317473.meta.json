@@ -1,0 +1,17 @@
+{
+  "description": "Numbers missing from A317471.",
+  "id": "A317473",
+  "mentions": [
+    "A317471"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

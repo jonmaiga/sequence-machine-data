@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Least prime divisor of n with an odd exponent, or 1 if n is a perfect square.",
+  "id": "A277708",
+  "mentions": [
+    "A000290",
+    "A007913",
+    "A008578",
+    "A020639",
+    "A277698",
+    "A277707"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

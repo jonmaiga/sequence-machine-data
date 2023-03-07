@@ -1,0 +1,22 @@
+{
+  "description": "The number of down-up permutations of [n] where adjacent elements differ at least by 4.",
+  "id": "A249391",
+  "mentions": [
+    "A179957",
+    "A245377",
+    "A249390",
+    "A249392",
+    "A249393"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

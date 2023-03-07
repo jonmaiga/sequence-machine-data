@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} sigma_3(k)*sigma_5(n-k).",
+  "id": "A279888",
+  "mentions": [
+    "A001158",
+    "A001160",
+    "A013957",
+    "A279917"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

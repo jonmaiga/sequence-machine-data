@@ -1,0 +1,37 @@
+{
+  "description": "Earliest positive increasing sequence having no 6-term subsequence with constant second differences.",
+  "id": "A267303",
+  "mentions": [
+    "A003278",
+    "A005836",
+    "A005838",
+    "A020654",
+    "A020655",
+    "A020656",
+    "A020657",
+    "A020658",
+    "A020659",
+    "A020660",
+    "A020661",
+    "A020662",
+    "A020663",
+    "A020664",
+    "A240075",
+    "A240555",
+    "A240556",
+    "A240557",
+    "A267300",
+    "A267301",
+    "A267302"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

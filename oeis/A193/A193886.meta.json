@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the decimal form of the period of 1/n is semiprime (omit any trailing zeros from the period).",
+  "id": "A193886",
+  "mentions": [
+    "A001358",
+    "A060284"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

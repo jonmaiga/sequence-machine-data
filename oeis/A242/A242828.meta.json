@@ -1,0 +1,23 @@
+{
+  "description": "Primes formed by the initial digits of the decimal expansion of 1/17, starting at the first nonzero digit in the expansion.",
+  "id": "A242828",
+  "mentions": [
+    "A007450",
+    "A093676",
+    "A242824",
+    "A242826",
+    "A242827",
+    "A242833"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle T(n,k) is the number of times that prime(k) is the greatest part in a partition of n into prime parts; Triangle T(n,k), n>=0, 1 <= k <= max(1,A000720(A335285(n))), read by rows.",
+  "id": "A335106",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A000720",
+    "A025795",
+    "A029144",
+    "A059841",
+    "A103221",
+    "A140952",
+    "A140953",
+    "A331634",
+    "A333365",
+    "A335285"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Total number of nodes in all walks on cubic lattice starting at (0,0,0), ending at (0,n,n), remaining in the first (nonnegative) octant and using steps (0,0,1), (0,1,0), (1,0,0), (-1,1,1), (1,-1,1), and (1,1,-1).",
+  "id": "A328270",
+  "mentions": [
+    "A000225",
+    "A328269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

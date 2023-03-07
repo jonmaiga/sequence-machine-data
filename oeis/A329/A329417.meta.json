@@ -1,0 +1,17 @@
+{
+  "description": "Carmichael numbers m that have at least 3 prime factors p such that (p-1)*p^2 divides m-p.",
+  "id": "A329417",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "A sequence used in the touching circle problem described in A247512.",
+  "id": "A246643",
+  "mentions": [
+    "A049310",
+    "A246645",
+    "A247335",
+    "A247512"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

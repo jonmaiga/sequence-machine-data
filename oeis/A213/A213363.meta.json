@@ -1,0 +1,30 @@
+{
+  "description": "Total number of pairs of states of the first n subshells of the nuclear shell model in which the subshells are ordered by energy level in increasing order.",
+  "id": "A213363",
+  "mentions": [
+    "A018226",
+    "A210983",
+    "A212013",
+    "A212121",
+    "A212123",
+    "A212124",
+    "A213361",
+    "A213362",
+    "A213364",
+    "A213373"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

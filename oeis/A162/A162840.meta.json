@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the cube of the sum of digits of k equals the product of digits of k.",
+  "id": "A162840",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A034710",
+    "A117720",
+    "A118880"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

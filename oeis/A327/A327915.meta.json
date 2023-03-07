@@ -1,0 +1,24 @@
+{
+  "description": "The 59 prime dates of each leap year of the form concatenate(month,day) with leading zero for days 1..9.",
+  "id": "A327915",
+  "mentions": [
+    "A327346",
+    "A327347",
+    "A327348",
+    "A327349",
+    "A327914"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

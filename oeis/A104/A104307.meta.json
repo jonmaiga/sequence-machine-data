@@ -1,0 +1,20 @@
+{
+  "description": "Least maximum of differences between consecutive marks that can occur amongst all possible perfect rulers of length n.",
+  "id": "A104307",
+  "mentions": [
+    "A103294",
+    "A103300",
+    "A104308",
+    "A104310"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

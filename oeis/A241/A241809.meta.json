@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes sp such that sp+2 is a prime.",
+  "id": "A241809",
+  "mentions": [
+    "A001358",
+    "A062721",
+    "A063638",
+    "A107986"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

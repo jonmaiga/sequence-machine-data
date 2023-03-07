@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i|n, j|n, k|n} i*j*k/lcm(i,j,k).",
+  "id": "A344135",
+  "mentions": [
+    "A060724",
+    "A344132",
+    "A344133",
+    "A344134"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

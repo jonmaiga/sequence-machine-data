@@ -1,0 +1,18 @@
+{
+  "description": "Variant of Van Eck's sequence: Set a(1) = 1, a(2) = 0, a(3) = 1. Thereafter, a(n) is the minimum positive offset i from a(n-1) such that some partial sum a(n-1-i)+...+a(n-1-i+k) = a(n-1) (0 <= k < i).",
+  "id": "A334052",
+  "mentions": [
+    "A181391",
+    "A333210"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

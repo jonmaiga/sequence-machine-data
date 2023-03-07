@@ -1,0 +1,19 @@
+{
+  "description": "Sequence gives the Poincaré series [or Poincare series] of an ordinal Hodge algebra, or algebra with straightening law, for a ring that the braid group on four strands acts on. It is Cohen-Macaulay.",
+  "id": "A156231",
+  "mentions": [
+    "A053090"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:06:51",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer k such that the set of all n consecutive digits of k equals the set of 0 to 2^n-1 written as n-digit binary numbers.",
+  "id": "A327232",
+  "mentions": [
+    "A004086",
+    "A007088",
+    "A166315",
+    "A166316",
+    "A327233"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

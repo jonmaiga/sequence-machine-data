@@ -1,0 +1,36 @@
+{
+  "description": "Reverse the deltas of indices of distinct primes in the prime factorization of n.",
+  "id": "A242415",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000961",
+    "A001222",
+    "A006530",
+    "A049084",
+    "A051119",
+    "A053585",
+    "A061395",
+    "A067029",
+    "A069799",
+    "A112798",
+    "A122111",
+    "A153212",
+    "A225891",
+    "A241919",
+    "A242378",
+    "A242413",
+    "A242419"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

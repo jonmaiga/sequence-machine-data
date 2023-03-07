@@ -1,0 +1,23 @@
+{
+  "description": "Rows of the self-orthogonal Latin squares of order 8, lexicographically sorted.",
+  "id": "A279649",
+  "mentions": [
+    "A160368",
+    "A279648",
+    "A279650",
+    "A279849",
+    "A279850"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

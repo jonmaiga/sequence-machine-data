@@ -1,0 +1,23 @@
+{
+  "description": "Smallest odd prime dividing n is a(n)-th prime, or 0 if no such prime exists.",
+  "id": "A338101",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A000720",
+    "A020639",
+    "A055396",
+    "A078701"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of palindromic heptagonal numbers of length n whose index is also palindromic.",
+  "id": "A307791",
+  "mentions": [
+    "A000566",
+    "A054910",
+    "A054971",
+    "A059869",
+    "A307765",
+    "A307766"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

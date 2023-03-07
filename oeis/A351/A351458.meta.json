@@ -1,0 +1,35 @@
+{
+  "description": "Numbers k for which k * gcd(sigma(k), A276086(k)) is equal to sigma(k) * gcd(k, A276086(k)), where A276086 is the primorial base exp-function, and sigma gives the sum of divisors of its argument.",
+  "id": "A351458",
+  "mentions": [
+    "A000203",
+    "A005820",
+    "A006530",
+    "A007691",
+    "A007814",
+    "A007949",
+    "A046060",
+    "A064987",
+    "A276086",
+    "A323653",
+    "A324198",
+    "A324580",
+    "A324644",
+    "A327938",
+    "A349745",
+    "A351252",
+    "A351548",
+    "A351549"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

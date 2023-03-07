@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*|Lah(n, k)|. Binomial convolution of the unsigned Lah numbers A271703.",
+  "id": "A344051",
+  "mentions": [
+    "A111596",
+    "A271703",
+    "A344050"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

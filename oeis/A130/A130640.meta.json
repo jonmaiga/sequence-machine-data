@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that either 2^n+p(n) or 2^n-p(n) is prime, where p(n) denotes the n-th prime.",
+  "id": "A130640",
+  "mentions": [
+    "A077375",
+    "A078583"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

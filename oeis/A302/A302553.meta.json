@@ -1,0 +1,18 @@
+{
+  "description": "Hyper-4 powers that are not hyper-5 powers.",
+  "id": "A302553",
+  "mentions": [
+    "A257309",
+    "A257769"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

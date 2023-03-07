@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,m)= A141686(n,m)*(m-1)! read by rows, n>=1, 1<=m<=n.",
+  "id": "A177428",
+  "mentions": [
+    "A008292",
+    "A141686"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

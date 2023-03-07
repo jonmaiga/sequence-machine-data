@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of barred preferential arrangements of k things with n bars (k >=0, n >= 0).",
+  "id": "A226513",
+  "mentions": [
+    "A000670",
+    "A005563",
+    "A005649",
+    "A053492",
+    "A226514",
+    "A226515"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

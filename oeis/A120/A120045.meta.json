@@ -1,0 +1,24 @@
+{
+  "description": "The (10^n)-th 4-almost prime.",
+  "id": "A120045",
+  "mentions": [
+    "A006988",
+    "A014613",
+    "A114106",
+    "A114125",
+    "A120044",
+    "A120046"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

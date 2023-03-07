@@ -1,0 +1,30 @@
+{
+  "description": "Triangle I(m,n) read by rows: number of perfect lattice paths on the m*n board.",
+  "id": "A296449",
+  "mentions": [
+    "A000079",
+    "A001006",
+    "A001333",
+    "A002714",
+    "A005773",
+    "A057960",
+    "A081113",
+    "A126358",
+    "A126360",
+    "A126362",
+    "A188866"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

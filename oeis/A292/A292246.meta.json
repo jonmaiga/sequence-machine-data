@@ -1,0 +1,28 @@
+{
+  "description": "Base-2 expansion of a(n) encodes the steps where numbers of the form 3k+2 are encountered when map x -> A253889(x) is iterated down to 1, starting from x=n.",
+  "id": "A292246",
+  "mentions": [
+    "A000120",
+    "A004198",
+    "A064216",
+    "A253889",
+    "A254045",
+    "A289814",
+    "A291759",
+    "A292243",
+    "A292244",
+    "A292245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

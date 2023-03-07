@@ -1,0 +1,23 @@
+{
+  "description": "Value of (n+1,n) concatenated in binary representation.",
+  "id": "A277351",
+  "mentions": [
+    "A007088",
+    "A070939",
+    "A087737",
+    "A127423"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of proper multisets of nonempty words with a total of n letters over k-ary alphabet such that all k letters occur at least once in the multiset; triangle T(n,k), n>=2, 1<=k<=n-1, read by rows.",
+  "id": "A320264",
+  "mentions": [
+    "A006152",
+    "A047967",
+    "A257740",
+    "A319501",
+    "A320265"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

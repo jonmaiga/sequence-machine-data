@@ -1,0 +1,19 @@
+{
+  "description": "Term preceding the first zero in the Fibonacci numbers modulo n.",
+  "id": "A217036",
+  "mentions": [
+    "A001176",
+    "A001177"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

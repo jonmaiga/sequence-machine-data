@@ -1,0 +1,19 @@
+{
+  "description": "The number of bases not exceeding n+1 in which the expansion of n (i) has only digits <=9 and (ii) represents a prime if digits are concatenated/reinterpreted as decimals.",
+  "id": "A191350",
+  "mentions": [
+    "A191291",
+    "A191322"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The lowest number on Ulam Spiral for which all numbers in the square which is centered at a(n) and spans n-1 spaces in each cardinal direction are nonprime.",
+  "id": "A357376",
+  "mentions": [
+    "A000040",
+    "A115258",
+    "A136626",
+    "A225073"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

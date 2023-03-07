@@ -1,0 +1,34 @@
+{
+  "description": "Number of steps until the RADD sequence T(k+1) = n + R(T(k)), T(0) = 1, enters a cycle; -1 if no cycle is ever reached. (R=A004086: reverse digits)",
+  "id": "A117816",
+  "mentions": [
+    "A004086",
+    "A117230",
+    "A117521",
+    "A117800",
+    "A117817",
+    "A117828",
+    "A117841",
+    "A118517",
+    "A118525",
+    "A118526",
+    "A118527",
+    "A118528",
+    "A118529",
+    "A118530",
+    "A118531",
+    "A118532",
+    "A118533"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-entry"
+  }
+}

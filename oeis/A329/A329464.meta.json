@@ -1,0 +1,19 @@
+{
+  "description": "Poulet numbers (Fermat pseudoprimes to base 2) k such that sopfr(k) is also a Poulet number, where sopfr(k) is the sum of the primes dividing k with repetition (A001414).",
+  "id": "A329464",
+  "mentions": [
+    "A001414",
+    "A001567",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

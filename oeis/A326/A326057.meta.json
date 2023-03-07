@@ -1,0 +1,34 @@
+{
+  "description": "a(n) = gcd(A003961(n)-2n, A003961(n)-sigma(n)), where A003961(n) is fully multiplicative function with a(prime(k)) = prime(k+1).",
+  "id": "A326057",
+  "mentions": [
+    "A000203",
+    "A000360",
+    "A003961",
+    "A009194",
+    "A033879",
+    "A252748",
+    "A286385",
+    "A325385",
+    "A325813",
+    "A325975",
+    "A326046",
+    "A326047",
+    "A326048",
+    "A326056",
+    "A326060",
+    "A326062",
+    "A326134"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^A000325(n).",
+  "id": "A300361",
+  "mentions": [
+    "A000079",
+    "A000325",
+    "A300190",
+    "A300307"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

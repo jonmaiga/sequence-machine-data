@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are in A337381, but that have no proper divisor in A337381.",
+  "id": "A337543",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A091191",
+    "A337372",
+    "A337381",
+    "A337383",
+    "A337541",
+    "A337542"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

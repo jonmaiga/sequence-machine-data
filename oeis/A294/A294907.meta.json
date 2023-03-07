@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k such that exactly half of the prime(n+1)-rough numbers in the interval [prime(n)^2 + 1, k] are prime.",
+  "id": "A294907",
+  "mentions": [
+    "A005408",
+    "A007310",
+    "A007775",
+    "A008364"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

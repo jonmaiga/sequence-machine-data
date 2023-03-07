@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - q^k)^8/(1 - q^(7*k)) in powers of q.",
+  "id": "A282942",
+  "mentions": [
+    "A010815",
+    "A115110",
+    "A185654",
+    "A282937",
+    "A282941"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

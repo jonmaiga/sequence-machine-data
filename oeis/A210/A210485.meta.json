@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of parts in all partitions of n in which no part occurs more than k times; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A210485",
+  "mentions": [
+    "A000004",
+    "A006128",
+    "A015723",
+    "A117148",
+    "A185350",
+    "A213177",
+    "A286653",
+    "A320607",
+    "A320608",
+    "A320609",
+    "A320610",
+    "A320611",
+    "A320612",
+    "A320613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

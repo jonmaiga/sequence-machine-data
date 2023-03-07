@@ -1,0 +1,32 @@
+{
+  "description": "Maximal frequency depth for the partitions of n.",
+  "id": "A225486",
+  "mentions": [
+    "A008284",
+    "A011784",
+    "A116608",
+    "A181819",
+    "A182850",
+    "A182857",
+    "A225485",
+    "A323014",
+    "A323023",
+    "A325239",
+    "A325242",
+    "A325254",
+    "A325258",
+    "A325282",
+    "A325283"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

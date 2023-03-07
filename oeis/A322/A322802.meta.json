@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into centered hexagonal numbers (A003215).",
+  "id": "A322802",
+  "mentions": [
+    "A003215",
+    "A280863",
+    "A280953",
+    "A281084",
+    "A282502",
+    "A282504",
+    "A322798",
+    "A322801",
+    "A322803"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

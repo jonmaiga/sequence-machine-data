@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to place k non-attacking bishops on an n x n toroidal chessboard, summed over all k >= 0",
+  "id": "A215943",
+  "mentions": [
+    "A002720",
+    "A010790",
+    "A177755",
+    "A177759",
+    "A178140",
+    "A189789",
+    "A189790",
+    "A189791",
+    "A201862"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

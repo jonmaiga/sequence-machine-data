@@ -1,0 +1,20 @@
+{
+  "description": "Prime p such that 2^p + 21 is also prime.",
+  "id": "A175235",
+  "mentions": [
+    "A000040",
+    "A057201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

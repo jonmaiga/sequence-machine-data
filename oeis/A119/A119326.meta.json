@@ -1,0 +1,26 @@
+{
+  "description": "Number triangle T(n,k) = Sum_{j=0..n-k} C(k,2j)*C(n-k,2j).",
+  "id": "A119326",
+  "mentions": [
+    "A000124",
+    "A005448",
+    "A007318",
+    "A038504",
+    "A119327",
+    "A119328",
+    "A119358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

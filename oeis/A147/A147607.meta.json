@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f.: 1/((1 - 2*x^2 + x^4 + 2*x^6 - x^8)*(1 - 2*x^2 - x^4 + 2*x^6 - x^8)).",
+  "id": "A147607",
+  "mentions": [
+    "A122584",
+    "A147617"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

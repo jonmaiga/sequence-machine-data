@@ -1,0 +1,22 @@
+{
+  "description": "Number of (1,0)-steps at level 0 in all weighted lattice paths in L_n.",
+  "id": "A182895",
+  "mentions": [
+    "A000032",
+    "A002878",
+    "A010892",
+    "A057078",
+    "A182893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:40:52",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

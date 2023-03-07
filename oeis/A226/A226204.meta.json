@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the length (in meters) of the seconds pendulum, a pendulum whose period is two seconds at standard gravity.",
+  "id": "A226204",
+  "mentions": [
+    "A072915"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

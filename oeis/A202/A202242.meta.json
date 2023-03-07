@@ -1,0 +1,20 @@
+{
+  "description": "n such that the sum of digit !! of n equals the sum of d|n, 1",
+  "id": "A202242",
+  "mentions": [
+    "A006882",
+    "A048050"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

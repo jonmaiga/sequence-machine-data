@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(2*c-1, c-1) (mod c^4), where c is the n-th composite number.",
+  "id": "A298946",
+  "mentions": [
+    "A088164",
+    "A228562",
+    "A244214",
+    "A267824",
+    "A281302",
+    "A298944",
+    "A298945"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

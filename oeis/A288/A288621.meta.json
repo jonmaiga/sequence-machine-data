@@ -1,0 +1,20 @@
+{
+  "description": "Number of step shifted (decimated) sequence structures of length n using an infinite alphabet.",
+  "id": "A288621",
+  "mentions": [
+    "A056371",
+    "A056391",
+    "A288620",
+    "A288628"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the exponent of the highest power of 2 dividing the n-th Bell number.",
+  "id": "A337985",
+  "mentions": [
+    "A000110",
+    "A007814"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

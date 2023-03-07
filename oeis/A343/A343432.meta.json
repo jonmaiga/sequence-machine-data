@@ -1,0 +1,21 @@
+{
+  "description": "Sorted numbers of spanning trees in the graphs of the Archimedean solids.",
+  "id": "A343432",
+  "mentions": [
+    "A343209",
+    "A343213",
+    "A343433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "First 2-digit number to appear n times in the decimal expansion of e.",
+  "id": "A277270",
+  "mentions": [
+    "A001113",
+    "A195138",
+    "A276992",
+    "A290643",
+    "A290644"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

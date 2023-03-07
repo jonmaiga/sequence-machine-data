@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A099377(n) - n, where A099377(n) is the numerator of the harmonic mean of the divisors of n.",
+  "id": "A348510",
+  "mentions": [
+    "A099377",
+    "A250094",
+    "A348968",
+    "A348969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that psi(k^2) = k, psi = A002322; indices of 1 in A341857.",
+  "id": "A341858",
+  "mentions": [
+    "A002322",
+    "A014117",
+    "A229289",
+    "A341857"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least n-digit multiple of n such that the r-th digit is prime if r is a prime else it is composite. The location and value of the most significant digit is 1. 0 if no such number exists.",
+  "id": "A113572",
+  "mentions": [
+    "A113573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

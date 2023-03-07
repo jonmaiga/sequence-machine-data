@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that cycle under the following transformation: if m is even, divide by 2, if m is congruent to 1 mod 4, multiply by 3 and add 1; if m is congruent to 3 mod 4, multiply by 7 and add 1.",
+  "id": "A268338",
+  "mentions": [
+    "A005186",
+    "A006370",
+    "A006666",
+    "A232711",
+    "A267703",
+    "A267969",
+    "A267970"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

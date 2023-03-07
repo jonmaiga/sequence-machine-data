@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) = T(n, k-1) + k - 1 if digsum(T(n, k-1)) is already in the sequence, otherwise start a new row with T(n+1, 1) = digsum(T(n, k-1)); T(1, 1) = 1.",
+  "id": "A348575",
+  "mentions": [
+    "A000217",
+    "A007953",
+    "A348400",
+    "A348433",
+    "A348483",
+    "A349547",
+    "A349548",
+    "A349742"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

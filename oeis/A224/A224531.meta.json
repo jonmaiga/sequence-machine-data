@@ -1,0 +1,20 @@
+{
+  "description": "Triangle in which row n > 1 has the n values x such that phi(x) = A007374(n), We define the first row to be 0.",
+  "id": "A224531",
+  "mentions": [
+    "A007374",
+    "A066420",
+    "A224532"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

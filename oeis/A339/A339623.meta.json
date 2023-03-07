@@ -1,0 +1,20 @@
+{
+  "description": "Consider a square drawn on the perimeter of a square lattice with side length n. a(n) is the number of regions inside the square after drawing unit circles centered at each interior lattice point of the square.",
+  "id": "A339623",
+  "mentions": [
+    "A186862",
+    "A339609"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:47",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

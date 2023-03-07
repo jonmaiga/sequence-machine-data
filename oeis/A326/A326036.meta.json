@@ -1,0 +1,29 @@
+{
+  "description": "Number of uniform complete integer partitions of n.",
+  "id": "A326036",
+  "mentions": [
+    "A002033",
+    "A047966",
+    "A072774",
+    "A108917",
+    "A126796",
+    "A188431",
+    "A276024",
+    "A325781",
+    "A325791",
+    "A325988",
+    "A326020",
+    "A326035",
+    "A326037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

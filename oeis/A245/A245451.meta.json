@@ -1,0 +1,25 @@
+{
+  "description": "Self-inverse permutation of nonnegative integers, A075158-conjugate of gray code: a(n) = 1 + A075157(A003188(A075158(n-1))).",
+  "id": "A245451",
+  "mentions": [
+    "A003188",
+    "A075157",
+    "A075158",
+    "A122111",
+    "A241909",
+    "A241916",
+    "A245452",
+    "A245454"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^n in decimal has at least 8 of the digits 0-9 appearing a prime number times.",
+  "id": "A216872",
+  "mentions": [
+    "A216873"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nearest integer to log_2(n!).",
+  "id": "A258782",
+  "mentions": [
+    "A000142",
+    "A004257",
+    "A025201",
+    "A067850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which n-th row lists numbers of series-reduced trees realized by respective degree sequences in n-th row of A345970; n >= 4, 1 <= k <= A002865(n-2).",
+  "id": "A345971",
+  "mentions": [
+    "A000014",
+    "A002865",
+    "A250308",
+    "A345970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

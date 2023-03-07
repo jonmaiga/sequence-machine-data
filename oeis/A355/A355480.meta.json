@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of distinct, hexagonal-tiled regions after the n-th step of the walk described in A355478.",
+  "id": "A355480",
+  "mentions": [
+    "A174313",
+    "A211020",
+    "A233399",
+    "A355478",
+    "A355479"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

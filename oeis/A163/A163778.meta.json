@@ -1,0 +1,22 @@
+{
+  "description": "Odd terms in A054639.",
+  "id": "A163778",
+  "mentions": [
+    "A054639",
+    "A163777",
+    "A163779",
+    "A163780",
+    "A294434",
+    "A294673"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

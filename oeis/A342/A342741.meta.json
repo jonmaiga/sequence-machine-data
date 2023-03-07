@@ -1,0 +1,18 @@
+{
+  "description": "Positions of words in A341334 that end with 1.",
+  "id": "A342741",
+  "mentions": [
+    "A341334",
+    "A342740"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

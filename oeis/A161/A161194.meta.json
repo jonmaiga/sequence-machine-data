@@ -1,0 +1,23 @@
+{
+  "description": "Index of last term where no prime sums occur in A161190 in a 4 diagonal set of 24 terms.",
+  "id": "A161194",
+  "mentions": [
+    "A161190",
+    "A161191",
+    "A161192",
+    "A161193"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

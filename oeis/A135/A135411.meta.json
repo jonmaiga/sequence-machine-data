@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n with property that for each single digit d of n, we can also see the decimal expansion of d+2 as a substring of n.",
+  "id": "A135411",
+  "mentions": [
+    "A134439",
+    "A134692",
+    "A134948",
+    "A135015",
+    "A135016",
+    "A135463",
+    "A135495"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of A007504 divided by A033955, starting from the second term of A033955.",
+  "id": "A165660",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A033955",
+    "A033995",
+    "A102647",
+    "A165657",
+    "A165658",
+    "A165659"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-equitable permutations: permutations on n letters equally avoiding each permutation of S_3.",
+  "id": "A141473",
+  "mentions": [
+    "A000140"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the tetradecagonal numbers A051866.",
+  "id": "A275792",
+  "mentions": [
+    "A013661",
+    "A016627",
+    "A051866",
+    "A244641",
+    "A244645",
+    "A294512",
+    "A294834",
+    "A294835"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

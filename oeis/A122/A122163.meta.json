@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of f(-q)^2*P(q) in powers of q.",
+  "id": "A122163",
+  "mentions": [
+    "A006352",
+    "A010815"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

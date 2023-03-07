@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array E(n,k) counting not necessarily connected k-regular simple graphs on n vertices with girth at least 5.",
+  "id": "A185305",
+  "mentions": [
+    "A185205",
+    "A185315",
+    "A185325",
+    "A185335",
+    "A186715"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

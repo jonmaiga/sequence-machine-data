@@ -1,0 +1,23 @@
+{
+  "description": "Period in residues modulo n in iteration of x^2 + 1 starting at 0.",
+  "id": "A248218",
+  "mentions": [
+    "A001175",
+    "A003095",
+    "A247981",
+    "A248219",
+    "A256342",
+    "A256349"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

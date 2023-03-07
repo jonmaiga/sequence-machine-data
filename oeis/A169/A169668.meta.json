@@ -1,0 +1,22 @@
+{
+  "description": "The product of factorials s! where s belongs to the multiset of exponents of the Lie groups G=Br or G=Cr. Also 2^r times the classical Lie superfactorial of type Br ~ SO(2r+1). Also 2^{r(r-1)} times the Lie superfactorial of type Cr ~ Sp(2r).",
+  "id": "A169668",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A169657",
+    "A169667"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

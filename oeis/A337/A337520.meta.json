@@ -1,0 +1,23 @@
+{
+  "description": "Number of set partitions of [4n] into 4-element subsets {i, i+k, i+2k, i+3k} with 1<=k<=n.",
+  "id": "A337520",
+  "mentions": [
+    "A000566",
+    "A014307",
+    "A104430",
+    "A334250",
+    "A360333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

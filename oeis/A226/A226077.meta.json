@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1; a(n) = smallest positive integer not yet in the sequence, such that a(n) and a(n-1) have exactly one common 1-bit in their binary representations.",
+  "id": "A226077",
+  "mentions": [
+    "A000120",
+    "A109812",
+    "A115510",
+    "A209229",
+    "A226093"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

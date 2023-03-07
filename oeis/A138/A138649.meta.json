@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 6^n mod 5^n.",
+  "id": "A138649",
+  "mentions": [
+    "A002380",
+    "A064629",
+    "A138589",
+    "A138973",
+    "A139733",
+    "A139786"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A list of pairs of consecutive primes identified by the first in the pair. A number can be found between these two primes that divides the sum of all primes up to this prime.",
+  "id": "A130825",
+  "mentions": [
+    "A009560",
+    "A024011",
+    "A045345"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

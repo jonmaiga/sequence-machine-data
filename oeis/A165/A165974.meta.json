@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: floor(j^2 / p) for p prime and j = 1 to p-1.",
+  "id": "A165974",
+  "mentions": [
+    "A165993"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

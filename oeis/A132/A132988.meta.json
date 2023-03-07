@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k not occurring earlier such that k divides prime(n)+1.",
+  "id": "A132988",
+  "mentions": [
+    "A132989",
+    "A132990",
+    "A132991"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

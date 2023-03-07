@@ -1,0 +1,27 @@
+{
+  "description": "Primes of the form -2*x^2+4*x*y+5*y^2 (as well as of the form 10*x^2+16*x*y+5*y^2).",
+  "id": "A141191",
+  "mentions": [
+    "A038872",
+    "A038873",
+    "A038883",
+    "A038889",
+    "A068228",
+    "A141111",
+    "A141112",
+    "A141123",
+    "A141190",
+    "A243186",
+    "A243187"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

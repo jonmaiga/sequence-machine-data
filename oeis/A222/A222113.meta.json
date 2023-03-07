@@ -1,0 +1,20 @@
+{
+  "description": "Goodstein sequence starting with a(1) = 16: to calculate a(n) for n>1, subtract 1 from a(n-1) and write the result in the hereditary representation base n, then bump the base to n+1.",
+  "id": "A222113",
+  "mentions": [
+    "A211378",
+    "A222112",
+    "A222117"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

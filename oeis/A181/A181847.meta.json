@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k)= Sum_{c in C(n,k)}gcd(c) where C(n,k) is the set of all k-tuples of positive integers whose elements sum to n.",
+  "id": "A181847",
+  "mentions": [
+    "A007318",
+    "A034738",
+    "A065567",
+    "A065568",
+    "A181842",
+    "A327029"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

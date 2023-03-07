@@ -1,0 +1,18 @@
+{
+  "description": "In the decimal expansion of 2^n, the proper substring which is the largest power of 2 is 2^a(n); a(n) = -1 if no proper substring of 2^n is a power of 2.",
+  "id": "A352924",
+  "mentions": [
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

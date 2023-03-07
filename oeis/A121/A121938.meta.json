@@ -1,0 +1,27 @@
+{
+  "description": "Primes of the form (3^n + 5^n)/2^3 = A074606(n)/8.",
+  "id": "A121938",
+  "mentions": [
+    "A005058",
+    "A005059",
+    "A074606",
+    "A074706",
+    "A079773",
+    "A081186",
+    "A109347",
+    "A121824",
+    "A121877",
+    "A122853"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

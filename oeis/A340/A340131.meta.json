@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose ternary expansions have the same number of 1's and 2's and, in each prefix (initial fragment), at least as many 1's as 2's.",
+  "id": "A340131",
+  "mentions": [
+    "A039001",
+    "A134752",
+    "A168607",
+    "A244884"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

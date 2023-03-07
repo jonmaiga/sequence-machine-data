@@ -1,0 +1,28 @@
+{
+  "description": "Sum of proper divisors minus the number of proper divisors of n: a(n) = sigma(n) - n - d(n) + 1.",
+  "id": "A152770",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000203",
+    "A001065",
+    "A002808",
+    "A008578",
+    "A032741",
+    "A062249",
+    "A065608",
+    "A158901"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:49",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

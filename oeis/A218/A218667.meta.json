@@ -1,0 +1,24 @@
+{
+  "description": "O.g.f.: Sum_{n>=0} 1/(1-n*x)^n * x^n/n! * exp(-x/(1-n*x)).",
+  "id": "A218667",
+  "mentions": [
+    "A185040",
+    "A217900",
+    "A218668",
+    "A218669",
+    "A218670",
+    "A245110",
+    "A245111"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

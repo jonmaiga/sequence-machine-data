@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = a(n-1) + (digsum(a(n-1)) mod 5) + 1, digsum = A007953.",
+  "id": "A235915",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

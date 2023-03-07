@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row n lists the parts of the n-th shell of the table A182743.",
+  "id": "A182983",
+  "mentions": [
+    "A135010",
+    "A141285",
+    "A182733",
+    "A182743",
+    "A182980",
+    "A182982"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

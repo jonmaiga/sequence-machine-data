@@ -1,0 +1,19 @@
+{
+  "description": "Primes in the order that they appear in A280408, without repetitions.",
+  "id": "A280409",
+  "mentions": [
+    "A000040",
+    "A070165",
+    "A280408"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n and n + 4 are prime and there is a power of two in the interval (n,n+4).",
+  "id": "A221211",
+  "mentions": [
+    "A023200",
+    "A213210",
+    "A213677",
+    "A220746",
+    "A220951",
+    "A222219",
+    "A222227",
+    "A222424"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

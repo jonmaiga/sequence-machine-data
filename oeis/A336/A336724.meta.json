@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-step self-avoiding walks on the half-Manhattan square lattice.",
+  "id": "A336724",
+  "mentions": [
+    "A001411",
+    "A117633",
+    "A322419",
+    "A336705",
+    "A336742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (a(n-1)^2*a(n-2)^2 + 1)/a(n-3) with a(0)=a(1)=a(2)=1.",
+  "id": "A208209",
+  "mentions": [
+    "A005246",
+    "A208202",
+    "A208206",
+    "A208210",
+    "A208213"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

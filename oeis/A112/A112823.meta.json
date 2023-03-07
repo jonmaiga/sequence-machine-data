@@ -1,0 +1,21 @@
+{
+  "description": "Greatest p less than or equal to n with p and q both prime, p+q = 2n.",
+  "id": "A112823",
+  "mentions": [
+    "A000040",
+    "A002374",
+    "A020481",
+    "A047160"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:51:27",
+    "offset": 2,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Let f(x) be the absolute value of the difference between x and its base-2 reversal. Let g(x) be the number of times f(x) must be applied to x for the result to be 0. a(n) is the smallest value of x for which g(x) is n.",
+  "id": "A259658",
+  "mentions": [
+    "A030101",
+    "A055945"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

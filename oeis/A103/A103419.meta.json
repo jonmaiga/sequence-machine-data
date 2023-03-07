@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions of n in which the least part is odd.",
+  "id": "A103419",
+  "mentions": [
+    "A026804",
+    "A026805",
+    "A027187",
+    "A027193",
+    "A103420",
+    "A103422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

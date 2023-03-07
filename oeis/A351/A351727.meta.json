@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of e^^e (tetration of the base e = 2.718281828... of height e), using H. Kneser's proposal for a tetration function.",
+  "id": "A351727",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

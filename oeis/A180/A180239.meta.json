@@ -1,0 +1,19 @@
+{
+  "description": "a(n) counts the distinct billiard words with length n on alphabet of 4 symbols.",
+  "id": "A180239",
+  "mentions": [
+    "A005598",
+    "A180238"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

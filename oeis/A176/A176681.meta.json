@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^2 +-5 are primes.",
+  "id": "A176681",
+  "mentions": [
+    "A097698",
+    "A108701"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

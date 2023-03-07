@@ -1,0 +1,29 @@
+{
+  "description": "Array of iterated Landau-like functions, starting maximization of LCM from the partition {1+1+...+1} of n, read downwards antidiagonals.",
+  "id": "A225630",
+  "mentions": [
+    "A000012",
+    "A000793",
+    "A002262",
+    "A003418",
+    "A025581",
+    "A225627",
+    "A225628",
+    "A225629",
+    "A225631",
+    "A225632",
+    "A225634",
+    "A225640"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

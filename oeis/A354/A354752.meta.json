@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Stirling1(n,k) * k! * n^(n-k).",
+  "id": "A354752",
+  "mentions": [
+    "A006252",
+    "A094420",
+    "A317171",
+    "A317172",
+    "A331690",
+    "A349731",
+    "A352074",
+    "A354237",
+    "A354750",
+    "A354751"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

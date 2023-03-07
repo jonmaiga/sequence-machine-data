@@ -1,0 +1,22 @@
+{
+  "description": "Let p = n-th prime == 3 mod 4; a(n) = (sum of quadratic nonresidues mod p) - (sum of quadratic residues mod p).",
+  "id": "A282037",
+  "mentions": [
+    "A076409",
+    "A125615",
+    "A171555",
+    "A282035",
+    "A282036",
+    "A282038"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

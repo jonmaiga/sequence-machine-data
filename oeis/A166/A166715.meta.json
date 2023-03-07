@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n lists nonzero quadratic residues modulo the n-th term of A123239.",
+  "id": "A166715",
+  "mentions": [
+    "A046071",
+    "A063987",
+    "A123239"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

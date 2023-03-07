@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of constant A071873.",
+  "id": "A257875",
+  "mentions": [
+    "A071873"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

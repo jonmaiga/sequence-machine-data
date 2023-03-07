@@ -1,0 +1,19 @@
+{
+  "description": "Cubes of the successive terms of the decimal expansion of Pi.",
+  "id": "A261197",
+  "mentions": [
+    "A000796",
+    "A072448"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

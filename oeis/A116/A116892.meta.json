@@ -1,0 +1,23 @@
+{
+  "description": "Values of gcd(k!+1, k^k+1), when greater than 1.",
+  "id": "A116892",
+  "mentions": [
+    "A014566",
+    "A038507",
+    "A067658",
+    "A116891",
+    "A116893",
+    "A116894"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

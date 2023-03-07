@@ -1,0 +1,19 @@
+{
+  "description": "Number of broken alternating permutations of n things.",
+  "id": "A302691",
+  "mentions": [
+    "A000111",
+    "A145876"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

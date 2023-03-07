@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points of permutations A252001 and A252002.",
+  "id": "A252078",
+  "mentions": [
+    "A252001",
+    "A252002",
+    "A252079"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

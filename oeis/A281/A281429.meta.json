@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: C(x) + S(x) = exp( Integral C(x)^4 dx ) where C(x) and S(x) is described by A281428 and A281427, respectively.",
+  "id": "A281429",
+  "mentions": [
+    "A281427",
+    "A281428"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

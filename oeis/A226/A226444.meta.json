@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using 1 X 1 squares and L-tiles; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A226444",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A002478",
+    "A066864",
+    "A105262",
+    "A219737",
+    "A219738",
+    "A219739",
+    "A219740",
+    "A219741",
+    "A226543",
+    "A226544",
+    "A228285",
+    "A322494"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "\"Station-keeping Collatz numbers\": a(n) is the smallest even number whose Collatz ('3x+1') trajectory, after its initial step downward, is directed back toward its starting value at each of its next n steps.",
+  "id": "A304363",
+  "mentions": [
+    "A006370",
+    "A070165"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

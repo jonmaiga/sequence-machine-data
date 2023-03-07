@@ -1,0 +1,19 @@
+{
+  "description": "The number of unordered partitions {a, b} of n such that a or b is composite and the other is prime.",
+  "id": "A224712",
+  "mentions": [
+    "A062602",
+    "A224708"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

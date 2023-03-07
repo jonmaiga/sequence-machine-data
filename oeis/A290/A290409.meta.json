@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the real part of the solution of z = (i+z)^i in C (i is the imaginary unit).",
+  "id": "A290409",
+  "mentions": [
+    "A272875",
+    "A272876",
+    "A272877",
+    "A290408",
+    "A290410"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

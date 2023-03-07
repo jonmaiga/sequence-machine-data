@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of permutation A126313/A126314.",
+  "id": "A127306",
+  "mentions": [
+    "A126312",
+    "A126313",
+    "A126314",
+    "A127278"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

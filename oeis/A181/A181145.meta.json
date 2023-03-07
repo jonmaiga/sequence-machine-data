@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} [Sum_{k=0..2n} C(2n,k)^2*y^k]*x^n/n ) = Sum_{n>=0,k=0..2n} T(n,k)*x^n*y^k, as a triangle of coefficients T(n,k) read by rows.",
+  "id": "A181145",
+  "mentions": [
+    "A001263",
+    "A034870",
+    "A066357",
+    "A181143",
+    "A181144",
+    "A181146"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

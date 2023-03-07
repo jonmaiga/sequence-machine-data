@@ -1,0 +1,22 @@
+{
+  "description": "Maximal coefficient of (1 + x) * (1 + x^3) * (1 + x^6) * ... * (1 + x^(n*(n+1)/2)).",
+  "id": "A359348",
+  "mentions": [
+    "A000217",
+    "A024940",
+    "A025591",
+    "A158380",
+    "A160235"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose largest decimal digit is 6.",
+  "id": "A283609",
+  "mentions": [
+    "A007088",
+    "A011539",
+    "A054055",
+    "A106096",
+    "A277964",
+    "A277965",
+    "A277966",
+    "A283608",
+    "A283610",
+    "A283611"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with property that there exists a number d>0 such that numbers p-k*d, k=1...6, are six primes.",
+  "id": "A216468",
+  "mentions": [
+    "A094383",
+    "A215895",
+    "A216495",
+    "A216497",
+    "A216498"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

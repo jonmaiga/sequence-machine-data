@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct (unordered) pairs of partitions of an 11-element set that have Rand distance n.",
+  "id": "A192104",
+  "mentions": [
+    "A192098",
+    "A192100",
+    "A192102",
+    "A192103"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

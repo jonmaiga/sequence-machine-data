@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: (1+44*x+339*x^2+630*x^3+323*x^4+42*x^5+x^6)/(1-x)^7.",
+  "id": "A160835",
+  "mentions": [
+    "A160747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

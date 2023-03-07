@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table of conjectured indices of Fibonacci numbers with exactly n 0-bits in their binary representation.",
+  "id": "A222757",
+  "mentions": [
+    "A004685",
+    "A222601",
+    "A222602",
+    "A222758"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

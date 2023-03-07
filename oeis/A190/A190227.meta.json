@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [n*u + n*v] - [n*u] - [n*v], where u=sin(Pi/5), v=cos(Pi/5), and []=floor.",
+  "id": "A190227",
+  "mentions": [
+    "A190228",
+    "A190229"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 131,
+    "source": "oeis-bfile"
+  }
+}

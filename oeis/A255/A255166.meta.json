@@ -1,0 +1,26 @@
+{
+  "description": "Difference after n generations between the total number of single toothpicks in the I-toothpick structure of A160164 and the total number of ON cells in the \"Ulam-Warburton\" two-dimensional cellular automaton of A147562.",
+  "id": "A255166",
+  "mentions": [
+    "A000012",
+    "A011782",
+    "A126645",
+    "A139250",
+    "A147562",
+    "A160164",
+    "A169707",
+    "A170903"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

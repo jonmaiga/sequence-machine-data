@@ -1,0 +1,20 @@
+{
+  "description": "Union of triangular numbers, even squares, and one less the odd squares, without duplicates.",
+  "id": "A109441",
+  "mentions": [
+    "A000217",
+    "A016742",
+    "A033996",
+    "A120722"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

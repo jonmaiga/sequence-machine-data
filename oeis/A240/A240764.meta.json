@@ -1,0 +1,28 @@
+{
+  "description": "Least k such that prime power factorization of A240751(k)! contains p^k when the smallest such p equals prime(n), or a(n)=0 if there is no such k.",
+  "id": "A240764",
+  "mentions": [
+    "A240537",
+    "A240606",
+    "A240619",
+    "A240620",
+    "A240668",
+    "A240669",
+    "A240670",
+    "A240672",
+    "A240695",
+    "A240751",
+    "A240755"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

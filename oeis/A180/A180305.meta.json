@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1/(1 + x*d/dx log(eta(x))), where eta(x) is Dedekind's eta(q) function without the q^(1/24) factor.",
+  "id": "A180305",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A184363",
+    "A319083"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

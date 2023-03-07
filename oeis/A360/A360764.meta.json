@@ -1,0 +1,28 @@
+{
+  "description": "Number T(n,k) of sets of nonempty strict integer partitions with a total of k parts and total sum of n; triangle T(n,k), n>=0, 0<=k<=max(i:T(n,i)>0), read by rows.",
+  "id": "A360764",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A008289",
+    "A050342",
+    "A052928",
+    "A055884",
+    "A057427",
+    "A330462",
+    "A360742",
+    "A360763"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

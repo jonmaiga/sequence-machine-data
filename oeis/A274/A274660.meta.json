@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the divisors d of 2*n+1 (A274658), given the sign (-1)^(n + (d-1)/2).",
+  "id": "A274660",
+  "mentions": [
+    "A099774",
+    "A228443",
+    "A274658"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

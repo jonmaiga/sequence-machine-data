@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of gamma_3, a lattice sum constant, analog of Euler's constant for 3-dimensional lattices.",
+  "id": "A247277",
+  "mentions": [
+    "A247042",
+    "A247043",
+    "A247046"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

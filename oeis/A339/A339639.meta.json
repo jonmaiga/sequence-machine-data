@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of the Wieferich and Wall-Sun-Sun residues of prime(n).",
+  "id": "A339639",
+  "mentions": [
+    "A001220",
+    "A113650",
+    "A196202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

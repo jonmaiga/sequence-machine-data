@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of J = 2*log(2)/3 - Re(Psi(1/2 + i*sqrt(3)/2)), where Psi is the digamma function and i=sqrt(-1).",
+  "id": "A339135",
+  "mentions": [
+    "A001620",
+    "A097663",
+    "A097676",
+    "A257958",
+    "A257959",
+    "A268046",
+    "A268086",
+    "A338815",
+    "A339237"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

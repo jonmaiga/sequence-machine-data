@@ -1,0 +1,19 @@
+{
+  "description": "Number x = concat(MSD(x),b), where MSD = A000030 stands for Most Significant Digit, such that MSD(x)*b is equal to the reverse of x.",
+  "id": "A267939",
+  "mentions": [
+    "A000030",
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

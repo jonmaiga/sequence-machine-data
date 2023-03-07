@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in the power series A(x) such that: x*A(x)^4 = Sum_{n=-oo..+oo} (-1)^n * x^(n*(n+1)/2) * A(x)^n.",
+  "id": "A357208",
+  "mentions": [
+    "A355361",
+    "A357206",
+    "A357207",
+    "A357209"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

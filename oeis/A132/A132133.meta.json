@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-digit \"Punctual Birds\" (cf. A131881).",
+  "id": "A132133",
+  "mentions": [
+    "A033307",
+    "A116700",
+    "A117804",
+    "A131881",
+    "A132131",
+    "A132132"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

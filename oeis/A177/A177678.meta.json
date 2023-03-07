@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic primes p = q//r//q such that q and r are also palindromic primes.",
+  "id": "A177678",
+  "mentions": [
+    "A002385",
+    "A176465"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

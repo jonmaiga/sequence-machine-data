@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least positive k such that A028916(n) - k^2 is a fourth power.",
+  "id": "A331435",
+  "mentions": [
+    "A000583",
+    "A002331",
+    "A028916",
+    "A331521",
+    "A331522",
+    "A331523",
+    "A331524",
+    "A331525",
+    "A331526",
+    "A331527"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

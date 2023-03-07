@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to tile an n X 1 strip with 1 X 1 squares and 2 X 1 dominoes with the restriction that no three consecutive tiles are of the same type.",
+  "id": "A137200",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:50:16",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

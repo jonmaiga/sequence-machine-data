@@ -1,0 +1,20 @@
+{
+  "description": "a(n)/2 is the smallest possible area of a non-obtuse triangle with coordinates in Z^2 and no side shorter than sqrt(n).",
+  "id": "A344710",
+  "mentions": [
+    "A001481",
+    "A344845"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

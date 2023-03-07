@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of 4 0..n integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements.",
+  "id": "A215191",
+  "mentions": [
+    "A215190"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:27",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

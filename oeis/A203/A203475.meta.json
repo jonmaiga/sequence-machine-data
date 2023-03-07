@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} (i^2 + j^2).",
+  "id": "A203475",
+  "mentions": [
+    "A000290",
+    "A093883",
+    "A202768",
+    "A203476",
+    "A272244",
+    "A323755"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:15:43",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

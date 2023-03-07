@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer k such that prime(k*n)+2 = prime(i*n)*prime(j*n) for some 0 < i < j.",
+  "id": "A257926",
+  "mentions": [
+    "A000040",
+    "A109611",
+    "A257928",
+    "A257938"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

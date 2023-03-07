@@ -1,0 +1,20 @@
+{
+  "description": "The least integer with cost n, using the cost function used in sequence A354914.",
+  "id": "A355015",
+  "mentions": [
+    "A354914"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

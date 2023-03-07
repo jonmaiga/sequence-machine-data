@@ -1,0 +1,23 @@
+{
+  "description": "A generalized recursion triangle sequence : m=1; t(n,k)=(k + m - 1)*t(n - 1, k, m) + (m*n - k + 1 - m)*t(n - 1, k - 1, m).",
+  "id": "A156184",
+  "mentions": [
+    "A008517",
+    "A054090",
+    "A054091",
+    "A156141"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

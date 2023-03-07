@@ -1,0 +1,21 @@
+{
+  "description": "First n-digit number to occur in Van Eck's Sequence (A181391).",
+  "id": "A358168",
+  "mentions": [
+    "A181391",
+    "A358180"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

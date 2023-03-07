@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2. Thereafter a(n) is least novel m satisfying: 1. If i = a(n-2) and j = a(n-1) are closed, choose m closed to i and open to j. 2. If i and j are open, choose m closed to h = a(n-3) and open to i + j, unless such a solution does not exist, in which case the constraint that m is closed to h is dropped, leaving a(n) as least novel m open to i + j. See comments.",
+  "id": "A358488",
+  "mentions": [
+    "A007947",
+    "A098550",
+    "A358534"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

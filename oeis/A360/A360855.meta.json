@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of triangles in the rook graph K_m X K_n.",
+  "id": "A360855",
+  "mentions": [
+    "A000292",
+    "A007290",
+    "A060354",
+    "A286418",
+    "A288961",
+    "A360853"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

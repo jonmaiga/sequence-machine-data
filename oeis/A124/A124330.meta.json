@@ -1,0 +1,21 @@
+{
+  "description": "a(n)= ((d(n) mod phi(n)) +1)th positive integer which is coprime to n, where phi(n) is number of positive integers which are <= n and are coprime to n and d(n) is the number of positive divisors of n.",
+  "id": "A124330",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A124218",
+    "A124331"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

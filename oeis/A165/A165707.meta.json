@@ -1,0 +1,18 @@
+{
+  "description": "Range and record values of A165706.",
+  "id": "A165707",
+  "mentions": [
+    "A003592",
+    "A165706"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

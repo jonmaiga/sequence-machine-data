@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = ceiling(n^4/4).",
+  "id": "A131478",
+  "mentions": [
+    "A000982",
+    "A004526",
+    "A007590",
+    "A008619",
+    "A036487",
+    "A058919",
+    "A131479"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

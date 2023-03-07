@@ -1,0 +1,18 @@
+{
+  "description": "A sequence of rounded numbers useful for entering values over several orders of magnitude in computer-human interfaces, with 10 values per order of magnitude.",
+  "id": "A292275",
+  "mentions": [
+    "A231848"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 20,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

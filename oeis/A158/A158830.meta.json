@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows n>=1, where row n is the n-th differences of column n of array A158825, where the g.f. of row n of A158825 is the n-th iteration of x*Catalan(x).",
+  "id": "A158830",
+  "mentions": [
+    "A000108",
+    "A122888",
+    "A122890",
+    "A122892",
+    "A158825"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

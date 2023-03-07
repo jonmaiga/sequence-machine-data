@@ -1,0 +1,18 @@
+{
+  "description": "Value of all prime numbers p after applying the rule: sigma_n( sigma_n-1( ... sigma_3( sigma_2( sigma_1( sigma_0(p) )))...)) (from sigma_0 up to sigma_n), where sigma_k(m) is the sum of the k-th powers of the divisors of m and p is prime (the choice of the prime p is arbitrary).",
+  "id": "A351775",
+  "mentions": [
+    "A070239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

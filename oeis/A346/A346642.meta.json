@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{j=1..n} Sum_{i=1..j} j^3*i^3.",
+  "id": "A346642",
+  "mentions": [
+    "A000537",
+    "A001296",
+    "A060493",
+    "A347107"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

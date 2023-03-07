@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4th power nonresidues modulo n.",
+  "id": "A257302",
+  "mentions": [
+    "A052273",
+    "A095972",
+    "A257301",
+    "A257303"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

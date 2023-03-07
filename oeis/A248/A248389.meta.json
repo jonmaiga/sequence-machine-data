@@ -1,0 +1,17 @@
+{
+  "description": "Terms in A247665 that are less than the previous term.",
+  "id": "A248389",
+  "mentions": [
+    "A247665"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

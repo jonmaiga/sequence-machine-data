@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can't be represented as the sum of two squares, two triangular numbers, or a square and a triangular number.",
+  "id": "A264101",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A014134",
+    "A020757",
+    "A022544",
+    "A264118"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

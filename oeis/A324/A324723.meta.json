@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that bitor(2*k, sigma(k)) == 2k, where k = A156552(n).",
+  "id": "A324723",
+  "mentions": [
+    "A156552",
+    "A323243",
+    "A324722",
+    "A324726"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

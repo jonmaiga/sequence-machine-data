@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Fibonacci(n) - p, where p is the largest prime < Fibonacci(n).",
+  "id": "A202090",
+  "mentions": [
+    "A000045",
+    "A049711"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 5,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

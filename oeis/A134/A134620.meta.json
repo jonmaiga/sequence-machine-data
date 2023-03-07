@@ -1,0 +1,29 @@
+{
+  "description": "Numbers such that the sum of 4th power of their prime factors is a prime.",
+  "id": "A134620",
+  "mentions": [
+    "A001597",
+    "A025475",
+    "A134333",
+    "A134344",
+    "A134376",
+    "A134600",
+    "A134602",
+    "A134605",
+    "A134608",
+    "A134612",
+    "A134616",
+    "A134618",
+    "A134621"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

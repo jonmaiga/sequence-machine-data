@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1 + x/(1 + x^3/(1 + x^4/(1 + x^7/(1 + x^11/(1 + ... + x^Lucas(k)/(1 + ...))))))), a continued fraction.",
+  "id": "A294922",
+  "mentions": [
+    "A000204",
+    "A007325",
+    "A206741",
+    "A206742",
+    "A206743",
+    "A279586"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

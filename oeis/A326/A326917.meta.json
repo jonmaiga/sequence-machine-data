@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative numbers of the form 8*T(x) - T(y) with 0 <= x, 0 <= y, where T() denotes a triangular number.",
+  "id": "A326917",
+  "mentions": [
+    "A000217",
+    "A016754",
+    "A175035"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

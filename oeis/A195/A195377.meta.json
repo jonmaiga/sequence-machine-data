@@ -1,0 +1,21 @@
+{
+  "description": "2.5-gap primes: Prime p is a term if there is no prime between 2.5*p and 2.5*q, where q is the next prime after p.",
+  "id": "A195377",
+  "mentions": [
+    "A164294",
+    "A194658",
+    "A195270",
+    "A195271",
+    "A195325"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

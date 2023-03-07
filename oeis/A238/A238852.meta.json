@@ -1,0 +1,32 @@
+{
+  "description": "Right-truncatable, reversible primes in base 100.",
+  "id": "A238852",
+  "mentions": [
+    "A007500",
+    "A023107",
+    "A024770",
+    "A237600",
+    "A237601",
+    "A237602",
+    "A238850",
+    "A238851",
+    "A238853",
+    "A238854",
+    "A238855",
+    "A238856",
+    "A238857"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

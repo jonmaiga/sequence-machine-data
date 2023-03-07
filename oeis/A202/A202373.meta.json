@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X5 binary arrays avoiding patterns 001 and 111 in rows and columns",
+  "id": "A202373",
+  "mentions": [
+    "A202378"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

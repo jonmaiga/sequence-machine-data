@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes whose binary and ternary representations are prime when read in decimal.",
+  "id": "A279052",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007089",
+    "A036952",
+    "A065720",
+    "A236365",
+    "A236537"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

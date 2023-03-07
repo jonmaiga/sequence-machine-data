@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of ks that make primorial P(n)/A019565(k)-A019565(k) prime.",
+  "id": "A103788",
+  "mentions": [
+    "A002110",
+    "A019565",
+    "A103785",
+    "A103786",
+    "A103787"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

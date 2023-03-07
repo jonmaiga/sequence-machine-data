@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^2 is a sum of three distinct positive cubes.",
+  "id": "A165455",
+  "mentions": [
+    "A000040",
+    "A024975",
+    "A161992",
+    "A165454"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

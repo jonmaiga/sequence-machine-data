@@ -1,0 +1,22 @@
+{
+  "description": "Number of main classes of centrally symmetric diagonal Latin squares of order n.",
+  "id": "A340545",
+  "mentions": [
+    "A287764",
+    "A293777",
+    "A293778",
+    "A340550"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

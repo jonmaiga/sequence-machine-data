@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows: row n consists of the coefficients in the expansion of the polynomial (x^2 + 4*x + 3)*(x + 1)^(2*n) + (x^2 - 1)*(x^2 + 3*x + 3).",
+  "id": "A316989",
+  "mentions": [
+    "A002412",
+    "A004171",
+    "A016921",
+    "A093560",
+    "A099721",
+    "A137396",
+    "A173247",
+    "A244730",
+    "A299989",
+    "A300184",
+    "A300192",
+    "A300401",
+    "A300453",
+    "A300454",
+    "A316659"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

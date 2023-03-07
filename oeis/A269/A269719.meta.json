@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose arithmetic derivative is equal to the sum of some fixed power of their digits.",
+  "id": "A269719",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

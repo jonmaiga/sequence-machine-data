@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - Sum_{k>=1} q(k)*x^k/k!), where q(k) = number of partitions of k into distinct parts (A000009).",
+  "id": "A324237",
+  "mentions": [
+    "A000009",
+    "A266232",
+    "A300514",
+    "A304969",
+    "A324236"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

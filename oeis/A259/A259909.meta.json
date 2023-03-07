@@ -1,0 +1,26 @@
+{
+  "description": "n-th Wieferich prime to base prime(n), i.e., primes p such that p is the n-th solution of the congruence (prime(n))^(p-1) == 1 (mod p^2).",
+  "id": "A259909",
+  "mentions": [
+    "A001220",
+    "A014127",
+    "A123692",
+    "A123693",
+    "A128667",
+    "A174422",
+    "A178871"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of 2n into exactly 2n nonnegative parts with largest part n.",
+  "id": "A318161",
+  "mentions": [
+    "A180281",
+    "A318160"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

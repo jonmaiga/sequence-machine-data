@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients of mock modular form H_1^(7) of type 1A.",
+  "id": "A256056",
+  "mentions": [
+    "A256055"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of multisets of nonempty words over binary alphabet where each letter occurs n times.",
+  "id": "A360626",
+  "mentions": [
+    "A055375",
+    "A359962",
+    "A360638"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

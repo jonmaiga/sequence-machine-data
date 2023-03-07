@@ -1,0 +1,22 @@
+{
+  "description": "Dividend associated with A116536.",
+  "id": "A159578",
+  "mentions": [
+    "A002110",
+    "A036844",
+    "A051838",
+    "A116536"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

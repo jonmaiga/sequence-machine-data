@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which A242719(n) = (prime(n) + 2)^2 + 1.",
+  "id": "A247011",
+  "mentions": [
+    "A006512",
+    "A062326",
+    "A242719",
+    "A242720",
+    "A246748",
+    "A246824"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A003557(k)-1 either divides A326143(k) [= A001065(k) - A007947(k)], or both are zero. Numbers k such that gcd(A336551(k), A326143(k)) is equal to A336551(k).",
+  "id": "A336552",
+  "mentions": [
+    "A001065",
+    "A003557",
+    "A007947",
+    "A326143",
+    "A336550",
+    "A336551",
+    "A336553"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

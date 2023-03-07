@@ -1,0 +1,18 @@
+{
+  "description": "P-defects p - N(p) of the congruence y^2 + x*y + y == x^3 + x^2 - 10*x - 10 (mod p) for primes p,where N(p) is the number of solutions given for p = prime(n) by A275742(n).",
+  "id": "A275745",
+  "mentions": [
+    "A275742"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

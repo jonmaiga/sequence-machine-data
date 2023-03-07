@@ -1,0 +1,18 @@
+{
+  "description": "The number of partial isometries (of an n-chain) of fix zero (fix of alpha = 0)). Equivalently, the number of partial derangement isometries (of an n-chain).",
+  "id": "A183159",
+  "mentions": [
+    "A183158"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:13:22",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

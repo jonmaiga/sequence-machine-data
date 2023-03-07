@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers n for which sigma(n^2) == 3 (mod 4) and sigma(n^2) > 2*n^2.",
+  "id": "A325312",
+  "mentions": [
+    "A000196",
+    "A174830",
+    "A324909",
+    "A325311"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

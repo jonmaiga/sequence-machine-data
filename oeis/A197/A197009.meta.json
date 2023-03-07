@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the slope of the line y=mx which meets the curve y=cos(x+1) orthogonally over the interval [0, 2*Pi] (as in A197006).",
+  "id": "A197009",
+  "mentions": [
+    "A179378",
+    "A196996",
+    "A197000",
+    "A197002",
+    "A197006"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

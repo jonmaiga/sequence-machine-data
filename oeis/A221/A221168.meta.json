@@ -1,0 +1,21 @@
+{
+  "description": "The infinite generalized Fibonacci word p^[4].",
+  "id": "A221168",
+  "mentions": [
+    "A221166",
+    "A221167",
+    "A221169",
+    "A221170",
+    "A221171"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

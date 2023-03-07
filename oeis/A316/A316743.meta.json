@@ -1,0 +1,24 @@
+{
+  "description": "Discriminants of imaginary fields whose class group has exponent 2, negated.",
+  "id": "A316743",
+  "mentions": [
+    "A003644",
+    "A014602",
+    "A014603",
+    "A133288",
+    "A192322",
+    "A305416"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

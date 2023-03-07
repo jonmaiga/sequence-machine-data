@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = numerator of n/(n+11).",
+  "id": "A106612",
+  "mentions": [
+    "A026741",
+    "A051176",
+    "A051724",
+    "A060789",
+    "A060791",
+    "A060819",
+    "A106608",
+    "A106611",
+    "A106614",
+    "A106621",
+    "A109052",
+    "A137564"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

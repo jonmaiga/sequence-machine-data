@@ -1,0 +1,17 @@
+{
+  "description": "Integers not in A218852.",
+  "id": "A218980",
+  "mentions": [
+    "A218852"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

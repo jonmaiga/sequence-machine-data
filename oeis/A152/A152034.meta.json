@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = largest n-digit prime p whose reversal is a prime q > p.",
+  "id": "A152034",
+  "mentions": [
+    "A006567",
+    "A152014",
+    "A152033"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

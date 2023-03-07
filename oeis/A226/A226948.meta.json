@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle: T(n,k) is the number of partitions in each run of strictly increasing numbers of 2 X 2 squares in the list of partitions of an n X n square lattice into squares, considering only the list of parts. The sorting order for the list of partitions is ascending with larger squares taking higher precedence.",
+  "id": "A226948",
+  "mentions": [
+    "A002522",
+    "A034295",
+    "A226947"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

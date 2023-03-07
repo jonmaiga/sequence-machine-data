@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the radius of the smallest circle tangent to the x axis and to the curve y=-cos(4x) at points (x,y), (-x,y).",
+  "id": "A197029",
+  "mentions": [
+    "A196022",
+    "A196027",
+    "A196028",
+    "A197026"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

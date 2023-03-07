@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that each digit from 0 to 9 appears at least 7 times in the digits of their divisors.",
+  "id": "A175507",
+  "mentions": [
+    "A059436"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

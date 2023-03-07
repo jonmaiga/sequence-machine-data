@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the concatenation of the odd-indexed terms equals the concatenation of the even-indexed terms.",
+  "id": "A329127",
+  "mentions": [
+    "A197124"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

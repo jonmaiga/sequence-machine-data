@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the (conjectured) largest even number that can be expressed as the sum of two distinct primes in exactly n ways.",
+  "id": "A352305",
+  "mentions": [
+    "A000954",
+    "A038609",
+    "A061357",
+    "A077914",
+    "A077969",
+    "A078299",
+    "A080854",
+    "A080862",
+    "A087747",
+    "A117929",
+    "A212613"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

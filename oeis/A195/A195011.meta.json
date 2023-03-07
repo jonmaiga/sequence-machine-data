@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,m) = number of vector partitions of n in S with crank m counted according to the weight w_1.",
+  "id": "A195011",
+  "mentions": [
+    "A000041",
+    "A092269",
+    "A195012",
+    "A195820"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

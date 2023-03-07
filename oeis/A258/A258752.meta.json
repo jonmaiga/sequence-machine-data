@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Ls_6(Pi), the value of the 6th basic generalized log-sine integral at Pi.",
+  "id": "A258752",
+  "mentions": [
+    "A258749",
+    "A258750",
+    "A258751",
+    "A258753",
+    "A258754"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

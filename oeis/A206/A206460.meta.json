@@ -1,0 +1,18 @@
+{
+  "description": "Number of 0..n arrays of length n+6 avoiding the consecutive pattern 0..n",
+  "id": "A206460",
+  "mentions": [
+    "A206455"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Diagonal of the rational function of six variables 1/((1 - w - u v - u v w) * (1 - z - x y)).",
+  "id": "A268555",
+  "mentions": [
+    "A000984",
+    "A001850",
+    "A268545"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

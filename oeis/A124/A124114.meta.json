@@ -1,0 +1,17 @@
+{
+  "description": "Subsequence of primes in sequence b(n) = 2*prime(n) - prime(n+1) + 2 (A124115).",
+  "id": "A124114",
+  "mentions": [
+    "A124115"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

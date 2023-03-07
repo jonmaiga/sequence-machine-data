@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are palindromic in bases 3, 9 and 27.",
+  "id": "A308832",
+  "mentions": [
+    "A259386",
+    "A319584"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

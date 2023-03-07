@@ -1,0 +1,23 @@
+{
+  "description": "Excess of numbers that are not squarefree.",
+  "id": "A275699",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A013929",
+    "A046660",
+    "A136141",
+    "A229099"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

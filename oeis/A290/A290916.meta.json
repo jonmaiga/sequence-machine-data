@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/8)*A290915(n).",
+  "id": "A290916",
+  "mentions": [
+    "A000027",
+    "A290890",
+    "A290915"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

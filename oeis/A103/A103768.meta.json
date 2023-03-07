@@ -1,0 +1,20 @@
+{
+  "description": "(29*3^n - 18(n + 3)*2^n + 6n^2 + 24n + 27)/12.",
+  "id": "A103768",
+  "mentions": [
+    "A078341",
+    "A095151"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:07:34",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

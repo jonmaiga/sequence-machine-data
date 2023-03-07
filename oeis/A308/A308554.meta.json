@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=1} tau(k)*(exp(x) - 1)^k/k!, where tau = number of divisors (A000005).",
+  "id": "A308554",
+  "mentions": [
+    "A000005",
+    "A160399",
+    "A308555"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

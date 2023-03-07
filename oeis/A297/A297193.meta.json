@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: rows are partial alternating sums of rows of A297191.",
+  "id": "A297193",
+  "mentions": [
+    "A007401",
+    "A008288",
+    "A089165",
+    "A089383",
+    "A297191",
+    "A297194"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

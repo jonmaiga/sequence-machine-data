@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k such that (2n)^(2^k) + 1 is a prime; a(n) = -1 if a prime (2n)^(2^k) + 1 is unknown, or = -2 if impossible.",
+  "id": "A228101",
+  "mentions": [
+    "A056993",
+    "A070265",
+    "A079706",
+    "A084712",
+    "A126032"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

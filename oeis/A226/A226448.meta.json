@@ -1,0 +1,23 @@
+{
+  "description": "Composite squarefree numbers k such that the ratios (k - 1/2)/(p - 1/2) are integers for each prime p dividing k.",
+  "id": "A226448",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225720",
+    "A226020",
+    "A226111",
+    "A226114",
+    "A226364"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

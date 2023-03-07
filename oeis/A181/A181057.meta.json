@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that Sum_{k=1..n} (-1)^(n-k) *phi(2*k) is prime.",
+  "id": "A181057",
+  "mentions": [
+    "A000010",
+    "A062570"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

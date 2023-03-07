@@ -1,0 +1,26 @@
+{
+  "description": "Middle values in trios of products of 5 distinct primes.",
+  "id": "A248204",
+  "mentions": [
+    "A066509",
+    "A093550",
+    "A192203",
+    "A248201",
+    "A248202",
+    "A248203",
+    "A259349",
+    "A259350",
+    "A259801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

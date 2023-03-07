@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(m,n) = number of unstable threshold functions (the function u_{0,1}(m,n) of Alekseyev et al. 2015) for m >= n >= 2.",
+  "id": "A332363",
+  "mentions": [
+    "A331781",
+    "A332350",
+    "A332352",
+    "A332364"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

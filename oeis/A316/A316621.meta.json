@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form x^2 + 9*x*y + y^2, 0 <= x <= y.",
+  "id": "A316621",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A003136",
+    "A031363",
+    "A084916",
+    "A242663",
+    "A243172",
+    "A243174",
+    "A243188"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

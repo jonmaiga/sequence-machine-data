@@ -1,0 +1,17 @@
+{
+  "description": "A term in this sequence a(n) is such that n and n+1 have isomorphic factor decomposition binary trees.",
+  "id": "A242466",
+  "mentions": [
+    "A125508"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

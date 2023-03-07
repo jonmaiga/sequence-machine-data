@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n coprime to 3 such that there exists an (n-1)-digit ternary number wherein each substring is indivisible by n.",
+  "id": "A114879",
+  "mentions": [
+    "A114880",
+    "A114908",
+    "A114909",
+    "A114910",
+    "A114911",
+    "A114922",
+    "A114942",
+    "A114943",
+    "A114944"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

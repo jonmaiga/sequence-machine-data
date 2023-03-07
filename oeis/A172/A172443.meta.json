@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with exactly 64 divisors.",
+  "id": "A172443",
+  "mentions": [
+    "A067885"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

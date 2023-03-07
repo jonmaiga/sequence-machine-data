@@ -1,0 +1,21 @@
+{
+  "description": "Cipolla pseudoprimes to base 3: (9^p-1)/8 for any odd prime p.",
+  "id": "A210461",
+  "mentions": [
+    "A002452",
+    "A005935",
+    "A065091",
+    "A210454",
+    "A217853"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

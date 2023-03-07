@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0. For n>1, a(n+1) = the minimum positive m such that the concatenation of the decimal values [a(n-m),a(n-m+1),...,a(n-m+k)] equals a(n) for some k>=0; a(n+1) = a(n) + 1 if no such m exists.",
+  "id": "A333358",
+  "mentions": [
+    "A001704",
+    "A007908",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

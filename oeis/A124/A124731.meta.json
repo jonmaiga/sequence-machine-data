@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, row sums = powers of 3, companion to A124730.",
+  "id": "A124731",
+  "mentions": [
+    "A124730",
+    "A124732"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

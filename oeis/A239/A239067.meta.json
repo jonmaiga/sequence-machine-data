@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: row n lists the smallest positive ideal symmetric multigrade of degree n, or 2n+2 zeros if none.",
+  "id": "A239067",
+  "mentions": [
+    "A239066",
+    "A239068"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number with exactly n representations as a sum of seven nonnegative squares.",
+  "id": "A295752",
+  "mentions": [
+    "A025422",
+    "A295494"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

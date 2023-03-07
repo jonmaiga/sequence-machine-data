@@ -1,0 +1,17 @@
+{
+  "description": "Number of integers k < n whose Collatz (3x+1) trajectory contains n.",
+  "id": "A222617",
+  "mentions": [
+    "A070165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

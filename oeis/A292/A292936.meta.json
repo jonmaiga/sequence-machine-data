@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = the least k >= 0 such that floor(n/(2^k)) is a nonprime; a(n) is degree of the \"safeness\" of prime, 0 if n is not a prime, 1 for unsafe primes (A059456), and k >= 2 for primes that are (k-1)-safe but not k-safe.",
+  "id": "A292936",
+  "mentions": [
+    "A000040",
+    "A005385",
+    "A007814",
+    "A059456",
+    "A066179",
+    "A078349",
+    "A157358",
+    "A157359",
+    "A292599",
+    "A292937"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

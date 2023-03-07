@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Baxter's four-coloring constant.",
+  "id": "A224273",
+  "mentions": [
+    "A081760",
+    "A152751"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

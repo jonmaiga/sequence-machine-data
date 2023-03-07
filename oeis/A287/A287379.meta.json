@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 0 in A287931; complement of A287380.",
+  "id": "A287379",
+  "mentions": [
+    "A287380",
+    "A287931"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

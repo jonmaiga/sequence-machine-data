@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows: T(n, k) = number of occurrences of 2k as a sum |1 - p(1)| + |2 - p(2)| + ... + |n - p(n)|, where (p(1), p(2), ..., p(n)) ranges through the permutations of (1,2,...,n), for n >= 1, 0 <= k <= n-1.",
+  "id": "A357329",
+  "mentions": [
+    "A000142",
+    "A062869",
+    "A263898"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

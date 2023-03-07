@@ -1,0 +1,30 @@
+{
+  "description": "Numbers having no consecutive zeros or no consecutive ones in binary representation.",
+  "id": "A107909",
+  "mentions": [
+    "A000079",
+    "A000126",
+    "A000225",
+    "A001924",
+    "A003714",
+    "A003754",
+    "A007088",
+    "A023548",
+    "A052940",
+    "A107907",
+    "A107910",
+    "A107911"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes with digits in ascending order.",
+  "id": "A135355",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A009993",
+    "A028864"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

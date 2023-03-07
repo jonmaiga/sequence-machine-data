@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows T(n, k) is the least integer that is a palindrome in base n and k, with more than 1 digit in both bases, n >= 3 and 2 <= k < n.",
+  "id": "A293925",
+  "mentions": [
+    "A048268",
+    "A056749"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

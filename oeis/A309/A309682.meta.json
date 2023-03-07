@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: C(x)*C(2*x^2)*C(3*x^3)*..., where C(x) is the g.f. for A000108.",
+  "id": "A309682",
+  "mentions": [
+    "A000108",
+    "A025174",
+    "A110143",
+    "A322204",
+    "A326985"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

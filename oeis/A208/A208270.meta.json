@@ -1,0 +1,29 @@
+{
+  "description": "Primes containing a digit 1.",
+  "id": "A208270",
+  "mentions": [
+    "A000040",
+    "A011531",
+    "A030430",
+    "A038603",
+    "A045707",
+    "A062634",
+    "A092911",
+    "A092912",
+    "A106101",
+    "A208271"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 2 * (1^n + 2^n + 3^n + ... + n^n) is not 0 (mod n), but 2 * (1^d + 2^d + 3^d + ... + d^d) is 0 (mod d) for each other d | n.",
+  "id": "A280187",
+  "mentions": [
+    "A002943",
+    "A028689",
+    "A036689",
+    "A053198",
+    "A068377",
+    "A079143",
+    "A128672",
+    "A220211",
+    "A228870"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

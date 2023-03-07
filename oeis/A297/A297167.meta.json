@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 0, for n > 1, a(n) = -1 + the excess of n (A046660) + the index of the largest prime factor (A061395).",
+  "id": "A297167",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A033265",
+    "A046660",
+    "A061395",
+    "A156552",
+    "A252464",
+    "A297113",
+    "A297168",
+    "A300827"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

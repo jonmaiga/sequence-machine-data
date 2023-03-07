@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest even number m having n distinct odd prime divisors p_1, p_2, ..., p_n, each of which (p_i; i=1..n) has the property that there exists a k_i (0 < k_i < p_i-1) such that p_i - k_i | m - k_i.",
+  "id": "A309781",
+  "mentions": [
+    "A309769",
+    "A309780"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

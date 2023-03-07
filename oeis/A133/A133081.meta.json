@@ -1,0 +1,22 @@
+{
+  "description": "An interpolation operator, companion to A133080.",
+  "id": "A133081",
+  "mentions": [
+    "A040001",
+    "A133080",
+    "A133090"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

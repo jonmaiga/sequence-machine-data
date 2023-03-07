@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple connected graphs with n nodes that are Eulerian and have no subgraph isomorphic to diamond graph.",
+  "id": "A243562",
+  "mentions": [
+    "A003049",
+    "A242790"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

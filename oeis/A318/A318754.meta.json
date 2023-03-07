@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of rooted trees with n nodes such that k equals the maximal number of subtrees extending from the same node and having the same number of nodes; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.",
+  "id": "A318754",
+  "mentions": [
+    "A000081",
+    "A032305",
+    "A063524",
+    "A255705",
+    "A318753",
+    "A318817",
+    "A318818",
+    "A318819",
+    "A318820",
+    "A318821",
+    "A318822",
+    "A318823",
+    "A318824",
+    "A318825"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

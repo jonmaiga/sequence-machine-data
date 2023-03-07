@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromes (in base 5) below 5^n.",
+  "id": "A117864",
+  "mentions": [
+    "A050250",
+    "A238366"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

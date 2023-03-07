@@ -1,0 +1,25 @@
+{
+  "description": "Pandigital numbers with exactly 4 prime factors (with multiplicity).",
+  "id": "A225295",
+  "mentions": [
+    "A001358",
+    "A014613",
+    "A050288",
+    "A171102",
+    "A175845",
+    "A221646"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

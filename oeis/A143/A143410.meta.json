@@ -1,0 +1,28 @@
+{
+  "description": "Form the difference table of the sequence {2^k*k!}, then divide k-th column entries by 2^k*k!. Array read by ascending antidiagonals, T(n, k) for n, k >= 0.",
+  "id": "A143410",
+  "mentions": [
+    "A008288",
+    "A076571",
+    "A086764",
+    "A108625",
+    "A143007",
+    "A143409",
+    "A143411",
+    "A143412"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

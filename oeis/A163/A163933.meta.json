@@ -1,0 +1,22 @@
+{
+  "description": "Third right hand column of triangle A163932",
+  "id": "A163933",
+  "mentions": [
+    "A000217",
+    "A006011",
+    "A048994",
+    "A163932"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:11",
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

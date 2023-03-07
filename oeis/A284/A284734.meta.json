@@ -1,0 +1,19 @@
+{
+  "description": "Column 3 of array in A284731.",
+  "id": "A284734",
+  "mentions": [
+    "A284731",
+    "A284733"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The left Aurifeuillian factor of k^k - 1 for k congruent to 1 (mod 4) and squarefree.",
+  "id": "A230376",
+  "mentions": [
+    "A005117",
+    "A220983",
+    "A220984",
+    "A230375",
+    "A230377",
+    "A230378",
+    "A230379"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative closure of Sophie Germain primes (A005384).",
+  "id": "A156541",
+  "mentions": [
+    "A001221",
+    "A005384",
+    "A130176",
+    "A156542",
+    "A156543"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First differences of the Beatty sequence A276854 for 1 + sqrt(5).",
+  "id": "A276863",
+  "mentions": [
+    "A188187",
+    "A276854",
+    "A276881"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

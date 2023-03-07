@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k divides 15^k - 1.",
+  "id": "A177805",
+  "mentions": [
+    "A000420",
+    "A003591",
+    "A014945",
+    "A014946",
+    "A014949",
+    "A014951",
+    "A014956",
+    "A014960",
+    "A067945",
+    "A128358",
+    "A128360"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:50",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

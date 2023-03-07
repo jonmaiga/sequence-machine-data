@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of sqrt(2*Pi)/4.",
+  "id": "A217481",
+  "mentions": [
+    "A002161",
+    "A019675",
+    "A019692",
+    "A019704",
+    "A019706",
+    "A019710",
+    "A019727",
+    "A069998",
+    "A143149"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:57:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

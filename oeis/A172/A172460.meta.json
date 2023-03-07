@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of economical numbers A046759.",
+  "id": "A172460",
+  "mentions": [
+    "A000961",
+    "A046758",
+    "A046759",
+    "A046760"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

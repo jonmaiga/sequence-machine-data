@@ -1,0 +1,18 @@
+{
+  "description": "Largest integer not exceeding the harmonic mean of the first n squares.",
+  "id": "A256502",
+  "mentions": [
+    "A226762"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

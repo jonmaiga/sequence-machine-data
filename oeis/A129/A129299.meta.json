@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(n) = a(n-1) + (sum of the earlier terms of the sequence which are <= n).",
+  "id": "A129299",
+  "mentions": [
+    "A095114",
+    "A126022",
+    "A129300"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

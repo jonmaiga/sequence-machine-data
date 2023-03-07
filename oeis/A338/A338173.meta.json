@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the area of the triangle with vertices (prime(k),prime(k+1)), (prime(k+1),prime(k+2)), (prime(k+2),prime(k+3)) is 2.",
+  "id": "A338173",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

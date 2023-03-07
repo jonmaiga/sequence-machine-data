@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A055228(k)^2 - A055228(k) is a multiple of k, where A055228(k) is ceiling(sqrt(k!)).",
+  "id": "A306014",
+  "mentions": [
+    "A000188",
+    "A055228"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Primes p with the property: if q is the smallest prime > p/2, then a prime exists between p and 2q.",
+  "id": "A164368",
+  "mentions": [
+    "A000040",
+    "A001262",
+    "A001359",
+    "A001567",
+    "A005843",
+    "A059788",
+    "A062568",
+    "A080359",
+    "A104272",
+    "A141232",
+    "A151799",
+    "A164288",
+    "A164294",
+    "A164333",
+    "A166252",
+    "A166307",
+    "A193507",
+    "A194184",
+    "A194186",
+    "A194598"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

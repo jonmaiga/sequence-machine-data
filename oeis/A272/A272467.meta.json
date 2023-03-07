@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: (sin(2*x) + sin(3*x)) / sin(5*x).",
+  "id": "A272467",
+  "mentions": [
+    "A002439",
+    "A156185",
+    "A272158",
+    "A272468"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

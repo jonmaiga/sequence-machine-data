@@ -1,0 +1,19 @@
+{
+  "description": "The difference between 10^n and the lesser of the twin primes immediately before.",
+  "id": "A327133",
+  "mentions": [
+    "A011557",
+    "A092250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

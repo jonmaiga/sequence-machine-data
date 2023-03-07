@@ -1,0 +1,17 @@
+{
+  "description": "Number of nXn 0..1 arrays with every element unequal to 0, 1, 2, 4, 5 or 6 king-move adjacent elements, with upper left element zero.",
+  "id": "A305636",
+  "mentions": [
+    "A305642"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

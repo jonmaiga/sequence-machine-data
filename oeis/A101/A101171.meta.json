@@ -1,0 +1,20 @@
+{
+  "description": "a(n) divides the number formed by concatenating the sum of the digits of a(n) with a(n), by a factor not previously used.",
+  "id": "A101171",
+  "mentions": [
+    "A101170"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

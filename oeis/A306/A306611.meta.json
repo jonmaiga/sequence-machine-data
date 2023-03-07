@@ -1,0 +1,22 @@
+{
+  "description": "The middle coefficient in the minimal polynomial for (2*cos(Pi/15))^n.",
+  "id": "A306611",
+  "mentions": [
+    "A019887",
+    "A187360",
+    "A306603",
+    "A306610"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 07:09:47",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

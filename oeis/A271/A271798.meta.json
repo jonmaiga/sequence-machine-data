@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Matthews' constant C_2, an analog of Artin's constant for primitive roots.",
+  "id": "A271798",
+  "mentions": [
+    "A005596"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

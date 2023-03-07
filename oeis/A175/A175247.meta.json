@@ -1,0 +1,21 @@
+{
+  "description": "Primes (A000040) with noncomposite (A008578) subscripts.",
+  "id": "A175247",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007821",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of powers of 2 in A084680.",
+  "id": "A173394",
+  "mentions": [
+    "A000079",
+    "A002329",
+    "A084680"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * Product_{k=1..n} (1 + k*x + x^2).",
+  "id": "A202476",
+  "mentions": [
+    "A201826",
+    "A201951",
+    "A202474"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

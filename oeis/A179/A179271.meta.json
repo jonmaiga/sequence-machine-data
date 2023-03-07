@@ -1,0 +1,23 @@
+{
+  "description": "Odd long legs `B` of more than one primitive Pythagorean triangle.",
+  "id": "A179271",
+  "mentions": [
+    "A024407",
+    "A024408",
+    "A024409",
+    "A024410",
+    "A024411",
+    "A161962",
+    "A174830"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

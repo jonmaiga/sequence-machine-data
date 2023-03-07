@@ -1,0 +1,22 @@
+{
+  "description": "Period of binary representation of 1/n, or 0 if 1/n terminates.",
+  "id": "A351912",
+  "mentions": [
+    "A007733",
+    "A051626",
+    "A242595",
+    "A246004",
+    "A249772"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

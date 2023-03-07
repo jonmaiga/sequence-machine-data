@@ -1,0 +1,23 @@
+{
+  "description": "10-Knödel numbers.",
+  "id": "A208158",
+  "mentions": [
+    "A002997",
+    "A033553",
+    "A050990",
+    "A050992",
+    "A050993",
+    "A208154",
+    "A208157"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

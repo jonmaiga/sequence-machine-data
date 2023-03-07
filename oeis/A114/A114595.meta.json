@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of the numbers of unique-valued sequences of all lengths (from 1 to 2n-1) consisting of unit matrices (=\"matrix units\") of order n.",
+  "id": "A114595",
+  "mentions": [
+    "A001761",
+    "A097635"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

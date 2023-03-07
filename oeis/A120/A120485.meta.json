@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^n - (n-1)^n + (n-2)^n - ... + (-1)^(k+n)*k^n + ... + (-1)^(2+n)*2^n + (-1)^(1+n)*1^n = Sum_{k=1..n} (-1)^(k+n)*k^n.",
+  "id": "A120485",
+  "mentions": [
+    "A031971",
+    "A089072",
+    "A091884"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n in which every integer from the smallest part to the largest part occurs and the difference between the largest part and the smallest part is k (n >= 0, k >= 0).",
+  "id": "A117470",
+  "mentions": [
+    "A000005",
+    "A034296",
+    "A117471"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

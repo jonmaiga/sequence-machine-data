@@ -1,0 +1,21 @@
+{
+  "description": "Powers of 3 together with multiples of 6.",
+  "id": "A231960",
+  "mentions": [
+    "A000244",
+    "A005843",
+    "A008588",
+    "A029744",
+    "A057083"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

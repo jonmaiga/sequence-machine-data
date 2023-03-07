@@ -1,0 +1,32 @@
+{
+  "description": "Suspected permutation of nonnegative integers: a(n) = A052331(A304531(1+n)).",
+  "id": "A304533",
+  "mentions": [
+    "A000120",
+    "A003188",
+    "A006068",
+    "A019565",
+    "A052331",
+    "A300838",
+    "A302846",
+    "A303765",
+    "A303767",
+    "A304083",
+    "A304531",
+    "A304534",
+    "A304535",
+    "A304536",
+    "A304537"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

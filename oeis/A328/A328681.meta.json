@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n,k) * tau(k) * tau(n - k + 1), where tau = A000005.",
+  "id": "A328681",
+  "mentions": [
+    "A000005",
+    "A007318",
+    "A055507",
+    "A160399",
+    "A330088"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

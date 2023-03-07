@@ -1,0 +1,24 @@
+{
+  "description": "Number of sequences of length n starting with 1,2 which satisfy a recurrence a(k+1) = floor(c*a(k)) for some constant c.",
+  "id": "A117294",
+  "mentions": [
+    "A000079",
+    "A001519",
+    "A007051",
+    "A024537",
+    "A024576",
+    "A057960",
+    "A076883"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

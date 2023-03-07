@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of increasing numbers whose digits satisfy the \"Fractal Jump\" rule using only the digits 2 and 5: keep the first digit \"d\" of the sequence, then jump over the next \"d\" digits and keep the digit \"e\" on which you have landed. Jump now over the next \"e\" digits and keep the digit \"f\" on which you have landed, etc. The succession \"def...\" of kept digits is the sequence itself.",
+  "id": "A105647",
+  "mentions": [
+    "A105395",
+    "A105396",
+    "A105397",
+    "A105398"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

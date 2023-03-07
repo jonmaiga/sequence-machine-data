@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that gcd(A280864(k), A280864(k+1)) = 1.",
+  "id": "A280774",
+  "mentions": [
+    "A280864",
+    "A283832"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

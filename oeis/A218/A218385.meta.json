@@ -1,0 +1,17 @@
+{
+  "description": "(n-2)!/n when an integer.",
+  "id": "A218385",
+  "mentions": [
+    "A129906"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

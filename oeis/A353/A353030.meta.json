@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first emirp p such that there are exactly n unordered pairs (q,r) of emirps with p = q*r + q + r.",
+  "id": "A353030",
+  "mentions": [
+    "A006567",
+    "A352249"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of numbers a(n,k), n>=3, ceiling((n-3)/2)<=k<=n-3: a(n,k)=Sum[ Binomial[x + y + z, x]*Binomial[y + z, y]*Binomial[n - 2 - x - 2*y - 2*z, 2*n - 2*y - 5 - 2*k]*(2^x)*((-1)^z), {z, 0, (2*k - n + 3)/2}, {y, 0, n - 3 - k}, {x, 0, 2*k - n + 3 - 2*z}].",
+  "id": "A128781",
+  "mentions": [
+    "A000292"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes that have both prime digits (2,3,5,7) and nonprime digits (1,4,6,8,9), without digits \"0\".",
+  "id": "A211375",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A220488"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that all the composite numbers between p and its next prime have no more than 2 distinct prime factors.",
+  "id": "A303436",
+  "mentions": [
+    "A078883"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

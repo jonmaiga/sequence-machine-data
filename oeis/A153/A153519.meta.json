@@ -1,0 +1,23 @@
+{
+  "description": "Nonprime numbers k such that 10^k == 10 (mod k) and are not Carmichael numbers.",
+  "id": "A153519",
+  "mentions": [
+    "A002997",
+    "A121014",
+    "A122780",
+    "A153508",
+    "A153513",
+    "A153514",
+    "A153515"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

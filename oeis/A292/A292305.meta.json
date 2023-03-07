@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} (1 + n^k*x^k).",
+  "id": "A292305",
+  "mentions": [
+    "A000009",
+    "A265949",
+    "A291698",
+    "A292190",
+    "A292306"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of the n-th squarefree number using squarefree numbers.",
+  "id": "A303365",
+  "mentions": [
+    "A000051",
+    "A005117",
+    "A072774",
+    "A073576",
+    "A078374",
+    "A302491",
+    "A302796",
+    "A303283",
+    "A303364"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:34:38",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

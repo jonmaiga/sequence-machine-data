@@ -1,0 +1,21 @@
+{
+  "description": "Least hairpin family matchings with n edges that are both L&P and C&C whose leftmost edge is part of a hairpin.",
+  "id": "A284968",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A256334"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:19:17",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

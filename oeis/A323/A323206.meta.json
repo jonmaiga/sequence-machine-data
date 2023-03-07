@@ -1,0 +1,40 @@
+{
+  "description": "A(n, k) = hypergeometric([-k, k+1], [-k-1], n), square array read by ascending antidiagonals for n,k >= 0.",
+  "id": "A323206",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001844",
+    "A009766",
+    "A064062",
+    "A064063",
+    "A064087",
+    "A064088",
+    "A064089",
+    "A064090",
+    "A064091",
+    "A064094",
+    "A064096",
+    "A064302",
+    "A064303",
+    "A064304",
+    "A064305",
+    "A238762",
+    "A323207",
+    "A323208",
+    "A323209",
+    "A323217"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 0 such that pi(2*k) - pi(k) is prime and pi(2*m) - pi(m) is a square, where pi(x) denotes the number of primes not exceeding x.",
+  "id": "A239430",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A239428"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

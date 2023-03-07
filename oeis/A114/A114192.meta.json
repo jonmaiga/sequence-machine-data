@@ -1,0 +1,26 @@
+{
+  "description": "Riordan array (1/(1-2x),x/(1-2x)^2).",
+  "id": "A114192",
+  "mentions": [
+    "A007051",
+    "A007318",
+    "A007583",
+    "A013609",
+    "A085478",
+    "A114188",
+    "A114193"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:25",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

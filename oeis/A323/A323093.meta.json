@@ -1,0 +1,23 @@
+{
+  "description": "Number of integer partitions of n where no part is 2^k times any other part, for any k > 0.",
+  "id": "A323093",
+  "mentions": [
+    "A018819",
+    "A101417",
+    "A120641",
+    "A276431",
+    "A305148",
+    "A323092",
+    "A323094"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Positive integers which have a \"compact\" representation using fewer decimal digits than just writing the number normally.",
+  "id": "A104233",
+  "mentions": [
+    "A003037",
+    "A003313",
+    "A005245",
+    "A005421",
+    "A005520",
+    "A025280",
+    "A036057",
+    "A061373",
+    "A064097",
+    "A076091",
+    "A076142"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

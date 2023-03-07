@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that P(k, 7) == 7 (mod k), where P(k, 7) = A084768(k) is the k-th Legendre polynomial evaluated at 7.",
+  "id": "A330205",
+  "mentions": [
+    "A008316",
+    "A084768",
+    "A330203"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

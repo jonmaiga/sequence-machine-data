@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest number that has exactly n repdigit divisors.",
+  "id": "A355699",
+  "mentions": [
+    "A010785",
+    "A087990",
+    "A087997",
+    "A190217",
+    "A333456",
+    "A340548",
+    "A355303",
+    "A355695",
+    "A355698"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

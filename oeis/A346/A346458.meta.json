@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with hexadecimal representation A, AB, ABC, ..., ABCDEFA, ABCDEFAB, ...",
+  "id": "A346458",
+  "mentions": [
+    "A325911"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:23:19",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

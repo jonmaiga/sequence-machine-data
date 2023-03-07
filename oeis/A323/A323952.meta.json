@@ -1,0 +1,30 @@
+{
+  "description": "Regular triangle read by rows where if k > 1 then T(n, k) is the number of connected subgraphs of an n-cycle with any number of vertices other than 2 through k - 1, n >= 1, 1 <= k <= n - 1. Otherwise T(n, 1) = n.",
+  "id": "A323952",
+  "mentions": [
+    "A000027",
+    "A000126",
+    "A000290",
+    "A000325",
+    "A002061",
+    "A028387",
+    "A306351",
+    "A323950",
+    "A323951",
+    "A323953",
+    "A323954",
+    "A323956"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

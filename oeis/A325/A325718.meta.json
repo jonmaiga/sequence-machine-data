@@ -1,0 +1,21 @@
+{
+  "description": "Number of separable partitions of n in which the number of distinct (repeatable) parts is > 3.",
+  "id": "A325718",
+  "mentions": [
+    "A000041",
+    "A325534",
+    "A325712"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

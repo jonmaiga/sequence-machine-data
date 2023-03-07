@@ -1,0 +1,18 @@
+{
+  "description": "First difference of the subword complexity function of the Fibonacci-Thue-Morse sequence (A095076).",
+  "id": "A338298",
+  "mentions": [
+    "A095076"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

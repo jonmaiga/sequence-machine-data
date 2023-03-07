@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = lcm_{i=1..n} A001177(i); partial LCM-products of Fibonacci entry points.",
+  "id": "A233287",
+  "mentions": [
+    "A001175",
+    "A001177",
+    "A035105",
+    "A233282",
+    "A233283",
+    "A233284",
+    "A233285"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

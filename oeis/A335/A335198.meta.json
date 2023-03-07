@@ -1,0 +1,20 @@
+{
+  "description": "Infinitary Zumkeller numbers (A335197) whose number of divisors is not a power of 2.",
+  "id": "A335198",
+  "mentions": [
+    "A036537",
+    "A077609",
+    "A083207",
+    "A335197"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

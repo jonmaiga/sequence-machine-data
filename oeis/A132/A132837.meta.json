@@ -1,0 +1,20 @@
+{
+  "description": "Largest terms a(n) forming a self-convolution 4th power of an integer sequence (A132838) such that: a(n) <= 4*a(n-1) for n>0 with a(0)=1.",
+  "id": "A132837",
+  "mentions": [
+    "A132831",
+    "A132835",
+    "A132838",
+    "A132839"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

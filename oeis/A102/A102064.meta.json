@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of e.g.f.: -cot(arctanh(x)), odd powers only.",
+  "id": "A102064",
+  "mentions": [
+    "A102065"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

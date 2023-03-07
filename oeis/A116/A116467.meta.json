@@ -1,0 +1,19 @@
+{
+  "description": "Row squared sums of triangle A114700: a(n) = Sum_{k=0..n} A114700(n,k)^2.",
+  "id": "A116467",
+  "mentions": [
+    "A114700",
+    "A116466"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

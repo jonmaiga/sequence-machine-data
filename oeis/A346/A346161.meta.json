@@ -1,0 +1,23 @@
+{
+  "description": "Prime numbers p such that the number of iterations of map A039634 required for p to reach 2 sets a new record.",
+  "id": "A346161",
+  "mentions": [
+    "A004526",
+    "A005384",
+    "A039634",
+    "A058000",
+    "A346063",
+    "A346163"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that 1 + 1/2 + ... + 1/k < 1/(k+1) + ... + 1/n.",
+  "id": "A226764",
+  "mentions": [
+    "A226762"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 4,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

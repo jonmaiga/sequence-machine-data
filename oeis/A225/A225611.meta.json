@@ -1,0 +1,23 @@
+{
+  "description": "Determinant of the (p_n-1) X (p_n-1) matrix with (i,j)-entry equal to the Legendre symbol ((i^2+6*i*j+j^2)/p_n), where p_n is the n-th prime.",
+  "id": "A225611",
+  "mentions": [
+    "A226163",
+    "A227609",
+    "A227968",
+    "A227971",
+    "A228005",
+    "A228077",
+    "A228095"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

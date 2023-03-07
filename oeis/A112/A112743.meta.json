@@ -1,0 +1,23 @@
+{
+  "description": "An aerated Delannoy triangle.",
+  "id": "A112743",
+  "mentions": [
+    "A000073",
+    "A008288",
+    "A114123",
+    "A216182"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:07",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

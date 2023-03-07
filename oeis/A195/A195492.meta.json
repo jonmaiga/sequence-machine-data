@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of shortest length, (B), of segment from side BC through centroid to side BA in right triangle ABC with sidelengths (a,b,c)=(1,sqrt(r),r), where r=(1+sqrt(5))/2 (the golden ratio).",
+  "id": "A195492",
+  "mentions": [
+    "A195304",
+    "A195491",
+    "A195493",
+    "A195494"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

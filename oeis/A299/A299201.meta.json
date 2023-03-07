@@ -1,0 +1,28 @@
+{
+  "description": "Number of twice-partitions whose composite is the integer partition with Heinz number n.",
+  "id": "A299201",
+  "mentions": [
+    "A000041",
+    "A063834",
+    "A112798",
+    "A196545",
+    "A273873",
+    "A281145",
+    "A289501",
+    "A290261",
+    "A296150",
+    "A299200",
+    "A299202",
+    "A299203"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

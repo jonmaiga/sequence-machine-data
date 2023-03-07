@@ -1,0 +1,21 @@
+{
+  "description": "A symmetric triangle, with sum the large Schröder numbers.",
+  "id": "A175124",
+  "mentions": [
+    "A006318",
+    "A089447",
+    "A196201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

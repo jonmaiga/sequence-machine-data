@@ -1,0 +1,24 @@
+{
+  "description": "Infinitary weird numbers: infinitary abundant numbers (A129656) that are not infinitary pseudoperfect numbers (A306983).",
+  "id": "A306984",
+  "mentions": [
+    "A006037",
+    "A049417",
+    "A064114",
+    "A126168",
+    "A129656",
+    "A292986",
+    "A306983",
+    "A321146"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

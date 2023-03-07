@@ -1,0 +1,24 @@
+{
+  "description": "Sum over the divisors d = 2 and/or 3 of n.",
+  "id": "A178142",
+  "mentions": [
+    "A000203",
+    "A008472",
+    "A010673",
+    "A021337",
+    "A178143"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:23:35",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

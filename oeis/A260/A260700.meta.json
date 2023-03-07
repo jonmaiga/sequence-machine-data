@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct parabolic double cosets of the symmetric group S_n.",
+  "id": "A260700",
+  "mentions": [
+    "A120733"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

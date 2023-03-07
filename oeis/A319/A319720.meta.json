@@ -1,0 +1,27 @@
+{
+  "description": "Write n in 4-ary, sort digits into decreasing order.",
+  "id": "A319720",
+  "mentions": [
+    "A004186",
+    "A073138",
+    "A165012",
+    "A319651",
+    "A319652",
+    "A319722",
+    "A319723",
+    "A319724",
+    "A319725",
+    "A319726"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

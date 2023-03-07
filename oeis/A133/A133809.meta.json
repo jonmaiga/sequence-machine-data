@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are primally tight, have 2 as first prime and strictly ascending powers.",
+  "id": "A133809",
+  "mentions": [
+    "A000040",
+    "A025487",
+    "A027748",
+    "A073491",
+    "A087980",
+    "A124010",
+    "A133808",
+    "A133811",
+    "A133813",
+    "A145108",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

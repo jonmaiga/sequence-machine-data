@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the minimum value of the area of a rhombus circumscribed around a cosine-shaped lens, whose vertices lie on coordinate axes.",
+  "id": "A346062",
+  "mentions": [
+    "A069855"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

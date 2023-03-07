@@ -1,0 +1,42 @@
+{
+  "description": "An array A of the positive odd numbers, read by antidiagonals upwards, giving the present triangle T.",
+  "id": "A347834",
+  "mentions": [
+    "A002450",
+    "A004770",
+    "A007494",
+    "A007583",
+    "A016777",
+    "A047395",
+    "A047529",
+    "A065883",
+    "A072197",
+    "A072201",
+    "A072261",
+    "A072262",
+    "A178415",
+    "A206374",
+    "A238475",
+    "A256598",
+    "A265667",
+    "A319451",
+    "A330246",
+    "A347836",
+    "A347837",
+    "A347839",
+    "A347840"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

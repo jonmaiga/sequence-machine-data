@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose binary expansion generates rotationally symmetric XOR-triangles.",
+  "id": "A334556",
+  "mentions": [
+    "A003987",
+    "A030101",
+    "A038554",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

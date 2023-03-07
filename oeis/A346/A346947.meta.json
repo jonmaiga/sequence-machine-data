@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: log( 1 + log(1 + x)^5 / 5! ).",
+  "id": "A346947",
+  "mentions": [
+    "A000482",
+    "A003713",
+    "A346944",
+    "A346945",
+    "A346946"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 5,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Gergonne's 27-card trick with three piles: finding a card after three dealings with pile information.",
+  "id": "A264386",
+  "mentions": [
+    "A030102"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

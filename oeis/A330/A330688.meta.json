@@ -1,0 +1,22 @@
+{
+  "description": "Record values in A050377, number of ways to factor n into \"Fermi-Dirac primes\" (A050376).",
+  "id": "A330688",
+  "mentions": [
+    "A018819",
+    "A050376",
+    "A050377",
+    "A283980",
+    "A330687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

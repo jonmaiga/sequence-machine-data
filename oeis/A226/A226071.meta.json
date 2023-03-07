@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that triangular(n)+1 is a square and triangular(n)+2 is a prime.",
+  "id": "A226071",
+  "mentions": [
+    "A006451",
+    "A226069",
+    "A226070",
+    "A226074"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

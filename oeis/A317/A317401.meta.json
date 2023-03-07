@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct (up to rotation and reflection) tic-tac-toe positions with n tokens which allow a winning strategy for X.",
+  "id": "A317401",
+  "mentions": [
+    "A008907",
+    "A048245",
+    "A317402"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

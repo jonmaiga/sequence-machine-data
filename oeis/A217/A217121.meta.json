@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the positive values k such that there are k-1 primes in the open interval (n-k,n+k).",
+  "id": "A217121",
+  "mentions": [
+    "A014574",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

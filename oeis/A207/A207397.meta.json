@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n>=0} Product_{k=1..n} (q^k - 1) where q = (1+x)/(1+x^2).",
+  "id": "A207397",
+  "mentions": [
+    "A158690",
+    "A158691",
+    "A179525",
+    "A207386",
+    "A207433"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

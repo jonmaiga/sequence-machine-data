@@ -1,0 +1,20 @@
+{
+  "description": "Tetrahedron of numbers T(i,j,k) = (i+2*j+3*k)!/(i!*j!*k!*2^j*6^k) read with entries in the order defined in A144625.",
+  "id": "A144626",
+  "mentions": [
+    "A144385",
+    "A144416",
+    "A144625"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

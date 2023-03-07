@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that p^2 divides 5^p - 3^p - 2^p.",
+  "id": "A130076",
+  "mentions": [
+    "A130072",
+    "A130073",
+    "A130074",
+    "A130075"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

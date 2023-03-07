@@ -1,0 +1,33 @@
+{
+  "description": "Numbers n such that the sum of their divisors + the number of ones in their binary expansion = 2n; numbers for which A000203(n) + A000120(n) = 2n.",
+  "id": "A295296",
+  "mentions": [
+    "A000069",
+    "A000079",
+    "A000120",
+    "A000203",
+    "A001065",
+    "A005100",
+    "A005187",
+    "A011371",
+    "A019434",
+    "A028982",
+    "A033879",
+    "A141548",
+    "A191363",
+    "A294898",
+    "A294899",
+    "A295298"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of loops (\"chains\") resulting from reordering summands (a,b) from sorting order a,b into sorting order b,a.",
+  "id": "A235647",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A242615"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

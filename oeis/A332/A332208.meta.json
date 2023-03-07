@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the squarefree kernel of sigma(k) is equal to the squarefree kernel of 2*k.",
+  "id": "A332208",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A007947",
+    "A027687",
+    "A080398",
+    "A087207",
+    "A228058",
+    "A331751",
+    "A331752"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

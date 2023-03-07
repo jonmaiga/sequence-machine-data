@@ -1,0 +1,20 @@
+{
+  "description": "Look left and tell the least frequent digit string; a(0) = 0, a(n) = concat(c,s), where c > 0 is the number of times the string s, composed of one or more digits, has appeared in a(0) to a(n-1) such that a(n) is minimal. Digit strings with leading zeros are ignored.",
+  "id": "A329818",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A329447"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

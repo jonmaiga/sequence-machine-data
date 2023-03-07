@@ -1,0 +1,24 @@
+{
+  "description": "Last digit of a(n) + first digit of a(n+1) occurs as a substring in a(n); lexicographic first sequence with this property and no duplicates.",
+  "id": "A268449",
+  "mentions": [
+    "A267759",
+    "A267760",
+    "A267761",
+    "A267762",
+    "A267771",
+    "A267772"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

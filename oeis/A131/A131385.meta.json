@@ -1,0 +1,23 @@
+{
+  "description": "Product ceiling(n/1)*ceiling(n/2)*ceiling(n/3)*...*ceiling(n/n) (the 'ceiling factorial').",
+  "id": "A131385",
+  "mentions": [
+    "A010786",
+    "A075885",
+    "A085291",
+    "A085361",
+    "A131387",
+    "A131688"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

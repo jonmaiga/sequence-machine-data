@@ -1,0 +1,47 @@
+{
+  "description": "A permutation of A025487: Sequence of least representatives of distinct prime signatures obtained from the run lengths present in the binary expansion of n.",
+  "id": "A322827",
+  "mentions": [
+    "A000079",
+    "A000400",
+    "A001221",
+    "A001222",
+    "A005811",
+    "A005940",
+    "A007088",
+    "A025487",
+    "A036035",
+    "A046523",
+    "A059901",
+    "A063008",
+    "A077569",
+    "A085988",
+    "A086141",
+    "A087443",
+    "A101296",
+    "A108951",
+    "A181821",
+    "A181822",
+    "A227183",
+    "A283477",
+    "A322585",
+    "A322825",
+    "A323503",
+    "A323504",
+    "A323505",
+    "A323507"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

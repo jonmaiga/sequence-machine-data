@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers: a recursed variant of A122155.",
+  "id": "A122198",
+  "mentions": [
+    "A053644",
+    "A053645",
+    "A096111",
+    "A096115",
+    "A122155",
+    "A122199"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least squarefree number with n prime factors whose average is an integer.",
+  "id": "A300393",
+  "mentions": [
+    "A005117",
+    "A072697",
+    "A103622"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

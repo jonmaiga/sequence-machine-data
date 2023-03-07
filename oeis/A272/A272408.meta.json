@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the Hausdorff dimension of the Rauzy fractal boundary.",
+  "id": "A272408",
+  "mentions": [
+    "A058265"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Size of a largest subset of a regular cubic lattice of n*n*n points without repeated distances.",
+  "id": "A275672",
+  "mentions": [
+    "A003022",
+    "A036501",
+    "A054578",
+    "A169942"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

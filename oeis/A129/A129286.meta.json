@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A129152(n) / 5^5, where A129152 is the trajectory of 5^6 under A003415, the arithmetic derivative.",
+  "id": "A129286",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A090635",
+    "A129152",
+    "A129283",
+    "A129284",
+    "A129285"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = 1 if the number of divisors of n^2 is coprime to 6, otherwise 0.",
+  "id": "A355448",
+  "mentions": [
+    "A000005",
+    "A007494",
+    "A010057",
+    "A016777",
+    "A048691",
+    "A227291",
+    "A307421",
+    "A307424",
+    "A350014",
+    "A353470",
+    "A354354",
+    "A355684"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{primes p > 2} log(p) / ((p-2)*(p-1)).",
+  "id": "A347195",
+  "mentions": [
+    "A069205",
+    "A351347"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

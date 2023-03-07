@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are the average of two distinct Mersenne primes (A000668).",
+  "id": "A171255",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A171252",
+    "A171253",
+    "A171254"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

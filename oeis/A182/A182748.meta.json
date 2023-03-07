@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows in which row n lists the first n terms of A002865, except the first term, in reverse order together with 0.",
+  "id": "A182748",
+  "mentions": [
+    "A002865",
+    "A182746",
+    "A182747"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

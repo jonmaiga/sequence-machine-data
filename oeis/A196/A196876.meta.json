@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-no-1)+....+a(n-1)+(n-no-2) where no is the 'no+1'th order of the series and 'n' is the element number, here no=6.",
+  "id": "A196876",
+  "mentions": [
+    "A000124",
+    "A000126",
+    "A196787"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

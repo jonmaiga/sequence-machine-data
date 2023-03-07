@@ -1,0 +1,29 @@
+{
+  "description": "Base-10 numbers k whose number of divisors equals the number of divisors in R(k), where k is written in all bases from base-2 to base-10 and R(k), the digit reversal of k, is read as a number in the same base.",
+  "id": "A346113",
+  "mentions": [
+    "A000005",
+    "A004086",
+    "A030102",
+    "A030103",
+    "A030104",
+    "A030105",
+    "A030106",
+    "A030107",
+    "A030108",
+    "A062895",
+    "A136634",
+    "A228768"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

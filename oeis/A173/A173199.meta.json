@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1)+a(n-2)-Floor(a(n-3)/2)-Floor(a(n-8)/2); initial terms are 0, 1, 1, 2, 3, 5, 7, 11.",
+  "id": "A173199",
+  "mentions": [
+    "A023438"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

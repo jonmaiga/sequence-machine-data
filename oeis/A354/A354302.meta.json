@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the numerator of Sum_{k=0..n} 1 / (k!)^2.",
+  "id": "A354302",
+  "mentions": [
+    "A001044",
+    "A006040",
+    "A053557",
+    "A061354",
+    "A070910",
+    "A103816",
+    "A120265",
+    "A143382",
+    "A354303",
+    "A354304"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

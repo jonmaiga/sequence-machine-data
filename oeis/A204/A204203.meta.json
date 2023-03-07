@@ -1,0 +1,21 @@
+{
+  "description": "Triangle based on (0,1/4,1) averaging array.",
+  "id": "A204203",
+  "mentions": [
+    "A014480",
+    "A036563",
+    "A204201"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:31",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

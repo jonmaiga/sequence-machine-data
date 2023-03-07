@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=0..n} digsum_6(i)^2, where digsum_6(i) = A053827(i).",
+  "id": "A231673",
+  "mentions": [
+    "A053827",
+    "A231672",
+    "A231674",
+    "A231675"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:13",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

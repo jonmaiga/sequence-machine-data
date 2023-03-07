@@ -1,0 +1,18 @@
+{
+  "description": "Composite odd numbers m such that q == -1 (mod p) for at least one pair (p, q) < m satisfying the following two conditions: p is a prime divisor of m, and if a prime divides q then it divides m. These are called absent numbers.",
+  "id": "A262741",
+  "mentions": [
+    "A135506",
+    "A262748"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

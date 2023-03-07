@@ -1,0 +1,18 @@
+{
+  "description": "Good's example of a \"Standard List\" of prime words over the alphabet {1,2}.",
+  "id": "A212659",
+  "mentions": [
+    "A001037",
+    "A212672"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (x(n)^2 + 1)/m(n), with m(n) = A002559(n) (Markoff numbers) and x(n)= A324601(n), for n >= 3. The Markoff uniqueness conjecture is assumed to be true.",
+  "id": "A309161",
+  "mentions": [
+    "A002559",
+    "A324601"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

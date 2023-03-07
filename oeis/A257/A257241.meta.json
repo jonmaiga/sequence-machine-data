@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: Stifel's version of the arithmetical triangle.",
+  "id": "A257241",
+  "mentions": [
+    "A001405",
+    "A007318",
+    "A008619",
+    "A014410",
+    "A258143",
+    "A258144"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

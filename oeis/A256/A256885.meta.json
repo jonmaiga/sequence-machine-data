@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n*(n + 1)/2 - pi(n), where pi(n) = A000720(n) is the prime counting function.",
+  "id": "A256885",
+  "mentions": [
+    "A000217",
+    "A000720",
+    "A010051",
+    "A014684",
+    "A113638",
+    "A257232"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

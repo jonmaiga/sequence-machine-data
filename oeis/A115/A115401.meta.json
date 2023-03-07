@@ -1,0 +1,26 @@
+{
+  "description": "Record differences between prime(n+3) and prime(n). Records in A031165.",
+  "id": "A115401",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A001223",
+    "A002386",
+    "A005250",
+    "A007530",
+    "A031131",
+    "A031132",
+    "A031165"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

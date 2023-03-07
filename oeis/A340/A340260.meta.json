@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = Sum_{j=1..k} [n mod j <> 1], where [] are the Iverson brackets. Table read by rows.",
+  "id": "A340260",
+  "mentions": [
+    "A000005",
+    "A051731",
+    "A243987",
+    "A340261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

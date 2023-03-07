@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Product_{n=-oo..+oo} (1 + x^n*(1 + x^n)^n).",
+  "id": "A293603",
+  "mentions": [
+    "A293602"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

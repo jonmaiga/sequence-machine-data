@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the member z of a triple (x, y, z) solving a certain historical system of three equations with positive y.",
+  "id": "A300071",
+  "mentions": [
+    "A001622",
+    "A248750",
+    "A248752",
+    "A300070",
+    "A300072",
+    "A300073"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

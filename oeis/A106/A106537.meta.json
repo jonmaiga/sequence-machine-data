@@ -1,0 +1,20 @@
+{
+  "description": "The decimal digits of sqrt(2) = A002193 split into groups as long as given by the string of digits themselves.",
+  "id": "A106537",
+  "mentions": [
+    "A002193",
+    "A106156"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

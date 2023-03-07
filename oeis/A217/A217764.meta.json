@@ -1,0 +1,27 @@
+{
+  "description": "Array defined by a(n,k) = floor((k+2)/2)*3^n - floor((k+1)/2)*2^n, read by antidiagonals.",
+  "id": "A217764",
+  "mentions": [
+    "A000244",
+    "A001047",
+    "A027649",
+    "A056182",
+    "A084964",
+    "A102485",
+    "A145563",
+    "A166060",
+    "A210448"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

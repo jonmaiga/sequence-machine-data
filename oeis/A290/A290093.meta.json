@@ -1,0 +1,26 @@
+{
+  "description": "Compound filter (for base-3 digit runlengths): a(n) = P(A290091(n), A290092(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A290093",
+  "mentions": [
+    "A000027",
+    "A006047",
+    "A053735",
+    "A278222",
+    "A289813",
+    "A289814",
+    "A290079",
+    "A290091",
+    "A290092"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

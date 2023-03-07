@@ -1,0 +1,27 @@
+{
+  "description": "Inverse Möbius transform of A349128, where A349128(n) = phi(A064989(n)), A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p, and phi is Euler totient function.",
+  "id": "A349122",
+  "mentions": [
+    "A000010",
+    "A003961",
+    "A064216",
+    "A064989",
+    "A151799",
+    "A285702",
+    "A349127",
+    "A349128",
+    "A349138"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

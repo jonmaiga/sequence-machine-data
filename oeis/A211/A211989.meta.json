@@ -1,0 +1,36 @@
+{
+  "description": "A list of ordered partitions of the positive integers in which the shells of each integer are assembled by their tails.",
+  "id": "A211989",
+  "mentions": [
+    "A000041",
+    "A026792",
+    "A026905",
+    "A036042",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A138879",
+    "A182703",
+    "A206437",
+    "A211983",
+    "A211984",
+    "A211985",
+    "A211988",
+    "A211992",
+    "A211994",
+    "A211995",
+    "A211998",
+    "A211999"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 131,
+    "source": "oeis-entry"
+  }
+}

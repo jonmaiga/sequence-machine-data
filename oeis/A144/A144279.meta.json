@@ -1,0 +1,28 @@
+{
+  "description": "Partition number array, called M32hat(-3)= 'M32(-3)/M3'= 'A143173/A036040', related to A000369(n,m)= |S2(-3;n,m)| (generalized Stirling triangle).",
+  "id": "A144279",
+  "mentions": [
+    "A000041",
+    "A000369",
+    "A008545",
+    "A036040",
+    "A134278",
+    "A143173",
+    "A144274",
+    "A144280",
+    "A144284"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

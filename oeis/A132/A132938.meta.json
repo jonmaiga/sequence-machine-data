@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of first n Bell numbers.",
+  "id": "A132938",
+  "mentions": [
+    "A000110",
+    "A007908",
+    "A019518",
+    "A059996"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

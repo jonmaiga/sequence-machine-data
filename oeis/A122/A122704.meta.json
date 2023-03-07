@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^(n-k)*A123125(n, k).",
+  "id": "A122704",
+  "mentions": [
+    "A000244",
+    "A076726",
+    "A080599",
+    "A123125",
+    "A131689"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

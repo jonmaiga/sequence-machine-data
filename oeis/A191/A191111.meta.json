@@ -1,0 +1,21 @@
+{
+  "description": "Describe 10^n. Also called the \"Say What You See\" or \"Look and Say\" sequence LS(10^n).",
+  "id": "A191111",
+  "mentions": [
+    "A011557",
+    "A045918"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

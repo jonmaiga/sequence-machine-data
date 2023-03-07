@@ -1,0 +1,26 @@
+{
+  "description": "The triangle associated with the family of polynomials W_n(x).",
+  "id": "A228356",
+  "mentions": [
+    "A028297",
+    "A101124",
+    "A133156",
+    "A180870",
+    "A228161",
+    "A228565",
+    "A228637"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

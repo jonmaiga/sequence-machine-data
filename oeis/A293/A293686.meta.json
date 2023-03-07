@@ -1,0 +1,22 @@
+{
+  "description": "8-digit numbers (padded with leading zeros where necessary) in which the sum of the number consisting of the first four digits and the number consisting of the last four digits equals the number consisting of the middle four digits.",
+  "id": "A293686",
+  "mentions": [
+    "A037156",
+    "A263194"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

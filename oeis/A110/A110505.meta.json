@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of unsigned columns of triangle A110504: a(n) = n!*A110504(n,0) = (-1)^k*n!*A110504(n+k,k) for all k >= 0.",
+  "id": "A110505",
+  "mentions": [
+    "A002544",
+    "A110503",
+    "A110504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Permutation of nonnegative integers: map each number by lengths of runs of zeros in its Zeckendorf expansion shifted once left to the number which has the same lengths of runs (in the same order, but alternatively of runs of 0's and 1's) in its binary representation.",
+  "id": "A227351",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000204",
+    "A000225",
+    "A000975",
+    "A003714",
+    "A006068",
+    "A014417",
+    "A022342",
+    "A027941",
+    "A048679",
+    "A075157",
+    "A075159",
+    "A106151",
+    "A129594",
+    "A227352"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

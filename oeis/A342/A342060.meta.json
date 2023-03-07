@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of embeddings on the sphere of 2-connected planar graphs with n nodes and k faces, n >= 3, k=2..2*n-4.",
+  "id": "A342060",
+  "mentions": [
+    "A006407",
+    "A034889",
+    "A212438",
+    "A253186",
+    "A342059"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 3,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

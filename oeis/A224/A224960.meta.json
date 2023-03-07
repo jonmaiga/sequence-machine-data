@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions [p(1), p(2), ..., p(k)] of n such that p(j) >= p(1) - 1",
+  "id": "A224960",
+  "mentions": [
+    "A007059",
+    "A048888",
+    "A079500",
+    "A079501",
+    "A171682"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

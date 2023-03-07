@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that occur twice in the Wythoff ceiling array (A341260).",
+  "id": "A341261",
+  "mentions": [
+    "A341260"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

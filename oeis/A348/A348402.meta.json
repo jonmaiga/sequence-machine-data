@@ -1,0 +1,23 @@
+{
+  "description": "Number of unoriented polyomino rings of length 2n with twofold rotational symmetry.",
+  "id": "A348402",
+  "mentions": [
+    "A324407",
+    "A324408",
+    "A324409",
+    "A348403",
+    "A348404"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

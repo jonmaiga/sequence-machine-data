@@ -1,0 +1,21 @@
+{
+  "description": "Integers k such that 8*k + 1 is a prime or a square.",
+  "id": "A329269",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A005123",
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n having exactly k parts equal to 1.",
+  "id": "A105422",
+  "mentions": [
+    "A000045",
+    "A006367",
+    "A011782",
+    "A105423",
+    "A320341",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

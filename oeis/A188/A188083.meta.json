@@ -1,0 +1,20 @@
+{
+  "description": "[nr+kr]-[nr]-[kr], where r=sqrt(3), k=2, [ ]=floor.",
+  "id": "A188083",
+  "mentions": [
+    "A187950",
+    "A188084",
+    "A188085"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:27",
+    "offset": 1,
+    "size": 136,
+    "source": "joeis"
+  }
+}

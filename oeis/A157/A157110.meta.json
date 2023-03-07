@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1681*n^2 - 2606*n + 1010.",
+  "id": "A157110",
+  "mentions": [
+    "A157111",
+    "A157112"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

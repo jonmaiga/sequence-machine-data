@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k (powers of 10 excluded) such that sod(k), sod(k^2),..., sod(k^n) is an arithmetic progression, where sod(m) = A007953(m) is the sum of the digits of m.",
+  "id": "A258722",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

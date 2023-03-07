@@ -1,0 +1,48 @@
+{
+  "description": "Lower triangular matrix T(n,j) for double application of an iterated mixed order Laguerre transform inverse to A132014. Coefficients of Laguerre polynomials (-1)^n * n! * L(n,-2-n,x).",
+  "id": "A132159",
+  "mentions": [
+    "A000142",
+    "A000255",
+    "A001286",
+    "A001339",
+    "A001563",
+    "A002061",
+    "A005649",
+    "A005990",
+    "A007318",
+    "A008277",
+    "A027465",
+    "A038207",
+    "A061206",
+    "A062148",
+    "A062199",
+    "A081923",
+    "A081924",
+    "A087981",
+    "A094587",
+    "A121757",
+    "A132013",
+    "A132014",
+    "A132382",
+    "A132440",
+    "A133314",
+    "A136215",
+    "A136216",
+    "A235706",
+    "A238385"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

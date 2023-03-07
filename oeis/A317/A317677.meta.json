@@ -1,0 +1,28 @@
+{
+  "description": "Fixed point of a shifted hypertree transform.",
+  "id": "A317677",
+  "mentions": [
+    "A000272",
+    "A030019",
+    "A048143",
+    "A134954",
+    "A275307",
+    "A293510",
+    "A317631",
+    "A317632",
+    "A317634",
+    "A317635",
+    "A317671"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number of same-trees of weight 2n + 1 in which all outdegrees are odd and all leaves greater than 1.",
+  "id": "A300649",
+  "mentions": [
+    "A003238",
+    "A006241",
+    "A063834",
+    "A069283",
+    "A273873",
+    "A281145",
+    "A289078",
+    "A289079",
+    "A289501",
+    "A298118",
+    "A300436",
+    "A300439",
+    "A300574",
+    "A300647",
+    "A300648",
+    "A300650"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

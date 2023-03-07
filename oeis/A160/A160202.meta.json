@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (591603+85478*sqrt(2))/761^2.",
+  "id": "A160202",
+  "mentions": [
+    "A002193",
+    "A122694",
+    "A160200",
+    "A160201"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

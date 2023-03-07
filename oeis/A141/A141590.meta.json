@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator of Bernoulli(2*n)/(2*n + 1)!. Bisection of A120082.",
+  "id": "A141590",
+  "mentions": [
+    "A000367",
+    "A001067",
+    "A046968",
+    "A120082",
+    "A255505"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

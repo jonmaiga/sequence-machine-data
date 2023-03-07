@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=largest permutational number of order n - smallest permutational number of order n+1 : A062813(n)-A134703(n+1) : A134640(!n)-A134640(!n+1).",
+  "id": "A134748",
+  "mentions": [
+    "A062813",
+    "A134640",
+    "A134703"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

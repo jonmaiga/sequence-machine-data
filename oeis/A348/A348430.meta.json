@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime of the form x+2 where x is the product of n consecutive primes.",
+  "id": "A348430",
+  "mentions": [
+    "A083562",
+    "A347866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

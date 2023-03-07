@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations on [n*(n+1)/2] with cycles of n distinct lengths.",
+  "id": "A246292",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A000217",
+    "A022915",
+    "A218868",
+    "A242027",
+    "A317165"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

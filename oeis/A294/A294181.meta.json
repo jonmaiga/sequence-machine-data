@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of E_2/E_4.",
+  "id": "A294181",
+  "mentions": [
+    "A001943",
+    "A004009",
+    "A006352",
+    "A288877",
+    "A294182",
+    "A294183"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

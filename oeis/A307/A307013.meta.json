@@ -1,0 +1,24 @@
+{
+  "description": "Third coordinate (asymmetric variant) in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on an hexagonal grid. First and second coordinates are given in A307011 and A307012.",
+  "id": "A307013",
+  "mentions": [
+    "A307011",
+    "A307012",
+    "A328818",
+    "A334492",
+    "A345435",
+    "A345978"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

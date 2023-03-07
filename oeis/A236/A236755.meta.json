@@ -1,0 +1,26 @@
+{
+  "description": "Number of irregular spiral (expanded spiral) appearing with n center points.",
+  "id": "A236755",
+  "mentions": [
+    "A014105",
+    "A234902",
+    "A234903",
+    "A234904",
+    "A235088",
+    "A235089",
+    "A236326",
+    "A236327",
+    "A236535"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

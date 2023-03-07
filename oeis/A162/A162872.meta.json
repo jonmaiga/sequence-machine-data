@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p-1 and p+1 each contain at least one squared prime in their prime factorization.",
+  "id": "A162872",
+  "mentions": [
+    "A000040",
+    "A013929",
+    "A038109",
+    "A075432",
+    "A162870"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

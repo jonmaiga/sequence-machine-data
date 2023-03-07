@@ -1,0 +1,23 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^4*x - n^3*A(x) ) = 0 for n >= 1.",
+  "id": "A319943",
+  "mentions": [
+    "A317344",
+    "A317346",
+    "A317347",
+    "A319941",
+    "A319942",
+    "A319944"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

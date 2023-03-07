@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of factorizations of n into factorial numbers larger than one; a(1) = 1.",
+  "id": "A322583",
+  "mentions": [
+    "A000142",
+    "A001013",
+    "A009968",
+    "A034876",
+    "A034968"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

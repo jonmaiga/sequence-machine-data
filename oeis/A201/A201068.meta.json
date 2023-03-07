@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 0..6 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other",
+  "id": "A201068",
+  "mentions": [
+    "A201072"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

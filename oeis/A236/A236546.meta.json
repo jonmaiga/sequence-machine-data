@@ -1,0 +1,23 @@
+{
+  "description": "Discriminant of A048981(n) (= squarefree integers for which the quadratic field Q[sqrt(D)] is norm-Euclidean).",
+  "id": "A236546",
+  "mentions": [
+    "A003174",
+    "A003246",
+    "A037449",
+    "A048981",
+    "A187776",
+    "A204993"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

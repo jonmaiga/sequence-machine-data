@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: 1 + 4*x = Sum_{n>=0} (4^n + q*sqrt(A(x)))^n * x^n / (1 + 4^n*q*x*sqrt(A(x)))^(n+1), where q = 16/sqrt(6).",
+  "id": "A325064",
+  "mentions": [
+    "A324613",
+    "A325062",
+    "A325063",
+    "A325065",
+    "A325066"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

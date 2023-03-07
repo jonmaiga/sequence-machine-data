@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that A121711(m) <= m.",
+  "id": "A121717",
+  "mentions": [
+    "A121711",
+    "A121716"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

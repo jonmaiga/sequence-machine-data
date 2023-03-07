@@ -1,0 +1,25 @@
+{
+  "description": "Number of closed walks on the graph of the (7,4) Hamming code.",
+  "id": "A103333",
+  "mentions": [
+    "A000302",
+    "A004171",
+    "A016945",
+    "A082412",
+    "A083713",
+    "A103334",
+    "A157176"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

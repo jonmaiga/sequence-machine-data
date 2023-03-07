@@ -1,0 +1,49 @@
+{
+  "description": "Number of ways to choose a divisor of each part of the n-th composition in standard order such that no adjacent divisors are equal.",
+  "id": "A354578",
+  "mentions": [
+    "A000005",
+    "A003242",
+    "A005811",
+    "A011782",
+    "A029837",
+    "A066099",
+    "A124767",
+    "A175413",
+    "A238279",
+    "A275870",
+    "A300273",
+    "A333381",
+    "A333489",
+    "A333755",
+    "A353832",
+    "A353837",
+    "A353838",
+    "A353840",
+    "A353846",
+    "A353847",
+    "A353848",
+    "A353849",
+    "A353850",
+    "A353851",
+    "A353852",
+    "A353853",
+    "A353859",
+    "A353860",
+    "A353863",
+    "A354584",
+    "A354904",
+    "A354905"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

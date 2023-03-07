@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that the elements of all Pythagorean quadruples belonging to the set of divisors are exactly their first k divisors for some k.",
+  "id": "A335654",
+  "mentions": [
+    "A000005",
+    "A330893",
+    "A330894",
+    "A331365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

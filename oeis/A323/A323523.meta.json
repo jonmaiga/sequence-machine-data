@@ -1,0 +1,28 @@
+{
+  "description": "Number of positive integer square matrices with entries summing to n and equal row and column sums.",
+  "id": "A323523",
+  "mentions": [
+    "A000290",
+    "A006052",
+    "A007016",
+    "A103198",
+    "A120732",
+    "A257493",
+    "A321719",
+    "A321722",
+    "A323349",
+    "A323524",
+    "A323529"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

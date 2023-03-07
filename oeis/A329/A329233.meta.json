@@ -1,0 +1,22 @@
+{
+  "description": "The time of the first counterclockwise step during the grasshopper procedure, or 0 if no counterclockwise steps occur.",
+  "id": "A329233",
+  "mentions": [
+    "A003056",
+    "A087503",
+    "A329230",
+    "A329231",
+    "A329232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

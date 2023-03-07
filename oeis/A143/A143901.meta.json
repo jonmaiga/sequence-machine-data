@@ -1,0 +1,29 @@
+{
+  "description": "Rectangular array R by antidiagonals: R(m,n) = floor((m*n+1)/2).",
+  "id": "A143901",
+  "mentions": [
+    "A000027",
+    "A000096",
+    "A000217",
+    "A000982",
+    "A004526",
+    "A005843",
+    "A005993",
+    "A007494",
+    "A007590",
+    "A047218",
+    "A116940",
+    "A143902"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:53",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

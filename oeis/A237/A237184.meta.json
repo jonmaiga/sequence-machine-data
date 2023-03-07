@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered ways to write n = (1+(n mod 2))*p + q with p, q, phi(p+1) - 1 and phi(q-1) + 1 all prime.",
+  "id": "A237184",
+  "mentions": [
+    "A000040",
+    "A002372",
+    "A002375",
+    "A039698",
+    "A046927",
+    "A078892",
+    "A237127",
+    "A237130",
+    "A237168",
+    "A237183"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

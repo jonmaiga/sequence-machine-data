@@ -1,0 +1,18 @@
+{
+  "description": "Square array read by antidiagonals such that the sum of the digits inside any 2 X 2 square is itself a square.",
+  "id": "A354371",
+  "mentions": [
+    "A325785"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

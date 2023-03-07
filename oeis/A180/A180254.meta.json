@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies: A'(x) = (1 - sqrt(1-4*A(x))) / (2*A(x)).",
+  "id": "A180254",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

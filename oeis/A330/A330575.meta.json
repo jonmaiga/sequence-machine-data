@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + Sum_{d|n and d1; a(1) = 1.",
+  "id": "A330575",
+  "mentions": [
+    "A067824",
+    "A074206",
+    "A255242"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

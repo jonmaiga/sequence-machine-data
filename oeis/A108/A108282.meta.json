@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = k*a(n-1) + a(n-2) where k = A003842(a); a(0) = 1.",
+  "id": "A108282",
+  "mentions": [
+    "A003842"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

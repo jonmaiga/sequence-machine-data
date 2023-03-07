@@ -1,0 +1,30 @@
+{
+  "description": "Number of divisors d of n such that there exists a factorization of n into factors > 1 with GCD d.",
+  "id": "A317751",
+  "mentions": [
+    "A000005",
+    "A000837",
+    "A001055",
+    "A008619",
+    "A014963",
+    "A045778",
+    "A050370",
+    "A162247",
+    "A281116",
+    "A289509",
+    "A317748",
+    "A317752",
+    "A317755",
+    "A317757"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

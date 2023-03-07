@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 1. Thereafter a(n) is the least novel k != n such that A007947(k)|n.",
+  "id": "A358916",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001248",
+    "A003586",
+    "A003592",
+    "A005117",
+    "A007947",
+    "A032741",
+    "A358820",
+    "A358971"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 + x^2/(1 + x^3/(1 + x^5/(1 + x^7/(1 + x^11/(1 + ... + x^prime(k)/(1 + ... ))))))), a continued fraction.",
+  "id": "A292803",
+  "mentions": [
+    "A000040",
+    "A269353",
+    "A285407",
+    "A292801"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

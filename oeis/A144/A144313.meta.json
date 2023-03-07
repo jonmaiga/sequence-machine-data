@@ -1,0 +1,31 @@
+{
+  "description": "Prime numbers p such that p - 1 is the fourth a-figurate number, seventh b-figurate number and possibly tenth c-figurate number for some a, b and c and not a d-figurate number for any nontrivial d.",
+  "id": "A144313",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000668",
+    "A007528",
+    "A071331",
+    "A096676",
+    "A098237",
+    "A131500",
+    "A138694",
+    "A140732",
+    "A140856",
+    "A142076",
+    "A142317",
+    "A142905"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

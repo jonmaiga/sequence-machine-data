@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (2n + 1)*2^(2n + 1); numbers k such that v(k)*2^v(k) = k, where v(n) = A007814(n) is 2-adic valuation of n.",
+  "id": "A288443",
+  "mentions": [
+    "A007814",
+    "A036289",
+    "A058962",
+    "A073000",
+    "A098713",
+    "A156057",
+    "A286683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:54:52",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Hankel transform of ordered Bell numbers A000670. a(n)=det(A000670(i+j-1)), i,j=1,2..n.",
+  "id": "A159783",
+  "mentions": [
+    "A000178",
+    "A000670",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

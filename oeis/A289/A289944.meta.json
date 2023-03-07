@@ -1,0 +1,19 @@
+{
+  "description": "Sizes of triangles in the tilings of a convex polygon by n equilateral triangles described in A014529 written as triangle T(n,m), n >= 1, 1 <= m <= n.",
+  "id": "A289944",
+  "mentions": [
+    "A014529"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

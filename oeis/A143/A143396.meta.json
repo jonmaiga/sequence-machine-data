@@ -1,0 +1,35 @@
+{
+  "description": "Triangle T(n,k) = number of forests of labeled rooted trees of height at most 1, with n labels, k of which are used for root nodes and any root may contain >= 1 labels, n >= 0, 0<=k<=n.",
+  "id": "A143396",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000110",
+    "A007318",
+    "A008277",
+    "A048993",
+    "A143405",
+    "A273652",
+    "A273653",
+    "A273654",
+    "A273655",
+    "A273656",
+    "A273657",
+    "A273658",
+    "A273659",
+    "A273660",
+    "A273661"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

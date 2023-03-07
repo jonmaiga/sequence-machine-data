@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the eight nearest neighbors of n in a triangular horizontal-last spiral with positive integers.",
+  "id": "A214226",
+  "mentions": [
+    "A002061",
+    "A054552",
+    "A214227",
+    "A214250"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

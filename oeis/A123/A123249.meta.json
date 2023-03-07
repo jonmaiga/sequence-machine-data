@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1. For n >= 2, a(n) = n + (smallest integer which is >= n and is missing from among the earlier terms of the sequence).",
+  "id": "A123249",
+  "mentions": [
+    "A123088",
+    "A123721"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

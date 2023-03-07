@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the sum of the digits of n to some power divided by the sum of the digits equal n.",
+  "id": "A257787",
+  "mentions": [
+    "A061209",
+    "A111434",
+    "A114135",
+    "A115518",
+    "A130680",
+    "A257768",
+    "A257784"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

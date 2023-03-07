@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that lcm(1,...,n-1) < lcm(1,...,n) < lcm(1,...,n+1).",
+  "id": "A134459",
+  "mentions": [
+    "A000668",
+    "A003418",
+    "A006549",
+    "A019434",
+    "A068194"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

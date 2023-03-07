@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the atomic numbers in the n-th column of the Janet table of the first 120 elements.",
+  "id": "A166071",
+  "mentions": [
+    "A000217",
+    "A137325",
+    "A137583",
+    "A138102"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

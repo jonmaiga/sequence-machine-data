@@ -1,0 +1,30 @@
+{
+  "description": "Shifted lower triangular matrix A238363 with a main diagonal of ones.",
+  "id": "A238385",
+  "mentions": [
+    "A002104",
+    "A002741",
+    "A007318",
+    "A008275",
+    "A008277",
+    "A008290",
+    "A048993",
+    "A055137",
+    "A074909",
+    "A132440",
+    "A238363"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of maximal runs of 1-bits (in binary expansion of n) such that the length of run > 1 + the total number of zeros anywhere right of that run.",
+  "id": "A277007",
+  "mentions": [
+    "A005940",
+    "A276077",
+    "A277008",
+    "A277009",
+    "A277011",
+    "A277012",
+    "A277017"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

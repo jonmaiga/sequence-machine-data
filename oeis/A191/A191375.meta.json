@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are the sum of squares of three positive Fibonacci numbers.",
+  "id": "A191375",
+  "mentions": [
+    "A000045",
+    "A179459"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

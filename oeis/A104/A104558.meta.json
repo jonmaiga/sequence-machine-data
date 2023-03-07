@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix inverse of A104557 and related to Laguerre polynomials.",
+  "id": "A104558",
+  "mentions": [
+    "A021009",
+    "A056920",
+    "A056953",
+    "A066667",
+    "A104557"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

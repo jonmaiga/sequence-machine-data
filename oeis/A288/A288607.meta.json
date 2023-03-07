@@ -1,0 +1,20 @@
+{
+  "description": "Exponential reversion of A288606.",
+  "id": "A288607",
+  "mentions": [
+    "A198094",
+    "A260691",
+    "A277435",
+    "A288606"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

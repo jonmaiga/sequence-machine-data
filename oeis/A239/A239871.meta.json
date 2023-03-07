@@ -1,0 +1,23 @@
+{
+  "description": "Number of strict partitions of n having 1 more even part than odd, so that there is at least one ordering of the parts in which the even and odd parts alternate, and the first and last terms are even.",
+  "id": "A239871",
+  "mentions": [
+    "A239241",
+    "A239832",
+    "A239872",
+    "A239873",
+    "A240021"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

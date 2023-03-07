@@ -1,0 +1,21 @@
+{
+  "description": "The first of four solutions to a Monthly problem asking if there exist finite sequences 1 < a(1) < a(2) < ... < a(n) such that Sum_i 1/a(i) = 1 and gcd(a(i), a(i+1)) = 1 for 1 <= i < n.",
+  "id": "A346603",
+  "mentions": [
+    "A346604",
+    "A346605",
+    "A346606"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

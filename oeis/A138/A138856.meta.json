@@ -1,0 +1,21 @@
+{
+  "description": "Numbers such that all subsets of {prime(a(1)),...,prime(a(n))} have a different sum.",
+  "id": "A138856",
+  "mentions": [
+    "A064934",
+    "A138000",
+    "A138857",
+    "A138858"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nodes read by depth in a binary tree defined as: Root = 1; an even node N has a left child N + 1 if N + 1 is not a prime, and an odd node N has a left child sqrt(N + 2) if sqrt(N + 2) is a prime; the right child of a node N is 2*N.",
+  "id": "A341742",
+  "mentions": [
+    "A006577",
+    "A339991",
+    "A340008",
+    "A340419",
+    "A340801"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

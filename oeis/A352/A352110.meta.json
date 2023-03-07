@@ -1,0 +1,32 @@
+{
+  "description": "Starts of runs of 4 consecutive lazy-tribonacci-Niven numbers (A352107).",
+  "id": "A352110",
+  "mentions": [
+    "A141769",
+    "A328207",
+    "A328211",
+    "A328215",
+    "A330933",
+    "A331824",
+    "A334311",
+    "A342429",
+    "A344344",
+    "A352092",
+    "A352103",
+    "A352104",
+    "A352107",
+    "A352108",
+    "A352109"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows giving numbers B(n,k) arising in the enumeration of doubly rooted tree maps.",
+  "id": "A260039",
+  "mentions": [
+    "A046715",
+    "A168452",
+    "A260040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

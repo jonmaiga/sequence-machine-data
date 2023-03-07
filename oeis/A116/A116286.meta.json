@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k*(k+2) gives the concatenation of a number m with itself.",
+  "id": "A116286",
+  "mentions": [
+    "A116136",
+    "A116279",
+    "A116285",
+    "A116287",
+    "A116295"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

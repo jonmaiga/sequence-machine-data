@@ -1,0 +1,18 @@
+{
+  "description": "Smallest numbers k such that A006577(n+k) = A006577(n) + A006577(k), or 0 if no such number exists.",
+  "id": "A222582",
+  "mentions": [
+    "A006577",
+    "A221947"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

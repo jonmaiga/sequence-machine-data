@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. a(n) = the smallest integer > a(n-1) containing {the string made by reversing the order of the binary digits of n, and removing leading 0's} as a substring when a(n) is written in binary.",
+  "id": "A161979",
+  "mentions": [
+    "A030101",
+    "A161980"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:05",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

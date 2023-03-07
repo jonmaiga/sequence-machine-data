@@ -1,0 +1,26 @@
+{
+  "description": "Derived from central terms (A127090) of triangle A127082; a(n) = A127090(n)/(n+1).",
+  "id": "A127091",
+  "mentions": [
+    "A127082",
+    "A127083",
+    "A127084",
+    "A127085",
+    "A127086",
+    "A127087",
+    "A127088",
+    "A127089",
+    "A127090"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

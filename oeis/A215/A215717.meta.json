@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations on n points admitting a sixth root.",
+  "id": "A215717",
+  "mentions": [
+    "A003483",
+    "A103619",
+    "A103620",
+    "A215716",
+    "A215718",
+    "A247005"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Prime concatenations p = concatenation of c, b, and a where a, b, c is a primitive Pythagorean triple, a < b < c.",
+  "id": "A174825",
+  "mentions": [
+    "A008846",
+    "A020882"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

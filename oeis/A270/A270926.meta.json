@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n*R(n) can be represented as sum of two nonzero squares, where R(n) is the reverse of the decimal expansion of n.",
+  "id": "A270926",
+  "mentions": [
+    "A000404",
+    "A004086",
+    "A061205"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

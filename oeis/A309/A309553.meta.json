@@ -1,0 +1,20 @@
+{
+  "description": "Imperfect numbers of the form 2^(2^k-1)*F_1*F_2*...*F_(k-1), where F is a Fermat number.",
+  "id": "A309553",
+  "mentions": [
+    "A000215",
+    "A127724"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

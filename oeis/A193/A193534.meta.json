@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of (1/3) * (Pi/sqrt(3) - log(2)).",
+  "id": "A193534",
+  "mentions": [
+    "A008544",
+    "A016789",
+    "A024396",
+    "A073010",
+    "A113476",
+    "A193535",
+    "A196548",
+    "A258969"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:54",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

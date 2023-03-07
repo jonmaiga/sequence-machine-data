@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: x * Product_{k>=1} 1/(1 - a(k)*(-x)^k)^((-1)^k).",
+  "id": "A308245",
+  "mentions": [
+    "A032305",
+    "A045648",
+    "A049075",
+    "A093637",
+    "A308246"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

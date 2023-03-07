@@ -1,0 +1,18 @@
+{
+  "description": "Members of A103215 not in A008784.",
+  "id": "A103216",
+  "mentions": [
+    "A008784",
+    "A103215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

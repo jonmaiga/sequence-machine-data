@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} d*sigma_n(d).",
+  "id": "A320940",
+  "mentions": [
+    "A000203",
+    "A001001",
+    "A027847",
+    "A027848",
+    "A319647",
+    "A321141"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

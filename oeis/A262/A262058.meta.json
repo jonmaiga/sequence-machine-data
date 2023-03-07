@@ -1,0 +1,19 @@
+{
+  "description": "Least integer k>1 such that sqrt(k)/log(k) exceeds n.",
+  "id": "A262058",
+  "mentions": [
+    "A088346",
+    "A262059",
+    "A262060"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

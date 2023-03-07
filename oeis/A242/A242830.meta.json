@@ -1,0 +1,21 @@
+{
+  "description": "For p = prime(n), a(n) = number of bases 1 < b < p such that b^(p-1) == 1 (mod p^2).",
+  "id": "A242830",
+  "mentions": [
+    "A001220",
+    "A039678",
+    "A134307",
+    "A185103",
+    "A244249"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: even terms of A094728(n+1) divided by 4.",
+  "id": "A269837",
+  "mentions": [
+    "A000027",
+    "A000034",
+    "A002717",
+    "A004736",
+    "A094728",
+    "A122197",
+    "A138099",
+    "A167430",
+    "A239873",
+    "A261046",
+    "A264798"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

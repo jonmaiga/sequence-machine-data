@@ -1,0 +1,24 @@
+{
+  "description": "Largest prime factor of n*(n+1)*(n+2)*(n+3).",
+  "id": "A190136",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A052762",
+    "A074399",
+    "A086801",
+    "A093074",
+    "A193945"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of nonzero digits in representation of A328316(n) in primorial base; Number of distinct prime factors in A328316(1+n).",
+  "id": "A328318",
+  "mentions": [
+    "A001221",
+    "A267263",
+    "A276086",
+    "A328316",
+    "A328317",
+    "A328319"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

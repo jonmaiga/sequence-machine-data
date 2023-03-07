@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,2*k)*binomial(2*k,k)/(2*k-1).",
+  "id": "A295112",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A295113"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

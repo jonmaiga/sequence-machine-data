@@ -1,0 +1,21 @@
+{
+  "description": "Squares that differ from a triangular number by 1.",
+  "id": "A299921",
+  "mentions": [
+    "A001110",
+    "A164080",
+    "A182334",
+    "A229131"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

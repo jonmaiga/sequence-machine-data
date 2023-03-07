@@ -1,0 +1,20 @@
+{
+  "description": "Minimum number of colors needed to color the cells of the six regular convex polychora such that no two cells with a common face share the same color (in the order 5-cell, 8-cell, 16-cell, 24-cell, 120-cell, 600-cell).",
+  "id": "A309442",
+  "mentions": [
+    "A244951",
+    "A273509"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

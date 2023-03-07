@@ -1,0 +1,23 @@
+{
+  "description": "Number of 1D random walks with 8 steps where the median of the positions is n.",
+  "id": "A137272",
+  "mentions": [
+    "A089877",
+    "A146205",
+    "A146206",
+    "A146207"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": -4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

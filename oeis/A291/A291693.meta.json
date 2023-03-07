@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^q(k)), where q(k) = [x^k] Product_{k>=1} (1 + x^k).",
+  "id": "A291693",
+  "mentions": [
+    "A000009",
+    "A007279",
+    "A050342",
+    "A068006",
+    "A089254",
+    "A089259",
+    "A280253",
+    "A284908"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

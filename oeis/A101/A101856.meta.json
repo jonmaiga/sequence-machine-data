@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-intersecting polygons that it is possible for an accelerating ant to produce with n steps (rotations & reflections not included). On step 1 the ant moves forward 1 unit, then turns left or right and proceeds 2 units, then turns left or right until at the end of its n-th step it arrives back at its starting place.",
+  "id": "A101856",
+  "mentions": [
+    "A006718",
+    "A101857",
+    "A292793"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

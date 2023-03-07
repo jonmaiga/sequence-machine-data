@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways of arranging n lines in the (affine) plane.",
+  "id": "A241600",
+  "mentions": [
+    "A000041",
+    "A003036",
+    "A048872",
+    "A048873",
+    "A063859",
+    "A090338",
+    "A090339",
+    "A132346",
+    "A250001"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

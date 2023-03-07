@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number x defined by x^(x^x) = 27.",
+  "id": "A140663",
+  "mentions": [
+    "A093590"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

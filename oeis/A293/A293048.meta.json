@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 2^q * 3^r * 11^s + 1.",
+  "id": "A293048",
+  "mentions": [
+    "A002200",
+    "A293008"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

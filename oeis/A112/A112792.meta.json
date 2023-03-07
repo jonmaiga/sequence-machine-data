@@ -1,0 +1,20 @@
+{
+  "description": "Array where a(1,1)=1 and m-th term of n-th row is number of terms of (n-1)th row which are coprime to the m-th positive integer coprime to n and <=n.",
+  "id": "A112792",
+  "mentions": [
+    "A000010",
+    "A112793"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Start of the first run of n or more consecutive primes which are Sophie Germain primes.",
+  "id": "A338700",
+  "mentions": [
+    "A005384",
+    "A047989",
+    "A339474",
+    "A339477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

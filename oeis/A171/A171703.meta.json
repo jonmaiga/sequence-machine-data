@@ -1,0 +1,25 @@
+{
+  "description": "The first n-fold intrinsically 4-palindromic number (represented in base ten).",
+  "id": "A171703",
+  "mentions": [
+    "A171701",
+    "A171702",
+    "A171704",
+    "A171705",
+    "A171706",
+    "A171740",
+    "A171741",
+    "A171742"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

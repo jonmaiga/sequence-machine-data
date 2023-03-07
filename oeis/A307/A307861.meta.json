@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that set records on longest chains of \"Chained Divisors\" of A306661 and A307858.",
+  "id": "A307861",
+  "mentions": [
+    "A306661",
+    "A307858"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

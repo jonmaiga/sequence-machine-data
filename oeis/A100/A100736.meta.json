@@ -1,0 +1,20 @@
+{
+  "description": "Inverse modulo 2 binomial transform of 3^n.",
+  "id": "A100736",
+  "mentions": [
+    "A010060",
+    "A100735"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

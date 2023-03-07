@@ -1,0 +1,18 @@
+{
+  "description": "Expected number of distinct squares visited by a knight's random walk on an infinite chessboard after n steps, normalized to give an integer.",
+  "id": "A309221",
+  "mentions": [
+    "A326954",
+    "A326955"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

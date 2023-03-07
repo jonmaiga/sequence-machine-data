@@ -1,0 +1,23 @@
+{
+  "description": "Prime index of A000101(n), maximal gap upper end prime index.",
+  "id": "A107578",
+  "mentions": [
+    "A000101",
+    "A000720",
+    "A002386",
+    "A005250",
+    "A005669",
+    "A007053"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

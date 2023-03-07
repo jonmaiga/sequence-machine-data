@@ -1,0 +1,20 @@
+{
+  "description": "O.g.f.: Sum_{n>=0} n^n * (3*n+1)^(n-1) * exp(-n*(3*n+1)*x) * x^n / n!.",
+  "id": "A217911",
+  "mentions": [
+    "A217900",
+    "A217910",
+    "A217912"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

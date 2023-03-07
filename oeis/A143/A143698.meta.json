@@ -1,0 +1,25 @@
+{
+  "description": "12 times hexagonal numbers: 12*n*(2*n-1).",
+  "id": "A143698",
+  "mentions": [
+    "A000384",
+    "A002939",
+    "A085250",
+    "A094159",
+    "A152746",
+    "A154617",
+    "A195818"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:11",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

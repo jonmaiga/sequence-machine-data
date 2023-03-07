@@ -1,0 +1,19 @@
+{
+  "description": "Indices k such that A305355(k) = 0.",
+  "id": "A305441",
+  "mentions": [
+    "A276517",
+    "A305355",
+    "A305440"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

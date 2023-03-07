@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of ways to express 2*n+1 as a sum of parts x such that x+2 is an odd prime.",
+  "id": "A333615",
+  "mentions": [
+    "A069259",
+    "A101776"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

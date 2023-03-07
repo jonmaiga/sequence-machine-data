@@ -1,0 +1,33 @@
+{
+  "description": "Dirichlet g.f.: Sum_{n>0} a(n)/n^s = zeta(s-1) * zeta(2*s-1).",
+  "id": "A340774",
+  "mentions": [
+    "A000010",
+    "A037213",
+    "A046951",
+    "A055615",
+    "A069290",
+    "A351600",
+    "A351601",
+    "A351602",
+    "A351603",
+    "A351604",
+    "A351605",
+    "A351606",
+    "A351607",
+    "A351608"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Distance between the two occurrences of n-th prime in A082500.",
+  "id": "A239636",
+  "mentions": [
+    "A000040",
+    "A014689",
+    "A049084",
+    "A082500"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of cyclic compositions (necklaces of positive integers) summing to n that have only one part or whose adjacent parts (including the last with first) are coprime.",
+  "id": "A318728",
+  "mentions": [
+    "A000740",
+    "A000837",
+    "A008965",
+    "A059966",
+    "A100953",
+    "A167606",
+    "A296302",
+    "A318726",
+    "A318727",
+    "A328597"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

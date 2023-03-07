@@ -1,0 +1,18 @@
+{
+  "description": "Floor-Sqrt transform of the numbers bin(3*n,n)/(2*n+1) (A001764).",
+  "id": "A192665",
+  "mentions": [
+    "A001764"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:10:20",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

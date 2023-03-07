@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed points in range [A014137(n-1)..A014138(n-1)] of permutation A125987/A125988.",
+  "id": "A126295",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A125987",
+    "A125988",
+    "A126298",
+    "A126299"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which there are at least 2 partitions k = x+y with x<=y and gcd(x,y,k)=1 having the same value N(x,y,n) defined as the product of distinct prime divisors of x*y*n.",
+  "id": "A172247",
+  "mentions": [
+    "A023022",
+    "A172245",
+    "A172246",
+    "A172248"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

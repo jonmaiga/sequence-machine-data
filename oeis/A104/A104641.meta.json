@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^3 has equal number of odd and even digits.",
+  "id": "A104641",
+  "mentions": [
+    "A104639",
+    "A104640"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

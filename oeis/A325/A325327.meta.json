@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of multiples of triangular partitions, or finite arithmetic progressions with offset 0.",
+  "id": "A325327",
+  "mentions": [
+    "A000961",
+    "A007294",
+    "A007862",
+    "A049988",
+    "A056239",
+    "A112798",
+    "A130091",
+    "A289509",
+    "A307824",
+    "A325325",
+    "A325328",
+    "A325367",
+    "A325390",
+    "A325407"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

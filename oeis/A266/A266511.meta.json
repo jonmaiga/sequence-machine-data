@@ -1,0 +1,21 @@
+{
+  "description": "Minimal difference between the smallest and largest of n consecutive large primes that form a symmetric n-tuplet as permitted by divisibility considerations.",
+  "id": "A266511",
+  "mentions": [
+    "A008407",
+    "A175309",
+    "A266512",
+    "A266676"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

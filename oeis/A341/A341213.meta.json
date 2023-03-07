@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number m such that numbers m, m - 1, m - 2, ..., m - n + 1 have k, 2*k, 3*k, ..., n*k divisors respectively.",
+  "id": "A341213",
+  "mentions": [
+    "A000005",
+    "A340158",
+    "A340159",
+    "A341212",
+    "A341214"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

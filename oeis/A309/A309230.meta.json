@@ -1,0 +1,20 @@
+{
+  "description": "Positions of records in A033178.",
+  "id": "A309230",
+  "mentions": [
+    "A033178",
+    "A033179",
+    "A104173"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

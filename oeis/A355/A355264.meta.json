@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n * largest-nth-power(n, 2) = n * A000188(n), where largest-nth-power(n, e) is the largest positive integer b such that b^e divides n.",
+  "id": "A355264",
+  "mentions": [
+    "A000027",
+    "A000188",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

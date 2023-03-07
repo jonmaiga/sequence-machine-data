@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if n is a square, otherwise a(n) = 2.",
+  "id": "A169695",
+  "mentions": [
+    "A000005",
+    "A010052",
+    "A049240",
+    "A161840",
+    "A207375",
+    "A275437"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

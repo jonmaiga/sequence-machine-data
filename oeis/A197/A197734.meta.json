@@ -1,0 +1,19 @@
+{
+  "description": "OFF cell numbers of a garden of Eden in Conway's Game of Life created by the method of successive approximations on a spiral with a choice of a state of each cell with the minimum quantity of parents.",
+  "id": "A197734",
+  "mentions": [
+    "A196447"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

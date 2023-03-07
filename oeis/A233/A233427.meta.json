@@ -1,0 +1,42 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using pentominoes of any shape; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A233427",
+  "mentions": [
+    "A000012",
+    "A054318",
+    "A099390",
+    "A174249",
+    "A230031",
+    "A233320",
+    "A233428",
+    "A233429",
+    "A233430",
+    "A246902",
+    "A247117",
+    "A247702",
+    "A247703",
+    "A247704",
+    "A247705",
+    "A247706",
+    "A247707",
+    "A247708",
+    "A247709",
+    "A247710",
+    "A247711",
+    "A247712",
+    "A247713",
+    "A278657"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

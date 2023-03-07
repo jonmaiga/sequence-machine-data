@@ -1,0 +1,29 @@
+{
+  "description": "Number of necklace compositions of n with distinct differences.",
+  "id": "A325554",
+  "mentions": [
+    "A000079",
+    "A008965",
+    "A235998",
+    "A242882",
+    "A318728",
+    "A325325",
+    "A325404",
+    "A325468",
+    "A325545",
+    "A325549",
+    "A325550",
+    "A325555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

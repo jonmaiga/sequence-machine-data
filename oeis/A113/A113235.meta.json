@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of {1,..,n} into any number of lists of size not equal to 2, where a list means an ordered subset, cf. A000262.",
+  "id": "A113235",
+  "mentions": [
+    "A000262",
+    "A000266",
+    "A005251",
+    "A052845",
+    "A097514",
+    "A113236",
+    "A113237"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

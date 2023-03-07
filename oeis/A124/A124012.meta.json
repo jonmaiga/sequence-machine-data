@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/(k*prime(k)).",
+  "id": "A124012",
+  "mentions": [
+    "A033286",
+    "A033844",
+    "A085548",
+    "A209329",
+    "A210473"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

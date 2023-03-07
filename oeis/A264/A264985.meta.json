@@ -1,0 +1,22 @@
+{
+  "description": "Self-inverse permutation of nonnegative integers: a(n) = (A264983(n)-1) / 2.",
+  "id": "A264985",
+  "mentions": [
+    "A263273",
+    "A264983",
+    "A264989",
+    "A264991",
+    "A264992"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

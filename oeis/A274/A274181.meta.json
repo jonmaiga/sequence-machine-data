@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Phi(1/2, 2, 2), where Phi is the Lerch transcendent.",
+  "id": "A274181",
+  "mentions": [
+    "A002162",
+    "A008276",
+    "A076788",
+    "A112302",
+    "A163931"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:09",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

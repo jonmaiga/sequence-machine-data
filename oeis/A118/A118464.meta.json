@@ -1,0 +1,21 @@
+{
+  "description": "Primes p=prime(i) of level (1,5), i.e., such that A118534(i) = prime(i-5).",
+  "id": "A118464",
+  "mentions": [
+    "A117078",
+    "A117563",
+    "A118534",
+    "A125830",
+    "A162174"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

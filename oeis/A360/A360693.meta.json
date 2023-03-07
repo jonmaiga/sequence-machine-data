@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of sets of n words of length n over binary alphabet where the first letter occurs k times; triangle T(n,k), n>=0, n-signum(n)<=k<=n*(n-1)+signum(n), read by rows.",
+  "id": "A360693",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A014070",
+    "A057427",
+    "A154323",
+    "A220886",
+    "A360695",
+    "A360702"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

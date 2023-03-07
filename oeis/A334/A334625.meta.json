@@ -1,0 +1,18 @@
+{
+  "description": "Maximal size of a subset T of S = {1,2,...,n} with a cyclic arrangement of T such that any three neighbors can be reordered in an arithmetic progression.",
+  "id": "A334625",
+  "mentions": [
+    "A336351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

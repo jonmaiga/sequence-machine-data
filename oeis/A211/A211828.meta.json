@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = x + x^2 * d/dx A(A(x)).",
+  "id": "A211828",
+  "mentions": [
+    "A211827"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

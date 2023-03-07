@@ -1,0 +1,20 @@
+{
+  "description": "Binary sequence starting with 1 and with run lengths given by the ruler sequence A001511.",
+  "id": "A252488",
+  "mentions": [
+    "A001511",
+    "A005187",
+    "A120738",
+    "A253585"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

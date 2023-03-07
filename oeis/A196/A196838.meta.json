@@ -1,0 +1,32 @@
+{
+  "description": "Numerators of coefficients of Bernoulli polynomials with rising powers of the variable.",
+  "id": "A196838",
+  "mentions": [
+    "A000217",
+    "A006232",
+    "A027664",
+    "A048854",
+    "A048998",
+    "A048999",
+    "A053382",
+    "A053383",
+    "A096839",
+    "A164555",
+    "A164558",
+    "A196839"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:50:27",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

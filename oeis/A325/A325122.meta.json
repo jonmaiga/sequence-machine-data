@@ -1,0 +1,37 @@
+{
+  "description": "Sum of binary digits of the prime indices of n, minus Omega(n).",
+  "id": "A325122",
+  "mentions": [
+    "A000120",
+    "A018900",
+    "A019565",
+    "A048881",
+    "A051438",
+    "A056239",
+    "A070939",
+    "A112798",
+    "A302242",
+    "A318400",
+    "A318994",
+    "A318995",
+    "A325033",
+    "A325034",
+    "A325103",
+    "A325104",
+    "A325106",
+    "A325118",
+    "A325120",
+    "A325121"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

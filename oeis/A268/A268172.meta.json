@@ -1,0 +1,23 @@
+{
+  "description": "Binary-ternary Wedderburn-Etherington numbers.",
+  "id": "A268172",
+  "mentions": [
+    "A000598",
+    "A000669",
+    "A001190",
+    "A268163",
+    "A292085"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(x * (1 - x^3)).",
+  "id": "A351905",
+  "mentions": [
+    "A190875",
+    "A246607",
+    "A293493",
+    "A293604",
+    "A351906"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

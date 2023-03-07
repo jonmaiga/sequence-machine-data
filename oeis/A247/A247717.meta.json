@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A033493(n)/A008908(n) is an integer.",
+  "id": "A247717",
+  "mentions": [
+    "A008908",
+    "A033493"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

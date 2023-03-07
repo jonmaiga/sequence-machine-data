@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to p(n) = Sum_{i=1..n-1} c(i)*p(i) with c(i) in {-1,0,1} and p(n) = n-th prime.",
+  "id": "A215221",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A022894",
+    "A083309",
+    "A113040",
+    "A215222"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of sensed unrooted maps with n edges.",
+  "id": "A170946",
+  "mentions": [
+    "A268558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

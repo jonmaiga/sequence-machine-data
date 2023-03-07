@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n whose reversal divides n+1.",
+  "id": "A247201",
+  "mentions": [
+    "A160946"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

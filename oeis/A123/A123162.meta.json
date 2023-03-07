@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(2*n - 1, 2*k - 1) for 0 < k <= n and T(n,0) = 1.",
+  "id": "A123162",
+  "mentions": [
+    "A007318",
+    "A034867",
+    "A103327",
+    "A122366"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that phi(m) > 2*tau(m), where phi = A000010 and tau = A000005.",
+  "id": "A112588",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A112587"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:49",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

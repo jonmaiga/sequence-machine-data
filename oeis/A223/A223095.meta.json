@@ -1,0 +1,23 @@
+{
+  "description": "Number of foldings of n labeled stamps in which both end leaves are inwards.",
+  "id": "A223095",
+  "mentions": [
+    "A000136",
+    "A000682",
+    "A077014",
+    "A217318",
+    "A223093",
+    "A223094"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

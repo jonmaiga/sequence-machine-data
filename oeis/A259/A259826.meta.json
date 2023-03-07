@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n is a multiple of 6 and both n-1 and n+1 are composite.",
+  "id": "A259826",
+  "mentions": [
+    "A008588",
+    "A060461",
+    "A099047"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

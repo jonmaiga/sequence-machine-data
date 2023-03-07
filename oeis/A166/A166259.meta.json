@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that a centered polygonal number n*k*(k+1)/2+1 is not a square for any k > 0.",
+  "id": "A166259",
+  "mentions": [
+    "A001542",
+    "A001570",
+    "A001652",
+    "A001921",
+    "A006451",
+    "A053141",
+    "A053606",
+    "A061278",
+    "A105038",
+    "A105040",
+    "A120744",
+    "A129444",
+    "A129556"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

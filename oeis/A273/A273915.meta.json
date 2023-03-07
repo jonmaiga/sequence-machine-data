@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered ways to write n as w^5 + x^2 + y^2 + z^2, where w,x,y,z are nonnegative integers with x <= y <= z.",
+  "id": "A273915",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000584",
+    "A270969",
+    "A273429",
+    "A273917"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

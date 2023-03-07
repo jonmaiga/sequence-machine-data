@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f. (1/5!)*sin^5(x)/cos(x) (coefficients of odd powers only).",
+  "id": "A278194",
+  "mentions": [
+    "A000364",
+    "A004174",
+    "A024235",
+    "A278079",
+    "A278080",
+    "A278195"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

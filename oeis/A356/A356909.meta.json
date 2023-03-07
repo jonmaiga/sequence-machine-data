@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x)^A(x) = 1/(1 - 2*x)^(1/2).",
+  "id": "A356909",
+  "mentions": [
+    "A355786",
+    "A356908"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

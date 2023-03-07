@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=0. Concatenate onto the end of the sequence (from left to right) the integer m_n converted into binary (with the most significant digit on the left), where m_n is the smallest integer > A118248(n-1) and whose binary representation does not occur anywhere earlier in the sequence (when the concatenated sequence is read from left to right). A118248(n) then equals m_n when written in decimal.",
+  "id": "A118247",
+  "mentions": [
+    "A118248",
+    "A118249",
+    "A118251"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

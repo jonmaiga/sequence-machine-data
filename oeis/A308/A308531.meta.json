@@ -1,0 +1,21 @@
+{
+  "description": "Largely composite numbers (A067128) with a unique number of divisors.",
+  "id": "A308531",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A067128",
+    "A308530"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

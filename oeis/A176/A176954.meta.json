@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = 1 + Sum_{p=0..n} a(p)*a(n-p)+k for n>=1, with here a(0)=1, a(1)=2, k=-1 and l=-1.",
+  "id": "A176954",
+  "mentions": [
+    "A176953"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:20:16",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

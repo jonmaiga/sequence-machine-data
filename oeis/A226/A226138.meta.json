@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 = (2i+1)^2 + (2j+1)^2 - 1, where i <= j and i,j > 0, retaining multiples of same k obtained from different i, j combinations.",
+  "id": "A226138",
+  "mentions": [
+    "A002061",
+    "A063226",
+    "A180263"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

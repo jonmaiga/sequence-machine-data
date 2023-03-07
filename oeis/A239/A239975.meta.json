@@ -1,0 +1,18 @@
+{
+  "description": "Least k>0 such that n^2 + (n+k)^2 is a square, or -1 if no such k exists.",
+  "id": "A239975",
+  "mentions": [
+    "A000290",
+    "A055527"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 5,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

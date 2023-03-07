@@ -1,0 +1,19 @@
+{
+  "description": "Number of oriented n-dimensional polytopes with n+3 vertices, meaning that two polytopes are identified if they have the same combinatorial type and there exists an orientation-preserving homeomorphism mapping the first polytope to the second polytope.",
+  "id": "A114290",
+  "mentions": [
+    "A000943",
+    "A114289",
+    "A114291"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

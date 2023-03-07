@@ -1,0 +1,21 @@
+{
+  "description": "Number of evolutionary duplication-loss-histories with n leaves of the caterpillar species tree with 5 leaves.",
+  "id": "A307700",
+  "mentions": [
+    "A000108",
+    "A307696",
+    "A307697",
+    "A307698"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

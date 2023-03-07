@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of sum(1/A112373(k)): k=0..n), denominators = A112373.",
+  "id": "A259644",
+  "mentions": [
+    "A112373"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

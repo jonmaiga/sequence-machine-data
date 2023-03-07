@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that p#+1 is a semiprime, where # is the primorial (A034386).",
+  "id": "A250293",
+  "mentions": [
+    "A005234",
+    "A006862",
+    "A034386",
+    "A078778",
+    "A085725",
+    "A250294"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

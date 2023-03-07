@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 11. a(n) is obtained by filling the space between neighboring digits in a(n-1) with their sum.",
+  "id": "A110398",
+  "mentions": [
+    "A080764",
+    "A216208"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

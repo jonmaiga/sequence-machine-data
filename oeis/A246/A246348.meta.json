@@ -1,0 +1,30 @@
+{
+  "description": "a(1)=1, a(p_n) = 1 + a(n), a(c_n) = 1 + a(n), where p_n = n-th prime = A000040(n), c_n = n-th composite number = A002808(n); Also binary width of terms of A135141.",
+  "id": "A246348",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A010051",
+    "A049084",
+    "A065855",
+    "A070939",
+    "A135141",
+    "A246346",
+    "A246347",
+    "A246369",
+    "A246370",
+    "A246377"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

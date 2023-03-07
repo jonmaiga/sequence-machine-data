@@ -1,0 +1,18 @@
+{
+  "description": "Always start on the lowest digit of a(n), then visit all digits of a(n) in increasing order. The terms of the sequence are the smallest one that force the visitor to walk n steps to complete his tour (a single step drives you from a digit to the closest one).",
+  "id": "A336611",
+  "mentions": [
+    "A284591"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

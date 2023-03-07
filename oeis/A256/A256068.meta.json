@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of rooted identity trees with n nodes and colored non-root nodes using exactly k colors; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.",
+  "id": "A256068",
+  "mentions": [
+    "A000272",
+    "A004111",
+    "A063524",
+    "A255517",
+    "A256064",
+    "A309996",
+    "A319220"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

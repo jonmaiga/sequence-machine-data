@@ -1,0 +1,17 @@
+{
+  "description": "Number of 6Xn array permutations with each element moving zero or one space horizontally or diagonally",
+  "id": "A189454",
+  "mentions": [
+    "A189449"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

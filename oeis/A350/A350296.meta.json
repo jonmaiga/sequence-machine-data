@@ -1,0 +1,24 @@
+{
+  "description": "Minimum number of 1's in an n X n binary matrix with no zero 2 X 2 submatrix.",
+  "id": "A350296",
+  "mentions": [
+    "A001197",
+    "A072567",
+    "A152125",
+    "A227133",
+    "A339635",
+    "A347472"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "List of highly composite numbers (A002182) with an exponent in its prime factorization that is at least as great as the number of positive exponents; intersection of A002182 and A212165.",
+  "id": "A212169",
+  "mentions": [
+    "A002182",
+    "A006939",
+    "A066120",
+    "A072938",
+    "A087980",
+    "A095921",
+    "A106037",
+    "A130091",
+    "A136253",
+    "A138534",
+    "A141586",
+    "A162935",
+    "A166475",
+    "A166981",
+    "A168263",
+    "A181555",
+    "A181813",
+    "A181814",
+    "A181818",
+    "A181823",
+    "A181825",
+    "A182763",
+    "A212165"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

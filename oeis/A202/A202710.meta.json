@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n, k) = coefficient of x^n in the Taylor expansion of [((1 - x - 2*x^2 - sqrt(1 - 2*x - 3*x^2))/(2*x^2))]^k.",
+  "id": "A202710",
+  "mentions": [
+    "A001006",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

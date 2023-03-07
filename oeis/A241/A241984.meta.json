@@ -1,0 +1,20 @@
+{
+  "description": "The number of P-positions in the Cookie Monster game with at most three piles, allowing for piles of zero, that are born by generation n.",
+  "id": "A241984",
+  "mentions": [
+    "A237686",
+    "A241983",
+    "A241986",
+    "A241988"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

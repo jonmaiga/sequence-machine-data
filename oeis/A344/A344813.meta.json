@@ -1,0 +1,22 @@
+{
+  "description": "Square of the distance from the origin for a square lattice Moore neighborhood self-avoiding walk using the rules given in the Comments.",
+  "id": "A344813",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A272763",
+    "A272773"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "As p runs through primes >= 5, sequence gives { numerator of Sum_{k=1..p-1} 1/k^2 } / p.",
+  "id": "A125551",
+  "mentions": [
+    "A034602",
+    "A061002",
+    "A186720",
+    "A186722"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

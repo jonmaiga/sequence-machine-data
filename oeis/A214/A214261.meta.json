@@ -1,0 +1,21 @@
+{
+  "description": "List of derangements of 1, 2, 3, ..., n for n = 2, 3, 4, ..., in lexicographic order.",
+  "id": "A214261",
+  "mentions": [
+    "A000166",
+    "A030298",
+    "A065087",
+    "A086325"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

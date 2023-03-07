@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the digits of p^3, reversed, include the digits of p as a substring.",
+  "id": "A115764",
+  "mentions": [
+    "A115739",
+    "A115761",
+    "A115762",
+    "A115763"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

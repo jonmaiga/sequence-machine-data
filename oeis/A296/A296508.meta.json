@@ -1,0 +1,49 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the size of the subpart that is adjacent to the k-th peak of the largest Dyck path of the symmetric representation of sigma(n), or T(n,k) = 0 if the mentioned subpart is already associated to a previous peak or if there is no subpart adjacent to the k-th peak, with n >= 1, k >= 1.",
+  "id": "A296508",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A001227",
+    "A003056",
+    "A024916",
+    "A060831",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A238005",
+    "A239657",
+    "A239660",
+    "A239931",
+    "A239934",
+    "A240542",
+    "A244050",
+    "A245092",
+    "A249351",
+    "A250068",
+    "A250070",
+    "A261699",
+    "A262626",
+    "A279387",
+    "A279388",
+    "A279391",
+    "A280850",
+    "A280851",
+    "A335616"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

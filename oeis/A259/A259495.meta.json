@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) + phi(k) + d(k) = sigma(k+1) + phi(k+1) + d(k+1), where sigma(k) is the sum of the divisors of k, phi(k) the Euler totient function of k and d(k) the number of divisors of k.",
+  "id": "A259495",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A054004",
+    "A145749",
+    "A233541",
+    "A259496"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the prime gap constant (concatenate the sizes of prime gaps, A001223).",
+  "id": "A255311",
+  "mentions": [
+    "A001223",
+    "A033307",
+    "A033308",
+    "A255307"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:11:19",
+    "offset": 1,
+    "size": 127,
+    "source": "joeis"
+  }
+}

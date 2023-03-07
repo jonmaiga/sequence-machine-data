@@ -1,0 +1,21 @@
+{
+  "description": "Osiris or Digit re-assembly numbers: numbers that are equal to the sum of permutations of subsamples of their own digits.",
+  "id": "A319274",
+  "mentions": [
+    "A047726",
+    "A179239",
+    "A241754",
+    "A241899"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

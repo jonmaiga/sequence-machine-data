@@ -1,0 +1,20 @@
+{
+  "description": "Smallest deficient number which is the product of n consecutive primes.",
+  "id": "A308938",
+  "mentions": [
+    "A005100",
+    "A073485",
+    "A087234"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

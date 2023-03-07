@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits of n, times digital reversal of sum of digits of n.",
+  "id": "A153211",
+  "mentions": [
+    "A004086",
+    "A007953",
+    "A110921"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

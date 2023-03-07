@@ -1,0 +1,19 @@
+{
+  "description": "Numbers where all exponents in its prime factorization are one less than a prime.",
+  "id": "A220218",
+  "mentions": [
+    "A010051",
+    "A096432",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

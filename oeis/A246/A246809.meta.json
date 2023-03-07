@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers such that n^(b^n) == (-1)^b (mod C_b(n)), where C_b(n) = n*b^n+1 (A210339).",
+  "id": "A246809",
+  "mentions": [
+    "A210339"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

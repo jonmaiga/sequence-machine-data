@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n>=1, a(2n) = A135561(n), a(2n+1) = 0.",
+  "id": "A135534",
+  "mentions": [
+    "A135416",
+    "A135560",
+    "A135561"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

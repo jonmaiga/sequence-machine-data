@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s.",
+  "id": "A296988",
+  "mentions": [
+    "A296990"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

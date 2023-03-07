@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers k for which k-1 is a multiple of A053575(k) [the odd part of phi(k)].",
+  "id": "A340077",
+  "mentions": [
+    "A000265",
+    "A003961",
+    "A053575",
+    "A064989",
+    "A065091",
+    "A339869",
+    "A339870",
+    "A339879",
+    "A339880",
+    "A340075",
+    "A340076"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

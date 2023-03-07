@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - log(1 + 4*x) / 4).",
+  "id": "A354751",
+  "mentions": [
+    "A006252",
+    "A326324",
+    "A352071",
+    "A354147",
+    "A354237",
+    "A354264",
+    "A354750"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

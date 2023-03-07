@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = phi(n^4).",
+  "id": "A189393",
+  "mentions": [
+    "A001221",
+    "A002618",
+    "A003557",
+    "A023900",
+    "A053191",
+    "A238533",
+    "A239442",
+    "A239443"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

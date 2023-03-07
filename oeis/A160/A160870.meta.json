@@ -1,0 +1,37 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of sublattices of index n in generic k-dimensional lattice (n >= 1, k >= 1).",
+  "id": "A160870",
+  "mentions": [
+    "A000012",
+    "A000203",
+    "A000225",
+    "A001001",
+    "A003462",
+    "A003463",
+    "A006095",
+    "A006096",
+    "A023000",
+    "A038991",
+    "A038992",
+    "A038993",
+    "A038994",
+    "A038995",
+    "A038996",
+    "A038997",
+    "A128119",
+    "A160869"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

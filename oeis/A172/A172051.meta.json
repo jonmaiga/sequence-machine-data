@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/999999.",
+  "id": "A172051",
+  "mentions": [
+    "A022003",
+    "A079979",
+    "A172050",
+    "A245477"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:19",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

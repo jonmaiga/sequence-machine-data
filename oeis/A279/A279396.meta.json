@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows T(n, m) = sigma^*_(n-m)(m), n >= 1, m = 1, 2, ..., n, with sigma^*_(k)(n) given in a comment in A279395.",
+  "id": "A279396",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A008457",
+    "A034472",
+    "A034474",
+    "A064027",
+    "A099393",
+    "A112329",
+    "A113184",
+    "A279394",
+    "A279395",
+    "A279397"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Concatenation of the first n numbers in base n.",
+  "id": "A179075",
+  "mentions": [
+    "A047778",
+    "A048435",
+    "A048436",
+    "A048437",
+    "A048447",
+    "A179069"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "description": "Triangle read by rows. The Motzkin triangle, the coefficients of the Motzkin polynomials. M(n, k) = binomial(n, k) * CatalanNumber(k/2) if k is even, otherwise 0.",
+  "id": "A359364",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000217",
+    "A000910",
+    "A001006",
+    "A002457",
+    "A002522",
+    "A014531",
+    "A023426",
+    "A025179",
+    "A025235",
+    "A026300",
+    "A034827",
+    "A055151",
+    "A056107",
+    "A080159",
+    "A088625",
+    "A088626",
+    "A091147",
+    "A097610",
+    "A107131",
+    "A107587",
+    "A126120",
+    "A138364",
+    "A189912",
+    "A213380",
+    "A343386",
+    "A343773",
+    "A359647",
+    "A359649"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

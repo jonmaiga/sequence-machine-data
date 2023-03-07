@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals upwards: Davenport-Schinzel numbers T(n,k), n >= 1, k >= 1.",
+  "id": "A259874",
+  "mentions": [
+    "A002004",
+    "A005004",
+    "A005005",
+    "A005006"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

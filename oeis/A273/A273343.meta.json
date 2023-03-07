@@ -1,0 +1,19 @@
+{
+  "description": "The sum of the first-column lengths of all bargraphs of semiperimeter n (n>=2).",
+  "id": "A273343",
+  "mentions": [
+    "A082582",
+    "A273342"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 2,
+    "size": 30,
+    "source": "joeis"
+  }
+}

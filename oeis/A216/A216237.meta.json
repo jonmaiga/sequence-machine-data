@@ -1,0 +1,23 @@
+{
+  "description": "Happy palindromic numbers.",
+  "id": "A216237",
+  "mentions": [
+    "A002113",
+    "A007770",
+    "A103369",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

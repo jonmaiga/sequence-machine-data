@@ -1,0 +1,25 @@
+{
+  "description": "T(n,k) = total area of all squares and rectangles of area 2^(k-1) after 2^n stages in the toothpick structure of A139250, n>=1, k>=1, assuming the toothpicks have length 2. Triangle read by rows.",
+  "id": "A211017",
+  "mentions": [
+    "A020988",
+    "A139250",
+    "A160124",
+    "A211012",
+    "A211016",
+    "A211018",
+    "A211019"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

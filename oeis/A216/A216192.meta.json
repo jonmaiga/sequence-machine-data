@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Smallest m >= 5 containing no twos when represented in any base from 3 through n.",
+  "id": "A216192",
+  "mentions": [
+    "A216194",
+    "A270037",
+    "A270038",
+    "A270039",
+    "A270040",
+    "A270041",
+    "A270042",
+    "A270043",
+    "A270044",
+    "A270045"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

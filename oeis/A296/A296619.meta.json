@@ -1,0 +1,21 @@
+{
+  "description": "The number of nonnegative walks of n steps with step sizes 1 and 2, starting at 0 and ending at 2.",
+  "id": "A296619",
+  "mentions": [
+    "A055113",
+    "A185286",
+    "A187430"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

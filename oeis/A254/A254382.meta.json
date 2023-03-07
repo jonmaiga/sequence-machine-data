@@ -1,0 +1,32 @@
+{
+  "description": "Number of rooted labeled trees on n nodes such that every nonroot node is the child of a branching node or of the root.",
+  "id": "A254382",
+  "mentions": [
+    "A000014",
+    "A000169",
+    "A000669",
+    "A001678",
+    "A001679",
+    "A005512",
+    "A052318",
+    "A060313",
+    "A060356",
+    "A108919",
+    "A198518",
+    "A231797",
+    "A291636",
+    "A331488",
+    "A331578"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

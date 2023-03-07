@@ -1,0 +1,21 @@
+{
+  "description": "The intersection of hexagonal numbers (A000384) and centered 9-gonal numbers (A060544).",
+  "id": "A272399",
+  "mentions": [
+    "A000384",
+    "A060544",
+    "A272398"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:11:29",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

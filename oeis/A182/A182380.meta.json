@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose base 26 representation (using a=1, b=2, ..., y=25, z=0) form English words or phrases.",
+  "id": "A182380",
+  "mentions": [
+    "A038842",
+    "A072922"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

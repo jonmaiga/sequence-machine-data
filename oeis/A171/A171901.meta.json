@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with at least two identical neighboring digits in their decimal representation.",
+  "id": "A171901",
+  "mentions": [
+    "A043096",
+    "A044821",
+    "A171902",
+    "A171903",
+    "A171904",
+    "A196368"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

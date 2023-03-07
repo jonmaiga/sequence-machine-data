@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A173862.",
+  "id": "A200672",
+  "mentions": [
+    "A000225",
+    "A027383",
+    "A173862"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

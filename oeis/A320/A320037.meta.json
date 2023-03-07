@@ -1,0 +1,21 @@
+{
+  "description": "Write n in binary, then modify each run of 0's by appending one 1, and modify each run of 1's by appending one 0. a(n) is the decimal equivalent of the result.",
+  "id": "A320037",
+  "mentions": [
+    "A175046",
+    "A319423",
+    "A320038"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

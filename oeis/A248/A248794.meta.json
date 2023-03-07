@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest number k for which the sum of digits (A007953(k)) and the product of digits (A007954(k)) are both equal to highly composite numbers A002473, i.e., numbers whose prime divisors are all <= 7.",
+  "id": "A248794",
+  "mentions": [
+    "A002473",
+    "A007953",
+    "A007954",
+    "A034710"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

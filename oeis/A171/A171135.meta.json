@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime p such that p + 2n is prime or semiprime.",
+  "id": "A171135",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A064911",
+    "A171136",
+    "A171137"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

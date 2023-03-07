@@ -1,0 +1,24 @@
+{
+  "description": "Fifth right hand column of the EG1 triangle A162005",
+  "id": "A162010",
+  "mentions": [
+    "A004004",
+    "A162005",
+    "A162008",
+    "A162009",
+    "A162011",
+    "A162014"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:45:56",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

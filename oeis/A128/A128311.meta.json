@@ -1,0 +1,22 @@
+{
+  "description": "Remainder upon division of 2^(n-1)-1 by n.",
+  "id": "A128311",
+  "mentions": [
+    "A001220",
+    "A001348",
+    "A001567",
+    "A002997",
+    "A084653"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

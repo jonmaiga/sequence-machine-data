@@ -1,0 +1,39 @@
+{
+  "description": "Triangle read by rows: T(n,k) = total number of parts of all regions of the set of partitions of n whose largest part is k.",
+  "id": "A225597",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A006128",
+    "A008619",
+    "A133041",
+    "A135010",
+    "A138137",
+    "A139582",
+    "A141285",
+    "A182377",
+    "A186114",
+    "A186412",
+    "A187219",
+    "A193870",
+    "A194446",
+    "A206437",
+    "A207779",
+    "A211978",
+    "A220517",
+    "A225598",
+    "A225600",
+    "A225610"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

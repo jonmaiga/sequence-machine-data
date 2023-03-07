@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular array binomial(k+3,4)*binomial(n+3,4), by antidiagonals.",
+  "id": "A185905",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000332",
+    "A003991",
+    "A098358",
+    "A144112",
+    "A185904",
+    "A185906"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:45",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Denominators in inverse of triangle A128078 by rows, n * each term in n-th row of A126615.",
+  "id": "A128089",
+  "mentions": [
+    "A002260",
+    "A006527",
+    "A014820",
+    "A126615",
+    "A128064",
+    "A128078"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

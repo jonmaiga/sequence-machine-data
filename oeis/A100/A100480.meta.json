@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1 and, for n>1, a(n) is the smallest positive integer such that the subset S(c) of {1,2,3,...,n} defined by S(c)={k|1<=k<=n; a(k)=c} does not contain a 3-term arithmetic progression for any integer c.",
+  "id": "A100480",
+  "mentions": [
+    "A005836",
+    "A006997",
+    "A135415",
+    "A229037"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

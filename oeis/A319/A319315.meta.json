@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of integer partitions such that every distinct submultiset has a different average.",
+  "id": "A319315",
+  "mentions": [
+    "A000009",
+    "A056239",
+    "A122768",
+    "A237984",
+    "A275972",
+    "A299702",
+    "A301899",
+    "A316313",
+    "A316314",
+    "A316465"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

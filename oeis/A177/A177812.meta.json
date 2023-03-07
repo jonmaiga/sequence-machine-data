@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows: binomial(n,k^2), k=0..floor(sqrt(n)).",
+  "id": "A177812",
+  "mentions": [
+    "A003099"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

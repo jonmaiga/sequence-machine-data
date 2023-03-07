@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n - A048146(n), where A048146 is the sum of non-unitary divisors of n.",
+  "id": "A325814",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A034448",
+    "A034460",
+    "A048146",
+    "A064591",
+    "A228058",
+    "A325314",
+    "A325812",
+    "A325813",
+    "A325824"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

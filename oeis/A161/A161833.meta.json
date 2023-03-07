@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A161832.",
+  "id": "A161833",
+  "mentions": [
+    "A000695",
+    "A139251",
+    "A160121",
+    "A160407",
+    "A161830",
+    "A161831",
+    "A161832"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

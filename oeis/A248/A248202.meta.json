@@ -1,0 +1,26 @@
+{
+  "description": "Sphenic numbers (A007304) whose neighbors are sphenic.",
+  "id": "A248202",
+  "mentions": [
+    "A007304",
+    "A066509",
+    "A169834",
+    "A248201",
+    "A248203",
+    "A248204",
+    "A259349",
+    "A259350",
+    "A259801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

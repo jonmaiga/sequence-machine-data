@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5 X n 0..1 arrays with no 1 equal to more than three of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly two elements.",
+  "id": "A284079",
+  "mentions": [
+    "A284075"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

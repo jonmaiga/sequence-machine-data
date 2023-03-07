@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the length of the longest run of consecutive integers centered at n/2 with primality symmetric about n/2, or 0 if no such run exists.",
+  "id": "A343730",
+  "mentions": [
+    "A000040",
+    "A166685"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

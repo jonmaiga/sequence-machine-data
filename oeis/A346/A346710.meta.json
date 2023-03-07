@@ -1,0 +1,22 @@
+{
+  "description": "The denominators of the semiderivative of the Bernoulli polynomials at x = 1 and normalized by sqrt(Pi).",
+  "id": "A346710",
+  "mentions": [
+    "A346709",
+    "A346711",
+    "A346712",
+    "A346714",
+    "A346715"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

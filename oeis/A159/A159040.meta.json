@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of polynomial coefficients: p(x,n)=Sum[x^i*If[i == Floor[n/2] && Mod[n, 2] == 0, 0, If[i <= (less than or equal to) Floor[n/2], (-1)^i*A109128[n, i], -(-1)^(n - i)* A109128[n, i]]], {i, 0, n}]/(1 - x).",
+  "id": "A159040",
+  "mentions": [
+    "A109128"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of set-systems covering n vertices where every vertex is the unique common element of some subset of the edges, also called covering T_1 set-systems.",
+  "id": "A326961",
+  "mentions": [
+    "A003465",
+    "A058891",
+    "A059052",
+    "A059201",
+    "A059523",
+    "A323818",
+    "A326960",
+    "A326965",
+    "A326970",
+    "A326972",
+    "A326973",
+    "A326974",
+    "A326976",
+    "A326977",
+    "A326979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

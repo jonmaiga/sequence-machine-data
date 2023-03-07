@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array: T(n,k) is the position in s = A004713 at which the block s(1)..s(n) occurs for the k-th time.",
+  "id": "A246340",
+  "mentions": [
+    "A004713",
+    "A246341"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

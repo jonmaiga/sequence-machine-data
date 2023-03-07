@@ -1,0 +1,19 @@
+{
+  "description": "a and b are integers > 0 satisfying a^2 + b^2 = c^2. Sequence gives the number of choices for a and b between successive values of c. (Integer solutions for c (Pythagorean triples) are not included.)",
+  "id": "A138494",
+  "mentions": [
+    "A077770"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

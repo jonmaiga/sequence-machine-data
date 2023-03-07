@@ -1,0 +1,20 @@
+{
+  "description": "Smallest n-digit number with distinct digits such that every k-digit substring (k <= n) taken from the left is divisible by k (k = 1..n).",
+  "id": "A158242",
+  "mentions": [
+    "A158240"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

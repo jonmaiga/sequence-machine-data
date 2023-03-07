@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the asymptotic growth rate of the number of odd coefficients in Pascal quintinomial triangle mod 2.",
+  "id": "A242022",
+  "mentions": [
+    "A242021"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

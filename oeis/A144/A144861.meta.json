@@ -1,0 +1,18 @@
+{
+  "description": "Primitive prime factors of the sequence 2k^2 - 1 in the order in which they are first found.",
+  "id": "A144861",
+  "mentions": [
+    "A005529",
+    "A144848"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

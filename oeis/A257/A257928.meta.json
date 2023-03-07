@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that pi(p*n) = pi(q*n)*pi(r*n) for some primes q and r with p > q > r, where pi(x) denotes the number of primes not exceeding x.",
+  "id": "A257928",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A257364",
+    "A257938"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*(n^8 + 224*n^4 + 256)^2.",
+  "id": "A190780",
+  "mentions": [
+    "A008586",
+    "A028347",
+    "A087475"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:37",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

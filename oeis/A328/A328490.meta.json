@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet g.f.: zeta(s)^2 * zeta(s-2)^2.",
+  "id": "A328490",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A001157",
+    "A001620",
+    "A007426",
+    "A007433",
+    "A034714",
+    "A034761"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:17",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

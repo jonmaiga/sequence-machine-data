@@ -1,0 +1,20 @@
+{
+  "description": "The number of increasing rooted identity trees.",
+  "id": "A225824",
+  "mentions": [
+    "A004111",
+    "A032301",
+    "A032305"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

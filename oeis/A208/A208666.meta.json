@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2n-bead necklaces labeled with numbers 1..n allowing reversal, with neighbors differing by exactly 1.",
+  "id": "A208666",
+  "mentions": [
+    "A208671",
+    "A208722",
+    "A220062"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

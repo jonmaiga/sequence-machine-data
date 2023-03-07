@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of k-irredundant sets in the n X n rook graph.",
+  "id": "A290823",
+  "mentions": [
+    "A290586"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

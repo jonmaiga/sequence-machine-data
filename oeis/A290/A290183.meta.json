@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is least p to label a node of height n in the rooted tree which has the primes (A000040) as labels for its nonroot nodes, and the parent of the node labeled p is the node labeled with the greatest prime less than p/2 (or the root if there is no such node).",
+  "id": "A290183",
+  "mentions": [
+    "A000040",
+    "A055377",
+    "A055496",
+    "A059786",
+    "A059788",
+    "A080192",
+    "A102820",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

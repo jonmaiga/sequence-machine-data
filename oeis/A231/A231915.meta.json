@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of endofunctions on [n] such that at most k elements with nonempty preimage have equal preimage cardinality and non-equinumerous preimages have cardinalities that differ by at least k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A231915",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A005095",
+    "A231807",
+    "A231812"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

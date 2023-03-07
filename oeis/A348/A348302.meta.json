@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that the sum of two neighboring digits is not a palindrome.",
+  "id": "A348302",
+  "mentions": [
+    "A236689"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

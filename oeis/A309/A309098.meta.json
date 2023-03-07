@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n avoiding the partition (4,3).",
+  "id": "A309098",
+  "mentions": [
+    "A309058",
+    "A309097",
+    "A309099"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least q > 1 letting Josephus survive if he finds himself at position j in the circle of m persons, but is allowed to name the elimination parameter q such that every q-th person is executed, written as triangle T(m,j), m > 1, j <= m.",
+  "id": "A321781",
+  "mentions": [
+    "A003418",
+    "A032434",
+    "A187788",
+    "A321793",
+    "A321794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

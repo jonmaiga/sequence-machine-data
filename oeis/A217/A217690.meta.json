@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sum of digits of n equals the least prime dividing n and sum of squares of digits of n equals the greatest prime dividing n.",
+  "id": "A217690",
+  "mentions": [
+    "A003132",
+    "A006530",
+    "A007953",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Fibonacci integral quotients associated with the dividends in A159950 and the divisors in A003481",
+  "id": "A159951",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001906",
+    "A003481",
+    "A033890",
+    "A159950",
+    "A175553"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

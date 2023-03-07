@@ -1,0 +1,33 @@
+{
+  "description": "Number of ordered pairs (i,j) with |i| + |j| <= n and gcd(i,j) <= 1.",
+  "id": "A100449",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A001477",
+    "A001844",
+    "A002088",
+    "A005408",
+    "A018805",
+    "A027430",
+    "A100448",
+    "A100450",
+    "A225523",
+    "A225526",
+    "A225527",
+    "A225529",
+    "A225530",
+    "A225531"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

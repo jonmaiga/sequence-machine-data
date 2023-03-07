@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k >= 0 such that 2k + (n-th average of twin prime pairs) is oblong number.",
+  "id": "A209835",
+  "mentions": [
+    "A002378",
+    "A002822",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

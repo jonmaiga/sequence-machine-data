@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of A051949 (differences of factorial numbers), seen as a triangle.",
+  "id": "A185009",
+  "mentions": [
+    "A051949",
+    "A065355",
+    "A206816",
+    "A206817"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

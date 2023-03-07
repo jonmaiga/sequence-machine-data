@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the smallest prime that does not divide them is of the form 6m+1.",
+  "id": "A358756",
+  "mentions": [
+    "A002476",
+    "A053669",
+    "A353528",
+    "A358754",
+    "A358755",
+    "A358757"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

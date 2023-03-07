@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that round(3^n/12) is divisible by n.",
+  "id": "A271116",
+  "mentions": [
+    "A005935",
+    "A015518"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

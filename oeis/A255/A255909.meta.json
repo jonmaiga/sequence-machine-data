@@ -1,0 +1,19 @@
+{
+  "description": "Second difference sequence of A070865.",
+  "id": "A255909",
+  "mentions": [
+    "A000040",
+    "A070865"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

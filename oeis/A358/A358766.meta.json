@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = lambda(sigma(n)), where lambda is Liouville's lambda, and sigma is the sum of divisors function.",
+  "id": "A358766",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A008836",
+    "A058063",
+    "A358767",
+    "A358768",
+    "A359166"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

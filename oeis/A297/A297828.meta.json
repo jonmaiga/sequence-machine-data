@@ -1,0 +1,20 @@
+{
+  "description": "Difference sequence of A297997.",
+  "id": "A297828",
+  "mentions": [
+    "A297826",
+    "A297827",
+    "A297997"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

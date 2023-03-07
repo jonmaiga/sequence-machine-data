@@ -1,0 +1,25 @@
+{
+  "description": "Semiprimes whose decimal representation has only digits in {4,5,7}.",
+  "id": "A217124",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A072960",
+    "A214584",
+    "A217039",
+    "A217048"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

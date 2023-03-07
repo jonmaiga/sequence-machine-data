@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 32; then, for n >= 1, a(n) is the smallest positive integer k such that pod(k^2)/pod(k) = A002473(n) where pod = product of digits = A007954.",
+  "id": "A351809",
+  "mentions": [
+    "A002473",
+    "A007954",
+    "A280012",
+    "A351807",
+    "A351808"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

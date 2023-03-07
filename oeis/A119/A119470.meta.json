@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) equals the limit of the composition of functions (x+x^n); let F_1(x) = x, F_{n+1}(x) = F_n(x+x^(n+1)), then A(x) = limit F_n(x): A(x) = x o x+x^2 o x+x^3 o ... o x+x^n o...",
+  "id": "A119470",
+  "mentions": [
+    "A119459",
+    "A119460",
+    "A119471",
+    "A119472"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

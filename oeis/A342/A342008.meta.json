@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that Euler totient phi(k) is a multiple of the arithmetic derivative of k.",
+  "id": "A342008",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A003415",
+    "A166374",
+    "A173557",
+    "A342001",
+    "A342009",
+    "A342414",
+    "A342418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

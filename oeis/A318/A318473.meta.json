@@ -1,0 +1,22 @@
+{
+  "description": "Additive with a(p^e) = A000045(e+1).",
+  "id": "A318473",
+  "mentions": [
+    "A000045",
+    "A007814",
+    "A008481",
+    "A318471",
+    "A318474"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

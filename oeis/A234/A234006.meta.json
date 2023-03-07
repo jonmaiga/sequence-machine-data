@@ -1,0 +1,26 @@
+{
+  "description": "Free polyominoes with 2n squares, having reflectional symmetry on axis that coincides with edges.",
+  "id": "A234006",
+  "mentions": [
+    "A000105",
+    "A001168",
+    "A001933",
+    "A151525",
+    "A182645",
+    "A234007",
+    "A234008",
+    "A234009",
+    "A234010"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

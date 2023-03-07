@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are coprime to the sum of their factorial base digits (A034968).",
+  "id": "A358976",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A034968",
+    "A059956",
+    "A094387",
+    "A118363",
+    "A339076",
+    "A358975",
+    "A358977",
+    "A358978"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

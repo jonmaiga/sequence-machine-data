@@ -1,0 +1,22 @@
+{
+  "description": "The (n+1)-th term of the n-th differences of the prime sequence.",
+  "id": "A229061",
+  "mentions": [
+    "A007442",
+    "A036263",
+    "A036269",
+    "A036271",
+    "A095195"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 1, a(n) is a multiple of a(A080079(n-1)).",
+  "id": "A355435",
+  "mentions": [
+    "A011782",
+    "A080079",
+    "A269838",
+    "A355436"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

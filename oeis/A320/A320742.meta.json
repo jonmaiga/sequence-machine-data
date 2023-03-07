@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of chiral pairs of color patterns (set partitions) in a cycle of length n using k or fewer colors (subsets).",
+  "id": "A320742",
+  "mentions": [
+    "A000004",
+    "A059053",
+    "A152175",
+    "A304972",
+    "A305749",
+    "A320647",
+    "A320743",
+    "A320744",
+    "A320745",
+    "A320746",
+    "A320747",
+    "A320748",
+    "A320749"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Positions of 1 in A188433; complement of A188434.",
+  "id": "A188435",
+  "mentions": [
+    "A101866",
+    "A101868",
+    "A188009",
+    "A188010",
+    "A188294",
+    "A188433",
+    "A188434"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:43",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

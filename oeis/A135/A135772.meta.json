@@ -1,0 +1,27 @@
+{
+  "description": "Numbers having equal number of divisors and binary digits.",
+  "id": "A135772",
+  "mentions": [
+    "A000005",
+    "A070939",
+    "A095862",
+    "A135773",
+    "A135774",
+    "A135775",
+    "A135776",
+    "A135777",
+    "A135778",
+    "A135779"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

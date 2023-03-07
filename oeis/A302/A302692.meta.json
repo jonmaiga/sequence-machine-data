@@ -1,0 +1,19 @@
+{
+  "description": "Primes p that are the sum of another prime q and the greatest k such that k! < p.",
+  "id": "A302692",
+  "mentions": [
+    "A084558",
+    "A124598"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

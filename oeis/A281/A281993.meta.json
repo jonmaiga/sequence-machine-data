@@ -1,0 +1,21 @@
+{
+  "description": "Integers m such that sigma(m) + sigma(2*m) = 6*m.",
+  "id": "A281993",
+  "mentions": [
+    "A000203",
+    "A002235",
+    "A007505",
+    "A097215"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:29:06",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

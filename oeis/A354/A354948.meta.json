@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by upwards antidiagonals: T(n,k) = k-th digit after the radix point in the expansion of 1/n in golden ratio base phi where n and k both >= 1 and phi = (1+sqrt(5))/2.",
+  "id": "A354948",
+  "mentions": [
+    "A001622",
+    "A173857",
+    "A173858",
+    "A355202"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

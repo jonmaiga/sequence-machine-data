@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of eight cubes in five or more ways.",
+  "id": "A345535",
+  "mentions": [
+    "A345492",
+    "A345523",
+    "A345534",
+    "A345536",
+    "A345544",
+    "A345580",
+    "A345787"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

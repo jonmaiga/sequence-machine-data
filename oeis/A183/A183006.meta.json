@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 24*A138879(n).",
+  "id": "A183006",
+  "mentions": [
+    "A000041",
+    "A135010",
+    "A138879",
+    "A183009",
+    "A183011"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

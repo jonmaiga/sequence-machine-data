@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = the smallest positive multiple of d(a(n-1)) that does not occur earlier in the sequence, where d(m) is the number of positive divisors of m.",
+  "id": "A128556",
+  "mentions": [
+    "A128555"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

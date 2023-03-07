@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the numbers <= n that are either prime, a divisor of n, or both.",
+  "id": "A351827",
+  "mentions": [
+    "A010051",
+    "A351519"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

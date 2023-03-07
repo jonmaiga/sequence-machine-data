@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k) = A355442(A246278(n,k)), read by falling antidiagonals.",
+  "id": "A355926",
+  "mentions": [
+    "A003961",
+    "A246278",
+    "A276086",
+    "A355442",
+    "A355835",
+    "A355924",
+    "A355925"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

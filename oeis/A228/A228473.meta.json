@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that sum of all primes less than or equal to p is pandigital (includes all 10 digits at least once).",
+  "id": "A228473",
+  "mentions": [
+    "A049443",
+    "A228468"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

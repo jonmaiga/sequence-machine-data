@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = Number of ways to choose k points from an n X n X n triangular grid so that no three of them form a 2 X 2 X 2 subtriangle. Triangle T read by rows.",
+  "id": "A234251",
+  "mentions": [
+    "A000217",
+    "A007980",
+    "A050534",
+    "A234250"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

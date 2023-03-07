@@ -1,0 +1,20 @@
+{
+  "description": "Discriminants of totally real cubic fields with 3 associated nonconjugate fields.",
+  "id": "A329787",
+  "mentions": [
+    "A269319",
+    "A329769",
+    "A329786"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

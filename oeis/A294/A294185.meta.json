@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct lesser twin primes which are in Goldbach partitions of 2n.",
+  "id": "A294185",
+  "mentions": [
+    "A001359",
+    "A002372",
+    "A294186",
+    "A295424"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

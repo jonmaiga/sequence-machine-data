@@ -1,0 +1,32 @@
+{
+  "description": "Number of divisible pairs of distinct positive integers up to n with at least one binary carry.",
+  "id": "A307230",
+  "mentions": [
+    "A006218",
+    "A019565",
+    "A050315",
+    "A070939",
+    "A080572",
+    "A247935",
+    "A267610",
+    "A325095",
+    "A325096",
+    "A325101",
+    "A325103",
+    "A325104",
+    "A325105",
+    "A325106",
+    "A325124"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

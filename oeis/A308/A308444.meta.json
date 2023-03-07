@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} Stirling2(n,k)*a(n-k).",
+  "id": "A308444",
+  "mentions": [
+    "A005121",
+    "A008277",
+    "A086555",
+    "A246040"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

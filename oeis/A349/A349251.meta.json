@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the integer reached after repeated application of the map x->A349194(x) or -1 if this process does not terminate.",
+  "id": "A349251",
+  "mentions": [
+    "A349190",
+    "A349194"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

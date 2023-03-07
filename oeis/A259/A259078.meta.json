@@ -1,0 +1,22 @@
+{
+  "description": "Heptagonal numbers (A000566) that are other heptagonal numbers divided by 2.",
+  "id": "A259078",
+  "mentions": [
+    "A000566",
+    "A075528",
+    "A107736",
+    "A259079"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

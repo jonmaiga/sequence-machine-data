@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the total area of all closed Deutsch paths of length n.",
+  "id": "A330169",
+  "mentions": [
+    "A001006",
+    "A005043",
+    "A333017",
+    "A333098"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

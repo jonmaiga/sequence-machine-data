@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the largest prime(n)-smooth primitive nondeficient number.",
+  "id": "A338427",
+  "mentions": [
+    "A000040",
+    "A006039",
+    "A006530",
+    "A035100",
+    "A071395",
+    "A091191",
+    "A211198",
+    "A273057",
+    "A287581",
+    "A338133"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Right-truncatable nonprimes: every prefix is nonprime number.",
+  "id": "A202259",
+  "mentions": [
+    "A012883",
+    "A024770",
+    "A202260",
+    "A202265"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

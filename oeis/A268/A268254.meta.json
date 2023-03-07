@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-(n+1) 0..n arrays with new repeated values introduced in sequential order starting with zero.",
+  "id": "A268254",
+  "mentions": [
+    "A268261"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

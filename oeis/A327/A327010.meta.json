@@ -1,0 +1,21 @@
+{
+  "description": "Indices of records in A327008.",
+  "id": "A327010",
+  "mentions": [
+    "A000196",
+    "A327007",
+    "A327008",
+    "A327009"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

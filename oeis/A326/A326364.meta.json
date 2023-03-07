@@ -1,0 +1,32 @@
+{
+  "description": "Number of intersecting set systems with empty intersection (meaning there is no vertex in common to all the edges) covering n vertices.",
+  "id": "A326364",
+  "mentions": [
+    "A006126",
+    "A007363",
+    "A014466",
+    "A051185",
+    "A058891",
+    "A305843",
+    "A305844",
+    "A307249",
+    "A318128",
+    "A318129",
+    "A326361",
+    "A326362",
+    "A326363",
+    "A326365",
+    "A326373"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

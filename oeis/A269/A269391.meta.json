@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A233271(1+n)) = 2*a(n), a(A269390(n)) = 1 + 2*a(n), where A233271 is the infinite trunk of inverted binary beanstalk and A269390 is its complement.",
+  "id": "A269391",
+  "mentions": [
+    "A233271",
+    "A260431",
+    "A269381",
+    "A269390",
+    "A269392",
+    "A269397",
+    "A269401"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

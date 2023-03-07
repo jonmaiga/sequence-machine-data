@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms such that for any distinct m and n, the fractional parts of a(m)/a(m+1) and of a(n)/a(n+1) are distinct.",
+  "id": "A335943",
+  "mentions": [
+    "A000010",
+    "A057979",
+    "A088177",
+    "A335944"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

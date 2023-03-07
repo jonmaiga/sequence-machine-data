@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes in (n^2*log(n)..(n+1)^2*log(n+1)] semi-open intervals, n >= 1.",
+  "id": "A166737",
+  "mentions": [
+    "A000720",
+    "A014085",
+    "A166332",
+    "A166363",
+    "A166712"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

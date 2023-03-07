@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n = x + y + z (x, y, z > 0) such that all the 11 integers 6*x-1, 6*x+1, 6*x-5, 6*x+5, 6*y-1, 6*y-5, 6*y+5, 6*(x+y)+5, 6*z-1, 6*z-5 and 6*z+5 are prime.",
+  "id": "A230194",
+  "mentions": [
+    "A230140",
+    "A230141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

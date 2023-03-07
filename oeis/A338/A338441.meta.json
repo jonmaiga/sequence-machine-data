@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct squarefree numbers such that for any prime p, any run of consecutive multiples of p has length exactly 3.",
+  "id": "A338441",
+  "mentions": [
+    "A005117",
+    "A338338",
+    "A338444"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

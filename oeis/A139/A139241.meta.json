@@ -1,0 +1,25 @@
+{
+  "description": "Second differences of Mersenne numbers A001348.",
+  "id": "A139241",
+  "mentions": [
+    "A001348",
+    "A139230",
+    "A139232",
+    "A139236",
+    "A139238",
+    "A139242",
+    "A139243"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:56:25",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

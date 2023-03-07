@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sets of rooted hypertrees on a total of n unlabeled nodes with a total of k edges, (0 <= k < n).",
+  "id": "A318607",
+  "mentions": [
+    "A000081",
+    "A035052",
+    "A318601",
+    "A318602"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

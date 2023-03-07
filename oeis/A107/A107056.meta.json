@@ -1,0 +1,20 @@
+{
+  "description": "Matrix inverse of A103247, so that T(n,k) = C(n,k)*A010842(n-k), read by rows.",
+  "id": "A107056",
+  "mentions": [
+    "A010842",
+    "A103247"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

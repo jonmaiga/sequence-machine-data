@@ -1,0 +1,17 @@
+{
+  "description": "Number of (2+2)X(n+2) 0..1 arrays with each row divisible by 7 and column not divisible by 7, read as a binary number with top and left being the most significant bits.",
+  "id": "A262851",
+  "mentions": [
+    "A262849"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

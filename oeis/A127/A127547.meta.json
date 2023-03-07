@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 13n + 4.",
+  "id": "A127547",
+  "mentions": [
+    "A092464",
+    "A126979",
+    "A126980"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:15:41",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = C(2+2*n, n) * C(7+2*n, 2+n).",
+  "id": "A113895",
+  "mentions": [
+    "A001791",
+    "A002054",
+    "A062190"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

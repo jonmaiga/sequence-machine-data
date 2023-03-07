@@ -1,0 +1,23 @@
+{
+  "description": "Number of the fraction which has (the digits of) n as repeating period in its decimal expansion, according to the canonical enumeration A038566/A038567.",
+  "id": "A343634",
+  "mentions": [
+    "A002088",
+    "A002283",
+    "A038566",
+    "A038567",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

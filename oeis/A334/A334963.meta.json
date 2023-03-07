@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive multiple of n that has at most two distinct digits.",
+  "id": "A334963",
+  "mentions": [
+    "A004290",
+    "A031955",
+    "A181060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 102,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

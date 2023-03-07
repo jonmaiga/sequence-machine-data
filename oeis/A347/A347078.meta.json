@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that tau(p - 1) = tau(p - 2) + 1, where tau(k) is the number of divisors of k (A000005).",
+  "id": "A347078",
+  "mentions": [
+    "A000005",
+    "A019434",
+    "A075408"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

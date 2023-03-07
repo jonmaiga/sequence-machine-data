@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondecreasing arrangements of n numbers in -2..2 with sum zero and sum of squares less than 2n.",
+  "id": "A183928",
+  "mentions": [
+    "A183935"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

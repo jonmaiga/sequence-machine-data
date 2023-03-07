@@ -1,0 +1,20 @@
+{
+  "description": "Max_{2<=k<=n} floor(A242719(k)/prime(k)) - prime(n).",
+  "id": "A246819",
+  "mentions": [
+    "A242719",
+    "A242720",
+    "A246748",
+    "A246821"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

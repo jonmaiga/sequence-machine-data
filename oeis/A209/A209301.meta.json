@@ -1,0 +1,22 @@
+{
+  "description": "Table T(n,k) n, k > 0, T(n,k)=n-k+1, if n>=k, T(n,k)=k-n+2, if n < k. Table read by sides of squares from T(1,n) to T(n,n), then from T(n,n) to T(n,1).",
+  "id": "A209301",
+  "mentions": [
+    "A000027",
+    "A004738",
+    "A004739",
+    "A187760"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

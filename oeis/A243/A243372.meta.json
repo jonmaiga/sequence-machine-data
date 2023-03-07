@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 3/(8*K), a constant related to the asymptotic evaluation of the number of positive integers that can be expressed as the sum of two coprime squares, where K is the Landau-Ramanujan constant.",
+  "id": "A243372",
+  "mentions": [
+    "A064533"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

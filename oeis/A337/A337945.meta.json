@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m with a solution (s,t,k) such that s^2 + t^2 = k*m, s + t = m, 1 <= s <= t and 1 <= k <= m - 1.",
+  "id": "A337945",
+  "mentions": [
+    "A337101"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

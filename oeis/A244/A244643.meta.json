@@ -1,0 +1,24 @@
+{
+  "description": "Number of cells with state 1 at n-th stage in some 2D reversible second order cellular automata (see comments for precise definition).",
+  "id": "A244643",
+  "mentions": [
+    "A102376",
+    "A147562",
+    "A168081",
+    "A178568",
+    "A178590",
+    "A237711",
+    "A244642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": -1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes in base 4 which are also squares.",
+  "id": "A263610",
+  "mentions": [
+    "A002778",
+    "A003166",
+    "A029986",
+    "A029987",
+    "A262609"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

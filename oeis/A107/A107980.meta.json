@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n+2)*(k+1)*(k+2)*(2*n-k+2)*(2*n-k+3)/24.",
+  "id": "A107980",
+  "mentions": [
+    "A000330",
+    "A000389",
+    "A006414",
+    "A006858"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:55",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

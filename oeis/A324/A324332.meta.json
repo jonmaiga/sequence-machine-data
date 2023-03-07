@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that A324331(m) = (m-1)^2 - phi(m)*sigma(m) is a square, even though they are not squarefree semiprimes (A006881).",
+  "id": "A324332",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A006881",
+    "A324331",
+    "A324333",
+    "A324334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) read by rows, where the k-th column is the shifted self-convolution of the power function n^k, n >= 0, 0 <= k <= n.",
+  "id": "A306548",
+  "mentions": [
+    "A000027",
+    "A000079",
+    "A000292",
+    "A000332",
+    "A033455",
+    "A145216",
+    "A145217",
+    "A145218",
+    "A198633",
+    "A259181",
+    "A302971",
+    "A304042"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

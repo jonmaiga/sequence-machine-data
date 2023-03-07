@@ -1,0 +1,34 @@
+{
+  "description": "Record (maximal) gaps between prime septuplets (p, p+2, p+8, p+12, p+14, p+18, p+20).",
+  "id": "A201251",
+  "mentions": [
+    "A002386",
+    "A022009",
+    "A022010",
+    "A113274",
+    "A113404",
+    "A200503",
+    "A201051",
+    "A201062",
+    "A201073",
+    "A201252",
+    "A201596",
+    "A201598",
+    "A202281",
+    "A202361",
+    "A233038"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

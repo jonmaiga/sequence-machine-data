@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of vertices at distance k in the graph \\|/_\\/_\\/_..._\\/_\\|/ having n nodes on the horizontal path. The entries in row n are the coefficients of the Wiener polynomial of the graph.",
+  "id": "A180570",
+  "mentions": [
+    "A060544",
+    "A180571"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p = 2 (mod pi(p)), where pi(p) = A000720(p) is the prime counting function.",
+  "id": "A156152",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A023144",
+    "A156151",
+    "A156153"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

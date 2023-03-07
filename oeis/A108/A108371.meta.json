@@ -1,0 +1,25 @@
+{
+  "description": "Table of primal compositional powers (n o)^k, where \"o\" denotes the primal composition operator, as illustrated in sequence A106177 and where (n o)^k = n o ... o n, with k occurrences of n.",
+  "id": "A108371",
+  "mentions": [
+    "A061396",
+    "A062537",
+    "A106177",
+    "A106178",
+    "A108352",
+    "A108370",
+    "A108372",
+    "A108373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

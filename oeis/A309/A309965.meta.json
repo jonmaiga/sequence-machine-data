@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest product of the digits of n in any base b in the range 2..n.",
+  "id": "A309965",
+  "mentions": [
+    "A007954",
+    "A309969"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

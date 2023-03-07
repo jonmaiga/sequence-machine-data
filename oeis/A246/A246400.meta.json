@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime Q greater than prime(n+1) such that the sum prime(n)+prime(n+1)+Q is also prime, starting with n=2.",
+  "id": "A246400",
+  "mentions": [
+    "A152470"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

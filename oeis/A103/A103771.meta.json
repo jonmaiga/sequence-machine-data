@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1-4x-4x^2-4x^3).",
+  "id": "A103771",
+  "mentions": [
+    "A000073",
+    "A027907",
+    "A077828",
+    "A077835"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:58:33",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

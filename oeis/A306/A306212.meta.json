@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of squares of three distinct positive integers in arithmetic progression.",
+  "id": "A306212",
+  "mentions": [
+    "A000290",
+    "A000378",
+    "A000408",
+    "A085317",
+    "A120328",
+    "A292313",
+    "A306213",
+    "A306214"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

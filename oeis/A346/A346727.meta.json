@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 361 * Pi^6 / (245760 * sqrt(2)).",
+  "id": "A346727",
+  "mentions": [
+    "A328895",
+    "A346260",
+    "A346450",
+    "A346728"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:54:49",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

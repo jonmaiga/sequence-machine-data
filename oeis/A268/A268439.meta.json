@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, T(n,k) = C(2*n,n+k)*Sum_{m=0..k} (-1)^(m+k)*C(n+k,n+m)* Stirling2(n+m,m), for n>=0 and 0<=k<=n.",
+  "id": "A268439",
+  "mentions": [
+    "A001147",
+    "A001791",
+    "A268437",
+    "A268440",
+    "A269939",
+    "A269941"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

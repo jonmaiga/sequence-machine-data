@@ -1,0 +1,19 @@
+{
+  "description": "A triangle sequence of determinants: a(n)=A000045(n)+1;b(n)=A000045(n+1)-1; t(n,m)=a(m)*b(n) - b(m)*a(n).",
+  "id": "A144460",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

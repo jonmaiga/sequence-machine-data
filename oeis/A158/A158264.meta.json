@@ -1,0 +1,23 @@
+{
+  "description": "Table where row n lists the coefficients in the (2^n)-th iteration of x+x^2 for n>=0, read by antidiagonals not including trailing zeros in rows.",
+  "id": "A158264",
+  "mentions": [
+    "A122888",
+    "A158260",
+    "A158261",
+    "A158262",
+    "A158263"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

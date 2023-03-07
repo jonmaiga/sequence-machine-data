@@ -1,0 +1,39 @@
+{
+  "description": "Irregular table read by rows: the first entry of n-th row is length of run of rightmost identical bits (either 0 or 1, equal to n mod 2), followed by length of the next run of bits, etc., in the binary representation of n, when scanned from the least significant to the most significant end.",
+  "id": "A227736",
+  "mentions": [
+    "A001787",
+    "A001792",
+    "A005811",
+    "A030308",
+    "A066099",
+    "A070939",
+    "A101211",
+    "A108244",
+    "A124734",
+    "A136480",
+    "A167489",
+    "A227186",
+    "A227737",
+    "A227738",
+    "A227739",
+    "A227740",
+    "A227741",
+    "A245562",
+    "A245563",
+    "A318921"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

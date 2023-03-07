@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into pentagonal pyramidal numbers (A002411).",
+  "id": "A322853",
+  "mentions": [
+    "A002411",
+    "A181324",
+    "A279221",
+    "A282582",
+    "A322340",
+    "A322801",
+    "A322854",
+    "A322855",
+    "A322856"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of unit square lattice cells inside half-plane (two adjacent quadrants) of origin centered circle of diameter n.",
+  "id": "A136513",
+  "mentions": [
+    "A136483",
+    "A136485",
+    "A136514",
+    "A136515"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let S be a set of n positive numbers such that all n choose 2 pairwise GCD's are distinct, and let max(S) denote the largest element of S; a(n) is the minimal value of max(S) over all choices for S.",
+  "id": "A214799",
+  "mentions": [
+    "A061799",
+    "A213918"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sylvester numbers for 1/(1+x^2).",
+  "id": "A105609",
+  "mentions": [
+    "A014963",
+    "A020513",
+    "A105607",
+    "A105608"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

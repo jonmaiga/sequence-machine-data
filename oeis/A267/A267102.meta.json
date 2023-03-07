@@ -1,0 +1,20 @@
+{
+  "description": "Inverse permutation to A265901.",
+  "id": "A267102",
+  "mentions": [
+    "A162598",
+    "A265332",
+    "A265901"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

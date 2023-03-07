@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k of the form k = ab (the decimal concatenation of a and b) such that phi(ab) = a*b + 1.",
+  "id": "A336191",
+  "mentions": [
+    "A000010",
+    "A109606",
+    "A336192"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

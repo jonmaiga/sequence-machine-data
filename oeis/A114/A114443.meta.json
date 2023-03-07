@@ -1,0 +1,22 @@
+{
+  "description": "Indices of 4-almost prime pentagonal numbers.",
+  "id": "A114443",
+  "mentions": [
+    "A000326",
+    "A001222",
+    "A014613",
+    "A115709"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

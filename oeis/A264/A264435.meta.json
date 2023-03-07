@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, Bell transform of the complementary Bell numbers (A000587).",
+  "id": "A264435",
+  "mentions": [
+    "A000587",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

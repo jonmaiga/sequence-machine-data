@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that for any n >= 0, a(n+1) is obtained by inverting the leftmost binary digit (which is not a leading zero) in a(n) or if this is not possible by inverting the rightmost leading binary zero in a(n).",
+  "id": "A340250",
+  "mentions": [
+    "A003188",
+    "A340251",
+    "A340253",
+    "A340254",
+    "A340255",
+    "A340256"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

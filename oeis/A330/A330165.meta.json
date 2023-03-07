@@ -1,0 +1,20 @@
+{
+  "description": "Odd terms in A003171: negated odd discriminants of orders of imaginary quadratic fields with 1 class per genus.",
+  "id": "A330165",
+  "mentions": [
+    "A000926",
+    "A003171"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

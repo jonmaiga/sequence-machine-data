@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array of the coefficients of the Jacobsthal-Lucas polynomials ordered by descending powers, read by rows.",
+  "id": "A137374",
+  "mentions": [
+    "A014551",
+    "A034807",
+    "A128414"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

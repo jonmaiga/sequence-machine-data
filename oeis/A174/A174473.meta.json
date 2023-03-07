@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A174937(n)*x^n/n ) where A174937(n) = Sum_{d|n} d^tau(d).",
+  "id": "A174473",
+  "mentions": [
+    "A000005",
+    "A174937"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

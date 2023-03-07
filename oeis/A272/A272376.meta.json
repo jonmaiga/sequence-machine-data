@@ -1,0 +1,19 @@
+{
+  "description": "Twin primes both of which are the sum of three positive cubes.",
+  "id": "A272376",
+  "mentions": [
+    "A001097",
+    "A007490",
+    "A270225"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

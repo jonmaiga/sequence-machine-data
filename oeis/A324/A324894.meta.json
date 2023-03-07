@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative with a(p^e) = p^e if sigma(p^e) is composite, and 1 otherwise.",
+  "id": "A324894",
+  "mentions": [
+    "A000203",
+    "A010051",
+    "A324892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

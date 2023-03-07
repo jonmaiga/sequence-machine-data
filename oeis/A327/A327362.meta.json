@@ -1,0 +1,35 @@
+{
+  "description": "Number of labeled connected graphs covering n vertices with at least one endpoint (vertex of degree 1).",
+  "id": "A327362",
+  "mentions": [
+    "A001187",
+    "A004110",
+    "A006125",
+    "A006129",
+    "A059166",
+    "A100743",
+    "A141580",
+    "A245797",
+    "A322395",
+    "A327071",
+    "A327105",
+    "A327227",
+    "A327229",
+    "A327230",
+    "A327364",
+    "A327366",
+    "A327369",
+    "A327377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

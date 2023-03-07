@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 6*a(n-1)-8*a(n-2) for n > 4; a(0)=191, a(1)=1587, a(2)=14161, a(3)=123004, a(4)=508152.",
+  "id": "A177683",
+  "mentions": [
+    "A077076",
+    "A177682",
+    "A177684",
+    "A177685"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

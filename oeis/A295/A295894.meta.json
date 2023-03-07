@@ -1,0 +1,25 @@
+{
+  "description": "Binary weight of the contents of node n in Doudna-tree (A005940).",
+  "id": "A295894",
+  "mentions": [
+    "A000035",
+    "A000120",
+    "A000225",
+    "A003961",
+    "A005940",
+    "A295891",
+    "A295893",
+    "A295895"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n with no ones whose parts are all powers of the same squarefree number.",
+  "id": "A322968",
+  "mentions": [
+    "A001597",
+    "A005117",
+    "A018819",
+    "A023893",
+    "A052410",
+    "A072720",
+    "A072721",
+    "A072774",
+    "A102430",
+    "A322900",
+    "A322903",
+    "A322911",
+    "A322912"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

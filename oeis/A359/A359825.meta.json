@@ -1,0 +1,24 @@
+{
+  "description": "Positions of odd terms in A359823, where A359823 is the Dirichlet inverse of A359820.",
+  "id": "A359825",
+  "mentions": [
+    "A003415",
+    "A347082",
+    "A347084",
+    "A359765",
+    "A359783",
+    "A359820",
+    "A359823",
+    "A359824"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

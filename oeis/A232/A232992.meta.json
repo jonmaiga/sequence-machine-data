@@ -1,0 +1,20 @@
+{
+  "description": "Let b(i) = A134204(i) and c(n) = A133242(n); a(n) is the number of primes p <= c(n) such that p is not in {b(0), b(1), ..., b(c(n)-1).",
+  "id": "A232992",
+  "mentions": [
+    "A133242",
+    "A133243",
+    "A134202",
+    "A134204"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

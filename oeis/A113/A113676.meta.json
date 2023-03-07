@@ -1,0 +1,19 @@
+{
+  "description": "Number of elements of rows of Golomb's sequence A001462, with one less 2, interpreted as triangle: Start with first row 1. The row sum of row n-1 gives the number of elements taken from A001642 (one less 2) of row n.",
+  "id": "A113676",
+  "mentions": [
+    "A001462",
+    "A001642",
+    "A014644"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

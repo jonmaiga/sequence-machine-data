@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle t(n,m) = binomial(n-m-1,m+1) read by rows.",
+  "id": "A175990",
+  "mentions": [
+    "A000071",
+    "A011972",
+    "A052553",
+    "A054142",
+    "A115139",
+    "A121314",
+    "A124033",
+    "A169803"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

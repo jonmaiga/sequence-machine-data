@@ -1,0 +1,22 @@
+{
+  "description": "The sum over all bitstrings b of length n of the number of runs in b not immediately followed by a longer run.",
+  "id": "A208902",
+  "mentions": [
+    "A056453",
+    "A208900",
+    "A208901",
+    "A208903"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

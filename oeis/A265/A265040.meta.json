@@ -1,0 +1,20 @@
+{
+  "description": "If A009927 is regarded as the coordination sequence of AuNb_3, this sequence gives cumulative number of Nb atoms in shells 1 through n.",
+  "id": "A265040",
+  "mentions": [
+    "A009927",
+    "A265038",
+    "A265039"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

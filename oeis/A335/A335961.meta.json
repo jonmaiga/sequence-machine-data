@@ -1,0 +1,21 @@
+{
+  "description": "Alternating factorions: Numbers m such that m = S_af(m) = af(d_1)+af(d_2)+...+af(d_k) where d_1 d_2 ... d_n is the decimal expansion of m and af(m) = m!-(m-1)!+(m-2)!+...1! (alternating factorial) with af(0) = 0 (base 10).",
+  "id": "A335961",
+  "mentions": [
+    "A005165",
+    "A014080"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

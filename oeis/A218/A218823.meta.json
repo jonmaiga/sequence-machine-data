@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Unmatched value maps: number of nXk binary arrays indicating the locations of corresponding elements not equal to any king-move neighbor in a random 0..2 nXk array",
+  "id": "A218823",
+  "mentions": [
+    "A005251",
+    "A052550",
+    "A184200"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

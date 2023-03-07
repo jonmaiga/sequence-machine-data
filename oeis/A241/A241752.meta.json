@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m such that A229037(m) = n.",
+  "id": "A241752",
+  "mentions": [
+    "A229037"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

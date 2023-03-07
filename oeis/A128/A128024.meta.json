@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that (7^n - 3^n)/4 is prime.",
+  "id": "A128024",
+  "mentions": [
+    "A028491",
+    "A057468",
+    "A059801",
+    "A121877",
+    "A128025",
+    "A128026",
+    "A128027",
+    "A128028",
+    "A128029",
+    "A128030",
+    "A128031",
+    "A128032"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

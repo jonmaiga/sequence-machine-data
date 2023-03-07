@@ -1,0 +1,22 @@
+{
+  "description": "max {A053695(k) | k < n+2} - max {A053695(k) | k < n+1}.",
+  "id": "A243000",
+  "mentions": [
+    "A001223",
+    "A002386",
+    "A005250",
+    "A053695"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

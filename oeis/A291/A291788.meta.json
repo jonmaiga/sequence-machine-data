@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n whose trajectory under the map k -> (psi(k)+phi(k))/2 (A291784) grows without limit.",
+  "id": "A291788",
+  "mentions": [
+    "A291784",
+    "A291785",
+    "A291786",
+    "A291787"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

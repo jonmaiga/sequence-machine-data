@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Product_{k>=1} 1/(1-x^k)^Fibonacci(k+2).",
+  "id": "A260787",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A034691",
+    "A166861",
+    "A200544"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Twin primes of form 4k+1, 4k+3.",
+  "id": "A122565",
+  "mentions": [
+    "A001097",
+    "A123986",
+    "A205649"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

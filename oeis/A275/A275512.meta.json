@@ -1,0 +1,20 @@
+{
+  "description": "The consecutive sizes of the blocks of terms containing at least one digit \"1\" are given by the sequence itself.",
+  "id": "A275512",
+  "mentions": [
+    "A011531",
+    "A052383"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

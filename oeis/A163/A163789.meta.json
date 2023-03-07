@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th J_9-prime (Josephus_9 prime).",
+  "id": "A163789",
+  "mentions": [
+    "A163782",
+    "A163788",
+    "A163790",
+    "A163800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

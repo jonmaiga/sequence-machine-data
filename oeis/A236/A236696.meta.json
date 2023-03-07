@@ -1,0 +1,21 @@
+{
+  "description": "Number of forests on n vertices consisting of labeled rooted trees of the same size.",
+  "id": "A236696",
+  "mentions": [
+    "A000169",
+    "A005225",
+    "A038041",
+    "A055225"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

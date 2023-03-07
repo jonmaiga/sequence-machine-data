@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows in which row n lists the number of digits of the binary expansion of the divisors of n.",
+  "id": "A182628",
+  "mentions": [
+    "A182620",
+    "A182621",
+    "A182622",
+    "A182627"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

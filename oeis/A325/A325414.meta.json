@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with omega-sequence summing to n.",
+  "id": "A325414",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A116608",
+    "A181819",
+    "A225485",
+    "A225486",
+    "A323014",
+    "A323023",
+    "A325242",
+    "A325248",
+    "A325249",
+    "A325268",
+    "A325277",
+    "A325280",
+    "A325412",
+    "A325413",
+    "A325415",
+    "A325416"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

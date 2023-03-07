@@ -1,0 +1,21 @@
+{
+  "description": "Smallest possible value of the maximum of squared distances between any two out of n points with integer coordinates and distinct mutual distances.",
+  "id": "A193839",
+  "mentions": [
+    "A193555",
+    "A193556",
+    "A193838"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

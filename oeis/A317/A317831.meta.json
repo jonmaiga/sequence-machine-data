@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of rational valued sequence f whose Dirichlet convolution with itself yields A000203 (sigma, the sum of divisors).",
+  "id": "A317831",
+  "mentions": [
+    "A000203",
+    "A299151",
+    "A317832"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

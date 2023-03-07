@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes k such that k is divisible by its index in the sequence of semiprimes.",
+  "id": "A357741",
+  "mentions": [
+    "A001358",
+    "A106125",
+    "A356764"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

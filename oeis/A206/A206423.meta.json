@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci sequence beginning 12, 7.",
+  "id": "A206423",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

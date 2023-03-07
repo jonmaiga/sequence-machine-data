@@ -1,0 +1,28 @@
+{
+  "description": "Beginning of a run of 4 consecutive Niven (or Harshad) numbers.",
+  "id": "A141769",
+  "mentions": [
+    "A005349",
+    "A060159",
+    "A154701",
+    "A328211",
+    "A328215",
+    "A330927",
+    "A330928",
+    "A330929",
+    "A330930",
+    "A330933"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

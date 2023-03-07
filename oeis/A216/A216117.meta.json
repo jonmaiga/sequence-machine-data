@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of constant arising in enumeration of pseudo-triangulations.",
+  "id": "A216117",
+  "mentions": [
+    "A000109"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

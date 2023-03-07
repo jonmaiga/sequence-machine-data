@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n that are divisible by every suffix of n.",
+  "id": "A178158",
+  "mentions": [
+    "A034709",
+    "A067251"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

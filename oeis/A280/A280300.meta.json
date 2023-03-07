@@ -1,0 +1,21 @@
+{
+  "description": "Primes such that the Wilson quotient and the Fermat quotient satisfy 2*((p-1)!+1)/p +(2^(p-1)-1)/p == 0 (mod p).",
+  "id": "A280300",
+  "mentions": [
+    "A001220",
+    "A007619",
+    "A274994"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

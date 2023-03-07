@@ -1,0 +1,24 @@
+{
+  "description": "Related to label-increasing forests with branching bounded by 4.",
+  "id": "A297201",
+  "mentions": [
+    "A297196",
+    "A297197",
+    "A297198",
+    "A297200",
+    "A297202",
+    "A297203",
+    "A297204"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

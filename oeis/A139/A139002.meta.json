@@ -1,0 +1,23 @@
+{
+  "description": "Weights of Connes-Moscovici Hopf subalgebra.",
+  "id": "A139002",
+  "mentions": [
+    "A000081",
+    "A008275",
+    "A048994",
+    "A139605",
+    "A145271"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

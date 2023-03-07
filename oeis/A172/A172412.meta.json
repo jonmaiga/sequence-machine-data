@@ -1,0 +1,18 @@
+{
+  "description": "Multiples of 4 with the property that addition of a square gives a square that is not larger than the square for any later term.",
+  "id": "A172412",
+  "mentions": [
+    "A008586",
+    "A016825"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

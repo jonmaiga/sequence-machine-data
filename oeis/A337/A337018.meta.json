@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of hexagons at distance n from the central hexagon of a hexaflake.",
+  "id": "A337018",
+  "mentions": [
+    "A007051",
+    "A337132",
+    "A337545",
+    "A339124"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

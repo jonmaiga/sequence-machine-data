@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 2+5 0..n arrays with every six consecutive terms having the maximum of some three terms equal to the minimum of the remaining three terms.",
+  "id": "A250338",
+  "mentions": [
+    "A250336"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:59",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

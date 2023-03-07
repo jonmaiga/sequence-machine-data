@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that gcd(phi(n), n-1) = lambda(n), where lambda(n) = A002322(n).",
+  "id": "A264012",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A049559",
+    "A174590",
+    "A257643"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

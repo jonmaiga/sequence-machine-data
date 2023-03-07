@@ -1,0 +1,20 @@
+{
+  "description": "Number of 3-dimensional partitions of n up to conjugacy.",
+  "id": "A119266",
+  "mentions": [
+    "A000293",
+    "A119269",
+    "A119338"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the maximum terminal Wiener index for a tree of n vertices among which k are leaves.",
+  "id": "A349702",
+  "mentions": [
+    "A004523",
+    "A349703",
+    "A349704"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

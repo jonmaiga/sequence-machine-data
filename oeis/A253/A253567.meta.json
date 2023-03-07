@@ -1,0 +1,23 @@
+{
+  "description": "Noncomposites together with such composites n = p_i * p_j * p_k * ... * p_u, p_i <= p_j <= p_k <= ... <= p_u, where there is at least one such pair of successive prime factors (when sorted into a nondecreasing order) that the square of the former is larger than the latter: (p_i)^2 > p_j or (p_j)^2 > p_k, etc.",
+  "id": "A253567",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A008578",
+    "A013929",
+    "A251728",
+    "A253569",
+    "A253784"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

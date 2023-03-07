@@ -1,0 +1,17 @@
+{
+  "description": "Least integer m > 0 such that none of the first n primes divides any value of the polynomial x^2 + x + m.",
+  "id": "A181667",
+  "mentions": [
+    "A060392"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

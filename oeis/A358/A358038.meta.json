@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of the cubefree numbers.",
+  "id": "A358038",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A025706",
+    "A025730",
+    "A173143"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

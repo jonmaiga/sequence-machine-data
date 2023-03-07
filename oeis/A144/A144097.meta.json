@@ -1,0 +1,27 @@
+{
+  "description": "The 4-Schroeder numbers: a(n) = number of lattice paths (Schroeder paths) from (0,0) to (3n,n) with unit steps N=(0,1), E=(1,0) and D=(1,1) staying weakly above the line y = 3x.",
+  "id": "A144097",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A008288",
+    "A008412",
+    "A027307",
+    "A034015",
+    "A243675",
+    "A243676",
+    "A260332"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

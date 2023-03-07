@@ -1,0 +1,26 @@
+{
+  "description": "Number of series-reduced leaf-balanced rooted trees with n nodes. Number of orderless same-trees with n nodes and all leaves equal to 1.",
+  "id": "A297791",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A001678",
+    "A006241",
+    "A032305",
+    "A289078",
+    "A289079",
+    "A291441",
+    "A291443"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers equal to the sum of three oblong numbers in arithmetic progression.",
+  "id": "A292314",
+  "mentions": [
+    "A028896",
+    "A292309",
+    "A292310",
+    "A292313",
+    "A292316"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sums of two consecutive primes and composite numbers in-between.",
+  "id": "A174518",
+  "mentions": [
+    "A034962",
+    "A054265"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

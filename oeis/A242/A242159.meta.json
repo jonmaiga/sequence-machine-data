@@ -1,0 +1,18 @@
+{
+  "description": "Number of ascent sequences of length n with exactly six flat steps.",
+  "id": "A242159",
+  "mentions": [
+    "A242153"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 7,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

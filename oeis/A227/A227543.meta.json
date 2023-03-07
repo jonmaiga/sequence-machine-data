@@ -1,0 +1,29 @@
+{
+  "description": "Triangle defined by g.f. A(x,q) such that: A(x,q) = 1 + x*A(q*x,q)*A(x,q), as read by terms k=0..n*(n-1)/2 in rows n>=0.",
+  "id": "A227543",
+  "mentions": [
+    "A000108",
+    "A005169",
+    "A006419",
+    "A047998",
+    "A138158",
+    "A224704",
+    "A227532",
+    "A239927",
+    "A274291",
+    "A326453",
+    "A326454"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

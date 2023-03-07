@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-primitive roots for prime(n), less than prime(n).",
+  "id": "A219028",
+  "mentions": [
+    "A008330",
+    "A010554",
+    "A046144"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of unrooted 3-connected triangulations of a hexagon with n interior nodes.",
+  "id": "A342055",
+  "mentions": [
+    "A341926",
+    "A342053"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

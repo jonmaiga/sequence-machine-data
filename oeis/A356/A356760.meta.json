@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = L(2*F(n)) + L(2*F(n+1)), where L(n) is the n-th Lucas number (A000032), and F(n) is the n-th Fibonacci number (A000045).",
+  "id": "A356760",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A316275",
+    "A356761"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

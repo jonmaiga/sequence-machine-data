@@ -1,0 +1,20 @@
+{
+  "description": "The numerators of the convergents to the recursion x=1/(x^2+1).",
+  "id": "A144229",
+  "mentions": [
+    "A076725",
+    "A088559"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle in which row n lists the numbers whose proper divisors sum to n.",
+  "id": "A152454",
+  "mentions": [
+    "A001065",
+    "A005114",
+    "A048138",
+    "A070015",
+    "A135244",
+    "A135245"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

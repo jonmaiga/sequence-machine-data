@@ -1,0 +1,21 @@
+{
+  "description": "Let S = {t_1, t_2, ..., t_n} be a set of n distinct integers and consider the sums t_i + t_j (i",
+  "id": "A352178",
+  "mentions": [
+    "A006855",
+    "A347301",
+    "A357409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

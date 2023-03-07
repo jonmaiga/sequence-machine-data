@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = Knuth's Fibonacci (or circle) product of n and k (\"n o k\"), n >= 1, k >= 1.",
+  "id": "A101330",
+  "mentions": [
+    "A014417",
+    "A026274",
+    "A035517",
+    "A101332",
+    "A101345",
+    "A101385",
+    "A101633",
+    "A101642",
+    "A101646",
+    "A101858",
+    "A135090"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

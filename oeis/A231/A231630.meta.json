@@ -1,0 +1,24 @@
+{
+  "description": "Smallest sets of 8 consecutive deficient numbers in arithmetic progression. The initial deficient number is listed.",
+  "id": "A231630",
+  "mentions": [
+    "A005100",
+    "A228965",
+    "A231623",
+    "A231624",
+    "A231625",
+    "A231626",
+    "A231628",
+    "A231629"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

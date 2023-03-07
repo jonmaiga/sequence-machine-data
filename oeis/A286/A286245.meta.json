@@ -1,0 +1,26 @@
+{
+  "description": "Triangular table T(n,k) = P(A046523(k), floor(n/k)), read by rows as T(1,1), T(2,1), T(2,2), etc. Here P is sequence A000027 used as a pairing function N x N -> N.",
+  "id": "A286245",
+  "mentions": [
+    "A000027",
+    "A002260",
+    "A004736",
+    "A046523",
+    "A286156",
+    "A286235",
+    "A286244",
+    "A286247"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

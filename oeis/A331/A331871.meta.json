@@ -1,0 +1,39 @@
+{
+  "description": "Matula-Goebel numbers of lone-child-avoiding locally disjoint rooted trees.",
+  "id": "A331871",
+  "mentions": [
+    "A001678",
+    "A007097",
+    "A050381",
+    "A061775",
+    "A196050",
+    "A291636",
+    "A302569",
+    "A302696",
+    "A316473",
+    "A316495",
+    "A316694",
+    "A316696",
+    "A316697",
+    "A320269",
+    "A331680",
+    "A331682",
+    "A331683",
+    "A331686",
+    "A331687",
+    "A331872",
+    "A331873",
+    "A331935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

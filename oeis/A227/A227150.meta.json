@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative solutions of the Pell equation x^2 - 97*y^2 = +1. Solutions x = a(n).",
+  "id": "A227150",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A227151",
+    "A227274",
+    "A227275"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

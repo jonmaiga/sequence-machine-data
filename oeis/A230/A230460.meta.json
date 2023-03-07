@@ -1,0 +1,26 @@
+{
+  "description": "Prime(2*prime(n)).",
+  "id": "A230460",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007821",
+    "A031215",
+    "A031378",
+    "A100484",
+    "A106349",
+    "A217622"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:01:29",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Composites that are the sum of two consecutive composite numbers.",
+  "id": "A151740",
+  "mentions": [
+    "A060254",
+    "A060327",
+    "A060339",
+    "A096785",
+    "A096787",
+    "A135170",
+    "A151741",
+    "A151745"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

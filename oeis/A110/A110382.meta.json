@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which are sum of distinct unary numbers (containing only ones), i.e., numbers which are sum of distinct numbers of the form (10^k - 1)/9.",
+  "id": "A110382",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A096299"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

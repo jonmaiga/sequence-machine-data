@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 = (x^3 + y^3 + z^3) / 3 where x > y > z > 0, is soluble.",
+  "id": "A272023",
+  "mentions": [
+    "A023042",
+    "A024975"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

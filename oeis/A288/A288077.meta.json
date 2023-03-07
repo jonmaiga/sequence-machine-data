@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of rooted maps with n edges and 3 faces on an orientable surface of genus 3.",
+  "id": "A288077",
+  "mentions": [
+    "A000108",
+    "A269923",
+    "A288075",
+    "A288076",
+    "A288078",
+    "A288079",
+    "A288080",
+    "A288081",
+    "A288262",
+    "A288263",
+    "A288264"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 8,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

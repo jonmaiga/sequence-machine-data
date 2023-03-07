@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that no cube can end in n (in the sense of the respective decimal expansions).",
+  "id": "A246449",
+  "mentions": [
+    "A246422"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

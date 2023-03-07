@@ -1,0 +1,18 @@
+{
+  "description": "a(n) minimizes (over the integers) the absolute difference between Pi and x(n) + 1/a(n), where x(n) is Pi truncated at the n-th decimal digit.",
+  "id": "A286742",
+  "mentions": [
+    "A074783"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

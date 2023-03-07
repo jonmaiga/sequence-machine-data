@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into prime parts where every part appears at least 2 times.",
+  "id": "A339218",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A007690",
+    "A161077"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

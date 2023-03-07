@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = greatest prime factor of (prime(n) - 1)! + prime(n).",
+  "id": "A100857",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A100856",
+    "A100858"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

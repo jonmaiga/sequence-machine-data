@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, T(n,k) = T(n-1, k-1) - T(n-k, k-1); with leftmost term in each row = sum of all previous terms.",
+  "id": "A137680",
+  "mentions": [
+    "A137681",
+    "A137682",
+    "A160096"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

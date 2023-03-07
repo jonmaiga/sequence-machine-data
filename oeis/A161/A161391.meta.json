@@ -1,0 +1,19 @@
+{
+  "description": "Dimension sequence of the right-alternative (=left-alternative) operad.",
+  "id": "A161391",
+  "mentions": [
+    "A161392",
+    "A161393"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positions of squares in A276573.",
+  "id": "A277014",
+  "mentions": [
+    "A010052",
+    "A276573",
+    "A276575",
+    "A277015",
+    "A277016"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

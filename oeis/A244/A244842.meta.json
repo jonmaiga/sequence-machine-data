@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (10^n - 1)*(10^n - 10)/90.",
+  "id": "A244842",
+  "mentions": [
+    "A053422",
+    "A109242"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

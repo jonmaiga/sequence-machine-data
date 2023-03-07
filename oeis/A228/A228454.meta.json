@@ -1,0 +1,17 @@
+{
+  "description": "Gap g such that k*2^n-1 , k*2^n-1+g , k*2^n-1+2*g or k*2^n-1-g , k*2^n-1 , k*2^n-1+g are consecutive primes in arithmetic progression for the smallest prime k.",
+  "id": "A228454",
+  "mentions": [
+    "A228452"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

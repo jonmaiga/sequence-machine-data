@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, e.g.f. exp(x*(z+1/2))/((exp(3*x/2) + 2*cos(sqrt(3)*x/2))/3).",
+  "id": "A215060",
+  "mentions": [
+    "A002115",
+    "A215061",
+    "A215062",
+    "A215063",
+    "A215064",
+    "A215065"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

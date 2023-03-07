@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} binomial(n,d)^3.",
+  "id": "A306843",
+  "mentions": [
+    "A000005",
+    "A000172",
+    "A001093",
+    "A001158",
+    "A056045",
+    "A174462"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Arrange ternary integers in lexicographic order. a(n) is the index of the n-th largest number in this sequence as interpreted in base 3/2 (starting from 0).",
+  "id": "A320273",
+  "mentions": [
+    "A024629",
+    "A320274"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, obtained by omitting all the 1's from the triangle in A307641 (except for the first row).",
+  "id": "A307746",
+  "mentions": [
+    "A001222",
+    "A014963",
+    "A027746",
+    "A088387",
+    "A307641"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

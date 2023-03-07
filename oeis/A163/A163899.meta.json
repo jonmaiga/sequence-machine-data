@@ -1,0 +1,23 @@
+{
+  "description": "Array A(i,j) giving the square of distance from (i,j) to the location where A163357(i,j) is situated in array A054238(i,j), listed antidiagonally as A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), A(2,0), ...",
+  "id": "A163899",
+  "mentions": [
+    "A054238",
+    "A163357",
+    "A163898",
+    "A163900",
+    "A163904",
+    "A165403"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

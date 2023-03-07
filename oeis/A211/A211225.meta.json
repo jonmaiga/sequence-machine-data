@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to represent sigma(n) as sigma(x) + sigma(y) where x+y = n.",
+  "id": "A211225",
+  "mentions": [
+    "A000203",
+    "A083207",
+    "A204830",
+    "A204831",
+    "A211223",
+    "A211224"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

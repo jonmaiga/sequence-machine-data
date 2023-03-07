@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary digits of A007442(n).",
+  "id": "A358273",
+  "mentions": [
+    "A007442",
+    "A358618",
+    "A358619"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

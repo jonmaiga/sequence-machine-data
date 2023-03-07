@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by ascending antidiagonals, T(n, k) = k!*[x^k](log(x+1)*sum(j=0..n, C(2*n,j)*x^j)), n>=0, k>=0.",
+  "id": "A253669",
+  "mentions": [
+    "A098118"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

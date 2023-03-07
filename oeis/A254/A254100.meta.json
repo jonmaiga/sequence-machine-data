@@ -1,0 +1,28 @@
+{
+  "description": "Postludic numbers: Second column of Ludic array A255127.",
+  "id": "A254100",
+  "mentions": [
+    "A001248",
+    "A192607",
+    "A219178",
+    "A255127",
+    "A255129",
+    "A255407",
+    "A260739",
+    "A276576",
+    "A276606",
+    "A302036",
+    "A302038"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n : T(n,k)is smallest number such that T(n,k)>=T(n-1,k-1), T(n,k)>=T(n-1,k), T(n,k)and T(n-1,k-1)+T(n-1,k) have the same parity, T(0,0)=1 .",
+  "id": "A116188",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A047999",
+    "A098181",
+    "A127932",
+    "A127934"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

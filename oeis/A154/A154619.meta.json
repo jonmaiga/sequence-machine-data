@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form (4k^2 + 4k - 5)/5.",
+  "id": "A154619",
+  "mentions": [
+    "A028880",
+    "A047208"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

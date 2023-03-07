@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of distinct values k of substrings in binary n where both k is prime and A030101(k) is prime.",
+  "id": "A175045",
+  "mentions": [
+    "A030101",
+    "A074832"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

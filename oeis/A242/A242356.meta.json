@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers T such that both (T+2) and (T-2) are semiprimes.",
+  "id": "A242356",
+  "mentions": [
+    "A000217",
+    "A001358",
+    "A063637",
+    "A063638"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

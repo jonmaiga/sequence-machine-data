@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} (1 - n*x^k)^k.",
+  "id": "A298986",
+  "mentions": [
+    "A073592",
+    "A266964",
+    "A292132",
+    "A297324",
+    "A298985",
+    "A298987",
+    "A298988"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

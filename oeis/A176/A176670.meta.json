@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers having the same digits as their prime factors (with multiplicity), excluding zero digits.",
+  "id": "A176670",
+  "mentions": [
+    "A006753",
+    "A280827"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

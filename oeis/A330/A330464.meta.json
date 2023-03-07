@@ -1,0 +1,33 @@
+{
+  "description": "Number of non-isomorphic weight-n sets of set-systems with distinct multiset unions.",
+  "id": "A330464",
+  "mentions": [
+    "A089259",
+    "A141268",
+    "A271619",
+    "A279375",
+    "A279785",
+    "A283877",
+    "A306186",
+    "A316980",
+    "A317533",
+    "A318564",
+    "A318565",
+    "A318566",
+    "A323790",
+    "A323795",
+    "A330459",
+    "A330472"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

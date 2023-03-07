@@ -1,0 +1,20 @@
+{
+  "description": "Palprimes of the form m*reversal(m)+1, sorted on m.",
+  "id": "A158999",
+  "mentions": [
+    "A158997",
+    "A177856"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

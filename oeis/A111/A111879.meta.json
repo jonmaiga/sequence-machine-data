@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of array which counts positive rational numbers (not including natural numbers).",
+  "id": "A111879",
+  "mentions": [
+    "A000010",
+    "A020652",
+    "A020653",
+    "A069220",
+    "A111880",
+    "A111881"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least number of consecutive primes beginning with 2, the sum of which (A007504) exceeds e^n.",
+  "id": "A323361",
+  "mentions": [
+    "A007504",
+    "A323360",
+    "A323362"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by row where n-th row contains the least n primes of form 4k+1 if n is odd and of form 4k+3 if n is even such that sequence is always increasing.",
+  "id": "A109416",
+  "mentions": [
+    "A108702",
+    "A109417",
+    "A109420"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

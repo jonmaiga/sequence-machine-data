@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k in A305056 such that k*A002110(j) is in A004490.",
+  "id": "A340137",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002201",
+    "A004490",
+    "A025487",
+    "A073751",
+    "A224078",
+    "A301416",
+    "A305056",
+    "A307327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

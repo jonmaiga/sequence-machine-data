@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: Take a line with n equally spaced points with semicircles drawn between them, as in A290447. Then T(n,k) = number of k-sided regions in that figure, where k>=2.",
+  "id": "A332723",
+  "mentions": [
+    "A290447",
+    "A290726",
+    "A290865",
+    "A290866",
+    "A290867"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

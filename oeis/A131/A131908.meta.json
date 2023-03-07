@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer k with the same sum of cubes of divisors as the n-th integer for which such a k exists.",
+  "id": "A131908",
+  "mentions": [
+    "A069822",
+    "A131902",
+    "A131907"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

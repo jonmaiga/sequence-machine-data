@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A258233.",
+  "id": "A258263",
+  "mentions": [
+    "A258233"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

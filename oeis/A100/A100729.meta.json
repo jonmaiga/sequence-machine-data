@@ -1,0 +1,22 @@
+{
+  "description": "Period of the first difference of Ulam 1-additive sequence U(2,2n+1).",
+  "id": "A100729",
+  "mentions": [
+    "A001857",
+    "A003668",
+    "A006844",
+    "A007300",
+    "A073639",
+    "A100730"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

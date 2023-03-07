@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of an n X n square lattice into squares that contain k nodes unconnected to any of their neighbors, considering only the number of parts.",
+  "id": "A227009",
+  "mentions": [
+    "A034295"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

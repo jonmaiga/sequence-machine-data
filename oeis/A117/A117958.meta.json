@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into odd parts, each part occurring an odd number of times.",
+  "id": "A117958",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

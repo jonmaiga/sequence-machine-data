@@ -1,0 +1,20 @@
+{
+  "description": "Odd bi-unitary abundant numbers with a record small gap to the next term odd bi-unitary abundant number.",
+  "id": "A294027",
+  "mentions": [
+    "A293186",
+    "A294025"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

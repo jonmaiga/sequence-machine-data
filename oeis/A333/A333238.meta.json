@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table where row n lists the distinct smallest primes p of prime partitions of n.",
+  "id": "A333238",
+  "mentions": [
+    "A000607",
+    "A330507",
+    "A333129",
+    "A333259",
+    "A333365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

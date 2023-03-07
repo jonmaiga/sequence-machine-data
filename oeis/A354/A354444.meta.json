@@ -1,0 +1,24 @@
+{
+  "description": "Least initial term of a set of n consecutive primes {p_1 .. p_n} such that Sum_{k=p_1..p_2} d(k) = ... = Sum_{k=p_(n-1)..p_n} d(k), where d(k) is the number of divisors function A000005.",
+  "id": "A354444",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A133760",
+    "A353552",
+    "A353553",
+    "A353554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

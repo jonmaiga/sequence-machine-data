@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the coefficient of x^k in the expansion of Product_{j>=2} (1 - x^Fibonacci(j)) is zero.",
+  "id": "A329003",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A003107",
+    "A090864",
+    "A093996",
+    "A151661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Conjecturally, the number of numbers k such that prime(n)^2 is the largest squared prime divisor of binomial(2k,k).",
+  "id": "A239624",
+  "mentions": [
+    "A110493",
+    "A110494",
+    "A239622",
+    "A239623"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

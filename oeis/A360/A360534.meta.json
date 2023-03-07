@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct prime numbers such that among each pair of consecutive terms, the decimal expansion of the smallest term appears in that of the largest term.",
+  "id": "A360534",
+  "mentions": [
+    "A011557",
+    "A030456",
+    "A335043"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

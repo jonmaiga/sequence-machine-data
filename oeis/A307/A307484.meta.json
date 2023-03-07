@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1+x^k)^((-1)^k*k^2).",
+  "id": "A307484",
+  "mentions": [
+    "A029838",
+    "A177155",
+    "A266964",
+    "A284467",
+    "A307462"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

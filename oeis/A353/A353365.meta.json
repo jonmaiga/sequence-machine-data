@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that the odd part of sigma(sigma(k)) is equal to the odd part of sigma(k).",
+  "id": "A353365",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A000396",
+    "A005820",
+    "A051027",
+    "A066961",
+    "A161942",
+    "A336700",
+    "A336701",
+    "A336702",
+    "A347383",
+    "A347392",
+    "A349745",
+    "A351458",
+    "A353363"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

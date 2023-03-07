@@ -1,0 +1,21 @@
+{
+  "description": "Maximum length of an induced path (or chordless path or snake path) between two antipodal nodes of the n-dimensional hypercube.",
+  "id": "A357360",
+  "mentions": [
+    "A099155",
+    "A357234",
+    "A357499"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

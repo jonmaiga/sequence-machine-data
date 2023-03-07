@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+3 0..7 arrays with no pair in any consecutive four terms totalling exactly 7.",
+  "id": "A246478",
+  "mentions": [
+    "A246479"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

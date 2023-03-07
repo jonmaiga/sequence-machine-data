@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that k^n - 1 is a totient number (A002202), or 0 if no such k exists.",
+  "id": "A281962",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A045542",
+    "A281909"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

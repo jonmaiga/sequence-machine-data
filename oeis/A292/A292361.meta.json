@@ -1,0 +1,19 @@
+{
+  "description": "The number of paths of length 2m in the plane, starting and ending at (0,1), with unit steps in the four directions (north, east, south, west) and staying in the region y > 0 or x > -y.",
+  "id": "A292361",
+  "mentions": [
+    "A135404"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

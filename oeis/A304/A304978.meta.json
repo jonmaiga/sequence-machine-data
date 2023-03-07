@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be expressed in more than one way as 6xy + x + y with x >= y > 0.",
+  "id": "A304978",
+  "mentions": [
+    "A067611"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

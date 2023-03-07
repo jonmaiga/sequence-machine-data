@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows. Row k are the coefficients of the polynomials (sorted by ascending powers) which interpolate the points (n, A355257(n, k+1)) for n = 0..k.",
+  "id": "A355259",
+  "mentions": [
+    "A355257"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

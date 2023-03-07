@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of base and exponent of prime powers.",
+  "id": "A112375",
+  "mentions": [
+    "A000961",
+    "A064438",
+    "A067599",
+    "A112376",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Weakly decreasing triples of positive integers sorted lexicographically and concatenated.",
+  "id": "A360240",
+  "mentions": [
+    "A002024",
+    "A003056",
+    "A056556",
+    "A056557",
+    "A056558",
+    "A069905",
+    "A070770",
+    "A158842",
+    "A194848",
+    "A330709",
+    "A331195",
+    "A333516",
+    "A360010"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Coordination sequence of snub-632 tiling with respect to a trivalent node of type short-short-long.",
+  "id": "A298014",
+  "mentions": [
+    "A008458",
+    "A008486",
+    "A008574",
+    "A019557",
+    "A022144",
+    "A234275",
+    "A296368",
+    "A298015",
+    "A298016",
+    "A298022",
+    "A298024",
+    "A298026",
+    "A298028",
+    "A298029",
+    "A298031",
+    "A298033",
+    "A298035",
+    "A298036",
+    "A298038",
+    "A298040"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:01",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

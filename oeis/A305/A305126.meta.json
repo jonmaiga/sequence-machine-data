@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to express n^3 as average of two primes p1 < p2.",
+  "id": "A305126",
+  "mentions": [
+    "A002375",
+    "A305125"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

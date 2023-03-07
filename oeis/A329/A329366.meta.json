@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose distinct prime indices are pairwise indivisible (stable) and pairwise non-relatively prime (intersecting).",
+  "id": "A329366",
+  "mentions": [
+    "A056239",
+    "A112798",
+    "A285573",
+    "A289509",
+    "A303362",
+    "A304713",
+    "A316476",
+    "A327393",
+    "A328671",
+    "A328677",
+    "A328867",
+    "A328871"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

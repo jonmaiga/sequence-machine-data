@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(bell(2n)/bell(n)^2), bell = A000110.",
+  "id": "A241906",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:38:53",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

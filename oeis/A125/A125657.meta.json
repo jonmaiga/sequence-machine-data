@@ -1,0 +1,23 @@
+{
+  "description": "Column 4 of triangle A125653; also equals the eigensequence of the matrix 4th power of A125653.",
+  "id": "A125657",
+  "mentions": [
+    "A125653",
+    "A125654",
+    "A125655",
+    "A125656",
+    "A125658",
+    "A125659"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

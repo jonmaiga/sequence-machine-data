@@ -1,0 +1,21 @@
+{
+  "description": "Least semiprime m such that the previous semiprime is m - A215231(n).",
+  "id": "A217851",
+  "mentions": [
+    "A001358",
+    "A131109",
+    "A215231",
+    "A215232"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

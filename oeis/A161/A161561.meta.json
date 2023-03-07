@@ -1,0 +1,23 @@
+{
+  "description": "The smallest number larger than n with digital sum equal to n.",
+  "id": "A161561",
+  "mentions": [
+    "A007953",
+    "A054750",
+    "A075360",
+    "A161551"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 2^k - 1 and 2^k + 1 have the same number of prime factors, counted with multiplicity.",
+  "id": "A309942",
+  "mentions": [
+    "A000051",
+    "A000225",
+    "A046051",
+    "A054992",
+    "A067886"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

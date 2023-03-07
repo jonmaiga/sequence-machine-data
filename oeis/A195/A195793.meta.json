@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of arctan(1000000).",
+  "id": "A195793",
+  "mentions": [
+    "A000796",
+    "A013705",
+    "A013706",
+    "A195789",
+    "A216542",
+    "A216543",
+    "A216544",
+    "A216545",
+    "A216546",
+    "A216547",
+    "A216548"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:06:15",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

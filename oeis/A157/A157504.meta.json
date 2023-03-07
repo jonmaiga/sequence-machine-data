@@ -1,0 +1,19 @@
+{
+  "description": "(det(I - M) - 1)/x where M_jk = (j*x)^k/k!.",
+  "id": "A157504",
+  "mentions": [
+    "A157503"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

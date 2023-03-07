@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k) where row n >= 1 lists numbers m > 1 such that 6*m^n +- 1 are twin primes; read by falling antidiagonals.",
+  "id": "A326229",
+  "mentions": [
+    "A002822",
+    "A326230",
+    "A326231",
+    "A326232",
+    "A326234",
+    "A326236"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

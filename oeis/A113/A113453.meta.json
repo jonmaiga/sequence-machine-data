@@ -1,0 +1,23 @@
+{
+  "description": "Triangle giving maximal permanent P(n,k) of an n X n lower Hessenberg (0,1)-matrix with exactly k 1's for 2 <= n <= k <= 2n, read by rows.",
+  "id": "A113453",
+  "mentions": [
+    "A034856",
+    "A113452",
+    "A113454",
+    "A113455"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

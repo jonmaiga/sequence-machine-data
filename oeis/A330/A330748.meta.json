@@ -1,0 +1,24 @@
+{
+  "description": "Index of the smallest element in A002182 that has exactly n prime factors counted with multiplicity.",
+  "id": "A330748",
+  "mentions": [
+    "A001222",
+    "A002182",
+    "A056239",
+    "A112778",
+    "A328521",
+    "A329902",
+    "A330743"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

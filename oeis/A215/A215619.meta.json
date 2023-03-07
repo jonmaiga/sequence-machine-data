@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of consecutive terms of A100071, beginning with index n, which are divisible by n.",
+  "id": "A215619",
+  "mentions": [
+    "A000040",
+    "A058008",
+    "A067315",
+    "A100071"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 3,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

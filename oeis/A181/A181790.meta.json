@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n concatenated with itself is a pandigital biperiod square.",
+  "id": "A181790",
+  "mentions": [
+    "A102567",
+    "A181789",
+    "A181791"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Total number of partitions in the partitions of compositions of n.",
+  "id": "A326346",
+  "mentions": [
+    "A000041",
+    "A030267",
+    "A055887",
+    "A060642",
+    "A246828",
+    "A304969",
+    "A325915",
+    "A327548"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

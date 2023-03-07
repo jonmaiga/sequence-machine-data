@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that x*y*(x+y) = n has at least one solution in coprime integers.",
+  "id": "A298010",
+  "mentions": [
+    "A297968"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

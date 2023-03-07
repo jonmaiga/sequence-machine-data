@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that prime(m) is of the form 2k + floor(k*sqrt(2)); complement of A184776.",
+  "id": "A184779",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A184774",
+    "A184775",
+    "A184776",
+    "A184777",
+    "A184778"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

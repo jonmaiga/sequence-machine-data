@@ -1,0 +1,20 @@
+{
+  "description": "In the game of bridge, a(n) is the penalty for going down n tricks in a vulnerable, doubled contract.",
+  "id": "A109632",
+  "mentions": [
+    "A109633"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

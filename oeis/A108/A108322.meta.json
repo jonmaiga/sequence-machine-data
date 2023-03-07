@@ -1,0 +1,21 @@
+{
+  "description": "\"Binary prime squares\": a(n) = n^2 written in base 2 and interpreted as a base-10 number, if that number is prime; a(n) = 0 otherwise.",
+  "id": "A108322",
+  "mentions": [
+    "A108323",
+    "A108324",
+    "A108325"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of plane partitions of n into parts of exactly k sorts which are introduced in ascending order; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A319730",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000219",
+    "A256130",
+    "A319600",
+    "A319731",
+    "A319732"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

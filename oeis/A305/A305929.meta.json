@@ -1,0 +1,27 @@
+{
+  "description": "Irregular table: row n >= 0 lists all k >= 0 such that the decimal representation of 9^k has n digits '0' (conjectured).",
+  "id": "A305929",
+  "mentions": [
+    "A020665",
+    "A030705",
+    "A063626",
+    "A305924",
+    "A305928",
+    "A305932",
+    "A305933"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

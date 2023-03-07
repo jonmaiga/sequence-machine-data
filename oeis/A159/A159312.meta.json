@@ -1,0 +1,17 @@
+{
+  "description": "Logarithm derivative of the g.f. of A159311 such that a(n) = (n-1)*A159311(n) + 1.",
+  "id": "A159312",
+  "mentions": [
+    "A159311"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

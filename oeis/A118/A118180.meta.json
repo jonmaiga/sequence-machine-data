@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n, k) = 3^(k*(n-k)), read by rows.",
+  "id": "A118180",
+  "mentions": [
+    "A117401",
+    "A118181",
+    "A118182",
+    "A118183",
+    "A118184",
+    "A118185",
+    "A118190",
+    "A156581",
+    "A158116",
+    "A158117",
+    "A176627",
+    "A176639",
+    "A176642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

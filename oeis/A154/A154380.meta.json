@@ -1,0 +1,26 @@
+{
+  "description": "The Riordan square of the Bell numbers. Triangle T(n, k), 0 <= k <= n, read by rows.",
+  "id": "A154380",
+  "mentions": [
+    "A000007",
+    "A000110",
+    "A007318",
+    "A084938",
+    "A130167",
+    "A154381",
+    "A321620"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

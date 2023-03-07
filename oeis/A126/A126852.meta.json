@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 8; for n>1, a(n)=SPM4Sigma(a(n)-1).",
+  "id": "A126852",
+  "mentions": [
+    "A126851"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:34:59",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

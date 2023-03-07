@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of prime implicants of a symmetric function of n Boolean variables.",
+  "id": "A109385",
+  "mentions": [
+    "A003039",
+    "A109388",
+    "A109452"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

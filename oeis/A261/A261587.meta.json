@@ -1,0 +1,21 @@
+{
+  "description": "Sum of sexagesimal digits of Fibonacci numbers in base-60 representation.",
+  "id": "A261587",
+  "mentions": [
+    "A000045",
+    "A004090",
+    "A261575",
+    "A261598"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of {1,...,n} with sum of elements equal to least common multiple of elements and at least two elements.",
+  "id": "A270875",
+  "mentions": [
+    "A175904",
+    "A270970"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

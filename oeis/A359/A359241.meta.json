@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 5*n-4 of form 5*k+4.",
+  "id": "A359241",
+  "mentions": [
+    "A001899",
+    "A359239",
+    "A359240"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

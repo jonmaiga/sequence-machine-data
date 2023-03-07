@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of A265395(n)/A265394(n), record values / record positions in A265388.",
+  "id": "A265396",
+  "mentions": [
+    "A005383",
+    "A079147",
+    "A113733",
+    "A256072",
+    "A265388",
+    "A265394",
+    "A265395"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

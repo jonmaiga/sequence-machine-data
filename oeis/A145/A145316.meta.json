@@ -1,0 +1,21 @@
+{
+  "description": "L-matrix for Hankel matrix of aerated factorials.",
+  "id": "A145316",
+  "mentions": [
+    "A056953",
+    "A104557"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

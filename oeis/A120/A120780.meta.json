@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of partial sums of Catalan numbers scaled by powers of 1/8.",
+  "id": "A120780",
+  "mentions": [
+    "A000108",
+    "A120781"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

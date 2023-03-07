@@ -1,0 +1,19 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=4i and g(j)=j(j+1)/2 (triangular number). Complement of A186382.",
+  "id": "A186381",
+  "mentions": [
+    "A186379",
+    "A186380",
+    "A186382"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:13",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

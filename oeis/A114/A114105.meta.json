@@ -1,0 +1,19 @@
+{
+  "description": "The sum of the next n terms of A114103.",
+  "id": "A114105",
+  "mentions": [
+    "A000217",
+    "A114103",
+    "A114104"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

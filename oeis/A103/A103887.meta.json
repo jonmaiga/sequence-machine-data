@@ -1,0 +1,20 @@
+{
+  "description": "Position of p(n) in rearrangement of prime numbers A103886.",
+  "id": "A103887",
+  "mentions": [
+    "A067889",
+    "A103664",
+    "A103665",
+    "A103886"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

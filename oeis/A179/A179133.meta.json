@@ -1,0 +1,27 @@
+{
+  "description": "Denominators of A178381(4*n+3)/A178381(4*n+2).",
+  "id": "A179133",
+  "mentions": [
+    "A000045",
+    "A128052",
+    "A153727",
+    "A178381",
+    "A179131",
+    "A179132",
+    "A179134",
+    "A296182"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:36:45",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

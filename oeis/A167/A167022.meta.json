@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of sqrt(1 - 2*x - 3*x^2) in powers of x.",
+  "id": "A167022",
+  "mentions": [
+    "A001006",
+    "A002420",
+    "A002426",
+    "A007971",
+    "A126068",
+    "A168051"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

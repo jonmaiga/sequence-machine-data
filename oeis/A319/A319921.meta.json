@@ -1,0 +1,19 @@
+{
+  "description": "Underline the central digit of all terms: the underlined digits reconstruct the starting sequence. This is also true if one translates the sequence in French and underlines the central letter of each word: the underlined letters spell the (French) sequence again. This is the lexicographically earliest sequence of distinct terms.",
+  "id": "A319921",
+  "mentions": [
+    "A319718"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

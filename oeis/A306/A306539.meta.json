@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum (1/p - 1/q) as (p, q) runs through the twin primes.",
+  "id": "A306539",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A065421",
+    "A209328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

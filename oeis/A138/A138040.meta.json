@@ -1,0 +1,22 @@
+{
+  "description": "Atomic number of the 2nd transition metal (group 4) in the n-th row of the periodic system of elements.",
+  "id": "A138040",
+  "mentions": [
+    "A134984",
+    "A137575",
+    "A138724"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 4,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

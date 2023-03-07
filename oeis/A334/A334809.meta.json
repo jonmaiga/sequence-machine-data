@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{d|n} lcm(sigma(d), pod(d)) where sigma(k) is the sum of divisors of k (A000203) and pod(k) is the product of divisors of k (A007955).",
+  "id": "A334809",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A007955",
+    "A324529",
+    "A334731",
+    "A334794"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:51:08",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

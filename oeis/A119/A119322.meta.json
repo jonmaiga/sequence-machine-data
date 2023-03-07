@@ -1,0 +1,19 @@
+{
+  "description": "Inradius of primitive Pythagorean triangles sorted on hypotenuse (A020882), then on inradius.",
+  "id": "A119322",
+  "mentions": [
+    "A014498",
+    "A020882",
+    "A119321"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

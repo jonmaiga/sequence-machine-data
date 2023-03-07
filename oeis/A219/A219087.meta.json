@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor((n + 1/2)^(4/3)).",
+  "id": "A219087",
+  "mentions": [
+    "A219085",
+    "A219086"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

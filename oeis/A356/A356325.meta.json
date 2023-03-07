@@ -1,0 +1,26 @@
+{
+  "description": "Array A(n, k), n, k >= 0, read by antidiagonals; the terms in the negaFibonacci representation of A(n, k) are the terms in common in the negaFibonacci representations of n and k.",
+  "id": "A356325",
+  "mentions": [
+    "A004198",
+    "A039834",
+    "A215024",
+    "A309076",
+    "A334348",
+    "A356326",
+    "A356327"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

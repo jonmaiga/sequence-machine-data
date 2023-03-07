@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that q=2*p^3-1, r=2*p*q^2-1, and s=2*p*r^2-1 are all prime.",
+  "id": "A224626",
+  "mentions": [
+    "A224611",
+    "A224613",
+    "A224614"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

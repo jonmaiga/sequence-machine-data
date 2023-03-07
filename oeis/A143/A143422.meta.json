@@ -1,0 +1,20 @@
+{
+  "description": "Number of even numbers k such that phi(k) = n, where n runs through the values (A002202) taken by phi.",
+  "id": "A143422",
+  "mentions": [
+    "A002202",
+    "A058277",
+    "A143421"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

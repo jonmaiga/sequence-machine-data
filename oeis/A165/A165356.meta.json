@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p + (p^2 - 1)/8 is a perfect square.",
+  "id": "A165356",
+  "mentions": [
+    "A000040",
+    "A077241",
+    "A165352",
+    "A165353",
+    "A165354"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

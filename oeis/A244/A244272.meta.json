@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of exp(gamma)/log(2), a conjectural constant related to the asymptotic counting of Mersenne primes, where gamma is Euler's constant.",
+  "id": "A244272",
+  "mentions": [
+    "A000043",
+    "A001620",
+    "A073004"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

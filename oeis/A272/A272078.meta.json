@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 + 1 is product of 3 distinct primes.",
+  "id": "A272078",
+  "mentions": [
+    "A007304",
+    "A046386",
+    "A176686",
+    "A176687"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

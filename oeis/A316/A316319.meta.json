@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for a trivalent node in a chamfered version of the 3^6 triangular tiling of the plane.",
+  "id": "A316319",
+  "mentions": [
+    "A017557",
+    "A250120",
+    "A316320"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:21",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

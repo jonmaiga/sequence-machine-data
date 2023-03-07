@@ -1,0 +1,18 @@
+{
+  "description": "Numbers occurring as divisors of 2^k + 3^k, k > 0.",
+  "id": "A346990",
+  "mentions": [
+    "A005056",
+    "A007689"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers k such that (10^(k+3)*3277 + 3167)/9 is prime.",
+  "id": "A286959",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

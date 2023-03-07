@@ -1,0 +1,19 @@
+{
+  "description": "For prime p=A000040(n), the smallest prime divisor of (p-1)^p+1 other than p.",
+  "id": "A177996",
+  "mentions": [
+    "A000040",
+    "A128677"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

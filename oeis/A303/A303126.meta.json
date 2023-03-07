@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of proton magnetic moment in J T^(-1).",
+  "id": "A303126",
+  "mentions": [
+    "A230438",
+    "A238200",
+    "A303127",
+    "A303128"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": -25,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

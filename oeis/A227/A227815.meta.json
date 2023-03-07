@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n divisible by their concatenated exponents in prime factorization.",
+  "id": "A227815",
+  "mentions": [
+    "A002275",
+    "A037916",
+    "A070529"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

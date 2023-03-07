@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected non-isomorphic well-covered circulant graphs on n nodes (excluding the complete graph).",
+  "id": "A204596",
+  "mentions": [
+    "A204597"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "description": "Number of strict chains of divisors from n! to 1 using terms of A130091 (numbers with distinct prime multiplicities).",
+  "id": "A337104",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A001055",
+    "A002033",
+    "A022559",
+    "A027423",
+    "A057427",
+    "A067824",
+    "A071626",
+    "A074206",
+    "A098859",
+    "A124010",
+    "A130091",
+    "A167865",
+    "A181796",
+    "A253249",
+    "A327498",
+    "A327523",
+    "A336414",
+    "A336423",
+    "A336424",
+    "A336425",
+    "A336569",
+    "A336571",
+    "A336867",
+    "A336868",
+    "A336941",
+    "A336942",
+    "A337071",
+    "A337074",
+    "A337075",
+    "A337105"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

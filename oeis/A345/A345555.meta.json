@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of ten cubes in seven or more ways.",
+  "id": "A345555",
+  "mentions": [
+    "A345546",
+    "A345554",
+    "A345556",
+    "A345600",
+    "A345809",
+    "A346806"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

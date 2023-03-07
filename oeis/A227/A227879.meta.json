@@ -1,0 +1,17 @@
+{
+  "description": "Integer areas of incentral triangles of integer-sided triangles.",
+  "id": "A227879",
+  "mentions": [
+    "A188158"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

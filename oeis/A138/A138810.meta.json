@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (8 / 7) * (1 - eta(q)^7 / eta(q^7)) - 7 * (eta(q) * eta(q^7))^3 in powers of q.",
+  "id": "A138810",
+  "mentions": [
+    "A138809"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

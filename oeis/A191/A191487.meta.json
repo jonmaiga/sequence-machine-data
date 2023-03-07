@@ -1,0 +1,28 @@
+{
+  "description": "The row sums of the Sierpinski-Stern triangle A191372.",
+  "id": "A191487",
+  "mentions": [
+    "A000079",
+    "A001047",
+    "A001316",
+    "A001550",
+    "A007689",
+    "A011782",
+    "A025192",
+    "A053152",
+    "A085281",
+    "A191372",
+    "A191488"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

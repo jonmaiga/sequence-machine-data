@@ -1,0 +1,26 @@
+{
+  "description": "Main transitions in systems of n particles with spin 3.",
+  "id": "A212701",
+  "mentions": [
+    "A001787",
+    "A212697",
+    "A212698",
+    "A212699",
+    "A212700",
+    "A212702",
+    "A212703",
+    "A212704"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:32:05",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

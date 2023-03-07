@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n nonnegative integer arrays with upper left 0 and every value within 3 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down",
+  "id": "A252931",
+  "mentions": [
+    "A252938"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

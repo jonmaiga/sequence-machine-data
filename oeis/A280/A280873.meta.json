@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose binary expansion does not begin 10 and do not contain 2 adjacent 0's; Ahnentafel numbers of X-chromosome inheritance of a male.",
+  "id": "A280873",
+  "mentions": [
+    "A003714",
+    "A003754",
+    "A004760",
+    "A005117",
+    "A054429",
+    "A163511",
+    "A277006",
+    "A293437"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

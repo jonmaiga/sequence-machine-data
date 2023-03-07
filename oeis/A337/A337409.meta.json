@@ -1,0 +1,27 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of chiral pairs of colorings of the edges of a regular n-dimensional orthotope (hypercube) using k or fewer colors.",
+  "id": "A337409",
+  "mentions": [
+    "A050534",
+    "A325014",
+    "A327085",
+    "A331360",
+    "A337406",
+    "A337407",
+    "A337408",
+    "A337410",
+    "A337413"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

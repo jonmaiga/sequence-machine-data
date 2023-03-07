@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that require exactly five chisel strokes when written in Roman numerals.",
+  "id": "A133192",
+  "mentions": [
+    "A002963",
+    "A002964",
+    "A118098"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

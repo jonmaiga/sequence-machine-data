@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (k*i + 1)*(k*j - 1) with i, j >= 1 and k >= 2.",
+  "id": "A300737",
+  "mentions": [
+    "A056868"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

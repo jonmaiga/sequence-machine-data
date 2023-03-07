@@ -1,0 +1,24 @@
+{
+  "description": "Increment each prime factor for each term of the least prime signature sequence derived from A080577.",
+  "id": "A131822",
+  "mentions": [
+    "A003961",
+    "A036035",
+    "A036042",
+    "A080577",
+    "A131801"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

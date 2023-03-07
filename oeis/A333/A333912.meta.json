@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that phi(k) is not the sum of 3 squares, where phi is the Euler totient function (A000010).",
+  "id": "A333912",
+  "mentions": [
+    "A000010",
+    "A004215",
+    "A039770",
+    "A272405",
+    "A333909",
+    "A333913"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

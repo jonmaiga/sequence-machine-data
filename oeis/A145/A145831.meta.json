@@ -1,0 +1,22 @@
+{
+  "description": "Log_2 ( A145768( A145830(n))).",
+  "id": "A145831",
+  "mentions": [
+    "A000079",
+    "A145768",
+    "A145827",
+    "A145829",
+    "A145830"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

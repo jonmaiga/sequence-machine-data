@@ -1,0 +1,18 @@
+{
+  "description": "Number of isoscent sequences of length n with exactly two ascents.",
+  "id": "A243228",
+  "mentions": [
+    "A242351"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

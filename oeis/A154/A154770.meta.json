@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) = A154771(a(n)) = sum of all distinct \"valid substrings\" of a(n); a(1)=10 (least nontrivial choice).",
+  "id": "A154770",
+  "mentions": [
+    "A004207",
+    "A154771"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

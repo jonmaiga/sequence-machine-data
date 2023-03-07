@@ -1,0 +1,21 @@
+{
+  "description": "Smallest of nine consecutive primes whose sum is a prime.",
+  "id": "A189571",
+  "mentions": [
+    "A073681",
+    "A152468",
+    "A180948",
+    "A180950",
+    "A226380"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

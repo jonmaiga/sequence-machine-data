@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of (4*Pi^6*log(2) - 90*Pi^4*zeta(3) + 1350*Pi^2*zeta(5) - 5715*zeta(7))/1536.",
+  "id": "A194657",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A002388",
+    "A013663",
+    "A013665",
+    "A092425",
+    "A092732",
+    "A173623",
+    "A173624",
+    "A193716",
+    "A193717",
+    "A196456"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:12:05",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number with n distinct prime factors whose decimal representation contains all its prime factors, taking multiplicity into account.",
+  "id": "A319022",
+  "mentions": [
+    "A083359",
+    "A131930",
+    "A318965"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

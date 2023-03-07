@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the coefficient C used in the asymptotic evaluation of the number of primitive Pythagorean triangles with area less than n, as C*sqrt(n).",
+  "id": "A242439",
+  "mentions": [
+    "A118858"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

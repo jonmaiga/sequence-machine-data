@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array, read by upward diagonals: T(n,m) is the number of Young tableaux that can be realized as the ranks of the outer sums a_i + b_j where a = (a_1, ... a_n) and b = (b_1, ... b_m) are real monotone vectors in general position (all sums different).",
+  "id": "A211400",
+  "mentions": [
+    "A000108",
+    "A060854",
+    "A255489"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

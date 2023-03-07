@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) read by rows: minimal number of knight moves to reach the central square on a (2*n+1) X (2*n+1) board starting from the k-th outermost square counted from middle of first rank for k = 1..n+1, or -1 if reaching the central square is impossible.",
+  "id": "A279605",
+  "mentions": [
+    "A035008",
+    "A049604",
+    "A065775"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

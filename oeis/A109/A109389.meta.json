@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of q^(-1/12)eta(q)eta(q^6)/(eta(q^2)eta(q^3)) in powers of q.",
+  "id": "A109389",
+  "mentions": [
+    "A081360",
+    "A098884",
+    "A113297",
+    "A133563",
+    "A145707",
+    "A186099",
+    "A261733",
+    "A261734",
+    "A261735",
+    "A261736"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

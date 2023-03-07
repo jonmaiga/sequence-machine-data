@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that f(g(n)) - g(f(n)) = n where f = A001065 and g = A051953.",
+  "id": "A292283",
+  "mentions": [
+    "A001065",
+    "A051953",
+    "A291869",
+    "A292208"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(16*n^2 + 3*n - 13)/6.",
+  "id": "A172078",
+  "mentions": [
+    "A001107",
+    "A213835",
+    "A237616"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:21",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

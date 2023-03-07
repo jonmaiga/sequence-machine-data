@@ -1,0 +1,52 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways to tile a 2 X n rectangle with k pieces of 2 X 2 tiles and n-2k pieces of 1 X 2 tiles (0 <= k <= floor(n/2)).",
+  "id": "A128100",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000073",
+    "A001045",
+    "A001628",
+    "A001629",
+    "A001872",
+    "A001873",
+    "A006130",
+    "A006131",
+    "A010892",
+    "A015440",
+    "A015441",
+    "A015442",
+    "A015443",
+    "A015445",
+    "A015446",
+    "A015447",
+    "A053404",
+    "A073371",
+    "A084938",
+    "A106852",
+    "A106853",
+    "A106854",
+    "A107920",
+    "A109466",
+    "A119473",
+    "A145934",
+    "A145976",
+    "A145978",
+    "A146078",
+    "A146080",
+    "A146083",
+    "A146084"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the digit sum of the concatenation of the decimal digits of n,n+1,...,n+k, where k >= 0 and minimal, such that the concatenation is divisible by its digit sum, or -1 if no such sum is known.",
+  "id": "A333830",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A332542",
+    "A332558",
+    "A332563",
+    "A332580",
+    "A332830",
+    "A332867",
+    "A333687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

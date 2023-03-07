@@ -1,0 +1,22 @@
+{
+  "description": "The index of A337182 where prime(n) first appears as a factor.",
+  "id": "A340989",
+  "mentions": [
+    "A027746",
+    "A064413",
+    "A098550",
+    "A336957",
+    "A337182",
+    "A338222"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "An increasing sequence of alternatingly squarefree and nonsquarefree numbers.",
+  "id": "A162902",
+  "mentions": [
+    "A005117",
+    "A013929"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k + 1 are both of the form p*q^4 where p and q are distinct primes.",
+  "id": "A215197",
+  "mentions": [
+    "A005237",
+    "A030628",
+    "A074172",
+    "A178739",
+    "A215173"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

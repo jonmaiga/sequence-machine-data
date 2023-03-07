@@ -1,0 +1,17 @@
+{
+  "description": "Terms in A005229 occurring exactly 3 times.",
+  "id": "A152569",
+  "mentions": [
+    "A005229"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Second arithmetic derivative of squares of prime powers: a(n)=A068346(A056798(n)).",
+  "id": "A192084",
+  "mentions": [
+    "A003415",
+    "A056798",
+    "A068346",
+    "A192083"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

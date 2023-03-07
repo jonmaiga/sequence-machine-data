@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form m^2-4 and also equal to some k concatenated with k+1.",
+  "id": "A340231",
+  "mentions": [
+    "A001704",
+    "A028347",
+    "A115439",
+    "A143206"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct prime parts (counting 1 as a prime).",
+  "id": "A331926",
+  "mentions": [
+    "A008578",
+    "A023360",
+    "A034891",
+    "A036497",
+    "A219107",
+    "A280917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

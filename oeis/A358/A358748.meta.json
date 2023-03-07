@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A358669(k) == 1 (mod 4).",
+  "id": "A358748",
+  "mentions": [
+    "A003415",
+    "A016825",
+    "A152822",
+    "A276086",
+    "A358669",
+    "A358749",
+    "A358758"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Anti-Waring numbers: least number k such that k and all larger numbers can be expressed as the sum of one or more distinct n-th powers.",
+  "id": "A334360",
+  "mentions": [
+    "A001661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

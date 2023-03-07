@@ -1,0 +1,19 @@
+{
+  "description": "Single (or isolated or non-twin) primes (A007510) that are not Chen primes (A109611).",
+  "id": "A117244",
+  "mentions": [
+    "A001358",
+    "A007510",
+    "A109611"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

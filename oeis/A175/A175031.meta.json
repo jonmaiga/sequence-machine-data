@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of increasing positive perfect powers such that neighboring digits in the sequence are distinct.",
+  "id": "A175031",
+  "mentions": [
+    "A000027",
+    "A001597",
+    "A090516"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

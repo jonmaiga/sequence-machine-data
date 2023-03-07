@@ -1,0 +1,18 @@
+{
+  "description": "Number of coprime squares modulo A081754(n): a(n) = A046073(A081754(n)).",
+  "id": "A348417",
+  "mentions": [
+    "A046073",
+    "A081754"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

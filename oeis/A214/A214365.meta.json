@@ -1,0 +1,19 @@
+{
+  "description": "Digit-wise Fibonacci: Start with 0,1; then the next term is always the sum of the earliest two consecutive digits not yet summed so far.",
+  "id": "A214365",
+  "mentions": [
+    "A000045",
+    "A093086"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

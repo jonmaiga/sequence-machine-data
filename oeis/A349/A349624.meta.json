@@ -1,0 +1,27 @@
+{
+  "description": "Dirichlet convolution of A326042 with A055615 (Dirichlet inverse of n), where A326042(n) = A064989(sigma(A003961(n))).",
+  "id": "A349624",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A055615",
+    "A064989",
+    "A326042",
+    "A348736",
+    "A349573",
+    "A349625",
+    "A349626"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

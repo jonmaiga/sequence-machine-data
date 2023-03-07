@@ -1,0 +1,21 @@
+{
+  "description": "Sums of knight's moves to points as in A183049.",
+  "id": "A183050",
+  "mentions": [
+    "A065775",
+    "A183049",
+    "A183051",
+    "A183052"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

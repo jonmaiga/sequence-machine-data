@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered pairs of permutation functions f,g on a size n set where f(g(g(x))) = g(f(f(x))).",
+  "id": "A239836",
+  "mentions": [
+    "A000012",
+    "A000085",
+    "A000142",
+    "A001044",
+    "A053529",
+    "A088311"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

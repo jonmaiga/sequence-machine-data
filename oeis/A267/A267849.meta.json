@@ -1,0 +1,28 @@
+{
+  "description": "Triangular array: T(n,k) is the 2-row creation rook number to place k rooks on a 3 x n board.",
+  "id": "A267849",
+  "mentions": [
+    "A001710",
+    "A007531",
+    "A008279",
+    "A013609",
+    "A013610",
+    "A013611",
+    "A049598",
+    "A082030",
+    "A121757"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

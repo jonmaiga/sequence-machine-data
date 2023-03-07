@@ -1,0 +1,26 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} tanh(n*x)^n.",
+  "id": "A221077",
+  "mentions": [
+    "A122399",
+    "A195415",
+    "A220181",
+    "A221078",
+    "A221079",
+    "A224899",
+    "A245322",
+    "A249489",
+    "A338040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

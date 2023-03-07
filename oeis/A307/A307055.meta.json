@@ -1,0 +1,20 @@
+{
+  "description": "Even k such that psi(m) = k has no solution, where psi is the Dedekind psi function A001615.",
+  "id": "A307055",
+  "mentions": [
+    "A001615",
+    "A005277",
+    "A005382",
+    "A307390"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

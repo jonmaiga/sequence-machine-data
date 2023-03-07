@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(3+2) arrays of permutations of 0..n*5+9 filled by rows with each element moved 0 or 1 knight moves, and rows and columns in increasing lexicographic order.",
+  "id": "A263954",
+  "mentions": [
+    "A263955"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * Product_{k=1..n} (1 + k*x) / (1 - x - k*x^2).",
+  "id": "A231291",
+  "mentions": [
+    "A204064",
+    "A231274"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

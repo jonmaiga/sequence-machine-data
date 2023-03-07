@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = x + A( A(x)^3 + A(x)^4 ).",
+  "id": "A323692",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A155134",
+    "A271844"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

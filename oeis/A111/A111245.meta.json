@@ -1,0 +1,20 @@
+{
+  "description": "Perfect powers m^k, where m is an integer, which are not equal to the sum of m distinct primes.",
+  "id": "A111245",
+  "mentions": [
+    "A000290",
+    "A111231",
+    "A153158"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

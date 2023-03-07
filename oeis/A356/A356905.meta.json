@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. satisfies A(x)^A(x) = 1/(1 - x)^x.",
+  "id": "A356905",
+  "mentions": [
+    "A349561",
+    "A355842",
+    "A356795",
+    "A356796",
+    "A356884",
+    "A356906"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

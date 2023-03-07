@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m > n such that Sum_{k=1..n-1} k^(m-1) == n-1 (mod m).",
+  "id": "A317587",
+  "mentions": [
+    "A065091",
+    "A151800",
+    "A317357"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

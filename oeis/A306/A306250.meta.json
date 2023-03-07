@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x*(3x+1) + y*(3y-1) + z*(3z+2) + w*(3w-2), where x,y,z,w are nonnegative integers with x*y*z = 0.",
+  "id": "A306250",
+  "mentions": [
+    "A000567",
+    "A045944",
+    "A049450",
+    "A049451",
+    "A255350",
+    "A306242"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

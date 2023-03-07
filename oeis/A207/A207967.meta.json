@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that match non-irreducible polynomials over {0,1,2}; complement of A207966.",
+  "id": "A207967",
+  "mentions": [
+    "A207966",
+    "A207968"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

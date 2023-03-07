@@ -1,0 +1,23 @@
+{
+  "description": "The Wiener index of the ortho-polyphenyl chain with n hexagons (see the Dou et al. and the Deng references).",
+  "id": "A216108",
+  "mentions": [
+    "A216109",
+    "A216110",
+    "A216111",
+    "A216112",
+    "A216113"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:41",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

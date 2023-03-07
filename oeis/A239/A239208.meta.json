@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(n) divides the sum of the numbers x not coprime to n, with x<=n.",
+  "id": "A239208",
+  "mentions": [
+    "A000010",
+    "A000230",
+    "A238232",
+    "A239205"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

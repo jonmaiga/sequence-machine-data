@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the number of permutations (p(1), p(2), ..., p(n)) of (1,2,...,n) where, for each k (2 <= k <= n), the sign of (p(k) - p(k-1)) equals the sign of (p(n+2-k) - p(n+1-k)).",
+  "id": "A137782",
+  "mentions": [
+    "A000984",
+    "A060350",
+    "A137783"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

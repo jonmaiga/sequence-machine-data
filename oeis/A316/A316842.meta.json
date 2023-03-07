@@ -1,0 +1,32 @@
+{
+  "description": "Three-column table read by rows giving primitive integer sides of proper triangles (i,j,k) with i >= j >= k >= 1, j+k > i, gcd(i,j,k) = 1.",
+  "id": "A316842",
+  "mentions": [
+    "A051493",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070110",
+    "A123323",
+    "A316841",
+    "A316846",
+    "A316847",
+    "A316848",
+    "A316850",
+    "A316852",
+    "A317181",
+    "A317183"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

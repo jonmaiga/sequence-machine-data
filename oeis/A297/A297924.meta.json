@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [2n] in which the size of the last block is n.",
+  "id": "A297924",
+  "mentions": [
+    "A121207",
+    "A124496",
+    "A276961",
+    "A297926"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

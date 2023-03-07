@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is a product of exactly 3 (not necessarily distinct) primes, otherwise 0.",
+  "id": "A101605",
+  "mentions": [
+    "A010051",
+    "A014612",
+    "A064911",
+    "A101637",
+    "A123074"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

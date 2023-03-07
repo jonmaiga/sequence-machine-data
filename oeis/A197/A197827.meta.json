@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of least x > 0 having sin(2*x) = 2*Pi*sin(4*Pi*x).",
+  "id": "A197827",
+  "mentions": [
+    "A197700",
+    "A197739",
+    "A197828",
+    "A197829",
+    "A197830",
+    "A197832"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

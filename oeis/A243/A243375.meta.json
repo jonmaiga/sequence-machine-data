@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/(4*K), a constant related to the asymptotic evaluation of the number of positive integers all of whose prime factors are congruent to 1 modulo 4, where K is the Landau-Ramanujan constant.",
+  "id": "A243375",
+  "mentions": [
+    "A064533"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

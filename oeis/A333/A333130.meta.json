@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are super pseudoprimes to both bases 2 and 3.",
+  "id": "A333130",
+  "mentions": [
+    "A001567",
+    "A005935",
+    "A050217",
+    "A052155",
+    "A153513",
+    "A328662",
+    "A333131"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2*n^2 + 58*n + 27.",
+  "id": "A217498",
+  "mentions": [
+    "A002145",
+    "A054723",
+    "A176549",
+    "A217494"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:03:23",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

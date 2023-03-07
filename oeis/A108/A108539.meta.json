@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = that prime p such that p/prime(n) is nearest to phi, the golden ratio: phi=(1+sqrt(5))/2.",
+  "id": "A108539",
+  "mentions": [
+    "A001622",
+    "A007067",
+    "A108540",
+    "A108542"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

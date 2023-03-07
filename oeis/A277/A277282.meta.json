@@ -1,0 +1,18 @@
+{
+  "description": "Max coefficient in n-th Lucas polynomial.",
+  "id": "A277282",
+  "mentions": [
+    "A073028",
+    "A114525"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

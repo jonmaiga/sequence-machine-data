@@ -1,0 +1,18 @@
+{
+  "description": "Number of transfers of marbles between three sets until the first repetition.",
+  "id": "A327613",
+  "mentions": [
+    "A327565",
+    "A327614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

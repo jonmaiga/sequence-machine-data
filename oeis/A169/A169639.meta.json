@@ -1,0 +1,23 @@
+{
+  "description": "Write n in French (cf. A167507) and sum the letters using a=1, ..., z=26.",
+  "id": "A169639",
+  "mentions": [
+    "A073327",
+    "A119945",
+    "A161406",
+    "A167507",
+    "A169641"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

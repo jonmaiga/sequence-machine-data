@@ -1,0 +1,26 @@
+{
+  "description": "Odd interprimes divisible by 19.",
+  "id": "A126231",
+  "mentions": [
+    "A072569",
+    "A072572",
+    "A072573",
+    "A124619",
+    "A124620",
+    "A124622",
+    "A126228",
+    "A126229",
+    "A126230",
+    "A126233"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

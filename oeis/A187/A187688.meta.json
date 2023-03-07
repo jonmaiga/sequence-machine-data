@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A187687.",
+  "id": "A187688",
+  "mentions": [
+    "A187224",
+    "A187687"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

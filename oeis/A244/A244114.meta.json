@@ -1,0 +1,21 @@
+{
+  "description": "Prime lucky numbers that are palindromic in base 2.",
+  "id": "A244114",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A006995",
+    "A031881"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

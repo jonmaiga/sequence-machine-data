@@ -1,0 +1,29 @@
+{
+  "description": "Number of necklace permutations of {1..n} such that every positive integer from 1 to n * (n + 1)/2 is the sum of some circular subsequence.",
+  "id": "A325791",
+  "mentions": [
+    "A002033",
+    "A008965",
+    "A032153",
+    "A103295",
+    "A126796",
+    "A304793",
+    "A325684",
+    "A325781",
+    "A325786",
+    "A325788",
+    "A325789",
+    "A325790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

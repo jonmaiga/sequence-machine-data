@@ -1,0 +1,39 @@
+{
+  "description": "Denominator of the average distance between consecutive 0-prepended prime indices of n; a(1) = 0.",
+  "id": "A360615",
+  "mentions": [
+    "A001222",
+    "A056239",
+    "A061395",
+    "A088529",
+    "A088530",
+    "A106529",
+    "A112798",
+    "A124010",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A334201",
+    "A340609",
+    "A340610",
+    "A348551",
+    "A360008",
+    "A360555",
+    "A360556",
+    "A360558",
+    "A360614"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

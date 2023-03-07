@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. cos(x)^exp(x).",
+  "id": "A354517",
+  "mentions": [
+    "A000248",
+    "A009189",
+    "A215515",
+    "A354518",
+    "A354519"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

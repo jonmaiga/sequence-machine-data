@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: interleaving successive pairs of rows of Sierpiński's triangle.",
+  "id": "A249133",
+  "mentions": [
+    "A005408",
+    "A047999",
+    "A105321",
+    "A249095",
+    "A249183",
+    "A249184",
+    "A249304"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

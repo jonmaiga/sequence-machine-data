@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of dimension d in which a ball of radius 1/2 has maximum volume.",
+  "id": "A275162",
+  "mentions": [
+    "A074455"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

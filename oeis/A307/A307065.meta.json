@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the negative real attracting fixed point of Э(s) = (1 - 2^s) * (1 - 2^(1 - s)) * gamma(s) * zeta(s) * beta(s) / Pi^s.",
+  "id": "A307065",
+  "mentions": [
+    "A069857",
+    "A069995"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Negative discriminants with form class group isomorphic to C_3 (negated).",
+  "id": "A328825",
+  "mentions": [
+    "A006203",
+    "A023679",
+    "A133675",
+    "A322710",
+    "A329182",
+    "A330219"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

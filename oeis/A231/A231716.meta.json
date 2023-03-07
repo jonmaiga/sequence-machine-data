@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with restricted residue set factorial base representation: numbers n which can be formed as a sum n = du*u! + ... + d2*2! + d1*1!, where each di is in range 1..i and gcd(di,i+1)=1.",
+  "id": "A231716",
+  "mentions": [
+    "A000010",
+    "A001088",
+    "A007489",
+    "A007623",
+    "A033312",
+    "A084558",
+    "A227157",
+    "A231715",
+    "A231721",
+    "A231722"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

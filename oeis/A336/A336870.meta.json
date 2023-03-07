@@ -1,0 +1,43 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of divisors d of the superprimorial A006939(n) with k prime factors (counting multiplicity), such that d and A006939(n)/d both have distinct prime multiplicities.",
+  "id": "A336870",
+  "mentions": [
+    "A000005",
+    "A000110",
+    "A000124",
+    "A000142",
+    "A000325",
+    "A006939",
+    "A022559",
+    "A027423",
+    "A048742",
+    "A071626",
+    "A098859",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A327498",
+    "A336414",
+    "A336419",
+    "A336423",
+    "A336424",
+    "A336500",
+    "A336568",
+    "A336571",
+    "A336865",
+    "A336869",
+    "A336939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

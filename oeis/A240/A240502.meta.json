@@ -1,0 +1,22 @@
+{
+  "description": "Product of primes appearing in the factorization of n! with even exponents.",
+  "id": "A240502",
+  "mentions": [
+    "A000142",
+    "A005117",
+    "A055204",
+    "A336643"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

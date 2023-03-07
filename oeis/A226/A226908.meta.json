@@ -1,0 +1,18 @@
+{
+  "description": "L.g.f. L(x) = Sum_{n>=1} a(n)*x^n/n satisfies: exp(L(x)) = 1 + x*exp( Sum_{n>=1} a(n)*exp(L(x^n))*x^n/n ).",
+  "id": "A226908",
+  "mentions": [
+    "A226907"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

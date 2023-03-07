@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A001109(n) in binary.",
+  "id": "A139478",
+  "mentions": [
+    "A001109",
+    "A139473",
+    "A139474",
+    "A139475",
+    "A139476"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that leave their digital roots as remainder when product of their digits is divided by the sum of their digits.",
+  "id": "A346383",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

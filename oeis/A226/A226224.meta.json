@@ -1,0 +1,24 @@
+{
+  "description": "The largest value of k in base n for which the sum of digits of k = sqrt(k).",
+  "id": "A226224",
+  "mentions": [
+    "A003132",
+    "A007953",
+    "A055012",
+    "A055013",
+    "A055014",
+    "A055015",
+    "A226087"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

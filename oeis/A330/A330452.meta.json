@@ -1,0 +1,33 @@
+{
+  "description": "Number of set partitions of strict multiset partitions of integer partitions of n.",
+  "id": "A330452",
+  "mentions": [
+    "A000110",
+    "A001970",
+    "A007713",
+    "A050343",
+    "A063834",
+    "A089259",
+    "A261049",
+    "A271619",
+    "A279375",
+    "A294617",
+    "A318565",
+    "A323787",
+    "A323795",
+    "A330459",
+    "A330460",
+    "A330463"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

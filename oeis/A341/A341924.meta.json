@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3-connected triangulations of a quadrilateral up to orientation-preserving isomorphisms with n interior nodes.",
+  "id": "A341924",
+  "mentions": [
+    "A341923"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

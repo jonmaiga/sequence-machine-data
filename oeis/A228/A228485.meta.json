@@ -1,0 +1,19 @@
+{
+  "description": "Odd prime powers p^k such that p is congruent to 2 or 5 mod 9.",
+  "id": "A228485",
+  "mentions": [
+    "A020898",
+    "A025473",
+    "A061345"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

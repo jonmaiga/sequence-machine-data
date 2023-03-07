@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that can be written as (a^2-1)(b^2-1) in four or more distinct ways.",
+  "id": "A134857",
+  "mentions": [
+    "A057535",
+    "A063066",
+    "A063067",
+    "A063068",
+    "A134856",
+    "A134858"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Arrange numbers in a single clockwise spiral so that each number is relatively prime to its 12 nearest neighbors.",
+  "id": "A257489",
+  "mentions": [
+    "A064413",
+    "A257321",
+    "A257340"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

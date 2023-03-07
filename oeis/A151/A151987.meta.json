@@ -1,0 +1,18 @@
+{
+  "description": "Number of legal starting configurations in the glass worms (or vers de verres) game with n glasses.",
+  "id": "A151987",
+  "mentions": [
+    "A151986"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

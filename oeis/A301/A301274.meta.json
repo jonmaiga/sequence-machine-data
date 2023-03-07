@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of mean of first n primes.",
+  "id": "A301274",
+  "mentions": [
+    "A273462",
+    "A301273",
+    "A301275",
+    "A301276",
+    "A301277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

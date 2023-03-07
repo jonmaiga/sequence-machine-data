@@ -1,0 +1,20 @@
+{
+  "description": "Numbers appearing in a theorem on the representation of numbers as sums of five non-vanishing squares.",
+  "id": "A223729",
+  "mentions": [
+    "A047701",
+    "A123120"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

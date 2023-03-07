@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..4 arrays with some element plus some horizontally or vertically adjacent neighbor totalling four exactly once.",
+  "id": "A270053",
+  "mentions": [
+    "A270058"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

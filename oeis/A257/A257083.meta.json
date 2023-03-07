@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A257088.",
+  "id": "A257083",
+  "mentions": [
+    "A056109",
+    "A246695",
+    "A257088"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

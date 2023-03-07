@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * Sum_{k=0..n} C(n,k)^2 * x^(2*k).",
+  "id": "A246840",
+  "mentions": [
+    "A000930",
+    "A051286",
+    "A088559",
+    "A181665",
+    "A246861",
+    "A246883",
+    "A246884"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

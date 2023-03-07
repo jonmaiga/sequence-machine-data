@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered heptagonal numbers (A069099) which are also centered hexagonal numbers (A003215).",
+  "id": "A253458",
+  "mentions": [
+    "A003215",
+    "A069099",
+    "A253457",
+    "A253546"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

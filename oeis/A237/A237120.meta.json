@@ -1,0 +1,19 @@
+{
+  "description": "Number of white areas in the graph of elementary cellular automaton with rule 150 at generation n.",
+  "id": "A237120",
+  "mentions": [
+    "A071036",
+    "A237118",
+    "A237119"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of positive integers <= 10^n that can be expressed as a sum of two squares.",
+  "id": "A164775",
+  "mentions": [
+    "A064533",
+    "A180416",
+    "A275649",
+    "A275650",
+    "A330553"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

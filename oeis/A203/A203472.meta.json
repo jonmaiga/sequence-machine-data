@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{3 <= i < j <= n+2} (i + j).",
+  "id": "A203472",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A093883",
+    "A203470",
+    "A203473",
+    "A203474"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:41:07",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

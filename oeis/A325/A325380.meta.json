@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k in A228058 such that also A001065(k) is in A228058.",
+  "id": "A325380",
+  "mentions": [
+    "A001065",
+    "A228058",
+    "A325377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

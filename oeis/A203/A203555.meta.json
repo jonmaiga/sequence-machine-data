@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the index m that maximizes R_m / p_(2m).",
+  "id": "A203555",
+  "mentions": [
+    "A000040",
+    "A104272",
+    "A179196",
+    "A182873",
+    "A191228"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

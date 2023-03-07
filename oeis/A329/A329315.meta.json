@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows where row n gives the sequence of lengths of components of the Lyndon factorization of the first n terms of A000002.",
+  "id": "A329315",
+  "mentions": [
+    "A000002",
+    "A000031",
+    "A001037",
+    "A027375",
+    "A059966",
+    "A060223",
+    "A088568",
+    "A102659",
+    "A211100",
+    "A288605",
+    "A296372",
+    "A296658",
+    "A329314",
+    "A329316",
+    "A329317",
+    "A329325"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

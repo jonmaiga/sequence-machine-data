@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) gives the primitive period of the sequence {k (Modd n)}_{k >= 0}, for n >= 1.",
+  "id": "A337938",
+  "mentions": [
+    "A000007",
+    "A000035",
+    "A002262",
+    "A053616",
+    "A193680",
+    "A193682",
+    "A203571",
+    "A203572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

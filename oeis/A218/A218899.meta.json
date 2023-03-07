@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3Xn arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random 0..1 3Xn array",
+  "id": "A218899",
+  "mentions": [
+    "A218897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

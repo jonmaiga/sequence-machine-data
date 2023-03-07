@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. sin( sqrt(3) * (exp(x) - 1) )/sqrt(3).",
+  "id": "A357737",
+  "mentions": [
+    "A357572",
+    "A357726"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that no set of n lattice points gives visibility to every point of a square k X k lattice.",
+  "id": "A165164",
+  "mentions": [
+    "A157639"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

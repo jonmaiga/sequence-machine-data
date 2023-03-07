@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers by transposing the right half of A176271, triangle read by rows: T(n,k) = A176271(n - 1 + k, n), 1 <= k <= n.",
+  "id": "A214604",
+  "mentions": [
+    "A000290",
+    "A016754",
+    "A025581",
+    "A028387",
+    "A094727",
+    "A176271",
+    "A214659",
+    "A214660",
+    "A214661"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

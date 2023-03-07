@@ -1,0 +1,17 @@
+{
+  "description": "First row of A262057.",
+  "id": "A265316",
+  "mentions": [
+    "A262057"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

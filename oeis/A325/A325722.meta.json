@@ -1,0 +1,20 @@
+{
+  "description": "Start the sequence with a(1) = 1 and read the digits one by one from there. The sequence is always extended with the product d*k, d being the digit read and k the number of d digits present so far in the sequence.",
+  "id": "A325722",
+  "mentions": [
+    "A308232",
+    "A322182",
+    "A325721"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into prime power parts (A246655) such that no two adjacent parts are equal (Carlitz compositions).",
+  "id": "A301501",
+  "mentions": [
+    "A003242",
+    "A246655",
+    "A280195",
+    "A301428",
+    "A301500"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

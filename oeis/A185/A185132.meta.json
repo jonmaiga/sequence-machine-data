@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-Motzkin paths of length n with no level steps at height 0.",
+  "id": "A185132",
+  "mentions": [
+    "A000957",
+    "A001006",
+    "A005043",
+    "A117641"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

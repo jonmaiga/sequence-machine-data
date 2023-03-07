@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers m in increasing order determined by these rules: a(1) = 1, for n>=1, if m is in the sequence then also are numbers h such that sigma(h) = 4m-1.",
+  "id": "A202274",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A002191",
+    "A202273"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, formed from antidiagonals of triangle A228570: T(n,k) = A034851(n-3*k, k) for n >= 0 and 0 <= k <= floor(n/4).",
+  "id": "A228572",
+  "mentions": [
+    "A034851",
+    "A102541",
+    "A192928",
+    "A228570"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*n in carryless digital root arithmetic in base 10.",
+  "id": "A169908",
+  "mentions": [
+    "A010888",
+    "A169821"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

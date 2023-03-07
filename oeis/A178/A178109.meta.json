@@ -1,0 +1,22 @@
+{
+  "description": "The maximum number d, 2 <= d <= n/2, which divides binomial(n-d-1,d-1) and is not coprime to n.",
+  "id": "A178109",
+  "mentions": [
+    "A138389",
+    "A178071",
+    "A178098",
+    "A178101",
+    "A178105"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

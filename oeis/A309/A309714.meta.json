@@ -1,0 +1,21 @@
+{
+  "description": "The smallest possible nonnegative difference between the sum of the first n positive integers (A000217) and the sum of any number of the directly following and consecutive integers.",
+  "id": "A309714",
+  "mentions": [
+    "A000217",
+    "A001109",
+    "A001652",
+    "A053141",
+    "A309655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

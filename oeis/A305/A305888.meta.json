@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the perimeter of a Heronian triangle, but not of a primitive Heronian triangle.",
+  "id": "A305888",
+  "mentions": [
+    "A051518",
+    "A096468"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

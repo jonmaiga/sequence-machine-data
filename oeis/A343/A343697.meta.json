@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of preference profiles in the stable marriage problem with n men and n women such that both the men's and women's profiles form Latin squares.",
+  "id": "A343697",
+  "mentions": [
+    "A002860",
+    "A185141",
+    "A343696"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

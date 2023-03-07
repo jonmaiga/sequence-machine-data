@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that twice the least part is the number of distinct parts.",
+  "id": "A239953",
+  "mentions": [
+    "A239948"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

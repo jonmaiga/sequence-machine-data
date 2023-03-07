@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with at least 2 and not more than 3 distinct prime factors not greater than 7 that are multiples of 7 or of 15.",
+  "id": "A195238",
+  "mentions": [
+    "A001221",
+    "A002473",
+    "A006530",
+    "A143204"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

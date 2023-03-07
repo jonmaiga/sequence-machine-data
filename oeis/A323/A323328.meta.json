@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest unbounded aliquot-like sequence based on the Dedekind psi function: a(1) = 318, a(n) = t(a(n-1)) where t(k) = A001615(k) - k.",
+  "id": "A323328",
+  "mentions": [
+    "A001615",
+    "A008892",
+    "A323327"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

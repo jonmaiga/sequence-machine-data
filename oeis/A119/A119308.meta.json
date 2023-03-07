@@ -1,0 +1,27 @@
+{
+  "description": "Triangle for first differences of Catalan numbers.",
+  "id": "A119308",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A000330",
+    "A001263",
+    "A006414",
+    "A108647",
+    "A114242",
+    "A188460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

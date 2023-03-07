@@ -1,0 +1,20 @@
+{
+  "description": "Number of imprimitive (periodic) 2n-bead black-white complementable necklaces with n black beads.",
+  "id": "A115122",
+  "mentions": [
+    "A045629",
+    "A045632"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:04:18",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the radius of the circle tangent to the curve y=cos(3x) and to the positive x and y axes.",
+  "id": "A197018",
+  "mentions": [
+    "A197016",
+    "A197017",
+    "A197019",
+    "A197020"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

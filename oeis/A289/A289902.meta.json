@@ -1,0 +1,20 @@
+{
+  "description": "Number of dominating sets in the n-triangular honeycomb acute knight graph.",
+  "id": "A289902",
+  "mentions": [
+    "A287064",
+    "A287204",
+    "A289903"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

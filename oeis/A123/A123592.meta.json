@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form p^2 + q^2 + r^2, where p,q,r are primes.",
+  "id": "A123592",
+  "mentions": [
+    "A085317"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "k-almost primes which are digitally balanced in base 2 and have 2k digits in base 2, for some k >= 1.",
+  "id": "A191401",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A014612",
+    "A031443",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

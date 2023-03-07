@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = G(x/(1-x)^4) where G(x) = 1 + x*G(x)^4 is the g.f. of A002293.",
+  "id": "A213336",
+  "mentions": [
+    "A002293",
+    "A006319",
+    "A213282",
+    "A213335"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

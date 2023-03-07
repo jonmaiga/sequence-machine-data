@@ -1,0 +1,22 @@
+{
+  "description": "Integers with palindromic product of divisors.",
+  "id": "A327325",
+  "mentions": [
+    "A002113",
+    "A007955",
+    "A028980",
+    "A180925",
+    "A244411"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

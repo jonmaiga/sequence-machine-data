@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are congruent to 3 mod n, where n is the index of the prime.",
+  "id": "A171430",
+  "mentions": [
+    "A023145",
+    "A048891"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

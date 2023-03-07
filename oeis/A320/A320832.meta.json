@@ -1,0 +1,22 @@
+{
+  "description": "Continued fraction of a constant t with partial denominators {a(n), n>=0} such that the continued fraction of 2*t yields partial denominators {3*a(n), n>=0}.",
+  "id": "A320832",
+  "mentions": [
+    "A320410",
+    "A320833",
+    "A320834",
+    "A320952"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 150,
+    "source": "oeis-bfile"
+  }
+}

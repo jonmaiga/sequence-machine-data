@@ -1,0 +1,18 @@
+{
+  "description": "Number of parts in all s-partitions of n. An s-partition of n is a partition of n into parts of the form 2^j-1 (j=1,2,...).",
+  "id": "A117146",
+  "mentions": [
+    "A117145"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

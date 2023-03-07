@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields sequence A001065 (sum of proper divisors) + A063524 (1, 0, 0, 0, ...).",
+  "id": "A317845",
+  "mentions": [
+    "A001065",
+    "A046644",
+    "A063524",
+    "A317831",
+    "A317846"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

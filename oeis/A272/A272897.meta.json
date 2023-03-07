@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of n-th taxi-cab number A001235(n).",
+  "id": "A272897",
+  "mentions": [
+    "A001235",
+    "A006530",
+    "A011541"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

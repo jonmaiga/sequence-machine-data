@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that sum of digits of the n-th prime = the sum of digits of the n-th semiprime.",
+  "id": "A169640",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007605",
+    "A007953",
+    "A175013"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

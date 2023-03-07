@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n and n + 8 are prime and there is a power of two in the interval (n,n+8).",
+  "id": "A213210",
+  "mentions": [
+    "A023202",
+    "A221211"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

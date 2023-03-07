@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of k with 1 < k < sqrt(n) such that n mod k^2 is prime.",
+  "id": "A329308",
+  "mentions": [
+    "A329203",
+    "A329309"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

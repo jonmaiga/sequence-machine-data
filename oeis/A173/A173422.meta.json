@@ -1,0 +1,21 @@
+{
+  "description": "Partials sums of A003094 (unlabeled connected planar simple graphs with n nodes).",
+  "id": "A173422",
+  "mentions": [
+    "A003094",
+    "A005470",
+    "A126201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

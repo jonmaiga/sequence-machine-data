@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest Fibonacci number with prime index which has exactly n prime factors.",
+  "id": "A135959",
+  "mentions": [
+    "A000045",
+    "A050937",
+    "A075737",
+    "A114722",
+    "A134852",
+    "A135953",
+    "A135956",
+    "A135958"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

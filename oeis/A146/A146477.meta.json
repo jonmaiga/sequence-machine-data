@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A146326(k) is different from A146326(j) for j < k.",
+  "id": "A146477",
+  "mentions": [
+    "A000290",
+    "A078370",
+    "A146326",
+    "A146343",
+    "A146345",
+    "A146348",
+    "A146360",
+    "A146363"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of unlabeled loopless multigraphs with n nodes of degree k or less.",
+  "id": "A333893",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000990",
+    "A006918",
+    "A008619",
+    "A188403",
+    "A192517",
+    "A263293",
+    "A333161",
+    "A333330",
+    "A333737",
+    "A333894",
+    "A333895",
+    "A333896",
+    "A333897",
+    "A334546"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

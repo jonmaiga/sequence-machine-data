@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected spanning subgraphs in the n X n grid graph.",
+  "id": "A359992",
+  "mentions": [
+    "A007341",
+    "A053765",
+    "A080691",
+    "A286913",
+    "A359989",
+    "A359993"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

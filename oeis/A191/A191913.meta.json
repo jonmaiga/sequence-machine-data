@@ -1,0 +1,20 @@
+{
+  "description": "Products of two distinct primes such that a concatenation of the factors (p||q or q||p) again is a product of two distinct primes.",
+  "id": "A191913",
+  "mentions": [
+    "A006881",
+    "A191912",
+    "A191915"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

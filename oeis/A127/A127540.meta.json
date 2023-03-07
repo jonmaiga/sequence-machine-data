@@ -1,0 +1,18 @@
+{
+  "description": "Number of odd-length branches starting at the root in all ordered trees with n edges.",
+  "id": "A127540",
+  "mentions": [
+    "A127538"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

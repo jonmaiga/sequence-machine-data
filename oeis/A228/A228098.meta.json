@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p > prime(n) and such that prime(n)*p < prime(n+1)^2.",
+  "id": "A228098",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A079296",
+    "A083140"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

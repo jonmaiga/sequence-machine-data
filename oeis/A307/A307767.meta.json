@@ -1,0 +1,24 @@
+{
+  "description": "The \"non-residue\" pseudoprimes: odd composite numbers n such that b(n)^((n-1)/2) == -1 (mod n), where base b(n) = A020649(n).",
+  "id": "A307767",
+  "mentions": [
+    "A001262",
+    "A006970",
+    "A020649",
+    "A047713",
+    "A053760",
+    "A244626",
+    "A307798",
+    "A307809"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

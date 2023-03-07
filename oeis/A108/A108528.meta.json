@@ -1,0 +1,26 @@
+{
+  "description": "Number of increasing mobiles (cycle rooted trees) with n generators.",
+  "id": "A108528",
+  "mentions": [
+    "A029768",
+    "A108521",
+    "A108522",
+    "A108523",
+    "A108524",
+    "A108525",
+    "A108526",
+    "A108527",
+    "A108529"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

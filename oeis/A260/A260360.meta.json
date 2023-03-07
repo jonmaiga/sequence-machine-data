@@ -1,0 +1,20 @@
+{
+  "description": "The absolute difference between the largest prime factors of prime(n)-1 and prime(n+1)-1.",
+  "id": "A260360",
+  "mentions": [
+    "A023503",
+    "A105403"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

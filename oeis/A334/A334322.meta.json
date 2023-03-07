@@ -1,0 +1,26 @@
+{
+  "description": "Number of endless self-avoiding walks of length n for the square lattice.",
+  "id": "A334322",
+  "mentions": [
+    "A334323",
+    "A334324",
+    "A334325",
+    "A334326",
+    "A334330",
+    "A334331",
+    "A334332",
+    "A334333",
+    "A334334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

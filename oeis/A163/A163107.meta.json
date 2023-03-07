@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = tau(tau(sigma(n))), where tau = A000005, the number of divisors, and sigma = A000203, the sum of divisors of n.",
+  "id": "A163107",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A010553",
+    "A062068"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

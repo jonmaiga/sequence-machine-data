@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = number of earlier terms of the sequence which divide (the number of positive integers which are <=n and missing from first (n-1) terms of sequence).",
+  "id": "A130500",
+  "mentions": [
+    "A130501"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:53",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The largest prime factor of n*(n+1) equals 17. (Related to the abc conjecture.)",
+  "id": "A252492",
+  "mentions": [
+    "A002071",
+    "A002072",
+    "A002473",
+    "A085152",
+    "A085153",
+    "A086247",
+    "A145604",
+    "A145605",
+    "A252493",
+    "A252494"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

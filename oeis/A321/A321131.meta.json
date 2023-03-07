@@ -1,0 +1,23 @@
+{
+  "description": "Values of m (mod 25), where A317905(m) = 1. Values of m (mod 25) such that V(m) = 1, where V(m) indicates the constant convergence speed of the tetration base m.",
+  "id": "A321131",
+  "mentions": [
+    "A067251",
+    "A317824",
+    "A317903",
+    "A317905",
+    "A321130"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Joint-rank array of the numbers p^j, where p is a prime congruent to 3 mod 4 and j>=1, read by antidiagonals.",
+  "id": "A182871",
+  "mentions": [
+    "A182801",
+    "A182869",
+    "A182870",
+    "A182872"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first number k such that k^i is a quasi-Niven number (A209871) for 1<=i<=n but not for i=n+1.",
+  "id": "A356978",
+  "mentions": [
+    "A007953",
+    "A209871"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

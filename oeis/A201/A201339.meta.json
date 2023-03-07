@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f.: exp(x) / (3 - 2*exp(x)).",
+  "id": "A201339",
+  "mentions": [
+    "A000629",
+    "A050351",
+    "A123125",
+    "A123227"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

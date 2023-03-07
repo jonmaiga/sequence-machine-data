@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} [Sum_{k>=1} k^(n^2) * x^k]^n / n ), a power series in x with integer coefficients.",
+  "id": "A276749",
+  "mentions": [
+    "A008292",
+    "A156170",
+    "A276748"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

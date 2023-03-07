@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of noncrossing partitions up to rotation and reflection composed of n blocks of size k.",
+  "id": "A303929",
+  "mentions": [
+    "A006082",
+    "A082938",
+    "A111275",
+    "A209612",
+    "A211359",
+    "A303694",
+    "A303870",
+    "A303871",
+    "A303875"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

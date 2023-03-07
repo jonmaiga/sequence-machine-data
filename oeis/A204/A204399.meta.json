@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that floor(2^k / 3^n) = 1.",
+  "id": "A204399",
+  "mentions": [
+    "A020914",
+    "A056576",
+    "A195176"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

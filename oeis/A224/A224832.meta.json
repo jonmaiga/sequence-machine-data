@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sum of reciprocals of even divisors of n is an integer.",
+  "id": "A224832",
+  "mentions": [
+    "A000668",
+    "A139256",
+    "A194771"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

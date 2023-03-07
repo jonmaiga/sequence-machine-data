@@ -1,0 +1,22 @@
+{
+  "description": "Number of (undirected) paths in the graph C_4 X C_n.",
+  "id": "A339796",
+  "mentions": [
+    "A307919",
+    "A339075",
+    "A339795",
+    "A339798",
+    "A358869",
+    "A358872"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

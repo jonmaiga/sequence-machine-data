@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+5)X1 arrays of occupancy after each element moves up to +-5 places but not 0 and without 2-loops",
+  "id": "A222163",
+  "mentions": [
+    "A222165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

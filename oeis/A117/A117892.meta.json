@@ -1,0 +1,18 @@
+{
+  "description": "Add up the positive integers which are coprime to n in order (starting at 1). a(n) is the largest such partial sum that is <= n.",
+  "id": "A117892",
+  "mentions": [
+    "A092933",
+    "A117893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

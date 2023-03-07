@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are repunits in four or more bases.",
+  "id": "A119598",
+  "mentions": [
+    "A002275",
+    "A053696",
+    "A055129",
+    "A085104",
+    "A088323",
+    "A145461"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

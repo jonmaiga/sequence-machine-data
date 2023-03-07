@@ -1,0 +1,23 @@
+{
+  "description": "Denominators in the asymptotic expansion of the Maclaurin coefficients of exp(x/(1-x)).",
+  "id": "A321940",
+  "mentions": [
+    "A067653",
+    "A067764",
+    "A321937",
+    "A321938",
+    "A321939"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

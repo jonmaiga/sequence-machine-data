@@ -1,0 +1,22 @@
+{
+  "description": "Stirling transform of pi (A000720).",
+  "id": "A347041",
+  "mentions": [
+    "A000720",
+    "A008277",
+    "A048993",
+    "A230980",
+    "A307771"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

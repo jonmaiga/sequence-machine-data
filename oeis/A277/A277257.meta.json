@@ -1,0 +1,21 @@
+{
+  "description": "Multi-table menage seating arrangements: T(n,k) for n,k >= 1 equals the number of ways to seat n*k married couples at n round tables with 2*k seats each, such that (i) the gender of persons alternates around each table; and (ii) spouses do not sit next to each other.",
+  "id": "A277257",
+  "mentions": [
+    "A059375",
+    "A277256",
+    "A277265"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

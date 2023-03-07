@@ -1,0 +1,18 @@
+{
+  "description": "Algebraic degree of R(exp(-p * Pi)), where R(q) is the Rogers-Ramanujan continued fraction and p are successive n-th primes.",
+  "id": "A275713",
+  "mentions": [
+    "A082682"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Write x/(1-x) in the form Sum_{j>=1} a(j)*x^j/(1+a(j)*x^j).",
+  "id": "A290971",
+  "mentions": [
+    "A048272",
+    "A220418",
+    "A260685",
+    "A273873",
+    "A275870",
+    "A281145",
+    "A289078",
+    "A289501",
+    "A290261",
+    "A290973"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

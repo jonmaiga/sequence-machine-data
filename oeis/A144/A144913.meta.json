@@ -1,0 +1,22 @@
+{
+  "description": "Integers which are the product of even powers of primes up to 13.",
+  "id": "A144913",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A080197"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

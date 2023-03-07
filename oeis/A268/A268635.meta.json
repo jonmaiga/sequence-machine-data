@@ -1,0 +1,18 @@
+{
+  "description": "Number of n_X_4 0..2 arrays with some element plus some horizontally or vertically adjacent neighbor totalling two exactly once.",
+  "id": "A268635",
+  "mentions": [
+    "A268639"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

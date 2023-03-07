@@ -1,0 +1,21 @@
+{
+  "description": "Circulants of Catalan numbers.",
+  "id": "A145570",
+  "mentions": [
+    "A000108",
+    "A123744",
+    "A123745"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

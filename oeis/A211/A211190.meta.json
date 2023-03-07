@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write 2n = p+2q+3r with p,q,r terms of A210479",
+  "id": "A211190",
+  "mentions": [
+    "A005153",
+    "A210479",
+    "A210480",
+    "A210681",
+    "A211165"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

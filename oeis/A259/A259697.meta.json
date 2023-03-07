@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of rook patterns on n X n board where bottom rook is in column k.",
+  "id": "A259697",
+  "mentions": [
+    "A000110",
+    "A005001",
+    "A011971",
+    "A056857",
+    "A259691"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

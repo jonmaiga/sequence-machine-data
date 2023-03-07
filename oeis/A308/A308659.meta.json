@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; for n > 1, a(n) is the length of the longest palindromic suffix of (a(1), ..., a(n-1)).",
+  "id": "A308659",
+  "mentions": [
+    "A220080"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:31",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

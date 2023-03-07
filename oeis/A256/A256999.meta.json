@@ -1,0 +1,24 @@
+{
+  "description": "a(n)=n for n <= 1; for n >= 2, a(n) = largest number that can be obtained by rotating non-msb bits of binary expansion of n (with A080541 or A080542).",
+  "id": "A256999",
+  "mentions": [
+    "A073138",
+    "A080541",
+    "A080542",
+    "A163380",
+    "A246593",
+    "A257250",
+    "A257697"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

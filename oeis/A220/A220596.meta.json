@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to reciprocally link elements of an n X n array either to themselves or to exactly two horizontal, vertical and antidiagonal neighbors, without 3-loops",
+  "id": "A220596",
+  "mentions": [
+    "A220602"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

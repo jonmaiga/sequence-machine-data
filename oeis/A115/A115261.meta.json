@@ -1,0 +1,26 @@
+{
+  "description": "Prime numbers such that the absolute difference of the sum of their digits in odd positions and the sum of their digits in even positions is also a prime.",
+  "id": "A115261",
+  "mentions": [
+    "A005017",
+    "A040164",
+    "A040997",
+    "A041000",
+    "A042939",
+    "A063792",
+    "A087593",
+    "A115259",
+    "A115260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) is the coefficient of q^(nk-k) in the squared q-factorial of n.",
+  "id": "A129276",
+  "mentions": [
+    "A008302",
+    "A127728",
+    "A128564",
+    "A129274",
+    "A129277",
+    "A129278"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

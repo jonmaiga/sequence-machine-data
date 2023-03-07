@@ -1,0 +1,22 @@
+{
+  "description": "Indices i where a run of nonzero values starts in A305671.",
+  "id": "A305672",
+  "mentions": [
+    "A305671",
+    "A305673",
+    "A305674",
+    "A305675",
+    "A305676"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

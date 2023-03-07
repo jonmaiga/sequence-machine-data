@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes p*q such that R(p*q) = R(p)*R(q), where R = A004086 = reverse digits.",
+  "id": "A257842",
+  "mentions": [
+    "A004086",
+    "A071786",
+    "A161600"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

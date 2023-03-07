@@ -1,0 +1,22 @@
+{
+  "description": "Average number of steps t(n) required to get n by repeatedly toggling one of the ceiling(log_2(n)) bits of the binary result of the previous step at a random position with equal probability of the bit positions, starting with all bits 0. The fractional part of t is given separately, i.e., t(n) = a(n) + A324496(n)/A324497(n).",
+  "id": "A324495",
+  "mentions": [
+    "A000120",
+    "A003149",
+    "A070939",
+    "A099627",
+    "A324496",
+    "A324497"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

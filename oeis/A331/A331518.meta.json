@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} q(n,k) * !k, where q(n,k) = number of partitions of n into k distinct parts and !k = subfactorial of k.",
+  "id": "A331518",
+  "mentions": [
+    "A000166",
+    "A008289",
+    "A032020",
+    "A331517"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

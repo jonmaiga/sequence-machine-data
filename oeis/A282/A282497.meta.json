@@ -1,0 +1,18 @@
+{
+  "description": "'Somos expansion' of e: e=a(0)*sqrt(a(1)*sqrt(a(2)*sqrt(a(3)*sqrt(...)))). a(n)=floor(x(n)), x(n)=x(n-1)^2/a(n-1)^2, x(0)=e.",
+  "id": "A282497",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of 5-tuples of nonnegative integers less than p for which 5-argument multinomial coefficients support a Lucas congruence modulo p^2, where p is the n-th prime.",
+  "id": "A348887",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A348883",
+    "A348884",
+    "A348885",
+    "A348886"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(2 - exp(x) - x^2/2).",
+  "id": "A352306",
+  "mentions": [
+    "A006155",
+    "A346269",
+    "A352307",
+    "A352308",
+    "A352309"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

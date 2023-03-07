@@ -1,0 +1,21 @@
+{
+  "description": "The squares n^2, n >= 0, each one written three times.",
+  "id": "A211547",
+  "mentions": [
+    "A075561",
+    "A211422",
+    "A211435"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:13",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

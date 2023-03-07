@@ -1,0 +1,42 @@
+{
+  "description": "Numbers k such that the reversed k-th composition in standard order has half-alternating sum 0.",
+  "id": "A357626",
+  "mentions": [
+    "A001511",
+    "A053251",
+    "A066099",
+    "A124754",
+    "A344618",
+    "A344619",
+    "A357136",
+    "A357182",
+    "A357183",
+    "A357184",
+    "A357185",
+    "A357621",
+    "A357622",
+    "A357623",
+    "A357625",
+    "A357627",
+    "A357628",
+    "A357629",
+    "A357631",
+    "A357633",
+    "A357635",
+    "A357637",
+    "A357638",
+    "A357639",
+    "A357641",
+    "A357642"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

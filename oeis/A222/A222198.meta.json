@@ -1,0 +1,18 @@
+{
+  "description": "Order of linear recurrence for number of Hamiltonian cycles in the graph C_n X C_k as a function of k.",
+  "id": "A222198",
+  "mentions": [
+    "A222199"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

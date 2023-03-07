@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, n XOR a(n) is a prime number (where XOR denotes the bitwise XOR operator).",
+  "id": "A359946",
+  "mentions": [
+    "A004443",
+    "A359947"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

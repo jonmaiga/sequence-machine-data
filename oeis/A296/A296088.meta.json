@@ -1,0 +1,21 @@
+{
+  "description": "Filter combining sigma(n) with the parity of n; restricted growth sequence transform of ((-1)^n)*A000203(n).",
+  "id": "A296088",
+  "mentions": [
+    "A000035",
+    "A000203",
+    "A286603",
+    "A291761",
+    "A296089"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

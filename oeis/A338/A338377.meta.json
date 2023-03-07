@@ -1,0 +1,25 @@
+{
+  "description": "G.f. satisfies: A(x) = (1 + x * d/dx(x*A(x)) )^n.",
+  "id": "A338377",
+  "mentions": [
+    "A113662",
+    "A113663",
+    "A113664",
+    "A113665",
+    "A113666",
+    "A113667",
+    "A113668",
+    "A238223"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

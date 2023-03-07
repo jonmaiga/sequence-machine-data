@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: Row n (of A175022(n) terms) contains the run-lengths in the binary representation of A175020(n), reading left to right.",
+  "id": "A175023",
+  "mentions": [
+    "A175020",
+    "A175022",
+    "A175024"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number A(n,k) of tilings of a 3k X n rectangle using 3n k-ominoes of shape I; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A251072",
+  "mentions": [
+    "A000012",
+    "A028468",
+    "A034856",
+    "A247218",
+    "A250662",
+    "A251073",
+    "A251074",
+    "A251075",
+    "A251076",
+    "A251077",
+    "A251078",
+    "A251079"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

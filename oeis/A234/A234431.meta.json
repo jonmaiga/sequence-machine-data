@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of 2 successive evil numbers (A001969).",
+  "id": "A234431",
+  "mentions": [
+    "A001969",
+    "A003159",
+    "A131323"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

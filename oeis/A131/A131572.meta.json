@@ -1,0 +1,42 @@
+{
+  "description": "a(0)=0 and a(1)=1, continued such that absolute values of 2nd differences equal the original sequence.",
+  "id": "A131572",
+  "mentions": [
+    "A000007",
+    "A000079",
+    "A007283",
+    "A016116",
+    "A027383",
+    "A029744",
+    "A052955",
+    "A060482",
+    "A060546",
+    "A117575",
+    "A131575",
+    "A136252",
+    "A152166",
+    "A158780",
+    "A163403",
+    "A209721",
+    "A209722",
+    "A209723",
+    "A320770",
+    "A343177",
+    "A347789",
+    "A354785",
+    "A354788",
+    "A354789"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

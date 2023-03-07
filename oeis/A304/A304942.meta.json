@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonisomorphic binary n X n matrices with k 1's per column under row and column permutations.",
+  "id": "A304942",
+  "mentions": [
+    "A000041",
+    "A247417",
+    "A247596",
+    "A247597",
+    "A247598",
+    "A305027"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

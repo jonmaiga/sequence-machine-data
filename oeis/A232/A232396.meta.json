@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of compositions of n with no two consecutive identical parts that have exactly k parts = 1, n>=0, 0<=k<=ceiling(n/3).",
+  "id": "A232396",
+  "mentions": [
+    "A003242"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: n-th row contains n multiples of n not occurring earlier all even if n is even else all odd.",
+  "id": "A100781",
+  "mentions": [
+    "A100782",
+    "A100783",
+    "A100784",
+    "A100785"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, for n >= 2, a(n) = the smallest number m with (a(n-1) + 3) divisors.",
+  "id": "A175719",
+  "mentions": [
+    "A000005",
+    "A014221",
+    "A173603",
+    "A173605"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

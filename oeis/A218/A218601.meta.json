@@ -1,0 +1,25 @@
+{
+  "description": "After the first zero, integers from 0 to A213709(n)-1 followed by integers from 0 to A213709(n+1)-1, etc.",
+  "id": "A218601",
+  "mentions": [
+    "A002262",
+    "A053645",
+    "A082853",
+    "A213709",
+    "A213711",
+    "A218599",
+    "A218600",
+    "A218602"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

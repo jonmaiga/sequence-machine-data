@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that for each j <= n there are primes a < b <= p whose difference b - a is 2*j.",
+  "id": "A107257",
+  "mentions": [
+    "A020484",
+    "A060264"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

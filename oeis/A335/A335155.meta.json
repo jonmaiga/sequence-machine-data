@@ -1,0 +1,22 @@
+{
+  "description": "Start with 1; if n is in the sequence, so are n+5 and 3*n.",
+  "id": "A335155",
+  "mentions": [
+    "A005658",
+    "A005660",
+    "A005662",
+    "A335365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:33",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

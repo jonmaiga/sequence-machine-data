@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Fibonacci(n+8) - Fibonacci(8).",
+  "id": "A180673",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001911",
+    "A006327",
+    "A104763",
+    "A131524",
+    "A167616",
+    "A180662",
+    "A180671",
+    "A180672",
+    "A180674"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:31:27",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

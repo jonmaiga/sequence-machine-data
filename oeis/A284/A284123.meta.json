@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A099953(n) = Sum_{i=1..n-1} (2i-1)!! is prime.",
+  "id": "A284123",
+  "mentions": [
+    "A099953",
+    "A283563"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

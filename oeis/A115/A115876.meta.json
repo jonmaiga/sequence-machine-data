@@ -1,0 +1,19 @@
+{
+  "description": "Integers i such that 41*i = 105 X i.",
+  "id": "A115876",
+  "mentions": [
+    "A048720",
+    "A115874",
+    "A115877"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

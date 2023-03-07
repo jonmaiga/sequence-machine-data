@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of successive rational approximations converging to 2*Pi from above for n >= 1, with a(-1) = -1 and a(0) = 0.",
+  "id": "A299923",
+  "mentions": [
+    "A298737"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": -1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

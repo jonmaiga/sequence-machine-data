@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(j,k) is the total number of appearances of the smallest parts in the j-th partition of n, with partitions as nonincreasing lists of parts in lexicographic order.",
+  "id": "A220484",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A092269",
+    "A209514",
+    "A220504"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Sizes of distinct new sidetrees (\"tendrils\", in the order of their appearance) that sprout along (A218787) the infinite trunk of beanstalk (A179016).",
+  "id": "A218613",
+  "mentions": [
+    "A179016",
+    "A213726",
+    "A218549",
+    "A218611",
+    "A218612",
+    "A218786",
+    "A218787"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

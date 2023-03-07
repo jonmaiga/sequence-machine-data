@@ -1,0 +1,25 @@
+{
+  "description": "The maximum value reached when starting at n for the iteration map A350805(n).",
+  "id": "A350806",
+  "mentions": [
+    "A000040",
+    "A006370",
+    "A006577",
+    "A025586",
+    "A027746",
+    "A098550",
+    "A336957",
+    "A350805",
+    "A350807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

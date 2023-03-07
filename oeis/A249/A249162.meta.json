@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(p, b) read by antidiagonals in which rows are indexed by successive prime numbers p_i and row b(p_i) gives the smallest prime base b_n to which q = (p_i, b_(n-1)) is a Wieferich prime.",
+  "id": "A249162",
+  "mentions": [
+    "A001220",
+    "A125636",
+    "A244249"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

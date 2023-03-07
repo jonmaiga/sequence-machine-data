@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having more than one representation as the product of consecutive integers.",
+  "id": "A100934",
+  "mentions": [
+    "A003015",
+    "A064224"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

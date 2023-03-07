@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows where all entries in every even row are 1's and the entries in every odd row alternate between 0 (start/end) and 1.",
+  "id": "A357298",
+  "mentions": [
+    "A065423",
+    "A358125"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree kernel of n*(n+1)/2.",
+  "id": "A139131",
+  "mentions": [
+    "A000217",
+    "A007947",
+    "A014601",
+    "A014695",
+    "A078636"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

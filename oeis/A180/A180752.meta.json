@@ -1,0 +1,19 @@
+{
+  "description": "Half the number of nX3 binary arrays with each element equal to at least two neighbors",
+  "id": "A180752",
+  "mentions": [
+    "A052980",
+    "A180760"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

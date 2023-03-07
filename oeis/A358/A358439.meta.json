@@ -1,0 +1,26 @@
+{
+  "description": "Number of even digits necessary to write all positive n-digit integers.",
+  "id": "A358439",
+  "mentions": [
+    "A064532",
+    "A081045",
+    "A113119",
+    "A196563",
+    "A212704",
+    "A358854",
+    "A359271"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

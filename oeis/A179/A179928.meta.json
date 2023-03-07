@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of A179927, the triangle of centered orthotopic numbers.",
+  "id": "A179928",
+  "mentions": [
+    "A026898",
+    "A179927",
+    "A265583"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of necklaces (turning over is not allowed) of n labeled black or white beads having exactly k black beads.",
+  "id": "A219570",
+  "mentions": [
+    "A066318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

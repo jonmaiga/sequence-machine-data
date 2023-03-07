@@ -1,0 +1,46 @@
+{
+  "description": "a(n) is the number of iterations needed to reach a power of 2 starting at n and using the map k -> k + k/p, where p is the largest prime factor of k.",
+  "id": "A331410",
+  "mentions": [
+    "A000265",
+    "A005087",
+    "A006530",
+    "A046528",
+    "A052126",
+    "A078701",
+    "A087436",
+    "A122111",
+    "A209229",
+    "A329662",
+    "A329697",
+    "A330437",
+    "A334097",
+    "A334098",
+    "A334108",
+    "A334861",
+    "A335430",
+    "A335431",
+    "A335874",
+    "A335878",
+    "A335882",
+    "A335884",
+    "A335885",
+    "A336362",
+    "A336363",
+    "A336467",
+    "A336921",
+    "A336922",
+    "A336923"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

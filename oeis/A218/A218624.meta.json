@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n+3 with largest inscribed rectangle having area <= n.",
+  "id": "A218624",
+  "mentions": [
+    "A182114"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4*a(n-1) + 4*a(n-2) for n > 1; a(0) = 1, a(1) = 14.",
+  "id": "A164540",
+  "mentions": [
+    "A164539",
+    "A164541",
+    "A164675"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of rooted trees with n vertices with no proper terminal subtree appearing at only one position.",
+  "id": "A325697",
+  "mentions": [
+    "A000081",
+    "A001694",
+    "A004111",
+    "A290689",
+    "A306844",
+    "A317713",
+    "A324936",
+    "A324971",
+    "A325661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

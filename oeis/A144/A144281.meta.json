@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle A144280 (called S2hat(-3)).",
+  "id": "A144281",
+  "mentions": [
+    "A144280"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

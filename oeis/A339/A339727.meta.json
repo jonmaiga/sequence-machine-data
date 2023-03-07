@@ -1,0 +1,23 @@
+{
+  "description": "Odd composite integers m such that A086902(3*m-J(m,53)) == 51*J(m,53) (mod m), where J(m,53) is the Jacobi symbol.",
+  "id": "A339727",
+  "mentions": [
+    "A071904",
+    "A086902",
+    "A339128",
+    "A339520",
+    "A339724",
+    "A339725",
+    "A339726"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

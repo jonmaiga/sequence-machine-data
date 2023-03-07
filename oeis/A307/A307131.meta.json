@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the expected fraction of occupied places on n-length lattice randomly filled with 2-length segments.",
+  "id": "A307131",
+  "mentions": [
+    "A219863",
+    "A231580",
+    "A307132"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

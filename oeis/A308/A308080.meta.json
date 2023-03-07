@@ -1,0 +1,21 @@
+{
+  "description": "Index positions of the points with integer coordinates with primary sorting by radius and secondary sorting by polar angle in the counterclockwise square spiral described by A174344 and A274923.",
+  "id": "A308080",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A305575",
+    "A305576",
+    "A308081"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

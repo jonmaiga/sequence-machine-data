@@ -1,0 +1,26 @@
+{
+  "description": "Self-convolution 8th power of A113674, where a(n) = A113674(n+1)/(n+1).",
+  "id": "A113668",
+  "mentions": [
+    "A113662",
+    "A113663",
+    "A113664",
+    "A113665",
+    "A113666",
+    "A113667",
+    "A113674",
+    "A238223",
+    "A338377"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

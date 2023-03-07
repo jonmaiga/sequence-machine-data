@@ -1,0 +1,43 @@
+{
+  "description": "Number of multisets of odd-size multisets whose multiset union is a size-n multiset covering an initial interval with weakly decreasing multiplicities.",
+  "id": "A356934",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000302",
+    "A000670",
+    "A011782",
+    "A019536",
+    "A026424",
+    "A027193",
+    "A035310",
+    "A050330",
+    "A055887",
+    "A058695",
+    "A063834",
+    "A072233",
+    "A270995",
+    "A304969",
+    "A330783",
+    "A333217",
+    "A349050",
+    "A349055",
+    "A356932",
+    "A356933",
+    "A356935",
+    "A356938",
+    "A356943",
+    "A356954"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that tau(k) does not divide sigma(k)*phi(k), where tau(k) = A000005(k).",
+  "id": "A114064",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

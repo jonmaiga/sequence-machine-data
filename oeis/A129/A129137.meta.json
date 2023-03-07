@@ -1,0 +1,18 @@
+{
+  "description": "Number of trees on [n], rooted at 1, in which 2 is a descendant of 3.",
+  "id": "A129137",
+  "mentions": [
+    "A057500"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

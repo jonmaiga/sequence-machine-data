@@ -1,0 +1,20 @@
+{
+  "description": "If m-th composite is the product of k1-th prime, k2-th prime,..,kr-th prime and prime=k1+k2+..+kr then set a(n)=m.",
+  "id": "A163517",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A056239",
+    "A061395"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

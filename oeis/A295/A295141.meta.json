@@ -1,0 +1,22 @@
+{
+  "description": "Solution of the complementary equation a(n) = 2*a(n-1) + a(n-2) + b(n-2), where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, and (a(n)) and (b(n)) are increasing complementary sequences.",
+  "id": "A295141",
+  "mentions": [
+    "A295053",
+    "A295142",
+    "A295143",
+    "A295144"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:31:26",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

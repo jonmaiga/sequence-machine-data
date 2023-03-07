@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,m) = coefficient of x^n in expansion of (x/(1 - x - x^2 - x^3 - x^4))^m = Sum_{n>=m} T(n,m) x^n.",
+  "id": "A202193",
+  "mentions": [
+    "A000078",
+    "A037027",
+    "A077926",
+    "A103142",
+    "A104580",
+    "A118898"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

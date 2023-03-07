@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes that are the sum of a number and the sum of its digits.",
+  "id": "A332240",
+  "mentions": [
+    "A002113",
+    "A062028",
+    "A176995",
+    "A229545"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of records in A316774.",
+  "id": "A330331",
+  "mentions": [
+    "A316774",
+    "A316905",
+    "A316984",
+    "A330330"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

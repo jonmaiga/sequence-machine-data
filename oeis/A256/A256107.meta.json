@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows, T(n,k) is the number of pentagrams on the k layers at n iterations of a pentagram fractal (see comment).",
+  "id": "A256107",
+  "mentions": [
+    "A000071",
+    "A006327",
+    "A032766",
+    "A255870"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

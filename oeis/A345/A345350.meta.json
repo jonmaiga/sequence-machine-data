@@ -1,0 +1,19 @@
+{
+  "description": "Even triangular numbers such that the next integer is nonprime.",
+  "id": "A345350",
+  "mentions": [
+    "A000217",
+    "A014494",
+    "A129545"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

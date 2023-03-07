@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A059382(n)/(A059382(k)*A059382(n-k)).",
+  "id": "A238743",
+  "mentions": [
+    "A059376",
+    "A059382",
+    "A238453",
+    "A238688"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

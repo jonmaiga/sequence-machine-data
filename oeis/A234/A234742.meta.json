@@ -1,0 +1,46 @@
+{
+  "description": "Product of the binary encodings of the irreducible factors (with multiplicity) of the polynomial over GF(2) whose encoding is n.",
+  "id": "A234742",
+  "mentions": [
+    "A014580",
+    "A048720",
+    "A061858",
+    "A091209",
+    "A115857",
+    "A115872",
+    "A234741",
+    "A235033",
+    "A235035",
+    "A235042",
+    "A236379",
+    "A236837",
+    "A236842",
+    "A236844",
+    "A236845",
+    "A236846",
+    "A236847",
+    "A236850",
+    "A236851",
+    "A236852",
+    "A236853",
+    "A244323",
+    "A260441",
+    "A260712",
+    "A260713",
+    "A260716",
+    "A260729",
+    "A260735"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

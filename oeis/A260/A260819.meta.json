@@ -1,0 +1,21 @@
+{
+  "description": "Positive integer solutions [a',b',c',d'] of the equation 1/a + 1/b + 1/c + 1/d = 1, for a <= b <= c <= d, lexicographically sorted.",
+  "id": "A260819",
+  "mentions": [
+    "A229941"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

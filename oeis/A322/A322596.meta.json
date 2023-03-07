@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by descending antidiagonals (n >= 0, k >= 0): let b(n,k) = (n+k)!/((n+1)!*k!); then T(n,k) = b(n,k) if b(n,k) is an integer, and T(n,k) = floor(b(n,k)) + 1 otherwise.",
+  "id": "A322596",
+  "mentions": [
+    "A000108",
+    "A007318",
+    "A037306",
+    "A046854",
+    "A047996",
+    "A065941",
+    "A241926",
+    "A267632"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

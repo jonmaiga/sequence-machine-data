@@ -1,0 +1,28 @@
+{
+  "description": "Positive integers n for which n = f(n), where f(n) is the total number of 2's required when writing out all numbers between 0 and n.",
+  "id": "A101639",
+  "mentions": [
+    "A014778",
+    "A101640",
+    "A101641",
+    "A130427",
+    "A130428",
+    "A130429",
+    "A130430",
+    "A130431",
+    "A130432"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

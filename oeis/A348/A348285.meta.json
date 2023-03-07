@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 2; for n > 1, let a(k) be a divisor > 1 of n appearing in all previous terms where k is as large as possible. Then a(n) = n - k. If no such k exists then a(n) = n - m, where a(m) = 1 and m is as large as possible.",
+  "id": "A348285",
+  "mentions": [
+    "A027750",
+    "A181391",
+    "A341679",
+    "A348217"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) gives numerators of coefficients in Nörlund's polynomials D_{2n}(x).",
+  "id": "A260327",
+  "mentions": [
+    "A001896",
+    "A260326"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

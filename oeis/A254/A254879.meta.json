@@ -1,0 +1,21 @@
+{
+  "description": "Let us denote 's' the sum of the deficient numbers in the aliquot parts of x. Sequence lists numbers x such that sigma(s)-s is equal to x.",
+  "id": "A254879",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A005100",
+    "A254878",
+    "A254880"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

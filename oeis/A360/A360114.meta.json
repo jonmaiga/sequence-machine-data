@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that m^(1 + 2^v(k-1)) == -m (mod k) has only one solution (with 0 <= m < k), where v(k) = A007814(k) is the 2-adic valuation of k.",
+  "id": "A360114",
+  "mentions": [
+    "A007814",
+    "A065091",
+    "A345330",
+    "A360112",
+    "A360113"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

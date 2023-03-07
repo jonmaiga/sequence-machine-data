@@ -1,0 +1,18 @@
+{
+  "description": "Number of prefix normal words of length n.",
+  "id": "A194850",
+  "mentions": [
+    "A062692",
+    "A238109"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

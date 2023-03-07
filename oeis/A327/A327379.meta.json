@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled non-mating-type graphs with n vertices.",
+  "id": "A327379",
+  "mentions": [
+    "A006023",
+    "A006024",
+    "A006125",
+    "A028242",
+    "A059167",
+    "A141580",
+    "A245797",
+    "A327369",
+    "A327370"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

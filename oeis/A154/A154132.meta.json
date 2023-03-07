@@ -1,0 +1,26 @@
+{
+  "description": "Minimal exponents m such that the fractional part of (4/3)^m increases monotonically (when starting with m=1).",
+  "id": "A154132",
+  "mentions": [
+    "A002379",
+    "A064628",
+    "A091560",
+    "A153663",
+    "A153671",
+    "A153710",
+    "A154140",
+    "A154148"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

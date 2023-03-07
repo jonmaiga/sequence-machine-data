@@ -1,0 +1,19 @@
+{
+  "description": "Number of true systems of magical circles of order n.",
+  "id": "A272262",
+  "mentions": [
+    "A006052"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Sum_{k>=1} (2^k - 1) * x^(2^k - 1) / (1 - x^(2^k - 1)).",
+  "id": "A326812",
+  "mentions": [
+    "A000225",
+    "A000929",
+    "A036987",
+    "A038712",
+    "A079559",
+    "A154402",
+    "A161790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

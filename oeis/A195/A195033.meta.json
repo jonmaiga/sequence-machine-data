@@ -1,0 +1,25 @@
+{
+  "description": "Multiples of 21 and of 20 interleaved: a(2n-1) = 21n, a(2n) = 20n.",
+  "id": "A195033",
+  "mentions": [
+    "A010693",
+    "A010718",
+    "A029578",
+    "A195019",
+    "A195031",
+    "A195034",
+    "A195035"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

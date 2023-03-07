@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 2*n + 5 and 5*n + 2 are primes.",
+  "id": "A107771",
+  "mentions": [
+    "A089038",
+    "A111223"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

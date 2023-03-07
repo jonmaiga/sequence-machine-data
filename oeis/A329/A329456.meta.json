@@ -1,0 +1,32 @@
+{
+  "description": "For any n >= 0, exactly four sums a(n+i) + a(n+j) are prime, for 0 <= i < j <= 4: lexicographically earliest such sequence of distinct nonnegative integers.",
+  "id": "A329456",
+  "mentions": [
+    "A329333",
+    "A329405",
+    "A329411",
+    "A329412",
+    "A329413",
+    "A329449",
+    "A329450",
+    "A329452",
+    "A329453",
+    "A329454",
+    "A329455",
+    "A329566",
+    "A329577",
+    "A329579",
+    "A329580",
+    "A329581"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

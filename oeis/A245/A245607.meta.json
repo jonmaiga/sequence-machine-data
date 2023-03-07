@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers, the even bisection of A245605 halved: a(n) = A245605(2*n)/2.",
+  "id": "A245607",
+  "mentions": [
+    "A064216",
+    "A064989",
+    "A243065",
+    "A243066",
+    "A244153",
+    "A245605",
+    "A245608",
+    "A245609",
+    "A245610",
+    "A245611",
+    "A245705",
+    "A245707"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

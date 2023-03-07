@@ -1,0 +1,21 @@
+{
+  "description": "Number of ternary strings of length n with maximal run length five containing 111112.",
+  "id": "A269917",
+  "mentions": [
+    "A081038",
+    "A269914",
+    "A269915",
+    "A269916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:12:58",
+    "offset": 6,
+    "size": 27,
+    "source": "joeis"
+  }
+}

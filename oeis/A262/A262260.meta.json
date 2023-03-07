@@ -1,0 +1,23 @@
+{
+  "description": "Number of triangles formed by the positions of odd numbers in the first n rows of Pascal's triangle, also known as Tartaglia's triangle.",
+  "id": "A262260",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A001317",
+    "A006943",
+    "A088512"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

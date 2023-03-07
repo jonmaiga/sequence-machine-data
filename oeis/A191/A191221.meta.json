@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k plus the sum of the digits of k is prime, and R(k) plus the sum of the digits of k is prime, where R(k) = A004086(k).",
+  "id": "A191221",
+  "mentions": [
+    "A004086",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

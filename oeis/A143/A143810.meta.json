@@ -1,0 +1,20 @@
+{
+  "description": "Eigentriangle of A051731, the inverse Mobius transform.",
+  "id": "A143810",
+  "mentions": [
+    "A003238",
+    "A051731"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

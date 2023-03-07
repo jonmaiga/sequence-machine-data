@@ -1,0 +1,24 @@
+{
+  "description": "Twice the prime powers A000961.",
+  "id": "A138929",
+  "mentions": [
+    "A000961",
+    "A020500",
+    "A020513",
+    "A138920",
+    "A138940",
+    "A188666",
+    "A230078"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:25",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

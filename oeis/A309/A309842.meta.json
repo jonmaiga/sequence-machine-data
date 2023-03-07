@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the total surface area of a hollow cubic block (defined as a block with a shell thickness of 1 cube) where n is the edge length of the removed volume.",
+  "id": "A309842",
+  "mentions": [
+    "A002522",
+    "A033581"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:45",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

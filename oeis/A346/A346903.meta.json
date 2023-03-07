@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of the (n+10)-multiset {1,2,...,n,1,2,...,10} into distinct multisets.",
+  "id": "A346903",
+  "mentions": [
+    "A346517",
+    "A346887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

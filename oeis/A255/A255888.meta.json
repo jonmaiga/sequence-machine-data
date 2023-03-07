@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of log(Gamma(1/6)).",
+  "id": "A255888",
+  "mentions": [
+    "A155968",
+    "A175379",
+    "A254349",
+    "A255306",
+    "A256066",
+    "A256165",
+    "A256166",
+    "A256167",
+    "A256609",
+    "A256610",
+    "A256611",
+    "A256612",
+    "A256614",
+    "A256615",
+    "A256616"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

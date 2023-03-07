@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of natural bases b < 2n+1 such that b^n == 1 (mod 2n+1).",
+  "id": "A307864",
+  "mentions": [
+    "A000010",
+    "A033181",
+    "A306530",
+    "A307865"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

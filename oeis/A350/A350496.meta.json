@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers k such that if p is the largest prime less than k then k - p is prime.",
+  "id": "A350496",
+  "mentions": [
+    "A006512",
+    "A175090"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

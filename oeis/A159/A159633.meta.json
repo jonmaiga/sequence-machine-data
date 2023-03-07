@@ -1,0 +1,23 @@
+{
+  "description": "Dimension of Eisenstein subspace of the space of modular forms of weight k/2, level 4*n and trivial character, where k>=5 is odd.",
+  "id": "A159633",
+  "mentions": [
+    "A001616",
+    "A159630",
+    "A159631",
+    "A159632",
+    "A159634",
+    "A159635",
+    "A159636"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

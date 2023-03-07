@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that decimal expansion of exp(n) has fractional part beginning with n.",
+  "id": "A100333",
+  "mentions": [
+    "A100322",
+    "A100323",
+    "A100332"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

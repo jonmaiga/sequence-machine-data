@@ -1,0 +1,21 @@
+{
+  "description": "Least k > 0 such that p(k)+q(n) is prime, where p(n) is the number of partitions of n and q(n) is the number of strict partitions of n.",
+  "id": "A239936",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A239675",
+    "A239736"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

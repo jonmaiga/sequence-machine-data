@@ -1,0 +1,24 @@
+{
+  "description": "Amicable numbers k that can be expressed as a sum k = x+y = A001065(x) + A001065(y) and a sum k = z+t = (A001065(z) + A001065(t) where (x, y, z, t) are parts of two amicable pairs and A001065(i) is the sum of the aliquot parts of i.",
+  "id": "A359334",
+  "mentions": [
+    "A001065",
+    "A002025",
+    "A036471",
+    "A063990",
+    "A066539",
+    "A180164",
+    "A259180",
+    "A259933"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

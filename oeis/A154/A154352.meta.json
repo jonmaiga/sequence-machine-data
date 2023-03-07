@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=A132658(n+1)-2*A132658(n).",
+  "id": "A154352",
+  "mentions": [
+    "A132658"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

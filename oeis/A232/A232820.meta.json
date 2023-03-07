@@ -1,0 +1,21 @@
+{
+  "description": "Imaginary part of the sum over the n-th powers of all Gaussian integers in the n X n base square in the first quadrant.",
+  "id": "A232820",
+  "mentions": [
+    "A073763",
+    "A230308",
+    "A230310",
+    "A232819"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

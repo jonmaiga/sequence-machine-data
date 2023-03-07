@@ -1,0 +1,21 @@
+{
+  "description": "Smallest octagonal number with n distinct prime factors.",
+  "id": "A156239",
+  "mentions": [
+    "A000567",
+    "A076551",
+    "A156236",
+    "A156237",
+    "A156238"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of nonisomorphic rings Z/nZ/(x^2 - A, y^2 - B, y*x - a - b*x - c*y - d*x*y) of order n^4.",
+  "id": "A342305",
+  "mentions": [
+    "A000005",
+    "A037234",
+    "A037289",
+    "A037290",
+    "A037291",
+    "A038036",
+    "A127707",
+    "A127708",
+    "A307000",
+    "A339948",
+    "A341201",
+    "A341202",
+    "A341547",
+    "A341548"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

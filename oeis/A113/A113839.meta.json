@@ -1,0 +1,20 @@
+{
+  "description": "Powerful numbers (definition 1) sandwiched between twin primes.",
+  "id": "A113839",
+  "mentions": [
+    "A001097",
+    "A001694",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "(A000012 * A002260) + (A002260 * A000012) - A000012.",
+  "id": "A131416",
+  "mentions": [
+    "A000012",
+    "A002260",
+    "A034856",
+    "A127735"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

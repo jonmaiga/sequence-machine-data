@@ -1,0 +1,29 @@
+{
+  "description": "Number of vertices in a regular drawing of the complete bipartite graph K_{n,n}.",
+  "id": "A331755",
+  "mentions": [
+    "A000537",
+    "A007569",
+    "A007678",
+    "A115004",
+    "A135563",
+    "A159065",
+    "A290131",
+    "A290132",
+    "A331453",
+    "A331761",
+    "A333274",
+    "A333276"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

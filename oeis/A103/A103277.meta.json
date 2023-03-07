@@ -1,0 +1,22 @@
+{
+  "description": "Smallest i such that there exists j such that i = x + y + z, j = x*y*z has exactly n solutions in positive integers x <= y <= z.",
+  "id": "A103277",
+  "mentions": [
+    "A060277",
+    "A103278",
+    "A119028",
+    "A119646",
+    "A317578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

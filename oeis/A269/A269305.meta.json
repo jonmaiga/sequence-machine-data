@@ -1,0 +1,20 @@
+{
+  "description": "2^n mod 27 successively displaced by 0, 3, 6, 9, etc.",
+  "id": "A269305",
+  "mentions": [
+    "A070337"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

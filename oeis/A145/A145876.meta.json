@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k-1 alternating descents (1<=k<=n). The index i is an alternating descent of a permutation p if either i is odd and p(i)>p(i+1), or i is even and p(i)",
+  "id": "A145876",
+  "mentions": [
+    "A000111",
+    "A000142",
+    "A001710",
+    "A008292",
+    "A109449",
+    "A147309",
+    "A147315",
+    "A185424",
+    "A302691",
+    "A302895",
+    "A302896",
+    "A302897",
+    "A302898",
+    "A302899",
+    "A302900",
+    "A302901",
+    "A302902",
+    "A302903",
+    "A302904",
+    "A302905"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

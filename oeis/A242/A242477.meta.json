@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(3*n^2/4).",
+  "id": "A242477",
+  "mentions": [
+    "A002620"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:12:35",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

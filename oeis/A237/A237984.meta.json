@@ -1,0 +1,31 @@
+{
+  "description": "Number of partitions of n whose mean is a part.",
+  "id": "A237984",
+  "mentions": [
+    "A000016",
+    "A000041",
+    "A065795",
+    "A067538",
+    "A238478",
+    "A240850",
+    "A316413",
+    "A324753",
+    "A325705",
+    "A327472",
+    "A327473",
+    "A327478",
+    "A327482"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

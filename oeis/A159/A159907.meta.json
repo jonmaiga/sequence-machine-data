@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n with half-integral abundancy index, sigma(n)/n = k+1/2 with integer k.",
+  "id": "A159907",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005408",
+    "A007691",
+    "A024816",
+    "A054024",
+    "A055153",
+    "A088912",
+    "A141643",
+    "A141645",
+    "A159271"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:57",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

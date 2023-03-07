@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree composite numbers m such that rad(p-1) = rad(m-1) for every prime p dividing m.",
+  "id": "A306479",
+  "mentions": [
+    "A002997",
+    "A007947",
+    "A306478"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

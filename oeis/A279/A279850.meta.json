@@ -1,0 +1,24 @@
+{
+  "description": "Rows of the 1440 self-orthogonal Latin squares of order 5, lexicographically sorted.",
+  "id": "A279850",
+  "mentions": [
+    "A160368",
+    "A279648",
+    "A279649",
+    "A279650",
+    "A279849"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

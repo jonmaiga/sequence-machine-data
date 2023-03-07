@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Eul(2*k + 1, k)*Eul(2*n - 2*k + 1, n - k) (0 <= k <= n), where Eul(i,j) are the Eulerian numbers A173018.",
+  "id": "A244027",
+  "mentions": [
+    "A067804",
+    "A173018",
+    "A244028"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

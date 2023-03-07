@@ -1,0 +1,31 @@
+{
+  "description": "Binomial transform of the partition numbers (A000041).",
+  "id": "A218481",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A001511",
+    "A095051",
+    "A218482",
+    "A222115",
+    "A266232",
+    "A266497",
+    "A281425",
+    "A293467",
+    "A294466",
+    "A294467",
+    "A294468"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

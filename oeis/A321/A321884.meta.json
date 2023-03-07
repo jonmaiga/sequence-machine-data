@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of partitions of n into colored blocks of equal parts with colors from a set of size k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A321884",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000142",
+    "A003056",
+    "A015128",
+    "A264686",
+    "A266821",
+    "A321878",
+    "A321880"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

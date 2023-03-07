@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array by antidiagonals: interspersion of the signature sequence of sqrt(8).",
+  "id": "A283942",
+  "mentions": [
+    "A010466",
+    "A022793",
+    "A022794",
+    "A023131"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers whose digits can be permuted in multiple ways to yield primes.",
+  "id": "A318295",
+  "mentions": [
+    "A055387"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

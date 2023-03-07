@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n, k) * p(k), where p(k) is the partition function A000041.",
+  "id": "A356267",
+  "mentions": [
+    "A000041",
+    "A032443",
+    "A218481",
+    "A286955",
+    "A356268"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

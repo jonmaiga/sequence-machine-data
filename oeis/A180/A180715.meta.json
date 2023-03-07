@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: A(x) = Series_Reversion[ x - Sum_{n>=2} (-x)^n/(n(n-1)/2) ].",
+  "id": "A180715",
+  "mentions": [
+    "A074059",
+    "A232693"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

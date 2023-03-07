@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A006369, the inverse permutation of \"amusical permutation\".",
+  "id": "A349368",
+  "mentions": [
+    "A006369",
+    "A349351",
+    "A349369",
+    "A349376"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

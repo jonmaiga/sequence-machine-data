@@ -1,0 +1,21 @@
+{
+  "description": "Start with a(1) = 1; then numbers 1 .. primepi(2), followed by numbers 1 .. primepi(3), and then numbers 1 .. primepi(4), ..., etc, where A000720 gives primepi.",
+  "id": "A249727",
+  "mentions": [
+    "A000720",
+    "A046992",
+    "A249728",
+    "A249809",
+    "A272616"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 117,
+    "source": "oeis-bfile"
+  }
+}

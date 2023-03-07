@@ -1,0 +1,19 @@
+{
+  "description": "Odd abundant numbers with a record small gap to the next odd abundant number.",
+  "id": "A294025",
+  "mentions": [
+    "A005231"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

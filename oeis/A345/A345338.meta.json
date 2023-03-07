@@ -1,0 +1,19 @@
+{
+  "description": "Integers whose Reverse And Add trajectory reaches its first prime after a record number of iterations (at least one iteration must be performed).",
+  "id": "A345338",
+  "mentions": [
+    "A056964"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

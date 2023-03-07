@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p^2 divides Sierpinski number A014566((p-1)/2).",
+  "id": "A121999",
+  "mentions": [
+    "A003628",
+    "A014566",
+    "A125854"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

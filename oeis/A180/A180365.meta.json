@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums up to 10^n of A007425.",
+  "id": "A180365",
+  "mentions": [
+    "A007425",
+    "A061201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

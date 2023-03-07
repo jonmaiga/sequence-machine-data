@@ -1,0 +1,22 @@
+{
+  "description": "Maximum number of loops in a diagonal Latin square of order n.",
+  "id": "A307167",
+  "mentions": [
+    "A274806",
+    "A307163",
+    "A307164",
+    "A307166"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

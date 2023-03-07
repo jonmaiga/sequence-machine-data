@@ -1,0 +1,18 @@
+{
+  "description": "Smallest possible value of maximal overlap in any layout for the 2^n-node shuffle-exchange graph.",
+  "id": "A240802",
+  "mentions": [
+    "A192033"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

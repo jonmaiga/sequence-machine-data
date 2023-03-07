@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers n such that all the gaps prime(n+i+1) - prime(n+i) (i = 0, ..., 12) belong to the set {g > 0: g - 1 and g + 1 are twin prime}.",
+  "id": "A244308",
+  "mentions": [
+    "A000040",
+    "A014574",
+    "A244254",
+    "A244264",
+    "A244266",
+    "A244294"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

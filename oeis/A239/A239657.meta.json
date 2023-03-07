@@ -1,0 +1,36 @@
+{
+  "description": "Number of odd divisors of n minus the number of parts in the symmetric representation of sigma(n).",
+  "id": "A239657",
+  "mentions": [
+    "A000203",
+    "A001227",
+    "A005279",
+    "A174905",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A262626",
+    "A279387",
+    "A279391",
+    "A286000",
+    "A286001",
+    "A296508"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of triangular numbers which are products of 3 primes.",
+  "id": "A108815",
+  "mentions": [
+    "A000217",
+    "A001222",
+    "A014612",
+    "A069904"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

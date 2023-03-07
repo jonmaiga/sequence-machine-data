@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{0 < a, b <= n and gcd(a^2 + b^2, n) = 1} (a + bi)^n (mod n).",
+  "id": "A263014",
+  "mentions": [
+    "A231563",
+    "A231564",
+    "A231565",
+    "A263016",
+    "A290287"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

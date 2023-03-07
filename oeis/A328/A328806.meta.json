@@ -1,0 +1,20 @@
+{
+  "description": "Row lengths of A276427: largest k such that a partition of n has k-1 distinct parts i of multiplicity i.",
+  "id": "A328806",
+  "mentions": [
+    "A000041",
+    "A276427",
+    "A276428",
+    "A276429"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

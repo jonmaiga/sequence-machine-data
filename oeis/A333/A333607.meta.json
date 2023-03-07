@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with unique nonzero digit in decimal representation of 1/k.",
+  "id": "A333607",
+  "mentions": [
+    "A125289",
+    "A333402"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

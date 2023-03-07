@@ -1,0 +1,25 @@
+{
+  "description": "Binary expansion of Catalan constant A006752.",
+  "id": "A104338",
+  "mentions": [
+    "A006752",
+    "A014538",
+    "A054543",
+    "A113860",
+    "A118323",
+    "A153069",
+    "A153070"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

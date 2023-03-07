@@ -1,0 +1,23 @@
+{
+  "description": "Difference between smallest cube > n and n.",
+  "id": "A333884",
+  "mentions": [
+    "A000578",
+    "A048763",
+    "A055400",
+    "A068527",
+    "A080883",
+    "A154840"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

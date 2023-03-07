@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form p*(p+2)+6 where p and p+2 are primes.",
+  "id": "A108016",
+  "mentions": [
+    "A001359",
+    "A051779"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

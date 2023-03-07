@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} Product_{j = 0..8} C(n+j*k,k).",
+  "id": "A229676",
+  "mentions": [
+    "A229142"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

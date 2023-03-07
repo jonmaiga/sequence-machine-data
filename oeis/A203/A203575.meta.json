@@ -1,0 +1,29 @@
+{
+  "description": "Array of certain four complete residue classes (nonnegative members), read by SW-NE antidiagonals.",
+  "id": "A203575",
+  "mentions": [
+    "A008586",
+    "A016825",
+    "A047522",
+    "A047621",
+    "A088520",
+    "A090298",
+    "A092260",
+    "A113807",
+    "A193682",
+    "A203571"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

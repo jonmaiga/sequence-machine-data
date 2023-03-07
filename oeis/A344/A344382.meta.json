@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sqrt(29)/5.",
+  "id": "A344382",
+  "mentions": [
+    "A188730",
+    "A344069"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:39:27",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

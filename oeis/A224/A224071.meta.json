@@ -1,0 +1,23 @@
+{
+  "description": "Number of Schroeder paths of semilength n in which there are no (2,0)-steps at level 1.",
+  "id": "A224071",
+  "mentions": [
+    "A001003",
+    "A006215",
+    "A007564",
+    "A010892",
+    "A059231",
+    "A155069"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

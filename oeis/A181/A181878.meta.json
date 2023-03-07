@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient array for square of Chebyshev S-polynomials.",
+  "id": "A181878",
+  "mentions": [
+    "A007598",
+    "A011655",
+    "A049310",
+    "A049684",
+    "A109613",
+    "A129818",
+    "A158454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

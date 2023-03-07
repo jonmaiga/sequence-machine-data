@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number x such that sigma(x) = sigma(x(n)), where x(n) is the n-th arithmetic derivatives of x and x is not equal to x(n).",
+  "id": "A246774",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A246775"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

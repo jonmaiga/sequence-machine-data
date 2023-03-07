@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. The incomplete Bell transform of the central binomial numbers.",
+  "id": "A352369",
+  "mentions": [
+    "A000984",
+    "A352363",
+    "A352366",
+    "A352370",
+    "A352371"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = 1/(1 - x*A(x)/(1 - x^2*A(x)/(1 - x^4*A(x)/(1 - x^8*A(x)/(1 - ...))))), a recursive continued fraction.",
+  "id": "A192738",
+  "mentions": [
+    "A192739"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n = concat(x,y) such that the product x*y | n. Leading zeros in y allowed.",
+  "id": "A255725",
+  "mentions": [
+    "A007602",
+    "A255726",
+    "A256518"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

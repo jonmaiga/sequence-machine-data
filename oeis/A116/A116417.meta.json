@@ -1,0 +1,21 @@
+{
+  "description": "If n = Sum_{m>=1} 2^(m-1) * b(n,m), where each b(n,m) is 0 or 1 and the sum is a finite sum, then a(n) = denominator of Sum_{m>=1} b(n,m)/m.",
+  "id": "A116417",
+  "mentions": [
+    "A007088",
+    "A116416",
+    "A271410"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

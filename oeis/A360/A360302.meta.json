@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) is the position of the set encoded in the binary expansion of k within the shortlex order for the powerset of [n]; triangle T(n,k), n>=0, 0<=k<=2^n-1, read by rows.",
+  "id": "A360302",
+  "mentions": [
+    "A000004",
+    "A000079",
+    "A000217",
+    "A000225",
+    "A006516",
+    "A057427",
+    "A082185",
+    "A193360",
+    "A359941"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

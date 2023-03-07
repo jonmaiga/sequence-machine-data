@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of dividing a 2n X n rectangle into integer-sided rectangles.",
+  "id": "A333495",
+  "mentions": [
+    "A116694",
+    "A333476"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

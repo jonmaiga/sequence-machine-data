@@ -1,0 +1,21 @@
+{
+  "description": "Indices of nonprime repunits: nonnegative numbers n such that 11...111 = (10^n - 1)/9 is composite.",
+  "id": "A179005",
+  "mentions": [
+    "A002275",
+    "A004022",
+    "A004023",
+    "A031974",
+    "A259102"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

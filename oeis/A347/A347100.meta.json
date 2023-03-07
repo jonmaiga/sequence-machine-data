@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = phi(A003961(n)) - phi(n), where A003961 is the prime shift towards larger primes, and phi is Euler totient function.",
+  "id": "A347100",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001223",
+    "A003961",
+    "A003972",
+    "A008683",
+    "A051953",
+    "A336853",
+    "A337549",
+    "A346249",
+    "A347098"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

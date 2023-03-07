@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of fractions in A171676.",
+  "id": "A174426",
+  "mentions": [
+    "A035287",
+    "A171676"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

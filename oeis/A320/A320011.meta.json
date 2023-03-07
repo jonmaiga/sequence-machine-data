@@ -1,0 +1,25 @@
+{
+  "description": "Filter sequence combined from those proper divisors d of n for which +1 == d (mod 3); Restricted growth sequence transform of A319991.",
+  "id": "A320011",
+  "mentions": [
+    "A019565",
+    "A293223",
+    "A293897",
+    "A319991",
+    "A320001",
+    "A320010",
+    "A320012",
+    "A320013",
+    "A320014"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

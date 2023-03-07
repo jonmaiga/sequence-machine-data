@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime that can be expressed as the sum of n distinct positive squares with the largest square as small as possible.",
+  "id": "A224498",
+  "mentions": [
+    "A100559"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

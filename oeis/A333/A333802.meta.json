@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A181894(k)+1 = A181894(k+1).",
+  "id": "A333802",
+  "mentions": [
+    "A006145",
+    "A039752",
+    "A050376",
+    "A064111",
+    "A181894",
+    "A228126",
+    "A330999",
+    "A333801"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

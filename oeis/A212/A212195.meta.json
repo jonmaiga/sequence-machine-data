@@ -1,0 +1,42 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals: A(n,k) is the number of n-colorings of the staggered hexagonal square grid graph SH_(k,k).",
+  "id": "A212195",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000038",
+    "A000290",
+    "A002417",
+    "A002522",
+    "A040006",
+    "A045944",
+    "A047927",
+    "A068244",
+    "A068245",
+    "A068248",
+    "A068249",
+    "A068283",
+    "A068284",
+    "A068285",
+    "A068286",
+    "A068287",
+    "A068288",
+    "A068289",
+    "A068290",
+    "A068291",
+    "A068292",
+    "A212163",
+    "A212194"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

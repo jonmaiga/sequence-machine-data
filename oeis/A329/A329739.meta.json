@@ -1,0 +1,33 @@
+{
+  "description": "Number of compositions of n whose run-lengths are all different.",
+  "id": "A329739",
+  "mentions": [
+    "A000740",
+    "A003242",
+    "A008965",
+    "A032020",
+    "A059966",
+    "A098504",
+    "A098859",
+    "A107429",
+    "A175342",
+    "A238130",
+    "A242882",
+    "A325545",
+    "A328592",
+    "A329738",
+    "A329740",
+    "A329745",
+    "A329766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

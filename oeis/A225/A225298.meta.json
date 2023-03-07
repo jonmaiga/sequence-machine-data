@@ -1,0 +1,24 @@
+{
+  "description": "Smallest pandigital number with exactly n prime factors (with multiplicity).",
+  "id": "A225298",
+  "mentions": [
+    "A001222",
+    "A050278",
+    "A171102",
+    "A175845",
+    "A221646"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

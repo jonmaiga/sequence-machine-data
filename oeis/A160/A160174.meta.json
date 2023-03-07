@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2*n - 1)*(24*n^2 - 42*n + 19).",
+  "id": "A160174",
+  "mentions": [
+    "A160250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:51",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

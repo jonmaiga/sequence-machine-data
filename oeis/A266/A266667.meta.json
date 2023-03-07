@@ -1,0 +1,19 @@
+{
+  "description": "Binary representation of the n-th iteration of the \"Rule 51\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A266667",
+  "mentions": [
+    "A266666",
+    "A266668"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

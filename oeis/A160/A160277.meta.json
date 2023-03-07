@@ -1,0 +1,21 @@
+{
+  "description": "Last terms in the groups defined in A160275.",
+  "id": "A160277",
+  "mentions": [
+    "A075634",
+    "A079801",
+    "A160275",
+    "A160276"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

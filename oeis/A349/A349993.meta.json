@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of squares k^2 with n^2 <= k^2 <= n^3.",
+  "id": "A349993",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A028387",
+    "A349662"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

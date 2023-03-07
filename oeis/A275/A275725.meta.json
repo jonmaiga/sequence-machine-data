@@ -1,0 +1,48 @@
+{
+  "description": "a(n) = A275723(A002110(1+A084558(n)), n); prime factorization encodings of cycle-polynomials computed for finite permutations listed in the order that is used in tables A060117 / A060118.",
+  "id": "A275725",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A007623",
+    "A007814",
+    "A046660",
+    "A048675",
+    "A051903",
+    "A056169",
+    "A056170",
+    "A060117",
+    "A060118",
+    "A060128",
+    "A060129",
+    "A060130",
+    "A060131",
+    "A072411",
+    "A084558",
+    "A243054",
+    "A257510",
+    "A275723",
+    "A275726",
+    "A275733",
+    "A275734",
+    "A275735",
+    "A275803",
+    "A275807",
+    "A275812",
+    "A275832",
+    "A275851"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

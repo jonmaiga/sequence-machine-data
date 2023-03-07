@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where row n lists coefficients in Product_{k=1..n} (k + x + (n+1-k)*x^2), for n >= 0.",
+  "id": "A322229",
+  "mentions": [
+    "A000272",
+    "A322233",
+    "A322234"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

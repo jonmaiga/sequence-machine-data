@@ -1,0 +1,20 @@
+{
+  "description": "Floor((n-1)!/n).",
+  "id": "A226198",
+  "mentions": [
+    "A001048",
+    "A056653",
+    "A091330",
+    "A175787"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

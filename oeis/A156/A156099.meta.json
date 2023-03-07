@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m such that prime(n) is a factor of both m and sigma(m).",
+  "id": "A156099",
+  "mentions": [
+    "A000040",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A simple 4-diagonal matrix.",
+  "id": "A113126",
+  "mentions": [
+    "A000027",
+    "A109613",
+    "A113125",
+    "A113127"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

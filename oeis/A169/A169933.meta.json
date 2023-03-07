@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2+n in the arithmetic defined in A169918.",
+  "id": "A169933",
+  "mentions": [
+    "A169918",
+    "A169931",
+    "A169935"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

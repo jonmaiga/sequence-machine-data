@@ -1,0 +1,18 @@
+{
+  "description": "Magic constants of associative 4 X 4 X 4 cubes composed of distinct prime numbers.",
+  "id": "A240922",
+  "mentions": [
+    "A239671"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

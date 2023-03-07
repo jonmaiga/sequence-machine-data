@@ -1,0 +1,25 @@
+{
+  "description": "The periodic part of the decimal expansion of m/(m+1), for those m/(m+1) that have pure periods.",
+  "id": "A235589",
+  "mentions": [
+    "A002329",
+    "A036275",
+    "A045572",
+    "A060283",
+    "A114205",
+    "A156703",
+    "A259299"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that sigma(k) - 2k = 2^n.",
+  "id": "A292558",
+  "mentions": [
+    "A033880",
+    "A088831",
+    "A088832",
+    "A088833",
+    "A141547",
+    "A175989",
+    "A275996"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the constant S_1 = Sum_{j>=1} prime(2*j - 1)!/prime(2*j)!.",
+  "id": "A306658",
+  "mentions": [
+    "A000040",
+    "A306700"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

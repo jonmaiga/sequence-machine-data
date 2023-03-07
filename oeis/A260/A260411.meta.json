@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways n can be represented as a sum of a positive cube, a positive square, and a positive triangular number.",
+  "id": "A260411",
+  "mentions": [
+    "A115162"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

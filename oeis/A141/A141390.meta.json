@@ -1,0 +1,20 @@
+{
+  "description": "Overpseudoprimes to base 5.",
+  "id": "A141390",
+  "mentions": [
+    "A020229",
+    "A020231",
+    "A141232",
+    "A141350"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

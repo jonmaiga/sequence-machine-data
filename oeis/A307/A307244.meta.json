@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; a(n) is the smallest integer k > a(n-1) such that 3^(k-1) == 1 (mod a(n-1)*k).",
+  "id": "A307244",
+  "mentions": [
+    "A306826"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

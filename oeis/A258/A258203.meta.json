@@ -1,0 +1,20 @@
+{
+  "description": "Natural numbers n that have the property that starting from k = n, the fixed point of the map k -> floor(tan(k)) is strictly positive, and the smallest number encountered during the iteration is also strictly positive.",
+  "id": "A258203",
+  "mentions": [
+    "A258021",
+    "A258024",
+    "A258201",
+    "A258202"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

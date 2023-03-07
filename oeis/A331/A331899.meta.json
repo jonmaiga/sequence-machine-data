@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n^3 into distinct cubes.",
+  "id": "A331899",
+  "mentions": [
+    "A000578",
+    "A030272",
+    "A259792",
+    "A290247",
+    "A298641",
+    "A298672",
+    "A298848",
+    "A331845",
+    "A331884"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

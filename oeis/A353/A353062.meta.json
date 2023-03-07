@@ -1,0 +1,22 @@
+{
+  "description": "Non-prime-powers k such that sigma(k^2) is divisible by d(k^2), where d = A000005, sigma = A000203; non-prime-powers k such that k^2 is in A003601.",
+  "id": "A353062",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A107924",
+    "A107925",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

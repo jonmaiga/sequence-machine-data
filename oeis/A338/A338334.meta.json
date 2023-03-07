@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer-sided disphenoids (isosceles tetrahedra) with side lengths <= n which can be used to build a kaleidocycle by connecting 6 congruent pieces into a cycle.",
+  "id": "A338334",
+  "mentions": [
+    "A338335",
+    "A338336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

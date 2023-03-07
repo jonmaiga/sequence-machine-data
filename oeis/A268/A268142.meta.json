@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk arrays containing k copies of 0..n-1 with every element equal to at least one diagonal or antidiagonal neighbor and the top left element equal to 0.",
+  "id": "A268142",
+  "mentions": [
+    "A005212",
+    "A267725"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

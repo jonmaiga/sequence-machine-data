@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=2, a(n+1) is the smallest prime > n*first digit of a(n).",
+  "id": "A158055",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A156615"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that abs(60*k^2 - 1710*k + 12150) +- 1 are twin primes.",
+  "id": "A303550",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A088485",
+    "A108897",
+    "A124518",
+    "A124519",
+    "A139404",
+    "A185660"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

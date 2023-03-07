@@ -1,0 +1,18 @@
+{
+  "description": "Number of paths of a generalized chess Queen from (0,0,0) to (n,n,n) in a cube, in which the Queen moves toward the goal point at each step.",
+  "id": "A143734",
+  "mentions": [
+    "A132595"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

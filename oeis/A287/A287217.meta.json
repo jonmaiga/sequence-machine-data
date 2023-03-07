@@ -1,0 +1,19 @@
+{
+  "description": "Primes p where A196202 reaches a new local minimum, i.e., the value of A196202 is strictly smaller than the value for both the previous prime and the next prime.",
+  "id": "A287217",
+  "mentions": [
+    "A000040",
+    "A001220",
+    "A196202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

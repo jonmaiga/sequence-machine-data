@@ -1,0 +1,17 @@
+{
+  "description": "First member of a prime 5-tuple in a p^2+p-1 progression.",
+  "id": "A229092",
+  "mentions": [
+    "A057325"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

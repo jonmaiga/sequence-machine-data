@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: counts series-parallel networks by the number of series connections.",
+  "id": "A140945",
+  "mentions": [
+    "A000392",
+    "A006351"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

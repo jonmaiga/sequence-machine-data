@@ -1,0 +1,20 @@
+{
+  "description": "Subsequence of composite terms of A008475.",
+  "id": "A163409",
+  "mentions": [
+    "A008475",
+    "A114519",
+    "A163408"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

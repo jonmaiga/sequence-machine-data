@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array T(n,k) = 2^n + k - 2, by antidiagonals.",
+  "id": "A185738",
+  "mentions": [
+    "A144112",
+    "A185739",
+    "A185740"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

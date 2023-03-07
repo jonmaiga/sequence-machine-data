@@ -1,0 +1,36 @@
+{
+  "description": "Number of relaxed compacted binary trees of right height at most one with minimal sequences between branch nodes except before the first and after the last branch node on level 0.",
+  "id": "A288954",
+  "mentions": [
+    "A000032",
+    "A000166",
+    "A000246",
+    "A000255",
+    "A000262",
+    "A001147",
+    "A001879",
+    "A051577",
+    "A052852",
+    "A082161",
+    "A123023",
+    "A130905",
+    "A176408",
+    "A177145",
+    "A201203",
+    "A213527",
+    "A288950",
+    "A288952",
+    "A288953"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:32:45",
+    "offset": 2,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=0; a(n+1) = a(n) - gpf(n) if a(n) >= gpf(n), otherwise a(n+1) = a(n) + lpf(n), where gpf(n) is the greatest prime dividing n (A006530) and lpf(n) is the least prime dividing n (A020639).",
+  "id": "A248820",
+  "mentions": [
+    "A006530",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

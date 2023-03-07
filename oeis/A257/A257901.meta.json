@@ -1,0 +1,22 @@
+{
+  "description": "Pandigital numbers reordered so that the numbers A050278(n)/5^k, where 5^k||A050278(n), are in nondecreasing order.",
+  "id": "A257901",
+  "mentions": [
+    "A050278",
+    "A257893",
+    "A257899"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that every pair of consecutive terms contains a term that is a unitary divisor of the other term.",
+  "id": "A282291",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A052331",
+    "A113552",
+    "A215366",
+    "A281978",
+    "A282304",
+    "A302853",
+    "A303751",
+    "A304090",
+    "A304097",
+    "A304098",
+    "A304099",
+    "A304531"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

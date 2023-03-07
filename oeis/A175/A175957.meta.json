@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that cannot be written as the sum of a prime number and a primorial number.",
+  "id": "A175957",
+  "mentions": [
+    "A118954",
+    "A175933"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

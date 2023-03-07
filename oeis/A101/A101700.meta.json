@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 3*(10^n-3), where 10^n-3 is prime.",
+  "id": "A101700",
+  "mentions": [
+    "A069215",
+    "A086947",
+    "A089675"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of sexy prime triples (p, p+6, p+12) where p+18 is not prime (although p-6 might be), with p <= n.",
+  "id": "A163858",
+  "mentions": [
+    "A046118",
+    "A046119",
+    "A046120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

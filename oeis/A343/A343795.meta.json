@@ -1,0 +1,22 @@
+{
+  "description": "Number of Dumont permutations of the fourth kind of length 2n avoiding the pattern 312.",
+  "id": "A343795",
+  "mentions": [
+    "A000108",
+    "A024492",
+    "A048990",
+    "A110501"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

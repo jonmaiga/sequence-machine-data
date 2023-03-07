@@ -1,0 +1,20 @@
+{
+  "description": "Addition table for the 2 X 2 sandpile group: T(m,n) = A300006(m) (+) A300006(n), for 1 <= m <= n <= 192. (Upper right part of the symmetric matrix.)",
+  "id": "A300009",
+  "mentions": [
+    "A300006"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

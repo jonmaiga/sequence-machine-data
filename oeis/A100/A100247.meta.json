@@ -1,0 +1,21 @@
+{
+  "description": "Slanted Catalan convolution table, read by rows of 2*n+1 terms in row n, where T(n,k) = C(n+2*k-[k/2],k)*(n-[k/2])/(n+2*k-[k/2]).",
+  "id": "A100247",
+  "mentions": [
+    "A033184",
+    "A100248",
+    "A100249"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 3, then n multiples of n such that every partial sum is a prime.",
+  "id": "A111702",
+  "mentions": [
+    "A111703"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

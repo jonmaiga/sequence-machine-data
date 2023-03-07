@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct residues n mod p encountered before the first repeated residue as p runs through the primes.",
+  "id": "A279086",
+  "mentions": [
+    "A279073",
+    "A279074"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

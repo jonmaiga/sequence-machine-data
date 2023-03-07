@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree numbers k such that k^2 + 1 and k^2 - 1 are also squarefree.",
+  "id": "A268641",
+  "mentions": [
+    "A005117",
+    "A007675",
+    "A039956",
+    "A049532",
+    "A049533",
+    "A069987",
+    "A173186"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

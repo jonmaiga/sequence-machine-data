@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k > 1 such that 2^((k-1)/2) == -(2/k) = -A091337(k) (mod k), where (2/k) is the Jacobi (or Kronecker) symbol.",
+  "id": "A306310",
+  "mentions": [
+    "A001567",
+    "A006970",
+    "A007814",
+    "A047713",
+    "A091337",
+    "A244626"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

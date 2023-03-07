@@ -1,0 +1,22 @@
+{
+  "description": "List of one-sided polyominoes in binary coding, ordered by number of bits, then value of the binary code. Can be read as irregular table with row lengths A000988.",
+  "id": "A246559",
+  "mentions": [
+    "A000217",
+    "A000225",
+    "A000988",
+    "A181388",
+    "A246521",
+    "A246533"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

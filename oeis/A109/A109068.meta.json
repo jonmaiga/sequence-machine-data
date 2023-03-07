@@ -1,0 +1,19 @@
+{
+  "description": "Products of two successive primes that can be partitioned in sum of three distinct primes which contain the prime divisors.",
+  "id": "A109068",
+  "mentions": [
+    "A001043",
+    "A096345"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

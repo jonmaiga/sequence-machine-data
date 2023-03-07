@@ -1,0 +1,22 @@
+{
+  "description": "Primes p with phi(p-1) a primitive root modulo p, where phi(.) is Euler's totient function (A000010).",
+  "id": "A293213",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A242748",
+    "A242750",
+    "A291615",
+    "A291657"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

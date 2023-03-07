@@ -1,0 +1,19 @@
+{
+  "description": "A condensed version of A108235.",
+  "id": "A284737",
+  "mentions": [
+    "A104429",
+    "A108235"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

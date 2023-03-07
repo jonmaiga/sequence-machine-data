@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary representations are found in the Thue-Morse sequence.",
+  "id": "A201992",
+  "mentions": [
+    "A010060",
+    "A063037"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

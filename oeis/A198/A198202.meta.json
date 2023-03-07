@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: q-sinh(x) evaluated at q=-x.",
+  "id": "A198202",
+  "mentions": [
+    "A152398",
+    "A198197",
+    "A198199",
+    "A198200",
+    "A198201",
+    "A198242",
+    "A198243"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

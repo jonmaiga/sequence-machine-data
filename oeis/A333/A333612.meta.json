@@ -1,0 +1,22 @@
+{
+  "description": "Numbers at which the sum of the iterated infinitary totient function (A091732) attains a record.",
+  "id": "A333612",
+  "mentions": [
+    "A000010",
+    "A091732",
+    "A181659",
+    "A330400",
+    "A331407",
+    "A333611"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

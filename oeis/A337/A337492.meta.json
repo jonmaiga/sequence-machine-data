@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + 4*a(n-3) + 2*a(n-4) + 2*a(n-5); a(0) = a(1) = a(2) = 1, a(3) = 5, a(4) = 11.",
+  "id": "A337492",
+  "mentions": [
+    "A127864",
+    "A127867"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:49:27",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

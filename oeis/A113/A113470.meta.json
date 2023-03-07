@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: n-th row is the smallest set of n numbers in arithmetic progression with the same number of divisors.",
+  "id": "A113470",
+  "mentions": [
+    "A033168",
+    "A086786",
+    "A090547",
+    "A090548",
+    "A090549",
+    "A133276",
+    "A133277"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

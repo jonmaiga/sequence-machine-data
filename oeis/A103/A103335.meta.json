@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose smallest primitive root (A046145) is not prime.",
+  "id": "A103335",
+  "mentions": [
+    "A001918",
+    "A046144",
+    "A046145",
+    "A046146",
+    "A103309",
+    "A103310",
+    "A103336",
+    "A103337",
+    "A103338"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

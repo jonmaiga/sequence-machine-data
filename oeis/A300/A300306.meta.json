@@ -1,0 +1,18 @@
+{
+  "description": "Expected rounded number of draws until two persons simultaneously drawing cards with replacement from two separate decks of n cards, both obtain complete collections.",
+  "id": "A300306",
+  "mentions": [
+    "A300305"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

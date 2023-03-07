@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write 2*n = p + q with p, q and (p-1)^2 + q^2 all prime.",
+  "id": "A227908",
+  "mentions": [
+    "A002375",
+    "A036468",
+    "A220554",
+    "A230224"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

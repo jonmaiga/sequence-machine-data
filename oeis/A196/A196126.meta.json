@@ -1,0 +1,20 @@
+{
+  "description": "Let A = {(x,y): x, y positive natural numbers and y <= x <= y^2}. a(n) is the cardinality of the subset {(x,y) in A such that x <= n}.",
+  "id": "A196126",
+  "mentions": [
+    "A000196",
+    "A002061"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of self-orthogonal diagonal Latin squares of order n with the first row in ascending order.",
+  "id": "A287761",
+  "mentions": [
+    "A160368",
+    "A287762",
+    "A299784",
+    "A305570",
+    "A309598",
+    "A329685",
+    "A333367"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

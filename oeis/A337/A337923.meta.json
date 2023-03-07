@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the exponent of the highest power of 2 dividing the n-th Fibonacci number.",
+  "id": "A337923",
+  "mentions": [
+    "A000045",
+    "A001651",
+    "A007814",
+    "A016945",
+    "A017593",
+    "A073762",
+    "A184985",
+    "A248174"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k adjacent transpositions (0 <= k <= floor(n/2)). An adjacent transposition is a cycle of the form (i, i+1).",
+  "id": "A177248",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A008290",
+    "A177249",
+    "A177250",
+    "A177251",
+    "A177252",
+    "A177253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: Each term is the least positive integer such that no row, column, diagonal, or antidiagonal contains a repeated term; and each row terminates at k when it contains all numbers <= k.",
+  "id": "A282510",
+  "mentions": [
+    "A274651"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

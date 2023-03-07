@@ -1,0 +1,20 @@
+{
+  "description": "Totient of numbers of least prime signature: a(n) = A000010(A025487(n)).",
+  "id": "A359182",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A025487",
+    "A146288"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

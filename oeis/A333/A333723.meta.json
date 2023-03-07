@@ -1,0 +1,18 @@
+{
+  "description": "Successive products a(n) * a(n+1) of A333722. Each product contains a substring present both in A333722(n) and A333722(n+1).",
+  "id": "A333723",
+  "mentions": [
+    "A333722"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

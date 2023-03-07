@@ -1,0 +1,28 @@
+{
+  "description": "See Comments lines for definition.",
+  "id": "A121864",
+  "mentions": [
+    "A111050",
+    "A121263",
+    "A121264",
+    "A121265",
+    "A121266",
+    "A121295",
+    "A121296",
+    "A121863",
+    "A121866",
+    "A122029",
+    "A122030"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

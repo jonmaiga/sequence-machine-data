@@ -1,0 +1,25 @@
+{
+  "description": "Number of iterations log_3(log_3(log_3(...(n)...))) such that the result is < 1.",
+  "id": "A211661",
+  "mentions": [
+    "A001069",
+    "A010096",
+    "A211663",
+    "A211664",
+    "A211666",
+    "A211668",
+    "A211669"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

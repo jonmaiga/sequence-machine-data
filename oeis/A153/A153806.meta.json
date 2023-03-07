@@ -1,0 +1,25 @@
+{
+  "description": "Strobogrammatic cyclops numbers.",
+  "id": "A153806",
+  "mentions": [
+    "A000787",
+    "A007597",
+    "A134808",
+    "A134809",
+    "A138131",
+    "A138148",
+    "A153807"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

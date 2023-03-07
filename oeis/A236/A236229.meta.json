@@ -1,0 +1,20 @@
+{
+  "description": "Larger of the two real zeros of x - exp(x/(x-1)).",
+  "id": "A236229",
+  "mentions": [
+    "A236230",
+    "A329977",
+    "A329978"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

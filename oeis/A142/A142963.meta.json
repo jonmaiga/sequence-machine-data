@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows, coefficients of the polynomials P(k, x) = (1/2) Sum_{p=0..k-1} Stirling2(k, p+1)*x^p*(1-4*x)^(k-1-p)*(2*p+2)!/(p+1)!.",
+  "id": "A142963",
+  "mentions": [
+    "A000340",
+    "A048993",
+    "A142961",
+    "A142962",
+    "A142964",
+    "A142965",
+    "A142966",
+    "A142967",
+    "A142968",
+    "A156919",
+    "A156920",
+    "A156921",
+    "A156922",
+    "A156923",
+    "A156924",
+    "A156925",
+    "A156927",
+    "A156933"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

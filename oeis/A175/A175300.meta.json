@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = A005179(d(a(n-1))) + a(n-1), where d(n) = the number of divisors of n, and A005179(n) is the smallest positive integer with exactly n divisors.",
+  "id": "A175300",
+  "mentions": [
+    "A005179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

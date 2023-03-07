@@ -1,0 +1,18 @@
+{
+  "description": "Indices of 4's in A090822.",
+  "id": "A157107",
+  "mentions": [
+    "A090822",
+    "A091579"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

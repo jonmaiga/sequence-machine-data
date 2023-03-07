@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 5, a(n+2) = 5*a(n+1)+(n+1)*(n+3)*a(n).",
+  "id": "A142989",
+  "mentions": [
+    "A142979",
+    "A142983",
+    "A142988",
+    "A142990",
+    "A142991"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

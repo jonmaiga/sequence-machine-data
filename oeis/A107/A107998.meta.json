@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree integers m for which the fundamental unit of Q(sqrt(m)) is of the form u + v*sqrt(m) for integer u, v.",
+  "id": "A107998",
+  "mentions": [
+    "A000924",
+    "A107997"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

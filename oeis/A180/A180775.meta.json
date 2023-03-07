@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct solutions of sum{i=1..4}(x(2i-1)*x(2i)) = 0 (mod n), with x() only in 1..n-1",
+  "id": "A180775",
+  "mentions": [
+    "A180782"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

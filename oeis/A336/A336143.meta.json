@@ -1,0 +1,22 @@
+{
+  "description": "Integers that are Brazilian and not Colombian.",
+  "id": "A336143",
+  "mentions": [
+    "A003052",
+    "A125134",
+    "A176995",
+    "A333858",
+    "A336144"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

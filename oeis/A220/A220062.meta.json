@@ -1,0 +1,40 @@
+{
+  "description": "Number A(n,k) of n length words over k-ary alphabet, where neighboring letters are neighbors in the alphabet; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A220062",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A005843",
+    "A006355",
+    "A008590",
+    "A016825",
+    "A029744",
+    "A040000",
+    "A063164",
+    "A090993",
+    "A090995",
+    "A102699",
+    "A113770",
+    "A129639",
+    "A153340",
+    "A153360",
+    "A153362",
+    "A188866",
+    "A198632",
+    "A208671",
+    "A208727",
+    "A276562"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

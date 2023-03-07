@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n whose abundance is 56.",
+  "id": "A101260",
+  "mentions": [
+    "A005101",
+    "A033880",
+    "A141545",
+    "A141546",
+    "A165778"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

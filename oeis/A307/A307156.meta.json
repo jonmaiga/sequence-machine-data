@@ -1,0 +1,23 @@
+{
+  "description": "Number triangle T(n,k) = Sum_{j=0..n-k} (-1)^j * binomial(k,3*j) * binomial(n-k,3*j).",
+  "id": "A307156",
+  "mentions": [
+    "A119326",
+    "A119335",
+    "A307089",
+    "A307090",
+    "A307158"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

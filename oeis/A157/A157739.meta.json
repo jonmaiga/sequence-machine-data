@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 388962*n^2 - 1764*n + 1.",
+  "id": "A157739",
+  "mentions": [
+    "A157737",
+    "A157738",
+    "A158319"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

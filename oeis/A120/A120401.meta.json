@@ -1,0 +1,20 @@
+{
+  "description": "Construct the sequence given by the floor of the imaginary part of zeros of the Riemann zeta function; take complement.",
+  "id": "A120401",
+  "mentions": [
+    "A002410",
+    "A013629",
+    "A122526"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

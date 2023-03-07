@@ -1,0 +1,18 @@
+{
+  "description": "Number of zeros in the period of Fibonacci 3-step sequence A000073 mod n.",
+  "id": "A193991",
+  "mentions": [
+    "A000073",
+    "A046738"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

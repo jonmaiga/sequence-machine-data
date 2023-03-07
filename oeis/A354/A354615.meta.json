@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of labeled posets on [n] that are composed of exactly k irreducible posets, n >= 0, 0 <= k <= n.",
+  "id": "A354615",
+  "mentions": [
+    "A000142",
+    "A001035",
+    "A046908"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

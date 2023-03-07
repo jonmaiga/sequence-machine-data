@@ -1,0 +1,20 @@
+{
+  "description": "Floor of the area of a circle in terms of its circumference n.",
+  "id": "A135607",
+  "mentions": [
+    "A038130",
+    "A066643",
+    "A135039"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} C(n, floor((n-k)/k)).",
+  "id": "A273160",
+  "mentions": [
+    "A051054",
+    "A273161"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

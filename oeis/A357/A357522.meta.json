@@ -1,0 +1,24 @@
+{
+  "description": "Reverse run lengths in binary expansions of terms of A063037: for n >= 0, a(n) is the unique k such that A063037(1+k) = A056539(A063037(1+n)).",
+  "id": "A357522",
+  "mentions": [
+    "A044813",
+    "A044918",
+    "A056539",
+    "A063037",
+    "A357523"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

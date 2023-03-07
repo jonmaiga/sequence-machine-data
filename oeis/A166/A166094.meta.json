@@ -1,0 +1,20 @@
+{
+  "description": "Leftmost column of A166091.",
+  "id": "A166094",
+  "mentions": [
+    "A166086",
+    "A166091",
+    "A166093",
+    "A166096"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

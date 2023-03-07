@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1; a(n) = n * Sum_{d|n, d < n} (-1)^(n/d) * a(d) / d.",
+  "id": "A332793",
+  "mentions": [
+    "A002129",
+    "A038838",
+    "A055615",
+    "A067856",
+    "A181983",
+    "A327268"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

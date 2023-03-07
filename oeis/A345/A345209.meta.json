@@ -1,0 +1,21 @@
+{
+  "description": "Number of Petrie polygons on the regular triangular map corresponding to the principal congruence subgroup Gamma(n) of the modular group.",
+  "id": "A345209",
+  "mentions": [
+    "A001766",
+    "A301759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

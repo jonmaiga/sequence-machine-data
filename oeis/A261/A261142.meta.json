@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n, p=prime(n) and q=prime(p) have the same sum of digits.",
+  "id": "A261142",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007953",
+    "A033548",
+    "A033549"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

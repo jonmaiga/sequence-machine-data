@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of n-permutations whose fourth-longest cycle has length exactly k; n >= 0, 0 <= k <= floor(n/4).",
+  "id": "A350273",
+  "mentions": [
+    "A000142",
+    "A126074",
+    "A145877",
+    "A332853",
+    "A349979",
+    "A349980",
+    "A350015",
+    "A350016",
+    "A350274"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n with adjusted frequency depth ceiling(sqrt(n)).",
+  "id": "A325253",
+  "mentions": [
+    "A117571",
+    "A181819",
+    "A225485",
+    "A323014",
+    "A323023",
+    "A325245",
+    "A325246",
+    "A325252",
+    "A325258",
+    "A325271",
+    "A325278",
+    "A325280",
+    "A325282"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

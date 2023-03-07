@@ -1,0 +1,26 @@
+{
+  "description": "Numbers m such that m divides sigma(2*m).",
+  "id": "A227302",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A007691",
+    "A055153",
+    "A141643",
+    "A141645",
+    "A159271",
+    "A159907",
+    "A160678",
+    "A232702"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to split an n-cycle into connected subgraphs all having at least 4 vertices.",
+  "id": "A306351",
+  "mentions": [
+    "A000325",
+    "A005251",
+    "A066982",
+    "A078012",
+    "A323950",
+    "A323951",
+    "A323953",
+    "A323954"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:36:07",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

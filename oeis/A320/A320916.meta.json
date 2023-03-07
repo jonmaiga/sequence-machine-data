@@ -1,0 +1,18 @@
+{
+  "description": "Consider A010060 as a 2-adic number ...100110010110, then a(n) is its approximation up to 2^n.",
+  "id": "A320916",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

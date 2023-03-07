@@ -1,0 +1,19 @@
+{
+  "description": "pi(n-th single or isolated number).",
+  "id": "A168543",
+  "mentions": [
+    "A000720",
+    "A167706"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

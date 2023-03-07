@@ -1,0 +1,39 @@
+{
+  "description": "Number of n-node rooted trees of edge-height equal to their number of leaves.",
+  "id": "A358723",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A011782",
+    "A034781",
+    "A055277",
+    "A065097",
+    "A080936",
+    "A090181",
+    "A109082",
+    "A109129",
+    "A185650",
+    "A209638",
+    "A342507",
+    "A358552",
+    "A358575",
+    "A358577",
+    "A358578",
+    "A358587",
+    "A358589",
+    "A358590",
+    "A358591",
+    "A358728"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

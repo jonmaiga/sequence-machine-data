@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least even number k > 2 such that the sum of the lower elements and the sum of the upper elements in the Goldbach partitions of k are both divisible by 2^n, but not both divisible by 2^(n+1).",
+  "id": "A357128",
+  "mentions": [
+    "A007814",
+    "A185297",
+    "A187129"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

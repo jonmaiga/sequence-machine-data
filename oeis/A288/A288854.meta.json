@@ -1,0 +1,21 @@
+{
+  "description": "The unique longest sequence of squares where each number (after the first) is obtained by prefixing a single digit to its predecessor.",
+  "id": "A288854",
+  "mentions": [
+    "A061839",
+    "A191486"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

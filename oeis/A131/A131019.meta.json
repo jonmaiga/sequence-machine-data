@@ -1,0 +1,20 @@
+{
+  "description": "Semiperimeters of quadrilaterals whose sides are 4 consecutive odd primes.",
+  "id": "A131019",
+  "mentions": [
+    "A034963",
+    "A106171",
+    "A131020"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

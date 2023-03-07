@@ -1,0 +1,23 @@
+{
+  "description": "Column 3 of triangle A134090.",
+  "id": "A134093",
+  "mentions": [
+    "A048993",
+    "A122455",
+    "A134090",
+    "A134091",
+    "A134092",
+    "A134094"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

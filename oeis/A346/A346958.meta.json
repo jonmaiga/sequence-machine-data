@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the minimal number of cubes required to make a void of volume n.",
+  "id": "A346958",
+  "mentions": [
+    "A000162",
+    "A001845",
+    "A003211",
+    "A005899",
+    "A193416",
+    "A261491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

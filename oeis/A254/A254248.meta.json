@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms in A006285 (de Polignac numbers) less than 10^n.",
+  "id": "A254248",
+  "mentions": [
+    "A006285",
+    "A255816",
+    "A255971",
+    "A256164",
+    "A256238"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of odd prime factors (with multiplicity) of generalized Fermat number 13^(2^n) + 1.",
+  "id": "A302097",
+  "mentions": [
+    "A275377",
+    "A275378",
+    "A275379",
+    "A275380",
+    "A275381",
+    "A275382",
+    "A275383",
+    "A302098"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

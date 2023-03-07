@@ -1,0 +1,22 @@
+{
+  "description": "Auxiliary array for computing A153835.",
+  "id": "A154103",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A085207",
+    "A153835",
+    "A154104"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

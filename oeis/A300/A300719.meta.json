@@ -1,0 +1,20 @@
+{
+  "description": "Difference between A003557 (n divided by largest squarefree divisor of n) and its Möbius transform.",
+  "id": "A300719",
+  "mentions": [
+    "A003557",
+    "A008683",
+    "A300717"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

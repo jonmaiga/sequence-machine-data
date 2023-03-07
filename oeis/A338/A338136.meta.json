@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k >= 2 such that (n+1)^k mod n^j is a perfect power > 1 for some j >= 2 with n^j < (n+1)^k.",
+  "id": "A338136",
+  "mentions": [
+    "A005385",
+    "A338150",
+    "A338151"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Array t(n, k) = (k*(n-1) +2-k)*t(n-1, k) + k*t(n-2, k), with t(1, k) = 1, t(2, k) = 2, read by antidiagonals.",
+  "id": "A144446",
+  "mentions": [
+    "A001053",
+    "A144431",
+    "A144432",
+    "A144435",
+    "A144436",
+    "A144438",
+    "A144439",
+    "A144440",
+    "A144441",
+    "A144442",
+    "A144443",
+    "A144444",
+    "A144445",
+    "A144447"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

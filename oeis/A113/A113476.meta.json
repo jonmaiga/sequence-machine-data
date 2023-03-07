@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (log(2) + Pi/sqrt(3))/3.",
+  "id": "A113476",
+  "mentions": [
+    "A007559",
+    "A016777",
+    "A024217",
+    "A073010",
+    "A193534",
+    "A193535"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:37",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

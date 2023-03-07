@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of occurrences of n in A226062.",
+  "id": "A227752",
+  "mentions": [
+    "A000225",
+    "A226062",
+    "A227183",
+    "A227368",
+    "A227753"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

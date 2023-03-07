@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n*sigma(n) is not divisible by 6.",
+  "id": "A239993",
+  "mentions": [
+    "A000594",
+    "A002476"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

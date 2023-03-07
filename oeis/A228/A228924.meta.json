@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k) is the number of derangement permutations of [n] that have exactly k inversions; n>=2, 1<=k<=binomial(n,2) for even n, 1<=k<=binomial(n,2)-1 for odd n.",
+  "id": "A228924",
+  "mentions": [
+    "A000166",
+    "A000387",
+    "A003221",
+    "A216239"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

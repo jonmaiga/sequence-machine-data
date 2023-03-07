@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where the g.f. A(x,y) satisfies the equation: A(x,y) = 1/(1-x*y) + x*A(x,y) + x^2*A(x,y)^2.",
+  "id": "A105632",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A002426",
+    "A057580",
+    "A105633"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A bisection of A183168.",
+  "id": "A215934",
+  "mentions": [
+    "A183168",
+    "A215933"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

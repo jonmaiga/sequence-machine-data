@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, row terms converge to the Pell sequence.",
+  "id": "A117935",
+  "mentions": [
+    "A000129",
+    "A016116"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of arctan(3).",
+  "id": "A195729",
+  "mentions": [
+    "A105531",
+    "A137914",
+    "A188615"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

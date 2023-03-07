@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that m, m-1 and m-2 are 1,2,3-almost primes respectively.",
+  "id": "A201147",
+  "mentions": [
+    "A005383",
+    "A005385",
+    "A072875",
+    "A093552",
+    "A112998",
+    "A113000",
+    "A113008"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

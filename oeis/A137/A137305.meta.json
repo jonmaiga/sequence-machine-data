@@ -1,0 +1,22 @@
+{
+  "description": "Write n in base 3, change twos in ones and ones in twos, reverse.",
+  "id": "A137305",
+  "mentions": [
+    "A007088",
+    "A007089",
+    "A036044"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

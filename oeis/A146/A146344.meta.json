@@ -1,0 +1,24 @@
+{
+  "description": "Records in A146326.",
+  "id": "A146344",
+  "mentions": [
+    "A000290",
+    "A078370",
+    "A146326",
+    "A146345",
+    "A146348",
+    "A146360",
+    "A146363"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

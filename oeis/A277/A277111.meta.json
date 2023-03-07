@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of twin primes P(k) and P(k+1) such that Sd(P(k)) + Sd(P(k+1)) = Sd(k) + Sd(k+1), where Sd(x) is the sum of digits of x.",
+  "id": "A277111",
+  "mentions": [
+    "A001359",
+    "A033548"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number >=n whose binary representation is palindromic and has a 1 whenever the binary representation of n has a 1.",
+  "id": "A175298",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A175297",
+    "A206913",
+    "A206914",
+    "A261423",
+    "A262038",
+    "A265509"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

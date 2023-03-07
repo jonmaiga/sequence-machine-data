@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 + (6 + (11 + (6 + n)*n)*n)*n/24.",
+  "id": "A145126",
+  "mentions": [
+    "A145140",
+    "A145141",
+    "A145142",
+    "A145153"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:35",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

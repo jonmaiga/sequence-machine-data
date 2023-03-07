@@ -1,0 +1,19 @@
+{
+  "description": "(s(k(n)) - s(j(n)))/n, where (s(k(n)), s(j(n))) is the least pair of distinct Fibonacci numbers for which n divides s(k(n)) - s(j(n)).",
+  "id": "A204929",
+  "mentions": [
+    "A204892",
+    "A204924",
+    "A204928"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:54:56",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

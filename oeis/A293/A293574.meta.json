@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^(n-k)*binomial(n+k-1,k).",
+  "id": "A293574",
+  "mentions": [
+    "A000079",
+    "A000295",
+    "A000312",
+    "A001700",
+    "A031973",
+    "A032443",
+    "A100192",
+    "A100193",
+    "A126646"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

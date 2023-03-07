@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..n} lcm(k,n)/gcd(k,n).",
+  "id": "A127553",
+  "mentions": [
+    "A056789",
+    "A067911",
+    "A071248"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

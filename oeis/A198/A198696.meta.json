@@ -1,0 +1,19 @@
+{
+  "description": "Positions of local maxima in differences of primes, A001223.",
+  "id": "A198696",
+  "mentions": [
+    "A001223",
+    "A196175",
+    "A198697"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

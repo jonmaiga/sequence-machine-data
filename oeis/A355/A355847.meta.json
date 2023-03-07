@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table read by rows, in which the rows list integers formed in the process in A180301, but generalized to other starting integers. A row ends when reaching a term in A180301.",
+  "id": "A355847",
+  "mentions": [
+    "A180301"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

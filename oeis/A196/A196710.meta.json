@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: A(x) = INV(x-x^2 - x^2*INV(x-2*x^2 - x^2*INV(x-3*x^2 - x^2*INV(x-4*x^2 - x^2*INV(x-5*x^2 - ...))))), where INV(F(x)) = series reversion of F(x).",
+  "id": "A196710",
+  "mentions": [
+    "A196711"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

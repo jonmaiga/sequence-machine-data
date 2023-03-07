@@ -1,0 +1,29 @@
+{
+  "description": "Symmetric matrix: f(i,j)=((i+j)^2 mod 3), read by (constant) antidiagonals.",
+  "id": "A204435",
+  "mentions": [
+    "A204436",
+    "A204437",
+    "A204438",
+    "A204439",
+    "A204441",
+    "A204442",
+    "A204443",
+    "A204444",
+    "A204445",
+    "A204446",
+    "A204447",
+    "A204448"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:33",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

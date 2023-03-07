@@ -1,0 +1,21 @@
+{
+  "description": "The number of n-digit numbers k such that k + digit reversal of k (A056964) is a square.",
+  "id": "A358984",
+  "mentions": [
+    "A056964",
+    "A061230",
+    "A356648"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

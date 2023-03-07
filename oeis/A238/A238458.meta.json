@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes p < n with 2*P(n-p) + 1 prime, where P(.) is the partition function (A000041).",
+  "id": "A238458",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A237705",
+    "A237768",
+    "A237769",
+    "A238457",
+    "A238459"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

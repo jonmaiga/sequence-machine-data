@@ -1,0 +1,25 @@
+{
+  "description": "Count of integers x in [0,n] satisfying A000120(x) + A000120(n-x) = A000120(n) + 1.",
+  "id": "A163000",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A007814",
+    "A033264",
+    "A034931",
+    "A163577",
+    "A275012"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

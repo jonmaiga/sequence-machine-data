@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any distinct m and n, the fractional parts of m/a(m) and of n/a(n) are distinct.",
+  "id": "A335944",
+  "mentions": [
+    "A000010",
+    "A335943"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

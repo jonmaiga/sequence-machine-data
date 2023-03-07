@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 0..2 arrays with every row and column running average nondecreasing rightwards and downwards",
+  "id": "A200529",
+  "mentions": [
+    "A200534"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

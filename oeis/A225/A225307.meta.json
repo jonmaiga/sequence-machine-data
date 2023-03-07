@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 -1,1 arrays such that the sum over i=1..n,j=1..6 of i*x(i,j) is zero and rows are nondecreasing (ways to put 6 thrusters pointing east or west at each of n positions 1..n distance from the hinge of a south-pointing gate without turning the gate)",
+  "id": "A225307",
+  "mentions": [
+    "A225310"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

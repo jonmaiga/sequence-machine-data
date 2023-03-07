@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn arrays containing n copies of 0..4-1 with no element 1 greater than its north or northeast neighbor modulo 4 and the upper left element equal to 0.",
+  "id": "A266601",
+  "mentions": [
+    "A266599"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

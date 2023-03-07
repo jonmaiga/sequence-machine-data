@@ -1,0 +1,31 @@
+{
+  "description": "Number A(n,k) of lattice paths without interior points from {n}^k to {0}^k using steps that decrement one component by 1; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A225094",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A040000",
+    "A060774",
+    "A071798",
+    "A089759",
+    "A210472",
+    "A225096",
+    "A225111",
+    "A225220",
+    "A225221",
+    "A262809",
+    "A263159"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

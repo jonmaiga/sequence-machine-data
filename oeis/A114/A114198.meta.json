@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^2*F(k+1).",
+  "id": "A114198",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A114197",
+    "A219672",
+    "A219673"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

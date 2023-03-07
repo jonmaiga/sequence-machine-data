@@ -1,0 +1,18 @@
+{
+  "description": "G.f. B(x) satisfies: B(x) = x + A(B(x))^3 such that A(x) = x + B(A(x))^2, where A(x) is the g.f. of A263532.",
+  "id": "A263533",
+  "mentions": [
+    "A263532"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

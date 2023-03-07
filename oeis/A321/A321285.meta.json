@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{1 <= i < j} 1/(1 - x^(i*j)).",
+  "id": "A321285",
+  "mentions": [
+    "A056924",
+    "A182269",
+    "A321286"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

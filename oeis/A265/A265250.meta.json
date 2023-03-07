@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n having no parts strictly between the smallest and the largest part (n>=1).",
+  "id": "A265250",
+  "mentions": [
+    "A000041",
+    "A265249"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

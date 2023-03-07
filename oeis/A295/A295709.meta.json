@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the arc length of the loop of the Folium of Descartes, a curve given by x^3 + y^3 = 3axy, with a = 1.",
+  "id": "A295709",
+  "mentions": [
+    "A096877",
+    "A118289",
+    "A138500",
+    "A143150",
+    "A143180"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

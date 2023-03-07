@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = if (exactly 5 Fibonacci numbers exist with exactly n digits) then 1, otherwise 0.",
+  "id": "A105565",
+  "mentions": [
+    "A000045",
+    "A050815",
+    "A060384",
+    "A105563",
+    "A105566"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k does not divide P(k)! even though P(k)^2 is not a factor of k, where P(k) is the largest prime factor of k.",
+  "id": "A102067",
+  "mentions": [
+    "A006530",
+    "A057109",
+    "A070003",
+    "A102068"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

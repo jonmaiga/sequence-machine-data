@@ -1,0 +1,32 @@
+{
+  "description": "Primorial deflation (numerator) of Doudna-tree.",
+  "id": "A337376",
+  "mentions": [
+    "A000265",
+    "A001222",
+    "A003961",
+    "A005940",
+    "A007814",
+    "A064989",
+    "A319626",
+    "A329886",
+    "A337375",
+    "A337377",
+    "A337821",
+    "A346096"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

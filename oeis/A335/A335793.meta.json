@@ -1,0 +1,20 @@
+{
+  "description": "Number of hare pop-stack sortable Cayley permutations.",
+  "id": "A335793",
+  "mentions": [
+    "A000670",
+    "A226316"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = A(A(x)) - x^2 with A(0)=0.",
+  "id": "A138740",
+  "mentions": [
+    "A000278",
+    "A138739",
+    "A139702",
+    "A276370"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

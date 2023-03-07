@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that there are precisely 2 groups of order n and 3 of order n + 1.",
+  "id": "A296025",
+  "mentions": [
+    "A000001",
+    "A054395"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "List of positive integers, ordered by asymptotic frequency of appearance in A003557; ties broken by listing smaller numbers first.",
+  "id": "A181799",
+  "mentions": [
+    "A003557",
+    "A048250",
+    "A181797",
+    "A181798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

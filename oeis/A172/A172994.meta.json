@@ -1,0 +1,19 @@
+{
+  "description": "a(n), starting at n=4, is the smallest positive integral x with an n-th prime in {x^2k+x^k-1} occurring for k < A096594(n).",
+  "id": "A172994",
+  "mentions": [
+    "A096594",
+    "A098855"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

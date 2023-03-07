@@ -1,0 +1,26 @@
+{
+  "description": "Möbius transform of A252463, where A252463 shifts the prime factorization of odd numbers one step towards smaller primes and divides even numbers by two.",
+  "id": "A348045",
+  "mentions": [
+    "A008683",
+    "A023022",
+    "A064989",
+    "A252463",
+    "A285702",
+    "A326305",
+    "A347115",
+    "A348046"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

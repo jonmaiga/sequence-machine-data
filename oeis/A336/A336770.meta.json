@@ -1,0 +1,23 @@
+{
+  "description": "Total sum of the left-to-right minima in all compositions of n into distinct parts.",
+  "id": "A336770",
+  "mentions": [
+    "A000009",
+    "A000254",
+    "A003056",
+    "A032020",
+    "A336512",
+    "A336718",
+    "A336771"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

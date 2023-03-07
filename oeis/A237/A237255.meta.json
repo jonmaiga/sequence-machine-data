@@ -1,0 +1,20 @@
+{
+  "description": "Values of x in the solutions to x^2 - 5xy + y^2 + 17 = 0, where 0 < x < y.",
+  "id": "A237255",
+  "mentions": [
+    "A004253",
+    "A237254"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

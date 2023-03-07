@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows of terms T(n,k) for k=0..n^2, that starts with a '1' in row 0 with row n>0 consisting of 2*n-1 '1's followed by the partial sums of the prior row.",
+  "id": "A214403",
+  "mentions": [
+    "A131338",
+    "A178325",
+    "A214398"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

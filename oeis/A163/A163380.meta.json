@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the (decimal equivalent of the) largest integer that can be made by rotating the binary digits of n any number of positions to the left or right.",
+  "id": "A163380",
+  "mentions": [
+    "A163381",
+    "A163382",
+    "A256999"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

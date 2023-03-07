@@ -1,0 +1,32 @@
+{
+  "description": "Bitwise-OR of the exponents of all 4k+3 primes in the prime factorization of n.",
+  "id": "A260728",
+  "mentions": [
+    "A000035",
+    "A001481",
+    "A003986",
+    "A020639",
+    "A022544",
+    "A028234",
+    "A032742",
+    "A065339",
+    "A067029",
+    "A097706",
+    "A229062",
+    "A260730",
+    "A267099",
+    "A267113",
+    "A267116"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

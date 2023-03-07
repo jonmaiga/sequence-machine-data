@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) is the coefficient of x^(k*n) in expansion of ( (1 + x)/(1 - x) )^n.",
+  "id": "A336521",
+  "mentions": [
+    "A000012",
+    "A103885",
+    "A122542",
+    "A123164",
+    "A266213",
+    "A333715",
+    "A336522",
+    "A336534"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

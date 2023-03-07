@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 can be partitioned into n primes such that n-1 are consecutive primes and the remaining prime is larger than the sum of the n-1 consecutive primes.",
+  "id": "A102352",
+  "mentions": [
+    "A102706"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

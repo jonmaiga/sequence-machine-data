@@ -1,0 +1,25 @@
+{
+  "description": "Array where n-th row (of A055573(n) terms) is the continued fraction terms for the n-th harmonic number, sum{ k=1 to n} 1/k.",
+  "id": "A100398",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A055573",
+    "A058027",
+    "A110020",
+    "A112286",
+    "A112287",
+    "A139001"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "List of numbers that are in a spoke of a hexagonal spiral.",
+  "id": "A275673",
+  "mentions": [
+    "A003215",
+    "A056105",
+    "A056106",
+    "A056107",
+    "A056108",
+    "A056109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

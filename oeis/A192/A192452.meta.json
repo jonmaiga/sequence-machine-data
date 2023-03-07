@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that -1 is not a 4th power mod n.",
+  "id": "A192452",
+  "mentions": [
+    "A192453"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Array read by descending antidiagonals: A(n,k) is the number of oriented colorings of the edges of a regular n-dimensional simplex using up to k colors.",
+  "id": "A327083",
+  "mentions": [
+    "A000027",
+    "A006527",
+    "A046023",
+    "A063841",
+    "A218144",
+    "A324999",
+    "A327084",
+    "A327085",
+    "A327086",
+    "A327087",
+    "A331350",
+    "A337407",
+    "A337411",
+    "A337883"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

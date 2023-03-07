@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gcd(k, k-th composite number) > 1.",
+  "id": "A334880",
+  "mentions": [
+    "A002808",
+    "A064814",
+    "A073258",
+    "A336323"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

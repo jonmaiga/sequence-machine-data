@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp( Sum_{n>=1} H(n) * x^(2*n-1)/(2*n-1) ) where H(n) is the n-th harmonic number.",
+  "id": "A235385",
+  "mentions": [
+    "A087761",
+    "A235685"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

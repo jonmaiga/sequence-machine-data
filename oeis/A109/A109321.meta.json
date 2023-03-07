@@ -1,0 +1,18 @@
+{
+  "description": "Admirable numbers n such that the subtracted divisor is > sqrt(n).",
+  "id": "A109321",
+  "mentions": [
+    "A111592",
+    "A165772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

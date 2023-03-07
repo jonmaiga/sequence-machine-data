@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that lambda(k) is squarefree, where lambda is the Carmichael lambda function (A002322).",
+  "id": "A336654",
+  "mentions": [
+    "A002322",
+    "A005117",
+    "A005596",
+    "A049149",
+    "A336655",
+    "A336656"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

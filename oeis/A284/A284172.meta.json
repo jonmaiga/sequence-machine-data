@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2; thereafter a(n+1) = a(n)+i if a(n) is a prime and a(1),...,a(n) contains i primes, or a(n+1) = a(n)-i if a(n) is composite and a(1),...,a(n) contains i composite terms.",
+  "id": "A284172",
+  "mentions": [
+    "A005382",
+    "A284188",
+    "A284278"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

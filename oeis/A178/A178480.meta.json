@@ -1,0 +1,17 @@
+{
+  "description": "For n=0,1,2,... list all products of the first n primes raised to some positive power not exceeding n.",
+  "id": "A178480",
+  "mentions": [
+    "A178483"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

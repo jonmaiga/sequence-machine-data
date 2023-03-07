@@ -1,0 +1,26 @@
+{
+  "description": "Composite squarefree numbers n such that p + tau(n) divides n + phi(n), where p are the prime factors of n, tau(n) = A000005(n) and phi(n) = A000010(n).",
+  "id": "A229322",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A120944",
+    "A228299",
+    "A228302",
+    "A229274",
+    "A229276",
+    "A229321",
+    "A229323",
+    "A229324"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

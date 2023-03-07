@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the expectation of the maximum of a size 7 sample from a normal (0,1) distribution.",
+  "id": "A243524",
+  "mentions": [
+    "A087197",
+    "A243446",
+    "A243448",
+    "A243453",
+    "A243523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

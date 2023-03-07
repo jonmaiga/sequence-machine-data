@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p1 = ceiling(p/2) + p is prime and p2 = floor(p1/2) + p is prime.",
+  "id": "A242366",
+  "mentions": [
+    "A158714"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

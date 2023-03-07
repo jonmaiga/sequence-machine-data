@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which sigma(n)/n = k+7/8 with integer k.",
+  "id": "A218429",
+  "mentions": [
+    "A159907",
+    "A218404",
+    "A218405"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

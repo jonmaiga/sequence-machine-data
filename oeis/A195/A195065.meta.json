@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that BCR(n) is greater than n, where BCR = binary-complement-and-reverse = A036044.",
+  "id": "A195065",
+  "mentions": [
+    "A035928",
+    "A036044",
+    "A195063",
+    "A195064",
+    "A195066"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

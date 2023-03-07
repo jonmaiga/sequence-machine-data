@@ -1,0 +1,18 @@
+{
+  "description": "The integer partition a(n) (compare A194602) has only the non-one addends n+1 and 2.",
+  "id": "A248374",
+  "mentions": [
+    "A039899",
+    "A194602"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

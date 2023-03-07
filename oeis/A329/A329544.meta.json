@@ -1,0 +1,32 @@
+{
+  "description": "Add the odd terms and subtract the even ones, the result must always be a palindrome. This is the lexicographically earliest sequence of distinct positive integers with this property.",
+  "id": "A329544",
+  "mentions": [
+    "A002113",
+    "A083142",
+    "A084843",
+    "A086862",
+    "A104444",
+    "A329545",
+    "A329796",
+    "A329797",
+    "A329798",
+    "A330311",
+    "A330313",
+    "A330314",
+    "A330325",
+    "A331452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

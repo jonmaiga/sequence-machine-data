@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes in A090252 in order of appearance.",
+  "id": "A354165",
+  "mentions": [
+    "A090252",
+    "A354164",
+    "A354166"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

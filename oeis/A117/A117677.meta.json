@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of divisors of n^2 (excluding 1 and n^2).",
+  "id": "A117677",
+  "mentions": [
+    "A048691",
+    "A070824",
+    "A117010",
+    "A117679"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

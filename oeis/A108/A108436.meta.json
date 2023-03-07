@@ -1,0 +1,20 @@
+{
+  "description": "Number of returns to the x-axis in all paths from (0,0) to (3n,0) that stay in the first quadrant (but may touch the horizontal axis), consisting of steps u=(2,1), U=(1,2), or d=(1,-1).",
+  "id": "A108436",
+  "mentions": [
+    "A027307",
+    "A032349",
+    "A108435"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

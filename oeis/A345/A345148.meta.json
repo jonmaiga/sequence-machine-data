@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of four third powers in six or more ways.",
+  "id": "A345148",
+  "mentions": [
+    "A025371",
+    "A343987",
+    "A344904",
+    "A345083",
+    "A345149",
+    "A345150",
+    "A345174"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

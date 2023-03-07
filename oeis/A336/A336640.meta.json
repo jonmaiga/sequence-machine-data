@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal value of Sum x_i when Sum binomial(x_i, 2) = n.",
+  "id": "A336640",
+  "mentions": [
+    "A000217",
+    "A061336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

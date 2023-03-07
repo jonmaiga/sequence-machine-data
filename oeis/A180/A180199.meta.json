@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A180201(A180201(n)).",
+  "id": "A180199",
+  "mentions": [
+    "A075427",
+    "A180198",
+    "A180200",
+    "A180201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

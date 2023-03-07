@@ -1,0 +1,27 @@
+{
+  "description": "Number of achiral tree-factorizations of n.",
+  "id": "A316782",
+  "mentions": [
+    "A001055",
+    "A001597",
+    "A003238",
+    "A067824",
+    "A089723",
+    "A214577",
+    "A281118",
+    "A289078",
+    "A292504",
+    "A294336"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

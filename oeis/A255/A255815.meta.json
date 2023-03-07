@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of words on {0,1,2,3,4,5} having no isolated zeros.",
+  "id": "A255815",
+  "mentions": [
+    "A254658",
+    "A254660",
+    "A255116",
+    "A255118",
+    "A255630",
+    "A255633"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

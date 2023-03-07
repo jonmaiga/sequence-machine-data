@@ -1,0 +1,32 @@
+{
+  "description": "A \"fractal\" transform of the Fibonacci numbers: a(1)=1; then if F(n) < k <= F(n+1), a(k) = F(n+1) - a(k - F(n)) where F(n) = A000045(n).",
+  "id": "A105774",
+  "mentions": [
+    "A000045",
+    "A001468",
+    "A003622",
+    "A003623",
+    "A004937",
+    "A006498",
+    "A022342",
+    "A072649",
+    "A085002",
+    "A093347",
+    "A093348",
+    "A105669",
+    "A105670",
+    "A105672",
+    "A283766"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + 2 k, for k = 1..7 are squarefree.",
+  "id": "A268612",
+  "mentions": [
+    "A049097",
+    "A049233"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

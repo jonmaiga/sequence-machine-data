@@ -1,0 +1,20 @@
+{
+  "description": "Least possible nonnegative coefficients of x^n in G(x)^(2^n), n>=0, for an integer series G(x) such that G'(0)=G(0)=1; the G(x) that satisfies this condition equals the g.f. of A167000.",
+  "id": "A167001",
+  "mentions": [
+    "A167000",
+    "A167002",
+    "A167004"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

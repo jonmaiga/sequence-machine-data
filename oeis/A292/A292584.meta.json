@@ -1,0 +1,32 @@
+{
+  "description": "Compound filter: a(n) = P(A292583(n), A292585(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A292584",
+  "mentions": [
+    "A000027",
+    "A000120",
+    "A001222",
+    "A006530",
+    "A053866",
+    "A061395",
+    "A278222",
+    "A292375",
+    "A292377",
+    "A292378",
+    "A292381",
+    "A292383",
+    "A292385",
+    "A292583",
+    "A292585"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

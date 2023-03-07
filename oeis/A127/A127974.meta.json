@@ -1,0 +1,21 @@
+{
+  "description": "Numerators in expansion of (1-x)^(-2/3).",
+  "id": "A127974",
+  "mentions": [
+    "A008544",
+    "A127975"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

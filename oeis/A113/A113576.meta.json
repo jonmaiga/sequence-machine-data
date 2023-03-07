@@ -1,0 +1,19 @@
+{
+  "description": "Least (2n-1)-digit palindromic prime == 1 (mod 2n-1), or 0 if no such prime exists.",
+  "id": "A113576",
+  "mentions": [
+    "A113575"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

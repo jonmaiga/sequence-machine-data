@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of triangular numbers n*(n+1)/2 into (n-2) distinct parts for n>=3.",
+  "id": "A104384",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000070",
+    "A008284",
+    "A027336",
+    "A104382"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

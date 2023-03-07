@@ -1,0 +1,23 @@
+{
+  "description": "An S-automatic sequence for the system S = (a*b*, {a,b}, a",
+  "id": "A317951",
+  "mentions": [
+    "A000217",
+    "A010052",
+    "A010060",
+    "A010873",
+    "A317948"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

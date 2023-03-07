@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0, a(n) = (n + a(floor(n/2))) mod 3.",
+  "id": "A215604",
+  "mentions": [
+    "A010060",
+    "A051065",
+    "A053838"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

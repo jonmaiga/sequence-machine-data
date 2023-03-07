@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k) is the number of n-step walks (steps +1,-1) on the x-axis beginning at the origin that are on the origin for the last time on step 2k, n>=0, 0<=k<=floor(n/2).",
+  "id": "A237520",
+  "mentions": [
+    "A000079",
+    "A063886",
+    "A067804"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

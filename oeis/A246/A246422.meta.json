@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in which cubes may end (in base 10).",
+  "id": "A246422",
+  "mentions": [
+    "A238712",
+    "A246449"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

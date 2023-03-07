@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array: (row n) = b**c, where b(h) = 1+[h/2], c(h) = [(n+h)/2], n>=1, h>=1, [ ] = floor, and ** = convolution.",
+  "id": "A213783",
+  "mentions": [
+    "A005744",
+    "A213500",
+    "A213759",
+    "A213760"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:04",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

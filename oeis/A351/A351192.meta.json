@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table of positive integers read by rows; the n-th row contains a(n) 1's, a(n) 2's, ..., a(n) n's, in that order.",
+  "id": "A351192",
+  "mentions": [
+    "A001462",
+    "A128117"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Composite numbers whose binary representations encode a polynomial (with coefficients 0 or 1) which is irreducible over Q, but reducible over GF(2).",
+  "id": "A260428",
+  "mentions": [
+    "A002808",
+    "A091212",
+    "A091242",
+    "A206074",
+    "A206075",
+    "A257688",
+    "A260427"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Octagonal numbers (A000567) that are the sum of three consecutive octagonal numbers.",
+  "id": "A258129",
+  "mentions": [
+    "A000567",
+    "A258128",
+    "A258130",
+    "A258131",
+    "A258132"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

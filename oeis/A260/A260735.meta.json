@@ -1,0 +1,26 @@
+{
+  "description": "Iterates of A234742, starting from value a(0) = 455, with a(1) = A234742(a(0)), a(2) = A234742(a(1)), etc.",
+  "id": "A260735",
+  "mentions": [
+    "A004767",
+    "A234742",
+    "A236844",
+    "A244323",
+    "A260441",
+    "A260712",
+    "A260713",
+    "A260719",
+    "A260729"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^{the 3-adic valuation of n}.",
+  "id": "A318666",
+  "mentions": [
+    "A000079",
+    "A007949",
+    "A046644",
+    "A317932"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

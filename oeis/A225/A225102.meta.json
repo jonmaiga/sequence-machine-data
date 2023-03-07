@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that can be represented as a sum of two distinct nontrivial prime powers (numbers of the form p^k where p is a prime number and k >= 2).",
+  "id": "A225102",
+  "mentions": [
+    "A025475",
+    "A225099"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

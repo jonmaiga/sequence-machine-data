@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n with ten parts in which no part occurs more than twice.",
+  "id": "A320598",
+  "mentions": [
+    "A209318"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:07",
+    "offset": 30,
+    "size": 46,
+    "source": "joeis"
+  }
+}

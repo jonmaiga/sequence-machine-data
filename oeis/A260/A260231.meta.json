@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{k=1..n} (1 + k^k).",
+  "id": "A260231",
+  "mentions": [
+    "A000312",
+    "A002109",
+    "A028361",
+    "A054640",
+    "A082480",
+    "A217757",
+    "A258325"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:13:54",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose sum of divisors is the cube of one of their divisors.",
+  "id": "A303993",
+  "mentions": [
+    "A000203",
+    "A020477",
+    "A303123",
+    "A303994",
+    "A303995",
+    "A303996"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

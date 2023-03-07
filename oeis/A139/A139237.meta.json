@@ -1,0 +1,29 @@
+{
+  "description": "Second differences of even superperfect numbers A061652, divided by 2.",
+  "id": "A139237",
+  "mentions": [
+    "A000668",
+    "A019279",
+    "A061652",
+    "A139228",
+    "A139229",
+    "A139230",
+    "A139231",
+    "A139232",
+    "A139233",
+    "A139234",
+    "A139235",
+    "A139236"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

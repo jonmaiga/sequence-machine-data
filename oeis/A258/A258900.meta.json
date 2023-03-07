@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: S(x) = Series_Reversion( Integral 1/(1-x^4)^(1/4) dx ), where the constant of integration is zero.",
+  "id": "A258900",
+  "mentions": [
+    "A258878",
+    "A258899",
+    "A258901"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

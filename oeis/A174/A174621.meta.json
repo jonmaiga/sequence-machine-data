@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest generator for the group of numbers relatively prime to n under multiplication mod n; a(n) = -1 if n is not a power of a prime or twice a power of a prime.",
+  "id": "A174621",
+  "mentions": [
+    "A046145"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:50",
+    "offset": 2,
+    "size": 99,
+    "source": "joeis"
+  }
+}

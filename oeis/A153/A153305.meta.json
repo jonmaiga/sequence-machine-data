@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = x + 3*x*A(x) + 6*x*A(x)*A(A(x)) + 10*x*A(x)*A(A(x))*A(A(A(x))) +...",
+  "id": "A153305",
+  "mentions": [
+    "A119736"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

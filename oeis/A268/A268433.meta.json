@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A106184(n) / A001316(n).",
+  "id": "A268433",
+  "mentions": [
+    "A000120",
+    "A000984",
+    "A001316",
+    "A106184"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:02:18",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

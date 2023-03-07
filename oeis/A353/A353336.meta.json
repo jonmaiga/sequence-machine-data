@@ -1,0 +1,24 @@
+{
+  "description": "Sum of A353420 and its Dirichlet inverse.",
+  "id": "A353336",
+  "mentions": [
+    "A003961",
+    "A126760",
+    "A323882",
+    "A323894",
+    "A349135",
+    "A353335",
+    "A353420"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

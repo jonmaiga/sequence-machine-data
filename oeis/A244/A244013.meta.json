@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of rational approximations to sqrt(7) obtained from Newton's method.",
+  "id": "A244013",
+  "mentions": [
+    "A001601",
+    "A002812",
+    "A051009",
+    "A071579",
+    "A081459",
+    "A081460",
+    "A244012",
+    "A244014",
+    "A244015"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

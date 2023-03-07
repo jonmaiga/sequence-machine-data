@@ -1,0 +1,20 @@
+{
+  "description": "The minimum value in the central cell of an n-dimensional cube, three cells wide in each dimension, such that each cell is the product of its adjacent cells, each cell is a whole number, and no two cells have the same value.",
+  "id": "A317888",
+  "mentions": [
+    "A000051",
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

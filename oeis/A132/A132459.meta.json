@@ -1,0 +1,18 @@
+{
+  "description": "Sums of squared coefficients in the negative powers of the Catalan function: a(n) = Sum_{k=1..n+1} [x^(n-k+1)] 1/C(x^2)^k, where C(x) is the g.f. of A000108.",
+  "id": "A132459",
+  "mentions": [
+    "A000108",
+    "A132461"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

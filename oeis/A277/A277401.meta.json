@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that 7^n == 2 (mod n).",
+  "id": "A277401",
+  "mentions": [
+    "A015919",
+    "A015954",
+    "A066438",
+    "A067947",
+    "A116622",
+    "A124246",
+    "A130421",
+    "A276671",
+    "A277370",
+    "A277371",
+    "A277554"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in 7-adic expansion of 3^(1/5).",
+  "id": "A309446",
+  "mentions": [
+    "A290563",
+    "A309445",
+    "A309447",
+    "A309448",
+    "A309449",
+    "A309451"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

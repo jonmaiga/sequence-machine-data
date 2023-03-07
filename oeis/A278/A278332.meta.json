@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. equals the limit of the average of all permutations of the compositions of the functions x*exp(x^k), for k=1..n, as n increases.",
+  "id": "A278332",
+  "mentions": [
+    "A277180",
+    "A277181",
+    "A278333"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

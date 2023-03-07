@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows n>=0: the largest prime <= m^n+2 in columns m=3..n+3.",
+  "id": "A118132",
+  "mentions": [
+    "A007917"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

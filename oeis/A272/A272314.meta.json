@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of A067128(n), n>=2, as sum A067128(k)+A067128(t), k<=t, or a(n)=0 if there is no such expression.",
+  "id": "A272314",
+  "mentions": [
+    "A067128",
+    "A272879",
+    "A272901"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

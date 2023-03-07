@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/n)*A205406(n).",
+  "id": "A198293",
+  "mentions": [
+    "A002620",
+    "A204892",
+    "A205402",
+    "A205406"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

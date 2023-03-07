@@ -1,0 +1,27 @@
+{
+  "description": "Excess of number of divisors of 2n+1 of form 12k+1, 12k+5 over those of form 12k+7, 12k+11.",
+  "id": "A125079",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002175",
+    "A008441",
+    "A010054",
+    "A010815",
+    "A035154",
+    "A121373",
+    "A121444",
+    "A138745"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

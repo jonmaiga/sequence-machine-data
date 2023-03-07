@@ -1,0 +1,26 @@
+{
+  "description": "Period length 14: [0, 1, 2, 3, 4, 5, 6, 0, 6, 5, 4, 3, 2, 1] repeated.",
+  "id": "A204453",
+  "mentions": [
+    "A000007",
+    "A000035",
+    "A010876",
+    "A113807",
+    "A193680",
+    "A193682",
+    "A203571",
+    "A203572"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:33",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Integer solutions to the equations Sum_{i} (((-1)^i)*binomial(m, i)*binomial(x - m, t - i)) = 0.",
+  "id": "A269563",
+  "mentions": [
+    "A269499"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

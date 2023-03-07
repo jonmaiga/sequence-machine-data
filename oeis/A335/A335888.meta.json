@@ -1,0 +1,20 @@
+{
+  "description": "Maximal sum of subgroup indices for a finite group of order n.",
+  "id": "A335888",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A018216",
+    "A335887"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

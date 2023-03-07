@@ -1,0 +1,19 @@
+{
+  "description": "Indices n such that A018910[n] = (Fibonacci[n+3] + 2) are primes.",
+  "id": "A121606",
+  "mentions": [
+    "A018910",
+    "A048584",
+    "A121605"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

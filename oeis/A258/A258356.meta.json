@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that cyclotomic polynomial value Phi(10,n!) is prime.",
+  "id": "A258356",
+  "mentions": [
+    "A002981",
+    "A002982",
+    "A046029",
+    "A200906",
+    "A246392"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

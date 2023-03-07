@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-digit number that has exactly n divisors, each with a different number of digits, or 0 if no such number exists.",
+  "id": "A125315",
+  "mentions": [
+    "A125845"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

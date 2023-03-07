@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) built by placing T(n,0)=A000012(n) in the left edge, T(n,n)=A079978(n) on the right edge and filling the body with the Pascal recurrence T(n,k) = T(n-1,k) + T(n-1,k-1).",
+  "id": "A118923",
+  "mentions": [
+    "A000012",
+    "A000292",
+    "A007318",
+    "A008620",
+    "A051743",
+    "A059259",
+    "A059841",
+    "A077947",
+    "A079962",
+    "A079978",
+    "A079998"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:35",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

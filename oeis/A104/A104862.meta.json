@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A014292.",
+  "id": "A104862",
+  "mentions": [
+    "A014292",
+    "A078001"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

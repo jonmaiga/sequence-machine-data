@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = A352892(n), except f(n) = -n when <= 2.",
+  "id": "A352899",
+  "mentions": [
+    "A005940",
+    "A064989",
+    "A156552",
+    "A305801",
+    "A329603",
+    "A341515",
+    "A348717",
+    "A352892",
+    "A352893",
+    "A352896",
+    "A352898"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

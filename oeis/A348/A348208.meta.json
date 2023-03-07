@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^(k-1)*(k-1)^2*A106828(n, k).",
+  "id": "A348208",
+  "mentions": [
+    "A001620",
+    "A106828",
+    "A347210",
+    "A347571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

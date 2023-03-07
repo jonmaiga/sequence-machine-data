@@ -1,0 +1,31 @@
+{
+  "description": "Number of series-reduced balanced trees with n leaves.",
+  "id": "A120803",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A001003",
+    "A001678",
+    "A007059",
+    "A048816",
+    "A079500",
+    "A119262",
+    "A244925",
+    "A316624",
+    "A320154",
+    "A320160",
+    "A320169",
+    "A320179"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

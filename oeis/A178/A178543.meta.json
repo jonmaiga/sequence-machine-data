@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of round(3^n/5).",
+  "id": "A178543",
+  "mentions": [
+    "A112030"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

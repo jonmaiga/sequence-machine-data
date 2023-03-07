@@ -1,0 +1,19 @@
+{
+  "description": "Array T(n,k) = least integer congruent to prime(i) mod prime(i+1) for all k <= i <= k+n; n, k >= 1; read by upward diagonals.",
+  "id": "A268491",
+  "mentions": [
+    "A157752",
+    "A319524"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

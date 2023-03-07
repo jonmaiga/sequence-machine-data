@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row gives the x-values of the solutions of the equation 2*(x - 1)*y - (x - 3)*x = 2*n for 0 < x <= y.",
+  "id": "A351284",
+  "mentions": [
+    "A136107",
+    "A341829",
+    "A351153",
+    "A351285"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

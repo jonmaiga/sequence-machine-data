@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] ( (1 + x + x^2)/(1 - x + x^2) )^n.",
+  "id": "A333579",
+  "mentions": [
+    "A002003",
+    "A002426",
+    "A187925",
+    "A318114"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

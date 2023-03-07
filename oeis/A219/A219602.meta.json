@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p^2-2 is composite.",
+  "id": "A219602",
+  "mentions": [
+    "A062326"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

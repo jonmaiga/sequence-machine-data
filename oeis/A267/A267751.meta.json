@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of nXk arrays containing k copies of 0..n-1 with every element equal to or 1 greater than any north neighbor modulo n and the upper left element equal to 0.",
+  "id": "A267751",
+  "mentions": [
+    "A001700",
+    "A024206",
+    "A266456",
+    "A267624"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. S(x) satisfies: C(x)^2 + 2*S(x)^2 = 1 such that S'(x) = C(x)^2 - S(x)*C(x) and C'(x) = 2*S(x)^2 - 2*S(x)*C(x), where C(x) is described by A279841.",
+  "id": "A279842",
+  "mentions": [
+    "A279841"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

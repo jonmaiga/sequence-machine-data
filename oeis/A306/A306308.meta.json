@@ -1,0 +1,34 @@
+{
+  "description": "Table read by rows: the end square loops for a trapped knight moving on an infinitely large 2-dimensional spirally numbered board starting from any square.",
+  "id": "A306308",
+  "mentions": [
+    "A306291",
+    "A316328",
+    "A316667",
+    "A316884",
+    "A316967",
+    "A317105",
+    "A317106",
+    "A317415",
+    "A317416",
+    "A317437",
+    "A317438",
+    "A323469",
+    "A323470",
+    "A323471",
+    "A323472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

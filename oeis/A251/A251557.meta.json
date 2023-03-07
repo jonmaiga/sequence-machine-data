@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2 more than the largest even number among {A098550(1), A098550(2), ..., A098550(n)}.",
+  "id": "A251557",
+  "mentions": [
+    "A098550",
+    "A251546",
+    "A251558",
+    "A251559"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

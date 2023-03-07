@@ -1,0 +1,22 @@
+{
+  "description": "The larger member of the n-th twin prime pair, modulo 8.",
+  "id": "A165242",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006512",
+    "A010877"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

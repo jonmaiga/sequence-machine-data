@@ -1,0 +1,18 @@
+{
+  "description": "Write n in binary. Place a 0 between every pair of adjacent 1's, and place a 1 between every pair of adjacent 0's. a(n) is the decimal equivalent of the result.",
+  "id": "A175467",
+  "mentions": [
+    "A000975"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

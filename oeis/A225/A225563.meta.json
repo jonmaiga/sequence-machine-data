@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose totient-trajectory can be partitioned into two sets with the same sum.",
+  "id": "A225563",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A003434",
+    "A007755",
+    "A008683",
+    "A049108",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

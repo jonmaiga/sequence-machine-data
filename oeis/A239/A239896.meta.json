@@ -1,0 +1,20 @@
+{
+  "description": "Generalized ternary Thue-Morse sequence arising from junction numbers problem in base 10.",
+  "id": "A239896",
+  "mentions": [
+    "A006064",
+    "A010060",
+    "A239110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

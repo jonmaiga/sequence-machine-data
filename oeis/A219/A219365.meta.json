@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = P(n)/(L(n)*P(n/2)*P(n/3)*P(n/7)*P(n/43)*...) with P(n) = floor(n)!, L(n) the LCM of the first n integers and where the sequence 2, 3, 7, 43, ... is A000058.",
+  "id": "A219365",
+  "mentions": [
+    "A000058"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

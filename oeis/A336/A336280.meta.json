@@ -1,0 +1,18 @@
+{
+  "description": "Number of consecutive primes of the form k*prime(n) + 1, starting with the least such prime A035095(n), that divides the Wendt determinant A048954(prime(n)).",
+  "id": "A336280",
+  "mentions": [
+    "A035095",
+    "A048954"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

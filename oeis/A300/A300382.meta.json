@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet series for a cubic module of rank 6.",
+  "id": "A300382",
+  "mentions": [
+    "A031365",
+    "A035187"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

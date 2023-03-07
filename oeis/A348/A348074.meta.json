@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A035327(n) if n is even, 3n + 1 if n is odd.",
+  "id": "A348074",
+  "mentions": [
+    "A006370",
+    "A035327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

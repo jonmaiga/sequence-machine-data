@@ -1,0 +1,21 @@
+{
+  "description": "Composite squarefree numbers such that the arithmetic mean of its prime factors is an integer.",
+  "id": "A275384",
+  "mentions": [
+    "A005117",
+    "A078177",
+    "A134344",
+    "A187073",
+    "A229094"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

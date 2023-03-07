@@ -1,0 +1,19 @@
+{
+  "description": "Emirps with a single 7 as the only prime digit.",
+  "id": "A179039",
+  "mentions": [
+    "A006567",
+    "A179038"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

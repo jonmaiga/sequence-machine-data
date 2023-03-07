@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-step prudent self-avoiding walks on honeycomb lattice.",
+  "id": "A192871",
+  "mentions": [
+    "A001668",
+    "A006851",
+    "A192208"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

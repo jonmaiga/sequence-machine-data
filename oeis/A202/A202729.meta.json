@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n nonnegative integer arrays with each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to n-1",
+  "id": "A202729",
+  "mentions": [
+    "A202735"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

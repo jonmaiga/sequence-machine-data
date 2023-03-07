@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that (1/m) * Sum_{k=1..m} sigma(k)/k sets a record value, where sigma(k) is the sum of divisors of k.",
+  "id": "A330899",
+  "mentions": [
+    "A000203",
+    "A013661",
+    "A284648",
+    "A284650"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

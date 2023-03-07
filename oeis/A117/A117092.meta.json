@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that nextprime(2*n) > 2*nextprime(n) (here nextprime = A007918; if p is prime then nextprime(p) = p).",
+  "id": "A117092",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A007918",
+    "A047845"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

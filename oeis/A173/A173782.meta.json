@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place 4n nonattacking kings on an 8 X 2n chessboard.",
+  "id": "A173782",
+  "mentions": [
+    "A018807",
+    "A061593",
+    "A061594"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

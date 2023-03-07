@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the determinant of the Vandermonde matrix of their digits is equal to sigma(k), the sum of divisors of k.",
+  "id": "A307586",
+  "mentions": [
+    "A000203",
+    "A307587"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

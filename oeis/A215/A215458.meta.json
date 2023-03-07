@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*a(n-1) - 7*a(n-2) + 8*a(n-3) - 4*a(n-4) starting 0, 1, 4, 7.",
+  "id": "A215458",
+  "mentions": [
+    "A002248"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

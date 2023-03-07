@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of q^(-1/2) * eta(q^5) * eta(q^6) * eta(q^7) * eta(q^210) in powers of q.",
+  "id": "A286134",
+  "mentions": [
+    "A286135"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

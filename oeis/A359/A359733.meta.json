@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/2) * Sum_{d|n} (2*d)^(n/d).",
+  "id": "A359733",
+  "mentions": [
+    "A055225",
+    "A076717"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

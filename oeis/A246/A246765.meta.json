@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a limit associated with the asymptotic number of ways of writing a number as a sum of powers of 2, with each power used at most twice (cardinality of \"alternating bit sets\" of a given number, also known as Stern's diatomic sequence).",
+  "id": "A246765",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

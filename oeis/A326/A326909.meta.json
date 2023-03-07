@@ -1,0 +1,31 @@
+{
+  "description": "Number of sets of subsets of {1..n} closed under union and intersection and covering all of the vertices.",
+  "id": "A326909",
+  "mentions": [
+    "A000371",
+    "A000798",
+    "A001930",
+    "A003465",
+    "A006058",
+    "A108798",
+    "A306445",
+    "A326876",
+    "A326878",
+    "A326882",
+    "A326898",
+    "A326906",
+    "A326907",
+    "A326908"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

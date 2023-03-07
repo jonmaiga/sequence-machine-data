@@ -1,0 +1,31 @@
+{
+  "description": "Triangle, read by rows, T(n,k) = t(n-k, k) where t(n,m) = f(m)*t(n-1,m) + f(n)*t(n,m-1), and f(x) = x + 3.",
+  "id": "A257180",
+  "mentions": [
+    "A000244",
+    "A001725",
+    "A008292",
+    "A038221",
+    "A256890",
+    "A257606",
+    "A257607",
+    "A257611",
+    "A257620",
+    "A257621",
+    "A257623",
+    "A257625",
+    "A257627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:39:48",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

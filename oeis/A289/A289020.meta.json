@@ -1,0 +1,21 @@
+{
+  "description": "Number of Dyck paths having exactly one peak in each of the levels 1,...,n and no other peaks.",
+  "id": "A289020",
+  "mentions": [
+    "A000217",
+    "A060747",
+    "A281874",
+    "A287846",
+    "A288972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Twice-partitioned numbers where the first partition is constant.",
+  "id": "A279787",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A018818",
+    "A063834",
+    "A260685",
+    "A271619"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

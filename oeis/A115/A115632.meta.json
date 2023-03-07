@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of asymptotic constant in Goebel's sequence A003504.",
+  "id": "A115632",
+  "mentions": [
+    "A003504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

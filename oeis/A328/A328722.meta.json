@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet g.f.: 1 / zeta(s-1)^2.",
+  "id": "A328722",
+  "mentions": [
+    "A007427",
+    "A008683",
+    "A038040",
+    "A046099",
+    "A055615",
+    "A101035"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

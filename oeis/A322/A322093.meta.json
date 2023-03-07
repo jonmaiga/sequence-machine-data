@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals, where A(n,k) is the number of permutations of n copies of 1..k with no element equal to another within a distance of 1.",
+  "id": "A322093",
+  "mentions": [
+    "A000142",
+    "A110706",
+    "A114938",
+    "A193638",
+    "A321382",
+    "A321633",
+    "A321634",
+    "A322013",
+    "A322095",
+    "A322096",
+    "A322126",
+    "A322145",
+    "A322146"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

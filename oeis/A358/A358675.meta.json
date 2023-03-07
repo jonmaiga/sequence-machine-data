@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that for all nontrivial factorizations of k as x*y, the sum (x * y') + (x' * y) will generate at least one carry when the addition is done in the primorial base. Here n' stands for A003415(n), the arithmetic derivative of n.",
+  "id": "A358675",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A276086",
+    "A327936",
+    "A329041",
+    "A358235",
+    "A358674"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

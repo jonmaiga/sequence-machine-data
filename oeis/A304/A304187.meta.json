@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: 0 = [x^n] (1+x)^((n+2)*(n+3)/2) / A(x) for n>0.",
+  "id": "A304187",
+  "mentions": [
+    "A101479",
+    "A101481",
+    "A304184",
+    "A304185",
+    "A304186"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

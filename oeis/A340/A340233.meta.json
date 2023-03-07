@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least number with exactly n exponential divisors.",
+  "id": "A340233",
+  "mentions": [
+    "A005179",
+    "A025487",
+    "A038547",
+    "A049419",
+    "A085629",
+    "A309181",
+    "A318278",
+    "A322791",
+    "A340232"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

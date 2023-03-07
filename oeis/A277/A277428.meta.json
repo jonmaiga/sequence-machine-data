@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the n-bit number in which the i-th bit is 1 if and only if prime(i) divides A060795(n).",
+  "id": "A277428",
+  "mentions": [
+    "A002110",
+    "A060795",
+    "A060796",
+    "A261144"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

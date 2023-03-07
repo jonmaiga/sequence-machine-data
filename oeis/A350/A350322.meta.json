@@ -1,0 +1,25 @@
+{
+  "description": "Abelian orders m for which there exist exactly 2 groups of order m.",
+  "id": "A350322",
+  "mentions": [
+    "A001248",
+    "A013929",
+    "A051532",
+    "A054395",
+    "A060687",
+    "A350152",
+    "A350323",
+    "A350332",
+    "A350586"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

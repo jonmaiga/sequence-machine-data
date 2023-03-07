@@ -1,0 +1,18 @@
+{
+  "description": "Determinants of the equally spaced angles sines to tangents matrices.",
+  "id": "A277445",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

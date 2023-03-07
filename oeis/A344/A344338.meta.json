@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number that is the sum of two or more consecutive positive n-th powers in more than one way.",
+  "id": "A344338",
+  "mentions": [
+    "A062681",
+    "A062682",
+    "A091414",
+    "A105441",
+    "A230718"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

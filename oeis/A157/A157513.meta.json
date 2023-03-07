@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of numbers of walks in the quarter-plane, of length 2n beginning and ending at the origin using steps {(1,1), (1,0), (-1,0), (-1,-1)} (Gessel steps) arranged according to the number of times the steps (1,1) and (-1,-1) occur.",
+  "id": "A157513",
+  "mentions": [
+    "A000108",
+    "A000531",
+    "A135404"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

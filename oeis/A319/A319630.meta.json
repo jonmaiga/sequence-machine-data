@@ -1,0 +1,25 @@
+{
+  "description": "Positive numbers that are not divisible by two consecutive prime numbers.",
+  "id": "A319630",
+  "mentions": [
+    "A003714",
+    "A006094",
+    "A087207",
+    "A104210",
+    "A300820",
+    "A322361",
+    "A356171",
+    "A356173"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

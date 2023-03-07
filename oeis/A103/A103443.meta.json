@@ -1,0 +1,21 @@
+{
+  "description": "Largest left-truncatable prime in base n (decimal expansion).",
+  "id": "A103443",
+  "mentions": [
+    "A023107",
+    "A076623",
+    "A103463",
+    "A254755"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

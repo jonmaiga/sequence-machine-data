@@ -1,0 +1,18 @@
+{
+  "description": "Highly abundant numbers k whose largest prime factor is less than log(k).",
+  "id": "A181311",
+  "mentions": [
+    "A002093",
+    "A181312"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

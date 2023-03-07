@@ -1,0 +1,18 @@
+{
+  "description": "Primes p == 1 (mod 3) such that there exists 1 <= x <= p-2 such that (x+1)^p - x^p == 1 (mod p^2) and that p does not divide x^2 + x + 1.",
+  "id": "A358315",
+  "mentions": [
+    "A068209",
+    "A320535"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

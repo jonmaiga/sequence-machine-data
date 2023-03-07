@@ -1,0 +1,22 @@
+{
+  "description": "Naught-y numbers (A011540) that after removing all zeros become zeroless primes (A038618).",
+  "id": "A256227",
+  "mentions": [
+    "A000040",
+    "A011540",
+    "A038618",
+    "A056709",
+    "A256186"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

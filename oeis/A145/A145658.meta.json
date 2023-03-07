@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = numerator of polynomial of genus 1 and level n for m = 3",
+  "id": "A145658",
+  "mentions": [
+    "A001008",
+    "A145609",
+    "A145640",
+    "A145656",
+    "A145660",
+    "A145662",
+    "A145664",
+    "A145666"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

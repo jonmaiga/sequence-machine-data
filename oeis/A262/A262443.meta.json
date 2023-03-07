@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers m such that pi(m^2) = pi(j^2)*pi(k^2) for some 0 < j < k < m, where pi(x) denotes the number of primes not exceeding x.",
+  "id": "A262443",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A038107",
+    "A262408",
+    "A262409"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

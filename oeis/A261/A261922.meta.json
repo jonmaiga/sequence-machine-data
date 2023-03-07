@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest nonnegative number that is not a substring of n in its binary representation.",
+  "id": "A261922",
+  "mentions": [
+    "A007088",
+    "A030308",
+    "A062289",
+    "A126646",
+    "A261461",
+    "A262281"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

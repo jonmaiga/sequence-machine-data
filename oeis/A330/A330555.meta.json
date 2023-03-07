@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for 1-skeleton of icosidodecahedron.",
+  "id": "A330555",
+  "mentions": [
+    "A298808",
+    "A329500"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

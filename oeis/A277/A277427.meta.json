@@ -1,0 +1,21 @@
+{
+  "description": "Prime permutations, ordered lexicographically.",
+  "id": "A277427",
+  "mentions": [
+    "A005117",
+    "A060223",
+    "A215474",
+    "A254040"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

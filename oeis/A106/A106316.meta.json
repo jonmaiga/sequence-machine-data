@@ -1,0 +1,18 @@
+{
+  "description": "Remainder of the harmonic residue of n when divided by n.",
+  "id": "A106316",
+  "mentions": [
+    "A106315",
+    "A106317"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(x^6+2*x^5-x^4-4*x^3-x^2-2*x+1).",
+  "id": "A306504",
+  "mentions": [
+    "A306463"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

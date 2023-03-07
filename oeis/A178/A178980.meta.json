@@ -1,0 +1,18 @@
+{
+  "description": "Where zeros occur in the 1-0 race in the binary expansion of Pi-3; that is, n such that A174832(n) = 0.",
+  "id": "A178980",
+  "mentions": [
+    "A174832"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

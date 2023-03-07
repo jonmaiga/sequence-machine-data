@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest integer that has exactly n divisors whose decimal digits are in strictly increasing order.",
+  "id": "A357172",
+  "mentions": [
+    "A009993",
+    "A087997",
+    "A160218",
+    "A355303",
+    "A355594",
+    "A357171",
+    "A357173"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{1 < i <= j <= k} (1 - x^(i*j*k)).",
+  "id": "A321376",
+  "mentions": [
+    "A122179",
+    "A321361",
+    "A321374",
+    "A321375",
+    "A321377"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

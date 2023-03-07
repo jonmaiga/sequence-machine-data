@@ -1,0 +1,19 @@
+{
+  "description": "Catalan numbers that are averages of twin prime pairs.",
+  "id": "A173866",
+  "mentions": [
+    "A000108",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

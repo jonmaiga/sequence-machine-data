@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = F(n+4) * F(n+1) - 4 * (-1)^n where F(n) = A000045(n) are the Fibonacci numbers.",
+  "id": "A341208",
+  "mentions": [
+    "A000045",
+    "A338225"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:02:28",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

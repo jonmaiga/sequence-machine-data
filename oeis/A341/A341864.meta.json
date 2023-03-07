@@ -1,0 +1,18 @@
+{
+  "description": "Least increasing sequence of primes a(n) == A020652(n) (mod A038567(n)).",
+  "id": "A341864",
+  "mentions": [
+    "A020652",
+    "A038567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

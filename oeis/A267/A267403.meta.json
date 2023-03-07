@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX(n+3) arrays of permutations of n+3 copies of 0..n-1 with every element equal to or 1 greater than any north, west or northwest neighbors modulo n and the upper left element equal to 0.",
+  "id": "A267403",
+  "mentions": [
+    "A267401"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes that become emirps when their most-significant-digit is deleted.",
+  "id": "A214847",
+  "mentions": [
+    "A000040",
+    "A006567",
+    "A024770",
+    "A210498",
+    "A225234",
+    "A225235"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

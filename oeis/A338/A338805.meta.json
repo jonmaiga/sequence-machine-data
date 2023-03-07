@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) defined by Sum_{k=1..n} T(n,k)*u^k*x^n/n! = Product_{j>0} (1-x^j)^(-u/j).",
+  "id": "A338805",
+  "mentions": [
+    "A000005",
+    "A008298",
+    "A028342",
+    "A264428",
+    "A318249",
+    "A338810",
+    "A338811"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

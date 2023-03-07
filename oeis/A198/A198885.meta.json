@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of x>0 satisfying 2*x^2-4*cos(x)=1.",
+  "id": "A198885",
+  "mentions": [
+    "A198755"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:56",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

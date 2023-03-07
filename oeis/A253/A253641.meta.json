@@ -1,0 +1,23 @@
+{
+  "description": "Largest integer b such that n=a^b for some integer a; a(0)=a(1)=1 by convention.",
+  "id": "A253641",
+  "mentions": [
+    "A000005",
+    "A001597",
+    "A052409",
+    "A072103",
+    "A175064",
+    "A253642"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

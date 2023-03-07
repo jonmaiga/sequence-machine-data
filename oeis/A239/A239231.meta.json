@@ -1,0 +1,19 @@
+{
+  "description": "Heyawake numbers: maximum number of painted cells in an n X n grid, such that no two painted cells are orthogonally adjacent and the unpainted cells form a contiguous area.",
+  "id": "A239231",
+  "mentions": [
+    "A239072"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

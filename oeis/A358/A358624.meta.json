@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. The coefficients of the Hahn polynomials in ascending order of powers. T(n, k) = n! * [x^k] hypergeom([-x, -n, n + 1], [1, 1], 1).",
+  "id": "A358624",
+  "mentions": [
+    "A000142",
+    "A000984",
+    "A001564",
+    "A133942"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

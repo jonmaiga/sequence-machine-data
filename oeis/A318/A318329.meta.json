@@ -1,0 +1,26 @@
+{
+  "description": "The 10-adic integer a_2 = ...39062500002 satisfying a_2^5 + 1 = a_3, a_3^5 + 1 = a_4, ... , a_0^5+ 1 = a_1 and a_1^5 + 1 = a_2.",
+  "id": "A318329",
+  "mentions": [
+    "A318327",
+    "A318328",
+    "A318330",
+    "A318331",
+    "A318332",
+    "A318333",
+    "A318334",
+    "A318335",
+    "A318336"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

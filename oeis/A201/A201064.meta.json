@@ -1,0 +1,19 @@
+{
+  "description": "Repdigit numbers such that both the sum and product of the digits is also a repdigit.",
+  "id": "A201064",
+  "mentions": [
+    "A201060",
+    "A201061"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

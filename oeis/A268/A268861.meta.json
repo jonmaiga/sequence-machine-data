@@ -1,0 +1,21 @@
+{
+  "description": "Cubefree numbers n such that n + 1 is a perfect cube.",
+  "id": "A268861",
+  "mentions": [
+    "A004709",
+    "A068601",
+    "A121628",
+    "A221793",
+    "A268752"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

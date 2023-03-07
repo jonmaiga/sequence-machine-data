@@ -1,0 +1,17 @@
+{
+  "description": "Number of s in {1,...,n}^n having shortest run with the same value of length 2.",
+  "id": "A228621",
+  "mentions": [
+    "A228617"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

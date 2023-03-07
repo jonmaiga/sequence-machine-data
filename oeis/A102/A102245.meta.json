@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime factors of prime p concatenated p+1 times.",
+  "id": "A102245",
+  "mentions": [
+    "A101081",
+    "A102246"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

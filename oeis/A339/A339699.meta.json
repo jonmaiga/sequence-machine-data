@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that 3^m-1 and 3^m+1 have the same number k of prime factors counted with multiplicity.",
+  "id": "A339699",
+  "mentions": [
+    "A001222",
+    "A057941",
+    "A057958",
+    "A110187"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = possible values of A175856(m) in increasing order, where A175856(m): a(m) = m for m = noncomposites, a(m) = previous term - 1 for m = composites.",
+  "id": "A175857",
+  "mentions": [
+    "A175856",
+    "A175858",
+    "A175859",
+    "A175860",
+    "A175861",
+    "A175862"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

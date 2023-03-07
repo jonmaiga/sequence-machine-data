@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X7 0..3 arrays with every 2X2 subblock having nonzero determinant and commuting with every horizontal or vertical neighbor",
+  "id": "A206341",
+  "mentions": [
+    "A206343"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of paths from (0,0) to (3n,0) that stay in the first quadrant (but may touch the horizontal axis), consisting of steps u=(2,1), U=(1,2), or d=(1,-1) and having k u=(2,1) steps among the steps leading to the first d step.",
+  "id": "A108440",
+  "mentions": [
+    "A027307",
+    "A034015",
+    "A108441"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

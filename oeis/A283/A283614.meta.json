@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = number of circular arrays of n 1's, n -1's, and k 0's such that no two adjacent elements are equal.",
+  "id": "A283614",
+  "mentions": [
+    "A110707",
+    "A265118",
+    "A283613"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

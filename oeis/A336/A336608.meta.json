@@ -1,0 +1,21 @@
+{
+  "description": "Sum_{n>=0} a(n) * x^n / (n!)^2 = exp(-x) / BesselJ(0,2*sqrt(x)).",
+  "id": "A336608",
+  "mentions": [
+    "A000275",
+    "A002720",
+    "A009940",
+    "A336606"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Inverse of the Motzkin triangle A064189.",
+  "id": "A104562",
+  "mentions": [
+    "A007318",
+    "A049310",
+    "A064189",
+    "A084938",
+    "A101950",
+    "A125090"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

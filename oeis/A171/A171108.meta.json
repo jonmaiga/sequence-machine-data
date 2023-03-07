@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the Severi degree for curves of degree n and cogenus 2.",
+  "id": "A171108",
+  "mentions": [
+    "A033428",
+    "A171113",
+    "A171116",
+    "A328551",
+    "A328552"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:53",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Round(n*sqrt(11)).",
+  "id": "A198267",
+  "mentions": [
+    "A067497",
+    "A171982"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

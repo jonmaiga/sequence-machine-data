@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k occurrences of the consecutive step pattern up, down, down; triangle T(n,k), n>=0, 0<=k<=max(0,floor((n-1)/3)), read by rows.",
+  "id": "A242819",
+  "mentions": [
+    "A000142",
+    "A177479",
+    "A242783",
+    "A242784",
+    "A246246",
+    "A246247",
+    "A246248",
+    "A246249",
+    "A246250",
+    "A246251",
+    "A246252",
+    "A246253",
+    "A246254",
+    "A246255",
+    "A295987"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

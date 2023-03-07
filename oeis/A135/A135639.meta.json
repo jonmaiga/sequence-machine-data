@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 839*n.",
+  "id": "A135639",
+  "mentions": [
+    "A064730",
+    "A134888",
+    "A134950",
+    "A134960",
+    "A135631"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:19:17",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

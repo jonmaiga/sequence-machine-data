@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of nonempty subsets of {1,2,...,n} having a partition into two subsets with the same sum of elements.",
+  "id": "A357212",
+  "mentions": [
+    "A232466"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

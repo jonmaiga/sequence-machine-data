@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers k that when written in binary have exactly the same number of (non-leading) 0's as the number of divisors of k.",
+  "id": "A152088",
+  "mentions": [
+    "A000005",
+    "A023416",
+    "A071593",
+    "A080791"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

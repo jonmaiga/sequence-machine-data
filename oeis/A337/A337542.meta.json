@@ -1,0 +1,24 @@
+{
+  "description": "Number of proper divisors d of n for which sigma(A003961(d)) >= 2*sigma(d), where sigma is the sum of divisors, and A003961(x) shifts the prime factorization of x one step towards larger primes.",
+  "id": "A337542",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A337346",
+    "A337381",
+    "A337383",
+    "A337541",
+    "A337543"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

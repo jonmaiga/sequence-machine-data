@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured number of numbers that are not the sum of three generalized (2n+1)-gonal numbers; bisection of A118283.",
+  "id": "A118285",
+  "mentions": [
+    "A118278",
+    "A118283"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers d*p where d is a perfect number and p",
+  "id": "A165772",
+  "mentions": [
+    "A000396",
+    "A109321",
+    "A111592"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of sum pyramids for n.",
+  "id": "A346523",
+  "mentions": [
+    "A028307",
+    "A337766",
+    "A348850"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

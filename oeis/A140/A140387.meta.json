@@ -1,0 +1,25 @@
+{
+  "description": "Binary encoding of the location of primes in integer sets r+30*n with remainder r=1,7,11,..,29.",
+  "id": "A140387",
+  "mentions": [
+    "A039919",
+    "A132232",
+    "A132233",
+    "A132234",
+    "A132235",
+    "A132236",
+    "A136066",
+    "A140378"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

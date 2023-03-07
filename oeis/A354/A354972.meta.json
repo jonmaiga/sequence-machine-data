@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A354975(k) is prime.",
+  "id": "A354972",
+  "mentions": [
+    "A354975",
+    "A355009"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

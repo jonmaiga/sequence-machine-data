@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2n-1)*210; numbers which are 210 times an odd number.",
+  "id": "A236432",
+  "mentions": [
+    "A053669",
+    "A235921",
+    "A236454"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Log_3(A133579(n)).",
+  "id": "A253092",
+  "mentions": [
+    "A133579"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

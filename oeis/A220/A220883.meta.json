@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients of expansion of Product_{k = 1..n-1} ((n + 1)*x + k), starting with lowest power.",
+  "id": "A220883",
+  "mentions": [
+    "A008275",
+    "A008277",
+    "A056856",
+    "A220884",
+    "A251592",
+    "A260687"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

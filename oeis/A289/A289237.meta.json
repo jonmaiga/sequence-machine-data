@@ -1,0 +1,20 @@
+{
+  "description": "Find the first (maximal) string, of length exactly n, of consecutive primes that alternate between types 6*k+1 and 6*k+5 or 6*k+5 and 6*k+1. The first element is a(n).",
+  "id": "A289237",
+  "mentions": [
+    "A247384",
+    "A289118",
+    "A289119"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

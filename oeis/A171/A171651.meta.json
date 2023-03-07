@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T, read by rows : T(n,k) = A007318(n,k)*A005773(n+1-k).",
+  "id": "A171651",
+  "mentions": [
+    "A001405",
+    "A001700",
+    "A005573",
+    "A005773",
+    "A007318",
+    "A026378",
+    "A097692",
+    "A099323",
+    "A122898",
+    "A168491"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

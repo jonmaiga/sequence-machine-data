@@ -1,0 +1,25 @@
+{
+  "description": "Written in decimal, n ends in a(n) consecutive nonzero digits.",
+  "id": "A215887",
+  "mentions": [
+    "A002275",
+    "A007814",
+    "A052382",
+    "A215879",
+    "A215883",
+    "A215884",
+    "A339012"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

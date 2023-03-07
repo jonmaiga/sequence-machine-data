@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to choose a factorization of each factor in a strict factorization of n.",
+  "id": "A296118",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A005117",
+    "A045778",
+    "A261049",
+    "A271619",
+    "A281113",
+    "A294788",
+    "A295923",
+    "A296119",
+    "A296121"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

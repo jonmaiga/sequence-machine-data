@@ -1,0 +1,21 @@
+{
+  "description": "279841n^2 - 165048n + 24335.",
+  "id": "A156843",
+  "mentions": [
+    "A156841",
+    "A156846",
+    "A156849"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

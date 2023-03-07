@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected bipartite graphs on n unlabeled nodes with a distinguished bipartite block.",
+  "id": "A318870",
+  "mentions": [
+    "A005142",
+    "A007776",
+    "A049312",
+    "A123549",
+    "A318869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Persistence of n for sort-and-subtract (A193581).",
+  "id": "A193582",
+  "mentions": [
+    "A004185",
+    "A193581"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

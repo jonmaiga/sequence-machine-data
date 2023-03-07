@@ -1,0 +1,18 @@
+{
+  "description": "The largest of three distinct primes, a > b > c > 0, such that each of the following four numbers are also prime: a+b+c, a+b-c, a-b+c, a-b-c, regardless of sign.",
+  "id": "A268593",
+  "mentions": [
+    "A000040",
+    "A172256"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are a substring of (1234554321)*.",
+  "id": "A109551",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

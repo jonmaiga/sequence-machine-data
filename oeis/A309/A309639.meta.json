@@ -1,0 +1,28 @@
+{
+  "description": "Index of the least harmonic number H_i whose denominator (A002805) is divisible by n.",
+  "id": "A309639",
+  "mentions": [
+    "A000961",
+    "A002805",
+    "A024619",
+    "A034699",
+    "A330691",
+    "A330692",
+    "A330734",
+    "A330735",
+    "A330736",
+    "A330741",
+    "A330753"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

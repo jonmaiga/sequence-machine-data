@@ -1,0 +1,26 @@
+{
+  "description": "Compound filter (multiplicative order of 2 mod 2n+1 & eulerphi(2n+1)): a(n) = P(A002326(n), A037225(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A291755",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A002326",
+    "A037225",
+    "A037226",
+    "A053006",
+    "A291766",
+    "A292249",
+    "A292268"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

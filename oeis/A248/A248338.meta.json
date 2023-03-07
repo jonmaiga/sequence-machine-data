@@ -1,0 +1,24 @@
+{
+  "description": "10^n - 4^n.",
+  "id": "A248338",
+  "mentions": [
+    "A000079",
+    "A000302",
+    "A005057",
+    "A011557",
+    "A016157",
+    "A248337"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:37:56",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

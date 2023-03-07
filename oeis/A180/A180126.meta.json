@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k such that for numbers x >= k, PrimePi(n,x) > PrimePi(n-1,x), where PrimePi(n,x) is the number of n-almost-primes <= x.",
+  "id": "A180126",
+  "mentions": [
+    "A078840",
+    "A125149",
+    "A281889"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

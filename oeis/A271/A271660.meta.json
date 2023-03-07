@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that phi(phi(p-2)-1) = phi(phi(p-1)-1).",
+  "id": "A271660",
+  "mentions": [
+    "A019434",
+    "A271655",
+    "A271656",
+    "A271657",
+    "A271658",
+    "A271659"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n is a power of prime with an even exponent, otherwise 0.",
+  "id": "A353800",
+  "mentions": [
+    "A010055",
+    "A056798",
+    "A302048",
+    "A353817"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

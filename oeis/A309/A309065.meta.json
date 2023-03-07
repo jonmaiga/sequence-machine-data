@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A014574(n) can be represented as a product of two terms in A014574.",
+  "id": "A309065",
+  "mentions": [
+    "A014574",
+    "A307758"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

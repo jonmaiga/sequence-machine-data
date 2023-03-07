@@ -1,0 +1,32 @@
+{
+  "description": "Permutation of natural numbers mapping \"Ludic factorization\" to ordinary factorization: a(1) = 1, a(2n) = 2*a(n), a(A269379(n)) = A003961(a(n)).",
+  "id": "A302026",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003961",
+    "A005940",
+    "A064989",
+    "A250246",
+    "A269172",
+    "A269379",
+    "A269380",
+    "A269388",
+    "A302025",
+    "A302031",
+    "A302032",
+    "A302034",
+    "A302037"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

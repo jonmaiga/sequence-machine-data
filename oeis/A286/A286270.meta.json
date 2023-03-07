@@ -1,0 +1,18 @@
+{
+  "description": "A282133(n)/2.",
+  "id": "A286270",
+  "mentions": [
+    "A282133"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

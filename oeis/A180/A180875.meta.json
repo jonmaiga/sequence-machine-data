@@ -1,0 +1,21 @@
+{
+  "description": "Sum_{j>=1} j^n*2^j/binomial(2*j,j) = r_n*Pi/2 + s_n with integer r_n and s_n; sequence gives s_n.",
+  "id": "A180875",
+  "mentions": [
+    "A000629",
+    "A014307",
+    "A129063"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

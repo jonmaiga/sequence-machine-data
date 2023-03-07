@@ -1,0 +1,19 @@
+{
+  "description": "Integers whose decimal representation has only digits in {4,5,7}.",
+  "id": "A214584",
+  "mentions": [
+    "A072960"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

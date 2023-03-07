@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*a(n-2) for n > 2; a(1) = 4, a(2) = 3.",
+  "id": "A162766",
+  "mentions": [
+    "A074324",
+    "A077236",
+    "A162436",
+    "A162559",
+    "A166552"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:58:19",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

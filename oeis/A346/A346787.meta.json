@@ -1,0 +1,19 @@
+{
+  "description": "Ordered lone-child-avoiding trees where vertices have decreasing subtree sizes.",
+  "id": "A346787",
+  "mentions": [
+    "A196545",
+    "A345973"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

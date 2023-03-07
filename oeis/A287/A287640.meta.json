@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of set partitions of [n], where k is minimal such that for all j in [n]: j is member of block b implies b = 1 or at least one of j-1, ..., j-k is member of a block >= b-1; triangle T(n,k), n >= 0, 0 <= k <= max(floor(n/2), n-2), read by rows.",
+  "id": "A287640",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A001453",
+    "A168415",
+    "A287213",
+    "A287215",
+    "A287416",
+    "A287641"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

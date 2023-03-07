@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where terms in row n equal the partial sums of row n-1 with 1's inserted at positions [0,n,2n-1,3n-3,4n-6,5n-10,...,n(n+1)/2-1] for n>0, with T(0,0)=1.",
+  "id": "A182961",
+  "mentions": [
+    "A129867",
+    "A130469",
+    "A131338"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

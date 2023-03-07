@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 101*n + 97 is prime.",
+  "id": "A111455",
+  "mentions": [
+    "A101084"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:48:47",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

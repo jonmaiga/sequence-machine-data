@@ -1,0 +1,24 @@
+{
+  "description": "Number of even divisors d of n such that d-1 is prime.",
+  "id": "A322977",
+  "mentions": [
+    "A010051",
+    "A059841",
+    "A072627",
+    "A183063",
+    "A322975",
+    "A322976",
+    "A322978"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

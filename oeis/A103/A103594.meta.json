@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p such that Sum_{primes q <= p} 1/q >= n/3.",
+  "id": "A103594",
+  "mentions": [
+    "A016088",
+    "A046024",
+    "A103591",
+    "A103600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

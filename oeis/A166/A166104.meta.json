@@ -1,0 +1,18 @@
+{
+  "description": "Natural numbers whose prime factors are all congruent to 3 or 5 mod 6 (i.e., are in the sequence A045410).",
+  "id": "A166104",
+  "mentions": [
+    "A045410",
+    "A166103"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

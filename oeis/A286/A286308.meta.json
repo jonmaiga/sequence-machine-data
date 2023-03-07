@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that gcd(m, F(m)) = 2, where F(m) denotes the m-th Fibonacci number.",
+  "id": "A286308",
+  "mentions": [
+    "A000045",
+    "A001177",
+    "A008683",
+    "A074215",
+    "A104714"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

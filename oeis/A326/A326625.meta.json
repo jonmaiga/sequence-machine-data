@@ -1,0 +1,25 @@
+{
+  "description": "Number of strict integer partitions of n whose geometric mean is an integer.",
+  "id": "A326625",
+  "mentions": [
+    "A067539",
+    "A078174",
+    "A078175",
+    "A102627",
+    "A326027",
+    "A326567",
+    "A326568",
+    "A326623",
+    "A326624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

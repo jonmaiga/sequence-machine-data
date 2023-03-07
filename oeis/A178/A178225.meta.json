@@ -1,0 +1,30 @@
+{
+  "description": "Characteristic function of A006995 (binary palindromes).",
+  "id": "A178225",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A136522",
+    "A154809",
+    "A164126",
+    "A175096",
+    "A178226",
+    "A206913",
+    "A206914",
+    "A206915",
+    "A206916"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

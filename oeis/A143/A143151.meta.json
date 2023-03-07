@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, A051731 * (A020639 * 0^(n-k)), 1<=k<=n.",
+  "id": "A143151",
+  "mentions": [
+    "A020639",
+    "A051731",
+    "A127093",
+    "A143152"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

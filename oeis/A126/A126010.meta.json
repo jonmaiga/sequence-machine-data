@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(g,h) = 1 if combinatorial games g and h have the same value, 0 if they differ, listed antidiagonally in order A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), ...",
+  "id": "A126010",
+  "mentions": [
+    "A106486",
+    "A125991",
+    "A125999",
+    "A126000",
+    "A126011"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

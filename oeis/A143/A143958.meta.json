@@ -1,0 +1,17 @@
+{
+  "description": "Integers n > 1 such that n-1 is divisible by the difference between the largest and smallest primes dividing n.",
+  "id": "A143958",
+  "mentions": [
+    "A143957"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

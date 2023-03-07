@@ -1,0 +1,17 @@
+{
+  "description": "Define k(x) = number of m such that A000005(gcd(n,m)) is x where m runs from 1 to n , x = 1,2,.. ; z = A000005( cototient(n) ) ; sequence gives numbers n such that n - ( Sum_{i=1..j} k(i) ) divides cototient(n) for any j <= z , k(i)>0.",
+  "id": "A196736",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

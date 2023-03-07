@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 5 arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, with every occupancy equal to zero or two.",
+  "id": "A221416",
+  "mentions": [
+    "A221419"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

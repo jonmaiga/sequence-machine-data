@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least integer of the form (n-2)(n-4)...(n-2k)/n. 0 if no such number exists.",
+  "id": "A109898",
+  "mentions": [
+    "A109899"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

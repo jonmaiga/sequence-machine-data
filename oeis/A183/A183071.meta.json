@@ -1,0 +1,28 @@
+{
+  "description": "Positive integers k such that each prime divisor of 2^k - 1 has the form 4j + 3.",
+  "id": "A183071",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A136003",
+    "A136005",
+    "A183072",
+    "A183073",
+    "A183074",
+    "A183075",
+    "A183076",
+    "A183077",
+    "A183078"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

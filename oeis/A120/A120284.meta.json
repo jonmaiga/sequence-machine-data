@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of absolute value of Sum[(-1)^(k+1)*(2k+1)*Sum[1/i,{i,1,k}],{k,1,n}]]].",
+  "id": "A120284",
+  "mentions": [
+    "A001008",
+    "A061002"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

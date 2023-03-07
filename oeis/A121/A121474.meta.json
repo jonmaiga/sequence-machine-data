@@ -1,0 +1,21 @@
+{
+  "description": "A devil's staircase constant: decimal expansion of the sums involving powers of 2 and Beatty sequences given by: c = Sum_{n>=1} [log_2(e^n)]/2^n = Sum_{n>=1} 1/2^[log(2^n)].",
+  "id": "A121474",
+  "mentions": [
+    "A121472",
+    "A121473",
+    "A121475"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of multiset partitions of integer partitions of n with empty intersection. Number of relatively prime factorizations of Heinz numbers of integer partitions of n.",
+  "id": "A319781",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A281116",
+    "A283877",
+    "A316980",
+    "A317752",
+    "A317755",
+    "A317757",
+    "A318715",
+    "A319775",
+    "A319778",
+    "A319779",
+    "A319783"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

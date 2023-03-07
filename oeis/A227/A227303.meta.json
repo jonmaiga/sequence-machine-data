@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k divides sigma(3*k).",
+  "id": "A227303",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A160320",
+    "A160321",
+    "A227302"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

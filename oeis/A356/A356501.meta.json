@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients T(n,k) of x^(4*n+1-k)*y^k in A(x,y) for n >= 0, k = 0..3*n+1, where A(x,y) satisfies: y = Sum_{n=-oo..+oo} (-x)^(n^2) * A(x,y)^((n-1)^2), as an irregular triangle read by rows.",
+  "id": "A356501",
+  "mentions": [
+    "A000716",
+    "A002293",
+    "A355872",
+    "A356500"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

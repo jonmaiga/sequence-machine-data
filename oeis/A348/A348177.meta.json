@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of pair of positive integers (x, y) with 1 <= x <= y such that sum s = x + y and product p = x * y satisfy s + p = 2^n, with n > 0.",
+  "id": "A348177",
+  "mentions": [
+    "A019434",
+    "A046798",
+    "A092559"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

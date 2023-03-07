@@ -1,0 +1,21 @@
+{
+  "description": "Total number of parts that are partition numbers A000041 in all partitions of n.",
+  "id": "A183088",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A037032",
+    "A144115"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

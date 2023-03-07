@@ -1,0 +1,22 @@
+{
+  "description": "Number of bicolored graphs on n unlabeled nodes such that black nodes are not adjacent to each other.",
+  "id": "A339832",
+  "mentions": [
+    "A000666",
+    "A049312",
+    "A079491",
+    "A339830",
+    "A339836",
+    "A340021"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

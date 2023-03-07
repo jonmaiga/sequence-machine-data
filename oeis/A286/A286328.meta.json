@@ -1,0 +1,21 @@
+{
+  "description": "Least integer k such that the area of the triangle (prime(n), k, k+1) is integer.",
+  "id": "A286328",
+  "mentions": [
+    "A002496",
+    "A011945",
+    "A062325",
+    "A084921",
+    "A188158"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

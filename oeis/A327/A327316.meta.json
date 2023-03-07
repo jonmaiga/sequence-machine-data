@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: row n shows the coefficients of this polynomial of degree n: p(x,n) = ((x+r)^n - (x+s)^n)/(r - s), where r = 3 and s = 2.",
+  "id": "A327316",
+  "mentions": [
+    "A001047",
+    "A005060",
+    "A005061",
+    "A005062",
+    "A081200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

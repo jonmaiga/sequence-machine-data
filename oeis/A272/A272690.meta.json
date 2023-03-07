@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 22*Sum_{i=0..n-2} 46^i*2^(n-2-i) + 2^(n-1).",
+  "id": "A272690",
+  "mentions": [
+    "A112389",
+    "A112390"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

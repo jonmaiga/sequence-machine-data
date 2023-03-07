@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of integer partitions whose LCM is twice their sum.",
+  "id": "A327775",
+  "mentions": [
+    "A056239",
+    "A074761",
+    "A112798",
+    "A290103",
+    "A326841",
+    "A327776",
+    "A327778",
+    "A327780",
+    "A327783",
+    "A327784"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

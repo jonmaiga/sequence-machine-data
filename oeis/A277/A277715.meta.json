@@ -1,0 +1,24 @@
+{
+  "description": "Row 5 of A277710: Positions of 5's in A264977; positions of 10's in A277330.",
+  "id": "A277715",
+  "mentions": [
+    "A033583",
+    "A068156",
+    "A260443",
+    "A264977",
+    "A277330",
+    "A277710",
+    "A277716"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

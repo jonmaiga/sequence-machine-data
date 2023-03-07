@@ -1,0 +1,29 @@
+{
+  "description": "T(n,k) = number of ways to reciprocally link elements of an n X k array either to themselves or to exactly one king-move neighbor.",
+  "id": "A220644",
+  "mentions": [
+    "A000045",
+    "A052978",
+    "A220638",
+    "A220639",
+    "A220640",
+    "A220641",
+    "A220642",
+    "A220643",
+    "A239264",
+    "A243314",
+    "A243315",
+    "A243316"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

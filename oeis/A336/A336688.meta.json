@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the Wendt determinant A048954(p) has prime factors less than p.",
+  "id": "A336688",
+  "mentions": [
+    "A031157",
+    "A048954",
+    "A336280"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

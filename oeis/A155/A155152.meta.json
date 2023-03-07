@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 13n^2+3n+1 is prime.",
+  "id": "A155152",
+  "mentions": [
+    "A155153"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:11:29",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

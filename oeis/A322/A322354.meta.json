@@ -1,0 +1,23 @@
+{
+  "description": "Greatest common divisor of product p and product (p+2), where p ranges over distinct prime divisors of n; a(n) = gcd(A007947(n), A166590(A007947(n))).",
+  "id": "A322354",
+  "mentions": [
+    "A007947",
+    "A066086",
+    "A166590",
+    "A322356",
+    "A322357",
+    "A322362"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

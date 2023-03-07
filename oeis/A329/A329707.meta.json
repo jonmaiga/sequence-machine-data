@@ -1,0 +1,18 @@
+{
+  "description": "Number of placements of zero or more dominoes on a 2 X n grid where no two empty squares are horizontally adjacent.",
+  "id": "A329707",
+  "mentions": [
+    "A332862"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

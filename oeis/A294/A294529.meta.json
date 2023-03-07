@@ -1,0 +1,22 @@
+{
+  "description": "Binomial transform of A001156.",
+  "id": "A294529",
+  "mentions": [
+    "A001156",
+    "A218481",
+    "A266232",
+    "A294500",
+    "A294530"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

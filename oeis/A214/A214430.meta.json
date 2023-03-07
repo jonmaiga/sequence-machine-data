@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, where T(n,m) is sum of the absolute values of the m-th column (in lexicographic ordering) in the character table of S_n.",
+  "id": "A214430",
+  "mentions": [
+    "A000085",
+    "A164341",
+    "A214418"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

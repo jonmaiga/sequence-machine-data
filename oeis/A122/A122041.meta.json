@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2*a(n-1) - 1 for n>1, a(1)=23.",
+  "id": "A122041",
+  "mentions": [
+    "A083683"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

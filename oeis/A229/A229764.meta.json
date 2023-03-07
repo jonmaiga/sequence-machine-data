@@ -1,0 +1,18 @@
+{
+  "description": "Nim sequence of MARK: the game on n counters in which the legal moves are to remove 1 counter or to halve the number of counters and round down.",
+  "id": "A229764",
+  "mentions": [
+    "A036554",
+    "A036578"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

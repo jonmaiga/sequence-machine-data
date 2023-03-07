@@ -1,0 +1,19 @@
+{
+  "description": "Start of the smallest m-string of equal entries in A003418(n)=lcm(1,2,...,n), where m=A121492.",
+  "id": "A121493",
+  "mentions": [
+    "A002540",
+    "A003418",
+    "A121492"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

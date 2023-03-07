@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A184830(n)/A184829(n) unless A184829(n) = 0 in which case a(n) = 0.",
+  "id": "A184831",
+  "mentions": [
+    "A000961",
+    "A001223",
+    "A057820",
+    "A117078",
+    "A117563",
+    "A118534",
+    "A184829",
+    "A184830"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

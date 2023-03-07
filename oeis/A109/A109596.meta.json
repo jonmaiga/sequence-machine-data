@@ -1,0 +1,20 @@
+{
+  "description": "The first 12 numbers in alphabetical order: Eight, Eleven, Five, Four, Nine, One, Seven, Six, Ten, Three, Twelve, Two.",
+  "id": "A109596",
+  "mentions": [
+    "A000052"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

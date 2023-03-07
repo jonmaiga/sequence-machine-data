@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of double palindromes of length n using a maximum of k different symbols.",
+  "id": "A284873",
+  "mentions": [
+    "A000567",
+    "A007055",
+    "A007056",
+    "A007057",
+    "A007058",
+    "A023900",
+    "A165135",
+    "A165137",
+    "A187272",
+    "A187273",
+    "A187274",
+    "A187275",
+    "A187277"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

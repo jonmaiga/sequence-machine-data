@@ -1,0 +1,22 @@
+{
+  "description": "Value of -F(0), where F(x) is the indefinite integral of x^(1/x).",
+  "id": "A350358",
+  "mentions": [
+    "A073229",
+    "A175999",
+    "A176000",
+    "A350297"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if arithmetic derivative of n is square, 0 otherwise. Cf. A003415.",
+  "id": "A327866",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A010052",
+    "A256706"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

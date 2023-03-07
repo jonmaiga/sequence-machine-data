@@ -1,0 +1,31 @@
+{
+  "description": "Number of compositions of n into parts {3,4,5} when all parts 3,4 and 5 are present.",
+  "id": "A243254",
+  "mentions": [
+    "A011765",
+    "A017817",
+    "A017818",
+    "A017827",
+    "A022003",
+    "A052920",
+    "A079978",
+    "A079998",
+    "A112765",
+    "A121262",
+    "A245487",
+    "A245492",
+    "A245527"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 12,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

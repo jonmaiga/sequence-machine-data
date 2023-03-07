@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of smallest x > 1 satisfying x^(i*x) = 1, where i is the imaginary unit.",
+  "id": "A330392",
+  "mentions": [
+    "A000796",
+    "A202495"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

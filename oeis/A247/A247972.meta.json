@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A247971(k+1) = A247971(k).",
+  "id": "A247972",
+  "mentions": [
+    "A247971",
+    "A247973",
+    "A247974"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

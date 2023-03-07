@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the length of the n-th run of identical consecutive values in A131789.",
+  "id": "A131790",
+  "mentions": [
+    "A000005",
+    "A131789"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least nonnegative integer y such that -n = x^4 - y^3 + z^2 for some nonnegative integers x and z, or -1 if no such y exists.",
+  "id": "A266004",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A266003"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

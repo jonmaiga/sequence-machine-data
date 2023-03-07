@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k occurrences of the pattern 321 (n>=1, 0<=k<=n(n-1)(n-2)/6).",
+  "id": "A138159",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A000292",
+    "A001089",
+    "A001810",
+    "A003517",
+    "A056986",
+    "A263771"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

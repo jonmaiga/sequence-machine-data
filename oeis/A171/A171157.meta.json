@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct primes > 3 that divide n.",
+  "id": "A171157",
+  "mentions": [
+    "A001221",
+    "A171182"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

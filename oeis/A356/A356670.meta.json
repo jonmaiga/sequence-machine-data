@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of correct decimal digits of Pi obtained from the fraction A355622(n)/A355623(n).",
+  "id": "A356670",
+  "mentions": [
+    "A000796",
+    "A355622",
+    "A355623",
+    "A356671"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

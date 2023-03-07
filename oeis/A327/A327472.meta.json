@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer partitions of n not containing their mean.",
+  "id": "A327472",
+  "mentions": [
+    "A007865",
+    "A067538",
+    "A102627",
+    "A114639",
+    "A237984",
+    "A240851",
+    "A324756",
+    "A327471",
+    "A327473",
+    "A327476",
+    "A327477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

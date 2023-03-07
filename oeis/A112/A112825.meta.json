@@ -1,0 +1,17 @@
+{
+  "description": "Least even number k such that the Goldbach gap is 2n, or 0 if no such number exists.",
+  "id": "A112825",
+  "mentions": [
+    "A020481"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Riesel problem in base 3: a(n) is the smallest k >= 0 such that (2*n)*3^k-1 is prime, or -1 if no such k exists.",
+  "id": "A343914",
+  "mentions": [
+    "A040081",
+    "A273987"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

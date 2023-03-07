@@ -1,0 +1,25 @@
+{
+  "description": "Positions of smaller of twin primes in A001359 with index 6.",
+  "id": "A242919",
+  "mentions": [
+    "A001359",
+    "A242758",
+    "A242767",
+    "A242768",
+    "A242807",
+    "A242881",
+    "A242913",
+    "A242917",
+    "A242918"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

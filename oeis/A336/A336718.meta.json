@@ -1,0 +1,24 @@
+{
+  "description": "Total number of left-to-right maxima in all compositions of n into distinct parts.",
+  "id": "A336718",
+  "mentions": [
+    "A000254",
+    "A003056",
+    "A008289",
+    "A032020",
+    "A336482",
+    "A336770",
+    "A336771"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

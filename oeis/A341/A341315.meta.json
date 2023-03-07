@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n+k)/gcd(n,k), n>=0, 0<=k<=n.",
+  "id": "A341315",
+  "mentions": [
+    "A054531",
+    "A341314",
+    "A341316"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:03",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

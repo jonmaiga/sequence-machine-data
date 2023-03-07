@@ -1,0 +1,26 @@
+{
+  "description": "Largest factor in the factorization of n! over distinct terms of A050376.",
+  "id": "A177334",
+  "mentions": [
+    "A000142",
+    "A001358",
+    "A050292",
+    "A050376",
+    "A055460",
+    "A064380",
+    "A176509",
+    "A176525",
+    "A177329",
+    "A177333"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

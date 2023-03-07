@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{i>=1} x^(i*(i+1)/2)/(1 + x^(i*(i+1)/2)) * Product_{j>=1} (1 + x^(j*(j+1)/2)).",
+  "id": "A281666",
+  "mentions": [
+    "A000217",
+    "A015723",
+    "A024940",
+    "A281542",
+    "A281615",
+    "A329801"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

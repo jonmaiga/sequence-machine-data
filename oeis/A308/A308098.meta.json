@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that sequence of their values of sigma(m) corresponds to sequence of unique values of function sigma(n) for n >= 1 in increasing order (A007370).",
+  "id": "A308098",
+  "mentions": [
+    "A000203",
+    "A007370",
+    "A211656",
+    "A211657"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

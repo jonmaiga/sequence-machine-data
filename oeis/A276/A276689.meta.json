@@ -1,0 +1,20 @@
+{
+  "description": "Least term in the periodic part of the continued fraction expansion of sqrt(n) or 0 if n is square.",
+  "id": "A276689",
+  "mentions": [
+    "A003285",
+    "A031424",
+    "A091453",
+    "A096491"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

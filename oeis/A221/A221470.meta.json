@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that the Collatz (3x+1) iteration of m has exactly n increasing peak values.",
+  "id": "A221470",
+  "mentions": [
+    "A070165",
+    "A221469"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

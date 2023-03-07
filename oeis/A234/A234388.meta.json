@@ -1,0 +1,32 @@
+{
+  "description": "Primes of the form 2^k*(2^{phi(m)} - 1) + 1, where k and m are positive integers, and phi(.) is Euler's totient function.",
+  "id": "A234388",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000079",
+    "A000668",
+    "A019434",
+    "A152449",
+    "A234309",
+    "A234310",
+    "A234337",
+    "A234344",
+    "A234346",
+    "A234347",
+    "A234359",
+    "A234360",
+    "A234361",
+    "A234399"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

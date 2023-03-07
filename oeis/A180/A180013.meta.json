@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: T(n,k) = number of fixed points in the permutations of {1,2,...,n} that have exactly k cycles; n>=1, 1<=k<=n.",
+  "id": "A180013",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A001048",
+    "A027480",
+    "A132393"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

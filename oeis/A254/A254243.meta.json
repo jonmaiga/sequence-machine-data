@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to partition the multiset consisting of 3 copies each of 1, 2, ..., n into n sets of size 3.",
+  "id": "A254243",
+  "mentions": [
+    "A002135",
+    "A254233",
+    "A257463"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

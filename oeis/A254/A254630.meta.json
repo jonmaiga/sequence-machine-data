@@ -1,0 +1,39 @@
+{
+  "description": "Ascending antidiagonal numerators of the table of repeated differences of A164558(n)/A027642(n).",
+  "id": "A254630",
+  "mentions": [
+    "A001787",
+    "A002697",
+    "A027471",
+    "A027641",
+    "A027642",
+    "A074909",
+    "A085737",
+    "A085738",
+    "A104002",
+    "A157809",
+    "A157920",
+    "A157930",
+    "A157945",
+    "A157946",
+    "A157965",
+    "A158302",
+    "A164555",
+    "A164558",
+    "A181131",
+    "A190339"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

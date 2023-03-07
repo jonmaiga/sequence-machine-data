@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: a(n,k) = (k-1)! * C(n,k).",
+  "id": "A111492",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A000217",
+    "A001048",
+    "A002104",
+    "A006231",
+    "A007290",
+    "A033487",
+    "A051168",
+    "A104712",
+    "A135278",
+    "A185158",
+    "A208535",
+    "A238363"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

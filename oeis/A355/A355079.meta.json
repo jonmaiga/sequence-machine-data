@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: the first row is 1, and the n-th row (n > 1) lists the factors f of n where n/f is prime (the maximal factors of n.)",
+  "id": "A355079",
+  "mentions": [
+    "A019312",
+    "A302170"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

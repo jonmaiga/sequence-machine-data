@@ -1,0 +1,37 @@
+{
+  "description": "Primes whose base-4 representation is also the base-5 representation of a prime.",
+  "id": "A235474",
+  "mentions": [
+    "A020449",
+    "A036952",
+    "A065720",
+    "A065721",
+    "A065727",
+    "A089971",
+    "A089981",
+    "A090707",
+    "A090721",
+    "A091924",
+    "A152079",
+    "A235265",
+    "A235266",
+    "A235394",
+    "A235395",
+    "A235461",
+    "A235473",
+    "A235475",
+    "A235479",
+    "A235482"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

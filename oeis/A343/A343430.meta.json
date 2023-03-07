@@ -1,0 +1,34 @@
+{
+  "description": "Part of n composed of prime factors of the form 3k-1.",
+  "id": "A343430",
+  "mentions": [
+    "A000265",
+    "A002476",
+    "A003136",
+    "A003627",
+    "A004612",
+    "A006519",
+    "A007528",
+    "A007913",
+    "A038500",
+    "A038502",
+    "A097706",
+    "A170818",
+    "A247503",
+    "A248909",
+    "A343431"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

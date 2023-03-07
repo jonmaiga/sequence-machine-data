@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = L_n(n), where L_n(x) is the Lucas polynomial.",
+  "id": "A320570",
+  "mentions": [
+    "A084844",
+    "A320534",
+    "A352362"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

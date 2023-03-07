@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose squares became cubes if some digit is prepended, inserted or appended.",
+  "id": "A248127",
+  "mentions": [
+    "A248051",
+    "A249853"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

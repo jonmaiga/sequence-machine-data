@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m)=1 + n*(2*m + 1 + n)/2, 0<=m<=n.",
+  "id": "A176798",
+  "mentions": [
+    "A081435",
+    "A104249"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

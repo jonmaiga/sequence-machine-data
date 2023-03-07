@@ -1,0 +1,19 @@
+{
+  "description": "Weird numbers that are the sum of 2 weird numbers.",
+  "id": "A166485",
+  "mentions": [
+    "A005101",
+    "A005835",
+    "A006037"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

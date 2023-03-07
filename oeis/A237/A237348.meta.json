@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered ways to write n = k + m with k > 0 and m > 0 such that prime(k) + 4 and prime(prime(m)) + 4 are both prime.",
+  "id": "A237348",
+  "mentions": [
+    "A000040",
+    "A023200",
+    "A046132",
+    "A218829"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

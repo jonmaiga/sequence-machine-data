@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k for which the cototient k-phi(k) is an enneagonal number (A001106).",
+  "id": "A117289",
+  "mentions": [
+    "A000010",
+    "A001106",
+    "A051953",
+    "A117283",
+    "A117284",
+    "A117285",
+    "A117286",
+    "A117287",
+    "A117288"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

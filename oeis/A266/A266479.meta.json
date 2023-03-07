@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-vertex simple graphs G_n for which n does not divide the number of labeled copies of G_n.",
+  "id": "A266479",
+  "mentions": [
+    "A000088",
+    "A049287",
+    "A266478"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

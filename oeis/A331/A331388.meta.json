@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(gcd(n, k)) * k / gcd(n, k).",
+  "id": "A331388",
+  "mentions": [
+    "A007427",
+    "A007431",
+    "A008683",
+    "A023896",
+    "A057661",
+    "A063445"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:19",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

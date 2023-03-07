@@ -1,0 +1,23 @@
+{
+  "description": "Denominators in inverse of A128077, numerators = 1.",
+  "id": "A128090",
+  "mentions": [
+    "A045991",
+    "A128077",
+    "A128091"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "more",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Twice octagonal numbers: 2*n*(3*n-2).",
+  "id": "A139267",
+  "mentions": [
+    "A000567",
+    "A001318",
+    "A017545",
+    "A033580",
+    "A226488"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:29",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

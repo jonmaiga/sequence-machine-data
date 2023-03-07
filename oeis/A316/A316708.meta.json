@@ -1,0 +1,23 @@
+{
+  "description": "Bisection of the odd-indexed Pell numbers A001653: part 1.",
+  "id": "A316708",
+  "mentions": [
+    "A000129",
+    "A001653",
+    "A002315",
+    "A029547",
+    "A316709"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:20:17",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

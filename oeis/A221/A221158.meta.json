@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci numbers with two 1's in the binary representation.",
+  "id": "A221158",
+  "mentions": [
+    "A000045",
+    "A004685",
+    "A222296"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

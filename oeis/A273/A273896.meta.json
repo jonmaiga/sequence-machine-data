@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k UHU configurations, where U=(0,1), H(1,0); (n>=2, k>=0).",
+  "id": "A273896",
+  "mentions": [
+    "A082582",
+    "A091561",
+    "A273714"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

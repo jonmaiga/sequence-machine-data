@@ -1,0 +1,19 @@
+{
+  "description": "n+[rn/s]+[tn/s]+[un/s], where []=floor and r=1, s=sqrt(3), t=sqrt(5), u=sqrt(7).",
+  "id": "A184925",
+  "mentions": [
+    "A184924",
+    "A184926",
+    "A184927"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:03",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

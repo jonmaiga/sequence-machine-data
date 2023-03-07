@@ -1,0 +1,17 @@
+{
+  "description": "Call n Egyptian if we can partition n = x_1+x_2+...+x_k into positive integers x_i such that Sum_{i=1..k} 1/x_i = 1; sequence gives Egyptian numbers.",
+  "id": "A125726",
+  "mentions": [
+    "A028229"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

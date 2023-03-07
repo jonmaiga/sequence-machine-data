@@ -1,0 +1,31 @@
+{
+  "description": "Coordinates (x,y) of the endpoint of a structure (or curve) formed by Q-toothpicks in which the inflection points are the prime numbers A000040.",
+  "id": "A211000",
+  "mentions": [
+    "A000040",
+    "A187210",
+    "A210838",
+    "A210841",
+    "A211001",
+    "A211003",
+    "A211010",
+    "A211011",
+    "A211020",
+    "A211021",
+    "A211022",
+    "A211024",
+    "A355478",
+    "A357434"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

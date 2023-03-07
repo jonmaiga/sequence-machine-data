@@ -1,0 +1,24 @@
+{
+  "description": "Number of factors L(i) > 1 of A274281(n), where L = A000032 (Lucas numbers, 2,1,3,4,..., with 1 excluded)",
+  "id": "A274354",
+  "mentions": [
+    "A000032",
+    "A160009",
+    "A272947",
+    "A274281",
+    "A274349",
+    "A274350",
+    "A274353"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

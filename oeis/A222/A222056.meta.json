@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (6/Pi^2)*Sum_{n>=1} 1/prime(n)^2.",
+  "id": "A222056",
+  "mentions": [
+    "A059956",
+    "A082293",
+    "A085548"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

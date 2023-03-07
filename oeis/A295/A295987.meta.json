@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping) occurrences of the consecutive step patterns 010 or 101, where 1=up and 0=down; triangle T(n,k), n >= 0, k = max(0, n-3), read by rows.",
+  "id": "A295987",
+  "mentions": [
+    "A000111",
+    "A000142",
+    "A001250",
+    "A227884",
+    "A230695",
+    "A230797",
+    "A231384",
+    "A232933",
+    "A242783",
+    "A242819",
+    "A242820",
+    "A260786",
+    "A295974",
+    "A296054"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

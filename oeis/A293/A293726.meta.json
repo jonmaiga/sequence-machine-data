@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (1/2)*A293725(n).",
+  "id": "A293726",
+  "mentions": [
+    "A002103",
+    "A004539",
+    "A293725",
+    "A293727",
+    "A293728"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

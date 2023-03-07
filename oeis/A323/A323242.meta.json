@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence such that a(i) = a(j) => f(i) = f(j) for all i, j, where f(n<=2) = -n, f(n) = 0 if n is an even number > 2, and f(n) = A300226(n) for odd numbers >= 3.",
+  "id": "A323242",
+  "mentions": [
+    "A052126",
+    "A300226",
+    "A319701",
+    "A319988",
+    "A323241"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

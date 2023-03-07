@@ -1,0 +1,20 @@
+{
+  "description": "Keränen's abelian squarefree endomorphism of size 85 on the symbols {1,2,3,4}.",
+  "id": "A185311",
+  "mentions": [
+    "A007413",
+    "A185312"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

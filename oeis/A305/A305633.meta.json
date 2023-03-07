@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Sum_{r not a perfect power} x^r/(1 + x^r).",
+  "id": "A305633",
+  "mentions": [
+    "A000607",
+    "A001597",
+    "A007916",
+    "A048165",
+    "A081362",
+    "A091050",
+    "A303707",
+    "A304779",
+    "A304817",
+    "A305614",
+    "A305630",
+    "A305635"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

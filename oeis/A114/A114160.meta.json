@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. is A(x) = (1-log(B(x)))/B(x), where B(x) = sqrt(1-2*x).",
+  "id": "A114160",
+  "mentions": [
+    "A001147",
+    "A004041",
+    "A114161"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

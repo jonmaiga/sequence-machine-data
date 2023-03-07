@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f. A(x) satisfies: [x^n] A(x)^(n^5) = n^5 * [x^(n-1)] A(x)^(n^5) for n>=1.",
+  "id": "A300614",
+  "mentions": [
+    "A182962",
+    "A296170",
+    "A300590",
+    "A300592",
+    "A300594",
+    "A300596",
+    "A300615"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

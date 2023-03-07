@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of Farey fractions sorted according to increasing k, with k = numerator^2 + denominator^2. Fractions with same k are sorted in order of increasing denominator.",
+  "id": "A279783",
+  "mentions": [
+    "A279782"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

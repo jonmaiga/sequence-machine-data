@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k^3 has an odd number of digits in base 2 and the middle digit is 1.",
+  "id": "A280651",
+  "mentions": [
+    "A279420",
+    "A279429",
+    "A279430",
+    "A279431",
+    "A280640",
+    "A280649",
+    "A280650"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

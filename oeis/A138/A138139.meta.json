@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n contains n terms and each column lists the prime numbers A000040.",
+  "id": "A138139",
+  "mentions": [
+    "A000040",
+    "A003983"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

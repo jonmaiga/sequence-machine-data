@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that occur in more than one way as results of \"downward\" remultiplication (N -> GF(2)[X]) of some number.",
+  "id": "A236835",
+  "mentions": [
+    "A048720",
+    "A091209",
+    "A234741",
+    "A236379",
+    "A236833",
+    "A236834"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

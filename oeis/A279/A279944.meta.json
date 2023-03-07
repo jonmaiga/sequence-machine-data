@@ -1,0 +1,30 @@
+{
+  "description": "Number of positions in the free pure symmetric multifunction in one symbol with j-number n.",
+  "id": "A279944",
+  "mentions": [
+    "A000040",
+    "A005043",
+    "A007916",
+    "A058891",
+    "A106490",
+    "A277564",
+    "A277576",
+    "A277615",
+    "A277996",
+    "A278028",
+    "A279969",
+    "A279984",
+    "A280000"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

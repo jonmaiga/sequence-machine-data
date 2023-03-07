@@ -1,0 +1,22 @@
+{
+  "description": "Cardinality of the shortcut set of the multiplicative group of integers modulo the n-th primorial.",
+  "id": "A308665",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005867",
+    "A155747"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

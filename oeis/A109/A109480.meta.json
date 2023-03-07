@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: 8th root of weight enumerator of [64,51,6] extended BCH code (cf. A109479).",
+  "id": "A109480",
+  "mentions": [
+    "A109479"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:15",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least prime which is followed by a gap of 30n",
+  "id": "A224522",
+  "mentions": [
+    "A000101",
+    "A000230",
+    "A058193",
+    "A140791"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

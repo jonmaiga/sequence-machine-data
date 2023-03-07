@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n == 3 (mod 4) such that (1 + i)^n == 1 - i (mod n), where i = sqrt(-1).",
+  "id": "A270697",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A047713",
+    "A244628",
+    "A270698",
+    "A318908"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

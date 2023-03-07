@@ -1,0 +1,18 @@
+{
+  "description": "O.g.f. equals the square of the e.g.f. of A291561.",
+  "id": "A292119",
+  "mentions": [
+    "A291560",
+    "A291561"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

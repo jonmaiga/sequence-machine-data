@@ -1,0 +1,35 @@
+{
+  "description": "Numbers n such that Bernoulli number B_n has denominator 2730.",
+  "id": "A249134",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A006954",
+    "A027642",
+    "A027760",
+    "A027762",
+    "A051222",
+    "A051225",
+    "A051230",
+    "A245056",
+    "A271634",
+    "A271635",
+    "A272138",
+    "A272139",
+    "A272140",
+    "A272183",
+    "A272184",
+    "A272185",
+    "A272186"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

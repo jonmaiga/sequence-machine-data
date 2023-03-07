@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4 X 4 0..n arrays with row and column sums equal",
+  "id": "A202786",
+  "mentions": [
+    "A202784"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{i=1..n-k} inverse-q-binomial(n-k-1, i-1) * q-binomial(n-2+i, n-2) for 0 < k < n with initial values T(n, 0) = 0 for n > 0 and T(n, n) = 1 for n >= 0, here q = 2.",
+  "id": "A355401",
+  "mentions": [
+    "A022166",
+    "A053763",
+    "A097805",
+    "A135950"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

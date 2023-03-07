@@ -1,0 +1,20 @@
+{
+  "description": "Position of last n in A246694 (read as a sequence, with offset changed to 1); complement of A246705.",
+  "id": "A246706",
+  "mentions": [
+    "A246694",
+    "A246695",
+    "A246705"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A034968(A219666(n)); after zero, the differences between successive nodes in the infinite trunk of the factorial beanstalk (A219666).",
+  "id": "A230406",
+  "mentions": [
+    "A000217",
+    "A007623",
+    "A034968",
+    "A213712",
+    "A219666",
+    "A226061",
+    "A230410",
+    "A230418"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

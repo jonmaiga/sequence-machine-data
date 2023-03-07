@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: first row is 1, and n-th row gives the coefficients of x^(n - 1)*R(n,x + 1/x)/(x + 1/x), where R(n,x) is the n-th row polynomial for A060187.",
+  "id": "A143506",
+  "mentions": [
+    "A008292",
+    "A060187",
+    "A080253",
+    "A143505",
+    "A143507"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

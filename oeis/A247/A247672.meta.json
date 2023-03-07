@@ -1,0 +1,25 @@
+{
+  "description": "Least integer m > 0 with pi(m*n) = phi(m) + phi(n), where pi(.) is the prime-counting function and phi(.) is Euler's totient function.",
+  "id": "A247672",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A247600",
+    "A247601",
+    "A247602",
+    "A247603",
+    "A247604",
+    "A247673"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1) where s(k) is the sum of divisors of k that are smaller than sqrt(k) (A070039).",
+  "id": "A324295",
+  "mentions": [
+    "A002961",
+    "A064115",
+    "A064125",
+    "A070039",
+    "A164522",
+    "A164557",
+    "A293183",
+    "A306985",
+    "A325175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

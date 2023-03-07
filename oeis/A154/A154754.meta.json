@@ -1,0 +1,25 @@
+{
+  "description": "Ratio of the period and the reduced period of the Fibonacci 3-step sequence A000073 mod prime(n).",
+  "id": "A154754",
+  "mentions": [
+    "A000073",
+    "A046737",
+    "A046738",
+    "A106302",
+    "A116515",
+    "A154753",
+    "A154755",
+    "A154756"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

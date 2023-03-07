@@ -1,0 +1,29 @@
+{
+  "description": "Numbers in A259145 that are neither prime nor semiprime.",
+  "id": "A259172",
+  "mentions": [
+    "A000005",
+    "A000469",
+    "A001221",
+    "A001358",
+    "A002997",
+    "A007053",
+    "A033942",
+    "A050384",
+    "A051015",
+    "A125527",
+    "A259145"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

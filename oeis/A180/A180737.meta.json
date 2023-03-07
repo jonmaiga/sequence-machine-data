@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest n-digit square whose sum of digits is also a square.",
+  "id": "A180737",
+  "mentions": [
+    "A007953",
+    "A053057",
+    "A180738"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

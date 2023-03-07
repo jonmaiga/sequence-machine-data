@@ -1,0 +1,21 @@
+{
+  "description": "Primes concatenated from four consecutive odd numbers.",
+  "id": "A105238",
+  "mentions": [
+    "A000040",
+    "A032625"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

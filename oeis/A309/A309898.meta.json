@@ -1,0 +1,20 @@
+{
+  "description": "For each b = 1, 2, 3, ... numbers k = 1, 2, 3, ... are inserted into the blanks within the sequence along with k * b blanks, skipping existing terms in the sequence.",
+  "id": "A309898",
+  "mentions": [
+    "A002260",
+    "A003602",
+    "A306470"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

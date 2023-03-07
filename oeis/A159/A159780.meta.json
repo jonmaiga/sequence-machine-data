@@ -1,0 +1,23 @@
+{
+  "description": "Inner product of the binary representation of n and its reverse.",
+  "id": "A159780",
+  "mentions": [
+    "A000225",
+    "A030308",
+    "A070939",
+    "A140900",
+    "A173920",
+    "A216176"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

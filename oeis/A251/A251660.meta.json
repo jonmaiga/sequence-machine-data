@@ -1,0 +1,27 @@
+{
+  "description": "Table of coefficients in functions R(n,x) defined by R(n,x) = exp( n*x*G(n,x)^(n-1) ) / G(n,x)^(n-1) where G(n,x) = 1 + x*G(n,x)^n, for rows n>=1.",
+  "id": "A251660",
+  "mentions": [
+    "A243953",
+    "A251573",
+    "A251574",
+    "A251575",
+    "A251576",
+    "A251577",
+    "A251578",
+    "A251579",
+    "A251580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

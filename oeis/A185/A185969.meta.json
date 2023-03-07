@@ -1,0 +1,21 @@
+{
+  "description": "Let S be the sequence of power towers built of 2 and 3 sorted by their height and for equal heights - in lexicographic order: 2, 3, 2^2, 2^3, 3^2, 3^3, 2^2^2, 2^2^3 etc. A(n) = the permutation of indexes which reorders S by magnitude.",
+  "id": "A185969",
+  "mentions": [
+    "A032810",
+    "A248907",
+    "A256179",
+    "A256231"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

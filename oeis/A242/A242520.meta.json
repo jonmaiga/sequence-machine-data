@@ -1,0 +1,33 @@
+{
+  "description": "Number of cyclic arrangements of S={1,2,...,2n} such that the difference between any two neighbors is 3^k for some k=0,1,2,...",
+  "id": "A242520",
+  "mentions": [
+    "A242519",
+    "A242521",
+    "A242522",
+    "A242523",
+    "A242524",
+    "A242525",
+    "A242526",
+    "A242527",
+    "A242528",
+    "A242529",
+    "A242530",
+    "A242531",
+    "A242532",
+    "A242533",
+    "A242534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A033879(k) = A033879(n), where A033879(n) is the deficiency of n, 2n-sigma(n).",
+  "id": "A331181",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A033880",
+    "A286449",
+    "A331180",
+    "A331182"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

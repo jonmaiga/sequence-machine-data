@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} 2^A090740(n) * x^n/n ) where A090740(n) = highest exponent of 2 in 3^n-1.",
+  "id": "A182000",
+  "mentions": [
+    "A090740",
+    "A161809",
+    "A173283",
+    "A182185"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

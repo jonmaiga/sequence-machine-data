@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes n (A001358) for which A000001(n) is 2.",
+  "id": "A142863",
+  "mentions": [
+    "A000001",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

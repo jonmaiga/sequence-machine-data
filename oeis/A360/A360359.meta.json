@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A360331(k) = A360331(k+1).",
+  "id": "A360359",
+  "mentions": [
+    "A002961",
+    "A064115",
+    "A064125",
+    "A293183",
+    "A306985",
+    "A360331",
+    "A360358"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

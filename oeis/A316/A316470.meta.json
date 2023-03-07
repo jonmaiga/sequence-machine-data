@@ -1,0 +1,26 @@
+{
+  "description": "Matula-Goebel numbers of unlabeled rooted RPMG-trees, meaning the Matula-Goebel numbers of the branches of any non-leaf node are relatively prime.",
+  "id": "A316470",
+  "mentions": [
+    "A000081",
+    "A000837",
+    "A007097",
+    "A289509",
+    "A302796",
+    "A316468",
+    "A316469",
+    "A316473",
+    "A316475",
+    "A316495"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

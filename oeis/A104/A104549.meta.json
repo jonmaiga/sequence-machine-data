@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k horizontal segments (a horizontal segment is a maximal string of horizontal steps)",
+  "id": "A104549",
+  "mentions": [
+    "A000108",
+    "A006318",
+    "A104550"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

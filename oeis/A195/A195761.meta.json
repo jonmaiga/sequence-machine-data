@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A055457(n) * 5^A055457(n) * x^n/n ) where 5^A055457(n) exactly divides 5*n.",
+  "id": "A195761",
+  "mentions": [
+    "A055457",
+    "A183036",
+    "A183038",
+    "A195760"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: [x^n] A(x)^(2^n) = 4^n for n>=0.",
+  "id": "A134046",
+  "mentions": [
+    "A134047"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

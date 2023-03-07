@@ -1,0 +1,18 @@
+{
+  "description": "Length of sequence of lower halves of n: repeatedly apply x->floor(x/2) starting at n; a(n) = number of steps until reach one of 2,3,4.",
+  "id": "A262303",
+  "mentions": [
+    "A262304"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

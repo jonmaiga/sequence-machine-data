@@ -1,0 +1,19 @@
+{
+  "description": "n such that Sum_{k=1..n} (n - k | k) = 0, where (i|j) is the Kronecker symbol.",
+  "id": "A215284",
+  "mentions": [
+    "A215200",
+    "A215283",
+    "A215285"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

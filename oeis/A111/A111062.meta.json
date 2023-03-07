@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n, k) = binomial(n, k) * A000085(n-k), 0 <= k <= n.",
+  "id": "A111062",
+  "mentions": [
+    "A000085",
+    "A005425",
+    "A007318",
+    "A013989",
+    "A099174",
+    "A122832",
+    "A132440",
+    "A133314",
+    "A159834"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

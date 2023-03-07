@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose cubes are exclusionary: numbers k such that k has no repeated digits and k and k^3 have no digits in common.",
+  "id": "A112994",
+  "mentions": [
+    "A029785",
+    "A112993"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

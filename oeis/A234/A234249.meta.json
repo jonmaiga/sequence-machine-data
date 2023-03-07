@@ -1,0 +1,32 @@
+{
+  "description": "Number of ways to choose 4 points in an n X n X n triangular grid.",
+  "id": "A234249",
+  "mentions": [
+    "A000389",
+    "A050534",
+    "A084546",
+    "A093566",
+    "A231653",
+    "A325006",
+    "A331356",
+    "A331360",
+    "A337954",
+    "A337956",
+    "A337957",
+    "A337958",
+    "A338950",
+    "A338966"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:18:43",
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the numerator of 2*n / ((n+2) * (n+3)).",
+  "id": "A237109",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A026741",
+    "A027641",
+    "A027642",
+    "A051716",
+    "A051717",
+    "A164555"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

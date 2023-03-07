@@ -1,0 +1,18 @@
+{
+  "description": "Number of weight-n binary n X n matrices that yield the all-ones matrix after repeatedly changing a 0 having at least two 1-neighbors to a 1.",
+  "id": "A146971",
+  "mentions": [
+    "A006318"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

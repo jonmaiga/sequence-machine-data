@@ -1,0 +1,26 @@
+{
+  "description": "Positive odd numbers k such that both (sigma(m) - 2*m) and (2*m - sigma(m)) are never equal to k, where sigma(.) is the sum of divisors function A000203 (conjectured).",
+  "id": "A294406",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A005101",
+    "A033879",
+    "A033880",
+    "A234285",
+    "A234286",
+    "A294347"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

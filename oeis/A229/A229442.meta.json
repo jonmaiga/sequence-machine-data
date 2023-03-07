@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 5 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, and rows and columns lexicographically nondecreasing.",
+  "id": "A229442",
+  "mentions": [
+    "A229445"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:40:31",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

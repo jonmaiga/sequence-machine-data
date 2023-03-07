@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that Maple 9.5, Maple 10, Maple 11 and Maple 12 give the wrong answers for the number of partitions of n.",
+  "id": "A110375",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

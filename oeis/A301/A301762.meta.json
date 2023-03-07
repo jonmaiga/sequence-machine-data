@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to choose a constant rooted partition of each part in a rooted partition of n.",
+  "id": "A301762",
+  "mentions": [
+    "A000005",
+    "A002865",
+    "A063834",
+    "A093637",
+    "A279784",
+    "A295935",
+    "A300383",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

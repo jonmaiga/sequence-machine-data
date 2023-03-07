@@ -1,0 +1,24 @@
+{
+  "description": "Base-60 (Babylonian or sexagesimal) expansion of sine of 3 degrees.",
+  "id": "A280190",
+  "mentions": [
+    "A019810",
+    "A019812",
+    "A049469",
+    "A110937",
+    "A280188",
+    "A280189"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

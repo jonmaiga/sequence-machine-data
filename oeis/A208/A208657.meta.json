@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: n*binomial(n,n-k+1)-binomial(n-1,n-k) with k = 1..n, n >= 1.",
+  "id": "A208657",
+  "mentions": [
+    "A002061",
+    "A208656",
+    "A208658",
+    "A257055"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:55",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

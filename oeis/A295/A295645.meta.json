@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that tau(p) +- 1 is congruent to 0 (mod p), where tau is the Ramanujan tau function (A000594).",
+  "id": "A295645",
+  "mentions": [
+    "A000594",
+    "A007659",
+    "A076847",
+    "A193855",
+    "A273650",
+    "A295654"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

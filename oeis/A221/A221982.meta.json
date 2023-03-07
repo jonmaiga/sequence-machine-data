@@ -1,0 +1,23 @@
+{
+  "description": "Primes p == 2 (mod 5) for which 4*p+1 is also prime.",
+  "id": "A221982",
+  "mentions": [
+    "A001913",
+    "A006883",
+    "A045380",
+    "A106849",
+    "A221981",
+    "A222008"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

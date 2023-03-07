@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integer such that 4n+2 can be partitioned into the sum of two primes in the form of 4k+3 in n ways",
+  "id": "A217697",
+  "mentions": [
+    "A000040",
+    "A002145",
+    "A016825",
+    "A156642",
+    "A214834",
+    "A217696"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

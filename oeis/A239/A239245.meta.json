@@ -1,0 +1,20 @@
+{
+  "description": "Let y be the sum of the numbers x not coprime to n, with x<=n. Sequence lists n such that digits of y end in \"n\". Primes are excluded.",
+  "id": "A239245",
+  "mentions": [
+    "A000010",
+    "A239244"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

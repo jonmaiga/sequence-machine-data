@@ -1,0 +1,22 @@
+{
+  "description": "Chebyshev's S polynomials (A049310) evaluated at 34/3 and multiplied by powers of 3 (A000244).",
+  "id": "A248163",
+  "mentions": [
+    "A000244",
+    "A049310",
+    "A249457",
+    "A249862"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:13:42",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

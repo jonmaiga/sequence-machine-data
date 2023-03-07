@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n - n^2/k^2 is not prime for all k < n.",
+  "id": "A241884",
+  "mentions": [
+    "A008864",
+    "A036690",
+    "A138666",
+    "A242221"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

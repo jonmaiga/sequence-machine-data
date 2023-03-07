@@ -1,0 +1,23 @@
+{
+  "description": "The index of the first of two consecutive positive triangular numbers (A000217) the sum of which is equal to the sum of four consecutive positive triangular numbers.",
+  "id": "A262490",
+  "mentions": [
+    "A000217",
+    "A202391",
+    "A262489",
+    "A262491",
+    "A262492"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

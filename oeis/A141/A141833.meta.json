@@ -1,0 +1,21 @@
+{
+  "description": "Integers n>1 such that A141822(n)=3.",
+  "id": "A141833",
+  "mentions": [
+    "A141821",
+    "A141822",
+    "A141823",
+    "A141832",
+    "A195901"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which in base 5 are neither palindromes nor the sum of two palindromes.",
+  "id": "A261918",
+  "mentions": [
+    "A029952",
+    "A035137",
+    "A261917"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

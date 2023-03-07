@@ -1,0 +1,19 @@
+{
+  "description": "Sum (mod n) of the distinct residues of x^n (mod n), x=0..n-1.",
+  "id": "A196777",
+  "mentions": [
+    "A195812",
+    "A196546"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

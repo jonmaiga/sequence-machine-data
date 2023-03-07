@@ -1,0 +1,31 @@
+{
+  "description": "Length of the co-Lyndon factorization of the binary expansion of n.",
+  "id": "A329312",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A059966",
+    "A060223",
+    "A211097",
+    "A211100",
+    "A275692",
+    "A296372",
+    "A296658",
+    "A329131",
+    "A329314",
+    "A329318",
+    "A329324",
+    "A329325",
+    "A329326"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

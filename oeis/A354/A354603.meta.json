@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sum of distinct primes dividing k is equal to the sum of proper divisors of k+1.",
+  "id": "A354603",
+  "mentions": [
+    "A000668",
+    "A001065",
+    "A006145",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

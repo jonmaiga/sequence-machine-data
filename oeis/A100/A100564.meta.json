@@ -1,0 +1,18 @@
+{
+  "description": "Normal sequence of primes with a(1) = 3.",
+  "id": "A100564",
+  "mentions": [
+    "A003277",
+    "A264907"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Start with the seed a(0)=2. The minimum number, different from 1, that multiplied by 2 (seed) produces a number with 2 as its rightmost digit is a(1)=6. Then 6*2=12. Again, the minimum number that multiplied by 12 produces 12 as its rightmost digits is a(2)=26 (12*26=312). And so on.",
+  "id": "A123872",
+  "mentions": [
+    "A123873",
+    "A123875"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

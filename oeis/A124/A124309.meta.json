@@ -1,0 +1,35 @@
+{
+  "description": "5-almost primes indexed by primes.",
+  "id": "A124309",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A014614",
+    "A106349",
+    "A106350",
+    "A114405",
+    "A114415",
+    "A122824",
+    "A124268",
+    "A124269",
+    "A124270",
+    "A124282",
+    "A124283",
+    "A124284",
+    "A124308",
+    "A124310"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

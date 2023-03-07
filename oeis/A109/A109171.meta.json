@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2*x, where constant x (A109169) satisfies the condition that the continued fraction expansion of 2*x (A109170) is equal to the continued fraction expansion of x (A109168) interleaved with positive even numbers.",
+  "id": "A109171",
+  "mentions": [
+    "A109168",
+    "A109169",
+    "A109170"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

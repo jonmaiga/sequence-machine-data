@@ -1,0 +1,25 @@
+{
+  "description": "Smallest positive integer m such that n divides [2^m/m] (=A000799(m)).",
+  "id": "A138255",
+  "mentions": [
+    "A000799",
+    "A138256",
+    "A138257",
+    "A138258",
+    "A138259",
+    "A138260",
+    "A138261",
+    "A138262",
+    "A138263"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

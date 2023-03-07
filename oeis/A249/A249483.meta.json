@@ -1,0 +1,23 @@
+{
+  "description": "Squares (A000290) which are also centered triangular numbers (A005448).",
+  "id": "A249483",
+  "mentions": [
+    "A000290",
+    "A005448",
+    "A129444",
+    "A129445",
+    "A165516"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Binomial transform of A100060.",
+  "id": "A106399",
+  "mentions": [
+    "A100060"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

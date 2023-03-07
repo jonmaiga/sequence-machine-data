@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= floor(n/2)) is the number of lattice paths from (0,0) to (2n,0) consisting of steps U=(1,1), D=(1,-1), H=(2,0), never going below the x-axis (i.e., Schroeder paths) and having k UH's.",
+  "id": "A110220",
+  "mentions": [
+    "A000108",
+    "A006318",
+    "A007317",
+    "A026002"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

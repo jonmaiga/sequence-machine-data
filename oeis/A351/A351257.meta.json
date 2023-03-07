@@ -1,0 +1,26 @@
+{
+  "description": "Least k such that the k-th arithmetic derivative of A351255(n) is zero.",
+  "id": "A351257",
+  "mentions": [
+    "A003415",
+    "A099307",
+    "A276086",
+    "A351255",
+    "A351256",
+    "A351258",
+    "A351259",
+    "A351261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

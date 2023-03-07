@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Sum_{k=0..[n/2]} 1/binomial(n,k).",
+  "id": "A100560",
+  "mentions": [
+    "A100561"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of length n that are sums of 2 consecutive elements of length n+1 permutations of 0..n, and no two consecutive rises or falls in the latter permutation.",
+  "id": "A229712",
+  "mentions": [
+    "A229717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

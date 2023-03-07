@@ -1,0 +1,19 @@
+{
+  "description": "1/512 the number of permutations of 0..n with exactly 6 maxima.",
+  "id": "A130662",
+  "mentions": [
+    "A100575",
+    "A179709"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

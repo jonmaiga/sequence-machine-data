@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n that can be partitioned into two or more blocks with equal sums.",
+  "id": "A321452",
+  "mentions": [
+    "A000041",
+    "A265947",
+    "A276024",
+    "A279787",
+    "A305551",
+    "A306017",
+    "A317141",
+    "A320322",
+    "A321451",
+    "A321453",
+    "A321454",
+    "A321455"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

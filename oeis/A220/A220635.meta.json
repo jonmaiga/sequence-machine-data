@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to reciprocally link elements of an 5Xn array either to themselves or to exactly two horizontal or antidiagonal neighbors",
+  "id": "A220635",
+  "mentions": [
+    "A220632"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Remainder of n^340 divided by 341.",
+  "id": "A206786",
+  "mentions": [
+    "A066340",
+    "A200146",
+    "A230579"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:45",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

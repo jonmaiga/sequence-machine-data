@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) of coefficients of q^k in LB_n(12/3), set partitions that avoid 12/3 with lb=k. Related to a restricted divisor function.",
+  "id": "A265105",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000124",
+    "A002620"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

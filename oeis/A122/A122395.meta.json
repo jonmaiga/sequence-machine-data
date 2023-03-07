@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form p^k - p^(k-1) - 1, with p prime and k>1.",
+  "id": "A122395",
+  "mentions": [
+    "A122396"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

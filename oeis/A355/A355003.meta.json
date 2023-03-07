@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(A003415(n), A277791(n)), where A003415 is the arithmetic derivative and A277791 is the denominator of sum of reciprocals of proper divisors of n.",
+  "id": "A355003",
+  "mentions": [
+    "A003415",
+    "A277791",
+    "A355815"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

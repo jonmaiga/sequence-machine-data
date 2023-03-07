@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions of length n to the word equation X_1^2 ... X_n^2 = (X_1 ... X_n)^2 in the language of optimal squareful words.",
+  "id": "A330878",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000374"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

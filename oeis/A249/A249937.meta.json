@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n * Sum_{k=0..n} x^k * {[x^k] A(x)^(4*n)}.",
+  "id": "A249937",
+  "mentions": [
+    "A222658",
+    "A249935",
+    "A249936"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

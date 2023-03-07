@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that F(k) - 1 is divisible by floor((k - 1)/2), where F(k) is the k-th Fibonacci number (A000045).",
+  "id": "A330712",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A014417",
+    "A104326",
+    "A328208",
+    "A328212",
+    "A330711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

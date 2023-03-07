@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(n/d) * A322582(d), where A322582(n) = n - A003958(n), and A003958 is fully multiplicative with a(p) = (p-1).",
+  "id": "A348981",
+  "mentions": [
+    "A000010",
+    "A003958",
+    "A008683",
+    "A018804",
+    "A322582",
+    "A347131",
+    "A348980",
+    "A348982",
+    "A348983",
+    "A349131",
+    "A349141"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

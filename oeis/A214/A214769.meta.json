@@ -1,0 +1,26 @@
+{
+  "description": "G.f. satisfies: A(x) = 1/A(-x*A(x)^9).",
+  "id": "A214769",
+  "mentions": [
+    "A002294",
+    "A214761",
+    "A214762",
+    "A214763",
+    "A214764",
+    "A214765",
+    "A214766",
+    "A214767",
+    "A214768"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

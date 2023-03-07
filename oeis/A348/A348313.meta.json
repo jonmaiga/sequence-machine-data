@@ -1,0 +1,18 @@
+{
+  "description": "Primes q such that q^3+r^5+s^7 is also prime, where q,r,s are consecutive primes.",
+  "id": "A348313",
+  "mentions": [
+    "A000040",
+    "A348267"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

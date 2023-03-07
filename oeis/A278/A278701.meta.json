@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(n, k) read by antidiagonals downwards: A(n,k) = characteristic function of base-n Wieferich primes: 1 if prime(k) is a base-n Wieferich prime, 0 otherwise, where k runs over the positive integers starting from 1.",
+  "id": "A278701",
+  "mentions": [
+    "A244249",
+    "A258045"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

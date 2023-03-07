@@ -1,0 +1,20 @@
+{
+  "description": "Number of triangular numbers between n^2 and n^3 (excluding the bounds).",
+  "id": "A242067",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

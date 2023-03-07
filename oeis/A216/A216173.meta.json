@@ -1,0 +1,23 @@
+{
+  "description": "Number of all possible tetrahedra of any size and orientation, formed when intersecting the original regular tetrahedron by planes parallel to its sides and dividing its edges into n equal parts.",
+  "id": "A216173",
+  "mentions": [
+    "A000292",
+    "A000332",
+    "A216172",
+    "A216175",
+    "A269747"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:43",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

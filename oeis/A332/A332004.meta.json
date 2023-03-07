@@ -1,0 +1,40 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct and relatively prime parts.",
+  "id": "A332004",
+  "mentions": [
+    "A000740",
+    "A000741",
+    "A000837",
+    "A001523",
+    "A007360",
+    "A032020",
+    "A066099",
+    "A078374",
+    "A101268",
+    "A101271",
+    "A108700",
+    "A178472",
+    "A216652",
+    "A233564",
+    "A289508",
+    "A289509",
+    "A291166",
+    "A302698",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A337462",
+    "A337561",
+    "A337562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

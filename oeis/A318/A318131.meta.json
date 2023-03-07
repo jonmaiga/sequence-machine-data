@@ -1,0 +1,28 @@
+{
+  "description": "Number of non-isomorphic sets of finite (possibly empty) sets with union {1,2,...,n} and intersection {}.",
+  "id": "A318131",
+  "mentions": [
+    "A000371",
+    "A003465",
+    "A119563",
+    "A131288",
+    "A283877",
+    "A293606",
+    "A304997",
+    "A318128",
+    "A318129",
+    "A318130",
+    "A318132"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

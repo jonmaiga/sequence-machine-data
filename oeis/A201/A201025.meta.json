@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that the number of parts and the smallest part are not coprime.",
+  "id": "A201025",
+  "mentions": [
+    "A000041",
+    "A199889",
+    "A200928"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

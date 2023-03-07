@@ -1,0 +1,38 @@
+{
+  "description": "Expansion of f(-x) * psi(x^2) * phi(x^3) / f(-x^3)^3 in powers of x where phi(), psi(), f() are Ramanujan theta functions.",
+  "id": "A230256",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058531",
+    "A062242",
+    "A062244",
+    "A093073",
+    "A121373",
+    "A132179",
+    "A132301",
+    "A132976",
+    "A143840",
+    "A164268",
+    "A164612",
+    "A182032",
+    "A182033",
+    "A182036",
+    "A182056",
+    "A193261",
+    "A254372"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:39:13",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

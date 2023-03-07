@@ -1,0 +1,19 @@
+{
+  "description": "If n mod 3 = 0 then a(n) = 3^(n/3) + 12*n, if n mod 3 = 1 then a(n) = 4*3^((n-4)/3) + 12*n + 51, otherwise a(n) = 2*3^((n-2)/3) + 12*n - 36.",
+  "id": "A276401",
+  "mentions": [
+    "A352669"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 3,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

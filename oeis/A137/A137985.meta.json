@@ -1,0 +1,20 @@
+{
+  "description": "Complementing any single bit in the binary representation of these primes produces a composite number.",
+  "id": "A137985",
+  "mentions": [
+    "A050249",
+    "A065092",
+    "A186995"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

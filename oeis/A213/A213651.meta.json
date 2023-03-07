@@ -1,0 +1,29 @@
+{
+  "description": "10-nomial coefficient array: Coefficients of the polynomial (1 + ... + X^9)^n, n=0,1,...",
+  "id": "A213651",
+  "mentions": [
+    "A007318",
+    "A008287",
+    "A011557",
+    "A017173",
+    "A027907",
+    "A035343",
+    "A063260",
+    "A063265",
+    "A171890",
+    "A174061",
+    "A213652"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

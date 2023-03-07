@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A002088(n) is a triangular number.",
+  "id": "A276645",
+  "mentions": [
+    "A000217",
+    "A002088"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} [Sum_{k>=1} k^n * 2^(n*k) * x^k]^n / n ), a power series in x with integer coefficients.",
+  "id": "A277037",
+  "mentions": [
+    "A008292",
+    "A156170",
+    "A277035",
+    "A277036"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

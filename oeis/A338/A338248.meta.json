@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative values in A053985, in order of appearance.",
+  "id": "A338248",
+  "mentions": [
+    "A053738",
+    "A053985",
+    "A338245",
+    "A338249"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

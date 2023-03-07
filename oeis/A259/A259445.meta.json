@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative with a(n) = n if n is odd and a(2^s)=2.",
+  "id": "A259445",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A018819",
+    "A022998",
+    "A046897",
+    "A067856",
+    "A321558"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

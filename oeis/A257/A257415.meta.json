@@ -1,0 +1,26 @@
+{
+  "description": "Values of n such that there are exactly 8 solutions to x^2 - y^2 = n with x > y >= 0.",
+  "id": "A257415",
+  "mentions": [
+    "A034178",
+    "A257408",
+    "A257409",
+    "A257410",
+    "A257411",
+    "A257412",
+    "A257413",
+    "A257414",
+    "A257416",
+    "A257417"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

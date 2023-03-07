@@ -1,0 +1,26 @@
+{
+  "description": "k-imperfect numbers for some k >= 1.",
+  "id": "A127724",
+  "mentions": [
+    "A007691",
+    "A061020",
+    "A065508",
+    "A074268",
+    "A127725",
+    "A127726",
+    "A127727",
+    "A206369",
+    "A309806"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

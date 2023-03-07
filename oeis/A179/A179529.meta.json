@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms of A083207 in 12 consecutive numbers.",
+  "id": "A179529",
+  "mentions": [
+    "A083207",
+    "A179527",
+    "A179528",
+    "A179530"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

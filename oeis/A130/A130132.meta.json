@@ -1,0 +1,20 @@
+{
+  "description": "Number of trees on n vertices which are not lobsters.",
+  "id": "A130132",
+  "mentions": [
+    "A000055",
+    "A130131",
+    "A331693"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place 12n nonattacking kings on a 24 X 2n cylindrical chessboard.",
+  "id": "A195656",
+  "mentions": [
+    "A137432",
+    "A195651",
+    "A195653",
+    "A195654",
+    "A195655",
+    "A195661"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

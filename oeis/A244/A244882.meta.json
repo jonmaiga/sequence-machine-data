@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + 2*x + 2*x^2) / (1 - x)^6.",
+  "id": "A244882",
+  "mentions": [
+    "A002721"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:41",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

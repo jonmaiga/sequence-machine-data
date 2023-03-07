@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (5/32)*Pi.",
+  "id": "A336308",
+  "mentions": [
+    "A019692",
+    "A122952",
+    "A180434",
+    "A197723",
+    "A336266"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:07",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

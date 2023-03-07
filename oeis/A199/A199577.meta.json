@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient triangle of the associated Laguerre polynomials of order 1.",
+  "id": "A199577",
+  "mentions": [
+    "A002793",
+    "A021009",
+    "A199578"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 1/(1 - x^3 - x^4 - x^5 + x^8)^2.",
+  "id": "A147851",
+  "mentions": [
+    "A107479",
+    "A107480",
+    "A109538",
+    "A109543",
+    "A109544",
+    "A114749",
+    "A125950",
+    "A130844",
+    "A143335"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

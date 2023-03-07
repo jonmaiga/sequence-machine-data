@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Product_{k>=1} (1 + k*(exp(x)-1)^k) / (1 - k*(exp(x)-1)^k).",
+  "id": "A326886",
+  "mentions": [
+    "A265758",
+    "A306045",
+    "A326884",
+    "A326885",
+    "A326887"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

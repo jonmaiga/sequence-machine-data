@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)*A(-x) + x^2*(A(x)^2 + A(-x)^2).",
+  "id": "A233895",
+  "mentions": [
+    "A143926",
+    "A208887",
+    "A233896"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:44:38",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

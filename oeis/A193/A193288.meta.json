@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: A(x) = 1/(1 - 3*x^2)^(1 + 1/(3*x)).",
+  "id": "A193288",
+  "mentions": [
+    "A193281",
+    "A193287",
+    "A193289",
+    "A193290"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

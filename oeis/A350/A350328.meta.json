@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that pi(k) = Sum_{i=1..k} pi(k*(i-1)+i) - pi(k*(i-1)+i-1).",
+  "id": "A350328",
+  "mentions": [
+    "A000720",
+    "A221490"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

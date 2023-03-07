@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows in which row n lists n terms, starting with n^2+n-1, with gaps = n^2-1 between successive terms.",
+  "id": "A162612",
+  "mentions": [
+    "A000578",
+    "A028387",
+    "A159797",
+    "A159798",
+    "A162610",
+    "A162611",
+    "A162613"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:17",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

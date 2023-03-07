@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*(n+1)*(9*n+4).",
+  "id": "A304505",
+  "mentions": [
+    "A304506"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:19",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

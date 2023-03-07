@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Moebius transform of the sequence (n*A032173(n+2): n >= 1).",
+  "id": "A322913",
+  "mentions": [
+    "A032171",
+    "A032173",
+    "A032174"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

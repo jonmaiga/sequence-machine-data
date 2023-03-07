@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes p < prime(n) such that the Bernoulli number B_{p-1} is a primitive root modulo prime(n).",
+  "id": "A242210",
+  "mentions": [
+    "A000040",
+    "A027641",
+    "A027642",
+    "A122045",
+    "A242193",
+    "A242194",
+    "A242213"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

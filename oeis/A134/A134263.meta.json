@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that sigma(n) and sigma(sigma(n)) are both perfect squares.",
+  "id": "A134263",
+  "mentions": [
+    "A006532"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

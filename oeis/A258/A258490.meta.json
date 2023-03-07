@@ -1,0 +1,18 @@
+{
+  "description": "Number of words of length 2n such that all letters of the ternary alphabet occur at least once and are introduced in ascending order and which can be built by repeatedly inserting doublets into the initially empty word.",
+  "id": "A258490",
+  "mentions": [
+    "A256117"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

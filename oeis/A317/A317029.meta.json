@@ -1,0 +1,22 @@
+{
+  "description": "Invertible primes p such that k*p - 1 and k*p + 1 is a twin prime pair; for k = 12.",
+  "id": "A317029",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A048890",
+    "A124519",
+    "A138242"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

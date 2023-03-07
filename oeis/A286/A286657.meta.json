@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows. T(n,k) = least m > 0 such that prime(n) + m * prime(k) and m * prime(n) + prime(k) are both prime numbers, 1 <= k < n.",
+  "id": "A286657",
+  "mentions": [
+    "A229980"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

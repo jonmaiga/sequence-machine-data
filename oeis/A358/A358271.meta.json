@@ -1,0 +1,23 @@
+{
+  "description": "Product of the digits of 3^n.",
+  "id": "A358271",
+  "mentions": [
+    "A000244",
+    "A007954",
+    "A014257",
+    "A030700",
+    "A238939"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

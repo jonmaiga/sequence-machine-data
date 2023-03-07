@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest prime > 10 where a string of exactly n zeros can be inserted somewhere into the decimal expansion such that the resulting number is also prime.",
+  "id": "A306920",
+  "mentions": [
+    "A159236",
+    "A164329",
+    "A215417",
+    "A290174",
+    "A306926",
+    "A344860"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. is the imaginary part of the function C(x) that satisfies: C(x) = 1 + x/C(I*x).",
+  "id": "A193383",
+  "mentions": [
+    "A193382",
+    "A193384"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

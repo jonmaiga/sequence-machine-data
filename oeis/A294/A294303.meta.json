@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the eighth powers of the parts in the partitions of n into two distinct parts.",
+  "id": "A294303",
+  "mentions": [
+    "A294286",
+    "A294287",
+    "A294288",
+    "A294300",
+    "A294301",
+    "A294302"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

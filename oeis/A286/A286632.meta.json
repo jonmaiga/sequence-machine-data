@@ -1,0 +1,24 @@
+{
+  "description": "Base-3 digit sum of A254103: a(n) = A053735(A254103(n)).",
+  "id": "A286632",
+  "mentions": [
+    "A000079",
+    "A053735",
+    "A056239",
+    "A254103",
+    "A286585",
+    "A286633"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

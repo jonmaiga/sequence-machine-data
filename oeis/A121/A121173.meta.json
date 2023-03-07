@@ -1,0 +1,22 @@
+{
+  "description": "Sequence S with property that for n in S, a(n) = a(1) + a(2) +...+ a(n-1) and for n not in S, a(n) = n+1.",
+  "id": "A121173",
+  "mentions": [
+    "A105753",
+    "A121053",
+    "A121174",
+    "A121175",
+    "A145654"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

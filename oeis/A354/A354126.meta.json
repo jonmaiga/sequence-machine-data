@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A354125.",
+  "id": "A354126",
+  "mentions": [
+    "A354125"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

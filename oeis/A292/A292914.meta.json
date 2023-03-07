@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * [x^n] exp(exp(n*x)-1).",
+  "id": "A292914",
+  "mentions": [
+    "A000110",
+    "A292913"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of rationals with e.g.f. D(3,x), a Debye function.",
+  "id": "A227571",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A227570"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

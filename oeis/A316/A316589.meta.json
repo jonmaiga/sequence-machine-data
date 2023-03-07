@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p whose number of steps to reach 1 in Collatz (3x+1) problem is a prime number k and, in addition, the least prime number greater than p that also reaches 1 in the same problem in a prime number of steps also does so in k steps.",
+  "id": "A316589",
+  "mentions": [
+    "A006577",
+    "A176112"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

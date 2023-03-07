@@ -1,0 +1,21 @@
+{
+  "description": "Least multiple of n! that leaves a palindrome if trailing zeros are ignored.",
+  "id": "A110795",
+  "mentions": [
+    "A002113",
+    "A004151",
+    "A110796"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

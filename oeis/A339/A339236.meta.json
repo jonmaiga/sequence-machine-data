@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle of incomplete Leonardo numbers read by rows. T(n, k) = 2*Sum_{j=0..k} binomial(n-j, j)) -1, for n>=0 and 0<=k<=floor(n/2).",
+  "id": "A339236",
+  "mentions": [
+    "A000012",
+    "A001595",
+    "A005408",
+    "A027688"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

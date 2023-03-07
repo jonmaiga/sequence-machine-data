@@ -1,0 +1,26 @@
+{
+  "description": "Denominator of Sum_{k=0..n} (-1)^k / (2*k+1).",
+  "id": "A352395",
+  "mentions": [
+    "A007509",
+    "A025547",
+    "A074637",
+    "A074638",
+    "A200134",
+    "A350669",
+    "A350670"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Perimeter of primitive integer-sided triangles with A < B < C < 2*Pi/3 and such that FA + FB + FC is an integer where F is the Fermat point of the triangle.",
+  "id": "A336333",
+  "mentions": [
+    "A336328",
+    "A336329",
+    "A336330",
+    "A336331",
+    "A336332",
+    "A351476",
+    "A351477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

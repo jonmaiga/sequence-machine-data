@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest integer > n that is divisible by exactly the same number of primes (counted with multiplicity) as n is.",
+  "id": "A165712",
+  "mentions": [
+    "A001222",
+    "A079890",
+    "A165713"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

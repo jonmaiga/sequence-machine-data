@@ -1,0 +1,20 @@
+{
+  "description": "Sum_{k=1..n} (k+1)! mod n",
+  "id": "A226570",
+  "mentions": [
+    "A003422",
+    "A007489",
+    "A086330",
+    "A100083"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

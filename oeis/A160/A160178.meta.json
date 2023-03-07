@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (755667+461578*sqrt(2))/617^2.",
+  "id": "A160178",
+  "mentions": [
+    "A002193",
+    "A115135",
+    "A160176",
+    "A160177"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

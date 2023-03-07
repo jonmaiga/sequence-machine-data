@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the parts in the partitions of n into exactly two distinct squarefree parts.",
+  "id": "A294247",
+  "mentions": [
+    "A008683",
+    "A262351"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

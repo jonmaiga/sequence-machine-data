@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f.: exp(4*x/(1-2*x)) / sqrt(1-4*x^2).",
+  "id": "A202828",
+  "mentions": [
+    "A000898",
+    "A202827",
+    "A202829",
+    "A202831",
+    "A202833",
+    "A202835",
+    "A202836",
+    "A277378"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Indices n>0 such that A083417(n) is zero.",
+  "id": "A253099",
+  "mentions": [
+    "A083417"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

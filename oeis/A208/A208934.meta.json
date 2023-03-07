@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer containing the n-th letter of the alphabet in German, including the umlauts and ß (sharp s), but treating the letters a, o, u separately from their umlauted versions, or -1 if no such integer exists.",
+  "id": "A208934",
+  "mentions": [
+    "A029722"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "sign",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

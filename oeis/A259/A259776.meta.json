@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of permutations p of [n] with no fixed points and displacement of elements restricted by k: 1 <= |p(i)-i| <= k, square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A259776",
+  "mentions": [
+    "A000007",
+    "A000166",
+    "A005317",
+    "A033305",
+    "A059841",
+    "A079997",
+    "A259777",
+    "A259778",
+    "A259779",
+    "A259780",
+    "A259781",
+    "A259782",
+    "A259783",
+    "A259784"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

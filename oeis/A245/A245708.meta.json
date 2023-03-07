@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of natural numbers, the odd bisection of A245606 incremented by one and halved: a(n) = (1+A245606((2*n)-1))/2.",
+  "id": "A245708",
+  "mentions": [
+    "A003961",
+    "A048673",
+    "A245606",
+    "A245608",
+    "A245705",
+    "A245707",
+    "A245709"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

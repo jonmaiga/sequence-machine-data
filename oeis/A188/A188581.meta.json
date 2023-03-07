@@ -1,0 +1,23 @@
+{
+  "description": "Inverse Moebius transform of A000688, the number of factorizations of n into prime powers greater than 1.",
+  "id": "A188581",
+  "mentions": [
+    "A000070",
+    "A000688",
+    "A001620",
+    "A021002"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

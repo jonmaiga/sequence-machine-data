@@ -1,0 +1,22 @@
+{
+  "description": "For any number n > 0 with prime factorization Product_{k=1..w} p_k ^ x_k (where p_1 < p_2 < ... < p_w and x_k > 0 for k=1..w), let (o_1, ..., o_w) be the ordinal transform of (x_1, ..., x_w); a(n) = Product_{k=1..w} p_k ^ o_k.",
+  "id": "A318956",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A007947",
+    "A076954",
+    "A130091"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

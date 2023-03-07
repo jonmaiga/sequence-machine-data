@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = binomial(5*n,n)/5.",
+  "id": "A163456",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A002294",
+    "A025174",
+    "A118970",
+    "A163455",
+    "A224274",
+    "A227726"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

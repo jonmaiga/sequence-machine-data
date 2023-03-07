@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of row 4 in A051714(n) or row 3 in A176672(n).",
+  "id": "A194531",
+  "mentions": [
+    "A026741",
+    "A027642",
+    "A045896",
+    "A051714",
+    "A164555",
+    "A176672",
+    "A193220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

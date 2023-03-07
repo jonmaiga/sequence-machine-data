@@ -1,0 +1,19 @@
+{
+  "description": "The total number of fixed points among all partitions of n, when parts are written in nondecreasing order.",
+  "id": "A357459",
+  "mentions": [
+    "A001522",
+    "A099036"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

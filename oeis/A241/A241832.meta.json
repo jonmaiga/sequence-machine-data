@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p = [x(1), ..., x(k)], where x(1) >= x(2) >= ... >= x(k), of n such that max(x(i) - x(i-1)) > number of parts of p.",
+  "id": "A241832",
+  "mentions": [
+    "A000041",
+    "A241828",
+    "A241829",
+    "A241830",
+    "A241831"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

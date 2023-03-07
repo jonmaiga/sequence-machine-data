@@ -1,0 +1,19 @@
+{
+  "description": "The number of spheres on which the points defined by A222268 lie.",
+  "id": "A268020",
+  "mentions": [
+    "A222267",
+    "A222268"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

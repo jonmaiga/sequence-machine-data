@@ -1,0 +1,36 @@
+{
+  "description": "The value of r at the bifurcation point of the first period-9 cycle of the logistic map f(x) = r*x*(1 - x).",
+  "id": "A181915",
+  "mentions": [
+    "A086178",
+    "A086179",
+    "A086180",
+    "A086181",
+    "A091517",
+    "A118452",
+    "A118453",
+    "A118746",
+    "A181906",
+    "A181907",
+    "A181909",
+    "A181910",
+    "A181911",
+    "A181912",
+    "A181913",
+    "A181916",
+    "A181917",
+    "A181918",
+    "A181919"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

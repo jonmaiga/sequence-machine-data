@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) with column n = A059841 if n even and column n = A000007 if n odd.",
+  "id": "A169591",
+  "mentions": [
+    "A000007",
+    "A059841",
+    "A158416"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

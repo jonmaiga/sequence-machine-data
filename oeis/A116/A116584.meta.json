@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime knots with <= n crossings.",
+  "id": "A116584",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A086825"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

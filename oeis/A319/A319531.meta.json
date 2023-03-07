@@ -1,0 +1,24 @@
+{
+  "description": "The 10-adic integer x = ...7537010000001 satisfying x^7 + 1 = y, y^7 + 1 = z, z^7 + 1 = w, and w^7 + 1 = x.",
+  "id": "A319531",
+  "mentions": [
+    "A319260",
+    "A319261",
+    "A319262",
+    "A319263",
+    "A319530",
+    "A319532",
+    "A319533"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

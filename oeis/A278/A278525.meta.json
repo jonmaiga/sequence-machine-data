@@ -1,0 +1,23 @@
+{
+  "description": "Filtering sequence (related to prime factorization): a(n) = A046523(A241916(n)).",
+  "id": "A278525",
+  "mentions": [
+    "A000040",
+    "A046523",
+    "A209229",
+    "A241916",
+    "A278220",
+    "A278221"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

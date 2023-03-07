@@ -1,0 +1,22 @@
+{
+  "description": "Sum of positive numbers k <= sigma(n) that are a sum of any subset of distinct divisors of n.",
+  "id": "A237290",
+  "mentions": [
+    "A005153",
+    "A119348",
+    "A184387",
+    "A237287",
+    "A237289"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

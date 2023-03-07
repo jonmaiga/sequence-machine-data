@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, k + 1, k + 2 and k + 3 have the same number of divisors in Eisenstein integers.",
+  "id": "A332388",
+  "mentions": [
+    "A006601",
+    "A319442",
+    "A332314",
+    "A332386",
+    "A332387"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

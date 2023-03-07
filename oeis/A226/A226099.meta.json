@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers that yield a prime when their most significant (i.e., leftmost) decimal digit is removed.",
+  "id": "A226099",
+  "mentions": [
+    "A000030",
+    "A000040",
+    "A202262",
+    "A217657",
+    "A260181"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of (Sum_{d|n} sigma(d)) / sigma(n).",
+  "id": "A322655",
+  "mentions": [
+    "A000203",
+    "A007429",
+    "A221219",
+    "A319296",
+    "A322656"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

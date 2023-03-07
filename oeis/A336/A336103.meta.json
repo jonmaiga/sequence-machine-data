@@ -1,0 +1,39 @@
+{
+  "description": "Number of separable multisets of size n covering an initial interval of positive integers.",
+  "id": "A336103",
+  "mentions": [
+    "A000670",
+    "A001792",
+    "A003242",
+    "A005649",
+    "A019472",
+    "A025065",
+    "A049610",
+    "A052841",
+    "A106351",
+    "A269134",
+    "A292884",
+    "A325534",
+    "A325535",
+    "A333487",
+    "A333489",
+    "A335126",
+    "A335433",
+    "A335448",
+    "A335452",
+    "A336102",
+    "A336106"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

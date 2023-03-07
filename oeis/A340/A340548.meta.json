@@ -1,0 +1,23 @@
+{
+  "description": "Integers whose number of repdigit divisors sets a new record.",
+  "id": "A340548",
+  "mentions": [
+    "A010785",
+    "A053624",
+    "A093036",
+    "A181808",
+    "A190217",
+    "A340549"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

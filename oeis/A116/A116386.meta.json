@@ -1,0 +1,22 @@
+{
+  "description": "Number of calendar weeks in the year n (starting at n=0 for the year 2000).",
+  "id": "A116386",
+  "mentions": [
+    "A003786",
+    "A060512",
+    "A061251",
+    "A090651",
+    "A101312"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

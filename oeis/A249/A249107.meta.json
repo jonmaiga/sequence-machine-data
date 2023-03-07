@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that form a Pythagorean 7-tuple with their first five arithmetic derivatives.",
+  "id": "A249107",
+  "mentions": [
+    "A003415",
+    "A210503",
+    "A230543",
+    "A249105",
+    "A249106",
+    "A249110"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

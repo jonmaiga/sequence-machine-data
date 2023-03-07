@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = gcd(k,floor(n/k)) (1 <= k <= n).",
+  "id": "A120888",
+  "mentions": [
+    "A120889"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

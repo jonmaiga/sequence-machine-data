@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of ways, summed over the free n-ominoes, that an n-omino with an assigned orientation can be maximally (partially) covered by k X 1 tiles.",
+  "id": "A308437",
+  "mentions": [
+    "A000105",
+    "A056786",
+    "A059573"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

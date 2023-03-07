@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n gives numbers <= n whose Collatz trajectory contains the trajectory of n.",
+  "id": "A214614",
+  "mentions": [
+    "A070165",
+    "A159999"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

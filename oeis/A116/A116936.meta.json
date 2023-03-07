@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that in the 3 X 3 square arrangement of the 9 primes prime(n),...,prime(n+8), the 3 row sums, 3 column sums and 2 diagonal sums are all prime.",
+  "id": "A116936",
+  "mentions": [
+    "A097231"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

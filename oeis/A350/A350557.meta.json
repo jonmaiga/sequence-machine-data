@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows with T(n,0) = (2*n)! / (2^n * n!) for n >= 0 and T(n,k) = (Sum_{i=k..n} binomial(i-1,k-1) * 2^i * i! / (2*i)!) * (2*n)! / (2^n * n!) for 0 < k <= n.",
+  "id": "A350557",
+  "mentions": [
+    "A000007",
+    "A001147",
+    "A249349",
+    "A286286",
+    "A350512"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

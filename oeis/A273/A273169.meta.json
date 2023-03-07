@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of coefficient triangle for integrated even powers of cos(x) in terms of x and sin(2*m*x).",
+  "id": "A273169",
+  "mentions": [
+    "A273167",
+    "A273168",
+    "A273170",
+    "A273171",
+    "A273172",
+    "A273496"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:17:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n)= n * digital sum(n-1) * digital sum(n+1)",
+  "id": "A160944",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:37",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

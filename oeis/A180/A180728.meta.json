@@ -1,0 +1,20 @@
+{
+  "description": "21^a(n) is smallest power of 21 beginning with n.",
+  "id": "A180728",
+  "mentions": [
+    "A180726",
+    "A180727",
+    "A180730"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

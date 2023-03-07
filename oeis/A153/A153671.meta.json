@@ -1,0 +1,26 @@
+{
+  "description": "Minimal exponents m such that the fractional part of (101/100)^m obtains a maximum (when starting with m=1).",
+  "id": "A153671",
+  "mentions": [
+    "A091560",
+    "A153663",
+    "A153675",
+    "A153679",
+    "A153687",
+    "A153695",
+    "A153711",
+    "A153719",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

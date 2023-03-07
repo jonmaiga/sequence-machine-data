@@ -1,0 +1,21 @@
+{
+  "description": "Smallest semiprime whose decimal expansion consists of the concatenation of a 1-digit semiprime, a 2-digit semiprime, a 3-digit semiprime, ..., and an n-digit semiprime.",
+  "id": "A215647",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A001358",
+    "A215641"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Pentagonal wave sequence triangle.",
+  "id": "A104586",
+  "mentions": [
+    "A000326",
+    "A005449",
+    "A033568",
+    "A033570",
+    "A049452",
+    "A049453",
+    "A086500",
+    "A104584",
+    "A104585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

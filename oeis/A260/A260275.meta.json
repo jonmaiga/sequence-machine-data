@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of the function A260529(n) = concatenation of the positions of digits 9, 8,..., 0 in the decimal representation of n, using 1 for the rightmost digit etc., skipping digits which don't occur.",
+  "id": "A260275",
+  "mentions": [
+    "A260385",
+    "A260386",
+    "A260529"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

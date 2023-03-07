@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected components of the n-th FDH set-system.",
+  "id": "A305832",
+  "mentions": [
+    "A048143",
+    "A050376",
+    "A064547",
+    "A213925",
+    "A299755",
+    "A299756",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A305829",
+    "A305830",
+    "A305831"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

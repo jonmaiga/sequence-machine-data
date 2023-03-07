@@ -1,0 +1,24 @@
+{
+  "description": "Number of 5-regular (quintic) connected graphs on 2*n nodes with diameter k written as irregular triangle T(n,k).",
+  "id": "A296621",
+  "mentions": [
+    "A006821",
+    "A068934",
+    "A204329",
+    "A296525",
+    "A296526",
+    "A296620"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

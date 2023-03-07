@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree kernel of A090252(n) (cf. A007947).",
+  "id": "A354764",
+  "mentions": [
+    "A007947",
+    "A090252"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

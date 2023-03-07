@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of matchings of size k in the triangle graph of order n; triangle T(n,k), n>=0, 0<=k<=floor(n*(n+1)/4), read by rows.",
+  "id": "A288852",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A011848",
+    "A045943",
+    "A269869",
+    "A271610",
+    "A271612",
+    "A271614",
+    "A271616"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

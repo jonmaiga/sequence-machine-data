@@ -1,0 +1,21 @@
+{
+  "description": "Let f(s,n) = 2^n + s*n, with s in {-1, 1}. Let c be the number of primes out of the pair f(-1,n), f(1,n). If only f(-1,n) is prime, a(n) = -1, otherwise a(n) = c.",
+  "id": "A359735",
+  "mentions": [
+    "A006127",
+    "A048744",
+    "A052007",
+    "A129962"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

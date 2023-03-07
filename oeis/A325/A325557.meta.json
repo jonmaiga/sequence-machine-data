@@ -1,0 +1,30 @@
+{
+  "description": "Number of compositions of n with equal differences up to sign.",
+  "id": "A325557",
+  "mentions": [
+    "A000079",
+    "A047966",
+    "A049988",
+    "A070211",
+    "A098504",
+    "A173258",
+    "A175342",
+    "A325325",
+    "A325545",
+    "A325546",
+    "A325547",
+    "A325548",
+    "A325552",
+    "A325558"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

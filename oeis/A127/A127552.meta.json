@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the number 3.19644719338616871113868629540207517... having continued fraction expansion 3, 5, 11, 17, 29, 41, 59, 71, 101, 107, ... (lesser of twin primes A001359).",
+  "id": "A127552",
+  "mentions": [
+    "A001359",
+    "A064442",
+    "A127549",
+    "A127550",
+    "A127551",
+    "A127553",
+    "A127555"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

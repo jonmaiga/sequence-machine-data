@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent (modulo C_4 rotations) square n X n grids with squares coming in two colors and three squares have one of the colors.",
+  "id": "A275799",
+  "mentions": [
+    "A000012",
+    "A004652",
+    "A054772",
+    "A212714"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:27:07",
+    "offset": 2,
+    "size": 30,
+    "source": "joeis"
+  }
+}

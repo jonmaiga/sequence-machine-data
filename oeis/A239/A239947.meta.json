@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n containing 2*h as a part, where h is the number of distinct parts.",
+  "id": "A239947",
+  "mentions": [
+    "A239945"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

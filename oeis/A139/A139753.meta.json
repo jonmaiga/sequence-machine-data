@@ -1,0 +1,18 @@
+{
+  "description": "a(2n) = next cube after a(2n-1), a(2n+1) = next square after a(2n).",
+  "id": "A139753",
+  "mentions": [
+    "A077113",
+    "A077121"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "1/(2k)-th of area of primitive Pythagorean triangle with hypotenuse 5^(2^n), where k is the product of all Mersenne primes not exceeding 2^(n+2) - 1.",
+  "id": "A105667",
+  "mentions": [
+    "A066770",
+    "A066771",
+    "A098918"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

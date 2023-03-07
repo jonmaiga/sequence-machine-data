@@ -1,0 +1,23 @@
+{
+  "description": "Unitary multiply-perfect numbers: n divides usigma(n), where usigma is the sum of unitary divisors of n (A034448).",
+  "id": "A327158",
+  "mentions": [
+    "A002827",
+    "A007691",
+    "A034448",
+    "A323166",
+    "A327163",
+    "A327164"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

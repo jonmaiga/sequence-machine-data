@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node unlabeled connected oriented graphs whose underlying graphs are mating graphs, cf. A006024.",
+  "id": "A102599",
+  "mentions": [
+    "A006024"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of n-digit squares in base 10 such that there is at least one permutation that is also a square in base 10. Initial zeros are not allowed for any square.",
+  "id": "A177952",
+  "mentions": [
+    "A049415"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

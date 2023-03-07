@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of prime nested prime(n)-th roots.",
+  "id": "A343587",
+  "mentions": [
+    "A000040",
+    "A105546",
+    "A296547"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

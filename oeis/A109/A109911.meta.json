@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A109910(n) = n; that is, the 9's complement of the digit reversal of n is n.",
+  "id": "A109911",
+  "mentions": [
+    "A109910"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

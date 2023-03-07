@@ -1,0 +1,18 @@
+{
+  "description": "Minimum k such that for all m >= k there is a prime p with m < p < m * (n+1)/n.",
+  "id": "A166968",
+  "mentions": [
+    "A060715",
+    "A104272"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

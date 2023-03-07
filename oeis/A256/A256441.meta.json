@@ -1,0 +1,21 @@
+{
+  "description": "Binary representation of base-(i-1) expansion of -n: replace i-1 with 2 in base-(i-1) expansion of -n.",
+  "id": "A256441",
+  "mentions": [
+    "A066321",
+    "A212526"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

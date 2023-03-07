@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that A098548(k) is not a multiple of 3.",
+  "id": "A251540",
+  "mentions": [
+    "A001651",
+    "A011655",
+    "A098548"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

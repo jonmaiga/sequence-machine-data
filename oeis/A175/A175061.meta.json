@@ -1,0 +1,19 @@
+{
+  "description": "A positive integer n is included if n, when written in binary, is made of run-lengths (lengths of runs of 0's as well as of runs of 1's) that form a permutation of some number of consecutive positive integers starting with 1.",
+  "id": "A175061",
+  "mentions": [
+    "A161001",
+    "A175062"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

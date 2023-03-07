@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime such that the multisets of the next n and the following n prime gaps are equal.",
+  "id": "A249012",
+  "mentions": [
+    "A249011"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

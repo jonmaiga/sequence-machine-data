@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first occurrence of k in A104515, the difference between the maximum number of consecutive integers and the minimum number >1 of consecutive integers, the sum of which equals n.",
+  "id": "A104516",
+  "mentions": [
+    "A104512",
+    "A104513",
+    "A104514",
+    "A104515"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

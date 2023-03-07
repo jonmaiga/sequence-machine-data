@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p is the largest member of a Wieferich tuple.",
+  "id": "A297846",
+  "mentions": [
+    "A253683",
+    "A266829",
+    "A271100",
+    "A289899"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

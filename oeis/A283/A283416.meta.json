@@ -1,0 +1,19 @@
+{
+  "description": "Number of possible connected steric graphs with n nodes of degree less than 5.",
+  "id": "A283416",
+  "mentions": [
+    "A280013"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

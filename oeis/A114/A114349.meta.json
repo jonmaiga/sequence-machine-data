@@ -1,0 +1,18 @@
+{
+  "description": "Terms of A114331 divided by the appropriate prime (q) in A052248.",
+  "id": "A114349",
+  "mentions": [
+    "A052248",
+    "A114331"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

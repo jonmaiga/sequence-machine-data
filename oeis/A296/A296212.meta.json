@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if sigma(n) + 1 is prime, 0 otherwise.",
+  "id": "A296212",
+  "mentions": [
+    "A000203",
+    "A010051",
+    "A065512",
+    "A088580",
+    "A296077",
+    "A296079",
+    "A296092",
+    "A296211"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

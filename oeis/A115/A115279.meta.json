@@ -1,0 +1,19 @@
+{
+  "description": "Ordered hypotenuses of primitive Pythagorean triangles having each of three sides with same number of decimal digits.",
+  "id": "A115279",
+  "mentions": [
+    "A020882",
+    "A115280"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

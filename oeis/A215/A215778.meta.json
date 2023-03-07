@@ -1,0 +1,18 @@
+{
+  "description": "Natural growth of an aliquot sequence driven by a perfect number 2^(p-1)*((2^p)-1), but starting at 11.",
+  "id": "A215778",
+  "mentions": [
+    "A146556",
+    "A216224"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

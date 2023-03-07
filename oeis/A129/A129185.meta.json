@@ -1,0 +1,22 @@
+{
+  "description": "Shift operator, left.",
+  "id": "A129185",
+  "mentions": [
+    "A129184",
+    "A129186"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

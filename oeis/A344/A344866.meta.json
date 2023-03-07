@@ -1,0 +1,26 @@
+{
+  "description": "Number of polygons formed when every pair of vertices of a regular (2n-1)-gon are joined by an infinite line.",
+  "id": "A344866",
+  "mentions": [
+    "A007678",
+    "A146212",
+    "A341735",
+    "A344311",
+    "A344857",
+    "A344899",
+    "A344938",
+    "A347320"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

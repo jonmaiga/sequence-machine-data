@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive integer k such that k contains all possible pairs of digits when represented in base b = n >= 2.",
+  "id": "A249907",
+  "mentions": [
+    "A033008",
+    "A043291"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

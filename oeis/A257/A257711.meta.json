@@ -1,0 +1,29 @@
+{
+  "description": "Triangular numbers (A000217) that are the sum of seven consecutive triangular numbers.",
+  "id": "A257711",
+  "mentions": [
+    "A000217",
+    "A001110",
+    "A129803",
+    "A131557",
+    "A157456",
+    "A159678",
+    "A257712",
+    "A257713",
+    "A259413",
+    "A259414",
+    "A259415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

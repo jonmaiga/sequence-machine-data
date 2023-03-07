@@ -1,0 +1,20 @@
+{
+  "description": "Number of separable partitions of n in which the number of distinct (repeatable) parts <= 6.",
+  "id": "A325715",
+  "mentions": [
+    "A000041",
+    "A325334",
+    "A325534"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

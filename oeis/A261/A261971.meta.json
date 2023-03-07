@@ -1,0 +1,21 @@
+{
+  "description": "Number of unit cubes that have a side on the surface of a p X p X p cube composed of p^3 unit cubes, where p is the n-th prime.",
+  "id": "A261971",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A030078"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:40:15",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

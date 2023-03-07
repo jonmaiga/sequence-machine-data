@@ -1,0 +1,18 @@
+{
+  "description": "Index of first multiple of n-th prime in A005179",
+  "id": "A161177",
+  "mentions": [
+    "A005179"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

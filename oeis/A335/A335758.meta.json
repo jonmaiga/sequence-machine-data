@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of vertices formed by n-secting the angles of a heptagon.",
+  "id": "A335758",
+  "mentions": [
+    "A333113",
+    "A335757",
+    "A335759",
+    "A335760"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

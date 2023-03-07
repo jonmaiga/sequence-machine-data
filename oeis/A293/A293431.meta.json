@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of Jacobsthal numbers dividing n.",
+  "id": "A293431",
+  "mentions": [
+    "A000005",
+    "A001045",
+    "A005086",
+    "A147612",
+    "A293432",
+    "A293433"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

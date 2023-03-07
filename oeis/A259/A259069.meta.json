@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of zeta'(-4) (the derivative of Riemann's zeta function at -4).",
+  "id": "A259069",
+  "mentions": [
+    "A075700",
+    "A084448",
+    "A240966",
+    "A243264",
+    "A259068",
+    "A259070",
+    "A259071",
+    "A259072",
+    "A259073"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The smallest number which when multiplied by the n-th repunit gives a Smith number.",
+  "id": "A176385",
+  "mentions": [
+    "A002275",
+    "A006753"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

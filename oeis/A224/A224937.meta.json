@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n having T(n,k) odd parts in excess on even places over odd places.",
+  "id": "A224937",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A077028"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

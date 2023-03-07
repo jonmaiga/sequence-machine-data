@@ -1,0 +1,33 @@
+{
+  "description": "Irregular table T(n,k): the number of partitions of n where the least common multiple of all parts equals k.",
+  "id": "A256067",
+  "mentions": [
+    "A000041",
+    "A000793",
+    "A002264",
+    "A002266",
+    "A008642",
+    "A008643",
+    "A008649",
+    "A009490",
+    "A074064",
+    "A074752",
+    "A074761",
+    "A132270",
+    "A168532",
+    "A181844",
+    "A213952",
+    "A258470"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

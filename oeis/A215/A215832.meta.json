@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the maximum of the function f(x) = log(cos(sin(x)))/log(sin(cos(x))), x in (0,Pi/2).",
+  "id": "A215832",
+  "mentions": [
+    "A168546",
+    "A215668",
+    "A215670",
+    "A215833",
+    "A216891"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

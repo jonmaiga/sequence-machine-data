@@ -1,0 +1,25 @@
+{
+  "description": "The sum of Zeckendorf-infinitary divisors of n = Product_{i} p(i)^r(i): divisors d = Product_{i} p(i)^s(i), such that the Zeckendorf expansion (A014417) of each s(i) contains only terms that are in the Zeckendorf expansion of r(i).",
+  "id": "A331107",
+  "mentions": [
+    "A014417",
+    "A034448",
+    "A049417",
+    "A049418",
+    "A074847",
+    "A097863",
+    "A318465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

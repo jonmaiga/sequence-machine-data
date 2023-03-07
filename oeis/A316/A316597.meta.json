@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of integer partitions that are not totally nondecreasing.",
+  "id": "A316597",
+  "mentions": [
+    "A056239",
+    "A071365",
+    "A112769",
+    "A181819",
+    "A182850",
+    "A242031",
+    "A296150",
+    "A305733",
+    "A316496",
+    "A316529",
+    "A317258"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

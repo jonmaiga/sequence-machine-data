@@ -1,0 +1,22 @@
+{
+  "description": "Positions of 1 in A285384; complement of A072939.",
+  "id": "A285385",
+  "mentions": [
+    "A072939",
+    "A096268",
+    "A171946",
+    "A285384"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

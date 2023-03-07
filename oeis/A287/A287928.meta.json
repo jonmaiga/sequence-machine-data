@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, if digsum(a(i)) = digsum(a(j)), then either i = j or digsum(a(i+1)) != digsum(a(j+1)) (where digsum is the digital sum, A007953).",
+  "id": "A287928",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A007953",
+    "A175500",
+    "A287929"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

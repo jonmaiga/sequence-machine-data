@@ -1,0 +1,21 @@
+{
+  "description": "Exclusive-or based Pascal triangle, read by rows: T(n,1)=T(n,n)=n and T(n,k) = T(n-1,k-1) XOR T(n-1,k), where XOR is the bitwise exclusive-or operator.",
+  "id": "A213081",
+  "mentions": [
+    "A007318",
+    "A051597",
+    "A080046"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:39:39",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0, and for any n > 1, a(n) is the number of points of the set { (k, a(k)), k = 1..n-2 } that are not visible from the point (n-1, a(n-1)).",
+  "id": "A334044",
+  "mentions": [
+    "A334043"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

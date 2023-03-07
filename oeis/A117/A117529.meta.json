@@ -1,0 +1,23 @@
+{
+  "description": "Indices of Fibonacci numbers with 14 distinct prime factors.",
+  "id": "A117529",
+  "mentions": [
+    "A114823",
+    "A114826",
+    "A114836",
+    "A114841",
+    "A303217"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

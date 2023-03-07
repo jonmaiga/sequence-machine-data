@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where row n forms a polynomial in y=3*k that generates diagonal n as k=0,1,2,... for n>=0; thus T(n,k) = Sum_{j=0..n-k} T(n-k,j)*(3*k)^j, with T(n,0)=T(n,n)=1.",
+  "id": "A113716",
+  "mentions": [
+    "A091150",
+    "A113711",
+    "A113717",
+    "A113718",
+    "A113719"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

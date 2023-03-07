@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*5^(n-1) + n.",
+  "id": "A308807",
+  "mentions": [
+    "A005054"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

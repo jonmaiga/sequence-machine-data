@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0, a(1)=1; thereafter a(n) = a(n-2)+a(n-1), keeping just the digits that appear exactly once.",
+  "id": "A321021",
+  "mentions": [
+    "A000045",
+    "A320486",
+    "A321022"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

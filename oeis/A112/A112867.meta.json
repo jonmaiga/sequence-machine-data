@@ -1,0 +1,19 @@
+{
+  "description": "Greater of two ternary (base 3) numbers (each using only 0's and 1's, the latter's positions never coinciding) such that the decimal representation of their difference is n.",
+  "id": "A112867",
+  "mentions": [
+    "A060372",
+    "A112952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

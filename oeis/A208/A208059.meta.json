@@ -1,0 +1,20 @@
+{
+  "description": "Start with n, successively subtract each digit of the resulting sequence (the digits of a negative term being the negatives of that term's digits): a(n) is the number of steps needed to get to the first zero.",
+  "id": "A208059",
+  "mentions": [
+    "A207505",
+    "A207506"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

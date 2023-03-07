@@ -1,0 +1,20 @@
+{
+  "description": "Perimeters of Heronian triangles whose largest side length is squarefree.",
+  "id": "A335224",
+  "mentions": [
+    "A008683",
+    "A330869",
+    "A335222",
+    "A335223"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

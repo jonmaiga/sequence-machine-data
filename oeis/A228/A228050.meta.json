@@ -1,0 +1,22 @@
+{
+  "description": "The decimal representation of n is a substring of its base 7 representation.",
+  "id": "A228050",
+  "mentions": [
+    "A038102",
+    "A038106",
+    "A227549",
+    "A228051",
+    "A228052"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

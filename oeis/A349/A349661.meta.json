@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as x^4 + y^2 + (z^2 + 4^w)/2 with x,y,z,w nonnegative integers.",
+  "id": "A349661",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000302",
+    "A000583",
+    "A349957",
+    "A349992",
+    "A350012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

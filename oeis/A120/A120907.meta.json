@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ternary words of length n on {0,1,2} having sum of the lengths of the drops equal to k (n>=0, k>=0). The drops of a ternary word on {0,1,2} are the subwords 10,20 and 21, their lengths being the differences 1, 2 and 1, respectively.",
+  "id": "A120907",
+  "mentions": [
+    "A000217",
+    "A000244",
+    "A027471",
+    "A120906",
+    "A120908"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

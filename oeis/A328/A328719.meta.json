@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows: row n consists of the numbers k from 1 to n sorted in ascending lexicographic order of their sequences of p-adic valuations.",
+  "id": "A328719",
+  "mentions": [
+    "A328720"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

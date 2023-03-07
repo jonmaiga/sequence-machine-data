@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (eta(q^3) * eta(q^5))^2 / (eta(q) * eta(q^15)) in powers of q.",
+  "id": "A123864",
+  "mentions": [
+    "A030203",
+    "A035175",
+    "A106406"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:35",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

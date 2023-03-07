@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle where T(n,k) is the number of permutations of the integer partition with Heinz number A215366(n,k).",
+  "id": "A319193",
+  "mentions": [
+    "A000041",
+    "A005651",
+    "A008277",
+    "A008480",
+    "A056239",
+    "A072811",
+    "A124794",
+    "A215366",
+    "A319182",
+    "A319191",
+    "A319192"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Largest base-2 palindrome m <= n, written in base 2.",
+  "id": "A265526",
+  "mentions": [
+    "A175298",
+    "A206913",
+    "A206914",
+    "A261423",
+    "A262038",
+    "A265509",
+    "A265527",
+    "A265528"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

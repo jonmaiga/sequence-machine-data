@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: number of permutations of 1..n by length l of longest run (n >= 1, 1 <= l <= n).",
+  "id": "A211318",
+  "mentions": [
+    "A001250",
+    "A001251",
+    "A001252",
+    "A001253",
+    "A010026",
+    "A230129",
+    "A230130",
+    "A230131",
+    "A230132",
+    "A230133"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:00",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

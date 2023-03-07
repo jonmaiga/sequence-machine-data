@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows, T(n,k) = C(n,k)*Sum_{j=0..n-k} E(n-k,j)*2^j, where E(n,k) are the Eulerian numbers A173018(n,k), n >= 0, 0 <= k <= n.",
+  "id": "A154921",
+  "mentions": [
+    "A000027",
+    "A000629",
+    "A000670",
+    "A007047",
+    "A045943",
+    "A052822",
+    "A052841",
+    "A052882",
+    "A080253",
+    "A099880",
+    "A151919",
+    "A154926",
+    "A162312",
+    "A162313",
+    "A173018",
+    "A263634"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

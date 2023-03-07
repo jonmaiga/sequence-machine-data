@@ -1,0 +1,21 @@
+{
+  "description": "Positions where A116624 is a power of 2.",
+  "id": "A116628",
+  "mentions": [
+    "A000079",
+    "A116624",
+    "A116625"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of parity-alternating permutations of [n] avoiding the pattern 321.",
+  "id": "A354208",
+  "mentions": [
+    "A000108",
+    "A010551"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

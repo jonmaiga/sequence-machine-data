@@ -1,0 +1,20 @@
+{
+  "description": "Abelian complexity function of the period-doubling sequence (A096268).",
+  "id": "A216195",
+  "mentions": [
+    "A007302",
+    "A096268"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps to reach 1 or a cycle in the Collatz-like problem '3x/2' and '(x-1)/2'.",
+  "id": "A279909",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

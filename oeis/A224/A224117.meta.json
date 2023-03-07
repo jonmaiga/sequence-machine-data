@@ -1,0 +1,17 @@
+{
+  "description": "Number of idempotent n X n 0..1 matrices of rank n-2",
+  "id": "A224117",
+  "mentions": [
+    "A224118"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} ( (1+x)^n - 1 )^n * 3^n / (4 - 3*(1+x)^n)^(n+1).",
+  "id": "A317663",
+  "mentions": [
+    "A302598",
+    "A302615",
+    "A317662",
+    "A317664"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

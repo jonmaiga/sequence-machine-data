@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that tau(m^2) is a prime.",
+  "id": "A283262",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000290",
+    "A000961",
+    "A048691",
+    "A051676",
+    "A055638",
+    "A061285"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

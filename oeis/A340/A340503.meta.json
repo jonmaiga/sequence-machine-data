@@ -1,0 +1,20 @@
+{
+  "description": "Fixed under 0 -> 02, 1 -> 32, 2 -> 01, 3 -> 31.",
+  "id": "A340503",
+  "mentions": [
+    "A020985",
+    "A020987",
+    "A100260",
+    "A340504"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

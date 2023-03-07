@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 3^k + 5^k + 7^k + 11^k + 13^k.",
+  "id": "A354831",
+  "mentions": [
+    "A166241",
+    "A352393"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to use the elements of {1,...,k}, 0 <= k <= 2n, once each to form a sequence of n sets, each having 1 or 2 elements.",
+  "id": "A105749",
+  "mentions": [
+    "A001515",
+    "A003011",
+    "A099022",
+    "A143990",
+    "A181731"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

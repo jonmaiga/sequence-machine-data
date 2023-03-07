@@ -1,0 +1,20 @@
+{
+  "description": "Number of polyphyletic coalescence sequences for 2n lineages, n each in 2 species.",
+  "id": "A306391",
+  "mentions": [
+    "A006472",
+    "A306266",
+    "A306350"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

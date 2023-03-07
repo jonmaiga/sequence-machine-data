@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the four sixth-degree cyclotomic polynomials are simultaneously prime.",
+  "id": "A231613",
+  "mentions": [
+    "A014574",
+    "A032447",
+    "A087277",
+    "A231612",
+    "A231614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

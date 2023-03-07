@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of h(n+5) - h(n) where h(n) = Sum_{k=1..n} (1/k) are the Harmonic numbers.",
+  "id": "A189998",
+  "mentions": [
+    "A011655",
+    "A131743"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

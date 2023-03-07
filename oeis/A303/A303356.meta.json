@@ -1,0 +1,19 @@
+{
+  "description": "Unitary deficient-perfect numbers: unitary deficient numbers k such that 2*k-usigma(k) is a unitary divisor of k, where usigma is the sum of unitary divisors of k (A034448).",
+  "id": "A303356",
+  "mentions": [
+    "A034448",
+    "A271816",
+    "A303357"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

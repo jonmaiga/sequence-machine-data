@@ -1,0 +1,22 @@
+{
+  "description": "Carmichael numbers k for which A053575(k) [the odd part of phi] does not divide k-1.",
+  "id": "A340092",
+  "mentions": [
+    "A000265",
+    "A002322",
+    "A002997",
+    "A053575",
+    "A339869",
+    "A340091"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

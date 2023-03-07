@@ -1,0 +1,18 @@
+{
+  "description": "Number of set partitions of [n] into four blocks with distinct sizes.",
+  "id": "A272516",
+  "mentions": [
+    "A131632"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 10,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

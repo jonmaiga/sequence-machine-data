@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} (k + x - k*x^2), for n >= 0.",
+  "id": "A322228",
+  "mentions": [
+    "A322225",
+    "A322226",
+    "A322227",
+    "A322235",
+    "A322236",
+    "A322237",
+    "A322238"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

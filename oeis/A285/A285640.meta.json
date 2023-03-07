@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = negative of exponent of s(2) in factorization of s(n) where s(1)^2 * s(n+2) * s(n-2) = s(2)^2 * s(n+1) * s(n-1) - s(3) * s(1) * s(n)^2, s(n) = -s(-n) for all n in Z, with a(0) = -2, and s(1), s(2), s(3), s(4) are variables.",
+  "id": "A285640",
+  "mentions": [
+    "A285631"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:45:27",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d) * A003961(n/d), where A003961 shifts the prime factorization of its argument one step towards larger primes, and phi is Euler totient function.",
+  "id": "A347137",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000040",
+    "A001043",
+    "A003961",
+    "A003972",
+    "A008683",
+    "A018804",
+    "A347122",
+    "A347136",
+    "A347237"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)/(1 - x*A(x)^2).",
+  "id": "A106228",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A006318",
+    "A027307",
+    "A027907",
+    "A082759",
+    "A086246",
+    "A109081",
+    "A164965"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

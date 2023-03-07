@@ -1,0 +1,20 @@
+{
+  "description": "Index of first occurrence of 2n in A031883, or 0 if 2n never occurs in A031883 = first differences of lucky numbers A000959.",
+  "id": "A181558",
+  "mentions": [
+    "A000959",
+    "A031883",
+    "A038664"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

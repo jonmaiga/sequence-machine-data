@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are sum of a square and a nonnegative cube (with repetition).",
+  "id": "A123291",
+  "mentions": [
+    "A022549",
+    "A022550"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

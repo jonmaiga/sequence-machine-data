@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum nondecreasing horizontally, vertically and ne-to-sw antidiagonally",
+  "id": "A253350",
+  "mentions": [
+    "A204609"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

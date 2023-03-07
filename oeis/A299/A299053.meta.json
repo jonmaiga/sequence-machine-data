@@ -1,0 +1,21 @@
+{
+  "description": "Minimum value of the cyclic autocorrelation of first n primes.",
+  "id": "A299053",
+  "mentions": [
+    "A014342",
+    "A024450",
+    "A088003",
+    "A299111"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

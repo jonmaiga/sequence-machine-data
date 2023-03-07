@@ -1,0 +1,22 @@
+{
+  "description": "Number of proper divisors of the Catalan number A000108(n).",
+  "id": "A153788",
+  "mentions": [
+    "A000108",
+    "A032741",
+    "A152762",
+    "A152763",
+    "A152988"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

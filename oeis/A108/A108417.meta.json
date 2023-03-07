@@ -1,0 +1,20 @@
+{
+  "description": "Number of subsets of the n-th roots of 1 with absolute value of sum = 1.",
+  "id": "A108417",
+  "mentions": [
+    "A103314",
+    "A107754",
+    "A108416"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

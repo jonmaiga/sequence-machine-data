@@ -1,0 +1,18 @@
+{
+  "description": "Squares containing a digit 2.",
+  "id": "A213445",
+  "mentions": [
+    "A213444"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

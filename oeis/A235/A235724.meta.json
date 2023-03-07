@@ -1,0 +1,23 @@
+{
+  "description": "Squares which have one or more occurrences of exactly nine different digits.",
+  "id": "A235724",
+  "mentions": [
+    "A036744",
+    "A054037",
+    "A225218",
+    "A235717",
+    "A235723"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

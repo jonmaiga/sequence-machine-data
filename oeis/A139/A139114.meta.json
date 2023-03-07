@@ -1,0 +1,25 @@
+{
+  "description": "Concatenation of n-th Fibonacci number and n.",
+  "id": "A139114",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A045532",
+    "A075110",
+    "A138821",
+    "A138822",
+    "A139113"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

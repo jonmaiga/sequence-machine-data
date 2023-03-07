@@ -1,0 +1,21 @@
+{
+  "description": "Differences of consecutive Achilles numbers.",
+  "id": "A247246",
+  "mentions": [
+    "A052486",
+    "A053289",
+    "A076446"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

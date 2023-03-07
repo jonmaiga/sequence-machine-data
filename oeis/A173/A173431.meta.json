@@ -1,0 +1,25 @@
+{
+  "description": "Count of consecutive coprime iterations of sum-of-divisors function",
+  "id": "A173431",
+  "mentions": [
+    "A000203",
+    "A019277",
+    "A019284",
+    "A019294",
+    "A019295",
+    "A051027",
+    "A129246",
+    "A173430"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

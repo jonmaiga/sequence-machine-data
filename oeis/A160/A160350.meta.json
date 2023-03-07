@@ -1,0 +1,22 @@
+{
+  "description": "Indices n=pqr of flat cyclotomic polynomials, where p",
+  "id": "A160350",
+  "mentions": [
+    "A075819",
+    "A117223",
+    "A159908",
+    "A159909",
+    "A160352",
+    "A160354"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

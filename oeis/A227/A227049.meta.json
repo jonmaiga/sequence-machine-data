@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that (15^n + 4^n)/19 is prime.",
+  "id": "A227049",
+  "mentions": [
+    "A057181",
+    "A128071",
+    "A128342",
+    "A213176",
+    "A221637",
+    "A224501"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

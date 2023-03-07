@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of digits in the decimal representation of the smallest power of n that contains six consecutive identical digits.",
+  "id": "A217181",
+  "mentions": [
+    "A217161",
+    "A217171"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

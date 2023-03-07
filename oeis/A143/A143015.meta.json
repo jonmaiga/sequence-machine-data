@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1. a(n) = the smallest integer >=2 such that (product{k=1 to n} a(k)) in binary is a palindrome.",
+  "id": "A143015",
+  "mentions": [
+    "A143014",
+    "A143016"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

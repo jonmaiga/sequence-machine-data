@@ -1,0 +1,26 @@
+{
+  "description": "Number of inequivalent leaf-colorings of the free pure symmetric multifunction with e-number n.",
+  "id": "A317994",
+  "mentions": [
+    "A007916",
+    "A052409",
+    "A052410",
+    "A277576",
+    "A277996",
+    "A300626",
+    "A316112",
+    "A317056",
+    "A317658",
+    "A317765"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

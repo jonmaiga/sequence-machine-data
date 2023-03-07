@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of 4-times (but not 5-times) reformable permutation of {1,...,n}.",
+  "id": "A127966",
+  "mentions": [
+    "A007709",
+    "A007710",
+    "A007711",
+    "A007712",
+    "A055459",
+    "A067950"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 11,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

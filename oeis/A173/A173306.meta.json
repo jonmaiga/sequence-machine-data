@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, generated from an array of terms in powers of triangle A173305.",
+  "id": "A173306",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A173305"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

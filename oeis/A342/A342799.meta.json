@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that there are more 1s than 2s in {K(1), .., K(m)}, where K = A000002 (Kolakoski sequence).",
+  "id": "A342799",
+  "mentions": [
+    "A000002",
+    "A022292",
+    "A022293",
+    "A074261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Rounded percentage of primes less than 10^n.",
+  "id": "A229661",
+  "mentions": [
+    "A000720",
+    "A006879",
+    "A006880",
+    "A006988",
+    "A007053",
+    "A040014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

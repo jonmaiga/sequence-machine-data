@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of ten cubes in nine or more ways.",
+  "id": "A345557",
+  "mentions": [
+    "A345548",
+    "A345556",
+    "A345558",
+    "A345602",
+    "A345811"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

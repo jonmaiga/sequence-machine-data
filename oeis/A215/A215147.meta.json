@@ -1,0 +1,20 @@
+{
+  "description": "For n odd, a(n)= 1^2+2^2+3^2+...+n^2; for n even, a(n)=(1^2+2^2+3^2+...+n^2) + 1.",
+  "id": "A215147",
+  "mentions": [
+    "A000330",
+    "A056520"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:25",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

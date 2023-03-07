@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct values of Sum_{i=0..n} x(i)*binomial(n,i), where the x(i) have values in 0..3.",
+  "id": "A205538",
+  "mentions": [
+    "A205536",
+    "A205537",
+    "A205539",
+    "A205540",
+    "A205541",
+    "A205542"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Record holders for lengths of ever-decreasing aliquot sequences.",
+  "id": "A234899",
+  "mentions": [
+    "A081699",
+    "A081705",
+    "A098008"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Inflation orbit counts b^{(3)}_n for Danzer's F-type tiling and other 3D cut and project patterns with tau-inflation.",
+  "id": "A324488",
+  "mentions": [
+    "A001350",
+    "A031367",
+    "A324487",
+    "A324489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

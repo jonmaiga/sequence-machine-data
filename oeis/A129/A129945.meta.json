@@ -1,0 +1,20 @@
+{
+  "description": "Left truncatable primes in base 9 (written in decimal form).",
+  "id": "A129945",
+  "mentions": [
+    "A024784",
+    "A076623"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

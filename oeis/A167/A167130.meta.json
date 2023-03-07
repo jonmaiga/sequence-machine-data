@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form A002808(n) + A062502(n+1).",
+  "id": "A167130",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A062502"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

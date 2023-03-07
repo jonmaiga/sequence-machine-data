@@ -1,0 +1,20 @@
+{
+  "description": "Odd prime numbers p such that p*Bernoulli(p-1) + (p-1)!*(p-1) == 0 (mod p^3).",
+  "id": "A276808",
+  "mentions": [
+    "A088164",
+    "A197632"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

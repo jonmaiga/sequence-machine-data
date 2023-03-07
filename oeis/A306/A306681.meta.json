@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, for n >= 2 let the digits of a(n-1) be d_1, ..., d_i in base 10. Starting from d_1 do the following procedure: if d_r is divisible by 2, then d_r_new = d_r / 2, otherwise d_r_new = 3*d_r. a(n) = concatenation of d_r_new for r = 1 to i.",
+  "id": "A306681",
+  "mentions": [
+    "A006370"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

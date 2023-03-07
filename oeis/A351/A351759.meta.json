@@ -1,0 +1,18 @@
+{
+  "description": "Number of words either empty or beginning with the first letter of the n-ary alphabet, where each letter of the alphabet occurs n times and letters of neighboring word positions are equal or neighbors in the alphabet.",
+  "id": "A351759",
+  "mentions": [
+    "A208673"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

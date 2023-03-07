@@ -1,0 +1,22 @@
+{
+  "description": "Primes giving record values of f(n) = (2*Sum_{i=1..n}(i*prime(i)) / Sum_{i=1..n}(prime(i))-(n+1))/(n-1).",
+  "id": "A243593",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A007504",
+    "A014285",
+    "A014689",
+    "A046933"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

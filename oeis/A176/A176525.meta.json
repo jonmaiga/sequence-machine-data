@@ -1,0 +1,24 @@
+{
+  "description": "Fermi-Dirac semiprimes: products of two distinct terms of A050376",
+  "id": "A176525",
+  "mentions": [
+    "A000379",
+    "A001358",
+    "A050292",
+    "A050376",
+    "A064380",
+    "A176472",
+    "A176509"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

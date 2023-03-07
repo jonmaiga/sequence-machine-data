@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers p such that all 4 variables of the equation (p = i * q + r) are prime, with i being the index of p, q the quotient of p/i, and r the remainder of p/i.",
+  "id": "A328022",
+  "mentions": [
+    "A023144",
+    "A156152",
+    "A156153"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

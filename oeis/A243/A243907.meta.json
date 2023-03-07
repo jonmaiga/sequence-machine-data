@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be expressed as n*m + (n-1)*(m-1), n = 2, 3, ... , m = n, n+1, n+2, ... in at least two different ways. Ordered increasingly.",
+  "id": "A243907",
+  "mentions": [
+    "A053726",
+    "A140646",
+    "A144650",
+    "A186041",
+    "A244418"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Kashaev's invariant for the (9,2)-torus knot.",
+  "id": "A208681",
+  "mentions": [
+    "A002439",
+    "A156652",
+    "A208679",
+    "A208680"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:18:30",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

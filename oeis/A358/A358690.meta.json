@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit primes whose digits are all odd.",
+  "id": "A358690",
+  "mentions": [
+    "A030096",
+    "A358685"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

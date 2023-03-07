@@ -1,0 +1,19 @@
+{
+  "description": "A triangle of coefficients from Hermite polynomials A060821 as {x,y},{y,z},{z,x} binomials reduced to x: f(x,y,n)=Sum[Coefficients(H(x,n))(i)*x^i*y^(n-1),{i,0,n}]; p(x,y,z)=f(x,y,n)+f(y,z,n)+f(z,x,n).",
+  "id": "A139583",
+  "mentions": [
+    "A060821"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

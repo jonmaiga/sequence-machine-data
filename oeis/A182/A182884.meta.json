@@ -1,0 +1,18 @@
+{
+  "description": "Number of (1,0)-steps of weight 1 in all weighted lattice paths in L_n.",
+  "id": "A182884",
+  "mentions": [
+    "A182882"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

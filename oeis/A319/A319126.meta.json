@@ -1,0 +1,21 @@
+{
+  "description": "Convex hull primes, that is, prime numbers corresponding to the convex hull of PrimePi, the prime counting function.",
+  "id": "A319126",
+  "mentions": [
+    "A000720",
+    "A124661",
+    "A167844",
+    "A246033"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

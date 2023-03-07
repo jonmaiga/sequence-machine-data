@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangular array T(n,k) read by rows: T(n,k) is the number of degree n monic polynomials in GF(2)[x] with exactly k distinct factors in its unique factorization into irreducible polynomials.",
+  "id": "A329721",
+  "mentions": [
+    "A000031",
+    "A000079",
+    "A001037",
+    "A269456",
+    "A306945"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

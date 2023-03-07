@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of vertices at distance k in a benzenoid consisting of a linear chain of n hexagons (1 <= k <= 2n+1).",
+  "id": "A143937",
+  "mentions": [
+    "A014634",
+    "A143938"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

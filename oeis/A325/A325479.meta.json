@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of a normal number in base 10, which, on average, up to any given integer appearance (above 11), is more compact than Champernowne's constant, and more compact than A189823.",
+  "id": "A325479",
+  "mentions": [
+    "A033307",
+    "A189823"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 130,
+    "source": "oeis-entry"
+  }
+}

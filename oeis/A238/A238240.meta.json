@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that x^2 - 20xy + y^2 + n = 0 has integer solutions.",
+  "id": "A238240",
+  "mentions": [
+    "A001085",
+    "A031363",
+    "A075839",
+    "A084917",
+    "A198947",
+    "A221763",
+    "A236330",
+    "A236331",
+    "A237351",
+    "A237599",
+    "A237606",
+    "A237609",
+    "A237610"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

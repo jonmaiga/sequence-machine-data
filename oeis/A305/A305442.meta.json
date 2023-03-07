@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of {1, 2, ..., n} such that the sum of the reciprocals is strictly less than 1.",
+  "id": "A305442",
+  "mentions": [
+    "A092669",
+    "A092670",
+    "A212657",
+    "A272083"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

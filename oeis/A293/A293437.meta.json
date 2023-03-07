@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n that are persistently squarefree for base-2 shifting (in A293430), and for which A163511(n) is also in A293430.",
+  "id": "A293437",
+  "mentions": [
+    "A003754",
+    "A004760",
+    "A005117",
+    "A005940",
+    "A054429",
+    "A163511",
+    "A243071",
+    "A280873",
+    "A293230",
+    "A293233",
+    "A293430"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

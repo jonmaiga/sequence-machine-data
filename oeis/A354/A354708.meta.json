@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of 9-digit zeroless pandigital numbers that are divisible by 3^n.",
+  "id": "A354708",
+  "mentions": [
+    "A050289"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

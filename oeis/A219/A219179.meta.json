@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sigma(n)/tau(n) is a perfect number.",
+  "id": "A219179",
+  "mentions": [
+    "A000396",
+    "A003601"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

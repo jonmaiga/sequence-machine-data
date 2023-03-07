@@ -1,0 +1,22 @@
+{
+  "description": "The multiplicative inverse of the coefficients of the factorially normalized Bernoulli polynomials (provided they do not vanish, otherwise by convention 0).",
+  "id": "A358111",
+  "mentions": [
+    "A000142",
+    "A196838",
+    "A196839",
+    "A227830"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes formed by reverse concatenation of 8 consecutive triangular numbers.",
+  "id": "A105300",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

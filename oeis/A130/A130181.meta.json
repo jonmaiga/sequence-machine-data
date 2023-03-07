@@ -1,0 +1,20 @@
+{
+  "description": "Largest k > 1 such that (sum of digits of k^n)*(sum of digits of k^(n+1)) = k, or 0 if no such k exists.",
+  "id": "A130181",
+  "mentions": [
+    "A126783",
+    "A130179",
+    "A130180"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

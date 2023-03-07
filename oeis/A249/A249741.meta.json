@@ -1,0 +1,30 @@
+{
+  "description": "Sieve of Eratosthenes minus one: a(n) = A083221(n+1) - 1.",
+  "id": "A249741",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A005408",
+    "A006093",
+    "A038722",
+    "A083221",
+    "A114881",
+    "A135764",
+    "A249742",
+    "A249743",
+    "A249811"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

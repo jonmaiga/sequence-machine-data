@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form (3^k - 3)/k.",
+  "id": "A247033",
+  "mentions": [
+    "A000040",
+    "A005935",
+    "A064535",
+    "A122780",
+    "A246445",
+    "A247307"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

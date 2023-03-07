@@ -1,0 +1,17 @@
+{
+  "description": "Number of degeneracies on the sets of n ordinary trees with n vertices. These are the values of the information index, (I^w)_D, in Table 15 of the paper by Elena V. Konstantinova and Maxim V. Vidyuk.",
+  "id": "A125066",
+  "mentions": [
+    "A121223"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 9,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} tau(gcd(k,n))^gcd(k,n), where tau(n) is the number of divisors of n.",
+  "id": "A344194",
+  "mentions": [
+    "A000005",
+    "A342423",
+    "A344081",
+    "A344140",
+    "A344195"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:33:47",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

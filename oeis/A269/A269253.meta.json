@@ -1,0 +1,35 @@
+{
+  "description": "Smallest prime in the sequence s(k) = n*s(k-1) - s(k-2), with s(0) = 1, s(1) = n + 1 (or -1 if no such prime exists).",
+  "id": "A269253",
+  "mentions": [
+    "A033890",
+    "A088165",
+    "A113501",
+    "A117522",
+    "A269251",
+    "A269252",
+    "A269254",
+    "A285992",
+    "A294099",
+    "A298675",
+    "A298677",
+    "A298878",
+    "A299045",
+    "A299071",
+    "A299100",
+    "A299101",
+    "A299107",
+    "A299109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

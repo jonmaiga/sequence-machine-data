@@ -1,0 +1,24 @@
+{
+  "description": "The first repeating term in the trajectory of n under iterations of A329623, or -1 if no such terms exists.",
+  "id": "A328865",
+  "mentions": [
+    "A053392",
+    "A328142",
+    "A329197",
+    "A329200",
+    "A329623",
+    "A329624",
+    "A329917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

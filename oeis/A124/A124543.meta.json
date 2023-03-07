@@ -1,0 +1,25 @@
+{
+  "description": "Row 3 of rectangular table A124540; equals the self-convolution cube of A124533 (row 3 of table A124530).",
+  "id": "A124543",
+  "mentions": [
+    "A124530",
+    "A124531",
+    "A124533",
+    "A124540",
+    "A124542",
+    "A124544",
+    "A124545",
+    "A124546"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

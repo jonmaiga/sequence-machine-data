@@ -1,0 +1,19 @@
+{
+  "description": "Universal sequence of period 56 which contains every 3-subset of {1,2,...,8} exactly once.",
+  "id": "A181753",
+  "mentions": [
+    "A010887"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:47",
+    "offset": 1,
+    "size": 168,
+    "source": "joeis"
+  }
+}

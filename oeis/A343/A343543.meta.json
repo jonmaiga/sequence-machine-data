@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*Lucas(2*n).",
+  "id": "A343543",
+  "mentions": [
+    "A000032",
+    "A005248",
+    "A146005",
+    "A317408"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:21:44",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

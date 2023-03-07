@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n such that the maximal distance between two identical parts equals two.",
+  "id": "A262194",
+  "mentions": [
+    "A262191"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Start with 0, a(n) is the smallest number of iterations: x -> (x^2+x+1) mod n needed to run into a cycle.",
+  "id": "A328702",
+  "mentions": [
+    "A002065",
+    "A290731",
+    "A328701",
+    "A328703"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

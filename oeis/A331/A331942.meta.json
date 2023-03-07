@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of primes of the form P(k) = k^2 + 1 <= 10^n as predicted by the Hardy and Littlewood Conjecture F, rounded to nearest integer. The actual number of primes is A083844(n).",
+  "id": "A331942",
+  "mentions": [
+    "A083844",
+    "A331941"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

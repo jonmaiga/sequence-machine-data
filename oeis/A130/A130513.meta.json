@@ -1,0 +1,28 @@
+{
+  "description": "Subtriangle of triangle in A051168: remove central column of A051168 and all columns to the right; now read by upwards diagonals.",
+  "id": "A130513",
+  "mentions": [
+    "A000108",
+    "A000150",
+    "A002996",
+    "A022553",
+    "A050181",
+    "A050182",
+    "A050183",
+    "A050184",
+    "A050185",
+    "A051168"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

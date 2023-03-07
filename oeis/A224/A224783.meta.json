@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of Bernoulli(n,1/2) - Bernoulli(n,0).",
+  "id": "A224783",
+  "mentions": [
+    "A001469",
+    "A027641",
+    "A027642",
+    "A036968",
+    "A059222",
+    "A157779",
+    "A157780"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:08:40",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

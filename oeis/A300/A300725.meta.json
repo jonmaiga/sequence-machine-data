@@ -1,0 +1,26 @@
+{
+  "description": "Möbius transform of A053645(n), distance to the largest power of 2 less than or equal to n.",
+  "id": "A300725",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A053644",
+    "A053645",
+    "A297111",
+    "A297115",
+    "A300723",
+    "A300724"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Friedman numbers n such that n+1 is also a Friedman number.",
+  "id": "A195420",
+  "mentions": [
+    "A036057"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

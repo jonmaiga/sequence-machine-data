@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of even natural numbers into 6 parts <= n.",
+  "id": "A191489",
+  "mentions": [
+    "A175113"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:21",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

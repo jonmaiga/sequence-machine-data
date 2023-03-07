@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of non-unimodal sequences with n nonzero terms that arise as a convolution of sequences of binomial coefficients preceded by a finite number of ones.",
+  "id": "A320657",
+  "mentions": [
+    "A005581",
+    "A005993",
+    "A024206"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

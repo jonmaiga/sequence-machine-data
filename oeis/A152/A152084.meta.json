@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + 2^floor(log_2(p)) is prime.",
+  "id": "A152084",
+  "mentions": [
+    "A091932",
+    "A152085"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

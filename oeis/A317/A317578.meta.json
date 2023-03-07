@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of distinct integers that are product of the parts of exactly k partitions of n into 3 positive parts; triangle T(n,k), n>=3, k>=1, read by rows.",
+  "id": "A317578",
+  "mentions": [
+    "A001399",
+    "A060277",
+    "A069905",
+    "A103277",
+    "A211540",
+    "A306403",
+    "A306435"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 3,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

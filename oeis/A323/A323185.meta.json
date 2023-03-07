@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of rationals whose continued fraction representations show the prime factors of n (for n > 1) in nondecreasing order.",
+  "id": "A323185",
+  "mentions": [
+    "A323184"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

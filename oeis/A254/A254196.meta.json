@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the numerator of Product_{i=1..n} (1/(1-1/prime(i))) - 1.",
+  "id": "A254196",
+  "mentions": [
+    "A000079",
+    "A002473",
+    "A003586",
+    "A038110",
+    "A038111",
+    "A051037",
+    "A051038",
+    "A161527"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle t(n,m) = P(n-m+1) * P(m+1) read by rows, 0<=m<=n, where P=A000041 are the partition numbers.",
+  "id": "A132993",
+  "mentions": [
+    "A000041",
+    "A048574"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

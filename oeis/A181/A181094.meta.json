@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of positive integers created from sequence A000040(n) = primes.",
+  "id": "A181094",
+  "mentions": [
+    "A000040",
+    "A163465",
+    "A181095"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

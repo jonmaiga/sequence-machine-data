@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with a prime number of dots in their International Morse numeral representation.",
+  "id": "A281015",
+  "mentions": [
+    "A060109",
+    "A280913",
+    "A280998",
+    "A280999",
+    "A281017",
+    "A281018"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

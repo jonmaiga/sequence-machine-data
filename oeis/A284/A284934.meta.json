@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 1 in A284792; complement of A284933.",
+  "id": "A284934",
+  "mentions": [
+    "A010060",
+    "A284792",
+    "A284932",
+    "A284933"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

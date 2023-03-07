@@ -1,0 +1,21 @@
+{
+  "description": "Starting with 1, the next entry is the next higher odd integer whose spelling in English comes lexicographically earlier.",
+  "id": "A345015",
+  "mentions": [
+    "A180301"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

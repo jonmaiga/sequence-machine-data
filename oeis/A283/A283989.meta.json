@@ -1,0 +1,26 @@
+{
+  "description": "Largest square dividing prime factorization representation of the n-th Stern polynomial: a(n) = A008833(A260443(n)).",
+  "id": "A283989",
+  "mentions": [
+    "A000188",
+    "A003961",
+    "A008833",
+    "A023758",
+    "A186891",
+    "A260443",
+    "A277013",
+    "A277330",
+    "A283983"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

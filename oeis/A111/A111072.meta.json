@@ -1,0 +1,21 @@
+{
+  "description": "Write the digit string 0123456789, repeated infinitely many times. Then, starting from the first \"0\" digit at the left end, move to the right by one digit (to the \"1\"), then two digits (to the \"3\"), then three digits (to the \"6\"), four digits (\"0\"), five digits (\"5\"), and so on. Partial sums of the digits thus reached are 0, 1, 4, 10, 10, 15, ...",
+  "id": "A111072",
+  "mentions": [
+    "A006248",
+    "A008954"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

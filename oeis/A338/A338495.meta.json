@@ -1,0 +1,22 @@
+{
+  "description": "Least number of hexagonal pyramidal numbers needed to represent n.",
+  "id": "A338495",
+  "mentions": [
+    "A002412",
+    "A104246",
+    "A234533",
+    "A338479",
+    "A338493",
+    "A338494"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

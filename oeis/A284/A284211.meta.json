@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive integer such that n^2 + a(n)^2 and n^2 + (a(n) + 2)^2 are primes.",
+  "id": "A284211",
+  "mentions": [
+    "A069003"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

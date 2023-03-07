@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that the (sum of distinct odd parts) < n/2.",
+  "id": "A284612",
+  "mentions": [
+    "A284613",
+    "A284614",
+    "A284615"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

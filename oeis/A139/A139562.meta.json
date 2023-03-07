@@ -1,0 +1,25 @@
+{
+  "description": "Sum of primes < n^2.",
+  "id": "A139562",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A006880",
+    "A007504",
+    "A034387",
+    "A046731",
+    "A108314",
+    "A130739"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

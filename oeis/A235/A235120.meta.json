@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = b((n+1)/2)^2 if n is odd and a(n) = b(n/2)*b(n/2+1) if n is even, where b = A057452.",
+  "id": "A235120",
+  "mentions": [
+    "A057452"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Let n = a_1a_2...a_k, where the a_i are digits. a(n) = least multiple of n of the type b_1a_1b_2a_2...a_kb_{k+1}, obtained by inserting single digits b_i in the gaps and both ends; 0 if no such number exists.",
+  "id": "A110735",
+  "mentions": [
+    "A080436",
+    "A110734",
+    "A110736"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

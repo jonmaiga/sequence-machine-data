@@ -1,0 +1,19 @@
+{
+  "description": "Analog of Rudin-Shapiro sum sequence A020990, based on counting patterns 00 instead of 11.",
+  "id": "A360536",
+  "mentions": [
+    "A020985",
+    "A020990",
+    "A360535"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

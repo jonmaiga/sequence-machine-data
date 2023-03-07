@@ -1,0 +1,17 @@
+{
+  "description": "Absolute values of A152864.",
+  "id": "A152984",
+  "mentions": [
+    "A152864"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

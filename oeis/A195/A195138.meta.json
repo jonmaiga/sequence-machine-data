@@ -1,0 +1,27 @@
+{
+  "description": "First digit to appear n times in the decimal expansion of e.",
+  "id": "A195138",
+  "mentions": [
+    "A001113",
+    "A096567",
+    "A195139",
+    "A195141",
+    "A195844",
+    "A277270",
+    "A280811",
+    "A290643",
+    "A290644",
+    "A341438"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of sum of reciprocals of first n pentatope numbers A000332.",
+  "id": "A118412",
+  "mentions": [
+    "A000332",
+    "A022998",
+    "A026741",
+    "A118391",
+    "A118392",
+    "A118411"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

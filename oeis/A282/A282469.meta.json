@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sum of reciprocals of fourth powers of the nonprime numbers.",
+  "id": "A282469",
+  "mentions": [
+    "A000040",
+    "A013662",
+    "A018252",
+    "A085964"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

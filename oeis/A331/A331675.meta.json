@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^4 = a^4 + b^4 + c^4 + d^4 has at least two positive primitive solutions.",
+  "id": "A331675",
+  "mentions": [
+    "A003294",
+    "A003828",
+    "A023041",
+    "A039664",
+    "A063922",
+    "A063923",
+    "A134341",
+    "A175610",
+    "A331674"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of f(-x^2, -x^3)^2 / f(-x, -x^2) in powers of x where f() is Ramanujan's two-variable theta function.",
+  "id": "A113681",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A057538",
+    "A093722",
+    "A113430",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:21:47",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

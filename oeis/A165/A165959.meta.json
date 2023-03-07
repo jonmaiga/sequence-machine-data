@@ -1,0 +1,23 @@
+{
+  "description": "Size of the range of the Ramanujan Prime Corollary, 2*A168421(n) - A104272(n).",
+  "id": "A165959",
+  "mentions": [
+    "A000720",
+    "A104272",
+    "A165979",
+    "A168421",
+    "A182873",
+    "A190874"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest position in the subtract-a-factorial game for which the value of the Sprague-Grundy function (or nim-value) is n.",
+  "id": "A355556",
+  "mentions": [
+    "A014587",
+    "A019307",
+    "A297963",
+    "A355557"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

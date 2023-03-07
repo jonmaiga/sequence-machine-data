@@ -1,0 +1,23 @@
+{
+  "description": "Base-15 representation of a(n) is the concatenation of the base-15 representations of 1, 2, ..., n, n-1, ..., 1.",
+  "id": "A260865",
+  "mentions": [
+    "A173426",
+    "A173427",
+    "A260343",
+    "A260853",
+    "A260866"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

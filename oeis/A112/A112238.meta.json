@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (secant of 1 degree)^2.",
+  "id": "A112238",
+  "mentions": [
+    "A019898",
+    "A111493"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:38:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

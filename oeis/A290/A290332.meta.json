@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest j which satisfies (j^2 + k)/(j + k^2) = n where j,k are integers and j >= k > 0.",
+  "id": "A290332",
+  "mentions": [
+    "A290333"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

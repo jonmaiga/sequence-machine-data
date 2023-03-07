@@ -1,0 +1,23 @@
+{
+  "description": "Number of dying nodes (withering branches) at generation n in the binary tree of persistently squarefree numbers (A293230).",
+  "id": "A293520",
+  "mentions": [
+    "A008966",
+    "A293230",
+    "A293233",
+    "A293441",
+    "A293521",
+    "A293522"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

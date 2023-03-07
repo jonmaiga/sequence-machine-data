@@ -1,0 +1,19 @@
+{
+  "description": "Encoded square binary matrices representing an idempotent relation.",
+  "id": "A261194",
+  "mentions": [
+    "A121337",
+    "A231428",
+    "A261195"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

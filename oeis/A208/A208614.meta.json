@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct primes where all of the prime factors of n are represented in the partition.",
+  "id": "A208614",
+  "mentions": [
+    "A000586",
+    "A076694"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

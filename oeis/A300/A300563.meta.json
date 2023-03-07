@@ -1,0 +1,27 @@
+{
+  "description": "Condensed deep factorization of n, A300562(n) written in decimal: floor of odd part of A300561(n) divided by 2.",
+  "id": "A300563",
+  "mentions": [
+    "A000265",
+    "A004526",
+    "A007814",
+    "A061396",
+    "A062504",
+    "A062860",
+    "A145037",
+    "A300560",
+    "A300561",
+    "A300562"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

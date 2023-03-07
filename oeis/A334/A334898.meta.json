@@ -1,0 +1,23 @@
+{
+  "description": "Bi-unitary practical numbers: numbers m such that every number 1 <= k <= bsigma(m) is a sum of distinct bi-unitary divisors of m, where bsigma is A188999.",
+  "id": "A334898",
+  "mentions": [
+    "A004171",
+    "A005153",
+    "A188999",
+    "A286652",
+    "A292982",
+    "A292985",
+    "A334901"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

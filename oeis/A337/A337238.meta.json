@@ -1,0 +1,23 @@
+{
+  "description": "Number k such that k and k+1 are both digitally balanced numbers in base 2 (A031443).",
+  "id": "A337238",
+  "mentions": [
+    "A031443",
+    "A079309",
+    "A191292",
+    "A206374"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

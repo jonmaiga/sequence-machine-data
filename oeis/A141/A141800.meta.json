@@ -1,0 +1,17 @@
+{
+  "description": "For n >= 2, a(n) = Sum_{k=1..n} (smallest prime dividing (n*k)). a(1)=0.",
+  "id": "A141800",
+  "mentions": [
+    "A141801"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

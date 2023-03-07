@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that abs(7*n^2 - 371*n + 4871) is prime.",
+  "id": "A272076",
+  "mentions": [
+    "A005846",
+    "A007635",
+    "A007641",
+    "A048988",
+    "A050265",
+    "A050266",
+    "A050267",
+    "A050268",
+    "A271980",
+    "A272074",
+    "A272075",
+    "A272077"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

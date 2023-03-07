@@ -1,0 +1,36 @@
+{
+  "description": "Arithmetic derivative of A003961(n), where A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A349905",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A026424",
+    "A028260",
+    "A066829",
+    "A343221",
+    "A343222",
+    "A347964",
+    "A347965",
+    "A348937",
+    "A353571",
+    "A358750",
+    "A358751",
+    "A358752",
+    "A358753",
+    "A358760",
+    "A358761",
+    "A358762",
+    "A358763"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Length of the co-Lyndon factorization of the first n terms of A000002.",
+  "id": "A329362",
+  "mentions": [
+    "A000002",
+    "A001037",
+    "A060223",
+    "A088568",
+    "A102659",
+    "A275692",
+    "A296658",
+    "A329312",
+    "A329315",
+    "A329317",
+    "A329318"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

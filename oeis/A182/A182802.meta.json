@@ -1,0 +1,20 @@
+{
+  "description": "Joint-rank array of the numbers j*(1+tau)^2*(i-1), where tau = golden ratio = (1+sqrt(5))/2, i>=1, read by antidiagonals.",
+  "id": "A182802",
+  "mentions": [
+    "A054963",
+    "A182801"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

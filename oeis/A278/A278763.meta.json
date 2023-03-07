@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array: row n shows the number of edges in successive levels of a graph of the partitions of n; see Comments.",
+  "id": "A278763",
+  "mentions": [
+    "A000041",
+    "A000097",
+    "A278762"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

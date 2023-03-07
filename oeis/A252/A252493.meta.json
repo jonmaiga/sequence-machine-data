@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that n(n+1) is 13-smooth. (Related to the abc conjecture.)",
+  "id": "A252493",
+  "mentions": [
+    "A002071",
+    "A002072",
+    "A080197",
+    "A085152",
+    "A085153",
+    "A138180",
+    "A145604",
+    "A145605",
+    "A252492",
+    "A252494"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

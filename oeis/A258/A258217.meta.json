@@ -1,0 +1,21 @@
+{
+  "description": "Smallest multiple of 7 starting with n, that did not appear earlier.",
+  "id": "A258217",
+  "mentions": [
+    "A008589",
+    "A258083",
+    "A258188",
+    "A258334"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

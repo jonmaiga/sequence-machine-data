@@ -1,0 +1,17 @@
+{
+  "description": "Number of 0..n arrays of length n+1 with 0 never adjacent to n",
+  "id": "A212833",
+  "mentions": [
+    "A212835"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

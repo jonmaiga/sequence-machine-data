@@ -1,0 +1,22 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f and g are the triangular numbers and squares. Complement of A186222.",
+  "id": "A186221",
+  "mentions": [
+    "A061288",
+    "A186219",
+    "A186220",
+    "A186222"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

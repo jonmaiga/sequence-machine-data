@@ -1,0 +1,18 @@
+{
+  "description": "Let A_n be the sequence defined in the same way as A159559 but with initial term prime(n), n>=2; a(n) = max(A_n(m) - A159559(m)), m>=2.",
+  "id": "A276703",
+  "mentions": [
+    "A159559",
+    "A229019"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

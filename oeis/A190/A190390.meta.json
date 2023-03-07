@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with prime factorization pqrst^2u^3.",
+  "id": "A190390",
+  "mentions": [
+    "A190387",
+    "A190388"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

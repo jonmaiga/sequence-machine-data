@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = n*a(n-1) if n is a prime, otherwise a(n) = floor(a(n-1)/A020639(n)), where A020639(n) is the smallest prime divisor of n.",
+  "id": "A330252",
+  "mentions": [
+    "A000040",
+    "A020639",
+    "A330253"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

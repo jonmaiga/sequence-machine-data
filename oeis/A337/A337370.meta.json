@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of sqrt(2 / ( (1-12*x+4*x^2) * (1-2*x+sqrt(1-12*x+4*x^2)) )).",
+  "id": "A337370",
+  "mentions": [
+    "A337369",
+    "A337390"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

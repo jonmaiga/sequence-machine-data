@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients in the asymptotic expansion of the logarithm of the central binomial coefficient",
+  "id": "A275994",
+  "mentions": [
+    "A002425",
+    "A275995"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

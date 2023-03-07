@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f. (1/4!)*sin^4(x)/cos(x) (coefficients of even powers only).",
+  "id": "A278080",
+  "mentions": [
+    "A000364",
+    "A004174",
+    "A024235",
+    "A166984",
+    "A278079",
+    "A278194",
+    "A278195"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

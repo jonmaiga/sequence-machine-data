@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the heptagonal numbers H(n) and H(n+1) is equal to the octagonal number O(m) for some m.",
+  "id": "A253304",
+  "mentions": [
+    "A000566",
+    "A000567",
+    "A253305"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

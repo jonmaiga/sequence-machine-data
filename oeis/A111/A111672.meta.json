@@ -1,0 +1,29 @@
+{
+  "description": "Array T(n,k) = A153277(n-1,k) = A144150(n,k-1) read by downwards antidiagonals.",
+  "id": "A111672",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A000307",
+    "A000326",
+    "A000357",
+    "A000405",
+    "A005945",
+    "A008277",
+    "A081624",
+    "A111669",
+    "A144150",
+    "A153277"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

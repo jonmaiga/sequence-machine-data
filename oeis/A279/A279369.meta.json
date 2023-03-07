@@ -1,0 +1,19 @@
+{
+  "description": "A mapping of rationals a/b (lowest form) to prime rationals p/q such that a/b = (p+1)/(q+1), where n (the sequence index) selects the rationals a/b from the triangle array A226314(n)/A054531(n) and a(n) selects the prime rationals p/q from the same array.",
+  "id": "A279369",
+  "mentions": [
+    "A054531",
+    "A226314",
+    "A278635"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

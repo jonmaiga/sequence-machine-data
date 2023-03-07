@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that appear in either both A156242(n) + 1 and A156243(n) or both A156242(n) and A156243(n) + 1.",
+  "id": "A216348",
+  "mentions": [
+    "A054353",
+    "A156242",
+    "A156243"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

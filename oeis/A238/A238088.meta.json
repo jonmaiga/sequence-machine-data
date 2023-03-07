@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k > 0 such that the first n multiples of k have the same sum of digits, but (n+1)k has a different one. a(n)=0 if no such k exists.",
+  "id": "A238088",
+  "mentions": [
+    "A007953",
+    "A237994"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

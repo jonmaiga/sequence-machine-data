@@ -1,0 +1,18 @@
+{
+  "description": "Number of lattice paths from {n}^n to {0}^n using steps that decrement one component by 1 such that for each point p we have abs(p_{i}-p_{(i mod n)+1}) <= 1 and the first component used is p_1.",
+  "id": "A320443",
+  "mentions": [
+    "A318191"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

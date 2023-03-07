@@ -1,0 +1,21 @@
+{
+  "description": "A symmetrical triangle. Read by rows: T(n,k) = 2*C(n-2,k-1) - C(n-2,k) - C(n-2,k-2), n >= 2, 0 <= k <= n, with T(0,0) = 0, T(1,0) = T(1,1) = 1.",
+  "id": "A182533",
+  "mentions": [
+    "A000108",
+    "A120009",
+    "A137742"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:57",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

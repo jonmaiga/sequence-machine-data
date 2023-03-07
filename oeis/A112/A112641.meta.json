@@ -1,0 +1,19 @@
+{
+  "description": "Weight distribution of quadratic residue code of length 23 over GF(3).",
+  "id": "A112641",
+  "mentions": [
+    "A001382"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

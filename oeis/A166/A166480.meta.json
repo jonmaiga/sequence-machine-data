@@ -1,0 +1,22 @@
+{
+  "description": "Greater of twin primes, written in base 6.",
+  "id": "A166480",
+  "mentions": [
+    "A006512",
+    "A007092",
+    "A166479"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:27",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

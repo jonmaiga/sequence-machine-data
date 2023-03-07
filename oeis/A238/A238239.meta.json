@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the polar angle, in degrees, of a cone which makes a golden-ratio cut of the full solid angle.",
+  "id": "A238239",
+  "mentions": [
+    "A001622",
+    "A238238"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

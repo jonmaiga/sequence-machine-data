@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of (n-1)*(n-3)/(6*(2*n-1)); equivalently, numerators of Dedekind sum s(2,2*n-1).",
+  "id": "A278713",
+  "mentions": [
+    "A264388",
+    "A264389",
+    "A278714"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

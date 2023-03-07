@@ -1,0 +1,27 @@
+{
+  "description": "Smallest positive integer with multiplicative persistence n in base 12.",
+  "id": "A125582",
+  "mentions": [
+    "A003001",
+    "A031346",
+    "A046510",
+    "A064867",
+    "A064868",
+    "A064869",
+    "A064870",
+    "A064871",
+    "A064872"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal sums of a Jacobi number triangle.",
+  "id": "A110244",
+  "mentions": [
+    "A110242"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

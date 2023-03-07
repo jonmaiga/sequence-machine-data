@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = maximal value of k such that A215244(k) = n.",
+  "id": "A215246",
+  "mentions": [
+    "A214245",
+    "A215244",
+    "A215245",
+    "A215253",
+    "A215254"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

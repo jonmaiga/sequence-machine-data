@@ -1,0 +1,21 @@
+{
+  "description": "Running totals in A330313.",
+  "id": "A330314",
+  "mentions": [
+    "A329544",
+    "A329796",
+    "A330313"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

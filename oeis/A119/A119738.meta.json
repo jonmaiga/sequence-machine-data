@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes that are semiprimes turned upside-down.",
+  "id": "A119738",
+  "mentions": [
+    "A000787",
+    "A001358",
+    "A045574",
+    "A054047"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

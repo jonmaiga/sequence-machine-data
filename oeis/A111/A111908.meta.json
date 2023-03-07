@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are not the sum of a prime and a nonzero triangular number.",
+  "id": "A111908",
+  "mentions": [
+    "A000217",
+    "A000404",
+    "A001481",
+    "A002654",
+    "A014089",
+    "A014090",
+    "A020756",
+    "A064233",
+    "A072386",
+    "A076768",
+    "A100570",
+    "A101181"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

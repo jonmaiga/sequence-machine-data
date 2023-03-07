@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) read by rows defined by recurrence T(n,1)=A000007(n-1) and T(n,k) = sum_{i=1..k-1} T(n-i,k-1) if k>1.",
+  "id": "A177517",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A008302",
+    "A008930",
+    "A060701",
+    "A175105",
+    "A177978"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-bfile"
+  }
+}

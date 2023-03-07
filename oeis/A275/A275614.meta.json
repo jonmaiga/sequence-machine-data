@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of number with continued fraction expansion 1, 2, 4, 8, 16, 32, ... (powers of 2).",
+  "id": "A275614",
+  "mentions": [
+    "A000079",
+    "A096641",
+    "A214070"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

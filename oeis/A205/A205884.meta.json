@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Pell(n)*A109064(n) for n >= 1 with a(0)=1.",
+  "id": "A205884",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A080891",
+    "A109064",
+    "A204270",
+    "A205882"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A number n is included if the same number of primes, among primes <= the largest prime dividing n, divide n as do not.",
+  "id": "A111907",
+  "mentions": [
+    "A111905",
+    "A111906"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

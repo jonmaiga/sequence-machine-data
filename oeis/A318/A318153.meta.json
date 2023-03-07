@@ -1,0 +1,32 @@
+{
+  "description": "Number of antichain covers of the free pure symmetric multifunction (with empty expressions allowed) with e-number n.",
+  "id": "A318153",
+  "mentions": [
+    "A000081",
+    "A007853",
+    "A007916",
+    "A052409",
+    "A052410",
+    "A277576",
+    "A277996",
+    "A316112",
+    "A317056",
+    "A317658",
+    "A317765",
+    "A317994",
+    "A318149",
+    "A318150",
+    "A318152"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

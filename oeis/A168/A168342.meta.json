@@ -1,0 +1,22 @@
+{
+  "description": "Even atomic numbers in the Janet table of the PSE, read right to left along rows.",
+  "id": "A168342",
+  "mentions": [
+    "A138100",
+    "A138101",
+    "A168142",
+    "A168380"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

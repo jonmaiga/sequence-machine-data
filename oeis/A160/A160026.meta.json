@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^4 + 17^4 + 3^4 is prime.",
+  "id": "A160026",
+  "mentions": [
+    "A158979",
+    "A159829",
+    "A160022"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

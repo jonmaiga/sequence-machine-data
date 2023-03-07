@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are equal to a product of powers of digits where the exponents from left to right decrease with 1 and the exponent for the units digit is 1.",
+  "id": "A282782",
+  "mentions": [
+    "A002473",
+    "A238985"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

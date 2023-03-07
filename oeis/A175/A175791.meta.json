@@ -1,0 +1,21 @@
+{
+  "description": "Primes that become another prime under the map 1 <-> 0 (acting on the digits: A222210), cf. A171013.",
+  "id": "A175791",
+  "mentions": [
+    "A171013",
+    "A171057",
+    "A175789",
+    "A222210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

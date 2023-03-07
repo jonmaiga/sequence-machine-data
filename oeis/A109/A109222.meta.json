@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of a triangle related to the Fibonacci polynomials.",
+  "id": "A109222",
+  "mentions": [
+    "A065941",
+    "A109221",
+    "A180662",
+    "A194005"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:16:30",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

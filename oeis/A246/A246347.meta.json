@@ -1,0 +1,23 @@
+{
+  "description": "Record values in A135141.",
+  "id": "A246347",
+  "mentions": [
+    "A052996",
+    "A135141",
+    "A153894",
+    "A246346",
+    "A246348",
+    "A246360"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that can be expressed as n plus sum of squared digits(n) in more than one way.",
+  "id": "A225049",
+  "mentions": [
+    "A003052",
+    "A003132",
+    "A003219",
+    "A062028",
+    "A066568",
+    "A225048"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

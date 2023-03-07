@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of A078902.",
+  "id": "A172521",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A019434",
+    "A077659",
+    "A078900",
+    "A078901",
+    "A078902",
+    "A080131",
+    "A080208"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Reversing the exponents order in the prime factorization of n a different number with the same digits of n is obtained.",
+  "id": "A224253",
+  "mentions": [
+    "A224252"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

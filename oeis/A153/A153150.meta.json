@@ -1,0 +1,20 @@
+{
+  "description": "Self-inverse permutation of natural numbers: A059893-conjugate of A056539.",
+  "id": "A153150",
+  "mentions": [
+    "A056539",
+    "A059893"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

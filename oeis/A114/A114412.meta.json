@@ -1,0 +1,27 @@
+{
+  "description": "Records in semiprime gaps ordered by merit.",
+  "id": "A114412",
+  "mentions": [
+    "A001358",
+    "A065516",
+    "A111870",
+    "A111871",
+    "A113688",
+    "A113693",
+    "A114403",
+    "A114411",
+    "A114422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into two nonsquares.",
+  "id": "A172151",
+  "mentions": [
+    "A000037",
+    "A004526",
+    "A087153",
+    "A172152",
+    "A172153"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

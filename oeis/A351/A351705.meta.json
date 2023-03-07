@@ -1,0 +1,26 @@
+{
+  "description": "For any nonnegative number n with binary expansion Sum_{k >= 0} b_k * 2^k, a(n) is the numerator of d(n) = Sum_{k >= 0} b_k * 2^A130472(k). See A351706 for the denominators.",
+  "id": "A351705",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A072345",
+    "A130472",
+    "A351706",
+    "A351785",
+    "A351786"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

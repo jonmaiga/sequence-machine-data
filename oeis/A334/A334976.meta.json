@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the total number of down steps between the (n-1)-th and n-th up steps in all 2-Dyck paths of length 3*n. A 2-Dyck path is a nonnegative path with steps (1, 2), (1, -1) that starts and ends at y = 0.",
+  "id": "A334976",
+  "mentions": [
+    "A334977",
+    "A334978",
+    "A334979",
+    "A334980"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:53:54",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

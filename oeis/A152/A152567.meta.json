@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A049445(k) is odd.",
+  "id": "A152567",
+  "mentions": [
+    "A005349",
+    "A049445",
+    "A144302"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

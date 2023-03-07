@@ -1,0 +1,24 @@
+{
+  "description": "First members of \"good matches\" produced by match-making permutation: a(n) = A266195(A266197(n)).",
+  "id": "A265748",
+  "mentions": [
+    "A070939",
+    "A235034",
+    "A235035",
+    "A265749",
+    "A266195",
+    "A266197"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

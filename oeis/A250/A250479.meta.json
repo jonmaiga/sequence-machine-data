@@ -1,0 +1,20 @@
+{
+  "description": "Even bisection of A250470: a(n) = A250470(2n).",
+  "id": "A250479",
+  "mentions": [
+    "A064989",
+    "A250470",
+    "A250472"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The numbers that are not doubled in column -1 of the extended Trithoff (tribonacci) array.",
+  "id": "A351631",
+  "mentions": [
+    "A000073",
+    "A003144",
+    "A003145",
+    "A003146",
+    "A136175",
+    "A353083",
+    "A353084",
+    "A353086",
+    "A353090"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

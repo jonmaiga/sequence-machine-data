@@ -1,0 +1,29 @@
+{
+  "description": "Odd composite numbers k for which the number of witnesses for strong pseudoprimality of k equals phi(k)/4, where phi is the Euler totient function (A000010).",
+  "id": "A329759",
+  "mentions": [
+    "A000010",
+    "A001262",
+    "A006945",
+    "A014233",
+    "A020229",
+    "A020231",
+    "A020233",
+    "A033181",
+    "A071294",
+    "A141768",
+    "A181782",
+    "A195328",
+    "A329468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

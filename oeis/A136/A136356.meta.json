@@ -1,0 +1,24 @@
+{
+  "description": "Increasing sequence obtained by union of two sequences A136353 and {b(n)}, where b(n) is the smallest composite number m such that m-1 is prime and the set of distinct prime factors of m consists of the first n primes.",
+  "id": "A136356",
+  "mentions": [
+    "A070826",
+    "A118750",
+    "A136349",
+    "A136353",
+    "A136355",
+    "A136357",
+    "A136358"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

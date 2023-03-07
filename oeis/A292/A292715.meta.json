@@ -1,0 +1,18 @@
+{
+  "description": "Initial member of 8 consecutive primes a, b, c, d, e, f, g, h such that (a + h) = (b + g), (c + g) = (d + f), (a + f) = (b + e) and (a + g) = (b + f).",
+  "id": "A292715",
+  "mentions": [
+    "A000040",
+    "A292618"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

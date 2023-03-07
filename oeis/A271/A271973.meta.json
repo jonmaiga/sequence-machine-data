@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that gcd(s1, s2) = n, where s1 is the sum of the odd numbers and s2 is the sum of the even numbers in the Collatz (3x+1) trajectory of k.",
+  "id": "A271973",
+  "mentions": [
+    "A213909",
+    "A213916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

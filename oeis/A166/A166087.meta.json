@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Position of the first occurrence of n in A166040. -1 if it does not occur there.",
+  "id": "A166087",
+  "mentions": [
+    "A166040",
+    "A166089",
+    "A166097",
+    "A166098"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

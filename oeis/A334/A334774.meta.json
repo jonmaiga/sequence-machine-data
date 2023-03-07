@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of 2 indistinguishable copies of 1..n with exactly k local maxima.",
+  "id": "A334774",
+  "mentions": [
+    "A000244",
+    "A000680",
+    "A008303",
+    "A152494",
+    "A152495",
+    "A152496",
+    "A152497",
+    "A152498",
+    "A154283",
+    "A334773",
+    "A334775",
+    "A334776",
+    "A334777",
+    "A334778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

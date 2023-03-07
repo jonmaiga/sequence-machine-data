@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k for which k * gcd(sigma(k), A019565(k)) is equal to sigma(k) * gcd(k, A019565(k)).",
+  "id": "A351549",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A007947",
+    "A019565",
+    "A080398",
+    "A351458",
+    "A351548",
+    "A351556",
+    "A351557",
+    "A351558",
+    "A351559"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

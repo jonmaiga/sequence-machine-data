@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sigma(Fibonacci(k))/Fibonacci(n) where k is the least number such that Fibonacci(n) divides sigma(Fibonacci(k)), or -1 if no such k exists.",
+  "id": "A276811",
+  "mentions": [
+    "A000045",
+    "A063477",
+    "A277261"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

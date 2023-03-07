@@ -1,0 +1,20 @@
+{
+  "description": "Class numbers of the fields Q(sqrt(A283658(n)).",
+  "id": "A283659",
+  "mentions": [
+    "A003172",
+    "A003649",
+    "A283658"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

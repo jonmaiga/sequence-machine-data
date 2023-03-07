@@ -1,0 +1,19 @@
+{
+  "description": "Prime p3 of the sequence A164063: a^b - c^d = p1 (A164063), where a, b, c, d are primes and a + b + c + d = p2 (A164064), where p2 is prime and conc(abcd) = p3 (concatenation of a, b, c , d) is also prime.",
+  "id": "A164065",
+  "mentions": [
+    "A164063",
+    "A164064"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

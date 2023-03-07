@@ -1,0 +1,20 @@
+{
+  "description": "Start of a triple of consecutive squarefree numbers each of which has exactly 5 distinct prime factors.",
+  "id": "A242608",
+  "mentions": [
+    "A192203",
+    "A242605",
+    "A242607",
+    "A242621"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of asymmetric mobiles (cycle rooted trees) with n nodes and 2-colored internal (non-leaf) nodes.",
+  "id": "A108532",
+  "mentions": [
+    "A032171",
+    "A108530",
+    "A108531"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

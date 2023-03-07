@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the n-th number m such that m^2 divides n^m - 1 (or 0 if m does not exist).",
+  "id": "A333502",
+  "mentions": [
+    "A127100",
+    "A127106",
+    "A128405",
+    "A333433",
+    "A333500"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

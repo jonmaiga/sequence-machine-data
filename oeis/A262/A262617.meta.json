@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A256266.",
+  "id": "A262617",
+  "mentions": [
+    "A008588",
+    "A011782",
+    "A080079",
+    "A255748",
+    "A256257",
+    "A256266"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

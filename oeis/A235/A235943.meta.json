@@ -1,0 +1,28 @@
+{
+  "description": "Number a(n,k) of positions (cyclic permutations) of circular permutations of [n] with exactly k (unspecified) increasing or decreasing modular runs (3-sequences), with clockwise and counterclockwise traversals counted as distinct; triangle a(n,k) read by rows, 0<=k<=n.",
+  "id": "A235943",
+  "mentions": [
+    "A078628",
+    "A078673",
+    "A165961",
+    "A165962",
+    "A165964",
+    "A235937",
+    "A235938",
+    "A235939",
+    "A235940",
+    "A235941",
+    "A235942"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k such that A007733(k) is even but 2^x == -1 (mod k) is insoluble.",
+  "id": "A296244",
+  "mentions": [
+    "A002326",
+    "A007733",
+    "A014657",
+    "A296243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

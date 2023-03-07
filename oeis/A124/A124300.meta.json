@@ -1,0 +1,20 @@
+{
+  "description": "Greatest x such that mu(n+k) = mu(n) for 0<=k<=x, where mu=A008683.",
+  "id": "A124300",
+  "mentions": [
+    "A008683",
+    "A068781",
+    "A086263",
+    "A124301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

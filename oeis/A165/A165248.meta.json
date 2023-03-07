@@ -1,0 +1,21 @@
+{
+  "description": "Quintisection A061037(5*n+2).",
+  "id": "A165248",
+  "mentions": [
+    "A061037",
+    "A142590"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:31",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

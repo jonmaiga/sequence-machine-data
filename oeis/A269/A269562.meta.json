@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) is the number of Hamiltonian cycles in the rook graph K_n X K_m.",
+  "id": "A269562",
+  "mentions": [
+    "A001710",
+    "A269561",
+    "A269565",
+    "A276356",
+    "A286418",
+    "A341498",
+    "A341499"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

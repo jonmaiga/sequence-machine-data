@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of the multiset consisting of one copy each of x_1, x_2, ..., x_n, and 2 copies each of y_1 and y_2.",
+  "id": "A322764",
+  "mentions": [
+    "A000110",
+    "A020555",
+    "A322765",
+    "A322773"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

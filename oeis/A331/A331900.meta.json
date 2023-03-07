@@ -1,0 +1,27 @@
+{
+  "description": "Number of compositions (ordered partitions) of the n-th triangular number into distinct triangular numbers.",
+  "id": "A331900",
+  "mentions": [
+    "A000217",
+    "A072964",
+    "A126683",
+    "A196010",
+    "A224677",
+    "A288126",
+    "A298858",
+    "A307614",
+    "A331843",
+    "A331884"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

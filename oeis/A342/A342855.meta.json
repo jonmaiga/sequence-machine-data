@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that contain a digit 0 (A011540) and that are divisible by their nonzero digits (A002796).",
+  "id": "A342855",
+  "mentions": [
+    "A002796",
+    "A011540"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

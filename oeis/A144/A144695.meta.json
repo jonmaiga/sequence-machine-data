@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sigma_1(n)/sigma_0(n) = c^2, c an integer.",
+  "id": "A144695",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A020486",
+    "A020487",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

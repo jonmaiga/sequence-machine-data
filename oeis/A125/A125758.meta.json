@@ -1,0 +1,26 @@
+{
+  "description": "Numbers congruent to 4 or 7 (mod 9).",
+  "id": "A125758",
+  "mentions": [
+    "A017185",
+    "A125626",
+    "A125710",
+    "A125711",
+    "A125754",
+    "A125755",
+    "A125756",
+    "A125757"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:23:41",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

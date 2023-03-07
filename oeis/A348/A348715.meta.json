@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose divisors can be partitioned into two disjoint sets without singletons whose harmonic means are both integers.",
+  "id": "A348715",
+  "mentions": [
+    "A001599",
+    "A027750",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

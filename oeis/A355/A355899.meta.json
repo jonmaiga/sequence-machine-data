@@ -1,0 +1,20 @@
+{
+  "description": "The successive gcd's arising in A355898.",
+  "id": "A355899",
+  "mentions": [
+    "A351871",
+    "A355898",
+    "A355900",
+    "A355901"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

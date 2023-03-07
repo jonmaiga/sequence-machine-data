@@ -1,0 +1,21 @@
+{
+  "description": "Sum of primes within 2n-wide closed interval centered upon prime(n).",
+  "id": "A277186",
+  "mentions": [
+    "A000040",
+    "A014688",
+    "A014689",
+    "A061397"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

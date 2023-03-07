@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that m^2 + 1 has at most 2 prime factors.",
+  "id": "A333635",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A037143",
+    "A085722",
+    "A144255",
+    "A248742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

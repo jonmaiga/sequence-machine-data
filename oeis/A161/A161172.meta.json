@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the order (or period) of the \"Yummie\" permutation applied to a set of n objects.",
+  "id": "A161172",
+  "mentions": [
+    "A051732",
+    "A161173",
+    "A289386"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

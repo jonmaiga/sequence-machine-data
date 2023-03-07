@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 4^n + 21 is prime.",
+  "id": "A262345",
+  "mentions": [
+    "A057201",
+    "A253772"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

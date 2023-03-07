@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = round(1/(A073918(n)/prime(n)# - 1)), where A073918(n) = min { prime p | omega(p-1) = n } and p# = product of primes <= p.",
+  "id": "A305400",
+  "mentions": [
+    "A002110",
+    "A014545",
+    "A073918",
+    "A305398",
+    "A305399"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n, gcd(d, n/d) = 1} uphi(d) * uphi(n/d), where uphi = unitary totient function (A047994).",
+  "id": "A333557",
+  "mentions": [
+    "A001221",
+    "A029935",
+    "A034444",
+    "A047994",
+    "A055653",
+    "A062355",
+    "A145388"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

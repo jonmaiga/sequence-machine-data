@@ -1,0 +1,20 @@
+{
+  "description": "Semiprime + (largest integer obtained by concatenating its two divisors).",
+  "id": "A106553",
+  "mentions": [
+    "A001358",
+    "A106552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

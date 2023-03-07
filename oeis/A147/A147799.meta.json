@@ -1,0 +1,23 @@
+{
+  "description": "Minimal value of A007947(m*(7^n-m)) with m coprime to 7.",
+  "id": "A147799",
+  "mentions": [
+    "A007947",
+    "A143702",
+    "A147298",
+    "A147800",
+    "A147801",
+    "A147804"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

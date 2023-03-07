@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which gcd(2n, sigma(n)) = 2n.",
+  "id": "A325637",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A007691",
+    "A033879",
+    "A325636",
+    "A325638"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

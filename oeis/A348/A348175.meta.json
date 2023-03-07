@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n,k) read by rows: T(n,k) = T(n-1,k/2) when k is even and 3*T(n-1,(k-1)/2) + 2^(n-1) when k is odd. T(0,0) = 0 and 0 <= k <= 2^n-1.",
+  "id": "A348175",
+  "mentions": [
+    "A001047",
+    "A002697",
+    "A119733",
+    "A133457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

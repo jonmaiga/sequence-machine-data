@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of a coefficient associated with the asymptotics of the average distance between a vertex and the root of a random rooted tree.",
+  "id": "A245652",
+  "mentions": [
+    "A086308",
+    "A245653"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

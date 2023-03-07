@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of A293472.",
+  "id": "A293297",
+  "mentions": [
+    "A293472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

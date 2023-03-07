@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k), read by rows: number of Knödel walks starting at 0, ending at k, with n steps.",
+  "id": "A101491",
+  "mentions": [
+    "A037951",
+    "A037952",
+    "A037953",
+    "A037954",
+    "A037955",
+    "A037956",
+    "A037957",
+    "A037958",
+    "A086905"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primes of form 2 + odd prime to odd prime power.",
+  "id": "A118097",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001359",
+    "A030078",
+    "A050997",
+    "A053810",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

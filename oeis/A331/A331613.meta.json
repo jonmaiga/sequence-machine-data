@@ -1,0 +1,20 @@
+{
+  "description": "Odd exceptional numbers: odd k such that A005179(k) < A037019(k).",
+  "id": "A331613",
+  "mentions": [
+    "A005179",
+    "A005719",
+    "A037019",
+    "A072066"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

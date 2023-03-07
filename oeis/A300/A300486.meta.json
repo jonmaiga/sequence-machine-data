@@ -1,0 +1,34 @@
+{
+  "description": "Number of relatively prime or monic partitions of n.",
+  "id": "A300486",
+  "mentions": [
+    "A000041",
+    "A000837",
+    "A001383",
+    "A063834",
+    "A093637",
+    "A196545",
+    "A281113",
+    "A289501",
+    "A300383",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A302094",
+    "A302698",
+    "A302915",
+    "A302916",
+    "A302917"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

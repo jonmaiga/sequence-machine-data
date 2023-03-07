@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of value of the maximum of Dawson's integral D_+(x).",
+  "id": "A133842",
+  "mentions": [
+    "A133841",
+    "A133843",
+    "A243433"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

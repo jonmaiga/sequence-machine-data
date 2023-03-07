@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered ways to write n = p + x*(3*x-1)/2, where p is prime or zero, and x is an integer.",
+  "id": "A256071",
+  "mentions": [
+    "A000040",
+    "A001318",
+    "A132399",
+    "A256119"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

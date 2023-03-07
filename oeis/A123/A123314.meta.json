@@ -1,0 +1,22 @@
+{
+  "description": "Number of times the n-th squarefree number occurs as maximal greatest common divisor of pairs of distinct squarefree numbers.",
+  "id": "A123314",
+  "mentions": [
+    "A005117",
+    "A039956",
+    "A056911",
+    "A100112",
+    "A123313"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

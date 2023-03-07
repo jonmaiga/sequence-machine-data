@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A351837.",
+  "id": "A351838",
+  "mentions": [
+    "A058922",
+    "A139251",
+    "A351837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

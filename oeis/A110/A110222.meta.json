@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic numbers which are not the absolute difference of a cube and a square.",
+  "id": "A110222",
+  "mentions": [
+    "A074981",
+    "A109879",
+    "A110223"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

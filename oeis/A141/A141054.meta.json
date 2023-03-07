@@ -1,0 +1,27 @@
+{
+  "description": "8-idempotent numbers: a(n) = binomial(n+8,8)*8^n.",
+  "id": "A141054",
+  "mentions": [
+    "A000027",
+    "A001788",
+    "A036216",
+    "A040075",
+    "A050982",
+    "A050988",
+    "A050989",
+    "A059297",
+    "A059300"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

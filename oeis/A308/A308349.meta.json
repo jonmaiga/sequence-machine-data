@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimal unit-distance forbidden graph minors on n vertices.",
+  "id": "A308349",
+  "mentions": [
+    "A059103"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

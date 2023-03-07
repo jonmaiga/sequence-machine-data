@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies y'' + y' + x^3*y = 0 with y(0)=0, y'(0)=1.",
+  "id": "A318293",
+  "mentions": [
+    "A318237",
+    "A318355",
+    "A318356"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "If a(n) is odd, add to a(n) its odd digits and iterate; if a(n) is even, add to a(n) its even digits and iterate; if an iteration reproduces a term already in the sequence, don't do this iteration and extend the sequence with the smallest integer not yet present in the sequence.",
+  "id": "A341817",
+  "mentions": [
+    "A004207"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

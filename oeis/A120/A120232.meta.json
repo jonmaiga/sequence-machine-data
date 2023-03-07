@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of A120231.",
+  "id": "A120232",
+  "mentions": [
+    "A073675",
+    "A120230",
+    "A120231"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that (13^n + 12^n)/25 is prime.",
+  "id": "A225097",
+  "mentions": [
+    "A057179",
+    "A128071",
+    "A128342",
+    "A213216",
+    "A224984"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

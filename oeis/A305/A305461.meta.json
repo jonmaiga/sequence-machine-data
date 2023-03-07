@@ -1,0 +1,20 @@
+{
+  "description": "The number of one-digit numbers, k, in base n such that k^2 and k^3 end in the same digit.",
+  "id": "A305461",
+  "mentions": [
+    "A034444",
+    "A230542"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

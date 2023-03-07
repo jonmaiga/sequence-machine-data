@@ -1,0 +1,25 @@
+{
+  "description": "Complete list of solutions to y^2 + y = x^3 - 525x + 10156 with y > 0; sequence gives positive y values.",
+  "id": "A317053",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A000579",
+    "A027568",
+    "A029728",
+    "A102461",
+    "A303615"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

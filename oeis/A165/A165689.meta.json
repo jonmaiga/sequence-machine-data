@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that pi(n) = (1/10)*n.",
+  "id": "A165689",
+  "mentions": [
+    "A057809"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "y-values in the solution to 5*x^2 - 20 = y^2.",
+  "id": "A201157",
+  "mentions": [
+    "A000032",
+    "A005248",
+    "A054888"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

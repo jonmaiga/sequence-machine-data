@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals upwards in which each new term is the least positive integer distinct from its neighbors.",
+  "id": "A274913",
+  "mentions": [
+    "A000034",
+    "A008851",
+    "A010684",
+    "A010685",
+    "A010693",
+    "A010694",
+    "A010702",
+    "A274912",
+    "A274921"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

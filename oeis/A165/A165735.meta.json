@@ -1,0 +1,22 @@
+{
+  "description": "Surviving integers under the double-count Josephus problem (see A054995), modulo 3.",
+  "id": "A165735",
+  "mentions": [
+    "A010872",
+    "A054995",
+    "A113648",
+    "A114144",
+    "A165556"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

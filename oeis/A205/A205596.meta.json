@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that A205592(k) = 2^n.",
+  "id": "A205596",
+  "mentions": [
+    "A205591",
+    "A205592",
+    "A205593",
+    "A205594",
+    "A205595"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers that are the sum of three distinct positive eighth powers.",
+  "id": "A126658",
+  "mentions": [
+    "A125516",
+    "A126657"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

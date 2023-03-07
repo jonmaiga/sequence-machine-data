@@ -1,0 +1,31 @@
+{
+  "description": "Number of set-systems on n vertices where every covered vertex is the unique common element of some subset of the edges.",
+  "id": "A326965",
+  "mentions": [
+    "A058891",
+    "A059052",
+    "A326940",
+    "A326951",
+    "A326961",
+    "A326966",
+    "A326967",
+    "A326968",
+    "A326970",
+    "A326971",
+    "A326972",
+    "A326976",
+    "A326977",
+    "A326979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

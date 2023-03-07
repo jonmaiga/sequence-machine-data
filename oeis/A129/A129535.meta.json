@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of 1,...,n with at least one pair of adjacent consecutive entries (i.e., of the form k(k+1) or (k+1)k), n >= 2.",
+  "id": "A129535",
+  "mentions": [
+    "A002464",
+    "A129534",
+    "A322481"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

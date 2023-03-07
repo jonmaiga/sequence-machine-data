@@ -1,0 +1,45 @@
+{
+  "description": "Catalan-Niven numbers: numbers that are divisible by the sum of the digits in their representation in terms of the Catalan numbers (A014418).",
+  "id": "A352508",
+  "mentions": [
+    "A000108",
+    "A005349",
+    "A014418",
+    "A014420",
+    "A038003",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A118363",
+    "A328208",
+    "A328212",
+    "A331085",
+    "A331728",
+    "A333426",
+    "A334308",
+    "A342426",
+    "A342726",
+    "A344341",
+    "A351714",
+    "A351719",
+    "A352089",
+    "A352107",
+    "A352320",
+    "A352342",
+    "A352509",
+    "A352510",
+    "A352511"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of four-dimensional simplical toric diagrams with hypervolume n.",
+  "id": "A173824",
+  "mentions": [
+    "A003051",
+    "A045790",
+    "A159842",
+    "A173877",
+    "A173878"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Tower of 4s mod n.",
+  "id": "A245971",
+  "mentions": [
+    "A000010",
+    "A000302",
+    "A240162",
+    "A245970",
+    "A245972",
+    "A245973",
+    "A245974"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

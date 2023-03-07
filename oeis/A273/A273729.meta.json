@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-ary heaps on n levels (i.e., of A023037(n) elements).",
+  "id": "A273729",
+  "mentions": [
+    "A023037",
+    "A273712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

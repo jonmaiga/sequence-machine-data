@@ -1,0 +1,24 @@
+{
+  "description": "Q-toothpick sequence starting with two opposite Q-toothpicks centered at the same grid point.",
+  "id": "A187216",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160120",
+    "A160164",
+    "A187210",
+    "A187212",
+    "A187217",
+    "A187220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

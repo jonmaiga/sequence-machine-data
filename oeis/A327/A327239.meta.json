@@ -1,0 +1,19 @@
+{
+  "description": "For n >= 1, a(n) = b(n+1) - b(n) where b is A013947.",
+  "id": "A327239",
+  "mentions": [
+    "A000002",
+    "A013947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the molar volume of a perfect gas in standard conditions in cubic meters per mole.",
+  "id": "A301936",
+  "mentions": [
+    "A070064"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

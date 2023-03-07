@@ -1,0 +1,17 @@
+{
+  "description": "Sequence of distinct signed integers such that a(1) = 0 and for any n > 0, a(n+1) is of the form a(n) + (-2)^k (where k >= 0) and has the smallest possible absolute value (in case of a tie, minimize k).",
+  "id": "A316995",
+  "mentions": [
+    "A122803"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "2-adic valuation of the n-th Motzkin number.",
+  "id": "A186034",
+  "mentions": [
+    "A001006",
+    "A007814",
+    "A186035"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:29:03",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

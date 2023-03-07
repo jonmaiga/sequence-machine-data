@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: row n shows the coefficients of the polynomial u(n) = c(0) + c(1)*x + ... + c(n)*x^(n) which is the numerator of the n-th convergent of the continued fraction [k, k, k, ... ], where k = 2*x + 1.",
+  "id": "A231731",
+  "mentions": [
+    "A000045",
+    "A006190",
+    "A230000",
+    "A231730"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

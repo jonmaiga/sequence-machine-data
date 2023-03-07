@@ -1,0 +1,21 @@
+{
+  "description": "Hypercomma numbers: n occurs in the sequence S[k+1]=S[k]+10*last_digit(S[k-1])+first_digit(S[k]) for each \"legal\" splitting n=concat(S[0],S[1]).",
+  "id": "A166508",
+  "mentions": [
+    "A166507",
+    "A166511",
+    "A166512",
+    "A166513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number d if the point (d,d) is shared by exactly n different Dyck paths in the main diagonal of the diagram of the symmetries of sigma described in A237593.",
+  "id": "A282197",
+  "mentions": [
+    "A128605",
+    "A237593",
+    "A240542",
+    "A245092",
+    "A279286"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

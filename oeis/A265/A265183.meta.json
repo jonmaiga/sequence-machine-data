@@ -1,0 +1,21 @@
+{
+  "description": "Base-10 analog of Marko Riedel's A265008, but allowing A, B, C to be zero.",
+  "id": "A265183",
+  "mentions": [
+    "A218978",
+    "A265008",
+    "A265182",
+    "A265236"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

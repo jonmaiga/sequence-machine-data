@@ -1,0 +1,20 @@
+{
+  "description": "Regular triangle where the n-th row lists the integers k between 1 and n ordered by increasing value of sigma(k)/k where sigma is the sum of divisors, A000203.",
+  "id": "A256440",
+  "mentions": [
+    "A000203",
+    "A247015",
+    "A247022"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that both numbers 2^m +- 1 have at most 2 distinct prime factors.",
+  "id": "A283364",
+  "mentions": [
+    "A001221",
+    "A046799",
+    "A046800",
+    "A067886"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

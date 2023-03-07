@@ -1,0 +1,37 @@
+{
+  "description": "Number T(n,k) of ordered set partitions of [n] into k blocks such that equal-sized blocks are ordered with increasing least elements; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A285824",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A002411",
+    "A048993",
+    "A057427",
+    "A120774",
+    "A131689",
+    "A226874",
+    "A285849",
+    "A285917",
+    "A285918",
+    "A285919",
+    "A285920",
+    "A285921",
+    "A285922",
+    "A285923",
+    "A285924",
+    "A285925",
+    "A285926"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

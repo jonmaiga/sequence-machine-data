@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime p in a sexy prime triple such that (p-3)/2 is also the smallest prime in a sexy prime triple (A023241).",
+  "id": "A358572",
+  "mentions": [
+    "A023201",
+    "A023241",
+    "A046118",
+    "A254636",
+    "A255361",
+    "A256386",
+    "A358571"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: zeroth row is 0; to get row n >= 1, append next 2^n numbers to end of previous row.",
+  "id": "A115218",
+  "mentions": [
+    "A126646"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

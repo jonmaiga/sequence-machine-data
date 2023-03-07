@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=Sum((A008292(n - j, j) - C(n - j - 1, j))/2, j=0, [(n - 1)/2])",
+  "id": "A174958",
+  "mentions": [
+    "A000045",
+    "A000800",
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

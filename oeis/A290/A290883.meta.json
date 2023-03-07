@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) = sqrt(C(x)^2 + S(x)^2) such that C(x)^2 - S(x)^2 = 1 and C'(x)^2 + S'(x)^2 = 1, where C(x) is the e.g.f. of A290880 and S(x) is the e.g.f. of A290881.",
+  "id": "A290883",
+  "mentions": [
+    "A153302",
+    "A290879",
+    "A290880",
+    "A290881",
+    "A290882"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

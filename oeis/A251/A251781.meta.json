@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose square is the sum of two distinct positive cubes.",
+  "id": "A251781",
+  "mentions": [
+    "A024670",
+    "A050801",
+    "A099426",
+    "A117642",
+    "A217248"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

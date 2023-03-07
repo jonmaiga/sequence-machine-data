@@ -1,0 +1,32 @@
+{
+  "description": "Breadth-first reading of the subtree rooted at 7 of the tree where each parent node is the arithmetic derivative (A003415) of all its children.",
+  "id": "A327977",
+  "mentions": [
+    "A002620",
+    "A003415",
+    "A098699",
+    "A098700",
+    "A099302",
+    "A099303",
+    "A099307",
+    "A099308",
+    "A189760",
+    "A256750",
+    "A263267",
+    "A327966",
+    "A327968",
+    "A327975",
+    "A328117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

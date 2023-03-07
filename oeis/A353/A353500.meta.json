@@ -1,0 +1,46 @@
+{
+  "description": "Numbers that are the smallest number with product of prime exponents k for some k. Sorted positions of first appearances in A005361, unsorted version A085629.",
+  "id": "A353500",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003963",
+    "A005361",
+    "A005934",
+    "A056239",
+    "A070175",
+    "A085629",
+    "A097318",
+    "A098859",
+    "A112798",
+    "A116608",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181819",
+    "A181821",
+    "A182850",
+    "A266477",
+    "A296150",
+    "A304678",
+    "A325131",
+    "A325238",
+    "A339095",
+    "A353394",
+    "A353397",
+    "A353399",
+    "A353503",
+    "A353506",
+    "A353507"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

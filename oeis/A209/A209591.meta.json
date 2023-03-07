@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n 0..6 arrays with every element equal to a diagonal or antidiagonal reflection",
+  "id": "A209591",
+  "mentions": [
+    "A209593"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

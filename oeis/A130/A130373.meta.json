@@ -1,0 +1,28 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: flip the positions of even- and odd-indexed elements at the top level of the list, leaving the first element in place if the length (A057515(n)) is odd.",
+  "id": "A130373",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057164",
+    "A057508",
+    "A057515",
+    "A073192",
+    "A073193",
+    "A122203",
+    "A122204",
+    "A130340",
+    "A130374"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that prime(k) divides primorial(j) + 1 for exactly one integer j.",
+  "id": "A279098",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006862",
+    "A113165",
+    "A279097",
+    "A279099",
+    "A283928"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

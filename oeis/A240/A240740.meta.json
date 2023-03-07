@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n having exactly five fixed points.",
+  "id": "A240740",
+  "mentions": [
+    "A238349",
+    "A238350"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 15,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

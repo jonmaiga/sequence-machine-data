@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of arrays of n+2 integers in -k..k with sum zero and the sum of every adjacent pair being odd",
+  "id": "A202076",
+  "mentions": [
+    "A002492",
+    "A152749"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

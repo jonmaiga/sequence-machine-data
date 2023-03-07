@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the largest missing values in all compositions of n with the LMV property.",
+  "id": "A188577",
+  "mentions": [
+    "A188575",
+    "A188576"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

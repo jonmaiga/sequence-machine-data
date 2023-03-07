@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are a product of two Fibonacci (A000045) numbers or a product of two Lucas (A000032) numbers.",
+  "id": "A272916",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A049997",
+    "A272909",
+    "A272917"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

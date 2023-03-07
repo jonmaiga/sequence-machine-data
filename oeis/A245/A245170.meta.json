@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: coefficients of the polynomials A_{1,7}(n,k).",
+  "id": "A245170",
+  "mentions": [
+    "A245167",
+    "A245168",
+    "A245169",
+    "A245171",
+    "A245172",
+    "A245173"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of balanced quantales on n elements, up to isomorphism.",
+  "id": "A357295",
+  "mentions": [
+    "A354493"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

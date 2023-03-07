@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x + 3*x*A(x) + x*A(x)^2.",
+  "id": "A200031",
+  "mentions": [
+    "A000108",
+    "A001622",
+    "A107265",
+    "A344623"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

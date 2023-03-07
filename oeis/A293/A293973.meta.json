@@ -1,0 +1,21 @@
+{
+  "description": "Sierpinski carpet iterations: start with a(0) = 1; read a(n) as a 3^n X 3^n binary matrix, replace 1 with [111;101;111] and 0 with [000;000;000], concatenate the 3^(n+1) rows of the new matrix.",
+  "id": "A293973",
+  "mentions": [
+    "A001019",
+    "A153490",
+    "A292686",
+    "A292688",
+    "A293834"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

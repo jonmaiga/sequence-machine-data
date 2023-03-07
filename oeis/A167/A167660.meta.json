@@ -1,0 +1,19 @@
+{
+  "description": "Chocolate dove bar numerator: a(n) = (Sum_{k=0..floor(n/2)} k*binomial(n+k,k)*binomial(n,n-2*k)) + (Sum_{k=0..ceiling(n/2)} k*binomial(n+k-1,k-1)*binomial(n,n-2*k+1)).",
+  "id": "A167660",
+  "mentions": [
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

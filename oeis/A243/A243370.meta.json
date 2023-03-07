@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number A = 1.8252076... which generates the densest possibly infinite sequence of primes a(n) = floor[A^(C^n)] for A < 2. That prime sequence is A243358.",
+  "id": "A243370",
+  "mentions": [
+    "A117739",
+    "A243358"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms, with a unique fixed point, such that a^n(n)=n, for any n>0 (where a^n denotes the n-th iterate of a).",
+  "id": "A256508",
+  "mentions": [
+    "A000027",
+    "A256513"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

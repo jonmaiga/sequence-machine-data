@@ -1,0 +1,27 @@
+{
+  "description": "Exponential harmonic (or e-harmonic) numbers of type 1: numbers k such that esigma(k) | k * d_e(k), where d_e(k) is the number of exponential divisors of k (A049419) and esigma(k) is their sum (A051377).",
+  "id": "A348961",
+  "mentions": [
+    "A005117",
+    "A049419",
+    "A051377",
+    "A054979",
+    "A054980",
+    "A322791",
+    "A333634",
+    "A336223",
+    "A348499",
+    "A348962",
+    "A348964"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

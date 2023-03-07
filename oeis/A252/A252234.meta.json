@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that there exists an m so that squarefree kernel of n = squarefree kernel of m, and n is the sum of the proper divisors of m (m may equal n).",
+  "id": "A252234",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A007947",
+    "A048138",
+    "A152454",
+    "A252997"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

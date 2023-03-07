@@ -1,0 +1,22 @@
+{
+  "description": "The sum of the first n terms of the sequence is the concatenation of the first n digits of the sequence, and a(1) = 4.",
+  "id": "A299867",
+  "mentions": [
+    "A299865",
+    "A299872",
+    "A300000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

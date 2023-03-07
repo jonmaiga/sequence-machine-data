@@ -1,0 +1,20 @@
+{
+  "description": "Largest value corresponding to a string of n printable ASCII characters.",
+  "id": "A295838",
+  "mentions": [
+    "A175824"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

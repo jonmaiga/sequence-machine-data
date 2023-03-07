@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A288384.",
+  "id": "A288424",
+  "mentions": [
+    "A274650",
+    "A286294",
+    "A288384"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

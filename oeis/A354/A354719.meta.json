@@ -1,0 +1,23 @@
+{
+  "description": "Replace each even digit in n with the digit to its left.",
+  "id": "A354719",
+  "mentions": [
+    "A139337",
+    "A348179",
+    "A349422"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

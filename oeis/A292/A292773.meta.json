@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer m such that any choice of m elements in (Z_3)^n contains a subset of size 3 whose sum is zero.",
+  "id": "A292773",
+  "mentions": [
+    "A090245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

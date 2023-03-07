@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X6 0..2 arrays with the number of clockwise edge increases in every 2X2 subblock equal to one, and every 2X2 determinant nonzero",
+  "id": "A206007",
+  "mentions": [
+    "A206010"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

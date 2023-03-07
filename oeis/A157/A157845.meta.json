@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 1, a(n) = sum of binary digits of all prior terms, expressed in binary.",
+  "id": "A157845",
+  "mentions": [
+    "A000120",
+    "A004207",
+    "A007088",
+    "A010062",
+    "A028897",
+    "A092391",
+    "A230297"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows in which row n lists n+1 terms, starting with n^5 and ending with n^6, such that the difference between successive terms is equal to n^5 - n^4.",
+  "id": "A163285",
+  "mentions": [
+    "A000584",
+    "A001014",
+    "A085538",
+    "A159797",
+    "A162611",
+    "A162614",
+    "A162622",
+    "A163275",
+    "A163282",
+    "A163283",
+    "A163284"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:35",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

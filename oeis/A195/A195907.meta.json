@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{n = -oo..oo} exp(-n^2).",
+  "id": "A195907",
+  "mentions": [
+    "A000122",
+    "A002161",
+    "A218792"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

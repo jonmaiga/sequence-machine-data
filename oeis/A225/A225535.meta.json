@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose cubed digits sum to a cube, and have more than one nonzero digit.",
+  "id": "A225535",
+  "mentions": [
+    "A000578",
+    "A028839",
+    "A046197",
+    "A046459",
+    "A052034",
+    "A055012",
+    "A117685",
+    "A164882",
+    "A165330",
+    "A197039",
+    "A225534"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

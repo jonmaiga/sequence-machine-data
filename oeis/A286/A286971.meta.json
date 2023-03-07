@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as a sum of two numbers, one of which is the product of an even number of distinct primes (including 1) (A030229) and another is the product of an odd number of distinct primes (A030059).",
+  "id": "A286971",
+  "mentions": [
+    "A005117",
+    "A030059",
+    "A030229",
+    "A098235",
+    "A098236",
+    "A285796",
+    "A285797"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

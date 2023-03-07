@@ -1,0 +1,26 @@
+{
+  "description": "Array M read by antidiagonals in which successive rows evidently converge to A001405 (central binomial coefficients).",
+  "id": "A205573",
+  "mentions": [
+    "A000984",
+    "A001405",
+    "A001700",
+    "A108299",
+    "A115139",
+    "A191314",
+    "A205945",
+    "A205946"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

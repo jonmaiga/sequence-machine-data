@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that m + (m+1) = 2m + 1 shares at least one digit with m+1.",
+  "id": "A342147",
+  "mentions": [
+    "A002275",
+    "A005408",
+    "A342145",
+    "A342146"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

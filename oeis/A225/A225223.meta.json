@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form p - 1, where p is a practical number (A005153).",
+  "id": "A225223",
+  "mentions": [
+    "A005153",
+    "A085498"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

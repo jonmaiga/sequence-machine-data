@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet g.f.: zeta(s)^2 * zeta(s-1)^2 * (1 - 2^(1 - s))^2.",
+  "id": "A328487",
+  "mentions": [
+    "A000593",
+    "A001620",
+    "A034761",
+    "A328486"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:35",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

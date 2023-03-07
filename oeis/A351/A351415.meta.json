@@ -1,0 +1,29 @@
+{
+  "description": "Intersection of Beatty sequences for (1+sqrt(5))/2 and sqrt(5).",
+  "id": "A351415",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A022839",
+    "A108598",
+    "A190509",
+    "A296184",
+    "A346308",
+    "A347469",
+    "A347793",
+    "A356101",
+    "A356102",
+    "A356103",
+    "A356104"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

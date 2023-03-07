@@ -1,0 +1,18 @@
+{
+  "description": "Hanoi solutions (odd), the disks are moved from pillar 1 to pillar 3. For disks = 2k+1 use the first 2^(2k+2)-2 number pairs.",
+  "id": "A210243",
+  "mentions": [
+    "A101608"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

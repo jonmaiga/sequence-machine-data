@@ -1,0 +1,22 @@
+{
+  "description": "Positions of 3's in A347381.",
+  "id": "A347393",
+  "mentions": [
+    "A046060",
+    "A336702",
+    "A347381",
+    "A347391",
+    "A347392",
+    "A347394"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Rational rank of the n-th taxicab elliptic curve x^3 + y^3 = A011541(n).",
+  "id": "A230564",
+  "mentions": [
+    "A011541",
+    "A060838",
+    "A080642"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

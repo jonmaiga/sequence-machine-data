@@ -1,0 +1,23 @@
+{
+  "description": "Number of n X n symmetric (0,1) matrices that achieve the record mentioned in A191965.",
+  "id": "A191966",
+  "mentions": [
+    "A006786",
+    "A006855",
+    "A077269",
+    "A191965",
+    "A300756",
+    "A335820",
+    "A352472"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

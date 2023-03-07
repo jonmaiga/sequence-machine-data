@@ -1,0 +1,34 @@
+{
+  "description": "Number of strict compositions of n whose non-adjacent parts are strictly decreasing.",
+  "id": "A333150",
+  "mentions": [
+    "A000045",
+    "A001523",
+    "A028859",
+    "A056242",
+    "A059204",
+    "A072706",
+    "A107429",
+    "A115981",
+    "A329398",
+    "A332578",
+    "A332669",
+    "A332673",
+    "A332724",
+    "A332834",
+    "A332872",
+    "A333148",
+    "A333193"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

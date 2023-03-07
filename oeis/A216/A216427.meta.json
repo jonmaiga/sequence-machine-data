@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form a^2*b^3, where a >= 2 and b >= 2.",
+  "id": "A216427",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A004709",
+    "A013661",
+    "A013664",
+    "A030516",
+    "A062838",
+    "A085966",
+    "A143610",
+    "A216426"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

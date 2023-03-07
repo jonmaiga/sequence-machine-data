@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A278034(n)/4.",
+  "id": "A278035",
+  "mentions": [
+    "A278034"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

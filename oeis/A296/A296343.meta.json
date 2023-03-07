@@ -1,0 +1,22 @@
+{
+  "description": "Numbers in cells in spiral A274820 on spoke through center with slope 0 degrees.",
+  "id": "A296343",
+  "mentions": [
+    "A274820",
+    "A296344",
+    "A296345",
+    "A296346",
+    "A296347",
+    "A296348"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

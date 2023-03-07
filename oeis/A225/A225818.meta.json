@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (19^n + 18^n)/37 is prime.",
+  "id": "A225818",
+  "mentions": [
+    "A221637",
+    "A227046",
+    "A227170",
+    "A228558"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

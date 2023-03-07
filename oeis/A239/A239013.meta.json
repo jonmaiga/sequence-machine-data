@@ -1,0 +1,28 @@
+{
+  "description": "Exponents m such that the decimal expansion of 8^m exhibits its first zero from the right later than any previous exponent.",
+  "id": "A239013",
+  "mentions": [
+    "A001018",
+    "A020665",
+    "A030704",
+    "A031142",
+    "A239008",
+    "A239009",
+    "A239010",
+    "A239011",
+    "A239012",
+    "A239014",
+    "A239015"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

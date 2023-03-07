@@ -1,0 +1,20 @@
+{
+  "description": "Number of imprimitive (periodic) asymmetric rhythm cycles: ones having nontrivial shift automorphisms. Asymmetric rhythm cycles (A115114): binary necklaces of length 2n subject to the restriction that for any k if the k-th bead is of color 1 then the (k+n)-th bead (modulo 2n) is of color 0.",
+  "id": "A115116",
+  "mentions": [
+    "A006575",
+    "A115114"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Table of the numerators of the fractions of Bernoulli twin numbers and their higher-order differences, read by antidiagonals.",
+  "id": "A168516",
+  "mentions": [
+    "A051716",
+    "A051717",
+    "A085737",
+    "A085738",
+    "A168426"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

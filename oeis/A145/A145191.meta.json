@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that Sum_{i=1..m} omega(i)^2 is divisible by m, where omega is A001221.",
+  "id": "A145191",
+  "mentions": [
+    "A001221",
+    "A013939",
+    "A063971",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

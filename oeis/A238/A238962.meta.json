@@ -1,0 +1,23 @@
+{
+  "description": "Number of perfect partitions in graded colexicographic order.",
+  "id": "A238962",
+  "mentions": [
+    "A002033",
+    "A035341",
+    "A036035",
+    "A074206",
+    "A238975"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

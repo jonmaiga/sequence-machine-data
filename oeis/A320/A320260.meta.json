@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered pairs (j,k) with 0 < j < k < prime(n)/2 such that (j*(j+1) mod prime(n)) > (k*(k+1) mod prime(n)).",
+  "id": "A320260",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A002378",
+    "A319311",
+    "A319480"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

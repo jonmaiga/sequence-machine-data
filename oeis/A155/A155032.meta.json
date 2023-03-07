@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the concatenation of pi(p) and p is prime, where pi is the prime counting function.",
+  "id": "A155032",
+  "mentions": [
+    "A154963"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

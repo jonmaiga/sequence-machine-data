@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * Sum_{k=0..n} binomial(n,k)^2 * x^k/(1-x)^k.",
+  "id": "A217661",
+  "mentions": [
+    "A217615",
+    "A217664",
+    "A217665",
+    "A217666"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

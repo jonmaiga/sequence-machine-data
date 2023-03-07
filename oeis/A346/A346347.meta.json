@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of ten fifth powers in exactly two ways.",
+  "id": "A346347",
+  "mentions": [
+    "A345634",
+    "A345854",
+    "A346337",
+    "A346346",
+    "A346348"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

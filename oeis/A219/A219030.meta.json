@@ -1,0 +1,19 @@
+{
+  "description": "Powers of odd primes (exponent > 1) for which 2 is not a primitive root.",
+  "id": "A219030",
+  "mentions": [
+    "A108989",
+    "A167791",
+    "A216848"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

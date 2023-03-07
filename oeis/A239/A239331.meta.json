@@ -1,0 +1,34 @@
+{
+  "description": "Square array, read by antidiagonals: column k has g.f. (1+(k-1)*x)^2/(1-x)^3.",
+  "id": "A239331",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000290",
+    "A001844",
+    "A005408",
+    "A028872",
+    "A038764",
+    "A069133",
+    "A081585",
+    "A081587",
+    "A081589",
+    "A081591",
+    "A081593",
+    "A100536",
+    "A161680",
+    "A239325"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

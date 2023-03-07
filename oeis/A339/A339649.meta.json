@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of leaf colored trees with n leaves of k colors and all non-leaf nodes having degree 3.",
+  "id": "A339649",
+  "mentions": [
+    "A129860",
+    "A220826",
+    "A220827",
+    "A220828",
+    "A319539",
+    "A339650",
+    "A339779"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals eight.",
+  "id": "A324452",
+  "mentions": [
+    "A324429",
+    "A324434",
+    "A324435"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 8,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

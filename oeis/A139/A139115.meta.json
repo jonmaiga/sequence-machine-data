@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = p*(p - 1), where p is A000043(n).",
+  "id": "A139115",
+  "mentions": [
+    "A000043",
+    "A036689",
+    "A139116",
+    "A139223",
+    "A139224",
+    "A139225",
+    "A139226",
+    "A139306",
+    "A139307"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

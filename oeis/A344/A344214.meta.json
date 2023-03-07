@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that repeated iterations of f(m) = (digsum(f(m-1)))^2 + 1 starting from f(1) = k will eventually yield 5 before any other single-digit number.",
+  "id": "A344214",
+  "mentions": [
+    "A007953",
+    "A052216",
+    "A052224",
+    "A118881",
+    "A344208"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

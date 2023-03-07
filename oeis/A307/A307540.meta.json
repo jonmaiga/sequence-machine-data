@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle T(n,k) such that squarefree m with gpf(m) = prime(n) in each row are arranged according to increasing values of phi(m)/m.",
+  "id": "A307540",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000079",
+    "A000720",
+    "A002110",
+    "A005117",
+    "A006094",
+    "A006530",
+    "A007947",
+    "A059894",
+    "A067255",
+    "A070826",
+    "A077017",
+    "A306237"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

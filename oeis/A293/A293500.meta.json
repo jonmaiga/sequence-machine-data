@@ -1,0 +1,38 @@
+{
+  "description": "Number of orientable strings of length n using a maximum of k colors, array read by descending antidiagonals, T(n,k) for n >= 1 and k >= 1.",
+  "id": "A293500",
+  "mentions": [
+    "A003992",
+    "A006002",
+    "A008277",
+    "A032085",
+    "A032086",
+    "A032087",
+    "A032088",
+    "A032096",
+    "A032097",
+    "A032098",
+    "A083374",
+    "A085744",
+    "A145883",
+    "A161680",
+    "A277504",
+    "A293496",
+    "A320524",
+    "A321391",
+    "A321672"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

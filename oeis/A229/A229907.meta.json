@@ -1,0 +1,19 @@
+{
+  "description": "Initial primes in prime quadruplets (p, p+2, p+6, p+8) preceding the maximal gaps in A113404.",
+  "id": "A229907",
+  "mentions": [
+    "A007530",
+    "A113403",
+    "A113404"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

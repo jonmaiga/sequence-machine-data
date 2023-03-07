@@ -1,0 +1,17 @@
+{
+  "description": "Ordered perimeters p of primitive Pythagorean triangles having short leg in common with the long leg or hypotenuse of a primitive Pythagorean triangle with perimeter < p, and also having both the long leg and the hypotenuse in common with the short legs of primitive Pythagorean triangles with perimeter > p.",
+  "id": "A326309",
+  "mentions": [
+    "A024364"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

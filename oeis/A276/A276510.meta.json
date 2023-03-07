@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the sum of all the different permutations of the digits of k (A045876(k)) is a pandigital number (a term of A171102).",
+  "id": "A276510",
+  "mentions": [
+    "A007953",
+    "A045876",
+    "A047726",
+    "A055642",
+    "A171102"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

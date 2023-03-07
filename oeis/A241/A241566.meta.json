@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-element subsets of {1,...,n} whose sum has more than 2 divisors.",
+  "id": "A241566",
+  "mentions": [
+    "A000217",
+    "A241563"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Deficient numbers for which the (absolute value of) abundance is not a divisor.",
+  "id": "A214547",
+  "mentions": [
+    "A005100",
+    "A033880",
+    "A060326",
+    "A097218",
+    "A214408"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A274689.",
+  "id": "A274690",
+  "mentions": [
+    "A030124",
+    "A274689"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

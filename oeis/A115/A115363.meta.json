@@ -1,0 +1,19 @@
+{
+  "description": "((1,x)-(x,x^2))^(-2) (using Riordan array notation).",
+  "id": "A115363",
+  "mentions": [
+    "A115361",
+    "A115364"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

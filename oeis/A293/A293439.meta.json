@@ -1,0 +1,25 @@
+{
+  "description": "Number of odious exponents in the prime factorization of n.",
+  "id": "A293439",
+  "mentions": [
+    "A000069",
+    "A001221",
+    "A001969",
+    "A007814",
+    "A010060",
+    "A144095",
+    "A270428",
+    "A293443"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Fastest increasing sequence in which a(n) is a prime closest to the sum of all previous terms.",
+  "id": "A109278",
+  "mentions": [
+    "A109277"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 10*p can be written as a^2+b^2 where a and b are prime.",
+  "id": "A347163",
+  "mentions": [
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

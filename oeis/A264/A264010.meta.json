@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x^2 + y*(y+1) + z*(z+1)/2, where x, y and z are nonnegative integers such that y or y+1 is prime, and z or z+1 is prime.",
+  "id": "A264010",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000290",
+    "A262785",
+    "A263998",
+    "A264025"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Nonprime numbers of the form 1 + Sum_{k=1..m} 2^(2*k - 1).",
+  "id": "A127959",
+  "mentions": [
+    "A000978",
+    "A000979",
+    "A124400",
+    "A126614",
+    "A127936",
+    "A127955",
+    "A127956",
+    "A127957",
+    "A127958"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

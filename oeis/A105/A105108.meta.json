@@ -1,0 +1,18 @@
+{
+  "description": "Write numbers in ternary under each other; to get the next block of 3^k (k >= 0) terms of the sequence, start at 3^k, read diagonals in upward direction and convert to decimal.",
+  "id": "A105108",
+  "mentions": [
+    "A105027"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

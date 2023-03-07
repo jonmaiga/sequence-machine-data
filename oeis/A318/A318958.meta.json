@@ -1,0 +1,32 @@
+{
+  "description": "A(n, k) is a square array read in the decreasing antidiagonals, for n >= 0 and k >= 0.",
+  "id": "A318958",
+  "mentions": [
+    "A000004",
+    "A004526",
+    "A004652",
+    "A005843",
+    "A008585",
+    "A008586",
+    "A023443",
+    "A028242",
+    "A047221",
+    "A047336",
+    "A079524",
+    "A198442",
+    "A238377",
+    "A242477"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

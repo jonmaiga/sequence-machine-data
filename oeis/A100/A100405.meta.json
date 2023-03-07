@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n where every part appears more than two times.",
+  "id": "A100405",
+  "mentions": [
+    "A007690",
+    "A160974",
+    "A160990",
+    "A266647",
+    "A266648",
+    "A266649",
+    "A266650"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

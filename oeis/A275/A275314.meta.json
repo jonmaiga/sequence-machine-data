@@ -1,0 +1,19 @@
+{
+  "description": "Euler's gradus (\"suavitatis gradus\", or degrees of softness) function.",
+  "id": "A275314",
+  "mentions": [
+    "A001222",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

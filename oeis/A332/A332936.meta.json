@@ -1,0 +1,22 @@
+{
+  "description": "Number of blue nodes in n-th power graph W exponentiation of a cycle graph with 7 blue nodes and 1 green node.",
+  "id": "A332936",
+  "mentions": [
+    "A163063",
+    "A190976",
+    "A331211",
+    "A332211"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:53:23",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

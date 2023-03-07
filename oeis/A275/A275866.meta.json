@@ -1,0 +1,18 @@
+{
+  "description": "Number of semiprimes in {n, f(n), f(f(n)), ...., 1}, where f is the Collatz function.",
+  "id": "A275866",
+  "mentions": [
+    "A006577",
+    "A078350"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

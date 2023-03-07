@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A060594(2n).",
+  "id": "A327730",
+  "mentions": [
+    "A001221",
+    "A001620",
+    "A060594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the real solution to x^x = 15.",
+  "id": "A344930",
+  "mentions": [
+    "A000038",
+    "A030798",
+    "A090625",
+    "A093590",
+    "A173158",
+    "A173159",
+    "A173160",
+    "A173161",
+    "A173162",
+    "A173163",
+    "A186501",
+    "A186502",
+    "A186503",
+    "A186504"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

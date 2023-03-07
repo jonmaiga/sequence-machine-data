@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} 1/(1 - x^k)^AH(k), where AH(k) is the k-th alternating harmonic number.",
+  "id": "A305128",
+  "mentions": [
+    "A028342",
+    "A058312",
+    "A058313",
+    "A168243",
+    "A303970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

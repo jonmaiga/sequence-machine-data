@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers not of the form x^5 - y^2.",
+  "id": "A179439",
+  "mentions": [
+    "A152412",
+    "A177760",
+    "A177761",
+    "A177764",
+    "A177765",
+    "A177859"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

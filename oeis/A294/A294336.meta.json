@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to write n as a finite power-tower a^(b^(c^...)) of positive integers greater than one.",
+  "id": "A294336",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A001597",
+    "A007916",
+    "A052409",
+    "A052410",
+    "A089723",
+    "A164336",
+    "A277562",
+    "A284639",
+    "A288636",
+    "A294337",
+    "A294338",
+    "A294339"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

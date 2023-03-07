@@ -1,0 +1,26 @@
+{
+  "description": "For n >= 2, a(n) is the number of slim rectangular diagrams of length n.",
+  "id": "A273596",
+  "mentions": [
+    "A000179",
+    "A000271",
+    "A000522",
+    "A000904",
+    "A127548",
+    "A143409",
+    "A155857",
+    "A273988"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

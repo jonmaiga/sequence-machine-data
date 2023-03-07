@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of 6 sphinx tile shapes in a sphinx tiled hexagon of order n.",
+  "id": "A291582",
+  "mentions": [
+    "A016969",
+    "A016970",
+    "A049452",
+    "A279887",
+    "A287999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:01:39",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

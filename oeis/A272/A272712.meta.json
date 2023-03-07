@@ -1,0 +1,22 @@
+{
+  "description": "Perfect powers that are the difference of two nonnegative Fibonacci numbers.",
+  "id": "A272712",
+  "mentions": [
+    "A000961",
+    "A001597",
+    "A007298",
+    "A219114",
+    "A272575"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

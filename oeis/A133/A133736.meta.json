@@ -1,0 +1,19 @@
+{
+  "description": "Number of graphs on n unlabeled nodes that have an Eulerian cycle, i.e., a cycle that goes through every edge in the graph exactly once.",
+  "id": "A133736",
+  "mentions": [
+    "A002854",
+    "A003049"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

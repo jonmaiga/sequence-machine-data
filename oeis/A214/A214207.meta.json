@@ -1,0 +1,20 @@
+{
+  "description": "Replace the terms of A213975 with their ranks in A007931.",
+  "id": "A214207",
+  "mentions": [
+    "A007931",
+    "A213975",
+    "A214208",
+    "A214209"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

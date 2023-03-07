@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of the permutation A307485: one odd, two even, four odd, eight even, etc.",
+  "id": "A307612",
+  "mentions": [
+    "A307485"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

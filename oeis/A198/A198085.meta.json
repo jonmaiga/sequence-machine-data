@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty connected, containment-free subsets of 2^[n]. Total number of clutters on all subsets of [n]. Number of connected antichains in the Boolean algebra B_n (the poset of subsets of [n] ordered by containment).",
+  "id": "A198085",
+  "mentions": [
+    "A048143"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

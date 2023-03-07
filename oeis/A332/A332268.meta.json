@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of divisors of n that are Niven numbers.",
+  "id": "A332268",
+  "mentions": [
+    "A000005",
+    "A005349",
+    "A333456",
+    "A337741",
+    "A340637"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

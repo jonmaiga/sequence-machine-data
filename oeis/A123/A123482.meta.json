@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of the series giving the best rational approximations to sqrt(11).",
+  "id": "A123482",
+  "mentions": [
+    "A010468",
+    "A029549",
+    "A041014",
+    "A041015",
+    "A123478",
+    "A123479",
+    "A123480"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

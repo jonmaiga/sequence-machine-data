@@ -1,0 +1,17 @@
+{
+  "description": "Higher powers that are sums of two distinct higher powers.",
+  "id": "A226777",
+  "mentions": [
+    "A076467"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

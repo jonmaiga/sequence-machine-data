@@ -1,0 +1,26 @@
+{
+  "description": "Sum of squares of tetranacci numbers (A001630).",
+  "id": "A107242",
+  "mentions": [
+    "A001630",
+    "A107239",
+    "A107243",
+    "A107244",
+    "A107245",
+    "A107246",
+    "A107247",
+    "A107248"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:13:08",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

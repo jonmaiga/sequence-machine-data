@@ -1,0 +1,23 @@
+{
+  "description": "Irregular tree read by rows: take the Stern-Brocot tree A007305(n)/A007306(n) and set a(n) = A007306(n) - A007305(n) mod 3.",
+  "id": "A335699",
+  "mentions": [
+    "A002487",
+    "A007305",
+    "A007306",
+    "A049448",
+    "A049449",
+    "A057431"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

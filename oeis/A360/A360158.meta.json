@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of unitary divisors of n that are odd squares minus the number of unitary divisors of n that are even squares.",
+  "id": "A360158",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A016742",
+    "A016754",
+    "A056624",
+    "A344299",
+    "A350388",
+    "A360157"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

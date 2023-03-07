@@ -1,0 +1,21 @@
+{
+  "description": "The difference between the number of prime numbers in the ranges (1, p_n] and (p_n, 2*p_n], where p_n is the n-th prime.",
+  "id": "A334051",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A020900",
+    "A331677"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:27",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

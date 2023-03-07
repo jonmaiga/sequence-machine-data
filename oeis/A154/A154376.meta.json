@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 25*n^2 - 2*n.",
+  "id": "A154376",
+  "mentions": [
+    "A154374",
+    "A154378"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

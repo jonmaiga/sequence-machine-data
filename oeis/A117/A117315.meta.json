@@ -1,0 +1,19 @@
+{
+  "description": "Primes within +1 or -1 of a central binomial coefficient C(2n,n).",
+  "id": "A117315",
+  "mentions": [
+    "A000040",
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

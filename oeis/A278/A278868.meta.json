@@ -1,0 +1,20 @@
+{
+  "description": "Second series of Hankel determinants based on hyperfactorial/4.",
+  "id": "A278868",
+  "mentions": [
+    "A002109",
+    "A277829",
+    "A278770",
+    "A278860"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime p = p(n) containing exactly n strings \"13\" (n = 1, 2, ...).",
+  "id": "A176096",
+  "mentions": [
+    "A037053",
+    "A037055",
+    "A037057",
+    "A037059",
+    "A037063",
+    "A037067"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

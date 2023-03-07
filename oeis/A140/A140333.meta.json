@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) with the coefficient [x^k] (n+1)!* C(n,x), in row n, column k, where C(.,.) are the Bernoulli twin number polynomials of A129378.",
+  "id": "A140333",
+  "mentions": [
+    "A051717",
+    "A129378",
+    "A129826"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

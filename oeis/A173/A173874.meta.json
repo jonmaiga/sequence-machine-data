@@ -1,0 +1,24 @@
+{
+  "description": "Primes in A173836.",
+  "id": "A173874",
+  "mentions": [
+    "A000578",
+    "A003627",
+    "A168147",
+    "A168219",
+    "A173579",
+    "A173733",
+    "A173836"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

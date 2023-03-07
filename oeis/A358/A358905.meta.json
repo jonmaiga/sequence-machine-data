@@ -1,0 +1,39 @@
+{
+  "description": "Number of sequences of integer partitions with total sum n that are rectangular, meaning all lengths are equal.",
+  "id": "A358905",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A001970",
+    "A038041",
+    "A055887",
+    "A063834",
+    "A141199",
+    "A218482",
+    "A279787",
+    "A281145",
+    "A305551",
+    "A306319",
+    "A319066",
+    "A319169",
+    "A320324",
+    "A323429",
+    "A358830",
+    "A358833",
+    "A358835",
+    "A358836",
+    "A358911",
+    "A358912"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

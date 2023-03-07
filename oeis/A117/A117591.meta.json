@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2^n + Fibonacci(n).",
+  "id": "A117591",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A001611",
+    "A074824",
+    "A099036",
+    "A212262"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

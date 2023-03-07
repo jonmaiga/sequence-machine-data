@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} 4^n * x^n/(n*(1+x^n)) ).",
+  "id": "A259274",
+  "mentions": [
+    "A165941",
+    "A259273",
+    "A259275",
+    "A259276"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

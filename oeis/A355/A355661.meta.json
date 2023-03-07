@@ -1,0 +1,21 @@
+{
+  "description": "Largest number of children of any vertex in the rooted tree with Matula-Goebel number n.",
+  "id": "A355661",
+  "mentions": [
+    "A001222",
+    "A007097",
+    "A354322",
+    "A355662"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

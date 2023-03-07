@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 2^x + y^2, with x and y >=0.",
+  "id": "A250482",
+  "mentions": [
+    "A004777",
+    "A250481",
+    "A250483",
+    "A250545",
+    "A250546",
+    "A250547",
+    "A250715"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

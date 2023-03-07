@@ -1,0 +1,20 @@
+{
+  "description": "Number of coincidence-free length n lists of 4-tuples with all numbers 1,...,n in tuple position k, for k=1..4.",
+  "id": "A135810",
+  "mentions": [
+    "A135809",
+    "A135811"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

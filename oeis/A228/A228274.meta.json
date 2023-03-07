@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n, n/d odd} n * d.",
+  "id": "A228274",
+  "mentions": [
+    "A002131",
+    "A007331",
+    "A222171"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

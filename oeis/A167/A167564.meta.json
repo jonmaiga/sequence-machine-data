@@ -1,0 +1,18 @@
+{
+  "description": "The row sums of the ED2 array A167560 read by antidiagonals",
+  "id": "A167564",
+  "mentions": [
+    "A167560"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Highly composite numbers (A002182) that are not highly Brazilian (A329383).",
+  "id": "A309039",
+  "mentions": [
+    "A002182",
+    "A279930",
+    "A309493",
+    "A329383"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

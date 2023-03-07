@@ -1,0 +1,36 @@
+{
+  "description": "Array A(m,n) read by antidiagonals: number of domino tilings of the m X n grid with upper left corner removed iff m*n is odd, (m>=0, n>=0).",
+  "id": "A189006",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A002530",
+    "A004003",
+    "A005178",
+    "A028468",
+    "A028470",
+    "A028472",
+    "A028474",
+    "A099390",
+    "A187596",
+    "A187616",
+    "A187617",
+    "A187618",
+    "A189002",
+    "A189003",
+    "A189004",
+    "A189005",
+    "A210724"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

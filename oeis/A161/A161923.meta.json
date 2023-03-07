@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with property that each number corresponds to one of the partitions described in sequence A160643 and counted in A161921",
+  "id": "A161923",
+  "mentions": [
+    "A125106",
+    "A160643",
+    "A161921"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

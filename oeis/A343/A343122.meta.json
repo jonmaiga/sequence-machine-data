@@ -1,0 +1,21 @@
+{
+  "description": "Consider the longest arithmetic progressions of primes from among the first n primes; a(n) is the smallest constant difference of these arithmetic progressions.",
+  "id": "A343122",
+  "mentions": [
+    "A002110",
+    "A033188",
+    "A338238",
+    "A338869",
+    "A343118"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of noncrossing partitions of an n-set into k blocks of size 3 or more, n >= 0, 0 <= k <= floor(n/3).",
+  "id": "A350248",
+  "mentions": [
+    "A001263",
+    "A055998",
+    "A108263",
+    "A114997",
+    "A350116",
+    "A350286",
+    "A350303"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of turns in all left factors of Dyck paths of length n.",
+  "id": "A191527",
+  "mentions": [
+    "A088855"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

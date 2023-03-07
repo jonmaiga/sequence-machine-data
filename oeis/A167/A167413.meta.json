@@ -1,0 +1,21 @@
+{
+  "description": "Irregular array with the first differences of row A167384(n,.) in row n.",
+  "id": "A167413",
+  "mentions": [
+    "A000194",
+    "A001670",
+    "A167381",
+    "A167384"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

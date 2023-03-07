@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted unicursal n-edge maps in the plane (planar with a distinguished outside face).",
+  "id": "A103944",
+  "mentions": [
+    "A069720",
+    "A103945"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

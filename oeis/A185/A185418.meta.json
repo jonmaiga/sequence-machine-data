@@ -1,0 +1,26 @@
+{
+  "description": "Square array, read by antidiagonals, used to recursively calculate the Springer numbers A001586.",
+  "id": "A185418",
+  "mentions": [
+    "A001586",
+    "A005408",
+    "A164897",
+    "A185414",
+    "A185416",
+    "A185417",
+    "A185420"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

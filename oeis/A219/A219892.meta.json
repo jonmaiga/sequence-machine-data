@@ -1,0 +1,23 @@
+{
+  "description": "Number of directed 5-regular graphs on n nodes.",
+  "id": "A219892",
+  "mentions": [
+    "A096368",
+    "A219889",
+    "A219890",
+    "A219891",
+    "A219893",
+    "A350910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 6,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

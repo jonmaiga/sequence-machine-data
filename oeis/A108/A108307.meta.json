@@ -1,0 +1,23 @@
+{
+  "description": "Number of set partitions of {1, ..., n} that avoid enhanced 3-crossings (or enhanced 3-nestings).",
+  "id": "A108307",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A007317",
+    "A073525",
+    "A124303"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

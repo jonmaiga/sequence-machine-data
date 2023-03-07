@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the cubefree part of n: the largest unitary divisor of n that is a cubefree number (A004709).",
+  "id": "A360539",
+  "mentions": [
+    "A004709",
+    "A007948",
+    "A036966",
+    "A055231",
+    "A337050",
+    "A360540"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

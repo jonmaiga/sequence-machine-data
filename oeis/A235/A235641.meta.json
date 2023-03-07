@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit lunar primes obtained by promoting the binary templates.",
+  "id": "A235641",
+  "mentions": [
+    "A087062",
+    "A087097",
+    "A087636"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

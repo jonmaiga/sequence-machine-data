@@ -1,0 +1,23 @@
+{
+  "description": "The sum of the first n primes, minus n.",
+  "id": "A101301",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A005867",
+    "A006093",
+    "A007504",
+    "A027424"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:32:55",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

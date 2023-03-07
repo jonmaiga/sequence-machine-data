@@ -1,0 +1,22 @@
+{
+  "description": "Least n-digit prime in base 12 that is a twin prime and Sophie Germain prime of type 1.",
+  "id": "A118584",
+  "mentions": [
+    "A001359",
+    "A005384",
+    "A006512",
+    "A118479"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

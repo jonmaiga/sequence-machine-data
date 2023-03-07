@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=0} (2*k - 1)!!*x^k/Product_{j=1..k} (1 - j*x).",
+  "id": "A305404",
+  "mentions": [
+    "A000670",
+    "A001147",
+    "A004123",
+    "A305405"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

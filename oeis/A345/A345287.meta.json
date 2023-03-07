@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct possible tilings of type 1 for squares with side = A344331(n) and that can be tiled with squares of two different sizes so that the numbers of large or small squares are equal.",
+  "id": "A345287",
+  "mentions": [
+    "A000005",
+    "A344330",
+    "A344331",
+    "A344333",
+    "A344334",
+    "A345285",
+    "A345286",
+    "A346264"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

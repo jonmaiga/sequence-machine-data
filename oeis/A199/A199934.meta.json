@@ -1,0 +1,22 @@
+{
+  "description": "Extended d-block elements for Janet table.",
+  "id": "A199934",
+  "mentions": [
+    "A134982",
+    "A138096",
+    "A138469",
+    "A160914",
+    "A167268"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

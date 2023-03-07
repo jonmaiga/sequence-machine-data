@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n-th digit (after decimal point) of e and of Euler-Mascheroni constant gamma are the same.",
+  "id": "A164820",
+  "mentions": [
+    "A068394",
+    "A164819"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

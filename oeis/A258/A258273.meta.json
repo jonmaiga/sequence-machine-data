@@ -1,0 +1,18 @@
+{
+  "description": "The base in which A256360(n) is multi-narcissistic.",
+  "id": "A258273",
+  "mentions": [
+    "A256360"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

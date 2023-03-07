@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place n nonattacking nightriders on an n X n toroidal board.",
+  "id": "A190393",
+  "mentions": [
+    "A051906",
+    "A172141",
+    "A173429"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

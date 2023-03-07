@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of a 2n-set into colored blocks, such that exactly n colors are used and the colors are introduced in increasing order.",
+  "id": "A321712",
+  "mentions": [
+    "A000110",
+    "A008277",
+    "A039810",
+    "A130191"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

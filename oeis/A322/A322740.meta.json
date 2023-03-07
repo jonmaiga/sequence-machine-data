@@ -1,0 +1,23 @@
+{
+  "description": "Least area of a grid rectangle from which n >= 3 grid points can be chosen such that the binomial(n,3) triangles formed by any 3 of the points have distinct areas > 0.",
+  "id": "A322740",
+  "mentions": [
+    "A193838",
+    "A271490",
+    "A303331",
+    "A322741",
+    "A322742"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

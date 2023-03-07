@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers such that the binary representation is of the form either Tbt or Tt, where T and t are binary representations of triangular numbers with equal binary length, and b is a binary digit: b = 1 or 0.",
+  "id": "A226736",
+  "mentions": [
+    "A000217",
+    "A070939",
+    "A226836"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

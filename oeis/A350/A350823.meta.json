@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the domination number of the grid graph P_m X P_n.",
+  "id": "A350823",
+  "mentions": [
+    "A104519",
+    "A193768",
+    "A286847",
+    "A300358",
+    "A350820"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

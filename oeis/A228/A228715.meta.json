@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1 - Pi/6.",
+  "id": "A228715",
+  "mentions": [
+    "A019673"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:13",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

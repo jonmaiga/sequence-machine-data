@@ -1,0 +1,30 @@
+{
+  "description": "Numbers that are either prime or whose prime indices are pairwise coprime. Heinz numbers of integer partitions with pairwise coprime parts.",
+  "id": "A302569",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A005117",
+    "A007359",
+    "A007716",
+    "A051424",
+    "A056239",
+    "A076610",
+    "A101268",
+    "A122132",
+    "A275024",
+    "A302242",
+    "A302505",
+    "A302568"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

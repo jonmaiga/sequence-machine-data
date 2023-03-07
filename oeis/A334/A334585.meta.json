@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of Sum_{k=1..n} (-1)^(k+1)/k^4.",
+  "id": "A334585",
+  "mentions": [
+    "A013662",
+    "A120296",
+    "A267315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:59",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

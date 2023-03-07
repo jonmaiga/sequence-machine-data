@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 are both products of primes of nonprime index (A320628).",
+  "id": "A360357",
+  "mentions": [
+    "A000668",
+    "A006450",
+    "A059305",
+    "A320628"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

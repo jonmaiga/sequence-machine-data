@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. S(x) satisfies: S(x) = Integral (1 + S(x)^2)^(5/2) dx.",
+  "id": "A281427",
+  "mentions": [
+    "A281428"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

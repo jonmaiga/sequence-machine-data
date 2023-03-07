@@ -1,0 +1,28 @@
+{
+  "description": "Number of distinct topologies on an n-set that have exactly 10 open sets.",
+  "id": "A281778",
+  "mentions": [
+    "A000012",
+    "A000918",
+    "A028244",
+    "A281773",
+    "A281774",
+    "A281775",
+    "A281776",
+    "A281777",
+    "A281779",
+    "A281780"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

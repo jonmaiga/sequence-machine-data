@@ -1,0 +1,17 @@
+{
+  "description": "Number of Type 4^E_{II} Euclidean self-dual codes over GF(4) of length 4n.",
+  "id": "A106159",
+  "mentions": [
+    "A106158"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

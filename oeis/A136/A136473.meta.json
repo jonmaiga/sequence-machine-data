@@ -1,0 +1,19 @@
+{
+  "description": "Primitive elements of the sequence of integers n such that n divides 2^n + 1 (A006521).",
+  "id": "A136473",
+  "mentions": [
+    "A006521",
+    "A136474",
+    "A136475"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

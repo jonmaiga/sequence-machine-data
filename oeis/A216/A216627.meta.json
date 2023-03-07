@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, n>=1, 1<=k<=n, T(n,k) = sum_{c|n,d|k} lcm(c,d).",
+  "id": "A216627",
+  "mentions": [
+    "A000203",
+    "A064950",
+    "A216620",
+    "A216621",
+    "A216622",
+    "A216623",
+    "A216624",
+    "A216625",
+    "A216626"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

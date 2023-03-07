@@ -1,0 +1,36 @@
+{
+  "description": "Denominators (in their lowest terms) of the sequence whose Dirichlet convolution with itself yields squares (A000290), or equally A064549.",
+  "id": "A318512",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A007814",
+    "A046644",
+    "A064549",
+    "A299149",
+    "A299150",
+    "A318511",
+    "A318513",
+    "A318649",
+    "A318651",
+    "A318653",
+    "A318654",
+    "A318655",
+    "A318656",
+    "A318658",
+    "A318680",
+    "A318681"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

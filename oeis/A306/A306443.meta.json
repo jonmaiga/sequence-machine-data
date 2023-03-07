@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of partitioning the set of the first n primes into two subsets whose sums differ at most by 1.",
+  "id": "A306443",
+  "mentions": [
+    "A000040",
+    "A022894",
+    "A069918",
+    "A113040",
+    "A307877"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

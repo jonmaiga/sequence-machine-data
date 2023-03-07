@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T(m,n): number of sequences of n residues modulo m such that no nonempty subsequence sums to zero, for m>=1, n=0..m-1.",
+  "id": "A309106",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A000027",
+    "A002378",
+    "A062955"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

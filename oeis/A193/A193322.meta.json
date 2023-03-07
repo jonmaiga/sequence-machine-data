@@ -1,0 +1,20 @@
+{
+  "description": "Sum of even divisors of lambda(n).",
+  "id": "A193322",
+  "mentions": [
+    "A002322",
+    "A146076",
+    "A191613"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

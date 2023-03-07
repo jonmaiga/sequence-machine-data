@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime == prime(i-1) (mod prime(i)) for 2 <= i <= n.",
+  "id": "A352355",
+  "mentions": [
+    "A030431"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

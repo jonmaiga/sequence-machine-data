@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number not yet in the sequence that satisfies the following condition: if p is a prime factor of a(n), the next p terms are coprime to p.",
+  "id": "A344307",
+  "mentions": [
+    "A064413",
+    "A084937",
+    "A090252",
+    "A103683",
+    "A121216",
+    "A249064"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

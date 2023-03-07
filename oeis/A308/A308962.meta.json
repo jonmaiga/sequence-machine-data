@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [4n] with exactly 2n increasing runs of odd length.",
+  "id": "A308962",
+  "mentions": [
+    "A097591"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

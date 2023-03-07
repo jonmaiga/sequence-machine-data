@@ -1,0 +1,21 @@
+{
+  "description": "Number of maximal independent sets in the 2-Fibonacci digraph of order n.",
+  "id": "A359995",
+  "mentions": [
+    "A333077",
+    "A359994",
+    "A359996",
+    "A360000"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

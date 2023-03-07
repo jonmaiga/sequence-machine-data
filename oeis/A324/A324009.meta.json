@@ -1,0 +1,22 @@
+{
+  "description": "The number of convex polyominoes whose smallest bounding rectangle has size w*h (w > 0, h > 0). The table is read by antidiagonals.",
+  "id": "A324009",
+  "mentions": [
+    "A005436",
+    "A093118"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

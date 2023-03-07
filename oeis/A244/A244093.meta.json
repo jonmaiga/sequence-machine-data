@@ -1,0 +1,19 @@
+{
+  "description": "Rounded down ratio of area of a unit circle and a circle inscribed in any of the n triangles composing a regular n-gon which is circumscribed by a unit circle.",
+  "id": "A244093",
+  "mentions": [
+    "A244094",
+    "A244096"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

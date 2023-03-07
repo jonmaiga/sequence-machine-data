@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(4*n^2 - 3*n + 5)/6.",
+  "id": "A174723",
+  "mentions": [
+    "A000196",
+    "A071239",
+    "A084849",
+    "A131098",
+    "A151798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:55:37",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

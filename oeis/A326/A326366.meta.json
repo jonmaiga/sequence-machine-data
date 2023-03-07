@@ -1,0 +1,37 @@
+{
+  "description": "Number of intersecting antichains of nonempty subsets of {1..n} with empty intersection (meaning there is no vertex in common to all the edges).",
+  "id": "A326366",
+  "mentions": [
+    "A001206",
+    "A006126",
+    "A007363",
+    "A014466",
+    "A051185",
+    "A058891",
+    "A305001",
+    "A305843",
+    "A305844",
+    "A307249",
+    "A318128",
+    "A318129",
+    "A326361",
+    "A326362",
+    "A326363",
+    "A326364",
+    "A326365",
+    "A326373",
+    "A326375"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = abs(A020338(n)-A338754(n))",
+  "id": "A348166",
+  "mentions": [
+    "A010785",
+    "A020338",
+    "A338754"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

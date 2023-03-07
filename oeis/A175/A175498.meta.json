@@ -1,0 +1,25 @@
+{
+  "description": "a(1)=1. a(n) = the smallest positive integer not occurring earlier such that a(n)-a(n-1) doesn't equal a(k)-a(k-1) for any k with 2 <= k <= n-1.",
+  "id": "A175498",
+  "mentions": [
+    "A081145",
+    "A131388",
+    "A131389",
+    "A131529",
+    "A175499",
+    "A257465",
+    "A257705",
+    "A257883"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

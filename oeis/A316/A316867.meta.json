@@ -1,0 +1,31 @@
+{
+  "description": "Number of times 6 appears in decimal expansion of n.",
+  "id": "A316867",
+  "mentions": [
+    "A043513",
+    "A043514",
+    "A043515",
+    "A043516",
+    "A055641",
+    "A102683",
+    "A268643",
+    "A316863",
+    "A316864",
+    "A316865",
+    "A316866",
+    "A316868",
+    "A316869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

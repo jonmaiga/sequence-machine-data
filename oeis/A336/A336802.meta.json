@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant Pi(5, 1) [1/(residue at 1) of the Dedekind zeta function for the cyclotomic field Q(zeta_5)]",
+  "id": "A336802",
+  "mentions": [
+    "A340711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:23:23",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Listed by antidiagonals, array A(k,n) = digital root of n-th nonzero centered k-gonal number.",
+  "id": "A194127",
+  "mentions": [
+    "A010888",
+    "A086272",
+    "A086273",
+    "A193043"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

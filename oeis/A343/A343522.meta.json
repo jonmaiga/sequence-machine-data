@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically least strictly increasing sequence such that, for any n > 0, Sum_{k = 1..n} 1/a(k) can be computed without carries in factorial base.",
+  "id": "A343522",
+  "mentions": [
+    "A279732",
+    "A294168"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

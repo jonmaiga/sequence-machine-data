@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that immediately halt Conway's FIBONACCIGAME.",
+  "id": "A277121",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000301",
+    "A275483",
+    "A275484"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

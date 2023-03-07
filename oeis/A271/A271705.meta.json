@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..n} (-1)^(n-j)*C(-j-1,-n-1)*L(j,k), L the unsigned Lah numbers A271703, for n>=0 and 0<=k<=n.",
+  "id": "A271705",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A007318",
+    "A007526",
+    "A052844",
+    "A059110",
+    "A062392",
+    "A134432",
+    "A271703",
+    "A288869"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes of special form: sum of a semiprime k and the k-th semiprime.",
+  "id": "A100467",
+  "mentions": [
+    "A001358",
+    "A100466",
+    "A100493",
+    "A100915",
+    "A100916"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

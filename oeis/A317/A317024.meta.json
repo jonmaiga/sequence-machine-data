@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms such that for any distinct i and j, lcm(a(i), a(i+1)) and lcm(a(j), a(j+1)) are distinct.",
+  "id": "A317024",
+  "mentions": [
+    "A088177",
+    "A317025"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

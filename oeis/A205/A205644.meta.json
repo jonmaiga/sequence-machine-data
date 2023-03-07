@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+287)^2 = y^2.",
+  "id": "A205644",
+  "mentions": [
+    "A185394",
+    "A198294",
+    "A203619",
+    "A204765",
+    "A206426"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:43:56",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

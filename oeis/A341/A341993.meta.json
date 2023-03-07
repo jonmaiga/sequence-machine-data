@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0. For n > 0, a(n+1) = 2*a(n) if the sum of digits of 2*a(n) exceeds that of a(n); otherwise, a(n+1) is the smallest unused nonnegative integer.",
+  "id": "A341993",
+  "mentions": [
+    "A000079",
+    "A331440"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

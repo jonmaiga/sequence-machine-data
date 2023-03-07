@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{i>=1, j>=1} i*j*x^(i*j)).",
+  "id": "A318493",
+  "mentions": [
+    "A000005",
+    "A038040",
+    "A088305",
+    "A129921",
+    "A180305",
+    "A280540",
+    "A280541"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

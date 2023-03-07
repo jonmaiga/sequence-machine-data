@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonseparable self-complementary graphs on n nodes.",
+  "id": "A199298",
+  "mentions": [
+    "A000171"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

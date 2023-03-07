@@ -1,0 +1,21 @@
+{
+  "description": "a(2n) = concatenation of n+1 with n+2, a(2n+1) = concatenation of n+2 with n+1.",
+  "id": "A248378",
+  "mentions": [
+    "A001704",
+    "A127423",
+    "A154530"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

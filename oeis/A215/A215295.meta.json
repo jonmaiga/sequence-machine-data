@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 0..floor((n*5-2)/2) on odd squares of an nX5 array such that each row and column of odd squares is increasing",
+  "id": "A215295",
+  "mentions": [
+    "A060854",
+    "A215297"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

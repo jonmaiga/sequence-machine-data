@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-self-dual groupoids which are equal to their duals.",
+  "id": "A258720",
+  "mentions": [
+    "A001329",
+    "A001423",
+    "A001428",
+    "A258719"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

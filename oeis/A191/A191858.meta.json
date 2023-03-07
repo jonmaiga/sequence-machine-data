@@ -1,0 +1,20 @@
+{
+  "description": "The greatest integer M for which there are no primes between M^(1+1/n) and (M+1)^(1+1/n)",
+  "id": "A191858",
+  "mentions": [
+    "A000101",
+    "A144140",
+    "A192870"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

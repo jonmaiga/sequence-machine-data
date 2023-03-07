@@ -1,0 +1,18 @@
+{
+  "description": "Numbers N = A * B such that N (reversed digits) = A (reversed digits) * B (reversed digits). A single-digit number is its own reversal and neither A nor B has a leading zero. No pair (A, B) has both A and B palindromic or simple-digit. The reversed products are not included in the sequence.",
+  "id": "A346133",
+  "mentions": [
+    "A066531"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

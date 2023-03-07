@@ -1,0 +1,20 @@
+{
+  "description": "Total area of the family of rectangles with side lengths p and q such that n = p + q, p < q, and |q-p| is not semiprime.",
+  "id": "A303115",
+  "mentions": [
+    "A001222",
+    "A303110"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

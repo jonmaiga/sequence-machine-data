@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which A329639(n) is equal to gcd(A329638(n), A329639(n).",
+  "id": "A329640",
+  "mentions": [
+    "A156552",
+    "A324201",
+    "A326141",
+    "A329638",
+    "A329639",
+    "A329641"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

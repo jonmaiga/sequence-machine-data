@@ -1,0 +1,32 @@
+{
+  "description": "Numbers on the 8 main spokes of a square spiral with 1 in the center.",
+  "id": "A357745",
+  "mentions": [
+    "A002061",
+    "A016754",
+    "A033951",
+    "A039823",
+    "A053755",
+    "A054552",
+    "A054554",
+    "A054556",
+    "A054567",
+    "A054569",
+    "A080335",
+    "A200975",
+    "A267682",
+    "A317186"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

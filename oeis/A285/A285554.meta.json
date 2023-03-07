@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of q^(-2/5) * (r(q^2) - r(q)^2) / 2 in powers of q where r() is the Rogers-Ramanujan continued fraction.",
+  "id": "A285554",
+  "mentions": [
+    "A007325",
+    "A055101",
+    "A112274",
+    "A285555"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

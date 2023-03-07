@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for sqrt(2)*tan(1/sqrt(2)).",
+  "id": "A123251",
+  "mentions": [
+    "A123168"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

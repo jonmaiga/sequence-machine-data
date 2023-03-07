@@ -1,0 +1,17 @@
+{
+  "description": "Smallest positive integer k such that the prefix of the Thue-Morse sequence (A010060) of length kn is not a k-antipower.",
+  "id": "A304684",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Calculate the smallest positive residues of 2!,3!,...,(prime(n)-1)! modulo prime(n) and stop the calculation at the moment m when for the first time there appear two equal numbers. If m!==k!, then a(n)=k; but a(n)=0 if no such m exists.",
+  "id": "A247190",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 3,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

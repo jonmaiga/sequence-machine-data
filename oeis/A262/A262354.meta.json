@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of 2 X 2 matrices over Z_p with determinant in {1,-1} where p = prime(n).",
+  "id": "A262354",
+  "mentions": [
+    "A117762",
+    "A127917",
+    "A244509",
+    "A270775"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

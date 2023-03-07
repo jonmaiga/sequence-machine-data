@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of x->(sigma(x)+phi(x))/2 until a non-integer is reached when starting with x=n; a(n)=0 if this never happens.",
+  "id": "A156776",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A065387",
+    "A156775"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

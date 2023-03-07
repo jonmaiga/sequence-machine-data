@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A048675(k) is a prime.",
+  "id": "A277319",
+  "mentions": [
+    "A036554",
+    "A048675",
+    "A277317",
+    "A277321",
+    "A277892",
+    "A277898"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

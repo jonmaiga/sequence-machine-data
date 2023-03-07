@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the length of the n-th row of A348433 when it is written as an irregular triangle.",
+  "id": "A348408",
+  "mentions": [
+    "A348433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

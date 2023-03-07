@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into odd prime powers (1 included).",
+  "id": "A352165",
+  "mentions": [
+    "A000961",
+    "A023893",
+    "A023894",
+    "A061345",
+    "A099773",
+    "A134345",
+    "A280151",
+    "A352166"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

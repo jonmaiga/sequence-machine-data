@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can be written as the sum of two nonnegative palindromes in base 10.",
+  "id": "A260255",
+  "mentions": [
+    "A002113",
+    "A035137",
+    "A213879",
+    "A260254",
+    "A261906"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

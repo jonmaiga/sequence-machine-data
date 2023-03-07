@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of balanced-non-self-conjugate partitions of n.",
+  "id": "A331262",
+  "mentions": [
+    "A000041",
+    "A000700",
+    "A000701",
+    "A047993",
+    "A067772",
+    "A330644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

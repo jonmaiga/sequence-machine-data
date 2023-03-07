@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of certain densities associated with partitions into squares.",
+  "id": "A357445",
+  "mentions": [
+    "A357444"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

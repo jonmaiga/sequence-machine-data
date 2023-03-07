@@ -1,0 +1,21 @@
+{
+  "description": "n^3 mod 8; the periodic sequence {0,1,0,3,0,5,0,7}.",
+  "id": "A109753",
+  "mentions": [
+    "A010698",
+    "A010877",
+    "A070432"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:01:23",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

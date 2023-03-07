@@ -1,0 +1,17 @@
+{
+  "description": "m-th composite composite(m) is included iff composite(m) + m is prime.",
+  "id": "A161542",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

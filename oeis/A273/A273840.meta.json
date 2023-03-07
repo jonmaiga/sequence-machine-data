@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion the Bessel moment c(4,2) = Integral_{0..inf} x^2 K_0(x)^4 dx, where K_0 is the modified Bessel function of the second kind.",
+  "id": "A273840",
+  "mentions": [
+    "A233091",
+    "A273816",
+    "A273817",
+    "A273818",
+    "A273819",
+    "A273839",
+    "A273841"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A111975, which shifts columns left and up under matrix square.",
+  "id": "A111977",
+  "mentions": [
+    "A078537",
+    "A111975"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of sum of the reciprocals of the Mersenne primes.",
+  "id": "A173898",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A000668",
+    "A001348",
+    "A019279",
+    "A034876",
+    "A046051",
+    "A057951",
+    "A057958",
+    "A061652",
+    "A065442",
+    "A124477",
+    "A135659",
+    "A209601"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

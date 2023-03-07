@@ -1,0 +1,18 @@
+{
+  "description": "n+p(n)+p(p(n)) is a palindrome, where p(n) denotes the n-th prime.",
+  "id": "A116037",
+  "mentions": [
+    "A115884"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

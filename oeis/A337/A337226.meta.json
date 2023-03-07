@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers with the property that, for all k > 0, there is at most one j such that a(j) = a(j+k).",
+  "id": "A337226",
+  "mentions": [
+    "A003602",
+    "A014552",
+    "A026272"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

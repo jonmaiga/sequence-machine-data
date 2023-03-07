@@ -1,0 +1,20 @@
+{
+  "description": "Square numbers with at least one digit in common with any other positive square number.",
+  "id": "A182657",
+  "mentions": [
+    "A000290",
+    "A173943",
+    "A182658"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

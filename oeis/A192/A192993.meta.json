@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are in more than one way the concatenation of the decimal representation of two nonzero squares.",
+  "id": "A192993",
+  "mentions": [
+    "A000290",
+    "A038670",
+    "A191933"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

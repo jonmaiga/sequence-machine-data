@@ -1,0 +1,39 @@
+{
+  "description": "A Riordan array of coordination sequences.",
+  "id": "A113413",
+  "mentions": [
+    "A001333",
+    "A001590",
+    "A005899",
+    "A008288",
+    "A008412",
+    "A008413",
+    "A008414",
+    "A008574",
+    "A034444",
+    "A035607",
+    "A040000",
+    "A078057",
+    "A080245",
+    "A080246",
+    "A119800",
+    "A122542",
+    "A137513",
+    "A266213",
+    "A322328"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:37",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

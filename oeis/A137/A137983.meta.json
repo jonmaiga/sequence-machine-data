@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: A(x) = 1/(1 - x*A_0(x)) where A_0(x) = 1/(1 - 2x*A_1(x)^(1/2)) such that A_{n-1}(x) = 1/(1 - 2^n*x*[A_{n}(x)]^(1/2^n)) for n>=1 with A_0(x) equal to the g.f. of A137984.",
+  "id": "A137983",
+  "mentions": [
+    "A137984"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

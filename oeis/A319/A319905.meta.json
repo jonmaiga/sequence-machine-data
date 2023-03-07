@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 4*(sqrt(2) - 1)/3.",
+  "id": "A319905",
+  "mentions": [
+    "A002193",
+    "A156309",
+    "A188582",
+    "A268683"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:49:47",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

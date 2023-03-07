@@ -1,0 +1,42 @@
+{
+  "description": "Number of unimodal compositions of n+2 where the maximal part appears exactly twice.",
+  "id": "A114921",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A000726",
+    "A001522",
+    "A001523",
+    "A002843",
+    "A003242",
+    "A006330",
+    "A008965",
+    "A034008",
+    "A062968",
+    "A064410",
+    "A064428",
+    "A065608",
+    "A069916",
+    "A070211",
+    "A175342",
+    "A188674",
+    "A224958",
+    "A226541",
+    "A247255",
+    "A342495",
+    "A342527",
+    "A342528",
+    "A342532"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

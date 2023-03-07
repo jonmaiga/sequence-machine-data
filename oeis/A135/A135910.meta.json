@@ -1,0 +1,19 @@
+{
+  "description": "Number of triples (x,y,z) of nonnegative integers such that x^2+y^3+z^4 = n.",
+  "id": "A135910",
+  "mentions": [
+    "A045634",
+    "A135911",
+    "A135912"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

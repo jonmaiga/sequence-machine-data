@@ -1,0 +1,17 @@
+{
+  "description": "First of two consecutive primes p,q such that either p+2*q and (2*p+q)/5 or (p+2*q)/5 and 2*p+q are primes.",
+  "id": "A352630",
+  "mentions": [
+    "A181848"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

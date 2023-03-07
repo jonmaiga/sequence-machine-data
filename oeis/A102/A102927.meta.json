@@ -1,0 +1,20 @@
+{
+  "description": "Partial products of A102926.",
+  "id": "A102927",
+  "mentions": [
+    "A000945",
+    "A005265",
+    "A102926"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

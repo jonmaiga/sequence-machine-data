@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 2*k+1, 4*k+1, 8*k+1, 16*k+1, 32*k+1, 64*k+1 and 128*k+1 are primes.",
+  "id": "A124415",
+  "mentions": [
+    "A005097",
+    "A123998",
+    "A124041",
+    "A124412",
+    "A124417"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

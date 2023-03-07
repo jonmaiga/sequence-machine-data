@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form (1!)^2 + (2!)^2 + (3!)^2 +...+ (k!)^2.",
+  "id": "A100288",
+  "mentions": [
+    "A061062",
+    "A100289",
+    "A104344"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

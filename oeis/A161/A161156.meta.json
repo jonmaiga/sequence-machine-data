@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers n such that {the number of (non-leading) 0's in the binary representation of n} is coprime to n, and {the number of 1's in the binary representation of n} is coprime to n, but {the number of digits in the binary representation of n} is not coprime to n.",
+  "id": "A161156",
+  "mentions": [
+    "A094387",
+    "A161152",
+    "A161153",
+    "A161154",
+    "A161155"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

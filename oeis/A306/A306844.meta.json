@@ -1,0 +1,33 @@
+{
+  "description": "Number of anti-transitive rooted trees with n nodes.",
+  "id": "A306844",
+  "mentions": [
+    "A276625",
+    "A279861",
+    "A290689",
+    "A290760",
+    "A304360",
+    "A324694",
+    "A324695",
+    "A324738",
+    "A324741",
+    "A324743",
+    "A324751",
+    "A324754",
+    "A324756",
+    "A324758",
+    "A324759",
+    "A324764"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Array of the nonsquares; the columns satisfy c(n)=c(n-1)+c(n-2)-c(n-3)+1.",
+  "id": "A163254",
+  "mentions": [
+    "A000290",
+    "A163253",
+    "A163255",
+    "A163256",
+    "A163257",
+    "A163258"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

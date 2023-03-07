@@ -1,0 +1,22 @@
+{
+  "description": "Number of set partitions of {1,2,...,n} having no blocks of the form {i,i+1,i+2}.",
+  "id": "A184177",
+  "mentions": [
+    "A000296",
+    "A124323",
+    "A184174",
+    "A184175",
+    "A184176"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

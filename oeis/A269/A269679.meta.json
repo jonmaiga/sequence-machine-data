@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-4 0..n arrays with no repeated value differing from the previous repeated value by other than plus or minus one modulo n+1.",
+  "id": "A269679",
+  "mentions": [
+    "A269678"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:45",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

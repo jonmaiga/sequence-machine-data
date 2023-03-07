@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k different from n such that (n, k) is a Harshad amicable pair (see the comments).",
+  "id": "A272479",
+  "mentions": [
+    "A005349",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

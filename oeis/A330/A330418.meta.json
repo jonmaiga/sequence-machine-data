@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose k digits can be permuted into a new k-digit number according to rules explained in the Comments section.",
+  "id": "A330418",
+  "mentions": [
+    "A330367",
+    "A330419"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

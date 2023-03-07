@@ -1,0 +1,31 @@
+{
+  "description": "Value of Matula-Goebel signature at the fixed points of A069787: a(n) = A127301(A243490(n)).",
+  "id": "A243493",
+  "mentions": [
+    "A000079",
+    "A007097",
+    "A014486",
+    "A036256",
+    "A069787",
+    "A127301",
+    "A209636",
+    "A209637",
+    "A243490",
+    "A243491",
+    "A243494",
+    "A243496"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

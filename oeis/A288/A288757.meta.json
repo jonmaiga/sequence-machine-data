@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of the volume of the \"monic slice\" of the d-th Chern-Vaaler star body.",
+  "id": "A288757",
+  "mentions": [
+    "A286522",
+    "A286523",
+    "A286524",
+    "A288756",
+    "A288758"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

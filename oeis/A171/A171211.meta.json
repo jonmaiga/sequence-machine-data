@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = (1 + x*A(2x))^8.",
+  "id": "A171211",
+  "mentions": [
+    "A135868",
+    "A171200",
+    "A171209",
+    "A171210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

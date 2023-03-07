@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n containing at least one part p of multiplicity p.",
+  "id": "A336273",
+  "mentions": [
+    "A011782",
+    "A336269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

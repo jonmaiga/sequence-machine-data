@@ -1,0 +1,39 @@
+{
+  "description": "Triangle in which n-th row lists all partitions of n, such that partitions of n into m parts appear in lexicographic order previous to the partitions of n into k parts if k < m. (Fenner-Loizou tree.)",
+  "id": "A228100",
+  "mentions": [
+    "A000041",
+    "A026791",
+    "A036036",
+    "A036037",
+    "A036043",
+    "A048793",
+    "A080576",
+    "A080577",
+    "A112798",
+    "A182937",
+    "A193073",
+    "A211992",
+    "A228351",
+    "A228531",
+    "A296150",
+    "A296773",
+    "A331581",
+    "A333484",
+    "A333485",
+    "A334301",
+    "A334302",
+    "A334439"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

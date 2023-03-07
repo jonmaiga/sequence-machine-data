@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = MAX(g_k(n)) where g_k(n) is the function defined in A266202.",
+  "id": "A268687",
+  "mentions": [
+    "A266202",
+    "A266203",
+    "A268688",
+    "A268689"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

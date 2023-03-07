@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 1 in A309797.",
+  "id": "A329268",
+  "mentions": [
+    "A309797"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

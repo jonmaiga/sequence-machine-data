@@ -1,0 +1,19 @@
+{
+  "description": "Number of directed graphs of n vertices with more than 1 component and outdegree 1.",
+  "id": "A329427",
+  "mentions": [
+    "A056542",
+    "A329426"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 4,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

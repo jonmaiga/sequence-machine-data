@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the continued fraction of the harmonic mean of the divisors of k contains a single distinct element.",
+  "id": "A349476",
+  "mentions": [
+    "A001599",
+    "A099377",
+    "A099378",
+    "A349473"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

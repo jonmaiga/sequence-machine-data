@@ -1,0 +1,31 @@
+{
+  "description": "Nontrivial elements in writing the numerator of an element first and then the denominator of that element (left to right) of Leibniz's harmonic-like triangle. That is, the nontrivial elements of A137752.",
+  "id": "A137756",
+  "mentions": [
+    "A003506",
+    "A007622",
+    "A046201",
+    "A046204",
+    "A046205",
+    "A046206",
+    "A046208",
+    "A046212",
+    "A137752",
+    "A137753",
+    "A137754",
+    "A137755"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

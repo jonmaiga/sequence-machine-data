@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1 = Sum_{n>=1} a(n) * x^n*(1-x)^(n+1) / Product_{k=1..n} (1 + (k+2)*x).",
+  "id": "A208677",
+  "mentions": [
+    "A132623",
+    "A132624",
+    "A208676",
+    "A208678"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

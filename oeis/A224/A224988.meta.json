@@ -1,0 +1,20 @@
+{
+  "description": "Even RMS numbers: even numbers n such that root mean square of divisors of n is an integer.",
+  "id": "A224988",
+  "mentions": [
+    "A000005",
+    "A001157",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

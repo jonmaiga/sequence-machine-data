@@ -1,0 +1,20 @@
+{
+  "description": "Fractal sequence of the dispersion of the \"odious numbers\".",
+  "id": "A248514",
+  "mentions": [
+    "A181155",
+    "A248013",
+    "A248513"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

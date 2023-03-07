@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of {1,2,...,n} such that invc(p)=k (n >= 0; 0 <= k <= (n-1)(n-2)/2) (see comment for invc definition).",
+  "id": "A129178",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A011782",
+    "A036289",
+    "A121552",
+    "A126673"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form (2^(2p) + 1)/5, where p is a prime > 5.",
+  "id": "A293626",
+  "mentions": [
+    "A001567",
+    "A210454"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

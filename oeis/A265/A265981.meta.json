@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk integer arrays with each element equal to the number of horizontal, diagonal and antidiagonal neighbors less than itself.",
+  "id": "A265981",
+  "mentions": [
+    "A196423",
+    "A196424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

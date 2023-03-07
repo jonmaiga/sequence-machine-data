@@ -1,0 +1,17 @@
+{
+  "description": "Coordination sequence for the inner vertex introduced in the first inflation-deflation step in a Pinwheel tiling.",
+  "id": "A304910",
+  "mentions": [
+    "A304913"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

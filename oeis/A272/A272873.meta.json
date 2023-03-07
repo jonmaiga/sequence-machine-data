@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the quadratic mean of 1 and Pi.",
+  "id": "A272873",
+  "mentions": [
+    "A000796",
+    "A002161",
+    "A002388",
+    "A191502",
+    "A197733",
+    "A269430"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:15:25",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

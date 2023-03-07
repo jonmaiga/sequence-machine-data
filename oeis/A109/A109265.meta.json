@@ -1,0 +1,23 @@
+{
+  "description": "Row sums of Riordan array (1-x-x^2,x(1-x)).",
+  "id": "A109265",
+  "mentions": [
+    "A006355",
+    "A109247",
+    "A130772",
+    "A184334",
+    "A257076"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:21",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

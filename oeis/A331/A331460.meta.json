@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n is the result of iterating the operation f(n) = n/7 if n == 0 (mod 7), otherwise f(n) = 7*(n + ceiling(n/7)), terminating at the first occurrence of 1.",
+  "id": "A331460",
+  "mentions": [
+    "A070165",
+    "A329263",
+    "A330073"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

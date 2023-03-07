@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(3*n*Pi) - 3*floor(n*Pi).",
+  "id": "A327298",
+  "mentions": [
+    "A327299",
+    "A327300",
+    "A327301"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

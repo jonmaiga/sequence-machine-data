@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that smallest digit of n is prime and the smallest digit of prime(n) is also prime.",
+  "id": "A154865",
+  "mentions": [
+    "A000027",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

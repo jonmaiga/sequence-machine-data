@@ -1,0 +1,32 @@
+{
+  "description": "Partial sums of floor(n/9).",
+  "id": "A218470",
+  "mentions": [
+    "A008727",
+    "A022266",
+    "A022267",
+    "A027468",
+    "A051682",
+    "A062708",
+    "A062725",
+    "A062728",
+    "A062741",
+    "A081266",
+    "A118729",
+    "A174109",
+    "A174738"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:31:51",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} n^(d mod 2).",
+  "id": "A349212",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A001787",
+    "A007814",
+    "A348915",
+    "A349213"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

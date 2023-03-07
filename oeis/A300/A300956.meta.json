@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 2, a(2) = 1, and for any n > 2 with ternary representation n = Sum_{i=0..k} t_i * 3^i, a(n) = Sum_{i=0..k} a(t_i) * 3^a(i).",
+  "id": "A300956",
+  "mentions": [
+    "A160384",
+    "A300955",
+    "A300958"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

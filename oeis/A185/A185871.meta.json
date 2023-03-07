@@ -1,0 +1,28 @@
+{
+  "description": "(Even,even)-polka dot array in the natural number array A000027, by antidiagonals.",
+  "id": "A185871",
+  "mentions": [
+    "A000027",
+    "A014106",
+    "A033586",
+    "A048395",
+    "A071355",
+    "A080856",
+    "A096376",
+    "A185868",
+    "A185869",
+    "A185870"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

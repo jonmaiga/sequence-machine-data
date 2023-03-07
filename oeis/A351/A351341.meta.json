@@ -1,0 +1,27 @@
+{
+  "description": "Least nonnegative integer m such that n = x^4 + y^4 - (z^3 + m^3) for some nonnegative integers x,y,z with z <= m.",
+  "id": "A351341",
+  "mentions": [
+    "A000578",
+    "A000583",
+    "A000584",
+    "A001014",
+    "A001015",
+    "A001481",
+    "A004831",
+    "A004999",
+    "A351306",
+    "A351321",
+    "A351338"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

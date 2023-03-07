@@ -1,0 +1,28 @@
+{
+  "description": "Iterate x -> A080670(x) (replace x with the concatenation of the primes and exponents in its prime factorization) starting at n until reach 1 or a prime (which is then the value of a(n)); or a(n) = -1 if a prime is never reached.",
+  "id": "A195264",
+  "mentions": [
+    "A037271",
+    "A037274",
+    "A080670",
+    "A084318",
+    "A195265",
+    "A195266",
+    "A230305",
+    "A230627",
+    "A290329",
+    "A290447"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

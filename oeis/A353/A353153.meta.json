@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that (q-p)*p*q+1 is prime, where q is the next prime after p.",
+  "id": "A353153",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

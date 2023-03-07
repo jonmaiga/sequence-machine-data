@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose representation in the Fibonacci base is a cubefree word.",
+  "id": "A352335",
+  "mentions": [
+    "A003714",
+    "A014417",
+    "A028445",
+    "A286262"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

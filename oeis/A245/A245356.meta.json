@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers whose base-4/3 expansion (see A024631) has n digits.",
+  "id": "A245356",
+  "mentions": [
+    "A024631",
+    "A072493",
+    "A081848"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:58:17",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

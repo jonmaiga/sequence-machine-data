@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which the sum of their prime factors (with repetition) divides the sum of their anti-divisors.",
+  "id": "A191580",
+  "mentions": [
+    "A001414",
+    "A066272",
+    "A161917",
+    "A191581"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer m such that sumdigits(m^2) = 4^n.",
+  "id": "A280798",
+  "mentions": [
+    "A000302",
+    "A007953",
+    "A061912"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

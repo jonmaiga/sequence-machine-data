@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A = n+DigitProd(n) is divisible by the largest power of 10 <= A.",
+  "id": "A242948",
+  "mentions": [
+    "A007954",
+    "A037124",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

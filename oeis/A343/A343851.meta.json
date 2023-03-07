@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the solution to the Heilbronn triangle problem for seven points in a unit square.",
+  "id": "A343851",
+  "mentions": [
+    "A248866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:55",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

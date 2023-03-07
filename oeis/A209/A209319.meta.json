@@ -1,0 +1,20 @@
+{
+  "description": "Number of functions f:{1,2,...,n}->{1,2,...,n} whose cycle lengths are <= 2.",
+  "id": "A209319",
+  "mentions": [
+    "A000085",
+    "A000169",
+    "A246522"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

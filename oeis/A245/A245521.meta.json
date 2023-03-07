@@ -1,0 +1,27 @@
+{
+  "description": "Prime numbers whose indices correspond to A245520.",
+  "id": "A245521",
+  "mentions": [
+    "A000040",
+    "A133583",
+    "A133584",
+    "A133589",
+    "A133590",
+    "A245520",
+    "A245522",
+    "A245523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

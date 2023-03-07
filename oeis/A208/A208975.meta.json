@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x) * [d/dx x/A(x)^2].",
+  "id": "A208975",
+  "mentions": [
+    "A000699",
+    "A185971",
+    "A208961"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

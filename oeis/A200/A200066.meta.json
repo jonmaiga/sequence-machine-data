@@ -1,0 +1,27 @@
+{
+  "description": "Marks found on the Ishango bone in nondecreasing order.",
+  "id": "A200066",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002327",
+    "A002808",
+    "A003147",
+    "A065091",
+    "A065901",
+    "A100000"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

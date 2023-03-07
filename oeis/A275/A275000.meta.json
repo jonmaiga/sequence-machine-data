@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = F[n]_n(2), main diagonal of fast-iteration function applied to 2.",
+  "id": "A275000",
+  "mentions": [
+    "A154714"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least number >= n that is a Niven number in all bases 1 <= b <= n.",
+  "id": "A330812",
+  "mentions": [
+    "A005349",
+    "A049445",
+    "A080221",
+    "A226169"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

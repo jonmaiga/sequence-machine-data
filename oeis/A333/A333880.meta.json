@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer solutions to n = x^k - y^k with x > y >= 0 and k >= 2.",
+  "id": "A333880",
+  "mentions": [
+    "A034178",
+    "A303744",
+    "A333822",
+    "A333868"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

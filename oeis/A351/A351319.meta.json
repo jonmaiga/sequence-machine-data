@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(n/k), where k is the nearest square to n.",
+  "id": "A351319",
+  "mentions": [
+    "A000194",
+    "A028242",
+    "A053187",
+    "A267708"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

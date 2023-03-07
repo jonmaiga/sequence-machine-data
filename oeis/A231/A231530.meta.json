@@ -1,0 +1,23 @@
+{
+  "description": "Real part of Product_{k=1..n} (k+i), where i is the imaginary unit.",
+  "id": "A231530",
+  "mentions": [
+    "A009454",
+    "A101686",
+    "A231531",
+    "A242651",
+    "A242652"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

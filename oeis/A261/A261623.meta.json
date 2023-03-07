@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the Dirichlet beta function at 1/4.",
+  "id": "A261623",
+  "mentions": [
+    "A003881",
+    "A006752",
+    "A153071",
+    "A175570",
+    "A175571",
+    "A175572",
+    "A261622",
+    "A261624"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of covering antichains of subsets of {1..n} with equal edge-sums.",
+  "id": "A326566",
+  "mentions": [
+    "A000372",
+    "A006126",
+    "A035470",
+    "A307249",
+    "A321455",
+    "A321717",
+    "A321718",
+    "A326518",
+    "A326534",
+    "A326565",
+    "A326574"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

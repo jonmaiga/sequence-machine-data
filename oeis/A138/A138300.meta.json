@@ -1,0 +1,23 @@
+{
+  "description": "Differences of each column for atomic numbers of Mendeleyev-Seaborg 7*32 elements periodic table,first extension,A138096 table.86 terms.Horizontal lecture.",
+  "id": "A138300",
+  "mentions": [
+    "A093907",
+    "A137508",
+    "A137575",
+    "A137583",
+    "A138096",
+    "A138102"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that A166100(k)/A005408(k) is not an integer.",
+  "id": "A166101",
+  "mentions": [
+    "A005408",
+    "A166100",
+    "A166102",
+    "A166272"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

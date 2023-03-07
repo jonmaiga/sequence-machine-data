@@ -1,0 +1,20 @@
+{
+  "description": "Joint-rank array of the numbers j*e^(i-1), read by antidiagonals.",
+  "id": "A182833",
+  "mentions": [
+    "A117869",
+    "A182801"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

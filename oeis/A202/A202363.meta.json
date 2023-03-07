@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of inversion pairs ( p(i) < p(j) with i>j ) that are separated by exactly k elements in all n-permutations (where the permutation is represented in one line notation); n>=2, 0<=k<=n-2.",
+  "id": "A202363",
+  "mentions": [
+    "A001286",
+    "A001809",
+    "A055303"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

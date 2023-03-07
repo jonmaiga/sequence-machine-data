@@ -1,0 +1,22 @@
+{
+  "description": "Number of (undirected) paths in C_n X P_n.",
+  "id": "A338963",
+  "mentions": [
+    "A268894",
+    "A338709",
+    "A338960",
+    "A338961",
+    "A338962"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

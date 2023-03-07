@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-step left-handed knight's tours (moves only out two, left one) on an n X n board summed over all starting positions.",
+  "id": "A187173",
+  "mentions": [
+    "A187172"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

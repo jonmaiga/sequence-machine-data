@@ -1,0 +1,21 @@
+{
+  "description": "Sequence gives pair of terms giving the numbers of previous even digits and previous odd digits; a(0)=0.",
+  "id": "A307153",
+  "mentions": [
+    "A196563",
+    "A196564"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

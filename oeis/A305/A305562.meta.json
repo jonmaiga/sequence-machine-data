@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients associated with power series solution of g'(x) = g(x/2) e^x at x=0.",
+  "id": "A305562",
+  "mentions": [
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

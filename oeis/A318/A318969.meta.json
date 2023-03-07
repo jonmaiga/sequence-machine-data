@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of exp(Sum_{k>=1} ( Sum_{p|k, p prime} p^k ) * x^k/k).",
+  "id": "A318969",
+  "mentions": [
+    "A000607",
+    "A023881",
+    "A200768",
+    "A219224",
+    "A220427",
+    "A318913",
+    "A318968"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of labeled trees covering 2n nodes, half of which are leaves.",
+  "id": "A358732",
+  "mentions": [
+    "A000055",
+    "A000272",
+    "A001187",
+    "A001349",
+    "A006125",
+    "A006129",
+    "A014068",
+    "A055314",
+    "A163395",
+    "A185650",
+    "A358107"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

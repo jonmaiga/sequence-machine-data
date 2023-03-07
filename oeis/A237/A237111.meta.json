@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: numerators of coefficients of the Hirzebruch L-polynomials L_n expressing the signature of a 4n-dimensional manifold in terms of its Pontrjagin numbers (as in Hirzebruch Signature Theorem).",
+  "id": "A237111",
+  "mentions": [
+    "A171080"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

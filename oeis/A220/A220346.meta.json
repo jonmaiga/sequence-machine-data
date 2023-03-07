@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with a(1)=2, a(n+1) is the a(n)-th palindromic prime.",
+  "id": "A220346",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

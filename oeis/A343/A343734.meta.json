@@ -1,0 +1,20 @@
+{
+  "description": "Highly composite 5-rough numbers: numbers that are divisible by neither 2 nor 3 whose number of divisors reaches a record.",
+  "id": "A343734",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A007310",
+    "A053624"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

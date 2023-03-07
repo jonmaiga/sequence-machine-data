@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of (q*(j(q)-720))^(1/24) where j(q) is the elliptic modular invariant.",
+  "id": "A305756",
+  "mentions": [
+    "A000521",
+    "A007240",
+    "A106203",
+    "A106205",
+    "A304020",
+    "A305757",
+    "A305758",
+    "A305760",
+    "A305762"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

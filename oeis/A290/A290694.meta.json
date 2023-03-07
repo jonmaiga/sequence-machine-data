@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows, numerators of coefficients (in rising powers) of rational polynomials P(n, x) such that Integral_{x=0..1} P'(n, x) = Bernoulli(n, 1).",
+  "id": "A290694",
+  "mentions": [
+    "A001221",
+    "A019538",
+    "A027642",
+    "A067513",
+    "A160014",
+    "A164555",
+    "A181131",
+    "A212196",
+    "A278075",
+    "A290695",
+    "A291447",
+    "A291448",
+    "A291449",
+    "A291450"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

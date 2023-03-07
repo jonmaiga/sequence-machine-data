@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 3*k + 2 is not prime.",
+  "id": "A153170",
+  "mentions": [
+    "A005843",
+    "A014076",
+    "A024893",
+    "A045751",
+    "A059324",
+    "A095277",
+    "A153088",
+    "A153329",
+    "A153343"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

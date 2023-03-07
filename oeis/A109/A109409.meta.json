@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of polynomials triangular sequence produced by removing primes from the odd numbers in A028338.",
+  "id": "A109409",
+  "mentions": [
+    "A000165",
+    "A028338",
+    "A039757"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

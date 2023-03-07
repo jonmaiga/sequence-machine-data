@@ -1,0 +1,20 @@
+{
+  "description": "Multiplicative with a(A246655(k)) = prime(k) for any k > 0 (where prime(k) denotes the k-th prime number).",
+  "id": "A338224",
+  "mentions": [
+    "A005117",
+    "A160102",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

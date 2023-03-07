@@ -1,0 +1,26 @@
+{
+  "description": "Triangle binomial(6*n,6*m), 0 <= m <= n, read by rows.",
+  "id": "A177810",
+  "mentions": [
+    "A034839",
+    "A070775",
+    "A070782",
+    "A070967",
+    "A086645",
+    "A139459",
+    "A177808",
+    "A177809"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of, not necessarily connected, regular simple graphs on n vertices with girth at least 9.",
+  "id": "A185319",
+  "mentions": [
+    "A005176",
+    "A185219",
+    "A185314",
+    "A185315",
+    "A185316",
+    "A185317",
+    "A185318",
+    "A186729"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

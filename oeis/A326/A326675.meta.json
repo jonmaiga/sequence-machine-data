@@ -1,0 +1,31 @@
+{
+  "description": "The positions of 1's in the reversed binary expansion of n are pairwise coprime, where a singleton is not coprime unless it is {1}.",
+  "id": "A326675",
+  "mentions": [
+    "A000120",
+    "A051293",
+    "A070939",
+    "A087087",
+    "A131577",
+    "A289509",
+    "A291165",
+    "A291166",
+    "A302696",
+    "A319826",
+    "A326669",
+    "A326673",
+    "A326674"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

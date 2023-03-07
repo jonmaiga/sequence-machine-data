@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that when they are written in binary, the longest palindromic substring (or at least one of which that is tied for longest) in binary n begins and ends with a 1.",
+  "id": "A166937",
+  "mentions": [
+    "A050430",
+    "A166936",
+    "A166938"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

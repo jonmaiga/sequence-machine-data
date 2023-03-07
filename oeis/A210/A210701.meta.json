@@ -1,0 +1,17 @@
+{
+  "description": "The location of records in A210700.",
+  "id": "A210701",
+  "mentions": [
+    "A210700"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

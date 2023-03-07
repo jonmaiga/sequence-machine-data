@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that for all primes p where p and p-n are quadratic residues (mod 4*n), 4*p can be written as x^2 + n*y^2.",
+  "id": "A232528",
+  "mentions": [
+    "A000926"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

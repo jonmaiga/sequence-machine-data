@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number k>0 such that Abs[n^k - k^n] = A078202[n] is prime; or -1 if such k>0 does not exist.",
+  "id": "A123701",
+  "mentions": [
+    "A008864",
+    "A078202",
+    "A122735"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

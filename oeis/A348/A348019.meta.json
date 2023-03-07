@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} prime(k)/10^(2^k).",
+  "id": "A348019",
+  "mentions": [
+    "A051021",
+    "A079614",
+    "A086238",
+    "A300753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

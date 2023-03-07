@@ -1,0 +1,23 @@
+{
+  "description": "Indices of XOR-positive triangular numbers. That is, numbers n such that triangular(n) XOR triangular(n+1) is a triangular number, where XOR is the bitwise logical XOR operator.",
+  "id": "A224218",
+  "mentions": [
+    "A000217",
+    "A220518",
+    "A220689",
+    "A220698",
+    "A220752",
+    "A221643"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

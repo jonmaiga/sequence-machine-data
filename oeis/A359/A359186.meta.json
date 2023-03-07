@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n} d * 4^(d-1).",
+  "id": "A359186",
+  "mentions": [
+    "A002129",
+    "A083413",
+    "A167531",
+    "A339684",
+    "A359018",
+    "A359190"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

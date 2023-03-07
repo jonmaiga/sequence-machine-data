@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} phi(n)/n!, where phi(n) is the Euler totient function A000010.",
+  "id": "A336334",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

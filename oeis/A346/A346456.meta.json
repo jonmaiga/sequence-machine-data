@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest number k such that Sum_{j=1..k} (-1)^omega(j) = -n, where omega(j) is the number of distinct primes dividing j.",
+  "id": "A346456",
+  "mentions": [
+    "A001221",
+    "A002053",
+    "A051400",
+    "A051401",
+    "A051402",
+    "A051470",
+    "A060434",
+    "A076479",
+    "A174863",
+    "A275547",
+    "A346455",
+    "A346457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

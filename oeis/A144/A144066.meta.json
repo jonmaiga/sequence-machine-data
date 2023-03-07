@@ -1,0 +1,23 @@
+{
+  "description": "T(n, k) is the number of order-preserving partial transformations (of an n-element chain) of height k (height(alpha) = |Im(alpha)|); triangle T read by rows.",
+  "id": "A144066",
+  "mentions": [
+    "A000384",
+    "A066524",
+    "A076454",
+    "A112857",
+    "A123164"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest tetrahedral number with binary weight n.",
+  "id": "A359317",
+  "mentions": [
+    "A000120",
+    "A000292",
+    "A089999",
+    "A358931",
+    "A359318"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

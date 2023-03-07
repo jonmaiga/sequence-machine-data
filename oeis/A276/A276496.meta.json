@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive k such that A276495(n) + 2^k is prime.",
+  "id": "A276496",
+  "mentions": [
+    "A067760",
+    "A276495"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

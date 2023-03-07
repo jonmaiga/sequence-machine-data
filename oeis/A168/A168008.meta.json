@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A168007.",
+  "id": "A168008",
+  "mentions": [
+    "A168007",
+    "A168009"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

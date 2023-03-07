@@ -1,0 +1,23 @@
+{
+  "description": "There are a(n) numbers m such that 1 <= m <= n and gcd(m,n) is cubefree.",
+  "id": "A254926",
+  "mentions": [
+    "A000010",
+    "A063659",
+    "A212793",
+    "A254981",
+    "A309287"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

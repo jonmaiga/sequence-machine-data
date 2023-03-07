@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-step closed paths on quasi-regular rhombic (rhombille) lattice starting from a degree-6 node.",
+  "id": "A357771",
+  "mentions": [
+    "A002893",
+    "A002894",
+    "A002898",
+    "A357770"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

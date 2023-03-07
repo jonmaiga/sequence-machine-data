@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form x*(2^x - x) - 1.",
+  "id": "A247024",
+  "mentions": [
+    "A000225",
+    "A008277",
+    "A076046",
+    "A245014"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

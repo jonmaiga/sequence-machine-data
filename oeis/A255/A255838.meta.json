@@ -1,0 +1,19 @@
+{
+  "description": "Smallest base-b Wieferich prime larger than b, where b = prime(n).",
+  "id": "A255838",
+  "mentions": [
+    "A247072"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

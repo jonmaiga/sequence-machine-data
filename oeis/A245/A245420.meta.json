@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonnegative integers with property that their base 8/5 expansion (see A024647) has n digits.",
+  "id": "A245420",
+  "mentions": [
+    "A024647",
+    "A081848",
+    "A245356"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:02:16",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

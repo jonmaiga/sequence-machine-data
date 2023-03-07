@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions of square array of integers, choosing one prime from each row and column.",
+  "id": "A215637",
+  "mentions": [
+    "A000040",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

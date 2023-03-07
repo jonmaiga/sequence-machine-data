@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic graded posets with 0 of rank n with no 3-element antichain.",
+  "id": "A206901",
+  "mentions": [
+    "A025192",
+    "A124292",
+    "A206902"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

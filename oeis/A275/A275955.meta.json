@@ -1,0 +1,19 @@
+{
+  "description": "Leftmost column of array A275950.",
+  "id": "A275955",
+  "mentions": [
+    "A265905",
+    "A275950",
+    "A275965"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

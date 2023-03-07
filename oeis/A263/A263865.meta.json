@@ -1,0 +1,19 @@
+{
+  "description": "Odd k for which abs(2^m - k) is nonprime for all m < k.",
+  "id": "A263865",
+  "mentions": [
+    "A076337",
+    "A101036"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

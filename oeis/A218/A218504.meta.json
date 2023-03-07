@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Product_{n>=1} 1/(1 - tanh(x^n/n)).",
+  "id": "A218504",
+  "mentions": [
+    "A130263",
+    "A130268",
+    "A249673",
+    "A270597",
+    "A270598"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

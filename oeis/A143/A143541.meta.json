@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, T(n,k) = 1 if both n and k are prime, 0 otherwise; 1 <= k <= n.",
+  "id": "A143541",
+  "mentions": [
+    "A010051",
+    "A049084"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

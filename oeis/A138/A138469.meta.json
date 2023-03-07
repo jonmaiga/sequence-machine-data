@@ -1,0 +1,25 @@
+{
+  "description": "Atomic numbers of p-block elements.",
+  "id": "A138469",
+  "mentions": [
+    "A130517",
+    "A131603",
+    "A160914",
+    "A167268",
+    "A199934",
+    "A217923"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

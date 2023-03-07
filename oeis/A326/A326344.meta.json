@@ -1,0 +1,32 @@
+{
+  "description": "a(1) = 1. Thereafter, if n is prime, a(n) is the next prime after a(n-1), but written backwards. If n is not prime, a(n) is the next composite after a(n-1), written backwards.",
+  "id": "A326344",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A001223",
+    "A002808",
+    "A004086",
+    "A113646",
+    "A151800",
+    "A326298",
+    "A326402",
+    "A326892",
+    "A326894",
+    "A327241",
+    "A327463",
+    "A327464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

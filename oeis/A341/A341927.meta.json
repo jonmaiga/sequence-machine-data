@@ -1,0 +1,20 @@
+{
+  "description": "Bisection of the numerators of the convergents of cf(1,4,1,6,1,6,...,6,1).",
+  "id": "A341927",
+  "mentions": [
+    "A237262",
+    "A341929"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:54:40",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

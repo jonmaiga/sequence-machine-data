@@ -1,0 +1,20 @@
+{
+  "description": "The pairs (x,y) such that (x^2 + y^2)/(x*y + 1) is a perfect square, i.e., 4.",
+  "id": "A162959",
+  "mentions": [
+    "A052530"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of permutations of lengths 1, 2, 3, ... arranged first by number of inversions and then lexicographically.",
+  "id": "A268532",
+  "mentions": [
+    "A000142",
+    "A008302",
+    "A030299"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

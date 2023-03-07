@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to Diophantine equation x + y + z = prime(n) with x*y*z = k^3 (0 < x <= y <= z).",
+  "id": "A290399",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A233386"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

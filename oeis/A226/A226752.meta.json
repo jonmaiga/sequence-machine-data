@@ -1,0 +1,20 @@
+{
+  "description": "Possible total sums of three 3-digit primes that together use all nonzero digits 1-9.",
+  "id": "A226752",
+  "mentions": [
+    "A226772"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

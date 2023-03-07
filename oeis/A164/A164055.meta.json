@@ -1,0 +1,27 @@
+{
+  "description": "Triangular numbers that are one plus a perfect square.",
+  "id": "A164055",
+  "mentions": [
+    "A000217",
+    "A001110",
+    "A002522",
+    "A010052",
+    "A010054",
+    "A072221",
+    "A075848",
+    "A106328",
+    "A106329"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

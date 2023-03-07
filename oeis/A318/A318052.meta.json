@@ -1,0 +1,31 @@
+{
+  "description": "Number of prime knots with n crossings whose unknotting numbers are given by their signatures.",
+  "id": "A318052",
+  "mentions": [
+    "A002863",
+    "A078477",
+    "A089797",
+    "A089891",
+    "A089892",
+    "A172184",
+    "A172293",
+    "A172441",
+    "A172444",
+    "A172486",
+    "A173466",
+    "A318050",
+    "A318051"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

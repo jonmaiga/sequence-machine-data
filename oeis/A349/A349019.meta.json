@@ -1,0 +1,22 @@
+{
+  "description": "Modified e-perfect numbers: numbers k such that A348963(k) | k.",
+  "id": "A349019",
+  "mentions": [
+    "A005117",
+    "A225354",
+    "A323757",
+    "A348963",
+    "A348964",
+    "A349020"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

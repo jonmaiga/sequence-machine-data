@@ -1,0 +1,22 @@
+{
+  "description": "Primes p of the form 2^k + 2*(-1)^k - 1.",
+  "id": "A269018",
+  "mentions": [
+    "A019434",
+    "A052539",
+    "A092506",
+    "A176680",
+    "A267921",
+    "A269019"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(k,m), k>= - 3, 1<=m<=k + 4, read by rows: T(k,m) is the coefficient of a_k(n - m) in the recursive evaluation of a_k(n), where a_k is the k - th column sequence of A145153.",
+  "id": "A145152",
+  "mentions": [
+    "A003269",
+    "A017898",
+    "A098578",
+    "A145131",
+    "A145132",
+    "A145133",
+    "A145134",
+    "A145135",
+    "A145136",
+    "A145137",
+    "A145153"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": -3,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

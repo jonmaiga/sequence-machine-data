@@ -1,0 +1,18 @@
+{
+  "description": "Index at which n occurs in A217727, or 0 if there is no such index.",
+  "id": "A277848",
+  "mentions": [
+    "A114183",
+    "A217727"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of achiral m-color cyclic compositions of n (that is, number of cyclic compositions of n with reflection symmetry where each part of size m can be colored with one of m colors).",
+  "id": "A308747",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A005594",
+    "A032198",
+    "A032287",
+    "A088305"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:18:02",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

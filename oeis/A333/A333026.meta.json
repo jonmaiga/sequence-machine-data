@@ -1,0 +1,25 @@
+{
+  "description": "The number of vertices formed on an isosceles triangle by straight line segments mutually connecting all vertices and all points that divide the two equal length sides into n equal parts; the base of the triangle contains no points other than its vertices.",
+  "id": "A333026",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A331452",
+    "A331911",
+    "A332357",
+    "A332358",
+    "A332953",
+    "A333025",
+    "A333027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

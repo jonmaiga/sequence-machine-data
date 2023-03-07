@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A232221(n)/4.",
+  "id": "A233973",
+  "mentions": [
+    "A001358",
+    "A077065",
+    "A077068",
+    "A232221"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

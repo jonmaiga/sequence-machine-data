@@ -1,0 +1,21 @@
+{
+  "description": "Integers k such that A337157(k) != A177900(k).",
+  "id": "A340975",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A054024",
+    "A177900",
+    "A337157"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

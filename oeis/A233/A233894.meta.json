@@ -1,0 +1,17 @@
+{
+  "description": "Number of graphs on n vertices with edges colored with at most five interchangeable colors under the symmetries of the full edge permutation group.",
+  "id": "A233894",
+  "mentions": [
+    "A007869"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

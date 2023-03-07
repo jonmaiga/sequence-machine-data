@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that have an odd prime factor p such that p^(1+valuation(k,p)) divides sigma(k).",
+  "id": "A351540",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A323653",
+    "A336353",
+    "A336702",
+    "A351539",
+    "A351541"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

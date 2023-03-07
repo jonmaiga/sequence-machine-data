@@ -1,0 +1,31 @@
+{
+  "description": "Table T(n,m) = n - m read by upwards antidiagonals.",
+  "id": "A114327",
+  "mentions": [
+    "A000027",
+    "A002260",
+    "A002262",
+    "A002415",
+    "A003056",
+    "A004736",
+    "A025581",
+    "A049581",
+    "A094053",
+    "A141387",
+    "A268759"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:35",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

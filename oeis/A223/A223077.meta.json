@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers, written in base 3, with the property that if the base-3 representation is reversed the result is twice the original number.",
+  "id": "A223077",
+  "mentions": [
+    "A103609",
+    "A173951",
+    "A214927"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

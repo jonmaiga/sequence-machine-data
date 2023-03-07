@@ -1,0 +1,23 @@
+{
+  "description": "Product_{n>=1} (1 + a(n)*x^n/(n!)^2) = BesselI(0,2*sqrt(x)).",
+  "id": "A348207",
+  "mentions": [
+    "A006973",
+    "A137852",
+    "A157159",
+    "A157164",
+    "A348205",
+    "A348206"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

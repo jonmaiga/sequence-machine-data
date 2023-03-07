@@ -1,0 +1,26 @@
+{
+  "description": "The number of equivalence classes of n-leaf binary trees with respect to pattern avoidance.",
+  "id": "A161746",
+  "mentions": [
+    "A036766",
+    "A099952",
+    "A159768",
+    "A159769",
+    "A159770",
+    "A159771",
+    "A159772",
+    "A159773"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the width parameter of Graham's biggest little hexagon.",
+  "id": "A111970",
+  "mentions": [
+    "A111969"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

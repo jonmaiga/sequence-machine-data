@@ -1,0 +1,20 @@
+{
+  "description": "Partial products of A334393.",
+  "id": "A334395",
+  "mentions": [
+    "A008578",
+    "A024923",
+    "A334393"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

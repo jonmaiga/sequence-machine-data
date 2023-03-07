@@ -1,0 +1,30 @@
+{
+  "description": "Sixth partial sums of cubes (A000578).",
+  "id": "A254469",
+  "mentions": [
+    "A000537",
+    "A000578",
+    "A003215",
+    "A024166",
+    "A101094",
+    "A101097",
+    "A101102",
+    "A254470",
+    "A254471",
+    "A254472",
+    "A254640",
+    "A254647"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:05:41",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

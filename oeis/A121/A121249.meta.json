@@ -1,0 +1,17 @@
+{
+  "description": "Larger members of primitive phi-amicable pairs.",
+  "id": "A121249",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

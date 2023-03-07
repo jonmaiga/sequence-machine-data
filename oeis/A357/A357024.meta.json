@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies log(A(x)) = (exp(x * A(x)) - 1)^2.",
+  "id": "A357024",
+  "mentions": [
+    "A030019",
+    "A052859",
+    "A357009",
+    "A357025",
+    "A357031"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

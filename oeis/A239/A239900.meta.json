@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=2, a(1)=5; thereafter a(n) = product of all preceding terms, plus 1.",
+  "id": "A239900",
+  "mentions": [
+    "A144784"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

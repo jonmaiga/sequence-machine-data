@@ -1,0 +1,22 @@
+{
+  "description": "Sum over all partitions of n of the GCD of the number of parts and the number of distinct parts.",
+  "id": "A339312",
+  "mentions": [
+    "A003989",
+    "A050873",
+    "A096541",
+    "A339006",
+    "A339011",
+    "A339394"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

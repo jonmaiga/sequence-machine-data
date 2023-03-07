@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: 1 - (1-x)^(1/(1 + log(1-x))).",
+  "id": "A203038",
+  "mentions": [
+    "A000629",
+    "A203039"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

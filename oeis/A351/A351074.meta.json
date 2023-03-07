@@ -1,0 +1,27 @@
+{
+  "description": "Difference between the maximal exponent in the prime factorization of A327860(n) and the maximal exponent in the prime factorization of n.",
+  "id": "A351074",
+  "mentions": [
+    "A051903",
+    "A276086",
+    "A327860",
+    "A328114",
+    "A328391",
+    "A350074",
+    "A351075",
+    "A351076",
+    "A351077"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

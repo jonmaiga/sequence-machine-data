@@ -1,0 +1,32 @@
+{
+  "description": "Number of odd strict trees of weight n (all outdegrees are odd).",
+  "id": "A300440",
+  "mentions": [
+    "A000009",
+    "A000992",
+    "A032305",
+    "A063834",
+    "A078408",
+    "A089259",
+    "A196545",
+    "A273873",
+    "A279785",
+    "A289501",
+    "A298118",
+    "A300301",
+    "A300352",
+    "A300353",
+    "A300436",
+    "A300439"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n+1)*(9-9*n+5*n^2-n^3).",
+  "id": "A157371",
+  "mentions": [
+    "A000029",
+    "A010863",
+    "A140811",
+    "A141530",
+    "A147998",
+    "A152064"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

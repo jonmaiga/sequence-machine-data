@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, A004736 * A127899.",
+  "id": "A127948",
+  "mentions": [
+    "A000027",
+    "A002024",
+    "A004736",
+    "A127899"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

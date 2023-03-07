@@ -1,0 +1,32 @@
+{
+  "description": "A(n,k) is the n-th Carlitz-Riordan q-Catalan number (recurrence version) for q = -k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A290789",
+  "mentions": [
+    "A000012",
+    "A015097",
+    "A015098",
+    "A015099",
+    "A015100",
+    "A015102",
+    "A015103",
+    "A015105",
+    "A015106",
+    "A015107",
+    "A015108",
+    "A090192",
+    "A290759",
+    "A290786"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

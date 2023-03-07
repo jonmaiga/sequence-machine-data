@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the number of graphs of length n with Wiener index k.",
+  "id": "A263000",
+  "mentions": [
+    "A000088"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

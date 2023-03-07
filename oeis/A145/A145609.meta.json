@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the polynomial A_l(x) = sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=1.",
+  "id": "A145609",
+  "mentions": [
+    "A145610",
+    "A145611",
+    "A145640"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

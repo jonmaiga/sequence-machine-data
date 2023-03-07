@@ -1,0 +1,19 @@
+{
+  "description": "Number T(n,k,r,c) of partitions of an n X k X r rectangular cuboid into c integer-sided cubes, considering only the list of parts; irregular triangle T(n,k,r,c), n >= k >= r >= 1, s >= 1, read by rows.",
+  "id": "A228747",
+  "mentions": [
+    "A227998",
+    "A228202"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

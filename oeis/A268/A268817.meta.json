@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of nonnegative integers: a(n) = A268717(A268717(n)).",
+  "id": "A268817",
+  "mentions": [
+    "A268717",
+    "A268818",
+    "A268821"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

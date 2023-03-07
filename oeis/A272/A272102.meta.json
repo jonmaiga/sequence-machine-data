@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of bivariate Taylor expansion of the incomplete elliptic integral of the first kind.",
+  "id": "A272102",
+  "mentions": [
+    "A000302",
+    "A120362"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

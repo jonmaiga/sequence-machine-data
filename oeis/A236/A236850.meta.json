@@ -1,0 +1,31 @@
+{
+  "description": "After 0 and 1, numbers n whose binary representation encodes such a polynomial over GF(2) that all its irreducible factors (their binary codes) are primes in N (terms of A091206).",
+  "id": "A236850",
+  "mentions": [
+    "A010051",
+    "A014580",
+    "A048720",
+    "A091206",
+    "A091214",
+    "A091225",
+    "A234741",
+    "A234742",
+    "A235027",
+    "A235032",
+    "A235145",
+    "A236837",
+    "A236841",
+    "A236851",
+    "A236860"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Nonexponential highly composite numbers: where the number of nonexponential divisors (A160097) increases to a record.",
+  "id": "A348632",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A025487",
+    "A037992",
+    "A160097",
+    "A293185",
+    "A306736",
+    "A307845",
+    "A309141",
+    "A318278",
+    "A322484",
+    "A335386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp( Sum_{n>=1} x^(4*n) / n^4 ) = Sum_{n>=0} a(n) * x^(4*n) / (4*n)!.",
+  "id": "A258874",
+  "mentions": [
+    "A226837",
+    "A258873"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

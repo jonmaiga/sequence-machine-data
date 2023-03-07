@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (6^n+12*(-7)^n)/13.",
+  "id": "A166152",
+  "mentions": [
+    "A112555",
+    "A166035",
+    "A166036",
+    "A166149"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

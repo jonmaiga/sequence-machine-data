@@ -1,0 +1,19 @@
+{
+  "description": "Indices of record high values in A061836.",
+  "id": "A333533",
+  "mentions": [
+    "A061836",
+    "A332558",
+    "A333532"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

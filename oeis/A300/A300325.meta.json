@@ -1,0 +1,18 @@
+{
+  "description": "Nonaliquot nontotient numbers.",
+  "id": "A300325",
+  "mentions": [
+    "A005114",
+    "A005277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

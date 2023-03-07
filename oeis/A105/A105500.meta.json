@@ -1,0 +1,22 @@
+{
+  "description": "Trajectory of 1 under the morphism 1->{1,2}, 2->{3,2}, 3->{3,4}, 4->{1,4}.",
+  "id": "A105500",
+  "mentions": [
+    "A043724",
+    "A043725",
+    "A043726",
+    "A043727",
+    "A246960"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

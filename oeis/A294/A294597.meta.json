@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which can be expressed as an ordered sum of 3 squares in 8 or more different ways.",
+  "id": "A294597",
+  "mentions": [
+    "A000164",
+    "A094942",
+    "A124966",
+    "A124967",
+    "A124968"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

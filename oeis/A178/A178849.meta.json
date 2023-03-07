@@ -1,0 +1,20 @@
+{
+  "description": "n-th integer having n-th prime-containing prime signature.",
+  "id": "A178849",
+  "mentions": [
+    "A000040",
+    "A025487",
+    "A054753",
+    "A095904"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

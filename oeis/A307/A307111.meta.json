@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least primitive n-abundant number k with the largest possible abundancy index sigma(k)/k.",
+  "id": "A307111",
+  "mentions": [
+    "A000203",
+    "A071395",
+    "A307112",
+    "A307114",
+    "A307115"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

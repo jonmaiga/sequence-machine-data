@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the fourth powers of the first n odd primes.",
+  "id": "A133549",
+  "mentions": [
+    "A007148",
+    "A007504",
+    "A024450",
+    "A098999",
+    "A122102",
+    "A133547",
+    "A133548",
+    "A133550",
+    "A133551",
+    "A133552"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose number of divisors is the square of the number of decimal digits of k.",
+  "id": "A307980",
+  "mentions": [
+    "A006881",
+    "A011557",
+    "A030513",
+    "A030627",
+    "A030634",
+    "A095862"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:47:33",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "{0010->1}-transform of the Thue-Morse word A010060.",
+  "id": "A286487",
+  "mentions": [
+    "A010060",
+    "A286488",
+    "A286489"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k of the form 4m+1 for which A087808(sigma(k)) is equal to 2*A087808(k).",
+  "id": "A332445",
+  "mentions": [
+    "A000203",
+    "A016813",
+    "A087808",
+    "A228058",
+    "A286357",
+    "A332224",
+    "A332225",
+    "A332227",
+    "A332446",
+    "A332458",
+    "A332465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

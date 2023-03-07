@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest positive number m such that c(i) = m (i^1 + 1) (i^2 + 2) ... (i^n + n) / n! takes integral values for all i>=0.",
+  "id": "A131685",
+  "mentions": [
+    "A000027",
+    "A049614",
+    "A064808",
+    "A129995",
+    "A131509",
+    "A131675",
+    "A131680"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

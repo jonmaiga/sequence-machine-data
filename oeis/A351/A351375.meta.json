@@ -1,0 +1,23 @@
+{
+  "description": "Least nonnegative integer m such that n = x^5 + y^5 - (z^3 + m^3) for some nonnegative integers x,y,z with z <= m.",
+  "id": "A351375",
+  "mentions": [
+    "A000578",
+    "A000584",
+    "A004842",
+    "A004999",
+    "A351338",
+    "A351341",
+    "A351376"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Twenty-seven smaller strong pseudoprimes to bases 2,3,5,7 arranged in order given by a function f:N->{1..27}",
+  "id": "A210588",
+  "mentions": [
+    "A074773",
+    "A209833",
+    "A209834"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

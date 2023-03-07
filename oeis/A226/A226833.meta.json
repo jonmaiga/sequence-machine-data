@@ -1,0 +1,21 @@
+{
+  "description": "Triangle whose n-th row has the smallest n semiprimes in an arithmetic progression.",
+  "id": "A226833",
+  "mentions": [
+    "A096003",
+    "A097824",
+    "A226834"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

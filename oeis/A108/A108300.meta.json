@@ -1,0 +1,26 @@
+{
+  "description": "a(n+2) = 3*a(n+1) + a(n), with a(0) = 1, a(1) = 5.",
+  "id": "A108300",
+  "mentions": [
+    "A000004",
+    "A006130",
+    "A016777",
+    "A052924",
+    "A109114",
+    "A109115",
+    "A143972",
+    "A228916"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

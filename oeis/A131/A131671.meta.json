@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of prime analog of the Kepler-Bouwkamp constant: Product_{k>=2} cos(Pi/prime(k)).",
+  "id": "A131671",
+  "mentions": [
+    "A085365"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

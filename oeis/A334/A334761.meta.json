@@ -1,0 +1,18 @@
+{
+  "description": "Perimeters of Pythagorean triangles whose hypotenuse divides the difference of squares of its long and short legs.",
+  "id": "A334761",
+  "mentions": [
+    "A005044",
+    "A010814"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

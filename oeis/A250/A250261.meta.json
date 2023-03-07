@@ -1,0 +1,28 @@
+{
+  "description": "Number A(n,k) of permutations p of [n] such that p(i) > p(i+1) iff i = 1 + k*m for some m >= 0; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A250261",
+  "mentions": [
+    "A000012",
+    "A000111",
+    "A028387",
+    "A249402",
+    "A250259",
+    "A250260",
+    "A250262",
+    "A250263",
+    "A250264",
+    "A250265",
+    "A250266"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

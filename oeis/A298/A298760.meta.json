@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there is a record number of consecutive prime centered k-gonal numbers after 1.",
+  "id": "A298760",
+  "mentions": [
+    "A000124",
+    "A002061",
+    "A003215",
+    "A062786",
+    "A090562"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

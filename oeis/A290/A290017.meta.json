@@ -1,0 +1,26 @@
+{
+  "description": "Brazilian numbers which have exactly four Brazilian representations.",
+  "id": "A290017",
+  "mentions": [
+    "A125134",
+    "A220570",
+    "A220571",
+    "A257521",
+    "A288783",
+    "A290015",
+    "A290016",
+    "A290018",
+    "A329383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

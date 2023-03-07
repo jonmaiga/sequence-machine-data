@@ -1,0 +1,17 @@
+{
+  "description": "The smallest of four consecutive primes with prime gaps {a,b,c} = {10,18,2}.",
+  "id": "A215719",
+  "mentions": [
+    "A078858"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:14:05",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

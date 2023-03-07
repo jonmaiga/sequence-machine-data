@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1+2*x^(k^2)).",
+  "id": "A279360",
+  "mentions": [
+    "A001422",
+    "A032302",
+    "A033461",
+    "A279226",
+    "A279368",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

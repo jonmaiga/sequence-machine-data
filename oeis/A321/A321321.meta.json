@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which the \"partition-and-add\" operation applied to the binary representation of n results in only one power of 2.",
+  "id": "A321321",
+  "mentions": [
+    "A321318",
+    "A321319",
+    "A321320"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

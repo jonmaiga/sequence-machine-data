@@ -1,0 +1,18 @@
+{
+  "description": "Number of times that Lucas(n)-Lucas(i) is prime for i=0..n-3.",
+  "id": "A113193",
+  "mentions": [
+    "A113192",
+    "A113194"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

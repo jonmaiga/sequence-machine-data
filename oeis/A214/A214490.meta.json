@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer k such that prime(n+1) = floor(prime(n)/sin(k)).",
+  "id": "A214490",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

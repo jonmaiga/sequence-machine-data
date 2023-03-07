@@ -1,0 +1,21 @@
+{
+  "description": "Record differences for n^2 - phi(n)*sigma(n)",
+  "id": "A164876",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A069249",
+    "A164875"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

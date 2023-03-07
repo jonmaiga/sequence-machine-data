@@ -1,0 +1,17 @@
+{
+  "description": "Number of lattice paths starting at {n}^8 and ending when any component equals 0, using steps that decrement one or more components by one.",
+  "id": "A263166",
+  "mentions": [
+    "A263159"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

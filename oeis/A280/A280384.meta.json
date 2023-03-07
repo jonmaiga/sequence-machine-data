@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of f(x)^3 * f(-x^2) * chi(x^3)^3 in powers of x where chi(), f() are Ramanujan theta functions.",
+  "id": "A280384",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A187076",
+    "A280328"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

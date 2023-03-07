@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{q in A014612} (1-1/(q*(q-1))).",
+  "id": "A146483",
+  "mentions": [
+    "A005596",
+    "A014612"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

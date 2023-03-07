@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. Sum_{d|M} (exp(d*x)-1)/d, M=15.",
+  "id": "A141014",
+  "mentions": [
+    "A034472",
+    "A034474"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

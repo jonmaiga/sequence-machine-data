@@ -1,0 +1,29 @@
+{
+  "description": "Number of inequivalent sublattices of index n in square lattice, where two sublattices are considered equivalent if one can be rotated by a multiple of Pi/2 to give the other.",
+  "id": "A145392",
+  "mentions": [
+    "A000089",
+    "A000203",
+    "A002654",
+    "A003051",
+    "A004525",
+    "A054345",
+    "A054346",
+    "A069734",
+    "A145391",
+    "A145393",
+    "A145394",
+    "A157224"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

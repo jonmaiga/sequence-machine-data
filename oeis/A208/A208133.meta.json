@@ -1,0 +1,28 @@
+{
+  "description": "Total number of subgroups of rank <= 2 of a certain class of abelian groups of order n defined as direct products of Z/(mZ) X Z/(kZ) with m|k.",
+  "id": "A208133",
+  "mentions": [
+    "A001620",
+    "A010052",
+    "A037213",
+    "A074962",
+    "A082633",
+    "A201994",
+    "A300828",
+    "A330594",
+    "A335705",
+    "A335706"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

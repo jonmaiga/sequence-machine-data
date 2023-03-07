@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number, different from 1, which when multiplied by \"n\" produces a number with \"n\" as its rightmost digits.",
+  "id": "A122098",
+  "mentions": [
+    "A080501"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

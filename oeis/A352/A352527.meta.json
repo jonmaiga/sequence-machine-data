@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_(k>=1) (-1)^k * zeta(2k)/(2k) (negated).",
+  "id": "A352527",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013662",
+    "A090986"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

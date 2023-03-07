@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 0 if n is not a primitive nondeficient number, otherwise a(n) is the number of primitive nondeficient divisors of the last number in the iteration x -> A003961(x) (starting from x=n) for which that count (A337690) is nonzero.",
+  "id": "A341618",
+  "mentions": [
+    "A003961",
+    "A006039",
+    "A071395",
+    "A337690",
+    "A341508",
+    "A341619",
+    "A341624"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

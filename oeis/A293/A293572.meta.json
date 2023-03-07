@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: exp(x/(1 + x + x^2 + x^3)).",
+  "id": "A293572",
+  "mentions": [
+    "A111884",
+    "A293571",
+    "A293573"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - Sum_{k>=1} p(k)*x^k/k!), where p(k) = number of partitions of k (A000041).",
+  "id": "A324236",
+  "mentions": [
+    "A000041",
+    "A055887",
+    "A218481",
+    "A300511",
+    "A302199",
+    "A324237"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

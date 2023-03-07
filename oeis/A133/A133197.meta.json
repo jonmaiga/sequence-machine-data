@@ -1,0 +1,18 @@
+{
+  "description": "Triangular numbers such that moving the first digit to the end produces a square number.",
+  "id": "A133197",
+  "mentions": [
+    "A133198"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Dyck paths of semilength n having exactly 1 occurrence of the consecutive steps UDUUDU (with U=(1,1), D=(1,-1)).",
+  "id": "A243413",
+  "mentions": [
+    "A243366",
+    "A243412"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 4*p and 6*p are each the sum of two consecutive primes.",
+  "id": "A164133",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A118134",
+    "A163487"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

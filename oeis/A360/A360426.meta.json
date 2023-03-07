@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of [2n] having exactly n alternating up/down runs where the first run is not a down run.",
+  "id": "A360426",
+  "mentions": [
+    "A000111",
+    "A008970",
+    "A059427",
+    "A291677",
+    "A303159"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

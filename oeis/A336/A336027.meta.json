@@ -1,0 +1,20 @@
+{
+  "description": "The least k such that i*k + 1 is a product of i different primes for i = 1..n.",
+  "id": "A336027",
+  "mentions": [
+    "A000005",
+    "A005425",
+    "A336028"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

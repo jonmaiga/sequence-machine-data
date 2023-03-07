@@ -1,0 +1,20 @@
+{
+  "description": "Rearrangement of positive integers except 3 defined by A083758.",
+  "id": "A338073",
+  "mentions": [
+    "A000720",
+    "A083758",
+    "A083759",
+    "A338072"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

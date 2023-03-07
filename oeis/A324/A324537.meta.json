@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A003557(k), where k = Product_{d|n, d>2} prime(A297167(d)).",
+  "id": "A324537",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A003557",
+    "A061395",
+    "A297167",
+    "A300827",
+    "A324191",
+    "A324193",
+    "A324202",
+    "A324538"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of cyclic subgroups of prime order in the Alternating Group A_n.",
+  "id": "A181951",
+  "mentions": [
+    "A001465",
+    "A181955",
+    "A186202"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

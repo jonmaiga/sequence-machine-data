@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that the greatest part occurs with even multiplicity.",
+  "id": "A105204",
+  "mentions": [
+    "A105200",
+    "A105201"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

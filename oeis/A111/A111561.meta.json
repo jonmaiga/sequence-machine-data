@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of A111560, which is the matrix log of A111553.",
+  "id": "A111561",
+  "mentions": [
+    "A111553",
+    "A111560"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

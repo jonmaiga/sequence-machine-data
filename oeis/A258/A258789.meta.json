@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} 1/(x^(2*k)*(1-x^k)).",
+  "id": "A258789",
+  "mentions": [
+    "A258268",
+    "A258788",
+    "A258791",
+    "A258793",
+    "A258794"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

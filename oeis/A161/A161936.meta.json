@@ -1,0 +1,22 @@
+{
+  "description": "The number of direct isometries that are derangements of the (n-1)-dimensional facets of an n-cube.",
+  "id": "A161936",
+  "mentions": [
+    "A000166",
+    "A000354",
+    "A003221",
+    "A161937"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

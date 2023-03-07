@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Weigh transform of 3^n.",
+  "id": "A306157",
+  "mentions": [
+    "A000244",
+    "A038068",
+    "A306156",
+    "A306158",
+    "A306159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

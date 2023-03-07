@@ -1,0 +1,25 @@
+{
+  "description": "Capped binary boundary codes for holeless strictly non-overlapping polyhexes (all orientations and rotations included).",
+  "id": "A258002",
+  "mentions": [
+    "A037861",
+    "A072600",
+    "A080541",
+    "A080542",
+    "A255571",
+    "A258001",
+    "A258003",
+    "A258012"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

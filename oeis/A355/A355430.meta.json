@@ -1,0 +1,29 @@
+{
+  "description": "Primes starting with an even decimal digit.",
+  "id": "A355430",
+  "mentions": [
+    "A000040",
+    "A045708",
+    "A045710",
+    "A045711",
+    "A045712",
+    "A045714",
+    "A087762",
+    "A087764",
+    "A087765",
+    "A087766",
+    "A087767",
+    "A273892"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

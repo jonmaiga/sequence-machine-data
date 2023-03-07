@@ -1,0 +1,25 @@
+{
+  "description": "A number triangle based on the Catalan numbers.",
+  "id": "A110488",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A049027",
+    "A076025",
+    "A110489",
+    "A110490"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

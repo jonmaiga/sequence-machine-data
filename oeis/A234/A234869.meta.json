@@ -1,0 +1,23 @@
+{
+  "description": "3*binomial(11*n+3,n)/(11*n+3).",
+  "id": "A234869",
+  "mentions": [
+    "A230388",
+    "A234868",
+    "A234870",
+    "A234871",
+    "A234872",
+    "A234873"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

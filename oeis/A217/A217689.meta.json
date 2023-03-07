@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=2, a(2)=3, a(3)=4; for n>=4, a(n) is the largest number <= prime(n) such that no terms of the sequence are between a(n-1)/2 and a(n)/2.",
+  "id": "A217689",
+  "mentions": [
+    "A093641",
+    "A217671"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

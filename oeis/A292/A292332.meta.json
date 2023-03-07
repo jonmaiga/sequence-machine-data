@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 divides 6^k + 1.",
+  "id": "A292332",
+  "mentions": [
+    "A015953",
+    "A062394",
+    "A127106",
+    "A128680"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

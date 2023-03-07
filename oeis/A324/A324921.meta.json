@@ -1,0 +1,19 @@
+{
+  "description": "Index of first occurrence of n in A324920.",
+  "id": "A324921",
+  "mentions": [
+    "A056737",
+    "A324920"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

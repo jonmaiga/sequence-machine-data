@@ -1,0 +1,21 @@
+{
+  "description": "Prime(A205700(n)), the n-th number s(j) such that 7 divides s(k)-s(j), where the pairs (k,j) are given by A205698 and A205699.",
+  "id": "A205701",
+  "mentions": [
+    "A204890",
+    "A205558",
+    "A205698",
+    "A205699",
+    "A205700"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

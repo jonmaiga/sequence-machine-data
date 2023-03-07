@@ -1,0 +1,18 @@
+{
+  "description": "Bobo numbers: Numbers k with the property that floor(e*k) = least m with Sum_{j=k..m} 1/j > 1.",
+  "id": "A242679",
+  "mentions": [
+    "A103762",
+    "A277603"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

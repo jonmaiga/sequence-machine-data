@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2+1 is a triangular number and k^2+2 is a prime number.",
+  "id": "A226074",
+  "mentions": [
+    "A106328",
+    "A226069",
+    "A226072",
+    "A226073"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

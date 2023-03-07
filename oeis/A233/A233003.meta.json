@@ -1,0 +1,22 @@
+{
+  "description": "(n!)^2 mod Pt(n), where Pt(n) is product of first n positive triangular numbers (A000217).",
+  "id": "A233003",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A000290",
+    "A001044",
+    "A006472",
+    "A006788"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

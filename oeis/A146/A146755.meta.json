@@ -1,0 +1,18 @@
+{
+  "description": "Alliterative numbers: Positive integers n such that all words in n's name begin with the same letter; ignore numbers with one-word names.",
+  "id": "A146755",
+  "mentions": [
+    "A051108"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

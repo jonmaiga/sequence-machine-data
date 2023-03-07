@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that m^2 divides A159068(m), where A159068(m) = Sum_{k=1..m} binomial(m,k) * gcd(m,k).",
+  "id": "A159458",
+  "mentions": [
+    "A159068",
+    "A159069"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + Sum_{k>=1} mu(k)^2*x^k*A(x)^k/(1 - x^k*A(x)^k)^2, where mu() is the Möbius function (A008683).",
+  "id": "A307488",
+  "mentions": [
+    "A001615",
+    "A008683",
+    "A292875",
+    "A307487"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of noncrossing partitions of an n-set up to rotation with all blocks having a prime number of elements.",
+  "id": "A303874",
+  "mentions": [
+    "A054357",
+    "A175954",
+    "A210737",
+    "A295198",
+    "A303875"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

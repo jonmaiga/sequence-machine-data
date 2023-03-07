@@ -1,0 +1,25 @@
+{
+  "description": "A008279, with the first and last of each row removed.",
+  "id": "A119741",
+  "mentions": [
+    "A002260",
+    "A003057",
+    "A004736",
+    "A008279",
+    "A014410",
+    "A014631",
+    "A173333"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

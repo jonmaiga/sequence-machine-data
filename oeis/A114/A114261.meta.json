@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the 5th power of k contains exactly 5 copies of each digit of k.",
+  "id": "A114261",
+  "mentions": [
+    "A114258",
+    "A114259",
+    "A114260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

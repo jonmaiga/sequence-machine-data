@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 192*K^2*G/Pi^4 = Product_{p prime congruent to 1 modulo 4} (1 + 1/p^2), where K is the Landau-Ramanujan constant and G Catalan's constant.",
+  "id": "A243380",
+  "mentions": [
+    "A002144",
+    "A006752",
+    "A064533",
+    "A088539",
+    "A175647",
+    "A243381"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

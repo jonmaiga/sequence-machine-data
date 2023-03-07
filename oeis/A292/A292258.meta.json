@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = prime(A101296(n)-1) * a(floor(n/2)).",
+  "id": "A292258",
+  "mentions": [
+    "A000040",
+    "A000523",
+    "A001222",
+    "A004526",
+    "A007814",
+    "A046523",
+    "A078349",
+    "A101296",
+    "A292259"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which there exists at least one number j > 1 such that j^k has exactly j divisors.",
+  "id": "A323733",
+  "mentions": [
+    "A000005",
+    "A073049",
+    "A323730",
+    "A323731",
+    "A323732",
+    "A323734"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

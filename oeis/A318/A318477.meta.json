@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-member subsets of [n^2] whose elements sum to a multiple of n.",
+  "id": "A318477",
+  "mentions": [
+    "A119358",
+    "A169888",
+    "A304482",
+    "A308667",
+    "A318557"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

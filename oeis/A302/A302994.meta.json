@@ -1,0 +1,21 @@
+{
+  "description": "Number of bi-unitary abundant numbers < 10^n.",
+  "id": "A302994",
+  "mentions": [
+    "A188999",
+    "A292982",
+    "A302992"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Signature sequence of Soldner's constant (A070769).",
+  "id": "A227539",
+  "mentions": [
+    "A070769",
+    "A099803",
+    "A133334"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

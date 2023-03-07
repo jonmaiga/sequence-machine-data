@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive number for which the 3rd power cannot be written as sum of 3rd powers of any subset of previous terms.",
+  "id": "A321290",
+  "mentions": [
+    "A321266",
+    "A321291",
+    "A321292",
+    "A321293"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

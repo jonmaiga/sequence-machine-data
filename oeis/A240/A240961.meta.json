@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of y_126, the [imaginary part of the] first zero of Riemann's zeta function where Gram's law fails.",
+  "id": "A240961",
+  "mentions": [
+    "A114856"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

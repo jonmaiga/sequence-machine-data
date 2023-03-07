@@ -1,0 +1,32 @@
+{
+  "description": "A permutation of the natural numbers: in the prime factorization of n, swap each prime's index difference (from the previous distinct prime that divides n) and the prime's power.",
+  "id": "A153212",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000079",
+    "A051119",
+    "A061395",
+    "A069799",
+    "A071178",
+    "A112798",
+    "A122111",
+    "A241909",
+    "A241916",
+    "A241919",
+    "A242415",
+    "A242419",
+    "A242421"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

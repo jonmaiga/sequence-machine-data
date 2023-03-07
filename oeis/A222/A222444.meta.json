@@ -1,0 +1,32 @@
+{
+  "description": "T(n,k) = number of n X k 0..3 arrays with entries increasing mod 4 by 0, 1 or 2 rightwards and downwards, starting with upper left zero.",
+  "id": "A222444",
+  "mentions": [
+    "A000244",
+    "A068254",
+    "A078099",
+    "A169634",
+    "A198715",
+    "A222144",
+    "A222281",
+    "A222340",
+    "A222439",
+    "A222440",
+    "A222441",
+    "A222442",
+    "A222443",
+    "A222462"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

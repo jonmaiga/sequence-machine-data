@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form p^2 + q^2 + 21, where p and q are consecutive primes.",
+  "id": "A229075",
+  "mentions": [
+    "A072669",
+    "A227340"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

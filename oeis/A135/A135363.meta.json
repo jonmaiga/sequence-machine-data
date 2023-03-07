@@ -1,0 +1,20 @@
+{
+  "description": "Sums of two or more consecutive semiprimes.",
+  "id": "A135363",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A050936"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

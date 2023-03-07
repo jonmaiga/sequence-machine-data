@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (451+30*sqrt(2))/449.",
+  "id": "A159590",
+  "mentions": [
+    "A002193",
+    "A130004",
+    "A159589",
+    "A159591"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

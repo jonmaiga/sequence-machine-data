@@ -1,0 +1,22 @@
+{
+  "description": "n for which A277023(4n) is square, thus A277024(4n) is zero.",
+  "id": "A277025",
+  "mentions": [
+    "A002828",
+    "A277015",
+    "A277016",
+    "A277023",
+    "A277024",
+    "A277026"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

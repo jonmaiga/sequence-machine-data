@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered pairs of length-n mutually overlapping binary strings.",
+  "id": "A295863",
+  "mentions": [
+    "A296600"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

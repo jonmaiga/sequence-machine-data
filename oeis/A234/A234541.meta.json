@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that floor(n/k) + (n mod k) is a prime, or 0 if no such k exists.",
+  "id": "A234541",
+  "mentions": [
+    "A000040",
+    "A234575"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

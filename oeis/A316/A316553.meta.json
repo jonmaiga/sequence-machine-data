@@ -1,0 +1,21 @@
+{
+  "description": "Number of elements of order 2 in the group SL(2, Z(n)).",
+  "id": "A316553",
+  "mentions": [
+    "A061345",
+    "A174275",
+    "A316537",
+    "A316564"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

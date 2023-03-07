@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with at most 4 prime factors (counted with multiplicity)",
+  "id": "A166718",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A014612",
+    "A014613",
+    "A037143",
+    "A037144",
+    "A046304",
+    "A166719"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

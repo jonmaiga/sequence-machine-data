@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of rational-valued radii of circles given by 3 distinct integer points in the 3-dimensional Euclidean space.",
+  "id": "A128009",
+  "mentions": [
+    "A128006",
+    "A128007",
+    "A128008",
+    "A128010",
+    "A128011"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

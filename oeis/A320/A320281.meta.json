@@ -1,0 +1,20 @@
+{
+  "description": "Terms that are on the positive x-axis of the square spiral built with 2*k, 2*k+1, 2*k+1 for k >= 0.",
+  "id": "A320281",
+  "mentions": [
+    "A000969",
+    "A301696"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:50:55",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle where T(n,k) is the number of set partitions of {1,...,n} with block-sizes given by the integer partition with Heinz number A215366(n,k).",
+  "id": "A319182",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000258",
+    "A000670",
+    "A005651",
+    "A008277",
+    "A008480",
+    "A036040",
+    "A056239",
+    "A080575",
+    "A124794",
+    "A178867",
+    "A215366"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

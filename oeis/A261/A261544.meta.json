@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 1000^k.",
+  "id": "A261544",
+  "mentions": [
+    "A000042",
+    "A000533",
+    "A002113",
+    "A023001",
+    "A033146",
+    "A094028",
+    "A269025"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

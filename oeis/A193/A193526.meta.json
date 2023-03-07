@@ -1,0 +1,20 @@
+{
+  "description": "Sum of even divisors of sopf(n).",
+  "id": "A193526",
+  "mentions": [
+    "A008472",
+    "A146076",
+    "A193525"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

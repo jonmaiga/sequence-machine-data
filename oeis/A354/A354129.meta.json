@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 7 + 4*sqrt(3).",
+  "id": "A354129",
+  "mentions": [
+    "A002194",
+    "A010502",
+    "A019973",
+    "A354128"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 2,
+    "size": 92,
+    "source": "joeis"
+  }
+}

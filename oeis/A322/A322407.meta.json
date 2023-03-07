@@ -1,0 +1,24 @@
+{
+  "description": "Compound sequence a(n) = A319198(A278039(n)), for n >= 0.",
+  "id": "A322407",
+  "mentions": [
+    "A080843",
+    "A278039",
+    "A278040",
+    "A319198",
+    "A321333",
+    "A322408"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

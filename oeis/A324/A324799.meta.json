@@ -1,0 +1,19 @@
+{
+  "description": "Symmetric square array read by antidiagonals: T(n,k) = p(n)*p(k)-p(n*k), where p(i) = prime(i), for n>=1, k>=1.",
+  "id": "A324799",
+  "mentions": [
+    "A123914"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

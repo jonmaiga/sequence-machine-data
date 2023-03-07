@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the first F(n) primes, where F(n) is the n-th Fibonacci number.",
+  "id": "A117400",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

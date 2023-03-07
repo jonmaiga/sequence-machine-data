@@ -1,0 +1,20 @@
+{
+  "description": "Indices in A306428 of permutations t with a finite number of nonfixed points and such that t_i - t_j <> j - i for any distinct i and j (see Comments for precise definition).",
+  "id": "A306235",
+  "mentions": [
+    "A000170",
+    "A099152",
+    "A306428"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

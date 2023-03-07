@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps needed to reach 1 or to enter the cycle in the double '3x+1' and '5x+1' problem.",
+  "id": "A264811",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

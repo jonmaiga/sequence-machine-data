@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: number of partitions of n with k as low median.",
+  "id": "A124943",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A026794",
+    "A027336",
+    "A124944"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

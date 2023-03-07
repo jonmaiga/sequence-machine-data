@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..1 arrays with each row and column prime, read as a binary number with top and left being the most significant bits.",
+  "id": "A261753",
+  "mentions": [
+    "A261761"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

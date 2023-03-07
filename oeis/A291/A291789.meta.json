@@ -1,0 +1,27 @@
+{
+  "description": "Trajectory of 270 under repeated application of k -> (phi(k)+sigma(k))/2.",
+  "id": "A291789",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A289997",
+    "A290001",
+    "A290447",
+    "A291787",
+    "A291790",
+    "A291804",
+    "A291805",
+    "A291914",
+    "A292108"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

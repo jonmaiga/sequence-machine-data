@@ -1,0 +1,21 @@
+{
+  "description": "C(2*n,n)*stirling2(2*n,n).",
+  "id": "A124103",
+  "mentions": [
+    "A000984",
+    "A007820",
+    "A226775"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

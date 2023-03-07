@@ -1,0 +1,27 @@
+{
+  "description": "Integers n such that 10^n-57 is prime.",
+  "id": "A108493",
+  "mentions": [
+    "A089675",
+    "A092767",
+    "A095714",
+    "A108327",
+    "A108328",
+    "A108329",
+    "A108330",
+    "A108331",
+    "A108332",
+    "A177417"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of non-isomorphic set-systems covering n vertices with at least one endpoint/leaf.",
+  "id": "A327230",
+  "mentions": [
+    "A002494",
+    "A055621",
+    "A245797",
+    "A261919",
+    "A283877",
+    "A327103",
+    "A327105",
+    "A327197",
+    "A327227",
+    "A327228",
+    "A327229",
+    "A327335"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

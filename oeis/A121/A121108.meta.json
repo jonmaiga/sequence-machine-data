@@ -1,0 +1,20 @@
+{
+  "description": "Trajectory of 2677889 under \"x -> product of digits of x\" map.",
+  "id": "A121108",
+  "mentions": [
+    "A003001"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

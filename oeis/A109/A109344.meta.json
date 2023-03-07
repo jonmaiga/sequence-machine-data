@@ -1,0 +1,19 @@
+{
+  "description": "a(n) consists of n 4's, n-1 8's and a single 9 (in that order).",
+  "id": "A109344",
+  "mentions": [
+    "A067275",
+    "A199688"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

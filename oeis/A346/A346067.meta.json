@@ -1,0 +1,28 @@
+{
+  "description": "Smallest prime that is the n-th power analog of Keith numbers.",
+  "id": "A346067",
+  "mentions": [
+    "A007629",
+    "A274769",
+    "A274770",
+    "A281915",
+    "A281916",
+    "A281917",
+    "A281918",
+    "A281919",
+    "A281920",
+    "A281921"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

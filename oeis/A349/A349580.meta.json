@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the 5-dimensional Steinmetz solid formed by the intersection of 5 unit-diameter 5-dimensional cylinders whose axes are mutually orthogonal and intersect at a single point.",
+  "id": "A349580",
+  "mentions": [
+    "A101465",
+    "A188615",
+    "A349577",
+    "A349578",
+    "A349579"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

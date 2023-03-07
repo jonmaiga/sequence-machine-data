@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form p(q) + p(r) with q and r both prime, where p(.) is the partition function given by A000041.",
+  "id": "A261515",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A259678",
+    "A261513"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

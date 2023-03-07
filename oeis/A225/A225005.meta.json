@@ -1,0 +1,21 @@
+{
+  "description": "Number of Carmichael numbers (A002997) less than 2^n.",
+  "id": "A225005",
+  "mentions": [
+    "A002997",
+    "A055553",
+    "A108797",
+    "A182490",
+    "A208276"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

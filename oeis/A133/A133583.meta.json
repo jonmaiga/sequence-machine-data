@@ -1,0 +1,21 @@
+{
+  "description": "Index of smallest prime number where n consecutive leading digits of the index match n consecutive leading digits in the prime.",
+  "id": "A133583",
+  "mentions": [
+    "A000720",
+    "A133584"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

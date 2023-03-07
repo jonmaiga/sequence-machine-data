@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of small Schröder paths such that the area between the path and the x-axis is equal to n and contains k down-triangles.",
+  "id": "A326454",
+  "mentions": [
+    "A001003",
+    "A224704",
+    "A227543",
+    "A309086",
+    "A326453"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

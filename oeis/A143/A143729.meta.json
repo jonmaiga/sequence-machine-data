@@ -1,0 +1,20 @@
+{
+  "description": "Sum of termwise product of mu(k) and reduced residue system k mod n",
+  "id": "A143729",
+  "mentions": [
+    "A008683",
+    "A127368",
+    "A143728"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

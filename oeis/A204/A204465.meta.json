@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-element subsets that can be chosen from {1,2,...,9*n} having element sum n*(9*n+1)/2.",
+  "id": "A204465",
+  "mentions": [
+    "A204459"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers whose squares end in two identical digits.",
+  "id": "A186438",
+  "mentions": [
+    "A006532",
+    "A016742"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:39:47",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array read by ascending antidiagonals generated from partial sums of A007001.",
+  "id": "A133913",
+  "mentions": [
+    "A007001",
+    "A133912",
+    "A133914"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:11:41",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

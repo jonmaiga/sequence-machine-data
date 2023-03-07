@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for a node in the graph of Balaban's (3,10)-cage.",
+  "id": "A316318",
+  "mentions": [
+    "A250120"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

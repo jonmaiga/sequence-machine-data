@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. Thereafter, if a(n) is a term that has appeared exactly k times prior to and including itself then a(n+1) is the number of terms prior to and including a(n) which have appeared exactly k times.",
+  "id": "A350768",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Numbers k such that the number of factorizations of k into distinct factors > 1 is a prime number.",
+  "id": "A331201",
+  "mentions": [
+    "A001055",
+    "A001318",
+    "A035359",
+    "A045778",
+    "A045779",
+    "A045780",
+    "A045782",
+    "A046063",
+    "A051130",
+    "A080257",
+    "A318286",
+    "A328966",
+    "A330974",
+    "A330975",
+    "A330976",
+    "A330991",
+    "A330992",
+    "A330993",
+    "A330997",
+    "A331023",
+    "A331024",
+    "A331050",
+    "A331051",
+    "A331200",
+    "A331230",
+    "A331231",
+    "A331232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

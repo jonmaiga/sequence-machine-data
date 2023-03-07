@@ -1,0 +1,26 @@
+{
+  "description": "Sum of fourth powers of five consecutive primes.",
+  "id": "A133540",
+  "mentions": [
+    "A030514",
+    "A034964",
+    "A133526",
+    "A133531",
+    "A133535",
+    "A133539",
+    "A133541",
+    "A133542",
+    "A133543"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:13",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

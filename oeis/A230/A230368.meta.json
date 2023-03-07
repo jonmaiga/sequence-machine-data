@@ -1,0 +1,24 @@
+{
+  "description": "A strong divisibility sequence associated with the algebraic integer 1 + i.",
+  "id": "A230368",
+  "mentions": [
+    "A014985",
+    "A015521",
+    "A082630",
+    "A230369",
+    "A235450",
+    "A247281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:22:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

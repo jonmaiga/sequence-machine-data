@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose concatenation of prime factors in increasing order is a prime number.",
+  "id": "A343027",
+  "mentions": [
+    "A037276",
+    "A046411"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

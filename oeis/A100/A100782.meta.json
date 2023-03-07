@@ -1,0 +1,21 @@
+{
+  "description": "First column of A100781.",
+  "id": "A100782",
+  "mentions": [
+    "A100781",
+    "A100783",
+    "A100784",
+    "A100785"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

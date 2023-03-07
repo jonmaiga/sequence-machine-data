@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct odd parts > 1.",
+  "id": "A331980",
+  "mentions": [
+    "A000931",
+    "A027349",
+    "A032020",
+    "A032021",
+    "A032022",
+    "A087897"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n, k), n >= 2, k >= 0, read by antidiagonals upwards; A(n, k) is the least integer with sum of digits k in base n.",
+  "id": "A356517",
+  "mentions": [
+    "A000225",
+    "A051885",
+    "A062318",
+    "A138530",
+    "A140576",
+    "A165804",
+    "A180516",
+    "A181287",
+    "A181288",
+    "A181303",
+    "A240236"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

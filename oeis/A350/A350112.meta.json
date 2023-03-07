@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of tilings of an (n+k)-board using k (1,4)-fences and n-k squares.",
+  "id": "A350112",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A059259",
+    "A123521",
+    "A157897",
+    "A335964",
+    "A350110",
+    "A350111",
+    "A354665",
+    "A354666",
+    "A354667",
+    "A354668"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

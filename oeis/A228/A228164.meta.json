@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n having at least two distinct symmetrical pairs of divisors (a, b) and (b', a') such that n = a*b = b'*a' with a' = reverse(a) and b' = reverse(b).",
+  "id": "A228164",
+  "mentions": [
+    "A262743",
+    "A262873"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

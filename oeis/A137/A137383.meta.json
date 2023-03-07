@@ -1,0 +1,18 @@
+{
+  "description": "Total number of different ways to fill m labeled boxes with balls which belong to the specifications provided by all the integer partitions [n] of n. Empty boxes are not allowed. Total number of possible preferential arrangements (or hierarchical orderings) of n elements if the elements may belong to c=1 up to c=n different classes (or specifications).",
+  "id": "A137383",
+  "mentions": [
+    "A000079",
+    "A000670"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

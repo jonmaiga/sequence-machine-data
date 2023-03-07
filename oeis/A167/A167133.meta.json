@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form (number of prime factors of n-th composite) plus (number of divisors of n-th composite).",
+  "id": "A167133",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001222",
+    "A002808",
+    "A035004",
+    "A062502",
+    "A069346"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Terms as well as ending/starting digits are of alternating parity; this is the lexicographically earliest injective sequence with this property.",
+  "id": "A217556",
+  "mentions": [
+    "A217555",
+    "A217559",
+    "A217560"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

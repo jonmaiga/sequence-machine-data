@@ -1,0 +1,18 @@
+{
+  "description": "Numbers in which each digit equals the product (mod 10) of the other digits.",
+  "id": "A226467",
+  "mentions": [
+    "A002275"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

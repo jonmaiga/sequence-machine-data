@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3 X n arrays containing n copies of 0..3-1 with no element 1 greater than its west, southwest or northwest neighbor modulo 3 and the upper left element equal to 0.",
+  "id": "A267164",
+  "mentions": [
+    "A267163"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

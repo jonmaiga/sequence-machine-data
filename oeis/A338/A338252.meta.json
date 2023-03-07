@@ -1,0 +1,24 @@
+{
+  "description": "Nonpositive values in A317050, in order of appearance and negated.",
+  "id": "A338252",
+  "mentions": [
+    "A053754",
+    "A136324",
+    "A317050",
+    "A338251",
+    "A338254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

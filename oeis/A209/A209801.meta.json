@@ -1,0 +1,19 @@
+{
+  "description": "The number of partitions of the set [n] where each element can be colored 1 or 2 avoiding the patterns 1^11^2 in the equality sense.",
+  "id": "A209801",
+  "mentions": [
+    "A000110",
+    "A000248"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

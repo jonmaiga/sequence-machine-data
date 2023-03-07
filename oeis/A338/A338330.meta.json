@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are neither a power of a prime (A000961) nor is their set of distinct prime indices pairwise coprime.",
+  "id": "A338330",
+  "mentions": [
+    "A000961",
+    "A024619",
+    "A056239",
+    "A112798",
+    "A144300",
+    "A289509",
+    "A303282",
+    "A304709",
+    "A304711",
+    "A304713",
+    "A316476",
+    "A318716",
+    "A318719",
+    "A328867",
+    "A338331"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

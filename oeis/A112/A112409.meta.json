@@ -1,0 +1,19 @@
+{
+  "description": "Table read by rows: for each n: the orders of the permutations of n elements, excluding those that are a divisor of the order of another permutation of n elements.",
+  "id": "A112409",
+  "mentions": [
+    "A000793"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

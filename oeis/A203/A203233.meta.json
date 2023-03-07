@@ -1,0 +1,19 @@
+{
+  "description": "(n-1)-st elementary symmetric function of the first n terms of the periodic sequence (3,2,3,2,3,2,...).",
+  "id": "A203233",
+  "mentions": [
+    "A203232",
+    "A212700"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

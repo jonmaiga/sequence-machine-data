@@ -1,0 +1,17 @@
+{
+  "description": "Sum[k=0..n, Sum[i>=0, C(2n,n-i(k+2))-C(2n,n+i(k+2)+k+1) ]].",
+  "id": "A101476",
+  "mentions": [
+    "A101475"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

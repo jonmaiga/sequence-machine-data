@@ -1,0 +1,19 @@
+{
+  "description": "Numbers expressible as 7*k+11*m (with nonnegative k, m) exactly in one way.",
+  "id": "A168135",
+  "mentions": [
+    "A168134"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the next prime appears after a gap greater than 100.",
+  "id": "A252800",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

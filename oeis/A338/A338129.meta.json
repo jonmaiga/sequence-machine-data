@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers k such that the binary representation of k^k ends with that of k.",
+  "id": "A338129",
+  "mentions": [
+    "A000225",
+    "A082576",
+    "A338128",
+    "A338130"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

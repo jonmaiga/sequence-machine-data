@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X (6+1) 0..3 arrays with every 2 X 2 subblock summing to 6 and no 2 X 2 subblock having exactly two nonzero entries.",
+  "id": "A251234",
+  "mentions": [
+    "A251236"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

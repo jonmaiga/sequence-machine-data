@@ -1,0 +1,20 @@
+{
+  "description": "Primitive Pythagorean triples [a, b, c] in lexicographic order with a < b < c such that [w(a), w(b), w(c)] is also a primitive Pythagorean triple, where w(n) is the binary weight of n.",
+  "id": "A349120",
+  "mentions": [
+    "A000120",
+    "A263728"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Pairs of primitive deficient numbers having the same value of sigma(k)/k, listed by increasing value of the larger of the two k values.",
+  "id": "A212610",
+  "mentions": [
+    "A211680",
+    "A212611",
+    "A212612"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing arrangements of n numbers in -7..7 with sum zero and sum of squares less than n*56/3",
+  "id": "A183933",
+  "mentions": [
+    "A183935"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

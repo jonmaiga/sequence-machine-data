@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are the average of two consecutive odd primes (A024675) together with primes which are the average of the previous prime and the following prime (A006562).",
+  "id": "A145025",
+  "mentions": [
+    "A006562",
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

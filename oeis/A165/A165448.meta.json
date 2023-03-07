@@ -1,0 +1,19 @@
+{
+  "description": "Product of prime numbers between 2^n+1 and 2^(n+1), inclusive.",
+  "id": "A165448",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A157625"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

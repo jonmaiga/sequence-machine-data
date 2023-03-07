@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of odd primes p < prime(n)^2 such that prime(n)# - p is prime.",
+  "id": "A185398",
+  "mentions": [
+    "A186413"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

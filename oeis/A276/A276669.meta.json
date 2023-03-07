@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows T(n,k) in which row n lists the first 2n-1 nonnegative integers representing 2n-1 equidistant points labeled in counterclockwise direction around a circle, with the 0th point at the top and reading them from left to right.",
+  "id": "A276669",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A001651",
+    "A004526",
+    "A110654"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = BS(n) * W(n) where BS = Sum_{k=0..n} ((-1)^k*k!/(k+1)) S(n, k) and S(n, k) the Stirling subset numbers A048993(n, k). W(n) = Product_{ p primes <= n+1 such that p divides n+1 or p-1 divides n } = A225481(n).",
+  "id": "A226156",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A048993",
+    "A141056",
+    "A225481",
+    "A226157"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

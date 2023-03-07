@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(k*(2*k^2+1)/3).",
+  "id": "A281157",
+  "mentions": [
+    "A003633",
+    "A005900",
+    "A248882",
+    "A258343"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:40:19",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

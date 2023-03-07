@@ -1,0 +1,23 @@
+{
+  "description": "Three-column table read by rows: triples (i,j,k) in order sorted from the left.",
+  "id": "A331195",
+  "mentions": [
+    "A056556",
+    "A056557",
+    "A056558",
+    "A330709"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

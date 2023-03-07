@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle T(n, k), read by rows, n >= 0 and 0 <= k < A001316(n): T(n, k) is the (k+1)-th nonnegative number m such that n AND m = m (where AND denotes the bitwise AND operator).",
+  "id": "A295989",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A001316",
+    "A006046",
+    "A006519",
+    "A053645",
+    "A129760",
+    "A285099",
+    "A352909"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

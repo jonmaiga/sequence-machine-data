@@ -1,0 +1,19 @@
+{
+  "description": "According to Larry Baggett, this sequence appeared on a Florida College Prep Exam. The exam question was, of course, given six or seven terms, to find the next term.",
+  "id": "A306429",
+  "mentions": [
+    "A323999"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

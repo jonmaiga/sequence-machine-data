@@ -1,0 +1,26 @@
+{
+  "description": "Smallest k such that k*10^n is a sum of two successive primes.",
+  "id": "A179975",
+  "mentions": [
+    "A005235",
+    "A033873",
+    "A033874",
+    "A038804",
+    "A055211",
+    "A064397",
+    "A071220",
+    "A074924",
+    "A074925",
+    "A084475"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

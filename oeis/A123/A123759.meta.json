@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of f(-q)*psi(-q^5) in powers of q where f(), psi() are Ramanujan theta functions.",
+  "id": "A123759",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:27",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

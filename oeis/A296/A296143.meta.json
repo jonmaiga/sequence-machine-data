@@ -1,0 +1,21 @@
+{
+  "description": "Number of configurations, excluding reflections and color swaps, of n beads each of three colors on a string.",
+  "id": "A296143",
+  "mentions": [
+    "A045723",
+    "A296144",
+    "A296145",
+    "A296146"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

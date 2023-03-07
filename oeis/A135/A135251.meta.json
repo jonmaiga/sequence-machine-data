@@ -1,0 +1,29 @@
+{
+  "description": "Maximal number of zero digits in square of number with n digits not divisible by 10.",
+  "id": "A135251",
+  "mentions": [
+    "A134843",
+    "A134844",
+    "A134845",
+    "A134846",
+    "A134847",
+    "A134848",
+    "A134849",
+    "A135215",
+    "A135217",
+    "A135219",
+    "A135252",
+    "A135253"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*a(n-1)^2 - 1, a(0)=6.",
+  "id": "A242232",
+  "mentions": [
+    "A001601",
+    "A002812",
+    "A005828",
+    "A023038",
+    "A084765"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

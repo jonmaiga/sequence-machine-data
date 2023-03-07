@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integer not occurring earlier in the sequence such that Sum_{k=1..n} a(k) written in binary contains binary n as a substring.",
+  "id": "A160855",
+  "mentions": [
+    "A062383",
+    "A160856",
+    "A236341"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

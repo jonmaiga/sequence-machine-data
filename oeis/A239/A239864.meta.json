@@ -1,0 +1,20 @@
+{
+  "description": "Starting from any prime p_i (with i = 1, 2, 3 …) sequence lists the minimum number of consecutive primes that must be added to 1 to reach another prime.",
+  "id": "A239864",
+  "mentions": [
+    "A000040",
+    "A239865",
+    "A239866",
+    "A239867"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

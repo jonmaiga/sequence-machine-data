@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of sqrt(9 + sqrt(9 + sqrt(9 + sqrt(9 + ...)))) = (sqrt(37) + 1)/2.",
+  "id": "A320029",
+  "mentions": [
+    "A000007",
+    "A000038",
+    "A000217",
+    "A001622",
+    "A209927",
+    "A222132",
+    "A222134",
+    "A223140",
+    "A235162"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:49:49",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

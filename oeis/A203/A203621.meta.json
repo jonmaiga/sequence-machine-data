@@ -1,0 +1,20 @@
+{
+  "description": "Highly anti-imperfect numbers: numbers k that sets a record for the value of |sigma*(k)-k|, where sigma*(k) is the sum of the anti-divisors of k.",
+  "id": "A203621",
+  "mentions": [
+    "A066417",
+    "A074918",
+    "A192267",
+    "A192268"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

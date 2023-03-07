@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into 8 distinct prime powers (including 1).",
+  "id": "A341145",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A341126",
+    "A341132",
+    "A341137",
+    "A341140",
+    "A341141",
+    "A341142",
+    "A341143",
+    "A341144"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 39,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

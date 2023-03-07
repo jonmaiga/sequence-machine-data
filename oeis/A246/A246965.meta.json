@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 19*n-(n+19) is a prime.",
+  "id": "A246965",
+  "mentions": [
+    "A138918"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A000204(n)^9 * x^n/n ) where A000204 is the Lucas numbers.",
+  "id": "A203809",
+  "mentions": [
+    "A000204",
+    "A002571",
+    "A203800",
+    "A203803",
+    "A203804",
+    "A203805",
+    "A203806",
+    "A203807",
+    "A203808",
+    "A203859"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

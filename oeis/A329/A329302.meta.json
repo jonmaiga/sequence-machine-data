@@ -1,0 +1,19 @@
+{
+  "description": "Number of level-n cubes on a Menger Sponge that are enclosed in the inscribed sphere of the starting cube.",
+  "id": "A329302",
+  "mentions": [
+    "A117609",
+    "A120884",
+    "A293288"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

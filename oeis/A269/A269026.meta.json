@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; for n>1, define a sequence {b(m), m >= 1} by b(1)=a(n-1), b(2)=n, and b(m) = A020639(b(m-2)) + A006530(b(m-1)); then a(n) is the number of terms in that sequence before the first of the infinite string of 4s.",
+  "id": "A269026",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A271621"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

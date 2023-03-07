@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) (n>=1, k>=1) = number of Baxter matrices of size n X k that contain the maximal number of 1's.",
+  "id": "A347676",
+  "mentions": [
+    "A347672",
+    "A347675",
+    "A347677"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

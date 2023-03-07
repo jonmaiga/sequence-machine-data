@@ -1,0 +1,19 @@
+{
+  "description": "Smallest semiprime, sp, such that 2n - sp is a semiprime, or a(n)=0 if there is no such sp.",
+  "id": "A241656",
+  "mentions": [
+    "A001358",
+    "A241535",
+    "A241658"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

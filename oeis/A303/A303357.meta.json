@@ -1,0 +1,19 @@
+{
+  "description": "Unitary near-perfect numbers: unitary abundant numbers n such that usigma(n) - 2n is a unitary divisor of n, where usigma(n) is the sum of unitary divisors of n (A034448).",
+  "id": "A303357",
+  "mentions": [
+    "A034448",
+    "A181595",
+    "A303356"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

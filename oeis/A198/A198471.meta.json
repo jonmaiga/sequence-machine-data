@@ -1,0 +1,18 @@
+{
+  "description": "Abundant numbers that are smaller than the sum of their deficient divisors.",
+  "id": "A198471",
+  "mentions": [
+    "A071395",
+    "A125310"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

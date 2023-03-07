@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T read by rows: T(n, k) is the number of n-th order magic triangles with magic constant equal to A285009(n) + k, with 0 < k <= 3*n - 5.",
+  "id": "A342384",
+  "mentions": [
+    "A016777",
+    "A179805",
+    "A285009",
+    "A341740",
+    "A342467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 2,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

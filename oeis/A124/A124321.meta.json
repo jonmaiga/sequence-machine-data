@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of set partitions of {1,2,...,n} (or of any n-set) having k blocks of odd size (0<=k<=n).",
+  "id": "A124321",
+  "mentions": [
+    "A000110",
+    "A005046",
+    "A102286",
+    "A124322"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

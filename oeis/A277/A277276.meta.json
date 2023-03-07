@@ -1,0 +1,19 @@
+{
+  "description": "Number of tautologies and contradictions in propositional calculus of length n.",
+  "id": "A277276",
+  "mentions": [
+    "A256120",
+    "A277275"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

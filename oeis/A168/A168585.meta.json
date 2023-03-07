@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of partitioning the multiset {1,1,2,3,...,n-1} into exactly five nonempty parts.",
+  "id": "A168585",
+  "mentions": [
+    "A083329",
+    "A168583",
+    "A168584"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:59:06",
+    "offset": 5,
+    "size": 20,
+    "source": "joeis"
+  }
+}

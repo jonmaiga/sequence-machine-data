@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 0; for n > 1, if n is not squarefree, then a(n) = A057627(n), otherwise a(n) = A013928(n).",
+  "id": "A284584",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A013928",
+    "A013929",
+    "A057627",
+    "A066136",
+    "A243343",
+    "A243345",
+    "A243347",
+    "A243352"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

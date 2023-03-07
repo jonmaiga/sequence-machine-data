@@ -1,0 +1,17 @@
+{
+  "description": "Positions of records in A175432.",
+  "id": "A169981",
+  "mentions": [
+    "A175432"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

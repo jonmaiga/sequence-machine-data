@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A166133(n)^2 - 1.",
+  "id": "A256557",
+  "mentions": [
+    "A166133",
+    "A256559"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

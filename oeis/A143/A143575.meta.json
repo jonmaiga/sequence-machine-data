@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that A143574(m) = m.",
+  "id": "A143575",
+  "mentions": [
+    "A000161",
+    "A000548",
+    "A143574"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number A(n,k) of set partitions of [n] such that all absolute differences between least elements of consecutive blocks are <= k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A287216",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A026898",
+    "A287214",
+    "A287215",
+    "A287252",
+    "A287253",
+    "A287254",
+    "A287255",
+    "A287256",
+    "A287257",
+    "A287258",
+    "A287259",
+    "A287260",
+    "A287417",
+    "A287641"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

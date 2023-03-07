@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of disconnected permutation graphs on n vertices with domination number k, with 2 <= k <= n.",
+  "id": "A320579",
+  "mentions": [
+    "A320578",
+    "A320583"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

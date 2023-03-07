@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of signature sets in graded reverse lexicographic order whose members appear as terms in A026477.",
+  "id": "A276631",
+  "mentions": [
+    "A026477",
+    "A276630"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

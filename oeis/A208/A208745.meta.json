@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the gravitoid constant.",
+  "id": "A208745",
+  "mentions": [
+    "A104956"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:57",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that every prime p that divides d(n) (A000005) also divides n.",
+  "id": "A120736",
+  "mentions": [
+    "A000005",
+    "A007955",
+    "A048751",
+    "A120737"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

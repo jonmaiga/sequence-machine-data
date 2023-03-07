@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n arrays with entries in 1..6 in which adjacent entries differ by 4 or less (adjacent means in x or y directions).",
+  "id": "A125536",
+  "mentions": [
+    "A063496",
+    "A068744",
+    "A068745",
+    "A068746",
+    "A068747"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

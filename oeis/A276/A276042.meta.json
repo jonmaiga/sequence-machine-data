@@ -1,0 +1,21 @@
+{
+  "description": "Exponential convolution of central polygonal numbers (A000124) with themselves.",
+  "id": "A276042",
+  "mentions": [
+    "A000124",
+    "A003633",
+    "A007465"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:09:58",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

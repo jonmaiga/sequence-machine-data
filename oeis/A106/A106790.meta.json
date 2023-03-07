@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k>0 such that binomial(n,k) + 1 is prime.",
+  "id": "A106790",
+  "mentions": [
+    "A000040",
+    "A067317"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

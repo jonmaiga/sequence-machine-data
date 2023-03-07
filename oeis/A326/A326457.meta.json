@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the seventh largest parts in the partitions of n into 8 primes.",
+  "id": "A326457",
+  "mentions": [
+    "A010051",
+    "A259198",
+    "A326455",
+    "A326456",
+    "A326458",
+    "A326459",
+    "A326460",
+    "A326461",
+    "A326462",
+    "A326463"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

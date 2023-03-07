@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n = x + y (x, y > 0) with x*(x + 1) + F(y) prime, where F(y) denotes the y-th Fibonacci number (A000045).",
+  "id": "A231555",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A228425",
+    "A228428",
+    "A228429",
+    "A228430",
+    "A228431",
+    "A231201"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

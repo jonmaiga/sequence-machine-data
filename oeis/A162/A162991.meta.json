@@ -1,0 +1,21 @@
+{
+  "description": "The first right hand column of triangle A162990",
+  "id": "A162991",
+  "mentions": [
+    "A001048",
+    "A162990",
+    "A162992"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:17:14",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

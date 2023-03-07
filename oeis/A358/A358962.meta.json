@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = coefficient of x^n in A(x) such that: 1 = Sum_{n=-oo..+oo} x^n * (A(x) - x^(3*n+2))^(n-1).",
+  "id": "A358962",
+  "mentions": [
+    "A358961",
+    "A358963",
+    "A358964",
+    "A358965"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

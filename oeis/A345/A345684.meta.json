@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} k/floor(n/k).",
+  "id": "A345684",
+  "mentions": [
+    "A006218",
+    "A010786",
+    "A076000",
+    "A092143",
+    "A117871",
+    "A345682",
+    "A345683"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

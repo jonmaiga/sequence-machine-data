@@ -1,0 +1,25 @@
+{
+  "description": "Number of steps needed to reach zero when starting from the n-th prime [i.e., setting k to A000040(n)] and repeatedly applying the map that replaces k with k - d(k), where d(k) is the number of divisors of k (A000005).",
+  "id": "A261085",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A049820",
+    "A155043",
+    "A259934",
+    "A261086",
+    "A261087",
+    "A261088"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

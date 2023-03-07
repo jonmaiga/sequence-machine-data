@@ -1,0 +1,23 @@
+{
+  "description": "Positions of records in A179319 for both positive and negative integers; A183555 and A183556 merged together.",
+  "id": "A183557",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A059973",
+    "A179319",
+    "A183555",
+    "A183556"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

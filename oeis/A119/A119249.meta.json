@@ -1,0 +1,22 @@
+{
+  "description": "Indices of Fibonacci numbers in A081952.",
+  "id": "A119249",
+  "mentions": [
+    "A000045",
+    "A081952",
+    "A086435"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

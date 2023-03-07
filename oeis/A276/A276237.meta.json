@@ -1,0 +1,20 @@
+{
+  "description": "Table read by antidiagonals: row n consists of k>=1 such that all primes dividing k divide n.",
+  "id": "A276237",
+  "mentions": [
+    "A003586",
+    "A003592",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

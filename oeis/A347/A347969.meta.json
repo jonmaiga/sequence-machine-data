@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which are sum of three squares of positive numbers and also 5 times of the sum of their joint products.",
+  "id": "A347969",
+  "mentions": [
+    "A000378",
+    "A033428",
+    "A331605",
+    "A347360"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

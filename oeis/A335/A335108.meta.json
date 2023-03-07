@@ -1,0 +1,17 @@
+{
+  "description": "Number of periods of the length-n prefix of the Thue-Morse sequence (A010060).",
+  "id": "A335108",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

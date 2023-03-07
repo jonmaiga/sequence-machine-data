@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k concatenated with k-9 gives the product of two numbers which differ by 6.",
+  "id": "A116098",
+  "mentions": [
+    "A054214",
+    "A116097",
+    "A116099",
+    "A116106",
+    "A116128",
+    "A116129",
+    "A116130",
+    "A116136",
+    "A116229",
+    "A116260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

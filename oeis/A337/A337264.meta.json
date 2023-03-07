@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: h(m,n) (m>=0, n>=0) = 1 if there is an edge to the right from grid point (m,n) in the Even Conant lattice.",
+  "id": "A337264",
+  "mentions": [
+    "A328078",
+    "A328080",
+    "A337263",
+    "A337265"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

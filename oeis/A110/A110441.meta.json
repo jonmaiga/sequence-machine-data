@@ -1,0 +1,36 @@
+{
+  "description": "Triangular array formed by the Mersenne numbers.",
+  "id": "A110441",
+  "mentions": [
+    "A000225",
+    "A001906",
+    "A007070",
+    "A038255",
+    "A045618",
+    "A055582",
+    "A084938",
+    "A107839",
+    "A116414",
+    "A130330",
+    "A154244",
+    "A186446",
+    "A190869",
+    "A190975",
+    "A190979",
+    "A206306",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

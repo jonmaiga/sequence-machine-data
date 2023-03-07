@@ -1,0 +1,21 @@
+{
+  "description": "Squares present in A276573 (the infinite trunk of least squares beanstalk).",
+  "id": "A277016",
+  "mentions": [
+    "A276573",
+    "A277014",
+    "A277015",
+    "A277025"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

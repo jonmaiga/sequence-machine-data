@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that tau(sigma(m)) and sigma(tau(m)) both divide m, where tau(m) is the number of divisors function (A000005) and sigma(m) is the sum of divisors function (A000203).",
+  "id": "A336687",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A062068",
+    "A062069",
+    "A336612",
+    "A336613"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

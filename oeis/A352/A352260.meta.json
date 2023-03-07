@@ -1,0 +1,27 @@
+{
+  "description": "Integers that need 2 iterations of the map x->A352172(x) to reach 1.",
+  "id": "A352260",
+  "mentions": [
+    "A351876",
+    "A352172",
+    "A352261",
+    "A352262",
+    "A352263",
+    "A352264",
+    "A352265",
+    "A352266",
+    "A352267",
+    "A352268"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

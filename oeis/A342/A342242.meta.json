@@ -1,0 +1,21 @@
+{
+  "description": "For any n > 0, a(n) is the least positive number whose binary expansion is both a prefix and a suffix of the binary expansion of n; a(0) = 0.",
+  "id": "A342242",
+  "mentions": [
+    "A091065",
+    "A342241"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

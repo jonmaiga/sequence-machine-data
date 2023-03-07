@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of phi(q) * (phi(q) + phi(q^2)) / 2 in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A244540",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004018",
+    "A010054",
+    "A010815",
+    "A033715",
+    "A033761",
+    "A053692",
+    "A093709",
+    "A107635",
+    "A121373",
+    "A244526",
+    "A244543"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:33",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

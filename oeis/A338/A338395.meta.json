@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that lcm(tau(m), sigma(m), pod(m)) = pod(m).",
+  "id": "A338395",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007955",
+    "A277521",
+    "A336723"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

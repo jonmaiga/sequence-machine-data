@@ -1,0 +1,21 @@
+{
+  "description": "Difference between cumulative prime and odd sums.",
+  "id": "A134181",
+  "mentions": [
+    "A005563",
+    "A071148",
+    "A134182"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

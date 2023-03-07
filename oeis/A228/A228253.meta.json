@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime that does not divide at least one n-digit pandigital number.",
+  "id": "A228253",
+  "mentions": [
+    "A182051",
+    "A216203"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 10,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

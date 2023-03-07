@@ -1,0 +1,26 @@
+{
+  "description": "Square array, read by ascending antidiagonals, where row n gives all solutions n > 0 to A000120(n+1) = A000120((n+1)*k), A000120 is the Hamming weight.",
+  "id": "A340547",
+  "mentions": [
+    "A000120",
+    "A007583",
+    "A263132",
+    "A299960",
+    "A340069",
+    "A340351",
+    "A340441"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

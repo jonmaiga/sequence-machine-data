@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^{k-Omega(k)} with Omega(k) the total number of prime factors of k (counted with multiplicity).",
+  "id": "A212496",
+  "mentions": [
+    "A002819",
+    "A008836"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

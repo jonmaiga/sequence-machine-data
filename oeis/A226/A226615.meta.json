@@ -1,0 +1,20 @@
+{
+  "description": "Length of the Collatz-like 3x+k cycle associated with A226614(n).",
+  "id": "A226615",
+  "mentions": [
+    "A226609",
+    "A226612",
+    "A226614"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

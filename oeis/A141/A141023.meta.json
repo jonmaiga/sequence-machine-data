@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^n - (3-(-1)^n)/2.",
+  "id": "A141023",
+  "mentions": [
+    "A000034",
+    "A000079",
+    "A000975",
+    "A062510"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

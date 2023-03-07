@@ -1,0 +1,38 @@
+{
+  "description": "Number T(n,k) of permutations of [n] having k cycles of the form (c1, c2, ..., c_m) where c1 = min_{i>=1} c_i and c_j = min_{i>=j} c_i or c_j = max_{i>=j} c_i; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A344855",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A000914",
+    "A060281",
+    "A132393",
+    "A166444",
+    "A186366",
+    "A187251",
+    "A345341",
+    "A345342",
+    "A346317",
+    "A346318",
+    "A346319",
+    "A346320",
+    "A346321",
+    "A346322",
+    "A346323",
+    "A346324",
+    "A346325"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with equal remainders of (product of divisors of n) mod (sum of divisors of n) and (product of proper divisors of n) mod (sum of proper divisors of n).",
+  "id": "A192035",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A005100",
+    "A007956",
+    "A187680",
+    "A191906"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

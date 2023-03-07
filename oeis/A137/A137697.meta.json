@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = x(n) * 2^((n mod 2 - 1)/2), with x(n)=Sum(x(k)*x(n-k-1):0<=k",
+  "id": "A137697",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

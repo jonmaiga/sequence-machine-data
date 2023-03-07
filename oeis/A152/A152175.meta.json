@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-block partitions of an n-set up to rotations.",
+  "id": "A152175",
+  "mentions": [
+    "A000013",
+    "A002076",
+    "A008277",
+    "A056292",
+    "A056293",
+    "A056294",
+    "A056295",
+    "A056296",
+    "A056297",
+    "A056298",
+    "A056299",
+    "A056391",
+    "A075195",
+    "A084423",
+    "A087854",
+    "A152176",
+    "A284949",
+    "A293181",
+    "A294201"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:20:29",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

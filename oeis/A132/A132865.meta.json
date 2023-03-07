@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1-5x*c(6x)), where c(x) is the g.f. of A000108.",
+  "id": "A132865",
+  "mentions": [
+    "A000108",
+    "A039599"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:53:52",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

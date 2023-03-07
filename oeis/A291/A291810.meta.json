@@ -1,0 +1,20 @@
+{
+  "description": "Diatonic harmonica standard Richter tone layout.",
+  "id": "A291810",
+  "mentions": [
+    "A291811",
+    "A291812"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

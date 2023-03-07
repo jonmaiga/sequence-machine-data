@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. 1/(1 - Sum_{j=1..k} (exp(j*x) - 1)/j).",
+  "id": "A355427",
+  "mentions": [
+    "A000007",
+    "A000670",
+    "A306024",
+    "A320253",
+    "A355425",
+    "A355426",
+    "A355428"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

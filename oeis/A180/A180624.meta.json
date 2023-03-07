@@ -1,0 +1,19 @@
+{
+  "description": "Partials sums of A090615.",
+  "id": "A180624",
+  "mentions": [
+    "A090615"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

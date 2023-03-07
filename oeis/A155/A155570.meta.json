@@ -1,0 +1,25 @@
+{
+  "description": "Intersection of A003136 and A020669: N = a^2 + 3b^2 = c^2 + 5d^2 for some integers a,b,c,d.",
+  "id": "A155570",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A002479",
+    "A002481",
+    "A003136",
+    "A020668",
+    "A020669",
+    "A155710"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:55:03",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

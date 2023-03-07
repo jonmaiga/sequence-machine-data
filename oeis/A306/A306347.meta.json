@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. exp((sin(x) + sinh(x))/2).",
+  "id": "A306347",
+  "mentions": [
+    "A002017",
+    "A003724",
+    "A005046",
+    "A013025",
+    "A016813",
+    "A035451",
+    "A291975",
+    "A307978",
+    "A307979",
+    "A351969"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

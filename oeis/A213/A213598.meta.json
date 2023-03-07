@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n in which no parts are multiples of 49.",
+  "id": "A213598",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000726",
+    "A001935",
+    "A035959",
+    "A035985",
+    "A092885",
+    "A104502",
+    "A219601",
+    "A261775",
+    "A261776",
+    "A287926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

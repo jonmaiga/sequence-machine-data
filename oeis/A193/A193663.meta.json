@@ -1,0 +1,19 @@
+{
+  "description": "Q-residue of A049310 (triangle of coefficients of Fibonacci polynomials), where Q is the triangle given by t(n,k)=k+1 for 0<=k<=n. (See Comments.)",
+  "id": "A193663",
+  "mentions": [
+    "A049310",
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

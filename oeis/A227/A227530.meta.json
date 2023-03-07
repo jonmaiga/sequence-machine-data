@@ -1,0 +1,22 @@
+{
+  "description": "Integer lengths of the n-th Copeland-Erdős prime (concatenation of the first n entries (digits) of A033308 is prime).",
+  "id": "A227530",
+  "mentions": [
+    "A019518",
+    "A033308",
+    "A069151",
+    "A227529"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

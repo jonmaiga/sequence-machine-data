@@ -1,0 +1,23 @@
+{
+  "description": "Alternating sum of 9-gonal (or decagonal) pyramidal numbers.",
+  "id": "A269440",
+  "mentions": [
+    "A000292",
+    "A002717",
+    "A007584",
+    "A173196",
+    "A266677"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:13",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

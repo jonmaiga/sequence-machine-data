@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array: T(n,k) equals the number of small Schröder paths such that the area between the path and the x-axis contains n up-triangles and k down-triangles; n >= 1, k >= 0.",
+  "id": "A326792",
+  "mentions": [
+    "A224704",
+    "A326793"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers congruent to k mod 25, where 0 <= k <= 9.",
+  "id": "A174141",
+  "mentions": [
+    "A001299",
+    "A008587",
+    "A047201",
+    "A053344",
+    "A174138",
+    "A174139",
+    "A174140"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:43:03",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

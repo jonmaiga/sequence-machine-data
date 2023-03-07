@@ -1,0 +1,20 @@
+{
+  "description": "The Ronnie O'Sullivan's \"infinite plant\" sequence: nonprime numbers become prime numbers by striking the cue ball 1 with a cue stick to the right (see the Comments section).",
+  "id": "A339467",
+  "mentions": [
+    "A335972",
+    "A335973",
+    "A339616"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

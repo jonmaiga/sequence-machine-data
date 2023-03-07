@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the x nearest 0 that satisfies x^2+3x+1=e^x.",
+  "id": "A201898",
+  "mentions": [
+    "A201741",
+    "A201897",
+    "A201899"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:34:35",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of (n+2)X6 binary arrays with each 3X3 subblock having sum 3, 4, 5 or 6",
+  "id": "A187312",
+  "mentions": [
+    "A187317"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

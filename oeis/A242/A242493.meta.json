@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of not-sqrt-smooth numbers (\"jagged\" numbers) not exceeding n. This is the counting function of A064052.",
+  "id": "A242493",
+  "mentions": [
+    "A064052",
+    "A064775",
+    "A072490",
+    "A153810",
+    "A242610"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

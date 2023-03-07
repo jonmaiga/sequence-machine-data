@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 4 in A190561.",
+  "id": "A190566",
+  "mentions": [
+    "A190561",
+    "A190562",
+    "A190563",
+    "A190564",
+    "A190565"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:23",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

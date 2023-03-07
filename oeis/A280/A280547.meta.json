@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number k such that (k+1)^n - k^n is divisible by a square greater than 1.",
+  "id": "A280547",
+  "mentions": [
+    "A280302",
+    "A281996",
+    "A282174",
+    "A289629",
+    "A289985"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

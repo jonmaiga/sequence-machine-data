@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n-1)!^(2n).",
+  "id": "A350558",
+  "mentions": [
+    "A000142",
+    "A284458",
+    "A343698",
+    "A343699",
+    "A343700"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

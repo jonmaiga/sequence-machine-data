@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose base-10 representation also represents a prime in base 13.",
+  "id": "A235110",
+  "mentions": [
+    "A090707",
+    "A090712",
+    "A091924",
+    "A235144"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

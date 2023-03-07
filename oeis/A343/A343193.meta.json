@@ -1,0 +1,30 @@
+{
+  "description": "Number of ordered quadruples (w, x, y, z) with gcd(w, x, y, z) = 1 and 1 <= {w, x, y, z} <= 10^n.",
+  "id": "A343193",
+  "mentions": [
+    "A013662",
+    "A018805",
+    "A071778",
+    "A082540",
+    "A215267",
+    "A342586",
+    "A342632",
+    "A342841",
+    "A342935",
+    "A343282",
+    "A343527",
+    "A343978",
+    "A344038"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

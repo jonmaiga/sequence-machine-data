@@ -1,0 +1,30 @@
+{
+  "description": "Prime pairs of the form (p, p+20).",
+  "id": "A272816",
+  "mentions": [
+    "A000040",
+    "A077800",
+    "A094343",
+    "A140445",
+    "A140446",
+    "A140447",
+    "A153419",
+    "A156274",
+    "A156320",
+    "A156323",
+    "A156328",
+    "A272815"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

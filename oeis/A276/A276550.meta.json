@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of primitive (period n) bracelets using a maximum of k different colored beads.",
+  "id": "A276550",
+  "mentions": [
+    "A000011",
+    "A001371",
+    "A032294",
+    "A032295",
+    "A032296",
+    "A056347",
+    "A081720",
+    "A152176",
+    "A273891",
+    "A276543"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:47:13",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

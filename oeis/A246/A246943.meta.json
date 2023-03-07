@@ -1,0 +1,24 @@
+{
+  "description": "a(4n) = 4*n , a(2n+1) = 8*n+4 , a(4n+2) = 2*n+1.",
+  "id": "A246943",
+  "mentions": [
+    "A000290",
+    "A022998",
+    "A028310",
+    "A061038",
+    "A138191",
+    "A145979"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:27",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "f(f(n+1))-f(f(n)), where f(m) = binary partition(m) = A000123(m).",
+  "id": "A111414",
+  "mentions": [
+    "A000123"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A063659(k) = A063659(k+1).",
+  "id": "A336673",
+  "mentions": [
+    "A000010",
+    "A001274",
+    "A063659"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

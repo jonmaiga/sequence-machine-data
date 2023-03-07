@@ -1,0 +1,27 @@
+{
+  "description": "The Schramm triangle: T(n,k) = f(gcd(n,k)), where f = Dirichlet inverse of Euler totient.",
+  "id": "A231425",
+  "mentions": [
+    "A000007",
+    "A008683",
+    "A014963",
+    "A023900",
+    "A054521",
+    "A054524",
+    "A055615",
+    "A191898",
+    "A199514"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

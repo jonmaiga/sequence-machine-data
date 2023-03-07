@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (1 - x^4)^(-1/x^3).",
+  "id": "A353225",
+  "mentions": [
+    "A121452",
+    "A353223",
+    "A353224"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

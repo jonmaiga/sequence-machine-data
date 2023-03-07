@@ -1,0 +1,21 @@
+{
+  "description": "Primes p of the form 4k+1 for which s=5 is the least positive integer such that s*p - floor(sqrt(s*p))^2 is a perfect square.",
+  "id": "A145023",
+  "mentions": [
+    "A002144",
+    "A145016",
+    "A145022",
+    "A245440",
+    "A245474"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

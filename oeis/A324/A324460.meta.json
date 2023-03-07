@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m > 1 that have a strict s-decomposition.",
+  "id": "A324460",
+  "mentions": [
+    "A324316",
+    "A324455",
+    "A324456",
+    "A324457",
+    "A324458",
+    "A324459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

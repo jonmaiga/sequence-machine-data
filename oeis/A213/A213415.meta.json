@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of nX5 binary arrays with no 3X3 submatrix formed with any three rows and columns equal to J-I",
+  "id": "A213415",
+  "mentions": [
+    "A213418"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

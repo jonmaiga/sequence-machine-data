@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of sets of nonempty subsets of a k-element set where each element appears in at most n subsets.",
+  "id": "A330964",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A178165",
+    "A178171",
+    "A178173",
+    "A188445",
+    "A219585",
+    "A219727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of v * (v^4 - 3*v^3 + 4*v^2 - 2*v + 1) in powers of q where r() is the Rogers-Ramanujan continued fraction and v = r(q^5).",
+  "id": "A285587",
+  "mentions": [
+    "A078905",
+    "A285585"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

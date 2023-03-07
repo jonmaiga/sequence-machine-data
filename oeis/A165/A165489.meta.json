@@ -1,0 +1,21 @@
+{
+  "description": "Eigensequence of triangle A084938.",
+  "id": "A165489",
+  "mentions": [
+    "A084938",
+    "A165490"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "eigen",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

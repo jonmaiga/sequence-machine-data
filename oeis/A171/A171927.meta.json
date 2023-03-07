@@ -1,0 +1,20 @@
+{
+  "description": "Records in A171922 (values).",
+  "id": "A171927",
+  "mentions": [
+    "A171921",
+    "A171922",
+    "A171926",
+    "A171930"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

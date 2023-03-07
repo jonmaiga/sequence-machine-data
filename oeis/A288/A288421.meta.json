@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 + x^k)^sigma(k).",
+  "id": "A288421",
+  "mentions": [
+    "A192065",
+    "A288007",
+    "A288418",
+    "A288422",
+    "A288423"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

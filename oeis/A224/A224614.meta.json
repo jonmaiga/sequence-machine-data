@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that q = 2*p^3-1 and 2*p*q^2-1 are both prime.",
+  "id": "A224614",
+  "mentions": [
+    "A177104",
+    "A224610",
+    "A224613"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

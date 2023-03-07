@@ -1,0 +1,19 @@
+{
+  "description": "Sequence {a(n), n>=0} satisfying the continued fraction relation: if z = [a(0) + 1; a(1) + 1, a(2) + 1, a(3) + 1, ..., a(n) + 1, ...], then 7*z = [a(0) + 9; a(1) + 11, a(2) + 11, a(3) + 11, ..., a(n) + 11, ...].",
+  "id": "A321100",
+  "mentions": [
+    "A321090"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 201,
+    "source": "oeis-entry"
+  }
+}

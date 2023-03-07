@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - (x/(1-x))^k)^k.",
+  "id": "A307574",
+  "mentions": [
+    "A073592",
+    "A307310",
+    "A320563",
+    "A320564"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

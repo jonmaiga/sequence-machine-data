@@ -1,0 +1,21 @@
+{
+  "description": "Terms in A015922 not divisible by 3.",
+  "id": "A130133",
+  "mentions": [
+    "A001651",
+    "A015922",
+    "A033553",
+    "A130134",
+    "A277344"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

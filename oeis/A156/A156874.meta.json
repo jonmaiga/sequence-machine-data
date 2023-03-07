@@ -1,0 +1,26 @@
+{
+  "description": "Number of Sophie Germain primes <= n.",
+  "id": "A156874",
+  "mentions": [
+    "A000720",
+    "A005384",
+    "A005597",
+    "A092816",
+    "A156660",
+    "A156875",
+    "A156876",
+    "A156877",
+    "A156878"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

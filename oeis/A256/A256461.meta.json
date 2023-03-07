@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that A098550(n) + A098550(n+1) + ... + A098550(n+k) is prime, or -1 if there is no such k.",
+  "id": "A256461",
+  "mentions": [
+    "A000027",
+    "A077654",
+    "A089306",
+    "A098550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

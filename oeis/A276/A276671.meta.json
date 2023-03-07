@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers k such that 3^k == 2 (mod k).",
+  "id": "A276671",
+  "mentions": [
+    "A015949",
+    "A015973",
+    "A050259",
+    "A055686",
+    "A067945",
+    "A234535",
+    "A234536",
+    "A242865"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

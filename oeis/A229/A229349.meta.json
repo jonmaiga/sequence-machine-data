@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the ordinary convergents of continued fraction [x(1),x(2),x(3),...], where x(n) = F(n+1)/F(n), where F = A000045 (Fibonacci numbers).",
+  "id": "A229349",
+  "mentions": [
+    "A000045",
+    "A229348",
+    "A229350",
+    "A229351"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

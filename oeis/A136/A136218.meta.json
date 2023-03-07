@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows of A136219(n) terms, where row n+1 is generated from row n by first inserting zeros in row n at positions {[m*(m+7)/6], m>=0} and then taking partial sums, starting with a '1' in row 0.",
+  "id": "A136218",
+  "mentions": [
+    "A136213",
+    "A136217",
+    "A136219",
+    "A136220",
+    "A136221"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

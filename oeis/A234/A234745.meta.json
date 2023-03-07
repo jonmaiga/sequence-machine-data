@@ -1,0 +1,21 @@
+{
+  "description": "Blue-code restricted to reducible polynomials over GF(2): a(n) = A193231(A091242(n)).",
+  "id": "A234745",
+  "mentions": [
+    "A091242",
+    "A193231",
+    "A234746",
+    "A234750"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

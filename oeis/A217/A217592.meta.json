@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are cut in half by cycling all the decimal digits one place to the left.",
+  "id": "A217592",
+  "mentions": [
+    "A146088"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

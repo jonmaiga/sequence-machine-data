@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers, each occurring twice in the sequence, such that a(n) = a(k) when n+k = 6*a(n), starting with a(1)=1 and filling the next vacant position with the smallest unused number.",
+  "id": "A117386",
+  "mentions": [
+    "A117384",
+    "A117385"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

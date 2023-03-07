@@ -1,0 +1,21 @@
+{
+  "description": "Consider all ways of writing n = a + b where a<=b, gcd(a,b,n)=1, and having the same value of the function N(a,b,n) defined as product of the distinct prime divisors of a*b*n. Let w be the list of frequencies of distinct terms N(a, b, n) found among these partitions. If no frequency is more than 1 then a(n) = 0, otherwise a(n) = [the sum of elements of w] - [the number of elements of w] + 1.",
+  "id": "A172246",
+  "mentions": [
+    "A023022",
+    "A172245",
+    "A172247",
+    "A172248"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

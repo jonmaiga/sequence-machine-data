@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n with no 1's whose product of parts is a squarefree number.",
+  "id": "A322530",
+  "mentions": [
+    "A002865",
+    "A003963",
+    "A005117",
+    "A064573",
+    "A072774",
+    "A073576",
+    "A302505",
+    "A319005",
+    "A319057",
+    "A319169",
+    "A320322",
+    "A322526",
+    "A322527",
+    "A322528",
+    "A322529"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

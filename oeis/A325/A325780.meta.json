@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of perfect integer partitions.",
+  "id": "A325780",
+  "mentions": [
+    "A002033",
+    "A056239",
+    "A103300",
+    "A108917",
+    "A112798",
+    "A126796",
+    "A188431",
+    "A258119",
+    "A299702",
+    "A325763",
+    "A325768",
+    "A325781",
+    "A325782"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

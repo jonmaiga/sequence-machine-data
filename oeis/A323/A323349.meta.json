@@ -1,0 +1,29 @@
+{
+  "description": "Number of positive integer matrices with entries summing to n, with equal row-sums and equal column-sums.",
+  "id": "A323349",
+  "mentions": [
+    "A000219",
+    "A006052",
+    "A120733",
+    "A305551",
+    "A319056",
+    "A321719",
+    "A323295",
+    "A323300",
+    "A323302",
+    "A323306",
+    "A323347"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

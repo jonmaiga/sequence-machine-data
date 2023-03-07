@@ -1,0 +1,23 @@
+{
+  "description": "Position of the first occurrence of (0, 1, ..., n-1) in the digits of Pi written in base n.",
+  "id": "A307582",
+  "mentions": [
+    "A068987",
+    "A121280",
+    "A307581",
+    "A307583"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

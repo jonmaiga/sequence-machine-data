@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that Lucas(k) + prime(k) is a prime.",
+  "id": "A288794",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A050180"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

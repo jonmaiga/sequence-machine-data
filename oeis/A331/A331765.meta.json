@@ -1,0 +1,21 @@
+{
+  "description": "Number of edges formed by drawing the lines connecting any two of the 2*(n+2) perimeter points of a 3 X (n+1) rectangular grid of points (or equally, a 2 X n grid of squares).",
+  "id": "A331765",
+  "mentions": [
+    "A331452",
+    "A331453",
+    "A331454",
+    "A331763",
+    "A331766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A triangular sequence from a functional coefficient expansion of a raising factorial type: p(x,t)=1/(1-t)^(m*x);m=3.",
+  "id": "A137339",
+  "mentions": [
+    "A052560",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

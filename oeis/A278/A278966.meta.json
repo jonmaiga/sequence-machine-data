@@ -1,0 +1,23 @@
+{
+  "description": "Least Hamming weight of multiples of the n-th prime.",
+  "id": "A278966",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A014663",
+    "A014664",
+    "A086342",
+    "A278967",
+    "A278968"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

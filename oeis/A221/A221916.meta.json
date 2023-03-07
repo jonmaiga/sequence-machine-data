@@ -1,0 +1,23 @@
+{
+  "description": "Array of products of the list entries of the combinations of n, taken in reverse standard order.",
+  "id": "A221916",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A008275",
+    "A130534",
+    "A221914"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

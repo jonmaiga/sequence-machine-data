@@ -1,0 +1,35 @@
+{
+  "description": "Number of lone-child-avoiding locally disjoint rooted identity trees whose leaves are integer partitions whose multiset union is an integer partition of n.",
+  "id": "A331686",
+  "mentions": [
+    "A000669",
+    "A001678",
+    "A004111",
+    "A005804",
+    "A141268",
+    "A212804",
+    "A300660",
+    "A316471",
+    "A316694",
+    "A316697",
+    "A319312",
+    "A331678",
+    "A331679",
+    "A331683",
+    "A331684",
+    "A331783",
+    "A331874",
+    "A331875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

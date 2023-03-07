@@ -1,0 +1,22 @@
+{
+  "description": "Prune the tree structure defined in sequence A129129 yielding a new irregular table with shape sequence A027336.",
+  "id": "A129125",
+  "mentions": [
+    "A000041",
+    "A027336",
+    "A027736",
+    "A129129"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

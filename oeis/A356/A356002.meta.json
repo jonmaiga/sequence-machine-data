@@ -1,0 +1,19 @@
+{
+  "description": "A family of triangles T(m), m >= 0, read by triangles and then by rows; triangle T(0) is [1; 1, 1]; for m >= 0, triangle T(m+1) is obtained by replacing each subtriangle [t; u, v] in T(m) by [t; 2*t+u, 2*t+v; t+2*u, t+u+v, t+2*v; u, 2*u+v, u+2*v, v].",
+  "id": "A356002",
+  "mentions": [
+    "A177407",
+    "A355855"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

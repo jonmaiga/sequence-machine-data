@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = A353752(n) / gcd(A062401(n), A353752(n)), where A062401(n) = phi(sigma(n)), and A353752(n) = Product_{p^e||n} phi(sigma(p^e)).",
+  "id": "A353756",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A353752",
+    "A353753",
+    "A353754",
+    "A353755",
+    "A353806"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

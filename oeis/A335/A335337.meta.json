@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that A335294(k) = n, or -1 if no such k exists.",
+  "id": "A335337",
+  "mentions": [
+    "A335294"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

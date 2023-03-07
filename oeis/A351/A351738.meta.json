@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k>0} sin(sqrt(k)) / k.",
+  "id": "A351738",
+  "mentions": [
+    "A096418",
+    "A096444",
+    "A114940",
+    "A228639",
+    "A263193",
+    "A342680"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

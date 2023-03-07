@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of {1,...,n} containing n and having at least one set partition into 8 blocks with equal element sum.",
+  "id": "A248117",
+  "mentions": [
+    "A248112"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 15,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

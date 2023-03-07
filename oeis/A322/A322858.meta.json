@@ -1,0 +1,19 @@
+{
+  "description": "List of e-perfect numbers that are not e-unitary perfect.",
+  "id": "A322858",
+  "mentions": [
+    "A051377",
+    "A054979",
+    "A322857"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

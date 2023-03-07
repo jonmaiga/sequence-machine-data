@@ -1,0 +1,29 @@
+{
+  "description": "Number of grid points that are covered after n-th stage of A139250 version \"Tree\", starting with a(0) = 1 and assuming the toothpicks have length 4, 3, and 2.",
+  "id": "A194811",
+  "mentions": [
+    "A139250",
+    "A147646",
+    "A152980",
+    "A153006",
+    "A159795",
+    "A160128",
+    "A160420",
+    "A160422",
+    "A160425",
+    "A182618",
+    "A194800",
+    "A194802"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:16:33",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

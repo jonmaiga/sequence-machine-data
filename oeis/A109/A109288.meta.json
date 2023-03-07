@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes equal to p*q + 1, where p and q are distinct primes.",
+  "id": "A109288",
+  "mentions": [
+    "A109287",
+    "A109289",
+    "A109290"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

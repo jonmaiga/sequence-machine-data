@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that A045876(n) = A045876(n+1).",
+  "id": "A276758",
+  "mentions": [
+    "A002283",
+    "A007953",
+    "A045876",
+    "A047726",
+    "A138147",
+    "A179239"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

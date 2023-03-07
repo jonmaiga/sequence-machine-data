@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of Chvátal-satisfying graphical n-sequences.",
+  "id": "A338512",
+  "mentions": [
+    "A000302",
+    "A000569",
+    "A000578",
+    "A004251",
+    "A338513"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 5,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

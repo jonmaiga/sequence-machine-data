@@ -1,0 +1,18 @@
+{
+  "description": "2-class number of Q(sqrt(-21p)) as p runs through primes in A102274.",
+  "id": "A102275",
+  "mentions": [
+    "A102269",
+    "A102274"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

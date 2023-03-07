@@ -1,0 +1,26 @@
+{
+  "description": "Number of chiral pairs of orthoplex n-ominoes with cell centers determining n-3 space.",
+  "id": "A355049",
+  "mentions": [
+    "A036368",
+    "A045648",
+    "A045649",
+    "A355047",
+    "A355048",
+    "A355050",
+    "A355051",
+    "A355054"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 7,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

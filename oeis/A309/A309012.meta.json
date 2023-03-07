@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered pairs (i,j) with 0 < i < j < prime(n)/2 such that (i^16 mod prime(n)) > (j^16 mod prime(n)).",
+  "id": "A309012",
+  "mentions": [
+    "A000040",
+    "A010804",
+    "A319311",
+    "A319882",
+    "A319894",
+    "A319903",
+    "A320044"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

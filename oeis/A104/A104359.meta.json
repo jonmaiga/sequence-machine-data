@@ -1,0 +1,30 @@
+{
+  "description": "Greatest prime factor of A104357(n) = A104350(n) - 1.",
+  "id": "A104359",
+  "mentions": [
+    "A002582",
+    "A002584",
+    "A006530",
+    "A104350",
+    "A104357",
+    "A104358",
+    "A104360",
+    "A104361",
+    "A104362",
+    "A104363",
+    "A104364",
+    "A104367"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

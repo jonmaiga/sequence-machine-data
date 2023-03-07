@@ -1,0 +1,40 @@
+{
+  "description": "Number of non-unimodal permutations of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A332672",
+  "mentions": [
+    "A001523",
+    "A001751",
+    "A007052",
+    "A008480",
+    "A056239",
+    "A059204",
+    "A112798",
+    "A115981",
+    "A124010",
+    "A181819",
+    "A181821",
+    "A264828",
+    "A318762",
+    "A328509",
+    "A332281",
+    "A332282",
+    "A332287",
+    "A332294",
+    "A332642",
+    "A332669",
+    "A332671",
+    "A332741",
+    "A332742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

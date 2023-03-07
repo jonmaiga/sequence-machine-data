@@ -1,0 +1,21 @@
+{
+  "description": "Number of hex trees with n edges and having no nonroot nodes of outdegree 2.",
+  "id": "A126184",
+  "mentions": [
+    "A045891",
+    "A126183",
+    "A140429",
+    "A172481"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:56:46",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

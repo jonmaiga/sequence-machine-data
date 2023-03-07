@@ -1,0 +1,19 @@
+{
+  "description": "Pentagonal numbers that are the product of two pentagonal numbers greater than 1.",
+  "id": "A188663",
+  "mentions": [
+    "A000326",
+    "A188630",
+    "A188660"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

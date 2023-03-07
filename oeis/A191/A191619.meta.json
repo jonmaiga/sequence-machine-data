@@ -1,0 +1,20 @@
+{
+  "description": "Least a such that (2^n-a)*2^n + 1 is a prime number",
+  "id": "A191619",
+  "mentions": [
+    "A191617",
+    "A191618",
+    "A191620",
+    "A191621"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest term of the first run of at least n consecutive integers which are not sums of 2 squares.",
+  "id": "A260157",
+  "mentions": [
+    "A022544"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

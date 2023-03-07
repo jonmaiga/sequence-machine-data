@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of P_{3,2}(8) = Sum 1/p^8 over primes == 2 (mod 3).",
+  "id": "A343618",
+  "mentions": [
+    "A001016",
+    "A003627",
+    "A085968",
+    "A085997",
+    "A086038",
+    "A343612",
+    "A343619",
+    "A343628"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

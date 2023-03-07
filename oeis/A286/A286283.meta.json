@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(7*n^2/48).",
+  "id": "A286283",
+  "mentions": [
+    "A250000"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:13",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

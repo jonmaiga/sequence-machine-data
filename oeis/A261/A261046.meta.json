@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: the first column consists of the odd numbers repeated but without the first 1. Row n (n>=0) contains floor(n/2)=1 terms. Every row contains successive odd numbers.",
+  "id": "A261046",
+  "mentions": [
+    "A094728",
+    "A120070",
+    "A131507",
+    "A167268",
+    "A249947"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

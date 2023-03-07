@@ -1,0 +1,21 @@
+{
+  "description": "Positions of records in A355593: Integers whose number of alternating divisors sets a new record.",
+  "id": "A355595",
+  "mentions": [
+    "A030141",
+    "A355304",
+    "A355593",
+    "A355594"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Convolution square of A000219.",
+  "id": "A161870",
+  "mentions": [
+    "A000219",
+    "A002117",
+    "A074962",
+    "A255961"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

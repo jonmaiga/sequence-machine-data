@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A133500(A221221(n)).",
+  "id": "A222493",
+  "mentions": [
+    "A133048",
+    "A133500",
+    "A221221"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

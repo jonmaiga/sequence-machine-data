@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of rank 11 in the poset of lunar numbers.",
+  "id": "A191753",
+  "mentions": [
+    "A144171",
+    "A144175",
+    "A161813",
+    "A171786",
+    "A171787",
+    "A171788",
+    "A171789",
+    "A171794",
+    "A171795",
+    "A171796",
+    "A191752"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "The index of the first occurrence of A002110(n) in A356309.",
+  "id": "A358213",
+  "mentions": [
+    "A002110",
+    "A276086",
+    "A356302",
+    "A356309",
+    "A356314",
+    "A356316",
+    "A356318",
+    "A358214"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

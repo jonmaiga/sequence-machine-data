@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of Riordan array ((1-x)(1-x^2)(1-x^3)/(1-x^6), x(1-x)(1-x^2)(1-x^3)/(1-x^6)).",
+  "id": "A185967",
+  "mentions": [
+    "A106228",
+    "A109081",
+    "A185962"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

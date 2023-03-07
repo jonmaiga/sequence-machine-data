@@ -1,0 +1,23 @@
+{
+  "description": "Squares (A000290) that are not arithmetic numbers (A003601).",
+  "id": "A328558",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000290",
+    "A003601",
+    "A277793",
+    "A328557",
+    "A328559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

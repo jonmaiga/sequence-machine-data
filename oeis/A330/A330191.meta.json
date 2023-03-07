@@ -1,0 +1,20 @@
+{
+  "description": "For -d == 0, 1 (mod 4), let E(-d) to be the exponent of the class group of binary quadratic forms with discriminant -d, b(-d) to be the smallest prime p such that Kronecker(-d,p) = 1, then sequence gives d such that E(-d) > 2 and b(-d) > sqrt(d/4).",
+  "id": "A330191",
+  "mentions": [
+    "A003171",
+    "A133288",
+    "A133675"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

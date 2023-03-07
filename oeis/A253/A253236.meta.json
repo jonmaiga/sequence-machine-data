@@ -1,0 +1,24 @@
+{
+  "description": "The unique prime p <= n such that n-th cyclotomic polynomial has a root mod p, or 0 if no such p exists.",
+  "id": "A253236",
+  "mentions": [
+    "A000079",
+    "A006530",
+    "A038754",
+    "A245478",
+    "A245479",
+    "A245480",
+    "A245481",
+    "A253235"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

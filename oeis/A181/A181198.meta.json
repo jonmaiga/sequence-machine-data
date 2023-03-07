@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4 X n matrices containing a permutation of 1..4*n in increasing order rowwise, columnwise, diagonally and (downwards) antidiagonally.",
+  "id": "A181198",
+  "mentions": [
+    "A181196"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

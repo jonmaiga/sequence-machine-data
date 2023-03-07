@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows having n-th row 1, n, n-1, n-2,..., 2, 1 for n>=0.",
+  "id": "A193592",
+  "mentions": [
+    "A004736",
+    "A193593"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:45",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that A059175(m) = 0.",
+  "id": "A214866",
+  "mentions": [
+    "A059175",
+    "A216183"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

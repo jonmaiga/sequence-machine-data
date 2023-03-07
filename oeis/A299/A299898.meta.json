@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for \"ftu\" 3D tiling with respect to first type of node.",
+  "id": "A299898",
+  "mentions": [
+    "A299899",
+    "A299900"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

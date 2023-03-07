@@ -1,0 +1,25 @@
+{
+  "description": "Records in A104865.",
+  "id": "A104867",
+  "mentions": [
+    "A000796",
+    "A104865",
+    "A104866",
+    "A104868",
+    "A104869",
+    "A104870",
+    "A104871"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

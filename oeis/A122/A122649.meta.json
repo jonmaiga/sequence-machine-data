@@ -1,0 +1,21 @@
+{
+  "description": "Difference between the double factorial of the n-th nonnegative odd number and the double factorial of the n-th nonnegative even number.",
+  "id": "A122649",
+  "mentions": [
+    "A000165",
+    "A006013",
+    "A006882"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

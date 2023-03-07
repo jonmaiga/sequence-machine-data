@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array A read by upward antidiagonals in which row n is the set of positive integers that are congruent to {(1 + 2^n*(3 + 2*(-1)^n))/3, 2^(n + 1), (1 + 2^n*(15 + 2*(-1)^n))/3} (mod 2^(n+2)).",
+  "id": "A255168",
+  "mentions": [
+    "A047610"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

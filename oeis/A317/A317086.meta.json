@@ -1,0 +1,26 @@
+{
+  "description": "Number of normal integer partitions of n whose sequence of multiplicities is a palindrome.",
+  "id": "A317086",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A025065",
+    "A055932",
+    "A242414",
+    "A254524",
+    "A317085",
+    "A317087"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

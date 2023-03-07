@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected graphs with vertices labeled with positive integers summing to n.",
+  "id": "A340025",
+  "mentions": [
+    "A001349",
+    "A337717",
+    "A340022",
+    "A340026",
+    "A340027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

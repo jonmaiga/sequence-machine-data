@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that there are no other solutions to A023900(x) = A023900(p) than a power of p.",
+  "id": "A301590",
+  "mentions": [
+    "A001221",
+    "A005382",
+    "A005383",
+    "A023900",
+    "A079151",
+    "A301374",
+    "A301591"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

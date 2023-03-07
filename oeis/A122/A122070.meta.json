@@ -1,0 +1,29 @@
+{
+  "description": "Triangle given by T(n,k) = Fibonacci(n+k+1)*binomial(n,k) for 0<=k<=n.",
+  "id": "A122070",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A007318",
+    "A007598",
+    "A033887",
+    "A033889",
+    "A033999",
+    "A084938",
+    "A185384",
+    "A208473",
+    "A208588"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:10:11",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

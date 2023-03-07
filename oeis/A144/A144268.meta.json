@@ -1,0 +1,26 @@
+{
+  "description": "Partition number array, called M32(-5), related to A013988(n,m)= |S2(-5;n,m)| ( generalized Stirling triangle).",
+  "id": "A144268",
+  "mentions": [
+    "A000041",
+    "A008543",
+    "A013988",
+    "A035342",
+    "A036040",
+    "A134278",
+    "A144267"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

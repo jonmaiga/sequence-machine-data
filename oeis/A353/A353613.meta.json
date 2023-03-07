@@ -1,0 +1,18 @@
+{
+  "description": "Integers m whose decimal expansion of 1/m contains only even digits.",
+  "id": "A353613",
+  "mentions": [
+    "A353614"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

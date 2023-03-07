@@ -1,0 +1,20 @@
+{
+  "description": "Number of strings of Hebrew letters with a gematria value equal to n.",
+  "id": "A339073",
+  "mentions": [
+    "A000079",
+    "A051596"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

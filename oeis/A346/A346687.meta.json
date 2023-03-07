@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of generators of the monoid of n X n reflexive Boolean matrices.",
+  "id": "A346687",
+  "mentions": [
+    "A346686"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

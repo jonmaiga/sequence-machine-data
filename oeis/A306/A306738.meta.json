@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] allowing i->i+j (mod n), j=0..ceiling(n/2)-1.",
+  "id": "A306738",
+  "mentions": [
+    "A008305"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3 X 3 symmetric matrices over Z(n) having nonzero determinant.",
+  "id": "A115225",
+  "mentions": [
+    "A115222",
+    "A115223"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! - p, where p is the third greatest prime less than n!.",
+  "id": "A275276",
+  "mentions": [
+    "A000040",
+    "A275272"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

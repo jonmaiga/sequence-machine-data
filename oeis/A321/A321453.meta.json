@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that cannot be factored into two or more factors all having the same sum of prime indices.",
+  "id": "A321453",
+  "mentions": [
+    "A056239",
+    "A112798",
+    "A276024",
+    "A279787",
+    "A305551",
+    "A306017",
+    "A317144",
+    "A320322",
+    "A321451",
+    "A321452",
+    "A321454",
+    "A321455"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

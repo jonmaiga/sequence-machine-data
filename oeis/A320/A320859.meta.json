@@ -1,0 +1,24 @@
+{
+  "description": "Powers of 2 with initial digit 3.",
+  "id": "A320859",
+  "mentions": [
+    "A000079",
+    "A008952",
+    "A067480",
+    "A067488",
+    "A172404",
+    "A320860"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

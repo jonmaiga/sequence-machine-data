@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of Sum_{k=1..n} 1/tau(k), where tau(k) is the number of divisors function.",
+  "id": "A104529",
+  "mentions": [
+    "A104528"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A 3 X 3 magic square with five square entries, read by rows.",
+  "id": "A319589",
+  "mentions": [
+    "A221669",
+    "A268855"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

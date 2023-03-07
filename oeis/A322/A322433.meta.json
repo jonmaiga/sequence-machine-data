@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the coefficient of x^k in the expansion of Product_{j>=1} (1-x^j)^26 is zero.",
+  "id": "A322433",
+  "mentions": [
+    "A010831",
+    "A014132",
+    "A020757",
+    "A090864",
+    "A213250",
+    "A302056",
+    "A302057",
+    "A322043",
+    "A322430",
+    "A322431",
+    "A322432"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

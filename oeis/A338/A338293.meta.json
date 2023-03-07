@@ -1,0 +1,24 @@
+{
+  "description": "Number of matchings in the complete binary tree of n rows.",
+  "id": "A338293",
+  "mentions": [
+    "A000975",
+    "A001045",
+    "A076725",
+    "A158681",
+    "A228607",
+    "A242049",
+    "A338294"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

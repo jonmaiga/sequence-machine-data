@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of integral_{0..Pi} x*log(2*cos(x/2))^2 dx, the first of two definite integrals studied by Rutledge and Douglas, and using the constant A_4 (A214508).",
+  "id": "A247319",
+  "mentions": [
+    "A214508",
+    "A247320"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

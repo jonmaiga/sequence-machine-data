@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the digits of n, once written in base 16, are only the hexadecimal digits A to F.",
+  "id": "A228774",
+  "mentions": [
+    "A055645",
+    "A132675",
+    "A132676",
+    "A140969",
+    "A187829"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

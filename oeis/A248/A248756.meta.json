@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest k such that a(n-k) and n have the same number of 1's in their binary expansions, or a(n) = n if no such k exists.",
+  "id": "A248756",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A257078"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

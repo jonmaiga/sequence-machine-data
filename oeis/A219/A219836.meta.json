@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array counting derangements by number of descents.",
+  "id": "A219836",
+  "mentions": [
+    "A000166",
+    "A008292",
+    "A046739"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

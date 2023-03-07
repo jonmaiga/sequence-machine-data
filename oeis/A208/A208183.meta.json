@@ -1,0 +1,37 @@
+{
+  "description": "Number of distinct k-colored necklaces with n beads per color; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A208183",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A000142",
+    "A003239",
+    "A104150",
+    "A118644",
+    "A137729",
+    "A207816",
+    "A208184",
+    "A208185",
+    "A208186",
+    "A208187",
+    "A208188",
+    "A208189",
+    "A208190",
+    "A208191",
+    "A208192",
+    "A208193",
+    "A252765"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

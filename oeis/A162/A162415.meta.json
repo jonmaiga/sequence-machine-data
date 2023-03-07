@@ -1,0 +1,18 @@
+{
+  "description": "L.g.f.: Sum_{n>=1} a(n)*x^n/n = log( Sum_{n>=0} x^(2^n-1) ).",
+  "id": "A162415",
+  "mentions": [
+    "A162416"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

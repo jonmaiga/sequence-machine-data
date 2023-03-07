@@ -1,0 +1,18 @@
+{
+  "description": "Number of states in the minimal deterministic finite automaton with output generating the n-fold running sum (mod 2) of the Thue-Morse sequence (A010060).",
+  "id": "A359228",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

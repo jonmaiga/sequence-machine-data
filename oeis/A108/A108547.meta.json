@@ -1,0 +1,22 @@
+{
+  "description": "Fixed points for prime number permutation A108546.",
+  "id": "A108547",
+  "mentions": [
+    "A007351",
+    "A049084",
+    "A051025",
+    "A096447",
+    "A108546",
+    "A108549"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

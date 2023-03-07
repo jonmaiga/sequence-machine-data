@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as x + y + z with x, y, z positive integers such that 3*x^2*y^2 + 5*y^2*z^2 + 8*z^2*x^2 is a square.",
+  "id": "A340274",
+  "mentions": [
+    "A000041",
+    "A000290",
+    "A230121",
+    "A230747",
+    "A231168",
+    "A262357",
+    "A271719",
+    "A273278",
+    "A343862"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

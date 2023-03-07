@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sum of the distinct values making up the exponents in the prime-factorization of n.",
+  "id": "A136565",
+  "mentions": [
+    "A066328",
+    "A071625",
+    "A088529",
+    "A136566",
+    "A136568",
+    "A181591",
+    "A181819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

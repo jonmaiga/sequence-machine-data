@@ -1,0 +1,23 @@
+{
+  "description": "A special version of Pascal's triangle where only powers of 2 are permitted.",
+  "id": "A307433",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A047999",
+    "A206332",
+    "A307116"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

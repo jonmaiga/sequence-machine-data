@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative numbers n with all even digits such that the digital sum of the digits' sum is even.",
+  "id": "A251853",
+  "mentions": [
+    "A007953",
+    "A014263",
+    "A054683"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

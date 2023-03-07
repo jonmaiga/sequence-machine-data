@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n>=2, a(n) = A001221(n)-th positive integer not yet in the sequence.",
+  "id": "A100806",
+  "mentions": [
+    "A001221",
+    "A101212",
+    "A102450",
+    "A102451",
+    "A102452"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

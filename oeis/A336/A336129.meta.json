@@ -1,0 +1,29 @@
+{
+  "description": "Number of strict compositions of divisors of n.",
+  "id": "A336129",
+  "mentions": [
+    "A000005",
+    "A001970",
+    "A006951",
+    "A032020",
+    "A034729",
+    "A047966",
+    "A047968",
+    "A133494",
+    "A318683",
+    "A336128",
+    "A336130",
+    "A336132"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

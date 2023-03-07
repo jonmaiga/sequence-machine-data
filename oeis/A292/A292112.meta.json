@@ -1,0 +1,19 @@
+{
+  "description": "Records in A039654.",
+  "id": "A292112",
+  "mentions": [
+    "A039654",
+    "A039655",
+    "A292113"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

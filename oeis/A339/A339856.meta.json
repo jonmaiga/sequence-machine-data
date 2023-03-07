@@ -1,0 +1,27 @@
+{
+  "description": "Primitive triples for integer-sided triangles whose sides a < b < c form a geometric progression.",
+  "id": "A339856",
+  "mentions": [
+    "A001622",
+    "A008133",
+    "A139339",
+    "A335893",
+    "A336755",
+    "A339857",
+    "A339858",
+    "A339859",
+    "A339860"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

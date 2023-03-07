@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of -x*(x^4 + 52*x^3 - 122*x^2 - 28*x + 1) / ((x-1)*(x^2 - 34*x + 1)*(x^2 + 6*x + 1)).",
+  "id": "A123219",
+  "mentions": [
+    "A001333",
+    "A090390",
+    "A120717",
+    "A121801"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of (1/6)! = Gamma(7/6).",
+  "id": "A203126",
+  "mentions": [
+    "A068467",
+    "A073006",
+    "A175379",
+    "A202623",
+    "A203125",
+    "A231863",
+    "A329219"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

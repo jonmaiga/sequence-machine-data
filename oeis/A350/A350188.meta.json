@@ -1,0 +1,20 @@
+{
+  "description": "Consider a 2D sandpile model where each site with 3 or more grains, say at location (x, y), topples and transfers one grain of sand to the sites at locations (x+1, y-1), (x+1, y) and (x+1, y+1); a(n) gives the number of nonempty sites after stabilization of a configuration starting with n grains at the origin.",
+  "id": "A350188",
+  "mentions": [
+    "A349990",
+    "A351783",
+    "A352226"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangular matrix T = A104980 which satisfies: SHIFT_LEFT(column 0 of T^p) = p*(column p+1 of T).",
+  "id": "A104983",
+  "mentions": [
+    "A104890",
+    "A104980"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

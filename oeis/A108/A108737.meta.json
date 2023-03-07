@@ -1,0 +1,18 @@
+{
+  "description": "Start with S = {}. For m = 0, 1, 2, 3, ... let u be the binary expansion of m. If u is not a substring of S, append the minimal number of 0's and 1's to S to remedy this. Sequence gives S.",
+  "id": "A108737",
+  "mentions": [
+    "A108736"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

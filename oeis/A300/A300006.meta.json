@@ -1,0 +1,22 @@
+{
+  "description": "Matrices of the 2 X 2 sandpile group, with matrix [a,b;c,d] encoded as concat(a,b,c,d), leading 0 omitted.",
+  "id": "A300006",
+  "mentions": [
+    "A007341",
+    "A300007",
+    "A300008",
+    "A300009"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

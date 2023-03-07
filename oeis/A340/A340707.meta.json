@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (prevprime(2^n) + nextprime(2^n))/2 - 2^n where prevprime(n) = A151799(n) and nextprime(n) = A151800(n).",
+  "id": "A340707",
+  "mentions": [
+    "A013597",
+    "A013603",
+    "A058249",
+    "A151799",
+    "A151800",
+    "A226178"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

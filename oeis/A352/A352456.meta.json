@@ -1,0 +1,22 @@
+{
+  "description": "Smallest Matula-Goebel number of a rooted binary tree (everywhere 0 or 2 children) of n childless vertices.",
+  "id": "A352456",
+  "mentions": [
+    "A000040",
+    "A005517",
+    "A111299",
+    "A245824"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

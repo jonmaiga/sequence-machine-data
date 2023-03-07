@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest a such that n is divisible by a^n + 1, or 0 if no such a exists.",
+  "id": "A319813",
+  "mentions": [
+    "A006521",
+    "A008784",
+    "A050384",
+    "A074792"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

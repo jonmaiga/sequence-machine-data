@@ -1,0 +1,23 @@
+{
+  "description": "Difference between sums of smallest parts of all partitions of n into odd number of parts and into even number of parts.",
+  "id": "A222046",
+  "mentions": [
+    "A211373",
+    "A222044",
+    "A222045",
+    "A222047",
+    "A222048",
+    "A222049"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

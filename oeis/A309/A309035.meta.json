@@ -1,0 +1,17 @@
+{
+  "description": "If a(n) is not a term of a(0),...,a(n-1), then a(n+1) = n - m, where m is the most recent time that some new value a(m) appeared for the first time; otherwise a(n+1) is the number of terms equal to a(n) in a(0),...,a(n-1). Start with a(0)=0, a(1)=0.",
+  "id": "A309035",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

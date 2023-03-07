@@ -1,0 +1,22 @@
+{
+  "description": "Vector in the 26-dimensional even Lorentzian unimodular lattice II_25,1 used to construct the Leech lattice.",
+  "id": "A351831",
+  "mentions": [
+    "A008408",
+    "A260646",
+    "A351830"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

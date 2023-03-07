@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number k such that sigma(k) = 2^n or 0 if no such k exists.",
+  "id": "A247956",
+  "mentions": [
+    "A000203",
+    "A046528",
+    "A078426",
+    "A180162",
+    "A180221",
+    "A182221",
+    "A295043"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

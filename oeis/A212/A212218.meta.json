@@ -1,0 +1,26 @@
+{
+  "description": "Number of representations of n as a sum of products of distinct pairs of positive integers, n = Sum_{k=1..m} i_k*j_k with i_k<=j_k, i_k",
+  "id": "A212218",
+  "mentions": [
+    "A066739",
+    "A182269",
+    "A182270",
+    "A211856",
+    "A211857",
+    "A212214",
+    "A212215",
+    "A212216",
+    "A212217",
+    "A212219"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

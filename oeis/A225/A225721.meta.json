@@ -1,0 +1,32 @@
+{
+  "description": "Starting with x = n, the number of iterations of x := 2x - 1 until x is prime, or -1 if no prime exists.",
+  "id": "A225721",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A000668",
+    "A007770",
+    "A031177",
+    "A037271",
+    "A037272",
+    "A037274",
+    "A038699",
+    "A040076",
+    "A040081",
+    "A046069",
+    "A050412",
+    "A050921",
+    "A052333",
+    "A065341"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

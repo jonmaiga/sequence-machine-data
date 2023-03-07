@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the integer corresponding to a bit-string representation of the von Neumann ordinal representation of n, with largest sets listed first, and with '{' represented by the bit 1, '}' represented by the bit zero, and ignoring commas.",
+  "id": "A333447",
+  "mentions": [
+    "A079559",
+    "A092124",
+    "A308187"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

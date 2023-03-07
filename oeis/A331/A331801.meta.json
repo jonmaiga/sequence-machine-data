@@ -1,0 +1,25 @@
+{
+  "description": "Integers that are sum of two nonsquarefree numbers.",
+  "id": "A331801",
+  "mentions": [
+    "A000404",
+    "A001694",
+    "A005117",
+    "A013929",
+    "A018825",
+    "A052485",
+    "A076871",
+    "A085253",
+    "A331802"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

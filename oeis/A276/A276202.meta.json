@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer k such that the number of semiprimes in {k, f(k), f(f(k)), ..., 1} is equal to n, where f is the Collatz function.",
+  "id": "A276202",
+  "mentions": [
+    "A006577",
+    "A275866"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

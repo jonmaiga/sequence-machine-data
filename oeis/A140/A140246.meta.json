@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of sqrt(15)/6.",
+  "id": "A140246",
+  "mentions": [
+    "A010472",
+    "A088543",
+    "A140239",
+    "A140240",
+    "A140241",
+    "A140242",
+    "A140243",
+    "A140244",
+    "A140245",
+    "A140247",
+    "A140248",
+    "A140249",
+    "A331257",
+    "A331258"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

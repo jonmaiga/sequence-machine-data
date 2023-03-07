@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m for which A055778(m) > A055778(m-1).",
+  "id": "A190723",
+  "mentions": [
+    "A003231",
+    "A055778",
+    "A190720",
+    "A190721",
+    "A284749"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

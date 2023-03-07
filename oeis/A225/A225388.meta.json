@@ -1,0 +1,18 @@
+{
+  "description": "Prime powers (A025475) representable as (p+q)/2, where p and q are distinct prime powers.",
+  "id": "A225388",
+  "mentions": [
+    "A025475",
+    "A225389"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Finite table read by antidiagonals: T(n, m) is the number of conics passing through n points, tangent to m lines, and tangent to k=5-n-m conics in general position, divided by 2^k, with 0 <= n+m <= 5.",
+  "id": "A144469",
+  "mentions": [
+    "A328148"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

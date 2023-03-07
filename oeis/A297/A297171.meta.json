@@ -1,0 +1,24 @@
+{
+  "description": "Möbius transform of A243071.",
+  "id": "A297171",
+  "mentions": [
+    "A008683",
+    "A064989",
+    "A243071",
+    "A297112",
+    "A297156",
+    "A297161",
+    "A297172"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

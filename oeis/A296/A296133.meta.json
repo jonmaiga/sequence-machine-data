@@ -1,0 +1,28 @@
+{
+  "description": "Number of twice-factorizations of n of type (Q,R,Q).",
+  "id": "A296133",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A005117",
+    "A045778",
+    "A052409",
+    "A052410",
+    "A089723",
+    "A279790",
+    "A279791",
+    "A284639",
+    "A292886",
+    "A296132"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

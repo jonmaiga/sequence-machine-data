@@ -1,0 +1,29 @@
+{
+  "description": "Dirichlet inverse of the gcd-sum function (A018804).",
+  "id": "A101035",
+  "mentions": [
+    "A007427",
+    "A008683",
+    "A018804",
+    "A023900",
+    "A046692",
+    "A053822",
+    "A053825",
+    "A053826",
+    "A055615"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

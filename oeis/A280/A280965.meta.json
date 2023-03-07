@@ -1,0 +1,18 @@
+{
+  "description": "Nonsquares whose distances to the two nearest squares are squares.",
+  "id": "A280965",
+  "mentions": [
+    "A057653",
+    "A234334"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

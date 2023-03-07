@@ -1,0 +1,28 @@
+{
+  "description": "Number of non-normal magic squares whose entries are nonnegative integers summing to n.",
+  "id": "A321722",
+  "mentions": [
+    "A006052",
+    "A007016",
+    "A120732",
+    "A271103",
+    "A319056",
+    "A319616",
+    "A321718",
+    "A321719",
+    "A321720",
+    "A321721"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

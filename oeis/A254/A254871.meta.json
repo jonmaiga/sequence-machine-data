@@ -1,0 +1,32 @@
+{
+  "description": "Seventh partial sums of fifth powers (A000584).",
+  "id": "A254871",
+  "mentions": [
+    "A000539",
+    "A000584",
+    "A022521",
+    "A068236",
+    "A101092",
+    "A101099",
+    "A254471",
+    "A254640",
+    "A254644",
+    "A254647",
+    "A254682",
+    "A254869",
+    "A254870",
+    "A254872"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:59",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Pulsating Checkpoint Sequence: use powers of 2 as checkpoints; place powers of 2, starting with 4, with spacing equal to the previous power of 2. Whenever we encounter a checkpoint, we jump over it; otherwise, we insert four numbers into the sequence: 2p, p, 3p, and 3p+3, where p is the smallest odd prime not yet in the sequence.",
+  "id": "A264962",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; a(n) = the reversal of (a(n-1) + spd(a(n-1))), where spd(n)= sum of powers of the digits of n.",
+  "id": "A121167",
+  "mentions": [
+    "A045503"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

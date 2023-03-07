@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. is the series C(x) such that C(x) + i*S(x) = 1 + i * Integral C(x)/(C(x) + i*S(x)) dx, even powers only, where i^2 = -1.",
+  "id": "A263184",
+  "mentions": [
+    "A263185"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

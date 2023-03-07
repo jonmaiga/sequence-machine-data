@@ -1,0 +1,20 @@
+{
+  "description": "Read A006530 digit-by-digit.",
+  "id": "A262549",
+  "mentions": [
+    "A001191",
+    "A006530",
+    "A033307"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-entry"
+  }
+}

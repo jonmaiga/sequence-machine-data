@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that the sum of n^2 consecutive primes starting at prime(k) is a square.",
+  "id": "A357813",
+  "mentions": [
+    "A034963",
+    "A127336",
+    "A230327",
+    "A358156"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

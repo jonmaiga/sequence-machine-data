@@ -1,0 +1,26 @@
+{
+  "description": "Intersection of A000404, A154777 and A092572: N = a^2 + b^2 = c^2 + 2d^2 = e^2 + 3f^2 for some positive integers a,b,c,d,e,f.",
+  "id": "A155573",
+  "mentions": [
+    "A000404",
+    "A092572",
+    "A097268",
+    "A154777",
+    "A154778",
+    "A155560",
+    "A155578",
+    "A155716",
+    "A155717"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

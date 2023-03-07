@@ -1,0 +1,18 @@
+{
+  "description": "Number of (unlabeled) loopless multigraphs with no isolated vertices such that the sum of the numbers of vertices and edges is n.",
+  "id": "A265580",
+  "mentions": [
+    "A265581"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

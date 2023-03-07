@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms that can be viewed as an irregular table where the n-th row has a(n) terms and for n > 1, T(n, k) is a multiple of k.",
+  "id": "A331018",
+  "mentions": [
+    "A331010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

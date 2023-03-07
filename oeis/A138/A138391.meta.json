@@ -1,0 +1,19 @@
+{
+  "description": "Where record values occur in A138385.",
+  "id": "A138391",
+  "mentions": [
+    "A138385",
+    "A138390"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Denominators of the Inverse semi-binomial transform of A001477(n) read downwards antidiagonals.",
+  "id": "A213268",
+  "mentions": [
+    "A000034",
+    "A000265",
+    "A001477",
+    "A026741",
+    "A060819",
+    "A084623",
+    "A106609",
+    "A106617",
+    "A176895",
+    "A205383",
+    "A209308"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

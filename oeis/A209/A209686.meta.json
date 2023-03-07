@@ -1,0 +1,18 @@
+{
+  "description": "For each n, define a sequence of numbers by S(0)=n, S(i) = sum of last three digits of the concatenation S(0)S(1)S(2)...S(i-1); a(n) = smallest m such that S(m) = 11, or -1 if 11 is never reached.",
+  "id": "A209686",
+  "mentions": [
+    "A209674"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

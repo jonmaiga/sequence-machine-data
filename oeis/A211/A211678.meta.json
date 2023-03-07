@@ -1,0 +1,21 @@
+{
+  "description": "Twin primes p, p+2 with unique values of sigma(p) and sigma(p+2); sigma(n) = A000203(n) = sum of divisors of n.",
+  "id": "A211678",
+  "mentions": [
+    "A000203",
+    "A211656",
+    "A211660",
+    "A211767",
+    "A211769"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

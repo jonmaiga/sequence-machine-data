@@ -1,0 +1,20 @@
+{
+  "description": "n is a term if n = 0 or n does not divide F(n, k) for all k >= 0, where F(n, k) are the Fibonacci numbers A352744.",
+  "id": "A353280",
+  "mentions": [
+    "A093509",
+    "A352744",
+    "A352747",
+    "A353281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

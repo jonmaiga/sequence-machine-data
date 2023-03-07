@@ -1,0 +1,21 @@
+{
+  "description": "Sylvester dividends for A002605.",
+  "id": "A105608",
+  "mentions": [
+    "A002605",
+    "A105607",
+    "A105609"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

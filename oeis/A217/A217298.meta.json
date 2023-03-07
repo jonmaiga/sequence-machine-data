@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by columns: T(n,k) = number of AVL trees of height n with k (leaf-) nodes, k>=1, A029837(k)<=n",
+  "id": "A217298",
+  "mentions": [
+    "A006265",
+    "A008466",
+    "A029758",
+    "A029837",
+    "A072649",
+    "A143897",
+    "A174677",
+    "A217299",
+    "A217300",
+    "A217710"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

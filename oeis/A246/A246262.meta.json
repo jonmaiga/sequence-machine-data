@@ -1,0 +1,21 @@
+{
+  "description": "Inverse function to injection A246261, partial sums of A246260.",
+  "id": "A246262",
+  "mentions": [
+    "A246260",
+    "A246261",
+    "A246264",
+    "A246266"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

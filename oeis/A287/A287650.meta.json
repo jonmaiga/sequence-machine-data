@@ -1,0 +1,25 @@
+{
+  "description": "Number of doubly symmetric diagonal Latin squares of order 4n with the first row in ascending order.",
+  "id": "A287650",
+  "mentions": [
+    "A001147",
+    "A003191",
+    "A287649",
+    "A292517",
+    "A293777",
+    "A340550"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

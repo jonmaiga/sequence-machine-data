@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of unlabeled n-node rooted trees with k = 0..n-1 internal (non-leaf) nodes.",
+  "id": "A358575",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A000891",
+    "A001263",
+    "A002620",
+    "A006578",
+    "A034781",
+    "A055277",
+    "A065097",
+    "A090181",
+    "A109129",
+    "A185650",
+    "A342507",
+    "A358578",
+    "A358581",
+    "A358582",
+    "A358583",
+    "A358584",
+    "A358587",
+    "A358589"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

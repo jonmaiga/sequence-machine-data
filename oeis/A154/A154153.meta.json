@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k such that 28 plus the k-th triangular number is a perfect square.",
+  "id": "A154153",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001108",
+    "A006451",
+    "A154138",
+    "A154139",
+    "A154140",
+    "A154141",
+    "A154142",
+    "A154143",
+    "A154144",
+    "A154145",
+    "A154146",
+    "A154147",
+    "A154148",
+    "A154149",
+    "A154150",
+    "A154151",
+    "A154154"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:18:47",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

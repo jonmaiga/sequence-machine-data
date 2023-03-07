@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that are divisible by their product of digits in a record number of bases 1 < b < k.",
+  "id": "A341435",
+  "mentions": [
+    "A025487",
+    "A330813",
+    "A341434"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

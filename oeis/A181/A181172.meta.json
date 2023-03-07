@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose base 4 representation does not contain a 0.",
+  "id": "A181172",
+  "mentions": [
+    "A000668",
+    "A073779",
+    "A082555",
+    "A181173"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

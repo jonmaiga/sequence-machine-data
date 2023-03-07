@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is not divisible by two consecutive prime numbers, otherwise 0.",
+  "id": "A356173",
+  "mentions": [
+    "A003961",
+    "A296210",
+    "A319630",
+    "A322361",
+    "A356172"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

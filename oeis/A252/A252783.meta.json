@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n + 15, n^2 + 15, n^3 + 15, n^4 + 15, n^5 + 15 and n^6 + 15 are all prime.",
+  "id": "A252783",
+  "mentions": [
+    "A086303",
+    "A121982",
+    "A253142",
+    "A253143",
+    "A253166"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

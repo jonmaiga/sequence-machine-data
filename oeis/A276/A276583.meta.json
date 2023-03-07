@@ -1,0 +1,27 @@
+{
+  "description": "The infinite trunk of greedy squares beanstalk: The only infinite sequence such that a(n-1) = a(n) - number of squares that sum to a(n) with greedy algorithm (A053610).",
+  "id": "A276583",
+  "mentions": [
+    "A053610",
+    "A179016",
+    "A259934",
+    "A260740",
+    "A276573",
+    "A276582",
+    "A276584",
+    "A276585",
+    "A276613",
+    "A276623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

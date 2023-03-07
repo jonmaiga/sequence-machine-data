@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that sigma(k) + prime(k) is divisible by k.",
+  "id": "A111360",
+  "mentions": [
+    "A000203",
+    "A038607"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

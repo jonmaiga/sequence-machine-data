@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of phi_0(-q) in powers of q where phi_0() is a 5th-order mock theta function.",
+  "id": "A260971",
+  "mentions": [
+    "A001622",
+    "A053258",
+    "A053262",
+    "A053264"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

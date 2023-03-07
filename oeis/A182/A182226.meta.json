@@ -1,0 +1,19 @@
+{
+  "description": "Abundant numbers m (in A005101) whose sum of divisors less than their abundance A033880(m) does not exceed A033880(m).",
+  "id": "A182226",
+  "mentions": [
+    "A005101",
+    "A033880",
+    "A182225"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

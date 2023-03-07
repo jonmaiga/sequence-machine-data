@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of constant z = Sum_{n>=1} {(4/3)^n} * (3/4)^n, where {x} is the fractional part of x.",
+  "id": "A264921",
+  "mentions": [
+    "A064629",
+    "A264918",
+    "A264919",
+    "A264920",
+    "A264922"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 189,
+    "source": "oeis-entry"
+  }
+}

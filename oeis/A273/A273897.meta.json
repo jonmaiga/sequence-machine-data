@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having abscissa of first descent k (n>=2, 1<=k<=n-1).",
+  "id": "A273897",
+  "mentions": [
+    "A082582",
+    "A105633",
+    "A273898"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

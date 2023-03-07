@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(n-2k, 2k)*2^(n-4k).",
+  "id": "A100131",
+  "mentions": [
+    "A000129",
+    "A098576",
+    "A100132",
+    "A100133",
+    "A108350"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

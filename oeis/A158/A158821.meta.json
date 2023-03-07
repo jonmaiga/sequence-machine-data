@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n (n>=0) ends with 1, and for n>=1 begins with n; other entries are zero.",
+  "id": "A158821",
+  "mentions": [
+    "A000027",
+    "A109613",
+    "A145677"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

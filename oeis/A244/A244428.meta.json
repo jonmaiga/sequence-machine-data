@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors of n and product of divisors of n are both perfect cubes.",
+  "id": "A244428",
+  "mentions": [
+    "A000203",
+    "A007955",
+    "A020477",
+    "A048944",
+    "A064710"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

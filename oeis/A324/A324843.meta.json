@@ -1,0 +1,30 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes where the branches of any branch of any terminal subtree form a submultiset of the branches of the same subtree.",
+  "id": "A324843",
+  "mentions": [
+    "A000081",
+    "A279861",
+    "A290689",
+    "A290822",
+    "A318185",
+    "A324704",
+    "A324736",
+    "A324748",
+    "A324753",
+    "A324842",
+    "A324847",
+    "A324848",
+    "A324854"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

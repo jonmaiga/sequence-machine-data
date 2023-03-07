@@ -1,0 +1,21 @@
+{
+  "description": "Integers with mutual residues of 2 or more.",
+  "id": "A109022",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000215",
+    "A109328",
+    "A109335"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

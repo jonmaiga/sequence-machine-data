@@ -1,0 +1,28 @@
+{
+  "description": "Multiples of 4 which are not the sum of seven nonnegative cubes.",
+  "id": "A158794",
+  "mentions": [
+    "A000578",
+    "A003072",
+    "A003325",
+    "A003327",
+    "A003328",
+    "A003329",
+    "A018888",
+    "A057907",
+    "A122730"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

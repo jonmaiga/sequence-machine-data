@@ -1,0 +1,23 @@
+{
+  "description": "Nonprime numbers with distinct digits in descending order.",
+  "id": "A212372",
+  "mentions": [
+    "A009995",
+    "A052014",
+    "A178788"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

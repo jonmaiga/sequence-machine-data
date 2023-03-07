@@ -1,0 +1,19 @@
+{
+  "description": "Number of idempotents in the twisted planar partition monoid PP_n^tau.",
+  "id": "A286867",
+  "mentions": [
+    "A225797",
+    "A289620"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

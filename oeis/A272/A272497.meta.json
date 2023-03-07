@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered set partitions of [n] with nondecreasing block sizes and maximal block size equal to seven.",
+  "id": "A272497",
+  "mentions": [
+    "A262071"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 7,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

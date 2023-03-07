@@ -1,0 +1,21 @@
+{
+  "description": "Number of near-magic (only long lines are magic) knight's tours on a 4 X 2n board.",
+  "id": "A330611",
+  "mentions": [
+    "A328816",
+    "A329483",
+    "A330610"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

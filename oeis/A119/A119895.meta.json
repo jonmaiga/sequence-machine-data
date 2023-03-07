@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2^k, 3^k, 5^k, 7^k, 11^k and 13^k have even digit sum.",
+  "id": "A119895",
+  "mentions": [
+    "A118734",
+    "A118867",
+    "A119894",
+    "A119896",
+    "A119897"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

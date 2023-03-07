@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes that are the sum of the first k terms of A092190 for some k.",
+  "id": "A323085",
+  "mentions": [
+    "A001358",
+    "A092190"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

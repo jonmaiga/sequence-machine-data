@@ -1,0 +1,21 @@
+{
+  "description": "The non-common part of the larger number of an amicable pair.",
+  "id": "A180327",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A061469",
+    "A180326"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

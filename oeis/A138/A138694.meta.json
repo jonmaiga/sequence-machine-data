@@ -1,0 +1,33 @@
+{
+  "description": "Numbers n such that the set {2*n+p^2, p any prime} contains exactly one prime.",
+  "id": "A138694",
+  "mentions": [
+    "A002476",
+    "A003627",
+    "A007528",
+    "A016777",
+    "A024700",
+    "A138479",
+    "A138685",
+    "A138686",
+    "A138691",
+    "A138692",
+    "A138693",
+    "A138696",
+    "A138697",
+    "A138698",
+    "A138699",
+    "A138700"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

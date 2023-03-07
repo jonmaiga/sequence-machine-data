@@ -1,0 +1,26 @@
+{
+  "description": "Number of parts in the corner of size n X n of the modular table of partitions described in Comments.",
+  "id": "A273140",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A135010",
+    "A141285",
+    "A194446",
+    "A206437",
+    "A211992",
+    "A220482",
+    "A228525",
+    "A278602"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

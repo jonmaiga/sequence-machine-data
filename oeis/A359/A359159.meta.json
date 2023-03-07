@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose odd part is squarefree and the number of prime factors (with multiplicity) is odd.",
+  "id": "A359159",
+  "mentions": [
+    "A026424",
+    "A122132",
+    "A166486",
+    "A185199",
+    "A355689",
+    "A359157",
+    "A359158"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

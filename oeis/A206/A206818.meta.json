@@ -1,0 +1,20 @@
+{
+  "description": "Position of n+(n+1)/log(n+1) in the joint ranking of {j+pi(j)} and {k+(k+1)/log(k+1)}.",
+  "id": "A206818",
+  "mentions": [
+    "A000720",
+    "A206815",
+    "A206827",
+    "A206828"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

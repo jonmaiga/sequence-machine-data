@@ -1,0 +1,22 @@
+{
+  "description": "Triangle by rows: T(n,k) is the number of n-step Dyck paths with k catastrophes.",
+  "id": "A348013",
+  "mentions": [
+    "A037952",
+    "A191389",
+    "A348012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n - sqrt(2*n-1)).",
+  "id": "A309945",
+  "mentions": [
+    "A007590",
+    "A016813",
+    "A080476"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:19:03",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

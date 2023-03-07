@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k!/(k-2) - 1 is prime.",
+  "id": "A291322",
+  "mentions": [
+    "A002982",
+    "A052747",
+    "A271376"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

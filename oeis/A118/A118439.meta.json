@@ -1,0 +1,21 @@
+{
+  "description": "Column 0 of triangle A118438.",
+  "id": "A118439",
+  "mentions": [
+    "A118435",
+    "A118436",
+    "A118438",
+    "A118440"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:33:34",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

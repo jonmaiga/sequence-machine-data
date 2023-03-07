@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the nested surd Sqrt[Pi + CubeRoot[Pi + 4thRoot[Pi + 5thRoot[Pi + ...]]]].",
+  "id": "A100945",
+  "mentions": [
+    "A100946"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

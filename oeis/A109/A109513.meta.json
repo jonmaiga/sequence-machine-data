@@ -1,0 +1,22 @@
+{
+  "description": "Let k be an m-digit integer. Then k is a Pithy number if the k-th m-tuple in the decimal digits of Pi (after the decimal point) is the string k.",
+  "id": "A109513",
+  "mentions": [
+    "A000796",
+    "A057679",
+    "A057680",
+    "A109514"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Riordan array (2-2*x-sqrt(1-8*x+4*x^2), (1-2*x-sqrt(1-8*x+4*x^2))/2).",
+  "id": "A121576",
+  "mentions": [
+    "A047891",
+    "A054872",
+    "A084938",
+    "A121575"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

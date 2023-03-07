@@ -1,0 +1,24 @@
+{
+  "description": "Number of set partitions C_t(n) of {1,2,...,t} into at most n parts, with an even number of elements in each part distinguished by marks; triangle C_t(n), t>=0, 0<=n<=t, read by rows.",
+  "id": "A261275",
+  "mentions": [
+    "A000007",
+    "A000079",
+    "A004211",
+    "A007582",
+    "A075497",
+    "A233162"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

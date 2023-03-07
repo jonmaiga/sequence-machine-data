@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that have 12 terms in their Zeckendorf representation.",
+  "id": "A179252",
+  "mentions": [
+    "A007895",
+    "A035517",
+    "A179242",
+    "A179243",
+    "A179244",
+    "A179245",
+    "A179246",
+    "A179247",
+    "A179248",
+    "A179249",
+    "A179250",
+    "A179251",
+    "A179253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

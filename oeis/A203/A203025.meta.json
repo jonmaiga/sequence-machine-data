@@ -1,0 +1,21 @@
+{
+  "description": "Largest perfect power divisor of n.",
+  "id": "A203025",
+  "mentions": [
+    "A001597",
+    "A057521",
+    "A087320",
+    "A274006"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

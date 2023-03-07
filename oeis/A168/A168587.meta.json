@@ -1,0 +1,19 @@
+{
+  "description": "Smallest digit sum of an n-digit prime with only digits 0 add 1 (or 0, if no such prime exists).",
+  "id": "A168587",
+  "mentions": [
+    "A062339",
+    "A168586"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

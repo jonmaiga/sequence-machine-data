@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least natural k which is a multiple of prime(n) such that for some m >= 0, phi(k) = rad(k)^m, where phi(k) = A000010(k) and rad(k) = A007947(k).",
+  "id": "A337775",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A007947",
+    "A023503",
+    "A024619",
+    "A105261",
+    "A211413",
+    "A337776"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

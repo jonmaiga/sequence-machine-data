@@ -1,0 +1,21 @@
+{
+  "description": "Number of strict partitions of n with Cookie Monster number 2.",
+  "id": "A226107",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A226084"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:31",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

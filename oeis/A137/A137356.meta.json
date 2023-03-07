@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k <= n/2 } binomial(n-2k, 3k).",
+  "id": "A137356",
+  "mentions": [
+    "A136444",
+    "A137357",
+    "A137358",
+    "A137361",
+    "A137402"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

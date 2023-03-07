@@ -1,0 +1,17 @@
+{
+  "description": "Smallest odd number > n with n in its Collatz successors, or 0 if no such odd number exists. a(1) = 1.",
+  "id": "A350082",
+  "mentions": [
+    "A060565"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the minimum number of alphabetic symbols in a regular expression for the k lexicographically first palindromes of length 2*n over a binary alphabet, n >= 0, 1 <= k <= 2^n.",
+  "id": "A351489",
+  "mentions": [
+    "A000120",
+    "A351490"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

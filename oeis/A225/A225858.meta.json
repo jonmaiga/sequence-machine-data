@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of form 2^i*3^j*(4k+3), i, j, k >= 0.",
+  "id": "A225858",
+  "mentions": [
+    "A225838",
+    "A225857"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

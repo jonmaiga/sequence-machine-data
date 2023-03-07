@@ -1,0 +1,20 @@
+{
+  "description": "Successive integers produced by Conway's PRIMEGAME, starting with 6 rather than 2.",
+  "id": "A273091",
+  "mentions": [
+    "A007542",
+    "A185242",
+    "A203907"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Total number of nonzero vectors over all subspaces of an n-dimensional vector space over the field with two elements.",
+  "id": "A289383",
+  "mentions": [
+    "A001787",
+    "A006116",
+    "A022166"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

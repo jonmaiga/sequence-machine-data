@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) gives the number of ordered partitions of an n set into k odd-sized blocks.",
+  "id": "A196776",
+  "mentions": [
+    "A006154",
+    "A070318",
+    "A131047",
+    "A136630",
+    "A162590",
+    "A193474"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

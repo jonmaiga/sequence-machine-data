@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x such that (-1)sigma(x) | sigma(x), where (-1)sigma(x) is defined in A049060 and sigma(x) is the sum of the divisors of x (A000203).",
+  "id": "A258077",
+  "mentions": [
+    "A000203",
+    "A049060",
+    "A258079"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

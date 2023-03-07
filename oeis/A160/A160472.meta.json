@@ -1,0 +1,24 @@
+{
+  "description": "Fifth right hand column of triangles A094665 and A083061",
+  "id": "A160472",
+  "mentions": [
+    "A001147",
+    "A001880",
+    "A083061",
+    "A094665",
+    "A160470",
+    "A160471"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

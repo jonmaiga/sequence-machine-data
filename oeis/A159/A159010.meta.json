@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the integral of x^n times the Cantor function, from 0 to 1.",
+  "id": "A159010",
+  "mentions": [
+    "A095844",
+    "A095845",
+    "A159009"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

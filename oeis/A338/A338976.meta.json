@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p*A007953(p)+1 is prime.",
+  "id": "A338976",
+  "mentions": [
+    "A007953",
+    "A057147",
+    "A119449"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

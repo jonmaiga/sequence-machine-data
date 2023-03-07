@@ -1,0 +1,20 @@
+{
+  "description": "Minimal value of sum k_i when sum (k_i)^2 = n.",
+  "id": "A138554",
+  "mentions": [
+    "A001156",
+    "A063772",
+    "A138555"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

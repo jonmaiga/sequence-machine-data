@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that phi(k) + rad(k) + psi(k) is a multiple of 3.",
+  "id": "A359059",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000244",
+    "A000420",
+    "A001022",
+    "A001029",
+    "A001615",
+    "A001748",
+    "A007645",
+    "A007947",
+    "A009975",
+    "A009981",
+    "A009987"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

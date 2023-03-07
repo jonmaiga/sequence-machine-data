@@ -1,0 +1,18 @@
+{
+  "description": "The Wiener index of the cyclic phenylene with n hexagons (n>=3).",
+  "id": "A224456",
+  "mentions": [
+    "A224457"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:31",
+    "offset": 3,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(n + 1)*(n + 2)*(n + 3)*(n + 4)*(n^2 - n + 6)/720.",
+  "id": "A256861",
+  "mentions": [
+    "A000580",
+    "A256859"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:29",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

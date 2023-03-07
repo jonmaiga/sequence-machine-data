@@ -1,0 +1,21 @@
+{
+  "description": "Records in A171868 (positions).",
+  "id": "A171887",
+  "mentions": [
+    "A171865",
+    "A171868",
+    "A171888",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the integral of the logarithm of the Riemann zeta function from 2 to infinity.",
+  "id": "A221710",
+  "mentions": [
+    "A188157",
+    "A221712"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

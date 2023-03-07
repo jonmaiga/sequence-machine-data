@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that cannot be expressed as a sum of 2 triangular numbers and a power of 2.",
+  "id": "A112665",
+  "mentions": [
+    "A112625"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

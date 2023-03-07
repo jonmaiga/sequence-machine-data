@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=17; for n>1, a(n) = (a(n-1)^2 - 1)/2 if n is even, a(n-1) + 1 if n is odd.",
+  "id": "A304207",
+  "mentions": [
+    "A076601",
+    "A076602",
+    "A076603",
+    "A076604"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

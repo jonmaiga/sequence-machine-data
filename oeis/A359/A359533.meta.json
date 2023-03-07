@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1/64)^k*binomial(2*k, k)^3*(4*k + 1)*H_k, where H_k is the k-th harmonic number (negated).",
+  "id": "A359533",
+  "mentions": [
+    "A000796",
+    "A001008",
+    "A002805",
+    "A002897",
+    "A016639",
+    "A016813",
+    "A063448",
+    "A068465",
+    "A068466",
+    "A091925",
+    "A203142",
+    "A203143",
+    "A359532"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

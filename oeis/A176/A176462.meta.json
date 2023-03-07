@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that neither k-1 nor k+1 is prime or semiprime.",
+  "id": "A176462",
+  "mentions": [
+    "A001358",
+    "A141468",
+    "A166685"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

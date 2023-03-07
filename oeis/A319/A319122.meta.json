@@ -1,0 +1,26 @@
+{
+  "description": "Number of phylogenetic plane trees on n labels.",
+  "id": "A319122",
+  "mentions": [
+    "A000108",
+    "A000670",
+    "A001003",
+    "A005804",
+    "A074206",
+    "A118376",
+    "A277130",
+    "A281118",
+    "A281119",
+    "A319137"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

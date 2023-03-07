@@ -1,0 +1,25 @@
+{
+  "description": "Number of factorizations of A302569(n), the n-th number that is 1, prime, or whose prime indices are pairwise coprime.",
+  "id": "A327525",
+  "mentions": [
+    "A001055",
+    "A056239",
+    "A112798",
+    "A281116",
+    "A302569",
+    "A304711",
+    "A305079",
+    "A318721"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of endless self-avoiding walks of length 2*n for the honeycomb lattice.",
+  "id": "A334330",
+  "mentions": [
+    "A001668",
+    "A334322",
+    "A334326",
+    "A334331",
+    "A334332",
+    "A334333",
+    "A334334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

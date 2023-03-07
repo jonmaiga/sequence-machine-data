@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form a^2 + b^4, with repetition.",
+  "id": "A247857",
+  "mentions": [
+    "A000040",
+    "A002645",
+    "A028916",
+    "A256852"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

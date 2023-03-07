@@ -1,0 +1,21 @@
+{
+  "description": "Asymptotic mean (normalized by n) of the second largest connected component in a random mapping on n symbols.",
+  "id": "A272429",
+  "mentions": [
+    "A084945",
+    "A143297",
+    "A261873"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

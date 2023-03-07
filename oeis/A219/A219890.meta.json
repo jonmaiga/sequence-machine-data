@@ -1,0 +1,23 @@
+{
+  "description": "Number of directed 3-regular graphs on n nodes.",
+  "id": "A219890",
+  "mentions": [
+    "A096368",
+    "A219889",
+    "A219891",
+    "A219892",
+    "A219893",
+    "A350910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

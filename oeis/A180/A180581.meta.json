@@ -1,0 +1,25 @@
+{
+  "description": "Least prime p which maps into n different primes under some mapping of a single decimal digit <=> with another single decimal digit.",
+  "id": "A180581",
+  "mentions": [
+    "A171057",
+    "A175789",
+    "A175791",
+    "A180517",
+    "A180559",
+    "A180560",
+    "A180561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

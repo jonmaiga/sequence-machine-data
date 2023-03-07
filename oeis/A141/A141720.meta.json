@@ -1,0 +1,32 @@
+{
+  "description": "Triangle of coefficients of the polynomials (1 - x)^n*A(n,x/(1 - x)), where A(n,x) are the Eulerian polynomials of A008292.",
+  "id": "A141720",
+  "mentions": [
+    "A008292",
+    "A019538",
+    "A122753",
+    "A123018",
+    "A123019",
+    "A123021",
+    "A123027",
+    "A123199",
+    "A123202",
+    "A123217",
+    "A123221",
+    "A144387",
+    "A144400",
+    "A174128"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

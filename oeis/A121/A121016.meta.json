@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose binary expansion is properly periodic.",
+  "id": "A121016",
+  "mentions": [
+    "A000120",
+    "A003714",
+    "A014081",
+    "A020330",
+    "A065609",
+    "A069010",
+    "A164707",
+    "A275692",
+    "A328594",
+    "A328595",
+    "A328596"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

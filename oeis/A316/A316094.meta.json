@@ -1,0 +1,25 @@
+{
+  "description": "FDH numbers of strict integer partitions with odd parts.",
+  "id": "A316094",
+  "mentions": [
+    "A000700",
+    "A050376",
+    "A064547",
+    "A213925",
+    "A258116",
+    "A279065",
+    "A299755",
+    "A299757",
+    "A305829"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

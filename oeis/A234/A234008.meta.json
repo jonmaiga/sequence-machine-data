@@ -1,0 +1,25 @@
+{
+  "description": "Free polyominoes with 2n squares, having 180-degree rotational symmetry about a square mid-side, but no reflective symmetry.",
+  "id": "A234008",
+  "mentions": [
+    "A000105",
+    "A001933",
+    "A006747",
+    "A234006",
+    "A234007",
+    "A234009",
+    "A234010"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

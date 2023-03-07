@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals: A(n,k) is the number of achiral colorings of the facets of a regular n-dimensional orthotope using up to k colors.",
+  "id": "A325007",
+  "mentions": [
+    "A000027",
+    "A002411",
+    "A186783",
+    "A325001",
+    "A325004",
+    "A325005",
+    "A325006",
+    "A325011",
+    "A325015"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

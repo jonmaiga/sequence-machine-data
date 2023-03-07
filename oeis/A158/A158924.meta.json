@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime powers - 1 in interval (A158923(n-1), A158923(n)] expressing the excess or deficit relative to the asymptotic average of 1.",
+  "id": "A158924",
+  "mentions": [
+    "A000961",
+    "A025528",
+    "A158923",
+    "A158925"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

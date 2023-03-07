@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the product of n and the sum of the reciprocal of their anti-divisors is an integer.",
+  "id": "A272890",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions p of n into distinct parts such that median(p) < mean(p).",
+  "id": "A240875",
+  "mentions": [
+    "A240217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

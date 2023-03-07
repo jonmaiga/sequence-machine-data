@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct factors in the factorization of n into factors q(i) = prime(i)/i, i > 0.",
+  "id": "A324923",
+  "mentions": [
+    "A000081",
+    "A003963",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A120383",
+    "A196050",
+    "A317713",
+    "A324850",
+    "A324922",
+    "A324924",
+    "A324925",
+    "A324931",
+    "A324934",
+    "A324935",
+    "A324936"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

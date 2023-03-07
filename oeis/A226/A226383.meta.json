@@ -1,0 +1,18 @@
+{
+  "description": "Numbers for which there is at least one 3-smooth representation that is special of level k.",
+  "id": "A226383",
+  "mentions": [
+    "A003586",
+    "A213539"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

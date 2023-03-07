@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k + the sum of the 4th powers of the decimal digits of k is a square.",
+  "id": "A338235",
+  "mentions": [
+    "A055013",
+    "A329179",
+    "A329386"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

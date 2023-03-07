@@ -1,0 +1,17 @@
+{
+  "description": "Number of (2*n)Xn binary matrices with all row sums equal and all column sums equal",
+  "id": "A181234",
+  "mentions": [
+    "A181236"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

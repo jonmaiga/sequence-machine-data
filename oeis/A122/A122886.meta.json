@@ -1,0 +1,21 @@
+{
+  "description": "Interlaced merger of A122883, A122884 and A122885.",
+  "id": "A122886",
+  "mentions": [
+    "A122883",
+    "A122884",
+    "A122885"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:57:26",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

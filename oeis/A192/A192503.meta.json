@@ -1,0 +1,22 @@
+{
+  "description": "Ludic prime numbers.",
+  "id": "A192503",
+  "mentions": [
+    "A000040",
+    "A003309",
+    "A010051",
+    "A192490",
+    "A192506"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

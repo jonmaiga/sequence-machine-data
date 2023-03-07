@@ -1,0 +1,18 @@
+{
+  "description": "Primes with record Manhattan distance from origin. When starting rightwards in a grid, turn left after a prime number. If not, walk straight on.",
+  "id": "A309701",
+  "mentions": [
+    "A000040",
+    "A309755"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "A sequence related to the period T of a simple gravity pendulum for arbitrary amplitudes.",
+  "id": "A223068",
+  "mentions": [
+    "A019692",
+    "A223067",
+    "A280442",
+    "A280443"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

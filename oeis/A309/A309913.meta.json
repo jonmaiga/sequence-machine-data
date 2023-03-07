@@ -1,0 +1,20 @@
+{
+  "description": "Distance from n to closest squarefree number that is different from n.",
+  "id": "A309913",
+  "mentions": [
+    "A005117",
+    "A051700",
+    "A080733",
+    "A316190"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

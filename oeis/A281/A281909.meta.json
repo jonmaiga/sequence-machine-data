@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that k^i - 1 is a totient number (A002202) for all i = 1 to n, or 0 if no such k exists.",
+  "id": "A281909",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A045542"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

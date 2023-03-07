@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of hill-free Dyck paths of semilength n and having k peaks at level 2; 0<= k<=n-1, n>=2 (a Dyck path is said to be hill-free if it has no peaks at level 1).",
+  "id": "A114626",
+  "mentions": [
+    "A000957",
+    "A114495",
+    "A114627"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

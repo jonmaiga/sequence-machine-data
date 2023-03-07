@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2k - p is not a prime where p is any prime divisor of 4k^2 - 1.",
+  "id": "A306247",
+  "mentions": [
+    "A040040",
+    "A306261"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

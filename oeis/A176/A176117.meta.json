@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that T(p) is prime in Juricevic conjecture on classification of Lehmer triples.",
+  "id": "A176117",
+  "mentions": [
+    "A000040",
+    "A110035"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

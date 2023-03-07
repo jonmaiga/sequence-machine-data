@@ -1,0 +1,42 @@
+{
+  "description": "Number of multiset partitions of integer partitions of n such that all blocks have odd size.",
+  "id": "A356932",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000302",
+    "A000670",
+    "A001055",
+    "A001970",
+    "A006171",
+    "A007294",
+    "A011782",
+    "A026424",
+    "A027193",
+    "A050330",
+    "A055887",
+    "A055922",
+    "A058695",
+    "A072233",
+    "A089259",
+    "A107742",
+    "A117958",
+    "A270995",
+    "A304969",
+    "A356933",
+    "A356934",
+    "A356935",
+    "A356941"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Compound filter (for counting prime gaps): a(1) = 1, a(n) = 2*A032742(n) + (1 if n is composite and spf(A032742(n)) > nextprime(spf(n)), and 0 otherwise). Here spf is the smallest prime factor, A020639.",
+  "id": "A286472",
+  "mentions": [
+    "A000040",
+    "A020639",
+    "A032742",
+    "A073490",
+    "A285729",
+    "A286471",
+    "A286473",
+    "A286474",
+    "A286475",
+    "A286476"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

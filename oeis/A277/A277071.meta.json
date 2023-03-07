@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which A277070(n) does not equal A237442(n).",
+  "id": "A277071",
+  "mentions": [
+    "A003586",
+    "A237442",
+    "A276380",
+    "A277070"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

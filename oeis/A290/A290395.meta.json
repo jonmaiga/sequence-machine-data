@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: Product_{m>0} 1/(1 + x^m + 2*x^(2*m) + 3*x^(3*m)).",
+  "id": "A290395",
+  "mentions": [
+    "A290217"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p for which p - 4 and p^3 - 4 are primes.",
+  "id": "A243817",
+  "mentions": [
+    "A046132"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

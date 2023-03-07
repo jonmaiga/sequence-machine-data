@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of n objects such that no five-element subset is preserved.",
+  "id": "A213324",
+  "mentions": [
+    "A000166",
+    "A137482",
+    "A213322",
+    "A213323"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:01",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

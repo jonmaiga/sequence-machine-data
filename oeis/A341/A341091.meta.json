@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: Coefficients for calculation of the sum of all the finite differences from order zero to order k. Sum_{n=0..k} T(n,k)*b(n) = b(0) + b(1) + ... + b(k) + (b(1) - b(0)) + ... + (b(k) - b(k-1)) + (((b(2) - b(1))-((b(1) - b(0))) + ... .",
+  "id": "A341091",
+  "mentions": [
+    "A000027",
+    "A000032",
+    "A000045",
+    "A000217",
+    "A001045",
+    "A004006",
+    "A027642",
+    "A032346",
+    "A051744",
+    "A052875",
+    "A084416",
+    "A130595",
+    "A145766",
+    "A164555"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Take n points in general position in space; draw all planes through all triples of these points; sequence gives number of connected regions formed.",
+  "id": "A153445",
+  "mentions": [
+    "A055503"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:11",
+    "offset": 3,
+    "size": 7,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with product k, all zeros removed.",
+  "id": "A353741",
+  "mentions": [
+    "A000041",
+    "A002033",
+    "A003963",
+    "A005361",
+    "A008284",
+    "A034891",
+    "A116608",
+    "A225485",
+    "A266477",
+    "A266499",
+    "A319000",
+    "A325242",
+    "A325268",
+    "A325280",
+    "A339095",
+    "A353503",
+    "A353506",
+    "A353698"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

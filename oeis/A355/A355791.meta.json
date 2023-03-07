@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that can be written as the product of two divisors greater than 1 such that the number in binary is contained in the string concatenation of the divisors in binary.",
+  "id": "A355791",
+  "mentions": [
+    "A027750",
+    "A030190",
+    "A210959",
+    "A355790",
+    "A355852",
+    "A355857"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

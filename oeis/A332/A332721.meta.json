@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n^2 with parts <= n, such that each element of [n] is used at least once.",
+  "id": "A332721",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A103488",
+    "A332716",
+    "A332747",
+    "A332796"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

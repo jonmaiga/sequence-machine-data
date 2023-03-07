@@ -1,0 +1,24 @@
+{
+  "description": "Integer part of the volume of a regular tetrahedron with edge length n.",
+  "id": "A171973",
+  "mentions": [
+    "A000292",
+    "A000578",
+    "A001951",
+    "A171971",
+    "A171972",
+    "A171974",
+    "A171975"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

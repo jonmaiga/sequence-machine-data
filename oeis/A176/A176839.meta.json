@@ -1,0 +1,19 @@
+{
+  "description": "The number of iterations to reach 1 under the map x -> x-tau(phi(x)), starting at n.",
+  "id": "A176839",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A062821"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

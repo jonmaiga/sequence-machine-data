@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the number of divisors of k is equal to the number of power-of-two-divisors of the sum of divisors of k.",
+  "id": "A309621",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001511",
+    "A001597",
+    "A002144",
+    "A286357",
+    "A309530"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

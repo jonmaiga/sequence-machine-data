@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of T_0 n-regular set-systems on a k-set.",
+  "id": "A331039",
+  "mentions": [
+    "A000012",
+    "A060053",
+    "A060070",
+    "A188445",
+    "A330942",
+    "A330964",
+    "A331126",
+    "A331160",
+    "A331161",
+    "A331569",
+    "A331654",
+    "A331655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

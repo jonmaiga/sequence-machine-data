@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers k such that sopf(k) is also a Carmichael number, where sopf(k) is the sum of the distinct primes dividing k (A008472).",
+  "id": "A329463",
+  "mentions": [
+    "A002997",
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

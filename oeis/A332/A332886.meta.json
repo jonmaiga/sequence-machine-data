@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of partition numbers that divide the n-th partition number (counted without multiplicity).",
+  "id": "A332886",
+  "mentions": [
+    "A000041",
+    "A332887"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

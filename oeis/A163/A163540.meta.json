@@ -1,0 +1,25 @@
+{
+  "description": "The absolute direction (0=east, 1=south, 2=west, 3=north) taken by the type I Hilbert's Hamiltonian walk A163357 at the step n.",
+  "id": "A163540",
+  "mentions": [
+    "A004442",
+    "A008598",
+    "A010873",
+    "A163357",
+    "A163538",
+    "A163539",
+    "A163541",
+    "A163542"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A023163(n)/3 for n > 1.",
+  "id": "A128288",
+  "mentions": [
+    "A002708",
+    "A003631",
+    "A023162",
+    "A023163",
+    "A023172",
+    "A023173",
+    "A069107",
+    "A128289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

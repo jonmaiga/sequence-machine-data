@@ -1,0 +1,21 @@
+{
+  "description": "Absolute difference between sum of odd divisors of n^2 and sum of even divisors of n^2.",
+  "id": "A224339",
+  "mentions": [
+    "A065764",
+    "A113184",
+    "A224340"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

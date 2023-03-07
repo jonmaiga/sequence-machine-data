@@ -1,0 +1,18 @@
+{
+  "description": "Least prime numbers, in ascending order, such that each of them can be written, in a unique way, in the form x^2 + h*y^2, where x, y are natural numbers, while h takes all the values of the sequence A000926 (idoneal numbers).",
+  "id": "A340132",
+  "mentions": [
+    "A000926",
+    "A338088"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

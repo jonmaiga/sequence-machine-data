@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that A078649(k)>=n",
+  "id": "A156251",
+  "mentions": [
+    "A078649"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

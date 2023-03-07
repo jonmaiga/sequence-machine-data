@@ -1,0 +1,22 @@
+{
+  "description": "Number of unoriented polyomino rings of length 4n with fourfold rotational symmetry.",
+  "id": "A324407",
+  "mentions": [
+    "A144553",
+    "A324406",
+    "A324408",
+    "A324409"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

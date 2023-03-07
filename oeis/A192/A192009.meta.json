@@ -1,0 +1,20 @@
+{
+  "description": "Modified cyclic phone booth sequence: number of ways to occupy n labeled phone booths in a circle one by one, each time picking a phone booth adjacent to the smallest number of previously occupied phone booths.",
+  "id": "A192009",
+  "mentions": [
+    "A095236",
+    "A192008",
+    "A276657"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

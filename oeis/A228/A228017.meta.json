@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n divisible by the sum of any k-subset of digits of n with k >= 1.",
+  "id": "A228017",
+  "mentions": [
+    "A051004",
+    "A346535"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

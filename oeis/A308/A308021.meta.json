@@ -1,0 +1,24 @@
+{
+  "description": "Start at n=1. Fill in a(n) with a value d > 0 not used earlier such that n-d or n+d is the smallest possible index not visited earlier, then continue with that index.",
+  "id": "A308021",
+  "mentions": [
+    "A005132",
+    "A081145",
+    "A081146",
+    "A099004",
+    "A171884",
+    "A308049"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

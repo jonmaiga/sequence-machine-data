@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations of z -> z^2 + 1/4 + 1/2^n until z > 2, starting with z = 0.",
+  "id": "A332062",
+  "mentions": [
+    "A299415",
+    "A332061"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

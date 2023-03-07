@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A333400.",
+  "id": "A333398",
+  "mentions": [
+    "A333400"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

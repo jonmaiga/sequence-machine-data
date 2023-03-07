@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of fourth powers of three distinct positive integers in arithmetic progression.",
+  "id": "A306214",
+  "mentions": [
+    "A000583",
+    "A126657",
+    "A133531",
+    "A190176",
+    "A306212",
+    "A306213"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

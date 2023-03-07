@@ -1,0 +1,18 @@
+{
+  "description": "Inverse of A304755: if A304755(k) = n, a(n) = k, or 0 if n does not occur in A304755.",
+  "id": "A304756",
+  "mentions": [
+    "A304755"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of initial values <= 10^n whose trajectory under the iteration x -> A306938(x) reaches 1.",
+  "id": "A306971",
+  "mentions": [
+    "A306938",
+    "A306943",
+    "A306944"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

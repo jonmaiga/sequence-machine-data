@@ -1,0 +1,18 @@
+{
+  "description": "Primes where the first digit is greater than any other digit.",
+  "id": "A156299",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

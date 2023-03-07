@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonintersecting (or self-avoiding) rook paths joining opposite corners of an n X n grid that move in 3 or fewer cardinal directions.",
+  "id": "A265132",
+  "mentions": [
+    "A007764"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

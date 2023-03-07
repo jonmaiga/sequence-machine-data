@@ -1,0 +1,19 @@
+{
+  "description": "Every 4th term of A083948 where the self-convolution 4th power is congruent modulo 16 to A083948, which consists entirely of numbers 1 through 8.",
+  "id": "A110637",
+  "mentions": [
+    "A083948",
+    "A110636",
+    "A110638"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

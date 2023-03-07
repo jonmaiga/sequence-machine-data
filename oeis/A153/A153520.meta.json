@@ -1,0 +1,33 @@
+{
+  "description": "Triangle T(n,k) = T(n-1, k) + T(n-1, k-1) + 7*T(n-2, k-1), read by rows.",
+  "id": "A153520",
+  "mentions": [
+    "A153516",
+    "A153518",
+    "A153521",
+    "A153648",
+    "A153649",
+    "A153650",
+    "A153651",
+    "A153652",
+    "A153653",
+    "A153654",
+    "A153655",
+    "A153656",
+    "A153657"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

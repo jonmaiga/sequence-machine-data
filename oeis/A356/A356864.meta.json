@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of primes p < n such that 2*n-p and p*(2*n-p)+2*n are also prime.",
+  "id": "A356864",
+  "mentions": [
+    "A061357"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

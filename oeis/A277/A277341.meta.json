@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the nearest integer to prime(n)^prime(n+1)/prime(n+1)^prime(n).",
+  "id": "A277341",
+  "mentions": [
+    "A053089",
+    "A058077",
+    "A078422"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

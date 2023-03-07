@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^A001620(k).",
+  "id": "A175794",
+  "mentions": [
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "obsc",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

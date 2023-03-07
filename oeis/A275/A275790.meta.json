@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, m) appearing in the expansion of the scaled phase space coordinate qhat of the plane pendulum in terms of the Jacobi nome q and sin(v) multiplying even powers of 2*cos(v), with v = u/((2/Pi)*K(k)).",
+  "id": "A275790",
+  "mentions": [
+    "A004018",
+    "A005798",
+    "A025547",
+    "A273506",
+    "A274662"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

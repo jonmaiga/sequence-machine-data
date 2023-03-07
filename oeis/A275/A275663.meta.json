@@ -1,0 +1,17 @@
+{
+  "description": "Number of squares in {n, f(n), f(f(n)), ...., 1}, where f is the Collatz function.",
+  "id": "A275663",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

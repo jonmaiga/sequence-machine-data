@@ -1,0 +1,18 @@
+{
+  "description": "Triangle whose n-th row has the smallest n 3-almost primes in an arithmetic progression.",
+  "id": "A226835",
+  "mentions": [
+    "A226833"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of palindromic plane trees with n nodes.",
+  "id": "A319436",
+  "mentions": [
+    "A000108",
+    "A000670",
+    "A001003",
+    "A005043",
+    "A008965",
+    "A025065",
+    "A032128",
+    "A118376",
+    "A242414",
+    "A317085",
+    "A317086",
+    "A317087",
+    "A319122",
+    "A319437"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

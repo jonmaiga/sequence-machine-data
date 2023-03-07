@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1; thereafter a(n) = 2^(1 + number of zeros in binary expansion of n).",
+  "id": "A267584",
+  "mentions": [
+    "A023416",
+    "A064194"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

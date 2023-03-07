@@ -1,0 +1,21 @@
+{
+  "description": "Number of 1's within a sample word of length 10^n of the infinite Fibonacci word A003842 where n is the sequence index.",
+  "id": "A342959",
+  "mentions": [
+    "A003842",
+    "A005206",
+    "A005614",
+    "A094214"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

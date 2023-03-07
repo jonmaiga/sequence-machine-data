@@ -1,0 +1,23 @@
+{
+  "description": "Order of Galois groups of irreducible Chebyshev polynomials of order n.",
+  "id": "A124827",
+  "mentions": [
+    "A000142",
+    "A001710",
+    "A002618",
+    "A036689",
+    "A127835"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes in A276573, the infinite trunk of least squares beanstalk.",
+  "id": "A277888",
+  "mentions": [
+    "A000040",
+    "A276573",
+    "A277487",
+    "A277887",
+    "A278167"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

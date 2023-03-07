@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = order of Fibonacci group F(n,k), writing 0 if the group is infinite, for n >= 2, k >= 1.",
+  "id": "A202624",
+  "mentions": [
+    "A037205",
+    "A065530",
+    "A202625",
+    "A202626",
+    "A202627"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

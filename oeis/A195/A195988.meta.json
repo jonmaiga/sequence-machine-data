@@ -1,0 +1,20 @@
+{
+  "description": "Near-Wieferich primes above 10^9: primes p > 10^9 such that 2^((p-1)/2) == +-1 + A*p (mod p^2) with |A| <= 100, i.e., p=prime(i) such that A258367(i) <= 100.",
+  "id": "A195988",
+  "mentions": [
+    "A001220",
+    "A246568",
+    "A258367",
+    "A258368"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

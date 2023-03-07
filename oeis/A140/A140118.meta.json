@@ -1,0 +1,17 @@
+{
+  "description": "Extrapolation for (n + 1)-st odd prime made by fitting least-degree polynomial to first n odd primes.",
+  "id": "A140118",
+  "mentions": [
+    "A140119"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

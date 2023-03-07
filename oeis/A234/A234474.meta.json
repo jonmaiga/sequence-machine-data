@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are divisible by their digital sum and digital root.",
+  "id": "A234474",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A010888",
+    "A064807"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways that a tile in the form of a strip of n congruent regular hexagons stuck together on successive parallel edges can be surrounded by one layer of copies of itself in a plane. Ways that differ by rotation or reflection are not counted as different. The surrounded tile is the exact surrounded region.",
+  "id": "A159295",
+  "mentions": [
+    "A159294"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:01",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangular numbers k such that every permutation of the digits of k is a triangular number.",
+  "id": "A343811",
+  "mentions": [
+    "A000217",
+    "A003459",
+    "A045914",
+    "A077671"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

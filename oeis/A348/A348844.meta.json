@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n gives the pairs of odd and even number of moves for the Juniper Green game JG(n) with n cards, for n >= 2, if the first card taken away is labeled K, for K = 2, 4, ..., 2*floor(n/2).",
+  "id": "A348844",
+  "mentions": [
+    "A009619",
+    "A348842",
+    "A348843"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

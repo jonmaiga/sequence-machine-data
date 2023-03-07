@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n!! - 1024 is prime.",
+  "id": "A258866",
+  "mentions": [
+    "A006882",
+    "A007749",
+    "A094144",
+    "A123910",
+    "A258452",
+    "A258616",
+    "A262772"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

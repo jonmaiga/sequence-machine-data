@@ -1,0 +1,21 @@
+{
+  "description": "Let y = y(u,v) be implicitly defined by g(u,v,y(u,v)) = 0. Read as a triangle by rows k = 1,2,..., the sequence represents the number of terms a(i,k-i) in the expansion of the partial derivatives d^k y/du^i dv^{k-i} in terms of partial derivatives of g.",
+  "id": "A172004",
+  "mentions": [
+    "A003262",
+    "A162326",
+    "A172003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

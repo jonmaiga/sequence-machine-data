@@ -1,0 +1,21 @@
+{
+  "description": "Length of row n of the irregular triangle A133995 (positive integers <= n which are neither divisors of n nor coprime to n).",
+  "id": "A264441",
+  "mentions": [
+    "A000040",
+    "A045763",
+    "A133995"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

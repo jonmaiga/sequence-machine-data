@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number that is the sum of n positive cubes in four ways.",
+  "id": "A343085",
+  "mentions": [
+    "A342902",
+    "A343081",
+    "A343084",
+    "A343086"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:43",
+    "offset": 3,
+    "size": 51,
+    "source": "joeis"
+  }
+}

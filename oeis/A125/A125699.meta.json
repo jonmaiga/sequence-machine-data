@@ -1,0 +1,25 @@
+{
+  "description": "Table, T(n,k) is the number of connected categories with n morphisms and k objects.",
+  "id": "A125699",
+  "mentions": [
+    "A058129",
+    "A110654",
+    "A125696",
+    "A125698",
+    "A125700",
+    "A125702"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

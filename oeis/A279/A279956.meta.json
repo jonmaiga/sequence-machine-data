@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that every suffix of the base-4 representation of p is either a prime or 1.",
+  "id": "A279956",
+  "mentions": [
+    "A033664",
+    "A278454",
+    "A278694",
+    "A278698",
+    "A278699"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

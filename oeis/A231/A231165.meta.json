@@ -1,0 +1,20 @@
+{
+  "description": "Number of Gram blocks [g(j), g(j+1)) up to 10^n, 0 <= j < 10^n, which contain exactly three zeros of Z(t), where Z(t) is the Riemann-Siegel Z-function.",
+  "id": "A231165",
+  "mentions": [
+    "A114856",
+    "A231157",
+    "A231164"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

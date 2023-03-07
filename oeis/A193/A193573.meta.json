@@ -1,0 +1,18 @@
+{
+  "description": "Least happy number with next happy number of distance n.",
+  "id": "A193573",
+  "mentions": [
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

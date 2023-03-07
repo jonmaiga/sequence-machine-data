@@ -1,0 +1,21 @@
+{
+  "description": "Square matrix read by antidiagonals: T(m,n) = m-th term in the continued fraction expansion of Pi^n.",
+  "id": "A137299",
+  "mentions": [
+    "A001203",
+    "A001672",
+    "A138324"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

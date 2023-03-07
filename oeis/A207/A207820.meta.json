@@ -1,0 +1,19 @@
+{
+  "description": "Let A = A025584. a(n) is the smallest A(m) such that the interval (A(m)*n, A(m+1)*n) contains no primes from A.",
+  "id": "A207820",
+  "mentions": [
+    "A023200",
+    "A025584",
+    "A195325"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

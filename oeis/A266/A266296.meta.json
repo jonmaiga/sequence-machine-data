@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of a number close to 24, related to the Ramanujan number e^(Pi*sqrt(163)).",
+  "id": "A266296",
+  "mentions": [
+    "A060295",
+    "A097340",
+    "A114609",
+    "A114610"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

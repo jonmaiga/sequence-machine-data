@@ -1,0 +1,20 @@
+{
+  "description": "Integers such that no subsequence of decimal representation is divisible by 3.",
+  "id": "A261188",
+  "mentions": [
+    "A114922"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

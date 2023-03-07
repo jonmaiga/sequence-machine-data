@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the k-th word in A342910 starts with 1 and ends with 1.",
+  "id": "A344161",
+  "mentions": [
+    "A342910",
+    "A344158",
+    "A344159",
+    "A344160"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

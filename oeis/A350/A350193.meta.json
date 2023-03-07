@@ -1,0 +1,21 @@
+{
+  "description": "Indices that give distinct values of A350090 in the order in which they appear.",
+  "id": "A350193",
+  "mentions": [
+    "A002378",
+    "A003215",
+    "A350090",
+    "A350120",
+    "A350192"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

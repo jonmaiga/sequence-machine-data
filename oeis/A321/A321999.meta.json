@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits of n minus the number of digits of n.",
+  "id": "A321999",
+  "mentions": [
+    "A004218",
+    "A007953",
+    "A055642",
+    "A061384"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

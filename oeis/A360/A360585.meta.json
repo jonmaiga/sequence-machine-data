@@ -1,0 +1,18 @@
+{
+  "description": "The integers of the sequence appear exactly twice. Between the two copies of k there are k even integers. S is always extended with the smallest integer not leading to a contradiction.",
+  "id": "A360585",
+  "mentions": [
+    "A360476"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

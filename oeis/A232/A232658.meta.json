@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are factors of Lucas numbers, whose multiples do not appear in some other Fibonacci-like sequence.",
+  "id": "A232658",
+  "mentions": [
+    "A000285",
+    "A064362",
+    "A065156",
+    "A230457"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

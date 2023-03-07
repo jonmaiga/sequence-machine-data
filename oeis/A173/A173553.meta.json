@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 5+38*n^2 is not a prime.",
+  "id": "A173553",
+  "mentions": [
+    "A173552",
+    "A173554",
+    "A173555"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

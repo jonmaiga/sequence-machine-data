@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes with 2n digits made of adjacent primes with 2 digits.",
+  "id": "A135945",
+  "mentions": [
+    "A135944",
+    "A135946"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

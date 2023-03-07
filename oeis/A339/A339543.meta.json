@@ -1,0 +1,21 @@
+{
+  "description": "Beginnings of record-length chains of primes under iteration of A339541.",
+  "id": "A339543",
+  "mentions": [
+    "A339541",
+    "A339542"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

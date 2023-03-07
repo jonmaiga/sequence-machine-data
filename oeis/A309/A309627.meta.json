@@ -1,0 +1,17 @@
+{
+  "description": "Starting numbers k such that the trajectory of k under the map x -> A133058(x) joins A133058.",
+  "id": "A309627",
+  "mentions": [
+    "A133058"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

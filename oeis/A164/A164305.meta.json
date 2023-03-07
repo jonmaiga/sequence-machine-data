@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6*a(n-1) - 7*a(n-2) for n > 1; a(0) = 3, a(1) = 17.",
+  "id": "A164305",
+  "mentions": [
+    "A164304",
+    "A164535",
+    "A164654"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

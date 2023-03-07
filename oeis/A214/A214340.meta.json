@@ -1,0 +1,18 @@
+{
+  "description": "Number of contiguous blocks of novel occurrences of length-n factors for the Thue-Morse sequence A010060.",
+  "id": "A214340",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

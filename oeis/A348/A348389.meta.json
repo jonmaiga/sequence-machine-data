@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: row n gives for n >= 2 a concatenation of the finite sequences of the multiples of k, larger than k and not exceeding n, for k = 1, 2, ..., floor(n/2).",
+  "id": "A348389",
+  "mentions": [
+    "A002541",
+    "A348388",
+    "A348392"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the largest digit of the concatenation of p and the p-th prime is either 1 or 9.",
+  "id": "A155089",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

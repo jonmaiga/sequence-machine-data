@@ -1,0 +1,20 @@
+{
+  "description": "The smallest superpermutation of order n, read as a base n+1 number.",
+  "id": "A332090",
+  "mentions": [
+    "A007489",
+    "A180632",
+    "A332089"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

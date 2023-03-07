@@ -1,0 +1,22 @@
+{
+  "description": "A self-describing sequence: start with 0, then for each digit in each successive term, starting from the first term, append to the sequence its most recent position in the string formed by the concatenation of all previous terms.",
+  "id": "A342164",
+  "mentions": [
+    "A114308",
+    "A125132",
+    "A263563",
+    "A264646",
+    "A308387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

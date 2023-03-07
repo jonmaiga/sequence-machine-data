@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, 1<=k<=n!) is the number of permutations pi of n such that there are k permutations <= pi in the left weak order.",
+  "id": "A263754",
+  "mentions": [
+    "A000142",
+    "A007767"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

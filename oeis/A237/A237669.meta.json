@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime parts in the partitions of 3n into 3 parts.",
+  "id": "A237669",
+  "mentions": [
+    "A010051",
+    "A019298",
+    "A236364",
+    "A236370",
+    "A236758",
+    "A236762",
+    "A237264"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

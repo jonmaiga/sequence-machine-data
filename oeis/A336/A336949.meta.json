@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * [x^n] 1 / (exp(-n*x) - x).",
+  "id": "A336949",
+  "mentions": [
+    "A063170",
+    "A072597",
+    "A235328",
+    "A336947",
+    "A336948"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

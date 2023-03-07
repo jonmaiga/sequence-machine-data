@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of k such that 1 <= k < n and a(k) XOR ... XOR a(n-1) = 0 (where XOR denotes the bitwise XOR operator).",
+  "id": "A336033",
+  "mentions": [
+    "A336190",
+    "A340488"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

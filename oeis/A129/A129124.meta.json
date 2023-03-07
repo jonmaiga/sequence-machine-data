@@ -1,0 +1,20 @@
+{
+  "description": "(c,n) is the n-th number for which the Esucarys sequence starting from it reaches 238 and from there runs in a 18 steps loop.",
+  "id": "A129124",
+  "mentions": [
+    "A006577",
+    "A129121"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) = number of (n+1) X (k+1) 0..3 arrays with no 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors or the same number of counterclockwise edge increases as its vertical neighbors.",
+  "id": "A205954",
+  "mentions": [
+    "A205459"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution of (1^3, 2^3, 3^3, 4^3, ... ).",
+  "id": "A145216",
+  "mentions": [
+    "A098360"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:35",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of solutions to x^5 == 1 (mod n).",
+  "id": "A319099",
+  "mentions": [
+    "A000010",
+    "A030430",
+    "A060594",
+    "A060839",
+    "A066500",
+    "A073103",
+    "A247257",
+    "A293482",
+    "A307380",
+    "A319100",
+    "A319101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The pairs (x,y) such that x^2 = 1+factorial(y).",
+  "id": "A163524",
+  "mentions": [
+    "A146968"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

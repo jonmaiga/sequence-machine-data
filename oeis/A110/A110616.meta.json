@@ -1,0 +1,29 @@
+{
+  "description": "A convolution triangle of numbers based on A001764.",
+  "id": "A110616",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A006013",
+    "A006629",
+    "A006630",
+    "A006631",
+    "A069269",
+    "A092276",
+    "A098746",
+    "A102594",
+    "A102893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

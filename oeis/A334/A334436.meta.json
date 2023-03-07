@@ -1,0 +1,46 @@
+{
+  "description": "Heinz numbers of all reversed integer partitions sorted first by sum and then reverse-lexicographically.",
+  "id": "A334436",
+  "mentions": [
+    "A000041",
+    "A001222",
+    "A026791",
+    "A036036",
+    "A036037",
+    "A056239",
+    "A066099",
+    "A080577",
+    "A112798",
+    "A124734",
+    "A129129",
+    "A185974",
+    "A193073",
+    "A211992",
+    "A215366",
+    "A228100",
+    "A228531",
+    "A296150",
+    "A333219",
+    "A333486",
+    "A334301",
+    "A334302",
+    "A334433",
+    "A334434",
+    "A334435",
+    "A334437",
+    "A334438",
+    "A334439"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of positive numbers. See comments.",
+  "id": "A207800",
+  "mentions": [
+    "A000120",
+    "A065190",
+    "A066884",
+    "A067576",
+    "A207790",
+    "A209268",
+    "A249725"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

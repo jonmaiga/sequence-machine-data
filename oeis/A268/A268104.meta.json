@@ -1,0 +1,17 @@
+{
+  "description": "Number of 1Xn 0..n arrays with every repeated value in every row and column greater than or equal to the previous repeated value.",
+  "id": "A268104",
+  "mentions": [
+    "A268103"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

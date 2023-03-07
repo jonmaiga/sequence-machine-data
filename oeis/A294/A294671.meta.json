@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of sqrt(2) and sqrt(5) with no positional regrouping.",
+  "id": "A294671",
+  "mentions": [
+    "A002163",
+    "A002193",
+    "A073212",
+    "A294670"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the number of strings of numbers x(i=1..n) in 0..k with sum i^2*x(i) equal to k*n^2.",
+  "id": "A183953",
+  "mentions": [
+    "A030273",
+    "A183946",
+    "A183947",
+    "A183954",
+    "A183955"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

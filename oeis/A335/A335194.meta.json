@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of vertices inside an n-gon formed by the straight line segments connecting vertex k to vertex 3k mod n.",
+  "id": "A335194",
+  "mentions": [
+    "A335192",
+    "A335193",
+    "A335195"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 3,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

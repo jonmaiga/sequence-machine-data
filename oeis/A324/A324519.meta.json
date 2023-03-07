@@ -1,0 +1,32 @@
+{
+  "description": "Numbers > 1 where the minimum prime index equals the number of prime factors minus the number of distinct prime factors.",
+  "id": "A324519",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A046660",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A106529",
+    "A112798",
+    "A324515",
+    "A324517",
+    "A324520",
+    "A324521",
+    "A324522",
+    "A324560",
+    "A324562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

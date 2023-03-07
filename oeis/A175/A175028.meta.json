@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=n+1 if n is prime, otherwise a(n)=n-1.",
+  "id": "A175028",
+  "mentions": [
+    "A068519",
+    "A167480",
+    "A167482",
+    "A175027"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

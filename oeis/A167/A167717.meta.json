@@ -1,0 +1,18 @@
+{
+  "description": "Squares that becomes a prime number when prefixed with a 2.",
+  "id": "A167717",
+  "mentions": [
+    "A032665"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

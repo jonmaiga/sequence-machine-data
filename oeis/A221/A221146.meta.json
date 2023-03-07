@@ -1,0 +1,19 @@
+{
+  "description": "Table read by antidiagonals: (m+n) - (m XOR n).",
+  "id": "A221146",
+  "mentions": [
+    "A003987",
+    "A004198"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

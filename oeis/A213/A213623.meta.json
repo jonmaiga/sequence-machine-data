@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the denominator of the Bernoulli polynomial B(n,x) equals the Clausen number C(n), {n | A144845(n) = A141056(n)}.",
+  "id": "A213623",
+  "mentions": [
+    "A141056",
+    "A144845",
+    "A160014",
+    "A213621"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The \"Wild Numbers\", from the novel of the same title (Version 2).",
+  "id": "A145833",
+  "mentions": [
+    "A058883",
+    "A058971",
+    "A058972",
+    "A058973",
+    "A058977",
+    "A058988",
+    "A059175"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

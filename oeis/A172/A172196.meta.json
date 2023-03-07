@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k, q) = 1 + abs(c(n,q) - c(k,q))*abs(c(n,q) - c(n-k, q)), where c(n,q) = Product_{j=1..n} (1 - q^j) and q = 2, read by rows.",
+  "id": "A172196",
+  "mentions": [
+    "A172198"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

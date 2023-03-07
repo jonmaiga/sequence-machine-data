@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be written as p^2 + 3pq + q^2 with prime p and q.",
+  "id": "A218793",
+  "mentions": [
+    "A218771"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

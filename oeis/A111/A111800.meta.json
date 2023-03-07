@@ -1,0 +1,24 @@
+{
+  "description": "Order of the rote (rooted odd tree with only exponent symmetries) for n.",
+  "id": "A111800",
+  "mentions": [
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A106177",
+    "A109300",
+    "A109301"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

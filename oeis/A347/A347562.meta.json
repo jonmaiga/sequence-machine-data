@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as 16^w + x^2 + (y^2 + 23*z^4)/324, where w,x,y,z are nonnegative integers.",
+  "id": "A347562",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A001025",
+    "A347824",
+    "A347827",
+    "A350860"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

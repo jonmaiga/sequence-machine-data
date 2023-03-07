@@ -1,0 +1,41 @@
+{
+  "description": "Coordination sequence of Dual(3.6.3.6) tiling with respect to a hexavalent node.",
+  "id": "A298026",
+  "mentions": [
+    "A008458",
+    "A008486",
+    "A008574",
+    "A008579",
+    "A019557",
+    "A022144",
+    "A026741",
+    "A234275",
+    "A296368",
+    "A298014",
+    "A298015",
+    "A298016",
+    "A298022",
+    "A298024",
+    "A298027",
+    "A298028",
+    "A298029",
+    "A298031",
+    "A298033",
+    "A298035",
+    "A298036",
+    "A298038",
+    "A298040"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

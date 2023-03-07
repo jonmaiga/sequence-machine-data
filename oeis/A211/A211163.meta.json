@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of (-1/Pi^n) * integral_{0..1} (log(1-1/x)^n) dx.",
+  "id": "A211163",
+  "mentions": [
+    "A079484",
+    "A141459"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Central terms of Zorach additive triangle (cf. A035312).",
+  "id": "A189713",
+  "mentions": [
+    "A035311",
+    "A035312",
+    "A035313"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

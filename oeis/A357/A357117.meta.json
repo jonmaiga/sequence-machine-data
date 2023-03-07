@@ -1,0 +1,20 @@
+{
+  "description": "Sums of two consecutive primes whose reversal is also the sum of two consecutive primes.",
+  "id": "A357117",
+  "mentions": [
+    "A001043",
+    "A004086",
+    "A162571"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

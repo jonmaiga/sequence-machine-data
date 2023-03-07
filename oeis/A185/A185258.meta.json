@@ -1,0 +1,24 @@
+{
+  "description": "Side of triangle of the difference of pairs of triangular numbers whose sum and difference are triangular.",
+  "id": "A185258",
+  "mentions": [
+    "A000217",
+    "A185128",
+    "A185129",
+    "A185223",
+    "A185233",
+    "A185243",
+    "A185253",
+    "A185257"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

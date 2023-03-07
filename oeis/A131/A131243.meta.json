@@ -1,0 +1,21 @@
+{
+  "description": "A065941^2 as an infinite lower triangular matrix.",
+  "id": "A131243",
+  "mentions": [
+    "A065941",
+    "A131244",
+    "A131245",
+    "A131246"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

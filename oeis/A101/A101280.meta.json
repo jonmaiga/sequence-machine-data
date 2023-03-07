@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, 0 <= k <= floor((n-1)/2)) read by rows, where T(n,k) = (k+1)T(n-1,k) + (2n-4k)T(n-1,k-1).",
+  "id": "A101280",
+  "mentions": [
+    "A000108",
+    "A008292",
+    "A008303",
+    "A055151",
+    "A080635",
+    "A089627",
+    "A094503"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

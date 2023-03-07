@@ -1,0 +1,19 @@
+{
+  "description": "The number of functions f:{1,2,...,n}->{1,2,...,n} that have an odd number of odd length cycles and no even length cycles.",
+  "id": "A202013",
+  "mentions": [
+    "A060435",
+    "A116956"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

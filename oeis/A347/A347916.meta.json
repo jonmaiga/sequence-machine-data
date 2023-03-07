@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: Product_{k>=1} (1 + x^k)^exp(-x).",
+  "id": "A347916",
+  "mentions": [
+    "A000593",
+    "A088311",
+    "A346548",
+    "A347915"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

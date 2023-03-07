@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest increasing sequence such that a(1) = 2 and for n >= 2, a(1)^2 + a(2)^2 + ... + a(n)^2 is a prime.",
+  "id": "A360061",
+  "mentions": [
+    "A051935",
+    "A137326"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

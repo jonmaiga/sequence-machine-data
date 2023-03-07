@@ -1,0 +1,21 @@
+{
+  "description": "Least number m such that m and m-th prime have only one common digit = n.",
+  "id": "A107930",
+  "mentions": [
+    "A107931",
+    "A107940"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of the j-function, squared: a(n) = A000521(n)^2.",
+  "id": "A249687",
+  "mentions": [
+    "A000521"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": -1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

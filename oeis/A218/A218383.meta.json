@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonempty subsets S of the powerset of a set of size n, that have the odd intersection property.",
+  "id": "A218383",
+  "mentions": [
+    "A218384"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

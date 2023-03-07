@@ -1,0 +1,28 @@
+{
+  "description": "Largest integer m satisfying Omega(m) + pi(gpf(m)) - [m<>1] = n.",
+  "id": "A332979",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A001222",
+    "A005940",
+    "A006530",
+    "A011782",
+    "A060576",
+    "A061395",
+    "A182944",
+    "A182945",
+    "A332977"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

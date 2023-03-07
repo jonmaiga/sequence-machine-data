@@ -1,0 +1,19 @@
+{
+  "description": "Number of 1's required to build n using + and ^",
+  "id": "A348262",
+  "mentions": [
+    "A025280",
+    "A213924"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

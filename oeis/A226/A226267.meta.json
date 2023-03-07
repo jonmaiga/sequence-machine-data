@@ -1,0 +1,22 @@
+{
+  "description": "Number of additive Z_2 Z_8 codes of a certain type (see Siap-Aydogdu for precise definition).",
+  "id": "A226267",
+  "mentions": [
+    "A226262",
+    "A226263",
+    "A226264",
+    "A226265",
+    "A226266",
+    "A226268"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "On a spirally numbered square grid, with labels starting at 1, this is the number of the last cell that an (n,n+1) leaper reaches before getting trapped, or -1 if it never gets trapped.",
+  "id": "A343179",
+  "mentions": [
+    "A316667",
+    "A323469",
+    "A323471",
+    "A323750",
+    "A343178"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

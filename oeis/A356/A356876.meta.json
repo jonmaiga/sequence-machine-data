@@ -1,0 +1,22 @@
+{
+  "description": "Binary weight of the composite numbers (A002808).",
+  "id": "A356876",
+  "mentions": [
+    "A000120",
+    "A002808",
+    "A014499"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

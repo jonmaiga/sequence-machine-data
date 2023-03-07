@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = greatest integer k such that (n+k)^2 <= n^3.",
+  "id": "A359275",
+  "mentions": [
+    "A000290",
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

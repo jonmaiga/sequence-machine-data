@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of ((eta(q^2)eta(q^4))^6/(eta(q)eta(q^8))^4-1)/4 in powers of q.",
+  "id": "A111973",
+  "mentions": [
+    "A097057"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Least generalized Wilson prime p such that p^2 divides (n-1)!(p-n)! - (-1)^n; or 0 if no such prime exists.",
+  "id": "A128666",
+  "mentions": [
+    "A001008",
+    "A002068",
+    "A002805",
+    "A007540",
+    "A007619",
+    "A079853",
+    "A124405",
+    "A152413"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

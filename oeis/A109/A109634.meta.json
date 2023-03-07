@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1's that appear among all ternary strings of length n that contain no consecutive 1's.",
+  "id": "A109634",
+  "mentions": [
+    "A073388"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

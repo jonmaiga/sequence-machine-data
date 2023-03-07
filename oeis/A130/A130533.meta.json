@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = smallest k such that A001358(n+1) = A001358(n) + (A001358(n) mod k), or 0 if no such k exists.",
+  "id": "A130533",
+  "mentions": [
+    "A001223",
+    "A001358",
+    "A065516",
+    "A117078",
+    "A117563",
+    "A118534",
+    "A184728",
+    "A184729"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

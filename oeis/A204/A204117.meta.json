@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of f(i,j) = gcd(2^i-1, 2^j-1) (A204116).",
+  "id": "A204117",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204116"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:35:47",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonpalindromic n which have the same number of distinct prime divisors as the reverse of n.",
+  "id": "A115662",
+  "mentions": [
+    "A001221",
+    "A115661"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

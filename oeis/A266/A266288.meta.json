@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of a(q)^2 * (c(q)/3)^3 in powers of q where a(), c() are cubic AGM theta functions.",
+  "id": "A266288",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A008653",
+    "A106402"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

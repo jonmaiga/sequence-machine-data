@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] with no fixed points where the maximal displacement of an element equals nine.",
+  "id": "A321055",
+  "mentions": [
+    "A259781",
+    "A259782",
+    "A259784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 9,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

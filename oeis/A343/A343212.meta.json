@@ -1,0 +1,20 @@
+{
+  "description": "Order of the symmetry group of the n-th Johnson solid.",
+  "id": "A343212",
+  "mentions": [
+    "A098427",
+    "A242731"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

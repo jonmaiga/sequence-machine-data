@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k+1 such that A002322(A027760(k)) = k.",
+  "id": "A317210",
+  "mentions": [
+    "A002322",
+    "A027642",
+    "A027760"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

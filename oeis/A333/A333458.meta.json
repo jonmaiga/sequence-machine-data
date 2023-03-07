@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: Take a diagonal-edged (or diamond-shaped) checkerboard with all diagonals drawn, as in A333434. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A333458",
+  "mentions": [
+    "A331451",
+    "A331911",
+    "A333025",
+    "A333037",
+    "A333434",
+    "A333459",
+    "A333460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

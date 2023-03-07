@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^(2*(5^(n-1) - 1)).",
+  "id": "A185981",
+  "mentions": [
+    "A023365",
+    "A181875",
+    "A181876",
+    "A181877"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

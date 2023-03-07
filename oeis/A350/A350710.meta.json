@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows formed from the coefficients in ascending order of the characteristic polynomial of the n X n matrix M(n) with entries M(n)[i,j] = i*j mod n+1.",
+  "id": "A350710",
+  "mentions": [
+    "A352620"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

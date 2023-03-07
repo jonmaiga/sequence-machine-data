@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(n) = A255127(A001511(n), a(A003602(n))) - 1.",
+  "id": "A269384",
+  "mentions": [
+    "A000035",
+    "A001511",
+    "A003602",
+    "A249814",
+    "A255127",
+    "A269374",
+    "A269382",
+    "A269383",
+    "A269385",
+    "A269387"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

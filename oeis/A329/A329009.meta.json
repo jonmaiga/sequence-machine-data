@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = p(1,n), where p(x,n) is the strong divisibility sequence of polynomials based on sqrt(3) as in A327321.",
+  "id": "A329009",
+  "mentions": [
+    "A001511",
+    "A327321",
+    "A329008",
+    "A329010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

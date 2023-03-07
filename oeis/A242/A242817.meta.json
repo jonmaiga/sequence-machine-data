@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = B(n,n), where B(n,x) = Sum_{k=0..n} Stirling2(n,k)*x^k are the Bell polynomials (also known as exponential polynomials or Touchard polynomials).",
+  "id": "A242817",
+  "mentions": [
+    "A035051",
+    "A189233",
+    "A292860",
+    "A292866",
+    "A346654",
+    "A346655"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

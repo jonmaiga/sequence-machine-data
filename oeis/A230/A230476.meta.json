@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{i=1..n} d(8*i+1) - Sum_{i=1..n} d(2*i+1), where d(n) = A000005(n) is the number of divisors of n.",
+  "id": "A230476",
+  "mentions": [
+    "A000005",
+    "A230290",
+    "A230291",
+    "A230292",
+    "A230293",
+    "A230294",
+    "A230295",
+    "A230296"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

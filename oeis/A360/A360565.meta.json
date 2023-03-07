@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of breadth-first numerator-denominator-incrementing enumeration of rationals in (0,1).",
+  "id": "A360565",
+  "mentions": [
+    "A007305",
+    "A007306",
+    "A293248",
+    "A360564",
+    "A360566"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

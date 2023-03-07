@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the smallest number such that for n-bonacci constant c_n satisfies round(c_n^prime(m)) == 1 (mod 2*p_m) for every m>=a(n).",
+  "id": "A239640",
+  "mentions": [
+    "A001622",
+    "A007619",
+    "A007663",
+    "A058265",
+    "A086088",
+    "A103814",
+    "A118427",
+    "A118428",
+    "A238693",
+    "A238697",
+    "A238698",
+    "A238700",
+    "A239502",
+    "A239544",
+    "A239564",
+    "A239565",
+    "A239566"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

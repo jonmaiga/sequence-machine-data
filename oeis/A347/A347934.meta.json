@@ -1,0 +1,18 @@
+{
+  "description": "Primes p of the form k^2 + 1 such that p+2 and 2p+1 are also prime.",
+  "id": "A347934",
+  "mentions": [
+    "A002496",
+    "A045536"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

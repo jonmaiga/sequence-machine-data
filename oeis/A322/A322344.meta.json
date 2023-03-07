@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of convex lattice polygons of genus n, restricting the count to those polygons that are interior to another polygon.",
+  "id": "A322344",
+  "mentions": [
+    "A322343"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

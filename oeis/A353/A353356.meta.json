@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k for which A353328(k) > A353329(k). Positions of 1's in A353354.",
+  "id": "A353356",
+  "mentions": [
+    "A000005",
+    "A003961",
+    "A048675",
+    "A332823",
+    "A353328",
+    "A353329",
+    "A353354",
+    "A353355",
+    "A353357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

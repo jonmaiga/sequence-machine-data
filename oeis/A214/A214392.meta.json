@@ -1,0 +1,24 @@
+{
+  "description": "If n mod 4 = 0 then a(n) = n/4, otherwise a(n) = n.",
+  "id": "A214392",
+  "mentions": [
+    "A026741",
+    "A038754",
+    "A051176",
+    "A065883",
+    "A186646"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:54:31",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

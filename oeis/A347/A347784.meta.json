@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 3 powers of 2.",
+  "id": "A347784",
+  "mentions": [
+    "A000079",
+    "A023359",
+    "A151759",
+    "A347785",
+    "A347786",
+    "A347787"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

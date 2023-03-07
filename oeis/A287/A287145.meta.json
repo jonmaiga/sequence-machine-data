@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that both of the consecutive Woodall numbers A003261(k) and A003261(k+1) are divisible by A014662(n), the n-th prime p with even order of 2 mod p.",
+  "id": "A287145",
+  "mentions": [
+    "A003261",
+    "A014662",
+    "A014664"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first start of a sequence of exactly n members of A175648 under the map k -> 3*k+4.",
+  "id": "A352137",
+  "mentions": [
+    "A001358",
+    "A175648",
+    "A352132"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number k with exactly n divisors in A033075.",
+  "id": "A355078",
+  "mentions": [
+    "A033075"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

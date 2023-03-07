@@ -1,0 +1,20 @@
+{
+  "description": "Where records occur in A283832.",
+  "id": "A285191",
+  "mentions": [
+    "A280864",
+    "A283832",
+    "A285190"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

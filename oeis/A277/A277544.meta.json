@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n/6^m mod 6, where 6^m is the greatest power of 6 that divides n.",
+  "id": "A277544",
+  "mentions": [
+    "A010875",
+    "A244414"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

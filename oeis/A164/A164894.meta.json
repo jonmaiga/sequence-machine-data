@@ -1,0 +1,36 @@
+{
+  "description": "Base-10 representation of the binary string formed by appending 10, 100, 1000, 10000, ..., etc., to 1.",
+  "id": "A164894",
+  "mentions": [
+    "A000120",
+    "A002110",
+    "A010054",
+    "A029931",
+    "A048793",
+    "A066099",
+    "A070939",
+    "A124768",
+    "A225620",
+    "A233564",
+    "A246534",
+    "A272919",
+    "A333217",
+    "A333218",
+    "A333220",
+    "A333255",
+    "A333379"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

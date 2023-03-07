@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T read by rows: inverse of Motzkin triangle A097609.",
+  "id": "A104597",
+  "mentions": [
+    "A000108",
+    "A005043",
+    "A009116",
+    "A030528",
+    "A091867",
+    "A097609",
+    "A146559",
+    "A357585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

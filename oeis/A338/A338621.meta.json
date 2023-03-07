@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: A(n, k) is the number of partitions of n with \"aft\" value k (see comments).",
+  "id": "A338621",
+  "mentions": [
+    "A000041",
+    "A022166",
+    "A028391",
+    "A139582"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

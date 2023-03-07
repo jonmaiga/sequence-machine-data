@@ -1,0 +1,18 @@
+{
+  "description": "Number of lower triangles of an n X n 0..3 array with new values introduced in row major order 0..3 and no two horizontal or vertical neighbors of any element equal.",
+  "id": "A194888",
+  "mentions": [
+    "A194893"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes dividing nonzero terms in A003095: the iterates of x^2 + 1 starting at 0.",
+  "id": "A247981",
+  "mentions": [
+    "A003095",
+    "A248218",
+    "A248219"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

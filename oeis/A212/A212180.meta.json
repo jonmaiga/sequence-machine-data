@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct second signatures (cf. A212172) represented among divisors of n.",
+  "id": "A212180",
+  "mentions": [
+    "A046523",
+    "A057521",
+    "A085082",
+    "A088873",
+    "A181796",
+    "A182860",
+    "A212172",
+    "A212173",
+    "A212642",
+    "A212643",
+    "A212644"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

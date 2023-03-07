@@ -1,0 +1,28 @@
+{
+  "description": "Numbers with exactly 8 distinct prime divisors {2,3,5,7,11,13,17,19}.",
+  "id": "A147575",
+  "mentions": [
+    "A000079",
+    "A033845",
+    "A060735",
+    "A080682",
+    "A143207",
+    "A147571",
+    "A147572",
+    "A147573",
+    "A147574",
+    "A147576",
+    "A147580"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

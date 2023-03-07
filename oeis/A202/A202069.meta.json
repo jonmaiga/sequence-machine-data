@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of n+2 integers in -1..1 with sum zero and the sum of every adjacent pair being odd",
+  "id": "A202069",
+  "mentions": [
+    "A202076"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

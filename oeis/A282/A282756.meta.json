@@ -1,0 +1,19 @@
+{
+  "description": "Let F(k,n) = k*F(k,n-1) + F(k,n-2) with initial conditions F(k,0) = 0, F(k,1) = 1. Sequence lists the minimum 'n' such that F(k,n) > k^n.",
+  "id": "A282756",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A006190"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

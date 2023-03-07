@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of paths from (0,0) to (n,0) using steps of the form (1,2),(1,1),(1,0),(1,-1) or (1,-2) and staying above the x-axis. Also, a(n) is the number of possible combinations of balls on the lawn after n turns, using a Motzkin variation of the (4,2)-case of the tennis ball problem considered by D. Merlini, R. Sprugnoli and M. C. Verri.",
+  "id": "A104184",
+  "mentions": [
+    "A001006",
+    "A005191",
+    "A066357"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

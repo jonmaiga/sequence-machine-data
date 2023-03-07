@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose sum of digits in base b is the same for every prime b up to 11.",
+  "id": "A212222",
+  "mentions": [
+    "A037301",
+    "A135121",
+    "A135127"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

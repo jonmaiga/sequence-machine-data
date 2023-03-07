@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A169732, negated.",
+  "id": "A169733",
+  "mentions": [
+    "A169732"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

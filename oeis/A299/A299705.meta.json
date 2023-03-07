@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to dissect an equilateral triangle into n non-overlapping equilateral triangles counting isomorphisms only once.",
+  "id": "A299705",
+  "mentions": [
+    "A167123",
+    "A290697",
+    "A290821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

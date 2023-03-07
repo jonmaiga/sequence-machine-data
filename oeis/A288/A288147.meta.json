@@ -1,0 +1,22 @@
+{
+  "description": "Number of Dyck paths of semilength n such that the number of peaks is strongly increasing from lower to higher levels and no positive level is peakless.",
+  "id": "A288147",
+  "mentions": [
+    "A000108",
+    "A008930",
+    "A048285",
+    "A288140",
+    "A288141",
+    "A288146"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of all prime encoded perfect partitions of n.",
+  "id": "A360713",
+  "mentions": [
+    "A002033",
+    "A215366",
+    "A258119",
+    "A360791"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

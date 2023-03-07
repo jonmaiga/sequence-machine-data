@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that sum of its i first divisors equals the sum of its j first non-divisors for some i, j.",
+  "id": "A295265",
+  "mentions": [
+    "A064510",
+    "A124199",
+    "A185729",
+    "A240698"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

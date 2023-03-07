@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=0. For 1<= n <= 2^m, m>=0, a(n+ 2^m) = a(n)+n.",
+  "id": "A175186",
+  "mentions": [
+    "A083741",
+    "A175187"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of rectangles of integer sides whose area or perimeter is n.",
+  "id": "A306841",
+  "mentions": [
+    "A004526",
+    "A038548"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

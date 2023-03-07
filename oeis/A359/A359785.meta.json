@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of A320655, where A320655(n) is the number of factorizations of n into semiprimes.",
+  "id": "A359785",
+  "mentions": [
+    "A320655",
+    "A322353",
+    "A359786"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

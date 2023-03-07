@@ -1,0 +1,23 @@
+{
+  "description": "Related to small gaps between primes: a(n) = A235686(n)/2.",
+  "id": "A244368",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A005250",
+    "A235686"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

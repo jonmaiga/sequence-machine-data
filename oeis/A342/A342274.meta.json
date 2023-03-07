@@ -1,0 +1,22 @@
+{
+  "description": "Consider the k-th row of triangle A170899, which has 2^k terms; discard the first quarter of the terms in the row; the remainder of the row converges to this sequence as k increases.",
+  "id": "A342274",
+  "mentions": [
+    "A151723",
+    "A170899",
+    "A342272",
+    "A342273",
+    "A342278"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

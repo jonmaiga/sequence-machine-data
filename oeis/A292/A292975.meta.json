@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. exp(k*x)*(sec(x) + tan(x)).",
+  "id": "A292975",
+  "mentions": [
+    "A000111",
+    "A000667",
+    "A000752",
+    "A292976"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

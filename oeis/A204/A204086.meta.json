@@ -1,0 +1,21 @@
+{
+  "description": "Least term of A004767 with exactly 2n divisors.",
+  "id": "A204086",
+  "mentions": [
+    "A004767",
+    "A018782",
+    "A078714",
+    "A204046"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

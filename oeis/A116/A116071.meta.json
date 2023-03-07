@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T, read by rows, equal to Pascal's triangle to the matrix power of Pascal's triangle, so that T = C^C, where C(n,k) = binomial(n,k) and T(n,k) = A000248(n-k)*C(n,k).",
+  "id": "A116071",
+  "mentions": [
+    "A000108",
+    "A000248",
+    "A007318",
+    "A052512",
+    "A080108",
+    "A116072",
+    "A215652",
+    "A216689",
+    "A216973",
+    "A240165",
+    "A245834",
+    "A245835",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

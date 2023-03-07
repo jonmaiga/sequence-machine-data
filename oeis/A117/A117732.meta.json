@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide s(k)^w(k), where s(k) is the sum of the digits of k and w(k) is the digital root of k.",
+  "id": "A117732",
+  "mentions": [
+    "A007953",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of quadrilateral regions into which a figure made up of a row of n adjacent congruent rectangles is divided upon drawing diagonals of all possible rectangles.",
+  "id": "A324043",
+  "mentions": [
+    "A007678",
+    "A108914",
+    "A114043",
+    "A115005",
+    "A177719",
+    "A306302",
+    "A324042",
+    "A333286",
+    "A333287",
+    "A333288"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

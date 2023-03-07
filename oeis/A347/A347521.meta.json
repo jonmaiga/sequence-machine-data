@@ -1,0 +1,18 @@
+{
+  "description": "Number of polyominoes with n cells formed by coordinates that are not coprime.",
+  "id": "A347521",
+  "mentions": [
+    "A000105"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

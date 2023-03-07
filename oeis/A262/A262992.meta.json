@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the squarefree numbers among the partition parts of n into two parts.",
+  "id": "A262992",
+  "mentions": [
+    "A008683",
+    "A066779",
+    "A071068",
+    "A261985",
+    "A262351",
+    "A262868",
+    "A262870",
+    "A262871",
+    "A262991"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

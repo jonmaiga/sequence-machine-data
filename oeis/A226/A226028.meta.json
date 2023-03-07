@@ -1,0 +1,19 @@
+{
+  "description": "Array T(j,k) of counts of internal lattice points within all Pythagorean triangles (see comments for array order).",
+  "id": "A226028",
+  "mentions": [
+    "A126587",
+    "A225414"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

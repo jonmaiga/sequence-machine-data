@@ -1,0 +1,19 @@
+{
+  "description": "Number of times n occurs in the sequence floor(log_Pi(i)) with i=1,2,3,... .",
+  "id": "A247168",
+  "mentions": [
+    "A000796",
+    "A001672"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

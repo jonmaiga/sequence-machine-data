@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers whose hexadecimal representation uses only the digits A,B,C,D,E,F (and not the decimal digits).",
+  "id": "A140969",
+  "mentions": [
+    "A238090"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

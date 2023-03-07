@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of no-leg partitions of n having Durfee square of size k (n >= 1, 1 <= k <= floor(sqrt(n))). Also, number of no-arm partitions of n having Durfee square of size k.",
+  "id": "A268187",
+  "mentions": [
+    "A003114",
+    "A115994",
+    "A268188",
+    "A327710",
+    "A328346"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

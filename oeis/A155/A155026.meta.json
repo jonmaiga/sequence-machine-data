@@ -1,0 +1,18 @@
+{
+  "description": "Primes with odd smallest digit.",
+  "id": "A155026",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

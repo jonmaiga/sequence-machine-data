@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = k!*Stirling2(n - k, k), for n >= 0 and 0 <= k <= floor(n/2). Triangle read by rows.",
+  "id": "A344392",
+  "mentions": [
+    "A019538",
+    "A048993",
+    "A105795",
+    "A131689"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 0 if all positive integers can be colored with two colors without any positive integer x being the same color as n*x or k*x; otherwise, T(n,k) = 1 (for 2 <= k <= n).",
+  "id": "A346459",
+  "mentions": [
+    "A000302",
+    "A001019",
+    "A001025",
+    "A004171",
+    "A007814",
+    "A007916",
+    "A009969",
+    "A009980",
+    "A013708",
+    "A013709",
+    "A013710",
+    "A013711",
+    "A013712",
+    "A013713",
+    "A013714",
+    "A013715",
+    "A052409",
+    "A052410",
+    "A087752",
+    "A089357",
+    "A089683",
+    "A098608",
+    "A346460",
+    "A346461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

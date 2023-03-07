@@ -1,0 +1,19 @@
+{
+  "description": "Number of possible representations of n as a sum of distinct positive integers from the Fibonacci-type sequences 0,1,1,2,3,5,8,13,... and 0,3,3,6,9,15,... (A000045 and A022086).",
+  "id": "A241949",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A022086"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

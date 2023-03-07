@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of binary places to which n-th convergent of continued fraction expansion of the golden section matches the correct value.",
+  "id": "A318057",
+  "mentions": [
+    "A000012",
+    "A001622",
+    "A002390",
+    "A068432",
+    "A202543",
+    "A242208",
+    "A318058"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

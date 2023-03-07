@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the divisors of pentagonal numbers.",
+  "id": "A117948",
+  "mentions": [
+    "A000203",
+    "A000326",
+    "A074285",
+    "A117949"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of f(t) = F^{[-1]}(t)/t, where F(x) = x/(1 - x^2 - x^3).",
+  "id": "A319201",
+  "mentions": [
+    "A001005",
+    "A104578",
+    "A319202",
+    "A321201"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2 X 2 matrices having all elements in {-n,..,0,..,n} with determinant = permanent.",
+  "id": "A280059",
+  "mentions": [
+    "A210000"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:45",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

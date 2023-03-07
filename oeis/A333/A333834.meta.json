@@ -1,0 +1,35 @@
+{
+  "description": "Multiples of 10 whose sum of digits is 10.",
+  "id": "A333834",
+  "mentions": [
+    "A008592",
+    "A011557",
+    "A052217",
+    "A052223",
+    "A052224",
+    "A057147",
+    "A062768",
+    "A063416",
+    "A063997",
+    "A069537",
+    "A069540",
+    "A069543",
+    "A218292",
+    "A283737",
+    "A283742",
+    "A333814"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

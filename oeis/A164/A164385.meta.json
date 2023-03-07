@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n such that n+4 and n-4 are both prime.",
+  "id": "A164385",
+  "mentions": [
+    "A002808",
+    "A023202",
+    "A087680",
+    "A164383",
+    "A164384"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:59",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

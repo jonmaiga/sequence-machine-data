@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^2 = A( x^2/(1-6*x) ), with A(0) = 0.",
+  "id": "A264225",
+  "mentions": [
+    "A264224",
+    "A264226",
+    "A264227",
+    "A264233",
+    "A264413"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

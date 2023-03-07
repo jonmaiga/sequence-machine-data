@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers which produce a record maximum MD5 hash.",
+  "id": "A349646",
+  "mentions": [
+    "A349647"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

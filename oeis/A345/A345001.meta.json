@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = sigma(n) + n' - 2n, where n' is the arithmetic derivative of n (A003415) and sigma is the sum of divisors (A000203).",
+  "id": "A345001",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A003415",
+    "A033879",
+    "A048250",
+    "A051709",
+    "A168036",
+    "A173557",
+    "A344753",
+    "A344999",
+    "A345002",
+    "A345003",
+    "A345004",
+    "A345005",
+    "A345049"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

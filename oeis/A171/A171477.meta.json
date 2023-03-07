@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 6*a(n-1) - 8*a(n-2) + 1 for n > 1; a(0) = 1, a(1) = 7.",
+  "id": "A171477",
+  "mentions": [
+    "A006095",
+    "A006516",
+    "A139250",
+    "A168642",
+    "A171472",
+    "A171473"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

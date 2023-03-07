@@ -1,0 +1,23 @@
+{
+  "description": "A Collatz-related sequence array.",
+  "id": "A138895",
+  "mentions": [
+    "A092892",
+    "A138846",
+    "A138847",
+    "A138848"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

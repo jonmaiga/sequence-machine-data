@@ -1,0 +1,18 @@
+{
+  "description": "Primes in A118103.",
+  "id": "A118104",
+  "mentions": [
+    "A118103",
+    "A118105"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

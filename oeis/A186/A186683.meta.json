@@ -1,0 +1,41 @@
+{
+  "description": "Total number of n-digit numbers requiring 18 positive biquadrates in their representation as sum of biquadrates.",
+  "id": "A186683",
+  "mentions": [
+    "A046049",
+    "A052268",
+    "A099591",
+    "A161905",
+    "A186650",
+    "A186652",
+    "A186654",
+    "A186656",
+    "A186658",
+    "A186660",
+    "A186662",
+    "A186664",
+    "A186666",
+    "A186668",
+    "A186670",
+    "A186672",
+    "A186674",
+    "A186676",
+    "A186678",
+    "A186681",
+    "A186682",
+    "A186685"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

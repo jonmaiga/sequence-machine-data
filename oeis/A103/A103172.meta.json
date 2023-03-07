@@ -1,0 +1,21 @@
+{
+  "description": "Start of ten consecutive primes whose digit reversals are also prime.",
+  "id": "A103172",
+  "mentions": [
+    "A007500",
+    "A103169",
+    "A103170",
+    "A103171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

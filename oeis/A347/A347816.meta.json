@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers p such that both 15 and 85 are quadratic nonresidue (mod p).",
+  "id": "A347816",
+  "mentions": [
+    "A008292",
+    "A038888",
+    "A038972",
+    "A159041",
+    "A173018",
+    "A347815"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

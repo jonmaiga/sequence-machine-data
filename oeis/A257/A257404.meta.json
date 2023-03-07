@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form p * q^p where p and q are primes, in increasing order.",
+  "id": "A257404",
+  "mentions": [
+    "A079704",
+    "A104126"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

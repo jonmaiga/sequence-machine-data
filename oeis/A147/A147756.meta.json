@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the smallest integer m such that n = (the largest integer that, when represented in binary, occurs at least twice as a substring in the binary representation of m).",
+  "id": "A147756",
+  "mentions": [
+    "A147755"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

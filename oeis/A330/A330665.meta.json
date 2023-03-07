@@ -1,0 +1,41 @@
+{
+  "description": "Number of balanced reduced multisystems of maximal depth whose atoms are the prime indices of n.",
+  "id": "A330665",
+  "mentions": [
+    "A000111",
+    "A001055",
+    "A005121",
+    "A005804",
+    "A006472",
+    "A050336",
+    "A050338",
+    "A050340",
+    "A112798",
+    "A213427",
+    "A292505",
+    "A317144",
+    "A317145",
+    "A318812",
+    "A318849",
+    "A320160",
+    "A330474",
+    "A330475",
+    "A330663",
+    "A330664",
+    "A330667",
+    "A330675",
+    "A330676",
+    "A330679"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

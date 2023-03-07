@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = number of 2-digit primes with digit sum n, where n runs through the non-multiples of 3 in the range [2..17].",
+  "id": "A177868",
+  "mentions": [
+    "A178183",
+    "A178447",
+    "A178571",
+    "A178605",
+    "A178701",
+    "A178876",
+    "A178879",
+    "A178884"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

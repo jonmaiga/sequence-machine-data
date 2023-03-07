@@ -1,0 +1,22 @@
+{
+  "description": "Positions of 10s in A235354.",
+  "id": "A235377",
+  "mentions": [
+    "A052033",
+    "A235354",
+    "A235376",
+    "A236174",
+    "A236437"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of circular compositions of n with length k such that no two adjacent parts are equal (1 <= k <= n).",
+  "id": "A296167",
+  "mentions": [
+    "A003242",
+    "A106369",
+    "A239327",
+    "A291941",
+    "A293595"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

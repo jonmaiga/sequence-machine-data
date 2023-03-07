@@ -1,0 +1,19 @@
+{
+  "description": "1-digit numbers in reverse alphabetical order when written in French, then 2-digit numbers, ...",
+  "id": "A117361",
+  "mentions": [
+    "A001058"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

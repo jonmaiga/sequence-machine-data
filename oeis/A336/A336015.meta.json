@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle where row n lists primes q below the n-th primorial such that the multiplicative order of q mod the n-th primorial is 2. I.e., such primes q having the least k such that q^k (mod primorial(n)) == 1 is 2.",
+  "id": "A336015",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A005867",
+    "A336016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

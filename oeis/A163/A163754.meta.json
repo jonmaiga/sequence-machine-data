@@ -1,0 +1,20 @@
+{
+  "description": "Exactly two distinct primes occur as substrings of the digits of n.",
+  "id": "A163754",
+  "mentions": [
+    "A154156"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

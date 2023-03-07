@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that (number of distinct parts) = m(1) - m(2), where m = multiplicity.",
+  "id": "A240055",
+  "mentions": [
+    "A240056"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that m equals a fixed number raised to the powers of the digits.",
+  "id": "A258484",
+  "mentions": [
+    "A005188",
+    "A023052",
+    "A257766",
+    "A257784",
+    "A257787",
+    "A257814"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n-th digit (after decimal point) of Pi and of Euler-Mascheroni constant gamma are the same.",
+  "id": "A164819",
+  "mentions": [
+    "A068394",
+    "A164820"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

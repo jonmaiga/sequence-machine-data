@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd composite numbers in ]2*(n-1)^2, 2*n^2[.",
+  "id": "A289279",
+  "mentions": [
+    "A006880",
+    "A285786"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = floor(n/m) where m is the least positive integer such that floor(n/m) = floor(k/m). Square array read by antidiagonals, for n >= 0 and k >= 0.",
+  "id": "A331902",
+  "mentions": [
+    "A001651",
+    "A213633",
+    "A331886"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

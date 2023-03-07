@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of continued fraction 1, 2, 5, 14, 42, ... (Catalan numbers).",
+  "id": "A119822",
+  "mentions": [
+    "A000108",
+    "A060997",
+    "A071897"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

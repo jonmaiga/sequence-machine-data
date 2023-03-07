@@ -1,0 +1,21 @@
+{
+  "description": "Read central column in Table 3 in reference from right to left, convert to base 10.",
+  "id": "A104489",
+  "mentions": [
+    "A102370",
+    "A104490"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

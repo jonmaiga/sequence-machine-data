@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 3^n + 2^n + 10 is prime.",
+  "id": "A219617",
+  "mentions": [
+    "A176928"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

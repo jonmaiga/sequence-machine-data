@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that for all factorizations of k as x*y, the sum x+y is carryfree when the addition is done in the primorial base, A049345.",
+  "id": "A358671",
+  "mentions": [
+    "A038548",
+    "A049345",
+    "A276086",
+    "A329041",
+    "A358233",
+    "A358670",
+    "A358673"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

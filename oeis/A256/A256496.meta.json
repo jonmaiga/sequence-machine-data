@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 15(n mod 2) + 10(n mod 3) + 6(n mod 5).",
+  "id": "A256496",
+  "mentions": [
+    "A255818",
+    "A256643",
+    "A256668"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:59:35",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

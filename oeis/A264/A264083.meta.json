@@ -1,0 +1,21 @@
+{
+  "description": "Number of orthogonal 3 X 3 matrices over the ring Z/nZ.",
+  "id": "A264083",
+  "mentions": [
+    "A060594",
+    "A087784",
+    "A208895"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

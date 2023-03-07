@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of Schroeder (or royal) n-paths (A006318) containing k returns to the diagonal y=x. (A northeast step lying on y=x contributes a return.)",
+  "id": "A108891",
+  "mentions": [
+    "A000079",
+    "A001003",
+    "A006318",
+    "A009766",
+    "A036289",
+    "A084938",
+    "A104219"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with the property that in their factorization over distinct terms of A050376, the sums of prime and nonprime terms of A050376 are equal.",
+  "id": "A241270",
+  "mentions": [
+    "A050376",
+    "A177329",
+    "A177333",
+    "A177334",
+    "A187039",
+    "A187042"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

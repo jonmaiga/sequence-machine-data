@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime p that does not divide n-1 such that (n^p-1)/(n-1) is composite, for n > 1.",
+  "id": "A303978",
+  "mentions": [
+    "A298756"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

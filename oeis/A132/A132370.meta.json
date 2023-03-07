@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of spotlight tilings of a width 1 m X n frame.",
+  "id": "A132370",
+  "mentions": [
+    "A051597",
+    "A051601"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

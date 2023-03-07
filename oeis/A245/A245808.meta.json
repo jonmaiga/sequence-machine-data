@@ -1,0 +1,20 @@
+{
+  "description": "Monoprimatic permutable numbers: Numbers whose decimal digits can be arranged to form exactly one prime number. No leading zeros.",
+  "id": "A245808",
+  "mentions": [
+    "A246043",
+    "A246044",
+    "A246045"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

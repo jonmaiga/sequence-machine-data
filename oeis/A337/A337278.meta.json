@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m>=1, n>=1) is number of graceful labelings of the complete bipartite graph K_{m,n}.",
+  "id": "A337278",
+  "mentions": [
+    "A337279"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

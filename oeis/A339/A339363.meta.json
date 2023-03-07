@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..floor(sqrt(n))} floor(sqrt(n-k)).",
+  "id": "A339363",
+  "mentions": [
+    "A189151"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

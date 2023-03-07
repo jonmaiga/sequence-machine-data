@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 16k+7.",
+  "id": "A141194",
+  "mentions": [
+    "A091968",
+    "A094407",
+    "A105126",
+    "A127576",
+    "A127589",
+    "A141195",
+    "A141196"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:59",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

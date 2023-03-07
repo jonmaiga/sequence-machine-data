@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A348227.",
+  "id": "A348228",
+  "mentions": [
+    "A348227"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

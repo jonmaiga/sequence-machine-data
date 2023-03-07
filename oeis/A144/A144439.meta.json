@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n, k) = (m*(n-k) + 1)*T(n-1, k-1) + (m*(k-1) + 1)*T(n-1, k) + j*T(n-2, k-1), where T(n, 1) = T(n, n) = 1, m = 2, and j = 2, read by rows.",
+  "id": "A144439",
+  "mentions": [
+    "A144431",
+    "A144432",
+    "A144435",
+    "A144436",
+    "A144438",
+    "A144440",
+    "A144441",
+    "A144442",
+    "A144443",
+    "A144444",
+    "A144445",
+    "A144446",
+    "A144447"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

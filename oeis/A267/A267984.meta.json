@@ -1,0 +1,21 @@
+{
+  "description": "Numbers congruent to {17, 23} mod 30.",
+  "id": "A267984",
+  "mentions": [
+    "A128468",
+    "A128473",
+    "A267985"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:37:01",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

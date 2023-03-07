@@ -1,0 +1,19 @@
+{
+  "description": "Number of strings of length n composed of symbols from the circular list [1,2,3,4,5,6] such that adjacent symbols in the string must be adjacent in the list. No runs of length 2 or more are allowed for symbols 1, 3 and 5.",
+  "id": "A277237",
+  "mentions": [
+    "A277236"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:10:05",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

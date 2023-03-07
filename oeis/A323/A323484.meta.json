@@ -1,0 +1,21 @@
+{
+  "description": "Minimal number of steps to reach 5*n from 5 using \"Choix de Bruxelles\" version 2 (cf. A323460).",
+  "id": "A323484",
+  "mentions": [
+    "A323286",
+    "A323454",
+    "A323460",
+    "A323464"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

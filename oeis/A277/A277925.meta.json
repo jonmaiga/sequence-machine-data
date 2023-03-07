@@ -1,0 +1,19 @@
+{
+  "description": "Odd squares and 8 times odd squares, sorted.",
+  "id": "A277925",
+  "mentions": [
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

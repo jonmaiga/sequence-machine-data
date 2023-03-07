@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of binary matrices with n ones, k columns and no zero rows or columns, up to permutations of rows and columns.",
+  "id": "A334550",
+  "mentions": [
+    "A000041",
+    "A049311",
+    "A317533",
+    "A321609"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

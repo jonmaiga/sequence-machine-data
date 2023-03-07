@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=3, 0<=k<=n-3) = number of n-sequences of 0's and 1's with exactly one pair of adjacent 0's and exactly k pairs of adjacent 1's.",
+  "id": "A274228",
+  "mentions": [
+    "A000027",
+    "A001629",
+    "A007590",
+    "A032091",
+    "A046854",
+    "A073044",
+    "A080838",
+    "A274742"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

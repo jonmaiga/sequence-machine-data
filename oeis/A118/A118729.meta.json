@@ -1,0 +1,37 @@
+{
+  "description": "Infinite square array which contains the 8 numbers 4*r^2 - 3*r, 4*r^2 - 2*r, ..., 4*r^2 + 4*r in row r.",
+  "id": "A118729",
+  "mentions": [
+    "A000217",
+    "A001107",
+    "A002620",
+    "A002939",
+    "A002943",
+    "A007742",
+    "A008726",
+    "A016742",
+    "A033954",
+    "A033991",
+    "A033996",
+    "A130518",
+    "A130519",
+    "A130520",
+    "A131242",
+    "A174709",
+    "A174738",
+    "A218470"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:49",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of zero-sum -n..n arrays of 5 elements with first through third differences also in -n..n",
+  "id": "A202513",
+  "mentions": [
+    "A202511"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

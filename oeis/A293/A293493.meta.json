@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp(x/(1 - x^3)).",
+  "id": "A293493",
+  "mentions": [
+    "A293494"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:04:10",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

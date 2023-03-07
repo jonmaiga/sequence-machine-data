@@ -1,0 +1,18 @@
+{
+  "description": "s(k)-s(j), where (s(k),s(j)) is the least such pair for which n divides their difference, and s(j)= j*(2^(j-1)).",
+  "id": "A205126",
+  "mentions": [
+    "A204892",
+    "A205122"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:37:48",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

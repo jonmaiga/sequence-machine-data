@@ -1,0 +1,29 @@
+{
+  "description": "Number of ones in binary representation of n^2.",
+  "id": "A159918",
+  "mentions": [
+    "A000120",
+    "A000290",
+    "A004159",
+    "A007088",
+    "A077436",
+    "A192085",
+    "A214560",
+    "A230097",
+    "A231897",
+    "A231898"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Suppose that (m, m+1) is a pair of consecutive powerful numbers as defined by A001694. This sequence gives the values of m for which neither m nor m+1 are perfect squares.",
+  "id": "A227297",
+  "mentions": [
+    "A001694",
+    "A060355"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

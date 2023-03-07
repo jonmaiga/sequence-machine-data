@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=1; thereafter a(n+1) is the smallest unused number k such that d(k) and d(a(n)) are coprime, where d is the divisor counting function A000005.",
+  "id": "A350150",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000040",
+    "A000290",
+    "A030515",
+    "A046388",
+    "A048691",
+    "A137442"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

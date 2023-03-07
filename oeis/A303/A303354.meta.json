@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{k>0} (1+k^2*x^k)^(-1/k).",
+  "id": "A303354",
+  "mentions": [
+    "A151954",
+    "A266964",
+    "A303355"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

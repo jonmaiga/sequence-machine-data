@@ -1,0 +1,23 @@
+{
+  "description": "\"Punctual Bird\" numbers n with the additional property that n-1 is not a Punctual Bird (cf. A131881).",
+  "id": "A132131",
+  "mentions": [
+    "A033307",
+    "A116700",
+    "A117804",
+    "A131881",
+    "A132132",
+    "A132133"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of rooted maps with n edges on a nonorientable surface of genus k (1 <= k <= n).",
+  "id": "A267180",
+  "mentions": [
+    "A006344",
+    "A007137",
+    "A238396"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

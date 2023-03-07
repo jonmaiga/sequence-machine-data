@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not the product of two Fibonacci numbers (not necessarily distinct).",
+  "id": "A228523",
+  "mentions": [
+    "A049997"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

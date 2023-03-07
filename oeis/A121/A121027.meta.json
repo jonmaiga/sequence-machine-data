@@ -1,0 +1,41 @@
+{
+  "description": "Multiples of 7 containing a 7 in their decimal representation.",
+  "id": "A121027",
+  "mentions": [
+    "A008589",
+    "A011531",
+    "A011537",
+    "A121022",
+    "A121023",
+    "A121024",
+    "A121025",
+    "A121026",
+    "A121028",
+    "A121029",
+    "A121030",
+    "A121031",
+    "A121032",
+    "A121033",
+    "A121034",
+    "A121035",
+    "A121036",
+    "A121037",
+    "A121038",
+    "A121039",
+    "A121040",
+    "A121041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

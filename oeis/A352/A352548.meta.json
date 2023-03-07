@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 22*Pi^4.",
+  "id": "A352548",
+  "mentions": [
+    "A000796",
+    "A328927"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

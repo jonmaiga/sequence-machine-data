@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of G/c^4 in s^2/(kg * m), where G is the gravitational constant and c = 299792458 m/s is the speed of light in vacuum.",
+  "id": "A228818",
+  "mentions": [
+    "A003678",
+    "A070058",
+    "A183001",
+    "A228817"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": -44,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

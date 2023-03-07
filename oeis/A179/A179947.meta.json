@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for gamma^Pi.",
+  "id": "A179947",
+  "mentions": [
+    "A182470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

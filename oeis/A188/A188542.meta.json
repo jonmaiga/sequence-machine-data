@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between n^3-n and n^3+n.",
+  "id": "A188542",
+  "mentions": [
+    "A000578",
+    "A007531",
+    "A034262",
+    "A110835"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

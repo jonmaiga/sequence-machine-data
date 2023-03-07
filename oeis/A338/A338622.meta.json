@@ -1,0 +1,27 @@
+{
+  "description": "Irregular table read by rows: The number of k-faced polyhedra, where k>=4, formed when the five Platonic solids, in the order tetrahedron, octahedron, cube, icosahedron, dodecahedron, are internally cut by all the planes defined by any three of their vertices.",
+  "id": "A338622",
+  "mentions": [
+    "A053016",
+    "A063722",
+    "A063723",
+    "A098427",
+    "A333539",
+    "A333543",
+    "A338571"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

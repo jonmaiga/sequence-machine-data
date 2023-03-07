@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n, p[n], p[n]+n, p[n]-n and p[n]*n all are 3-less.",
+  "id": "A104423",
+  "mentions": [
+    "A104419",
+    "A104428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

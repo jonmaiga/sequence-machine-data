@@ -1,0 +1,22 @@
+{
+  "description": "(a,b,c) in lexicographic order such that a^2 + b^2 + a*b - c^2 = 0 with a < b < c and gcd(a, b) = 1.",
+  "id": "A264827",
+  "mentions": [
+    "A002476",
+    "A229849",
+    "A229858",
+    "A229859",
+    "A264826"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

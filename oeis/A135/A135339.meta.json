@@ -1,0 +1,21 @@
+{
+  "description": "Number of Dyck paths of semilength n having no DUDU's starting at level 1.",
+  "id": "A135339",
+  "mentions": [
+    "A000108",
+    "A000958",
+    "A135333",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

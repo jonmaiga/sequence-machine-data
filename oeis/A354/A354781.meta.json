@@ -1,0 +1,27 @@
+{
+  "description": "If the binary expansion of A354780(n) is 1 d_1 d_2 ... d_k, then the binary expansion of a(n) is c_1 c_2 ... c_k, where c_i = 1 - d_i.",
+  "id": "A354781",
+  "mentions": [
+    "A354169",
+    "A354680",
+    "A354757",
+    "A354758",
+    "A354767",
+    "A354773",
+    "A354774",
+    "A354778",
+    "A354780",
+    "A355150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the irreducible fractions of the form x/y, with x,y primes and x < y, sorted according to increasing k, with k = x + y. Fractions with same k are sorted in order of increasing denominator.",
+  "id": "A306894",
+  "mentions": [
+    "A279782",
+    "A279783",
+    "A280073",
+    "A280315",
+    "A307701"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

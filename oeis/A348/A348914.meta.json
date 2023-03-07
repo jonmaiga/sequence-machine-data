@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{i=n..n+4} A000045(i) mod Sum_{i=n..n+4} A000045(i).",
+  "id": "A348914",
+  "mentions": [
+    "A000045",
+    "A001060"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

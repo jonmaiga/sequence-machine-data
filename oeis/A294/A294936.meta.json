@@ -1,0 +1,31 @@
+{
+  "description": "Characteristic function for nondeficient numbers (A023196): a(n) = 1 if A001065(n) >= n, 0 otherwise.",
+  "id": "A294936",
+  "mentions": [
+    "A001065",
+    "A005100",
+    "A006037",
+    "A023196",
+    "A033880",
+    "A210455",
+    "A294887",
+    "A294927",
+    "A294934",
+    "A294935",
+    "A294937",
+    "A336835",
+    "A341619",
+    "A341620"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

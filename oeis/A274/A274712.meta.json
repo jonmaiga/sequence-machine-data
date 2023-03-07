@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A008277(3*n-1,n) / (n*(n+1)/2) for n>=1, where A008277 are the Stirling numbers of the second kind.",
+  "id": "A274712",
+  "mentions": [
+    "A008277",
+    "A226750",
+    "A274713"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

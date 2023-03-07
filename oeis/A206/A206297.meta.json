@@ -1,0 +1,22 @@
+{
+  "description": "Position of n in the canonical bijection from the positive integers to the positive rational numbers.",
+  "id": "A206297",
+  "mentions": [
+    "A005728",
+    "A018805",
+    "A038568",
+    "A038569",
+    "A049691",
+    "A206350"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

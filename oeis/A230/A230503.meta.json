@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: possible number of interior intersection points of the diagonals of an n-sided convex polygon.",
+  "id": "A230503",
+  "mentions": [
+    "A000332",
+    "A006561",
+    "A230150",
+    "A230281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

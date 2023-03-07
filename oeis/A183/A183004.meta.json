@@ -1,0 +1,22 @@
+{
+  "description": "Toothpick sequence on square grid with toothpicks connected by their endpoints.",
+  "id": "A183004",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160164",
+    "A182840",
+    "A183005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

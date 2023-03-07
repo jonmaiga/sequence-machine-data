@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(n) + phi(n) is a repdigit.",
+  "id": "A116019",
+  "mentions": [
+    "A116017",
+    "A116018",
+    "A116020"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

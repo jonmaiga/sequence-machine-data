@@ -1,0 +1,22 @@
+{
+  "description": "Unlucky numbers removed at the stage four of Lucky sieve.",
+  "id": "A260440",
+  "mentions": [
+    "A255414",
+    "A255543",
+    "A258011",
+    "A260436"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

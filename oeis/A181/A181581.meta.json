@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that each of the five factorials (5k)!, (5k+1)!, (5k+2)!, (5k+3)! and (5k+4)! has exactly 10^n trailing 0's. Zero, if no such k exists.",
+  "id": "A181581",
+  "mentions": [
+    "A027868",
+    "A173558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

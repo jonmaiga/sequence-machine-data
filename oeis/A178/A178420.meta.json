@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of floor(2^n/3).",
+  "id": "A178420",
+  "mentions": [
+    "A000975",
+    "A011377"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

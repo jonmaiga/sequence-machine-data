@@ -1,0 +1,20 @@
+{
+  "description": "The unique sequence {a(1), a(2), a(3), a(4), ...} of digits 1, 2, or 3 such that the number a(n)a(n-1)...a(2)a(1), read in base 6, is divisible by 3^n.",
+  "id": "A342932",
+  "mentions": [
+    "A023396",
+    "A053312",
+    "A126933"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

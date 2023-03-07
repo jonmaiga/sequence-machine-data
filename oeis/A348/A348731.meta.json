@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} x*log(x)/(1+x+x^2) dx (negated).",
+  "id": "A348731",
+  "mentions": [
+    "A072691",
+    "A086722",
+    "A086724",
+    "A111003",
+    "A222171"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

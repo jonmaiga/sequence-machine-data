@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x^6 + y^3 + z*(3*z+1)/2 + 2^k, where x and y are nonnegative integers, z is an integer and k is a positive integer.",
+  "id": "A343460",
+  "mentions": [
+    "A000079",
+    "A000578",
+    "A001014",
+    "A001318",
+    "A343397",
+    "A343411"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

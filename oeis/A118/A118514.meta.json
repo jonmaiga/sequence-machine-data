@@ -1,0 +1,26 @@
+{
+  "description": "Define sequence S_n by: initial term = n, reverse digits and add 2 to get next term. It is conjectured that S_n always reaches a cycle. Sequence gives number of steps for S_n to reach a cycle.",
+  "id": "A118514",
+  "mentions": [
+    "A117521",
+    "A117831",
+    "A118515",
+    "A118516",
+    "A120214",
+    "A120215",
+    "A120216",
+    "A120217",
+    "A120218"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

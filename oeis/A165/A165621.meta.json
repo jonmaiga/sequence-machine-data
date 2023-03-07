@@ -1,0 +1,23 @@
+{
+  "description": "Riordan array (c(x^2)*(1+xc(x^2)), xc(x^2)).",
+  "id": "A165621",
+  "mentions": [
+    "A001405",
+    "A026008",
+    "A165620",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

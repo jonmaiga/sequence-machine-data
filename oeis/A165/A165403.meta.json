@@ -1,0 +1,22 @@
+{
+  "description": "The positions of zeros in A163898 and A163899.",
+  "id": "A165403",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A163898",
+    "A163899",
+    "A163904",
+    "A165404"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

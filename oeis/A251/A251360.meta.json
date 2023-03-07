@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n is the concatenation of prime factors of pi(n), in increasing order.",
+  "id": "A251360",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A037276",
+    "A084317",
+    "A251361",
+    "A251362"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

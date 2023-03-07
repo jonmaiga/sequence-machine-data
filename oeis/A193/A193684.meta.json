@@ -1,0 +1,23 @@
+{
+  "description": "Alternating row sums of Sheffer triangle A143496 (4-restricted Stirling2 numbers).",
+  "id": "A193684",
+  "mentions": [
+    "A143496",
+    "A193683",
+    "A196835",
+    "A293037",
+    "A346739"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

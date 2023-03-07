@@ -1,0 +1,17 @@
+{
+  "description": "The table in A316842 with columns concatenated to form a single number.",
+  "id": "A316850",
+  "mentions": [
+    "A316842"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

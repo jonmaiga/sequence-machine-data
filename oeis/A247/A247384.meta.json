@@ -1,0 +1,23 @@
+{
+  "description": "Find the first (maximal) string of consecutive primes of length exactly n which alternate between 4*k+1 and 4*k+3 or 4*k+3 and 4*k+1 as in A002144(4*n+1) and A002145(4*n+3). The first element is a(n).",
+  "id": "A247384",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A098058",
+    "A098059",
+    "A289118",
+    "A289237"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of paths from (0,0,0) to (n,n,n) avoiding 3 or more consecutive right steps, 3 or more consecutive up steps, and 3 or more consecutive away steps.",
+  "id": "A247150",
+  "mentions": [
+    "A177790"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

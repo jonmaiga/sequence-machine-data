@@ -1,0 +1,28 @@
+{
+  "description": "Eric Angelini's \"1995\" puzzle: the sequence is defined by the property that if one writes the English names for the entries, replaces each letter with its rank in the alphabet and calculates the absolute values of the differences, one recovers the sequence.",
+  "id": "A131744",
+  "mentions": [
+    "A073029",
+    "A130316",
+    "A131285",
+    "A131286",
+    "A131287",
+    "A131745",
+    "A131746",
+    "A133152",
+    "A133816",
+    "A133817"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nice",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

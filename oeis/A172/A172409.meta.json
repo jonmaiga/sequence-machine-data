@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that neither n-2 nor n-3 is prime.",
+  "id": "A172409",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

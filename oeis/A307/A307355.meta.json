@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies: d/dx A(x) = 1 + A(x/(1 + x)).",
+  "id": "A307355",
+  "mentions": [
+    "A001063"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

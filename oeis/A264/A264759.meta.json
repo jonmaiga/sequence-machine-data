@@ -1,0 +1,24 @@
+{
+  "description": "Number of irreducible indecomposable spherical curves with n crossings (only ordinary double points), the circle is not oriented, the sphere is not oriented (UU case).",
+  "id": "A264759",
+  "mentions": [
+    "A007756",
+    "A008986",
+    "A008987",
+    "A008988",
+    "A008989",
+    "A264760",
+    "A264761"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

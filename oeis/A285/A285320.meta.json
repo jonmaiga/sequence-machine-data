@@ -1,0 +1,27 @@
+{
+  "description": "If n == 0 or A008683(n) == 0, then a(n) = 0, otherwise a(n) = 1+a(A048675(n)); number of iterations of A048675 needed before the result is either zero or nonsquarefree number (A013929).",
+  "id": "A285320",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A013929",
+    "A019565",
+    "A048675",
+    "A109162",
+    "A285319",
+    "A285331",
+    "A285332"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (Product_{i=1..n-1} (2^i + 1)) modulo (2^n - 1).",
+  "id": "A219732",
+  "mentions": [
+    "A028362"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:56:25",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

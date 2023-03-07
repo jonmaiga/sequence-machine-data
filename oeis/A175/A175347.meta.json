@@ -1,0 +1,19 @@
+{
+  "description": "Primes in A176303.",
+  "id": "A175347",
+  "mentions": [
+    "A169716",
+    "A176303"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

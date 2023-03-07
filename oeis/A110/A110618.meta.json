@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of n with no part larger than n/2. Also partitions of n into n/2 or fewer parts.",
+  "id": "A110618",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000569",
+    "A025065",
+    "A049311",
+    "A096373",
+    "A110619",
+    "A116540",
+    "A147878",
+    "A209816",
+    "A283877",
+    "A306005",
+    "A320921"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

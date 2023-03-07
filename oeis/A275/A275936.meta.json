@@ -1,0 +1,22 @@
+{
+  "description": "Shifts 6 places under binomial transform.",
+  "id": "A275936",
+  "mentions": [
+    "A000998",
+    "A275934",
+    "A275935"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

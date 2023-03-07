@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+2 0..5 arrays with no three unequal elements in a row and no three equal elements in a row and new values 0..5 introduced in 0..5 order.",
+  "id": "A243724",
+  "mentions": [
+    "A243729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

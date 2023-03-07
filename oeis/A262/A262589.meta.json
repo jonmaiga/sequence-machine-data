@@ -1,0 +1,21 @@
+{
+  "description": "Number of other isonemal fabrics of exact period n.",
+  "id": "A262589",
+  "mentions": [
+    "A000046",
+    "A005441",
+    "A193140"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

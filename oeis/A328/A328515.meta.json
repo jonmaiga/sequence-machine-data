@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes in permutations of digits per permutation class of the positive integers ordered by smallest member of this class excluding leading zeros.",
+  "id": "A328515",
+  "mentions": [
+    "A039999",
+    "A166921",
+    "A179239"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "1/4 the number of n X 3 0..3 arrays with no element equal both to the element above and to the element to its left.",
+  "id": "A185561",
+  "mentions": [
+    "A185567"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

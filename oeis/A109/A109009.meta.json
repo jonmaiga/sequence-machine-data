@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(n,5).",
+  "id": "A109009",
+  "mentions": [
+    "A109004"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:40:15",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

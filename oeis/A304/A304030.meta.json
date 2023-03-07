@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of steps at which the Collatz ('3x+1') trajectory of n crosses its initial value, or -1 if the number of crossings is infinite.",
+  "id": "A304030",
+  "mentions": [
+    "A006370",
+    "A070165",
+    "A349325"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 18*n + 4.",
+  "id": "A350521",
+  "mentions": [
+    "A006370",
+    "A008600",
+    "A017209",
+    "A242215",
+    "A298035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

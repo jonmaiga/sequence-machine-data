@@ -1,0 +1,48 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer compositions of n with k weak nonexcedances (parts on or below the diagonal).",
+  "id": "A352522",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008292",
+    "A008930",
+    "A011782",
+    "A088218",
+    "A098825",
+    "A114088",
+    "A115994",
+    "A122111",
+    "A123125",
+    "A173018",
+    "A177510",
+    "A219282",
+    "A238349",
+    "A238351",
+    "A238352",
+    "A238874",
+    "A352488",
+    "A352489",
+    "A352512",
+    "A352513",
+    "A352514",
+    "A352515",
+    "A352516",
+    "A352517",
+    "A352520",
+    "A352521",
+    "A352523",
+    "A352524",
+    "A352525"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the reverse concatenation of the first k binary numbers A098780(k) is prime.",
+  "id": "A348792",
+  "mentions": [
+    "A000422",
+    "A007908",
+    "A098780",
+    "A176024"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

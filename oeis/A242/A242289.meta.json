@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in the greedy sum for the n-th tetrahedral number.",
+  "id": "A242289",
+  "mentions": [
+    "A000292",
+    "A241833",
+    "A242284",
+    "A242288",
+    "A242290",
+    "A242291"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

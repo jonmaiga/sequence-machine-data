@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: n-sect the angles of an octagon. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A335772",
+  "mentions": [
+    "A333076",
+    "A335769",
+    "A335770",
+    "A335771"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

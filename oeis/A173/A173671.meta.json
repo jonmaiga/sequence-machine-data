@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers that cannot be expressed as 3^m-2^n where m and n are integers.",
+  "id": "A173671",
+  "mentions": [
+    "A014121",
+    "A074981",
+    "A075824",
+    "A192110",
+    "A192111",
+    "A227048",
+    "A321671"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

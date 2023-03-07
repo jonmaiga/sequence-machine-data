@@ -1,0 +1,22 @@
+{
+  "description": "Let S(m) = d(k)/d(1) + ... + d(1)/d(k), where d(1)..d(k) are the unitary divisors of m; then a(n) is the number m when the sums S(m) are arranged in increasing order.",
+  "id": "A306010",
+  "mentions": [
+    "A077610",
+    "A229994",
+    "A229996",
+    "A305995",
+    "A306011",
+    "A306012"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled balanced rooted semi-identity trees with 2n-1 nodes and depth n.",
+  "id": "A306274",
+  "mentions": [
+    "A306269"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the number of times needed to iterate Hofstadter's A030124, starting from A030124(1)=2, that the result were >= n; a(n) = the least k such that A232739(k) >= n.",
+  "id": "A232753",
+  "mentions": [
+    "A030124",
+    "A232739",
+    "A232740",
+    "A232746",
+    "A232750"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

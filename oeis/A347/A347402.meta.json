@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that the product n * a(n) forms a palindrome in base 10.",
+  "id": "A347402",
+  "mentions": [
+    "A050782",
+    "A347335",
+    "A347336",
+    "A347400",
+    "A347401"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

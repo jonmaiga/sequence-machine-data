@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + [n*s/r] + [n*t/r]; r=1, s=sin(2pi/5), t=cos(2pi/5).",
+  "id": "A189929",
+  "mentions": [
+    "A189926",
+    "A189930",
+    "A189931"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

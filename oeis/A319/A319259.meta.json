@@ -1,0 +1,24 @@
+{
+  "description": "Minimal number of straight lines of a covering tree needed to cover n X n X n points arranged in a 3-D grid.",
+  "id": "A319259",
+  "mentions": [
+    "A058992",
+    "A225227",
+    "A261547",
+    "A318165"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Multiply a(n) by the first digit of a(n+1) to get a(n+2). The sequence starts with a(1) = 1 and a(2) = 2.",
+  "id": "A300759",
+  "mentions": [
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

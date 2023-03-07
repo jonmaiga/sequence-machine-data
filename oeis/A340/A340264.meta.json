@@ -1,0 +1,24 @@
+{
+  "description": "T(n, k) = Sum_{j=0..k} binomial(n, k - j)*Stirling2(n - k + j, j). Triangle read by rows, 0 <= k <= n.",
+  "id": "A340264",
+  "mentions": [
+    "A000110",
+    "A001035",
+    "A006905",
+    "A058681",
+    "A109747",
+    "A137375"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

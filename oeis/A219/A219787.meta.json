@@ -1,0 +1,17 @@
+{
+  "description": "Least number such that in the interval [n+1, a(n)] there are n integers b(i) with i | b(i) for i = 1 to n.",
+  "id": "A219787",
+  "mentions": [
+    "A219786"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Chebyshev S polynomial (A049310) evaluated at x = 26/7 and multiplied by powers of 7 (A000420).",
+  "id": "A249863",
+  "mentions": [
+    "A000420",
+    "A049310",
+    "A248163",
+    "A249458",
+    "A249864"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:25:48",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

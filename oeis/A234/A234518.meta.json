@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of log_12 (28/13).",
+  "id": "A234518",
+  "mentions": [
+    "A016635",
+    "A016636",
+    "A016651",
+    "A234515",
+    "A234516",
+    "A234517",
+    "A234519",
+    "A234520",
+    "A234521",
+    "A234522",
+    "A234523",
+    "A234524"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:15",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

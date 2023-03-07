@@ -1,0 +1,21 @@
+{
+  "description": "Number of highly composite numbers not divisible by n.",
+  "id": "A199337",
+  "mentions": [
+    "A002182",
+    "A003418",
+    "A106037",
+    "A329570",
+    "A329571"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

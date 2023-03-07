@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: 30*A(x) = 29 + 125*x + A(x)^5, starting with [1,5,10].",
+  "id": "A120598",
+  "mentions": [
+    "A120588",
+    "A120597",
+    "A120599",
+    "A120607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

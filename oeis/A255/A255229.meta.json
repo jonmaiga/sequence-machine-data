@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that n^2 - 1 is the difference of the squares of twin primes.",
+  "id": "A255229",
+  "mentions": [
+    "A088486",
+    "A111046"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

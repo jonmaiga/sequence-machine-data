@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, T(n, k) = coefficients [x^k]( p(x, n) ), where p(x, n) = (1/2)*( (1+x)^n + 2^n*(1-x)^(n+1)*LerchPhi(x, -n, 1/2) ), read by rows.",
+  "id": "A147565",
+  "mentions": [
+    "A003462",
+    "A147566"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

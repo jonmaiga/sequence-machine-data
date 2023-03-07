@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose arithmetic derivative (A003415) is larger than 1 and one of the terms of A143293 (partial sums of primorials).",
+  "id": "A328243",
+  "mentions": [
+    "A002620",
+    "A003415",
+    "A143293",
+    "A276086",
+    "A276150",
+    "A327969",
+    "A327978",
+    "A328313"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

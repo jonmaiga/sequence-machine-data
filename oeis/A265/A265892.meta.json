@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = A265893(A265609(n,k)), with n as row >= 0, k as column >= 0; the number of significant digits counted without trailing zeros in the factorial base representation of rising factorial n^(k) = (n+k-1)!/(n-1)!.",
+  "id": "A265892",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000034",
+    "A001710",
+    "A002262",
+    "A007623",
+    "A025581",
+    "A265609",
+    "A265890",
+    "A265893"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

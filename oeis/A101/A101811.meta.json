@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the permanent of the n-th Hilbert matrix.",
+  "id": "A101811",
+  "mentions": [
+    "A101812"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

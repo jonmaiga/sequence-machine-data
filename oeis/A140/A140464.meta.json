@@ -1,0 +1,18 @@
+{
+  "description": "1 together with terms of A037174.",
+  "id": "A140464",
+  "mentions": [
+    "A037174"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

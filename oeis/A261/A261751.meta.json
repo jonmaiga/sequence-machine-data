@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that binary expansion of n^3 begins with the binary expansion of n.",
+  "id": "A261751",
+  "mentions": [
+    "A004539",
+    "A052210"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

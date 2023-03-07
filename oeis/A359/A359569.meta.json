@@ -1,0 +1,25 @@
+{
+  "description": "Number of vertices after n iterations of constructing circles from all current vertices using only a compass, starting with one vertex. See the Comments.",
+  "id": "A359569",
+  "mentions": [
+    "A331702",
+    "A358746",
+    "A359252",
+    "A359570",
+    "A359571",
+    "A359619"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

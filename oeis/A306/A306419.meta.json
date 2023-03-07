@@ -1,0 +1,27 @@
+{
+  "description": "Number of set partitions of {1, ..., n} whose blocks are all singletons and pairs, not including {1, n} or {i, i + 1} for any i.",
+  "id": "A306419",
+  "mentions": [
+    "A000085",
+    "A000110",
+    "A000296",
+    "A001006",
+    "A001610",
+    "A003436",
+    "A034807",
+    "A170941",
+    "A278990",
+    "A306417"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

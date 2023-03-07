@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which n*A276086(n) is a term of A055932.",
+  "id": "A324578",
+  "mentions": [
+    "A002110",
+    "A055932",
+    "A276086",
+    "A324579",
+    "A324580"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

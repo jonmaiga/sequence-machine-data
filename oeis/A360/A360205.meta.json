@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. T(n, k) = (-1)^(n-k)*(k+1)*binomial(n, k)*pochhammer(1-n, n-k).",
+  "id": "A360205",
+  "mentions": [
+    "A002720",
+    "A045991",
+    "A052849",
+    "A069138",
+    "A271703",
+    "A360174"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

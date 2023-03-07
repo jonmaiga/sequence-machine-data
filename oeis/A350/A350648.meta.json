@@ -1,0 +1,19 @@
+{
+  "description": "Sum over all partitions of [n] of the number of blocks containing their own index when blocks are ordered with decreasing largest elements.",
+  "id": "A350648",
+  "mentions": [
+    "A350589",
+    "A350647"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

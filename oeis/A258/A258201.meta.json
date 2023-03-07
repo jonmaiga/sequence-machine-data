@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest number encountered when iterating the map x -> floor(tan(x)) starting from the initial value x = n.",
+  "id": "A258201",
+  "mentions": [
+    "A000503",
+    "A258020",
+    "A258021",
+    "A258022",
+    "A258024",
+    "A258202"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

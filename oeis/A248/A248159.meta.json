@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 - 2*x^2)/(1 + x)^4. Third column of Riordan triangle A248156.",
+  "id": "A248159",
+  "mentions": [
+    "A248156",
+    "A248157",
+    "A248158"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:17",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

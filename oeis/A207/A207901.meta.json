@@ -1,0 +1,39 @@
+{
+  "description": "Let S_k denote the first 2^k terms of this sequence and let b_k be the smallest positive integer that is not in S_k, also let R_k equal S_k read in reverse order; then the numbers b_k*R_k are the next 2^k terms.",
+  "id": "A207901",
+  "mentions": [
+    "A001511",
+    "A003188",
+    "A050376",
+    "A052330",
+    "A059897",
+    "A064706",
+    "A064736",
+    "A281978",
+    "A282291",
+    "A302029",
+    "A302033",
+    "A302350",
+    "A302781",
+    "A302783",
+    "A302843",
+    "A303751",
+    "A303771",
+    "A304085",
+    "A304531",
+    "A304745",
+    "A304755"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

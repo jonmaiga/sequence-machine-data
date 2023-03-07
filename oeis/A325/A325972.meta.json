@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the largest k <= sigma(n)-A007947(n) such that n-k and n-(sigma(n)-k) are relatively prime.",
+  "id": "A325972",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A324213",
+    "A325818",
+    "A325962",
+    "A325966",
+    "A325970",
+    "A325971"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least positive integer x such that x and n*x are both differences of fourth powers.",
+  "id": "A228760",
+  "mentions": [
+    "A152044"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

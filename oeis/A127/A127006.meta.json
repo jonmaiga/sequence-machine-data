@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of convergents to Khinchin's constant.",
+  "id": "A127006",
+  "mentions": [
+    "A002210",
+    "A002211",
+    "A127005"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

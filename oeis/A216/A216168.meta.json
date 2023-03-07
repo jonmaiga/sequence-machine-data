@@ -1,0 +1,28 @@
+{
+  "description": "Composite numbers and 1 which yield a prime whenever a 7 is inserted anywhere in them, including at the beginning or end.",
+  "id": "A216168",
+  "mentions": [
+    "A068673",
+    "A068674",
+    "A068677",
+    "A068679",
+    "A069246",
+    "A215417",
+    "A215419",
+    "A215421",
+    "A216165",
+    "A216167",
+    "A216169"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the product of two consecutive terms is always divisible by 4.",
+  "id": "A330530",
+  "mentions": [
+    "A000027",
+    "A006368",
+    "A068156",
+    "A153893",
+    "A330531",
+    "A330576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

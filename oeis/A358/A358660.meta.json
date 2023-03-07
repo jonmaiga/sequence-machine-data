@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d * (n/d)^(n-d).",
+  "id": "A358660",
+  "mentions": [
+    "A090879",
+    "A342629",
+    "A356539",
+    "A359112"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

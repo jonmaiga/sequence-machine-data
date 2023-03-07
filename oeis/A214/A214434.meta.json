@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that k divides Fibonacci(k+1) or Fibonacci(k-1) and 2^(k-1) == 1 (mod k).",
+  "id": "A214434",
+  "mentions": [
+    "A001567",
+    "A081264",
+    "A182554"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

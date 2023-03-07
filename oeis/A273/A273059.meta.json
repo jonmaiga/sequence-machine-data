@@ -1,0 +1,27 @@
+{
+  "description": "Positions of 1's in A274640: Greedy Queens on a spiral. Equivalently, positions of 0's in A274641.",
+  "id": "A273059",
+  "mentions": [
+    "A065188",
+    "A140100",
+    "A140101",
+    "A274640",
+    "A274641",
+    "A275915",
+    "A275916",
+    "A275917",
+    "A275918",
+    "A275919"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

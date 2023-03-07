@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} E1(n, k)*k^2, where E1 are the Eulerian numbers A173018.",
+  "id": "A344054",
+  "mentions": [
+    "A000012",
+    "A000330",
+    "A033452",
+    "A065096",
+    "A083411",
+    "A103194",
+    "A105219",
+    "A141222",
+    "A151881",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:44:46",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

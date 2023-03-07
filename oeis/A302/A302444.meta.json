@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. arcsinh(x)/cos(x) (odd powers only).",
+  "id": "A302444",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A000795",
+    "A001818",
+    "A002084",
+    "A003701",
+    "A003702",
+    "A012821",
+    "A296742",
+    "A301942",
+    "A302542",
+    "A302543"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:13:38",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

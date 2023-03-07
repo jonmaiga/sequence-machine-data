@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonsquare simple squared rectangles of order n up to symmetry.",
+  "id": "A220166",
+  "mentions": [
+    "A002839",
+    "A002881",
+    "A006983",
+    "A217156",
+    "A219766",
+    "A220165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

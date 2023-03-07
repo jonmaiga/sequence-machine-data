@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the determinant of the matrix with elements gcd(i,j) for 2 <= i,j <= n.",
+  "id": "A330967",
+  "mentions": [
+    "A001088",
+    "A067549"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

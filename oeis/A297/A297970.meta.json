@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are not the sum of 3 squares and a nonnegative 7th power.",
+  "id": "A297970",
+  "mentions": [
+    "A004215",
+    "A004771",
+    "A022552",
+    "A022557",
+    "A022561",
+    "A022566",
+    "A111151",
+    "A296185"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

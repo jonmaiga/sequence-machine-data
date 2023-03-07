@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = a(n-1) mod n + a(n-2) mod n; a(0) = 0, a(1) = 1.",
+  "id": "A104647",
+  "mentions": [
+    "A079777",
+    "A105855",
+    "A105856",
+    "A105857",
+    "A105858",
+    "A105859",
+    "A105860"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

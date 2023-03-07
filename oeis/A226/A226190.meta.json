@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer k such that 1 + 1/2 + ... + 1/k >= log(n).",
+  "id": "A226190",
+  "mentions": [
+    "A004081",
+    "A226183",
+    "A226189"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

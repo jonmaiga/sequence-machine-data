@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of D(1), where D(x) is the infinite product function defined in the formula section (or in the Finch reference).",
+  "id": "A241421",
+  "mentions": [
+    "A006752",
+    "A019610",
+    "A074962",
+    "A241420"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

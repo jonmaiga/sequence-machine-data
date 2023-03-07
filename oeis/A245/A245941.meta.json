@@ -1,0 +1,19 @@
+{
+  "description": "(16n^6 - 24n^5 + 2n^4 + 11n^3 - 6n^2 + n) / 6.",
+  "id": "A245941",
+  "mentions": [
+    "A245826"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of ten fifth powers in eight or more ways.",
+  "id": "A345640",
+  "mentions": [
+    "A345601",
+    "A345625",
+    "A345639",
+    "A345641",
+    "A346353"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

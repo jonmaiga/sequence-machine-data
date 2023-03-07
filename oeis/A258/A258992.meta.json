@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p^2 - 8 is also prime.",
+  "id": "A258992",
+  "mentions": [
+    "A062718",
+    "A137270"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

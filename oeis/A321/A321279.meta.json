@@ -1,0 +1,30 @@
+{
+  "description": "Number of z-trees with product A181821(n). Number of connected antichains of multisets with multiset density -1, of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A321279",
+  "mentions": [
+    "A001055",
+    "A007718",
+    "A030019",
+    "A181821",
+    "A293607",
+    "A303837",
+    "A304382",
+    "A305081",
+    "A305936",
+    "A318284",
+    "A321229",
+    "A321270",
+    "A321271",
+    "A321272"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

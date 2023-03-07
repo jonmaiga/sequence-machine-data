@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sums of unitary and nonunitary divisors of k have the same set of prime divisors.",
+  "id": "A329880",
+  "mentions": [
+    "A007947",
+    "A034448",
+    "A048146",
+    "A329858",
+    "A329879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

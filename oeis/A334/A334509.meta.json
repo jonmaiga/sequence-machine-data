@@ -1,0 +1,22 @@
+{
+  "description": "Eventual period of a single cell in rule 41 cellular automaton in a cyclic universe of width n.",
+  "id": "A334509",
+  "mentions": [
+    "A176895",
+    "A180001",
+    "A334496",
+    "A334499",
+    "A334515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

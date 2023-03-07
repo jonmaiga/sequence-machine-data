@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts congruent to 1 mod 3.",
+  "id": "A337547",
+  "mentions": [
+    "A000930",
+    "A016777",
+    "A032020",
+    "A032021",
+    "A035382",
+    "A261612",
+    "A337548",
+    "A339059",
+    "A339060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

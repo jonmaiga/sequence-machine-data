@@ -1,0 +1,23 @@
+{
+  "description": "Eight bishops and one elephant on a 3 X 3 chessboard: a(n)= (3^(n+1)-Jacobsthal(n+1))-(3^n-Jacobsthal(n)), with Jacobsthal=A001045.",
+  "id": "A175659",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A093833",
+    "A175654",
+    "A175655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

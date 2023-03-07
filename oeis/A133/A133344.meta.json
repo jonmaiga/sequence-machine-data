@@ -1,0 +1,23 @@
+{
+  "description": "Complexity of the number n, counting 1's and built using +, *, ^ and # representing concatenation.",
+  "id": "A133344",
+  "mentions": [
+    "A003037",
+    "A005245",
+    "A005421",
+    "A005520",
+    "A025280",
+    "A117618"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

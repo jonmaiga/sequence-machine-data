@@ -1,0 +1,22 @@
+{
+  "description": "Sums of area and perimeter of Pythagorean triples, sorted in increasing order, including duplicates.",
+  "id": "A105520",
+  "mentions": [
+    "A024364",
+    "A024406",
+    "A103605",
+    "A103606",
+    "A105521"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Last digit of p^p, where p is the n-th prime.",
+  "id": "A175348",
+  "mentions": [
+    "A000040",
+    "A007652",
+    "A056849",
+    "A137807"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

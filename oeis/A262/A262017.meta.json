@@ -1,0 +1,23 @@
+{
+  "description": "The first of five consecutive positive integers the sum of the squares of which is equal to the sum of the squares of six consecutive positive integers.",
+  "id": "A262017",
+  "mentions": [
+    "A027578",
+    "A027865",
+    "A157096",
+    "A262018",
+    "A262019"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

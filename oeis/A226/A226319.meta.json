@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest odd k > 1 such that k is a Niven number at least in all the bases from 1 to n.",
+  "id": "A226319",
+  "mentions": [
+    "A005349",
+    "A225427",
+    "A226169",
+    "A226320"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

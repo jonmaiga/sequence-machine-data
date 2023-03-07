@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the real solution to 11571875*x^5 - 5363750*x^4 + 628250*x^3 - 97580*x^2 + 5180*x - 142 = 0, multiplied by 3/7. Constant occurring in the asymptotic behavior of the number of lattice paths of slope 2/5, observed by D. Knuth.",
+  "id": "A322633",
+  "mentions": [
+    "A322631",
+    "A322632"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:52:01",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

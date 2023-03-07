@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of partial row products of A264662.",
+  "id": "A264666",
+  "mentions": [
+    "A002110",
+    "A264662"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

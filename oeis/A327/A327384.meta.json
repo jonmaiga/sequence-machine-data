@@ -1,0 +1,18 @@
+{
+  "description": "Number of colored integer partitions of n such that six colors are used and parts differ by size or by color.",
+  "id": "A327384",
+  "mentions": [
+    "A308680"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 6,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

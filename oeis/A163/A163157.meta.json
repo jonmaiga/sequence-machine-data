@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 1 + some Golden Rectangle Number.",
+  "id": "A163157",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A163154",
+    "A163155",
+    "A163156"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of sqrt(2 / ( (1-6*x+25*x^2) * (1-5*x+sqrt(1-6*x+25*x^2)) )).",
+  "id": "A337394",
+  "mentions": [
+    "A188599",
+    "A273055",
+    "A337393",
+    "A337464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

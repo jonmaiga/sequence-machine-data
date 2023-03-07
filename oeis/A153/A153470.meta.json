@@ -1,0 +1,17 @@
+{
+  "description": "1/7 of the number of 7-colorings of a planar n X n X n triangular grid.",
+  "id": "A153470",
+  "mentions": [
+    "A182797"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

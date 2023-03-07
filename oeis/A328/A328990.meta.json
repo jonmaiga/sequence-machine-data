@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (3*b(n) + b(n-1) + 1)/2, where b = A005409.",
+  "id": "A328990",
+  "mentions": [
+    "A001333",
+    "A002203",
+    "A005409"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

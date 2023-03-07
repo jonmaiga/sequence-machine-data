@@ -1,0 +1,31 @@
+{
+  "description": "Number of compositions of n with weakly increasing differences.",
+  "id": "A325546",
+  "mentions": [
+    "A000079",
+    "A000740",
+    "A007294",
+    "A008965",
+    "A070211",
+    "A173258",
+    "A175342",
+    "A240026",
+    "A325325",
+    "A325360",
+    "A325545",
+    "A325547",
+    "A325548",
+    "A325552",
+    "A325557"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

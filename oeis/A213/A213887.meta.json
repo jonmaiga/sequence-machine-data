@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of coefficients of representations of columns of A213743 in binomial basis.",
+  "id": "A213887",
+  "mentions": [
+    "A000575",
+    "A026729",
+    "A064056",
+    "A064057",
+    "A064058",
+    "A071675",
+    "A186332",
+    "A213743"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:52:03",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

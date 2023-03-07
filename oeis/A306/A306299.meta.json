@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary carry-connected subsets of [n] containing n (for n > 0).",
+  "id": "A306299",
+  "mentions": [
+    "A131577",
+    "A325105"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

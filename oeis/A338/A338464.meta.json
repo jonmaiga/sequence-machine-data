@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write 2*n as an ordered sum of n squares of positive integers.",
+  "id": "A338464",
+  "mentions": [
+    "A000290",
+    "A005563",
+    "A066535",
+    "A111178",
+    "A287617",
+    "A303333",
+    "A337165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

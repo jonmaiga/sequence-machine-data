@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T, read by rows, where column k of T = column 0 of T^(k+1) for k>0, with column 0 of T = column 0 of T^3 shift right.",
+  "id": "A135902",
+  "mentions": [
+    "A091351",
+    "A094587",
+    "A135903",
+    "A135904",
+    "A135905"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

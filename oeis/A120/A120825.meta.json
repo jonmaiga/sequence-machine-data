@@ -1,0 +1,27 @@
+{
+  "description": "Number of digits of primes with n consecutive digits ascending beginning with the digit seven.",
+  "id": "A120825",
+  "mentions": [
+    "A006055",
+    "A120819",
+    "A120820",
+    "A120821",
+    "A120822",
+    "A120823",
+    "A120824",
+    "A120826",
+    "A120827"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

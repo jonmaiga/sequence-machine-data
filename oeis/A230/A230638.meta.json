@@ -1,0 +1,35 @@
+{
+  "description": "Smallest number m such that u + (sum of base-4 digits of u) = m has exactly n solutions.",
+  "id": "A230638",
+  "mentions": [
+    "A006064",
+    "A010064",
+    "A010065",
+    "A053737",
+    "A230303",
+    "A230631",
+    "A230632",
+    "A230633",
+    "A230634",
+    "A230635",
+    "A230636",
+    "A230637",
+    "A230640",
+    "A230867",
+    "A238840",
+    "A238841",
+    "A238842",
+    "A238843"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

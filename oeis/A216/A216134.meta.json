@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 2 * A000217(k) + 1 is triangular.",
+  "id": "A216134",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001333",
+    "A006451",
+    "A006452",
+    "A069017",
+    "A079496",
+    "A124124",
+    "A124174"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

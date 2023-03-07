@@ -1,0 +1,22 @@
+{
+  "description": "Sums of two primes (in increasing order) when equal to the product of their prime-counting functions.",
+  "id": "A272860",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A272861",
+    "A272862",
+    "A273286"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

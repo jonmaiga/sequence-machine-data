@@ -1,0 +1,22 @@
+{
+  "description": "Draw a square and follow these steps: Take a square and place at its edges isosceles right triangles with the edge as hypotenuse. Draw a square at every new edge of the triangles. Repeat for all the new squares of the same size. New figures are only placed on empty space. The structure is symmetric about the first square. The sequence gives the numbers of squares of equal size in successive rings around the center.",
+  "id": "A265207",
+  "mentions": [
+    "A029744",
+    "A063759",
+    "A163978",
+    "A164090"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:59:15",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

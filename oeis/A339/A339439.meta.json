@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-digit numbers (in base 10) that are divisible by each of their nonzero digits.",
+  "id": "A339439",
+  "mentions": [
+    "A002796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/2) * Sum_{k>=0} (k*(k + n))^n / 2^k.",
+  "id": "A340838",
+  "mentions": [
+    "A000670",
+    "A098696",
+    "A249938",
+    "A292916",
+    "A340822"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

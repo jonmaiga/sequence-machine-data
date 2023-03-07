@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime modulus p such that there exists a multiplicative-coset Ramsey algebra in n colors over Z/pZ, or 0 if no such prime exists.",
+  "id": "A305464",
+  "mentions": [
+    "A263308",
+    "A294676"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

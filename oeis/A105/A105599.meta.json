@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows: T(n, m) = number of forests with n nodes and m labeled trees. Also number of forests with exactly n - m edges on n labeled nodes.",
+  "id": "A105599",
+  "mentions": [
+    "A000272",
+    "A001858",
+    "A033185",
+    "A083483",
+    "A106240",
+    "A138464",
+    "A239910",
+    "A240681",
+    "A240682",
+    "A240683",
+    "A240684",
+    "A240685",
+    "A240686",
+    "A240687",
+    "A264428",
+    "A302112"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

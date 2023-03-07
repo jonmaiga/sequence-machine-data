@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest number k such that six consecutive prime numbers prime(n), prime(n+1),...,prime(n+5) are divisors of k, k+1,..., k+5 respectively.",
+  "id": "A180159",
+  "mentions": [
+    "A077338",
+    "A180095",
+    "A180096",
+    "A180100"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

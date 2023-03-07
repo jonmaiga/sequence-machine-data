@@ -1,0 +1,18 @@
+{
+  "description": "Numbers A226770((prime(n))^2-1).",
+  "id": "A226856",
+  "mentions": [
+    "A053184",
+    "A226770"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

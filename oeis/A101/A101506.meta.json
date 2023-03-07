@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that log(n!) is closer to an integer than is log(m!) for any m with 2",
+  "id": "A101506",
+  "mentions": [
+    "A046654",
+    "A101507"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

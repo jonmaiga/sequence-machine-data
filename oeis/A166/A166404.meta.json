@@ -1,0 +1,19 @@
+{
+  "description": "Self-inverse permutation of natural numbers obtained by exchanging the run lengths of adjacent runs of ones and zeros in the binary expansion of n, starting from the most significant run of 1's. (See the example lines).",
+  "id": "A166404",
+  "mentions": [
+    "A056539",
+    "A166166"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

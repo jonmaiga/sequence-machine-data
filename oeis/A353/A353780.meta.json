@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number that has not yet appeared that is coprime to a(n-1), does not equal a(n-1)+1, and has no digit in common with a(n-1).",
+  "id": "A353780",
+  "mentions": [
+    "A068861",
+    "A093714",
+    "A109812",
+    "A353904"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "15 times triangular numbers.",
+  "id": "A194715",
+  "mentions": [
+    "A000217",
+    "A001105",
+    "A028895",
+    "A035008",
+    "A045943",
+    "A069128",
+    "A163756",
+    "A290391",
+    "A290392"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 7*p^2+7*p-1 is also prime.",
+  "id": "A171139",
+  "mentions": [
+    "A171138"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

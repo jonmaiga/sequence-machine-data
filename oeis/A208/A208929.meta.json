@@ -1,0 +1,19 @@
+{
+  "description": "Let L = A185064(n) be the n-th length for which a Golay sequence exists; a(n) = number of equivalence classes of non-constructable Golay sequences of length L.",
+  "id": "A208929",
+  "mentions": [
+    "A185064",
+    "A208924"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

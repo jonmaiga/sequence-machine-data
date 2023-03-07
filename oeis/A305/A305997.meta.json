@@ -1,0 +1,19 @@
+{
+  "description": "Define K(n) = Integral_{t=-1..1} t^(2n)*(1-t^2)^(2n)/(1+it)^(3n+1)dt and write K(n) = d(n)*Pi - a(n)/c(n) where a(n), d(n), c(n) are positive integers; sequence gives a(n).",
+  "id": "A305997",
+  "mentions": [
+    "A123178",
+    "A305998"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=3; thereafter a(n) = 20*6^(n-1)-2^(n-1).",
+  "id": "A321002",
+  "mentions": [
+    "A175046",
+    "A321003"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

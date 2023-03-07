@@ -1,0 +1,21 @@
+{
+  "description": "Square array (5 X 5) read by rows.",
+  "id": "A144193",
+  "mentions": [
+    "A002033",
+    "A143104"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = p_1 + p_2 + ... + p_k, where p_1*p_2*...*p_k is the prime factorization of A064413(n).",
+  "id": "A276127",
+  "mentions": [
+    "A001414",
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form sigma(k) + phi(k) - 2k.",
+  "id": "A278373",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A051709",
+    "A056996",
+    "A278374"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

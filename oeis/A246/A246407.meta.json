@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers k satisfying sec(k) > sec(k+1).",
+  "id": "A246407",
+  "mentions": [
+    "A246404",
+    "A246408",
+    "A246409"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

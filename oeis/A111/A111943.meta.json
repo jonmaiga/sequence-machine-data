@@ -1,0 +1,22 @@
+{
+  "description": "Prime p with prime gap q - p of n-th record Cramer-Shanks-Granville ratio, where q is smallest prime larger than p and C-S-G ratio is (q-p)/(log p)^2.",
+  "id": "A111943",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A111870",
+    "A166363",
+    "A235402"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

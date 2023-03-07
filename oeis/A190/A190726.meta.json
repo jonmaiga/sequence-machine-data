@@ -1,0 +1,21 @@
+{
+  "description": "Central coefficients of Riordan matrix A118384.",
+  "id": "A190726",
+  "mentions": [
+    "A118384",
+    "A123178",
+    "A316911",
+    "A316912"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

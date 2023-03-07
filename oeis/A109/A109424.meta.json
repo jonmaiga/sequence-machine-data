@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sigma(n)/bigomega(n) is not an integer [sigma(n) = sum of divisors of n; bigomega(n) = number of prime divisors of n, counted with multiplicity].",
+  "id": "A109424",
+  "mentions": [
+    "A000290",
+    "A109423"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

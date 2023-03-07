@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=Number of integer solutions of quartic elliptic curve y^2 = 5x^4 + 4n.",
+  "id": "A193524",
+  "mentions": [
+    "A179106"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

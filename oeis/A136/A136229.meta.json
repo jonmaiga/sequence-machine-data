@@ -1,0 +1,19 @@
+{
+  "description": "Column 1 of triangle A136228; also equals column 3 of square array A136217.",
+  "id": "A136229",
+  "mentions": [
+    "A136217",
+    "A136221",
+    "A136228"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

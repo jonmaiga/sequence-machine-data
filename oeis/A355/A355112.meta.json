@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. 4 / (5 - 4*x - exp(4*x)).",
+  "id": "A355112",
+  "mentions": [
+    "A003576",
+    "A006155",
+    "A094417",
+    "A326324",
+    "A343674",
+    "A355110",
+    "A355111",
+    "A355113",
+    "A355114"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

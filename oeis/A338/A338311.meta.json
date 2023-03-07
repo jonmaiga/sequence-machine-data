@@ -1,0 +1,19 @@
+{
+  "description": "Even composites m such that A003499(m)==6 (mod m).",
+  "id": "A338311",
+  "mentions": [
+    "A003499",
+    "A337233",
+    "A337777"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

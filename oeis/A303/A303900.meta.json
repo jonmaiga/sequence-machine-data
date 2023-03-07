@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that the average of all strong divisors of all positive integers <= k is an integer.",
+  "id": "A303900",
+  "mentions": [
+    "A002541",
+    "A024917",
+    "A027750",
+    "A032741",
+    "A039653",
+    "A056550",
+    "A226647",
+    "A284288",
+    "A284755",
+    "A303480",
+    "A303482",
+    "A303659"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

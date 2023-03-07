@@ -1,0 +1,28 @@
+{
+  "description": "Binomial transform of A005563.",
+  "id": "A176027",
+  "mentions": [
+    "A001792",
+    "A001793",
+    "A005563",
+    "A016802",
+    "A035008",
+    "A058396",
+    "A060626",
+    "A084266",
+    "A127276",
+    "A142463"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

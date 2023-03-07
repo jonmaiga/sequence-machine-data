@@ -1,0 +1,20 @@
+{
+  "description": "Indices of prime NSW numbers A088165.",
+  "id": "A113501",
+  "mentions": [
+    "A002315",
+    "A088165",
+    "A099088"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "T(n, k) is the number of integers that are less than or equal to k that do not divide n. Triangle read by rows, for 0 <= k <= n.",
+  "id": "A340261",
+  "mentions": [
+    "A000005",
+    "A049820",
+    "A051731",
+    "A234306",
+    "A243987",
+    "A340260"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

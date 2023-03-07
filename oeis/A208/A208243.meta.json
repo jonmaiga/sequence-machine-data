@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write 2n-1 = p+q, where p is a prime, and both q and q+2 are practical numbers (A005153).",
+  "id": "A208243",
+  "mentions": [
+    "A000040",
+    "A005153",
+    "A199920"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Binary weight of 1+sigma(n).",
+  "id": "A336692",
+  "mentions": [
+    "A000120",
+    "A000203",
+    "A088580",
+    "A175548",
+    "A324294",
+    "A332459",
+    "A336691",
+    "A336693",
+    "A336694",
+    "A336695",
+    "A336696"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

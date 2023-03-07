@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of distinct decimal digits in 2^n.",
+  "id": "A137214",
+  "mentions": [
+    "A043536",
+    "A043537",
+    "A043562"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

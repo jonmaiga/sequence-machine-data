@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n = prime(k)*prime(1+k) for some k, otherwise 0.",
+  "id": "A302049",
+  "mentions": [
+    "A006094",
+    "A078898",
+    "A137794",
+    "A185013",
+    "A246277",
+    "A280710",
+    "A302047",
+    "A302048"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

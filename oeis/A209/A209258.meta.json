@@ -1,0 +1,20 @@
+{
+  "description": "The original Josephus problem: 41 soldiers are arranged in a ring, and every third man is killed by his neighbor, until only the last person remains, who would kill himself. Sequence shows soldier killing order.",
+  "id": "A209258",
+  "mentions": [
+    "A054995"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

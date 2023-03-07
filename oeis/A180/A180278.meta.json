@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = k is the smallest number such that k^2 + 1 has n distinct prime factors.",
+  "id": "A180278",
+  "mentions": [
+    "A002144",
+    "A002522",
+    "A164511",
+    "A185952",
+    "A219017"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

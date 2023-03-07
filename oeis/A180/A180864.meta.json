@@ -1,0 +1,24 @@
+{
+  "description": "Trajectory of 13 under map n->A006368(n).",
+  "id": "A180864",
+  "mentions": [
+    "A006368",
+    "A028393",
+    "A028395",
+    "A028397",
+    "A180853",
+    "A182205"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

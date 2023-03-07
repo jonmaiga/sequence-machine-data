@@ -1,0 +1,19 @@
+{
+  "description": "Product of distinct primes dividing both b(n) and b(n+1)), where b(n) = A336957(n).",
+  "id": "A337008",
+  "mentions": [
+    "A007947",
+    "A336957",
+    "A337007"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

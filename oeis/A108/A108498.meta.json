@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum_i{1<=i<=n} k^i mod n, showing 1<=k<=n.",
+  "id": "A108498",
+  "mentions": [
+    "A014117",
+    "A059721",
+    "A108048",
+    "A108497",
+    "A108499"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

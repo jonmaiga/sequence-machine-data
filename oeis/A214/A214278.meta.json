@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n where the difference between largest and smallest parts equals 9 and adjacent parts are unequal.",
+  "id": "A214278",
+  "mentions": [
+    "A214269"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 10,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

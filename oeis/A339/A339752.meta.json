@@ -1,0 +1,23 @@
+{
+  "description": "Base-ten n containing a digit making its n-th appearance in the list of consecutive positive integers.",
+  "id": "A339752",
+  "mentions": [
+    "A000027",
+    "A164935",
+    "A216400",
+    "A245491",
+    "A339753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

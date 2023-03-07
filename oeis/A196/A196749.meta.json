@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 3, 5 and 7 do not divide swing(n) = A056040(n).",
+  "id": "A196749",
+  "mentions": [
+    "A005836",
+    "A030979",
+    "A056040",
+    "A129508",
+    "A151750",
+    "A196747",
+    "A196748",
+    "A196750"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, giving antidiagonals of an array of sequences representing the number of compositions of n when there are N types of ones (the sequences in the array begin (1, N, ...).",
+  "id": "A228352",
+  "mentions": [
+    "A001519",
+    "A007052",
+    "A011782",
+    "A018902",
+    "A018903",
+    "A018904",
+    "A073133"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

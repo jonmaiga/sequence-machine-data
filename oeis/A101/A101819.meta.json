@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,h) = number of functions f:{1,2,...,n}->{1,2,...,n-1} such that |Image(f)|=h, h=1,2,...,n-1, n=2,3,...",
+  "id": "A101819",
+  "mentions": [
+    "A019538",
+    "A101817",
+    "A101821"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of edge cuts in the n-ladder graph P_2 X P_n.",
+  "id": "A359987",
+  "mentions": [
+    "A013730",
+    "A107839",
+    "A356828",
+    "A359621",
+    "A359622",
+    "A359989",
+    "A359990"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

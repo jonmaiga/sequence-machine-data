@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the difference of two positive squares in at least two ways.",
+  "id": "A306102",
+  "mentions": [
+    "A000290",
+    "A056924",
+    "A058957",
+    "A100073",
+    "A306103",
+    "A306104"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

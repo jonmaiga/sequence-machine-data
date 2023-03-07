@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of phi(-q^3)^4 / (phi(-q) * phi(-q^9)) in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A256014",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002175",
+    "A010054",
+    "A010815",
+    "A104794",
+    "A121373",
+    "A121444",
+    "A122856",
+    "A122865",
+    "A256280",
+    "A258277",
+    "A258278"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:31:21",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "If A003188(n+1) < A003188(n), then a(n) = n+1, otherwise a(n) = 0.",
+  "id": "A322015",
+  "mentions": [
+    "A003188",
+    "A091067",
+    "A255068",
+    "A322016",
+    "A322017"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

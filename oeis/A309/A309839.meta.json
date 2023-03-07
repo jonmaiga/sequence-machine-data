@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = GAP_n: first integer m that is not the dimension of a semisimple subalgebra of M_n(k).",
+  "id": "A309839",
+  "mentions": [
+    "A000124",
+    "A002620",
+    "A069999",
+    "A138544",
+    "A309838"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

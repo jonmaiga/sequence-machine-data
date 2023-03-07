@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers which are not the sum of 2 odd semiprimes.",
+  "id": "A152483",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A152482",
+    "A152484"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

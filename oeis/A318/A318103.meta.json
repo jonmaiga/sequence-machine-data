@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted 2-connected loopless 4-regular maps on the projective plane with n inner faces.",
+  "id": "A318103",
+  "mentions": [
+    "A058860",
+    "A099553",
+    "A290326",
+    "A318101",
+    "A318102"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of three third powers in exactly seven ways.",
+  "id": "A345085",
+  "mentions": [
+    "A025327",
+    "A344730",
+    "A345084",
+    "A345086",
+    "A345088",
+    "A345151"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

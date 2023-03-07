@@ -1,0 +1,22 @@
+{
+  "description": "Number of unlabeled nonseparable (or 2-connected) multigraphs with n edges and degree >= 3 at each node, loops allowed.",
+  "id": "A360871",
+  "mentions": [
+    "A002935",
+    "A360863",
+    "A360867",
+    "A360870"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

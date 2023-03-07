@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, iterates of X * [1,0,0,0,...]; where X = an infinite bidiagonal matrix with [1,-2,1,-2,1,...] in the main diagonal, [1,1,1,...] in the subdiagonal and the rest zeros.",
+  "id": "A140166",
+  "mentions": [
+    "A140165",
+    "A140167"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

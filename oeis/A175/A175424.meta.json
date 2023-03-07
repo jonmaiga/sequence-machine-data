@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of steps of iterations of {(((D_k^D_(k-1))^D_(k-2))^...)^D_1, where D_k is the k-th digit D of number r and k is the number of digits of number r in decimal expansion of r (A055642)} needed to reach a single-digit number starting at r = n, or a(n) = -1 if a single-digit number is never reached.",
+  "id": "A175424",
+  "mentions": [
+    "A055642",
+    "A175419",
+    "A175420",
+    "A175421",
+    "A175422",
+    "A175423",
+    "A175425",
+    "A175426",
+    "A175427"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

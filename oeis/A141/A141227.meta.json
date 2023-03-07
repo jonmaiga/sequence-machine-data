@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of points visible from some point in a cubic n x n x n lattice.",
+  "id": "A141227",
+  "mentions": [
+    "A088453",
+    "A141224",
+    "A141228"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

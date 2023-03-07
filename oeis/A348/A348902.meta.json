@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 / (1 + x - 2 * x * A(4*x)).",
+  "id": "A348902",
+  "mentions": [
+    "A001003",
+    "A015085",
+    "A165941",
+    "A348188",
+    "A348901"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

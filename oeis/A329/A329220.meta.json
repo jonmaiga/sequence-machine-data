@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of 2^(11/12).",
+  "id": "A329220",
+  "mentions": [
+    "A002193",
+    "A002580",
+    "A005480",
+    "A010767",
+    "A010768",
+    "A010774",
+    "A011006",
+    "A328229",
+    "A329216",
+    "A329219"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

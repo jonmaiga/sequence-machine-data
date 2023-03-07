@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are divisible by 2*(sum of their digits).",
+  "id": "A134516",
+  "mentions": [
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

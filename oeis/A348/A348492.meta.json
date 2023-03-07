@@ -1,0 +1,25 @@
+{
+  "description": "Greatest common divisor of the arithmetic derivative (A003415) and Pillai's arithmetical function (A018804).",
+  "id": "A348492",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A018804",
+    "A342413",
+    "A342458",
+    "A348493",
+    "A348494",
+    "A348495"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Hilltop maps: number of n X 2 binary arrays indicating the locations of corresponding elements not exceeded by any king-move neighbor in a random 0..3 n X 2 array.",
+  "id": "A218236",
+  "mentions": [
+    "A218242"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

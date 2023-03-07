@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=a(2)=1. For n >= 3, a(n) = a(n-1) + d(a(n-1)) + d(a(n-2)), where d(m) is the number of positive divisors of m.",
+  "id": "A139422",
+  "mentions": [
+    "A064491",
+    "A139423"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

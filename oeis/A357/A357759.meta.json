@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that in the binary expansion of k, the Hamming weight of each block differs by at most 2 from every other block of the same length.",
+  "id": "A357759",
+  "mentions": [
+    "A274005",
+    "A357758"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

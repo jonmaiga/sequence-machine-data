@@ -1,0 +1,35 @@
+{
+  "description": "BII-numbers of set-systems with non-spanning edge-connectivity 2.",
+  "id": "A327097",
+  "mentions": [
+    "A007146",
+    "A048793",
+    "A052446",
+    "A059166",
+    "A070939",
+    "A095983",
+    "A263296",
+    "A322335",
+    "A322338",
+    "A322395",
+    "A326031",
+    "A326787",
+    "A327041",
+    "A327069",
+    "A327082",
+    "A327099",
+    "A327102",
+    "A327108",
+    "A327111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

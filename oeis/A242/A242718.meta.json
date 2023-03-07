@@ -1,0 +1,22 @@
+{
+  "description": "The number of ways that a score of n can be obtained using one dart on a standard dartboard.",
+  "id": "A242718",
+  "mentions": [
+    "A241746",
+    "A242678",
+    "A242681",
+    "A242717"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

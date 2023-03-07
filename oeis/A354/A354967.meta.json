@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(n, k), n > 0, k >= 0, read by antidiagonals upwards; A(n, k) is the image of n after k iterates of the prime function (A000040).",
+  "id": "A354967",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007097",
+    "A038580",
+    "A049076",
+    "A057450",
+    "A057451",
+    "A057452",
+    "A057453",
+    "A058009",
+    "A114537",
+    "A344946"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

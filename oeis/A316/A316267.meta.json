@@ -1,0 +1,26 @@
+{
+  "description": "FDH numbers of strict integer partitions of prime numbers with a prime number of prime parts.",
+  "id": "A316267",
+  "mentions": [
+    "A000586",
+    "A045450",
+    "A050376",
+    "A064547",
+    "A213925",
+    "A299755",
+    "A299757",
+    "A316185",
+    "A316265",
+    "A316266"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

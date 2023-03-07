@@ -1,0 +1,137 @@
+{
+  "oi": 147771,
+  "ps": [
+    {
+      "d": "2022-07-24",
+      "ix": "round(sqrt(n+1)^(n+1))",
+      "mt": 100,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "n",
+        "1",
+        "+",
+        "^",
+        "round"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A091884(n)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "A091884",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A174551(n)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "A174551",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A245348(n)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "A245348",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A245501(n)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "A245501",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A245732(n)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "A245732",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A033918(n+1)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "A033918",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A057075(n+1)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "A057075",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A095887(n+1)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "A095887",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-05-29",
+      "ix": "record[round(sqrt(A095891(n+1)))]",
+      "mt": 56,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "A095891",
+        "sqrt",
+        "round",
+        "record"
+      ]
+    }
+  ]
+}

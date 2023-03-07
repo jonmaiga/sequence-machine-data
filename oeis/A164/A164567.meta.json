@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 5*p-6 and 5*p+6 are prime numbers.",
+  "id": "A164567",
+  "mentions": [
+    "A087681",
+    "A106015",
+    "A124098",
+    "A125272",
+    "A127430",
+    "A164566"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

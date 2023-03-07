@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (1365n)^12+4094 is prime.",
+  "id": "A126895",
+  "mentions": [
+    "A066386",
+    "A126893",
+    "A126894"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

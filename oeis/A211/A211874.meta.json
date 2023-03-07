@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form Phi_k(3), the k-th cyclotomic polynomial evaluated at 3.",
+  "id": "A211874",
+  "mentions": [
+    "A019321",
+    "A072226",
+    "A138933",
+    "A153601"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

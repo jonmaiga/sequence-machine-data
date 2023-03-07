@@ -1,0 +1,18 @@
+{
+  "description": "Least m>0 such that 2^n+m and n-m have a common divisor > 1.",
+  "id": "A214056",
+  "mentions": [
+    "A214057"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

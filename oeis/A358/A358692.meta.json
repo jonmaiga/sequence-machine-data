@@ -1,0 +1,20 @@
+{
+  "description": "Gilbreath transform of primes p(2k) with 2 prefixed; see Comments.",
+  "id": "A358692",
+  "mentions": [
+    "A031215",
+    "A031368",
+    "A036262",
+    "A358691"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

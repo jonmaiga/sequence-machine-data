@@ -1,0 +1,22 @@
+{
+  "description": "Smallest nonprime number <= 10^n (n>=1) with maximum distance from a prime.",
+  "id": "A306475",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002386",
+    "A087378",
+    "A282690"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

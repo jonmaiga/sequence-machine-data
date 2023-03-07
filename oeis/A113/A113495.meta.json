@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest subsequence of the perfect powers in A025475 such that first differences are an increasing sequence of primes.",
+  "id": "A113495",
+  "mentions": [
+    "A001597",
+    "A025475",
+    "A113759",
+    "A137354"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

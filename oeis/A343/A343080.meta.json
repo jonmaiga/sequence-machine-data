@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number that is the sum of n positive squares in three ways.",
+  "id": "A343080",
+  "mentions": [
+    "A342902",
+    "A343081",
+    "A343082",
+    "A343083",
+    "A343084"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:43",
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

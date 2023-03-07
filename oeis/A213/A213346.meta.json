@@ -1,0 +1,25 @@
+{
+  "description": "4-quantum transitions in systems of N>=4 spin 1/2 particles, in columns by combination indices.",
+  "id": "A213346",
+  "mentions": [
+    "A003472",
+    "A004310",
+    "A051288",
+    "A213343",
+    "A213345",
+    "A213347",
+    "A213352"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 4,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

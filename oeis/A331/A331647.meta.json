@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonnegative integer matrices with 3 columns and any number of distinct nonzero rows with column sums n.",
+  "id": "A331647",
+  "mentions": [
+    "A331568",
+    "A331646"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

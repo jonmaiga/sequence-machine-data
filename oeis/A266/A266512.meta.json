@@ -1,0 +1,26 @@
+{
+  "description": "Smallest prime starting a (nonsingular) symmetric n-tuplet of the shortest span (=A266511(n)).",
+  "id": "A266512",
+  "mentions": [
+    "A000040",
+    "A055380",
+    "A065688",
+    "A175309",
+    "A266511",
+    "A266583",
+    "A266584"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

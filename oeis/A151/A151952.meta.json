@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes that are the sum of a positive square and a positive cube.",
+  "id": "A151952",
+  "mentions": [
+    "A002113",
+    "A055394"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

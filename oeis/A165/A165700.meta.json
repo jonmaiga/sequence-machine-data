@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n*10^(n+1)+1 is prime.",
+  "id": "A165700",
+  "mentions": [
+    "A068817",
+    "A084428"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

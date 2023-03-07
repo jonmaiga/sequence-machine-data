@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T, read by rows, such that column k equals column 0 of T^(k+1), where column 0 of T allows the n-th row sums to be zero for n>0 and where T^k is the k-th power of T as a lower triangular matrix.",
+  "id": "A101897",
+  "mentions": [
+    "A091351",
+    "A101898",
+    "A101899",
+    "A101900",
+    "A101901"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

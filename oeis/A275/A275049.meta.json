@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal of the rational function 1/(1 - (w*x*z + x*y*z + w*y + x*y + z)) [even-indexed terms only].",
+  "id": "A275049",
+  "mentions": [
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

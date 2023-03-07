@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of partial sums of a Ramanujan series converging to 2^(3/2)/(sqrt(Pi)*Gamma(3/4)^2) given in A278146.",
+  "id": "A278141",
+  "mentions": [
+    "A278142",
+    "A278143",
+    "A278146"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

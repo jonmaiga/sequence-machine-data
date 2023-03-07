@@ -1,0 +1,21 @@
+{
+  "description": "Number of free pseudo-polytans with n cells.",
+  "id": "A354380",
+  "mentions": [
+    "A000105",
+    "A006074",
+    "A030222"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

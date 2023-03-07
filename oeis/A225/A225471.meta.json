@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows, s_4(n, k) where s_m(n, k) are the Stirling-Frobenius cycle numbers of order m; n >= 0, k >= 0.",
+  "id": "A225471",
+  "mentions": [
+    "A000012",
+    "A001813",
+    "A002208",
+    "A002209",
+    "A008545",
+    "A014105",
+    "A014601",
+    "A028338",
+    "A047053",
+    "A084938",
+    "A132393",
+    "A143395",
+    "A225470",
+    "A286718"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that both k^2 + 3 and 2^k + 3 are primes.",
+  "id": "A329102",
+  "mentions": [
+    "A000040",
+    "A049422",
+    "A057732",
+    "A329103"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

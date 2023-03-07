@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest prime number with prime(1) digits 1, prime(2) digits 2, prime(3) digits 3, ..., prime(n) digits n with 1 <= n <= 9 or 0 if no such prime exists.",
+  "id": "A264917",
+  "mentions": [
+    "A272161"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

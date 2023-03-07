@@ -1,0 +1,19 @@
+{
+  "description": "Solution to the problem of finding the number of comparisons needed for optimal merging of 3 elements with n elements.",
+  "id": "A239100",
+  "mentions": [
+    "A200111",
+    "A200310"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

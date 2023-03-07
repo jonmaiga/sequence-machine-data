@@ -1,0 +1,21 @@
+{
+  "description": "Number n for which sigma(n)=sigma(n'), where sigma is the sum of divisors and n' the arithmetic derivative of n.",
+  "id": "A190403",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A189057",
+    "A190402"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

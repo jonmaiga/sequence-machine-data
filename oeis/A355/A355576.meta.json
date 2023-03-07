@@ -1,0 +1,30 @@
+{
+  "description": "Number A(n,k) of n-tuples (p_1, p_2, ..., p_n) of positive integers such that p_{i-1} <= p_i <= k^(i-1); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A355576",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A081436",
+    "A107354",
+    "A109055",
+    "A109056",
+    "A109057",
+    "A109058",
+    "A109059",
+    "A109060",
+    "A109061",
+    "A354608",
+    "A355561"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

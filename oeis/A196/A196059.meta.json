@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of pairs of nodes at distance k in the rooted tree having Matula-Goebel number n (n>=2).",
+  "id": "A196059",
+  "mentions": [
+    "A196056",
+    "A196058",
+    "A196060"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

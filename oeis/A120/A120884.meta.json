@@ -1,0 +1,18 @@
+{
+  "description": "(1/8)*number of lattice points with odd indices in a cubic lattice inside a sphere around the origin with radius 2*n.",
+  "id": "A120884",
+  "mentions": [
+    "A000605",
+    "A117609"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Twin Ramanujan primes.",
+  "id": "A190654",
+  "mentions": [
+    "A178127"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

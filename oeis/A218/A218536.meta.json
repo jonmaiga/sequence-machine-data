@@ -1,0 +1,17 @@
+{
+  "description": "1^2 * 3^2 * 5^2 * ... * (p-4)^2 * (p-2)^2 where p is the n-th prime number (n >= 2).",
+  "id": "A218536",
+  "mentions": [
+    "A001818"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

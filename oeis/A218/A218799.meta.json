@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to x^2 + 2y^2 = n^2.",
+  "id": "A218799",
+  "mentions": [
+    "A216282",
+    "A218706",
+    "A218800"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

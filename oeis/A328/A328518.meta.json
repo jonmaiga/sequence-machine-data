@@ -1,0 +1,19 @@
+{
+  "description": "Number of terms k in A002182 that have A001222(k) = n.",
+  "id": "A328518",
+  "mentions": [
+    "A001222",
+    "A002182",
+    "A112778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

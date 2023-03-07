@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the number of preceding terms having the same sum of divisors as a(n-1).",
+  "id": "A360257",
+  "mentions": [
+    "A000203",
+    "A276457",
+    "A356348"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

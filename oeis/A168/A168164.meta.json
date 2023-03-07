@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the concatenation of p and 2p+1 is again prime.",
+  "id": "A168164",
+  "mentions": [
+    "A168166"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes which start a run of at least length 2 of consecutive primes == 1 (mod 4).",
+  "id": "A145990",
+  "mentions": [
+    "A039702",
+    "A054624",
+    "A055623",
+    "A145986",
+    "A145988",
+    "A145994"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

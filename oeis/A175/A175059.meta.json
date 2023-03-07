@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = decimal equivalent of {A144795(n) written in binary, and each run of 1's reduced in length by one digit}.",
+  "id": "A175059",
+  "mentions": [
+    "A144795",
+    "A175055",
+    "A175056",
+    "A175057",
+    "A175058",
+    "A175060"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

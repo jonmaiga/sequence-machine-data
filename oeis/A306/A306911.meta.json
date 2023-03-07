@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(k^2) * Product_{j=1..k} (1 + x^j)^j.",
+  "id": "A306911",
+  "mentions": [
+    "A306708",
+    "A306734",
+    "A318771"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

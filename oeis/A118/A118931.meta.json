@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = n!/(k!*(n-3*k)!*3^k) for n>=3*k>=0.",
+  "id": "A118931",
+  "mentions": [
+    "A001470",
+    "A100861",
+    "A118932",
+    "A118933"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

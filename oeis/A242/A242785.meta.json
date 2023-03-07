@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] avoiding the consecutive step pattern given by the binary expansion of n, where 1=up and 0=down.",
+  "id": "A242785",
+  "mentions": [
+    "A242783",
+    "A242784",
+    "A335308"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

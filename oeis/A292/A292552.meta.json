@@ -1,0 +1,18 @@
+{
+  "description": "Nontotients of the form 10^k - 2.",
+  "id": "A292552",
+  "mentions": [
+    "A005277",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

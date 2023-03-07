@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..5 arrays with every element equal to a diagonal or antidiagonal reflection, and new values 0 upwards introduced in row major order",
+  "id": "A209680",
+  "mentions": [
+    "A209684"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

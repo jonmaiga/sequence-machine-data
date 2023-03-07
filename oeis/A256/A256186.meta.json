@@ -1,0 +1,20 @@
+{
+  "description": "Naught-y primes (A056709) that after removing all zeros become zeroless primes (A038618).",
+  "id": "A256186",
+  "mentions": [
+    "A038618",
+    "A056709",
+    "A256227"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

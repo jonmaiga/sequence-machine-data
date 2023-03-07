@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of A163357 and A163359 divided by 4.",
+  "id": "A163477",
+  "mentions": [
+    "A163357",
+    "A163359",
+    "A163365"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

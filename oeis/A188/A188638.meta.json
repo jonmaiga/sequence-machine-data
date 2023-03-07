@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of length/width of a meta-1st electrum rectangle.",
+  "id": "A188638",
+  "mentions": [
+    "A188618",
+    "A188619",
+    "A188639"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:59",
+    "offset": 1,
+    "size": 130,
+    "source": "joeis"
+  }
+}

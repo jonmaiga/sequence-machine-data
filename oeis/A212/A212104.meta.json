@@ -1,0 +1,19 @@
+{
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w <= harmonic mean of {x,y,z}.",
+  "id": "A212104",
+  "mentions": [
+    "A211795",
+    "A212103",
+    "A212105"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Take n-th word over {1,2} listed in A291797 and apply the Post tag system described in A284116 (but adapted to the alphabet {1,2}); a(n) = length of first word we see in the orbit of that word that is in the cycle, if the orbit cycles, or 0 if the orbit reaches the empty string, or -1 if the orbit is unbounded.",
+  "id": "A291800",
+  "mentions": [
+    "A284116",
+    "A291794",
+    "A291797"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

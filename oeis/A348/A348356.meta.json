@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(n, k), n, k > 0, read by antidiagonal upwards; the k-th column contains, in ascending order, the integers m such that A348330(m) = k.",
+  "id": "A348356",
+  "mentions": [
+    "A000079",
+    "A348330",
+    "A348357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

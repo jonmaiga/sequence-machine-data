@@ -1,0 +1,22 @@
+{
+  "description": "Sum of divisors of the product of two consecutive primes.",
+  "id": "A180617",
+  "mentions": [
+    "A000203",
+    "A001043",
+    "A006094",
+    "A054640",
+    "A126199"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

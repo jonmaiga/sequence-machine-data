@@ -1,0 +1,24 @@
+{
+  "description": "Minimum number of jumps needed to go from slab 0 to slab n in Jane Street's infinite sidewalk.",
+  "id": "A358838",
+  "mentions": [
+    "A004523",
+    "A005408",
+    "A006999",
+    "A008619",
+    "A299174",
+    "A359005",
+    "A359008"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

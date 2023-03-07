@@ -1,0 +1,18 @@
+{
+  "description": "Smallest b > 0 making b^(2k) + b^k - 1 prime for k=1 through n.",
+  "id": "A239944",
+  "mentions": [
+    "A096594",
+    "A172994"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

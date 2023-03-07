@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions of the equation x^n + (x+1)^n = (x+2)^n (mod n) for x = 0..n-1.",
+  "id": "A200219",
+  "mentions": [
+    "A195637",
+    "A200046"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

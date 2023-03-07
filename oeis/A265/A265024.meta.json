@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{d in D(n+1)} (-1)^(d+1)*(n+1)/d, D(n) the divisors of n.",
+  "id": "A265024",
+  "mentions": [
+    "A000593",
+    "A027750",
+    "A038048",
+    "A075525"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

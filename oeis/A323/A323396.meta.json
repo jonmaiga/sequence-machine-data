@@ -1,0 +1,24 @@
+{
+  "description": "Irregular array read by rows, where T(n, k) is the k-th prime that is both left-truncatable and right-truncatable in base n.",
+  "id": "A323396",
+  "mentions": [
+    "A020994",
+    "A076586",
+    "A076623",
+    "A323137",
+    "A323390"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 3,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

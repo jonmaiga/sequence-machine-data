@@ -1,0 +1,23 @@
+{
+  "description": "The positions of nonzero digits in the balanced ternary expansions of n and a(n) are the same, and the k-th leftmost nonzero digit in a(n) equals the product of the k leftmost nonzero digits in n.",
+  "id": "A353828",
+  "mentions": [
+    "A305458",
+    "A353824",
+    "A353826",
+    "A353829",
+    "A353830"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

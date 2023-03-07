@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that #0's > #1's in the k-th word in A341258.",
+  "id": "A344952",
+  "mentions": [
+    "A341258",
+    "A342910",
+    "A344950",
+    "A344951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of pandigital numbers raised to the n-th power is a number in which each digit appears n times.",
+  "id": "A199634",
+  "mentions": [
+    "A050278",
+    "A114260",
+    "A199630",
+    "A199631",
+    "A199632",
+    "A199633"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

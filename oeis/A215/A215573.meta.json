@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(n+1)*(2n+1)/6 modulo n.",
+  "id": "A215573",
+  "mentions": [
+    "A000330",
+    "A007310"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:45:41",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

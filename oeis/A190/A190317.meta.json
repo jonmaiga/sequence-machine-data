@@ -1,0 +1,21 @@
+{
+  "description": "Number of acute isosceles triangles on an n X n grid.",
+  "id": "A190317",
+  "mentions": [
+    "A186434",
+    "A187452",
+    "A190318",
+    "A279418"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

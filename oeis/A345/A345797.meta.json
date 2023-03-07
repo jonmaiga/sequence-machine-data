@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of nine cubes in exactly five ways.",
+  "id": "A345797",
+  "mentions": [
+    "A345544",
+    "A345787",
+    "A345796",
+    "A345798",
+    "A345807",
+    "A345847"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

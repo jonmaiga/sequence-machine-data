@@ -1,0 +1,27 @@
+{
+  "description": "Cumulative bitwise-OR of A297112(d), where d ranges over the divisors d of n.",
+  "id": "A324195",
+  "mentions": [
+    "A000120",
+    "A003986",
+    "A061395",
+    "A297112",
+    "A297167",
+    "A297168",
+    "A324180",
+    "A324190",
+    "A324196",
+    "A324197"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "(1+e)-weird numbers: (1+e)-abundant numbers k such that no subset of the aliquot (1+e)-divisors of k sums to k.",
+  "id": "A349285",
+  "mentions": [
+    "A006037",
+    "A049603",
+    "A051378",
+    "A064114",
+    "A292986",
+    "A306984",
+    "A321146",
+    "A327948",
+    "A333928",
+    "A348525",
+    "A348631",
+    "A349284"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

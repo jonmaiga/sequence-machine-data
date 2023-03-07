@@ -1,0 +1,26 @@
+{
+  "description": "Accumulation array of the array max{n,k}, by antidiagonals.",
+  "id": "A185958",
+  "mentions": [
+    "A000217",
+    "A002061",
+    "A002412",
+    "A016061",
+    "A051125",
+    "A070893",
+    "A144112",
+    "A185917"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

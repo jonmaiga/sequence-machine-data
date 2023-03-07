@@ -1,0 +1,21 @@
+{
+  "description": "Sequence A001333 with last digits set to zero.",
+  "id": "A131037",
+  "mentions": [
+    "A001333",
+    "A131707"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:20:59",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

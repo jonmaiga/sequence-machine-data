@@ -1,0 +1,18 @@
+{
+  "description": "The coefficients in ascending order of x^i of the polynomials p{0}(x) = 1 and p{n}(x) = sum_{k=0..n-1; k even} binomial(n,k)*p{k}(0)*(1-n%2+x^(n-k)).",
+  "id": "A214407",
+  "mentions": [
+    "A119467"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

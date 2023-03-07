@@ -1,0 +1,32 @@
+{
+  "description": "Number of factorizations of n using perfect powers (elements of A001597) other than 1.",
+  "id": "A294068",
+  "mentions": [
+    "A000961",
+    "A001055",
+    "A001222",
+    "A001597",
+    "A001694",
+    "A007716",
+    "A007916",
+    "A045778",
+    "A052409",
+    "A052410",
+    "A052485",
+    "A052486",
+    "A091050",
+    "A203025",
+    "A303707",
+    "A303710"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

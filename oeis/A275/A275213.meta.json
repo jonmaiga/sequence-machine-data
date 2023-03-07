@@ -1,0 +1,18 @@
+{
+  "description": "The largest coefficients of the extended q-Catalan polynomials which are defined in A274886.",
+  "id": "A275213",
+  "mentions": [
+    "A274882",
+    "A274886"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

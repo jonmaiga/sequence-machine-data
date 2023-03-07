@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. cos( 2 * log(1+x) ).",
+  "id": "A357719",
+  "mentions": [
+    "A357711",
+    "A357720",
+    "A357727"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

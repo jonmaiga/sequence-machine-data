@@ -1,0 +1,22 @@
+{
+  "description": "Number of preprimes (A156759, n>1) such that the smallest prime divisor equals prime(n).",
+  "id": "A247509",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A156759",
+    "A247393",
+    "A247394"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

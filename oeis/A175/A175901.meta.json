@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that there exists a smaller number k such that k^2-1 has exactly the same set of distinct prime divisors as n^2-1",
+  "id": "A175901",
+  "mentions": [
+    "A175902"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

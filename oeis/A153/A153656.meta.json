@@ -1,0 +1,34 @@
+{
+  "description": "Triangle T(n, k) = T(n-1, k) + T(n-1, k-1) + (2*j +3)*prime(j)*T(n-2, k-1) with j=9, read by rows.",
+  "id": "A153656",
+  "mentions": [
+    "A009967",
+    "A153516",
+    "A153518",
+    "A153520",
+    "A153521",
+    "A153648",
+    "A153649",
+    "A153650",
+    "A153651",
+    "A153652",
+    "A153653",
+    "A153654",
+    "A153655",
+    "A153657"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

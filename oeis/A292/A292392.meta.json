@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 divides (17^n + 1).",
+  "id": "A292392",
+  "mentions": [
+    "A015951",
+    "A123047",
+    "A123052",
+    "A177813",
+    "A292331"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

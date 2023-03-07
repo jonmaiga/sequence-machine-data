@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to x^2 - y^2 - z^2 == 1 (mod n).",
+  "id": "A227553",
+  "mentions": [
+    "A060968",
+    "A086932",
+    "A087784",
+    "A089003",
+    "A208895"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

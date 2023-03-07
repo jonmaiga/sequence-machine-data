@@ -1,0 +1,25 @@
+{
+  "description": "Generalized Euler numbers. Square array A(n,k), n >= 1, k >= 0, read by antidiagonals. A(n,k) = n-alternating permutations of length n*k.",
+  "id": "A181985",
+  "mentions": [
+    "A000364",
+    "A002115",
+    "A030662",
+    "A181937",
+    "A181991",
+    "A181992",
+    "A211212",
+    "A211213"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

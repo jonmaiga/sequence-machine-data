@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^n with 1's and 2's swapped.",
+  "id": "A306392",
+  "mentions": [
+    "A000079",
+    "A035043",
+    "A323948"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Inert rational primes in the field Q(sqrt(-13)).",
+  "id": "A296927",
+  "mentions": [
+    "A105885",
+    "A296920",
+    "A296926",
+    "A296928"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

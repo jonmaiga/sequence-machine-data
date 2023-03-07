@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least number k > n such that h(k)/h(n) is an integer, where h(n) is the harmonic mean of the divisors of n, or -1 if no such k exists.",
+  "id": "A353691",
+  "mentions": [
+    "A001599",
+    "A069789",
+    "A069797",
+    "A069805",
+    "A099377",
+    "A099378",
+    "A353692"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

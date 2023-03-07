@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = binomial(n+1,2)*binomial(n+k,n+1) for 0 <= k <= n.",
+  "id": "A129533",
+  "mentions": [
+    "A000004",
+    "A000217",
+    "A001788",
+    "A027480",
+    "A033487",
+    "A094305",
+    "A128503",
+    "A240440",
+    "A266732",
+    "A266733"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

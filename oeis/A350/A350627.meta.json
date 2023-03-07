@@ -1,0 +1,18 @@
+{
+  "description": "Solution to Forest of Numbers (Bosque de Números) puzzle if we start with the numbers 1 through n (see Comments).",
+  "id": "A350627",
+  "mentions": [
+    "A337663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

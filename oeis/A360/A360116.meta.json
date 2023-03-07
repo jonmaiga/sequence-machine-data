@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if there are no prime factors p of n for which the 2-adic valuation of p-1 is less than that of n-1, otherwise 0.",
+  "id": "A360116",
+  "mentions": [
+    "A007814",
+    "A360113",
+    "A360115",
+    "A360117"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 2,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

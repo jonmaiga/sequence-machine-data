@@ -1,0 +1,18 @@
+{
+  "description": "Least number k > 1 such that (k^k-n^n)/(k-n) is an integer.",
+  "id": "A242872",
+  "mentions": [
+    "A242870",
+    "A242871"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

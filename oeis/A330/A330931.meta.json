@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that both k and k + 1 are Niven numbers in base 2 (A049445).",
+  "id": "A330931",
+  "mentions": [
+    "A049445",
+    "A328205",
+    "A328209",
+    "A328213",
+    "A330713",
+    "A330927",
+    "A330932",
+    "A330933"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

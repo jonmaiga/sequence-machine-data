@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: The number of m-path covers of the n-cycle C_n.",
+  "id": "A185722",
+  "mentions": [
+    "A000204",
+    "A001644",
+    "A126198",
+    "A247505"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

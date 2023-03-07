@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^[n(n+1) - A000120(n)] * [x^n] (1+x)^(1/2^n) for n>=0, where A000120(n) = number of 1's in binary expansion of n.",
+  "id": "A134098",
+  "mentions": [
+    "A000120",
+    "A134096",
+    "A134097"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

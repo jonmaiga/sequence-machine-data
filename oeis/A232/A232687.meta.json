@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: the sum of the coefficients of x^k, k=0..n, in A(x)^n equals Sum_{k=0..n} C(n,k)^3 = A000172(n) (Franel numbers), for n>=0.",
+  "id": "A232687",
+  "mentions": [
+    "A000172",
+    "A232606",
+    "A232683",
+    "A232690"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

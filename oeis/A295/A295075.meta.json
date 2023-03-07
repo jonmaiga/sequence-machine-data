@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that d + k/d is never prime for any divisor d of k.",
+  "id": "A295075",
+  "mentions": [
+    "A047255",
+    "A080715",
+    "A282849"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

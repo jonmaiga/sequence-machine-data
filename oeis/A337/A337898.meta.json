@@ -1,0 +1,28 @@
+{
+  "description": "Number of achiral colorings of the 6 square faces of a cube or the 6 vertices of a regular octahedron using n or fewer colors.",
+  "id": "A337898",
+  "mentions": [
+    "A006003",
+    "A047780",
+    "A093566",
+    "A198833",
+    "A325007",
+    "A331351",
+    "A337890",
+    "A337897",
+    "A337960",
+    "A337962"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:09",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

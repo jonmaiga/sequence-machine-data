@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest prime whose decimal expansion consists of the concatenation of a 1-digit square, a 2-digit square, a 3-digit square, ..., and an n-digit square, or 0 if there is no such prime.",
+  "id": "A339978",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A003618",
+    "A061433",
+    "A338968"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

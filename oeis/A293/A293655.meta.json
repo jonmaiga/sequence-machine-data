@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having in binary representation more zeros than their squares.",
+  "id": "A293655",
+  "mentions": [
+    "A023416",
+    "A094694"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

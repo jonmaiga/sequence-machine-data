@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of 2/(1 - x + sqrt(1 - 2*x + (1-4*k)*x^2)).",
+  "id": "A306684",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001006",
+    "A025235",
+    "A025237",
+    "A091147",
+    "A091148",
+    "A091149",
+    "A107267",
+    "A217275",
+    "A247495",
+    "A307855",
+    "A307906"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

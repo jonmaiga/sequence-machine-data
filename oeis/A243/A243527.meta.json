@@ -1,0 +1,27 @@
+{
+  "description": "Prime numbers containing the string 111.",
+  "id": "A243527",
+  "mentions": [
+    "A131645",
+    "A166580",
+    "A166581",
+    "A166582",
+    "A167281",
+    "A167282",
+    "A167290",
+    "A167292"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:55:59",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "description": "MM-numbers of multisets of initial intervals. Products of elements of A062447 (primes indexed by primorials A002110).",
+  "id": "A356940",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A000688",
+    "A000720",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A002110",
+    "A003963",
+    "A007294",
+    "A010054",
+    "A055887",
+    "A056239",
+    "A062447",
+    "A076610",
+    "A112798",
+    "A302242",
+    "A302478",
+    "A302492",
+    "A304969",
+    "A322585",
+    "A356930",
+    "A356935",
+    "A356939",
+    "A356944",
+    "A356955"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

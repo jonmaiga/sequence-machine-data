@@ -1,0 +1,23 @@
+{
+  "description": "O.g.f. A(x) satisfies: A(x) = 1 + Integral (x/A(x)^5)' / (x/A(x)^9)' dx.",
+  "id": "A338163",
+  "mentions": [
+    "A302701",
+    "A303064",
+    "A338187",
+    "A338188",
+    "A338193",
+    "A338194"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

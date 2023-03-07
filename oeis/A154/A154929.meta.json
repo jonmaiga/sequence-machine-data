@@ -1,0 +1,28 @@
+{
+  "description": "A Fibonacci convolution triangle.",
+  "id": "A154929",
+  "mentions": [
+    "A000045",
+    "A007318",
+    "A028859",
+    "A030528",
+    "A084938",
+    "A086347",
+    "A125145",
+    "A141015",
+    "A154930"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

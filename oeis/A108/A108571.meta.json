@@ -1,0 +1,24 @@
+{
+  "description": "Any digit d in the sequence says: \"I am part of an integer in which you'll find d digits d\".",
+  "id": "A108571",
+  "mentions": [
+    "A078348",
+    "A127007",
+    "A139337",
+    "A181392",
+    "A225886"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

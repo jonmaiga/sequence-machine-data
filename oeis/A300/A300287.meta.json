@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor((1/n) * Sum_{k=1..n} sqrt(k)).",
+  "id": "A300287",
+  "mentions": [
+    "A025224"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

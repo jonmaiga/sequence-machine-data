@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of c(q^2)^2 / (c(-q) * c(-q^3)) in powers of q where c() is a cubic AGM theta function.",
+  "id": "A164615",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A128111",
+    "A164614",
+    "A164616",
+    "A182034",
+    "A258111"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:45",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

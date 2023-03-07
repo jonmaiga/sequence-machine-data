@@ -1,0 +1,18 @@
+{
+  "description": "Sums k of three consecutive odd numbers, all of which are composite, such that k is also the smallest in a set of three consecutive odd numbers, all of which are composite.",
+  "id": "A189119",
+  "mentions": [
+    "A002808",
+    "A161945"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

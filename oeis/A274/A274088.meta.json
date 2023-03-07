@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = nearest integer to n^2 * sin(sqrt(n)).",
+  "id": "A274088",
+  "mentions": [
+    "A272695",
+    "A274086",
+    "A274087",
+    "A274090",
+    "A274091",
+    "A274092",
+    "A274095",
+    "A274096",
+    "A274097",
+    "A274101",
+    "A274102"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

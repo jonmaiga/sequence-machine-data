@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the least k such that 4^k mod k = n.",
+  "id": "A119678",
+  "mentions": [
+    "A015950",
+    "A036236",
+    "A078457",
+    "A119679",
+    "A119714",
+    "A119715",
+    "A127816",
+    "A127817",
+    "A127818",
+    "A127819",
+    "A127820",
+    "A127821"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

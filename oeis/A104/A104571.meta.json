@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) = A042948(n-k+1) read by rows, 0<=k<=n.",
+  "id": "A104571",
+  "mentions": [
+    "A035608",
+    "A042948",
+    "A074377",
+    "A104569",
+    "A104570"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that for any n >= 0, a(n) does not appear in the XOR-triangle with bottom row (a(0), ..., a(n-1)).",
+  "id": "A338047",
+  "mentions": [
+    "A001651",
+    "A003987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

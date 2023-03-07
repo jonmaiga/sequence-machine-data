@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. exp(exp(x) + cosh(x) - 2).",
+  "id": "A352624",
+  "mentions": [
+    "A000110",
+    "A000807",
+    "A001861",
+    "A003724",
+    "A005046",
+    "A352327",
+    "A352617"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The Wiener index of a chain of n triangles (i.e., joined like VVV..VV; here V is a triangle!).",
+  "id": "A143941",
+  "mentions": [
+    "A142463",
+    "A143940",
+    "A213752"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:25",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

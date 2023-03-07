@@ -1,0 +1,23 @@
+{
+  "description": "Related to perfect Wichmann rulers: a(n) = ( n^2 - (mod(n, 6) - 3)^2 ) / 3.",
+  "id": "A289873",
+  "mentions": [
+    "A004137",
+    "A014641",
+    "A193802",
+    "A193803",
+    "A289761"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

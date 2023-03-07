@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of H(n)/H(n-1), where H(n) is the n-th harmonic number = Sum_{k=1..n} 1/k.",
+  "id": "A193758",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A096617"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

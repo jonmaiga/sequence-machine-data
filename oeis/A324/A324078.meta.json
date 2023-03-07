@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1, followed by pairs (value of rarest term, multiplicity of that value). Choose the least value of rarest term if there is a tie.",
+  "id": "A324078",
+  "mentions": [
+    "A324079",
+    "A324080",
+    "A324081"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

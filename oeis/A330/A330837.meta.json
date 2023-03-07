@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = M(n)^2*(M(n)+1)^2, where M(n) = A000668(n) is the n-th Mersenne prime.",
+  "id": "A330837",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A133049",
+    "A139256",
+    "A139306",
+    "A330819",
+    "A330820",
+    "A330824",
+    "A330836",
+    "A330838"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers consisting of either 2's and 0's or 5's and 0's.",
+  "id": "A168541",
+  "mentions": [
+    "A004520",
+    "A059729",
+    "A168294",
+    "A169884"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

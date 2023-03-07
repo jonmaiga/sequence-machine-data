@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(prime(n) + 1) - sigma(prime(n)).",
+  "id": "A334210",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A008333",
+    "A008864",
+    "A051027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:17:43",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

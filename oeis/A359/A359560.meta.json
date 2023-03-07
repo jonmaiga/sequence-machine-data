@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the permanent of an n X n Hermitian Toeplitz matrix whose first row consists of 1, 2*i, ..., n*i, where i denotes the imaginary unit.",
+  "id": "A359560",
+  "mentions": [
+    "A143182",
+    "A204235",
+    "A359559",
+    "A359561",
+    "A359562",
+    "A359614",
+    "A359615"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

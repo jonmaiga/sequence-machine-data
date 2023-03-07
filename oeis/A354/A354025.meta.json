@@ -1,0 +1,22 @@
+{
+  "description": "Terms m of A351467 such that A005245(m) == 2 (mod 3).",
+  "id": "A354025",
+  "mentions": [
+    "A005245",
+    "A350723",
+    "A351467",
+    "A354023",
+    "A354024"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

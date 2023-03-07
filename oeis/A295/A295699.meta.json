@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that have exactly nine representations as a sum of six positive squares.",
+  "id": "A295699",
+  "mentions": [
+    "A000177",
+    "A025430",
+    "A294524"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

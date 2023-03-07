@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/A138534(k).",
+  "id": "A346044",
+  "mentions": [
+    "A138534",
+    "A161360"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Principal diagonal of the convolution array A213819.",
+  "id": "A213820",
+  "mentions": [
+    "A002414",
+    "A213819",
+    "A328910"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:52:01",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

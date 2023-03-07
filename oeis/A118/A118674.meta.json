@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x + 31)^2 = y^2.",
+  "id": "A118674",
+  "mentions": [
+    "A001652",
+    "A002193",
+    "A066436",
+    "A118673",
+    "A129836",
+    "A156035",
+    "A157646",
+    "A157647",
+    "A157648"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Least index k such that the n-th prime divides the k-th tribonacci number.",
+  "id": "A112312",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000073",
+    "A000204",
+    "A001644",
+    "A053028",
+    "A106299",
+    "A112618"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

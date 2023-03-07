@@ -1,0 +1,25 @@
+{
+  "description": "Inverse binomial transform of the \"original\" Bernoulli numbers [A164555(n)/A027642(n)] with 1 and 1/2 swapped. Numerators.",
+  "id": "A307974",
+  "mentions": [
+    "A001897",
+    "A027642",
+    "A164555",
+    "A176328",
+    "A256671",
+    "A256675",
+    "A306821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

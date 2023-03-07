@@ -1,0 +1,20 @@
+{
+  "description": "Indices n such that A019565(n)+2 is prime.",
+  "id": "A103799",
+  "mentions": [
+    "A019565",
+    "A103796",
+    "A103797"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

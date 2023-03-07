@@ -1,0 +1,20 @@
+{
+  "description": "Imaginary part of the Heighway/Harter dragon curve points which are on the imaginary axis.",
+  "id": "A355460",
+  "mentions": [
+    "A246960",
+    "A332383",
+    "A332384",
+    "A355459"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

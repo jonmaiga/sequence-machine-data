@@ -1,0 +1,17 @@
+{
+  "description": "Imaginary parts of the complex numbers defined in A122435. The numbers are ordered by their norm and the size of the real part when the norms are equal.",
+  "id": "A122436",
+  "mentions": [
+    "A122435"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

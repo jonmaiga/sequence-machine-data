@@ -1,0 +1,19 @@
+{
+  "description": "4*n*(1+45*n+620*n^2).",
+  "id": "A167191",
+  "mentions": [
+    "A167190"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:21",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

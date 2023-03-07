@@ -1,0 +1,19 @@
+{
+  "description": "Intersection of A151740 and A151741.",
+  "id": "A161689",
+  "mentions": [
+    "A151740",
+    "A151741",
+    "A151745"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

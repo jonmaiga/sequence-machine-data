@@ -1,0 +1,26 @@
+{
+  "description": "Prime-shifted analog of gcd(d(n), sigma(n)): a(n) = gcd(A000005(n), A003973(n)).",
+  "id": "A336856",
+  "mentions": [
+    "A000005",
+    "A003961",
+    "A003973",
+    "A009205",
+    "A336837",
+    "A336838",
+    "A336839",
+    "A336840",
+    "A336841"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Squares visited by either knight when a white knight and a black knight are moving on a spirally numbered board, always to the lowest available unvisited square; white moves first.",
+  "id": "A338290",
+  "mentions": [
+    "A338288",
+    "A338289"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

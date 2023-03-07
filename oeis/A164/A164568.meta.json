@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 9*p-10 and 9*p+10 are prime numbers.",
+  "id": "A164568",
+  "mentions": [
+    "A106015",
+    "A124098",
+    "A125272",
+    "A127430",
+    "A153768",
+    "A164566",
+    "A164567"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

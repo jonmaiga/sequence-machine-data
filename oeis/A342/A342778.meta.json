@@ -1,0 +1,19 @@
+{
+  "description": "Positions of words in A342753 in which the last digit is 0.",
+  "id": "A342778",
+  "mentions": [
+    "A342753",
+    "A342779"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Dyck paths of semilength n having no ascents of length 1 that start at an even level.",
+  "id": "A102406",
+  "mentions": [
+    "A102404",
+    "A102407"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number of ways to choose a strict composition of each part of a strict composition of n.",
+  "id": "A336139",
+  "mentions": [
+    "A001970",
+    "A032020",
+    "A063834",
+    "A072574",
+    "A075900",
+    "A133494",
+    "A279785",
+    "A304961",
+    "A307068",
+    "A318683",
+    "A318684",
+    "A319794",
+    "A323583",
+    "A336127",
+    "A336128",
+    "A336130",
+    "A336132",
+    "A336140"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

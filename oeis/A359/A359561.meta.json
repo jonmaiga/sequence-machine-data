@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the determinant of an n X n Hermitian Toeplitz matrix whose first row consists of n, (n-1)*i, (n-2)*i, ..., 3*i, 2*i, i, where i denotes the imaginary unit.",
+  "id": "A359561",
+  "mentions": [
+    "A307783",
+    "A359559",
+    "A359560",
+    "A359562",
+    "A359616",
+    "A359617"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

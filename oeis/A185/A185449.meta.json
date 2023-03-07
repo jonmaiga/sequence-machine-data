@@ -1,0 +1,19 @@
+{
+  "description": "Index at which A185448(n) occurs in A185446 for the first time.",
+  "id": "A185449",
+  "mentions": [
+    "A185446",
+    "A185448"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

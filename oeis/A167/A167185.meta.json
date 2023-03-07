@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime power <= n that is not prime.",
+  "id": "A167185",
+  "mentions": [
+    "A025475",
+    "A031218",
+    "A167184"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Minimum composite squarefree numbers k such that p(i)+n divides k-n, for n=1, 2, 3, 4,..., where p(i) are the prime factors of k .",
+  "id": "A227974",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225720",
+    "A227973",
+    "A227976"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

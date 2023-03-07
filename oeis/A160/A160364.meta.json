@@ -1,0 +1,25 @@
+{
+  "description": "Let f be defined as in A159885 and f^k be the k-th iteration of f. Then a(n) is the least k for which either {A000120(f^k(2n+1)) < A000120(2n+1)}&{A006694((f^k(2n+1)-1)/2)<=A006694(n)} or {A000120(f^k(2n+1))<=A000120(2n+1)}&{A006694((f^k(2n+1)-1)/2) < A006694(n)}",
+  "id": "A160364",
+  "mentions": [
+    "A000120",
+    "A006694",
+    "A122458",
+    "A159885",
+    "A159945",
+    "A160198",
+    "A160266",
+    "A160267"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

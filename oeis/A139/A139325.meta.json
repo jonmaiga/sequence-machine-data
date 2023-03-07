@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of primes in the k-th row of the square of the first n^2 odd numbers written consecutively in rows of length n, 1<=k<=n.",
+  "id": "A139325",
+  "mentions": [
+    "A083415",
+    "A099802",
+    "A139326",
+    "A139327",
+    "A139328"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

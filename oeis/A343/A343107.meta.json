@@ -1,0 +1,25 @@
+{
+  "description": "Numbers having exactly 1 divisor of the form 8*k + 1, that is, numbers with no divisor of the form 8*k + 1 other than 1.",
+  "id": "A343107",
+  "mentions": [
+    "A141164",
+    "A188169",
+    "A343108",
+    "A343109",
+    "A343110",
+    "A343111",
+    "A343112",
+    "A343113"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

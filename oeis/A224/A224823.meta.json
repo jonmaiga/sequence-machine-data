@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions to n = x + y + 3*z where x, y, z are triangular numbers.",
+  "id": "A224823",
+  "mentions": [
+    "A000122",
+    "A000217",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A224829",
+    "A227595"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

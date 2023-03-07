@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,2k)^2*binomial(n-k,k).",
+  "id": "A278405",
+  "mentions": [
+    "A208425",
+    "A244973",
+    "A275027",
+    "A277640",
+    "A278415"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

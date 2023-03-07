@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = number of distinct k for which A269174(k) = n; number of finite predecessors for pattern encoded in the binary expansion of n in Wolfram's Rule 124 cellular automaton.",
+  "id": "A269175",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000523",
+    "A000931",
+    "A182097",
+    "A269174",
+    "A269176",
+    "A269177",
+    "A269178"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

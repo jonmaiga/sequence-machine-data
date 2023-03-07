@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-crossing set partitions of {1..5n} into n sets of 5 with k of the sets being a contiguous set of elements.",
+  "id": "A334063",
+  "mentions": [
+    "A001263",
+    "A002294",
+    "A091320",
+    "A334062"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

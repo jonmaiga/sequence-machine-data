@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number, such that for N >= a(n) there are at least n primes between 2*N and 3*N.",
+  "id": "A220268",
+  "mentions": [
+    "A084140"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

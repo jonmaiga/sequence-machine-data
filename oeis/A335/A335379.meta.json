@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of Mersenne prime (irreducible) polynomials M = x^k(x+1)^(n-k)+1 of degree n in GF(2)[x] (k goes from 1 to n-1) such that Phi_7(M) has an odd number of prime divisors (omega(Phi_7(M) is odd).",
+  "id": "A335379",
+  "mentions": [
+    "A057460",
+    "A071642",
+    "A074710",
+    "A162570",
+    "A267918",
+    "A272486"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 2,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

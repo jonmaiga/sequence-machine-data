@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the \"highest smallest\" positive integer that cannot be obtained from the (n-1) optimized integers (to be defined for each n) using each number at most once and the three operators +, -, *.",
+  "id": "A141494",
+  "mentions": [
+    "A060315",
+    "A142153"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

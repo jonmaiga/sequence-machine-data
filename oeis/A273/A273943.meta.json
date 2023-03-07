@@ -1,0 +1,21 @@
+{
+  "description": "Put and say how often: a(n) = n/2 if n is even, else a(n) = number of matches of \"a(n-1)\" in the concatenation of all \"a(i)\" with i < n, where \"x\" denotes the decimal string of x.",
+  "id": "A273943",
+  "mentions": [
+    "A005150",
+    "A225212",
+    "A274013"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

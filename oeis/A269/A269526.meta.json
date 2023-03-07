@@ -1,0 +1,44 @@
+{
+  "description": "Square array T(n,k) (n>=1, k>=1) read by antidiagonals upwards in which each term is the least positive integer satisfying the condition that no row, column, diagonal, or antidiagonal contains a repeated term.",
+  "id": "A269526",
+  "mentions": [
+    "A000027",
+    "A004443",
+    "A065188",
+    "A065189",
+    "A256008",
+    "A274080",
+    "A274315",
+    "A274316",
+    "A274317",
+    "A274318",
+    "A274528",
+    "A274529",
+    "A274530",
+    "A274614",
+    "A274615",
+    "A274616",
+    "A274617",
+    "A274619",
+    "A274630",
+    "A274650",
+    "A274651",
+    "A274791",
+    "A275883"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

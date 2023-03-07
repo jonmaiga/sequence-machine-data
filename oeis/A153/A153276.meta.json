@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n >= 0 such that 5*n+6 is not prime.",
+  "id": "A153276",
+  "mentions": [
+    "A081759"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are the nearest integer to the geometric mean of the previous prime and the following prime.",
+  "id": "A216124",
+  "mentions": [
+    "A090076",
+    "A216101"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

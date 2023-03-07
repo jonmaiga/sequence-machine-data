@@ -1,0 +1,22 @@
+{
+  "description": "Filter sequence for the prime signature of 2n-1.",
+  "id": "A305973",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A278223",
+    "A305901",
+    "A305983",
+    "A305985"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

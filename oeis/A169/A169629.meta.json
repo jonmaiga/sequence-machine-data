@@ -1,0 +1,21 @@
+{
+  "description": "Array T(n,k) read by antidiagonals: T(n,k) = Sum_{v=1..n, v odd} binomial(n,v)*k^v.",
+  "id": "A169629",
+  "mentions": [
+    "A005843",
+    "A079908",
+    "A105374",
+    "A152011"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

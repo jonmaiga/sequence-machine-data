@@ -1,0 +1,32 @@
+{
+  "description": "(sum of digits) mod (number of digits) of n in decimal representation.",
+  "id": "A180160",
+  "mentions": [
+    "A002275",
+    "A002276",
+    "A002277",
+    "A002278",
+    "A002279",
+    "A002280",
+    "A002281",
+    "A002282",
+    "A002283",
+    "A007953",
+    "A010785",
+    "A055642",
+    "A061383",
+    "A123522",
+    "A180157"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

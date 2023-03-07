@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits in the n-th term of A061844: Squares which remain squares if you decrease every digit by 1.",
+  "id": "A255850",
+  "mentions": [
+    "A055642",
+    "A061844",
+    "A255851"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

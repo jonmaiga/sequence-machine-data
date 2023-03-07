@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(2*n+2).",
+  "id": "A294955",
+  "mentions": [
+    "A294645",
+    "A294810",
+    "A294953",
+    "A294954"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

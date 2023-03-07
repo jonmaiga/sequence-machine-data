@@ -1,0 +1,21 @@
+{
+  "description": "Let x = (prime(n+1) - prime(n))/2 modulo 3 for n >= 2, then a(n) = -1 if x = 2, otherwise a(n) = x.",
+  "id": "A341952",
+  "mentions": [
+    "A028334",
+    "A102283",
+    "A341765",
+    "A342156"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

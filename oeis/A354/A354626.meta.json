@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can't be written as the sum of a Fibonacci number and the square of a Fibonacci number.",
+  "id": "A354626",
+  "mentions": [
+    "A000045",
+    "A007598",
+    "A059727"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

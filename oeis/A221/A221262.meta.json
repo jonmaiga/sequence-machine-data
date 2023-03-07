@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k) is the fourth power of the sum of the prime divisors of k.",
+  "id": "A221262",
+  "mentions": [
+    "A187771",
+    "A221263"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

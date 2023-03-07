@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of zeta(6) / zeta(3).",
+  "id": "A347328",
+  "mentions": [
+    "A008836",
+    "A182448",
+    "A347329",
+    "A347330",
+    "A347331"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

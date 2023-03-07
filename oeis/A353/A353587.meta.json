@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of coefficients c(n) in product expansion of (tan x)/x = Product_{k>=1} 1 + c(k)*x^(2k).",
+  "id": "A353587",
+  "mentions": [
+    "A170918",
+    "A170919",
+    "A353583",
+    "A353584",
+    "A353586"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the difference of two octagonal numbers in exactly n ways.",
+  "id": "A334037",
+  "mentions": [
+    "A000567",
+    "A016921",
+    "A038547",
+    "A068314",
+    "A333818",
+    "A334012",
+    "A334034",
+    "A334035",
+    "A334036"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

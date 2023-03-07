@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the sequence s(n) of the sum resp. product of fractions f(n) defined recursively by f(1) = 3/1; f(n+1) is chosen so that the sum and the product of the first n terms of the sequence are equal.",
+  "id": "A225163",
+  "mentions": [
+    "A011764",
+    "A076628",
+    "A165421",
+    "A225156"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

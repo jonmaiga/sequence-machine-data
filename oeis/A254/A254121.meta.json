@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (n+1)^n - n.",
+  "id": "A254121",
+  "mentions": [
+    "A177008"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

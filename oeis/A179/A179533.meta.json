@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1/(1-x-2x^2))*c(x/(1-x-2x^2)), c(x) the g.f. of A000108.",
+  "id": "A179533",
+  "mentions": [
+    "A000108",
+    "A073370",
+    "A168495"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

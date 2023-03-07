@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: Sum_{k>=1} k * x^(k^4) / (1 - x^(k^4)).",
+  "id": "A333844",
+  "mentions": [
+    "A000203",
+    "A053164",
+    "A063775",
+    "A069290",
+    "A300909",
+    "A333843"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

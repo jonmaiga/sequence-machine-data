@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that 3^m is the average of two primes p and nextprime(p).",
+  "id": "A115987",
+  "mentions": [
+    "A115986",
+    "A115988",
+    "A115989"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

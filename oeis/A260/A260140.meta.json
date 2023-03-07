@@ -1,0 +1,22 @@
+{
+  "description": "Least prime p such that pi(p*n) = pi(q*n)^2 for some prime q, where pi(x) denotes the number of primes not exceeding x.",
+  "id": "A260140",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A257364",
+    "A257928",
+    "A260120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet convolution of A003415 (arithmetic derivative) with A003961 (prime shift towards larger primes).",
+  "id": "A347965",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A347130",
+    "A347964"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

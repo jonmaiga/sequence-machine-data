@@ -1,0 +1,19 @@
+{
+  "description": "Generator for the finite sequence A053016.",
+  "id": "A136254",
+  "mentions": [
+    "A053016"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:25:43",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

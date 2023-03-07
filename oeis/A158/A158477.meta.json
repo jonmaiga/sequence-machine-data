@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with property that Q(p) = p^32+2^32 is prime.",
+  "id": "A158477",
+  "mentions": [
+    "A062324",
+    "A157764",
+    "A157950",
+    "A158361"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of t_0, the lower bound of the conjectured first interval [t_0, t_1] where the real part of zeta(1+i*t) is negative.",
+  "id": "A246844",
+  "mentions": [
+    "A242069",
+    "A242070",
+    "A246843",
+    "A246845"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 6,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

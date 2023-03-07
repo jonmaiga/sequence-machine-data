@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths of semilength n such that no positive level has fewer than four peaks.",
+  "id": "A288680",
+  "mentions": [
+    "A000108",
+    "A288386"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

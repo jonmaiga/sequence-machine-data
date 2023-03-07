@@ -1,0 +1,33 @@
+{
+  "description": "Triangle of coefficients of polynomials P(n,t) related to the Mittag-Leffler function, where P(n,t) = Product_{k=0..n-2} n*t-k.",
+  "id": "A251592",
+  "mentions": [
+    "A000108",
+    "A000169",
+    "A001048",
+    "A001764",
+    "A002293",
+    "A002294",
+    "A002295",
+    "A002296",
+    "A007556",
+    "A059968",
+    "A062994",
+    "A139526",
+    "A156136",
+    "A230388",
+    "A260687"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

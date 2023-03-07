@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers n for which there is at least one positive integer k whose binary expansion occurs as a substring in the binary expansion of n but does not divide n.",
+  "id": "A175382",
+  "mentions": [
+    "A175381"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

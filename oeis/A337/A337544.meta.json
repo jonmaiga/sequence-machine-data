@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*phi(A003961(n)) - A003961(n).",
+  "id": "A337544",
+  "mentions": [
+    "A000010",
+    "A003961",
+    "A003972",
+    "A083254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

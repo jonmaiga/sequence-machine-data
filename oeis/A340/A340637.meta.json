@@ -1,0 +1,26 @@
+{
+  "description": "Integers whose number of divisors that are Niven numbers sets a new record.",
+  "id": "A340637",
+  "mentions": [
+    "A005349",
+    "A093036",
+    "A236021",
+    "A332268",
+    "A333456",
+    "A337741",
+    "A340548",
+    "A340549",
+    "A340638"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

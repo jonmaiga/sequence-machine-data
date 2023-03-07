@@ -1,0 +1,18 @@
+{
+  "description": "The number AE_n of vertex permutations of rank n.",
+  "id": "A279002",
+  "mentions": [
+    "A279003"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

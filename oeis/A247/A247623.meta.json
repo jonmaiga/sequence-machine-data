@@ -1,0 +1,19 @@
+{
+  "description": "Number of paths from (0,0) to the line x = n, each segment given by a vector (1,1), (1,-1), or (2,0), not crossing the x-axis, and including no horizontal segment on the x-axis.",
+  "id": "A247623",
+  "mentions": [
+    "A247622"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

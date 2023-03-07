@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n+1) = Sum_{d|n} 2^(n/d - 1) * a(d).",
+  "id": "A351405",
+  "mentions": [
+    "A003238",
+    "A038046",
+    "A054599",
+    "A308076"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

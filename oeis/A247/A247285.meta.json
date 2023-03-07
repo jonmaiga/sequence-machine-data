@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n (n>=1) having k (0<=k<=n-1) upper interactions.",
+  "id": "A247285",
+  "mentions": [
+    "A000108",
+    "A001924",
+    "A091866",
+    "A172061"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

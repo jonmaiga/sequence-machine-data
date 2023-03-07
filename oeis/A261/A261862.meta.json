@@ -1,0 +1,19 @@
+{
+  "description": "Terms in A261524 that are not multiples of earlier terms.",
+  "id": "A261862",
+  "mentions": [
+    "A001348",
+    "A261524"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

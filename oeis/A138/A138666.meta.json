@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that every sum of consecutive positive numbers ending in n is not prime.",
+  "id": "A138666",
+  "mentions": [
+    "A010051",
+    "A076768",
+    "A087401",
+    "A087572"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

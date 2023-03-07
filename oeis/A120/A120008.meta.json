@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that the concatenation from 1 to k and back to 1 is divisible by 2n-1, or 0 if no such k exists.",
+  "id": "A120008",
+  "mentions": [
+    "A077189"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct connected planar figures that can be formed from n 1x2 rectangles (or dominoes) such that each pair of touching rectangles shares exactly one edge, of length 1, and the adjacency graph of the rectangles is a tree.",
+  "id": "A216581",
+  "mentions": [
+    "A056786",
+    "A216492",
+    "A216583",
+    "A216595",
+    "A216598"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

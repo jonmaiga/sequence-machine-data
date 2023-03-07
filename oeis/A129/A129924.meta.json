@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p divides both A061354(p-3) and A061354(p-1).",
+  "id": "A129924",
+  "mentions": [
+    "A061354",
+    "A061355",
+    "A064384",
+    "A120265",
+    "A124779"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

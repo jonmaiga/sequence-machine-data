@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{n>=1} (1 - 9*x^n)^(1/3).",
+  "id": "A303348",
+  "mentions": [
+    "A010815",
+    "A266964",
+    "A303347",
+    "A303349",
+    "A303351"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

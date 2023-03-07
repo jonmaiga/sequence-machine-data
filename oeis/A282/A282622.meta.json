@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits of the representation of n in the alternating sexagesimal-decimal number system.",
+  "id": "A282622",
+  "mentions": [
+    "A055642",
+    "A055643",
+    "A281863"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

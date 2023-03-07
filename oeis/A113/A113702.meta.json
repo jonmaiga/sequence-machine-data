@@ -1,0 +1,21 @@
+{
+  "description": "Trajectory of 10 under map k -> A111273(k).",
+  "id": "A113702",
+  "mentions": [
+    "A111273",
+    "A113659",
+    "A113700",
+    "A113701",
+    "A113703"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

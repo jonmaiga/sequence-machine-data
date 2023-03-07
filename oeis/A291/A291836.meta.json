@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of exponential growth rate of the number of 2-connected planar graphs on n labeled nodes.",
+  "id": "A291836",
+  "mentions": [
+    "A096331",
+    "A266389",
+    "A291835"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base-16 digits have greater up-variation than down-variation; see Comments.",
+  "id": "A297290",
+  "mentions": [
+    "A296760",
+    "A297288",
+    "A297289",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

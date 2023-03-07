@@ -1,0 +1,21 @@
+{
+  "description": "Sum of A001227 (the number of odd divisors function) and its Dirichlet inverse.",
+  "id": "A349913",
+  "mentions": [
+    "A001227",
+    "A327276",
+    "A349914",
+    "A349916"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

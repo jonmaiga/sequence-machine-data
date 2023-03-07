@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form x^2 + 24*y^2.",
+  "id": "A107008",
+  "mentions": [
+    "A000926",
+    "A002476",
+    "A007519",
+    "A033199",
+    "A106856",
+    "A111174",
+    "A139642",
+    "A140633",
+    "A141375"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

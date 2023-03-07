@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..3 arrays with diagonals and rows unimodal and antidiagonals nondecreasing",
+  "id": "A224276",
+  "mentions": [
+    "A224281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

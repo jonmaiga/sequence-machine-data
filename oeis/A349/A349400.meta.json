@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of EKG-permutation, A064413.",
+  "id": "A349400",
+  "mentions": [
+    "A064413",
+    "A323411",
+    "A349614"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

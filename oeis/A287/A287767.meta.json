@@ -1,0 +1,20 @@
+{
+  "description": "Brazilian numbers whose repdigits are the same as the repdigits of the base.",
+  "id": "A287767",
+  "mentions": [
+    "A002275",
+    "A085104",
+    "A125134"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

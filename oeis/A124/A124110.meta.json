@@ -1,0 +1,29 @@
+{
+  "description": "Primes of the form A124080 (10 times triangular numbers) +- 1.",
+  "id": "A124110",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A002378",
+    "A024966",
+    "A027468",
+    "A028895",
+    "A028896",
+    "A033996",
+    "A045943",
+    "A046092",
+    "A124080"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

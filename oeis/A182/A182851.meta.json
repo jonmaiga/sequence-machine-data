@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A182850(k) is odd.",
+  "id": "A182851",
+  "mentions": [
+    "A080218",
+    "A181819",
+    "A182850",
+    "A182852",
+    "A182859"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

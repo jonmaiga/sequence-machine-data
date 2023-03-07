@@ -1,0 +1,21 @@
+{
+  "description": "Prime sums of three distinct Mersenne primes (A000668).",
+  "id": "A253682",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000668",
+    "A174056"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

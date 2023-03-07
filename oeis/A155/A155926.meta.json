@@ -1,0 +1,25 @@
+{
+  "description": "G.f. satisfies: A(x) = B(x*A(x)) where A(x) = Sum_{n>=0} a(n)*x^n/[n!*(n+1)!/2^n] and B(x) = Sum_{n>=0} x^n/[n!*(n+1)!/2^n].",
+  "id": "A155926",
+  "mentions": [
+    "A001263",
+    "A006472",
+    "A090181",
+    "A103365",
+    "A105556",
+    "A105558",
+    "A155927",
+    "A155928"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

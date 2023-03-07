@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = c(n) - c(k) - c(n-k), where c(n) = Product_{j=0..n} Partitions(j), read by rows.",
+  "id": "A172971",
+  "mentions": [
+    "A000009"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

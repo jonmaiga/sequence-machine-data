@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest possible number of n-digit integers that can be in geometric progression with common ratio > 1.",
+  "id": "A341051",
+  "mentions": [
+    "A341052",
+    "A341053"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of the triangle in A199332.",
+  "id": "A199771",
+  "mentions": [
+    "A015237",
+    "A048395",
+    "A199332",
+    "A200252"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:36:31",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

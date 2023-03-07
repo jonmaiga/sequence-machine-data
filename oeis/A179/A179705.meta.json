@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form p^7*q^3 where p and q are distinct primes.",
+  "id": "A179705",
+  "mentions": [
+    "A085541",
+    "A085967"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

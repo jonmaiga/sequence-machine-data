@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows T(n,k) in which row n lists in nonincreasing order all divisors of the terms of the n-th row of triangle A110730, n >= 1, k >= 1.",
+  "id": "A345272",
+  "mentions": [
+    "A110730",
+    "A175254",
+    "A237593",
+    "A245092",
+    "A333516",
+    "A345116"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

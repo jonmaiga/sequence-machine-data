@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^3 * k!.",
+  "id": "A216831",
+  "mentions": [
+    "A000172",
+    "A000522",
+    "A002720",
+    "A021009",
+    "A119400",
+    "A206178"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

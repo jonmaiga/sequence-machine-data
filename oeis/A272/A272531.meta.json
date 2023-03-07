@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of C_2 (so named by S. Finch), a constant which is an analog of Niven's constant when mean of exponents is considered instead of maximum.",
+  "id": "A272531",
+  "mentions": [
+    "A033150",
+    "A077761",
+    "A085548",
+    "A136141"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

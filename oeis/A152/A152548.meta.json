@@ -1,0 +1,20 @@
+{
+  "description": "Sum of squared terms in rows of triangle A152547: a(n) = Sum_{k=0..C(n,[n/2])-1} A152547(n,k)^2.",
+  "id": "A152548",
+  "mentions": [
+    "A014477",
+    "A107233",
+    "A152547"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:36:37",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

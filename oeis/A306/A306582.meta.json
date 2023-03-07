@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least integer k such that the remainder of k modulo p is strictly increasing over the first n primes.",
+  "id": "A306582",
+  "mentions": [
+    "A000004",
+    "A002110",
+    "A306612",
+    "A325057"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

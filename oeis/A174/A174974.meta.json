@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of decimal digits of the Golomb-Dickman constant A084945 that are prime.",
+  "id": "A174974",
+  "mentions": [
+    "A084945",
+    "A174975"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the values of the \"shortest + middle - longest\" side lengths of all primitive Heronian triangles with perimeter A096468(n).",
+  "id": "A334970",
+  "mentions": [
+    "A096468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

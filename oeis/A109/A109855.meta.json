@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of the terms gives natural numbers in sequence such that N-th partial concatenation is a multiple of n.",
+  "id": "A109855",
+  "mentions": [
+    "A109856"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of x -> A003961(x) needed until A003415(x) <= x, when starting from x=n, where A003415(x) gives the arithmetic derivative of x, and A003961 shifts its prime factorization one step towards the larger primes.",
+  "id": "A343222",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A051674",
+    "A083347",
+    "A343221",
+    "A344027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

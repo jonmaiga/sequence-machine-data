@@ -1,0 +1,19 @@
+{
+  "description": "The number of valleys of width 1 (i.e., DHU configurations, where U=(0,1), H(1,0), D=(0,-1)) in all bargraphs of semiperimeter n (n>=2).",
+  "id": "A273722",
+  "mentions": [
+    "A082582",
+    "A273721"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 2,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Simple continued fraction expansion of Pi^(3/2)/Gamma(3/4)^2.",
+  "id": "A347430",
+  "mentions": [
+    "A175576"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

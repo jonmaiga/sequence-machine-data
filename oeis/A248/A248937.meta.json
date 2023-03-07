@@ -1,0 +1,19 @@
+{
+  "description": "Fermi-Dirac analog of the Kempner numbers (A002034) (see comment).",
+  "id": "A248937",
+  "mentions": [
+    "A002034",
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

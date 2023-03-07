@@ -1,0 +1,17 @@
+{
+  "description": "Number of total cyclic orders Z on {0, ..., n-1} such that (i, (i+1) mod n, (i+2) mod n) in Z for 0 <= i < n.",
+  "id": "A295264",
+  "mentions": [
+    "A343257"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

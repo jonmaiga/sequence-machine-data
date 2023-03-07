@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction of sqrt((7+sqrt(13))/6).",
+  "id": "A188927",
+  "mentions": [
+    "A188640",
+    "A188926"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:52",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First difference of binary numbers in A108787.",
+  "id": "A108788",
+  "mentions": [
+    "A108787",
+    "A108789",
+    "A108790"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

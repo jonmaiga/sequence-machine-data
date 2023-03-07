@@ -1,0 +1,22 @@
+{
+  "description": "Write decimal expansion of 1/n as 0.PPP...PQQQ..., where QQQ... is the cyclic part. If the expansion does not terminate, any leading 0's in QQQ... are regarded as being at the end of the PPP...P part. Sequence gives PPP...P, right justified, with leading zeros omitted.",
+  "id": "A114205",
+  "mentions": [
+    "A007732",
+    "A036275",
+    "A051626",
+    "A060284",
+    "A114206"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

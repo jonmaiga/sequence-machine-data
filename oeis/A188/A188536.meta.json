@@ -1,0 +1,19 @@
+{
+  "description": "Potential magic constants of 7 X 7 magic squares composed of consecutive primes.",
+  "id": "A188536",
+  "mentions": [
+    "A173981",
+    "A176571",
+    "A177434"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

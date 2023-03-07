@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of nonnegative integers: a(n) = A003188(A163356(n)).",
+  "id": "A302844",
+  "mentions": [
+    "A003188",
+    "A006068",
+    "A057300",
+    "A163356",
+    "A207901",
+    "A302781",
+    "A302843",
+    "A302846"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

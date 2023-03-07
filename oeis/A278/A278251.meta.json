@@ -1,0 +1,22 @@
+{
+  "description": "Least number with the prime signature of the n-th central polygonal number.",
+  "id": "A278251",
+  "mentions": [
+    "A002061",
+    "A046523",
+    "A278246",
+    "A278247",
+    "A278253"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Indices k of records of low value of the ratios A348001(k)/A034444(k) between the number of distinct values of the unitary totient function applied to the unitary divisors of k and the number of unitary divisors of k.",
+  "id": "A348003",
+  "mentions": [
+    "A034444",
+    "A047994",
+    "A328859",
+    "A348001",
+    "A348002",
+    "A348004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

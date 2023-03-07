@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row gives the row indices of the consecutive elements of the spiral of the n X n matrix defined in A126224.",
+  "id": "A343558",
+  "mentions": [
+    "A000290",
+    "A002265",
+    "A002411",
+    "A010873",
+    "A060747",
+    "A126224",
+    "A343559"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

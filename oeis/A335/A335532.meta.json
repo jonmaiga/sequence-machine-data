@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the asymptotic value of the second raw moment of the maximal exponent in the prime factorizations of n (A051903).",
+  "id": "A335532",
+  "mentions": [
+    "A005117",
+    "A033150",
+    "A051903",
+    "A067259",
+    "A242977"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

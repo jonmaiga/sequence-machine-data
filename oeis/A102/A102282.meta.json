@@ -1,0 +1,22 @@
+{
+  "description": "Smallest possible example of an MSTD (\"More sums than differences\") set.",
+  "id": "A102282",
+  "mentions": [
+    "A118544",
+    "A140794",
+    "A222807",
+    "A222808"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

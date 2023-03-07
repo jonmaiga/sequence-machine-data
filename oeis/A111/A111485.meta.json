@@ -1,0 +1,18 @@
+{
+  "description": "Number of (-1,0,1) periodic irreducible matrices up to sign change, transposition and mirroring over the antidiagonal.",
+  "id": "A111485",
+  "mentions": [
+    "A072148"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

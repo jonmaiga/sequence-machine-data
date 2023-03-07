@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that have all their divisors in A002191 (possible values for sigma(n), A000203).",
+  "id": "A243765",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A023195",
+    "A038688",
+    "A045572",
+    "A228061",
+    "A243810"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

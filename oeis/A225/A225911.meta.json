@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k*6^n+1 is prime.",
+  "id": "A225911",
+  "mentions": [
+    "A035050",
+    "A225941"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

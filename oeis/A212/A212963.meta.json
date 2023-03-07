@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of ordered triples (w,x,y) such that w,x,y are all in {0,...,n} and the numbers |w-x|, |x-y|, |y-w| are distinct.",
+  "id": "A212963",
+  "mentions": [
+    "A002623",
+    "A212959"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:38:23",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

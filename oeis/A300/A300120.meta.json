@@ -1,0 +1,31 @@
+{
+  "description": "Number of skew partitions whose quotient diagram is connected and whose numerator has weight n.",
+  "id": "A300120",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A006958",
+    "A138178",
+    "A238690",
+    "A259479",
+    "A259480",
+    "A297388",
+    "A299925",
+    "A299926",
+    "A300118",
+    "A300122",
+    "A300123",
+    "A300124"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

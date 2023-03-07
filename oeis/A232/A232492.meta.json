@@ -1,0 +1,18 @@
+{
+  "description": "Number of symmetry classes of 3-eared triangulations of an n-gon.",
+  "id": "A232492",
+  "mentions": [
+    "A005418"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:56:07",
+    "offset": 5,
+    "size": 34,
+    "source": "joeis"
+  }
+}

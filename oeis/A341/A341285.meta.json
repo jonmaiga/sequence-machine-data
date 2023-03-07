@@ -1,0 +1,22 @@
+{
+  "description": "Let B be the set of sequences of positive integers {b(k), k >= 0} such that for some k > 0 (necessarily unique) and any m >= 0, b(m+k) = b(m) + b(m+1) + ... + b(m+k-1); let g(b) = b(0); a(n) is the least value of g(b) for an element b of B containing n.",
+  "id": "A341285",
+  "mentions": [
+    "A020695",
+    "A070939",
+    "A249783",
+    "A341456",
+    "A341699"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

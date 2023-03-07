@@ -1,0 +1,28 @@
+{
+  "description": "Formula for Wolfram's Rule 30 cellular automaton: a(n) = n XOR (2n OR 4n).",
+  "id": "A269160",
+  "mentions": [
+    "A003714",
+    "A003986",
+    "A003987",
+    "A048727",
+    "A057889",
+    "A070939",
+    "A110240",
+    "A269161",
+    "A269162",
+    "A269163",
+    "A269164"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

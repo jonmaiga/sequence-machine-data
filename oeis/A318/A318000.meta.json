@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: log( 2*cosh(x) / (1 + sqrt(1 - 2*sinh(2*x))) ).",
+  "id": "A318000",
+  "mentions": [
+    "A318001",
+    "A318002",
+    "A318005"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients for the nonnegative powers of rho(11) = 2*cos(Pi/11) when written in the power basis of the degree 5 number field Q(rho(11)). Coefficients for the zeroth and fourth powers.",
+  "id": "A231182",
+  "mentions": [
+    "A231181",
+    "A231183",
+    "A231184",
+    "A231185"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:10:28",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

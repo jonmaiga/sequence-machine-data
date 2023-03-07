@@ -1,0 +1,21 @@
+{
+  "description": "Integers of the form n/tau(n)^2 as n runs through the integers, where tau(n) is the number of divisors of n.",
+  "id": "A226325",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036762",
+    "A046754"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

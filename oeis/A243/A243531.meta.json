@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers containing the string 15.",
+  "id": "A243531",
+  "mentions": [
+    "A243529"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:55:59",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

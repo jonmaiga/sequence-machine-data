@@ -1,0 +1,20 @@
+{
+  "description": "Nonprime numbers starting with a digit 1.",
+  "id": "A206286",
+  "mentions": [
+    "A045707",
+    "A131835",
+    "A206288"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

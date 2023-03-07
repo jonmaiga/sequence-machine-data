@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of {1,2,...,n} such that j and p(j) are of opposite parities for k values of j (0<=k<=n).",
+  "id": "A145893",
+  "mentions": [
+    "A000142",
+    "A010551",
+    "A145891",
+    "A145894",
+    "A226282",
+    "A226283",
+    "A226284",
+    "A226285",
+    "A226286"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

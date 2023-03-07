@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lcm(A003557(n), A048250(n)).",
+  "id": "A322319",
+  "mentions": [
+    "A001615",
+    "A003557",
+    "A048250",
+    "A322318",
+    "A322321",
+    "A322359"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

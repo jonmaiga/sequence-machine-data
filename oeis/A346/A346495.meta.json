@@ -1,0 +1,20 @@
+{
+  "description": "Smallest a(n) so that division by n can be performed by floor(x/n) = floor(x*a(n))/2^A346496(n) for any 0 <= x < 2^32.",
+  "id": "A346495",
+  "mentions": [
+    "A346496"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

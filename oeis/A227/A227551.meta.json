@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of partitions of n into distinct parts with boundary size k; triangle T(n,k), n>=0, 0<=k<=A227568(n), read by rows.",
+  "id": "A227551",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A053993",
+    "A057427",
+    "A201077",
+    "A224878",
+    "A227345",
+    "A227552",
+    "A227559",
+    "A227560",
+    "A227561",
+    "A227562",
+    "A227563",
+    "A227564",
+    "A227565",
+    "A227566",
+    "A227567",
+    "A227568"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

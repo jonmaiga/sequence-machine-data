@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not squarefree, but whose arithmetic derivative (A003415) is.",
+  "id": "A328252",
+  "mentions": [
+    "A003415",
+    "A005117",
+    "A013929",
+    "A328234",
+    "A328248",
+    "A328250",
+    "A328253"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

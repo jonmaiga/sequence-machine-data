@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(n^(1/6)): integer part of sixth root of n.",
+  "id": "A178489",
+  "mentions": [
+    "A000196",
+    "A048766",
+    "A178487"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

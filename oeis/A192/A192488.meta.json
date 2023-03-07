@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that set records for number of divisors of n(n-1).",
+  "id": "A192488",
+  "mentions": [
+    "A092517"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

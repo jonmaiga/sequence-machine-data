@@ -1,0 +1,18 @@
+{
+  "description": "Reduced denominators of the central moments of the distribution of areas for triangles picked at random in a unit square.",
+  "id": "A103282",
+  "mentions": [
+    "A103281"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

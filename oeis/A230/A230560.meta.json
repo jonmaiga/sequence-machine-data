@@ -1,0 +1,18 @@
+{
+  "description": "a(n)*|a(n)| gives the first difference of A230383.",
+  "id": "A230560",
+  "mentions": [
+    "A230383",
+    "A230565"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

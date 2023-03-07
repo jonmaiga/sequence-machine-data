@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(Pi + Pi*sqrt(Pi + Pi*sqrt(Pi + ...))).",
+  "id": "A268580",
+  "mentions": [
+    "A000796",
+    "A100941",
+    "A189970"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:17",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

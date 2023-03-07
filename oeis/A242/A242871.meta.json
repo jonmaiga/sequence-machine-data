@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that (n^n-3^3)/(n-3) is an integer.",
+  "id": "A242871",
+  "mentions": [
+    "A242870"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 5*a(n-3) - a(n-6) with terms 1..6 as 0, 1, 2, 5, 7, 9.",
+  "id": "A142879",
+  "mentions": [
+    "A002530",
+    "A002965",
+    "A048788",
+    "A119016"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

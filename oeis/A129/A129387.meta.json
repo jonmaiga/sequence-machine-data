@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur in A129385.",
+  "id": "A129387",
+  "mentions": [
+    "A129385",
+    "A129386"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

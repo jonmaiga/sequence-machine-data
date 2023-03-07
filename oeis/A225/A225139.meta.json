@@ -1,0 +1,21 @@
+{
+  "description": "Primes from merging of 10 successive digits in the decimal expansion of the Champernowne constant.",
+  "id": "A225139",
+  "mentions": [
+    "A033307",
+    "A104945",
+    "A104952",
+    "A104953"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:29",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

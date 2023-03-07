@@ -1,0 +1,25 @@
+{
+  "description": "Infinitary pseudoperfect numbers: numbers n equal to the sum of a subset of their proper infinitary divisors.",
+  "id": "A306983",
+  "mentions": [
+    "A005835",
+    "A007357",
+    "A049417",
+    "A126168",
+    "A129656",
+    "A292985",
+    "A293188",
+    "A306984",
+    "A318100"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

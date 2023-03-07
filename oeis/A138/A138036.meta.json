@@ -1,0 +1,20 @@
+{
+  "description": "Write n = C(i,2)+C(j,1) with i>j>=0; let L[n] = [i,j]; sequence gives list of pairs L[n], n >= 0.",
+  "id": "A138036",
+  "mentions": [
+    "A002024",
+    "A002262",
+    "A194847"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the total number of polygons left over with maximum number of sides when partitioning the set of vertices of a convex n-gon into nonintersecting polygons.",
+  "id": "A351103",
+  "mentions": [
+    "A347862"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominator in triangle T(n,k)=A180955/A180956 read by rows. A046161(A004736).",
+  "id": "A180956",
+  "mentions": [
+    "A001790",
+    "A004736",
+    "A046161",
+    "A180955"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

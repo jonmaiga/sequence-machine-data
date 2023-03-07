@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n * T(n-1,k) + (-1)^(n-k) for 0 <= k <= n with initial values T(n,k) = 0 if n < 0 or k < 0 or k > n.",
+  "id": "A352650",
+  "mentions": [
+    "A000166",
+    "A002467",
+    "A006347",
+    "A006348",
+    "A009179",
+    "A094587",
+    "A097807",
+    "A326326",
+    "A352988"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

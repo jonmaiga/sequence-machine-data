@@ -1,0 +1,21 @@
+{
+  "description": "G.f. C(C(x)) where C(x) satisfies: C(C(x)) + S(S(x)) = x such that C(x)^3 + (3/2)*S(x)^3 = x^3.",
+  "id": "A192073",
+  "mentions": [
+    "A191419",
+    "A192059",
+    "A192071",
+    "A192072"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

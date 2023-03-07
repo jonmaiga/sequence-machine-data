@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the permanent of an n X n symmetric Toeplitz matrix M(n) whose first row consists of a single zero followed by successive positive integers repeated (A004526).",
+  "id": "A332566",
+  "mentions": [
+    "A004526",
+    "A083392",
+    "A331491",
+    "A333119"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

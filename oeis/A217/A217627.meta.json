@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of the products of the nonzero digits of the numbers from 1 to n.",
+  "id": "A217627",
+  "mentions": [
+    "A061076"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n encodes a nonnegative combinatorial game (in a style of A106486), otherwise 0; Characteristic function of A126001.",
+  "id": "A320006",
+  "mentions": [
+    "A106486",
+    "A125999",
+    "A126001",
+    "A320007"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

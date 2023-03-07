@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are equal to the sum of the number of divisors of their k first powers, for some k.",
+  "id": "A270389",
+  "mentions": [
+    "A000005",
+    "A270713"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

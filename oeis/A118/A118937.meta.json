@@ -1,0 +1,20 @@
+{
+  "description": "Sub-Kaprekar numbers (1): n such that n=q-r and n^2=q*10^m+r, for some m>=1, q>=0, 0<=r",
+  "id": "A118937",
+  "mentions": [
+    "A006886",
+    "A118936",
+    "A118938"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

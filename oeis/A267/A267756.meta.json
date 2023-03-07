@@ -1,0 +1,18 @@
+{
+  "description": "Indices of Euclid numbers (A006862) of the form x^2 + y^2 + z^2 where x, y and z are integers.",
+  "id": "A267756",
+  "mentions": [
+    "A004215",
+    "A006862"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

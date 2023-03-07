@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of eta(q^2)^4 / eta(q)^8 in powers of q.",
+  "id": "A284286",
+  "mentions": [
+    "A002131",
+    "A002448",
+    "A004405",
+    "A096727",
+    "A288515"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

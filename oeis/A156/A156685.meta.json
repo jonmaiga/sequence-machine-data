@@ -1,0 +1,24 @@
+{
+  "description": "Number of primitive Pythagorean triples A^2 + B^2 = C^2 with 0 < A < B < C and gcd(A,B)=1 that have a hypotenuse C that is less than or equal to n.",
+  "id": "A156685",
+  "mentions": [
+    "A008846",
+    "A020882",
+    "A024362",
+    "A024409",
+    "A224921"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "McKay-Thompson series of class 4A for the Monster group.",
+  "id": "A107080",
+  "mentions": [
+    "A007191",
+    "A007246",
+    "A035099",
+    "A045479",
+    "A097340",
+    "A134786"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": -1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Omit the 1s from first differences of A084663.",
+  "id": "A231900",
+  "mentions": [
+    "A084663",
+    "A134744",
+    "A137613"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

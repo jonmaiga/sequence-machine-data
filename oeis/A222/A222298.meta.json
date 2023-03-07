@@ -1,0 +1,22 @@
+{
+  "description": "Length of the Gaussian prime spiral beginning at the n-th positive real Gaussian prime (A002145).",
+  "id": "A222298",
+  "mentions": [
+    "A002145",
+    "A222299",
+    "A222300",
+    "A222594",
+    "A222595",
+    "A222596"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

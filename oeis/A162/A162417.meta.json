@@ -1,0 +1,18 @@
+{
+  "description": "Find max {primes such that p < n^2, n = 2,3,...}, then the gap g(n) between that prime and its successor. This sequence is the sequence of differences {2n - g(n)}.",
+  "id": "A162417",
+  "mentions": [
+    "A058043"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

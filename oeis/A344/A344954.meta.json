@@ -1,0 +1,20 @@
+{
+  "description": "Positions of words in A341258 in which the first digit = last digit.",
+  "id": "A344954",
+  "mentions": [
+    "A341258",
+    "A342910",
+    "A344955"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

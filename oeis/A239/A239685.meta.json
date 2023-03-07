@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers for which the sum of reciprocals of nonzero digits equals 1.",
+  "id": "A239685",
+  "mentions": [
+    "A037268",
+    "A214959"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

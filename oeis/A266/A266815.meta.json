@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose sum of reciprocal of digits is a prime.",
+  "id": "A266815",
+  "mentions": [
+    "A000040",
+    "A034708"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

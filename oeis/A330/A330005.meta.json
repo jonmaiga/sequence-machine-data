@@ -1,0 +1,21 @@
+{
+  "description": "a(n) counts the square-words immediately before a(n), with a(1) = 0.",
+  "id": "A330005",
+  "mentions": [
+    "A090822",
+    "A091970",
+    "A329447",
+    "A330023"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th J_15-prime (Josephus_15 prime).",
+  "id": "A163795",
+  "mentions": [
+    "A163782",
+    "A163794",
+    "A163796",
+    "A163800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

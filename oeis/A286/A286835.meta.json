@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of terms m such that d(m!) divides d((m!)^(2n+1)), where d is A000005.",
+  "id": "A286835",
+  "mentions": [
+    "A000005",
+    "A027423",
+    "A069784",
+    "A286872"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

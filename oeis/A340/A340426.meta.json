@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A000203(n-k+1)*A002865(k-1), 1 <= k <= n.",
+  "id": "A340426",
+  "mentions": [
+    "A000004",
+    "A000203",
+    "A002865",
+    "A074400",
+    "A135010",
+    "A138879",
+    "A239050",
+    "A319527",
+    "A319528"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

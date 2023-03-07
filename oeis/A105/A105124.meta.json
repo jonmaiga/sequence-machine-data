@@ -1,0 +1,19 @@
+{
+  "description": "Three-dimensional small Schroeder numbers.",
+  "id": "A105124",
+  "mentions": [
+    "A088594"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

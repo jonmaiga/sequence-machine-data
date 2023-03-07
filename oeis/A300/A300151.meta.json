@@ -1,0 +1,21 @@
+{
+  "description": "\"Erase or triple\": list of the successive \"altitude\" records (see the comments section).",
+  "id": "A300151",
+  "mentions": [
+    "A300148",
+    "A300149",
+    "A300150"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

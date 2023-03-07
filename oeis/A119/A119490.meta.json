@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the absolute values in row n of A118687.",
+  "id": "A119490",
+  "mentions": [
+    "A049614",
+    "A118687"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

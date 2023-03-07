@@ -1,0 +1,21 @@
+{
+  "description": "Odd nonprimes such that the arithmetic mean of all prime factors is not an integer.",
+  "id": "A175761",
+  "mentions": [
+    "A014076",
+    "A141468",
+    "A175352"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + 16*a(n-3) - 16*a(n-4), where a(0) = 1, a(1) = 4, a(2) = 8, a(3) = 12, a(4) = 76.",
+  "id": "A297555",
+  "mentions": [
+    "A297552"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

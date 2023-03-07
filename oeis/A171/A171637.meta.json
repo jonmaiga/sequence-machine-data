@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows in which row n lists the distinct primes of the distinct decompositions of 2n into unordered sums of two primes.",
+  "id": "A171637",
+  "mentions": [
+    "A000040",
+    "A002260",
+    "A010051",
+    "A020481",
+    "A020482",
+    "A035026",
+    "A154720",
+    "A154721",
+    "A154722",
+    "A154723",
+    "A154724",
+    "A154725",
+    "A154726",
+    "A154727",
+    "A184995",
+    "A238711",
+    "A238778"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

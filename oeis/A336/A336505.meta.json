@@ -1,0 +1,23 @@
+{
+  "description": "5-practical numbers: numbers m such that the polynomial x^m - 1 has a divisor of every degree <= m in the prime field F_5[x].",
+  "id": "A336505",
+  "mentions": [
+    "A000010",
+    "A007736",
+    "A112765",
+    "A132739",
+    "A260653",
+    "A336503",
+    "A336504"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Initial primes of 6 consecutive primes with consecutive gaps 2,4,6,8,10.",
+  "id": "A190817",
+  "mentions": [
+    "A022004",
+    "A078847",
+    "A187058",
+    "A190814",
+    "A190819",
+    "A190838"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

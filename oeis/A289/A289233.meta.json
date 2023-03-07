@@ -1,0 +1,20 @@
+{
+  "description": "Largest number of disjoint point triples that can be chosen from an n X n X n triangular point grid, each point triple forming a 2 X 2 X 2 triangle.",
+  "id": "A289233",
+  "mentions": [
+    "A001840",
+    "A289222",
+    "A289229"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:19",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

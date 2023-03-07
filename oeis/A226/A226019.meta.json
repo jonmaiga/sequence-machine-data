@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose binary reversal is a square.",
+  "id": "A226019",
+  "mentions": [
+    "A007488",
+    "A074832",
+    "A204219",
+    "A235027"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

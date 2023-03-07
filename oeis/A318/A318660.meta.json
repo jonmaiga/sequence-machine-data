@@ -1,0 +1,22 @@
+{
+  "description": "Remainder when A064988(n) is divided by n.",
+  "id": "A318660",
+  "mentions": [
+    "A000040",
+    "A064988",
+    "A076240",
+    "A318668",
+    "A318871"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

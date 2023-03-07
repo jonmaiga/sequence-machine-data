@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k such that there are n pairs (d,e) of (not necessarily distinct) divisors of k such that the concatenation d_e is a prime.",
+  "id": "A309460",
+  "mentions": [
+    "A000040",
+    "A061242",
+    "A309219"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

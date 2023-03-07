@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A051064(n)*3^A051064(n)*x^n/n ) where A051064(n) equals the 3-adic valuation of 3n.",
+  "id": "A183038",
+  "mentions": [
+    "A005704",
+    "A051064",
+    "A161809",
+    "A183036",
+    "A183039"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

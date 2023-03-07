@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of q-expansion of Eisenstein series G_{7/2}(tau) multiplied by -252.",
+  "id": "A306935",
+  "mentions": [
+    "A259825",
+    "A306934",
+    "A306937"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

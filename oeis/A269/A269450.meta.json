@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n-1)*a(n-1) - a(n-2) + (n-2)*a(n-3) with a(0)=0, a(1)=a(2)=1.",
+  "id": "A269450",
+  "mentions": [
+    "A269509",
+    "A269820"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

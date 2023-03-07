@@ -1,0 +1,22 @@
+{
+  "description": "Primorial deflation of A330687 (record positions in A050377): a(n) is the unique integer x such that A108951(x) = A330687(n).",
+  "id": "A330689",
+  "mentions": [
+    "A050376",
+    "A050377",
+    "A108951",
+    "A329900",
+    "A330687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

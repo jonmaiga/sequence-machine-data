@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle, read by rows, of the smallest prime starting a prime pattern given in row n of A186634.",
+  "id": "A186702",
+  "mentions": [
+    "A186634"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

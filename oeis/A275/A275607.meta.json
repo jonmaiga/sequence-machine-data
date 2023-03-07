@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 2*12^n*Gamma(n+1/2)*(n+1)/(sqrt(Pi)*Gamma(n+3)).",
+  "id": "A275607",
+  "mentions": [
+    "A000108",
+    "A000139",
+    "A000168",
+    "A000257",
+    "A000888",
+    "A002293",
+    "A002894",
+    "A004981",
+    "A004987",
+    "A005568"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

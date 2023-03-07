@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur for partitions into distinct odd squares, cf. A167700.",
+  "id": "A167702",
+  "mentions": [
+    "A167663",
+    "A167700",
+    "A167701"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

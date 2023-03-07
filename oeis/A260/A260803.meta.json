@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as n = x*y*z + x + y + z where 1 <= x <= y <= z <= n.",
+  "id": "A260803",
+  "mentions": [
+    "A002110",
+    "A008619",
+    "A071693",
+    "A260804"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

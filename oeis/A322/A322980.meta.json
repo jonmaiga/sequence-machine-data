@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n and d(n) are coprime, 0 otherwise. Here d(n) is the number of divisors of n, A000005.",
+  "id": "A322980",
+  "mentions": [
+    "A000005",
+    "A009191",
+    "A046642",
+    "A049820",
+    "A322974",
+    "A323073"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

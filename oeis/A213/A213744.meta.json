@@ -1,0 +1,32 @@
+{
+  "description": "Triangle of numbers C^(5)(n,k) of combinations with repetitions from n different elements over k for each of them not more than 5 appearances allowed.",
+  "id": "A213744",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A005725",
+    "A007318",
+    "A062989",
+    "A063262",
+    "A063263",
+    "A063264",
+    "A111808",
+    "A187925",
+    "A213742",
+    "A213743"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

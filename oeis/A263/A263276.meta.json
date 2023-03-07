@@ -1,0 +1,22 @@
+{
+  "description": "Positions of squares in A259934.",
+  "id": "A263276",
+  "mentions": [
+    "A259934",
+    "A262514",
+    "A262694",
+    "A263277"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

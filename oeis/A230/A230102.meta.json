@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=1; thereafter a(n+1) = a(n) + (product of digits of a(n)).",
+  "id": "A230102",
+  "mentions": [
+    "A007954",
+    "A051801",
+    "A063108",
+    "A230099",
+    "A232485"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

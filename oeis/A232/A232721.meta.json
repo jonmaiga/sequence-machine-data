@@ -1,0 +1,24 @@
+{
+  "description": "Numbers not representable as the sum of two coprime nonprime numbers.",
+  "id": "A232721",
+  "mentions": [
+    "A018252",
+    "A062303",
+    "A141095",
+    "A141096",
+    "A141098",
+    "A185279"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

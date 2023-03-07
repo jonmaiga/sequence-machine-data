@@ -1,0 +1,17 @@
+{
+  "description": "Number of isomorphism classes of reduced Witt rings of fields with n orderings.",
+  "id": "A213332",
+  "mentions": [
+    "A213331"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

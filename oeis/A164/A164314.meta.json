@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of n^2 - 2.",
+  "id": "A164314",
+  "mentions": [
+    "A002583",
+    "A006530",
+    "A008865",
+    "A014442",
+    "A069902"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

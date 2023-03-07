@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of ten squares in two or more ways.",
+  "id": "A345509",
+  "mentions": [
+    "A345499",
+    "A345508",
+    "A345510",
+    "A345550"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

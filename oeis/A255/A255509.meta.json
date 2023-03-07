@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1, a(2)=2, a(3)=3; for n>=4, a(n) is the maximal prime factor P_n of a(n-2) if P_n is not already a term, otherwise a(n) is the smallest not appeared earlier positive number x such that gcd(x,a(n-2))>1, gcd(x,a(n-1))=1.",
+  "id": "A255509",
+  "mentions": [
+    "A098550",
+    "A247225",
+    "A247942",
+    "A249167",
+    "A251604",
+    "A254077"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

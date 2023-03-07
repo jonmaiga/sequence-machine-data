@@ -1,0 +1,19 @@
+{
+  "description": "Least primes that together with prime(n) forms a Heronian triangle, starting at n = 2.",
+  "id": "A237518",
+  "mentions": [
+    "A230666",
+    "A233232"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

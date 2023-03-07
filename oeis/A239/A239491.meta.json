@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that Sum_{i=1..j} 1/pn(i) - Sum_{i=1..k} 1/pd(i) is integer, where pn are the prime factors of n and pd the prime factors of the arithmetic derivative of n, both counted with multiplicity.",
+  "id": "A239491",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A239490"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

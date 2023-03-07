@@ -1,0 +1,19 @@
+{
+  "description": "The Wiener index of the straight pentachain of n pentagonal rings (see Fig. 2.1 in the A. A. Ali et al. reference).",
+  "id": "A224459",
+  "mentions": [
+    "A224460"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:31",
+    "offset": 2,
+    "size": 39,
+    "source": "joeis"
+  }
+}

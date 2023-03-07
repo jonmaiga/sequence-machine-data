@@ -1,0 +1,32 @@
+{
+  "description": "Primes p such that p*(p-1)/2-5 and p*(p-1)/2+5 are also prime numbers.",
+  "id": "A164623",
+  "mentions": [
+    "A000040",
+    "A008837",
+    "A008846",
+    "A020882",
+    "A023203",
+    "A068228",
+    "A068229",
+    "A082539",
+    "A086519",
+    "A107159",
+    "A139494",
+    "A158708",
+    "A164620",
+    "A164621",
+    "A164622"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 4^k starts with k.",
+  "id": "A320930",
+  "mentions": [
+    "A000302",
+    "A100129",
+    "A288845"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

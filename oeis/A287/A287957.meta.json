@@ -1,0 +1,24 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) = greatest common recursive divisor of n and k; n > 0 and k > 0.",
+  "id": "A287957",
+  "mentions": [
+    "A003989",
+    "A007947",
+    "A182318",
+    "A259445",
+    "A282446",
+    "A287958"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "mult",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of r = 0.527697..., a boundary ratio separating catenoid and Goldschmidt solutions in the minimal surface of revolution problem.",
+  "id": "A253545",
+  "mentions": [
+    "A033259"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:06",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

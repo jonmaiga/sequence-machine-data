@@ -1,0 +1,27 @@
+{
+  "description": "Sum of odd divisors of n that are greater than 1.",
+  "id": "A326990",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A000593",
+    "A038712",
+    "A057716",
+    "A065091",
+    "A069283",
+    "A284233",
+    "A326988",
+    "A326989"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:13",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

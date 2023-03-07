@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with property that n^2 starts and ends with 49.",
+  "id": "A159815",
+  "mentions": [
+    "A111445",
+    "A159254",
+    "A159754",
+    "A159775"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

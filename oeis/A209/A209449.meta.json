@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Pell(n)*A113973(n) for n>=1, with a(0)=1, where A113973 lists the coefficients in phi(x^3)^3/phi(x) and phi() is a Ramanujan theta function.",
+  "id": "A209449",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A113973",
+    "A204270",
+    "A205969",
+    "A209446",
+    "A209448",
+    "A209450"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

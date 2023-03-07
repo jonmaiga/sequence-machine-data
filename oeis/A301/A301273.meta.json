@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of mean of first n primes.",
+  "id": "A301273",
+  "mentions": [
+    "A273462",
+    "A301274",
+    "A301275",
+    "A301276",
+    "A301277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

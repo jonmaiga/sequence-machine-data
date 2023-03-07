@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n which represent first player winning Chomp positions with multiple winning moves.",
+  "id": "A112473",
+  "mentions": [
+    "A112471",
+    "A112472"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

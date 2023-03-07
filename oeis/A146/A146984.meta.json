@@ -1,0 +1,19 @@
+{
+  "description": "List of integer-valued contraharmonic means (u^2+v^2)/(u+v) of two positive integers u and v (with u < v) ordered by increasing u and increasing v (u = 2, 3, 4, ...; v = u+1, u+2, ...).",
+  "id": "A146984",
+  "mentions": [
+    "A009003"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

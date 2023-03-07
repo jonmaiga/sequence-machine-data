@@ -1,0 +1,18 @@
+{
+  "description": "Primes that can be written in the form j^2 + h*k^2, where j and k are positive integers, for every h in A003173 (Heegner numbers).",
+  "id": "A340055",
+  "mentions": [
+    "A003173",
+    "A338087"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

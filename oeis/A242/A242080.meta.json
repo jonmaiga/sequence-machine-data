@@ -1,0 +1,17 @@
+{
+  "description": "Length of period of Nim sequence of subtraction game on first n terms of A242079.",
+  "id": "A242080",
+  "mentions": [
+    "A242079"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

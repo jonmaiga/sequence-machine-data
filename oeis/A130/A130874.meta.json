@@ -1,0 +1,20 @@
+{
+  "description": "Anti-divisorial numbers: the product of all anti-divisors of all integers less than or equal to n.",
+  "id": "A130874",
+  "mentions": [
+    "A066272",
+    "A091507",
+    "A130799"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

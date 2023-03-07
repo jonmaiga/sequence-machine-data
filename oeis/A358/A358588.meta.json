@@ -1,0 +1,38 @@
+{
+  "description": "Number of n-node ordered rooted trees of height equal to the number of internal (non-leaf) nodes.",
+  "id": "A358588",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A000891",
+    "A001263",
+    "A034781",
+    "A055277",
+    "A065097",
+    "A080936",
+    "A090181",
+    "A185650",
+    "A342507",
+    "A358371",
+    "A358552",
+    "A358575",
+    "A358576",
+    "A358578",
+    "A358579",
+    "A358586",
+    "A358587",
+    "A358589",
+    "A358590",
+    "A358591"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The k-th rightmost digit of a(n) is the greatest of the k rightmost digits of n.",
+  "id": "A355224",
+  "mentions": [
+    "A009996",
+    "A340632",
+    "A355221",
+    "A355222",
+    "A355223"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

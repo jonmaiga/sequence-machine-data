@@ -1,0 +1,21 @@
+{
+  "description": "Base-10 representation of A261269.",
+  "id": "A261270",
+  "mentions": [
+    "A261200",
+    "A261201",
+    "A261269"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

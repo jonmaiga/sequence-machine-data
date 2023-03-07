@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree d such that the fundamental unit of Q(sqrt(d)) is larger than the fundamental unit of Q(sqrt(d)) for any smaller d.",
+  "id": "A294176",
+  "mentions": [
+    "A014000",
+    "A014046"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Partition of the row numbers of the Wythoff array W: two numbers are in the same row if and only if their rows in W have (essentially) a common divisor greater than 1.",
+  "id": "A173028",
+  "mentions": [
+    "A000045",
+    "A035513",
+    "A173027",
+    "A220249"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

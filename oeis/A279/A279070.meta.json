@@ -1,0 +1,21 @@
+{
+  "description": "Compact numbers: numbers that can be expressed more compactly using their prime factorization than their decimal expansion.",
+  "id": "A279070",
+  "mentions": [
+    "A070566",
+    "A079603",
+    "A145554",
+    "A169661"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

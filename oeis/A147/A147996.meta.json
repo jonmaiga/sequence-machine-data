@@ -1,0 +1,20 @@
+{
+  "description": "9^n-8^n-7^n-6^n-5^n-4^n-3^n-2^n-1.",
+  "id": "A147996",
+  "mentions": [
+    "A147975",
+    "A147979"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:54:18",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

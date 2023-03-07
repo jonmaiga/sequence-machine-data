@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=1} arctanh(x^k).",
+  "id": "A330505",
+  "mentions": [
+    "A002131",
+    "A002448",
+    "A010050",
+    "A015128",
+    "A015680",
+    "A038048",
+    "A054785",
+    "A228274",
+    "A265024",
+    "A330504"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

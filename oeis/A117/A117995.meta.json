@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n in which both smallest and largest part occur only once.",
+  "id": "A117995",
+  "mentions": [
+    "A002865",
+    "A240076",
+    "A240077",
+    "A240078",
+    "A240080"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

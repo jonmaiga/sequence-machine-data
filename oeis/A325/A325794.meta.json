@@ -1,0 +1,33 @@
+{
+  "description": "Number of divisors of n minus the sum of prime indices of n.",
+  "id": "A325794",
+  "mentions": [
+    "A000005",
+    "A002033",
+    "A056239",
+    "A112798",
+    "A299702",
+    "A325694",
+    "A325780",
+    "A325781",
+    "A325792",
+    "A325793",
+    "A325795",
+    "A325796",
+    "A325797",
+    "A325798"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

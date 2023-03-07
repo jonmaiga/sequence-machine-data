@@ -1,0 +1,20 @@
+{
+  "description": "Sums of 5 or more consecutive nonnegative integers.",
+  "id": "A138593",
+  "mentions": [
+    "A000217",
+    "A138591",
+    "A138592",
+    "A138594"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{j=0..n} Sum_{k=0..j} abs( Stirling1(j - k, k) ).",
+  "id": "A320963",
+  "mentions": [
+    "A320964"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest number less than n occurring in Collatz trajectory starting with n.",
+  "id": "A225840",
+  "mentions": [
+    "A006577",
+    "A070165",
+    "A187831"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

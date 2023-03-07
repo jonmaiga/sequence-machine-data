@@ -1,0 +1,18 @@
+{
+  "description": "Least prime, q, greater than the previous prime, p, which is a primitive root of p; beginning with 2.",
+  "id": "A227202",
+  "mentions": [
+    "A060085"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

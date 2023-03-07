@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = (n-k+1)-th prime, read by rows.",
+  "id": "A104887",
+  "mentions": [
+    "A000040",
+    "A004736",
+    "A037126",
+    "A098012"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:48:17",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

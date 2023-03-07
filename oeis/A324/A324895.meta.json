@@ -1,0 +1,25 @@
+{
+  "description": "Largest proper divisor of A276086(n); a(0) = 1.",
+  "id": "A324895",
+  "mentions": [
+    "A002110",
+    "A032742",
+    "A053669",
+    "A108951",
+    "A276085",
+    "A276086",
+    "A276151",
+    "A324896"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

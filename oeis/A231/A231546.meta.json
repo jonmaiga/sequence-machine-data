@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) = sigma(k-1).",
+  "id": "A231546",
+  "mentions": [
+    "A002961",
+    "A024816",
+    "A231545"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

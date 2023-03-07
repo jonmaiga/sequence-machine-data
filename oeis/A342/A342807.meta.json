@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-avoiding walks on a 3-dimensional cubic lattice where the walk consists of steps with incrementing length from 1 to n.",
+  "id": "A342807",
+  "mentions": [
+    "A001412",
+    "A334602",
+    "A334877",
+    "A336262",
+    "A342800"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

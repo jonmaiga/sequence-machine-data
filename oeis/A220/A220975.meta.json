@@ -1,0 +1,17 @@
+{
+  "description": "Equals one maps: number of nX6 binary arrays indicating the locations of corresponding elements equal to exactly one of their king-move neighbors in a random 0..1 nX6 array",
+  "id": "A220975",
+  "mentions": [
+    "A220977"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

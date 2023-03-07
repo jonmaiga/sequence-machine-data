@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to write 2n-1=x+y (x,y>=0) with x^18+3*y^18 prime",
+  "id": "A220572",
+  "mentions": [
+    "A036468",
+    "A218867",
+    "A219055",
+    "A219842",
+    "A219864",
+    "A219923",
+    "A220272",
+    "A220413",
+    "A220419",
+    "A220431",
+    "A220455",
+    "A220554"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

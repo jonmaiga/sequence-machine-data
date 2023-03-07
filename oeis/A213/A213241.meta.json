@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which n=(n'' mod n'), where n' and n'' are the first and second arithmetic derivative of n.",
+  "id": "A213241",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

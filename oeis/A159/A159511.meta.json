@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of Hermite(n, 11/14).",
+  "id": "A159511",
+  "mentions": [
+    "A159507",
+    "A159508",
+    "A159509"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "All odd integer numbers which are not a positive power of a single prime and have at least one prime divisor 1 (mod 4).",
+  "id": "A329589",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A227091",
+    "A257591",
+    "A329585",
+    "A329586",
+    "A329587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

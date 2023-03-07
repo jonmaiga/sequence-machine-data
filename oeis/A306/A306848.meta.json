@@ -1,0 +1,20 @@
+{
+  "description": "Product of first n odd nonprimes, a(n) = Product_{k=1..n) A071904(k).",
+  "id": "A306848",
+  "mentions": [
+    "A001147",
+    "A002866",
+    "A036691",
+    "A071904"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:46:19",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the first triangular number T_i exceeding T_n such that the product of T_i*T_n is a perfect square.",
+  "id": "A174906",
+  "mentions": [
+    "A007654",
+    "A132584",
+    "A132596"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

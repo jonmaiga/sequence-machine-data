@@ -1,0 +1,20 @@
+{
+  "description": "The hafnian of a symmetric Toeplitz matrix of order 2*n, n>=2 with the first row (0,2,1,...,1,2); a(0)=1, a(1)=2.",
+  "id": "A336400",
+  "mentions": [
+    "A001515",
+    "A336114",
+    "A336286"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

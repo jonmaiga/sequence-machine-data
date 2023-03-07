@@ -1,0 +1,18 @@
+{
+  "description": "Sums of the squares of the coefficients in the complete Bell polynomials.",
+  "id": "A179120",
+  "mentions": [
+    "A000110",
+    "A036040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

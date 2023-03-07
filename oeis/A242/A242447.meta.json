@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of compositions of n in which the maximal multiplicity of parts equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A242447",
+  "mentions": [
+    "A000007",
+    "A011782",
+    "A032020",
+    "A232665",
+    "A242451",
+    "A243119",
+    "A243120",
+    "A243121",
+    "A243122",
+    "A243123",
+    "A243124",
+    "A243125",
+    "A243126",
+    "A243127"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

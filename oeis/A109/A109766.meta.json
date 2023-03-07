@@ -1,0 +1,18 @@
+{
+  "description": "Admirable numbers such that the subtracted divisor is prime.",
+  "id": "A109766",
+  "mentions": [
+    "A111592"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

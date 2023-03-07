@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k at which A062776(k) reaches a record high.",
+  "id": "A301646",
+  "mentions": [
+    "A062776"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

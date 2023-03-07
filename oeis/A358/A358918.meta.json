@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0, and for any n >= 0, a(n+1) is the length of the longest run of consecutive terms a(i), ..., a(j) with 0 <= i <= j <= n such that a(i) XOR ... a(j) = a(n) (where XOR denotes the bitwise XOR operator).",
+  "id": "A358918",
+  "mentions": [
+    "A358799",
+    "A358919"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

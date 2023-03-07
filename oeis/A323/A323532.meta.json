@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the decimal concatenation of the numbers from 1 up to k followed by digit reversals of the numbers from (k-1) down to 1 is a prime.",
+  "id": "A323532",
+  "mentions": [
+    "A173426"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

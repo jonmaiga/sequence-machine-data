@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that do not equal any number minus its number of factorizations.",
+  "id": "A299790",
+  "mentions": [
+    "A001055"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

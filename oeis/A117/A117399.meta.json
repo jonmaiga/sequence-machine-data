@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 (divided by 2) of triangle A117398, which is the matrix log of A117396.",
+  "id": "A117399",
+  "mentions": [
+    "A117396",
+    "A117398"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

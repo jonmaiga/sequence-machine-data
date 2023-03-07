@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = [x^n] x^k*(1-x^k)^(k-1) / (1-x)^(k-1) for n>=k>=1.",
+  "id": "A221833",
+  "mentions": [
+    "A000169",
+    "A077227",
+    "A221834"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

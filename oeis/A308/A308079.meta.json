@@ -1,0 +1,21 @@
+{
+  "description": "Pseudoprimes to base 3 that divide a Mersenne number.",
+  "id": "A308079",
+  "mentions": [
+    "A001348",
+    "A002326",
+    "A005935",
+    "A052155",
+    "A122094"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 reversed is a prime and k^2 + (k^2 reversed) is a semiprime.",
+  "id": "A307046",
+  "mentions": [
+    "A007488",
+    "A059007",
+    "A306301"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

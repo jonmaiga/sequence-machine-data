@@ -1,0 +1,23 @@
+{
+  "description": "Number of points in a honeycomb net covered by a circular disk of diameter n if the center of the circle is chosen at mid-edge between two grid points.",
+  "id": "A127404",
+  "mentions": [
+    "A053414",
+    "A053417",
+    "A127402",
+    "A127403",
+    "A127405",
+    "A127406"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

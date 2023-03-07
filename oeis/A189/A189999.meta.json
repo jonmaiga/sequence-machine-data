@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + [n*s/r] + [n*t/r]; r=1, s=sinh(1), t=cosh(1).",
+  "id": "A189999",
+  "mentions": [
+    "A190000",
+    "A190001",
+    "A190002"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

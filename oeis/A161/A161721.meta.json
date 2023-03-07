@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the reversal of p is prime and the product of p with its reversal is a palindrome.",
+  "id": "A161721",
+  "mentions": [
+    "A007500",
+    "A062936",
+    "A161594",
+    "A161597",
+    "A161600"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

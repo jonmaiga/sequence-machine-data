@@ -1,0 +1,21 @@
+{
+  "description": "Integer part of the ratio of alternate consecutive prime gaps.",
+  "id": "A276309",
+  "mentions": [
+    "A001223",
+    "A272863",
+    "A274225",
+    "A274263"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

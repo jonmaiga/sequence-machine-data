@@ -1,0 +1,20 @@
+{
+  "description": "Number of natural numbers between exponents of successive Mersenne primes.",
+  "id": "A157891",
+  "mentions": [
+    "A000027",
+    "A000043",
+    "A046933"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

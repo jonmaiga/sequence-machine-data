@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that if m = reverse(phi(n)) then n = reverse(phi(m)).",
+  "id": "A251808",
+  "mentions": [
+    "A000010",
+    "A072395"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

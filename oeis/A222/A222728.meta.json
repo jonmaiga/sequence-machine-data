@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic composite numbers starting with a digit 7.",
+  "id": "A222728",
+  "mentions": [
+    "A002113",
+    "A032350",
+    "A043042",
+    "A222727"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

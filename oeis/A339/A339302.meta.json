@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes rooted at two indistinguishable nodes at distance 3 from each other.",
+  "id": "A339302",
+  "mentions": [
+    "A000081",
+    "A339303"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 4,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

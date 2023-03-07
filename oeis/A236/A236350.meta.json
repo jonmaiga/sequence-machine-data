@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(2+1) 0..2 arrays colored with the sum of the upper and lower median values of each 2X2 subblock",
+  "id": "A236350",
+  "mentions": [
+    "A236354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

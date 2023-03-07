@@ -1,0 +1,19 @@
+{
+  "description": "Number of ascents of length 1 in all dispersed Dyck paths of length n (i.e., in all Motzkin paths of length n with no (1,0) steps at positive heights). An ascent is a maximal sequence of consecutive (1,1)-steps.",
+  "id": "A191386",
+  "mentions": [
+    "A191384",
+    "A323988"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

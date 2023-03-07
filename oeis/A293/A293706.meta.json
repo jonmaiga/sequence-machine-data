@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the shift of the longest palindromic subsequence within the first differences of the concatenation of the first n negative and positive roots of floor(tan(k)) = 1.",
+  "id": "A293706",
+  "mentions": [
+    "A293698",
+    "A293699",
+    "A293700",
+    "A293701",
+    "A293702",
+    "A293703",
+    "A293704",
+    "A293705",
+    "A293751"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

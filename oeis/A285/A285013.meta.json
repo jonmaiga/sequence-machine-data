@@ -1,0 +1,20 @@
+{
+  "description": "Number of periodic palindromic structures of length n using an infinite alphabet.",
+  "id": "A285013",
+  "mentions": [
+    "A165137",
+    "A284841",
+    "A285012",
+    "A285042"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

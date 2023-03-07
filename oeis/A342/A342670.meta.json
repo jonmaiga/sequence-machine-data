@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(n*sigma(A064989(n)), sigma(n)*A064989(n)), where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p, and sigma gives the sum of the divisors of its argument.",
+  "id": "A342670",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A064989",
+    "A326041",
+    "A341530",
+    "A342661",
+    "A342662",
+    "A342663",
+    "A342664"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

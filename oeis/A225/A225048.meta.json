@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that cannot be expressed as n plus the sum of the squared digits of n for any integer n.",
+  "id": "A225048",
+  "mentions": [
+    "A003052",
+    "A003132",
+    "A003219",
+    "A062028",
+    "A066568"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

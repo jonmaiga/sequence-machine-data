@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{k=1..n} {floor(sqrt(k))^2}.",
+  "id": "A174060",
+  "mentions": [
+    "A048760"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:07",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(6/5).",
+  "id": "A153318",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A142238",
+    "A142239",
+    "A153313"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:59:35",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

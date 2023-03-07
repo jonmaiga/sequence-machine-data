@@ -1,0 +1,37 @@
+{
+  "description": "Numbers k such that the k-th standard ordered rooted tree is weakly transitive (counted by A358454).",
+  "id": "A358458",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A004249",
+    "A032027",
+    "A066099",
+    "A290689",
+    "A290822",
+    "A306844",
+    "A318185",
+    "A324695",
+    "A324758",
+    "A324765",
+    "A324766",
+    "A324840",
+    "A358373",
+    "A358377",
+    "A358453",
+    "A358454",
+    "A358455",
+    "A358456",
+    "A358457"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

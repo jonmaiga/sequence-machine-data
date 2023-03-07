@@ -1,0 +1,24 @@
+{
+  "description": "Symmetric matrix based on A000290 (the squares), by antidiagonals.",
+  "id": "A202670",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A000538",
+    "A040977",
+    "A145995",
+    "A193722",
+    "A202671"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:36:27",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

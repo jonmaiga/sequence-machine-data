@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals in which entry T(n,k) in row n and column k gives the number of possible rhombus tilings of an octagon with interior angles of 135 degrees and sequences of side lengths {n, k, 1, 1, n, k, 1, 1} (as the octagon is traversed), n,k in {1,2,3,...}.",
+  "id": "A214457",
+  "mentions": [
+    "A000292",
+    "A006411",
+    "A145596",
+    "A145600"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

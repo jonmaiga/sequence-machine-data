@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with at least two distinct digits in decimal representation, none of which is 0.",
+  "id": "A125290",
+  "mentions": [
+    "A004719",
+    "A043537",
+    "A052382",
+    "A061827",
+    "A101594",
+    "A125293",
+    "A168046"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

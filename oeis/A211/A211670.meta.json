@@ -1,0 +1,26 @@
+{
+  "description": "Number of iterations (...f_4(f_3(f_2(n))))...) such that the result is < 2, where f_j(x):=x^(1/j).",
+  "id": "A211670",
+  "mentions": [
+    "A001069",
+    "A010096",
+    "A084558",
+    "A211662",
+    "A211664",
+    "A211666",
+    "A211668",
+    "A211669"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Near-repunit triangular numbers.",
+  "id": "A257631",
+  "mentions": [
+    "A000217",
+    "A002275",
+    "A062690",
+    "A257630"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

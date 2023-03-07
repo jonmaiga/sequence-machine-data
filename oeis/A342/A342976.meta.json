@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that both distances from A002182(k-1) to A002182(k) and from A002182(k) to A002182(k+1) are not terms of A002182 (highly composite numbers).",
+  "id": "A342976",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

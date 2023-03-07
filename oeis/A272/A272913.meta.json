@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 3*2^(2*n-1)*(n-1)*n^3*binomial(2*n,n)^2, a closed form for a triple binomial sum involving absolute values.",
+  "id": "A272913",
+  "mentions": [
+    "A254408",
+    "A268147",
+    "A268148",
+    "A268149",
+    "A268150",
+    "A268151",
+    "A268152",
+    "A269877"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

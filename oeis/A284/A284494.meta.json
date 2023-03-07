@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A284016(n)^2.",
+  "id": "A284494",
+  "mentions": [
+    "A000108",
+    "A002420",
+    "A284016"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": -1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

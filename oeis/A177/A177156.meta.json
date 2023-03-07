@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (9+sqrt(221))/14.",
+  "id": "A177156",
+  "mentions": [
+    "A130658",
+    "A177157"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:13",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

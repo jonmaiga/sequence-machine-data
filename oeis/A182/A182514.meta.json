@@ -1,0 +1,22 @@
+{
+  "description": "Primes prime(n) such that (prime(n+1)/prime(n))^n > n.",
+  "id": "A182514",
+  "mentions": [
+    "A000101",
+    "A000720",
+    "A002386",
+    "A005669",
+    "A111870",
+    "A205827"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

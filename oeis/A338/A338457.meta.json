@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A338338(k) = k.",
+  "id": "A338457",
+  "mentions": [
+    "A280754",
+    "A338338"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

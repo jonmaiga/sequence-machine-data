@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-ary words beginning with the first character of the alphabet, that can be built by inserting six doublets into the initially empty word.",
+  "id": "A194718",
+  "mentions": [
+    "A183134"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:35",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

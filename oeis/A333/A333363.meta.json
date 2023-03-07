@@ -1,0 +1,20 @@
+{
+  "description": "Horizontal visibility sequence at the onset of chaos in the 3-period cascade.",
+  "id": "A333363",
+  "mentions": [
+    "A007814",
+    "A037227"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

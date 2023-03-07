@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 + Sum_{i=1..n} Sum_{j=1..n} Sum_{k=1..n} i^(j+k).",
+  "id": "A133298",
+  "mentions": [
+    "A062970",
+    "A086787",
+    "A124405"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

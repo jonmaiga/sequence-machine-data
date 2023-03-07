@@ -1,0 +1,20 @@
+{
+  "description": "Transpose T(n,k) of Parker's partition triangle A047812 (n >= 1 and 0 <= k <= n-1).",
+  "id": "A136621",
+  "mentions": [
+    "A000108",
+    "A047812",
+    "A063746"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

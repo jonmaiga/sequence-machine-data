@@ -1,0 +1,29 @@
+{
+  "description": "Triangle generated as the matrix product of A026729 and A000012 (triangular views), read by rows.",
+  "id": "A104726",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000071",
+    "A000108",
+    "A001519",
+    "A001629",
+    "A004070",
+    "A026729",
+    "A122367",
+    "A168491"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

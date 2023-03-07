@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(2*n) = a(n)^2, a(2*n+1) = a(n)*(a(n)+1).",
+  "id": "A139145",
+  "mentions": [
+    "A007018"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

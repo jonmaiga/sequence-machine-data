@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (1/6) * 2^(-n) * n! * [x^n] Exp(2*x, 1)*(Exp(2*x, 3) - 1), where Exp(x, m) = Sum_{k>=0} (x^k / k!)^m.",
+  "id": "A344559",
+  "mentions": [
+    "A344854"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

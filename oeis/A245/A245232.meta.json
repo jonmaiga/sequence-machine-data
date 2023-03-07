@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes of the form (2*n^3+n)/3.",
+  "id": "A245232",
+  "mentions": [
+    "A001358",
+    "A005900"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

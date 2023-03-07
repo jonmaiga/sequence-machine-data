@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct GCDs of nonempty submultisets of the integer partition with Heinz number n.",
+  "id": "A316555",
+  "mentions": [
+    "A056239",
+    "A108917",
+    "A122768",
+    "A275972",
+    "A289508",
+    "A289509",
+    "A296150",
+    "A304793",
+    "A305611",
+    "A316313",
+    "A316314",
+    "A316430",
+    "A316556",
+    "A316557",
+    "A319685",
+    "A319695"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

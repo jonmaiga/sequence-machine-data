@@ -1,0 +1,22 @@
+{
+  "description": "Primes without \"7\" as a digit that remain prime when any single digit is replaced with \"7\".",
+  "id": "A224321",
+  "mentions": [
+    "A038615",
+    "A224319",
+    "A224320",
+    "A224322"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

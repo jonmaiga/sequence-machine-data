@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (30*k)^4 + 1 is prime.",
+  "id": "A341183",
+  "mentions": [
+    "A111175",
+    "A138220"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

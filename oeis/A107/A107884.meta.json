@@ -1,0 +1,29 @@
+{
+  "description": "Matrix cube of triangle A107876; equals the product of triangular matrices: A107876^3 = A107862^-1*A107873.",
+  "id": "A107884",
+  "mentions": [
+    "A107862",
+    "A107867",
+    "A107870",
+    "A107873",
+    "A107876",
+    "A107878",
+    "A107880",
+    "A107885",
+    "A107886",
+    "A107887",
+    "A107888"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:20:09",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

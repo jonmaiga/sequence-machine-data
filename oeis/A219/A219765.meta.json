@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of coefficients of a polynomial sequence related to the coloring of labeled graphs.",
+  "id": "A219765",
+  "mentions": [
+    "A003024",
+    "A006125",
+    "A058843",
+    "A095351",
+    "A134531"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

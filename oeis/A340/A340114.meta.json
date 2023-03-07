@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k), n>=1, k>=1, row n being the lexicographically earliest of the longest sequences of distinct positive integers in which the k-th term does not exceed n*k and the smaller of adjacent terms divides the larger, giving a prime.",
+  "id": "A340114",
+  "mentions": [
+    "A000040",
+    "A300012",
+    "A337125",
+    "A339491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

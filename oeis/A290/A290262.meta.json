@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: rows give the (negated) nonzero coefficients of t in each term of the inverse power product expansion of 1 - t * x/(1-x).",
+  "id": "A290262",
+  "mentions": [
+    "A220418",
+    "A273866",
+    "A289501",
+    "A290261",
+    "A290320"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

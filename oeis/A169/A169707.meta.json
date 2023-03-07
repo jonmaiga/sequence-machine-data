@@ -1,0 +1,45 @@
+{
+  "description": "Total number of ON cells at stage n of two-dimensional cellular automaton defined by \"Rule 750\" using the von Neumann neighborhood.",
+  "id": "A169707",
+  "mentions": [
+    "A000695",
+    "A002450",
+    "A011782",
+    "A048645",
+    "A139250",
+    "A147562",
+    "A147582",
+    "A150552",
+    "A160104",
+    "A160164",
+    "A160552",
+    "A162795",
+    "A169648",
+    "A169649",
+    "A169708",
+    "A169709",
+    "A169710",
+    "A170903",
+    "A187200",
+    "A187220",
+    "A246333",
+    "A246334",
+    "A246335",
+    "A246336",
+    "A253088",
+    "A253098",
+    "A255747"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:49",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

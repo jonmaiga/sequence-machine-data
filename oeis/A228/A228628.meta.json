@@ -1,0 +1,22 @@
+{
+  "description": "9's complement of prime(n).",
+  "id": "A228628",
+  "mentions": [
+    "A000040",
+    "A061601",
+    "A160668"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

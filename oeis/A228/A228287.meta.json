@@ -1,0 +1,17 @@
+{
+  "description": "Smallest value of z in the minimal value of x + y*z, given x + y*z = n (where x, y, z are positive integers).",
+  "id": "A228287",
+  "mentions": [
+    "A228286"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

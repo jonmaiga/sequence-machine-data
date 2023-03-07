@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that m and m+1 each have at least 6 distinct prime factors.",
+  "id": "A321506",
+  "mentions": [
+    "A273879",
+    "A321496",
+    "A321505"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Gaps between first elements of prime quintuples of the form (p, p+2, p+6, p+12, p+14). The quintuples are abutting: twin/cousin/sexy/twin pairs.",
+  "id": "A342502",
+  "mentions": [
+    "A078946"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

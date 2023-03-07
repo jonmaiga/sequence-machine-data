@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = tau(n) + omega(n).",
+  "id": "A163523",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

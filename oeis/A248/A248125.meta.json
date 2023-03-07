@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer m such that m + n divides C(2m,m) + C(2n,n), where C(2k,k) = (2k)!/(k!)^2.",
+  "id": "A248125",
+  "mentions": [
+    "A247824",
+    "A247937",
+    "A247940",
+    "A248123",
+    "A248124"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Multiplicative with a(p^e) = 3*e - 2.",
+  "id": "A360911",
+  "mentions": [
+    "A048785",
+    "A226602",
+    "A360909",
+    "A360910"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

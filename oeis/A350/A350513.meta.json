@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 X n rectangular Celtic knots (up to rotations and symmetries).",
+  "id": "A350513",
+  "mentions": [
+    "A032120"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

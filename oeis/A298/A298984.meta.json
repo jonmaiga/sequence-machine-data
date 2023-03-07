@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that floor((10^p) / k) has digital sum k for some integer p.",
+  "id": "A298984",
+  "mentions": [
+    "A007953",
+    "A052268",
+    "A106039"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

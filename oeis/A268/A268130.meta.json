@@ -1,0 +1,20 @@
+{
+  "description": "Primes p of the form sigma(2^k + 1) - 1 for some k >= 0.",
+  "id": "A268130",
+  "mentions": [
+    "A000051",
+    "A000203",
+    "A019434",
+    "A069061"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

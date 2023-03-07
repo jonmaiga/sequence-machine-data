@@ -1,0 +1,19 @@
+{
+  "description": "Forest-and-trees problem: square of distance to most distant visible tree.",
+  "id": "A124255",
+  "mentions": [
+    "A047896",
+    "A124254",
+    "A124256"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

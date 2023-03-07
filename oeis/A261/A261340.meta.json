@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the radius of convergence of the generating function of A000598, the number of rooted ternary trees of n vertices.",
+  "id": "A261340",
+  "mentions": [
+    "A000598",
+    "A000642",
+    "A002094",
+    "A121331",
+    "A244399"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

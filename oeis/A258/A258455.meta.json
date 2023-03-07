@@ -1,0 +1,24 @@
+{
+  "description": "Divisorial primes: primes p of the form p = 1 + Product_{d|k} d for some k.",
+  "id": "A258455",
+  "mentions": [
+    "A007955",
+    "A048943",
+    "A062459",
+    "A118369",
+    "A118370",
+    "A174895",
+    "A258896",
+    "A258897"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

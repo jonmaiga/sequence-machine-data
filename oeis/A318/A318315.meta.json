@@ -1,0 +1,23 @@
+{
+  "description": "The 2-adic valuation of A318314.",
+  "id": "A318315",
+  "mentions": [
+    "A007814",
+    "A046645",
+    "A317946",
+    "A318314",
+    "A318451",
+    "A318455"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

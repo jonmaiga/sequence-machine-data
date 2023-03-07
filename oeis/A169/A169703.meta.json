@@ -1,0 +1,17 @@
+{
+  "description": "Total number of ON cells at stage n of two-dimensional cellular automaton defined by \"Rule 174\".",
+  "id": "A169703",
+  "mentions": [
+    "A169704"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

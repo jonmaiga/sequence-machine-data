@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci numbers that can be expressed as sum of 2 consecutive prime numbers.",
+  "id": "A258044",
+  "mentions": [
+    "A000045",
+    "A001043"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

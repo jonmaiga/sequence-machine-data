@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows; the n-th row contains, in ascending order, the distinct integers of the form n! / m! (with 1 <= m <= n) that do not appear in former rows.",
+  "id": "A346928",
+  "mentions": [
+    "A000142",
+    "A068424",
+    "A209260",
+    "A348401"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees of depth 2. Numbers that are not powers of 2 but whose prime indices are all powers of 2.",
+  "id": "A324927",
+  "mentions": [
+    "A000081",
+    "A000720",
+    "A003963",
+    "A007097",
+    "A018819",
+    "A033844",
+    "A056239",
+    "A102378",
+    "A109082",
+    "A112798",
+    "A302242",
+    "A318400",
+    "A324928",
+    "A324929"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

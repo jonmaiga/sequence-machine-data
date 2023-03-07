@@ -1,0 +1,24 @@
+{
+  "description": "Triangle: (row n) = partial sums of partial sums of row n of Pascal's triangle.",
+  "id": "A193605",
+  "mentions": [
+    "A000337",
+    "A001787",
+    "A001792",
+    "A045618",
+    "A052509",
+    "A193606"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

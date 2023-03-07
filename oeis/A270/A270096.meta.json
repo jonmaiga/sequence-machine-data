@@ -1,0 +1,25 @@
+{
+  "description": "Smallest m such that 2^m == 2^n (mod n).",
+  "id": "A270096",
+  "mentions": [
+    "A000010",
+    "A001220",
+    "A002326",
+    "A007814",
+    "A051953",
+    "A068494",
+    "A167791",
+    "A276976"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

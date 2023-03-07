@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 1..2*n+4 with each element displaced by at least n.",
+  "id": "A183247",
+  "mentions": [
+    "A183244"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:08:34",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

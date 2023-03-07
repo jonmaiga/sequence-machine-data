@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest integer k such that k/Fibonacci(n) < sqrt(2).",
+  "id": "A293418",
+  "mentions": [
+    "A000045",
+    "A293419",
+    "A293420"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

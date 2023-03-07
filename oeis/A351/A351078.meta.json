@@ -1,0 +1,28 @@
+{
+  "description": "First noncomposite number reached when iterating the map x -> x', when starting from x = n, or 0 if no such number is ever reached. Here x' is the arithmetic derivative of x, A003415.",
+  "id": "A351078",
+  "mentions": [
+    "A003415",
+    "A099309",
+    "A189441",
+    "A189483",
+    "A327968",
+    "A328115",
+    "A328117",
+    "A351079",
+    "A351255",
+    "A351259"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

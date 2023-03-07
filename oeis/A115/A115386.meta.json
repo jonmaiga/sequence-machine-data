@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. For n >= 2, a(n) = sum of the two (not necessarily distinct) earlier terms, a(j) and a(k), which maximizes d(a(j)+a(k)), where d(m) is the number of positive divisors of m. a(n) = the maximum (a(j)+a(k)) if more than one such sum has the maximum number of divisors.",
+  "id": "A115386",
+  "mentions": [
+    "A115387"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sum of the digits squared times the sum of the digits of n to some power equals n.",
+  "id": "A257784",
+  "mentions": [
+    "A061209",
+    "A115518",
+    "A130680"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

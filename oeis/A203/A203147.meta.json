@@ -1,0 +1,18 @@
+{
+  "description": "(n-1)-st elementary symmetric function of {11, 12, 13, 14, ..., 10 + n}.",
+  "id": "A203147",
+  "mentions": [
+    "A001705",
+    "A165675"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

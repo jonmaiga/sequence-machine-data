@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n!*Sum_{m=0..floor(n/3)} 1/(binomial(n-m,2*m).",
+  "id": "A358852",
+  "mentions": [
+    "A358446"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

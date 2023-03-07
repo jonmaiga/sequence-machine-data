@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the string n0123456789 is prime.",
+  "id": "A104801",
+  "mentions": [
+    "A104799",
+    "A104802"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:29",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

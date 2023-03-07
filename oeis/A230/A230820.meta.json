@@ -1,0 +1,36 @@
+{
+  "description": "Table, read by antidiagonals, of palindromic primes in base b expressed in decimal.",
+  "id": "A230820",
+  "mentions": [
+    "A000040",
+    "A002385",
+    "A016041",
+    "A029732",
+    "A029971",
+    "A029972",
+    "A029973",
+    "A029974",
+    "A029975",
+    "A029976",
+    "A029977",
+    "A029978",
+    "A029979",
+    "A029980",
+    "A029981",
+    "A029982",
+    "A182231"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

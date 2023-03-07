@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of the cross-ratio of the four primes p_n, p_{n+1}, p_{n+2}, p_{n+3}, where p_n = prime(n).",
+  "id": "A355972",
+  "mentions": [
+    "A000040",
+    "A355971"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sigma(n) - sigma(A028234(n)), where sigma is the sum of divisors of n, and A028234 gives n without any occurrence of its smallest prime factor.",
+  "id": "A326136",
+  "mentions": [
+    "A000203",
+    "A028234",
+    "A326066",
+    "A326135"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

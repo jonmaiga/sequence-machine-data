@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..2 arrays with no element equal to exactly two horizontal and vertical neighbors, with new values 0..2 introduced in row major order",
+  "id": "A241126",
+  "mentions": [
+    "A241130"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of coefficients in the n-th q-Bell number as a polynomial in q.",
+  "id": "A125811",
+  "mentions": [
+    "A023536",
+    "A125810",
+    "A125812",
+    "A125813",
+    "A125814",
+    "A125815"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:25:27",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

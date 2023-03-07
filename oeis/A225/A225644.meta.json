@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = number of distinct values in column n of A225640.",
+  "id": "A225644",
+  "mentions": [
+    "A225634",
+    "A225639",
+    "A225640",
+    "A225643",
+    "A225645",
+    "A225653",
+    "A225654",
+    "A226056"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

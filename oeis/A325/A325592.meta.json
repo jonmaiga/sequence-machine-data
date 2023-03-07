@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of length-k knapsack partitions of n.",
+  "id": "A325592",
+  "mentions": [
+    "A000041",
+    "A002219",
+    "A004526",
+    "A006827",
+    "A108917",
+    "A143823",
+    "A169942",
+    "A275972",
+    "A276024",
+    "A292886",
+    "A321143",
+    "A325676",
+    "A325687",
+    "A325690"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Inverse binomial transform of A169609, or of A144437 preceded by 1.",
+  "id": "A168615",
+  "mentions": [
+    "A000748",
+    "A057083",
+    "A057682",
+    "A123877",
+    "A144437",
+    "A169609"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

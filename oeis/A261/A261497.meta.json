@@ -1,0 +1,20 @@
+{
+  "description": "Number of necklaces with n white beads and 3*n black beads.",
+  "id": "A261497",
+  "mentions": [
+    "A000010",
+    "A000011",
+    "A261494"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

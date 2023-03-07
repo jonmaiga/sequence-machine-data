@@ -1,0 +1,21 @@
+{
+  "description": "Number of ballot sequences of length 2n with exactly n fixed points.",
+  "id": "A238803",
+  "mentions": [
+    "A000085",
+    "A005425",
+    "A238802"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

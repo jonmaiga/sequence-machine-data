@@ -1,0 +1,28 @@
+{
+  "description": "Starting with m = 1, p = 2 and x = n, iterate m -> m * p^valuation(x,p), x -> floor(x/p), p -> {the next prime after p}, until x is zero. Then a(n) = product of the values of m and p that were reached at the end of the iteration.",
+  "id": "A328613",
+  "mentions": [
+    "A000040",
+    "A007814",
+    "A020639",
+    "A049345",
+    "A055396",
+    "A143293",
+    "A235224",
+    "A276086",
+    "A326810",
+    "A328570",
+    "A328612"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

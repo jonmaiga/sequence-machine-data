@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least k which satisfies n = k + bitcount(k), or 0 if no such k exists. Here bitcount(k) (or wt(k), A000120) gives the number of 1's in binary representation of nonnegative integer k.",
+  "id": "A228086",
+  "mentions": [
+    "A000120",
+    "A010061",
+    "A083058",
+    "A092391",
+    "A213723",
+    "A227643",
+    "A228085",
+    "A228087",
+    "A228088",
+    "A335599"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

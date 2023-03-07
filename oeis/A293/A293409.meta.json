@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the minimum ripple factor for a fifth-order, reflectionless, Chebyshev filter.",
+  "id": "A293409",
+  "mentions": [
+    "A001622",
+    "A020784",
+    "A040021",
+    "A293415",
+    "A293416",
+    "A293417",
+    "A293768",
+    "A293769",
+    "A293770",
+    "A293882"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

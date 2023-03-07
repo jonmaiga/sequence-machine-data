@@ -1,0 +1,19 @@
+{
+  "description": "Number of (not necessarily maximal) cliques in the n-alternating group graph.",
+  "id": "A308599",
+  "mentions": [
+    "A001710",
+    "A317527"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

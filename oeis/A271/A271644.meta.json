@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered ways to write n as w^2 + x^2 + y^2 + z^2 such that w*x + 2*x*y + 2*y*z is a square, where w is a positive integer and x,y,z are nonnegative integers.",
+  "id": "A271644",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271510",
+    "A271513",
+    "A271518",
+    "A271608"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of non-isomorphic connected antichains of multisets of weight n.",
+  "id": "A319719",
+  "mentions": [
+    "A001055",
+    "A001970",
+    "A007716",
+    "A007718",
+    "A056156",
+    "A096827",
+    "A253249",
+    "A285573",
+    "A293994",
+    "A318099",
+    "A319557",
+    "A319616",
+    "A319646",
+    "A319721"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of unlabeled graphs with n vertices and 2 unicyclic components.",
+  "id": "A138387",
+  "mentions": [
+    "A001429",
+    "A137918"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 6,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

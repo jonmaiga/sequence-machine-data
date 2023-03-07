@@ -1,0 +1,42 @@
+{
+  "description": "Filter-sequence for Stern polynomials: Least number with the same prime signature as A260443(n).",
+  "id": "A278243",
+  "mentions": [
+    "A002487",
+    "A007302",
+    "A028928",
+    "A046523",
+    "A069010",
+    "A072453",
+    "A110955",
+    "A125184",
+    "A126606",
+    "A218799",
+    "A218800",
+    "A260443",
+    "A277314",
+    "A277315",
+    "A277325",
+    "A277326",
+    "A277561",
+    "A277700",
+    "A277705",
+    "A278222",
+    "A278226",
+    "A278234",
+    "A278235",
+    "A278236",
+    "A278261"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

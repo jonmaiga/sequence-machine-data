@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the result of n applications of the function f to n, where f(x) = floor((3*x + 1)/2) (A007494).",
+  "id": "A353220",
+  "mentions": [
+    "A007494",
+    "A061419",
+    "A353215"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

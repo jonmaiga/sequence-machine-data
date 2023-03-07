@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of palindrome k and its 10's complement is prime.",
+  "id": "A108537",
+  "mentions": [
+    "A056696",
+    "A108966"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

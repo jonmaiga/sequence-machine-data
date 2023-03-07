@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (prime(n)^6 - 1)/504.",
+  "id": "A306174",
+  "mentions": [
+    "A001221",
+    "A024702",
+    "A089034"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:59",
+    "offset": 5,
+    "size": 26,
+    "source": "joeis"
+  }
+}

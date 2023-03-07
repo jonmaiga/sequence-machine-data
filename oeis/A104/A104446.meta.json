@@ -1,0 +1,23 @@
+{
+  "description": "Square of triangular matrix A104445, read by rows, where X=A104445 satisfies: SHIFT_LEFT_UP(X) = X^2 - X + I.",
+  "id": "A104446",
+  "mentions": [
+    "A091351",
+    "A091352",
+    "A104445",
+    "A104447",
+    "A104448"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

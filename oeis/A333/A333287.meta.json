@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: consider a figure made up of a row of n congruent rectangles and the diagonals of all visible rectangles; T(n,k) (1 <= k <= n) is the number of quadrilateral regions in the k-th rectangle.",
+  "id": "A333287",
+  "mentions": [
+    "A306302",
+    "A324042",
+    "A324043",
+    "A331452",
+    "A333286",
+    "A333288"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

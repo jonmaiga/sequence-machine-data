@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of chi(x^5) / chi(-x^2) in powers of x where chi() is a Ramanujan theta function.",
+  "id": "A139631",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A139632"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:37",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

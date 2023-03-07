@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: exp(exp(x) - 3*x - 1).",
+  "id": "A346738",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A005494",
+    "A126617",
+    "A193683",
+    "A290219",
+    "A346739",
+    "A346740"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

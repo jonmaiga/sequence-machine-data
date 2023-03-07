@@ -1,0 +1,28 @@
+{
+  "description": "Primes of the form (n^2+1)/26.",
+  "id": "A208292",
+  "mentions": [
+    "A000217",
+    "A002144",
+    "A002731",
+    "A002733",
+    "A027862",
+    "A129307",
+    "A203571",
+    "A207337",
+    "A207339",
+    "A208293",
+    "A208294"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

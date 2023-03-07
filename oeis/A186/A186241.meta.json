@@ -1,0 +1,28 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^2 + x^2*A(x)^4 + x^3*A(x)^6.",
+  "id": "A186241",
+  "mentions": [
+    "A036765",
+    "A192415",
+    "A198888",
+    "A198951",
+    "A198953",
+    "A198957",
+    "A199874",
+    "A199876",
+    "A199877",
+    "A200731"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

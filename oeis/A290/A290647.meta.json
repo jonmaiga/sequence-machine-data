@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the position of first occurrence of n^2 in the concatenation of the positive integers in decimal representation.",
+  "id": "A290647",
+  "mentions": [
+    "A031297",
+    "A290787"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

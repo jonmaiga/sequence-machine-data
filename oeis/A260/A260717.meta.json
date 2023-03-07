@@ -1,0 +1,28 @@
+{
+  "description": "Square array: row n gives the numbers remaining before the stage n of Ludic sieve.",
+  "id": "A260717",
+  "mentions": [
+    "A002260",
+    "A003309",
+    "A004736",
+    "A007310",
+    "A020725",
+    "A144396",
+    "A255127",
+    "A258207",
+    "A260714",
+    "A260715",
+    "A260718"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

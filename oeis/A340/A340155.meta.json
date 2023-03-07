@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A008480(k) > k.",
+  "id": "A340155",
+  "mentions": [
+    "A008480",
+    "A025487",
+    "A046523",
+    "A147516",
+    "A260987",
+    "A270308",
+    "A318170"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (21+sqrt(483))/7.",
+  "id": "A176399",
+  "mentions": [
+    "A010723",
+    "A176400"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

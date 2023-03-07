@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of strongly connected directed multigraphs with loops with n arcs and k vertices, which are transitive (the existence of a path between two points implies the existence of an arc between those two points).",
+  "id": "A143842",
+  "mentions": [
+    "A136868",
+    "A138352",
+    "A139625",
+    "A139630",
+    "A143841"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

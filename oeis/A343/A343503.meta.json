@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x*(3*x+1)/2 + y*(7*y+1)/2 + 2^k, where x and y are integers, and k is a nonnegative integer.",
+  "id": "A343503",
+  "mentions": [
+    "A000079",
+    "A001318",
+    "A270566",
+    "A343397",
+    "A343411",
+    "A343460"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

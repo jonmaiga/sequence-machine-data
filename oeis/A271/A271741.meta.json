@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to dissect a hexagon with side length n exactly into two identical parts in a triangular lattice.",
+  "id": "A271741",
+  "mentions": [
+    "A113900",
+    "A268606",
+    "A271857"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Successive sequences whose numbers and their differences of increasing rank include all numbers (generalization of A005228).",
+  "id": "A139123",
+  "mentions": [
+    "A005228"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

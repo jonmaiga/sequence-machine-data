@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of (a(q) + 3*a(q^2) - 4*a(q^4)) / 6 in powers of q where a() is a cubic AGM theta function.",
+  "id": "A244375",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033687",
+    "A033762",
+    "A093829",
+    "A112298",
+    "A121373",
+    "A122861",
+    "A244339"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:11:27",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

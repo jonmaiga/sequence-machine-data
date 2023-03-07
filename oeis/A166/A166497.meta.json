@@ -1,0 +1,19 @@
+{
+  "description": "A Per Bak sand pile collapse sequence using A147665 in the A153112 form.",
+  "id": "A166497",
+  "mentions": [
+    "A147665",
+    "A153112"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

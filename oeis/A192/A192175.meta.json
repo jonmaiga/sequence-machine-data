@@ -1,0 +1,27 @@
+{
+  "description": "Array of primes determined by distance to next prime, by antidiagonals.",
+  "id": "A192175",
+  "mentions": [
+    "A023200",
+    "A031924",
+    "A031926",
+    "A031928",
+    "A031932",
+    "A124588",
+    "A192176",
+    "A192177",
+    "A192178",
+    "A192179"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

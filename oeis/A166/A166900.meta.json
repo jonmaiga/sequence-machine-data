@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, that transforms rows into diagonals in the table of coefficients of successive iterations of x+x^2 (cf. A122888).",
+  "id": "A166900",
+  "mentions": [
+    "A071207",
+    "A112317",
+    "A112319",
+    "A112320",
+    "A122888",
+    "A135080",
+    "A166901",
+    "A166902",
+    "A166903"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

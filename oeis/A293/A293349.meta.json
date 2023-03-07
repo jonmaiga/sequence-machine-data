@@ -1,0 +1,19 @@
+{
+  "description": "Solution of the complementary equation a(n) = a(n-1) + a(n-2) + b(n-2) + n, where a(0) = 1, a(1) = 3, b(0) = 2, b(1) = 4.",
+  "id": "A293349",
+  "mentions": [
+    "A001622",
+    "A293076"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:58:48",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

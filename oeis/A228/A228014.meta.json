@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k whose Collatz sequence length is greater than k+1 (counting both the x/2 and the 3x+1 steps).",
+  "id": "A228014",
+  "mentions": [
+    "A082984"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 'c2', a constant (negated) closely related to 'c1', the Quinn-Rand-Strogatz (QRS) constant of nonlinear physics.",
+  "id": "A244850",
+  "mentions": [
+    "A131329"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

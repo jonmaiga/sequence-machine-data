@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..1 arrays with rows and columns unimodal and antidiagonals nondecreasing.",
+  "id": "A223772",
+  "mentions": [
+    "A223777"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:11",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

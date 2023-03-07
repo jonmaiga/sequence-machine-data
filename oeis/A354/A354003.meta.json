@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Stirling transform of A008578 (1 together with the primes).",
+  "id": "A354003",
+  "mentions": [
+    "A008578",
+    "A307772",
+    "A307773",
+    "A351681",
+    "A354002"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

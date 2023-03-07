@@ -1,0 +1,19 @@
+{
+  "description": "Sum of mass(k/n) for all k, 1 <= k <= n, that are relatively prime to n.",
+  "id": "A360264",
+  "mentions": [
+    "A000010",
+    "A049835"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

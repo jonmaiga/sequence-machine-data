@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(k*gamma) where gamma is Euler's constant (A001620).",
+  "id": "A184977",
+  "mentions": [
+    "A001620",
+    "A002852",
+    "A020760",
+    "A038128",
+    "A183143"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:49",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

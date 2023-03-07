@@ -1,0 +1,24 @@
+{
+  "description": "Primes whose base-4 representation is a square when read in base 10.",
+  "id": "A267818",
+  "mentions": [
+    "A241246",
+    "A267490",
+    "A267764",
+    "A267817",
+    "A267819",
+    "A267820",
+    "A267821"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

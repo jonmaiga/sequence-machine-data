@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1+x^k)^(k^2) in powers of x.",
+  "id": "A284896",
+  "mentions": [
+    "A027998",
+    "A078307",
+    "A081362",
+    "A255528",
+    "A266964",
+    "A281590",
+    "A281591",
+    "A284897",
+    "A284898",
+    "A284899"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

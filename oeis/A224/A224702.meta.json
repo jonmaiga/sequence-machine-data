@@ -1,0 +1,19 @@
+{
+  "description": "Number of partition sums between powers of 2 where the partition sums b(k) are A000070 and 2^n <= b(k) < 2^(n+1).",
+  "id": "A224702",
+  "mentions": [
+    "A000070",
+    "A036378",
+    "A052005"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

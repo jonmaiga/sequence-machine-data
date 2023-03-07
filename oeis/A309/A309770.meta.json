@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are sums of one or more consecutive primes in more than one way.",
+  "id": "A309770",
+  "mentions": [
+    "A000040",
+    "A034707",
+    "A050936",
+    "A054845",
+    "A054996",
+    "A067372",
+    "A067377"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in expansion of Ihara zeta function for infinite grid Z x Z.",
+  "id": "A241589",
+  "mentions": [
+    "A241587",
+    "A241588"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

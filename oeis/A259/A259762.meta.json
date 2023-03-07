@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer k_1 such that there exist n positive integers k_1 > k_2 > ... > k_n having the property that k_j * k_n > k_(j+1)^2 for j=1..n-1.",
+  "id": "A259762",
+  "mentions": [
+    "A237749"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

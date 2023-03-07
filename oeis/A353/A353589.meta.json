@@ -1,0 +1,19 @@
+{
+  "description": "Number of nondecreasing nonnegative integer quadruples (m,p,q,r) such that m^2 + p^2 + q^2 + r^2 = n^2 and m +- p +- q +- r = +- n.",
+  "id": "A353589",
+  "mentions": [
+    "A133388",
+    "A278085",
+    "A354766"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

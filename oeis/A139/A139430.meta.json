@@ -1,0 +1,27 @@
+{
+  "description": "Smallest prime p such that M(n)^2+p*M(n)-1 is prime with M(n)= Mersenne primes =A000668(n).",
+  "id": "A139430",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A139424",
+    "A139425",
+    "A139426",
+    "A139427",
+    "A139428",
+    "A139429",
+    "A139431"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

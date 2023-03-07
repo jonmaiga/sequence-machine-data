@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form ((k+1)^k - 1)/k^2 = A060073(k+1).",
+  "id": "A128466",
+  "mentions": [
+    "A037205",
+    "A058128",
+    "A060072",
+    "A060073",
+    "A127837",
+    "A128456"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

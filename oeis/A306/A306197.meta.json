@@ -1,0 +1,25 @@
+{
+  "description": "The label of the largest square that an (m,n)-leaper (a generalization of a chess knight) reaches before it can no longer move, starting on a board with squares spirally numbered, starting at 1. Each move is to the lowest-numbered unvisited square.",
+  "id": "A306197",
+  "mentions": [
+    "A316667",
+    "A317106",
+    "A317416",
+    "A317438",
+    "A317471",
+    "A317916",
+    "A323749",
+    "A323750"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^6 can be written as a sum of 11 positive 6th powers.",
+  "id": "A301601",
+  "mentions": [
+    "A003294",
+    "A297305"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

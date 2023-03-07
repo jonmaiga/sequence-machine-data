@@ -1,0 +1,27 @@
+{
+  "description": "Numbers congruent to 2 or 11 mod 14.",
+  "id": "A306278",
+  "mentions": [
+    "A007310",
+    "A010703",
+    "A020639",
+    "A045471",
+    "A047470",
+    "A091999",
+    "A273669",
+    "A306277",
+    "A306289"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:59",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

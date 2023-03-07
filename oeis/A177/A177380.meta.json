@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies: A(x) = 1+x + x*log(A(x)).",
+  "id": "A177380",
+  "mentions": [
+    "A038037",
+    "A138013",
+    "A177379",
+    "A238274"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Let n = Sum_{i=0..k} d_i*4^i be the base-4 expansion of n, with 0 <= d_i < 4. Then a(n) = minimal i such that d_i is not 1, or k+1 if there is no such i.",
+  "id": "A258059",
+  "mentions": [
+    "A001511",
+    "A007090",
+    "A007814",
+    "A030386",
+    "A235127",
+    "A263845"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

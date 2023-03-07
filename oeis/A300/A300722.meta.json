@@ -1,0 +1,21 @@
+{
+  "description": "Difference between A060681 (largest difference between consecutive divisors of n as ordered by size) and its Möbius transform.",
+  "id": "A300722",
+  "mentions": [
+    "A008683",
+    "A032742",
+    "A060681",
+    "A300721"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of not unique partition coefficients of n.",
+  "id": "A309897",
+  "mentions": [
+    "A000041",
+    "A070289"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

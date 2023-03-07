@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that reciprocal of n contains the reverse of n as a string of digits to the immediate right of the decimal point (excluding leading zeros).",
+  "id": "A105430",
+  "mentions": [
+    "A074841",
+    "A105429"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

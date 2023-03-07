@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of A126760 with Liouville's lambda.",
+  "id": "A349395",
+  "mentions": [
+    "A008836",
+    "A126760",
+    "A347233",
+    "A347234",
+    "A349375",
+    "A349390",
+    "A349391",
+    "A349392",
+    "A349393"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squares visited by a knight moving on a spirally numbered board where the knight moves to the smallest unvisited square using the fewest possible steps. If two or more equal length paths exist it chooses the path with the lowest sum of visited numbers, and if two paths have the same sum of visited numbers it chooses the one that visits the smallest number.",
+  "id": "A344046",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A296030",
+    "A316667",
+    "A344129"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Value of concatenation of m and e in binary representation, where n=m*2^e and m odd.",
+  "id": "A144583",
+  "mentions": [
+    "A000265",
+    "A004767",
+    "A005408",
+    "A007088",
+    "A007814",
+    "A016825",
+    "A017113",
+    "A017137"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

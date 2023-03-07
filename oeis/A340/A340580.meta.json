@@ -1,0 +1,20 @@
+{
+  "description": "Ramanujan's highly composite numbers A002182 sandwiched between nonprimes.",
+  "id": "A340580",
+  "mentions": [
+    "A002182",
+    "A018252",
+    "A068507",
+    "A346529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

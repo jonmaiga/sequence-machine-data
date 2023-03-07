@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows in which row n lists A033627(n) together with the first 2n-1 positive integers.",
+  "id": "A171173",
+  "mentions": [
+    "A000027",
+    "A033627",
+    "A161165",
+    "A161166",
+    "A171164",
+    "A171165",
+    "A171172",
+    "A171174",
+    "A171175",
+    "A171176",
+    "A171177",
+    "A171178",
+    "A172310"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

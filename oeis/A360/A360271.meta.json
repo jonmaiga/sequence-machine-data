@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} (-1)^k * binomial(n-3*k,k) * Catalan(n-3*k).",
+  "id": "A360271",
+  "mentions": [
+    "A000108",
+    "A157003",
+    "A360219",
+    "A360272"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

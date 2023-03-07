@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1/(2 - exp(x) - x^3/6).",
+  "id": "A352307",
+  "mentions": [
+    "A006155",
+    "A352299",
+    "A352306",
+    "A352308"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

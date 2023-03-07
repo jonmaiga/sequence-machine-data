@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers not divisible by lesser triangular numbers > 1.",
+  "id": "A226863",
+  "mentions": [
+    "A000217",
+    "A137281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

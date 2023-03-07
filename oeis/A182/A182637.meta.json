@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose Wythoff representation has even length.",
+  "id": "A182637",
+  "mentions": [
+    "A035513",
+    "A135817",
+    "A182636"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of bi-unitary amicable pair.",
+  "id": "A292980",
+  "mentions": [
+    "A000203",
+    "A002025",
+    "A188999",
+    "A292981"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

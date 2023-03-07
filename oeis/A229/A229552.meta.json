@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that phi(k) = phi(k+2) - phi(k+1).",
+  "id": "A229552",
+  "mentions": [
+    "A000010",
+    "A057000",
+    "A065557",
+    "A092404",
+    "A197112"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

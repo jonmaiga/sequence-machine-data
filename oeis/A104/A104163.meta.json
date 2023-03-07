@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that (2p+1)/3 is prime.",
+  "id": "A104163",
+  "mentions": [
+    "A005384",
+    "A158708"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

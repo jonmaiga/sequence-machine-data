@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers such that sum of digits in base 16 equals product of digits in base 16.",
+  "id": "A260904",
+  "mentions": [
+    "A066306"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows where T(m,n)=2mn + m + n - 3, 1<=n<=m.",
+  "id": "A154684",
+  "mentions": [
+    "A008589",
+    "A016777",
+    "A016897",
+    "A017173",
+    "A105760",
+    "A153053",
+    "A162265"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:41",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

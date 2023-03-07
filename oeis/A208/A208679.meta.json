@@ -1,0 +1,24 @@
+{
+  "description": "Kashaev's invariant for the (5,2)-torus knot (Solomon's seal knot).",
+  "id": "A208679",
+  "mentions": [
+    "A002439",
+    "A057569",
+    "A208680",
+    "A208681",
+    "A208730",
+    "A208733"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:14:32",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

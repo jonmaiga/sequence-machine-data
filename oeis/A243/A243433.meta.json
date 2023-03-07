@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of c = twice the maximum of Dawson's integral, a constant used in the asymptotic evaluation of the ideal hyperbolic n-cube volume.",
+  "id": "A243433",
+  "mentions": [
+    "A133841",
+    "A133842"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

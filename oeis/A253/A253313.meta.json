@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(7+1) 0..2 arrays with every 2X2 subblock diagonal maximum minus antidiagonal maximum unequal to its neighbors horizontally, vertically, diagonally and antidiagonally",
+  "id": "A253313",
+  "mentions": [
+    "A253314"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

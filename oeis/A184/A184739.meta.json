@@ -1,0 +1,18 @@
+{
+  "description": "floor(n*s+h-h*s), where s=3+sqrt(5), h=1/2; complement of A184738.",
+  "id": "A184739",
+  "mentions": [
+    "A184738"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:59",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

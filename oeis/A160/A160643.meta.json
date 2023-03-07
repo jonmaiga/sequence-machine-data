@@ -1,0 +1,21 @@
+{
+  "description": "Bisect A053445 then calculate the first differences of the resulting sequence.",
+  "id": "A160643",
+  "mentions": [
+    "A000041",
+    "A053445",
+    "A160644",
+    "A161921"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

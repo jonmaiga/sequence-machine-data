@@ -1,0 +1,22 @@
+{
+  "description": "Lower of a pair of adjacent perfect powers x^p and y^q with p, q >= 4.",
+  "id": "A340696",
+  "mentions": [
+    "A001597",
+    "A340697",
+    "A340700",
+    "A340701"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

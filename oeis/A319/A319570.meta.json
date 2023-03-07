@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A284986(n)^2.",
+  "id": "A319570",
+  "mentions": [
+    "A284986",
+    "A319388"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

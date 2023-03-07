@@ -1,0 +1,21 @@
+{
+  "description": "Minimal nonnegative integer that cannot be represented as the sum of an m-gonal and a k-gonal number for any k,m less than n.",
+  "id": "A176874",
+  "mentions": [
+    "A176774",
+    "A176873"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

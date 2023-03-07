@@ -1,0 +1,25 @@
+{
+  "description": "Add 3 to each of the preceding digits, beginning with 1.",
+  "id": "A103702",
+  "mentions": [
+    "A103695",
+    "A103701",
+    "A103703",
+    "A103704",
+    "A103705",
+    "A103706",
+    "A103707",
+    "A103708"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Change the array in A125624 by putting a 1 at the top of the first column and pushing that column down by one place; a(n) is the sum of the terms in the modified array down to and including n, in the column that contains n.",
+  "id": "A328637",
+  "mentions": [
+    "A125624",
+    "A328638"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

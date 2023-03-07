@@ -1,0 +1,31 @@
+{
+  "description": "Number of inversion sequences of length n avoiding the consecutive patterns 000 and 001.",
+  "id": "A328436",
+  "mentions": [
+    "A328357",
+    "A328358",
+    "A328429",
+    "A328430",
+    "A328431",
+    "A328432",
+    "A328433",
+    "A328434",
+    "A328435",
+    "A328437",
+    "A328438",
+    "A328439",
+    "A328440",
+    "A328441",
+    "A328442"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

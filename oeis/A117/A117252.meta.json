@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T, read by rows, where matrix power T^3 has powers of 3 in the secondary diagonal: [T^3](n+1,n) = 3^(n+1), with all 1's in the main diagonal and zeros elsewhere.",
+  "id": "A117252",
+  "mentions": [
+    "A117250",
+    "A117253",
+    "A117254",
+    "A117256",
+    "A117258",
+    "A117260",
+    "A117262",
+    "A117265"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

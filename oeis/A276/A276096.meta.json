@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number of empty convex pentagons (\"convex 5-holes\") spanned by a set of n points in the Euclidean plane in general position (i.e., no three points on a line).",
+  "id": "A276096",
+  "mentions": [
+    "A006247",
+    "A063541",
+    "A063542",
+    "A063666"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

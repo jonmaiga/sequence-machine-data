@@ -1,0 +1,19 @@
+{
+  "description": "The second Zagreb index of the rooted tree with Matula-Goebel number n.",
+  "id": "A196054",
+  "mentions": [
+    "A196052",
+    "A196053"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

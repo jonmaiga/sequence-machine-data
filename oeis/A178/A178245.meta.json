@@ -1,0 +1,18 @@
+{
+  "description": "If one lines up the columns of the binary representations in A130310, the minimal (or \"greedy\") Lucas representation of n, this sequence gives the column number (starting with 0) of the starting point of the blocks of 1s which occur.",
+  "id": "A178245",
+  "mentions": [
+    "A035614",
+    "A130310"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

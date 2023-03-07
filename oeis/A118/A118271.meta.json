@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (9 * theta_4(q^3)^4 - theta_4(q)^4) / 8 in powers of q.",
+  "id": "A118271",
+  "mentions": [
+    "A109056",
+    "A109506",
+    "A118272"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:13",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

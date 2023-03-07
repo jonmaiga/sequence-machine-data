@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of Sum_{k=0..n} 1/C(3n,3k).",
+  "id": "A100514",
+  "mentions": [
+    "A046825",
+    "A100513",
+    "A100515"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

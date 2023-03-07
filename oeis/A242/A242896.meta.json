@@ -1,0 +1,29 @@
+{
+  "description": "Number T(n,k) of compositions of n into k parts with distinct multiplicities, where parts are counted without multiplicities; triangle T(n,k), n>=0, 0<=k<=max{i:A000292(i)<=n}, read by rows.",
+  "id": "A242896",
+  "mentions": [
+    "A000005",
+    "A000007",
+    "A000292",
+    "A182485",
+    "A242882",
+    "A242887",
+    "A242900",
+    "A246230",
+    "A246231",
+    "A246232",
+    "A246233",
+    "A246234"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

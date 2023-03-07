@@ -1,0 +1,22 @@
+{
+  "description": "Let f(a,q) = Product_{j>=0} (1 - a*q^j); g.f. is f(q^2,q^3) / f(q,q^3).",
+  "id": "A111317",
+  "mentions": [
+    "A005169",
+    "A111165",
+    "A143951",
+    "A166861"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

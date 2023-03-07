@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that the Bernoulli number B_{4n} has denominator 30.",
+  "id": "A119480",
+  "mentions": [
+    "A043297",
+    "A045402",
+    "A045404",
+    "A045979",
+    "A051222",
+    "A051225",
+    "A051230",
+    "A053176",
+    "A081092",
+    "A090863"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

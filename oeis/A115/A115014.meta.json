@@ -1,0 +1,17 @@
+{
+  "description": "Sum_{i=1..n, gcd(6,i)=1} i.",
+  "id": "A115014",
+  "mentions": [
+    "A115012"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

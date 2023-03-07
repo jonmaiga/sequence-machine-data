@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Pi/(sqrt(2)*L) * (1 + 2*Sum_{n>=1} cos(2*Pi*n*x/L)/cosh(n*Pi)) where L = Lemniscate constant.",
+  "id": "A193540",
+  "mentions": [
+    "A193541",
+    "A193542",
+    "A193543",
+    "A193544",
+    "A193545"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

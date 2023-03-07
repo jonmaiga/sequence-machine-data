@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered rooted trees with n non-root nodes such that the maximal outdegree equals three.",
+  "id": "A303271",
+  "mentions": [
+    "A001006",
+    "A036765",
+    "A203717"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 3,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n is odd and not divisible by two consecutive prime numbers, otherwise 0.",
+  "id": "A356172",
+  "mentions": [
+    "A000035",
+    "A003961",
+    "A322361",
+    "A356164",
+    "A356166",
+    "A356169",
+    "A356171",
+    "A356173"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

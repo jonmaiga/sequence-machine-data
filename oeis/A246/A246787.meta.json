@@ -1,0 +1,21 @@
+{
+  "description": "Indices of records in A182134.",
+  "id": "A246787",
+  "mentions": [
+    "A000040",
+    "A182134",
+    "A246786",
+    "A246810"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

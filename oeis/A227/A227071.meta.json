@@ -1,0 +1,28 @@
+{
+  "description": "Let s(m) = the set of k > 0 such that k^m ends with k. Then a(n) = least m such that s(m) = s(n).",
+  "id": "A227071",
+  "mentions": [
+    "A003226",
+    "A033819",
+    "A068407",
+    "A068408",
+    "A072495",
+    "A072496",
+    "A076650",
+    "A132741",
+    "A227070"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

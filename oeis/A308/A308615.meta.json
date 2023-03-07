@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the even shifted moments of the ternary Cantor measure.",
+  "id": "A308615",
+  "mentions": [
+    "A308612",
+    "A308613",
+    "A308614"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

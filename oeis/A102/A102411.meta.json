@@ -1,0 +1,31 @@
+{
+  "description": "Even triangle !n. This table read by rows gives the coefficients of sum formulas of n-th Left factorials (A003422). The k-th row (6>=k>=1) contains T(i,k) for i=1 to k+2, where k=[2*n+1+(-1)^(n-1)]/4 and T(i,k) satisfies !n = Sum_{i=1..k+2} T(i,k) * n^(i-1) / (2*k-2)!.",
+  "id": "A102411",
+  "mentions": [
+    "A000142",
+    "A003422",
+    "A008276",
+    "A094216",
+    "A094638",
+    "A099731",
+    "A101032",
+    "A101559",
+    "A101751",
+    "A101752",
+    "A102409",
+    "A102410",
+    "A102412"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

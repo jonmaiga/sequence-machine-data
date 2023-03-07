@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^4 + 324.",
+  "id": "A272298",
+  "mentions": [
+    "A000583",
+    "A005917",
+    "A057781",
+    "A227855",
+    "A272297"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:11:15",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

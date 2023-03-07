@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: 3F2([1/7, 2/7, 4/7], [1/2, 1], 2401 x).",
+  "id": "A275052",
+  "mentions": [
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

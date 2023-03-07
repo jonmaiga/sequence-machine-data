@@ -1,0 +1,19 @@
+{
+  "description": "For n>2, a(n) > 0 is such that a(n-1)^2+4*a(n-2)*a(n) is a minimal square, a(1)=1,a(2)=12.",
+  "id": "A105745",
+  "mentions": [
+    "A105734",
+    "A105746"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:51",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

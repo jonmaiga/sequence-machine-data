@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = - A010815(7*n + 1).",
+  "id": "A185295",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:48:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

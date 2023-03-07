@@ -1,0 +1,24 @@
+{
+  "description": "One of the two successive approximations up to 3^n for the 3-adic integer sqrt(-2). These are the numbers congruent to 1 mod 3 (except for n = 0).",
+  "id": "A268924",
+  "mentions": [
+    "A000032",
+    "A006267",
+    "A268922",
+    "A271222",
+    "A271223",
+    "A271224"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

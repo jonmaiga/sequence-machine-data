@@ -1,0 +1,29 @@
+{
+  "description": "Number of ordered trees isomorphic (as rooted trees) to the rooted tree having Matula number n.",
+  "id": "A206487",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A003238",
+    "A014486",
+    "A061775",
+    "A127301",
+    "A196050",
+    "A214577",
+    "A358506",
+    "A358507",
+    "A358508"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 160,
+    "source": "oeis-entry"
+  }
+}

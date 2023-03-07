@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled rooted trees with 2n nodes and maximal outdegree (branching factor) n.",
+  "id": "A244407",
+  "mentions": [
+    "A051491",
+    "A244372",
+    "A244410",
+    "A299039"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

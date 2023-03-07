@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k whose nearest neighbors have the same number of divisors, the same number of distinct prime factors, and the same sum of divisors.",
+  "id": "A294173",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A055574",
+    "A067888",
+    "A088070",
+    "A229254"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which there is no k such that n - k and n + k are both prime, with 0 <= k <= sqrt(n).",
+  "id": "A236917",
+  "mentions": [
+    "A236747"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

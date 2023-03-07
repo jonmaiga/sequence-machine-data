@@ -1,0 +1,28 @@
+{
+  "description": "Number of (directed) Eulerian circuits on the complete graph K_{2n+1}.",
+  "id": "A135388",
+  "mentions": [
+    "A007082",
+    "A232545",
+    "A350028",
+    "A356366",
+    "A357855",
+    "A357856",
+    "A357857",
+    "A357885",
+    "A357886",
+    "A357887"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

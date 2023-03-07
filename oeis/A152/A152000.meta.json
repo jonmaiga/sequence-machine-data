@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is squarefree and such that for every prime p|a(n) and every prime q|p-1 then q|a(n) holds.",
+  "id": "A152000",
+  "mentions": [
+    "A002618",
+    "A007947",
+    "A151999"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

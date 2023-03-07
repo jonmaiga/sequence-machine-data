@@ -1,0 +1,19 @@
+{
+  "description": "Sum of indices of Fibonacci numbers in Zeckendorf representation of n, assuming that the units place is Fibonacci(1).",
+  "id": "A227789",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A227788"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

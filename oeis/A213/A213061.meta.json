@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of Stirling numbers of second kind (A048993) read mod 2.",
+  "id": "A213061",
+  "mentions": [
+    "A008277",
+    "A048993",
+    "A087748",
+    "A103631",
+    "A121314",
+    "A133607",
+    "A208345"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

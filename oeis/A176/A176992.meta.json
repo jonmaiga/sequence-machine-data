@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,m) = binomial(2n-k+1, n+1) read by rows, 0 <= k <= n.",
+  "id": "A176992",
+  "mentions": [
+    "A000108",
+    "A001791",
+    "A033184",
+    "A054445",
+    "A059481",
+    "A078812",
+    "A092392",
+    "A178300"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

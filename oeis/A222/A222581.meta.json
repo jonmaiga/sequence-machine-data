@@ -1,0 +1,21 @@
+{
+  "description": "Run lengths of digits when concatenating Roman numerals less than 4000, cf. A093796.",
+  "id": "A222581",
+  "mentions": [
+    "A078715",
+    "A093796"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

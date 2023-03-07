@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k! has a factorial number of decimal digits.",
+  "id": "A333431",
+  "mentions": [
+    "A000142",
+    "A034886"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

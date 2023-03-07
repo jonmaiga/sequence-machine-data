@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} 1/(1 - (2*k-1)^2 * x).",
+  "id": "A348088",
+  "mentions": [
+    "A001818",
+    "A348087"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

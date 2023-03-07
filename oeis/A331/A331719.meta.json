@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonequivalent 5-column binary matrices with n ones in every column and any number of distinct nonzero rows up to permutation of rows and columns.",
+  "id": "A331719",
+  "mentions": [
+    "A331127",
+    "A331510"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

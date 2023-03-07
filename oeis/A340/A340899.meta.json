@@ -1,0 +1,32 @@
+{
+  "description": "Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(4,n) (with n at least 4) missing three edges, where all three removed edges are incident to the same vertex in the 4-point set.",
+  "id": "A340899",
+  "mentions": [
+    "A048291",
+    "A152927",
+    "A152928",
+    "A152929",
+    "A152930",
+    "A152931",
+    "A152932",
+    "A152933",
+    "A152934",
+    "A152939",
+    "A335608",
+    "A335613",
+    "A337416",
+    "A337418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:46:39",
+    "offset": 4,
+    "size": 16,
+    "source": "joeis"
+  }
+}

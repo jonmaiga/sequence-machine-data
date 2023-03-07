@@ -1,0 +1,20 @@
+{
+  "description": "Number of commuting 4-tuples of elements from S_n, divided by n!.",
+  "id": "A226313",
+  "mentions": [
+    "A001001",
+    "A061256",
+    "A301777"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

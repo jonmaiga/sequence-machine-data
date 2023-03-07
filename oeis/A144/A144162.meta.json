@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with at least two digits in which all digits except the rightmost are 0 or 5 and the rightmost is neither 0 nor 5.",
+  "id": "A144162",
+  "mentions": [
+    "A143712",
+    "A163396",
+    "A169984"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

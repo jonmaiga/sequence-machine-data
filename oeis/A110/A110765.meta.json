@@ -1,0 +1,23 @@
+{
+  "description": "Let n in binary be a k-digit number say abbaaa... where a = 1 and b = 0. a(n) = 2^a*3^b*5^b*7*a... primes in increasing order raised to the powers starting from the MSB.",
+  "id": "A110765",
+  "mentions": [
+    "A000040",
+    "A019565",
+    "A030308",
+    "A110766"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

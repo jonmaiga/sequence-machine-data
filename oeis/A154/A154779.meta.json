@@ -1,0 +1,18 @@
+{
+  "description": "Number of terms with n digits in A154780.",
+  "id": "A154779",
+  "mentions": [
+    "A154780"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

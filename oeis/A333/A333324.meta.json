@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive distinct integers such that if a(n) steps over a(n) commas to the right, it is met by a term whose leftmost digit is odd.",
+  "id": "A333324",
+  "mentions": [
+    "A333404",
+    "A333406"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

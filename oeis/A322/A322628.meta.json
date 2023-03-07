@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-digit decimal numbers containing a fixed 2-digit integer with distinct digits as a substring.",
+  "id": "A322628",
+  "mentions": [
+    "A004189",
+    "A138288",
+    "A255372",
+    "A322052"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

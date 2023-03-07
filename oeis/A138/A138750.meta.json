@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = ceiling(n/2) if n == 2 (mod 3), a(n) = 2n otherwise.",
+  "id": "A138750",
+  "mentions": [
+    "A000040",
+    "A001281",
+    "A007918",
+    "A008588",
+    "A016933",
+    "A032766",
+    "A124123",
+    "A138751",
+    "A138753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:23",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

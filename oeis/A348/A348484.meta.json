@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of squares on an n X n chessboard such that no two are two steps apart horizontally or vertically.",
+  "id": "A348484",
+  "mentions": [
+    "A048716"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

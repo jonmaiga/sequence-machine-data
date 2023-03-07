@@ -1,0 +1,21 @@
+{
+  "description": "Positions where A119842 is zero.",
+  "id": "A119847",
+  "mentions": [
+    "A119842",
+    "A119848",
+    "A119850",
+    "A119899",
+    "A229153"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

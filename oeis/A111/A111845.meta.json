@@ -1,0 +1,24 @@
+{
+  "description": "Triangle P, read by rows, that satisfies [P^4](n,k) = P(n+1,k+1) for n>=k>=0, also [P^(4*m)](n,k) = [P^m](n+1,k+1) for all m, where [P^m](n,k) denotes the element at row n, column k, of the matrix power m of P, with P(k,k)=1 and P(k+1,1)=P(k+1,0) for k>=0.",
+  "id": "A111845",
+  "mentions": [
+    "A078536",
+    "A111840",
+    "A111846",
+    "A111847",
+    "A111848",
+    "A111849"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

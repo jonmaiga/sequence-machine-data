@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that P(n) = P(B(n)), where P() = A100549() and B() = A100762.",
+  "id": "A100417",
+  "mentions": [
+    "A100549",
+    "A100762"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

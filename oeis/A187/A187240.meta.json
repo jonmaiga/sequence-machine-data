@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to place 8 nonattacking bishops on an n X n board.",
+  "id": "A187240",
+  "mentions": [
+    "A002465",
+    "A172123",
+    "A172124",
+    "A172127",
+    "A172129",
+    "A176886",
+    "A187239"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:59",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

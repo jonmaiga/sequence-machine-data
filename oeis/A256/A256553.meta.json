@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) in which the n-th row contains the increasing list of distinct orders of degree-n permutations; n>=0, 1<=k<=A009490(n).",
+  "id": "A256553",
+  "mentions": [
+    "A000027",
+    "A000793",
+    "A009490",
+    "A060179",
+    "A181844",
+    "A256067",
+    "A256554"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

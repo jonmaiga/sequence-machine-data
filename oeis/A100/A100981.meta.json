@@ -1,0 +1,26 @@
+{
+  "description": "Number of totally ramified extensions over Q_5 with degree n in the algebraic closure of Q_5.",
+  "id": "A100981",
+  "mentions": [
+    "A100976",
+    "A100977",
+    "A100978",
+    "A100979",
+    "A100980",
+    "A100983",
+    "A100984",
+    "A100985",
+    "A100986"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

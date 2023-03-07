@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive Pythagorean triangles with sum of legs n.",
+  "id": "A330174",
+  "mentions": [
+    "A058529",
+    "A198441"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

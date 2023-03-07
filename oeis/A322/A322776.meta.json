@@ -1,0 +1,21 @@
+{
+  "description": "Scan first k digits of Pi after decimal point, for k = 1,2,3,..., record all distinct numbers in the order in which they appear.",
+  "id": "A322776",
+  "mentions": [
+    "A039916",
+    "A154883",
+    "A322777",
+    "A323036"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of 1s in A316713(n). That is, a(n) is the number of B-sequences (A278039) used in the tribonacci ABC-representation of n >= 0.",
+  "id": "A316715",
+  "mentions": [
+    "A278039",
+    "A316713",
+    "A316714",
+    "A316716",
+    "A316717"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

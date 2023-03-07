@@ -1,0 +1,20 @@
+{
+  "description": "Positions n of A121500 where the minimal relative error associated with the polygon problem described there decreases.",
+  "id": "A121501",
+  "mentions": [
+    "A121500",
+    "A121502"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

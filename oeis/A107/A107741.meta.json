@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number m such that prime(n) = m + (digit sum of m), a(n)=0 if no such m exists.",
+  "id": "A107741",
+  "mentions": [
+    "A000040",
+    "A047791",
+    "A048521",
+    "A055642",
+    "A062028",
+    "A107740"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

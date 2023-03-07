@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that Fibonacci(k + 1) has n times as many distinct prime factors as Fibonacci(k), or 0 if no such k exists.",
+  "id": "A277213",
+  "mentions": [
+    "A000045",
+    "A001221",
+    "A022307",
+    "A277207"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

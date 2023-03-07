@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5 X n nonconsecutive chess tableaux.",
+  "id": "A214461",
+  "mentions": [
+    "A214088"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

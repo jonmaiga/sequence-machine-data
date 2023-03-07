@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations of [n] with a succession but no fixed points.",
+  "id": "A209325",
+  "mentions": [
+    "A000166",
+    "A002467",
+    "A180191",
+    "A207819",
+    "A207821",
+    "A209322",
+    "A209326"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

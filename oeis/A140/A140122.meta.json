@@ -1,0 +1,22 @@
+{
+  "description": "Negative of numerator of Sum_{k=1..n} (-1)^k / semiprime(k).",
+  "id": "A140122",
+  "mentions": [
+    "A001358",
+    "A002110",
+    "A024530",
+    "A140123"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

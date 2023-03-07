@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and k+1 are both coreful abundant numbers (A308053).",
+  "id": "A339937",
+  "mentions": [
+    "A096399",
+    "A283418",
+    "A308053",
+    "A318167",
+    "A327635",
+    "A327942",
+    "A330872",
+    "A331412",
+    "A333951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

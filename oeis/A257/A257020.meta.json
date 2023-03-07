@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose quarter-square representation consists of three terms.",
+  "id": "A257020",
+  "mentions": [
+    "A002620",
+    "A257019",
+    "A257021",
+    "A257023",
+    "A257024"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

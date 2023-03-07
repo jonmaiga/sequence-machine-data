@@ -1,0 +1,19 @@
+{
+  "description": "Let m(k) be the index of the largest triangular number <= k; then a(n) is the smallest number k that can be written as the sum of three triangular numbers if the largest is the (m(k)-n)-th triangular number, but no larger.",
+  "id": "A331753",
+  "mentions": [
+    "A000217",
+    "A002636",
+    "A006893"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

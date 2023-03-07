@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct lengths between consecutive points of the Farey sequence of order n.",
+  "id": "A355616",
+  "mentions": [
+    "A005728",
+    "A006842",
+    "A006843"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

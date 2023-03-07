@@ -1,0 +1,23 @@
+{
+  "description": "3-practical numbers: numbers m such that the polynomial x^m - 1 has a divisor of every degree <= m in the prime field F_3[x].",
+  "id": "A336504",
+  "mentions": [
+    "A000010",
+    "A007734",
+    "A007949",
+    "A038502",
+    "A260653",
+    "A336503",
+    "A336505"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

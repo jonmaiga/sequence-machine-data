@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of trinomial coefficients.",
+  "id": "A171999",
+  "mentions": [
+    "A036038",
+    "A046816",
+    "A086753",
+    "A092255"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

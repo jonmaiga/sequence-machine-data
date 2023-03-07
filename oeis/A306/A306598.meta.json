@@ -1,0 +1,23 @@
+{
+  "description": "Determinant of the circulant matrix whose first column corresponds to the divisors of n.",
+  "id": "A306598",
+  "mentions": [
+    "A000203",
+    "A027750",
+    "A071324",
+    "A086459",
+    "A177894"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

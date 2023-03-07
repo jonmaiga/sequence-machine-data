@@ -1,0 +1,31 @@
+{
+  "description": "Number of subsets of {1..n} (including empty set) such that the pairwise sums of distinct elements are all distinct.",
+  "id": "A196723",
+  "mentions": [
+    "A108917",
+    "A143823",
+    "A196719",
+    "A196720",
+    "A196721",
+    "A196722",
+    "A196724",
+    "A325857",
+    "A325858",
+    "A325862",
+    "A325863",
+    "A325864",
+    "A325877",
+    "A325878",
+    "A325991"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

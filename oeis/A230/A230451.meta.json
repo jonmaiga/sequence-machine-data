@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n = x + y + z (x, y, z > 0) such that 2*x + 1, 2*y + 3, 2*z + 5 are all prime and x*y*z is a triangular number.",
+  "id": "A230451",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A068307",
+    "A132399",
+    "A227877",
+    "A229166",
+    "A230121",
+    "A230141",
+    "A230219",
+    "A230596"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

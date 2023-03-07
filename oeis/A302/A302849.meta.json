@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(2) = 2; for n > 2, a(n) = A064989(4+A003961(n-2)).",
+  "id": "A302849",
+  "mentions": [
+    "A003961",
+    "A064989",
+    "A302847",
+    "A302850"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is 1/2 of the number of walks of length k (1<=k<=n-1) in the path graph on n vertices (n>=2).",
+  "id": "A198335",
+  "mentions": [
+    "A102699",
+    "A144952"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

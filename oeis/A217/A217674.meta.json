@@ -1,0 +1,22 @@
+{
+  "description": "Primes p = a^2 + b^2 such that (x - a)^2 + (y - b)^2 = 2 and q - p = 4, where q = x^2 + y^2 is prime, assuming that a > b > 0 and x > y > 0.",
+  "id": "A217674",
+  "mentions": [
+    "A001844",
+    "A002313",
+    "A023200",
+    "A082073",
+    "A217503"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

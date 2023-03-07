@@ -1,0 +1,20 @@
+{
+  "description": "Consider the sequence b(k) with initial values b(1) = 1 and b(2) = n and satisfying b(k) = b(k-1) + Pd(b(k-2)), where Pd(x) is the product of the digits of x. Then b(k) eventually becomes constant, and this constant is a(n).",
+  "id": "A273913",
+  "mentions": [
+    "A007954",
+    "A063108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

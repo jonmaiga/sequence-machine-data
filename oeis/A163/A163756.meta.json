@@ -1,0 +1,24 @@
+{
+  "description": "14 times triangular numbers.",
+  "id": "A163756",
+  "mentions": [
+    "A000217",
+    "A002378",
+    "A024966",
+    "A069127",
+    "A274978"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:27",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

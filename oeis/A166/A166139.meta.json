@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows. A080305(A126988(n,k)) if k|n, 0 otherwise.",
+  "id": "A166139",
+  "mentions": [
+    "A080305",
+    "A126988",
+    "A166140"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

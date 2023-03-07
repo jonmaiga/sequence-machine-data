@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=0} (-1)^k * x^(2*k)/Product_{j=1..k} (1 - j * x).",
+  "id": "A353260",
+  "mentions": [
+    "A097341",
+    "A097342",
+    "A171367",
+    "A353253",
+    "A353261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

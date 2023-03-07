@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k > n whose binary expansion encodes an irreducible (0,1)-polynomial over Q.",
+  "id": "A305430",
+  "mentions": [
+    "A151800",
+    "A206074",
+    "A257000",
+    "A305420",
+    "A305429"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

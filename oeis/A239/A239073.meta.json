@@ -1,0 +1,21 @@
+{
+  "description": "Given a circle of radius R into which small circles of radius R/2^n are packed in a \"hexagonal pattern\" (see Comments), a(n) is the maximum number of small circles.",
+  "id": "A239073",
+  "mentions": [
+    "A053416",
+    "A053417",
+    "A239074",
+    "A239206"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

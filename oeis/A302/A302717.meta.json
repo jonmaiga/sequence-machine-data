@@ -1,0 +1,20 @@
+{
+  "description": "Start with a(0) = 0, then append the terms in [x, 2*x+1, x*(x+1)] which do not occur earlier, for x = 1, 2, ...",
+  "id": "A302717",
+  "mentions": [
+    "A000096",
+    "A002378",
+    "A024701",
+    "A302906"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

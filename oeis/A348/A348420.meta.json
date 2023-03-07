@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{k=1..n} (p_k - 1)/2 where p_1, p_2, ..., p_n are the first n primes congruent to 3 modulo 4.",
+  "id": "A348420",
+  "mentions": [
+    "A002145",
+    "A046072",
+    "A046073",
+    "A078586",
+    "A323739",
+    "A348418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

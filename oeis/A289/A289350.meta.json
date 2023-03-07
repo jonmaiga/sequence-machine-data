@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients in expansion of E_2/Product_{k>=1} (1-q^k)^2.",
+  "id": "A289350",
+  "mentions": [
+    "A006352",
+    "A066186",
+    "A288995",
+    "A289062",
+    "A289344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

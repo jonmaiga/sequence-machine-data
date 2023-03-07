@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of Sum_{k=1..n} k/prime(k).",
+  "id": "A120272",
+  "mentions": [
+    "A002110",
+    "A258851"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

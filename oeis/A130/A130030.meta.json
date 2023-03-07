@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^omega(n/d) * phi(rad(n/d)) * prime(d).",
+  "id": "A130030",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001221",
+    "A007444",
+    "A007947",
+    "A023900",
+    "A054523",
+    "A076479",
+    "A129691",
+    "A130029",
+    "A333177"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

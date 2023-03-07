@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors d of n such that d-1 is square.",
+  "id": "A359938",
+  "mentions": [
+    "A002522",
+    "A046951",
+    "A113319",
+    "A359937",
+    "A359944"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

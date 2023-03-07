@@ -1,0 +1,26 @@
+{
+  "description": "Array T(n,k) = n^2+5*n*k+5*k^2 read downwards antidiagonals, n,k>=0.",
+  "id": "A127561",
+  "mentions": [
+    "A022344",
+    "A033429",
+    "A035513",
+    "A062786",
+    "A134538",
+    "A143198"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

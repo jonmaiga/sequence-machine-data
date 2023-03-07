@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which A276086(k) is of the form 4k+3.",
+  "id": "A353466",
+  "mentions": [
+    "A005408",
+    "A276086",
+    "A353465",
+    "A353486",
+    "A353489"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

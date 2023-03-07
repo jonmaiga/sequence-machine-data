@@ -1,0 +1,17 @@
+{
+  "description": "Number of colored compositions of n using all colors of a 2-set such that all parts have different color patterns and the patterns for parts i are sorted and have i colors (in arbitrary order).",
+  "id": "A327768",
+  "mentions": [
+    "A327673"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

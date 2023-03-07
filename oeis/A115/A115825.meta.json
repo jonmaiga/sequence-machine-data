@@ -1,0 +1,21 @@
+{
+  "description": "Integers i such that 8*i XOR 13*i = 23*i, but 13*i is not 29 X i.",
+  "id": "A115825",
+  "mentions": [
+    "A003987",
+    "A048720",
+    "A115805",
+    "A115823",
+    "A115826"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

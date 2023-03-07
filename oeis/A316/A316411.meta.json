@@ -1,0 +1,20 @@
+{
+  "description": "Number of multisets of exactly ten nonempty binary words with a total of n letters such that no word has a majority of 0's.",
+  "id": "A316411",
+  "mentions": [
+    "A027306",
+    "A292506",
+    "A292549"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 10,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

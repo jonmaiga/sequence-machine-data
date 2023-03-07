@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt(7 - 6 * exp(x)).",
+  "id": "A354252",
+  "mentions": [
+    "A011781",
+    "A094419",
+    "A305404",
+    "A354242",
+    "A354253"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

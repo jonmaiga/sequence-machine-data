@@ -1,0 +1,18 @@
+{
+  "description": "Adding 1 to every term produces the same sequence as omitting the 0's.",
+  "id": "A112378",
+  "mentions": [
+    "A112377"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

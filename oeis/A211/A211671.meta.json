@@ -1,0 +1,23 @@
+{
+  "description": "Least prime p such that the polynomial x^n - x^(n-1) -...- 1 (mod p) has n distinct zeros.",
+  "id": "A211671",
+  "mentions": [
+    "A045468",
+    "A106279",
+    "A106280",
+    "A106281",
+    "A211672"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

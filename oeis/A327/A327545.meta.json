@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows giving the number of zeroless polydivisible numbers in base n that have k distinct digits with 1 <= k <= n-1.",
+  "id": "A327545",
+  "mentions": [
+    "A181736",
+    "A324019",
+    "A324020",
+    "A324205",
+    "A327577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

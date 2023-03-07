@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{1<=i<=j<=n} prime(i)*prime(j)",
+  "id": "A357251",
+  "mentions": [
+    "A007504",
+    "A024447",
+    "A024450",
+    "A065762",
+    "A143215",
+    "A357252"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

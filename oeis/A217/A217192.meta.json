@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of digits in the decimal representation of the smallest Lucas number that contains n consecutive identical digits.",
+  "id": "A217192",
+  "mentions": [
+    "A000032",
+    "A217166",
+    "A217176"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

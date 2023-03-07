@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers d such that the period k of the decimal expansion of 1/d is > 1 and divides d-1.",
+  "id": "A351396",
+  "mentions": [
+    "A000010",
+    "A007732"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

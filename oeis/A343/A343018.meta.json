@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the smallest number m such that tau(m+1) = tau(m) + n.",
+  "id": "A343018",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A055927",
+    "A080371",
+    "A080372",
+    "A086550",
+    "A228453",
+    "A230115",
+    "A230653",
+    "A230654",
+    "A340799",
+    "A343019",
+    "A343020"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

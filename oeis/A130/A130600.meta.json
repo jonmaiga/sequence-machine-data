@@ -1,0 +1,21 @@
+{
+  "description": "Integers written in base phi, with the \"decimal point\" omitted.",
+  "id": "A130600",
+  "mentions": [
+    "A001622",
+    "A055778",
+    "A105424",
+    "A130601"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

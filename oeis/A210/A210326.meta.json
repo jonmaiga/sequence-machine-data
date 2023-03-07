@@ -1,0 +1,20 @@
+{
+  "description": "Number of 5-divided words of length n over a 3-letter alphabet.",
+  "id": "A210326",
+  "mentions": [
+    "A210109",
+    "A210324",
+    "A210325"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

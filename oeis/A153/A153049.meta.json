@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2*n - 13 is not a prime.",
+  "id": "A153049",
+  "mentions": [
+    "A097363",
+    "A163672"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Self-composition of the repunits; g.f.: A(x) = G(G(x)), where G(x) = g.f. of A002275.",
+  "id": "A276644",
+  "mentions": [
+    "A000035",
+    "A002275",
+    "A030267",
+    "A030279",
+    "A030280",
+    "A063524"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:41:56",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

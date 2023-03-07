@@ -1,0 +1,17 @@
+{
+  "description": "Determinant of the (n+1) X (n+1) matrix with (i,j)-entry equal to f(i+j) for all i,j = 0,...,n, where f(k) = A000172(k) is the k-th Franel number.",
+  "id": "A225776",
+  "mentions": [
+    "A000172"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

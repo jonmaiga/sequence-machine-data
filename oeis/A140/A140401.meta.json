@@ -1,0 +1,26 @@
+{
+  "description": "Let S be the set of numbers formed from the sum of three distinct elements of A140398, or the sum of three distinct elements of A140399, or the sum of three distinct elements of A140400; sequence gives complement of S.",
+  "id": "A140401",
+  "mentions": [
+    "A000045",
+    "A005652",
+    "A005653",
+    "A078588",
+    "A140397",
+    "A140398",
+    "A140399",
+    "A140400"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

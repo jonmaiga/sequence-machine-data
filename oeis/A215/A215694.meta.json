@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 5*a(n-1) - 6*a(n-2) + a(n-3) with a(0)=1, a(1)=2, a(2)=7.",
+  "id": "A215694",
+  "mentions": [
+    "A005021",
+    "A109682",
+    "A215112",
+    "A215512",
+    "A215695"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

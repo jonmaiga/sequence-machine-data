@@ -1,0 +1,21 @@
+{
+  "description": "Association types in 3-dimensional algebra.",
+  "id": "A236342",
+  "mentions": [
+    "A000108",
+    "A236339",
+    "A237018"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

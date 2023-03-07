@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, 3^k*s_3(n, k) where s_m(n, k) are the Stirling-Frobenius cycle numbers of order m; n >= 0, k >= 0.",
+  "id": "A225477",
+  "mentions": [
+    "A000244",
+    "A007494",
+    "A008544",
+    "A028338",
+    "A034000",
+    "A084938",
+    "A132393",
+    "A225470",
+    "A225478"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

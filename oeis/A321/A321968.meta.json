@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^n*n!*[x^n] -sqrt(exp(LambertW(-x)))*(LambertW(-x) + 1).",
+  "id": "A321968",
+  "mentions": [
+    "A085527"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

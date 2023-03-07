@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest positive integer k such that both A083221(k, n) and A083221(k+1, n) have at most two prime factors (are primes or semiprimes).",
+  "id": "A251718",
+  "mentions": [
+    "A001222",
+    "A005382",
+    "A083140",
+    "A083221",
+    "A251717",
+    "A251719"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

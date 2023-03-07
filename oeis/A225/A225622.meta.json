@@ -1,0 +1,24 @@
+{
+  "description": "A(n,k) is the total number of parts in the set of partitions of an n X k rectangle into integer-sided squares, considering only the list of parts; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A225622",
+  "mentions": [
+    "A000027",
+    "A034295",
+    "A195014",
+    "A224697",
+    "A225542",
+    "A226897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

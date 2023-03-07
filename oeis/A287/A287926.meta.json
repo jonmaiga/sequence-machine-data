@@ -1,0 +1,29 @@
+{
+  "description": "Sum of the divisors of n that are not divisible by 49.",
+  "id": "A287926",
+  "mentions": [
+    "A000203",
+    "A046897",
+    "A046913",
+    "A113957",
+    "A116073",
+    "A116607",
+    "A213598",
+    "A227131",
+    "A284326",
+    "A284341",
+    "A284344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

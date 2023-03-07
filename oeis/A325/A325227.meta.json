@@ -1,0 +1,32 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of integer partitions of n such that the lesser of the maximum part and the number of parts is k.",
+  "id": "A325227",
+  "mentions": [
+    "A051924",
+    "A096771",
+    "A115720",
+    "A263297",
+    "A265283",
+    "A325188",
+    "A325189",
+    "A325192",
+    "A325193",
+    "A325194",
+    "A325224",
+    "A325225",
+    "A325228",
+    "A325229",
+    "A325232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

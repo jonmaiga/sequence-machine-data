@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n!)^n * Sum_{k=1..n} (-1)^(k+1) / k^n.",
+  "id": "A336250",
+  "mentions": [
+    "A024167",
+    "A036740",
+    "A060943",
+    "A142999"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

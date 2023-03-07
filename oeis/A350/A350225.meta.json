@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered pairs (a,g) with a in IS_n the symmetric inverse semigroup on [n] and g in symmetric group on [n] such that ag=ga.",
+  "id": "A350225",
+  "mentions": [
+    "A000142",
+    "A000712",
+    "A053529",
+    "A349739"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

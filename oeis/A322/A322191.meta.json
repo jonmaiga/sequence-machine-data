@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = coefficient of x^n*y^n/n in log( Product_{n>=1} 1/(1 - (x^(2*n) - y^(2*n))/(x - y)) ), for n >= 1.",
+  "id": "A322191",
+  "mentions": [
+    "A322192"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

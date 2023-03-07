@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sum of the digits of (n! - 1) is divisible by n.",
+  "id": "A109676",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

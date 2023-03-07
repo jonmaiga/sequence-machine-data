@@ -1,0 +1,24 @@
+{
+  "description": "Subsequence of A167708 whose indices are 0 mod 5, that is, a(n) = A167708(5n+5).",
+  "id": "A167780",
+  "mentions": [
+    "A167708",
+    "A167709",
+    "A167774",
+    "A167775",
+    "A167778",
+    "A167779"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:27:24",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

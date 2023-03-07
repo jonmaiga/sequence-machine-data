@@ -1,0 +1,32 @@
+{
+  "description": "Let g = A006530(n), the largest prime factor of n. This filter sequence combines (g mod 6), n/g (A052126), and a single bit A319988(n) telling whether the largest prime factor is unitary.",
+  "id": "A319996",
+  "mentions": [
+    "A002324",
+    "A002476",
+    "A006530",
+    "A007528",
+    "A010875",
+    "A052126",
+    "A067029",
+    "A070003",
+    "A071178",
+    "A077462",
+    "A101296",
+    "A112774",
+    "A319690",
+    "A319717",
+    "A319988",
+    "A319994"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

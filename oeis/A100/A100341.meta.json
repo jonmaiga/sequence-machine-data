@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of the convergents in the continued fraction expansion for the constant given by A100338, where the partial quotients equal A006519 (greatest power of 2 dividing n).",
+  "id": "A100341",
+  "mentions": [
+    "A006519",
+    "A100338",
+    "A100340",
+    "A100342",
+    "A100343"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows in which row n lists 3n-1 together with the first 2n-1 positive integers, in reverse order.",
+  "id": "A171176",
+  "mentions": [
+    "A000027",
+    "A016789",
+    "A132209",
+    "A161165",
+    "A161166",
+    "A171164",
+    "A171166",
+    "A171172",
+    "A171173",
+    "A171174",
+    "A171175",
+    "A171177",
+    "A171178",
+    "A172310"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

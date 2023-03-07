@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of irregular triangle A348390.",
+  "id": "A348391",
+  "mentions": [
+    "A002541",
+    "A153485",
+    "A348390",
+    "A348392"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 2,
+    "size": 42,
+    "source": "joeis"
+  }
+}

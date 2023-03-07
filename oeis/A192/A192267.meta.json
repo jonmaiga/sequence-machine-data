@@ -1,0 +1,24 @@
+{
+  "description": "Anti-deficient numbers.",
+  "id": "A192267",
+  "mentions": [
+    "A000027",
+    "A005100",
+    "A066272",
+    "A066417",
+    "A073930",
+    "A192268"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

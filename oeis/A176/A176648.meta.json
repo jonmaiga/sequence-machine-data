@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) = m + Sum_{j=0..n} (a(j)*a(n-j) + k) for n>=1, with a(0)=1, a(1)=5, k=1 and m=1.",
+  "id": "A176648",
+  "mentions": [
+    "A176612",
+    "A176645"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

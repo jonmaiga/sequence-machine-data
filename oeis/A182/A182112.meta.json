@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered triples (w,x,y) with all terms in {-n,...,0,...,n} and (w+n)^2=x+y+w.",
+  "id": "A182112",
+  "mentions": [
+    "A211422"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:51",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

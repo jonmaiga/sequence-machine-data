@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of Harshad k and its 10's complement is a Harshad number.",
+  "id": "A109597",
+  "mentions": [
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

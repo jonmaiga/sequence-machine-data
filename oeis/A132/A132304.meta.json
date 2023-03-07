@@ -1,0 +1,18 @@
+{
+  "description": "Sum of fourth powers of trinomial coefficients: a(n) = Sum_{k=0..2n} trinomial(n,k)^4 where trinomial(n,k) = [x^k] (1 + x + x^2)^n.",
+  "id": "A132304",
+  "mentions": [
+    "A132303",
+    "A132305"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

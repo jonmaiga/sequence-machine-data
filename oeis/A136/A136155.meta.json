@@ -1,0 +1,24 @@
+{
+  "description": "Composites one larger than a prime and with exactly two or three distinct prime factors.",
+  "id": "A136155",
+  "mentions": [
+    "A001221",
+    "A008864",
+    "A136151",
+    "A136152",
+    "A136153",
+    "A136154"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

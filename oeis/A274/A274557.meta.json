@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma(k) == 0 (mod k+6).",
+  "id": "A274557",
+  "mentions": [
+    "A000203",
+    "A045770",
+    "A067702",
+    "A088833",
+    "A181598",
+    "A274551",
+    "A274556",
+    "A274558",
+    "A274566"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

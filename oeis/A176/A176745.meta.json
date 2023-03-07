@@ -1,0 +1,19 @@
+{
+  "description": "Zero followed by powers of 2 (A131577) and the integers that cannot be represented as a sum of two earlier terms in the sequence.",
+  "id": "A176745",
+  "mentions": [
+    "A000079",
+    "A131577",
+    "A176744"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

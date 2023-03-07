@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=11; a(n)=floor((23+sum(a(1) to a(n-1)))/2).",
+  "id": "A120139",
+  "mentions": [
+    "A072493",
+    "A073941",
+    "A112088"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:22:15",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

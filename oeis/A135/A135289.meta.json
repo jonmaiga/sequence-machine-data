@@ -1,0 +1,20 @@
+{
+  "description": "Row 10 of A038207.",
+  "id": "A135289",
+  "mentions": [
+    "A038207"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

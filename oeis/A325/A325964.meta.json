@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n and sigma(n) are relatively prime, 0 otherwise, where sigma(n) = sum of divisors of n, A000203; Characteristic function of A014567.",
+  "id": "A325964",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A014567",
+    "A297086",
+    "A322980"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

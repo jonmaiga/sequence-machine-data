@@ -1,0 +1,30 @@
+{
+  "description": "Array read by upwards antidiagonals: T(m,n) = number of set partitions of the multiset consisting of one copy each of x_1, x_2, ..., x_m, and two copies each of y_1, y_2, ..., y_n, for m >= 0, n >= 0.",
+  "id": "A322765",
+  "mentions": [
+    "A000110",
+    "A001055",
+    "A002110",
+    "A020555",
+    "A035098",
+    "A322764",
+    "A322766",
+    "A322767",
+    "A322768",
+    "A322769",
+    "A322770",
+    "A346500"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

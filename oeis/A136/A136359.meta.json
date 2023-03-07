@@ -1,0 +1,24 @@
+{
+  "description": "Perfect squares in A133459; or perfect squares that are the sums of two nonzero pentagonal pyramidal numbers.",
+  "id": "A136359",
+  "mentions": [
+    "A002311",
+    "A002411",
+    "A053721",
+    "A099764",
+    "A133459",
+    "A136360",
+    "A136361"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

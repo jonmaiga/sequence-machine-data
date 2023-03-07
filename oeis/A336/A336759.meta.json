@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive number that is the sum of no fewer than n distinct repdigits.",
+  "id": "A336759",
+  "mentions": [
+    "A010785",
+    "A336748"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

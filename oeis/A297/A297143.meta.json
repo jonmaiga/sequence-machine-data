@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having an up-first zigzag pattern in base 9; see Comments.",
+  "id": "A297143",
+  "mentions": [
+    "A297144",
+    "A297145",
+    "A297146"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:33",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

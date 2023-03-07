@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows taken from Garvan's paper (see slides 28, 29)",
+  "id": "A228717",
+  "mentions": [
+    "A092269",
+    "A195011",
+    "A195012",
+    "A209616",
+    "A228718"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

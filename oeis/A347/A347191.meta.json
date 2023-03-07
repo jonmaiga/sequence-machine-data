@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors of n^2-1.",
+  "id": "A347191",
+  "mentions": [
+    "A000005",
+    "A005563",
+    "A014574",
+    "A129296",
+    "A129297",
+    "A347192",
+    "A347193",
+    "A347194"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

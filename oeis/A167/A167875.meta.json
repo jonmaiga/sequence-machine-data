@@ -1,0 +1,39 @@
+{
+  "description": "One third of product plus sum of three consecutive nonnegative integers; a(n)=(n+1)(n^2+2n+3)/3.",
+  "id": "A167875",
+  "mentions": [
+    "A001477",
+    "A002061",
+    "A004277",
+    "A005408",
+    "A005894",
+    "A006527",
+    "A007290",
+    "A014820",
+    "A028387",
+    "A033547",
+    "A054602",
+    "A057813",
+    "A080930",
+    "A086514",
+    "A109613",
+    "A116731",
+    "A166941",
+    "A166942",
+    "A166943",
+    "A167876",
+    "A177342"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:37",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

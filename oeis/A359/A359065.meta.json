@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive composite integers such that no subsequence sums to a prime and in which all terms are coprime.",
+  "id": "A359065",
+  "mentions": [
+    "A052349",
+    "A068638"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

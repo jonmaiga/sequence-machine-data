@@ -1,0 +1,18 @@
+{
+  "description": "The bisection of A238315 that remains constant with changes in the offset of the exponent of the second term.",
+  "id": "A239367",
+  "mentions": [
+    "A238315"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:17:41",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

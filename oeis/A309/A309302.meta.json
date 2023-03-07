@@ -1,0 +1,19 @@
+{
+  "description": "(1/10) times the sum of the elements of all subsets of [n] whose sum is divisible by ten.",
+  "id": "A309302",
+  "mentions": [
+    "A309280"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

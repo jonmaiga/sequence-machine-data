@@ -1,0 +1,25 @@
+{
+  "description": "Number of representations of n as u(h) + v(k), where u = A000201 (lower Wythoff numbers), v = A001950 (upper Wythoff numbers), h>=1, k>=1.",
+  "id": "A259598",
+  "mentions": [
+    "A000071",
+    "A000201",
+    "A001595",
+    "A001610",
+    "A001950",
+    "A259556",
+    "A295540"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

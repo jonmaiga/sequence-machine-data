@@ -1,0 +1,25 @@
+{
+  "description": "Intersection of A001481 inter A020670: N = a^2 + b^2 = c^2 + 7d^2 for some integers a,b,c,d.",
+  "id": "A155568",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A002479",
+    "A002481",
+    "A003136",
+    "A020668",
+    "A020670",
+    "A155578"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:55:01",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

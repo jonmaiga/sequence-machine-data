@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the integral from -1 to 1 of hyperfactorial(x).",
+  "id": "A186904",
+  "mentions": [
+    "A186905"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 155,
+    "source": "oeis-entry"
+  }
+}

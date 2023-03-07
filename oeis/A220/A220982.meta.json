@@ -1,0 +1,25 @@
+{
+  "description": "6^(4n+2) + 6^(3n+2) + 3 * 6^(2n+1) + 6^(n+1) + 1: the right Aurifeuillian factor of 6^(12n+6) + 1.",
+  "id": "A220982",
+  "mentions": [
+    "A085601",
+    "A092440",
+    "A198410",
+    "A220978",
+    "A220979",
+    "A220981",
+    "A220990"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:42:10",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

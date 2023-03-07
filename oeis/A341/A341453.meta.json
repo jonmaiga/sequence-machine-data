@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 6 nonprime parts.",
+  "id": "A341453",
+  "mentions": [
+    "A002095",
+    "A005171",
+    "A018252",
+    "A062610",
+    "A259196",
+    "A341408",
+    "A341451",
+    "A341452",
+    "A341454",
+    "A341455",
+    "A341457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 6,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

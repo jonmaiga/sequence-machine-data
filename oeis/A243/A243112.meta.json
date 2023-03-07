@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number that requires at least n adjacent bit swaps in order to pack all the ones to the right.",
+  "id": "A243112",
+  "mentions": [
+    "A055941"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:36:47",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

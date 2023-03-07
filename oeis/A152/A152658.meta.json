@@ -1,0 +1,20 @@
+{
+  "description": "Beginnings of maximal chains of primes.",
+  "id": "A152658",
+  "mentions": [
+    "A105454",
+    "A119487",
+    "A152117",
+    "A152657"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

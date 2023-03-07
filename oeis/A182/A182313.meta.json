@@ -1,0 +1,17 @@
+{
+  "description": "Primes of form a^2+b^2 such that a^4+b^4 and a^8+b^8 are primes.",
+  "id": "A182313",
+  "mentions": [
+    "A182198"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of squares strictly between Fibonacci(n) and Fibonacci(n+1).",
+  "id": "A350701",
+  "mentions": [
+    "A000045",
+    "A000290",
+    "A061287",
+    "A076777"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

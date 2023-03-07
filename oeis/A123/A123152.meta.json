@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n-th decimal digit of Pi) + 1.",
+  "id": "A123152",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

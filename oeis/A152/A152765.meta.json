@@ -1,0 +1,26 @@
+{
+  "description": "Smallest prime divisor of Catalan number A000108(n), with a(0) = a(1) = 1.",
+  "id": "A152765",
+  "mentions": [
+    "A000108",
+    "A000225",
+    "A020639",
+    "A120275",
+    "A120303",
+    "A139044",
+    "A152761",
+    "A152762",
+    "A152763"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

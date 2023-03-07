@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n>1 such that A110261(n) < A110261(n-1).",
+  "id": "A110264",
+  "mentions": [
+    "A110261"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor((-1 + 2^n)/(1 + 2*n)).",
+  "id": "A191630",
+  "mentions": [
+    "A191633"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

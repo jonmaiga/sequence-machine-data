@@ -1,0 +1,29 @@
+{
+  "description": "Regular tetrangle where T(n,k,i) is the number of non-isomorphic multiset partitions of length i of multiset partitions of length k of multisets of size n.",
+  "id": "A318816",
+  "mentions": [
+    "A007716",
+    "A050336",
+    "A050338",
+    "A255906",
+    "A269134",
+    "A317533",
+    "A317791",
+    "A318393",
+    "A318399",
+    "A318564",
+    "A318565",
+    "A318566"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

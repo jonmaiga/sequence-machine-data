@@ -1,0 +1,29 @@
+{
+  "description": "Array read by upwards antidiagonals: T(n,k) is the number of ways to place n persons on different seats such that each person number p, 1 <= p <= n, differs from the seat number s(p), 1 <= s(p) <= n+k, k >= 0.",
+  "id": "A336246",
+  "mentions": [
+    "A000153",
+    "A000166",
+    "A000255",
+    "A000261",
+    "A001909",
+    "A001910",
+    "A176732",
+    "A176733",
+    "A176734",
+    "A176735",
+    "A176736"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

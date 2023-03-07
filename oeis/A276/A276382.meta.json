@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1, and a(n) = a(n-1) + floor(3*n/2) + 1 for n >= 2.",
+  "id": "A276382",
+  "mentions": [
+    "A000040",
+    "A001651",
+    "A026477",
+    "A077043",
+    "A084684",
+    "A331952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:27:33",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "List of molecules in Hintze-Adami artificial chemistry (see comments for definition).",
+  "id": "A101145",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows: row n gives coefficients of n-th logarithmic polynomial L_n(x_1, x_2, ...) with monomials sorted into standard order.",
+  "id": "A263634",
+  "mentions": [
+    "A000041",
+    "A007318",
+    "A028246",
+    "A036039",
+    "A036040",
+    "A127671",
+    "A129185",
+    "A130561",
+    "A130850",
+    "A133314",
+    "A134264",
+    "A154921",
+    "A178867",
+    "A263633",
+    "A263916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

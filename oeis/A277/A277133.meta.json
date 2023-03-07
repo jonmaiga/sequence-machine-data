@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct sets of periods of length >= ceiling(n/2) in all binary strings of length n.",
+  "id": "A277133",
+  "mentions": [
+    "A005434"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

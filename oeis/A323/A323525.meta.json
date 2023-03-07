@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to arrange the parts of a multiset whose multiplicities are the prime indices of n into a square matrix.",
+  "id": "A323525",
+  "mentions": [
+    "A008480",
+    "A026478",
+    "A056239",
+    "A103198",
+    "A112798",
+    "A120732",
+    "A305936",
+    "A318284",
+    "A318762",
+    "A323519",
+    "A323526",
+    "A323527",
+    "A323528",
+    "A323531"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number for which the greedy algorithm fails to find the sum of n-th powers with at most A002804 terms.",
+  "id": "A185187",
+  "mentions": [
+    "A002804"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Moebius transform of repunits (A002275).",
+  "id": "A285768",
+  "mentions": [
+    "A002275",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

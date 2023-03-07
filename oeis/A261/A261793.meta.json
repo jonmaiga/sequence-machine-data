@@ -1,0 +1,23 @@
+{
+  "description": "Successively add the smallest number that is not a substring in decimal representation.",
+  "id": "A261793",
+  "mentions": [
+    "A031298",
+    "A260273",
+    "A261786",
+    "A261794",
+    "A261795",
+    "A261806"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

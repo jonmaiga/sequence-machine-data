@@ -1,0 +1,20 @@
+{
+  "description": "A Binet type formula from a polynomial whose coefficient expansion gives a tribonacci used as it first derivative InverseZtransform: A000073.",
+  "id": "A116574",
+  "mentions": [
+    "A000073"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

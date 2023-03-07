@@ -1,0 +1,24 @@
+{
+  "description": "Min(i, j), where p(i)*p(j) is the n-th term of A006881.",
+  "id": "A270650",
+  "mentions": [
+    "A000040",
+    "A006881",
+    "A070647",
+    "A096916",
+    "A176881",
+    "A270003",
+    "A270652"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

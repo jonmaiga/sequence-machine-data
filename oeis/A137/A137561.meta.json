@@ -1,0 +1,20 @@
+{
+  "description": "A triangular sequence of coefficients of the fixed point Chebyshev polynomials: p(x,n)=T(x,n)-x:A053120[x,n]-x.",
+  "id": "A137561",
+  "mentions": [
+    "A053120"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

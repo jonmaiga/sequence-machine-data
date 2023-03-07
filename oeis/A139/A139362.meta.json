@@ -1,0 +1,19 @@
+{
+  "description": "Values of m such that A139361(n)=4m+1.",
+  "id": "A139362",
+  "mentions": [
+    "A080478",
+    "A139361"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

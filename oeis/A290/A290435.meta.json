@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes of the form pq where p < q and p+q+1 is prime.",
+  "id": "A290435",
+  "mentions": [
+    "A001358",
+    "A005117",
+    "A006881",
+    "A286842",
+    "A290434"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of n^(n^2), A002489.",
+  "id": "A120929",
+  "mentions": [
+    "A001329",
+    "A001923",
+    "A002488",
+    "A002489",
+    "A023813",
+    "A076113",
+    "A090588"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

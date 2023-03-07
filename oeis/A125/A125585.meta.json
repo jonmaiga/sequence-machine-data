@@ -1,0 +1,27 @@
+{
+  "description": "Array of constant-spaced integers read by antidiagonals.",
+  "id": "A125585",
+  "mentions": [
+    "A000165",
+    "A000217",
+    "A000290",
+    "A000326",
+    "A001147",
+    "A002378",
+    "A005449",
+    "A007559",
+    "A045943"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the average of primes p(k) and p(k+1) is a power of 3.",
+  "id": "A115989",
+  "mentions": [
+    "A000720",
+    "A115986",
+    "A115987",
+    "A115988"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

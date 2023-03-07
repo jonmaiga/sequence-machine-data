@@ -1,0 +1,36 @@
+{
+  "description": "Positive integers sorted by rote weight, rote height and rote quench.",
+  "id": "A113197",
+  "mentions": [
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A106177",
+    "A106178",
+    "A108352",
+    "A108353",
+    "A108370",
+    "A108374",
+    "A109300",
+    "A109301",
+    "A111791",
+    "A111793",
+    "A111801",
+    "A112846",
+    "A112868",
+    "A112871",
+    "A113198"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

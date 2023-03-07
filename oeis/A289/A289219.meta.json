@@ -1,0 +1,21 @@
+{
+  "description": "Areas of integer-sided triangles whose area equals 3 times their perimeter.",
+  "id": "A289219",
+  "mentions": [
+    "A098030",
+    "A289218",
+    "A290451"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

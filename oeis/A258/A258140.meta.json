@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write 6*n + 2 as p^2 + q with p and q both prime.",
+  "id": "A258140",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A258139",
+    "A258141"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct cycles without repeated edges on the multigraph consisting of two vertices joined by n edges.",
+  "id": "A178061",
+  "mentions": [
+    "A263102"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

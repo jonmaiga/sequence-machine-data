@@ -1,0 +1,17 @@
+{
+  "description": "Busy Beaver variation: maximum number of steps for a 2-state, 2-symbol Turing machine running on a tape which is initialized with the number n in binary and 0's everywhere else. The machine is started at the rightmost bit in the number n.",
+  "id": "A131956",
+  "mentions": [
+    "A060843"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

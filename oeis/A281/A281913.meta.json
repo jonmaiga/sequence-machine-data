@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered integer pairs (b,c), with -n<=b<=n, -n<=c<=n, such that both roots of 2x^2+bx+c=0 are rational and b and c are not both even.",
+  "id": "A281913",
+  "mentions": [
+    "A067274"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

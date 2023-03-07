@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form i*prime(i) + (i+1)*prime(i+1).",
+  "id": "A119487",
+  "mentions": [
+    "A119488",
+    "A152117",
+    "A152658"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

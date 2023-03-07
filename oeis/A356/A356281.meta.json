@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n, n-k) * q(k), where q(k) is the number of partitions into distinct parts (A000009).",
+  "id": "A356281",
+  "mentions": [
+    "A000009",
+    "A032443",
+    "A266232",
+    "A307496",
+    "A356268",
+    "A356280"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

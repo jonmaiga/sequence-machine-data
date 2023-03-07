@@ -1,0 +1,20 @@
+{
+  "description": "Restricted growth sequence transform of function f: f(1) = 0, f(n) = A046523(A252463(n)) for n > 1.",
+  "id": "A320110",
+  "mentions": [
+    "A046523",
+    "A064989",
+    "A252463",
+    "A320111"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

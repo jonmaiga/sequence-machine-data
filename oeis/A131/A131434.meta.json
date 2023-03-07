@@ -1,0 +1,18 @@
+{
+  "description": "Number of prime knots on n crossings having Arf invariant 1.",
+  "id": "A131434",
+  "mentions": [
+    "A131433"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

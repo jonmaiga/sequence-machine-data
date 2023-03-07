@@ -1,0 +1,26 @@
+{
+  "description": "Count of post-period decimal digits up to which the rounded n-th convergent to sqrt(5)/2 agrees with the exact value.",
+  "id": "A138373",
+  "mentions": [
+    "A020837",
+    "A138335",
+    "A138339",
+    "A138343",
+    "A138366",
+    "A138367",
+    "A138369",
+    "A138370",
+    "A138374"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

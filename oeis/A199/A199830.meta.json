@@ -1,0 +1,17 @@
+{
+  "description": "Number of -6..6 arrays x(0..n+1) of n+2 elements with zero sum and no two neighbors summing to zero",
+  "id": "A199830",
+  "mentions": [
+    "A199832"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

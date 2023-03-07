@@ -1,0 +1,25 @@
+{
+  "description": "Primes whose reversal is a multiple of 8.",
+  "id": "A355984",
+  "mentions": [
+    "A045711",
+    "A087762",
+    "A087764",
+    "A087765",
+    "A087766",
+    "A087767",
+    "A355430",
+    "A355983"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

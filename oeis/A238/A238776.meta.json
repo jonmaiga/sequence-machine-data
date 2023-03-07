@@ -1,0 +1,20 @@
+{
+  "description": "Primes p with prime(p) - p + 1 and prime(q) - q + 1 both prime, where q = prime(2*pi(p)+1) with pi(.) given by A000720.",
+  "id": "A238776",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A234695",
+    "A238766"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

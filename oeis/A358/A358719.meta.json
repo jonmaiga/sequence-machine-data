@@ -1,0 +1,20 @@
+{
+  "description": "A sequence of primes starting with p_1 = 2, p_2 = 3, p_3 = 5, p_4 = 11, p_5 = 13, p_6 = 23, such that, for i >= 7, (p_i + 1)/2 divides the product p_1*p_2*...*p_(i-1) of the earlier primes and each prime factor of (p_i-1)/2 is a prime factor of the product p_1*p_2*...*p_(i-1).",
+  "id": "A358719",
+  "mentions": [
+    "A001259",
+    "A358717",
+    "A358718"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A list of ordered partitions of the positive integers.",
+  "id": "A211028",
+  "mentions": [
+    "A026792",
+    "A135010"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

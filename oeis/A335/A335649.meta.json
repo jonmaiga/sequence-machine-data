@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the frequency of multi-pairs in a sequence of multi-set designs with 2 blocks.",
+  "id": "A335649",
+  "mentions": [
+    "A092184"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:14:03",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

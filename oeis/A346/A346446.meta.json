@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of k-sided polygons formed when connecting infinite lines between all vertices and all points that divide the sides of an equilateral triangle into n equal parts, for k = 3, 4, ..., max_k.",
+  "id": "A346446",
+  "mentions": [
+    "A092867",
+    "A343755",
+    "A344279",
+    "A344657",
+    "A344896"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

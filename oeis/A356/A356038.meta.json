@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n,k) * sigma_2(k).",
+  "id": "A356038",
+  "mentions": [
+    "A001157",
+    "A006218",
+    "A024916",
+    "A064602",
+    "A064603",
+    "A160399",
+    "A185003",
+    "A356039"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

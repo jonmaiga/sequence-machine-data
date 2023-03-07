@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..n-k+1} P(n,j)*T(n-j,k-1) if k>0 else 0^n where P(n,j) is the number of j-partitions of n; for n>=0 and 0<=k<=n.",
+  "id": "A257566",
+  "mentions": [
+    "A000041",
+    "A014616"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

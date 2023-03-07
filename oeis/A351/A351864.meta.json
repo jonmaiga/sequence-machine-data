@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of zeta({6}_n)/Pi^(6n).",
+  "id": "A351864",
+  "mentions": [
+    "A000120",
+    "A013664",
+    "A046988",
+    "A103345",
+    "A240883",
+    "A351806"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

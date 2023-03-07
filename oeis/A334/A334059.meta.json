@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of perfect matchings on {1, 2, ..., 2n} with k disjoint strings of adjacent short pairs.",
+  "id": "A334059",
+  "mentions": [
+    "A001147",
+    "A079267",
+    "A278990",
+    "A325753",
+    "A334056",
+    "A334057",
+    "A334058"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

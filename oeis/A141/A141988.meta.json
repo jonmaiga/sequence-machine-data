@@ -1,0 +1,22 @@
+{
+  "description": "Primes congruent to 12 mod 29.",
+  "id": "A141988",
+  "mentions": [
+    "A000040",
+    "A141977",
+    "A141978",
+    "A142244"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:45",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows T(n, k), n >= 0, k = 1..A341218(n); T(n, k) is the k-th number m such that A340873(m) = n.",
+  "id": "A341220",
+  "mentions": [
+    "A127824",
+    "A340873",
+    "A341194",
+    "A341218"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

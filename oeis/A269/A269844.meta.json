@@ -1,0 +1,21 @@
+{
+  "description": "Primes equal to the sum of a pair of consecutive integers which are both squarefree.",
+  "id": "A269844",
+  "mentions": [
+    "A001122",
+    "A005597",
+    "A179017",
+    "A271780"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

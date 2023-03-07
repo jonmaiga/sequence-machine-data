@@ -1,0 +1,19 @@
+{
+  "description": "The \"smallest countdown\" numbers are the smallest positive integer that cannot be made using the numbers n through 1, in order, using the operations +, -, *, /, and parentheses.",
+  "id": "A185352",
+  "mentions": [
+    "A060315"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

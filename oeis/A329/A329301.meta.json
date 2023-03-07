@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = a(1) = a(2) = 1; thereafter a(n) = a(n-1) - (-1)^n*a(n-2) + 2*a(n-3).",
+  "id": "A329301",
+  "mentions": [
+    "A000930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:46:16",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

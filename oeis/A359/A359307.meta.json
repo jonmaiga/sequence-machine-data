@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of 6*n-3 of form 6*k+1.",
+  "id": "A359307",
+  "mentions": [
+    "A279060",
+    "A359305",
+    "A359306",
+    "A359308",
+    "A359309"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

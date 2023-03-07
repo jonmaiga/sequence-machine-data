@@ -1,0 +1,17 @@
+{
+  "description": "Lengths of iterates in A267371",
+  "id": "A267372",
+  "mentions": [
+    "A267371"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

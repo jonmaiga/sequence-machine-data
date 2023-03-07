@@ -1,0 +1,20 @@
+{
+  "description": "Number of functions f:{1,2,...,n}->{1,2,...,n} with at least one cycle of length >= 3.",
+  "id": "A208240",
+  "mentions": [
+    "A000169",
+    "A101334",
+    "A209319"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

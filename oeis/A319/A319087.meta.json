@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2*phi(k), where phi is the Euler totient function A000010.",
+  "id": "A319087",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A011755",
+    "A023896",
+    "A053191"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

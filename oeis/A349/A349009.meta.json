@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the area of the convex hull around the R5 dragon fractal.",
+  "id": "A349009",
+  "mentions": [
+    "A349008",
+    "A349010"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

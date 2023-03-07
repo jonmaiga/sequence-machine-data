@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + the reversal of k^2 is a square.",
+  "id": "A359011",
+  "mentions": [
+    "A056964",
+    "A061230"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

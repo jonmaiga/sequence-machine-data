@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 16n^2-2n-1 and 16n^2+2n-1 are both primes.",
+  "id": "A182048",
+  "mentions": [
+    "A089637",
+    "A171748"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

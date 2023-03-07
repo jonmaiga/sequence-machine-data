@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic partitions of n whose least part has multiplicity <= 4.",
+  "id": "A238790",
+  "mentions": [
+    "A025065",
+    "A238779",
+    "A238788",
+    "A238789"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

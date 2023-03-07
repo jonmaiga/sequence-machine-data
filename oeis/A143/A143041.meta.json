@@ -1,0 +1,19 @@
+{
+  "description": "10^n-th number divisible by exactly 3 distinct primes.",
+  "id": "A143041",
+  "mentions": [
+    "A033992"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

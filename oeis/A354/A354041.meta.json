@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the earliest term of A353709 with Hamming weight n.",
+  "id": "A354041",
+  "mentions": [
+    "A000120",
+    "A353709",
+    "A354040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

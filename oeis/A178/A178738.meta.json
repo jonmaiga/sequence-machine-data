@@ -1,0 +1,21 @@
+{
+  "description": "Moebius inversion of a sequence related to powers of 2.",
+  "id": "A178738",
+  "mentions": [
+    "A016116",
+    "A022553",
+    "A131868",
+    "A178749"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

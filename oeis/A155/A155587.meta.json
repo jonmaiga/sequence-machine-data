@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1 + x*c(x))/(1 - x), where c(x) is the g.f. of A000108.",
+  "id": "A155587",
+  "mentions": [
+    "A000108",
+    "A014138",
+    "A057079",
+    "A120588",
+    "A155586",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

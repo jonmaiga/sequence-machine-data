@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k mod (2, 3, 4, ... , i+1) = (d_i, d_i-1, ..., d_1), where d_1, d_2, ..., d_i are the digits of k, with MSD(k) = d_1 and LSD(k) = d_i.",
+  "id": "A319599",
+  "mentions": [
+    "A266181",
+    "A284815"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

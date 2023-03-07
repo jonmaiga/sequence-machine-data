@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the bottom entry in the ratio d(i)/d(i+1) triangle of the elements in the divisors of n, where d(1) < d(2) < ... < d(q) denote the divisors of k, is equal to 1.",
+  "id": "A359493",
+  "mentions": [
+    "A001597",
+    "A124581",
+    "A359247"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

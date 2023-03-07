@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1. a(n+1) = number of earlier terms a(k) (1 <= k <= n) where a(k)+n is a prime.",
+  "id": "A114897",
+  "mentions": [
+    "A010051",
+    "A108839",
+    "A123541"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

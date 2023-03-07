@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of permutations A075348 and A262663.",
+  "id": "A262665",
+  "mentions": [
+    "A075348",
+    "A262663"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

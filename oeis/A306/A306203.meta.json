@@ -1,0 +1,27 @@
+{
+  "description": "Matula-Goebel numbers of balanced rooted semi-identity trees.",
+  "id": "A306203",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A007097",
+    "A048816",
+    "A184155",
+    "A276625",
+    "A306200",
+    "A306201",
+    "A306202",
+    "A316467",
+    "A317710"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

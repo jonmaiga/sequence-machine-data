@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer that can be represented as the sum of n squares of positive integers in at least n distinct ways.",
+  "id": "A215908",
+  "mentions": [
+    "A052261"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

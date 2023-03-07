@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} 1/z(n)^5 where z(n) is the imaginary part of the n-th nontrivial zero of the Riemann zeta function.",
+  "id": "A335814",
+  "mentions": [
+    "A013629",
+    "A074760",
+    "A104539",
+    "A104540",
+    "A104541",
+    "A104542",
+    "A245275",
+    "A245276",
+    "A306339",
+    "A306340",
+    "A306341",
+    "A332614",
+    "A332645",
+    "A333360",
+    "A335815",
+    "A335826",
+    "A355283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

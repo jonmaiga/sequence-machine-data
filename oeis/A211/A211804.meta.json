@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^3>=x^3+y^3.",
+  "id": "A211804",
+  "mentions": [
+    "A211790",
+    "A211805"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:00",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Representable positive integers n that are not the inverse of their inverse in binary64 (double precision) IEEE 754 floating-point arithmetic (Version where 1 and n*(1/n) are unequal).",
+  "id": "A309541",
+  "mentions": [
+    "A275419"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

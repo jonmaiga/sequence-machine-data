@@ -1,0 +1,20 @@
+{
+  "description": "An irrational x such that the decimal representation of neither x nor sqrt(x) contains the digit 0.",
+  "id": "A230517",
+  "mentions": [
+    "A042974",
+    "A042975"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

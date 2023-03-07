@@ -1,0 +1,24 @@
+{
+  "description": "Lesser prime factor of n-th golden semiprime.",
+  "id": "A108541",
+  "mentions": [
+    "A001622",
+    "A084126",
+    "A108539",
+    "A108540",
+    "A108542",
+    "A108543",
+    "A108544"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "A ternary sequence: a(n) = 1 if n is in A003156, 2 if n is in A003157, 3 if n is in A003158.",
+  "id": "A339584",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A003156",
+    "A003157",
+    "A003158",
+    "A080843",
+    "A092606",
+    "A092782"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:47",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of edge covers in the n-dipyramidal graph.",
+  "id": "A296995",
+  "mentions": [
+    "A297713",
+    "A298822"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

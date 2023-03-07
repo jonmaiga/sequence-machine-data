@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the greater of twin primes such that the number of odd digits of the lesser prime equals the number of prime digits of the greater prime.",
+  "id": "A158323",
+  "mentions": [
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2 - 48 and p^2 + 48 are also primes.",
+  "id": "A153320",
+  "mentions": [
+    "A153116",
+    "A153119",
+    "A153120",
+    "A153321"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

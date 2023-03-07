@@ -1,0 +1,20 @@
+{
+  "description": "Exceptional class of numbers k such that p(7*k + 5) == 0 (mod 49), where p() = A000041().",
+  "id": "A327714",
+  "mentions": [
+    "A000041",
+    "A110375",
+    "A160524",
+    "A327713"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

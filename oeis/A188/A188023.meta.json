@@ -1,0 +1,21 @@
+{
+  "description": "Triangle by rows, A115361 * A127648",
+  "id": "A188023",
+  "mentions": [
+    "A115361",
+    "A127648",
+    "A129527"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "\"Convex\" primes: extremal primes in the sense of Tutaj.",
+  "id": "A246033",
+  "mentions": [
+    "A167844"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

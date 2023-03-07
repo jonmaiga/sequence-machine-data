@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(n) AND n is a power of 2 for any n>0 (AND stands for the bitwise AND operator).",
+  "id": "A238758",
+  "mentions": [
+    "A000079",
+    "A238757"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1/k and 1/(k+1) have repeating non-terminating decimal representations with the same length.",
+  "id": "A329109",
+  "mentions": [
+    "A051626"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

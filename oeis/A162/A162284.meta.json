@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers n such that b(n) >= n and b(b(n)) >= n, where b(n) = A161942(n) = oddpart(sigma(n)).",
+  "id": "A162284",
+  "mentions": [
+    "A161942",
+    "A228058",
+    "A326042"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

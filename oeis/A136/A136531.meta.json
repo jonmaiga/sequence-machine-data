@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients of polynomials B(x,n) = ((1+a+b)*x - c)*B(x,n-1) - a*b*B(x,n-2) where B(x,0) = 1, B(x,1) = x, a=-b, b=1, c=1.",
+  "id": "A136531",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A008728",
+    "A010049",
+    "A039834",
+    "A055243",
+    "A078008",
+    "A136526",
+    "A151575",
+    "A212804"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (p*q+r*s)/2, where p,q,r,s are consecutive primes.",
+  "id": "A340307",
+  "mentions": [
+    "A340308"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

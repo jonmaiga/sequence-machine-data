@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number of divisors of p^n - 1 that may possibly occur for arbitrarily large primes p.",
+  "id": "A309906",
+  "mentions": [
+    "A000005",
+    "A005385",
+    "A006863",
+    "A079612",
+    "A161460",
+    "A341670"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

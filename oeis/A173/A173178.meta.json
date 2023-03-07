@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that 2k+3 is a prime of the form 3*A024893(m) + 2.",
+  "id": "A173178",
+  "mentions": [
+    "A000040",
+    "A001477",
+    "A003627",
+    "A007528",
+    "A008611",
+    "A024893",
+    "A024898",
+    "A028242",
+    "A034936",
+    "A039701",
+    "A059841",
+    "A067076",
+    "A080425",
+    "A112774",
+    "A157966"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^k + (k+1)^(k+1) is a semiprime.",
+  "id": "A309747",
+  "mentions": [
+    "A056187",
+    "A056788",
+    "A056790",
+    "A217435"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

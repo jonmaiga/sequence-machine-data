@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of delta = (1+alpha)/4, a constant appearing in Koecher's formula for Euler's gamma constant, where alpha is A065442, the Erdős-Borwein Constant.",
+  "id": "A242000",
+  "mentions": [
+    "A001620",
+    "A065442"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

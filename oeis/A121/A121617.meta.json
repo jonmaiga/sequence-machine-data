@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A022521(n-1) = n^5 - (n-1)^5 is prime.",
+  "id": "A121617",
+  "mentions": [
+    "A022521",
+    "A121616",
+    "A121618",
+    "A121619",
+    "A121620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array g(n,k) read by antidiagonals: the k-th integer with prime factorization 2^i * 3^(n-i) * 5^e_5 *7^e_7 * (... higher primes).",
+  "id": "A171837",
+  "mentions": [
+    "A169611",
+    "A171126",
+    "A171127"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

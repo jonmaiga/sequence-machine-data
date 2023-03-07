@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = solution to Dagstuhl's Happy Diner Problem with n participants and tables of size at most k (n > k >= 2).",
+  "id": "A318240",
+  "mentions": [
+    "A107431",
+    "A318241"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

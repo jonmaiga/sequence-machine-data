@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. cos(2x) cos(3x) / cos(6x) (even powers only).",
+  "id": "A352977",
+  "mentions": [
+    "A000192",
+    "A002437",
+    "A349429"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

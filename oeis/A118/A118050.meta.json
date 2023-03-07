@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients in a series for the inverse of harmonic number H(x).",
+  "id": "A118050",
+  "mentions": [
+    "A002387",
+    "A118051"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

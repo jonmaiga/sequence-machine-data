@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that the continued fraction expansion of sqrt(k) contains n distinct numbers.",
+  "id": "A187142",
+  "mentions": [
+    "A010121",
+    "A040000"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

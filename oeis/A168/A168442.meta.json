@@ -1,0 +1,18 @@
+{
+  "description": "Product{k=0..n, (2*0^k+4k(4k+2))^(n-k)}.",
+  "id": "A168442",
+  "mentions": [
+    "A168441"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of primes p < n with pi(n-p) a square, where pi(.) is given by A000720.",
+  "id": "A237706",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000290",
+    "A000720",
+    "A237598",
+    "A237612",
+    "A237705",
+    "A237710",
+    "A237720",
+    "A237721"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

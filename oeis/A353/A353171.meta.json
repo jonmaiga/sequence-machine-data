@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows; T(n,k) = 2^k (mod prime(n)), terminating when T(n,k) = 1.",
+  "id": "A353171",
+  "mentions": [
+    "A000225",
+    "A014664",
+    "A201908",
+    "A201912"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

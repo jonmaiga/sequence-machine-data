@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that both k and k+1 are nonunitary abundant numbers (A064597).",
+  "id": "A327942",
+  "mentions": [
+    "A048146",
+    "A064597",
+    "A094889",
+    "A096399",
+    "A292704",
+    "A307823",
+    "A318167",
+    "A327635"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

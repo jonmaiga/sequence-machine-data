@@ -1,0 +1,36 @@
+{
+  "description": "Squarefree numbers k > 1 for which the 2-adic valuation of phi(k) does not exceed the 2-adic valuation of k-1.",
+  "id": "A339817",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001221",
+    "A001222",
+    "A002144",
+    "A002145",
+    "A003961",
+    "A007814",
+    "A016105",
+    "A016813",
+    "A019565",
+    "A091113",
+    "A339816",
+    "A339818",
+    "A339819",
+    "A339869",
+    "A339870",
+    "A339879",
+    "A339880",
+    "A339907"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

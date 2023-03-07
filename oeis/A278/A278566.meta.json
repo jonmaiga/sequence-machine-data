@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n gives coefficients when the n-th coefficient of the modular function j (A000521(n)) is written as a linear combination of irreducible characters of the Monster simple group (A001379).",
+  "id": "A278566",
+  "mentions": [
+    "A000521",
+    "A001379",
+    "A007240"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

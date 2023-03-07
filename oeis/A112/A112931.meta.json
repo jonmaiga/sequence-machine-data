@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of rational values arising in an asymptotic formula for 1/(zeta(s)-1) as s-->infinity.",
+  "id": "A112931",
+  "mentions": [
+    "A112932",
+    "A112933"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

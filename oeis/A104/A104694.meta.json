@@ -1,0 +1,26 @@
+{
+  "description": "Rearrangement of positive integers according to number of odd and even digits in n^3.",
+  "id": "A104694",
+  "mentions": [
+    "A104639",
+    "A104640",
+    "A104641",
+    "A104691",
+    "A104692",
+    "A104693",
+    "A104695"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

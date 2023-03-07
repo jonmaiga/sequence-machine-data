@@ -1,0 +1,19 @@
+{
+  "description": "Number of functions f:[n]->[n] such that no k exists such that |f^(-1)(k)| = k.",
+  "id": "A331537",
+  "mentions": [
+    "A000312",
+    "A331538"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

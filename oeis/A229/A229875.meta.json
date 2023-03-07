@@ -1,0 +1,22 @@
+{
+  "description": "Iterated sum-of-digits of palindromic prime; or digital root of palindromic prime.",
+  "id": "A229875",
+  "mentions": [
+    "A002385",
+    "A010888",
+    "A038194"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

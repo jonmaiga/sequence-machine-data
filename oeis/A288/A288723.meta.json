@@ -1,0 +1,21 @@
+{
+  "description": "First sequence of a Kolakoski 3-Ouroboros, i.e., sequence of 1s, 2s and 3s that begins a chain of three distinct sequences where successive run-length encodings produce seq(1) -> seq(2) -> seq(3) -> seq(1).",
+  "id": "A288723",
+  "mentions": [
+    "A000002",
+    "A025142",
+    "A025143",
+    "A288724",
+    "A288725"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

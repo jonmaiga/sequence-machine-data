@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = minimal value of n+k+1 such that the concatenation of the binary expansions of n,n+1,...,n+k is divisible by n+k+1, or -1 if no such n+k+1 exists.",
+  "id": "A332586",
+  "mentions": [
+    "A332563",
+    "A332580",
+    "A332584"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sum of primes in {10*n-9, 10*n-7, 10*n-3, 10*n-1}.",
+  "id": "A140890",
+  "mentions": [
+    "A010051",
+    "A030430",
+    "A030431",
+    "A030432",
+    "A030433"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

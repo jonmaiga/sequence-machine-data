@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the next-to-least positive zero of the 4th Maclaurin polynomial of cos x.",
+  "id": "A332329",
+  "mentions": [
+    "A197723",
+    "A323326",
+    "A323330",
+    "A323331"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

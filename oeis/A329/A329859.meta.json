@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and uphi(k) have the same set of prime divisors, where uphi is the unitary totient function (A047994).",
+  "id": "A329859",
+  "mentions": [
+    "A007947",
+    "A027598",
+    "A047994",
+    "A055744"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

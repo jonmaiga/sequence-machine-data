@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*floor(n/4)*(n - 2*(1 + floor(n/4))).",
+  "id": "A182568",
+  "mentions": [
+    "A001972",
+    "A130519"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:04:01",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that m*p is divisible by m-p, where m > p > 0 and p = A007954(m) = the product of digits of m.",
+  "id": "A330880",
+  "mentions": [
+    "A007954",
+    "A049102",
+    "A052382",
+    "A085124",
+    "A334679",
+    "A334803"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

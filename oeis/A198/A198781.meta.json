@@ -1,0 +1,32 @@
+{
+  "description": "Primes from merging of 7 successive digits in decimal expansion of Euler-Mascheroni constant.",
+  "id": "A198781",
+  "mentions": [
+    "A103773",
+    "A103789",
+    "A103793",
+    "A103808",
+    "A103812",
+    "A104824",
+    "A104826",
+    "A104843",
+    "A104850",
+    "A104941",
+    "A186206",
+    "A198161",
+    "A198177",
+    "A198776",
+    "A198784"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:56",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

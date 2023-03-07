@@ -1,0 +1,18 @@
+{
+  "description": "Number of right triangles on a (n+1) X 4 grid.",
+  "id": "A189808",
+  "mentions": [
+    "A189814"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:33",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

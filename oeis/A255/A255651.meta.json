@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of A255485.",
+  "id": "A255651",
+  "mentions": [
+    "A006046",
+    "A134659",
+    "A255485",
+    "A255488",
+    "A255645",
+    "A255649",
+    "A255650",
+    "A255652",
+    "A255653"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

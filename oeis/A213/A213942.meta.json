@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of representative two-color bracelets (necklaces with turnover allowed) with n beads for n >= 2.",
+  "id": "A213942",
+  "mentions": [
+    "A000029",
+    "A005648",
+    "A008284",
+    "A056357",
+    "A213939",
+    "A213940",
+    "A214307",
+    "A214308",
+    "A226881"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 2,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sums-complement of the Beatty sequence for 1 + sqrt(5).",
+  "id": "A276881",
+  "mentions": [
+    "A276854",
+    "A276863",
+    "A276871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

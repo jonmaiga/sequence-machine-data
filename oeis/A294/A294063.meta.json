@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the differences of the larger and smaller parts in the partitions of 2n into two parts with the larger part squarefree.",
+  "id": "A294063",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A294062"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

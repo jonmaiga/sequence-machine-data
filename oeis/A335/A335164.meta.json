@@ -1,0 +1,18 @@
+{
+  "description": "Nim n-th power of 5.",
+  "id": "A335164",
+  "mentions": [
+    "A335162"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:33",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

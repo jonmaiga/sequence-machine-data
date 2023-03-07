@@ -1,0 +1,20 @@
+{
+  "description": "Minimum m such that there exists an n-row subtractive triangle with distinct integers in 1..m.",
+  "id": "A226239",
+  "mentions": [
+    "A035312",
+    "A035313"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

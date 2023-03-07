@@ -1,0 +1,22 @@
+{
+  "description": "Floor(A^(C^n)), where A = 32.76 and C = 1.33.",
+  "id": "A191357",
+  "mentions": [
+    "A051021",
+    "A051254",
+    "A060449",
+    "A060699",
+    "A108739"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:27:02",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

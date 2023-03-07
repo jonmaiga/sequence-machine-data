@@ -1,0 +1,18 @@
+{
+  "description": "Square roots of the numbers in A130448.",
+  "id": "A131599",
+  "mentions": [
+    "A130448"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

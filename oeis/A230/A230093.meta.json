@@ -1,0 +1,28 @@
+{
+  "description": "Number of values of k such that k + (sum of digits of k) is n.",
+  "id": "A230093",
+  "mentions": [
+    "A003052",
+    "A004207",
+    "A006064",
+    "A007953",
+    "A055642",
+    "A062028",
+    "A107740",
+    "A176995",
+    "A225793",
+    "A228085",
+    "A230094"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that A326057(n) is equal to A252748(n) and A252748(n) is not 1.",
+  "id": "A326134",
+  "mentions": [
+    "A000396",
+    "A003961",
+    "A246282",
+    "A252748",
+    "A286385",
+    "A326057",
+    "A337345",
+    "A337372",
+    "A341614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x) = F(x*G(x)) where F(x) = G(x/F(x)^2) = 1 + x*F(x)^2 is the g.f. of A000108 (Catalan) and G(x) = F(x*G(x)^2) = 1 + x*G(x)^4 is the g.f. of A002293.",
+  "id": "A153395",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A002293",
+    "A153394",
+    "A153396"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:27:11",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

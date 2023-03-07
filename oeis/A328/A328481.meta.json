@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms required when n is expressed as a greedy sum of terms of A129912 (digital sum of n when written in greedy A129912-base).",
+  "id": "A328481",
+  "mentions": [
+    "A002110",
+    "A129912",
+    "A276150",
+    "A328480",
+    "A328482",
+    "A328483"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Septic artiads: primes p congruent to 1 mod 14 for which all solutions of the congruence x^3 + x^2 - 2x - 1 == 0 (mod p) are 7th power residues.",
+  "id": "A270800",
+  "mentions": [
+    "A001583"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

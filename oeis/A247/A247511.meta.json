@@ -1,0 +1,23 @@
+{
+  "description": "Number of preprimes of the third kind (A247394) with the smallest prime divisor equals prime(n).",
+  "id": "A247511",
+  "mentions": [
+    "A000040",
+    "A156759",
+    "A247393",
+    "A247394",
+    "A247509",
+    "A247510",
+    "A247606"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by upwards antidiagonals: LegendrePhi phi(x,n), x,n >=1.",
+  "id": "A275257",
+  "mentions": [
+    "A000010",
+    "A054431",
+    "A078401"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

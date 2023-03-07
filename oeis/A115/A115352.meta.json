@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of finite strings S_0, S_1, S_2, ..., where S_0 = {0} and for k >= 1, S_k is obtained from S_{k-1} by inserting the numbers 2^(k-1) through 2^k-1 after the initial 0.",
+  "id": "A115352",
+  "mentions": [
+    "A025480",
+    "A054429"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

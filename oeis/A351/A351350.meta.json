@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the square of the radius of the largest circle, centered at the origin, around which a Racetrack car (using Moore neighborhood) can run a full lap in n steps.",
+  "id": "A351350",
+  "mentions": [
+    "A351041",
+    "A351349",
+    "A351352"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 6,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

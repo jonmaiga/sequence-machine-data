@@ -1,0 +1,20 @@
+{
+  "description": "A336719 with duplicates removed.",
+  "id": "A336720",
+  "mentions": [
+    "A000668",
+    "A005420",
+    "A336719",
+    "A336721"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

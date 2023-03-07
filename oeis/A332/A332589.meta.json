@@ -1,0 +1,19 @@
+{
+  "description": "Let t_k denote the triangular number k*(k+1)/2. Suppose 0 < x < y < z are integers satisfying t_x + t_y = t_p, t_y + t_z = t_q, t_x + t_z = t_r, for integers p,q,r. Sort the triples [x,y,z] first by x, then by y. Sequence gives the values of y.",
+  "id": "A332589",
+  "mentions": [
+    "A000217",
+    "A332588",
+    "A332593"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

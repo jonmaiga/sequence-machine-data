@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by ascending antidiagonals, n>=0, k>=0. Row n is the expansion of (1-n*x-sqrt(n^2*x^2-2*n*x-4*x+1))/(2*x).",
+  "id": "A247507",
+  "mentions": [
+    "A000108",
+    "A006318",
+    "A047891",
+    "A082298",
+    "A082301",
+    "A082302",
+    "A082305",
+    "A082366",
+    "A082367",
+    "A243631",
+    "A302286"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

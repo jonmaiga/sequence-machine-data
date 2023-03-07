@@ -1,0 +1,19 @@
+{
+  "description": "Triangle: T(n,k)=C(4n,2k), 0<=k<=n.",
+  "id": "A193633",
+  "mentions": [
+    "A193632"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:22:45",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

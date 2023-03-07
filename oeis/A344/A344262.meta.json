@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=1; for n>0, a(n) = a(n-1)*n+1 if n is even, (a(n-1)+1)*n otherwise.",
+  "id": "A344262",
+  "mentions": [
+    "A033540",
+    "A073743",
+    "A090805",
+    "A137204",
+    "A155521",
+    "A344317"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:00:44",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

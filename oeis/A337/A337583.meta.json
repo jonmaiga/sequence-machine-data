@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of integer multisets (partitions) that match the multiplicity multiset of exactly k partitions of n.",
+  "id": "A337583",
+  "mentions": [
+    "A000041",
+    "A088887",
+    "A337587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Product of parts in n-th partition in Abramowitz and Stegun order.",
+  "id": "A118851",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A000792",
+    "A005361",
+    "A006906",
+    "A036035",
+    "A036036",
+    "A048996",
+    "A078812",
+    "A085643",
+    "A103921",
+    "A111786"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the real part of z0, the smallest nonzero first-quadrant solution of z = Sin(z).",
+  "id": "A138282",
+  "mentions": [
+    "A138283",
+    "A348297",
+    "A348298"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

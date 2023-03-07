@@ -1,0 +1,40 @@
+{
+  "description": "Number of multisets of intervals whose multiset union is of size n and covers an initial interval of positive integers.",
+  "id": "A356937",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A000041",
+    "A000670",
+    "A001227",
+    "A011782",
+    "A019536",
+    "A034691",
+    "A055887",
+    "A063834",
+    "A073485",
+    "A107742",
+    "A116540",
+    "A255906",
+    "A270995",
+    "A304969",
+    "A333217",
+    "A349050",
+    "A349055",
+    "A356933",
+    "A356936",
+    "A356938",
+    "A356939",
+    "A356942"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

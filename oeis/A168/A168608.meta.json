@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of average of two-digit primes.",
+  "id": "A168608",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "cons",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

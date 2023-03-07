@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of rooted binary trees with minimal Sackin index and n leaves.",
+  "id": "A299037",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A000330",
+    "A000992",
+    "A006893",
+    "A011782",
+    "A212415"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

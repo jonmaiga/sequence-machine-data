@@ -1,0 +1,18 @@
+{
+  "description": "A floretion-generated sequence calculated using the rules given for A108618 with initial seed x = - .25'i + .25'j + .25'k - .25i' - .25j' - .25k' - .25'ii' + .25'jj' + .25'kk' - .25'ij' + .25'ik' - .25'ji' + .25'jk' + .25'ki' - .25'kj' + .25e; version: tes.",
+  "id": "A108986",
+  "mentions": [
+    "A108618"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

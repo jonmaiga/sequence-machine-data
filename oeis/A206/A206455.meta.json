@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) = number of 0..k arrays of length n avoiding the consecutive pattern 0..k.",
+  "id": "A206455",
+  "mentions": [
+    "A048861",
+    "A076264",
+    "A206450",
+    "A206451",
+    "A206452"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

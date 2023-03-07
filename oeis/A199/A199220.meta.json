@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n-1-k)*abs(s(n,n+1-k)), where s(n,k) are the signed Stirling numbers of the first kind and 1 <= k <= n.",
+  "id": "A199220",
+  "mentions": [
+    "A094638",
+    "A192918",
+    "A199221"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

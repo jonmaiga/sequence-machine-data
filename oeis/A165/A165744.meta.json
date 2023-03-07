@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with property that 6^k is the sum of two consecutive primes.",
+  "id": "A165744",
+  "mentions": [
+    "A071087",
+    "A074924"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

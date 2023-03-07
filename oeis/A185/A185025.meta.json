@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of functions f:{1,2,...,n} -> {1,2,...,n} that have exactly k 2-cycles for n >= 0 and 0 <= k <= floor(n/2).",
+  "id": "A185025",
+  "mentions": [
+    "A000169",
+    "A081131",
+    "A089466"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

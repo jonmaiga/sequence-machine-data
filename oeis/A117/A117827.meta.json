@@ -1,0 +1,20 @@
+{
+  "description": "A117830 sorted and duplicates removed.",
+  "id": "A117827",
+  "mentions": [
+    "A117830"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of solid standard Young tableaux of shape [[2*n,2],[2]].",
+  "id": "A215687",
+  "mentions": [
+    "A176129"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:02:27",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

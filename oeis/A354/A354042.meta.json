@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows. The Faulhaber numbers. F(0, k) = 1 and otherwise F(n, k) = (n + 1)!*(-1)^(k+1)*Sum_{j=0..floor((k-1)/2)} C(2*k-2*j, k+1)*C(2*n+1, 2*j+1) * Bernoulli(2*n-2*j) / (k - j).",
+  "id": "A354042",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A263445",
+    "A335951",
+    "A335952",
+    "A354043"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

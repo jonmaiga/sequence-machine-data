@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: row n gives list of lengths of runs of 1's in binary expansion of n, starting with high-order bits.",
+  "id": "A245562",
+  "mentions": [
+    "A000120",
+    "A071053",
+    "A245563"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

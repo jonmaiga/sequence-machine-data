@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. (1/cosh(x)+tanh(x))*(exp(2*x)-exp(-x))/3.",
+  "id": "A101480",
+  "mentions": [
+    "A001045",
+    "A007583",
+    "A101473"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:00:52",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

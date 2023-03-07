@@ -1,0 +1,33 @@
+{
+  "description": "Permutation of nonnegative integers: for each bit[i] in the binary representation, except the most and the least significant bits, set bit[i] = bit[i] XOR bit[i-1], where bit[i-1] is the less significant bit, XOR is the binary logical exclusive or operator.",
+  "id": "A231550",
+  "mentions": [
+    "A002487",
+    "A003188",
+    "A006068",
+    "A020650",
+    "A020651",
+    "A092569",
+    "A162911",
+    "A162912",
+    "A231551",
+    "A245326",
+    "A245327",
+    "A258996",
+    "A284460"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

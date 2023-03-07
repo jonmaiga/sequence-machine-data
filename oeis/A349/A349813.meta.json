@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row 1 is [3]; for n >= 1, row n gives coefficients of expansion of (-3 - x + x^2 + 3*x^3)*(1 + x + x^2 + x^3)^(n-1) in order of increasing powers of x.",
+  "id": "A349813",
+  "mentions": [
+    "A007318",
+    "A008287",
+    "A349812",
+    "A349814",
+    "A349815",
+    "A349819"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

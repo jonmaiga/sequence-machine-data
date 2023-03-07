@@ -1,0 +1,25 @@
+{
+  "description": "A total of n married couples, including a mathematician M and his wife W, are to be seated at the 2n chairs around a circular table. M and W are the first couple allowed to choose chairs, and they choose two chairs next to each other. The sequence gives the number of ways of seating the remaining couples so that women and men are in alternate chairs but M and W are the only couple seated next to each other.",
+  "id": "A259212",
+  "mentions": [
+    "A000179",
+    "A000271",
+    "A258664",
+    "A258665",
+    "A258666",
+    "A258667",
+    "A258673"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Indices of low points in Recamán's sequence A005132 (see Comments in A309226 for definition).",
+  "id": "A324784",
+  "mentions": [
+    "A005132",
+    "A309226",
+    "A324785",
+    "A324786"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

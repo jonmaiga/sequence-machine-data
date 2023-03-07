@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where row n forms a polynomial in y=2*k that generates diagonal n as k=0,1,2,... for n>=0; thus T(n,k) = Sum_{j=0..n-k} T(n-k,j)*(2*k)^j, with T(n,0)=T(n,n)=1.",
+  "id": "A113711",
+  "mentions": [
+    "A091150",
+    "A113712",
+    "A113713",
+    "A113714",
+    "A113715",
+    "A113716"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

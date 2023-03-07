@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A276086(k) > k, where A276086 is the primorial base exp-function.",
+  "id": "A351227",
+  "mentions": [
+    "A276086",
+    "A351225",
+    "A351226",
+    "A351229"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

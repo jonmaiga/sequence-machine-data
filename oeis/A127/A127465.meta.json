@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = k*phi(n/k) if k|n, T(n,k)=0 otherwise.",
+  "id": "A127465",
+  "mentions": [
+    "A000010",
+    "A018804",
+    "A054523"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

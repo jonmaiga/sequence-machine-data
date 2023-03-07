@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n gives the members of the smallest nonnegative reduced residue system in the modified congruence modulo 2*n - 1 by Brändli and Beyne, called mod*(2*n - 1).",
+  "id": "A334428",
+  "mentions": [
+    "A038566",
+    "A055034",
+    "A072451",
+    "A333856"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

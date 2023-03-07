@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first composite k such that exactly n primes are the sum of all but one of the numbers from 1 to k-1 that are coprime to k, or -1 if there is no such k.",
+  "id": "A354846",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A038566"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

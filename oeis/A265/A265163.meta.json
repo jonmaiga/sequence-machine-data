@@ -1,0 +1,19 @@
+{
+  "description": "Array of basis permutations, seen as a triangle read by rows: Row k (k >= 0) gives the values of b(n, k) = number of permutations of size n (2 <= n <= 2(k+1)) in the permutation basis B(k) (see Comments for further details).",
+  "id": "A265163",
+  "mentions": [
+    "A265164",
+    "A265165"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

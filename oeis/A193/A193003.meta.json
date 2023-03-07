@@ -1,0 +1,18 @@
+{
+  "description": "Squares k such that gcd(sigma(k),usigma(k)) > 1, where usigma is A034448.",
+  "id": "A193003",
+  "mentions": [
+    "A000203",
+    "A034448"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

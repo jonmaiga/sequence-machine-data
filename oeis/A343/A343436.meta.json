@@ -1,0 +1,18 @@
+{
+  "description": "Maximum value of the number of different squarefree extensions for words of length n in the set of all finite squarefree words over the alphabet A3 = {1,2,3}.",
+  "id": "A343436",
+  "mentions": [
+    "A343435"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

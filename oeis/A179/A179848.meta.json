@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of series reversion of generating function for triangular numbers.",
+  "id": "A179848",
+  "mentions": [
+    "A000217",
+    "A001764",
+    "A357588"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

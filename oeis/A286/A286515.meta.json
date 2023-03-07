@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = denominator(Bernoulli_{n}(x)) / denominator(Bernoulli_{n}).",
+  "id": "A286515",
+  "mentions": [
+    "A027642",
+    "A064538",
+    "A144845",
+    "A195441",
+    "A286516",
+    "A286517"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

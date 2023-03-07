@@ -1,0 +1,21 @@
+{
+  "description": "Indices of records in A355899.",
+  "id": "A355900",
+  "mentions": [
+    "A351871",
+    "A355898",
+    "A355899",
+    "A355901"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

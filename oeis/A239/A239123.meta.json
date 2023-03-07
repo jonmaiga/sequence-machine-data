@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 128*n - 107 for n >= 1. Third column of triangle A238475.",
+  "id": "A239123",
+  "mentions": [
+    "A238475",
+    "A238477"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:41",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) = A101261(2n).",
+  "id": "A101905",
+  "mentions": [
+    "A101261",
+    "A101906"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

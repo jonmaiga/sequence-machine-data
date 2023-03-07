@@ -1,0 +1,21 @@
+{
+  "description": "Odd squarefree positive integers k such that (k+1)/2 is also squarefree.",
+  "id": "A117205",
+  "mentions": [
+    "A005117",
+    "A065474",
+    "A117203",
+    "A117206"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

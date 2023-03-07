@@ -1,0 +1,32 @@
+{
+  "description": "First semiprime after e^n.",
+  "id": "A117879",
+  "mentions": [
+    "A000040",
+    "A000149",
+    "A001358",
+    "A007512",
+    "A014210",
+    "A050808",
+    "A050809",
+    "A059303",
+    "A064118",
+    "A074496",
+    "A095935",
+    "A115019",
+    "A118840"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

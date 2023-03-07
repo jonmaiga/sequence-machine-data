@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 + 1 and k^2 + 2 are both squarefree.",
+  "id": "A335962",
+  "mentions": [
+    "A005117",
+    "A007674",
+    "A049533",
+    "A069987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

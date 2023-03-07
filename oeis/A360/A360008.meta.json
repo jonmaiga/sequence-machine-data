@@ -1,0 +1,35 @@
+{
+  "description": "Positions of first appearances in the sequence giving the mean of prime indices (A326567/A326568).",
+  "id": "A360008",
+  "mentions": [
+    "A001222",
+    "A008284",
+    "A026424",
+    "A051293",
+    "A056239",
+    "A058398",
+    "A112798",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A327473",
+    "A327482",
+    "A348551",
+    "A359889",
+    "A359908",
+    "A359912",
+    "A360005",
+    "A360006",
+    "A360007"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

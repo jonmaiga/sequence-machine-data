@@ -1,0 +1,38 @@
+{
+  "description": "Total number of toothpicks in the toothpick structure A139250 that are parallel to the initial toothpick, after n odd rounds.",
+  "id": "A162795",
+  "mentions": [
+    "A000695",
+    "A002450",
+    "A011782",
+    "A048645",
+    "A139250",
+    "A139251",
+    "A147562",
+    "A153000",
+    "A159791",
+    "A159792",
+    "A160164",
+    "A160552",
+    "A162793",
+    "A162794",
+    "A162796",
+    "A162797",
+    "A169707",
+    "A255263",
+    "A255264",
+    "A255737",
+    "A255747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

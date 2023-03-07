@@ -1,0 +1,26 @@
+{
+  "description": "The triangle in A151338 read by rows downwards.",
+  "id": "A151509",
+  "mentions": [
+    "A110038",
+    "A111246",
+    "A122848",
+    "A144644",
+    "A151338",
+    "A151511",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

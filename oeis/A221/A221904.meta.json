@@ -1,0 +1,25 @@
+{
+  "description": "9^n + 10^n.",
+  "id": "A221904",
+  "mentions": [
+    "A007689",
+    "A074611",
+    "A074615",
+    "A074619",
+    "A074622",
+    "A074624",
+    "A155872"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Scambler statistic on Dyck paths. Triangle T(n, k) read by rows, n >= 0, -n <= k <= n, T(n, k) is the number of Dyck paths of semilength n and k = number of returns + number of hills - number of peaks.",
+  "id": "A217540",
+  "mentions": [
+    "A000108",
+    "A014531",
+    "A113682",
+    "A189912",
+    "A194588",
+    "A217539"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

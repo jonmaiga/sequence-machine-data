@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n whose Zeckendorf representation is of the form ww, for w a nonempty block of digits.",
+  "id": "A286710",
+  "mentions": [
+    "A000045",
+    "A014417",
+    "A094202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

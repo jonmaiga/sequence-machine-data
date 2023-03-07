@@ -1,0 +1,21 @@
+{
+  "description": "Hyper-Wiener index of a benzenoid consisting of a spiral chain of n hexagons (s=1; see the Gutman et al. reference).",
+  "id": "A193392",
+  "mentions": [
+    "A143937",
+    "A143938",
+    "A193391"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

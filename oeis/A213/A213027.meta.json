@@ -1,0 +1,36 @@
+{
+  "description": "Number A(n,k) of 3n-length k-ary words, either empty or beginning with the first letter of the alphabet, that can be built by repeatedly inserting triples of identical letters into the initially empty word; square array A(n,k), n>=0, k>=0, by antidiagonals.",
+  "id": "A213027",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A016777",
+    "A047099",
+    "A057427",
+    "A127854",
+    "A183134",
+    "A183135",
+    "A213028",
+    "A218472",
+    "A218473",
+    "A218474",
+    "A218475",
+    "A218476",
+    "A218477",
+    "A218478",
+    "A218479",
+    "A218480"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

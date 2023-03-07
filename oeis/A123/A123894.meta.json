@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f.: (1+x^2)*(1+2*x^2)*(1+3*x^2)*(1+4*x^2)/(1-5*x+10*x^2 -40*x^3+35*x^4-105*x^5 +50*x^6-100*x^7+24*x^8-24*x^9).",
+  "id": "A123894",
+  "mentions": [
+    "A005251",
+    "A123892",
+    "A123893",
+    "A225685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

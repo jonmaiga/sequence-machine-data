@@ -1,0 +1,20 @@
+{
+  "description": "Number of squares between prime(n) and 2*prime(n) inclusive.",
+  "id": "A105223",
+  "mentions": [
+    "A000196",
+    "A105224"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

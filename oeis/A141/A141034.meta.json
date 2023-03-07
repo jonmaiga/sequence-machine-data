@@ -1,0 +1,20 @@
+{
+  "description": "Rank of the unit group of the Burnside ring of the symmetric group on n points.",
+  "id": "A141034",
+  "mentions": [
+    "A000638"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

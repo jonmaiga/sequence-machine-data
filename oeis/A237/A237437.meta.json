@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p > prime(n+1) such that p is not a square mod the first n odd primes 3, 5, 7, 11, ..., prime(n+1).",
+  "id": "A237437",
+  "mentions": [
+    "A237436"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

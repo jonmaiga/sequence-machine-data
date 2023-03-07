@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of series_reversion( x/(1+x^4*sum(k>=0, x^k)) ) / x.",
+  "id": "A215341",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A005043",
+    "A046736",
+    "A054514",
+    "A114997",
+    "A215340",
+    "A215342"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

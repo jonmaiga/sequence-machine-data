@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle where row n contains the odd terms in the Collatz sequence beginning with 2n+1.",
+  "id": "A256598",
+  "mentions": [
+    "A000265",
+    "A006370",
+    "A070165",
+    "A075677",
+    "A258145"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

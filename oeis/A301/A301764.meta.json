@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to choose a constant rooted partition of each part in a constant rooted partition of n such that the flattened sequence is also constant.",
+  "id": "A301764",
+  "mentions": [
+    "A002865",
+    "A007425",
+    "A063834",
+    "A093637",
+    "A127524",
+    "A295931",
+    "A300383",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

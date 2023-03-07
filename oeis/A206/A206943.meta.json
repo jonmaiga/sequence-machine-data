@@ -1,0 +1,20 @@
+{
+  "description": "Generalized repeat unit one numbers: all numbers of the form (m^p-1)/(m-1), where abs(m) > 1 and p is odd prime.",
+  "id": "A206943",
+  "mentions": [
+    "A206942",
+    "A208507"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

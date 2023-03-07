@@ -1,0 +1,21 @@
+{
+  "description": "Index of A190874 at record terms.",
+  "id": "A202187",
+  "mentions": [
+    "A168425",
+    "A174641",
+    "A190874",
+    "A202186",
+    "A202188"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

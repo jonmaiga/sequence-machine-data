@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=1..n} sigma_k(j) * floor(n/j).",
+  "id": "A356045",
+  "mentions": [
+    "A061201",
+    "A280077",
+    "A322103",
+    "A356042",
+    "A356043",
+    "A356046"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

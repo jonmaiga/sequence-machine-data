@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows arising from the Mann-Shanks criterion for primality.",
+  "id": "A182060",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

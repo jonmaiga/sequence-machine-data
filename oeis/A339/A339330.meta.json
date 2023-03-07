@@ -1,0 +1,18 @@
+{
+  "description": "Sums of antidiagonals in A283681.",
+  "id": "A339330",
+  "mentions": [
+    "A283681"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

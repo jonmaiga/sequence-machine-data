@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of positive k-th ranks of all partitions of n.",
+  "id": "A208482",
+  "mentions": [
+    "A000070",
+    "A006128",
+    "A063995",
+    "A064173",
+    "A105805",
+    "A181187",
+    "A194547",
+    "A194549",
+    "A195822",
+    "A208478",
+    "A208483",
+    "A209616"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

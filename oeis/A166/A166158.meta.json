@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that phi(n)+ number of perfect partitions of (n-1) is prime.",
+  "id": "A166158",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002033"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

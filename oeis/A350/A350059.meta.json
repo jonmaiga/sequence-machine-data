@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 3k and 4k have the same number of divisors.",
+  "id": "A350059",
+  "mentions": [
+    "A000005",
+    "A007310",
+    "A007814",
+    "A007949"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

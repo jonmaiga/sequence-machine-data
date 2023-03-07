@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle where T(n,k) is the number of unlabeled series-reduced rooted trees with n leaves in which every leaf is at height k, (n>=1, min(1,n-1) <= k <= log_2(n)).",
+  "id": "A320221",
+  "mentions": [
+    "A000669",
+    "A005804",
+    "A048816",
+    "A083751",
+    "A119262",
+    "A120803",
+    "A141268",
+    "A244925",
+    "A316624",
+    "A319312",
+    "A320154",
+    "A320155",
+    "A320160",
+    "A320172",
+    "A320173",
+    "A320179"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

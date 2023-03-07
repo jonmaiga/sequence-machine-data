@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of Sum_{k=1..n} (-1)^(k+1)/prime(k)^2.",
+  "id": "A136368",
+  "mentions": [
+    "A024530",
+    "A136365",
+    "A136366",
+    "A136369",
+    "A136370",
+    "A136371"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

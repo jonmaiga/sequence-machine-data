@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k for which the k-th triangular number is greedy-summable.",
+  "id": "A242286",
+  "mentions": [
+    "A000217",
+    "A241833",
+    "A242284",
+    "A242285",
+    "A242287"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

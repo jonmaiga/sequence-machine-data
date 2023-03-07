@@ -1,0 +1,18 @@
+{
+  "description": "Take the union of all the sequences Collatz(i) for i <= n. The number a(n) is the largest of consecutive numbers beginning with 1.",
+  "id": "A235452",
+  "mentions": [
+    "A061641",
+    "A177729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are congruent to 4 mod n, where n is the index of the prime.",
+  "id": "A171431",
+  "mentions": [
+    "A023146",
+    "A048891",
+    "A171430"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

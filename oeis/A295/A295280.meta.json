@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 + the number of distinct earlier terms that are coprime to n.",
+  "id": "A295280",
+  "mentions": [
+    "A000720",
+    "A096216",
+    "A295277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

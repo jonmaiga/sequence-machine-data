@@ -1,0 +1,22 @@
+{
+  "description": "First 3-digit number to appear n times in the decimal expansion of e.",
+  "id": "A290643",
+  "mentions": [
+    "A001113",
+    "A195138",
+    "A276993",
+    "A277270",
+    "A290644"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

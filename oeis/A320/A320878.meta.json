@@ -1,0 +1,29 @@
+{
+  "description": "Primes such that iteration of A062028 (n + its digit sum) yields 6 primes in a row.",
+  "id": "A320878",
+  "mentions": [
+    "A047791",
+    "A048519",
+    "A048520",
+    "A048523",
+    "A048527",
+    "A062028",
+    "A090009",
+    "A230093",
+    "A320879",
+    "A320880",
+    "A320881"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

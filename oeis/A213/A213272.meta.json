@@ -1,0 +1,26 @@
+{
+  "description": "Costas arrays such that the terms in each row of the difference table are unique modulo n.",
+  "id": "A213272",
+  "mentions": [
+    "A002618",
+    "A006093",
+    "A008404",
+    "A104039",
+    "A213270",
+    "A213271",
+    "A213338",
+    "A213339"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

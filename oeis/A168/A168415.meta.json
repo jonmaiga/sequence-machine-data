@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^n + 7.",
+  "id": "A168415",
+  "mentions": [
+    "A000079",
+    "A057195",
+    "A104066",
+    "A125247",
+    "A257272"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

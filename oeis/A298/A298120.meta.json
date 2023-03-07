@@ -1,0 +1,29 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees in which all positive outdegrees are odd.",
+  "id": "A298120",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A026424",
+    "A061775",
+    "A214577",
+    "A276625",
+    "A277098",
+    "A290760",
+    "A291441",
+    "A291442",
+    "A291636",
+    "A297571",
+    "A298118"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

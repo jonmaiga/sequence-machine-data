@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that min_{j=1..n} |p(j)-j| = k; triangle T(n,k), n >= 0, 0 <= k <= floor(n/2), read by rows.",
+  "id": "A299789",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000166",
+    "A001883",
+    "A002467",
+    "A057427",
+    "A075851",
+    "A075852",
+    "A129118",
+    "A130152",
+    "A296050",
+    "A306543",
+    "A306545"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

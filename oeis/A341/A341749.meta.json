@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that gcd(k, phi(k)) > log(log(k)).",
+  "id": "A341749",
+  "mentions": [
+    "A000010",
+    "A001620",
+    "A003277",
+    "A009195",
+    "A060679",
+    "A080130",
+    "A080197",
+    "A227242",
+    "A341750"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

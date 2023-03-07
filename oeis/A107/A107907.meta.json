@@ -1,0 +1,31 @@
+{
+  "description": "Numbers having consecutive zeros or consecutive ones in binary representation.",
+  "id": "A107907",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000120",
+    "A000225",
+    "A000247",
+    "A000295",
+    "A000325",
+    "A000975",
+    "A003714",
+    "A003754",
+    "A007088",
+    "A070939",
+    "A107909",
+    "A329862"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:53",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

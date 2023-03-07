@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of length n that are sums of 2 consecutive elements of length n+1 permutations of 0..n.",
+  "id": "A229560",
+  "mentions": [
+    "A229565"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

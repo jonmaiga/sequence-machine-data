@@ -1,0 +1,18 @@
+{
+  "description": "The maximum absolute value of the L-series coefficient for an elliptic curve.",
+  "id": "A130542",
+  "mentions": [
+    "A007653"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

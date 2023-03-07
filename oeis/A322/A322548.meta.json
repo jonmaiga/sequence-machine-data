@@ -1,0 +1,19 @@
+{
+  "description": "Integers x such that x^2 + 119 = 15*2^y.",
+  "id": "A322548",
+  "mentions": [
+    "A038198"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

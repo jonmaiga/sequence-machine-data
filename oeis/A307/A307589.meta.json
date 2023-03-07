@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that 1 < gcd(m, 35) < m and m does not divide 35^e for e >= 0.",
+  "id": "A307589",
+  "mentions": [
+    "A003595",
+    "A081062",
+    "A105115",
+    "A120944",
+    "A235933",
+    "A306999"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

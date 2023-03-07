@@ -1,0 +1,19 @@
+{
+  "description": "Number of bases for which 2^n-1 is a repdigit with at least 3 digits.",
+  "id": "A291592",
+  "mentions": [
+    "A000225",
+    "A290969"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

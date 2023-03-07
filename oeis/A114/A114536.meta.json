@@ -1,0 +1,19 @@
+{
+  "description": "Let the height of a polynomial be the largest coefficient in absolute value. Then a(n) is the maximal height of a divisor of x^n-1 with integral coefficients.",
+  "id": "A114536",
+  "mentions": [
+    "A117215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, a(n) is coprime to a(2*n) and to a(2*n+1).",
+  "id": "A291603",
+  "mentions": [
+    "A082746",
+    "A291604",
+    "A291610"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

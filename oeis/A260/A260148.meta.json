@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{n>=0} x^(n^2-n) / (1 + x^n)^n.",
+  "id": "A260148",
+  "mentions": [
+    "A217668",
+    "A260147"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

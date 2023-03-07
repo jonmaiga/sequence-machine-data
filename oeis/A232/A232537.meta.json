@@ -1,0 +1,18 @@
+{
+  "description": "Primes p of the form penta(n)-3, where penta(n) is the n-th pentagonal number.",
+  "id": "A232537",
+  "mentions": [
+    "A000040",
+    "A000326"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

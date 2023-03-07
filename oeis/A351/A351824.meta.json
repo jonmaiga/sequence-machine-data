@@ -1,0 +1,48 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of n into 2*k-1 consecutive parts, n >= 1, k >= 1. Column k lists 1's interleaved with 2*k-2 zeros, and the first element of column k is in row A000384(k).",
+  "id": "A351824",
+  "mentions": [
+    "A000384",
+    "A082647",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A244250",
+    "A262619",
+    "A262626",
+    "A279387",
+    "A280850",
+    "A280851",
+    "A286000",
+    "A286001",
+    "A296508",
+    "A299765",
+    "A335616",
+    "A347186",
+    "A347263",
+    "A347529",
+    "A348854",
+    "A351819",
+    "A351846",
+    "A352257",
+    "A352499"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

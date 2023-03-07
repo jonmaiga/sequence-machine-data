@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of (undirected) paths in the grid graph P_m X P_n.",
+  "id": "A288518",
+  "mentions": [
+    "A001184",
+    "A003763",
+    "A064298",
+    "A120443",
+    "A145157",
+    "A231829",
+    "A271465",
+    "A271592",
+    "A288032",
+    "A288516",
+    "A288527",
+    "A358800",
+    "A358801",
+    "A358802",
+    "A358803"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Indices of records in A211996.",
+  "id": "A218382",
+  "mentions": [
+    "A211996",
+    "A218381"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

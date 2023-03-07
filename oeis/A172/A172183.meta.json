@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest prime of the form p^q+n, where p and q are prime, or zero if no such prime exists.",
+  "id": "A172183",
+  "mentions": [
+    "A056206",
+    "A056208",
+    "A057733",
+    "A104066",
+    "A104067",
+    "A123250",
+    "A123318",
+    "A156940",
+    "A156973"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

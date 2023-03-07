@@ -1,0 +1,22 @@
+{
+  "description": "Inverse permutation to A175055.",
+  "id": "A175056",
+  "mentions": [
+    "A175055",
+    "A175057",
+    "A175058",
+    "A175059",
+    "A175060"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

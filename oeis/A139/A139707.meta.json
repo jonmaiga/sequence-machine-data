@@ -1,0 +1,21 @@
+{
+  "description": "Take n in binary. Rotate the binary digits to the right until a 1 once again appears as the leftmost digit. a(n) is result written in binary.",
+  "id": "A139707",
+  "mentions": [
+    "A007088",
+    "A139706",
+    "A139709"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

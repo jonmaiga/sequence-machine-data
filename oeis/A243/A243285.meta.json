@@ -1,0 +1,23 @@
+{
+  "description": "Number of integers 1 <= k <= n which are not divisible by the square of their largest noncomposite divisor.",
+  "id": "A243285",
+  "mentions": [
+    "A013928",
+    "A057627",
+    "A070003",
+    "A102750",
+    "A243282",
+    "A243283"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

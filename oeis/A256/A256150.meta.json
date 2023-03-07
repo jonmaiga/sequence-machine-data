@@ -1,0 +1,23 @@
+{
+  "description": "Oblong numbers n such that sigma(n) is a triangular number.",
+  "id": "A256150",
+  "mentions": [
+    "A000217",
+    "A002378",
+    "A045746",
+    "A139256",
+    "A256149",
+    "A256151",
+    "A256152"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

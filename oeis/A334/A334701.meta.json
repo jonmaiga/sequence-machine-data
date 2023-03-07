@@ -1,0 +1,26 @@
+{
+  "description": "Consider the figure made up of a row of n adjacent congruent rectangles, with diagonals of all possible rectangles drawn; a(n) = number of interior vertices where exactly two lines cross.",
+  "id": "A334701",
+  "mentions": [
+    "A115004",
+    "A290131",
+    "A306302",
+    "A331452",
+    "A331755",
+    "A331761",
+    "A333274",
+    "A333275"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of zeta(2)*zeta(3), the product of two Riemann zeta values.",
+  "id": "A183699",
+  "mentions": [
+    "A000203",
+    "A002117",
+    "A013661",
+    "A183700",
+    "A347213"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:51",
+    "offset": 1,
+    "size": 153,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of meandering curves of order n, with both extremity covered by its arcs.",
+  "id": "A217318",
+  "mentions": [
+    "A000034",
+    "A005315",
+    "A223095"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

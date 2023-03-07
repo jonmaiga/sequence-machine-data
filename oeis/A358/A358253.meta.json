@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with a record number of non-unitary square divisors.",
+  "id": "A358253",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A025487",
+    "A037992",
+    "A046952",
+    "A053624",
+    "A056626",
+    "A293185",
+    "A309141",
+    "A318278",
+    "A358252"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

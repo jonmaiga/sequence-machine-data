@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the continued fraction convergents to sqrt(13)/2 = A295330.",
+  "id": "A295332",
+  "mentions": [
+    "A295330",
+    "A295331"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:06:02",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A247074(A003961(n)).",
+  "id": "A340147",
+  "mentions": [
+    "A003961",
+    "A003972",
+    "A247074",
+    "A340072",
+    "A340148",
+    "A340149"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

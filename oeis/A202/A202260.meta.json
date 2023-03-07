@@ -1,0 +1,24 @@
+{
+  "description": "Right-truncatable composites: every decimal prefix is a composite number.",
+  "id": "A202260",
+  "mentions": [
+    "A012883",
+    "A024770",
+    "A202259",
+    "A254750",
+    "A254752",
+    "A254754",
+    "A254755"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

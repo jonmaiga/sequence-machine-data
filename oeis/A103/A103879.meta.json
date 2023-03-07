@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(n,k) read by antidiagonals: numerators of Stirling numbers of first kind with negative argument S1(-n,k), n,k>=0.",
+  "id": "A103879",
+  "mentions": [
+    "A008969",
+    "A103880"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

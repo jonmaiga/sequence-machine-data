@@ -1,0 +1,19 @@
+{
+  "description": "Greatest common divisor of (the average of the n-th twin prime pair) and (the average of the (n+1)st twin prime pair).",
+  "id": "A137479",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

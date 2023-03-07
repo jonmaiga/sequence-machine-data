@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + Sum_{k=0..n/3} a(n-3k) with a(0)=1.",
+  "id": "A113435",
+  "mentions": [
+    "A028495",
+    "A113439",
+    "A113444",
+    "A176848"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

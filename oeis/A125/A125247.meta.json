@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n whose abundance sigma(n) - 2n = -8. Numbers n whose deficiency is 8.",
+  "id": "A125247",
+  "mentions": [
+    "A002975",
+    "A033880",
+    "A057195",
+    "A088833",
+    "A168415",
+    "A258882"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

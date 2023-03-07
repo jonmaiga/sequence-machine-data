@@ -1,0 +1,24 @@
+{
+  "description": "Number of irreducible factors (counted with multiplicity) of the (0,1)-polynomial encoded in the binary expansion of n has when it is factored over Q.",
+  "id": "A305822",
+  "mentions": [
+    "A001222",
+    "A091222",
+    "A206074",
+    "A206719",
+    "A257000",
+    "A277013",
+    "A304751"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

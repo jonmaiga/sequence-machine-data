@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (Sum_{k=1..6} k^n) mod n.",
+  "id": "A341412",
+  "mentions": [
+    "A001553",
+    "A056745",
+    "A096196",
+    "A341409",
+    "A341410",
+    "A341411",
+    "A341413"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

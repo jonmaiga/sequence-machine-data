@@ -1,0 +1,23 @@
+{
+  "description": "Numbers such that 2*phi(n-2) = n-1.",
+  "id": "A232720",
+  "mentions": [
+    "A000010",
+    "A000215",
+    "A019434",
+    "A050474",
+    "A074057"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

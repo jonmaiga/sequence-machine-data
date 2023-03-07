@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that both k and k + 1 are Niven numbers.",
+  "id": "A330927",
+  "mentions": [
+    "A005349",
+    "A060159",
+    "A141769",
+    "A154701",
+    "A328205",
+    "A328209",
+    "A328213",
+    "A330713",
+    "A330928",
+    "A330929",
+    "A330930",
+    "A330931"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

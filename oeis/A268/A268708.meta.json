@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of A268395 needed to reach zero: a(0) = 0, for n >= 1, a(n) = 1 + a(A268395(n)).",
+  "id": "A268708",
+  "mentions": [
+    "A048631",
+    "A268389",
+    "A268395",
+    "A268672",
+    "A268709",
+    "A268710"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

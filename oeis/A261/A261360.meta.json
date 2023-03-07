@@ -1,0 +1,25 @@
+{
+  "description": "Pentatope of coefficients in expansion of (1 + 2*x + 2*y + 2*z)^n.",
+  "id": "A261360",
+  "mentions": [
+    "A000420",
+    "A189225",
+    "A261356",
+    "A261358",
+    "A261359"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-entry"
+  }
+}

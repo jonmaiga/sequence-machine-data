@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of two positive cubes in exactly two ways.",
+  "id": "A343708",
+  "mentions": [
+    "A001235",
+    "A011541",
+    "A025285",
+    "A025396",
+    "A338667",
+    "A344804"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:49",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

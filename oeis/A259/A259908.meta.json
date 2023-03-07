@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: Hammersley's numbers c_{j,k} arising from a formula for A085707(n,k).",
+  "id": "A259908",
+  "mentions": [
+    "A000364",
+    "A001469",
+    "A006846",
+    "A085707"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

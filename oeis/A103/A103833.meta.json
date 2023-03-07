@@ -1,0 +1,18 @@
+{
+  "description": "Bisection of A102044.",
+  "id": "A103833",
+  "mentions": [
+    "A102044"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

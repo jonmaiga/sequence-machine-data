@@ -1,0 +1,20 @@
+{
+  "description": "Floor of the imaginary parts of the zeros of the complex Lucas function on the left half-plane.",
+  "id": "A214672",
+  "mentions": [
+    "A214656",
+    "A214671",
+    "A214673"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

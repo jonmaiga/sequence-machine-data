@@ -1,0 +1,22 @@
+{
+  "description": "Solution (b(n)) of the system of 4 complementary equations in Comments.",
+  "id": "A297465",
+  "mentions": [
+    "A036554",
+    "A265389",
+    "A297464",
+    "A297466",
+    "A299634"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

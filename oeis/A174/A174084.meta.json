@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of length n with no consecutive triples i,...i+r,...i+2r for all r, and for all equal spacings d.",
+  "id": "A174084",
+  "mentions": [
+    "A002628",
+    "A174080",
+    "A174085",
+    "A174086",
+    "A174087"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

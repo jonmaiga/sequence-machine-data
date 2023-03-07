@@ -1,0 +1,25 @@
+{
+  "description": "Numbers 1 through 10000 sorted lexicographically in duodecimal representation (base 12).",
+  "id": "A190132",
+  "mentions": [
+    "A190016",
+    "A190126",
+    "A190128",
+    "A190130",
+    "A190133",
+    "A190134"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

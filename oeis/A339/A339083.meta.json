@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (zeta(4*k+2)-1).",
+  "id": "A339083",
+  "mentions": [
+    "A024006",
+    "A256919",
+    "A338815",
+    "A338858",
+    "A339097",
+    "A339135",
+    "A339529",
+    "A339530",
+    "A339604",
+    "A339605"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

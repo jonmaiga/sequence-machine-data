@@ -1,0 +1,20 @@
+{
+  "description": "Number of sets of 2n words of length 2n over binary alphabet where each letter occurs 2n^2 times.",
+  "id": "A360702",
+  "mentions": [
+    "A001105",
+    "A360693"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

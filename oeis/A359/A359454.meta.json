@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Knopfmacher's limit: Limit_{x -> 1 from below} (1/(1-x)) * Product_{k>=2} (1 - x^m(k)/(k+1)), where m(k) = A060681(k) = k - k/A020639(k).",
+  "id": "A359454",
+  "mentions": [
+    "A020639",
+    "A060681"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

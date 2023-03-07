@@ -1,0 +1,17 @@
+{
+  "description": "Periods, n, of square root continued fractions at which A013646 increases.",
+  "id": "A215485",
+  "mentions": [
+    "A013646"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

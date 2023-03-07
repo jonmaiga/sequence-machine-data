@@ -1,0 +1,18 @@
+{
+  "description": "Let a \"sum\" be a set {x,y,z} of distinct natural numbers such that x+y=z and let N_m={1,2,...m}. a(n) is the smallest s such that there is no partition of N_s into n sum-free parts.",
+  "id": "A118771",
+  "mentions": [
+    "A072842"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

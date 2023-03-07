@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (2*k+1)*k!+1 is prime.",
+  "id": "A344963",
+  "mentions": [
+    "A002981",
+    "A344991"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of simple chord diagrams with n chords, modulo all symmetries.",
+  "id": "A278994",
+  "mentions": [
+    "A003436",
+    "A003437",
+    "A007474",
+    "A278990",
+    "A278991",
+    "A278992",
+    "A278993"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

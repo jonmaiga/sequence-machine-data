@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the base 10 reversals of n and n+1 are both prime.",
+  "id": "A257636",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A049054",
+    "A095179"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

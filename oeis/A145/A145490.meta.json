@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 6k+19 is prime and absolute value of 12k+1 is also prime.",
+  "id": "A145490",
+  "mentions": [
+    "A063908",
+    "A063913",
+    "A092109",
+    "A145471",
+    "A145480"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

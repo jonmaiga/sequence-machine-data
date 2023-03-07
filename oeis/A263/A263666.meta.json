@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of length n arrays of permutations of 0..n-1 with each element moved by -k to k places and with no two consecutive increases or two consecutive decreases.",
+  "id": "A263666",
+  "mentions": [
+    "A001250"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

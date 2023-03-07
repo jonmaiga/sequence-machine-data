@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n for which A104272(n) = A080359(n).",
+  "id": "A182391",
+  "mentions": [
+    "A060715",
+    "A080359",
+    "A104272",
+    "A164554",
+    "A182366",
+    "A193507",
+    "A194184",
+    "A194186",
+    "A194217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

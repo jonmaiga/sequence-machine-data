@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with binary expansion (b_1, ..., b_m) such that bending a strip of paper of length k+1 with an angle of +90 degrees (resp. -90 degrees) at position X=k when b_k = 1 (resp. b_k = 0) for k = 1..m yields a configuration where all edges are distinct.",
+  "id": "A344022",
+  "mentions": [
+    "A000975",
+    "A006744",
+    "A166535",
+    "A255561",
+    "A255571",
+    "A258002",
+    "A343183",
+    "A344145"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

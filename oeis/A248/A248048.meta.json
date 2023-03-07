@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of u(n) where u(n) = (u(n-1) + u(n-2)) * (u(n-2) + u(n-3)) / u(n-4) with u(0) = -1, u(1) = u(2) = u(3) = 1.",
+  "id": "A248048",
+  "mentions": [
+    "A023434",
+    "A060006",
+    "A248049",
+    "A284049"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

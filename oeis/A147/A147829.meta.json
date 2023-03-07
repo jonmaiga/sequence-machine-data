@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number k for which the digital sum of k*n is 9*n.",
+  "id": "A147829",
+  "mentions": [
+    "A147822",
+    "A147828",
+    "A147830",
+    "A147831"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

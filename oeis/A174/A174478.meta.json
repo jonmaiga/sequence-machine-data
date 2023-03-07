@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} d*2^(n/d)*tau(d).",
+  "id": "A174478",
+  "mentions": [
+    "A000005",
+    "A174477"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

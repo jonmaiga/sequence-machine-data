@@ -1,0 +1,23 @@
+{
+  "description": "Coins left when packing boomerangs into n X n coins.",
+  "id": "A228949",
+  "mentions": [
+    "A008585",
+    "A016921",
+    "A017209",
+    "A229593",
+    "A229598"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:35",
+    "offset": 2,
+    "size": 56,
+    "source": "joeis"
+  }
+}

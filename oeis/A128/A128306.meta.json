@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, A054521 * A007318.",
+  "id": "A128306",
+  "mentions": [
+    "A000010",
+    "A007318",
+    "A054432",
+    "A054521"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having fewer distinct prime factors of form 6*k+1 than of the form 6*k+5.",
+  "id": "A275200",
+  "mentions": [
+    "A275199",
+    "A275201"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

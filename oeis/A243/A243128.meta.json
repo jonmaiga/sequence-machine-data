@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree numbers k such that 4k <= sum of squarefree divisors of 4k.",
+  "id": "A243128",
+  "mentions": [
+    "A005117",
+    "A048250"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

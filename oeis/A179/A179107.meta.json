@@ -1,0 +1,22 @@
+{
+  "description": "Records of minima of positive distance d between a square cubefree integer y and a cube of positive and squarefree integer x and such d = y^2 - x^3.",
+  "id": "A179107",
+  "mentions": [
+    "A179108",
+    "A179109",
+    "A179386",
+    "A179387",
+    "A179388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

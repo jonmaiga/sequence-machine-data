@@ -1,0 +1,21 @@
+{
+  "description": "Number of uniform polyhedra with n edges.",
+  "id": "A128113",
+  "mentions": [
+    "A055684",
+    "A128112",
+    "A128114",
+    "A128115"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

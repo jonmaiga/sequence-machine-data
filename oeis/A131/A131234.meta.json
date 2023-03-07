@@ -1,0 +1,20 @@
+{
+  "description": "Starts with 1, then n appears Fibonacci(n-1) times.",
+  "id": "A131234",
+  "mentions": [
+    "A000045",
+    "A010056",
+    "A072649",
+    "A130233"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

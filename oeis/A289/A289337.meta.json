@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers (pseudoprimes) n, that are not Carmichael numbers, such that A000670(n-1) == 0 (mod n).",
+  "id": "A289337",
+  "mentions": [
+    "A000670",
+    "A002997",
+    "A289338"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

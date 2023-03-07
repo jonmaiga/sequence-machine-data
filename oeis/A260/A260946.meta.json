@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer k < prime(n) such that i^2 + j^2 = k^2 for some 0 < i < j with i*j*k a primitive root modulo prime(n), or 0 if no such k exists.",
+  "id": "A260946",
+  "mentions": [
+    "A000040",
+    "A260911",
+    "A260947"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

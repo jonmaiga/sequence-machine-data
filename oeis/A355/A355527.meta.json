@@ -1,0 +1,46 @@
+{
+  "description": "Squarefree numbers having at least one pair of consecutive prime factors. Numbers n such that the minimal difference between adjacent prime indices of n is 1.",
+  "id": "A355527",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001522",
+    "A005117",
+    "A013929",
+    "A055932",
+    "A056239",
+    "A066312",
+    "A104210",
+    "A112798",
+    "A120944",
+    "A130091",
+    "A238353",
+    "A238354",
+    "A286470",
+    "A287352",
+    "A325160",
+    "A325161",
+    "A325325",
+    "A352822",
+    "A352827",
+    "A355524",
+    "A355525",
+    "A355526",
+    "A355530",
+    "A355531",
+    "A355533",
+    "A355534",
+    "A355536"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

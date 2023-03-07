@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. arctan(x)/cos(x) (odd powers only).",
+  "id": "A302542",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A000795",
+    "A002084",
+    "A003701",
+    "A003702",
+    "A010050",
+    "A012801",
+    "A191003",
+    "A301942",
+    "A302444",
+    "A302543"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:28:11",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

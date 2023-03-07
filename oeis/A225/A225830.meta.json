@@ -1,0 +1,22 @@
+{
+  "description": "Number of binary pattern classes in the (6,n)-rectangular grid: two patterns are in the same class if one of them can be obtained by a reflection or 180-degree rotation of the other.",
+  "id": "A225830",
+  "mentions": [
+    "A005418",
+    "A225826",
+    "A225834",
+    "A225910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

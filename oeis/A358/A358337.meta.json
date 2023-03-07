@@ -1,0 +1,22 @@
+{
+  "description": "Earliest infinite sequence of distinct integers on a square spiral such that every number equals the sum of its four adjacent neighbors. See the Comments.",
+  "id": "A358337",
+  "mentions": [
+    "A344659",
+    "A354435",
+    "A354441",
+    "A358048",
+    "A358151",
+    "A358254"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2 is a primitive root modulo p while 8192 is not.",
+  "id": "A323590",
+  "mentions": [
+    "A000720",
+    "A001122",
+    "A005596",
+    "A307627",
+    "A307628",
+    "A323576",
+    "A323577"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

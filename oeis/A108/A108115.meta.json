@@ -1,0 +1,18 @@
+{
+  "description": "Let B(x) = Sum_{i >= 0} A108336(i)*x^i; sequence gives coefficients of B(x)^2.",
+  "id": "A108115",
+  "mentions": [
+    "A083952",
+    "A108336"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

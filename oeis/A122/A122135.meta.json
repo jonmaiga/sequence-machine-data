@@ -1,0 +1,38 @@
+{
+  "description": "Expansion of f(x, -x^4) / phi(-x^2) in powers of x where f(, ) and phi() are Ramanujan theta functions.",
+  "id": "A122135",
+  "mentions": [
+    "A000009",
+    "A000122",
+    "A000700",
+    "A003242",
+    "A010054",
+    "A010815",
+    "A035363",
+    "A035457",
+    "A053251",
+    "A121373",
+    "A122129",
+    "A122130",
+    "A122134",
+    "A351003",
+    "A351005",
+    "A351006",
+    "A351007",
+    "A351008",
+    "A351012",
+    "A351593",
+    "A351595"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:12:07",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

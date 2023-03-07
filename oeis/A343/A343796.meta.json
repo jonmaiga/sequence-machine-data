@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct primes of the form A007504(n) mod p for the first n primes p.",
+  "id": "A343796",
+  "mentions": [
+    "A007504",
+    "A343798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

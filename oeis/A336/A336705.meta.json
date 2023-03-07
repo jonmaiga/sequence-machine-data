@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for the half-Manhattan lattice.",
+  "id": "A336705",
+  "mentions": [
+    "A008574",
+    "A336627",
+    "A336726",
+    "A336742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

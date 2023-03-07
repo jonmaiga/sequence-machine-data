@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A184752(n)/A130650(n) unless A130650(n) = 0 in which case a(n) = 0.",
+  "id": "A184753",
+  "mentions": [
+    "A001223",
+    "A014612",
+    "A114403",
+    "A117078",
+    "A117563",
+    "A118534",
+    "A130650",
+    "A184752"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

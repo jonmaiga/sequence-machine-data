@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that phi(m)/tau(m) is a square of an integer where phi is the Euler totient function (A000010) and tau is the number of divisors function (A000005).",
+  "id": "A341939",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002496",
+    "A020488",
+    "A020491",
+    "A069237",
+    "A090698",
+    "A144695",
+    "A289585",
+    "A293391",
+    "A341938",
+    "A341940"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

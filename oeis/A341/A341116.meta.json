@@ -1,0 +1,21 @@
+{
+  "description": "Prime factors of 10^(10^100) + 1.",
+  "id": "A341116",
+  "mentions": [
+    "A072288",
+    "A341115"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

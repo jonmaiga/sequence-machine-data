@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,s) of Dynkin type D_n read by rows (n >= 2, 0 <= s <= n).",
+  "id": "A241188",
+  "mentions": [
+    "A009766",
+    "A029651",
+    "A029869",
+    "A051924",
+    "A051960",
+    "A059481"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

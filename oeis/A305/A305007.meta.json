@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of coefficients in expansion of Sum_{k>=1} x^k/(k*(1 + x^k)).",
+  "id": "A305007",
+  "mentions": [
+    "A002129",
+    "A010054",
+    "A017665",
+    "A017666",
+    "A098987",
+    "A098988",
+    "A305006"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0 and for any n > 0, a(n) = A343040(a(n-1), n).",
+  "id": "A343041",
+  "mentions": [
+    "A087052",
+    "A130493",
+    "A200748",
+    "A343040",
+    "A343045"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of rows with the value \"false\" in the Kleene truth tables of all bracketed formulae with n distinct propositions p1, ..., pn connected by the binary connective of implication.",
+  "id": "A345189",
+  "mentions": [
+    "A005159",
+    "A025226",
+    "A345190"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

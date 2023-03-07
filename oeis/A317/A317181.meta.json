@@ -1,0 +1,26 @@
+{
+  "description": "Consider primitive integer triangles as listed in rows of table A316842. Sequence gives 16*area^2 for these triangles in the same order.",
+  "id": "A317181",
+  "mentions": [
+    "A316842",
+    "A316843",
+    "A316844",
+    "A316845",
+    "A316846",
+    "A316847",
+    "A316848",
+    "A316851",
+    "A316852"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Largest proper divisor of A324886(n).",
+  "id": "A324896",
+  "mentions": [
+    "A032742",
+    "A034386",
+    "A108951",
+    "A276086",
+    "A324886",
+    "A324895"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

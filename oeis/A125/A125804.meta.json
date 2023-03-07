@@ -1,0 +1,24 @@
+{
+  "description": "Main diagonal of table A125800.",
+  "id": "A125804",
+  "mentions": [
+    "A078122",
+    "A078124",
+    "A078125",
+    "A125800",
+    "A125801",
+    "A125802",
+    "A125803",
+    "A125805"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

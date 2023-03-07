@@ -1,0 +1,19 @@
+{
+  "description": "Size of the orbit of n under iterations of the digit-census function A348783.",
+  "id": "A349250",
+  "mentions": [
+    "A348783",
+    "A349249"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

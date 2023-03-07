@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular table where the g.f. of row n satisfies: R(n,x) = 1 + x*R(n,x)^n * [d/dx x/R(n,x)] for n>=0, as read by antidiagonals.",
+  "id": "A208896",
+  "mentions": [
+    "A158882",
+    "A158883",
+    "A208897",
+    "A208898"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

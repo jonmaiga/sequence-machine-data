@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number of digits that have to be inserted into or prepended to decimal representation of n, to get a prime.",
+  "id": "A246398",
+  "mentions": [
+    "A000040",
+    "A055642",
+    "A062584",
+    "A068164"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

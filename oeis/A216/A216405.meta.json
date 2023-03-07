@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which start a run of nine consecutive zero-digit-free decimal integers, each of which is divisible by the sum of its digits",
+  "id": "A216405",
+  "mentions": [
+    "A017281",
+    "A217973"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Kronecker symbol(-6 / 2*n + 1).",
+  "id": "A260190",
+  "mentions": [
+    "A010892",
+    "A057077",
+    "A109017",
+    "A117441",
+    "A214438",
+    "A260192"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

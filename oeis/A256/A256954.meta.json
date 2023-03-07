@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with every 3X3 subblock sum of the two sums of the central row and central column minus the two minimums of the diagonal and antidiagonal nondecreasing horizontally and vertically",
+  "id": "A256954",
+  "mentions": [
+    "A255029"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

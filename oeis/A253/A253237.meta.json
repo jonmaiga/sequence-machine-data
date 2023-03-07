@@ -1,0 +1,24 @@
+{
+  "description": "Conjectured largest perfect power k such that k+n is also a perfect power, or 0 if no such k exists.",
+  "id": "A253237",
+  "mentions": [
+    "A001597",
+    "A074981",
+    "A076427",
+    "A076438",
+    "A103953"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

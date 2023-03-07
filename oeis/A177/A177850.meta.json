@@ -1,0 +1,25 @@
+{
+  "description": "Smallest n-digit emirp with only nonprime digits.",
+  "id": "A177850",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A006567",
+    "A034844",
+    "A084984",
+    "A128390",
+    "A177513"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

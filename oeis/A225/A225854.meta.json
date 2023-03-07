@@ -1,0 +1,17 @@
+{
+  "description": "Frequency of prime numbers between consecutive partial sums of primes.",
+  "id": "A225854",
+  "mentions": [
+    "A014284"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2Xn arrays containing n copies of 0..2-1 with every element equal to at least one horizontal neighbor and the top left element equal to 0.",
+  "id": "A267725",
+  "mentions": [
+    "A267724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

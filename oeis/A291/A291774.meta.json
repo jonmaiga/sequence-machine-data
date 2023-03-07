@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: chromatic invariant T(n,m) of the complete bipartite graph K_{m,n}.",
+  "id": "A291774",
+  "mentions": [
+    "A048144"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "T(n,k) = 2*(K(n,2)*I(k,2) - (-1)^(n+k)*I(n,2)*K(k,2)), where I(n,x) and K(n,x) are Bessel functions; triangle read by rows for 0 <= k <= n.",
+  "id": "A246654",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A001040",
+    "A001053",
+    "A001477",
+    "A002061",
+    "A034262",
+    "A058307",
+    "A058308",
+    "A058309",
+    "A246656"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

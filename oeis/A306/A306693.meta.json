@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least strongly refactorable multiple of n if any, or a(n) = -1 otherwise.",
+  "id": "A306693",
+  "mentions": [
+    "A000005",
+    "A141586",
+    "A306645"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

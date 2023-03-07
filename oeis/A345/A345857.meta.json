@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of ten fourth powers in exactly five ways.",
+  "id": "A345857",
+  "mentions": [
+    "A345598",
+    "A345807",
+    "A345847",
+    "A345856",
+    "A345858",
+    "A346350"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

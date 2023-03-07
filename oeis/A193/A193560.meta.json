@@ -1,0 +1,20 @@
+{
+  "description": "Augmentation of the Catalan triangle, A009766. See Comments.",
+  "id": "A193560",
+  "mentions": [
+    "A009766",
+    "A127715",
+    "A193091"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

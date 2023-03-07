@@ -1,0 +1,35 @@
+{
+  "description": "Number of normal patterns matched by the multiset of prime indices of n in weakly increasing order.",
+  "id": "A335549",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A008480",
+    "A056239",
+    "A102726",
+    "A108917",
+    "A112798",
+    "A181796",
+    "A299701",
+    "A304792",
+    "A333217",
+    "A333218",
+    "A333221",
+    "A335452",
+    "A335454",
+    "A335456",
+    "A335457",
+    "A335458",
+    "A335465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

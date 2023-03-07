@@ -1,0 +1,22 @@
+{
+  "description": "Smallest positive integer which cannot be calculated by an expression containing n binary operators (either add or multiply) whose operands are integers between 1 and 9; parenthesis allowed.",
+  "id": "A181957",
+  "mentions": [
+    "A005520",
+    "A181898",
+    "A181958",
+    "A181959",
+    "A181960"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

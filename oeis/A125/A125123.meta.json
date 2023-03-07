@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the semi-major axis (in meters) of the World Geodetic System 1984 Ellipsoid, second upgrade.",
+  "id": "A125123",
+  "mentions": [
+    "A125124",
+    "A125125",
+    "A125126"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 7,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

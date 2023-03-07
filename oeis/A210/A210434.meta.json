@@ -1,0 +1,26 @@
+{
+  "description": "Number of digits in 4^n.",
+  "id": "A210434",
+  "mentions": [
+    "A000302",
+    "A034887",
+    "A034888",
+    "A055642",
+    "A210062",
+    "A210435",
+    "A210436"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 15:56:56",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

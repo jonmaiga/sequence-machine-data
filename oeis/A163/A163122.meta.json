@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers for which the sum of proper divisors equals the sum of the digit-reversed proper divisors.",
+  "id": "A163122",
+  "mentions": [
+    "A001065",
+    "A002808",
+    "A069250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

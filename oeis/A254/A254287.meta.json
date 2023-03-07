@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1 - (1 - 3125*x)^(1/5)) / (625*x).",
+  "id": "A254287",
+  "mentions": [
+    "A000108",
+    "A008546",
+    "A025748",
+    "A254282",
+    "A254286"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Start of first run of length n in Golomb's sequence A001462.",
+  "id": "A262986",
+  "mentions": [
+    "A001462",
+    "A095114"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

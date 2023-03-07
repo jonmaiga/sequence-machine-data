@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3*n*(n^2 + 3*n + 4).",
+  "id": "A280304",
+  "mentions": [
+    "A003215",
+    "A005448",
+    "A006003",
+    "A033428",
+    "A213389",
+    "A269064"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:41",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

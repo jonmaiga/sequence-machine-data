@@ -1,0 +1,31 @@
+{
+  "description": "Product of A049310 and A007318 as lower triangular matrices.",
+  "id": "A101950",
+  "mentions": [
+    "A004525",
+    "A007318",
+    "A010892",
+    "A023434",
+    "A049310",
+    "A077889",
+    "A084938",
+    "A099254",
+    "A104562",
+    "A128504",
+    "A180662",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:21:51",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

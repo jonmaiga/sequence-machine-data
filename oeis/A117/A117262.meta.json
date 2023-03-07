@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, where matrix inverse T^-1 has -3^n in the secondary diagonal: [T^-1](n+1,n) = -3^n, with all 1's in the main diagonal and zeros elsewhere.",
+  "id": "A117262",
+  "mentions": [
+    "A047656",
+    "A117250",
+    "A117252",
+    "A117254",
+    "A117256",
+    "A117258",
+    "A117260",
+    "A117263",
+    "A117265"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

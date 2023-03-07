@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the constant Pi(5,4).",
+  "id": "A338462",
+  "mentions": [
+    "A336802",
+    "A340711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

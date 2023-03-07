@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of polynomials P(n,x):=-2+P(n-1,x)^2, where P(0,x)=x-2.",
+  "id": "A158982",
+  "mentions": [
+    "A084534",
+    "A158983",
+    "A158984",
+    "A158985",
+    "A158986"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

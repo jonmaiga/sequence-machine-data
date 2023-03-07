@@ -1,0 +1,25 @@
+{
+  "description": "Repeatedly perform x^2 -> x+1 reduction for polynomial (with nonnegative integer coefficients) encoded in prime factorization of n, until the polynomial is at most degree 1.",
+  "id": "A265399",
+  "mentions": [
+    "A003586",
+    "A065331",
+    "A192232",
+    "A206296",
+    "A265398",
+    "A265752",
+    "A265753"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

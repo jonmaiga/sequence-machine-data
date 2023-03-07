@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1; thereafter a(n) is the smallest number m not yet in the sequence such that at least one of the concatenations a(n-1)||m or m||a(n-1) is prime.",
+  "id": "A228323",
+  "mentions": [
+    "A068695",
+    "A069695",
+    "A228324",
+    "A228325"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

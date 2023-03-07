@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^4 + 984*n^3 + 902*n^2 + 394*n + 858.",
+  "id": "A163304",
+  "mentions": [
+    "A000010",
+    "A011260",
+    "A027385",
+    "A027741",
+    "A163303"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = ceiling(A063655(n)/2).",
+  "id": "A107325",
+  "mentions": [
+    "A063655"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

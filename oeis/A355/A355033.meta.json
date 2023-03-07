@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number k such that A355032(k) = n, or -1 if no such k exists.",
+  "id": "A355033",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A162247",
+    "A355030",
+    "A355031",
+    "A355032"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

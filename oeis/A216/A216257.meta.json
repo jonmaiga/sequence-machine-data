@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 840*n^2-23100*n+86861.",
+  "id": "A216257",
+  "mentions": [
+    "A141881",
+    "A141887",
+    "A215145"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:44:07",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

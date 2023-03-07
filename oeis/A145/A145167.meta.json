@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies A(x/A(x)^6) = 1/(1-x).",
+  "id": "A145167",
+  "mentions": [
+    "A088713",
+    "A145158",
+    "A145160",
+    "A145162",
+    "A145165",
+    "A145168",
+    "A145169",
+    "A145170"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

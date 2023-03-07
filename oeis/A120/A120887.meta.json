@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of k's in 1..n such that gcd(k,ceiling(n/k)) = 1.",
+  "id": "A120887",
+  "mentions": [
+    "A120882",
+    "A120886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

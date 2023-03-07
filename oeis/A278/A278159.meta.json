@@ -1,0 +1,25 @@
+{
+  "description": "Run length transform of primorials, A002110.",
+  "id": "A278159",
+  "mentions": [
+    "A002110",
+    "A005940",
+    "A124859",
+    "A227349",
+    "A246660",
+    "A278161",
+    "A278222"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

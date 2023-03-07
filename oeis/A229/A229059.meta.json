@@ -1,0 +1,22 @@
+{
+  "description": "Smallest of 13 consecutive primes whose sum is a prime.",
+  "id": "A229059",
+  "mentions": [
+    "A073681",
+    "A152468",
+    "A180948",
+    "A180950",
+    "A189571",
+    "A226380"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

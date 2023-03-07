@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = (-1)^(n-k)*C(n,k)*k^n, for n >= 0 and 0 <= k <= n.",
+  "id": "A258773",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A072034",
+    "A075513"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

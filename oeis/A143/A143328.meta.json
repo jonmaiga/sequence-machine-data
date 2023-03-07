@@ -1,0 +1,31 @@
+{
+  "description": "Table T(n,k) read by antidiagonals. T(n,k) is the number of primitive (=aperiodic) k-ary Lyndon words (n,k >= 1) with length less than or equal to n.",
+  "id": "A143328",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A000330",
+    "A008683",
+    "A062692",
+    "A074650",
+    "A114945",
+    "A114946",
+    "A114947",
+    "A132117",
+    "A143324",
+    "A215475"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

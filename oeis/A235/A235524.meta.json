@@ -1,0 +1,21 @@
+{
+  "description": "Primitive refactorable (or tau) numbers: refactorable numbers which are not part of any family.",
+  "id": "A235524",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A081381",
+    "A235525"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

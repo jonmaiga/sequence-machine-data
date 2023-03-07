@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 997 * n + 1009.",
+  "id": "A100776",
+  "mentions": [
+    "A017029",
+    "A100775",
+    "A101086",
+    "A101442"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

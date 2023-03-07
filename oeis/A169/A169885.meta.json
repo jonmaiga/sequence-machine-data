@@ -1,0 +1,23 @@
+{
+  "description": "Cubes (n * n * n) in carryless arithmetic mod 10.",
+  "id": "A169885",
+  "mentions": [
+    "A004520",
+    "A059729",
+    "A168294",
+    "A168541",
+    "A169884",
+    "A169886"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

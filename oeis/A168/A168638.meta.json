@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of n is 2 or 3.",
+  "id": "A168638",
+  "mentions": [
+    "A033992",
+    "A064040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n>=0, 0<=k<=A161680(n)) is the number of standard tableaux of size n whose shape contains k attacking pairs.",
+  "id": "A263412",
+  "mentions": [
+    "A000085",
+    "A161680"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

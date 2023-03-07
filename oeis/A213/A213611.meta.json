@@ -1,0 +1,28 @@
+{
+  "description": "Exact decimal expansion of the standard atmosphere in SI units.",
+  "id": "A213611",
+  "mentions": [
+    "A003678",
+    "A019694",
+    "A072915",
+    "A081799",
+    "A182999",
+    "A213610",
+    "A213612",
+    "A213613",
+    "A213614"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:51:35",
+    "offset": 6,
+    "size": 6,
+    "source": "joeis"
+  }
+}

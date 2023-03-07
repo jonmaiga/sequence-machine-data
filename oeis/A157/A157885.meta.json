@@ -1,0 +1,19 @@
+{
+  "description": "Least prime that starts a run of exactly n consecutive primes, where between successive primes exactly one digit changes and the resulting digits may be permuted.",
+  "id": "A157885",
+  "mentions": [
+    "A157717"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Determinant of circulant matrix of order 3 with entries in the first row (-1)^j * Sum_{k>=0} binomial(n,3*k+j), j=0,1,2.",
+  "id": "A290285",
+  "mentions": [
+    "A024493",
+    "A024495",
+    "A131708",
+    "A290286"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:29:03",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

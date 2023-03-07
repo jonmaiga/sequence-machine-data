@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{i=1..n} i^s(n,i), where s is an unsigned Stirling number of the 1st kind.",
+  "id": "A319761",
+  "mentions": [
+    "A132393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the LCM of all C(n,k) integers from 1 + C(n,0) + C(n,1) + ... + C(n,k-1) to C(n,0) + C(n,1) + ... + C(n,k) (0 <= k <= n).",
+  "id": "A112360",
+  "mentions": [
+    "A003418",
+    "A112356",
+    "A112357",
+    "A112358",
+    "A112359"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

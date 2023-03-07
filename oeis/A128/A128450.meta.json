@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that absolute value of 10^k - k^10 is prime.",
+  "id": "A128450",
+  "mentions": [
+    "A072180",
+    "A109387",
+    "A117705",
+    "A117706",
+    "A122003",
+    "A128447",
+    "A128448",
+    "A128449",
+    "A128451",
+    "A128453",
+    "A128454"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

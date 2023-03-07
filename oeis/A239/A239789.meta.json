@@ -1,0 +1,23 @@
+{
+  "description": "Primes which are a concatenation of prime(k), prime(k+2) and prime(k+4) for some k.",
+  "id": "A239789",
+  "mentions": [
+    "A000040",
+    "A030461",
+    "A030469",
+    "A030473",
+    "A086040",
+    "A086041"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

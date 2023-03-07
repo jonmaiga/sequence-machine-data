@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest m such that A308194(m) = n, or -1 if no such m exists.",
+  "id": "A308195",
+  "mentions": [
+    "A000040",
+    "A006881",
+    "A063655",
+    "A151799",
+    "A308194"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Inventory sequence of binary weights.",
+  "id": "A352799",
+  "mentions": [
+    "A000120",
+    "A342585",
+    "A345730",
+    "A347317",
+    "A347738",
+    "A347791",
+    "A348967"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

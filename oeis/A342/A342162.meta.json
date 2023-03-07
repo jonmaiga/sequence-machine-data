@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = difference between the starting positions of the first two occurrences of n in the Champernowne string (cf. A033307), where the first n is not required to be at its natural position.",
+  "id": "A342162",
+  "mentions": [
+    "A007376",
+    "A033307",
+    "A331162",
+    "A337227"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of spanning trees in C_k X P_n; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A173958",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001542",
+    "A003690",
+    "A003733",
+    "A003753",
+    "A006235",
+    "A156308",
+    "A158880",
+    "A158898",
+    "A174001",
+    "A174089",
+    "A210812",
+    "A210813",
+    "A252767"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

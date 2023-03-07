@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not odiousfree*evilfree. The complement of A237417.",
+  "id": "A238989",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A093688",
+    "A093696",
+    "A237417"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

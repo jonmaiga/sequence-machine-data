@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (11*n^2 + 19*n + 10)/2.",
+  "id": "A160749",
+  "mentions": [
+    "A017437",
+    "A160747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

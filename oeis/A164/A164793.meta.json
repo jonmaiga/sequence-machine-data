@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number whose English name has the letter \"i\" in the n-th position, or -1 if no such number exists.",
+  "id": "A164793",
+  "mentions": [
+    "A164789",
+    "A164790",
+    "A164791",
+    "A164792",
+    "A164794",
+    "A164795",
+    "A164796",
+    "A164797"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

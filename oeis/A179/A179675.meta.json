@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m such that the n-th odd prime is the smallest number coprime to m and m+1.",
+  "id": "A179675",
+  "mentions": [
+    "A053670",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

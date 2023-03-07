@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base-9 digits have equal down-variation and up-variation; see Comments.",
+  "id": "A297268",
+  "mentions": [
+    "A029955",
+    "A297267",
+    "A297269",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

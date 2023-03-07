@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k! + 2*k + 1 is prime.",
+  "id": "A192367",
+  "mentions": [
+    "A073308"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

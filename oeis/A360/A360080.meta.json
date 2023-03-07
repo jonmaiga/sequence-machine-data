@@ -1,0 +1,27 @@
+{
+  "description": "Smallest k such that 2^(2^n) + k is a safe prime.",
+  "id": "A360080",
+  "mentions": [
+    "A005385",
+    "A013597",
+    "A013603",
+    "A058220",
+    "A181356",
+    "A335313",
+    "A350696",
+    "A360081"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

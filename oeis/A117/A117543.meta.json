@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of squared semiprimes.",
+  "id": "A117543",
+  "mentions": [
+    "A001358",
+    "A085548",
+    "A085964",
+    "A131653",
+    "A154928"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

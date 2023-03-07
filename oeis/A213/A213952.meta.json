@@ -1,0 +1,19 @@
+{
+  "description": "Consider the partitions of n in reverse lexicographic ordering (A080577), a(n) is the position of the partition of n which has the maximum LCM. See A000793.",
+  "id": "A213952",
+  "mentions": [
+    "A000041",
+    "A000793",
+    "A080577"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Square nearest to the sum of the first n positive squares.",
+  "id": "A353295",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A053187",
+    "A351830",
+    "A354330"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

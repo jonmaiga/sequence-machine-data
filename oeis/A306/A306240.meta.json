@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as x^9 + y^3 + z*(z+1) + w*(w+1), where x,y,z,w are nonnegative integers with x <= 2 and z <= w.",
+  "id": "A306240",
+  "mentions": [
+    "A000578",
+    "A001014",
+    "A001017",
+    "A002378",
+    "A262813",
+    "A262815",
+    "A270488",
+    "A306225",
+    "A306227",
+    "A306239"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

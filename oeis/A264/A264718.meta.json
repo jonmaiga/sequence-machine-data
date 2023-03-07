@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2310; for n > 1, a(n) is the least integer not occurring earlier such that a(n) shares exactly five distinct prime divisors with a(n-1).",
+  "id": "A264718",
+  "mentions": [
+    "A246946",
+    "A246947",
+    "A264664"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

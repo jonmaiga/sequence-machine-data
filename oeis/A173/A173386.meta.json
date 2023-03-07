@@ -1,0 +1,19 @@
+{
+  "description": "The absolute values of n-th natural noncomposite number minus n-th number k such that 6*k-+1 is a twin prime pair.",
+  "id": "A173386",
+  "mentions": [
+    "A002822",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:49",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

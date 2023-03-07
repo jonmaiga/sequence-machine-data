@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..1 arrays of the median of the corresponding element, the element to the east and the element to the south in a larger (n+1) X 3 0..1 array.",
+  "id": "A228980",
+  "mentions": [
+    "A228986"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

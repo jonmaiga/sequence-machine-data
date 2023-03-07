@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be represented as sum of two fifth powers in two ways using Gaussian integers generated from Pell numbers.",
+  "id": "A306981",
+  "mentions": [
+    "A000129"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

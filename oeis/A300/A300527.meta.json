@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected dominating sets in the n-polygon diagonal intersection graph.",
+  "id": "A300527",
+  "mentions": [
+    "A300528",
+    "A300529"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangles with integer sides i <= j <= k sorted by radius of circumcircle, and, in case of ties, lexicographically by side lengths (smallest first). The sequence gives the shortest side i. The other sides are in A331255 and A331256.",
+  "id": "A331254",
+  "mentions": [
+    "A331227",
+    "A331228",
+    "A331251",
+    "A331252",
+    "A331253",
+    "A331255",
+    "A331256"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

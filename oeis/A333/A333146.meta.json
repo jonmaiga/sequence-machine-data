@@ -1,0 +1,38 @@
+{
+  "description": "Number of non-unimodal negated permutations of the multiset of prime indices of n.",
+  "id": "A333146",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A008480",
+    "A056239",
+    "A112798",
+    "A115981",
+    "A124010",
+    "A328509",
+    "A332283",
+    "A332288",
+    "A332294",
+    "A332578",
+    "A332638",
+    "A332639",
+    "A332642",
+    "A332669",
+    "A332670",
+    "A332671",
+    "A332741",
+    "A332742",
+    "A333145"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p1 > 3, such that p2 = 3p1-2 and p3 = (p1*p2+1)/2 are also primes, so p1*p2*p3 is a triangular 3-Carmichael number.",
+  "id": "A290947",
+  "mentions": [
+    "A000217",
+    "A002997",
+    "A087788",
+    "A290945"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

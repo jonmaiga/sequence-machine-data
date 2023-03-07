@@ -1,0 +1,22 @@
+{
+  "description": "A(n,k) is the n-th index m such that A330439(m) = k; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A330587",
+  "mentions": [
+    "A316774",
+    "A330439",
+    "A330440",
+    "A330588",
+    "A330589"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

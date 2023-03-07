@@ -1,0 +1,31 @@
+{
+  "description": "Number of (0,1)-matrices with sum of entries equal to n, no zero rows or columns, weakly decreasing row and column sums, and the same row sums as column sums.",
+  "id": "A321735",
+  "mentions": [
+    "A000700",
+    "A007016",
+    "A049311",
+    "A054976",
+    "A057151",
+    "A104602",
+    "A320451",
+    "A321719",
+    "A321723",
+    "A321732",
+    "A321733",
+    "A321736",
+    "A321739"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

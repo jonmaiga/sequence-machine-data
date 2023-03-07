@@ -1,0 +1,24 @@
+{
+  "description": "Matrix square, T(n,k), of Parker's partition triangle A047812, read by rows (n >= 1 and 0 <= k <= n-1).",
+  "id": "A128567",
+  "mentions": [
+    "A000108",
+    "A007042",
+    "A047812",
+    "A128568",
+    "A128569",
+    "A128602"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

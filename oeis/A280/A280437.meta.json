@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 5 0..1 arrays with no element equal to more than one of its horizontal and vertical neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.",
+  "id": "A280437",
+  "mentions": [
+    "A280440"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

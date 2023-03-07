@@ -1,0 +1,18 @@
+{
+  "description": "Convolution of numbers of binary zeros and ones.",
+  "id": "A157793",
+  "mentions": [
+    "A000120",
+    "A023416"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Quotients of A024167(4n) and 6n+1",
+  "id": "A177188",
+  "mentions": [
+    "A024167",
+    "A177174"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

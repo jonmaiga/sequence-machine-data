@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime whose decimal expansion consists of the concatenation of a 1-digit square, a 2-digit square, a 3-digit square, ..., and an n-digit square, or 0 if there is no such prime.",
+  "id": "A215689",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000290",
+    "A215641",
+    "A215647",
+    "A215692"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

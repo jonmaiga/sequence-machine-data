@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to tile vertically-fault-free 3 X n strip with squares and dominoes.",
+  "id": "A335747",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A033506",
+    "A112577",
+    "A134438",
+    "A221174",
+    "A291227"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

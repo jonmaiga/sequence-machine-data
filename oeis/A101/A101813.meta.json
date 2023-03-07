@@ -1,0 +1,19 @@
+{
+  "description": "Odd Niven (or Harshad) numbers: odd numbers that are divisible by the sum of their digits.",
+  "id": "A101813",
+  "mentions": [
+    "A005349",
+    "A101814"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p of a quartet of 4 distinct primes {p, p+2, q, q+2} such that each digit of q is the same as the corresponding digit of p except that each 6 in p corresponds to a 9 in q and vice versa.",
+  "id": "A122712",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

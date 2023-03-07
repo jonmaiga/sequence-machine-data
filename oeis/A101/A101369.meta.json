@@ -1,0 +1,19 @@
+{
+  "description": "a(2n-1) = the smallest positive integer not occurring earlier in the sequence. a(2n) = the a(2n-1)th smallest positive integer among those not occurring earlier in the sequence.",
+  "id": "A101369",
+  "mentions": [
+    "A101438"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

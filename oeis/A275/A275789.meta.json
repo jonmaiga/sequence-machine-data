@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that sigma(n) divides Fibonacci(k) (k > 0).",
+  "id": "A275789",
+  "mentions": [
+    "A000045",
+    "A000203",
+    "A001177",
+    "A272412"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

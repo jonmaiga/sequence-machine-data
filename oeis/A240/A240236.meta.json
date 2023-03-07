@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: sum of digits of n in base k, for 2<=k<=n.",
+  "id": "A240236",
+  "mentions": [
+    "A000120",
+    "A002260",
+    "A007953",
+    "A043306",
+    "A053735",
+    "A053737",
+    "A138530"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

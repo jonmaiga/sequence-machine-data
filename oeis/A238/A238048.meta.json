@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals, where column k is the increasing list of all primes p such that (p+k)^2+k is also prime.",
+  "id": "A238048",
+  "mentions": [
+    "A157468",
+    "A238086"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of ways of putting n labeled balls into 2 indistinguishable boxes such that each box contains at least 3 balls.",
+  "id": "A272352",
+  "mentions": [
+    "A000478",
+    "A058844",
+    "A059022",
+    "A261724",
+    "A272982"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 6,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Period 12: 1,3,-1,3,1,0,-1,-3,1,-3,-1,0 repeated.",
+  "id": "A156872",
+  "mentions": [
+    "A014021",
+    "A056594",
+    "A154811",
+    "A156194",
+    "A156199",
+    "A156227",
+    "A156346"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:10:23",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

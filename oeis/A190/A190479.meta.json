@@ -1,0 +1,18 @@
+{
+  "description": "Let s the sum of the decimal digit of a number k. Number of integer solutions of the equation s*(s+n)- k = 0.",
+  "id": "A190479",
+  "mentions": [
+    "A190216"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

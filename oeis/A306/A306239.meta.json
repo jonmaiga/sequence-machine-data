@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as x^3 + y^3 + pen(z) + pen(w), where x, y, z, w are nonnegative integers with x <= y and z <= w, and pen(k) denotes the pentagonal number k*(3*k-1)/2.",
+  "id": "A306239",
+  "mentions": [
+    "A000326",
+    "A000578",
+    "A306225",
+    "A306227"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

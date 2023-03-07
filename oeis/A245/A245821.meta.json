@@ -1,0 +1,31 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A091205(A245703(n)).",
+  "id": "A245821",
+  "mentions": [
+    "A000040",
+    "A014580",
+    "A018252",
+    "A049076",
+    "A049084",
+    "A062298",
+    "A078442",
+    "A091205",
+    "A091226",
+    "A091242",
+    "A245703",
+    "A245815",
+    "A245822",
+    "A245823"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

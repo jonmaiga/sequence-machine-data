@@ -1,0 +1,19 @@
+{
+  "description": "Number of 5-element subsets that can be chosen from {1,2,...,10*n+5} having element sum 25*n+15.",
+  "id": "A204469",
+  "mentions": [
+    "A204459"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:33",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

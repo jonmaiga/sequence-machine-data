@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct parts with perimeter n-2.",
+  "id": "A227614",
+  "mentions": [
+    "A227344"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 6,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

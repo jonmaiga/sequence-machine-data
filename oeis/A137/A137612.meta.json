@@ -1,0 +1,18 @@
+{
+  "description": "Greater of a pair of closest (n-digit) distinct primes that add up to 10^n.",
+  "id": "A137612",
+  "mentions": [
+    "A137611"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

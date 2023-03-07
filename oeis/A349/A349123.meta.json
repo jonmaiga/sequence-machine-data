@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = Sum_{d|n} A038040(n/d) * A003415(d), where A038040(n) = n*tau(n), and A003415 is the arithmetic derivative of n.",
+  "id": "A349123",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A003415",
+    "A003557",
+    "A018804",
+    "A038040",
+    "A060640",
+    "A300251",
+    "A319684",
+    "A347130",
+    "A347131",
+    "A348983",
+    "A349124",
+    "A349143"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

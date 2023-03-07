@@ -1,0 +1,18 @@
+{
+  "description": "For any n > 0 and k >= 0, let w_n(k) be the number of ways to write k as a sum of distinct divisors of n; a(n) = max_{k >= 0} w_n(k).",
+  "id": "A308608",
+  "mentions": [
+    "A000005",
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

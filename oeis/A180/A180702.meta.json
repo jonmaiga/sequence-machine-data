@@ -1,0 +1,20 @@
+{
+  "description": "17^a(n) is smallest power of 17 beginning with n.",
+  "id": "A180702",
+  "mentions": [
+    "A180700",
+    "A180701",
+    "A180704"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..3 arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling three exactly once.",
+  "id": "A269208",
+  "mentions": [
+    "A269214"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

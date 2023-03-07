@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^n - 81.",
+  "id": "A220088",
+  "mentions": [
+    "A000225",
+    "A036563",
+    "A185346",
+    "A220087"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:43:25",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

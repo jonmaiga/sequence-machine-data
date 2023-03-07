@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n^43 - n)/42.",
+  "id": "A108496",
+  "mentions": [
+    "A002378",
+    "A014117",
+    "A027480",
+    "A108048",
+    "A108495",
+    "A108497",
+    "A108499"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

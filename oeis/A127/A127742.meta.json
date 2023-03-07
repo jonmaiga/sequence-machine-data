@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows with shape A000041 which refines the Catalan triangle A033184 using sequence A048996.",
+  "id": "A127742",
+  "mentions": [
+    "A000041",
+    "A033184",
+    "A048996"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

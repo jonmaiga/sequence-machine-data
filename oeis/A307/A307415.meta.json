@@ -1,0 +1,24 @@
+{
+  "description": "Total number of parts in all symmetric m-color cyclic compositions of n (that is, the total number of parts in all achiral cyclic compositions of n where a part with size m can be colored with one of m colors).",
+  "id": "A307415",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A030267",
+    "A032198",
+    "A032287",
+    "A088305",
+    "A308723"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:06:30",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

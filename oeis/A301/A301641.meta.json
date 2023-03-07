@@ -1,0 +1,23 @@
+{
+  "description": "Primes of form 4*k^k + 1.",
+  "id": "A301641",
+  "mentions": [
+    "A121270",
+    "A216148",
+    "A301519",
+    "A301642",
+    "A301644",
+    "A301808"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k maximal strings of increasing consecutive integers (0<=k<=floor(n/2)).",
+  "id": "A136123",
+  "mentions": [
+    "A000142",
+    "A000255",
+    "A001277",
+    "A001278",
+    "A001279",
+    "A001280",
+    "A001564",
+    "A010029"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

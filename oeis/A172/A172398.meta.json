@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into the sum of two refactorable numbers (A033950).",
+  "id": "A172398",
+  "mentions": [
+    "A033950"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

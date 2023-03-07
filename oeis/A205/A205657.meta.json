@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X7 0..3 arrays with every 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors and no 2 X 2 subblock having the same number of counterclockwise edge increases as its vertical neighbors.",
+  "id": "A205657",
+  "mentions": [
+    "A205659"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

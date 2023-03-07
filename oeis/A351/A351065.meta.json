@@ -1,0 +1,20 @@
+{
+  "description": "Number of different ways to obtain n as a sum of the minimal possible number of positive perfect powers with different exponents (considering only minimal possible exponents for bases equal to 1).",
+  "id": "A351065",
+  "mentions": [
+    "A351062",
+    "A351063",
+    "A351064",
+    "A351066"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

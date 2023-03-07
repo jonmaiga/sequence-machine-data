@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) = sigma(A048675(n)).",
+  "id": "A324573",
+  "mentions": [
+    "A000203",
+    "A048675",
+    "A277892",
+    "A322812",
+    "A323243",
+    "A324574",
+    "A324575"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

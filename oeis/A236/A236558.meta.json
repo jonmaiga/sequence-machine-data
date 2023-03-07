@@ -1,0 +1,23 @@
+{
+  "description": "Vertex solid angle (steradians) in a regular dodecahedron.",
+  "id": "A236558",
+  "mentions": [
+    "A019669",
+    "A236555",
+    "A236556",
+    "A236557"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Catalan number analogs for A246465, the generalized binomial coefficients for A003557.",
+  "id": "A246466",
+  "mentions": [
+    "A000108",
+    "A003557",
+    "A007947",
+    "A245798",
+    "A246458",
+    "A246465"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

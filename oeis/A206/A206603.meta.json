@@ -1,0 +1,21 @@
+{
+  "description": "Maximal apex value of an addition triangle whose base is a permutation of {k-n/2, k=0..n}.",
+  "id": "A206603",
+  "mentions": [
+    "A001787",
+    "A189390",
+    "A189391",
+    "A206604"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

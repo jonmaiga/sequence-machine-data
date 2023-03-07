@@ -1,0 +1,24 @@
+{
+  "description": "2*a(n) are the perimeters of distinct triangles with integer sides i <= j <= k, whose area equals 2 times their perimeter. Terms occurring more than once belong to different triangles.",
+  "id": "A332922",
+  "mentions": [
+    "A289218",
+    "A289219",
+    "A289220",
+    "A289221",
+    "A289253",
+    "A332879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

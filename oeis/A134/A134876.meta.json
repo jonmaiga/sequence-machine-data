@@ -1,0 +1,19 @@
+{
+  "description": "Number of Proth primes: number of primes of the form 1 + k*2^n with k odd and k < 2^n.",
+  "id": "A134876",
+  "mentions": [
+    "A080076",
+    "A331539",
+    "A331540"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

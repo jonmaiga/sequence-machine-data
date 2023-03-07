@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows where T(m,n) = m*n + m + n - 1, 1<=n<=m.",
+  "id": "A154614",
+  "mentions": [
+    "A005843",
+    "A016885",
+    "A020742",
+    "A040976",
+    "A112414"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:15",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

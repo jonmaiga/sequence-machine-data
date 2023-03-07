@@ -1,0 +1,24 @@
+{
+  "description": "Terms of A083209 with a record number of divisors.",
+  "id": "A337739",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A023196",
+    "A083207",
+    "A083209",
+    "A335008",
+    "A337738"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

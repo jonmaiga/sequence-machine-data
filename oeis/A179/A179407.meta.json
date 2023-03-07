@@ -1,0 +1,26 @@
+{
+  "description": "Values x for records of minima of positive distance d between a fifth power of positive integer x and a square of integer y such d = x^5 - y^2 (x != k^2 and y != k^5).",
+  "id": "A179407",
+  "mentions": [
+    "A179107",
+    "A179108",
+    "A179109",
+    "A179386",
+    "A179387",
+    "A179388",
+    "A179406",
+    "A179408"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

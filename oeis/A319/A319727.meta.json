@@ -1,0 +1,18 @@
+{
+  "description": "Rounded frequencies of notes in the shruti scale of Indian classical music, starting with 260.7 Hertz for C-equivalent note.",
+  "id": "A319727",
+  "mentions": [
+    "A131062",
+    "A131071"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

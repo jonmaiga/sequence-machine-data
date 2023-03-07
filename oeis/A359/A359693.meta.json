@@ -1,0 +1,29 @@
+{
+  "description": "Number of edges in a regular drawing of a complete bipartite graph where the vertex positions on each part equal the Farey series of order n.",
+  "id": "A359693",
+  "mentions": [
+    "A005728",
+    "A006842",
+    "A006843",
+    "A290132",
+    "A358884",
+    "A358888",
+    "A359655",
+    "A359690",
+    "A359691",
+    "A359692",
+    "A359694"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

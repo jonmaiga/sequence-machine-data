@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into 4 distinct prime powers (including 1).",
+  "id": "A341141",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A341122",
+    "A341132",
+    "A341133",
+    "A341140",
+    "A341142",
+    "A341143",
+    "A341144",
+    "A341145"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

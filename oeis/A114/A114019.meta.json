@@ -1,0 +1,18 @@
+{
+  "description": "Largest n-digit prime whose digit reversal is also prime.",
+  "id": "A114019",
+  "mentions": [
+    "A113018"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

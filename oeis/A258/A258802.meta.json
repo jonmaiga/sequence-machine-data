@@ -1,0 +1,19 @@
+{
+  "description": "Least base b >= 2 such that prime(n) is an absolute prime in base b with at least 2 distinct digits or 0 if no such base exists.",
+  "id": "A258802",
+  "mentions": [
+    "A003459",
+    "A258706",
+    "A258778"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

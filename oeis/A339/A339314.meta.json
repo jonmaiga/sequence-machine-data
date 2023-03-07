@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least semiprime k > n-th semiprime s = A001358(n) such that k-s and k+s are both semiprimes.",
+  "id": "A339314",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

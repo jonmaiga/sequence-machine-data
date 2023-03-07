@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that 1 + n^2 + n^4 + n^5 is prime.",
+  "id": "A126907",
+  "mentions": [
+    "A049407",
+    "A124175",
+    "A124176",
+    "A124177",
+    "A124178",
+    "A124179",
+    "A124180",
+    "A124181",
+    "A126908",
+    "A126916"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:40:21",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

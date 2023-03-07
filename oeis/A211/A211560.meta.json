@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonnegative integer arrays of length n+6 with new values 0 upwards introduced in order, and containing the value 6",
+  "id": "A211560",
+  "mentions": [
+    "A211561"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

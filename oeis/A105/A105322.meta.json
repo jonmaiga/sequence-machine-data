@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 8*10^n-7.",
+  "id": "A105322",
+  "mentions": [
+    "A099190",
+    "A104907",
+    "A105324"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

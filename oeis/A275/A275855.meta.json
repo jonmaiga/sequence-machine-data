@@ -1,0 +1,20 @@
+{
+  "description": "Platinum mean sequence: fixed point of the morphism 0 -> 0001, 1 -> 001.",
+  "id": "A275855",
+  "mentions": [
+    "A019973",
+    "A096268",
+    "A188068",
+    "A276865"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:27:07",
+    "offset": 1,
+    "size": 112,
+    "source": "joeis"
+  }
+}

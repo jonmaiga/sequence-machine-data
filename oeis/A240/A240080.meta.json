@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n such that m(greatest part) >= m(1), where m = multiplicity.",
+  "id": "A240080",
+  "mentions": [
+    "A117995",
+    "A240076",
+    "A240077",
+    "A240078"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

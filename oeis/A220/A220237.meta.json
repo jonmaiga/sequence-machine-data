@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: sorted terms of Collatz trajectories.",
+  "id": "A220237",
+  "mentions": [
+    "A006577",
+    "A025586",
+    "A033493",
+    "A070165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that all values of (a(n) XOR n) are distinct.",
+  "id": "A269868",
+  "mentions": [
+    "A235262"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes whose binary representation shows the distribution of prime numbers using \"0\" for primes and \"1\" for nonprime numbers.",
+  "id": "A139119",
+  "mentions": [
+    "A000040",
+    "A005171",
+    "A118255",
+    "A118256",
+    "A118257",
+    "A139101",
+    "A139102",
+    "A139103",
+    "A139104"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

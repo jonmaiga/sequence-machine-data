@@ -1,0 +1,37 @@
+{
+  "description": "The squares of squarefree numbers (A062503), ordered lexicographically according to their prime factors. a(n) = Product_{k in I} prime(k+1)^2, where I are the indices of nonzero binary digits in n = Sum_{k in I} 2^k.",
+  "id": "A334110",
+  "mentions": [
+    "A000079",
+    "A001248",
+    "A003961",
+    "A003987",
+    "A019565",
+    "A048675",
+    "A052330",
+    "A059897",
+    "A061742",
+    "A062503",
+    "A097248",
+    "A166329",
+    "A225546",
+    "A267116",
+    "A329332",
+    "A331590",
+    "A332382",
+    "A334109",
+    "A334860",
+    "A334866"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:27",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

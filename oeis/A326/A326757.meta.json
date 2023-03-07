@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the X-coordinate of the n-th nonattacking queen placed by a greedy algorithm on N^3 (see Comments for details).",
+  "id": "A326757",
+  "mentions": [
+    "A275901",
+    "A326758",
+    "A326759"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

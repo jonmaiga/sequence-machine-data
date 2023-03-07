@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not of the form 7*k+11*m (with nonnegative k, m).",
+  "id": "A168134",
+  "mentions": [
+    "A168135"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

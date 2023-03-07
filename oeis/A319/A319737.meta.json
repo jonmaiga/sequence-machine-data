@@ -1,0 +1,18 @@
+{
+  "description": "The lexicographically earliest increasing sequence such that n divides the sum of the first a(n) + 1 terms.",
+  "id": "A319737",
+  "mentions": [
+    "A316571",
+    "A319736"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

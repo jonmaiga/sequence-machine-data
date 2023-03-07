@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] with no fixed points where the maximal displacement of an element equals five.",
+  "id": "A321051",
+  "mentions": [
+    "A259777",
+    "A259778",
+    "A259784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 5,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

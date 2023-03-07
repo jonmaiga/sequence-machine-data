@@ -1,0 +1,20 @@
+{
+  "description": "The maximal set of disjoint prime cycle permutations on n elements which generate unique subgroups of S(n).",
+  "id": "A186202",
+  "mentions": [
+    "A181949",
+    "A181951"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

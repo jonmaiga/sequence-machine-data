@@ -1,0 +1,27 @@
+{
+  "description": "Primes of the form 48k+17 generated recursively. Initial prime is 17. General term is a(n)=Min {p is prime; p divides (2Q)^8 + 1; Mod[p,48]=17}, where Q is the product of previous terms in the sequence.",
+  "id": "A125042",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208",
+    "A124984",
+    "A124993",
+    "A125037",
+    "A125040",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

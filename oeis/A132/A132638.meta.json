@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form m^m where m is oblong (promic).",
+  "id": "A132638",
+  "mentions": [
+    "A000312",
+    "A002378",
+    "A008973",
+    "A008974",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

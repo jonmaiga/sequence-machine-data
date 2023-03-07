@@ -1,0 +1,18 @@
+{
+  "description": "Number of group homomorphisms S_3 -> S_n, where S_n denotes the symmetric group on n letters.",
+  "id": "A281097",
+  "mentions": [
+    "A000085"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

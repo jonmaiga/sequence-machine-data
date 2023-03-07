@@ -1,0 +1,23 @@
+{
+  "description": "Primes in A154933.",
+  "id": "A154934",
+  "mentions": [
+    "A028870",
+    "A038599",
+    "A154831",
+    "A154832",
+    "A154833",
+    "A154834",
+    "A154933"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

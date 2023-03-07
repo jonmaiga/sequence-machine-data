@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest integer k such that 2^k - 1 divides n.",
+  "id": "A161789",
+  "mentions": [
+    "A000225",
+    "A161788",
+    "A161790"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

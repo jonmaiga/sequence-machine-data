@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct n-step paths of a knight moving on an n X n chessboard, starting to at a corner and not visiting any cell twice.",
+  "id": "A272568",
+  "mentions": [
+    "A272469"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

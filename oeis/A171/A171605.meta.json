@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of Hankel moment polynomials for c=1/2:f(a,b) = Gamma[a + b]/Gamma[a] p(x,n)=Sum[Binomial(n, k)*(f(c, n)/(f(c, n - k)*f(c, k)))*x^k, {k, 0, n}]",
+  "id": "A171605",
+  "mentions": [
+    "A001263",
+    "A008459"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

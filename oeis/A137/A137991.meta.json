@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the inverse of the number whose Engel expansion has the sequence of Fibonacci numbers (A000045) as coefficients.",
+  "id": "A137991",
+  "mentions": [
+    "A000045",
+    "A101689",
+    "A137987"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

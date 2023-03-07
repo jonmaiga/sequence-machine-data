@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (1 + sqrt(1 + 2*x))/2, where x=sqrt(2).",
+  "id": "A190260",
+  "mentions": [
+    "A188635",
+    "A190258",
+    "A190261",
+    "A190262"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

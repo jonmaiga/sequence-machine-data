@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into parts not congruent to 0, 2, 12, 14, 16, 18, 20, 30 (mod 32).",
+  "id": "A115671",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007096",
+    "A010054",
+    "A010815",
+    "A080054",
+    "A121373",
+    "A187154",
+    "A208851",
+    "A208856",
+    "A218171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:52:31",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

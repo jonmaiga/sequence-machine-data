@@ -1,0 +1,21 @@
+{
+  "description": "Perimeters of Heronian triangles with squarefree side lengths.",
+  "id": "A330869",
+  "mentions": [
+    "A008683",
+    "A333840",
+    "A334538",
+    "A335223",
+    "A335224"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

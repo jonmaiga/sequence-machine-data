@@ -1,0 +1,20 @@
+{
+  "description": "The smallest prime number q such that the greatest prime divisor of 2*q+1 equals the n-th prime.",
+  "id": "A100395",
+  "mentions": [
+    "A006530",
+    "A023590",
+    "A100394"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

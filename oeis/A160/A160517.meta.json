@@ -1,0 +1,20 @@
+{
+  "description": "A walk of 10-divisible \"less regular\" figurate cuboctahedra, from sequence A160249.",
+  "id": "A160517",
+  "mentions": [
+    "A160249"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

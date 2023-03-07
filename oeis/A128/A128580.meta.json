@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of phi(x^3) * psi(x^4) - x * phi(x) * psi(x^12) in powers of x where phi(), psi() are Ramanujan theta functions.",
+  "id": "A128580",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A113780",
+    "A115660",
+    "A121373",
+    "A128581",
+    "A128582",
+    "A259668"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of (i+j-1), as in A002024.",
+  "id": "A204169",
+  "mentions": [
+    "A002024",
+    "A202605",
+    "A204016"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:15:56",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the integers formed by all cyclic permutations of the decimal digits of n have the same prime divisors.",
+  "id": "A244514",
+  "mentions": [
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

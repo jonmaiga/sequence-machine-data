@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes p*q where both p and q are primes of the form 6n+1 (A002476).",
+  "id": "A108164",
+  "mentions": [
+    "A001358",
+    "A002476",
+    "A007528",
+    "A107890",
+    "A108166",
+    "A108172"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

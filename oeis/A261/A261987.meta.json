@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n lists the set of n coprime composite numbers that minimizes the difference between first and last terms, and then minimizes the average of the terms.",
+  "id": "A261987",
+  "mentions": [
+    "A002808",
+    "A262042",
+    "A264482"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

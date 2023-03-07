@@ -1,0 +1,18 @@
+{
+  "description": "Squares which can be represented as sum of (at least two) consecutive cubes and are not triangular numbers squared.",
+  "id": "A163392",
+  "mentions": [
+    "A163393"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

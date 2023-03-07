@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have exactly two representations of a sum of seven nonnegative squares.",
+  "id": "A295742",
+  "mentions": [
+    "A025422",
+    "A294675",
+    "A295485"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

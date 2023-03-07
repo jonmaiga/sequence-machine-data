@@ -1,0 +1,19 @@
+{
+  "description": "First coordinate of (3,8)-Lagrange pair for n.",
+  "id": "A194520",
+  "mentions": [
+    "A194508",
+    "A194521"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:01:39",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = 2^(prime(n)-1) + Sum_{k=1..n} 2^(prime(n)-prime(k)).",
+  "id": "A333392",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A010051",
+    "A034785",
+    "A051006",
+    "A072762",
+    "A076793",
+    "A080339",
+    "A080355",
+    "A121240",
+    "A139104",
+    "A333393"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

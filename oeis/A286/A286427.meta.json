@@ -1,0 +1,18 @@
+{
+  "description": "Total number of nodes summed over all lattice paths from (0,0) to (n,0) that do not go below the x-axis or above the diagonal x=y and consist of steps U=(1,1), D=(1,-1) and S=(0,1).",
+  "id": "A286427",
+  "mentions": [
+    "A198324"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

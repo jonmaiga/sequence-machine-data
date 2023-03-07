@@ -1,0 +1,28 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix inverse of R=A113389.",
+  "id": "A114159",
+  "mentions": [
+    "A113370",
+    "A113381",
+    "A113389",
+    "A114150",
+    "A114151",
+    "A114152",
+    "A114153",
+    "A114154",
+    "A114155",
+    "A114156",
+    "A114158"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

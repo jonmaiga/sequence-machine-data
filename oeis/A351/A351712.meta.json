@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose minimal (or greedy) Lucas representation (A130310) is palindromic.",
+  "id": "A351712",
+  "mentions": [
+    "A000032",
+    "A000211",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A054770",
+    "A094202",
+    "A130310",
+    "A331191",
+    "A351717"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

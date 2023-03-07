@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 27*sqrt(3) / (2*Pi).",
+  "id": "A354249",
+  "mentions": [
+    "A010527",
+    "A132702",
+    "A132717"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

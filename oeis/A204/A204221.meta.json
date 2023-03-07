@@ -1,0 +1,21 @@
+{
+  "description": "Integers of the form (n^2 - 1) / 15.",
+  "id": "A204221",
+  "mentions": [
+    "A204220",
+    "A204542",
+    "A219257"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:31",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

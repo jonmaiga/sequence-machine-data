@@ -1,0 +1,18 @@
+{
+  "description": "The last letter of the English name of a(n) equals the a(n)-th letter of the concatenation of all the terms spelled out in English.",
+  "id": "A266851",
+  "mentions": [
+    "A052360"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Lengths of runs of consecutive primes and nonprimes in A007775.",
+  "id": "A140378",
+  "mentions": [
+    "A007775",
+    "A039919",
+    "A039949",
+    "A132231",
+    "A132232",
+    "A132233",
+    "A132234",
+    "A132235",
+    "A132236",
+    "A136066"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

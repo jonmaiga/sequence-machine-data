@@ -1,0 +1,24 @@
+{
+  "description": "Iccanobirt prime indices (12 of 15): Indices of prime numbers in A102122.",
+  "id": "A102142",
+  "mentions": [
+    "A000040",
+    "A102122",
+    "A102131",
+    "A102145",
+    "A102162"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

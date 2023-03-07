@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n (-1,1)-circulant matrices with determinant 0.",
+  "id": "A144926",
+  "mentions": [
+    "A086328"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

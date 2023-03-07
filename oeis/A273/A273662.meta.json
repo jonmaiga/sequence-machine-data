@@ -1,0 +1,21 @@
+{
+  "description": "Least monotonic left inverse for A256450: a(1) = 0; for n > 1, a(n) = A257680(n) + a(n-1).",
+  "id": "A273662",
+  "mentions": [
+    "A256450",
+    "A257680",
+    "A257682",
+    "A273663"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

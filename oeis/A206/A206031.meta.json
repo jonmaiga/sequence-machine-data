@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = product of numbers k <= sigma(n) such that k = sigma(d) for any divisor d of n where sigma = A000203.",
+  "id": "A206031",
+  "mentions": [
+    "A000203",
+    "A184388",
+    "A184395",
+    "A206032",
+    "A206033"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

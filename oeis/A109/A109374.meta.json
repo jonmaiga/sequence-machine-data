@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: Row n is the terms of the continued fraction for prime(n+1)/prime(n).",
+  "id": "A109374",
+  "mentions": [
+    "A029707",
+    "A071866",
+    "A110021",
+    "A112323",
+    "A112324",
+    "A112768"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Potential magic constants of a 10 X 10 magic square composed of consecutive primes.",
+  "id": "A192087",
+  "mentions": [
+    "A073520",
+    "A173981",
+    "A176571",
+    "A177434",
+    "A188536",
+    "A189188",
+    "A191679"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

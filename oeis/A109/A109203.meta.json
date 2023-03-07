@@ -1,0 +1,25 @@
+{
+  "description": "Minimal value of k>0 such that n^8 + k^2 is a semiprime.",
+  "id": "A109203",
+  "mentions": [
+    "A001358",
+    "A108714",
+    "A109197",
+    "A109198",
+    "A109199",
+    "A109200",
+    "A109201",
+    "A109202"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into 5 primes (counting 1 as a prime).",
+  "id": "A341948",
+  "mentions": [
+    "A008578",
+    "A034891",
+    "A259195",
+    "A341945",
+    "A341946",
+    "A341947",
+    "A341949",
+    "A341950",
+    "A341951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 5,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

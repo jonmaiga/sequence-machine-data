@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the first inflection point of 1/Gamma(x) on the interval x=[0,infinity).",
+  "id": "A268464",
+  "mentions": [
+    "A268895",
+    "A268911",
+    "A269063"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

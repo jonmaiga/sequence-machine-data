@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are not the sum of distinct terms of A353983.",
+  "id": "A353985",
+  "mentions": [
+    "A000108",
+    "A353983",
+    "A353984"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

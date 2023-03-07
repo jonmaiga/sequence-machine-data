@@ -1,0 +1,21 @@
+{
+  "description": "Number of words of length n over an alphabet of size 5 which do not contain a run of 5 identical letters.",
+  "id": "A188580",
+  "mentions": [
+    "A040000",
+    "A121907",
+    "A188714"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

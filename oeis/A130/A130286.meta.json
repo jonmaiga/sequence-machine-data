@@ -1,0 +1,20 @@
+{
+  "description": "Strongly-single primes: primes p such that neither previousprime(p) nor nextprime(p) is a twin prime.",
+  "id": "A130286",
+  "mentions": [
+    "A000040",
+    "A001097",
+    "A007510",
+    "A071904"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number m such that phi(m)+sigma(m)=n*pi(m).",
+  "id": "A145747",
+  "mentions": [
+    "A015704"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

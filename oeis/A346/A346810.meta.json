@@ -1,0 +1,18 @@
+{
+  "description": "There are a(n) digits between a(n) and the next copy of the string a(n). This is the lexicographically earliest sequence of distinct positive terms with this property.",
+  "id": "A346810",
+  "mentions": [
+    "A303151"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

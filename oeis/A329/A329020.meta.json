@@ -1,0 +1,27 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where T(n,k) is the constant term in the expansion of ( Sum_{j=1..k} x_j^(2*j-1) + x_j^(-(2*j-1)) )^(2*n).",
+  "id": "A329020",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000984",
+    "A005721",
+    "A005843",
+    "A063419",
+    "A077042",
+    "A143166",
+    "A329021"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(row,col): For row=0, A(0,col) = A265341(col), for row > 0, A(row,col) = A265342(A(row-1,col)).",
+  "id": "A265345",
+  "mentions": [
+    "A000079",
+    "A002262",
+    "A025581",
+    "A263273",
+    "A264980",
+    "A265330",
+    "A265331",
+    "A265341",
+    "A265342",
+    "A265346",
+    "A265347",
+    "A265895",
+    "A265910",
+    "A265911"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

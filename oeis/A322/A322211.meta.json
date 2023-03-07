@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = coefficient of x^n*y^n in Product_{n>=1} 1/(1 - (x^n + y^n)).",
+  "id": "A322211",
+  "mentions": [
+    "A048651",
+    "A258471",
+    "A322198",
+    "A322210",
+    "A322213"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

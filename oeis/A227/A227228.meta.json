@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes greater than 10 whose sum of proper divisors is also a palindrome greater than 10.",
+  "id": "A227228",
+  "mentions": [
+    "A001065",
+    "A002113",
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

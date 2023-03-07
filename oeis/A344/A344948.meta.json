@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose position among the powers of primes (A000961) is also prime.",
+  "id": "A344948",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A024620"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of orbits of the 3-step recursion mod n.",
+  "id": "A106285",
+  "mentions": [
+    "A015134",
+    "A039301",
+    "A054879",
+    "A106286",
+    "A106287",
+    "A106288",
+    "A106307"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

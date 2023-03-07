@@ -1,0 +1,25 @@
+{
+  "description": "Sum of non-exponential divisors of n.",
+  "id": "A160135",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000203",
+    "A000961",
+    "A006881",
+    "A051377",
+    "A053810",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*n^2 + 18*n - 20.",
+  "id": "A277981",
+  "mentions": [
+    "A277982"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:19",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into at most 4 distinct prime parts.",
+  "id": "A358009",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A219180",
+    "A219198",
+    "A223893",
+    "A347550",
+    "A347578",
+    "A347586",
+    "A347741",
+    "A358010",
+    "A358011"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

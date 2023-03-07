@@ -1,0 +1,19 @@
+{
+  "description": "The pairwise differences of the terms of A004210.",
+  "id": "A206522",
+  "mentions": [
+    "A004210",
+    "A206523",
+    "A206524"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

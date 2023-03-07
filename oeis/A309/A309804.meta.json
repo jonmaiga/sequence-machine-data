@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the coefficient of x^n in the polynomial Product_{i=1..n+4} (prime(i)*x-1).",
+  "id": "A309804",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005867",
+    "A007504",
+    "A024447",
+    "A024448",
+    "A024449",
+    "A024451",
+    "A033999",
+    "A054640",
+    "A070918",
+    "A238146",
+    "A260613",
+    "A309802",
+    "A309803"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

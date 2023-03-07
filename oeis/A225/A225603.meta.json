@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes whose square is also a palindrome.",
+  "id": "A225603",
+  "mentions": [
+    "A002385",
+    "A057135",
+    "A065378",
+    "A161721"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

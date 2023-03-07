@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(n,k)^4 * a(k-1).",
+  "id": "A342198",
+  "mentions": [
+    "A040027",
+    "A061685",
+    "A336196",
+    "A342196",
+    "A342197",
+    "A342199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

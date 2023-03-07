@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows: n^k * k^n, for n >= 1 and k = 1..n.",
+  "id": "A303990",
+  "mentions": [
+    "A062275",
+    "A303991"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

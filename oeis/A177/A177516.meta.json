@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers m = p*q such that p and q are distinct primes and (p-1) divides (q-1).",
+  "id": "A177516",
+  "mentions": [
+    "A046388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

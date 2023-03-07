@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of terms in A330418 with exactly n digits.",
+  "id": "A330419",
+  "mentions": [
+    "A330367",
+    "A330418"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

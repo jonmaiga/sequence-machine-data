@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = concatenation of first n elements of Thue-Morse sequence A010059.",
+  "id": "A102397",
+  "mentions": [
+    "A010059",
+    "A010060",
+    "A019299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

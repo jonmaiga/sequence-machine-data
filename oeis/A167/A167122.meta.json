@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 20*a(n-1) - 64*a(n-2) + 3 for n > 2; a(0) = 1, a(1) = 22, a(2) = 378.",
+  "id": "A167122",
+  "mentions": [
+    "A166912",
+    "A166913",
+    "A167120",
+    "A167121"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

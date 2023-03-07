@@ -1,0 +1,22 @@
+{
+  "description": "Starting from n: as long as the decimal representation contains a positive multiple of 3, divide the largest and leftmost such substring by 3; a(n) corresponds to the final value.",
+  "id": "A330355",
+  "mentions": [
+    "A325112",
+    "A327539",
+    "A329424"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

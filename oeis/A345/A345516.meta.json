@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of six cubes in seven or more ways.",
+  "id": "A345516",
+  "mentions": [
+    "A344811",
+    "A345180",
+    "A345515",
+    "A345517",
+    "A345525",
+    "A345564",
+    "A345769"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

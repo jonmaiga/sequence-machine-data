@@ -1,0 +1,20 @@
+{
+  "description": "Paschal full moon dates expressed as days after March 21 (Gregorian calendar).",
+  "id": "A348924",
+  "mentions": [
+    "A064264",
+    "A349710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

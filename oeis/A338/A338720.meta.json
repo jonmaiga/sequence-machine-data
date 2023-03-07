@@ -1,0 +1,20 @@
+{
+  "description": "Define b(1)=1 and for n>1, b(n)=n/b(n-1); then a(n) = nearest integer to b(n).",
+  "id": "A338720",
+  "mentions": [
+    "A004730",
+    "A004731",
+    "A338718",
+    "A338719"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

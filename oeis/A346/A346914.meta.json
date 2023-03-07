@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows where each row is the vertex parent array of a rooted forest in Knuth's form of Beyer and Hedetniemi's iteration.",
+  "id": "A346914",
+  "mentions": [
+    "A346913",
+    "A346915"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

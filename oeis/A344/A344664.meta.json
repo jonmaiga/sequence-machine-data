@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of preference profiles in the stable marriage problem with n men and n women where both the men's and the women's preferences form a Latin square when arranged in a matrix. In addition, it is possible to arrange all people into n man-woman couples such that they rank each other first.",
+  "id": "A344664",
+  "mentions": [
+    "A000479",
+    "A002860",
+    "A185141",
+    "A343696",
+    "A343697",
+    "A343698",
+    "A344665"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

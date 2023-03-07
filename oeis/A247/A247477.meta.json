@@ -1,0 +1,22 @@
+{
+  "description": "Largest m such that n/m + n divides (n/m)^(n/m) + n, (n/m)^n + n/m and n^(n/m) + n/m, or 0 if no such m exists.",
+  "id": "A247477",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A005408",
+    "A017641",
+    "A254748",
+    "A272538"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct sizes of equilateral triangles with vertices in an equilateral triangular array of points with n rows.",
+  "id": "A328787",
+  "mentions": [
+    "A000332",
+    "A003136",
+    "A024610",
+    "A108279"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

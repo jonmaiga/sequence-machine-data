@@ -1,0 +1,22 @@
+{
+  "description": "The number of connected weighted cubic graphs with weight n on 6 vertices.",
+  "id": "A321306",
+  "mentions": [
+    "A002851",
+    "A005513",
+    "A026810",
+    "A321307"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:25",
+    "offset": 6,
+    "size": 44,
+    "source": "joeis"
+  }
+}

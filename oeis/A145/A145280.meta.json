@@ -1,0 +1,21 @@
+{
+  "description": "Fecundity of n-th prime.",
+  "id": "A145280",
+  "mentions": [
+    "A070562",
+    "A145279"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

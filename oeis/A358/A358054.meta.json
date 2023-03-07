@@ -1,0 +1,20 @@
+{
+  "description": "Starting with 0, smallest integer not yet in the sequence such that no two neighboring digits differ by 1.",
+  "id": "A358054",
+  "mentions": [
+    "A082927",
+    "A219250"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

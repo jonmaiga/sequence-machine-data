@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{0..infinity} log(x)/cosh(x) dx (negated).",
+  "id": "A257406",
+  "mentions": [
+    "A068466",
+    "A115252"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

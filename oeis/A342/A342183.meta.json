@@ -1,0 +1,19 @@
+{
+  "description": "Primes q such that 15*q-2 and 15*q+2 are cousin primes.",
+  "id": "A342183",
+  "mentions": [
+    "A046132",
+    "A342184",
+    "A342185"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "n appears k times, where k = last digit of n.",
+  "id": "A130146",
+  "mentions": [
+    "A001462",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

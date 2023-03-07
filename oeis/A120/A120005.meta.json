@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number containing exactly n distinct numbers in its decimal representation.",
+  "id": "A120005",
+  "mentions": [
+    "A000030",
+    "A120004"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

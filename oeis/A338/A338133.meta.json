@@ -1,0 +1,30 @@
+{
+  "description": "Primitive nondeficient numbers sorted by largest prime factor then by increasing size. Irregular triangle T(n, k), n >= 2, k >= 1, read by rows, row n listing those with largest prime factor = prime(n).",
+  "id": "A338133",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000079",
+    "A000668",
+    "A006039",
+    "A006530",
+    "A035100",
+    "A047802",
+    "A059305",
+    "A061652",
+    "A308710",
+    "A338427"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

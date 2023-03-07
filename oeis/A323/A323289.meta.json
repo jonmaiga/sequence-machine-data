@@ -1,0 +1,23 @@
+{
+  "description": "Total number of distinct numbers that can be obtained by starting with 1 and applying the \"Choix de Bruxelles\", version 2 (A323460) operation at most n times.",
+  "id": "A323289",
+  "mentions": [
+    "A323286",
+    "A323287",
+    "A323452",
+    "A323453",
+    "A323460"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

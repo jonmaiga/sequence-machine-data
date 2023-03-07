@@ -1,0 +1,23 @@
+{
+  "description": "A complementary variation of 'n described': if n is read as \"a ones b twos\" then a(n) = \"one a's two b's\", etc.",
+  "id": "A113589",
+  "mentions": [
+    "A002275",
+    "A045918",
+    "A140057",
+    "A306366"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) is coefficient of k-th power in expansion of ((x^(n+1)-1)/(x-1))^n.",
+  "id": "A181567",
+  "mentions": [
+    "A000012",
+    "A000169",
+    "A001222",
+    "A007318",
+    "A008287",
+    "A027907",
+    "A035343",
+    "A063260",
+    "A063265",
+    "A071207",
+    "A146291",
+    "A146292",
+    "A163181",
+    "A171890",
+    "A181555"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

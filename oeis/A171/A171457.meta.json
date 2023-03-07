@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n, k) = coefficients of p(n, x), where p(n, x) = p(n-1, x)*Sum_{j=0..n-1} x^i - x*Sum_{j=0..binomial(n,2)-2} x^i, read by rows.",
+  "id": "A171457",
+  "mentions": [
+    "A171456"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k whose smallest prime factor is greater than the cube root of k and strictly less than the square root of k.",
+  "id": "A138109",
+  "mentions": [
+    "A001248",
+    "A006881",
+    "A020639",
+    "A251728"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

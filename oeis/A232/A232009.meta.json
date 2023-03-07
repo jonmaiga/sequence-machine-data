@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the smallest squarefree number (from A005117) of the form p*q with prime factors in a p^2 + n progression, or 0 if no such number exists.",
+  "id": "A232009",
+  "mentions": [
+    "A005117",
+    "A023200",
+    "A067775",
+    "A232010",
+    "A232012"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

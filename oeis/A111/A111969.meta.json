@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the area of Graham's biggest little hexagon.",
+  "id": "A111969",
+  "mentions": [
+    "A111970",
+    "A111971"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:53",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

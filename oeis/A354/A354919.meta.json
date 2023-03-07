@@ -1,0 +1,21 @@
+{
+  "description": "Positions of odd terms in A344005.",
+  "id": "A354919",
+  "mentions": [
+    "A002378",
+    "A182665",
+    "A344005",
+    "A354918",
+    "A354921"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

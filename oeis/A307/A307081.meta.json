@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows: row n consists of the numbers k from 1 to n sorted in ascending order according to the value of f(k) = A095112(k)/k.",
+  "id": "A307081",
+  "mentions": [
+    "A095112",
+    "A307088",
+    "A307187"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

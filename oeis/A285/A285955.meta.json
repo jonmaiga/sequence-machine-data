@@ -1,0 +1,24 @@
+{
+  "description": "Numbers a(n) = T(b(n))*sqrt(T(b(n))+1), where T(b(n)) is the triangular number of b(n)= A000217(b(n)) and b(n)=A006451(n). Also a(n) = y solutions of the Bachet Mordell equation y^2=x^3+K, where x= T(b(n)) = A006454(n) and K = (T(b(n)))^2= A285985(n).",
+  "id": "A285955",
+  "mentions": [
+    "A000217",
+    "A006451",
+    "A006454",
+    "A054504",
+    "A081119",
+    "A285985"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

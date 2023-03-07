@@ -1,0 +1,25 @@
+{
+  "description": "Regular triangle read by rows where T(n, k) is the number of set partitions of {1, ..., n} requiring k steps of removing singletons and cyclical adjacency initiators until reaching a fixed point, n >= 0, 0 <= k <= n.",
+  "id": "A306418",
+  "mentions": [
+    "A000110",
+    "A000126",
+    "A000296",
+    "A001610",
+    "A306416",
+    "A306417",
+    "A324011",
+    "A324012"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of the alternating series of reciprocals of cubed composite numbers.",
+  "id": "A285308",
+  "mentions": [
+    "A002808",
+    "A269229",
+    "A275712",
+    "A276494"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

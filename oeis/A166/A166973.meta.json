@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n, k) = (m*n - m*k + 1)*T(n - 1, k - 1) + (5*k - 4)*(m*k - (m - 1))*T(n - 1, k) where m = 0.",
+  "id": "A166973",
+  "mentions": [
+    "A008548",
+    "A039755",
+    "A111577",
+    "A111578"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest perfect power that begins and ends with digit n, 1 <= n <= 9; one-digit numbers are excluded.",
+  "id": "A129450",
+  "mentions": [
+    "A001597",
+    "A075786",
+    "A128827"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

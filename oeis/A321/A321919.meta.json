@@ -1,0 +1,30 @@
+{
+  "description": "Tetrangle where T(n,H(u),H(v)) is the coefficient of h(v) in p(u), where u and v are integer partitions of n, H is Heinz number, h is homogeneous symmetric functions, and p is power sum symmetric functions.",
+  "id": "A321919",
+  "mentions": [
+    "A005651",
+    "A008480",
+    "A056239",
+    "A124794",
+    "A124795",
+    "A215366",
+    "A318284",
+    "A318360",
+    "A319191",
+    "A319193",
+    "A321754",
+    "A321912",
+    "A321935"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

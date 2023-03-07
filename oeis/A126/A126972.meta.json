@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct values taken by the entropy for permutations of [1..n], where the entropy of a permutation pi is Sum_{k=1..n} (pi(k)-k)^2.",
+  "id": "A126972",
+  "mentions": [
+    "A000292",
+    "A000330",
+    "A007920",
+    "A135298",
+    "A175929"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:51:39",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

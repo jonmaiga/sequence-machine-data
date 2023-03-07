@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that all three of 6*n+1, 6*(n+1)+1, and 6*(n+2)+1 are semiprimes.",
+  "id": "A283598",
+  "mentions": [
+    "A001358",
+    "A112771",
+    "A112775",
+    "A283597"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

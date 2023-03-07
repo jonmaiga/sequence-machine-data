@@ -1,0 +1,19 @@
+{
+  "description": "Inert rational primes in the field Q(sqrt(-17)).",
+  "id": "A296930",
+  "mentions": [
+    "A296920",
+    "A296929",
+    "A296931"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

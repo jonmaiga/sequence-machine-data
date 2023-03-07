@@ -1,0 +1,27 @@
+{
+  "description": "Numerator of sum of reciprocals of first n 5-simplex numbers A000389.",
+  "id": "A118431",
+  "mentions": [
+    "A000332",
+    "A000389",
+    "A022998",
+    "A026741",
+    "A118391",
+    "A118411",
+    "A118412",
+    "A118432"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

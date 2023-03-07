@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that neither a(n) + a(n+1) nor a(n) + a(n+2) is prime for any n.",
+  "id": "A329450",
+  "mentions": [
+    "A329333",
+    "A329405"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

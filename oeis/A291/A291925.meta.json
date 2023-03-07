@@ -1,0 +1,38 @@
+{
+  "description": "A(n,k) is the n-th Rhonda number to base A002808(k), the k-th composite number; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A291925",
+  "mentions": [
+    "A001414",
+    "A002808",
+    "A099542",
+    "A100968",
+    "A100969",
+    "A100970",
+    "A100971",
+    "A100972",
+    "A100973",
+    "A100974",
+    "A100975",
+    "A100987",
+    "A100988",
+    "A217986",
+    "A255731",
+    "A255732",
+    "A255735",
+    "A255736",
+    "A255872",
+    "A255880"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

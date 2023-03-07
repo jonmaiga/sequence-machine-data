@@ -1,0 +1,20 @@
+{
+  "description": "n such that sum_{k=1..n} (n - k | k) = phi(n), where (i|j) is the Kronecker symbol and phi(n) is the Euler totient function.",
+  "id": "A215285",
+  "mentions": [
+    "A000010",
+    "A215200",
+    "A215283",
+    "A215284"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

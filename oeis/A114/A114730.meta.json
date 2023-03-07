@@ -1,0 +1,21 @@
+{
+  "description": "One of a family of fractal sequences that transforms into each other.",
+  "id": "A114730",
+  "mentions": [
+    "A114729",
+    "A114731",
+    "A114732",
+    "A114733",
+    "A114734"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

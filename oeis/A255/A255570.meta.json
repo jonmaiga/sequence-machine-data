@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary representation traces a closed circuit in honeycomb lattice when its bits, from the least to the second most significant bit, are interpreted as directions to proceed at each vertex. (The most significant 1-bit is ignored).",
+  "id": "A255570",
+  "mentions": [
+    "A014486",
+    "A054429",
+    "A255571"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

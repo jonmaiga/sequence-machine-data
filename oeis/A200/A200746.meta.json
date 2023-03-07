@@ -1,0 +1,22 @@
+{
+  "description": "Completely multiplicative function with a(prime(k)) = prime(k)*prime(k-1), a(2) = 2.",
+  "id": "A200746",
+  "mentions": [
+    "A064989",
+    "A108951",
+    "A191002"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the digits of the n-th Fibonacci number written in bases 2, 3, 5 and 7 is prime.",
+  "id": "A111064",
+  "mentions": [
+    "A004685",
+    "A004686",
+    "A004688",
+    "A004690"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

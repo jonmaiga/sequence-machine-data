@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers k where the d(j)-th digit is j for d(j) and j > 0 and d(j) = 0 if and only if j is not a digit of k and d(m) is the m-th digit of k reading from the left.",
+  "id": "A346499",
+  "mentions": [
+    "A000085",
+    "A348056"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

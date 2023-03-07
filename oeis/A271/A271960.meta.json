@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^2 = A( (x + 2*A(x)^2)^2 ).",
+  "id": "A271960",
+  "mentions": [
+    "A001190",
+    "A271959"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

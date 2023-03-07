@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of xo, where P=(xo,yo) is the point nearest O=(0,0) in which a line y=mx meets the curve y=cos(x+Pi/4) orthogonally.",
+  "id": "A197002",
+  "mentions": [
+    "A003957",
+    "A196996",
+    "A197000",
+    "A197003"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

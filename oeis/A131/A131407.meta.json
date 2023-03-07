@@ -1,0 +1,21 @@
+{
+  "description": "Repeated set partitions or nested set partitions. Possible coalitions among n persons.",
+  "id": "A131407",
+  "mentions": [
+    "A000110",
+    "A005121",
+    "A086053",
+    "A131408"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

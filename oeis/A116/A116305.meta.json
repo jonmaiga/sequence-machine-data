@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k*(k+8) gives the concatenation of two numbers m and m+2.",
+  "id": "A116305",
+  "mentions": [
+    "A116174",
+    "A116299",
+    "A116304",
+    "A116306",
+    "A116312"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

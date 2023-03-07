@@ -1,0 +1,36 @@
+{
+  "description": "Heinz numbers of integer partitions with no two distinct parts relatively prime, but with no divisor in common to all of the parts.",
+  "id": "A328679",
+  "mentions": [
+    "A000079",
+    "A000837",
+    "A056239",
+    "A112798",
+    "A200976",
+    "A202425",
+    "A289509",
+    "A291166",
+    "A302796",
+    "A316476",
+    "A318715",
+    "A318716",
+    "A319752",
+    "A319759",
+    "A326912",
+    "A328336",
+    "A328672",
+    "A328677",
+    "A328867",
+    "A328868"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

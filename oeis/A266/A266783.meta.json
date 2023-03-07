@@ -1,0 +1,18 @@
+{
+  "description": "The growth series for the affine Coxeter (or Weyl) group [3,3,5] (or H_4).",
+  "id": "A266783",
+  "mentions": [
+    "A162497"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:08:25",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

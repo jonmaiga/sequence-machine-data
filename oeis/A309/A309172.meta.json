@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - (1 + x + x^2) * x^k).",
+  "id": "A309172",
+  "mentions": [
+    "A160571",
+    "A192918",
+    "A227681",
+    "A309173"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

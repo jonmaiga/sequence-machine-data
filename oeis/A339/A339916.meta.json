@@ -1,0 +1,19 @@
+{
+  "description": "The sum of 2^((d-1)/2) over all divisors of 2n+1.",
+  "id": "A339916",
+  "mentions": [
+    "A034729",
+    "A055895",
+    "A114001"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

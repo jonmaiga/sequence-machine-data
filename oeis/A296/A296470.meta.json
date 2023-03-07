@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of limiting power-ratio for A295862; see Comments.",
+  "id": "A296470",
+  "mentions": [
+    "A001622",
+    "A295862",
+    "A296469"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

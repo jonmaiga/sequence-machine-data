@@ -1,0 +1,22 @@
+{
+  "description": "(43200/719)*{a(n)} are the times, measured in seconds from 00:00:00, at which the angle of the sector enclosing the three hands of an analog clock has a local minimum.",
+  "id": "A348759",
+  "mentions": [
+    "A120500",
+    "A347040",
+    "A348758"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A138383.",
+  "id": "A137174",
+  "mentions": [
+    "A138383"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

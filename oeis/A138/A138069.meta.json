@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row n lists the digits of A135696(n), the palindromic number with odd number of digits formed from the reflected decimal expansion of e.",
+  "id": "A138069",
+  "mentions": [
+    "A001113",
+    "A135634",
+    "A135696",
+    "A138068"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the negated value of the digamma function at 5/6.",
+  "id": "A222458",
+  "mentions": [
+    "A020759",
+    "A047787",
+    "A200064",
+    "A222457"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

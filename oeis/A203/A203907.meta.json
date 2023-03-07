@@ -1,0 +1,23 @@
+{
+  "description": "Successor function for Conway's PRIMEGAME.",
+  "id": "A203907",
+  "mentions": [
+    "A007542",
+    "A185242",
+    "A202138",
+    "A203363"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

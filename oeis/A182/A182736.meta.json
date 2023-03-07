@@ -1,0 +1,23 @@
+{
+  "description": "Sum of parts in all partitions of 2n that do not contain 1 as a part.",
+  "id": "A182736",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A138880",
+    "A182734",
+    "A182742",
+    "A182746"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

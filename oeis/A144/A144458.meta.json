@@ -1,0 +1,20 @@
+{
+  "description": "Two sequence determinant triangle sequence: a(n)=A000045(n); b(n)=b(n-1)+b(n-2)+b(n-3) :2 start;A141036(n); t(n,m)=t(n,m)=a(m)*b(n)-b(m)*a(n).",
+  "id": "A144458",
+  "mentions": [
+    "A000045",
+    "A141036"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

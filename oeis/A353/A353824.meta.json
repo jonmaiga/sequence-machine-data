@@ -1,0 +1,23 @@
+{
+  "description": "The positions of nonzero digits in the ternary expansions of n and a(n) are the same, and the k-th leftmost nonzero digit in a(n) equals modulo 3 the product of the k leftmost nonzero digits in n.",
+  "id": "A353824",
+  "mentions": [
+    "A305458",
+    "A353825",
+    "A353826",
+    "A353828",
+    "A353830"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

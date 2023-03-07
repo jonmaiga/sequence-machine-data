@@ -1,0 +1,23 @@
+{
+  "description": "Number of GP-iposets (gluing-parallel posets with interfaces) with n points.",
+  "id": "A331159",
+  "mentions": [
+    "A000112",
+    "A003430",
+    "A079566",
+    "A331156",
+    "A331157",
+    "A331158"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

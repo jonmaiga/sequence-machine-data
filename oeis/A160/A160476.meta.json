@@ -1,0 +1,29 @@
+{
+  "description": "The first right hand column of the Zeta and Lambda triangles",
+  "id": "A160476",
+  "mentions": [
+    "A000265",
+    "A008955",
+    "A008956",
+    "A048896",
+    "A160474",
+    "A160478",
+    "A160479",
+    "A160487",
+    "A160490",
+    "A162446",
+    "A162448"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

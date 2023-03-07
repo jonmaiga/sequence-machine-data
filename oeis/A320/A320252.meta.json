@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with prime factorization Product_{k=1..w} prime(i_k) ^ e_k (where w = A001221(n) and prime(i) denotes the i-th prime number) such that i_k <> e_k for k = 1..w and { i_1, ..., i_w } = { e_1, ..., e_w }.",
+  "id": "A320252",
+  "mentions": [
+    "A001221",
+    "A048767",
+    "A071625",
+    "A109297"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of psi(x^6)^5/psi(-x^3) * (f(-x)/f(-x^4))^3 in powers of x where psi(), f() are Ramanujan theta functions.",
+  "id": "A328788",
+  "mentions": [
+    "A000122",
+    "A000203",
+    "A000700",
+    "A008438",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A229615",
+    "A329651"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

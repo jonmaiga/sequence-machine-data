@@ -1,0 +1,17 @@
+{
+  "description": "Number of zero-sum -6..6 arrays of n elements with adjacent element differences also in -6..6",
+  "id": "A202250",
+  "mentions": [
+    "A202252"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

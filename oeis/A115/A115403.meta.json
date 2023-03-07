@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^3+1 is 3-almost prime (product of three primes).",
+  "id": "A115403",
+  "mentions": [
+    "A001093",
+    "A014612"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

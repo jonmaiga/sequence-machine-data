@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of blocks in the bottom row after adding n blocks to the preceding structure of rows. See Comments and Example sections for more details.",
+  "id": "A357261",
+  "mentions": [
+    "A002024",
+    "A057176",
+    "A064434",
+    "A096535",
+    "A104647",
+    "A275204"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

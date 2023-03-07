@@ -1,0 +1,25 @@
+{
+  "description": "Molien series for invariants of finite Coxeter group A_8.",
+  "id": "A266777",
+  "mentions": [
+    "A001996",
+    "A008667",
+    "A037145",
+    "A059841",
+    "A103221",
+    "A266755",
+    "A266776",
+    "A266781"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:08:23",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

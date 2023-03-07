@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the generalized continued fraction with terms sigma(n)/n for n>=1.",
+  "id": "A254061",
+  "mentions": [
+    "A017665",
+    "A017666",
+    "A254059",
+    "A254060"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

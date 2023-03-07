@@ -1,0 +1,20 @@
+{
+  "description": "Consider all invertible residues mod n. For each residue, find the smallest product of three primes (A014612) which is in that residue class mod n. a(n) is the greatest of these.",
+  "id": "A358240",
+  "mentions": [
+    "A014612",
+    "A038026",
+    "A085420"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of k values arising in A093490.",
+  "id": "A103342",
+  "mentions": [
+    "A091771",
+    "A091879",
+    "A093490"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with no proper divisor that is not in an arithmetic progression of at least three proper divisors.",
+  "id": "A212308",
+  "mentions": [
+    "A033845",
+    "A091010",
+    "A091011",
+    "A129521"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

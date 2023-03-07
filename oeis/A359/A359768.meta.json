@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the parity of n and that of sopfr(n) differ, otherwise 0. Here sopfr is the sum of prime factors (with repetition).",
+  "id": "A359768",
+  "mentions": [
+    "A000035",
+    "A001414",
+    "A036347",
+    "A075254",
+    "A075255"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

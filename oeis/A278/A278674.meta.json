@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX6 0..1 arrays with rows in nondecreasing lexicographic order and columns in nonincreasing lexicographic order, but with exactly one mistake.",
+  "id": "A278674",
+  "mentions": [
+    "A278676"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

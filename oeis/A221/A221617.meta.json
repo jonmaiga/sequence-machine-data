@@ -1,0 +1,17 @@
+{
+  "description": "Number of 12-hour periods after which the (27+n) balls of a ball clock return to their initial state.",
+  "id": "A221617",
+  "mentions": [
+    "A221616"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

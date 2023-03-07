@@ -1,0 +1,43 @@
+{
+  "description": "Filter-sequence for GF(2)[X]-factorization: sequence that gives the least natural number with the same prime signature that (0, 1)-polynomial encoded in the binary expansion of n has when it is factored over GF(2).",
+  "id": "A278233",
+  "mentions": [
+    "A000695",
+    "A014580",
+    "A046523",
+    "A048720",
+    "A057889",
+    "A091203",
+    "A091205",
+    "A091220",
+    "A091221",
+    "A091222",
+    "A106493",
+    "A106494",
+    "A193231",
+    "A235042",
+    "A277699",
+    "A278222",
+    "A278226",
+    "A278231",
+    "A278236",
+    "A278238",
+    "A278239",
+    "A278243",
+    "A304529",
+    "A304751",
+    "A305788",
+    "A305789"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

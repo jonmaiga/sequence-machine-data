@@ -1,0 +1,22 @@
+{
+  "description": "The numbers commonly displayed with 7 segments in electric clocks, in ascending order of number of segments lit.",
+  "id": "A165244",
+  "mentions": [
+    "A006942",
+    "A010371",
+    "A074458"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

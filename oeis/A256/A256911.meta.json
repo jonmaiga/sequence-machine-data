@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in the enhanced triangular-number representation of n.",
+  "id": "A256911",
+  "mentions": [
+    "A000217",
+    "A256909",
+    "A256910"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

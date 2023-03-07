@@ -1,0 +1,28 @@
+{
+  "description": "Number of series-reduced powerful rooted trees with n nodes.",
+  "id": "A318611",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A001678",
+    "A001694",
+    "A004111",
+    "A167865",
+    "A291636",
+    "A317102",
+    "A317705",
+    "A317707",
+    "A318612",
+    "A318691"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

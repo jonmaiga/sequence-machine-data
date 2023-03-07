@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that both p and p^2 are distinct-digit numbers.",
+  "id": "A259187",
+  "mentions": [
+    "A029743",
+    "A078255",
+    "A119509"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

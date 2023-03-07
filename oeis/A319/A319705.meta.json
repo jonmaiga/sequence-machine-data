@@ -1,0 +1,27 @@
+{
+  "description": "Filter sequence which for primes p records a distinct value for each distinct multiset formed from the lengths of 1-runs in its binary representation [A286622(p)], and for all other numbers assigns a unique number.",
+  "id": "A319705",
+  "mentions": [
+    "A000668",
+    "A005940",
+    "A019434",
+    "A046523",
+    "A278222",
+    "A286163",
+    "A286622",
+    "A305795",
+    "A305900",
+    "A319704",
+    "A319706"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

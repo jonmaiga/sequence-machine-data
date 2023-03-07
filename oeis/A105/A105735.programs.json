@@ -1,0 +1,138 @@
+{
+  "oi": 105735,
+  "ps": [
+    {
+      "d": "2022-08-30",
+      "ix": "de[asin(exp(-1))]",
+      "mt": 50,
+      "px": [
+        "-1",
+        "exp",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "limit[asin(exp(tanh(-n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "neg",
+        "tanh",
+        "exp",
+        "asin",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "de[abs(asin(tan(acot(e))))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "acot",
+        "tan",
+        "asin",
+        "abs",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "de[-asin(tan(acot(e)))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "acot",
+        "tan",
+        "asin",
+        "neg",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-05-14",
+      "ix": "de[abs(asin(cot(atan(e))))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "atan",
+        "cot",
+        "asin",
+        "abs",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "de[-asin(cot(atan(e)))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "atan",
+        "cot",
+        "asin",
+        "neg",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(sqrt(exp(2)-1))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "exp",
+        "1",
+        "sub",
+        "sqrt",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-05-14",
+      "ix": "de[-asin(log(root(e, e)))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "e",
+        "root",
+        "log",
+        "asin",
+        "neg",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "de[acos(sin(acos(exp(-1))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "neg",
+        "exp",
+        "acos",
+        "sin",
+        "acos",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "de[acos(sqrt(1-exp(-2)))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "2",
+        "neg",
+        "exp",
+        "sub",
+        "sqrt",
+        "acos",
+        "de"
+      ]
+    }
+  ]
+}

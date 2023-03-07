@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(0,0)=1, T(n,m) = binomial(n,m) * gcd(n,m)/n.",
+  "id": "A107711",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A007318",
+    "A026741",
+    "A109004",
+    "A208950",
+    "A234040",
+    "A234041",
+    "A234042"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

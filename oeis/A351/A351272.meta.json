@@ -1,0 +1,32 @@
+{
+  "description": "Sum of the 9th powers of the squarefree divisors of n.",
+  "id": "A351272",
+  "mentions": [
+    "A008683",
+    "A013661",
+    "A013668",
+    "A034444",
+    "A048250",
+    "A351265",
+    "A351266",
+    "A351267",
+    "A351268",
+    "A351269",
+    "A351270",
+    "A351271",
+    "A351273"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

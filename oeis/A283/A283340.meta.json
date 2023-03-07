@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of exp( Sum_{n>=1} -sigma_10(n)*x^n/n ) in powers of x.",
+  "id": "A283340",
+  "mentions": [
+    "A010815",
+    "A023878",
+    "A073592",
+    "A283263",
+    "A283264",
+    "A283271",
+    "A283272",
+    "A283336",
+    "A283337",
+    "A283338",
+    "A283339"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

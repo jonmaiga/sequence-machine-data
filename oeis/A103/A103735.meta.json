@@ -1,0 +1,21 @@
+{
+  "description": "Column k=8 sequence of array A103728.",
+  "id": "A103735",
+  "mentions": [
+    "A000040",
+    "A103718",
+    "A103728"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

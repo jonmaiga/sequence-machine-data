@@ -1,0 +1,29 @@
+{
+  "description": "List of normal Lyndon sequences ordered first by length and then reverse-lexicographically, where a finite sequence is normal if it spans an initial interval of positive integers.",
+  "id": "A296976",
+  "mentions": [
+    "A000670",
+    "A019536",
+    "A060223",
+    "A095684",
+    "A185700",
+    "A281013",
+    "A294859",
+    "A296372",
+    "A296656",
+    "A296818",
+    "A296975",
+    "A296978"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

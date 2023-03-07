@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 + 8*x - 6*x^2 + 12*x^3 - 18*x^4)/(1 - x - 9*x^4 + 9*x^5).",
+  "id": "A309791",
+  "mentions": [
+    "A307048",
+    "A309792"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:13:05",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

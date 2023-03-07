@@ -1,0 +1,20 @@
+{
+  "description": "Number of closed self-avoiding paths on square lattice with 2*n steps, A010566(n)/8.",
+  "id": "A320421",
+  "mentions": [
+    "A002931",
+    "A010566",
+    "A266549"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

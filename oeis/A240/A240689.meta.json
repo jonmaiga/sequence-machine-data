@@ -1,0 +1,22 @@
+{
+  "description": "The number of values of the digit k for which prime(n)*10+k is prime.",
+  "id": "A240689",
+  "mentions": [
+    "A067267",
+    "A119289",
+    "A240678",
+    "A240679",
+    "A240680"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

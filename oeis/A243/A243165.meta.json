@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative integers of the form 2x^2 + 4xy - 3y^2.",
+  "id": "A243165",
+  "mentions": [
+    "A141179"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

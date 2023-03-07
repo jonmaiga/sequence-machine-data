@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(p(k)) = p(k+1) mod 4 for k-th prime p(k) and a(u * v) = a(u) * a(v) for u, v > 0.",
+  "id": "A246269",
+  "mentions": [
+    "A000244",
+    "A003961",
+    "A065338",
+    "A246270",
+    "A246272"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Unicode codes for digit characters in the Basic Multilingual Plane (BMP).",
+  "id": "A327894",
+  "mentions": [
+    "A061745",
+    "A098476",
+    "A121377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

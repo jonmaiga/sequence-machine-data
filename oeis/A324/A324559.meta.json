@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that the length of a chord drawn through 2 points taken at random within a circle on each side of a given diameter will be less than the radius.",
+  "id": "A324559",
+  "mentions": [
+    "A102519",
+    "A240935",
+    "A324558"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": -2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

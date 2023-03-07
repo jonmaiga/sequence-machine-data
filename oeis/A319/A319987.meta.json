@@ -1,0 +1,20 @@
+{
+  "description": "Fully multiplicative with a(p^e) = prime(p mod 8)^e.",
+  "id": "A319987",
+  "mentions": [
+    "A319984",
+    "A319985",
+    "A319986"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

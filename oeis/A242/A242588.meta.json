@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the expected reciprocal Euclidean distance between two random points in the unit cube.",
+  "id": "A242588",
+  "mentions": [
+    "A073012",
+    "A097047",
+    "A135691"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

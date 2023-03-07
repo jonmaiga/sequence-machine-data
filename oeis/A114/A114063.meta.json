@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that phi(k) = tau(k)^4, where tau(k) = A000005(k).",
+  "id": "A114063",
+  "mentions": [
+    "A000005",
+    "A020488",
+    "A062516",
+    "A063469",
+    "A063470",
+    "A068559",
+    "A068560",
+    "A112954",
+    "A112955",
+    "A175667"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

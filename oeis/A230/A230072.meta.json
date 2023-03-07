@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of an algebraic number sqLhat(2*l) in the power basis of the number field Q(2*cos(Pi/2*l)), related to the square of all length in a regular (2*l)-gon inscribed in a circle of radius of 1 length unit.",
+  "id": "A230072",
+  "mentions": [
+    "A049310",
+    "A055034",
+    "A187360",
+    "A228780",
+    "A228783",
+    "A230073"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=1, 0 <=k<=n-1) is the length of the period of the sequence obtained by starting with k and repeatedly squaring mod n.",
+  "id": "A279185",
+  "mentions": [
+    "A037178",
+    "A141305",
+    "A256607",
+    "A256608",
+    "A279186",
+    "A279187",
+    "A279188",
+    "A279189",
+    "A279190",
+    "A279191",
+    "A279192"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

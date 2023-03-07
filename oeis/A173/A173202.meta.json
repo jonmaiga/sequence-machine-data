@@ -1,0 +1,31 @@
+{
+  "description": "Solutions y of the Mordell equation y^2 = x^3 - 3a^2 + 1 for a = 0,1,2, ... (solutions x are given by the sequence A000466)",
+  "id": "A173202",
+  "mentions": [
+    "A000466",
+    "A006451",
+    "A006452",
+    "A006454",
+    "A053755",
+    "A080663",
+    "A081231",
+    "A081232",
+    "A081233",
+    "A081234",
+    "A082393",
+    "A082394",
+    "A173200"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:27:27",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

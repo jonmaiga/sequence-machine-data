@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of solution to exp(x) = e + x.",
+  "id": "A104689",
+  "mentions": [
+    "A202320",
+    "A202347"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

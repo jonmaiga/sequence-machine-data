@@ -1,0 +1,25 @@
+{
+  "description": "Squarefree kernel of n divided by the squarefree part of n: a(n) = rad(n) / core(n).",
+  "id": "A336643",
+  "mentions": [
+    "A007913",
+    "A007947",
+    "A059841",
+    "A268335",
+    "A336644",
+    "A350390",
+    "A356191"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

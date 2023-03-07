@@ -1,0 +1,25 @@
+{
+  "description": "Chronological Julian day number of the first day (Tishri 1, Rosh Hashanah) of Hebrew calendar year n.",
+  "id": "A350458",
+  "mentions": [
+    "A057348",
+    "A057349",
+    "A057350",
+    "A118661",
+    "A118662",
+    "A272699",
+    "A350471"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

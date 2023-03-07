@@ -1,0 +1,20 @@
+{
+  "description": "Triangular sequence of coefficients from the expansion of the derivative of the Bernoulli polynomial function: p(x,t) = t*exp(x*t)/(exp(t)-1); q(x,t) = p'(x,t) = dp(x,t)/dt.",
+  "id": "A137777",
+  "mentions": [
+    "A129814",
+    "A129825"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

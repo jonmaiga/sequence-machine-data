@@ -1,0 +1,23 @@
+{
+  "description": "The curvature (rounded down) of touching circles inscribed in a special way in the smaller segment of circle of radius 10/9 divided by a chord of length 4/3.",
+  "id": "A247512",
+  "mentions": [
+    "A049310",
+    "A240926",
+    "A246643",
+    "A246645",
+    "A247335"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

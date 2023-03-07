@@ -1,0 +1,20 @@
+{
+  "description": "A129065 with v=n instead of v=1: recursive polynomial coefficient triangle.",
+  "id": "A136453",
+  "mentions": [
+    "A129065"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

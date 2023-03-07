@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest positive integer not already in the sequence such that a(n) + a(n-1) is a prime power, with a(1) = 1.",
+  "id": "A284049",
+  "mentions": [
+    "A000961",
+    "A055265",
+    "A055266",
+    "A121878",
+    "A228730",
+    "A243625",
+    "A246655",
+    "A284048"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

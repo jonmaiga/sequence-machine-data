@@ -1,0 +1,30 @@
+{
+  "description": "Number of integer partitions of n whose multiplicities have multiplicities that cover an initial interval of positive integers.",
+  "id": "A325330",
+  "mentions": [
+    "A000009",
+    "A000837",
+    "A055932",
+    "A317081",
+    "A317088",
+    "A317089",
+    "A317090",
+    "A317245",
+    "A317246",
+    "A320348",
+    "A325331",
+    "A325333",
+    "A325337",
+    "A325370"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{i>=1, j>=1, k>=1, l>=1} x^(i*j*k*l)).",
+  "id": "A304964",
+  "mentions": [
+    "A000005",
+    "A007426",
+    "A011782",
+    "A129921",
+    "A280486",
+    "A280487",
+    "A304963"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

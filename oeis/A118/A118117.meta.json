@@ -1,0 +1,25 @@
+{
+  "description": "Concatenate n F(n) times.",
+  "id": "A118117",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A000461",
+    "A004216",
+    "A048376",
+    "A053422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

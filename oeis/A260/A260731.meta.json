@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Number of steps to reach 0 starting from x=n and using the iterated process: x -> x - A002828(x), where A002828(x) = the least number of squares that add up to x.",
+  "id": "A260731",
+  "mentions": [
+    "A002828",
+    "A255131",
+    "A260732",
+    "A260733",
+    "A260734",
+    "A261221",
+    "A276573",
+    "A278517",
+    "A278518",
+    "A278519"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

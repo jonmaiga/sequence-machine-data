@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of distinct (nonempty) substrings in the binary representation of n.",
+  "id": "A141297",
+  "mentions": [
+    "A078822",
+    "A122953",
+    "A141298",
+    "A141299",
+    "A141300"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

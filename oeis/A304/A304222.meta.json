@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of simple connected graphs with n nodes and k endpoints, n >= 0, 0 <= k <= n.",
+  "id": "A304222",
+  "mentions": [
+    "A001349",
+    "A004108",
+    "A055290",
+    "A327371"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

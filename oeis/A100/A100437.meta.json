@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct products i*j*k*l for 1 <= i <= j <= k <= l <= n.",
+  "id": "A100437",
+  "mentions": [
+    "A027425",
+    "A027430",
+    "A100435",
+    "A100436",
+    "A100438"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

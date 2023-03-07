@@ -1,0 +1,23 @@
+{
+  "description": "List of integer triples (b,c,d) where b > c > d are coprime and 1/b^2 + 1/c^2 + 1/d^2 = 1/r^2 and r is an integer, ordered by b then c.",
+  "id": "A299170",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A065607",
+    "A120692",
+    "A120693"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

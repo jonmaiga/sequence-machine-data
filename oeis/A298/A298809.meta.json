@@ -1,0 +1,23 @@
+{
+  "description": "Growth series for group with presentation < S, T : S^2 = T^3 = (S*T)^5 = 1 >.",
+  "id": "A298809",
+  "mentions": [
+    "A008579",
+    "A298802",
+    "A298805",
+    "A298808"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle C(n,k): the number of connected k-regular graphs on n vertices having girth at least seven.",
+  "id": "A186717",
+  "mentions": [
+    "A014375",
+    "A068934",
+    "A185117",
+    "A186714",
+    "A186715",
+    "A186716",
+    "A186718",
+    "A186719",
+    "A186727",
+    "A186733",
+    "A186734"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

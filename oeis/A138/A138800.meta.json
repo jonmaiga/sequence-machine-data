@@ -1,0 +1,22 @@
+{
+  "description": "Number of monomials in discriminant of polynomial x^n + a_{n-2} x^{n-2} + ... + a_0.",
+  "id": "A138800",
+  "mentions": [
+    "A007878",
+    "A138787",
+    "A138788",
+    "A138801",
+    "A138802"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

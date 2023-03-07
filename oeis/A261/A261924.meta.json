@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of two palindromes of the same length.",
+  "id": "A261924",
+  "mentions": [
+    "A002113",
+    "A261921",
+    "A261925"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

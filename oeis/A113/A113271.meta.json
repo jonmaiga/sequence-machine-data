@@ -1,0 +1,25 @@
+{
+  "description": "Ascending descending base exponent transform of 2^n.",
+  "id": "A113271",
+  "mentions": [
+    "A000027",
+    "A000079",
+    "A003101",
+    "A005408",
+    "A113122",
+    "A113153",
+    "A113154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

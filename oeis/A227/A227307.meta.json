@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k that divide sigma(k) - sigma(k-1).",
+  "id": "A227307",
+  "mentions": [
+    "A000203",
+    "A053222",
+    "A223136",
+    "A223137",
+    "A227306"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

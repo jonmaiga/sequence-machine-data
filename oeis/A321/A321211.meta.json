@@ -1,0 +1,19 @@
+{
+  "description": "Let S be the sequence of integer sets defined by these rules: S(1) = {1}, and for any n > 1, S(n) = {n} U S(pi(n)) U S(n - pi(n)) (where X U Y denotes the union of the sets X and Y and pi is the prime counting function); a(n) = the number of elements of S(n).",
+  "id": "A321211",
+  "mentions": [
+    "A000720",
+    "A294991",
+    "A316434"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

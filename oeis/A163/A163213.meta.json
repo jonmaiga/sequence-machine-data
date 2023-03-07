@@ -1,0 +1,21 @@
+{
+  "description": "Swinging Wilson remainders ((p-1)$ + (-1)^floor((p+2)/2))/p mod p, p prime. Here '$' denotes the swinging factorial function (A056040).",
+  "id": "A163213",
+  "mentions": [
+    "A002068",
+    "A056040",
+    "A163210",
+    "A163211",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

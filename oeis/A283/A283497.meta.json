@@ -1,0 +1,19 @@
+{
+  "description": "Remainder when n is divided by A004074(n), or -1 if A004074(n) = 0.",
+  "id": "A283497",
+  "mentions": [
+    "A004001",
+    "A004074"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

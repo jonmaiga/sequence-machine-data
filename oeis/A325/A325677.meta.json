@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of Golomb rulers of length n with k + 1 marks, k > 0.",
+  "id": "A325677",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A052928",
+    "A103295",
+    "A108917",
+    "A143823",
+    "A143824",
+    "A169942",
+    "A325676",
+    "A325678",
+    "A325679",
+    "A325683",
+    "A325686",
+    "A325687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

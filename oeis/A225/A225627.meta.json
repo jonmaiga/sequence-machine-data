@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = lcm(A000793(n),p1,p2,...,pk) for such a partition {p1+p2+...+pk} of n that maximizes this value among all partitions of n.",
+  "id": "A225627",
+  "mentions": [
+    "A000793",
+    "A225628",
+    "A225629",
+    "A225630",
+    "A225636"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

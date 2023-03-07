@@ -1,0 +1,23 @@
+{
+  "description": "Numbers without zero digits such that after adding the product of its digits to it, a number with the same product of digits is obtained.",
+  "id": "A327750",
+  "mentions": [
+    "A007954",
+    "A009994",
+    "A052382",
+    "A247888",
+    "A340907",
+    "A340908"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

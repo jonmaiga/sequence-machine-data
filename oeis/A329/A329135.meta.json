@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose differences of prime indices are an aperiodic word.",
+  "id": "A329135",
+  "mentions": [
+    "A000740",
+    "A027375",
+    "A056239",
+    "A112798",
+    "A124010",
+    "A152061",
+    "A328594",
+    "A329133",
+    "A329134",
+    "A329136",
+    "A329137",
+    "A329139",
+    "A329140"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

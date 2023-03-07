@@ -1,0 +1,19 @@
+{
+  "description": "Number of integers m such that m + (sum of digits in base-5 representation of m) = 2n.",
+  "id": "A230866",
+  "mentions": [
+    "A230643",
+    "A230865"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

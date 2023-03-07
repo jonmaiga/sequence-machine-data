@@ -1,0 +1,18 @@
+{
+  "description": "Sequence is limit_{t->oo} s_t, where s_k = s_{k-1},s_{k-1}[k-1..end] starting with s_0 = s_0[0..1] = 0,1.",
+  "id": "A334820",
+  "mentions": [
+    "A005126",
+    "A057215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

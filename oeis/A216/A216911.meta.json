@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are a prime factor of a Carmichael number divisible by 3, listed in the order in which they appear in the prime factorizations of such Carmichael numbers.",
+  "id": "A216911",
+  "mentions": [
+    "A002997",
+    "A258801"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The maximum number of coins that can be processed in n weighings that all are real except for one LHR-coin starting in the heavy or real state.",
+  "id": "A279684",
+  "mentions": [
+    "A279673",
+    "A279674",
+    "A279682",
+    "A279685"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:35:24",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

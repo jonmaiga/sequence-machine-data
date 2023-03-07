@@ -1,0 +1,21 @@
+{
+  "description": "Number of meanders (walks starting at the origin and ending at any altitude >= 0 that may touch but never go below the x-axis) with n steps from {-3,-2,-1,1,2,3}.",
+  "id": "A278398",
+  "mentions": [
+    "A276852",
+    "A276902",
+    "A278391",
+    "A278394"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

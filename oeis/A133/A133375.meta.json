@@ -1,0 +1,26 @@
+{
+  "description": "Catalan numbers with digits sorted in increasing order and zeros suppressed.",
+  "id": "A133375",
+  "mentions": [
+    "A000108",
+    "A000215",
+    "A000225",
+    "A004185",
+    "A078726",
+    "A135374"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

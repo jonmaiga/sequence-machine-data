@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of an n X k rectangle into one or more integer-sided rectangles, 1 <= k <= n = 1, 2, 3, ...",
+  "id": "A360451",
+  "mentions": [
+    "A000041",
+    "A116694",
+    "A224697"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

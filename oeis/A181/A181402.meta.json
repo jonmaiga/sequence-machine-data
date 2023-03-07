@@ -1,0 +1,27 @@
+{
+  "description": "Total number of positive integers below 10^n requiring 7 positive cubes in their representation as sum of cubes.",
+  "id": "A181402",
+  "mentions": [
+    "A002283",
+    "A018890",
+    "A061439",
+    "A130130",
+    "A181375",
+    "A181377",
+    "A181379",
+    "A181381",
+    "A181400",
+    "A181404"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

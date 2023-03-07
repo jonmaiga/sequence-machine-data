@@ -1,0 +1,17 @@
+{
+  "description": "Larger of two numbers in lowest terms whose sum, sum of squares and sum of cubes are all squares.",
+  "id": "A139266",
+  "mentions": [
+    "A139265"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

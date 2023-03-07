@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place 6 nonattacking kings on an n X n toroidal board.",
+  "id": "A179426",
+  "mentions": [
+    "A172158",
+    "A179403",
+    "A179404",
+    "A179424",
+    "A179425"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:49",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

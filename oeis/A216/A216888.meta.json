@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 6*3^n + 1 is prime.",
+  "id": "A216888",
+  "mentions": [
+    "A003306",
+    "A005537",
+    "A005539",
+    "A056800",
+    "A056805",
+    "A111974",
+    "A143279"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

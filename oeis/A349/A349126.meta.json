@@ -1,0 +1,27 @@
+{
+  "description": "Sum of A064989 and its Dirichlet inverse, where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p.",
+  "id": "A349126",
+  "mentions": [
+    "A001248",
+    "A030059",
+    "A030229",
+    "A064989",
+    "A280076",
+    "A322581",
+    "A349125",
+    "A349135",
+    "A349349"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

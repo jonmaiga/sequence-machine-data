@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having only weak prime factors, cf. A051635.",
+  "id": "A225495",
+  "mentions": [
+    "A051635",
+    "A225493",
+    "A225494",
+    "A225496"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

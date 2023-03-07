@@ -1,0 +1,20 @@
+{
+  "description": "A functional 12 tone Musical substitution sequence based on the chord like pattern in: 1->{1,6,10,11} or Ab,Db,F,Gb 2->{2,5,9,12} or A,C,E,G 3->{3,8,11,1} or Bb,Eb,Gb,Ab 4->{4,7,12,2} or B,D,G,A Characteristic Polynomial: -16 x^2 + 36 x^3 + 36 x^4 - 215 x^5 + 355 x^6 - 368 x^7 + 285 x^8 - 161 x^9 + 59 x^10 - 12 x^11 + x^12.",
+  "id": "A133210",
+  "mentions": [
+    "A131979",
+    "A133159"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

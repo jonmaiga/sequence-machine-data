@@ -1,0 +1,20 @@
+{
+  "description": "Kronecker symbol (-100 / n).",
+  "id": "A185276",
+  "mentions": [
+    "A000012",
+    "A053694"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:47:21",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

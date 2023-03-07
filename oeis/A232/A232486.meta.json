@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 3; thereafter a(n+1) = a(n) + product of nonzero digits of a(n).",
+  "id": "A232486",
+  "mentions": [
+    "A063018",
+    "A063108",
+    "A232485",
+    "A232487",
+    "A232488"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which the terms of A014320 up to n=A014320(k) are a permutation of {1,2,4,6,...,2*(k-1)}.",
+  "id": "A187779",
+  "mentions": [
+    "A000101",
+    "A014320",
+    "A179985"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

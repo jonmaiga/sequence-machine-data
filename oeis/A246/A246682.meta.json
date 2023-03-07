@@ -1,0 +1,32 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 0, a(2) = 1, and for n > 1, a(2n) = nthcomposite(a(n)), a(2n-1) = nthprime(a(A064989(2n-1))), where nthprime = A000040, nthcomposite = A002808, and A064989(n) shifts the prime factorization of n one step towards smaller primes.",
+  "id": "A246682",
+  "mentions": [
+    "A000035",
+    "A000040",
+    "A002808",
+    "A007097",
+    "A010051",
+    "A049076",
+    "A064216",
+    "A064989",
+    "A078442",
+    "A243071",
+    "A246368",
+    "A246376",
+    "A246378",
+    "A246380",
+    "A246681"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

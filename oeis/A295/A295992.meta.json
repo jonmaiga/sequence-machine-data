@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that there are precisely 6 groups of orders k and k + 1.",
+  "id": "A295992",
+  "mentions": [
+    "A000001",
+    "A135850"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

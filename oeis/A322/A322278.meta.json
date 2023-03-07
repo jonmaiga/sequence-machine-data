@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-colored connected graphs on n labeled nodes up to permutation of the colors.",
+  "id": "A322278",
+  "mentions": [
+    "A001187",
+    "A001832",
+    "A058843",
+    "A058875",
+    "A322064",
+    "A322279",
+    "A322280",
+    "A322330",
+    "A322331"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of locally connected rooted trees with n nodes.",
+  "id": "A317785",
+  "mentions": [
+    "A000081",
+    "A276625",
+    "A286518",
+    "A286520",
+    "A301700",
+    "A304714",
+    "A316473",
+    "A316475",
+    "A317077",
+    "A317078",
+    "A317708",
+    "A317787"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

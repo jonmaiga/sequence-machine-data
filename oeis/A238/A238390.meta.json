@@ -1,0 +1,27 @@
+{
+  "description": "E.g.f.: x / BesselJ(1, 2*x) (even powers only).",
+  "id": "A238390",
+  "mentions": [
+    "A000108",
+    "A000275",
+    "A002190",
+    "A007318",
+    "A097610",
+    "A103365",
+    "A115369",
+    "A126120",
+    "A133314",
+    "A180874"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(n^2 - 1)/2 - 1.",
+  "id": "A117560",
+  "mentions": [
+    "A027480",
+    "A049475",
+    "A050257",
+    "A117561"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:37",
+    "offset": 2,
+    "size": 41,
+    "source": "joeis"
+  }
+}

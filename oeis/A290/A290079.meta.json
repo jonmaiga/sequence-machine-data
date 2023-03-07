@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function for A249721: a(n) = 1 if there are either no 1-digits at all in base-3 representation of n, or if there are exactly two 1's next to each other, a(n) = 0 in any other cases.",
+  "id": "A290079",
+  "mentions": [
+    "A007089",
+    "A051382",
+    "A249721",
+    "A290093"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

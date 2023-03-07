@@ -1,0 +1,18 @@
+{
+  "description": "Indices of Gaussian primes on a square spiral.",
+  "id": "A308412",
+  "mentions": [
+    "A174344",
+    "A274923"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

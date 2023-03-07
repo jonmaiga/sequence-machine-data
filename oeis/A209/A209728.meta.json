@@ -1,0 +1,17 @@
+{
+  "description": "1/4 the number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having distinct edge sums",
+  "id": "A209728",
+  "mentions": [
+    "A209736"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

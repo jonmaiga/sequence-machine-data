@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose squares remain squares when prepended with 3 and appended with 25 in base 10.",
+  "id": "A249969",
+  "mentions": [
+    "A249621",
+    "A249633",
+    "A249968"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

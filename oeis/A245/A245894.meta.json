@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled increasing binary trees on 2n-1 nodes whose breadth-first reading word avoids 231.",
+  "id": "A245894",
+  "mentions": [
+    "A245888",
+    "A245901"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

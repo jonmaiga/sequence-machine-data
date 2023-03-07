@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*Sum_{n>=0} log( A(2^n*x)^2 )^n/n!.",
+  "id": "A181444",
+  "mentions": [
+    "A132695",
+    "A181445",
+    "A257272"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

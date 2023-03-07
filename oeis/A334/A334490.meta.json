@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} gcd(d, sigma(d)).",
+  "id": "A334490",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A007955",
+    "A009194",
+    "A322979",
+    "A334491"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

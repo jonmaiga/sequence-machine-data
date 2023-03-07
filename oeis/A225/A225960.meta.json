@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] having exactly one strong fixed block.",
+  "id": "A225960",
+  "mentions": [
+    "A052186",
+    "A186373",
+    "A260957"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

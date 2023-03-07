@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m with C(2*m, m) + prime(m) prime, where C(2*m, m) = (2*m)!/(m!)^2.",
+  "id": "A236242",
+  "mentions": [
+    "A000040",
+    "A000984",
+    "A236241",
+    "A236245",
+    "A236248",
+    "A236249",
+    "A236256"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

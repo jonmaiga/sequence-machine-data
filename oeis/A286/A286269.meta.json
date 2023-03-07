@@ -1,0 +1,18 @@
+{
+  "description": "The smallest weight possible for a cyclic prime vector of order n.",
+  "id": "A286269",
+  "mentions": [
+    "A286263"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

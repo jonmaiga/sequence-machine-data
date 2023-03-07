@@ -1,0 +1,23 @@
+{
+  "description": "Square array (8 X 8) read by rows.",
+  "id": "A144200",
+  "mentions": [
+    "A002033",
+    "A143104",
+    "A144199",
+    "A144201"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

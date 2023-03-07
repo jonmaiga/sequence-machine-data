@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of first n terms of A100769 divided by n.",
+  "id": "A100770",
+  "mentions": [
+    "A100669",
+    "A100769"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

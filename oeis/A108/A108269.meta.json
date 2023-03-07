@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form (2*m - 1)*4^k where m >= 1, k >= 1.",
+  "id": "A108269",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A003159",
+    "A005843",
+    "A017113",
+    "A036554",
+    "A048675",
+    "A328981",
+    "A359794"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

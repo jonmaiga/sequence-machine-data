@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 12*n^2.",
+  "id": "A135453",
+  "mentions": [
+    "A000290",
+    "A001082",
+    "A001105",
+    "A016742",
+    "A033428",
+    "A033581",
+    "A069190",
+    "A086729"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

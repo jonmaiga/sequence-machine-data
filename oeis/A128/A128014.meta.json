@@ -1,0 +1,24 @@
+{
+  "description": "Central binomial coefficients C(2n,n) repeated.",
+  "id": "A128014",
+  "mentions": [
+    "A000984",
+    "A097893",
+    "A128017",
+    "A128018",
+    "A249095",
+    "A249308"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:55:19",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

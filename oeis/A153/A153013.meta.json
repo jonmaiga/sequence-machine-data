@@ -1,0 +1,26 @@
+{
+  "description": "Starting with input 0, find the binary value of the input. Then interpret resulting string of 1's and 0's as prime-based numbers, as follows: 0's are separators, uninterrupted strings of 1's are interpreted from right to left as exponents of the prime numbers. Output is returned as input for the next number in sequence.",
+  "id": "A153013",
+  "mentions": [
+    "A000005",
+    "A003714",
+    "A005940",
+    "A008966",
+    "A085357",
+    "A106737",
+    "A156552",
+    "A181819",
+    "A246029"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

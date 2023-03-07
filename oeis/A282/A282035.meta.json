@@ -1,0 +1,22 @@
+{
+  "description": "Sum of quadratic residues of (n-th prime == 3 mod 4).",
+  "id": "A282035",
+  "mentions": [
+    "A076409",
+    "A125615",
+    "A171555",
+    "A282036",
+    "A282037",
+    "A282038"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of positive integers k < prime(n)/2 such that k + k' is a square, where k' is the unique integer among 1, ..., prime(n)-1 such that k*k' == 1 (mod prime(n)).",
+  "id": "A260928",
+  "mentions": [
+    "A000040",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

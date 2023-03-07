@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the concatenation n written in base 2 n times, n-1 written in base 2 n-1 times, ..., 1 written in base 2 once.",
+  "id": "A300558",
+  "mentions": [
+    "A007088",
+    "A300517",
+    "A300557"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

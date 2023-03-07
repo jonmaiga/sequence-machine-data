@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: Sprague-Grundy values G(n,k) (n>=0, k>=0) for the game of Euclid.",
+  "id": "A323473",
+  "mentions": [
+    "A323474"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

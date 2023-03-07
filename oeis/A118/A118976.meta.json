@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n-1,k-1)*binomial(n,k-1)/k + binomial(n-1,k)*binomial(n,k)/(k+1) (1 <= k <= n). In other words, to each entry of the Narayana triangle (A001263) add the entry on its right.",
+  "id": "A118976",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A034856",
+    "A131428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

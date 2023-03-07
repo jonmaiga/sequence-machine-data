@@ -1,0 +1,21 @@
+{
+  "description": "Prime sequence overlaying the central digits of prime numbers. If possible, the value is greater than the previous one. Zero if no such embedding is possible.",
+  "id": "A133781",
+  "mentions": [
+    "A075595",
+    "A133782"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

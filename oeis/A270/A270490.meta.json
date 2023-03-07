@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=0..(n+1)/2} binomial(2*i+1,i)*binomial(2*n-2*i,n)/(2*i+1).",
+  "id": "A270490",
+  "mentions": [
+    "A000108",
+    "A092392"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

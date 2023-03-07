@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers n such that the Lucas number L(n) can be written in the form a^2 + 3*b^2.",
+  "id": "A215815",
+  "mentions": [
+    "A000032",
+    "A215810",
+    "A215811",
+    "A215816"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

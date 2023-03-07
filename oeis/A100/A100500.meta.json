@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = prime(3n-2) + prime(3n-1) + prime(3n).",
+  "id": "A100500",
+  "mentions": [
+    "A000040",
+    "A034961"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

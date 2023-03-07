@@ -1,0 +1,27 @@
+{
+  "description": "Concentric 24-gonal numbers.",
+  "id": "A195158",
+  "mentions": [
+    "A032527",
+    "A032528",
+    "A049598",
+    "A069190",
+    "A195040",
+    "A195058",
+    "A195143",
+    "A195149",
+    "A195818"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

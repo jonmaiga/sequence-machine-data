@@ -1,0 +1,26 @@
+{
+  "description": "Odious numbers of order 2: a(n) = A000069(A000069(n)).",
+  "id": "A232637",
+  "mentions": [
+    "A000069",
+    "A004119",
+    "A042968",
+    "A092246",
+    "A102615",
+    "A232667",
+    "A233419"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:35",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

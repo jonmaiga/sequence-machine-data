@@ -1,0 +1,21 @@
+{
+  "description": "n is prime and digits of n^2 include digits of n as substring.",
+  "id": "A115738",
+  "mentions": [
+    "A046831",
+    "A115739",
+    "A115763"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

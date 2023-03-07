@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Product_{k>=1} Q(x^k)^k where Q(x) = Product_{k>=1} (1 + x^k).",
+  "id": "A192065",
+  "mentions": [
+    "A002131",
+    "A061256",
+    "A107742",
+    "A288414",
+    "A288415",
+    "A288418",
+    "A301548",
+    "A301549",
+    "A301550",
+    "A301551",
+    "A301552"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

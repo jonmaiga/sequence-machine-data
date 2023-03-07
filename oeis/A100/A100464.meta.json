@@ -1,0 +1,18 @@
+{
+  "description": "Write down the numbers from 3 to infinity. Take next number, M say, that has not been crossed off and cross off all the numbers i*M + 1 for i >= 1. Repeat. The numbers that are left form the sequence.",
+  "id": "A100464",
+  "mentions": [
+    "A003309",
+    "A003310"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

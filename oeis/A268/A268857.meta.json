@@ -1,0 +1,17 @@
+{
+  "description": "The number of alive cells in Conway's Game of Life starting with the \"R-pentomino\" initial pattern.",
+  "id": "A268857",
+  "mentions": [
+    "A179409"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

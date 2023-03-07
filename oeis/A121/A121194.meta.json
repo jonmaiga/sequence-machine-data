@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-celled polyominoes, where the cells are 1 X 2 rectangles with one edge of length 2 replaced by a curved arc that either sags inwards or bulges outwards, subject to some restrictions.",
+  "id": "A121194",
+  "mentions": [
+    "A056755",
+    "A056786"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

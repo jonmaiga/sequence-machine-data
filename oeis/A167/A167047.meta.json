@@ -1,0 +1,18 @@
+{
+  "description": "Angry numbers: each number n must be more than n places from n-1 and n+1. This sequence makes each number as small as possible as it occurs.",
+  "id": "A167047",
+  "mentions": [
+    "A167046",
+    "A167049"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

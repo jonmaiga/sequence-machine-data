@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=(1/(3n))*sum(k=1,n,F(8k)*B(2n-2k)*binomial(2n,2k)) where F=Fibonacci numbers and B=Bernoulli numbers.",
+  "id": "A124126",
+  "mentions": [
+    "A111262"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

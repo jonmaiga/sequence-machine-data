@@ -1,0 +1,23 @@
+{
+  "description": "In the sequence of nonnegative integers substitute all n by 2^floor(n/8) occurrences of (n mod 2).",
+  "id": "A173923",
+  "mentions": [
+    "A000035",
+    "A001477",
+    "A030101",
+    "A079944",
+    "A132292",
+    "A173920",
+    "A173922"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

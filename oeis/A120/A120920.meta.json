@@ -1,0 +1,25 @@
+{
+  "description": "G.f. satisfies: A(x) = G(x)^3 * A(x^4*G(x)^9), where G(x) is the g.f. of the number of ternary trees (A001764): G(x) = 1 + x*G(x)^3.",
+  "id": "A120920",
+  "mentions": [
+    "A001764",
+    "A092684",
+    "A092687",
+    "A120895",
+    "A120899",
+    "A120919",
+    "A120921",
+    "A120922",
+    "A120923"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

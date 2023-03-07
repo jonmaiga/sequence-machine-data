@@ -1,0 +1,19 @@
+{
+  "description": "A121217 smoothed by replacing, for each prime p, the terms equal to either p or 3p with 2p.",
+  "id": "A256419",
+  "mentions": [
+    "A121217",
+    "A256414",
+    "A256415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

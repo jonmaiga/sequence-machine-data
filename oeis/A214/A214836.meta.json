@@ -1,0 +1,21 @@
+{
+  "description": "Number of formula representations of n using addition, multiplication, exponentiation and the constant 1.",
+  "id": "A214836",
+  "mentions": [
+    "A025280",
+    "A214833",
+    "A214843",
+    "A217250",
+    "A217253"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

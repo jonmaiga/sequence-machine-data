@@ -1,0 +1,19 @@
+{
+  "description": "Appears in Taylor series of powers of generalized Bessel functions.",
+  "id": "A131490",
+  "mentions": [
+    "A001263",
+    "A103364"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

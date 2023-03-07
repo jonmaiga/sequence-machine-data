@@ -1,0 +1,25 @@
+{
+  "description": "Number of E-toothpicks added at n-th stage in the structure of A161336.",
+  "id": "A211974",
+  "mentions": [
+    "A139250",
+    "A139251",
+    "A161328",
+    "A161330",
+    "A161331",
+    "A161336",
+    "A211976",
+    "A213360"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

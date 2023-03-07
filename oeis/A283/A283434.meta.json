@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,m) is the number of pattern classes in the (n,m)-rectangular grid with 5 colors and n>=m, two patterns are in the same class if one of them can be obtained by a reflection or 180-degree rotation of the other.",
+  "id": "A283434",
+  "mentions": [
+    "A225910",
+    "A283432",
+    "A283433"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

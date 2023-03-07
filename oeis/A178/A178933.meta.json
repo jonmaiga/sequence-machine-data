@@ -1,0 +1,21 @@
+{
+  "description": "Generating function exp( sum(n>=1, sigma(n)^3*x^n/n ) ).",
+  "id": "A178933",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A156302",
+    "A205797"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

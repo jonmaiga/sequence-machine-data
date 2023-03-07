@@ -1,0 +1,31 @@
+{
+  "description": "Coefficients in expansion of 1/E_6^(3/2).",
+  "id": "A289570",
+  "mentions": [
+    "A000706",
+    "A109817",
+    "A288851",
+    "A289293",
+    "A289325",
+    "A289326",
+    "A289327",
+    "A289328",
+    "A289345",
+    "A289346",
+    "A289347",
+    "A289348",
+    "A289349",
+    "A289567"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Start with 0; each term when spelled out must start with the last letter of the previous term and must be the smallest such number that is greater than the previous term.",
+  "id": "A230862",
+  "mentions": [
+    "A227865",
+    "A228442"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

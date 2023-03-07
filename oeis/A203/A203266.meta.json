@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} G_n(x^n)^2 * x^n/n ) such that G_n(x^n) = Product_{k=0..n-1} A(u^k*x) where u is an n-th root of unity.",
+  "id": "A203266",
+  "mentions": [
+    "A203254",
+    "A203265",
+    "A203268"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

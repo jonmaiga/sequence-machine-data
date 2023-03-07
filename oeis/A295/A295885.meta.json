@@ -1,0 +1,20 @@
+{
+  "description": "Filter combining sum of proper divisors (A001065) and cototient (A051953) of n.",
+  "id": "A295885",
+  "mentions": [
+    "A001065",
+    "A051953",
+    "A291765"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

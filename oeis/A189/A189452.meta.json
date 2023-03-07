@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4Xn array permutations with each element moving zero or one space horizontally or diagonally",
+  "id": "A189452",
+  "mentions": [
+    "A189449"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

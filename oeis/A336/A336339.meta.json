@@ -1,0 +1,21 @@
+{
+  "description": "Numbers composite(n) such that gcd(n,composite(n)) is even.",
+  "id": "A336339",
+  "mentions": [
+    "A002808",
+    "A336338",
+    "A336340",
+    "A336341"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

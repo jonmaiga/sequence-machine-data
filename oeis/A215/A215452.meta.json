@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(n) = (sum of previous terms) mod (a(n-1)+n).",
+  "id": "A215452",
+  "mentions": [
+    "A066910",
+    "A094405",
+    "A215451"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

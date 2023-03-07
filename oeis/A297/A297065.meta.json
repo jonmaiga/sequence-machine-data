@@ -1,0 +1,18 @@
+{
+  "description": "Starting with a(1) = 0, a(2) = 1, a(n) = smallest nonnegative integer not yet in the sequence that shares all digits with previous terms.",
+  "id": "A297065",
+  "mentions": [
+    "A297062"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

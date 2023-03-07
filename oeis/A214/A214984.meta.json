@@ -1,0 +1,29 @@
+{
+  "description": "Array: T(m,n) = ((F(m) + F(2*m) + ... + F(n*m))/F(m), by antidiagonals, where F = A000045 (Fibonacci numbers).",
+  "id": "A214984",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001612",
+    "A027941",
+    "A049652",
+    "A049664",
+    "A092521",
+    "A156093",
+    "A214978",
+    "A214985",
+    "A214986"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

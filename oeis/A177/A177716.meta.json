@@ -1,0 +1,19 @@
+{
+  "description": "The k-th prime repeated A073124(k) times, k = 1,2,3....",
+  "id": "A177716",
+  "mentions": [
+    "A073124",
+    "A109763"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

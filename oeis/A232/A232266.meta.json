@@ -1,0 +1,20 @@
+{
+  "description": "Triangle where T(n,k) = number of compositions of n^2 - k^2 into sums of squares for k=0..n, n>=0, as read by rows.",
+  "id": "A232266",
+  "mentions": [
+    "A006456",
+    "A224366"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

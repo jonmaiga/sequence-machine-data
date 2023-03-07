@@ -1,0 +1,25 @@
+{
+  "description": "Indices associated with primes in A117460. Both primes and their indices, after calculation of their respective digit sums, bear the relationship that both are prime and that sod(i) < sod(p) and sod(p) is the next prime after to sod(i), where sod is the sum of digits function.",
+  "id": "A117461",
+  "mentions": [
+    "A007953",
+    "A033548",
+    "A033549",
+    "A117458",
+    "A117459",
+    "A117460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

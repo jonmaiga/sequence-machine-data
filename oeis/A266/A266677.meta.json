@@ -1,0 +1,22 @@
+{
+  "description": "Alternating sum of hexagonal pyramidal numbers.",
+  "id": "A266677",
+  "mentions": [
+    "A000292",
+    "A002412",
+    "A002717",
+    "A173196"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:07:25",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

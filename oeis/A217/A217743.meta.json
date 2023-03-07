@@ -1,0 +1,19 @@
+{
+  "description": "Excess of number of odds in the form 4k+1 over number of odds in the form 4k+3 in Collatz trajectory of n.",
+  "id": "A217743",
+  "mentions": [
+    "A070165",
+    "A192719",
+    "A217744"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

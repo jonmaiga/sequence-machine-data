@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n) = a(n-1) + (n!)^7.",
+  "id": "A138586",
+  "mentions": [
+    "A000142",
+    "A001015",
+    "A100288",
+    "A104344"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

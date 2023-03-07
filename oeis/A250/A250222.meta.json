@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = phi(2n+1) - phi(2n), where phi is A000010.",
+  "id": "A250222",
+  "mentions": [
+    "A000010",
+    "A057000"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

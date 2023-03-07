@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of Sum_{k=0..n} 1/binomial(n,k)^3.",
+  "id": "A100519",
+  "mentions": [
+    "A046825",
+    "A100516",
+    "A100517",
+    "A100518"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

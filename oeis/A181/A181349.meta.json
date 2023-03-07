@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of row sums of the triangle (lower triangular matrix) log(F) with F:=A037027 (Fibonacci convolution matrix).",
+  "id": "A181349",
+  "mentions": [
+    "A037027",
+    "A181350"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

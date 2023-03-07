@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T read by rows: n-th row (n>=0) gives the non-vanishing coefficients of the polynomial q(n,x) = 2^(-n)*((x+1)^(2^n) - (x-1)^(2^n))/2.",
+  "id": "A281123",
+  "mentions": [
+    "A000079",
+    "A091043",
+    "A103328",
+    "A201461",
+    "A281122"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number of regions inside a Reuleaux triangle formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A340639",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A340613",
+    "A340614",
+    "A340644"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

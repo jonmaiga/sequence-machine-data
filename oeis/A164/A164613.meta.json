@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (phi(q) / phi(q^9))^2 in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A164613",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A128111",
+    "A139380",
+    "A164614"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:33",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

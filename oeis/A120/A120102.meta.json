@@ -1,0 +1,30 @@
+{
+  "description": "Number of polyominoes consisting of 8 regular unit n-gons.",
+  "id": "A120102",
+  "mentions": [
+    "A000104",
+    "A000228",
+    "A000577",
+    "A103465",
+    "A103466",
+    "A103467",
+    "A103468",
+    "A103469",
+    "A103470",
+    "A103471",
+    "A103472",
+    "A103473",
+    "A120103",
+    "A120104"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

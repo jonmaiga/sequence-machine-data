@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the number of distinct prime factors of 2^k - 1 is greater than the corresponding count for 2^k + 1.",
+  "id": "A337813",
+  "mentions": [
+    "A046799",
+    "A046800",
+    "A067886",
+    "A337810",
+    "A337811",
+    "A337812"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

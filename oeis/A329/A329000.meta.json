@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least positive number which yields a multiple of n when its binary digit string, S(n), is read in any numeric base; a(n) is displayed in base 10.",
+  "id": "A329000",
+  "mentions": [
+    "A051903",
+    "A067029",
+    "A268336",
+    "A329126",
+    "A329338",
+    "A329339",
+    "A329443"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

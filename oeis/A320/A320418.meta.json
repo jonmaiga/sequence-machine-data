@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp(-n^3*A(x)) / (1 - n^3*x) = 0, for n > 0.",
+  "id": "A320418",
+  "mentions": [
+    "A319938",
+    "A319939",
+    "A320417",
+    "A320668",
+    "A320669"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Branching degree of node n in the trunk of number-of-runs beanstalk: a(n) = A106836(1+A255057(n)).",
+  "id": "A255058",
+  "mentions": [
+    "A005811",
+    "A106836",
+    "A236840",
+    "A255056",
+    "A255057",
+    "A255330",
+    "A255331"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

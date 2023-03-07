@@ -1,0 +1,18 @@
+{
+  "description": "Putative inverse of A263563.",
+  "id": "A263564",
+  "mentions": [
+    "A263563"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

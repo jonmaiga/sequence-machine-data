@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: row n lists terms m of A038566(n) such that A001221(m) = A051265(n), with a(1) = 1.",
+  "id": "A289172",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A038566",
+    "A048597",
+    "A051250",
+    "A051265",
+    "A051266",
+    "A051267",
+    "A051268"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 1..n with number of rises (p(i+1)>p(i)) the same as number of rises in the inverse permutation.",
+  "id": "A180389",
+  "mentions": [
+    "A000142",
+    "A180388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

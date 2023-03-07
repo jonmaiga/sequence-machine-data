@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Δν_{Cs} in unit s^{-1}; one of the seven units of the 2019 SI system.",
+  "id": "A230458",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070063",
+    "A081823",
+    "A244823",
+    "A322415",
+    "A322578"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:01:27",
+    "offset": 10,
+    "size": 10,
+    "source": "joeis"
+  }
+}

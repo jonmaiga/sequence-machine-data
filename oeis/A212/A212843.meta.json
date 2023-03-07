@@ -1,0 +1,17 @@
+{
+  "description": "Carmichael numbers that have only prime divisors of the form 10k+1.",
+  "id": "A212843",
+  "mentions": [
+    "A004615"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

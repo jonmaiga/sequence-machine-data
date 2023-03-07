@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = lcm(A260443(n), A260443(1+n)).",
+  "id": "A284008",
+  "mentions": [
+    "A001222",
+    "A003961",
+    "A260443",
+    "A277198",
+    "A277324",
+    "A277330",
+    "A284009"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

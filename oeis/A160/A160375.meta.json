@@ -1,0 +1,19 @@
+{
+  "description": "Given n, let S denote the set of numbers c_1*c_2*...*c_n where 1<=c_1<=c_2<=...<=c_n<=n; a(n) = number of members of S that have a unique representation of this form.",
+  "id": "A160375",
+  "mentions": [
+    "A001700",
+    "A110713"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

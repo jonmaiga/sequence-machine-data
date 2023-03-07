@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose proper divisors are partition numbers.",
+  "id": "A236105",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A236102",
+    "A236103",
+    "A236107",
+    "A236108",
+    "A236110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

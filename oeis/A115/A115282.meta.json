@@ -1,0 +1,22 @@
+{
+  "description": "Correlation triangle for the sequence 3-2*0^n.",
+  "id": "A115282",
+  "mentions": [
+    "A017173",
+    "A102214",
+    "A115283"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:47:15",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2+1 can be expressed as j^2+k^2, j>k>1, gcd(j,k)=1, in more ways than for any smaller n.",
+  "id": "A300167",
+  "mentions": [
+    "A300161",
+    "A300165",
+    "A300168"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

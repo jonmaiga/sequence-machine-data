@@ -1,0 +1,18 @@
+{
+  "description": "Eta numbers (from the Japanese word for \"pariah\" or \"outcast\"). These are the positive odd integers which cannot be used to make a hypotenuse of a primitive Pythagorean triangle (PPT).",
+  "id": "A125667",
+  "mentions": [
+    "A020882"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Consider a number n with m decimal digits, m>1. The sequence lists the numbers n such that the prefix of length m-1 and the suffix of length m-1 have both the same distinct prime divisors.",
+  "id": "A244397",
+  "mentions": [
+    "A244394"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

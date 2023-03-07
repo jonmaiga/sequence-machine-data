@@ -1,0 +1,21 @@
+{
+  "description": "The minimum number of steps required for a knight, starting at the central square numbered 1, to reach the square numbered n on a square-spiral numbered board.",
+  "id": "A344129",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A296030",
+    "A316667",
+    "A344046"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

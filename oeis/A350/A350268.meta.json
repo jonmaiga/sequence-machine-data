@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (n - k)! * (n - 1)^k. Row sums of A350269.",
+  "id": "A350268",
+  "mentions": [
+    "A350269"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

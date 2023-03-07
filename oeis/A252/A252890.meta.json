@@ -1,0 +1,19 @@
+{
+  "description": "Number of times the greatest prime factor of n^2 + 1 is a factor in all numbers <= n.",
+  "id": "A252890",
+  "mentions": [
+    "A014442",
+    "A078897",
+    "A089120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

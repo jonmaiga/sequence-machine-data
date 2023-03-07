@@ -1,0 +1,21 @@
+{
+  "description": "Involution of nonnegative integers: Keep the least significant quaternary digit q0 of n fixed, but swap the positions of digits q1 <-> q2, q3 <-> q4, ..., etc. in the base-4 expansion of n (where n = ... + q4*256 + q3*64 + q2*16 + q1*4 + q0).",
+  "id": "A126007",
+  "mentions": [
+    "A057300",
+    "A126006",
+    "A126008"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

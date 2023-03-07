@@ -1,0 +1,18 @@
+{
+  "description": "Half the number of n X 3 binary arrays with each element equal to at least one neighbor.",
+  "id": "A180763",
+  "mentions": [
+    "A180771"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/3)*A289795(n).",
+  "id": "A289796",
+  "mentions": [
+    "A008585",
+    "A289780",
+    "A289795"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

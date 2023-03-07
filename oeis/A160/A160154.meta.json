@@ -1,0 +1,19 @@
+{
+  "description": "10^n-9n for n>=1",
+  "id": "A160154",
+  "mentions": [
+    "A008591",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

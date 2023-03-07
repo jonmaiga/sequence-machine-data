@@ -1,0 +1,31 @@
+{
+  "description": "(Lower Wythoff sequence mod 2)+(Upper Wythoff sequence mod 2).",
+  "id": "A191329",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A005408",
+    "A005652",
+    "A005653",
+    "A078588",
+    "A085002",
+    "A171587",
+    "A191330",
+    "A191331",
+    "A191332",
+    "A191333",
+    "A191334",
+    "A191335"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 132,
+    "source": "oeis-bfile"
+  }
+}

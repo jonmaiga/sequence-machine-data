@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions p of n into distinct parts such that max(p) = 4 + min(p).",
+  "id": "A240872",
+  "mentions": [
+    "A171182",
+    "A240871",
+    "A240873"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

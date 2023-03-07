@@ -1,0 +1,17 @@
+{
+  "description": "Orbit periods of the iteration s(1)=0, s(m+1)=(2*i*Pi*n)/log(3)+log(1/(-1-2^-s(m)))/log(3).",
+  "id": "A268267",
+  "mentions": [
+    "A184589"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

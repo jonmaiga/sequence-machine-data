@@ -1,0 +1,23 @@
+{
+  "description": "Number of unlabeled initially-finally connected digraphs with n arcs.",
+  "id": "A350906",
+  "mentions": [
+    "A049531",
+    "A057278",
+    "A350752",
+    "A350794",
+    "A350796",
+    "A350798",
+    "A350907"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

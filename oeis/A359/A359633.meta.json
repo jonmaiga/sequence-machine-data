@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime > a(n-1) such that a(n-1) and a(n) are quadratic residues mod each other.",
+  "id": "A359633",
+  "mentions": [
+    "A034794",
+    "A034795"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

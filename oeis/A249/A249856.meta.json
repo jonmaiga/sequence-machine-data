@@ -1,0 +1,23 @@
+{
+  "description": "Let z = A084937: a(n) = number of odd numbers <= z(n) that are != z(k) for k=1..n-1 and not coprime to z(n-1) and z(n-2).",
+  "id": "A249856",
+  "mentions": [
+    "A084937",
+    "A249686",
+    "A249777",
+    "A249857",
+    "A249858",
+    "A250099",
+    "A250100"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

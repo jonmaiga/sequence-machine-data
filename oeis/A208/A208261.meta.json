@@ -1,0 +1,20 @@
+{
+  "description": "Nonprime numbers with all divisors starting and ending with digit 1.",
+  "id": "A208261",
+  "mentions": [
+    "A062332",
+    "A208260",
+    "A208262"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

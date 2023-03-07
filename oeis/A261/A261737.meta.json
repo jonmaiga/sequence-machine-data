@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n where each part i is marked with a word of length i over a ternary alphabet whose letters appear in alphabetical order.",
+  "id": "A261737",
+  "mentions": [
+    "A261718",
+    "A293367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

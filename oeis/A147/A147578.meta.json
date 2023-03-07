@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with exactly 5 distinct odd prime divisors {3,5,7,11,13}.",
+  "id": "A147578",
+  "mentions": [
+    "A000010",
+    "A000244",
+    "A033849",
+    "A060735",
+    "A143207",
+    "A147571",
+    "A147575",
+    "A147576",
+    "A147577",
+    "A147579",
+    "A147580",
+    "A147581"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

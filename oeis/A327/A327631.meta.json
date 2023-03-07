@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of parts in all proper k-times partitions of n; triangle T(n,k), n >= 1, 0 <= k <= n-1, read by rows.",
+  "id": "A327631",
+  "mentions": [
+    "A006128",
+    "A057427",
+    "A327618",
+    "A327632",
+    "A327639",
+    "A327643",
+    "A327648",
+    "A328041",
+    "A328042"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

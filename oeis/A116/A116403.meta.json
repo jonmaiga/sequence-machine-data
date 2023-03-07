@@ -1,0 +1,18 @@
+{
+  "description": "Number of representations of n as a sum of distinct elements of the Fibonacci-type sequence beginning 4, 1, 5, 6, 11, ...",
+  "id": "A116403",
+  "mentions": [
+    "A000121",
+    "A116402"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

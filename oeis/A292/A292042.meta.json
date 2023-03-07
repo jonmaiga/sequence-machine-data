@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Re((i*x; x)_inf), where (a; q)_inf is the q-Pochhammer symbol, i = sqrt(-1).",
+  "id": "A292042",
+  "mentions": [
+    "A035294",
+    "A278399",
+    "A278400",
+    "A278420",
+    "A292043",
+    "A292052"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

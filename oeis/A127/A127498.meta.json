@@ -1,0 +1,18 @@
+{
+  "description": "Secondary diagonal of triangle A127496: a(n) = A127496(n+1,n) for n>=0.",
+  "id": "A127498",
+  "mentions": [
+    "A127496",
+    "A127497"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

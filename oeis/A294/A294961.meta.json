@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of E-toothpicks added at n-th stage in the structure of the snowflake cellular automaton of A294960.",
+  "id": "A294961",
+  "mentions": [
+    "A139251",
+    "A161328",
+    "A161329",
+    "A161330",
+    "A161331",
+    "A294960"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

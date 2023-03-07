@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (4*n - 1)^(n-1).",
+  "id": "A274267",
+  "mentions": [
+    "A000169",
+    "A052774",
+    "A274265",
+    "A274266",
+    "A274268",
+    "A274269"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

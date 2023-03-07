@@ -1,0 +1,21 @@
+{
+  "description": "Write n^2 in binary, interchange 0's and 1's, convert back to decimal.",
+  "id": "A334042",
+  "mentions": [
+    "A000290",
+    "A035327"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

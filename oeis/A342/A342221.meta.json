@@ -1,0 +1,20 @@
+{
+  "description": "Integers k, not congruent to 1 mod 3, such that there is no prime of length k using digit 3 once and rest all 1.",
+  "id": "A342221",
+  "mentions": [
+    "A007494",
+    "A090537",
+    "A107689"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "List of numbers n such that A039654(n) reaches a new record high.",
+  "id": "A292113",
+  "mentions": [
+    "A039654",
+    "A039655",
+    "A292112"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Total number of parts in all m-cyclic compositions of n (where each part of size m can be colored with one of m colors).",
+  "id": "A308723",
+  "mentions": [
+    "A001906",
+    "A032198",
+    "A088305"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

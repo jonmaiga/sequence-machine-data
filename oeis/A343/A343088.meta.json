@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of connected labeled graphs with n edges and k vertices, 1 <= k <= n+1.",
+  "id": "A343088",
+  "mentions": [
+    "A000272",
+    "A001187",
+    "A054923",
+    "A057500",
+    "A061540",
+    "A061541",
+    "A061542",
+    "A061543",
+    "A061544",
+    "A062734",
+    "A096117",
+    "A096150",
+    "A096224",
+    "A182294",
+    "A182295",
+    "A182371",
+    "A290776",
+    "A322137",
+    "A322147",
+    "A331437"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

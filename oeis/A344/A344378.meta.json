@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers m for which there exists a positive even integer 2k such that Sum_{j=1..m} j^(2k) has no prime divisor smaller than 2*m + 3.",
+  "id": "A344378",
+  "mentions": [
+    "A172186",
+    "A344380"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

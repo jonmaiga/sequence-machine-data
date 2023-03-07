@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that (10^k-j)*10^n-1 is prime for some single-digit j or 0 if no such prime with 1<=k, 0<=j<=9 exists.",
+  "id": "A213883",
+  "mentions": [
+    "A213790",
+    "A213884"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of arcsinh(1/4).",
+  "id": "A129200",
+  "mentions": [
+    "A244644"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:39",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

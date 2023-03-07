@@ -1,0 +1,22 @@
+{
+  "description": "Triangle with the numerator of the coefficient [x^k] of the second order Bernoulli polynomial B_n^(2)(x) in row n, column 0<=k<=n.",
+  "id": "A197419",
+  "mentions": [
+    "A100615",
+    "A100616",
+    "A197420"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

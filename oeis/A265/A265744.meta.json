@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of Pell numbers (A000129) needed to sum to n using the greedy algorithm (A317204).",
+  "id": "A265744",
+  "mentions": [
+    "A000129",
+    "A007895",
+    "A007953",
+    "A014420",
+    "A053610",
+    "A116543",
+    "A265404",
+    "A265743",
+    "A265745",
+    "A278043",
+    "A317204"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

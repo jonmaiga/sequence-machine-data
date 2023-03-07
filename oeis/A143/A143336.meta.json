@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of K(k) * (2 * E(k) - K(k)) / (Pi/2)^2 in powers of q where E(k), K(k) are complete elliptic integrals and q = exp(-Pi * K(k') / K(k)).",
+  "id": "A143336",
+  "mentions": [
+    "A072558",
+    "A113184",
+    "A122858"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

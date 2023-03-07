@@ -1,0 +1,20 @@
+{
+  "description": "Table of the difference of numerator and denominator of Farey sequences, read by rows.",
+  "id": "A191607",
+  "mentions": [
+    "A005728",
+    "A133404"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=1} (-1)^(n-1) * x^(n^2)/(1 - x^n)^n.",
+  "id": "A303506",
+  "mentions": [
+    "A143862",
+    "A217668",
+    "A303340"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

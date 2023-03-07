@@ -1,0 +1,22 @@
+{
+  "description": "Numbers divisible by their individual digits, but not by the product of their digits.",
+  "id": "A337163",
+  "mentions": [
+    "A034838",
+    "A087141",
+    "A087142",
+    "A188643",
+    "A285271"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

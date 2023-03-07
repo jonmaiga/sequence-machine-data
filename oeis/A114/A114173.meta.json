@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle A114172, where the g.f. of column n equals the g.f. of row n divided by (1-x)^(n+1).",
+  "id": "A114173",
+  "mentions": [
+    "A114172",
+    "A114174",
+    "A114175"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

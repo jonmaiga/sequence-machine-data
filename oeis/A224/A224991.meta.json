@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that q=2*p^2-1, r=2*p*q-1 and 2*p*r-1 are also prime.",
+  "id": "A224991",
+  "mentions": [
+    "A224626",
+    "A224990"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

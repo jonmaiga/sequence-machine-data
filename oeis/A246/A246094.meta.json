@@ -1,0 +1,32 @@
+{
+  "description": "Paradigm shift sequence for (3,4) production scheme with replacement.",
+  "id": "A246094",
+  "mentions": [
+    "A029750",
+    "A103969",
+    "A178715",
+    "A193286",
+    "A193455",
+    "A246074",
+    "A246078",
+    "A246082",
+    "A246086",
+    "A246090",
+    "A246092",
+    "A246093",
+    "A246095",
+    "A246098",
+    "A246102"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:58:38",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

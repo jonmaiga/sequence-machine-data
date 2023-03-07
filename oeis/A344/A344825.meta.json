@@ -1,0 +1,21 @@
+{
+  "description": "Integers whose digit sum is prime and whose digit product is a perfect square > 0.",
+  "id": "A344825",
+  "mentions": [
+    "A028834",
+    "A031974",
+    "A050626",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

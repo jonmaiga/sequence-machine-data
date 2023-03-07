@@ -1,0 +1,19 @@
+{
+  "description": "Length of longest palindromic prefix of (n base 2).",
+  "id": "A215467",
+  "mentions": [
+    "A050430",
+    "A215469"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

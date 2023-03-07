@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer m such that m + n divides sigma(m)*phi(n), where sigma(.) and phi(.) are given by A000203 and A000010.",
+  "id": "A248030",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A248004",
+    "A248007",
+    "A248008",
+    "A248029"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative integer solutions to the equation x^2 + 3y^2 = n.",
+  "id": "A119395",
+  "mentions": [
+    "A033716",
+    "A096936"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

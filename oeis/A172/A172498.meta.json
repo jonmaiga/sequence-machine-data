@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of fraction a/b, where gcd(a, b) = 1, whose decimal representation has the form 0.(1)(2)(3)...(n-1)(n)... with period (1)(2)(3)...(n-1)(n).",
+  "id": "A172498",
+  "mentions": [
+    "A172496",
+    "A172499",
+    "A172505"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

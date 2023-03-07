@@ -1,0 +1,27 @@
+{
+  "description": "Largest odd divisor of n^2 + 1.",
+  "id": "A228564",
+  "mentions": [
+    "A000265",
+    "A001541",
+    "A001542",
+    "A001653",
+    "A002522",
+    "A076218",
+    "A164900",
+    "A191871"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:31",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

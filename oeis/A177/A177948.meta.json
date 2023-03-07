@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 + reverse of n^2 is a prime.",
+  "id": "A177948",
+  "mentions": [
+    "A000040",
+    "A072366"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

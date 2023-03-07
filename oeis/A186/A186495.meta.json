@@ -1,0 +1,22 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=5i (A008587) and g(j)=j-th pentagonal number (A000326). Complement of A186496.",
+  "id": "A186495",
+  "mentions": [
+    "A000326",
+    "A008587",
+    "A186350",
+    "A186493",
+    "A186494",
+    "A186496"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:39:51",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

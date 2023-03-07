@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that one of 2^n-1 or 2^n+1 is semiprime, but not both.",
+  "id": "A226116",
+  "mentions": [
+    "A001358",
+    "A046051",
+    "A054992",
+    "A092558",
+    "A092559"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

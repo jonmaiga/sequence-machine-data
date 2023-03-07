@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: product of the compositorial weight of the k-th partition of n times A074664(.) applied to each part.",
+  "id": "A179313",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A048996",
+    "A074664",
+    "A127743",
+    "A179380"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct terms in row n of triangle A230871.",
+  "id": "A231331",
+  "mentions": [
+    "A230871",
+    "A231330",
+    "A231335"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

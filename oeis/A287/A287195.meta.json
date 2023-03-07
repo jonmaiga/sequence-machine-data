@@ -1,0 +1,19 @@
+{
+  "description": "Independence and clique covering number of the n-triangular honeycomb acute knight graph.",
+  "id": "A287195",
+  "mentions": [
+    "A244500"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:17:59",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

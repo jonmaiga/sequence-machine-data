@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: a(1) = 1; a(n+1) = a(n) + (largest k-gonal number <= a(n)).",
+  "id": "A136311",
+  "mentions": [
+    "A060984",
+    "A060985",
+    "A081422"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

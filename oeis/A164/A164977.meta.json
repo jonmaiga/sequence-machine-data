@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that the set {1..m} has only one nontrivial decomposition into subsets with equal element sum.",
+  "id": "A164977",
+  "mentions": [
+    "A000217",
+    "A001222",
+    "A001358",
+    "A035470",
+    "A068443",
+    "A069904",
+    "A164978"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

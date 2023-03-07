@@ -1,0 +1,21 @@
+{
+  "description": "Cut decimal expansion of e (A001113) into pieces that are primes, each prime being greater in length than the last.",
+  "id": "A185120",
+  "mentions": [
+    "A001113",
+    "A073246",
+    "A104843",
+    "A198188"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers having no odd primes in their Collatz (3x+1) trajectory.",
+  "id": "A196871",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A055509",
+    "A065090",
+    "A078350",
+    "A078440",
+    "A221475"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

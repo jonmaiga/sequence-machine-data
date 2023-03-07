@@ -1,0 +1,20 @@
+{
+  "description": "Discriminants of real quadratic fields whose fundamental unit has norm 1.",
+  "id": "A349649",
+  "mentions": [
+    "A003653",
+    "A003656",
+    "A003658",
+    "A327297"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

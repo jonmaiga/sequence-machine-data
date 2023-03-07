@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that starting with k and repeatedly applying the map x -> A340323(x) reaches the loop {3, 4}.",
+  "id": "A340324",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000668",
+    "A046528",
+    "A340323",
+    "A340325"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

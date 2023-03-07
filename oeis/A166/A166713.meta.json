@@ -1,0 +1,22 @@
+{
+  "description": "Alliterative-digit numbers: Positive integers n such that the English names of the decimal digits of n begin with the same letter; ignore single-digit numbers.",
+  "id": "A166713",
+  "mentions": [
+    "A014181",
+    "A032810",
+    "A146755"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

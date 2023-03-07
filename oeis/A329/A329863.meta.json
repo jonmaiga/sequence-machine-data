@@ -1,0 +1,35 @@
+{
+  "description": "Number of compositions of n with cuts-resistance 2.",
+  "id": "A329863",
+  "mentions": [
+    "A000975",
+    "A003242",
+    "A027383",
+    "A032020",
+    "A114901",
+    "A240085",
+    "A261983",
+    "A318921",
+    "A319416",
+    "A319420",
+    "A319421",
+    "A329738",
+    "A329744",
+    "A329745",
+    "A329860",
+    "A329861",
+    "A329862",
+    "A329864"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

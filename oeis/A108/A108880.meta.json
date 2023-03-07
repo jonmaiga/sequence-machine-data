@@ -1,0 +1,18 @@
+{
+  "description": "Alphabetically earliest number that is a product of exactly n primes.",
+  "id": "A108880",
+  "mentions": [
+    "A000052"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

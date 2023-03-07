@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest nonnegative integer solution z to the system of congruences: z == 0 (mod n), z == 1 (mod A038610(n)) if n is in A033948; or z == 0 (mod n), z == -1 (mod A038610(n)) if n is in A033949.",
+  "id": "A255979",
+  "mentions": [
+    "A033948",
+    "A033949",
+    "A038610"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

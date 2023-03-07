@@ -1,0 +1,25 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=2, among all distinct circles that can be constructed from n equally spaced points along a line using only a compass.",
+  "id": "A359258",
+  "mentions": [
+    "A001859",
+    "A332723",
+    "A359009",
+    "A359061",
+    "A359252",
+    "A359253",
+    "A359254"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

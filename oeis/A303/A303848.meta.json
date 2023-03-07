@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that what emerges from the mask (right-aligned) is a square (see the Comments section for the mask explanation).",
+  "id": "A303848",
+  "mentions": [
+    "A303783"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

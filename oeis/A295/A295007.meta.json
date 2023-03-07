@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that the largest digit of n^2 is 7.",
+  "id": "A295007",
+  "mentions": [
+    "A000194",
+    "A000196",
+    "A000290",
+    "A003059",
+    "A277959",
+    "A277961",
+    "A295005",
+    "A295009",
+    "A295017"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

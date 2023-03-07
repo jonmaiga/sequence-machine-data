@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n for which A269174(sigma(n)) is equal to 2*A269174(n).",
+  "id": "A332465",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A191218",
+    "A228058",
+    "A269174",
+    "A332227",
+    "A332445",
+    "A332446",
+    "A332464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of triples (a,b,c) of natural numbers a,b,c <= n with gcd(a,b)=gcd(b,c)=gcd(c,a)=1.",
+  "id": "A256390",
+  "mentions": [
+    "A065473",
+    "A256391"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

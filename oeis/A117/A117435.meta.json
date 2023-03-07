@@ -1,0 +1,23 @@
+{
+  "description": "Triangle related to exp(x)*cos(2*x).",
+  "id": "A117435",
+  "mentions": [
+    "A006495",
+    "A117411",
+    "A117436",
+    "A117438"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

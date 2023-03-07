@@ -1,0 +1,23 @@
+{
+  "description": "Abundance of A181595(n).",
+  "id": "A181596",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A005820",
+    "A033880",
+    "A153501",
+    "A181595"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

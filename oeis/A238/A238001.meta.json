@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n^n into parts that are at most n with at least one part of each size.",
+  "id": "A238001",
+  "mentions": [
+    "A236810",
+    "A237512",
+    "A237998",
+    "A237999",
+    "A238000",
+    "A238012"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

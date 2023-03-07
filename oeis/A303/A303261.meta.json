@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having n digits in base n+1, and equal to the determinant of a circulant matrix based on these digits.",
+  "id": "A303261",
+  "mentions": [
+    "A219324",
+    "A219325",
+    "A219326",
+    "A219327",
+    "A303260",
+    "A303262"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

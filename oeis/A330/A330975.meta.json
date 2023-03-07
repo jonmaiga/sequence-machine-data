@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that are not the number of factorizations of n into distinct factors > 1 for any n.",
+  "id": "A330975",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A002033",
+    "A025487",
+    "A033833",
+    "A045778",
+    "A045779",
+    "A045780",
+    "A045782",
+    "A045783",
+    "A318286",
+    "A328966",
+    "A330972",
+    "A330973",
+    "A330974",
+    "A330976",
+    "A330997"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

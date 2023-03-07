@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into repunit powers, cf. A083278.",
+  "id": "A206245",
+  "mentions": [
+    "A000041",
+    "A002275",
+    "A083278",
+    "A179051",
+    "A206244"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

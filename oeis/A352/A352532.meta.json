@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with multiplicative persistence value 11.",
+  "id": "A352532",
+  "mentions": [
+    "A003001",
+    "A014120",
+    "A046510",
+    "A046518",
+    "A352531"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

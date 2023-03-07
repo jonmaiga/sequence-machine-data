@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of directed self-avoiding walks (SAWs) of length k in an n-ladder graph that use all rows of the graph.",
+  "id": "A283240",
+  "mentions": [
+    "A038577",
+    "A137882",
+    "A283241"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

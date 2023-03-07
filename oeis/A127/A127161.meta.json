@@ -1,0 +1,29 @@
+{
+  "description": "Integers whose aliquot sequences terminate by encountering a prime number.",
+  "id": "A127161",
+  "mentions": [
+    "A000203",
+    "A007906",
+    "A063769",
+    "A080907",
+    "A098007",
+    "A098008",
+    "A115060",
+    "A115350",
+    "A121507",
+    "A127162",
+    "A127163",
+    "A127164"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

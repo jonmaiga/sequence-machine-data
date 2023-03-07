@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = uphi(n) / gcd(n-1, uphi(n)), where uphi is unitary totient (or unitary phi) function, A047994.",
+  "id": "A345938",
+  "mentions": [
+    "A005117",
+    "A047994",
+    "A160595",
+    "A340088",
+    "A345937",
+    "A345939",
+    "A345948"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

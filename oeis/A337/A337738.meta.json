@@ -1,0 +1,23 @@
+{
+  "description": "Terms of A171641 with a record number of divisors.",
+  "id": "A337738",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A023196",
+    "A083207",
+    "A171641",
+    "A335008"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

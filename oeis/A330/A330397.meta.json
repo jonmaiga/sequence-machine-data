@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers k such that gpf(k)^2 + gpf(k) = 0 (mod k), where gpf(k) = A006530(k) is the greatest prime dividing k.",
+  "id": "A330397",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A002808",
+    "A006530",
+    "A036690",
+    "A064052",
+    "A329534"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Totients t for which {x: phi(x)=t} share the same largest prime factor.",
+  "id": "A303746",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A085713",
+    "A303745",
+    "A303747"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

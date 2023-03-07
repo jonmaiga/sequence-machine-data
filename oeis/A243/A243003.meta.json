@@ -1,0 +1,27 @@
+{
+  "description": "Pairs (p,k) such that p is in A000043 and R=2^k-1+(2^k-2)/(2^(p-k)-1) is prime: this sequence lists the k-values, see A242999 for the p-values. (Ordered by p, then k.)",
+  "id": "A243003",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A002975",
+    "A242025",
+    "A242993",
+    "A242998",
+    "A242999",
+    "A258882"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

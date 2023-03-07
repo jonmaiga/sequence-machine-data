@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which sigma(n)/n = k+3/4 with integer k.",
+  "id": "A218405",
+  "mentions": [
+    "A159907",
+    "A218404"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

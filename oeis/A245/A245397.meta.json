@@ -1,0 +1,32 @@
+{
+  "description": "A(n,k) is the sum of k-th powers of coefficients in full expansion of (z_1+z_2+...+z_n)^n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A245397",
+  "mentions": [
+    "A000012",
+    "A000312",
+    "A001700",
+    "A033935",
+    "A052548",
+    "A055733",
+    "A055740",
+    "A245398",
+    "A246240",
+    "A246241",
+    "A246242",
+    "A246243",
+    "A246244",
+    "A246245"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

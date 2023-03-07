@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'xi', an optimal stopping auxiliary constant associated with the two choice case.",
+  "id": "A246672",
+  "mentions": [
+    "A246673"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

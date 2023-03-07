@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} zeta(k)/(k*2^k).",
+  "id": "A256921",
+  "mentions": [
+    "A001620",
+    "A053510",
+    "A256922"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

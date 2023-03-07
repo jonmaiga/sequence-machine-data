@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: limit of the ratio of the g.f.s of adjacent rows in triangle A152805.",
+  "id": "A152807",
+  "mentions": [
+    "A000182",
+    "A152805",
+    "A152806"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

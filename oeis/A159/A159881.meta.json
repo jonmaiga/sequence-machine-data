@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows : T(n,0) = n+1, T(n,k)=0 if kn, T(n,k) = k*T(n-1,k) - T(n-1,k-1).",
+  "id": "A159881",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A002662",
+    "A029761",
+    "A152948"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Take a squarefree semiprime and take the difference between its prime factors. If this difference is a squarefree semiprime repeat the process. Sequence lists the smallest squarefree semiprime that generates other squarefree semiprimes in the first n steps of this process.",
+  "id": "A296808",
+  "mentions": [
+    "A001358",
+    "A006881",
+    "A296096"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

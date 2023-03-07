@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are values of A215240.",
+  "id": "A320041",
+  "mentions": [
+    "A215240",
+    "A320061"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

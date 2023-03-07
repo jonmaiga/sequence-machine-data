@@ -1,0 +1,21 @@
+{
+  "description": "A252867(n) written in binary.",
+  "id": "A303596",
+  "mentions": [
+    "A007088",
+    "A252867",
+    "A253050",
+    "A253589",
+    "A303597"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

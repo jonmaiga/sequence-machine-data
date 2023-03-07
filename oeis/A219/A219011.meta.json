@@ -1,0 +1,23 @@
+{
+  "description": "Denominators in a product expansion for sqrt(5).",
+  "id": "A219011",
+  "mentions": [
+    "A145275",
+    "A219010",
+    "A219013",
+    "A219015"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that q = p+d (with d >= 6) is the next prime and both p and q are Sophie Germain primes.",
+  "id": "A128825",
+  "mentions": [
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

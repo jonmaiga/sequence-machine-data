@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(n+1)*(n+2)*(n+4)*(n+23)/120.",
+  "id": "A101855",
+  "mentions": [
+    "A101853",
+    "A101854"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:21:49",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

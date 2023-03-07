@@ -1,0 +1,21 @@
+{
+  "description": "Sequence mod 5 defined by Baldini-Eschgfäller coupled dynamical system (f,lambda,alpha) with f(k) = A000203(k)-1, lambda(y) = 3y+2 mod 5 for y in Y = {0,1,2,3,4}, and alpha(k) = k mod 5 for k in Omega = {primes}.",
+  "id": "A291293",
+  "mentions": [
+    "A000203",
+    "A039654",
+    "A262684",
+    "A291291"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

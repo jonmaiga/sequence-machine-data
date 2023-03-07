@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: (1, 2, 2, 2, ...) on the main diagonal and the rest zeros.",
+  "id": "A136521",
+  "mentions": [
+    "A001263",
+    "A007318",
+    "A040000",
+    "A124927",
+    "A134058",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:28:49",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit prime with the most digits equal to 9.",
+  "id": "A178007",
+  "mentions": [
+    "A003618",
+    "A037071",
+    "A105975"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

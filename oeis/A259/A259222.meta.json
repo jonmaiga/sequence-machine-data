@@ -1,0 +1,29 @@
+{
+  "description": "T(n,k) is the number of (n+1) X (k+1) 0..1 arrays with each 2 X 2 subblock having clockwise pattern 0000 0011 or 0101.",
+  "id": "A259222",
+  "mentions": [
+    "A000045",
+    "A001911",
+    "A143211",
+    "A234933",
+    "A259215",
+    "A259216",
+    "A259217",
+    "A259218",
+    "A259219",
+    "A259220",
+    "A259221"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A112368(n) = Sum_{i=0..n} 2^i*i! is prime.",
+  "id": "A283563",
+  "mentions": [
+    "A112368"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

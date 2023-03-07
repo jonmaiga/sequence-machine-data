@@ -1,0 +1,18 @@
+{
+  "description": "Number of k such that {-k*sqrt(6)} > {-n*sqrt(6)}, where { } = fractional part.",
+  "id": "A194749",
+  "mentions": [
+    "A194738",
+    "A194748"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

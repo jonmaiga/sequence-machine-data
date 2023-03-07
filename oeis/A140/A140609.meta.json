@@ -1,0 +1,19 @@
+{
+  "description": "Numbers never equal to the number of partitions of any p into k parts (2",
+  "id": "A140609",
+  "mentions": [
+    "A000041",
+    "A002865"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

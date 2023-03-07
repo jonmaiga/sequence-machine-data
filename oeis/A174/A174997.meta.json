@@ -1,0 +1,18 @@
+{
+  "description": "Integer part of the greatest eigenvalues of the matrix n X n whose elements are the Fibonacci numbers F(n) (A000045) such that n X n = ((F(0),F(1),...,F(n-1)),(F(n),F(n+1),...,F(2n-1)),...,(F(n(n-1)),F(n(n-1)+1),...,F(n^2-1))), for n=1,2,...",
+  "id": "A174997",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

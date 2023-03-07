@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the 4th power of k contains exactly 4 copies of each digit of k.",
+  "id": "A114260",
+  "mentions": [
+    "A114258",
+    "A114259",
+    "A114261"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

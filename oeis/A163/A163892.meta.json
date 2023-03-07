@@ -1,0 +1,23 @@
+{
+  "description": "Distinct values in A163890 in the order of appearance.",
+  "id": "A163892",
+  "mentions": [
+    "A003586",
+    "A036561",
+    "A163890",
+    "A163891",
+    "A163893",
+    "A163894",
+    "A163912"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest integer which cannot be written as a sum of n-th powers of odd primes.",
+  "id": "A275747",
+  "mentions": [
+    "A122615",
+    "A275743",
+    "A275746"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

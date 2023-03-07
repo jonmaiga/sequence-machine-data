@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the number of divisors of n is a noncomposite, otherwise 0.",
+  "id": "A355937",
+  "mentions": [
+    "A000005",
+    "A009087",
+    "A010055",
+    "A080339",
+    "A355938"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

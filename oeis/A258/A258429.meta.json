@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p - 1 = (tau(p - 1) - 1)^k for some k >= 0, where tau(n) is the number of divisors of n (A000005).",
+  "id": "A258429",
+  "mentions": [
+    "A000005",
+    "A004249",
+    "A007516",
+    "A019434",
+    "A219338",
+    "A249759"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

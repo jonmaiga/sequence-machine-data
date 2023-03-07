@@ -1,0 +1,20 @@
+{
+  "description": "Number of real n X n symmetric (+1,-1) matrices with positive permanent.",
+  "id": "A118995",
+  "mentions": [
+    "A086900",
+    "A118994",
+    "A118999"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

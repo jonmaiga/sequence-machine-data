@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (2 + Sum_{k = 1..n-1} A095258(k)) / A095258(n).",
+  "id": "A308751",
+  "mentions": [
+    "A095258"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

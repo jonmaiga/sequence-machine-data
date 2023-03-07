@@ -1,0 +1,27 @@
+{
+  "description": "Decimal representation of the n-th iteration of the \"Rule 1\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A265721",
+  "mentions": [
+    "A000975",
+    "A056830",
+    "A059841",
+    "A128918",
+    "A265718",
+    "A265720",
+    "A265722",
+    "A265723",
+    "A265724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

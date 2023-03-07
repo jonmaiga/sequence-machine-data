@@ -1,0 +1,21 @@
+{
+  "description": "Integers a(n) for which the factorization in the real quadratic field Q(sqrt(a(n)) is not unique.",
+  "id": "A146209",
+  "mentions": [
+    "A003172",
+    "A029702",
+    "A051990",
+    "A053330",
+    "A219361"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

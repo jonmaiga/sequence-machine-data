@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^n has even digit sum.",
+  "id": "A118730",
+  "mentions": [
+    "A118733",
+    "A118734"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

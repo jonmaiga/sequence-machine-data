@@ -1,0 +1,19 @@
+{
+  "description": "Square array whose rows m >= 2 hold the limit under iterations of the morphism { x -> (x, ..., x+k-1) if k|x ; x -> x+1 otherwise }, starting with (0); read by falling antidiagonals.",
+  "id": "A289281",
+  "mentions": [
+    "A104234",
+    "A288577"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 2,
+    "size": 132,
+    "source": "oeis-bfile"
+  }
+}

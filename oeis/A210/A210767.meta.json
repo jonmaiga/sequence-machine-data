@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose digit sum as well as sum of the 4th powers of the digits is a prime.",
+  "id": "A210767",
+  "mentions": [
+    "A007953",
+    "A055013",
+    "A182404"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes with a prime number of digits, all of which are distinct primes.",
+  "id": "A141521",
+  "mentions": [
+    "A124674",
+    "A124888"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

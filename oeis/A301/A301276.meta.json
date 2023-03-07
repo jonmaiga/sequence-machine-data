@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of variance of first n primes.",
+  "id": "A301276",
+  "mentions": [
+    "A273462",
+    "A301273",
+    "A301274",
+    "A301275",
+    "A301277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

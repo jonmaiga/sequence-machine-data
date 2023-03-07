@@ -1,0 +1,18 @@
+{
+  "description": "Number of involutions of length 2n which are invariant under the reverse-complement map and have no decreasing subsequence of length 7.",
+  "id": "A145867",
+  "mentions": [
+    "A001006"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:59:46",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

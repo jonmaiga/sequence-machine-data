@@ -1,0 +1,33 @@
+{
+  "description": "Number of odd p-trees of weight n (all proper terminal subtrees have odd weight).",
+  "id": "A300436",
+  "mentions": [
+    "A000009",
+    "A027193",
+    "A063834",
+    "A078408",
+    "A196545",
+    "A279374",
+    "A279785",
+    "A289501",
+    "A298118",
+    "A299202",
+    "A299203",
+    "A300300",
+    "A300301",
+    "A300355",
+    "A300439",
+    "A300440"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

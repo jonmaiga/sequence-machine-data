@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers n such that A290542(n) >= 2.",
+  "id": "A290543",
+  "mentions": [
+    "A001567",
+    "A006935",
+    "A122780",
+    "A122781",
+    "A122782",
+    "A122783",
+    "A122784",
+    "A122785",
+    "A122786",
+    "A290542"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

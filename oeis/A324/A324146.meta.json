@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonempty circularly representable sets of binary vectors of length n.",
+  "id": "A324146",
+  "mentions": [
+    "A324147",
+    "A324148",
+    "A324149"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

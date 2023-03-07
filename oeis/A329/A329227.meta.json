@@ -1,0 +1,19 @@
+{
+  "description": "Products of consecutive terms of the Padovan sequence A000931.",
+  "id": "A329227",
+  "mentions": [
+    "A000931",
+    "A133037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

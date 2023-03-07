@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array: the fusion of polynomial sequences P and Q given by p(n,x)=q(n,x) in A193738.",
+  "id": "A193740",
+  "mentions": [
+    "A193722",
+    "A193738",
+    "A193741"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

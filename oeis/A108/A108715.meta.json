@@ -1,0 +1,27 @@
+{
+  "description": "First differences of A025480.",
+  "id": "A108715",
+  "mentions": [
+    "A000225",
+    "A000265",
+    "A003602",
+    "A025480",
+    "A108202",
+    "A108685",
+    "A108686",
+    "A131577"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:37",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that phi(sigma(k))/sigma(phi(k)) > phi(sigma(n))/sigma(phi(n)) for all k",
+  "id": "A227011",
+  "mentions": [
+    "A033632",
+    "A062401",
+    "A062402",
+    "A227927",
+    "A229238"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

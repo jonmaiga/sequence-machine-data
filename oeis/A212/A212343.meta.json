@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n+1)*(n-2)*(n-3)/2.",
+  "id": "A212343",
+  "mentions": [
+    "A212342",
+    "A213819",
+    "A241765",
+    "A267370"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:28:19",
+    "offset": 2,
+    "size": 49,
+    "source": "joeis"
+  }
+}

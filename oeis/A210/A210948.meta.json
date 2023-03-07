@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of all parts <= k of all partitions of n.",
+  "id": "A210948",
+  "mentions": [
+    "A000070",
+    "A066186",
+    "A138785",
+    "A181187",
+    "A206561",
+    "A208475",
+    "A210956"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

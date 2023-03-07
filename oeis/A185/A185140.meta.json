@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle E(n,g) counting not necessarily connected 4-regular simple graphs on n vertices with girth exactly g.",
+  "id": "A185140",
+  "mentions": [
+    "A033301",
+    "A037233",
+    "A185143",
+    "A185144",
+    "A185340"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 5,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

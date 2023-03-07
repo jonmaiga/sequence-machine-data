@@ -1,0 +1,19 @@
+{
+  "description": "Divide the circle into ten \"decants\" (each of 36 degrees). Let z = 1/2 + i*14.134725142... be the first nontrivial zero of the Riemann zeta function. Then a(n) is the decant containing the argument of 1/n^z.",
+  "id": "A125642",
+  "mentions": [
+    "A100060"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that A349281(k) = n.",
+  "id": "A349282",
+  "mentions": [
+    "A025487",
+    "A349260",
+    "A349281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

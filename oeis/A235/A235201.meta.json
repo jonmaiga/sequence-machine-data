@@ -1,0 +1,36 @@
+{
+  "description": "Self-inverse and multiplicative permutation of integers: a(0)=0, a(1)=1, a(2)=2, a(3)=4 and a(4)=3, a(p_i) = p_{a(i)} for primes with index i > 2, and for composites > 4, a(u * v) = a(u) * a(v) for u, v > 0.",
+  "id": "A235201",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A008578",
+    "A010051",
+    "A061773",
+    "A065091",
+    "A072026",
+    "A091204",
+    "A091205",
+    "A234840",
+    "A235199",
+    "A235200",
+    "A235485",
+    "A235486",
+    "A235487",
+    "A235489",
+    "A235493",
+    "A235494"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

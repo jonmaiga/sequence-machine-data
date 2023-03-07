@@ -1,0 +1,20 @@
+{
+  "description": "Alternate terms of A001263 as polynomials divided by x+1 to give a new triangle of coefficients of even powered polynomials.",
+  "id": "A136267",
+  "mentions": [
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

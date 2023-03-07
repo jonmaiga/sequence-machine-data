@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients in sexagesimal expansion of the positive root of x^3 + 2*x^2 + 10*x = 20, first studied by Leonardo of Pisa (Fibonacci) in 1225.",
+  "id": "A159990",
+  "mentions": [
+    "A159991",
+    "A159992",
+    "A159993",
+    "A159994",
+    "A159995",
+    "A202300"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n such that q(n)^2 = q(n^2) != 0, where q(n) is the digit product on base 10.",
+  "id": "A278316",
+  "mentions": [
+    "A256115"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

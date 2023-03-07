@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p^2 contains all of the square digits {0, 1, 4, 9} only.",
+  "id": "A316969",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001248",
+    "A019544",
+    "A284973",
+    "A285550"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

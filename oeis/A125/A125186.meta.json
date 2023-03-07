@@ -1,0 +1,19 @@
+{
+  "description": "Number of digits 1 in all hyperbinary representations of n. A hyperbinary representation of a nonnegative integer n is a representation of n as a sum of powers of 2, each power being used at most twice.",
+  "id": "A125186",
+  "mentions": [
+    "A125184"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Balanced odious primes: primes with an odd number of runs of 1's in their binary expansion.",
+  "id": "A268477",
+  "mentions": [
+    "A027697",
+    "A027699",
+    "A268415",
+    "A268476"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

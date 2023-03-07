@@ -1,0 +1,29 @@
+{
+  "description": "Greatest Fibonacci number that is a proper divisor of the n-th Fibonacci number; a(1) = a(2) = 1.",
+  "id": "A105800",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A032742",
+    "A046022",
+    "A076984",
+    "A139045",
+    "A280686",
+    "A280688",
+    "A280689",
+    "A280690",
+    "A280698",
+    "A280699"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

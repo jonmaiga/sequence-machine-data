@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: row n lists the first n digits of the decimal expansion of Euler's constant (or Euler-Mascheroni constant) gamma.",
+  "id": "A139261",
+  "mentions": [
+    "A001620",
+    "A138114",
+    "A138115",
+    "A138116",
+    "A139258",
+    "A139259",
+    "A139260"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

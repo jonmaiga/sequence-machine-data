@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the negated value of the digamma function at 4/5.",
+  "id": "A200138",
+  "mentions": [
+    "A020759",
+    "A020777",
+    "A047787",
+    "A200134",
+    "A200137"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Pell numbers sandwiched between two numbers having same number of divisors.",
+  "id": "A171669",
+  "mentions": [
+    "A000129",
+    "A005237",
+    "A005238",
+    "A067889",
+    "A171666",
+    "A171667",
+    "A171668"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n such that the number of parts and the greatest part are coprime.",
+  "id": "A200750",
+  "mentions": [
+    "A199886"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

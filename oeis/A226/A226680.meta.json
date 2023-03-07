@@ -1,0 +1,19 @@
+{
+  "description": "Integer k associated with the record-breaking number A226679(n) of primitive Collatz-like 3x-k cycles.",
+  "id": "A226680",
+  "mentions": [
+    "A226664",
+    "A226679"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

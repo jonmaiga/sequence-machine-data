@@ -1,0 +1,18 @@
+{
+  "description": "A diagonal of table A125781: a(n) = A125781(n,n+1).",
+  "id": "A125788",
+  "mentions": [
+    "A125781",
+    "A125787"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

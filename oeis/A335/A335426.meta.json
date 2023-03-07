@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 0; thereafter a(2^(2^k)) = 0 for k > 0, and for other even numbers n, a(n) = 1+a(n/2), and for odd numbers n, a(n) = 2*a(A064989(n)).",
+  "id": "A335426",
+  "mentions": [
+    "A001146",
+    "A003961",
+    "A048675",
+    "A064989",
+    "A082522",
+    "A209229",
+    "A225546",
+    "A248663",
+    "A335427",
+    "A335428"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

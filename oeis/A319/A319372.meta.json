@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Cayley graphs with n nodes and valency k, (0 <= k < n).",
+  "id": "A319372",
+  "mentions": [
+    "A185959",
+    "A319367",
+    "A319368",
+    "A319374"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

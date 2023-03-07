@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime p that starts an n-tuplet of consecutive primes of length A008407(n).",
+  "id": "A261324",
+  "mentions": [
+    "A000040",
+    "A008407",
+    "A065688",
+    "A261323"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle, read by rows, where the k-th column equals the k-th self-composition of column 1 (A120567) for k>=0, such that row sums equal column 1.",
+  "id": "A120568",
+  "mentions": [
+    "A120567"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

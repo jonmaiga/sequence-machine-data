@@ -1,0 +1,23 @@
+{
+  "description": "Numbers not in the range of the sum of abundant divisors function.",
+  "id": "A271113",
+  "mentions": [
+    "A005101",
+    "A048242",
+    "A048260",
+    "A187795",
+    "A263837",
+    "A270660"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

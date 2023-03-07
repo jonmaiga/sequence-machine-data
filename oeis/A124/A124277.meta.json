@@ -1,0 +1,17 @@
+{
+  "description": "Primes that do not divide 2^(3^n)+97 for any n.",
+  "id": "A124277",
+  "mentions": [
+    "A123239"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

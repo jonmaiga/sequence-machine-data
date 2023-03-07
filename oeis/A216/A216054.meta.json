@@ -1,0 +1,31 @@
+{
+  "description": "Square array T, read by antidiagonals: T(n,k) = 0 if n-k >= 1 or if k-n >= 6, T(0,0) = T(0,1) = T(0,2) = T(0,3) = T(0,4) = T(0,5) = 1, T(n,k) = T(n-1,k) + T(n,k-1).",
+  "id": "A216054",
+  "mentions": [
+    "A005021",
+    "A006053",
+    "A028495",
+    "A052547",
+    "A080937",
+    "A094789",
+    "A094790",
+    "A096976",
+    "A187066",
+    "A216226",
+    "A216228",
+    "A216230",
+    "A216238"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:37",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

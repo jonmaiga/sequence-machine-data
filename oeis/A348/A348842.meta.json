@@ -1,0 +1,23 @@
+{
+  "description": "Number of Juniper Green games with n cards.",
+  "id": "A348842",
+  "mentions": [
+    "A055460",
+    "A348390",
+    "A348841",
+    "A348843",
+    "A348844"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

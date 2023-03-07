@@ -1,0 +1,19 @@
+{
+  "description": "Number of separable partitions of n in which the number of distinct (repeatable) parts is 5.",
+  "id": "A325649",
+  "mentions": [
+    "A000041",
+    "A325534"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

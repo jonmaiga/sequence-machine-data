@@ -1,0 +1,25 @@
+{
+  "description": "a(0)=0; a(n) = 11*a(n-1) + 11.",
+  "id": "A105280",
+  "mentions": [
+    "A000918",
+    "A029858",
+    "A052379",
+    "A052386",
+    "A080674",
+    "A228275"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:29:44",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

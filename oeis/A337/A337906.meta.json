@@ -1,0 +1,21 @@
+{
+  "description": "The number of walks of n steps on the hexagonal lattice that start at the origin and end at the non-adjacent vertex (2,0).",
+  "id": "A337906",
+  "mentions": [
+    "A002898",
+    "A337905",
+    "A337907"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:41:49",
+    "offset": 2,
+    "size": 24,
+    "source": "joeis"
+  }
+}

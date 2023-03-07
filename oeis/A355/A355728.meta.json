@@ -1,0 +1,28 @@
+{
+  "description": "Indices k of partition function where consecutive p(k) and p(k+1) are prime.",
+  "id": "A355728",
+  "mentions": [
+    "A000041",
+    "A046063",
+    "A072213",
+    "A284594",
+    "A285086",
+    "A285087",
+    "A285088",
+    "A355704",
+    "A355705",
+    "A355706"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

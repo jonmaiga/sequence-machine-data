@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of Pokrovskiy's lower bound on the ratio of e(G^n) the number of edges in the n-th power of a graph G, to E(G) the number of edges of G.",
+  "id": "A208648",
+  "mentions": [
+    "A003417",
+    "A208647"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

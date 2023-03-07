@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the real part of harmonic number H(1/2 + i*sqrt(3)/2), where i=sqrt(-1).",
+  "id": "A339801",
+  "mentions": [
+    "A001620",
+    "A256919",
+    "A338815",
+    "A339135",
+    "A339529",
+    "A339530",
+    "A339604",
+    "A339605",
+    "A339606",
+    "A339802"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

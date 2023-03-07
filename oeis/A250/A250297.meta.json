@@ -1,0 +1,18 @@
+{
+  "description": "Number n such that the n-th term of \"concatenate next digit at right hand end (where the next digit after 9 is again 1)\" is a semiprime.",
+  "id": "A250297",
+  "mentions": [
+    "A057137"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

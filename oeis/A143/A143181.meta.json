@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of a(n) such that : define p(0)=2 the first prime, then p(n+1)=least prime p of the form a(n)*p(n)*(a(n)*p(n)+1)-1 with a twin prime p+2.",
+  "id": "A143181",
+  "mentions": [
+    "A120393"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

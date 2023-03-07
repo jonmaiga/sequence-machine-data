@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) whose k-th column is the k-fold self-convolution of the Euler totient function phi; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A340995",
+  "mentions": [
+    "A000007",
+    "A000010",
+    "A065093",
+    "A159929",
+    "A340994"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the first derivative of the infinite power tower function x^x^x... at x = 1/e.",
+  "id": "A300916",
+  "mentions": [
+    "A001113",
+    "A030178",
+    "A068985",
+    "A277522",
+    "A277651",
+    "A293009"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

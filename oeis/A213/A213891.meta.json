@@ -1,0 +1,26 @@
+{
+  "description": "Fixed points of the sequence A262212 defined by the minimum number of 2's in the relation n*[n,2,2,...,2,n] = [x,...,x] between simple continued fractions.",
+  "id": "A213891",
+  "mentions": [
+    "A000057",
+    "A213358",
+    "A213648",
+    "A213892",
+    "A213899",
+    "A213900",
+    "A261311",
+    "A262211",
+    "A262212",
+    "A262220"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimum over all permutations b of 1..n of sum b(i)*b^{-1}(i).",
+  "id": "A118375",
+  "mentions": [
+    "A000292",
+    "A000330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:31",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

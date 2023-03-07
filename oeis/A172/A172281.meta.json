@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k, q) = ceiling( binomial(n, k)*(1+q)/( (1+q)^2 + (k - floor(n/2))^2 ) ), with q = 1, read by rows.",
+  "id": "A172281",
+  "mentions": [
+    "A172279"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

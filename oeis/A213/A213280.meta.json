@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=1, 1 <= k <= n) = number of permutations of [1..n] in which none of the cycle lengths are divisible by k.",
+  "id": "A213280",
+  "mentions": [
+    "A001563",
+    "A213279"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

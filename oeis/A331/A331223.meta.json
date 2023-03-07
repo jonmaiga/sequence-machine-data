@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of squared radius R^2 of the circumcircle of the n-th non-obtuse triangle with integer sides i <= j <= k <= sqrt(i^2 + j^2) in a list of such triangles, the list being sorted by increasing size of R. Numerators are A331222.",
+  "id": "A331223",
+  "mentions": [
+    "A331222",
+    "A331227",
+    "A331228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

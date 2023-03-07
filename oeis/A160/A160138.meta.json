@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of solutions to the system: x + y + z + w = n, -2x - y + z + 2w = 5 with nonnegative x, y, z, w.",
+  "id": "A160138",
+  "mentions": [
+    "A008806",
+    "A253186"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:51",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

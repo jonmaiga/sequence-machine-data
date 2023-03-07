@@ -1,0 +1,17 @@
+{
+  "description": "Sum of iterated logs; a(n) = 0 if n = 0; otherwise n + a(floor(log_2(n)).",
+  "id": "A232779",
+  "mentions": [
+    "A216761"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

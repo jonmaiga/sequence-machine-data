@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that start an unbounded aliquot-like sequence based on Dedekind psi function (A001615).",
+  "id": "A323327",
+  "mentions": [
+    "A001615",
+    "A098007",
+    "A187778"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

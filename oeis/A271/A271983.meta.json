@@ -1,0 +1,18 @@
+{
+  "description": "The smaller of a pair n, m such that phi(n) = phi(m) and there is no other k such that phi(n) = phi(k).",
+  "id": "A271983",
+  "mentions": [
+    "A007366",
+    "A058340"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

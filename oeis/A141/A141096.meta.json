@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers not representable as the sum of two coprime nonprime numbers.",
+  "id": "A141096",
+  "mentions": [
+    "A141095",
+    "A141098"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

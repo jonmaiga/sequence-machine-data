@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of greatest x>0 satisfying sin(1/x)=1/sqrt(1+x^2).",
+  "id": "A196505",
+  "mentions": [
+    "A196500",
+    "A196502",
+    "A196503",
+    "A196504"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

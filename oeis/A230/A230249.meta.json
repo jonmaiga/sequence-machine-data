@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..3 arrays x(i,j) with each element horizontally or vertically next to at least one element with value (x(i,j)+1) mod 4, and upper left element zero",
+  "id": "A230249",
+  "mentions": [
+    "A230250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A051717(3n) + A051717(3n+1) + A051717(3n+2).",
+  "id": "A153087",
+  "mentions": [
+    "A051717",
+    "A140812"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

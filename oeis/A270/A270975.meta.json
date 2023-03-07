@@ -1,0 +1,18 @@
+{
+  "description": "Indices i such that A055773(i) is not equal to A130087(i).",
+  "id": "A270975",
+  "mentions": [
+    "A055773",
+    "A130087"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

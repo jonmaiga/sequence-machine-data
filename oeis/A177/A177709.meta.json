@@ -1,0 +1,26 @@
+{
+  "description": "Sums of 4 distinct primorials.",
+  "id": "A177709",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006862",
+    "A038609",
+    "A124867",
+    "A177689",
+    "A177697",
+    "A177708"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Rectangular array with ten rows, read by falling antidiagonals: row k gives positions of k in the decimal expansion (A000796) of Pi.",
+  "id": "A349551",
+  "mentions": [
+    "A000796",
+    "A014976",
+    "A032445",
+    "A053745",
+    "A053746",
+    "A053747",
+    "A053748",
+    "A053749",
+    "A053750",
+    "A053751",
+    "A053752",
+    "A053753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

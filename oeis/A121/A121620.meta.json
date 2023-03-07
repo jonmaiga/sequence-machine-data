@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime of the form k^p - (k-1)^p, where p = prime(n).",
+  "id": "A121620",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A004144",
+    "A022521",
+    "A022523",
+    "A121616",
+    "A121617",
+    "A121618",
+    "A121619"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

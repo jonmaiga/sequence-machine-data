@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers y such that y^2 is of the form x^2+(x+191)^2 with integer x.",
+  "id": "A161487",
+  "mentions": [
+    "A001653",
+    "A156035",
+    "A161486",
+    "A161488",
+    "A161489"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:41:09",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

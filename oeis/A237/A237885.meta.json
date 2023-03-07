@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways that 4n can be written as p+q (p>q) with p, q, (p-q)/2, 4n-(p-q)/2 all prime numbers.",
+  "id": "A237885",
+  "mentions": [
+    "A002375",
+    "A354834"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

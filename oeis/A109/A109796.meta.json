@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = prime(1^4) + prime(2^4) + ... + prime(n^4).",
+  "id": "A109796",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000583",
+    "A011757",
+    "A109724",
+    "A109770",
+    "A109791"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

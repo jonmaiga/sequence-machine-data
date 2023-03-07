@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that in the prime power factorization of k! at least the first n positive exponents are even.",
+  "id": "A240620",
+  "mentions": [
+    "A240537",
+    "A240606",
+    "A240619"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

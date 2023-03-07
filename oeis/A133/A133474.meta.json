@@ -1,0 +1,22 @@
+{
+  "description": "Inverse binomial transform of (A113405 preceded by 0).",
+  "id": "A133474",
+  "mentions": [
+    "A047790",
+    "A057083",
+    "A113405",
+    "A131571"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

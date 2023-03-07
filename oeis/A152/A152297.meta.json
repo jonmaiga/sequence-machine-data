@@ -1,0 +1,22 @@
+{
+  "description": "Alternate binomial partial sums of binomial(2n,n)*binomial(3n,n) (A006480).",
+  "id": "A152297",
+  "mentions": [
+    "A006480",
+    "A188441",
+    "A188918",
+    "A188946"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:25:46",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

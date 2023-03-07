@@ -1,0 +1,34 @@
+{
+  "description": "Fourth 4-dimensional hyper-tetrahedral coordinate; 4-D analog of A056558.",
+  "id": "A127324",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A002262",
+    "A055462",
+    "A056556",
+    "A056557",
+    "A056558",
+    "A127321",
+    "A127322",
+    "A127323",
+    "A127325",
+    "A127326",
+    "A127327",
+    "A194882",
+    "A194883",
+    "A194884"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

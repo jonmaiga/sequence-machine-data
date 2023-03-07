@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes with longest path having k nodes, (1 <= k <= n).",
+  "id": "A309524",
+  "mentions": [
+    "A001349",
+    "A057864",
+    "A307457",
+    "A325455"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

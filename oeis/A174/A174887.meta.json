@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that sum of cubes of their digits > m.",
+  "id": "A174887",
+  "mentions": [
+    "A055012"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

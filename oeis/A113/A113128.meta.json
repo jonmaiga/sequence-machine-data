@@ -1,0 +1,21 @@
+{
+  "description": "A simple 4-diagonal matrix based on (1+x)^3.",
+  "id": "A113128",
+  "mentions": [
+    "A005408",
+    "A086570"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

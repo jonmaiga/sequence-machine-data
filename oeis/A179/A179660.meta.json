@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the primes < n*10^8.",
+  "id": "A179660",
+  "mentions": [
+    "A046731",
+    "A145065",
+    "A178221",
+    "A179649"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

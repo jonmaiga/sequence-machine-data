@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the constant that appears in the asymptotic formula for average order of the infinitary divisors sum function (A049417).",
+  "id": "A327574",
+  "mentions": [
+    "A013661",
+    "A049417",
+    "A050376",
+    "A275480",
+    "A306633",
+    "A307160",
+    "A327566"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

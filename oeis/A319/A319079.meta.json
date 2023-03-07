@@ -1,0 +1,27 @@
+{
+  "description": "Number of connected antichains of sets whose multiset union is an integer partition of n.",
+  "id": "A319079",
+  "mentions": [
+    "A001970",
+    "A007718",
+    "A048143",
+    "A056156",
+    "A089259",
+    "A319719",
+    "A320351",
+    "A320353",
+    "A320355",
+    "A320356"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

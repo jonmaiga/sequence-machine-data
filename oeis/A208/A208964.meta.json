@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-bead necklaces labeled with numbers -2..2 allowing reversal, with sum zero and first and second differences in -2..2.",
+  "id": "A208964",
+  "mentions": [
+    "A208970"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

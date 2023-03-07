@@ -1,0 +1,30 @@
+{
+  "description": "Smallest m such that prime(m) starts a symmetric n-tuple of consecutive primes of the smallest span (=A266676(n)).",
+  "id": "A266585",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A055380",
+    "A065688",
+    "A175309",
+    "A261323",
+    "A261324",
+    "A266511",
+    "A266512",
+    "A266583",
+    "A266584",
+    "A266676"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

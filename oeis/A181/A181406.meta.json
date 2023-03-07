@@ -1,0 +1,18 @@
+{
+  "description": "Symbolic sequence at the accumulation point of the 3*2^{k} supercycles of unimodal maps.",
+  "id": "A181406",
+  "mentions": [
+    "A035263"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

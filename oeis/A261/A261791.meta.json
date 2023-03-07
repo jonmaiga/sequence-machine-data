@@ -1,0 +1,22 @@
+{
+  "description": "The integer part of the surface area of the 4-dimensional sphere of radius n.",
+  "id": "A261791",
+  "mentions": [
+    "A000578",
+    "A038130",
+    "A066644",
+    "A164102",
+    "A210519"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

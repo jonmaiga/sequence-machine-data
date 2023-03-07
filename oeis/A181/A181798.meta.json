@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A181797 arranged in ascending order.",
+  "id": "A181798",
+  "mentions": [
+    "A003557",
+    "A013661",
+    "A181797",
+    "A181799"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

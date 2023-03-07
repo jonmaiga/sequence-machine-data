@@ -1,0 +1,26 @@
+{
+  "description": "Positions of records in A227872, i.e., integers whose number of odious divisors sets a new record.",
+  "id": "A355969",
+  "mentions": [
+    "A000069",
+    "A093036",
+    "A093037",
+    "A093696",
+    "A227872",
+    "A330289",
+    "A330815",
+    "A340549",
+    "A355968"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Mutually-praising pairs excluding autobiographical numbers A046043. Version 1: both numbers in a pair have at most 10 digits.",
+  "id": "A138481",
+  "mentions": [
+    "A046043",
+    "A138482"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

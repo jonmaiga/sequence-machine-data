@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n that have no divisor d > 1 such that A048720(A065621(d),n/d) = n.",
+  "id": "A325570",
+  "mentions": [
+    "A005408",
+    "A048720",
+    "A065091",
+    "A065621",
+    "A115872",
+    "A115873",
+    "A325565",
+    "A325566",
+    "A325571",
+    "A325572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

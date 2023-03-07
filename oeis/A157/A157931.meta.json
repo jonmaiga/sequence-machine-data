@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are both the sum and the product of two primes.",
+  "id": "A157931",
+  "mentions": [
+    "A001358",
+    "A005843",
+    "A014091",
+    "A043326",
+    "A052147",
+    "A062721",
+    "A064911",
+    "A100962"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

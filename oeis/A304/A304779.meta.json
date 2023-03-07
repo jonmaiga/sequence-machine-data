@@ -1,0 +1,33 @@
+{
+  "description": "The \"rootless\" zeta function. Dirichlet inverse of the function defined by r(n) = (-1)^Omega(n) if n is 1 or not a perfect power and r(n) = 0 otherwise.",
+  "id": "A304779",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A001597",
+    "A005117",
+    "A007916",
+    "A008683",
+    "A008966",
+    "A091050",
+    "A126706",
+    "A303554",
+    "A304326",
+    "A304362",
+    "A304819"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

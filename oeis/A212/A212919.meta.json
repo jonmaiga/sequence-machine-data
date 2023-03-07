@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = x^3 - x + Series_Reversion(x - x*A(x)).",
+  "id": "A212919",
+  "mentions": [
+    "A002293",
+    "A088714",
+    "A212910"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 3,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

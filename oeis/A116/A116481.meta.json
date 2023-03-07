@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n-th prime larger than n^n.",
+  "id": "A116481",
+  "mentions": [
+    "A098682"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

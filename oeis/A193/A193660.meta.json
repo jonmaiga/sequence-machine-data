@@ -1,0 +1,19 @@
+{
+  "description": "Q-residue of the triangle A038207 of coefficients of (x+2)^n, where Q is the triangle given by t(i,j)=1 for 0<=i<=j. (See Comments.)",
+  "id": "A193660",
+  "mentions": [
+    "A038207",
+    "A126443",
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

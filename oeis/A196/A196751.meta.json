@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 8*Pi^4/729.",
+  "id": "A196751",
+  "mentions": [
+    "A011655",
+    "A092425"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

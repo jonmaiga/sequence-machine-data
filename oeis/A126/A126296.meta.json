@@ -1,0 +1,22 @@
+{
+  "description": "Maximum cycle size in range [A014137(n-1)..A014138(n-1)] of permutation A125987/A125988.",
+  "id": "A126296",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A125987",
+    "A125988",
+    "A126292"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

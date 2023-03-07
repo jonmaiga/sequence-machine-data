@@ -1,0 +1,20 @@
+{
+  "description": "Discriminant D of real quadratic number field Q(sqrt(D)) associated with fundamental discriminant d = A003658(n).",
+  "id": "A306300",
+  "mentions": [
+    "A003658",
+    "A007913",
+    "A008833"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

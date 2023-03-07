@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of Sum_{i=1..n}(A285388(i)*A285389(i+1))/((A285388(i+1)*A285389(i)).",
+  "id": "A286179",
+  "mentions": [
+    "A285388",
+    "A285389",
+    "A286178"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

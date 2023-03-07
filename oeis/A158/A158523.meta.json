@@ -1,0 +1,32 @@
+{
+  "description": "Moebius transform of negated primes in factorization of n.",
+  "id": "A158523",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000040",
+    "A000961",
+    "A001222",
+    "A001615",
+    "A006881",
+    "A007427",
+    "A007428",
+    "A008683",
+    "A048250",
+    "A061019",
+    "A061020",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=(v(2*n+2)-v(2*n))/2 where v(n)=A156253(n)-A156251(n).",
+  "id": "A156729",
+  "mentions": [
+    "A054354",
+    "A156251",
+    "A156253"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

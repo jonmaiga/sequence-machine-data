@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of matchings (i.e., Hosoya index) in the stacked prism graph C_m X P_n.",
+  "id": "A287428",
+  "mentions": [
+    "A028420",
+    "A033515",
+    "A033516",
+    "A033517",
+    "A033518",
+    "A033519",
+    "A033525",
+    "A088132",
+    "A102080",
+    "A102090",
+    "A270227",
+    "A270246"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

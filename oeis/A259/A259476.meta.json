@@ -1,0 +1,23 @@
+{
+  "description": "Cayley's triangle of V numbers; triangle V(n,k), n >= 4, n <= k <= 2*n-4, read by rows.",
+  "id": "A259476",
+  "mentions": [
+    "A002057",
+    "A002058",
+    "A002059",
+    "A002060",
+    "A065096"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 4,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Copies of 3 and 7 alternately such that every partial concatenation is a prime.",
+  "id": "A110778",
+  "mentions": [
+    "A110774",
+    "A110775",
+    "A110776",
+    "A110777",
+    "A112534"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

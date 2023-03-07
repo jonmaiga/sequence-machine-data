@@ -1,0 +1,21 @@
+{
+  "description": "An enumeration of all sorted k-tuples containing positive integers.",
+  "id": "A229874",
+  "mentions": [
+    "A001057",
+    "A124736",
+    "A229873",
+    "A229897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Matula-Goebel numbers of fully unbalanced rooted trees.",
+  "id": "A297571",
+  "mentions": [
+    "A000081",
+    "A003238",
+    "A004111",
+    "A007097",
+    "A032305",
+    "A061775",
+    "A214577",
+    "A273873",
+    "A276625",
+    "A277098",
+    "A290689",
+    "A290760",
+    "A291441",
+    "A291442",
+    "A291443"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

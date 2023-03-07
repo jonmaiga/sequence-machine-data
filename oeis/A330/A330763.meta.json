@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of series-reduced rooted trees whose leaves are sets of colors with a total of n elements using exactly k colors.",
+  "id": "A330763",
+  "mentions": [
+    "A000669",
+    "A005804",
+    "A330762",
+    "A330764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

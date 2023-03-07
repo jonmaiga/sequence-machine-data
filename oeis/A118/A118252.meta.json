@@ -1,0 +1,21 @@
+{
+  "description": "The least positive integer whose reversed binary representation does not occur in the concatenation of the reversed binary representations of all preceding terms.",
+  "id": "A118252",
+  "mentions": [
+    "A118248",
+    "A118250",
+    "A118251",
+    "A190896"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

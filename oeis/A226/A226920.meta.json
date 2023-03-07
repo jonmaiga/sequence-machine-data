@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of completely symmetric polynomials of degree k up to momentum conservation for n particles (n >= 4, k >= 0).",
+  "id": "A226920",
+  "mentions": [
+    "A226919"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 4,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

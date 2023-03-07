@@ -1,0 +1,20 @@
+{
+  "description": "Primitive prime factors of the cyclotomic polynomial sequence Phi(8,k) in the order in which they occur.",
+  "id": "A256145",
+  "mentions": [
+    "A005529",
+    "A096171",
+    "A248874",
+    "A256144"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

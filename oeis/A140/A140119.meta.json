@@ -1,0 +1,20 @@
+{
+  "description": "Extrapolation for (n + 1)-st prime made by fitting least-degree polynomial to first n primes.",
+  "id": "A140119",
+  "mentions": [
+    "A082594",
+    "A095195",
+    "A140118"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

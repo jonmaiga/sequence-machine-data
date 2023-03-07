@@ -1,0 +1,31 @@
+{
+  "description": "0 followed by the numerators of the reduced (A001803(n) + A001790(n)) / (2*A046161(n)).",
+  "id": "A206771",
+  "mentions": [
+    "A000108",
+    "A000265",
+    "A001790",
+    "A001803",
+    "A046161",
+    "A061549",
+    "A084623",
+    "A098597",
+    "A146535",
+    "A161200",
+    "A181318",
+    "A187791",
+    "A191871"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

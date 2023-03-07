@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of least splitting rational of s(n) and s(n+1), where s(n) = 1/sqrt(1) + 1/sqrt(2) + ... + 1/sqrt(n).",
+  "id": "A227688",
+  "mentions": [
+    "A227631",
+    "A227687"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

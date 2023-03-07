@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows. The first column is A000217(n+1). From the second row we apply - A002262(n) for the following terms of the row.",
+  "id": "A271668",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A002260",
+    "A002262",
+    "A005408",
+    "A005563",
+    "A049780",
+    "A084990",
+    "A094728",
+    "A120070",
+    "A158405",
+    "A158894"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

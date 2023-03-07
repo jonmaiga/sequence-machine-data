@@ -1,0 +1,24 @@
+{
+  "description": "Sum of unitary proper divisors of A228058(n): a(n) = A034460(A228058(n)).",
+  "id": "A325823",
+  "mentions": [
+    "A034448",
+    "A034460",
+    "A228058",
+    "A325319",
+    "A325320",
+    "A325379",
+    "A325824"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

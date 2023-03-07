@@ -1,0 +1,17 @@
+{
+  "description": "Minimum k>0 such that Sum[ Fibonacci[i]*k^(i-1), {i,1,n} ] is prime.",
+  "id": "A121927",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the Fabius function F(1/2^n).",
+  "id": "A272755",
+  "mentions": [
+    "A272343",
+    "A272757"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

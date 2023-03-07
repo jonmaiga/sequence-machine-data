@@ -1,0 +1,25 @@
+{
+  "description": "The number of non-equivalent distinguishing colorings of the cycle on n vertices with at most k colors (k>=1). The cycle graph is defined for n>=3; extended to n=1,2 using the closed form. Square array read by descending antidiagonals: the rows are indexed by n, the number of vertices of the cycle and the columns are indexed by k, the number of permissible colors.",
+  "id": "A309528",
+  "mentions": [
+    "A032239",
+    "A032240",
+    "A032241",
+    "A032242",
+    "A074650",
+    "A284856",
+    "A293496"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of entries of length n in A240602.",
+  "id": "A243036",
+  "mentions": [
+    "A000120",
+    "A048896",
+    "A240602",
+    "A243035"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:53",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

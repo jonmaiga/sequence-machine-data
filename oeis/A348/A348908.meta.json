@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the positive real root of x^4 - 3*x - 6.",
+  "id": "A348908",
+  "mentions": [
+    "A020985",
+    "A020987",
+    "A348909"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

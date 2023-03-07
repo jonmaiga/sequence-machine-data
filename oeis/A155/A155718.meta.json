@@ -1,0 +1,20 @@
+{
+  "description": "Symmetrical form of A039683 using polynomials: p(x,n)=Product[x - (2*i), {i, 0, Floor[n/2]}]/x; t(n,m)=coefficients(p(x,n)+x^n*p(1/x,n)); t(n,m)=A039683(n,m)+A039683(n,n-m).",
+  "id": "A155718",
+  "mentions": [
+    "A039683",
+    "A039757"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

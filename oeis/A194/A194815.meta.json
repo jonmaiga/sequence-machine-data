@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers k in [1,n] such that {n*r+k*r} < {n*r-k*r}, where { } = fractional part and r=sqrt(2).",
+  "id": "A194815",
+  "mentions": [
+    "A002193",
+    "A194813",
+    "A194816",
+    "A327177"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

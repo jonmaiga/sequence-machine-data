@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) = A008517(n,k+1)+A008517(n,n+1-k) read by rows.",
+  "id": "A156141",
+  "mentions": [
+    "A001147",
+    "A008517"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

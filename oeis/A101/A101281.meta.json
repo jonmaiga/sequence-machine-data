@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k low humps.",
+  "id": "A101281",
+  "mentions": [
+    "A006318",
+    "A089387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

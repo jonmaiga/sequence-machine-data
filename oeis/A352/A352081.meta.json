@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form k*p^k, where k>1 and p is a prime.",
+  "id": "A352081",
+  "mentions": [
+    "A001620",
+    "A036289",
+    "A036290",
+    "A036291",
+    "A036293",
+    "A073113",
+    "A077761",
+    "A079704",
+    "A100042",
+    "A104126",
+    "A143524"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

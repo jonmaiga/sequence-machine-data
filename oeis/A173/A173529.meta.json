@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 + A053830(n-1), where A053830 is the sum of the digits of its argument in base 9.",
+  "id": "A173529",
+  "mentions": [
+    "A000120",
+    "A053830",
+    "A063787",
+    "A173523",
+    "A173524",
+    "A173525",
+    "A173526",
+    "A173527",
+    "A173528"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

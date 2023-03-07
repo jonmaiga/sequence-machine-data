@@ -1,0 +1,17 @@
+{
+  "description": "Number of uniform polyhedra with 2n vertices.",
+  "id": "A128914",
+  "mentions": [
+    "A128114"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

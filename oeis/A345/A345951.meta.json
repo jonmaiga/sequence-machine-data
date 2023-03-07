@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A002034(n), the smallest positive integer k such that n divides k!, is larger than A006530(n), the greatest prime factor of n, otherwise 0.",
+  "id": "A345951",
+  "mentions": [
+    "A000142",
+    "A002034",
+    "A006530",
+    "A057109",
+    "A345940",
+    "A345952"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

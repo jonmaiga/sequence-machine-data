@@ -1,0 +1,19 @@
+{
+  "description": "Tree R defined as the subtree of A257242 tree made of all shortest walks.",
+  "id": "A257243",
+  "mentions": [
+    "A000045",
+    "A257242"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

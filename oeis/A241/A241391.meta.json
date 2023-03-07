@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p of n such that the number of distinct parts is a part or max(p) - min(p) is a part.",
+  "id": "A241391",
+  "mentions": [
+    "A000041",
+    "A241387",
+    "A241388",
+    "A241389",
+    "A241390"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

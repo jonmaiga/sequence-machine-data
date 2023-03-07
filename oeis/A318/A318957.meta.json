@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A194113(k) is a prime.",
+  "id": "A318957",
+  "mentions": [
+    "A194113"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of iterations of the map k -> A048050(k) to reach zero. If we never reach 0, then a(n) = -1. A048050 gives the sum of proper divisors of k, excluding both 1 and n from the sum.",
+  "id": "A153024",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A048050",
+    "A153023"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

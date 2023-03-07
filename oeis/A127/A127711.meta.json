@@ -1,0 +1,18 @@
+{
+  "description": "Inverse of the triangle A(n,k) = 1/F(n+1) if k <= n <= 2k, 0 otherwise.",
+  "id": "A127711",
+  "mentions": [
+    "A127712"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

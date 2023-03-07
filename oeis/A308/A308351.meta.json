@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 2, a(n) = n*u(n-1) + n*(n-1)*u(n-2), where u = A292932; a(1)=1.",
+  "id": "A308351",
+  "mentions": [
+    "A292932",
+    "A292933"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

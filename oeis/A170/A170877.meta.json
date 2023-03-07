@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary words of length n with properties that there is no pair of adjacent 1's and no subword of the form X^4 for any string X.",
+  "id": "A170877",
+  "mentions": [
+    "A003410",
+    "A028445",
+    "A135491"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

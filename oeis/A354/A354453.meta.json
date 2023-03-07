@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers on a square spiral such that any 2 X 2 square of numbers sums to a prime, and that prime is unique for all such squares. Start with a(1) = 0.",
+  "id": "A354453",
+  "mentions": [
+    "A000040",
+    "A257339",
+    "A337116",
+    "A354434",
+    "A354441",
+    "A354460"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

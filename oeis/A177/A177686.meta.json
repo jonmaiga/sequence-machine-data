@@ -1,0 +1,23 @@
+{
+  "description": "If a1a2a3 is a 3-digit integer in a concatenated form, we define two permutations of its digits as follows: P1(a1a2a3)=a2a3a1 and P2(a1a2a3)=a1a3a2, then we take the absolute value of their difference. Thus we form a sequence: a1a2a3, abs(P1(a1a2a3)-P2(a1a2a3)), and so on.",
+  "id": "A177686",
+  "mentions": [
+    "A090429",
+    "A099010"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

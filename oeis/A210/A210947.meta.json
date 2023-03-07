@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = total number of parts <= k of all partitions of n.",
+  "id": "A210947",
+  "mentions": [
+    "A000070",
+    "A006128",
+    "A066633",
+    "A181187",
+    "A206563",
+    "A210948",
+    "A210955"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

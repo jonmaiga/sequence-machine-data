@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1<=k<=n) = (r(n+k)-r(k))/(2*n), where {r(i), i>=1} is the n-th row of array A347684.",
+  "id": "A347687",
+  "mentions": [
+    "A347681",
+    "A347682",
+    "A347683",
+    "A347684"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

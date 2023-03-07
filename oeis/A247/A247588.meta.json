@@ -1,0 +1,24 @@
+{
+  "description": "Number of integer-sided acute triangles with largest side n.",
+  "id": "A247588",
+  "mentions": [
+    "A000328",
+    "A002623",
+    "A046080",
+    "A224921",
+    "A247586",
+    "A247587",
+    "A247589"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

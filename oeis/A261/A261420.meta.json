@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of coefficients in Taylor series expansion of sqrt( 1 + Sum_{k>=1} (k*(k+1)/2)*x^k ).",
+  "id": "A261420",
+  "mentions": [
+    "A046161"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

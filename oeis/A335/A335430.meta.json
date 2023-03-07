@@ -1,0 +1,24 @@
+{
+  "description": "Square array where row n lists all numbers k for which A331410(k) = n, read by falling antidiagonals.",
+  "id": "A335430",
+  "mentions": [
+    "A000079",
+    "A329662",
+    "A331410",
+    "A334100",
+    "A335431",
+    "A335882",
+    "A335910"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

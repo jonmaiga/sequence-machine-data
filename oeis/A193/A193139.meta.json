@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetric satins of order n.",
+  "id": "A193139",
+  "mentions": [
+    "A157230",
+    "A193138",
+    "A193140"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 118,
+    "source": "oeis-entry"
+  }
+}

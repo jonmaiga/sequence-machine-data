@@ -1,0 +1,17 @@
+{
+  "description": "exp( Sum_{n>=1} x^n/G(n) ) = Sum_{n>=0} a(n)*x^n/G(n), where G(n) = Product_{k=0..n} k! = BarnesG(n+2), (see A000178).",
+  "id": "A193440",
+  "mentions": [
+    "A000178"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

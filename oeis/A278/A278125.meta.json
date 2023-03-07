@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 225*2^n - 235.",
+  "id": "A278125",
+  "mentions": [
+    "A278124"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:35:20",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

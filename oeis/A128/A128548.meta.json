@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p*q-p-q and p*q+p+q are prime where q=nextprime(p).",
+  "id": "A128548",
+  "mentions": [
+    "A096342",
+    "A126148",
+    "A128546",
+    "A128547"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

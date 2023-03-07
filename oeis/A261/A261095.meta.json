@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A219640: a(n) = A219640(n+1) - A219640(n).",
+  "id": "A261095",
+  "mentions": [
+    "A219640",
+    "A261093"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

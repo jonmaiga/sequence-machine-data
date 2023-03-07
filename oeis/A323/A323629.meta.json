@@ -1,0 +1,21 @@
+{
+  "description": "List of 6-powerful numbers (for the definition of k-powerful see A323395).",
+  "id": "A323629",
+  "mentions": [
+    "A323395",
+    "A323610",
+    "A323614"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:31",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

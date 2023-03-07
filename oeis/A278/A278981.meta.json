@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the first composite number having the same base-n digits as its prime factors (with multiplicity), excluding zero digits (or 0 if no such composite number exists).",
+  "id": "A278981",
+  "mentions": [
+    "A070689",
+    "A089001",
+    "A115104",
+    "A176670",
+    "A278909",
+    "A279480",
+    "A280270",
+    "A280273"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

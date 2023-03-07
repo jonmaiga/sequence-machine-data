@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges of the root-n Waterman polyhedron of void-center type as defined in A119870.",
+  "id": "A119877",
+  "mentions": [
+    "A119869",
+    "A119870",
+    "A119872",
+    "A119874"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

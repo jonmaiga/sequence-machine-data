@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n into exactly three different parts with distinct multiplicities.",
+  "id": "A246230",
+  "mentions": [
+    "A242896"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 10,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numerators of the second differences of the sequence of fractions (-1)^(n+1)*A176618(n)/A172031(n).",
+  "id": "A195240",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A172031",
+    "A172087",
+    "A176144",
+    "A176150",
+    "A176184",
+    "A176328",
+    "A176591",
+    "A176618",
+    "A181130",
+    "A181131",
+    "A190339"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

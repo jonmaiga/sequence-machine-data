@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the Prime Zeta Function at 3/2.",
+  "id": "A338574",
+  "mentions": [
+    "A010532",
+    "A020765",
+    "A020784",
+    "A085548"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

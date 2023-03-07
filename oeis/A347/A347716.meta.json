@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 4 cubes.",
+  "id": "A347716",
+  "mentions": [
+    "A000578",
+    "A023358",
+    "A340977",
+    "A347714",
+    "A347715"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows, where T(n,k) is the number of almost distinct partitions of n in which every part is <= k for 1 <= k <= n.",
+  "id": "A318806",
+  "mentions": [
+    "A000009",
+    "A008302",
+    "A026820"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

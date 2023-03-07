@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = C(2^k + n-k-1, n-k).",
+  "id": "A137153",
+  "mentions": [
+    "A060690",
+    "A137154",
+    "A137155",
+    "A137156"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

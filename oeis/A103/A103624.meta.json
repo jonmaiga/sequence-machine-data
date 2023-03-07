@@ -1,0 +1,23 @@
+{
+  "description": "Quotient F(n(n+1))/{F(n)*F(n+1)}, where F(n) is the n-th Fibonacci number A000045(n).",
+  "id": "A103624",
+  "mentions": [
+    "A000045",
+    "A028412",
+    "A037943",
+    "A051294",
+    "A205505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

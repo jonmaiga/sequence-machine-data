@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(p, n) of values of |J_p(n)|, i.e., cardinality of the set J_p(n), read by rows.",
+  "id": "A272722",
+  "mentions": [
+    "A272723",
+    "A272724",
+    "A272725",
+    "A272726"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

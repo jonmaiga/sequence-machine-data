@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n, n + 1, n + 2, n + 3 and n + 4 are products of exactly three primes.",
+  "id": "A268588",
+  "mentions": [
+    "A045941",
+    "A056809",
+    "A113789",
+    "A124057"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

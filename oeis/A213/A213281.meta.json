@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x/A(-x)^3.",
+  "id": "A213281",
+  "mentions": [
+    "A001764",
+    "A213252",
+    "A213282",
+    "A213335"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Dimension of totally primitive elements of the algebra \"Baxter\" of order n.",
+  "id": "A217217",
+  "mentions": [
+    "A001181"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

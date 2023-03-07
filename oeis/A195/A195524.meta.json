@@ -1,0 +1,18 @@
+{
+  "description": "Number of lower triangles of a 6X6 -n..n array with all row and column sums zero",
+  "id": "A195524",
+  "mentions": [
+    "A195522"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

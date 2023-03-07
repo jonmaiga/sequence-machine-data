@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 0; for n >= 2, a(n) is the number of iterations needed for the map x -> A000203(x)/A000005(x) to reach a number that is not an integer, when starting from x = n.",
+  "id": "A342718",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A019294",
+    "A049642"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{k>=0} x^((2*k+1)^3)).",
+  "id": "A280865",
+  "mentions": [
+    "A000578",
+    "A003108",
+    "A016755",
+    "A023358",
+    "A078128",
+    "A279329",
+    "A280130"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

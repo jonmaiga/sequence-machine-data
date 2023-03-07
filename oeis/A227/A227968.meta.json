@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of the (p_n+1)/2 X (p_n+1)/2 matrix with (i,j)-entry (i,j=0,...,(p_n-1)/2) equal to the Legendre symbol((i^2+j^2)/p_n), where p_n is the n-th prime.",
+  "id": "A227968",
+  "mentions": [
+    "A227609",
+    "A227971"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

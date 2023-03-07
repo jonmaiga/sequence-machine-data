@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p and prime(p) have an odd largest digit.",
+  "id": "A155489",
+  "mentions": [
+    "A000040",
+    "A155058"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

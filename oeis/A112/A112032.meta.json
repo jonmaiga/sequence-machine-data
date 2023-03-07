@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of 3/4 + 1/4 - 3/8 - 1/8 + 3/16 + 1/16 - 3/32 - 1/32 + 3/64 ...",
+  "id": "A112032",
+  "mentions": [
+    "A016116",
+    "A084964",
+    "A112030",
+    "A112031",
+    "A112033"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

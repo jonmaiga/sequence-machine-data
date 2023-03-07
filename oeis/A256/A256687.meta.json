@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the [negated] abscissa of the Gamma function local minimum in the interval [-10,-9].",
+  "id": "A256687",
+  "mentions": [
+    "A030169",
+    "A030171",
+    "A175472",
+    "A175473",
+    "A256681",
+    "A256686"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

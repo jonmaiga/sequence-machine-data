@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n^4 into fourth powers > 1.",
+  "id": "A298989",
+  "mentions": [
+    "A000583",
+    "A046042",
+    "A092362",
+    "A259793",
+    "A298641",
+    "A298859"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

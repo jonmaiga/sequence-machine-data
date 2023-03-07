@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Fibonacci binary words of length n and having k 010 subwords (n>=0, 0<=k<=floor((n-1)/2)). A Fibonacci binary word is a binary word having no 00 subword.",
+  "id": "A129708",
+  "mentions": [
+    "A000045",
+    "A000930",
+    "A001629"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

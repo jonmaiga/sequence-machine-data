@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Stirling transform of odd primes.",
+  "id": "A354002",
+  "mentions": [
+    "A065091",
+    "A307772",
+    "A307773",
+    "A353406",
+    "A354003"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

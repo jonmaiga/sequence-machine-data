@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of solid standard Young tableaux of n cells and height <= k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A215086",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000085",
+    "A057427",
+    "A207542",
+    "A214753",
+    "A215087",
+    "A320180",
+    "A320181",
+    "A320182",
+    "A320183",
+    "A320184",
+    "A320185",
+    "A320186",
+    "A320187"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

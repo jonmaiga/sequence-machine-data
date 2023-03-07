@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = product of first k composites, with the i-th composite raised to the d-th power, where k = A055642(n) and d is the i-th digit of n.",
+  "id": "A270142",
+  "mentions": [
+    "A002808",
+    "A055642",
+    "A189398",
+    "A246532"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

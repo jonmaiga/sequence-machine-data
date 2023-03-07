@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. a(n) = sum a(k), where k, taken over the runs (of both 0's and 1's) in binary n, equals the length of each run.",
+  "id": "A175453",
+  "mentions": [
+    "A101211"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least semiprime of a cluster of just n semiprimes.",
+  "id": "A112888",
+  "mentions": [
+    "A001358",
+    "A082919",
+    "A097824"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as w^4 + x^2 + y^2 + z^2, where w, x, y and z are nonnegative integers with x <= y <= z.",
+  "id": "A270969",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A262827",
+    "A270516",
+    "A270533",
+    "A270559",
+    "A270566"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

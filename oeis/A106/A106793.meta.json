@@ -1,0 +1,19 @@
+{
+  "description": "Number of words (over an alphabet of size 26) of length n with all different letters.",
+  "id": "A106793",
+  "mentions": [
+    "A106710"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:03",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

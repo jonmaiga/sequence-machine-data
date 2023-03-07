@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: R(n,k)= semiprime(n) mod semiprime(k), 0",
+  "id": "A173662",
+  "mentions": [
+    "A001358",
+    "A173655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

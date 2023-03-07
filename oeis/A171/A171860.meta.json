@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-cell fixed polycubes that are proper in n-2 dimensions.",
+  "id": "A171860",
+  "mentions": [
+    "A036364",
+    "A127670",
+    "A191092",
+    "A195739"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

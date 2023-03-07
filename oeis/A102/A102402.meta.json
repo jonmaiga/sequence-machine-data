@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n having k ascents of length 2.",
+  "id": "A102402",
+  "mentions": [
+    "A000108",
+    "A102403"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

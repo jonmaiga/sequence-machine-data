@@ -1,0 +1,18 @@
+{
+  "description": "Total number of permutations p of [k] such that n is the maximum of the partial sums of the signed up-down jump sequence of 0,p summed over all k >= 0.",
+  "id": "A316294",
+  "mentions": [
+    "A316292",
+    "A316293"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of disconnected 2-regular simple graphs on n vertices with girth at least 5.",
+  "id": "A185225",
+  "mentions": [
+    "A165652",
+    "A185224",
+    "A185226",
+    "A185227",
+    "A185228",
+    "A185229"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

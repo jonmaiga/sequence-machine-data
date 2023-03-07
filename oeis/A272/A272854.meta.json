@@ -1,0 +1,23 @@
+{
+  "description": "Ramanujan's beta-series.",
+  "id": "A272854",
+  "mentions": [
+    "A051028",
+    "A051029",
+    "A051030",
+    "A272853",
+    "A272855"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Range of values of A168266.",
+  "id": "A168267",
+  "mentions": [
+    "A002182",
+    "A140999",
+    "A168264",
+    "A168265",
+    "A168266"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of placing n balls into boxes 1,2,... in such a way that any two adjacent boxes contain at least 4 balls.",
+  "id": "A257666",
+  "mentions": [
+    "A259975"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

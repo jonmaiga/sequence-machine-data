@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, of coefficients in powers of e.g.f. for A100076 such that, for each row n>=0, Sum_{k=0..n} T(n,k)/k! = [sqrt(5)^n].",
+  "id": "A100075",
+  "mentions": [
+    "A100064",
+    "A100076"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

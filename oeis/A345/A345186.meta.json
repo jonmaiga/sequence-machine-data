@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of five third powers in exactly nine ways.",
+  "id": "A345186",
+  "mentions": [
+    "A294743",
+    "A341892",
+    "A345154",
+    "A345184",
+    "A345185",
+    "A345188",
+    "A345771"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

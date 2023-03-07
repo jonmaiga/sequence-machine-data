@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the perimeter of the convex hull around the R5 dragon fractal.",
+  "id": "A349010",
+  "mentions": [
+    "A349009"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

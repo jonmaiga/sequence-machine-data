@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(row,col): A(row,1) = A276155(row), and for col > 1, A(row,col) = A276154(A(row,col-1)); Dispersion of primorial base left shift A276154.",
+  "id": "A276945",
+  "mentions": [
+    "A002110",
+    "A002260",
+    "A004736",
+    "A088860",
+    "A276154",
+    "A276155",
+    "A276939",
+    "A276943",
+    "A276946",
+    "A276955",
+    "A286615",
+    "A286625"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

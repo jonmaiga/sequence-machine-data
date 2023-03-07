@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that Sum_{k=PreviousPrime(p)..p} d(k) = Sum_{k=p..NextPrime(p)} d(k), where d(k) is the number of divisors function A000005.",
+  "id": "A353552",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A133760",
+    "A353553",
+    "A353554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

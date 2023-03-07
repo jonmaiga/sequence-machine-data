@@ -1,0 +1,20 @@
+{
+  "description": "Initial terms associated with the arithmetic progressions of primes of A354376.",
+  "id": "A354377",
+  "mentions": [
+    "A006560",
+    "A113827",
+    "A354376"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

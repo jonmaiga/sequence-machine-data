@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer q >= 1 such that difference between q*e and the nearest integer is <= 1/n.",
+  "id": "A108688",
+  "mentions": [
+    "A007677",
+    "A105960"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

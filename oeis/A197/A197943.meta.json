@@ -1,0 +1,20 @@
+{
+  "description": "Greatest residue of x^(n-1) (mod n), x=0..n-1.",
+  "id": "A197943",
+  "mentions": [
+    "A196082",
+    "A197929",
+    "A197930"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

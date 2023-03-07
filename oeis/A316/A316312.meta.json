@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the sum of the digits of the numbers 1, 2, 3, ... up to (k - 1) is divisible by k.",
+  "id": "A316312",
+  "mentions": [
+    "A007908",
+    "A007953",
+    "A037123",
+    "A110740",
+    "A114136"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

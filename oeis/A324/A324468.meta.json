@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = r(n) + r(n+1) + r(n+2), where r(n) is the ruler sequence A007814.",
+  "id": "A324468",
+  "mentions": [
+    "A001511",
+    "A007814",
+    "A050603",
+    "A324465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

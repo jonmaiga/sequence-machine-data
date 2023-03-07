@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose consecutive prime indices are not all divisible.",
+  "id": "A318992",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A008480",
+    "A289509",
+    "A300912",
+    "A318990",
+    "A318991",
+    "A318993"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

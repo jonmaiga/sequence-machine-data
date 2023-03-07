@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = first term that can be reduced in n steps via repeated interpretation of a(n) as a base b+1 number where b is the largest digit of a(n), such that b is always 4 so that each interpretation is base 5. Terms already fully reduced (i.e., single digits) are excluded.",
+  "id": "A141838",
+  "mentions": [
+    "A091049",
+    "A141836",
+    "A141837",
+    "A141839",
+    "A141840",
+    "A141841",
+    "A141842"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

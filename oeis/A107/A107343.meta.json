@@ -1,0 +1,18 @@
+{
+  "description": "Values of k(b) for A104536(4); k(b)=a(n).",
+  "id": "A107343",
+  "mentions": [
+    "A104536"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

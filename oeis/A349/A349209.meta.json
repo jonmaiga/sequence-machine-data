@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the maximum of the side lengths of the smallest elements of all simple perfect squared squares of order n.",
+  "id": "A349209",
+  "mentions": [
+    "A006983",
+    "A129947",
+    "A217149",
+    "A228953",
+    "A349205",
+    "A349206",
+    "A349207",
+    "A349208",
+    "A349210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 21,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

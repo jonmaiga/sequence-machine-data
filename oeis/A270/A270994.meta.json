@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 9454129 + 11184810*n.",
+  "id": "A270994",
+  "mentions": [
+    "A076336",
+    "A244561",
+    "A270971",
+    "A270993"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:35:57",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

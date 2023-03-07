@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient of x^2 in the reduction of the polynomial (x+2)^n by x^3->x^2+x+1.",
+  "id": "A192803",
+  "mentions": [
+    "A192232",
+    "A192616",
+    "A192744",
+    "A192798",
+    "A192799",
+    "A192800",
+    "A192801",
+    "A192802"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:58:06",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

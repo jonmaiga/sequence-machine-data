@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-equivalent binary n X n matrices with three pairwise nonadjacent 1's.",
+  "id": "A232568",
+  "mentions": [
+    "A172226",
+    "A232567",
+    "A232569",
+    "A239576"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:29",
+    "offset": 2,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = A023537(n-k), n >= 1, 0 <= k < n, read by rows.",
+  "id": "A104793",
+  "mentions": [
+    "A004736",
+    "A023537",
+    "A027963",
+    "A104765"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

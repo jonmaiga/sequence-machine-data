@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n * Sum_{d|n} sigma(d)^3 / d.",
+  "id": "A344043",
+  "mentions": [
+    "A002117",
+    "A060640",
+    "A226565",
+    "A226566",
+    "A344044"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = B(n,1)*(n+1)# where B(n,x) are the Bernoulli polynomials and n# are the primorial numbers A034386.",
+  "id": "A292899",
+  "mentions": [
+    "A027642",
+    "A034386",
+    "A123536",
+    "A164555"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of partitions of n (using 1 type of part 1, 2 types of part 2, ..., i types of part i, ...) that have exactly k distinct parts.",
+  "id": "A216221",
+  "mentions": [
+    "A000219"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

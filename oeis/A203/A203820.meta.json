@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X3 0..3 arrays with no 2X2 subblock having equal diagonal elements or equal antidiagonal elements",
+  "id": "A203820",
+  "mentions": [
+    "A203826"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

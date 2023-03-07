@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of 4*x/(1 - 4*x - 4*x^2).",
+  "id": "A106568",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A009013",
+    "A028860",
+    "A057087",
+    "A094013",
+    "A106435",
+    "A106565",
+    "A221461",
+    "A221462"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

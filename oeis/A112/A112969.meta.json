@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1)^4 + a(n-2)^4 for n > 2 with a(1) = a(2) = 1.",
+  "id": "A112969",
+  "mentions": [
+    "A000045",
+    "A000283"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

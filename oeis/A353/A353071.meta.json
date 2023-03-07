@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of clicks needed to solve any solvable Lights Out problem on an n X n grid.",
+  "id": "A353071",
+  "mentions": [
+    "A075464",
+    "A159257"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

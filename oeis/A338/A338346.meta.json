@@ -1,0 +1,20 @@
+{
+  "description": "1, followed by first differences of A338340.",
+  "id": "A338346",
+  "mentions": [
+    "A338338",
+    "A338339",
+    "A338340",
+    "A338349"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

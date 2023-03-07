@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (x-1)/8 - (x^2-4*x-1)/(8*sqrt(x^2-6*x+1)).",
+  "id": "A261207",
+  "mentions": [
+    "A010683"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

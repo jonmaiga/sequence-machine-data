@@ -1,0 +1,22 @@
+{
+  "description": "Array of T(n,m)=1*5*...*(4n-3)*3*7*...*(4m-1)*2^(n+m)/(n+m)! by antidiagonals.",
+  "id": "A122882",
+  "mentions": [
+    "A001448",
+    "A004981",
+    "A004982"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

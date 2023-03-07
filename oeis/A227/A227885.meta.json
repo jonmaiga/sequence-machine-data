@@ -1,0 +1,26 @@
+{
+  "description": "Primes in the union of all n-step Lucas sequences.",
+  "id": "A227885",
+  "mentions": [
+    "A000032",
+    "A001644",
+    "A073817",
+    "A074048",
+    "A074584",
+    "A104621",
+    "A105754",
+    "A105755",
+    "A127208"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

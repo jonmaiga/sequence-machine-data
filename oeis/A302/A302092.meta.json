@@ -1,0 +1,23 @@
+{
+  "description": "Product of n-th Bell number and n-th Bell number written backwards.",
+  "id": "A302092",
+  "mentions": [
+    "A000110",
+    "A004098",
+    "A133019",
+    "A133022"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:47:43",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

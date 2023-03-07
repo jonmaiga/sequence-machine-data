@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of Dyck paths of semilength n having exactly k (possibly overlapping) occurrences of the consecutive steps UDUUDU (with U=(1,1), D=(1,-1)); triangle T(n,k), n>=0, 0<=k<=max(0,floor(n/2)-1), read by rows.",
+  "id": "A243366",
+  "mentions": [
+    "A000108",
+    "A093178",
+    "A243412",
+    "A243413",
+    "A243414",
+    "A243415",
+    "A243416",
+    "A243417",
+    "A243418",
+    "A243419",
+    "A243420",
+    "A243421",
+    "A243422",
+    "A243752",
+    "A243753"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

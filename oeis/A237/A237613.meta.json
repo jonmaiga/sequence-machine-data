@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that tau(sigma(tau(k))) = sigma(tau(sigma(k))), where tau is A000005 and sigma is A000203.",
+  "id": "A237613",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A053182"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

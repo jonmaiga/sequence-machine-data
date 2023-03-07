@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = total number of k's in the first n antidiagonals of infinite Sudoku-type array A269526.",
+  "id": "A274534",
+  "mentions": [
+    "A000217",
+    "A269526",
+    "A274528",
+    "A274529"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

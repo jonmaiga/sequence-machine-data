@@ -1,0 +1,35 @@
+{
+  "description": "Number of strict permutations of the prime indices of n.",
+  "id": "A335489",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A008480",
+    "A056239",
+    "A056986",
+    "A102726",
+    "A106356",
+    "A112798",
+    "A238279",
+    "A281188",
+    "A333221",
+    "A335451",
+    "A335452",
+    "A335456",
+    "A335460",
+    "A335462",
+    "A335465",
+    "A335511"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

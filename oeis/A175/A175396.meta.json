@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose sum of squares of digits is a square.",
+  "id": "A175396",
+  "mentions": [
+    "A084561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of non-isomorphic sets of subsets of {1..n} that are closed under union and intersection.",
+  "id": "A326908",
+  "mentions": [
+    "A000612",
+    "A000798",
+    "A001930",
+    "A003180",
+    "A108798",
+    "A108800",
+    "A193675",
+    "A306445",
+    "A326867",
+    "A326876",
+    "A326878",
+    "A326882",
+    "A326883",
+    "A326898"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

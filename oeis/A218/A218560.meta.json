@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with d distinct ternary digits (d=1,2,3) such that for each k=1,...,d, some digit occurs exactly k times.",
+  "id": "A218560",
+  "mentions": [
+    "A000217",
+    "A167819",
+    "A182040",
+    "A218556",
+    "A218559",
+    "A218566"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

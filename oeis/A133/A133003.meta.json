@@ -1,0 +1,31 @@
+{
+  "description": "Denominators of Blandin-Diaz compositional Bernoulli numbers (B^S)_1,n.",
+  "id": "A133003",
+  "mentions": [
+    "A132092",
+    "A132093",
+    "A132094",
+    "A132095",
+    "A132096",
+    "A132097",
+    "A132098",
+    "A132099",
+    "A133000",
+    "A133001",
+    "A133002",
+    "A133004",
+    "A133005"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

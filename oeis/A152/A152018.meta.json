@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of 1/n^2-1/(3n)^2 or of 8/(9n^2).",
+  "id": "A152018",
+  "mentions": [
+    "A000290",
+    "A061038",
+    "A061040",
+    "A061042",
+    "A061044",
+    "A061046",
+    "A061048",
+    "A061050",
+    "A143025",
+    "A291050"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

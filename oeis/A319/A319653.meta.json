@@ -1,0 +1,28 @@
+{
+  "description": "Write n in 5-ary, sort digits into increasing order.",
+  "id": "A319653",
+  "mentions": [
+    "A004185",
+    "A038573",
+    "A038574",
+    "A165032",
+    "A319652",
+    "A319654",
+    "A319655",
+    "A319656",
+    "A319657",
+    "A319722"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

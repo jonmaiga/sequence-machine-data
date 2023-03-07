@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A252867(n) OR A252867(n+1).",
+  "id": "A253582",
+  "mentions": [
+    "A007088",
+    "A252867",
+    "A253581"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

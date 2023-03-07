@@ -1,0 +1,19 @@
+{
+  "description": "Number of 8-step self-avoiding walks on an n X n X n cube summed over all starting positions.",
+  "id": "A187169",
+  "mentions": [
+    "A187162"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:39",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

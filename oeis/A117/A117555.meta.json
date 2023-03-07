@@ -1,0 +1,25 @@
+{
+  "description": "Equal divisions of the octave of decreasing seven-limit Pepper ambiguity.",
+  "id": "A117555",
+  "mentions": [
+    "A005664",
+    "A117536",
+    "A117538",
+    "A117554",
+    "A117556",
+    "A117557",
+    "A117558",
+    "A117559"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

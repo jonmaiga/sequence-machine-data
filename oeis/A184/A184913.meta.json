@@ -1,0 +1,20 @@
+{
+  "description": "n+[rn/s]+[tn/s]+[un/s], where []=floor and r=2^(1/5), s=r^2, t=r^3, u=r^4.",
+  "id": "A184913",
+  "mentions": [
+    "A184812",
+    "A184912",
+    "A184914",
+    "A184915"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:01",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

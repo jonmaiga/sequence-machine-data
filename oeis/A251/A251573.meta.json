@@ -1,0 +1,29 @@
+{
+  "description": "E.g.f.: exp(3*x*G(x)^2) / G(x)^2 where G(x) = 1 + x*G(x)^3 is the g.f. of A001764.",
+  "id": "A251573",
+  "mentions": [
+    "A001764",
+    "A006013",
+    "A243953",
+    "A251574",
+    "A251575",
+    "A251576",
+    "A251577",
+    "A251578",
+    "A251579",
+    "A251580",
+    "A251583",
+    "A251663"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

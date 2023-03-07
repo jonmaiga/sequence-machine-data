@@ -1,0 +1,18 @@
+{
+  "description": "Smallest odd number greater than any previous term such that it divides the concatenation of all the previous terms and itself; begin with 1.",
+  "id": "A228806",
+  "mentions": [
+    "A171785"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

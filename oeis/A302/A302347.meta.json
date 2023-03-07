@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum of (Y(2,p)^2) over the partitions p of n, Y(2,p)= number of part sizes with multiplicity 2 or greater in p",
+  "id": "A302347",
+  "mentions": [
+    "A024786",
+    "A024788",
+    "A302300"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:54:29",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

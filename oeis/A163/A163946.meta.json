@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, A033184 * A091768 (diagonalized as an infinite lower triangular matrix).",
+  "id": "A163946",
+  "mentions": [
+    "A000108",
+    "A033184",
+    "A071721",
+    "A091768"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

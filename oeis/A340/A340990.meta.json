@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the (2n)-th term of the n-fold self-convolution of the primes.",
+  "id": "A340990",
+  "mentions": [
+    "A000040",
+    "A309955",
+    "A340991"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

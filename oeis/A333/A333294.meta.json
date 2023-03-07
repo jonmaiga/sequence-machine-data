@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of triangle in A333282.",
+  "id": "A333294",
+  "mentions": [
+    "A333282"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

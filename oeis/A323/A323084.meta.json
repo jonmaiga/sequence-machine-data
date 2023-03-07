@@ -1,0 +1,21 @@
+{
+  "description": "k-digit numbers whose digit(s) are the number of distinct prime factors (with multiplicity) in each of the following k integers.",
+  "id": "A323084",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A323083"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

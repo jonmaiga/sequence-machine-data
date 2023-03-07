@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n divisible by the least prime >= sqrt(n) which are not in A001248 (primes squared).",
+  "id": "A157937",
+  "mentions": [
+    "A001248",
+    "A006094",
+    "A157936",
+    "A157938",
+    "A157941"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

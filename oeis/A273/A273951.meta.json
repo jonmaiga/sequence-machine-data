@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion the even Bessel moment s(4,0) = Integral_{0..inf} I_0(x) K_0(x)^3 dx.",
+  "id": "A273951",
+  "mentions": [
+    "A222068"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

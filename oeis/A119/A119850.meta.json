@@ -1,0 +1,18 @@
+{
+  "description": "Positions where A119842 is greater than one.",
+  "id": "A119850",
+  "mentions": [
+    "A119842",
+    "A119848"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

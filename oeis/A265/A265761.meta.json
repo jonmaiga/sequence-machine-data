@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of primes-only best approximates (POBAs) to 3/2; see Comments.",
+  "id": "A265761",
+  "mentions": [
+    "A000040",
+    "A104163",
+    "A158708",
+    "A158709",
+    "A158790",
+    "A162336",
+    "A222565",
+    "A265759"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

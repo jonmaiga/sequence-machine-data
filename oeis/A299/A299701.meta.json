@@ -1,0 +1,31 @@
+{
+  "description": "Number of distinct subset-sums of the integer partition with Heinz number n.",
+  "id": "A299701",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000720",
+    "A001222",
+    "A056239",
+    "A108917",
+    "A112798",
+    "A122111",
+    "A122768",
+    "A215366",
+    "A276024",
+    "A284640",
+    "A296150",
+    "A299702"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

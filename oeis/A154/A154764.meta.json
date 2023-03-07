@@ -1,0 +1,19 @@
+{
+  "description": "Primes with exactly one odd decimal digit.",
+  "id": "A154764",
+  "mentions": [
+    "A068690"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

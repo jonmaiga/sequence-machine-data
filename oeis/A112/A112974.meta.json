@@ -1,0 +1,19 @@
+{
+  "description": "Number of superabundant numbers between two consecutive colossally abundant numbers.",
+  "id": "A112974",
+  "mentions": [
+    "A004394",
+    "A004490",
+    "A189228"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

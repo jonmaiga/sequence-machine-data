@@ -1,0 +1,21 @@
+{
+  "description": "Integers k such that k! + 1 is the sum of 2 nonzero squares.",
+  "id": "A264890",
+  "mentions": [
+    "A000404",
+    "A038507",
+    "A264665",
+    "A271186"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

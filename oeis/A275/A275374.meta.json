@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide sigma(k*(k+1)/2).",
+  "id": "A275374",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A074285"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

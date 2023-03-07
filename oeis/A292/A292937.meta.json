@@ -1,0 +1,26 @@
+{
+  "description": "a(0)=1, followed by highly safe primes: positions of records in A292936.",
+  "id": "A292937",
+  "mentions": [
+    "A000040",
+    "A005385",
+    "A007505",
+    "A066174",
+    "A066179",
+    "A110056",
+    "A157358",
+    "A157359",
+    "A292936"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

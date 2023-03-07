@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{i=0..m-1} (1 + x^(4*i+1)) for m = 5.",
+  "id": "A170968",
+  "mentions": [
+    "A169975",
+    "A170966",
+    "A170984"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

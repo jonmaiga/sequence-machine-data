@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-step self-avoiding walks on square lattice plus number of n-step self-avoiding walks on hexagonal [ =triangular ] lattice.",
+  "id": "A177238",
+  "mentions": [
+    "A001334",
+    "A001411"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

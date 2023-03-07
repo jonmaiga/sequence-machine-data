@@ -1,0 +1,18 @@
+{
+  "description": "Agreement numbers: number of n X 2 arrays of the count of horizontal and vertical neighbors equal to the corresponding element in a random 0..3 n X 2 array.",
+  "id": "A220783",
+  "mentions": [
+    "A220786"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

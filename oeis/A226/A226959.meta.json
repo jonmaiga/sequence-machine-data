@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1 and a(n)=prime(n)*lcm(prime(n)-1, a(n-1)) for n > 0.",
+  "id": "A226959",
+  "mentions": [
+    "A002110",
+    "A168264",
+    "A226957"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

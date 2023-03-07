@@ -1,0 +1,20 @@
+{
+  "description": "Number of even numbers k that have n solutions to the equation x' = k, where x' denotes the arithmetic derivative (A003415).",
+  "id": "A189561",
+  "mentions": [
+    "A003415",
+    "A099302",
+    "A189562"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

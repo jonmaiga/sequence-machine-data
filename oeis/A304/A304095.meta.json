@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of the proper divisors of n that are Lucas numbers larger than 3 (4, 7, 11, 18, ...).",
+  "id": "A304095",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A007949",
+    "A102460",
+    "A300836",
+    "A304091",
+    "A304093",
+    "A304096",
+    "A304102"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

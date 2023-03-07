@@ -1,0 +1,24 @@
+{
+  "description": "Sum of -A252748 and its Dirichlet inverse.",
+  "id": "A346250",
+  "mentions": [
+    "A003961",
+    "A252748",
+    "A323911",
+    "A346236",
+    "A346247",
+    "A346248",
+    "A346255"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

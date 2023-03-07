@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of 0..k arrays of length n with each element differing from at least one neighbor by 2 or more, starting with 0",
+  "id": "A221515",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A002061",
+    "A011379"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

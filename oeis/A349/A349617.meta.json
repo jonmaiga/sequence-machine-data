@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of A064664 (the inverse permutation of EKG-permutation) with A055615 (Dirichlet inverse of n).",
+  "id": "A349617",
+  "mentions": [
+    "A000010",
+    "A055615",
+    "A064413",
+    "A064664",
+    "A304526",
+    "A349614",
+    "A349616"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

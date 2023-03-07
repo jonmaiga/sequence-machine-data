@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that sigma(k) is not divisible by 3.",
+  "id": "A329963",
+  "mentions": [
+    "A000203",
+    "A002144",
+    "A003136",
+    "A034022",
+    "A068228",
+    "A074941",
+    "A087943",
+    "A088232",
+    "A351537",
+    "A353815",
+    "A354100"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

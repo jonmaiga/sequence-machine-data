@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into at most 4 distinct parts.",
+  "id": "A347586",
+  "mentions": [
+    "A000578",
+    "A001400",
+    "A014591",
+    "A065033",
+    "A347587",
+    "A347588"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:31:39",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

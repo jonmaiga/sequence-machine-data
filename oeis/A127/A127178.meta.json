@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose \"Look And Say\" descriptions from right to left (in the sense of method B, i.e., digit-indication followed by frequency) are also primes.",
+  "id": "A127178",
+  "mentions": [
+    "A022481",
+    "A127177",
+    "A127179"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

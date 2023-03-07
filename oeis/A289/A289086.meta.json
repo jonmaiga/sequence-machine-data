@@ -1,0 +1,32 @@
+{
+  "description": "Real parts of the recursive sequence a(n+2) = Sum_{k=0..n} binomial(n,k)a(k)a(n+1-k), with a(0)=1, a(1)=2i.",
+  "id": "A289086",
+  "mentions": [
+    "A000111",
+    "A289064",
+    "A289065",
+    "A289066",
+    "A289067",
+    "A289068",
+    "A289069",
+    "A289070",
+    "A289082",
+    "A289083",
+    "A289084",
+    "A289085",
+    "A289087",
+    "A289088",
+    "A289089"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

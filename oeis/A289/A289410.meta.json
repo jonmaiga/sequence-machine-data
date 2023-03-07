@@ -1,0 +1,37 @@
+{
+  "description": "Irregular triangular array T(m,k) with m (row) >= 1 and k (column) >= 1 read by rows: number of m-digit numbers whose digit sum is k.",
+  "id": "A289410",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A000581",
+    "A008591",
+    "A035927",
+    "A052268",
+    "A071817",
+    "A071976",
+    "A090579",
+    "A090580",
+    "A090581",
+    "A278969",
+    "A278971",
+    "A289354"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

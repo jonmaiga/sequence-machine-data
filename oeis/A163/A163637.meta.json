@@ -1,0 +1,22 @@
+{
+  "description": "The sum of all odd numbers from 2n-1 to prime(n).",
+  "id": "A163637",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A005408",
+    "A006254"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes n with distinct smallest digits of n and n-th prime.",
+  "id": "A155471",
+  "mentions": [
+    "A000027",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

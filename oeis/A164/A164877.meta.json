@@ -1,0 +1,22 @@
+{
+  "description": "First bisection of A164869.",
+  "id": "A164877",
+  "mentions": [
+    "A002445",
+    "A005843",
+    "A006953",
+    "A111008",
+    "A164869"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

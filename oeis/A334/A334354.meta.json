@@ -1,0 +1,18 @@
+{
+  "description": "The number of optimal sets of n distinct integers less than or equal to k with this property: the sum of every two members of this set divides the product of all the members of this set. An optimal set with this property is one whose greatest member is the least possible.",
+  "id": "A334354",
+  "mentions": [
+    "A334352"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

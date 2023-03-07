@@ -1,0 +1,20 @@
+{
+  "description": "L.g.f.: log( 1 + Sum_{n>=1} x^(n*(3*n-1)/2) + x^(n*(3*n+1)/2) ) = Sum_{n>=1} a(n)*x^n/n.",
+  "id": "A224976",
+  "mentions": [
+    "A000203",
+    "A001318",
+    "A111932"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

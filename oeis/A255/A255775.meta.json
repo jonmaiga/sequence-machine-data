@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(n+2) 0..1 arrays with no 3x3 subblock diagonal sum 1 and no antidiagonal sum 1 and no row sum 0 and no column sum 0",
+  "id": "A255775",
+  "mentions": [
+    "A255783"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

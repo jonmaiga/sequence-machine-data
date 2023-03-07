@@ -1,0 +1,20 @@
+{
+  "description": "Numbers all of whose divisors are odious numbers (A000069) with a record number of divisors.",
+  "id": "A330289",
+  "mentions": [
+    "A000005",
+    "A000069",
+    "A093696"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

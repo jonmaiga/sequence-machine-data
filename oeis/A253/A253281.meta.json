@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(h,k) = number of steps from (h,k) to (0,0), where allowable steps are as follows: (x,y) -> (x-r, y) if r > 0, and (x,y) -> (y, r/3) otherwise, where r = x mod 3.",
+  "id": "A253281",
+  "mentions": [
+    "A078008",
+    "A253718",
+    "A257569"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

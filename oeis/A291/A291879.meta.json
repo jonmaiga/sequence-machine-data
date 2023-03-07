@@ -1,0 +1,21 @@
+{
+  "description": "Number of monomials of the Schubert polynomial of the permutation 351624 tensor 1^n.",
+  "id": "A291879",
+  "mentions": [
+    "A000178",
+    "A008793",
+    "A074962",
+    "A291871"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

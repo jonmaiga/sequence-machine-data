@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers n such that the sum of prime factors of n (counted with multiplicity) terminates n as a substring.",
+  "id": "A143993",
+  "mentions": [
+    "A071173"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of inequivalent necklaces with beads labeled 1/i (1 <= i <= n) such that the sum of the beads is 1 and the smallest bead is 1/n.",
+  "id": "A259633",
+  "mentions": [
+    "A092666"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

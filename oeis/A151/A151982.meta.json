@@ -1,0 +1,17 @@
+{
+  "description": "Arrangement of Fibonacci-numbers in a centered triangular fashion, such that every number is the difference and/or sum of adjacent numbers.",
+  "id": "A151982",
+  "mentions": [
+    "A131410"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

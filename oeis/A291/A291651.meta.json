@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] (1/(1 + x/(1 + x^2/(1 + x^3/(1 + x^4/(1 + x^5/(1 + ...)))))))^n, a continued fraction.",
+  "id": "A291651",
+  "mentions": [
+    "A286509",
+    "A291335"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Smallest m >= 3 containing no zeros when represented in any base from 3 through n.",
+  "id": "A270037",
+  "mentions": [
+    "A069575",
+    "A216192",
+    "A270027",
+    "A270038",
+    "A270039",
+    "A270040",
+    "A270041",
+    "A270042",
+    "A270043",
+    "A270044",
+    "A270045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 3,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

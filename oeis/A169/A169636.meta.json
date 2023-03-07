@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of A004001 sequence vectors:a(n)=Length[Permutations[Table[A004001[i], {i, 0, m}]]]",
+  "id": "A169636",
+  "mentions": [
+    "A004001"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

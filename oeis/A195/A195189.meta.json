@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of a sequence leading to gamma = A001620.",
+  "id": "A195189",
+  "mentions": [
+    "A001620",
+    "A002206",
+    "A002207",
+    "A091137",
+    "A141417"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

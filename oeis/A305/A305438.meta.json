@@ -1,0 +1,22 @@
+{
+  "description": "Number of times the lexicographically least irreducible factor of (0,1)-polynomial (when factored over Q) obtained from the binary expansion of n occurs as the lexicographically least factor for numbers <= n; a(1) = 1.",
+  "id": "A305438",
+  "mentions": [
+    "A078898",
+    "A206074",
+    "A302788",
+    "A305437",
+    "A305439"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

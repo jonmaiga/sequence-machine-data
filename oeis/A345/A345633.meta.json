@@ -1,0 +1,25 @@
+{
+  "description": "Sum of terms of odd index in the binomial decomposition of n^(n-1).",
+  "id": "A345633",
+  "mentions": [
+    "A000169",
+    "A007778",
+    "A062024",
+    "A081131",
+    "A092364",
+    "A302583",
+    "A345632"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

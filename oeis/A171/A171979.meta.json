@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that smaller parts do not occur more frequently than greater parts.",
+  "id": "A171979",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A240302"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

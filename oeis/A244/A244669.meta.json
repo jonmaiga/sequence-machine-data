@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of (product of divisors of n / sum of divisors of n).",
+  "id": "A244669",
+  "mentions": [
+    "A000203",
+    "A007955",
+    "A145551",
+    "A244668",
+    "A244670"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

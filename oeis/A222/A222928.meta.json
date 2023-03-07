@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X5 0..3 arrays with every row and column least squares fitting to a positive slope straight line",
+  "id": "A222928",
+  "mentions": [
+    "A222929"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

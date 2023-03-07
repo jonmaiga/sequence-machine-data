@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X 2 0..3 arrays avoiding the patterns z z+1 z or z z-1 z in any row, column, diagonal or antidiagonal.",
+  "id": "A207277",
+  "mentions": [
+    "A207276",
+    "A207283"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

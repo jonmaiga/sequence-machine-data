@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 10^n-8001 is prime.",
+  "id": "A270448",
+  "mentions": [
+    "A056654",
+    "A268448",
+    "A269303",
+    "A270339"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

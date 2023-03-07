@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{j>=1) 2^^j/2^^(j+1) where ^^ indicates tetration.",
+  "id": "A356023",
+  "mentions": [
+    "A356022"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

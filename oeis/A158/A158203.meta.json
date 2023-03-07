@@ -1,0 +1,23 @@
+{
+  "description": "Primes the sum of whose first digit and largest digit is a prime.",
+  "id": "A158203",
+  "mentions": [
+    "A000030",
+    "A000040",
+    "A054055",
+    "A157175"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

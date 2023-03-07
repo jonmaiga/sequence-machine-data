@@ -1,0 +1,23 @@
+{
+  "description": "Scan the binary representation of n from right to left; at each 1, reverse the bits to the right and excluding this 1. The resulting binary representation is that of a(n).",
+  "id": "A333776",
+  "mentions": [
+    "A000120",
+    "A330081",
+    "A333692",
+    "A333777",
+    "A333778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

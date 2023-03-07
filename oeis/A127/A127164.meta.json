@@ -1,0 +1,30 @@
+{
+  "description": "Integers whose aliquot sequences terminate by encountering the prime 7. Also known as the prime family 7.",
+  "id": "A127164",
+  "mentions": [
+    "A000203",
+    "A007906",
+    "A063769",
+    "A080907",
+    "A098007",
+    "A098008",
+    "A115060",
+    "A115350",
+    "A121507",
+    "A127161",
+    "A127162",
+    "A127163"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

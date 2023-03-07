@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 20/log(10).",
+  "id": "A282152",
+  "mentions": [
+    "A002285",
+    "A002392"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:10",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

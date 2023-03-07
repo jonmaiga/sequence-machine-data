@@ -1,0 +1,31 @@
+{
+  "description": "Smallest k such that (bigomega(k) - 1) * omega(k) = n, and 0 if none exists, where omega = A001221, bigomega = A001222.",
+  "id": "A328965",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002110",
+    "A113901",
+    "A124010",
+    "A307409",
+    "A320632",
+    "A323023",
+    "A328956",
+    "A328958",
+    "A328959",
+    "A328962",
+    "A328963",
+    "A328964"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = time to the nearest second at the n-th instant (n>=0) when the hour and minute hands on a clock face coincide, starting at time 0:00.",
+  "id": "A335789",
+  "mentions": [
+    "A120500"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:41",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

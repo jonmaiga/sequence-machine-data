@@ -1,0 +1,21 @@
+{
+  "description": "Primes prime(n) such that prime(n+1) - prime(n) > log(n)^2.",
+  "id": "A182315",
+  "mentions": [
+    "A002386",
+    "A134266",
+    "A211073"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes fractility of n.",
+  "id": "A269990",
+  "mentions": [
+    "A000040",
+    "A269570",
+    "A269982",
+    "A269989",
+    "A270000"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A327860(k) is reachable from k by iterating the arithmetic derivative (A003415) and there are no terms with p^p-factors on the path there.",
+  "id": "A351088",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A099308",
+    "A276086",
+    "A327860",
+    "A327969",
+    "A328110",
+    "A351089",
+    "A351228"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

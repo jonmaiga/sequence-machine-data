@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} (-1)^(n+k)*k^3*binomial(n,k)*binomial(n+k,k)^2.",
+  "id": "A357559",
+  "mentions": [
+    "A001622",
+    "A005258",
+    "A357510",
+    "A357512",
+    "A357558",
+    "A357560",
+    "A357561"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Concatenated sums of pairs of adjacent digits in the concatenation of the numbers from 1 to n.",
+  "id": "A260586",
+  "mentions": [
+    "A007908"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

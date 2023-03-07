@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A030067(2^n + 2^(n-1) - 1) for n>=1, where A030067 gives the semi-Fibonacci numbers.",
+  "id": "A129094",
+  "mentions": [
+    "A030067",
+    "A129092",
+    "A129093"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

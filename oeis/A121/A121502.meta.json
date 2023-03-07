@@ -1,0 +1,20 @@
+{
+  "description": "Companion sequence for A121501 used in a unit circle area approximation problem.",
+  "id": "A121502",
+  "mentions": [
+    "A121500",
+    "A121501"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

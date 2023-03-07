@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of exactly 7 distinct nonzero squares.",
+  "id": "A224982",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A003995",
+    "A004431",
+    "A004432",
+    "A004433",
+    "A004434",
+    "A224981",
+    "A224983"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

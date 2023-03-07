@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array from Steinbach matrices plus their squares as characteristic polynomials: M[i,j]=A[i,j]+A[i,j]^2: A[i,j]^2=Min[i,j]; CharacteristicPolynomial[M[i,j]];.",
+  "id": "A122073",
+  "mentions": [
+    "A038223",
+    "A054142",
+    "A076756"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

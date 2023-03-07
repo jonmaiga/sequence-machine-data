@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes of the form n^3 + 2.",
+  "id": "A259189",
+  "mentions": [
+    "A001358",
+    "A040034",
+    "A084380",
+    "A144953",
+    "A237040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

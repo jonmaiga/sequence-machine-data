@@ -1,0 +1,21 @@
+{
+  "description": "The position function the fractalization of which yields A307081.",
+  "id": "A307088",
+  "mentions": [
+    "A095112",
+    "A194959",
+    "A307081",
+    "A307187"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that p=6k+1 is prime and cos(2*Pi/p) is an algebraic number of a 3-smooth degree, but not 2-smooth.",
+  "id": "A125867",
+  "mentions": [
+    "A024899",
+    "A058383",
+    "A125866",
+    "A125878"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

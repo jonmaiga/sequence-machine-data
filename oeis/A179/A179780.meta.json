@@ -1,0 +1,20 @@
+{
+  "description": "Primes, q, such that for three consecutive primes, p, q & r, with p",
+  "id": "A179780",
+  "mentions": [
+    "A000040",
+    "A184247",
+    "A184248"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

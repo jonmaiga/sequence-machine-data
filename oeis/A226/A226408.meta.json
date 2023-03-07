@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing -5..5 vectors of length n whose dot product with some nondecreasing -5..5 vector equals n",
+  "id": "A226408",
+  "mentions": [
+    "A226410"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

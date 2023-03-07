@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers P such that (P^k-2) is not divisible by 35(=A119691(1)) for any value of k.",
+  "id": "A132143",
+  "mentions": [
+    "A119691"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

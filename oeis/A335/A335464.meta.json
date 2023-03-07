@@ -1,0 +1,35 @@
+{
+  "description": "Number of compositions of n with a run of length > 2.",
+  "id": "A335464",
+  "mentions": [
+    "A003242",
+    "A005251",
+    "A008466",
+    "A011782",
+    "A032020",
+    "A056986",
+    "A106356",
+    "A114901",
+    "A128695",
+    "A131044",
+    "A167606",
+    "A178470",
+    "A242882",
+    "A261983",
+    "A274174",
+    "A335455",
+    "A335457",
+    "A335458"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

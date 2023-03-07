@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of decompositions of 2n into an unordered sum of two primes in A274987.",
+  "id": "A276034",
+  "mentions": [
+    "A001031",
+    "A002375",
+    "A045917",
+    "A171611",
+    "A230443",
+    "A240708",
+    "A240712",
+    "A274987"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

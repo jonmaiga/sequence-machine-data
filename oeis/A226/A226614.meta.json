@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k for which 1 is in a cycle of integers under iteration by the Collatz-like 3x+k function.",
+  "id": "A226614",
+  "mentions": [
+    "A226607",
+    "A226612",
+    "A226615",
+    "A226618"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

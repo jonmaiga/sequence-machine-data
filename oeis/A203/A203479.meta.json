@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} (2^i + 2^j - 2).",
+  "id": "A203479",
+  "mentions": [
+    "A000225",
+    "A093883",
+    "A203305",
+    "A203480",
+    "A203481"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

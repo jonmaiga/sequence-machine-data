@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of patterns for n-digit papaya numbers.",
+  "id": "A165136",
+  "mentions": [
+    "A165135",
+    "A165137",
+    "A165610",
+    "A165611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

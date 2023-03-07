@@ -1,0 +1,26 @@
+{
+  "description": "Number of factorizations of n into factors > 1 such that every prime factor of n is the GCD of some subset of the factors.",
+  "id": "A326976",
+  "mentions": [
+    "A001055",
+    "A316978",
+    "A326947",
+    "A326965",
+    "A326972",
+    "A326974",
+    "A326975",
+    "A326977",
+    "A326979",
+    "A327012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

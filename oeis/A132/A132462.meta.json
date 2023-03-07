@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct parts congruent to 0 or 2 modulo 3.",
+  "id": "A132462",
+  "mentions": [
+    "A003105",
+    "A007494",
+    "A035361",
+    "A132463"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:53",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator of Sum_{d|n} tau(d)/pod(d) where tau(k) = the number of the divisors of k (A000005) and pod(k) = the product of the divisors of k (A007955).",
+  "id": "A323706",
+  "mentions": [
+    "A000005",
+    "A007955",
+    "A323707"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

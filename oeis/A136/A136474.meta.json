@@ -1,0 +1,22 @@
+{
+  "description": "Primes that divide 2^(3^n)+1 for some n.",
+  "id": "A136474",
+  "mentions": [
+    "A005621",
+    "A057719",
+    "A111974",
+    "A136473",
+    "A136475"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Primes whose reversal is a multiple of 14.",
+  "id": "A356246",
+  "mentions": [
+    "A045711",
+    "A074895",
+    "A087762",
+    "A087764",
+    "A087765",
+    "A087766",
+    "A087767",
+    "A355430",
+    "A355983",
+    "A355984",
+    "A355985"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

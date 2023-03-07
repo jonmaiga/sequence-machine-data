@@ -1,0 +1,22 @@
+{
+  "description": "Sum of all primes p such that 2n - p is also a prime.",
+  "id": "A238778",
+  "mentions": [
+    "A008472",
+    "A010051",
+    "A035026",
+    "A171637",
+    "A238711"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

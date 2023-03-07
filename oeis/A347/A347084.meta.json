@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet inverse of A129283, n + A003415(n).",
+  "id": "A347084",
+  "mentions": [
+    "A003415",
+    "A129283",
+    "A346241",
+    "A347082",
+    "A347085",
+    "A347086",
+    "A348976",
+    "A348995"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

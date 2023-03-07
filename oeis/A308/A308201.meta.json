@@ -1,0 +1,24 @@
+{
+  "description": "Sprague-Grundy values for Maharaja Nim on an infinite single-quadrant board scanned by upwards antidiagonals.",
+  "id": "A308201",
+  "mentions": [
+    "A274630",
+    "A274631",
+    "A274632",
+    "A274633",
+    "A307281",
+    "A307282",
+    "A308882"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

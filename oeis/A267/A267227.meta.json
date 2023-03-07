@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n 0..3 arrays with no following elements greater than or equal to the first repeated value.",
+  "id": "A267227",
+  "mentions": [
+    "A267232"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

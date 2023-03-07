@@ -1,0 +1,19 @@
+{
+  "description": "Dropping times (A122458) exceeding 5 for odd numbers under reduced Collatz iteration corresponding to A324248.",
+  "id": "A324249",
+  "mentions": [
+    "A122458",
+    "A324248"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

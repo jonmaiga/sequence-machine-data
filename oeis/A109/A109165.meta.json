@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 5*a(n-2) - 2*a(n-4), n >= 4; a(n) = (1/6)*(-1)^n + 4/3)*2^n - 1/2.",
+  "id": "A109165",
+  "mentions": [
+    "A005824",
+    "A054486",
+    "A106709",
+    "A107839"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:07:32",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

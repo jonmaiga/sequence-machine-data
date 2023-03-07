@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by falling antidiagonals: T(n,k) is the number of connected directed multigraphs with loops with n arcs and at most k vertices.",
+  "id": "A129620",
+  "mentions": [
+    "A137975",
+    "A138107",
+    "A139621"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

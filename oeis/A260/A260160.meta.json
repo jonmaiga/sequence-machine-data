@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-2) + a(n-6) - a(n-8) with n>8, the first eight terms are 0 except that for a(5) = a(7) = 1.",
+  "id": "A260160",
+  "mentions": [
+    "A000004",
+    "A000217",
+    "A002264",
+    "A264041"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:25",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

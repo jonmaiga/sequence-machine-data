@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary self-dual codes of length 2n (up to permutation equivalence) having the highest possible minimum distance.",
+  "id": "A296086",
+  "mentions": [
+    "A005137"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lim f(f(...f(n)...)) where f(n) is the fractal sequence A022446.",
+  "id": "A191770",
+  "mentions": [
+    "A020903",
+    "A022446",
+    "A191771",
+    "A191772",
+    "A191773",
+    "A191774"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

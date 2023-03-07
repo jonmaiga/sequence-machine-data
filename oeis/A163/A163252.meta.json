@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, and a(n) is the least positive integer not occurring earlier in the sequence such that a(n-1) and a(n) differ in only one bit when written in binary.",
+  "id": "A163252",
+  "mentions": [
+    "A003188",
+    "A101080",
+    "A360307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

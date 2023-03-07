@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having only strong prime factors, cf. A051634.",
+  "id": "A225493",
+  "mentions": [
+    "A051634",
+    "A225494",
+    "A225495",
+    "A225496"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

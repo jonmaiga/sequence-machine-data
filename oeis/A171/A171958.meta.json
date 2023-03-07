@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A181391.",
+  "id": "A171958",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

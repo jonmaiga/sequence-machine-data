@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of \"good\" manifolds in an n-serial polytope.",
+  "id": "A212350",
+  "mentions": [
+    "A212351"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that four (or more) consecutive Ramanujan tau numbers are congruent mod 691, or A000594(k) == A000594(k+1) == A000594(k+2) == A000594(k+3) mod 691, or A046694(k) = A046694(k+1) = A046694(k+2) = A046694(k+3).",
+  "id": "A337916",
+  "mentions": [
+    "A000594",
+    "A046694",
+    "A121733",
+    "A121734",
+    "A121742",
+    "A121743",
+    "A337917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n > 0 such that 2*n = (4*k-2)^m where k, m > 0.",
+  "id": "A293205",
+  "mentions": [
+    "A016825"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

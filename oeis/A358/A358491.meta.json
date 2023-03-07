@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n!*Sum_{m=0..floor((n-1)/2)} 1/(n-m)/binomial(n-m-1,m).",
+  "id": "A358491",
+  "mentions": [
+    "A000045",
+    "A358446"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

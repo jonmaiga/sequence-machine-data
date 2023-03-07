@@ -1,0 +1,20 @@
+{
+  "description": "Number of points in a circle of squared radius n, points on the circle counted half.",
+  "id": "A256465",
+  "mentions": [
+    "A004018",
+    "A057655"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

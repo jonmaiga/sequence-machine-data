@@ -1,0 +1,35 @@
+{
+  "description": "Number of necklace compositions of n where every pair of adjacent parts (including the last with the first) is relatively prime.",
+  "id": "A328597",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A000837",
+    "A008965",
+    "A032153",
+    "A059966",
+    "A167606",
+    "A318728",
+    "A318729",
+    "A318745",
+    "A318748",
+    "A328172",
+    "A328598",
+    "A328599",
+    "A328600",
+    "A328601",
+    "A328602",
+    "A328609"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonempty subsets of {1,2,...,n} with no gap of length greater than 4 (a set S has a gap of length d if a and b are in S but no x with a < x < b is in S, where b-a=d).",
+  "id": "A119407",
+  "mentions": [
+    "A000078",
+    "A000217",
+    "A001924",
+    "A062544",
+    "A107066"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p for which there is exactly one root x of x^3 - x - 1 in F_p and x is a primitive root mod p.",
+  "id": "A134572",
+  "mentions": [
+    "A134573",
+    "A134574"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

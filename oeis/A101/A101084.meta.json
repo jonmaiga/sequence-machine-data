@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 97*k + 101 is a prime.",
+  "id": "A101084",
+  "mentions": [
+    "A100775",
+    "A101086",
+    "A101123",
+    "A101444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

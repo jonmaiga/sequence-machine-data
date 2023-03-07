@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that A086167(k) and A086168(k) are both prime.",
+  "id": "A270563",
+  "mentions": [
+    "A013916",
+    "A086167",
+    "A086168"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

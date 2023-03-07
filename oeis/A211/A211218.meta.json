@@ -1,0 +1,19 @@
+{
+  "description": "Maximum value of sigma(x) + sigma(y) + sigma(z), where x + y + z = n.",
+  "id": "A211218",
+  "mentions": [
+    "A085884",
+    "A211217",
+    "A211219"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 3,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

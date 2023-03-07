@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the value of the maximum of the Airy function Ai.",
+  "id": "A269893",
+  "mentions": [
+    "A269892"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Superimperfect numbers.",
+  "id": "A200758",
+  "mentions": [
+    "A019279",
+    "A058891",
+    "A061020",
+    "A127724",
+    "A127725",
+    "A206369"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

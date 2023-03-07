@@ -1,0 +1,21 @@
+{
+  "description": "Array T(i,k) read by antidiagonals: position of prime(i)*prime(k) in A001358.",
+  "id": "A289053",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A115392",
+    "A128301"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

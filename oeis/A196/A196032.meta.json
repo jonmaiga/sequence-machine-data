@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having at least one zero in base 4 representation.",
+  "id": "A196032",
+  "mentions": [
+    "A023705"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

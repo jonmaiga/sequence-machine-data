@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n + (reversal of digits in the Zeckendorf representation of n).",
+  "id": "A349239",
+  "mentions": [
+    "A055944",
+    "A056964",
+    "A189920",
+    "A348570",
+    "A349238",
+    "A349240"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

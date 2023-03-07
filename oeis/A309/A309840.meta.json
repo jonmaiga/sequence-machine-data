@@ -1,0 +1,24 @@
+{
+  "description": "If n = Sum (2^e_k) then a(n) = Product (Fibonacci(e_k + 3)).",
+  "id": "A309840",
+  "mentions": [
+    "A000045",
+    "A003266",
+    "A019565",
+    "A022290",
+    "A029930",
+    "A121663",
+    "A160009"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

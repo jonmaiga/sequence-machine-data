@@ -1,0 +1,25 @@
+{
+  "description": "Number of oriented series-parallel networks with n elements and without multiple unit elements in parallel.",
+  "id": "A339290",
+  "mentions": [
+    "A003430",
+    "A058387",
+    "A339156",
+    "A339288",
+    "A339289",
+    "A339293",
+    "A339296",
+    "A339301"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

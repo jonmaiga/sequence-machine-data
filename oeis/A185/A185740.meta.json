@@ -1,0 +1,20 @@
+{
+  "description": "Weight array of A185738, by antidiagonals.",
+  "id": "A185740",
+  "mentions": [
+    "A185738",
+    "A185739"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

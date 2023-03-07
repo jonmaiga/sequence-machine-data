@@ -1,0 +1,21 @@
+{
+  "description": "One of a family of six fractal sequences that transform into each other.",
+  "id": "A114731",
+  "mentions": [
+    "A114729",
+    "A114730",
+    "A114732",
+    "A114733",
+    "A114734"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

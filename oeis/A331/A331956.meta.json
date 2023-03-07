@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of rooted chains of length k in set partitions of n labeled points.",
+  "id": "A331956",
+  "mentions": [
+    "A000007",
+    "A000110",
+    "A006472",
+    "A008277",
+    "A048993",
+    "A057427",
+    "A058692",
+    "A328044",
+    "A330301",
+    "A330302",
+    "A331957"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

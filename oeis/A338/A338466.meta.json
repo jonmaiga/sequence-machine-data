@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the least positive integer not occurring earlier such that the digits in a(n-1)*a(n) are all distinct.",
+  "id": "A338466",
+  "mentions": [
+    "A002378",
+    "A010784",
+    "A043096",
+    "A043537",
+    "A276633",
+    "A342382"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

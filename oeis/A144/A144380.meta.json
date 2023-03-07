@@ -1,0 +1,19 @@
+{
+  "description": "Third subdiagonal of A142458: a(n) = A142458(n+3,n).",
+  "id": "A144380",
+  "mentions": [
+    "A142458",
+    "A142976"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-n)^(n-k) * (n+k+1) * binomial(n,k) * binomial(n+k,k).",
+  "id": "A331513",
+  "mentions": [
+    "A331511",
+    "A331512"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

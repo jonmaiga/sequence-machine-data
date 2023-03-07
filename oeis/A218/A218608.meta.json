@@ -1,0 +1,22 @@
+{
+  "description": "The positions of zeros in A218604, i.e., those integers i for which A179016(i) = A173601(i).",
+  "id": "A218608",
+  "mentions": [
+    "A173601",
+    "A179016",
+    "A213733",
+    "A218604",
+    "A218606",
+    "A218607"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

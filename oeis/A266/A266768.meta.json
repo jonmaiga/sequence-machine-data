@@ -1,0 +1,22 @@
+{
+  "description": "Molien series for invariants of finite Coxeter group D_5.",
+  "id": "A266768",
+  "mentions": [
+    "A003402",
+    "A266755",
+    "A266769",
+    "A266770",
+    "A266775"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:08:11",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

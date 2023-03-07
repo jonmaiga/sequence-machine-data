@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes q < prime(n), such that 6*prime(n) + q is prime.",
+  "id": "A306997",
+  "mentions": [
+    "A306995",
+    "A306996"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) + a(n-1) = n-th semiprime.",
+  "id": "A137462",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A036467",
+    "A065516"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

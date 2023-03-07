@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + 1 if n is a multiple of 6, otherwise a(n) = a(n-1) + a(n-2).",
+  "id": "A131132",
+  "mentions": [
+    "A000045",
+    "A004695",
+    "A052952",
+    "A057079",
+    "A066983",
+    "A080239",
+    "A099837",
+    "A124502"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:30:47",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

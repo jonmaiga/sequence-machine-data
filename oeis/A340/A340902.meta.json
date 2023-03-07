@@ -1,0 +1,24 @@
+{
+  "description": "Distance from the largest prime with less than 10^n decimal digits to 10^(10^n-1).",
+  "id": "A340902",
+  "mentions": [
+    "A002283",
+    "A033874",
+    "A064722",
+    "A096548"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

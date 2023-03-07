@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k, with sigma(k) >= 3k and sigma(k) divisible by 3, that are not in A204830.",
+  "id": "A306476",
+  "mentions": [
+    "A023197",
+    "A083207",
+    "A171641",
+    "A204830",
+    "A319186"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

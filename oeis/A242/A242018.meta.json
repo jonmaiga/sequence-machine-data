@@ -1,0 +1,19 @@
+{
+  "description": "Starting with a(0) = 0, a(1) = 0, a(2) = 1, repeatedly append to this sequence the last half of the currently-existing terms, taking the longer half if there are an odd number of terms.",
+  "id": "A242018",
+  "mentions": [
+    "A061419",
+    "A242020"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

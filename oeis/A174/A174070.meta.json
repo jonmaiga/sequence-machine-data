@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be written as a sum of at least 3 consecutive squares.",
+  "id": "A174070",
+  "mentions": [
+    "A111774",
+    "A138591",
+    "A174069"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

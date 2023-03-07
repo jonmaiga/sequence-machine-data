@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A278981(n) > A278981(m) for 2 <= m < n.",
+  "id": "A280110",
+  "mentions": [
+    "A278981"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

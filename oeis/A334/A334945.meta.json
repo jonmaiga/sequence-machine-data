@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n >= 1, k >= 1, in which column k lists successive blocks of k consecutive integers that differ by 3, where the m-th block starts with m, m >= 1, and the first element of column k is in the row that is the k-th pentagonal number (A000326).",
+  "id": "A334945",
+  "mentions": [
+    "A000326",
+    "A010766",
+    "A117277",
+    "A286001",
+    "A330887",
+    "A330888",
+    "A330889",
+    "A332266",
+    "A334463",
+    "A334618"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

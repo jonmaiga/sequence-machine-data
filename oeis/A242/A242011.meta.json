@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of sum_{k>=0} (-1)^k*(log(4k+1)/(4k+1)+log(4k+3)/(4k+3)).",
+  "id": "A242011",
+  "mentions": [
+    "A203142",
+    "A203143",
+    "A203144",
+    "A203146"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

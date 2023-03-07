@@ -1,0 +1,23 @@
+{
+  "description": "Toothpick sequence similar to A160406, but always staying outside the wedge, starting at stage 1 with a vertical toothpick whose endpoint touches the vertex of the wedge.",
+  "id": "A170892",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160406",
+    "A170886",
+    "A170888",
+    "A170890",
+    "A170893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

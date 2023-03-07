@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = A321479(n,k)/A321478(n,k), 0 <= k <= n - 1.",
+  "id": "A323018",
+  "mentions": [
+    "A172236",
+    "A316269",
+    "A321478",
+    "A321479"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

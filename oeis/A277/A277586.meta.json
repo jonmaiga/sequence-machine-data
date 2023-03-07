@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of Sum_{k=0..n} (2^k * (k!)^2)/(2k + 1)!.",
+  "id": "A277586",
+  "mentions": [
+    "A001147",
+    "A002457",
+    "A019669",
+    "A087547",
+    "A277585"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

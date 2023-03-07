@@ -1,0 +1,28 @@
+{
+  "description": "Mirror of the triangle A130517.",
+  "id": "A220073",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A002260",
+    "A028310",
+    "A130517",
+    "A143182",
+    "A187760",
+    "A209293",
+    "A220075"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:59:57",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

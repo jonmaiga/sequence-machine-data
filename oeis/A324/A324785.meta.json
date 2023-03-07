@@ -1,0 +1,20 @@
+{
+  "description": "Values of A005132 at its low points.",
+  "id": "A324785",
+  "mentions": [
+    "A005132",
+    "A309226",
+    "A324784",
+    "A324786"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

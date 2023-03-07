@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of phi(q) * phi(-q^2) in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A139093",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002479",
+    "A010054",
+    "A010815",
+    "A033715",
+    "A033761",
+    "A082564",
+    "A112603",
+    "A121373",
+    "A125095",
+    "A133692"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the largest least common multiple of any k-element subset of the first n positive integers.",
+  "id": "A179661",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A003418",
+    "A093919",
+    "A096179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

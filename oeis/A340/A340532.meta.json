@@ -1,0 +1,20 @@
+{
+  "description": "Number of domino tilings of a 16 X n rectangle.",
+  "id": "A340532",
+  "mentions": [
+    "A000045",
+    "A099390",
+    "A187596"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

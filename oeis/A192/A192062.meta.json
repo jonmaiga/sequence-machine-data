@@ -1,0 +1,28 @@
+{
+  "description": "Square Array T(ij) read by antidiagonals (from NE to SW) with columns 2j being the denominators of continued fraction convergents to square root of (j^2 + 2j).",
+  "id": "A192062",
+  "mentions": [
+    "A000045",
+    "A002530",
+    "A041011",
+    "A041023",
+    "A041039",
+    "A041059",
+    "A041083",
+    "A041111",
+    "A191579",
+    "A191971"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

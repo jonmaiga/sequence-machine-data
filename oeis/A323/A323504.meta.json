@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A322827(2n+1) / A322827(n).",
+  "id": "A323504",
+  "mentions": [
+    "A322827",
+    "A323503",
+    "A323507"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

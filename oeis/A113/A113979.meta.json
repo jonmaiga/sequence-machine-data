@@ -1,0 +1,31 @@
+{
+  "description": "Number of compositions of n with an even number of 1's.",
+  "id": "A113979",
+  "mentions": [
+    "A006516",
+    "A063083",
+    "A063376",
+    "A088336",
+    "A088506",
+    "A092295",
+    "A100818",
+    "A105422",
+    "A111723",
+    "A111724",
+    "A111752",
+    "A111753",
+    "A113980"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:08:01",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

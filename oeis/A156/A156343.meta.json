@@ -1,0 +1,21 @@
+{
+  "description": "Primes with equal number of prime and nonprime digits.",
+  "id": "A156343",
+  "mentions": [
+    "A000040",
+    "A109066",
+    "A154385",
+    "A154386"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

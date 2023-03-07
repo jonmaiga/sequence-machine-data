@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = -(1/n) * Sum_{k=0..n-1} binomial(n,k)^2 * (n-k) * a(k).",
+  "id": "A336209",
+  "mentions": [
+    "A000587",
+    "A023998",
+    "A336210"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

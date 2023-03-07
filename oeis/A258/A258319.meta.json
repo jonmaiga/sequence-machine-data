@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that n = concat(a,b) and n = phi(n) + phi(a) + phi(b), with a>0 and b>0, where phi(n) is the Euler totient function of n.",
+  "id": "A258319",
+  "mentions": [
+    "A000010",
+    "A239562",
+    "A249766",
+    "A251605",
+    "A251860",
+    "A253824",
+    "A253825",
+    "A255725",
+    "A255726",
+    "A257897"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

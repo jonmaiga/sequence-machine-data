@@ -1,0 +1,24 @@
+{
+  "description": "7-Factorions: equal to the sum of the 7-fold factorials of their digits in base 10.",
+  "id": "A173577",
+  "mentions": [
+    "A014080",
+    "A097653",
+    "A173573",
+    "A173576"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

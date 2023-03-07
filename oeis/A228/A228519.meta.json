@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n) = sigma(n - phi(n)), where sigma(n) is the sum of divisors of n and phi(n) is the Euler totient function of n.",
+  "id": "A228519",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A051953",
+    "A067880"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

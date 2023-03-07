@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that abs(p-s) and abs(p-c) are primes, where s is the square nearest to p, and c is the nearest to p cube, c!=s.",
+  "id": "A234799",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

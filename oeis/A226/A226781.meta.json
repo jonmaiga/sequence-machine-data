@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1's in A132199 preceding the n-th Rowland prime, A137613(n).",
+  "id": "A226781",
+  "mentions": [
+    "A132199",
+    "A137613"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

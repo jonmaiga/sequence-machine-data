@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of cographs on n points.",
+  "id": "A309116",
+  "mentions": [
+    "A007869",
+    "A230367",
+    "A233748",
+    "A233894"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

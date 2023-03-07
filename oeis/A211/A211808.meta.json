@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^k<=x^k+y",
+  "id": "A211808",
+  "mentions": [
+    "A000330",
+    "A055232",
+    "A174723",
+    "A182259",
+    "A211790",
+    "A211806",
+    "A211807"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

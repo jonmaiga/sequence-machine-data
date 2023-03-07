@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of ways to place k nonattacking knights on an n X n board; triangle T(n,k), n>=0, 0<=k<=A030978(n), read by rows.",
+  "id": "A244081",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A030978",
+    "A141243",
+    "A172132",
+    "A172134",
+    "A172135",
+    "A172136",
+    "A178499",
+    "A201540"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

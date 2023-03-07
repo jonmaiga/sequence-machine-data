@@ -1,0 +1,19 @@
+{
+  "description": "Distance from the n-th highly composite number, A002182(n), to the next prime.",
+  "id": "A141345",
+  "mentions": [
+    "A002182",
+    "A005235",
+    "A117825"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

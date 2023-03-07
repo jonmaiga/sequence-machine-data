@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k such that prime(k*n)^2 - 2 = prime(i*n)*prime(j*n) for some integers 0 < i < j.",
+  "id": "A260080",
+  "mentions": [
+    "A000040",
+    "A062326",
+    "A253257",
+    "A257926",
+    "A257938",
+    "A260078"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

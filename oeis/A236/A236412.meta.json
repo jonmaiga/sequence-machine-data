@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = |{0 < k < n: m = phi(k)/2 + phi(n-k)/8 is an integer with p(m)^2 + q(m)^2 prime}|, where phi(.) is Euler's totient, p(.) is the partition function (A000041) and q(.) is the strict partition function (A000009).",
+  "id": "A236412",
+  "mentions": [
+    "A000009",
+    "A000010",
+    "A000040",
+    "A000041",
+    "A233307",
+    "A236374",
+    "A236413",
+    "A236414"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

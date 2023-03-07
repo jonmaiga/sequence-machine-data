@@ -1,0 +1,18 @@
+{
+  "description": "Degree of the scheme of n X n complex matrices that square to zero.",
+  "id": "A130306",
+  "mentions": [
+    "A130294"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

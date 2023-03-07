@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the Dirichlet beta function of 6.",
+  "id": "A175570",
+  "mentions": [
+    "A003881",
+    "A006752",
+    "A101455",
+    "A153071",
+    "A175571",
+    "A175572"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

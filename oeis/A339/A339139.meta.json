@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that the last digit d of a(n), for n > 1, is the sum of the two closest digits of d (they are the leftmost digit of a(n+1) and the digit on the left of d).",
+  "id": "A339139",
+  "mentions": [
+    "A339138"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

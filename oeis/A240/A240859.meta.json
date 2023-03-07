@@ -1,0 +1,19 @@
+{
+  "description": "Cubes k^3 such that k^3 + (k+1)^3 is semiprime.",
+  "id": "A240859",
+  "mentions": [
+    "A001358",
+    "A005898"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

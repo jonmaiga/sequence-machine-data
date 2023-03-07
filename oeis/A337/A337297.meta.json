@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the coordinates of all pairs of divisors of n, (d1,d2), such that d1 < d2.",
+  "id": "A337297",
+  "mentions": [
+    "A066446",
+    "A184389",
+    "A337246"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

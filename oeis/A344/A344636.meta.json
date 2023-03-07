@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that half the numbers from 0 to k inclusive contain the digit \"1\".",
+  "id": "A344636",
+  "mentions": [
+    "A011531",
+    "A016189",
+    "A343839",
+    "A344474",
+    "A344634"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

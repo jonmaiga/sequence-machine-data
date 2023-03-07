@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of Sum_{ primes p <= n} 1/p.",
+  "id": "A106830",
+  "mentions": [
+    "A001008",
+    "A002110",
+    "A002805",
+    "A024451",
+    "A034386",
+    "A250133",
+    "A282511",
+    "A282512",
+    "A296358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

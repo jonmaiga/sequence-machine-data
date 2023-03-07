@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = total number of binary sequences S of length n and curling number k (so S = XY^k) in which Y can be taken to have length 1.",
+  "id": "A217932",
+  "mentions": [
+    "A217933"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

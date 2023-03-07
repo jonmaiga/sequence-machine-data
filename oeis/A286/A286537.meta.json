@@ -1,0 +1,18 @@
+{
+  "description": "Restricted growth sequence of A286536.",
+  "id": "A286537",
+  "mentions": [
+    "A286536",
+    "A286539"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

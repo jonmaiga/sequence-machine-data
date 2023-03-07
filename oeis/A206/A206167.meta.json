@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X7 0..3 arrays with every 2X2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..3 introduced in row major order",
+  "id": "A206167",
+  "mentions": [
+    "A206169"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Signature-permutation of Deutsch's 2000 bijection on ordered trees.",
+  "id": "A125981",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057163",
+    "A057514",
+    "A063171",
+    "A074683",
+    "A074684",
+    "A086586",
+    "A089411",
+    "A089412",
+    "A125982",
+    "A125983",
+    "A126305"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

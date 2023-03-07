@@ -1,0 +1,19 @@
+{
+  "description": "The number of idempotents in the Brauer monoid on [1..n].",
+  "id": "A227545",
+  "mentions": [
+    "A023997",
+    "A225797",
+    "A277379"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "q-Bell numbers for q=2; eigensequence of A022166, which is the triangle of Gaussian binomial coefficients [n,k] for q=2.",
+  "id": "A125812",
+  "mentions": [
+    "A022166",
+    "A125810",
+    "A125811",
+    "A125813",
+    "A125814",
+    "A125815"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

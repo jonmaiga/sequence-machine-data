@@ -1,0 +1,20 @@
+{
+  "description": "Total number of sequences with p_j copies of j and longest increasing subsequence of length k summed over all partitions [p_1, p_2, ..., p_k] of n into distinct parts.",
+  "id": "A268700",
+  "mentions": [
+    "A047909",
+    "A268698",
+    "A268699",
+    "A268701"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

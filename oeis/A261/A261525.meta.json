@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest m such that A031131(m) = 2*n.",
+  "id": "A261525",
+  "mentions": [
+    "A000040",
+    "A031131",
+    "A038664",
+    "A046931"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

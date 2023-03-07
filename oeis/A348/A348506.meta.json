@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(k) is a multiple of usigma(k), where sigma is the sum of divisors function, A000203, and usigma is the unitary sigma, A034448.",
+  "id": "A348506",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A034448",
+    "A063880",
+    "A348505"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

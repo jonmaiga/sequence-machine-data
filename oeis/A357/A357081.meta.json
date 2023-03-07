@@ -1,0 +1,23 @@
+{
+  "description": "Leader at step n of the THROWBACK procedure (see definition in comments).",
+  "id": "A357081",
+  "mentions": [
+    "A001511",
+    "A087165",
+    "A155167",
+    "A354223",
+    "A355080"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

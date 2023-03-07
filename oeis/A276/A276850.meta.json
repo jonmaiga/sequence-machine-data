@@ -1,0 +1,17 @@
+{
+  "description": "Convolution of partition polynomials of A133437 related to solutions of the Burgers-Hopf equation.",
+  "id": "A276850",
+  "mentions": [
+    "A133437"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

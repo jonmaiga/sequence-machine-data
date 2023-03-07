@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into 10 prime powers (including 1).",
+  "id": "A341131",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A071330",
+    "A341112",
+    "A341122",
+    "A341123",
+    "A341124",
+    "A341125",
+    "A341126",
+    "A341127"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest exponent k>1 such that n and n^k have some digits in common.",
+  "id": "A253600",
+  "mentions": [
+    "A103173",
+    "A189056",
+    "A253601",
+    "A253602"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

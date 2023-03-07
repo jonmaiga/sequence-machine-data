@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that psi(k) = psi(k + 2) where psi(k) is the Dedekind psi function (A001615).",
+  "id": "A330703",
+  "mentions": [
+    "A001494",
+    "A001615",
+    "A007373",
+    "A062832",
+    "A291043"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

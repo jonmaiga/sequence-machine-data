@@ -1,0 +1,22 @@
+{
+  "description": "Number of months after which either it is not possible to have a date to fall on the same day of the week, or that it is possible to have a date falling on the same day of the week and the two months have the same number of days, in the Gregorian calendar.",
+  "id": "A231238",
+  "mentions": [
+    "A230995",
+    "A231007",
+    "A231014",
+    "A231236",
+    "A231239"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

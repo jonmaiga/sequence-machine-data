@@ -1,0 +1,21 @@
+{
+  "description": "Number of order n permutations without collinear triples modulo n.",
+  "id": "A146558",
+  "mentions": [
+    "A135538",
+    "A146557"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

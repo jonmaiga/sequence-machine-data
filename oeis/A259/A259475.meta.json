@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: row n gives coefficients of Taylor series expansion of 1/F_{n+1}(t), where F_i(t) is a Fibonacci polynomial defined by F_0=1, F_1=1, F_{i+1} = F_i-t*F_{i-1}.",
+  "id": "A259475",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000079",
+    "A000108",
+    "A001906",
+    "A003432",
+    "A005021",
+    "A094256",
+    "A094811",
+    "A274969",
+    "A309896"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

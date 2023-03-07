@@ -1,0 +1,21 @@
+{
+  "description": "Divisor-or-multiple permutation of squarefree numbers: a(n) = A019565(A303773(n)).",
+  "id": "A303770",
+  "mentions": [
+    "A005117",
+    "A019565",
+    "A303760",
+    "A303773"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

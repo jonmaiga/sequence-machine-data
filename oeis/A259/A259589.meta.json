@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the other-side convergents to e.",
+  "id": "A259589",
+  "mentions": [
+    "A007676",
+    "A007677",
+    "A259588"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

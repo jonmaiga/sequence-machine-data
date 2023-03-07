@@ -1,0 +1,23 @@
+{
+  "description": "The tribonacci representation of a(n) is obtained by appending 0,0,0 to the tribonacci representation of n (cf. A278038).",
+  "id": "A308200",
+  "mentions": [
+    "A276792",
+    "A278038",
+    "A278039",
+    "A278040",
+    "A278041",
+    "A308199"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k valleys of width 1 (i.e., DHU configurations, where U=(0,1), H=(1,0), D=(0,-1)), (n>=2, k>=0).",
+  "id": "A273721",
+  "mentions": [
+    "A023425",
+    "A082582",
+    "A273722"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

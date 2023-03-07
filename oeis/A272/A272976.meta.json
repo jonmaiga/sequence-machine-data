@@ -1,0 +1,18 @@
+{
+  "description": "Smallest index m such that A269502(m) = n.",
+  "id": "A272976",
+  "mentions": [
+    "A269502"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

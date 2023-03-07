@@ -1,0 +1,23 @@
+{
+  "description": "Eight-digit numbers with all distinct digits with property that the string formed by the last k digits is divisible by k for any 1<=k<=8.",
+  "id": "A147749",
+  "mentions": [
+    "A140501",
+    "A147636",
+    "A147637",
+    "A147647"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest m such that A265432(m) = A272684(n), or -1 if no such m exists.",
+  "id": "A272685",
+  "mentions": [
+    "A265432",
+    "A272671",
+    "A272684",
+    "A273369"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

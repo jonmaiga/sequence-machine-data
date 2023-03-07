@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m having with the largest square <= m a common divisor > 1.",
+  "id": "A258614",
+  "mentions": [
+    "A048760",
+    "A074695",
+    "A258613"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

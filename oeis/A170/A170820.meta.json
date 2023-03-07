@@ -1,0 +1,20 @@
+{
+  "description": "Let p = n-th prime; a(n) = (p-1)/(order of (p+3)/2 mod p).",
+  "id": "A170820",
+  "mentions": [
+    "A001917",
+    "A014664",
+    "A170821",
+    "A170822"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 3,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

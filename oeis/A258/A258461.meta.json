@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into parts of exactly 6 sorts which are introduced in ascending order.",
+  "id": "A258461",
+  "mentions": [
+    "A256130",
+    "A320548"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 6,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

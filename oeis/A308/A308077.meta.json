@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x - A(x^2) + A(x^3) - A(x^4) + A(x^5) - A(x^6) + ...",
+  "id": "A308077",
+  "mentions": [
+    "A006005",
+    "A067856",
+    "A307776",
+    "A347031"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

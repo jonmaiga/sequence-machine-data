@@ -1,0 +1,25 @@
+{
+  "description": "Discard the most significant digit when n is expressed in greedy A001563-base (A276326), then convert back to decimal: a(n) = n - A276334(n).",
+  "id": "A276335",
+  "mentions": [
+    "A001563",
+    "A257687",
+    "A276326",
+    "A276328",
+    "A276331",
+    "A276334",
+    "A276337"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

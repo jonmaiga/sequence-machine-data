@@ -1,0 +1,23 @@
+{
+  "description": "Positions of even numbers greater than zero in A179016.",
+  "id": "A213732",
+  "mentions": [
+    "A000120",
+    "A179016",
+    "A213729",
+    "A213733",
+    "A218772",
+    "A218774"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

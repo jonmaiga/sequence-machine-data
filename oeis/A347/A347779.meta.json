@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 4 squarefree parts.",
+  "id": "A347779",
+  "mentions": [
+    "A005117",
+    "A280194",
+    "A341064",
+    "A347777",
+    "A347778",
+    "A347780"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

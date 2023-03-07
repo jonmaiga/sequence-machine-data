@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the largest number that can be expressed as the sum of three triangular numbers in exactly n ways.",
+  "id": "A330810",
+  "mentions": [
+    "A000217",
+    "A002097",
+    "A060773",
+    "A061262",
+    "A063993",
+    "A064825",
+    "A071530",
+    "A111638",
+    "A258257",
+    "A258258",
+    "A330811"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

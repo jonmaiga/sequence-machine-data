@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of constant defined in A030315.",
+  "id": "A180443",
+  "mentions": [
+    "A030190",
+    "A030315",
+    "A180433",
+    "A180434"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

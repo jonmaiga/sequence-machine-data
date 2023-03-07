@@ -1,0 +1,24 @@
+{
+  "description": "Sum of prime indices in the prime factorization of A249336(n), counted with multiplicity: a(n) = A056239(A249336(n)).",
+  "id": "A249338",
+  "mentions": [
+    "A001477",
+    "A049084",
+    "A056239",
+    "A249072",
+    "A249336",
+    "A249339",
+    "A249340"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

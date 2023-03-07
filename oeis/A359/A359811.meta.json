@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n} 2^(d-1) * d^(n/d-1).",
+  "id": "A359811",
+  "mentions": [
+    "A087909",
+    "A359134",
+    "A359730",
+    "A359796"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

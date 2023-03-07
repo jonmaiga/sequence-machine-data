@@ -1,0 +1,24 @@
+{
+  "description": "Continued fraction for c = sqrt(2)*(exp(sqrt(2))-1)/(exp(sqrt(2))+1).",
+  "id": "A123168",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A062828",
+    "A212343",
+    "A274540"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers divisible by the twice the number of their prime factors (counted with multiplicity), or numbers n divisible by 2*Omega(n).",
+  "id": "A224703",
+  "mentions": [
+    "A001222",
+    "A074946",
+    "A137230"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

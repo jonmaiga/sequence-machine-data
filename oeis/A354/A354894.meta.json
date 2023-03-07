@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the numerator of the n-th hyperharmonic number of order n.",
+  "id": "A354894",
+  "mentions": [
+    "A001008",
+    "A001700",
+    "A027612",
+    "A049281",
+    "A058806",
+    "A076174",
+    "A124837",
+    "A354895"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

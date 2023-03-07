@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A354203(sigma(A354202(k))) = 1.",
+  "id": "A354361",
+  "mentions": [
+    "A000203",
+    "A354202",
+    "A354203",
+    "A354206",
+    "A354357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

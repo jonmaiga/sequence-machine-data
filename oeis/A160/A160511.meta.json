@@ -1,0 +1,19 @@
+{
+  "description": "Number of weighings needed to find lighter coins among n coins.",
+  "id": "A160511",
+  "mentions": [
+    "A156301"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

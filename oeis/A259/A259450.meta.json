@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows arising from enumeration of partitions into non-integral powers.",
+  "id": "A259450",
+  "mentions": [
+    "A000093",
+    "A000263",
+    "A000397"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k) of elements k in all n X n Tesler matrices of nonnegative integers; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A259841",
+  "mentions": [
+    "A008608",
+    "A259787",
+    "A259842",
+    "A259843"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

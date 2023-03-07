@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=1, a(1)=a(2)=0; for n > 2, a(n) = a(n-1) + s if n is odd, a(n-1) - s if n is even, where s = a(n-1) + a(n-2) + a(n-3).",
+  "id": "A355141",
+  "mentions": [
+    "A347177",
+    "A347178"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

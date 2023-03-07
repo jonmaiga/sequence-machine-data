@@ -1,0 +1,20 @@
+{
+  "description": "Poly-Cauchy numbers of the second kind -hat c_5^(-n).",
+  "id": "A223908",
+  "mentions": [
+    "A223852"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

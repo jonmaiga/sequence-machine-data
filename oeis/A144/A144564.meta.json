@@ -1,0 +1,24 @@
+{
+  "description": "Bisection of A147757.",
+  "id": "A144564",
+  "mentions": [
+    "A135577",
+    "A138120",
+    "A138146",
+    "A147757",
+    "A152756"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:42:28",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

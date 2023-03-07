@@ -1,0 +1,31 @@
+{
+  "description": "Number of intersecting multiset partitions of strongly normal multisets of size n.",
+  "id": "A319789",
+  "mentions": [
+    "A007716",
+    "A283877",
+    "A305854",
+    "A306006",
+    "A316980",
+    "A317755",
+    "A319755",
+    "A319759",
+    "A319760",
+    "A319765",
+    "A319779",
+    "A319782",
+    "A319784",
+    "A319787"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

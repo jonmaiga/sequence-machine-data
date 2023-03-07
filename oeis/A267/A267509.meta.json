@@ -1,0 +1,18 @@
+{
+  "description": "Integers whose base-10 representation (Bm,...,B1,B0) is such that the polynomial f(x) = B0 + B1*x + ... + Bm*x^m is reducible over the ring of integers, 0 <= Bi <= 9.",
+  "id": "A267509",
+  "mentions": [
+    "A121719"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

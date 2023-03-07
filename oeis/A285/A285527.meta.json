@@ -1,0 +1,21 @@
+{
+  "description": "Number of super perfect rhythmic tilings of [0,3n-1] with triples.",
+  "id": "A285527",
+  "mentions": [
+    "A059108",
+    "A261516",
+    "A320392"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

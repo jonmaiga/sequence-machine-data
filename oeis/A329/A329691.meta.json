@@ -1,0 +1,20 @@
+{
+  "description": "Number of excursions of length n with Motzkin-steps avoiding the consecutive steps UD, HU, HH and DH.",
+  "id": "A329691",
+  "mentions": [
+    "A329692",
+    "A329693"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:02:20",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

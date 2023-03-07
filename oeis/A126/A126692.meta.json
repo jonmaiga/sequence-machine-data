@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers p such that 1000-p is also a prime. All terms are shown.",
+  "id": "A126692",
+  "mentions": [
+    "A126691"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

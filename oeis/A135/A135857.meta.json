@@ -1,0 +1,35 @@
+{
+  "description": "Partial sums triangle based on A016777. Riordan convolution triangle ((1 + 2*x)/(1-x)^2, x/(1-x)).",
+  "id": "A135857",
+  "mentions": [
+    "A000326",
+    "A000580",
+    "A001296",
+    "A002411",
+    "A006232",
+    "A007318",
+    "A016777",
+    "A036563",
+    "A050494",
+    "A051836",
+    "A051923",
+    "A053310",
+    "A053367",
+    "A110813",
+    "A122553",
+    "A256096"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:25",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

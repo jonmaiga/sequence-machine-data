@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if A187730(n) < A049559(n), otherwise 0. Here A187730(n) and A049559(n) are the greatest common divisors between Carmichael lambda(n) and n-1, and between Euler phi(n) and n-1, respectively.",
+  "id": "A353808",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A049559",
+    "A187730",
+    "A280262",
+    "A353483",
+    "A353801"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

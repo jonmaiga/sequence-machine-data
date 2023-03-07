@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers k such that both k and -k are a palindromes in negabinary representation.",
+  "id": "A331893",
+  "mentions": [
+    "A005352",
+    "A039724",
+    "A052539",
+    "A083420",
+    "A212529",
+    "A331891",
+    "A331892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

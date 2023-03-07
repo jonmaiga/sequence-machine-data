@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/G(1) where G(k) = 1 - (q^k/(1-q^k)) / G(k+1).",
+  "id": "A238437",
+  "mentions": [
+    "A238435",
+    "A238436"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

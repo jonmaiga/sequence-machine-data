@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k): T(n,k) = 1 if gcd(n, k) > 1, else 0.",
+  "id": "A349317",
+  "mentions": [
+    "A000010",
+    "A051953",
+    "A054521",
+    "A066570",
+    "A067392",
+    "A169581",
+    "A169582"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

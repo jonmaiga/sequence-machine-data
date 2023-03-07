@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of S(n) = Sum_{j=2..n} (pi((j+1)^2) - pi(j^2))/(pi((j+1)^2)*pi(j^2)) where pi(k) = A000720(k).",
+  "id": "A161893",
+  "mentions": [
+    "A000720",
+    "A161621",
+    "A161892"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

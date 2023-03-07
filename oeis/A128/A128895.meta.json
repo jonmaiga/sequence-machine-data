@@ -1,0 +1,18 @@
+{
+  "description": "Least positive primitive root that all of the first n primes share.",
+  "id": "A128895",
+  "mentions": [
+    "A001918",
+    "A060749"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

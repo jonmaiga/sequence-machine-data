@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of length n that are sums of 6 consecutive elements of length n+5 permutations of 0..n+4, and no two consecutive rises or falls in the latter permutation.",
+  "id": "A229716",
+  "mentions": [
+    "A229717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

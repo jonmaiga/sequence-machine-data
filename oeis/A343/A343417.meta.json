@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of free polyominoes with k cells and n-k distinguished vertices.",
+  "id": "A343417",
+  "mentions": [
+    "A000105",
+    "A007318",
+    "A343577"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

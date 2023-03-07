@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes generated from Euler's polynomial x^2 + x + 41 from x = 1 to 10^n.",
+  "id": "A228123",
+  "mentions": [
+    "A005846",
+    "A056561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

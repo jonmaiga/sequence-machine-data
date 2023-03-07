@@ -1,0 +1,22 @@
+{
+  "description": "Inverse permutation to A278511.",
+  "id": "A278512",
+  "mentions": [
+    "A278504",
+    "A278506",
+    "A278511",
+    "A278537",
+    "A278538"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

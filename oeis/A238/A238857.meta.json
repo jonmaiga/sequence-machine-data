@@ -1,0 +1,31 @@
+{
+  "description": "Array read by rows: row n lists total number of m-digit right-truncatable reversible primes in base n.",
+  "id": "A238857",
+  "mentions": [
+    "A007500",
+    "A023107",
+    "A024770",
+    "A237600",
+    "A237601",
+    "A237602",
+    "A238850",
+    "A238851",
+    "A238852",
+    "A238853",
+    "A238854",
+    "A238855",
+    "A238856"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

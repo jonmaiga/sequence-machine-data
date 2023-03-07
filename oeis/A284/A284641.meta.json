@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (Sum_{k>=0} x^(k^2*(k+1)^2/4))^12.",
+  "id": "A284641",
+  "mentions": [
+    "A000217",
+    "A000537",
+    "A002804",
+    "A014787",
+    "A282173",
+    "A282288"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

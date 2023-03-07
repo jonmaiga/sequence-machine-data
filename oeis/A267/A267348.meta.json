@@ -1,0 +1,18 @@
+{
+  "description": "Decimal equivalents of terms of A266926 interpreted as binary numbers.",
+  "id": "A267348",
+  "mentions": [
+    "A266926"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of fixed 4-dimensional polycubes with n cells.",
+  "id": "A151830",
+  "mentions": [
+    "A001931",
+    "A151831",
+    "A151832",
+    "A151833",
+    "A151834",
+    "A151835"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

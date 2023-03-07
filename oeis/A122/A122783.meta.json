@@ -1,0 +1,18 @@
+{
+  "description": "Nonprimes k > 0 such that 6^k==6 (mod k).",
+  "id": "A122783",
+  "mentions": [
+    "A005937"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 12:40:01",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

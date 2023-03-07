@@ -1,0 +1,26 @@
+{
+  "description": "Noninfinitary weird numbers: noninfinitary abundant numbers (A348274) that are not equal to the sum of any subset of their noninfinitary divisors.",
+  "id": "A348525",
+  "mentions": [
+    "A006037",
+    "A064114",
+    "A292986",
+    "A306984",
+    "A321146",
+    "A327948",
+    "A348271",
+    "A348274",
+    "A348341"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

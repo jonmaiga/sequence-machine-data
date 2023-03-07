@@ -1,0 +1,29 @@
+{
+  "description": "Second accumulation array of the array min{n,k}, by antidiagonals.",
+  "id": "A185957",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001769",
+    "A003783",
+    "A003982",
+    "A014105",
+    "A024166",
+    "A112851",
+    "A115262",
+    "A144112",
+    "A193722",
+    "A202678"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:45",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

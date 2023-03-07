@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A174466(n)*x^n/n ) where A174466(n) = Sum_{d|n} d*sigma(n/d)*tau(d).",
+  "id": "A174465",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000219",
+    "A006171",
+    "A007425",
+    "A174466",
+    "A280473",
+    "A280487"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

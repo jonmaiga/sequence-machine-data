@@ -1,0 +1,21 @@
+{
+  "description": "Rows 2, 4, 6 of Mendeleyev-Seaborg (extended to 32 columns) periodic table elements.",
+  "id": "A137913",
+  "mentions": [
+    "A134984",
+    "A135559",
+    "A137904"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

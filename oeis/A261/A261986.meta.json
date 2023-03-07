@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the minimal length of the corresponding shortest addition chain A003313(n)=A003313(4*n).",
+  "id": "A261986",
+  "mentions": [
+    "A003313",
+    "A086878",
+    "A115016",
+    "A116459",
+    "A116460",
+    "A116461",
+    "A116462",
+    "A116463",
+    "A117151"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

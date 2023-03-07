@@ -1,0 +1,21 @@
+{
+  "description": "p-INVERT of the upper Wythoff sequence (A001950), where p(S) = 1 - S - S^2.",
+  "id": "A289926",
+  "mentions": [
+    "A001950",
+    "A033453",
+    "A289780",
+    "A289925"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

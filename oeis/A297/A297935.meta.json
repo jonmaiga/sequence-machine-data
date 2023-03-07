@@ -1,0 +1,21 @@
+{
+  "description": "Least prime k such that n concatenations of n+1 consecutive primes in base 2, starting from k, generate another prime in base 10.",
+  "id": "A297935",
+  "mentions": [
+    "A000040",
+    "A030996",
+    "A030997"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

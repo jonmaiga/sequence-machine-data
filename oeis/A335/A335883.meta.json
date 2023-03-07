@@ -1,0 +1,20 @@
+{
+  "description": "The least k for which A335884(k) = n.",
+  "id": "A335883",
+  "mentions": [
+    "A334099",
+    "A335884"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

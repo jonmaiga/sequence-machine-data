@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution of A014070: a(n) = Sum_{k=0..n} C(2^k,k)*C(2^(n-k),n-k).",
+  "id": "A136651",
+  "mentions": [
+    "A014070"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

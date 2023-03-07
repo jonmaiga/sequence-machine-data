@@ -1,0 +1,19 @@
+{
+  "description": "Magic products of 7 X 7 multiplicative magic squares.",
+  "id": "A113027",
+  "mentions": [
+    "A111029",
+    "A111030",
+    "A111031"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

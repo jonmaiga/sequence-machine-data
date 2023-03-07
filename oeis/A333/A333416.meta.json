@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T read by rows: each row represents a finite (increasing) oscillation contained in the infinite (increasing) oscillation O.",
+  "id": "A333416",
+  "mentions": [
+    "A000142",
+    "A158478",
+    "A266977",
+    "A333616"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

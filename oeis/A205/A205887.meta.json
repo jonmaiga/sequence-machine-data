@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with 2X2 subblock determinants differing from horizontal neighbors and permanents differing from vertical neighbors",
+  "id": "A205887",
+  "mentions": [
+    "A205894"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

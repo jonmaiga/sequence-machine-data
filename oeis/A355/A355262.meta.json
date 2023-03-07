@@ -1,0 +1,35 @@
+{
+  "description": "Array of Fuss-Catalan numbers read by ascending antidiagonals, A(n, k) = binomial(k*n + 1, k)/(k*n + 1).",
+  "id": "A355262",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001764",
+    "A002293",
+    "A002294",
+    "A002295",
+    "A002296",
+    "A007556",
+    "A019590",
+    "A062993",
+    "A062994",
+    "A070914",
+    "A091144",
+    "A123110",
+    "A355172",
+    "A355173",
+    "A355174"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

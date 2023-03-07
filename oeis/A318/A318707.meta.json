@@ -1,0 +1,21 @@
+{
+  "description": "For any n >= 0 with base-9 representation Sum_{k=0..w} d_k * 9^k, let g(n) = Sum_{k=0..w} s(d_k) * 3^k (where s(0) = 0, s(1+2*j) = i^j and s(2+2*j) = i^j * (1+i) for any j > 0, and i denotes the imaginary unit); a(n) is the square of the modulus of g(n).",
+  "id": "A318707",
+  "mentions": [
+    "A318705",
+    "A318706"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

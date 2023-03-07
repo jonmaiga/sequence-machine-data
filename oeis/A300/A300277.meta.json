@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: 1 + Sum_{n>=1} a(n)*x^n/(1 - x^n) = Product_{n>=1} 1/(1 - n*x^n).",
+  "id": "A300277",
+  "mentions": [
+    "A000837",
+    "A006906",
+    "A078374",
+    "A085410",
+    "A300274",
+    "A300275",
+    "A300276",
+    "A300278"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

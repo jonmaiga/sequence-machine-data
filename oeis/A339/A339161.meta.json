@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of least positive x such that Gamma(-x) = x^2.",
+  "id": "A339161",
+  "mentions": [
+    "A264785",
+    "A339167"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

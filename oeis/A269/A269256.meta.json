@@ -1,0 +1,19 @@
+{
+  "description": "Chen primes p such that there are Chen primes p > q > r in arithmetic progression.",
+  "id": "A269256",
+  "mentions": [
+    "A109611",
+    "A216495",
+    "A291525"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

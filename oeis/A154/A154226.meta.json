@@ -1,0 +1,21 @@
+{
+  "description": "List of pairs: {(n*(n+1)/2)^2, (n!)^3}.",
+  "id": "A154226",
+  "mentions": [
+    "A000442",
+    "A000537"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

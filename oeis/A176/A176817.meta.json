@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes such that (2^(n-1) mod n)=(4^(n-1) mod n).",
+  "id": "A176817",
+  "mentions": [
+    "A062173",
+    "A062175",
+    "A176176"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

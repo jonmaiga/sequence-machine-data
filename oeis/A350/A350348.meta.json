@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the Hankel matrix of any odd number of consecutive terms is invertible.",
+  "id": "A350348",
+  "mentions": [
+    "A350330",
+    "A350349",
+    "A350350"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

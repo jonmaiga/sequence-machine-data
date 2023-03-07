@@ -1,0 +1,31 @@
+{
+  "description": "Small Associated Ramanujan Prime, p_(i-n).",
+  "id": "A168421",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A002386",
+    "A005382",
+    "A005383",
+    "A084139",
+    "A084140",
+    "A104272",
+    "A124136",
+    "A165959",
+    "A168425",
+    "A179196",
+    "A190874",
+    "A230147"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

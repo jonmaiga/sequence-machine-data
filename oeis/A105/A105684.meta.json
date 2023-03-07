@@ -1,0 +1,22 @@
+{
+  "description": "Weight distribution of [11,6,5]_3 ternary Golay perfect code.",
+  "id": "A105684",
+  "mentions": [
+    "A001380",
+    "A002289",
+    "A105676",
+    "A105683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

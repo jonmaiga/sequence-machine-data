@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p that yield a new record for the least number k such that p*k + 1 and p*k - 1 are twin primes.",
+  "id": "A220141",
+  "mentions": [
+    "A071407",
+    "A220142"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

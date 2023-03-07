@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, A047999 * A010060 (diagonalized); as infinite lower triangular matrices.",
+  "id": "A167364",
+  "mentions": [
+    "A010060",
+    "A047999",
+    "A048896"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

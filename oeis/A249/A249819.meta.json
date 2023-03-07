@@ -1,0 +1,19 @@
+{
+  "description": "Composite natural numbers n for which there are exactly two distinct 0 < k < n^2 such that 2^k - 1 is divisible by n^2.",
+  "id": "A249819",
+  "mentions": [
+    "A038509",
+    "A246702",
+    "A246717"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

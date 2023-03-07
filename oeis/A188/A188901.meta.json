@@ -1,0 +1,24 @@
+{
+  "description": "Integers in the sequences (arithmetic derivative of k) divided by k.",
+  "id": "A188901",
+  "mentions": [
+    "A003415",
+    "A068311",
+    "A072873",
+    "A083346",
+    "A085731",
+    "A086130",
+    "A189100",
+    "A189102"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 'alpha', the threshold angle associated with the best constant in [a variation of] Hardy's inequality for a domain defined as a non-convex plane sector of angle alpha.",
+  "id": "A246856",
+  "mentions": [
+    "A068465",
+    "A068466"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

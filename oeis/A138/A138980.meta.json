@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1; for n>=1, a(n) = smallest prime > a(n-1) such that (sum{k=0 to n} a(k)) is composite.",
+  "id": "A138980",
+  "mentions": [
+    "A049561",
+    "A138981",
+    "A138982"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+839)^2 = y^2.",
+  "id": "A130647",
+  "mentions": [
+    "A001652",
+    "A028871",
+    "A118337",
+    "A130645",
+    "A130646",
+    "A156035",
+    "A159896",
+    "A159897",
+    "A159898"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

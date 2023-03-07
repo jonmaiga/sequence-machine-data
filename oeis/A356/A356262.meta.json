@@ -1,0 +1,22 @@
+{
+  "description": "Partition triangle read by rows counting the irreducible permutations sorted by the partition type of their Lehmer code.",
+  "id": "A356262",
+  "mentions": [
+    "A003319",
+    "A080577",
+    "A355777",
+    "A356116",
+    "A356263"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

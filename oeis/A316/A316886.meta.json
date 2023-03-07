@@ -1,0 +1,22 @@
+{
+  "description": "Where records occur in A299773.",
+  "id": "A316886",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000203",
+    "A002093",
+    "A299773",
+    "A316916"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

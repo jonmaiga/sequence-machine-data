@@ -1,0 +1,20 @@
+{
+  "description": "8th iteration of the hyperbinomial transform on the sequence of 1's.",
+  "id": "A218500",
+  "mentions": [
+    "A088956",
+    "A144303",
+    "A218499"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

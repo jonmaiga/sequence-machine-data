@@ -1,0 +1,19 @@
+{
+  "description": "Positions of multiples of 3 in A204890 (differences of primes).",
+  "id": "A205559",
+  "mentions": [
+    "A204890",
+    "A205558",
+    "A205560"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:31:17",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

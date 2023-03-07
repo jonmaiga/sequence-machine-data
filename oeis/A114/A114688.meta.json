@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1 +3*x -x^2)/((1-x^2)*(1-2*x-x^2)); a Pellian-related sequence.",
+  "id": "A114688",
+  "mentions": [
+    "A000129",
+    "A100828",
+    "A114647",
+    "A114689",
+    "A114695",
+    "A114696",
+    "A114697"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

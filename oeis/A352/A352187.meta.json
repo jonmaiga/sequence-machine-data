@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter, a(n) is the smallest number m not yet in the sequence such that gcd(m,a(n-1)) > 1 and gcd(m,a(n-2))=1, except that the second condition is ignored if it would imply that no choice for m were possible.",
+  "id": "A352187",
+  "mentions": [
+    "A064413",
+    "A336957",
+    "A352188",
+    "A352189",
+    "A352190",
+    "A352191",
+    "A352192"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

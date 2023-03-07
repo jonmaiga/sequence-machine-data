@@ -1,0 +1,19 @@
+{
+  "description": "Consider the function f(k) in A110545, i.e., the smallest positive integer j such that k divides either the numerator or the denominator of the reduced Harmonic number H(j). This sequence lists numbers k where f(k)=k.",
+  "id": "A113570",
+  "mentions": [
+    "A000961",
+    "A025475",
+    "A110545"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

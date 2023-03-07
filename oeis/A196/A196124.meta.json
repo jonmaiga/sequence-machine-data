@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers c for which there is a primitive 4-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196124",
+  "mentions": [
+    "A195770",
+    "A196119",
+    "A196121",
+    "A196122",
+    "A196123"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

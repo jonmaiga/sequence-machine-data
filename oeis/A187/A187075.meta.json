@@ -1,0 +1,25 @@
+{
+  "description": "A Galton triangle: T(n,k) = 2*k*T(n-1,k) + (2*k-1)*T(n-1,k-1).",
+  "id": "A187075",
+  "mentions": [
+    "A075497",
+    "A084938",
+    "A156919",
+    "A186695",
+    "A211402",
+    "A211608"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

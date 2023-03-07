@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 5*a(n-2) for n > 2; a(1) = 2, a(2) = 5.",
+  "id": "A162963",
+  "mentions": [
+    "A000351",
+    "A001077",
+    "A026383",
+    "A162770",
+    "A162771",
+    "A162772",
+    "A162773"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:44:13",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

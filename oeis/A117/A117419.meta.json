@@ -1,0 +1,23 @@
+{
+  "description": "Column 1 of triangle A117418; also row sums of triangle A117418; also column 0 of the matrix square of triangle A117418.",
+  "id": "A117419",
+  "mentions": [
+    "A117418",
+    "A117420",
+    "A117421",
+    "A117422",
+    "A117423",
+    "A117424"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

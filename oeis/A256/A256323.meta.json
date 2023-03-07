@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator of (1/n^3)*(-1/(n+1) + 16/(n+2) + 3/(4*(2*n+1)) - 81/(4*(2*n+3))), term of a BBP-type series representation of zeta(3) by V. Adamchik and S. Wagon.",
+  "id": "A256323",
+  "mentions": [
+    "A002117",
+    "A256324"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

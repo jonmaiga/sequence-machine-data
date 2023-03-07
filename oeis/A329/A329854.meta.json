@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = ((n - k)*(n + k - 1) + 2)/2, 0 <= k <= n.",
+  "id": "A329854",
+  "mentions": [
+    "A077028",
+    "A081489",
+    "A116731",
+    "A309559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:19",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e in bijective base-9 numeration.",
+  "id": "A332395",
+  "mentions": [
+    "A001113",
+    "A004600",
+    "A214676",
+    "A332397"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

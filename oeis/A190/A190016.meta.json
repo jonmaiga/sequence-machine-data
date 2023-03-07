@@ -1,0 +1,27 @@
+{
+  "description": "Numbers 1 through 10000 sorted lexicographically in decimal representation.",
+  "id": "A190016",
+  "mentions": [
+    "A119589",
+    "A190017",
+    "A190126",
+    "A190128",
+    "A190130",
+    "A190132",
+    "A190134"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "changed",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of octagonal numbers (A000567) that are also centered heptagonal numbers (A069099).",
+  "id": "A254855",
+  "mentions": [
+    "A000567",
+    "A069099",
+    "A254856",
+    "A254857"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

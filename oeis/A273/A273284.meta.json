@@ -1,0 +1,23 @@
+{
+  "description": "A273282(n)^Omega(n), where Omega = A001222.",
+  "id": "A273284",
+  "mentions": [
+    "A001222",
+    "A079867",
+    "A246655",
+    "A273282",
+    "A273285",
+    "A273290"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

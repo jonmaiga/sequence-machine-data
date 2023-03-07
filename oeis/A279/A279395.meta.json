@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{ d >= 1, d divides n} (-1)^(n-d)*d^4.",
+  "id": "A279395",
+  "mentions": [
+    "A001159",
+    "A008457",
+    "A051001",
+    "A064027",
+    "A112329",
+    "A113184"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

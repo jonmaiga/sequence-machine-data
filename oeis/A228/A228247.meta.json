@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive solutions of t(x,n) - s(x,n) = 2, where s(x,n) and t(x,n) are the number of applications of the classical and modified Euclidean algorithms needed to convert (x,n) to gcd(x,n).",
+  "id": "A228247",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

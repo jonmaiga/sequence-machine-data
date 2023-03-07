@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the largest integer that is an (odd) palindrome when represented in binary and that occurs in the binary representation of n.",
+  "id": "A145799",
+  "mentions": [
+    "A006995",
+    "A145800",
+    "A154809"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

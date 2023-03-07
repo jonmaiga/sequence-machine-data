@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(2) = 2; thereafter a(n) is the smallest number > a(n-1) which is neither of the form 2*a(i) nor Sum_{j=1..n-1} ( b_j*a(j) ) where 0 < i < n, b_j = 1 or 0.",
+  "id": "A331809",
+  "mentions": [
+    "A126326",
+    "A331800",
+    "A331811"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

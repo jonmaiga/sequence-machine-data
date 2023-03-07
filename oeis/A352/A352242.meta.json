@@ -1,0 +1,21 @@
+{
+  "description": "Regular triangle T(n,k) = (n-k)*(n^3-k^3) for n>=2 and 1 <= k <= n-1, read by rows.",
+  "id": "A352242",
+  "mentions": [
+    "A003215",
+    "A138849",
+    "A352243",
+    "A352244"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

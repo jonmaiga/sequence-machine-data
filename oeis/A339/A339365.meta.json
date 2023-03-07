@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into an odd number of squares.",
+  "id": "A339365",
+  "mentions": [
+    "A000290",
+    "A001156",
+    "A027193",
+    "A292520",
+    "A339364",
+    "A339366",
+    "A339367"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:25",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

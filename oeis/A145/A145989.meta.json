@@ -1,0 +1,24 @@
+{
+  "description": "Run lengths of consecutive primes == 1 (mod 4) where the run length is at least 2.",
+  "id": "A145989",
+  "mentions": [
+    "A039702",
+    "A054624",
+    "A055623",
+    "A091318",
+    "A145986",
+    "A145988",
+    "A145994"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

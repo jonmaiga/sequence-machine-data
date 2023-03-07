@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals upwards showing a stained glass windows with two colors and a hidden curve from the toothpick cellular automaton of A139250 (see Comments lines for definition).",
+  "id": "A336532",
+  "mentions": [
+    "A139250",
+    "A139251",
+    "A160120",
+    "A296510",
+    "A296612",
+    "A299476",
+    "A299478"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

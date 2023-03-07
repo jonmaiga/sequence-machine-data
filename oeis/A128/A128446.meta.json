@@ -1,0 +1,22 @@
+{
+  "description": "Quotients A122000(p-1) / (2^p - 1), where p = prime(n) for n > 1.",
+  "id": "A128446",
+  "mentions": [
+    "A014566",
+    "A056009",
+    "A081216",
+    "A122000"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

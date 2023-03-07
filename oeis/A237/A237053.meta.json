@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number k such that some subset of n+1..n+k can be summed and added to n to produce a prime.",
+  "id": "A237053",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A077654",
+    "A089306",
+    "A104636"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

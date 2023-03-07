@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form 4*t^2-2 (A060626) when t >= 1 is an integer that is not a term in A001542.",
+  "id": "A349496",
+  "mentions": [
+    "A000178",
+    "A001542",
+    "A060626",
+    "A348692",
+    "A349079",
+    "A349080"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

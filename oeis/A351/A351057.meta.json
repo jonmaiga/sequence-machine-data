@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x + x^2 * A(x/(1 - 6*x)) / (1 - 6*x).",
+  "id": "A351057",
+  "mentions": [
+    "A005012",
+    "A007472",
+    "A007476",
+    "A351049",
+    "A351050",
+    "A351056"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

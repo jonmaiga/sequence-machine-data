@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n, k) = (4*n-4*k+1)*T(n-1, k-1) + (4*k-3)*T(n-1, k) + 4*T(n-2, k-1) with T(n, 1) = T(n, n) = 1.",
+  "id": "A144441",
+  "mentions": [
+    "A144431",
+    "A144432",
+    "A144435",
+    "A144436",
+    "A144438",
+    "A144439",
+    "A144440",
+    "A144442",
+    "A144443",
+    "A144444",
+    "A144445"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

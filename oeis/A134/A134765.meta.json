@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p for which (p-1)/2 - phi(p-1) = n, or 0 if there is no such prime.",
+  "id": "A134765",
+  "mentions": [
+    "A098006",
+    "A098047",
+    "A134854"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

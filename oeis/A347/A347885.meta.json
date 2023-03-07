@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers k such that sigma(k^2) has an odd number of prime factors when counted with multiplicity.",
+  "id": "A347885",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A003415",
+    "A005408",
+    "A005820",
+    "A235991",
+    "A347870",
+    "A347877",
+    "A347882",
+    "A347886",
+    "A347887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

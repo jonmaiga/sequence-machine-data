@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers with property that left half and right half have the same pattern of consecutive increasing/decreasing/equal digits:.",
+  "id": "A303918",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

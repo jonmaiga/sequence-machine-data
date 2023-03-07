@@ -1,0 +1,33 @@
+{
+  "description": "Under the isomorphism defined in A329329, of polynomials in GF(2)[x,y] to positive integers, a(n) is the image of the polynomial that results when x+1 is substituted for x in the polynomial with image n.",
+  "id": "A334205",
+  "mentions": [
+    "A003961",
+    "A006519",
+    "A007913",
+    "A008833",
+    "A019565",
+    "A048675",
+    "A050376",
+    "A059897",
+    "A123098",
+    "A193231",
+    "A225546",
+    "A267116",
+    "A268385",
+    "A268390",
+    "A319525",
+    "A329329"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

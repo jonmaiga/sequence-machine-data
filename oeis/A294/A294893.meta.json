@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors d of n such that Stern polynomial B(d,x) is irreducible.",
+  "id": "A294893",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A186891",
+    "A283991",
+    "A294883",
+    "A294891",
+    "A294892",
+    "A294894"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

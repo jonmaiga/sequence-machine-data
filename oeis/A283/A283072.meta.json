@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form x^2 + y^2 such that x^k + y^k is prime for each k = 4, 8, 16, and 32.",
+  "id": "A283072",
+  "mentions": [
+    "A182313"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

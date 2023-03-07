@@ -1,0 +1,27 @@
+{
+  "description": "Number of permutations p of {1,...,n} such that exactly two elements of {p(1),...,p(i-1)} are between p(i) and p(i+1) for all i from 3 to n-1.",
+  "id": "A187817",
+  "mentions": [
+    "A174700",
+    "A174701",
+    "A174702",
+    "A174703",
+    "A174704",
+    "A174705",
+    "A174706",
+    "A174707",
+    "A174708",
+    "A185030",
+    "A216837"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

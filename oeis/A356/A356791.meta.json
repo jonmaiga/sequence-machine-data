@@ -1,0 +1,20 @@
+{
+  "description": "Emirps p such that R(p) > p and R(p) mod p is prime, where R(p) is the reversal of p.",
+  "id": "A356791",
+  "mentions": [
+    "A004086",
+    "A006567",
+    "A109308"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

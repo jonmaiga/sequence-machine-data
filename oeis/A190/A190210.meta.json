@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [n*u + n*v] - [n*u] - [n*v], where u=sqrt(8), v=1/u, and []=floor.",
+  "id": "A190210",
+  "mentions": [
+    "A180211",
+    "A180212",
+    "A190191",
+    "A190211",
+    "A190212"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

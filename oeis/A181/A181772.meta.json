@@ -1,0 +1,20 @@
+{
+  "description": "Kissing numbers for the laminated lattices Lambda(1), Lambda(2), Lambda(8), Lambda(24).",
+  "id": "A181772",
+  "mentions": [
+    "A000125",
+    "A002336"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

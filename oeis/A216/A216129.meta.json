@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 7^n mod 1000.",
+  "id": "A216129",
+  "mentions": [
+    "A001903",
+    "A014390"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:41",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

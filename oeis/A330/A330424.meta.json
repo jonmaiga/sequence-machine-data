@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; thereafter a(n) = smallest number not occurring earlier such that both the sum of three successive terms and the sum of three successive digits are prime numbers.",
+  "id": "A330424",
+  "mentions": [
+    "A076990"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

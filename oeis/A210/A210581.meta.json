@@ -1,0 +1,20 @@
+{
+  "description": "Bras-Amorós number f_n for numerical semigroups of genus n.",
+  "id": "A210581",
+  "mentions": [
+    "A007323",
+    "A124506"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

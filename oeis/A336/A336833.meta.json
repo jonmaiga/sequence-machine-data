@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, 1 <= k <= n: T(n,k) is the number of graceful labelings of the n X k grid graph.",
+  "id": "A336833",
+  "mentions": [
+    "A006967",
+    "A333719",
+    "A337796"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

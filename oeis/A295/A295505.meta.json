@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} mu(n/d)*4^(d-1).",
+  "id": "A295505",
+  "mentions": [
+    "A000740",
+    "A034741",
+    "A054719",
+    "A143325",
+    "A295506",
+    "A320088"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

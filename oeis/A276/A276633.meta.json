@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest integer not yet in the sequence with no digits in common with a(n-1) and a(n-2); a(0)=0, a(1)=1.",
+  "id": "A276633",
+  "mentions": [
+    "A067581",
+    "A086066",
+    "A276512",
+    "A276769"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * [x^n] exp(x)*(sec(x) + tan(x))^n.",
+  "id": "A296793",
+  "mentions": [
+    "A000111",
+    "A000667",
+    "A292756",
+    "A292759",
+    "A292976",
+    "A322268"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

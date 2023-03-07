@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that can be written as a product of distinct squarefree numbers in exactly one way.",
+  "id": "A293511",
+  "mentions": [
+    "A001055",
+    "A005117",
+    "A045778",
+    "A050320",
+    "A050326",
+    "A212166",
+    "A292432",
+    "A292444",
+    "A293243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

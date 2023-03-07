@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] having exactly k pairs (m,m+1) such that m+1 is in some block b and m is in block b+1; triangle T(n,k), n>=0, 0<=k<=n-floor((1+sqrt(max(0,8n-7)))/2), read by rows.",
+  "id": "A270953",
+  "mentions": [
+    "A000110",
+    "A000217",
+    "A056857",
+    "A083920",
+    "A185982",
+    "A270954",
+    "A270955",
+    "A270956",
+    "A270957",
+    "A270958",
+    "A270959",
+    "A270960",
+    "A270961",
+    "A270962",
+    "A270963",
+    "A270964",
+    "A270965",
+    "A270967"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

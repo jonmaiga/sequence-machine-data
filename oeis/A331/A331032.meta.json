@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations of n -> n + gpf(n) needed for the trajectory of n to join the trajectory of A076271, where gpf(n) is the greatest prime factor of n.",
+  "id": "A331032",
+  "mentions": [
+    "A006530",
+    "A076271"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

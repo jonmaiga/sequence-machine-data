@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of maximal value of function F[a(n); b(n)] for pairs of complements a(n) and b(n) of natural numbers A000027, where a(n) = odd numbers (A005408) and b(n) = even numbers (A005843); see Comments for the definition of function F[a(n); b(n)].",
+  "id": "A227569",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A005408",
+    "A005843",
+    "A006784",
+    "A006882",
+    "A018252",
+    "A019774",
+    "A060196",
+    "A064648",
+    "A091131",
+    "A143280"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

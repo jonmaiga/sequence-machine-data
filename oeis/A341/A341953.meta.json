@@ -1,0 +1,23 @@
+{
+  "description": "Replace each digit d in the decimal representation of n with the digital root of d^n.",
+  "id": "A341953",
+  "mentions": [
+    "A010888",
+    "A106649",
+    "A139337",
+    "A322131",
+    "A339023",
+    "A341767"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

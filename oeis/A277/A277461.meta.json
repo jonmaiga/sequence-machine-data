@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: sin(x)/(1+LambertW(-x)).",
+  "id": "A277461",
+  "mentions": [
+    "A000312",
+    "A086331",
+    "A277462",
+    "A277463"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

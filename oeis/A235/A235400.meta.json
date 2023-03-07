@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. For n>1, assume a(n-1) has decimal expansion qrstuvwxyz (with at most ten digits, where some of q, r, s, ... may be zero). Then a(n) = sum 99...9 (with z 9's) + 88...8 (with y 8's) + 77...7 (with x 7's) + ... For example, if a(n-1) were 243, we would sum 77 + 8888 + 999 and get 9964.",
+  "id": "A235400",
+  "mentions": [
+    "A235460"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

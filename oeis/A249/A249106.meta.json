@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that form a Pythagorean 6-tuple with their first four arithmetic derivatives.",
+  "id": "A249106",
+  "mentions": [
+    "A003415",
+    "A210503",
+    "A230543",
+    "A249105",
+    "A249107",
+    "A249110"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

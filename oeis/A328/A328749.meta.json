@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k = 0..w and t_k > 0} (-1)^t_k * 2^k, where Sum_{k = 0..w} t_k * 3^k is the ternary representation of n.",
+  "id": "A328749",
+  "mentions": [
+    "A004488",
+    "A132141",
+    "A157671",
+    "A328728"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

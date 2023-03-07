@@ -1,0 +1,23 @@
+{
+  "description": "Coefficient triangle for powers of x^2 of polynomials appearing in a generalized Melham conjecture on alternating sums of third powers of Chebyshev's S polynomials with odd indices. Coefficients in powers of x^2 of 2 + (-1)^n*S(2*n,x).",
+  "id": "A220670",
+  "mentions": [
+    "A049310",
+    "A109954",
+    "A111125",
+    "A217475",
+    "A220671"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

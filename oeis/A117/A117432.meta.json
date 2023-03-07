@@ -1,0 +1,23 @@
+{
+  "description": "Let n be an integer consisting of m digits. Then n is a Phithy number if the n-th m-tuple in the decimal digits of golden ratio phi is string n.",
+  "id": "A117432",
+  "mentions": [
+    "A001622",
+    "A109513",
+    "A109514",
+    "A117431"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

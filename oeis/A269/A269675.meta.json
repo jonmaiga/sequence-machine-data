@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n 0..5 arrays with no repeated value differing from the previous repeated value by other than plus or minus one modulo 5+1.",
+  "id": "A269675",
+  "mentions": [
+    "A269678"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

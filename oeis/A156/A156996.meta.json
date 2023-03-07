@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = coefficients of p(n,x), where p(n,x) = Sum_{j=0..n} (2*n*(n-j)!/(2*n-j)) * binomial(2*n-j, j) * (x-1)^j and p(0,x) = 1, read by rows.",
+  "id": "A156996",
+  "mentions": [
+    "A000166",
+    "A000179",
+    "A094314",
+    "A156995"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

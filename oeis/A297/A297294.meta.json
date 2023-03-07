@@ -1,0 +1,19 @@
+{
+  "description": "Number of primitive Pythagorean triples (PPTs) that have 2^n-1 as the length of their odd leg where n is the sequence index.",
+  "id": "A297294",
+  "mentions": [
+    "A001265",
+    "A046800"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

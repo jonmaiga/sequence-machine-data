@@ -1,0 +1,19 @@
+{
+  "description": "Real part of the smallest Gaussian prime having a gap size of exactly A128106(n).",
+  "id": "A128107",
+  "mentions": [
+    "A128106",
+    "A128108",
+    "A128109"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "a(1) = 0, a(n) = (e1*i1! + e2*i2! + ... + ez*iz!) for n = prime(i1)^e1 * prime(i2)^e2 * ... * prime(iz)^ez, where prime(k) is the k-th prime, A000040(k).",
+  "id": "A276075",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000720",
+    "A002110",
+    "A007489",
+    "A019565",
+    "A028234",
+    "A033312",
+    "A048675",
+    "A055396",
+    "A059590",
+    "A067029",
+    "A076954",
+    "A206296",
+    "A260443",
+    "A276076",
+    "A276080",
+    "A276081"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

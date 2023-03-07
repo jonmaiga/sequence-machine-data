@@ -1,0 +1,19 @@
+{
+  "description": "Indices of records in A088177.",
+  "id": "A348441",
+  "mentions": [
+    "A088177",
+    "A088178",
+    "A348440"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

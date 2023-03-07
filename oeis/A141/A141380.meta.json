@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = x + A(A(A(A(x)^2))).",
+  "id": "A141380",
+  "mentions": [
+    "A141370",
+    "A141381",
+    "A141382",
+    "A141383"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

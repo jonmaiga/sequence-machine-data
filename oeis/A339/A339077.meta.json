@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 are both coprime to their digital sum (A339076).",
+  "id": "A339077",
+  "mentions": [
+    "A007953",
+    "A339076"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

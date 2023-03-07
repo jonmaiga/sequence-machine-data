@@ -1,0 +1,21 @@
+{
+  "description": "Alternate partial sums of the binomial coefficients C(5*n,n).",
+  "id": "A227996",
+  "mentions": [
+    "A054108",
+    "A188676",
+    "A227995"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

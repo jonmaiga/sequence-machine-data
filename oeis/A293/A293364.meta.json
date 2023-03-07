@@ -1,0 +1,21 @@
+{
+  "description": "The integer k that minimizes |k/2^n - log 2|.",
+  "id": "A293364",
+  "mentions": [
+    "A002162",
+    "A293362",
+    "A293363"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

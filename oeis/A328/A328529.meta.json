@@ -1,0 +1,17 @@
+{
+  "description": "G.f. = Phi^4, where Phi = g.f. for A028930.",
+  "id": "A328529",
+  "mentions": [
+    "A028930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

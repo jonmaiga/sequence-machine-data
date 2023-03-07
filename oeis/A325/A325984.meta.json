@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that for any n >= 0, the sum of digits of n in base 2 equals the sum of digits of a(n) in base 3.",
+  "id": "A325984",
+  "mentions": [
+    "A000120",
+    "A018900",
+    "A053735",
+    "A055235",
+    "A325985"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

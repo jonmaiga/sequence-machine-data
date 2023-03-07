@@ -1,0 +1,22 @@
+{
+  "description": "A symmetric Catalan based triangle.",
+  "id": "A155050",
+  "mentions": [
+    "A000108",
+    "A155051",
+    "A155052"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

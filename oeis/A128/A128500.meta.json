@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of partial sums for a series for Pi/(3*sqrt(3)).",
+  "id": "A128500",
+  "mentions": [
+    "A010892",
+    "A128501"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

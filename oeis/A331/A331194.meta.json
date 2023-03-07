@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose last digit is the number of their distinct prime factors.",
+  "id": "A331194",
+  "mentions": [
+    "A001221",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

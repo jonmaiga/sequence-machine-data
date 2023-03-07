@@ -1,0 +1,44 @@
+{
+  "description": "Square array where row n gives all solutions k > 0 to the cross-domain congruence n*k = A048720(A065621(n),k), zero sequence (A000004) if no such solutions exist.",
+  "id": "A115872",
+  "mentions": [
+    "A000004",
+    "A000027",
+    "A048717",
+    "A048720",
+    "A065621",
+    "A114384",
+    "A114386",
+    "A114388",
+    "A115770",
+    "A115772",
+    "A115801",
+    "A115803",
+    "A115809",
+    "A115857",
+    "A115871",
+    "A115873",
+    "A115874",
+    "A277320",
+    "A277810",
+    "A277820",
+    "A284270",
+    "A325565",
+    "A325566",
+    "A325567",
+    "A325568",
+    "A325570",
+    "A325571"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

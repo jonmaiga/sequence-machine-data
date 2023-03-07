@@ -1,0 +1,23 @@
+{
+  "description": "Number of genera of real quadratic field with discriminant A003658(n), n >= 2.",
+  "id": "A317989",
+  "mentions": [
+    "A001221",
+    "A003640",
+    "A003658",
+    "A087048",
+    "A317990",
+    "A317991"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

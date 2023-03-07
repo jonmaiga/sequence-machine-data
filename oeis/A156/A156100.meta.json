@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} (1 + 2^n*x)^n * x^n/n ).",
+  "id": "A156100",
+  "mentions": [
+    "A155810",
+    "A156101"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "A signed aerated and skewed version of A038137.",
+  "id": "A124137",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A001628",
+    "A001629",
+    "A001872",
+    "A001873",
+    "A014983",
+    "A015518",
+    "A015525",
+    "A033999",
+    "A038137",
+    "A056594",
+    "A208336"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

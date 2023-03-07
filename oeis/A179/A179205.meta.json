@@ -1,0 +1,17 @@
+{
+  "description": "The smallest index k such that prime(k) *2^n *( prime(k)*2^n -1)-1 is prime.",
+  "id": "A179205",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

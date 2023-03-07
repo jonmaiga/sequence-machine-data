@@ -1,0 +1,27 @@
+{
+  "description": "Array t(n,k) = binomial(n*k, n+1)/n, where n >= 1 and k >= 2, read by ascending antidiagonals.",
+  "id": "A241262",
+  "mentions": [
+    "A000108",
+    "A000217",
+    "A006331",
+    "A007226",
+    "A007228",
+    "A067047",
+    "A067049",
+    "A124724",
+    "A222715"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

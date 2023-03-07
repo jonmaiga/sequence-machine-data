@@ -1,0 +1,24 @@
+{
+  "description": "Minesweeper sequence of positive integers arranged on a square spiral on a 2D grid.",
+  "id": "A326410",
+  "mentions": [
+    "A136626",
+    "A136627",
+    "A326405",
+    "A326406",
+    "A326407",
+    "A326408",
+    "A326409"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

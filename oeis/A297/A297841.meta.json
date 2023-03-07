@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} max(d, n/d)^2.",
+  "id": "A297841",
+  "mentions": [
+    "A001157",
+    "A117003",
+    "A297792",
+    "A297842",
+    "A297843",
+    "A297844"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

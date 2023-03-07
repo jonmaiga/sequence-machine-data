@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least positive squarefree number not already used that is coprime to the previous floor(n/2) terms.",
+  "id": "A354790",
+  "mentions": [
+    "A005117",
+    "A090252",
+    "A247665",
+    "A354169",
+    "A354791",
+    "A354792",
+    "A355895",
+    "A355897"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

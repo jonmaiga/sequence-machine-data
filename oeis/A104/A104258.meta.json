@@ -1,0 +1,27 @@
+{
+  "description": "Replace 2^i with n^i in binary representation of n.",
+  "id": "A104258",
+  "mentions": [
+    "A003071",
+    "A029886",
+    "A061297",
+    "A092524",
+    "A093431",
+    "A102393",
+    "A104257",
+    "A122248",
+    "A128975"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

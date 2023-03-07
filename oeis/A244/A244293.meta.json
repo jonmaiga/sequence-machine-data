@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 3/2 - gamma / log(2), a coin tossing constant related to the asymptotic evaluation of the expected length of the longest run of consecutive heads.",
+  "id": "A244293",
+  "mentions": [
+    "A086253",
+    "A086254",
+    "A143300"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

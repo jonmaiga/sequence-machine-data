@@ -1,0 +1,20 @@
+{
+  "description": "The decimal expansion of the fractional part of a(n)/a(n+1) starts with a(n+1) (disregarding leading zeros); always choose the smallest possible positive integer not occurring earlier.",
+  "id": "A298232",
+  "mentions": [
+    "A298980",
+    "A298981",
+    "A298982"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

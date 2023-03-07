@@ -1,0 +1,26 @@
+{
+  "description": "Squares that can be expressed as the sum of two positive squares but not as the sum of three positive squares.",
+  "id": "A309779",
+  "mentions": [
+    "A000290",
+    "A000302",
+    "A000378",
+    "A000408",
+    "A051952",
+    "A134422",
+    "A219222",
+    "A309778"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:53:37",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

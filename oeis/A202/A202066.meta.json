@@ -1,0 +1,18 @@
+{
+  "description": "Mass of oriented maximal Wicks forms of genus n, multiplied by 6.",
+  "id": "A202066",
+  "mentions": [
+    "A202067",
+    "A202068"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

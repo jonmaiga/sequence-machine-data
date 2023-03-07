@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (n-1)*n^2/2-1 is prime.",
+  "id": "A182091",
+  "mentions": [
+    "A006002"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

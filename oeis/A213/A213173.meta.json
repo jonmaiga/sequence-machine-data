@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 4^floor(n/2), Powers of 4 repeated.",
+  "id": "A213173",
+  "mentions": [
+    "A000302",
+    "A004526",
+    "A016116",
+    "A056450",
+    "A084567",
+    "A152815",
+    "A164111"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

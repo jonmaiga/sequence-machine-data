@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of f(-x^2, -x^4) * f(x^1, x^7) in powers of x where f(,) is Ramanujan's two-variable theta function.",
+  "id": "A214303",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A143379",
+    "A214263"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:54:11",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

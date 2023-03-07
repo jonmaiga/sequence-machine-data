@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) is the k-th number with n-1 odd-indexed Fibonacci numbers in its Zeckendorf representation.",
+  "id": "A165279",
+  "mentions": [
+    "A035508",
+    "A054204",
+    "A165276",
+    "A165277",
+    "A165278"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For n>1, a(n) is the least base b>2 such that the digits of n in base b contain the digit b-1; a(1)=1.",
+  "id": "A337535",
+  "mentions": [
+    "A337496",
+    "A337536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

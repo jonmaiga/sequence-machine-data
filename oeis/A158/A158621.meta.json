@@ -1,0 +1,26 @@
+{
+  "description": "Partial products of A001093.",
+  "id": "A158621",
+  "mentions": [
+    "A001093",
+    "A016921",
+    "A068601",
+    "A158620",
+    "A158622",
+    "A158623",
+    "A158624",
+    "A255433"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:17",
+    "offset": 2,
+    "size": 12,
+    "source": "joeis"
+  }
+}

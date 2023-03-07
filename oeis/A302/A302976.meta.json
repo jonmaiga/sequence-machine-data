@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = tau(n)^n mod n^tau(n).",
+  "id": "A302976",
+  "mentions": [
+    "A000005",
+    "A120737",
+    "A302974",
+    "A302975"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=2; thereafter a(n) = (largest proper divisor of n) + (smallest prime divisor of n).",
+  "id": "A111234",
+  "mentions": [
+    "A020639",
+    "A032742",
+    "A063655",
+    "A068319"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

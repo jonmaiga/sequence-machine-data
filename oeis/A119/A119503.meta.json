@@ -1,0 +1,17 @@
+{
+  "description": "Increasing gaps in the even sieve (A056533) by lower term.",
+  "id": "A119503",
+  "mentions": [
+    "A056533"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

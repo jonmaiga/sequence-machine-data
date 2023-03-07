@@ -1,0 +1,23 @@
+{
+  "description": "In base 9, numbers n which have 9 distinct digits, do not start with 0, and have property that the product (written in base 9) of any two adjacent digits is a substring of n.",
+  "id": "A210020",
+  "mentions": [
+    "A198298",
+    "A203566",
+    "A203569",
+    "A210013"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

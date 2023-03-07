@@ -1,0 +1,19 @@
+{
+  "description": "Primitive doubly abundant numbers - doubly abundant numbers that are not the multiple of another doubly abundant number.",
+  "id": "A125640",
+  "mentions": [
+    "A005101",
+    "A027751",
+    "A125639"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

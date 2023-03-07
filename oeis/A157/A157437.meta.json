@@ -1,0 +1,18 @@
+{
+  "description": "Primes congruent to 1, 5, 7, or 11 modulo 24.",
+  "id": "A157437",
+  "mentions": [
+    "A085606",
+    "A157438"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:11:07",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

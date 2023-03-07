@@ -1,0 +1,18 @@
+{
+  "description": "Area A of the cyclic quadrilaterals such that A, the sides and the radius of the circumcircle are integers.",
+  "id": "A210250",
+  "mentions": [
+    "A103251",
+    "A208984"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

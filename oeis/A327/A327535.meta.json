@@ -1,0 +1,27 @@
+{
+  "description": "Maximum divisor of n that is 1, prime, or whose prime indices are relatively prime.",
+  "id": "A327535",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A006530",
+    "A056239",
+    "A112798",
+    "A281116",
+    "A289509",
+    "A327407",
+    "A327534",
+    "A327536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

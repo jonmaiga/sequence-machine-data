@@ -1,0 +1,22 @@
+{
+  "description": "Triangle formed by coefficients of the expansion of p(x,n) = (1+x-x^2)^(n+1)*Sum_{j >= 0} (2*j+1)^n*(-x + x^2)^j.",
+  "id": "A156918",
+  "mentions": [
+    "A060188",
+    "A156890",
+    "A156896",
+    "A156901"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

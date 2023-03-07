@@ -1,0 +1,19 @@
+{
+  "description": "Generalized Euler numbers, a(n) = n!*[x^n](sec(7*x)*(-sin(2*x) + sin(4*x) + sin(6*x) + cos(x) + cos(3*x) - cos(5*x))).",
+  "id": "A349266",
+  "mentions": [
+    "A064068",
+    "A064072",
+    "A349264"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

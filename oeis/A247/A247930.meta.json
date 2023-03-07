@@ -1,0 +1,17 @@
+{
+  "description": "Number of length 3+4 0..n arrays with some disjoint pairs in every consecutive five terms having the same sum",
+  "id": "A247930",
+  "mentions": [
+    "A247927"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

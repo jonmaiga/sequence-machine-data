@@ -1,0 +1,28 @@
+{
+  "description": "Smallest fixed points (>0) of the base-n Kaprekar map.",
+  "id": "A319798",
+  "mentions": [
+    "A000567",
+    "A099009",
+    "A163205",
+    "A164997",
+    "A165016",
+    "A165036",
+    "A165055",
+    "A165075",
+    "A165094",
+    "A165114",
+    "A319839"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

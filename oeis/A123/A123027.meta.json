@@ -1,0 +1,32 @@
+{
+  "description": "Triangle of coefficients of (1 - x)^n*U(n,-(3*x - 2)/(2*x - 2)), where U(n,x) is the n-th Chebyshev polynomial of the second kind.",
+  "id": "A123027",
+  "mentions": [
+    "A001906",
+    "A006503",
+    "A008310",
+    "A049310",
+    "A053122",
+    "A111006",
+    "A122753",
+    "A123018",
+    "A123019",
+    "A123021",
+    "A123199",
+    "A123202",
+    "A123217",
+    "A123221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:31:55",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

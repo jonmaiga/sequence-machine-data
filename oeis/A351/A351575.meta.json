@@ -1,0 +1,21 @@
+{
+  "description": "Positions of primes in A351568.",
+  "id": "A351575",
+  "mentions": [
+    "A000203",
+    "A023194",
+    "A350388",
+    "A351568",
+    "A351570"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

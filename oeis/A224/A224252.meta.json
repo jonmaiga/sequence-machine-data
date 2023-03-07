@@ -1,0 +1,20 @@
+{
+  "description": "Nonpalindromic n such that the factorizations of n and its digital reverse differ only for the exponents order.",
+  "id": "A224252",
+  "mentions": [
+    "A110751",
+    "A110819",
+    "A224253"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

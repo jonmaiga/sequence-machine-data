@@ -1,0 +1,31 @@
+{
+  "description": "Nonnegative integers n such that in balanced ternary representation the number of occurrences of each trit doubles when n is squared.",
+  "id": "A257867",
+  "mentions": [
+    "A061656",
+    "A061657",
+    "A061658",
+    "A061659",
+    "A061660",
+    "A061661",
+    "A061662",
+    "A061663",
+    "A114258",
+    "A117967",
+    "A140267",
+    "A257868",
+    "A257869",
+    "A258411"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

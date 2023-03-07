@@ -1,0 +1,19 @@
+{
+  "description": "Total number of possible standard knight moves on an n X 2n chessboard, if the knight is placed anywhere",
+  "id": "A180319",
+  "mentions": [
+    "A035008"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

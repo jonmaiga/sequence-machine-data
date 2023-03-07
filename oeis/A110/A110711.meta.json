@@ -1,0 +1,21 @@
+{
+  "description": "Number of linear arrangements of n blue, n red and n green items such that first and last elements have the same color but there are no adjacent items of the same color.",
+  "id": "A110711",
+  "mentions": [
+    "A000172",
+    "A110706",
+    "A110707",
+    "A110710"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Pseudo-involutory Riordan companion of 1 + 2*x*M(x), where M(x) is the g.f. of A001006.",
+  "id": "A348189",
+  "mentions": [
+    "A001006",
+    "A007971",
+    "A086246",
+    "A107264"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

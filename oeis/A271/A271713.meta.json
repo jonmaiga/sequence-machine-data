@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that 3*n - 5 is a square.",
+  "id": "A271713",
+  "mentions": [
+    "A001082",
+    "A001651",
+    "A033428",
+    "A056107",
+    "A080663",
+    "A100536",
+    "A120328",
+    "A141631",
+    "A257083",
+    "A271675",
+    "A271740"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:07",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

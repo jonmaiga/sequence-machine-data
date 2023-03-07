@@ -1,0 +1,26 @@
+{
+  "description": "Powers of squarefree semiprimes that are not squarefree.",
+  "id": "A303661",
+  "mentions": [
+    "A006881",
+    "A013929",
+    "A072774",
+    "A072777",
+    "A085155",
+    "A123711",
+    "A200511",
+    "A246547",
+    "A303606"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

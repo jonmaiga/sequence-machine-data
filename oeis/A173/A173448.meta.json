@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime(k) such that the concatenation prime(k)//prime(k+1)//...//prime(k+n-1) represents an emirp.",
+  "id": "A173448",
+  "mentions": [
+    "A006567",
+    "A030996",
+    "A086041",
+    "A167518"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Maximal \"digit\" in position n from right of numbers in \"base American money\" representation (A080897).",
+  "id": "A108536",
+  "mentions": [
+    "A067997",
+    "A080897"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

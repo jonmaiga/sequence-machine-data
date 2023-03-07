@@ -1,0 +1,23 @@
+{
+  "description": "Primes p2 such that p1^3 + p2^2 is an average of twin primes and p1 < p2 are consecutive primes.",
+  "id": "A138755",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A138716",
+    "A139777",
+    "A139780"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

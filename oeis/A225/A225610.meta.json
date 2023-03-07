@@ -1,0 +1,40 @@
+{
+  "description": "Total number of parts in all partitions of n plus the sum of largest parts in all partitions of n plus the number of partitions of n plus n.",
+  "id": "A225610",
+  "mentions": [
+    "A000041",
+    "A000094",
+    "A006128",
+    "A066186",
+    "A093694",
+    "A133041",
+    "A135010",
+    "A138137",
+    "A139250",
+    "A139582",
+    "A141285",
+    "A182377",
+    "A186114",
+    "A186412",
+    "A187219",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A207779",
+    "A211978",
+    "A220517",
+    "A225596",
+    "A225600"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:34:01",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

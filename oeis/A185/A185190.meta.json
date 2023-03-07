@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = x + arcsinh(A(x))^2.",
+  "id": "A185190",
+  "mentions": [
+    "A143136",
+    "A205886",
+    "A214431"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:29:28",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

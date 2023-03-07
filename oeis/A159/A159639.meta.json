@@ -1,0 +1,22 @@
+{
+  "description": "Last divisors at which integral quotients occur consecutively",
+  "id": "A159639",
+  "mentions": [
+    "A116536",
+    "A159578",
+    "A159579",
+    "A159580",
+    "A159581"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

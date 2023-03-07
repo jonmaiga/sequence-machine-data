@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form m = p1 * p2 * p3 where for each d|m we have (d+m/d)/2 prime and p1 < p2 < p3 each prime.",
+  "id": "A128284",
+  "mentions": [
+    "A005383",
+    "A046389",
+    "A128281",
+    "A128283",
+    "A128285",
+    "A128286",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A262045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A355065.",
+  "id": "A355066",
+  "mentions": [
+    "A090252",
+    "A355065"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

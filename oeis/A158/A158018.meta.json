@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that (p - 1)/12 is also prime.",
+  "id": "A158018",
+  "mentions": [
+    "A005385",
+    "A051644",
+    "A055781",
+    "A075704",
+    "A090866"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

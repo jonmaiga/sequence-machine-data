@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle of residue classes (mod pq) of primes r such that the cyclotomic polynomial Phi(pqr,x) is flat.",
+  "id": "A160495",
+  "mentions": [
+    "A046388",
+    "A117223",
+    "A160496",
+    "A160497"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of first zero of the Bessel function J_0(z).",
+  "id": "A115368",
+  "mentions": [
+    "A000275",
+    "A002190",
+    "A115369",
+    "A115370",
+    "A115371",
+    "A115372",
+    "A115373",
+    "A181167",
+    "A181168",
+    "A188489"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

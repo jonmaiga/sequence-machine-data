@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of the set {1,2,...,n} having exactly k blocks that do not consist of consecutive integers (0<=k<=floor(n/2); a singleton is considered a block of consecutive integers).",
+  "id": "A177256",
+  "mentions": [
+    "A000079",
+    "A000110",
+    "A177254",
+    "A177255",
+    "A177257"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

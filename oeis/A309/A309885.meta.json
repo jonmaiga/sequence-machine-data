@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest integer k such that there exists a set of n integers from which each number in 1,...,k can be built using the basic operations +,-,*,/, with parentheses allowed, and using each element of the set exactly once.",
+  "id": "A309885",
+  "mentions": [
+    "A142153",
+    "A221954",
+    "A309886"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

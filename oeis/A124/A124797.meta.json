@@ -1,0 +1,20 @@
+{
+  "description": "Sum of cyclic permutations of 123...n seen as number written in base n+1: ((n+1)^n-1)*(n+1)/2.",
+  "id": "A124797",
+  "mentions": [
+    "A083956",
+    "A124798"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "McKay-Thompson series of class 45A for the Monster group with a(0) = 1.",
+  "id": "A226054",
+  "mentions": [
+    "A058684"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:45",
+    "offset": -1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet g.f.: 1 / (zeta(s)^2 * (1 - 2^(1 - s))).",
+  "id": "A327274",
+  "mentions": [
+    "A007427",
+    "A008683",
+    "A048272",
+    "A062503",
+    "A067856",
+    "A327268"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

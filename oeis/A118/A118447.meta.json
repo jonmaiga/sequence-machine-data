@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted n-edge one-vertex maps on the Klein bottle (dually: one-face maps).",
+  "id": "A118447",
+  "mentions": [
+    "A000346",
+    "A118448"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

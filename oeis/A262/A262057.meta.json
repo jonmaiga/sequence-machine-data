@@ -1,0 +1,21 @@
+{
+  "description": "Array based on the Stanley sequence S(0), A005836, by antidiagonals.",
+  "id": "A262057",
+  "mentions": [
+    "A005836",
+    "A074940",
+    "A100480",
+    "A265316"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

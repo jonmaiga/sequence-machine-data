@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(n, A002322(n)), where A002322 is Carmichael lambda, also known as psi.",
+  "id": "A327979",
+  "mentions": [
+    "A002322",
+    "A009191",
+    "A009194",
+    "A009195",
+    "A306695"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

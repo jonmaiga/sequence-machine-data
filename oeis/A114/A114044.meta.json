@@ -1,0 +1,21 @@
+{
+  "description": "Number of (ordered) sequences of coins (each of which has value 1, 5, 10, 25, 50 or 100) which add to n.",
+  "id": "A114044",
+  "mentions": [
+    "A073031",
+    "A114138",
+    "A114140"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

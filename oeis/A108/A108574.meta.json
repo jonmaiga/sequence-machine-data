@@ -1,0 +1,24 @@
+{
+  "description": "Range of A000790 (primary pretenders).",
+  "id": "A108574",
+  "mentions": [
+    "A000790",
+    "A001358",
+    "A034386",
+    "A121707",
+    "A267999",
+    "A295997"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 132,
+    "source": "oeis-entry"
+  }
+}

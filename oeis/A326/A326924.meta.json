@@ -1,0 +1,33 @@
+{
+  "description": "Squares visited by a knight on a spirally numbered board, moving always to the unvisited square closest to the origin.",
+  "id": "A326924",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A296030",
+    "A316328",
+    "A316667",
+    "A323809",
+    "A326413",
+    "A326916",
+    "A326918",
+    "A326922",
+    "A328698",
+    "A328908",
+    "A328909",
+    "A328928",
+    "A328929"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

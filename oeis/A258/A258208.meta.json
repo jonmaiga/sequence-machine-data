@@ -1,0 +1,21 @@
+{
+  "description": "Transpose of array A258207 which gives the numbers remaining after the stage n of Lucky sieve.",
+  "id": "A258208",
+  "mentions": [
+    "A000959",
+    "A002260",
+    "A004736",
+    "A258207"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

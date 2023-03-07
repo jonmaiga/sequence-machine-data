@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the limit of the square root of the ratio of consecutive Padovan numbers.",
+  "id": "A191909",
+  "mentions": [
+    "A000931",
+    "A060006",
+    "A075778"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:39",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

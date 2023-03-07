@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled digraphs on n vertices such that every vertex has outdegree 3.",
+  "id": "A185193",
+  "mentions": [
+    "A001373",
+    "A129524",
+    "A185194",
+    "A185303",
+    "A329228"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

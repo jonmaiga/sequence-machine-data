@@ -1,0 +1,26 @@
+{
+  "description": "Denominator of sum of reciprocals of numbers less than n that do not divide n.",
+  "id": "A281086",
+  "mentions": [
+    "A000203",
+    "A001008",
+    "A002805",
+    "A017665",
+    "A017666",
+    "A024816",
+    "A277791",
+    "A281085"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

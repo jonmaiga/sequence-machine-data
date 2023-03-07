@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest k such that every number from 1 to k can be covered by n geometric progressions of rational numbers.",
+  "id": "A309095",
+  "mentions": [
+    "A309270",
+    "A327465",
+    "A327466",
+    "A327469"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

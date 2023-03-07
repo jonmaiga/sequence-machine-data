@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3*a(n-1) - a(n-3) for n>2, with a(0)=1, a(1)=-1, a(2)=0.",
+  "id": "A122100",
+  "mentions": [
+    "A052536",
+    "A122099"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

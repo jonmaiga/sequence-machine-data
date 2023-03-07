@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer m such that number of representations of 2 m + 1 as p + 4 q is n, with p, q primes.",
+  "id": "A220187",
+  "mentions": [
+    "A219254"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

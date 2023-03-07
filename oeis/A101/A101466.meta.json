@@ -1,0 +1,19 @@
+{
+  "description": "Create a histogram of the digits used so far in the sequence. Add to the last element of the sequence the most used digit on the histogram. If two or more digits have the same score in the histogram, add the highest. 0 is to be interpreted as 10 and so comes after 9. So if 0 is the digit to add, add 10 instead. Start the sequence with 1.",
+  "id": "A101466",
+  "mentions": [
+    "A093031"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

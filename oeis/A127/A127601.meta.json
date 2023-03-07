@@ -1,0 +1,22 @@
+{
+  "description": "Integer part of 4th root of product of first n primes.",
+  "id": "A127601",
+  "mentions": [
+    "A002110",
+    "A060797",
+    "A127600",
+    "A127602",
+    "A127603",
+    "A127604"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

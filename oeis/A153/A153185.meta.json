@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Q(n) + Q(n^2) + Q(n^3) is a perfect square where Q(n) is the sum of the digits of n.",
+  "id": "A153185",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

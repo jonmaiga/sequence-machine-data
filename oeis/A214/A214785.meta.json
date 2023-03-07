@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n+6 = A214783(n).",
+  "id": "A214785",
+  "mentions": [
+    "A213784",
+    "A214783",
+    "A214784"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

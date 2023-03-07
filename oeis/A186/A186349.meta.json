@@ -1,0 +1,21 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=8i and g(j)=j^2. Complement of A186348.",
+  "id": "A186349",
+  "mentions": [
+    "A186346",
+    "A186347",
+    "A186348"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:34:47",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

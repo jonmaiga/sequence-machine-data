@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A289272(floor(A289271(n)/2)).",
+  "id": "A322990",
+  "mentions": [
+    "A252463",
+    "A289271",
+    "A289272",
+    "A300840",
+    "A322988",
+    "A322991",
+    "A322992"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

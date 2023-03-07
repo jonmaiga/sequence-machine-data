@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the sum of the digits of p^p is a prime.",
+  "id": "A130828",
+  "mentions": [
+    "A051674",
+    "A066588"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes such that it takes exactly 5 iterations of reverse-and-add digits to generate a prime.",
+  "id": "A245210",
+  "mentions": [
+    "A245208",
+    "A245209"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

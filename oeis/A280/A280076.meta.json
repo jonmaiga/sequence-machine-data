@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that Sum_{d|n} tau(d) = Product_{d|n} tau(d).",
+  "id": "A280076",
+  "mentions": [
+    "A001248",
+    "A007425",
+    "A008578",
+    "A211776",
+    "A331294",
+    "A350343"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

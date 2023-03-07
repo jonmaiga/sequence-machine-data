@@ -1,0 +1,23 @@
+{
+  "description": "Least k such that n-th repunit times k contains all digits from 1 to 9.",
+  "id": "A277057",
+  "mentions": [
+    "A002275",
+    "A050289",
+    "A277054",
+    "A277058",
+    "A277059"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:07",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A061019.",
+  "id": "A239122",
+  "mentions": [
+    "A002819",
+    "A061019"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

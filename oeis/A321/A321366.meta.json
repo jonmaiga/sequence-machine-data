@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least integer k greater than 1 such that n divides binomial(k, 2) = A000217(k-1).",
+  "id": "A321366",
+  "mentions": [
+    "A000217",
+    "A011772",
+    "A292787"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

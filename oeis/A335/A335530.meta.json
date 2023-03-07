@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (1 - 2*log(1 + x))/(1 - 3*log(1 + x)).",
+  "id": "A335530",
+  "mentions": [
+    "A088501",
+    "A334369",
+    "A335531"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:00:59",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

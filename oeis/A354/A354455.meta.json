@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first composite number in the n-th row of A328739.",
+  "id": "A354455",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A328739"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

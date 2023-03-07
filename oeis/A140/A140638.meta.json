@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected graphs on n labeled nodes that contain at least two cycles.",
+  "id": "A140638",
+  "mentions": [
+    "A000272",
+    "A001187",
+    "A057500",
+    "A129271",
+    "A140636"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(m,n) is -m if n=0, 1 elsewhere.",
+  "id": "A167407",
+  "mentions": [
+    "A061347",
+    "A166711",
+    "A166871"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:29",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Factorial codes for the fixed points of the square of Vaillé's 1997 bijection on Dyck paths.",
+  "id": "A126299",
+  "mentions": [
+    "A007623",
+    "A071156",
+    "A071158",
+    "A126295",
+    "A126298",
+    "A126301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

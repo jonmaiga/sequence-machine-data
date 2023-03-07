@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 1 / (1 + 12*x*G(x)^4 - 16*x*G^5) where G(x) = 1 + x*G(x)^6 is the g.f. of A002295.",
+  "id": "A226705",
+  "mentions": [
+    "A002295",
+    "A147855",
+    "A183160",
+    "A226706",
+    "A226733"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

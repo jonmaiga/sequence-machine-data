@@ -1,0 +1,18 @@
+{
+  "description": "The product of two successive terms is always even, and so is the product of two successive digits. Lexicographically earliest sequence of distinct positive terms with this property.",
+  "id": "A345142",
+  "mentions": [
+    "A344543"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

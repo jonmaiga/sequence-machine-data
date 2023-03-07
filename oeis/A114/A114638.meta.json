@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n such that number of parts is equal to the sum of parts counted without multiplicities.",
+  "id": "A114638",
+  "mentions": [
+    "A003114",
+    "A006141",
+    "A039900",
+    "A047993",
+    "A064174",
+    "A066328",
+    "A116861",
+    "A243149",
+    "A324516",
+    "A324518",
+    "A324520",
+    "A324521",
+    "A324570"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

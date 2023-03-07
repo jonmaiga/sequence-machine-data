@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-celled polyominoes with perimeter < 2n+2.",
+  "id": "A135942",
+  "mentions": [
+    "A000105",
+    "A131482"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent monotone Boolean functions of n variables with no symmetries.",
+  "id": "A220879",
+  "mentions": [
+    "A003182"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number that has not yet appeared that is coprime to a(n-1) and the difference | a(n) - a(n-1) | is distinct from all previous differences.",
+  "id": "A354688",
+  "mentions": [
+    "A093714",
+    "A352588",
+    "A354687",
+    "A354721",
+    "A354731"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

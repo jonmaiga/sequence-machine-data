@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the odd divisors of n in the order as follows: the smallest, the largest, the second smallest, the second largest, the third smallest, the third largest, and so on.",
+  "id": "A261698",
+  "mentions": [
+    "A000593",
+    "A001227",
+    "A027750",
+    "A182469",
+    "A210959",
+    "A261697"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

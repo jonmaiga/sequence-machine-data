@@ -1,0 +1,28 @@
+{
+  "description": "Number of ON cells at n-th stage in simple 2-dimensional cellular automaton (see Comments lines for definition).",
+  "id": "A256530",
+  "mentions": [
+    "A000225",
+    "A001235",
+    "A011782",
+    "A060867",
+    "A139250",
+    "A147562",
+    "A160410",
+    "A160414",
+    "A256531",
+    "A256534"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

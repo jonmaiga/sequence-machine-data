@@ -1,0 +1,20 @@
+{
+  "description": "Short legs of primitive Pythagorean Triples (a,b,c) such that 2*a+1, 2*b+1 and 2*c+1 are primes.",
+  "id": "A165236",
+  "mentions": [
+    "A009004",
+    "A020883",
+    "A165237",
+    "A165238"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

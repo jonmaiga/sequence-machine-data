@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n in which the minimal multiplicity of parts equals 10.",
+  "id": "A244173",
+  "mentions": [
+    "A242451"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 10,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

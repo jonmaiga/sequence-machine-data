@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows, Kronecker symbol (n-k|k) for n >= 1, 1 <= k <= n.",
+  "id": "A215200",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000035",
+    "A054521",
+    "A080891",
+    "A089509",
+    "A091337",
+    "A091338",
+    "A215283",
+    "A215284",
+    "A215285",
+    "A322796"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

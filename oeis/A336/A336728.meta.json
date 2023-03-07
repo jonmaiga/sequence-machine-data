@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1 and a(n) = (1/n) * Sum_{k=1..n} (-n)^(n-k) * binomial(n,k) * binomial(n,k-1) for n > 0.",
+  "id": "A336728",
+  "mentions": [
+    "A242369",
+    "A307885",
+    "A336713",
+    "A336714",
+    "A336727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

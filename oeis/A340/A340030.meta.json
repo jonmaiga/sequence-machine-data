@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of hypergraphs on n labeled vertices with k edges and all vertices having even degree, 0 <= k < 2^n.",
+  "id": "A340030",
+  "mentions": [
+    "A002394",
+    "A006095",
+    "A010085",
+    "A010086",
+    "A010087",
+    "A010088",
+    "A010089",
+    "A016031",
+    "A058878",
+    "A281123",
+    "A340263",
+    "A340312"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

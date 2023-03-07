@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes that are a concatenation of two positive integers whose sum is prime(n).",
+  "id": "A328932",
+  "mentions": [
+    "A000040",
+    "A066686",
+    "A067754",
+    "A328903"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

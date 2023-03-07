@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 1 if k does not divide n^e, positive nonzero integers, and gcd(n,k) > 1.",
+  "id": "A304572",
+  "mentions": [
+    "A054521",
+    "A243823",
+    "A272619",
+    "A304569",
+    "A304571"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

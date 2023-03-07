@@ -1,0 +1,22 @@
+{
+  "description": "Count of numbers k in the range 1 < k <= n such that set of proper divisors of k is a subset of the set of proper divisors of n.",
+  "id": "A159070",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A032741",
+    "A036234",
+    "A158973"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

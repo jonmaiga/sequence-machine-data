@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of Abelian groups of order A181800(n) (n-th powerful number that is the first integer of its prime signature).",
+  "id": "A212646",
+  "mentions": [
+    "A000688",
+    "A046054",
+    "A046055",
+    "A046056",
+    "A050360",
+    "A181800",
+    "A212172"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

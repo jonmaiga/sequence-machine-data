@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. log(1 + arcsin(x))*exp(-x).",
+  "id": "A297209",
+  "mentions": [
+    "A009337",
+    "A009356",
+    "A009374",
+    "A009393",
+    "A189815",
+    "A296436",
+    "A297210",
+    "A297211",
+    "A297213"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:04:30",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

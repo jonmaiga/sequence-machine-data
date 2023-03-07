@@ -1,0 +1,23 @@
+{
+  "description": "Compound filter (\"discard the smallest prime factor\" & \"signature for 1-runs in base-2\"): a(n) = P(A032742(n), A278222(n)), where P(n,k) is sequence A000027 used as a pairing function, with a(1) = 1.",
+  "id": "A286379",
+  "mentions": [
+    "A000027",
+    "A005940",
+    "A032742",
+    "A046523",
+    "A278222",
+    "A285729"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple disconnected asymmetric graph on n vertices.",
+  "id": "A275867",
+  "mentions": [
+    "A003400",
+    "A124059"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

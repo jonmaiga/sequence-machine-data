@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of times that a(n-1) appears in the concatenation of all numbers from a(0) to a(n-2), with a(0) = 0.",
+  "id": "A276457",
+  "mentions": [
+    "A142150",
+    "A171181",
+    "A181391",
+    "A248034"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

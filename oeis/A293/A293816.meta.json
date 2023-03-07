@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the volume of one cubic parsec in cubic meters, as defined in 2015.",
+  "id": "A293816",
+  "mentions": [
+    "A292525"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 50,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

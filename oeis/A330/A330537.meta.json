@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} 1 / (1 - arctan(x^k)).",
+  "id": "A330537",
+  "mentions": [
+    "A010050",
+    "A270665",
+    "A330538"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

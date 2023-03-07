@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = L(L(n)) mod n, where L = Lucas numbers = A000032.",
+  "id": "A338736",
+  "mentions": [
+    "A000032",
+    "A005371",
+    "A263112",
+    "A338638",
+    "A338889"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Composites in base 10 that remain composite in seven bases b, 2<=b<=10, expansions interpreted as decimal numbers.",
+  "id": "A256351",
+  "mentions": [
+    "A038537",
+    "A052026",
+    "A052027",
+    "A052028",
+    "A052029",
+    "A052030",
+    "A052031",
+    "A052032",
+    "A052033",
+    "A084482",
+    "A236356",
+    "A256350",
+    "A256356"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

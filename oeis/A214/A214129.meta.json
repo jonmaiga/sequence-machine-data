@@ -1,0 +1,24 @@
+{
+  "description": "Partitions of n into parts congruent to +-1, +-5 (mod 13).",
+  "id": "A214129",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A214130",
+    "A214131"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:31",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

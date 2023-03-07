@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having height k (n>=2, 1<=k<=n-1).",
+  "id": "A278132",
+  "mentions": [
+    "A082582",
+    "A278133"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

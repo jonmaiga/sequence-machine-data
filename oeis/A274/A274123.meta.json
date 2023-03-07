@@ -1,0 +1,19 @@
+{
+  "description": "Let F(g,p) be the frequency of g up to the prime nextprime(p+1). F(g,p_i) is a record for some prime p_i and F(g, p_(i+1)) is a new record for the next larger prime after p_i. The sequence lists the primes p_(i+1), except a(1) = 2.",
+  "id": "A274123",
+  "mentions": [
+    "A274121",
+    "A274122"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

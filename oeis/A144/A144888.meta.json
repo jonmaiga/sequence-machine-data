@@ -1,0 +1,21 @@
+{
+  "description": "Second column (m=2) of triangle A144886 (S1hat(4)).",
+  "id": "A144888",
+  "mentions": [
+    "A001715",
+    "A144886",
+    "A144889"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

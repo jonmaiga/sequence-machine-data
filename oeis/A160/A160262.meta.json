@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=c-th digit of A000796(n) where c=n-th composite.",
+  "id": "A160262",
+  "mentions": [
+    "A000796",
+    "A002808",
+    "A090201"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

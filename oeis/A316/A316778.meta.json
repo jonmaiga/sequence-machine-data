@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = exp(-1/2) * Sum_{k>=0} H_n(k) / (k!*2^k), where H_n(x) is n-th Hermite polynomial.",
+  "id": "A316778",
+  "mentions": [
+    "A277380",
+    "A277381"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

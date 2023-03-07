@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of n where the difference between largest and smallest parts equals one.",
+  "id": "A214259",
+  "mentions": [
+    "A000005",
+    "A001622",
+    "A072951",
+    "A214258"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

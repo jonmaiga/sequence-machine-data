@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) is the smallest integer >=0 that cannot be obtained from the integers {a(1), ..., a(n)} using each number at most once and the operators +, -, *, / and accepting fractional intermediate results.",
+  "id": "A217043",
+  "mentions": [
+    "A060315",
+    "A071115"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

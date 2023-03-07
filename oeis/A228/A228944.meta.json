@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write highly composite numbers (A002182(n)) as the difference of two highly abundant numbers (A002093), both <= 2*A002182(n).",
+  "id": "A228944",
+  "mentions": [
+    "A002093",
+    "A002182",
+    "A202472"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

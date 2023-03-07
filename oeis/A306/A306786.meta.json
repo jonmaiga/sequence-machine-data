@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^2 divides A087935(p).",
+  "id": "A306786",
+  "mentions": [
+    "A000040",
+    "A087935",
+    "A173656",
+    "A306785"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

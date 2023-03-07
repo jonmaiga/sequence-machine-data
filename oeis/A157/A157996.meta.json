@@ -1,0 +1,26 @@
+{
+  "description": "Primes which are sum of 1 and two nonconsecutive primes p1 and p2, p2 - p1 > 2.",
+  "id": "A157996",
+  "mentions": [
+    "A000040",
+    "A005385",
+    "A006093",
+    "A049084",
+    "A065091",
+    "A076805",
+    "A092738",
+    "A118071",
+    "A157995",
+    "A185154"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer m such that m*n divides F(m+n), where F(k) denotes the k-th Fibonacci number A000045(k).",
+  "id": "A297573",
+  "mentions": [
+    "A000045",
+    "A247937",
+    "A248123",
+    "A297574"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

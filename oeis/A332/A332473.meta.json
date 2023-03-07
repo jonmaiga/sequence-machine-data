@@ -1,0 +1,20 @@
+{
+  "description": "The imaginary part of the sum of unitary divisors function (usigma) generalized for Gaussian integers.",
+  "id": "A332473",
+  "mentions": [
+    "A034448",
+    "A103229",
+    "A332472",
+    "A332474"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

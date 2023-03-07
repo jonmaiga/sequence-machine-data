@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p with the property that all even numbers n (2 < n <= 2p) are the sum of two primes <= p.",
+  "id": "A301776",
+  "mentions": [
+    "A002372"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of nonempty subsets of {1..n} with mean k.",
+  "id": "A327481",
+  "mentions": [
+    "A000016",
+    "A051293",
+    "A063776",
+    "A065795",
+    "A066571",
+    "A135342",
+    "A327474",
+    "A327475",
+    "A327482",
+    "A327483",
+    "A327484"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

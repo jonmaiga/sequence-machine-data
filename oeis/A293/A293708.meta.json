@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that phi(sigma(n))/n > phi(sigma(m))/m for all m < n, where sigma is the sum of divisors function (A000203) and phi is Euler's totient function (A000010).",
+  "id": "A293708",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

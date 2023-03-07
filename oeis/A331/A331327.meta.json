@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) = [x^k] Pochhammer(x, n-k) for n >= 0, 0 <= k <= floor(n/2). Irregular triangle read by rows.",
+  "id": "A331327",
+  "mentions": [
+    "A132393",
+    "A237653"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

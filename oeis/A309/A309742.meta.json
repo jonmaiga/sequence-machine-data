@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 8*10^(2*k) + 8*10^k + 1 are prime.",
+  "id": "A309742",
+  "mentions": [
+    "A309739"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer k such that (2*n*k+1) | (2^k-1).",
+  "id": "A350703",
+  "mentions": [
+    "A000043",
+    "A002515",
+    "A122095",
+    "A188130",
+    "A188133",
+    "A350702"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

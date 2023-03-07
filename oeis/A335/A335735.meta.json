@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of edges formed by n-secting the angles of a hexagon.",
+  "id": "A335735",
+  "mentions": [
+    "A330845",
+    "A335733",
+    "A335734",
+    "A335736"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "First odd composite N divisible by precisely the first n odd primes with N-2 prime.",
+  "id": "A136353",
+  "mentions": [
+    "A006530",
+    "A070826",
+    "A118750",
+    "A136349",
+    "A136350",
+    "A136351",
+    "A136352",
+    "A136354",
+    "A136355",
+    "A136356",
+    "A136357",
+    "A136358"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

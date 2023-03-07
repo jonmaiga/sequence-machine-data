@@ -1,0 +1,21 @@
+{
+  "description": "Record indices of A130280: integers n>0 for which min{ m>1 | (2n+1)^2(m^2-1)+1 is a square} < oo but bigger than for all preceding n.",
+  "id": "A130288",
+  "mentions": [
+    "A084702",
+    "A130280",
+    "A130283",
+    "A130284",
+    "A130289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

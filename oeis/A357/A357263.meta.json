@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of the distinct digits of k is equal to the product of the prime divisors of k.",
+  "id": "A357263",
+  "mentions": [
+    "A008472",
+    "A217928"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

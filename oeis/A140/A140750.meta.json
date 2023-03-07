@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, X^n * [1,0,0,0,...]; where X = an infinite tridiagonal matrix with (1,0,1,0,1,...) in the main and subsubdiagonals and (1,1,1,...) in the subdiagonal.",
+  "id": "A140750",
+  "mentions": [
+    "A001333",
+    "A005408",
+    "A059317",
+    "A140751"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

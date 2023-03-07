@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if it is possible to place n sets of n queens on an n X n chessboard with no two queens of the same set attacking each other.",
+  "id": "A168553",
+  "mentions": [
+    "A000170",
+    "A007705"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} 1/(1 - (2*k-1) * x).",
+  "id": "A348087",
+  "mentions": [
+    "A001147",
+    "A007820",
+    "A039755",
+    "A226775",
+    "A348085",
+    "A348088"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

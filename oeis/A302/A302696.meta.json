@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose prime indices (with repetition) are pairwise coprime. Nonprime Heinz numbers of integer partitions with pairwise coprime parts.",
+  "id": "A302696",
+  "mentions": [
+    "A000837",
+    "A000961",
+    "A001222",
+    "A005117",
+    "A007359",
+    "A051424",
+    "A275024",
+    "A289508",
+    "A289509",
+    "A298748",
+    "A302568",
+    "A302569",
+    "A302697",
+    "A302698",
+    "A327512",
+    "A327513"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

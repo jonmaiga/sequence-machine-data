@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways a prime from A087054 can be decomposed as a sum of the form p*q+q*r+r*p where p, q and r are distinct primes (p < q < r).",
+  "id": "A238404",
+  "mentions": [
+    "A087053",
+    "A087054",
+    "A087854"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

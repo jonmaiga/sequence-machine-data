@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k!)^2 * abs(Stirling1(n,k)).",
+  "id": "A320502",
+  "mentions": [
+    "A000670",
+    "A007840",
+    "A064618",
+    "A192554"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

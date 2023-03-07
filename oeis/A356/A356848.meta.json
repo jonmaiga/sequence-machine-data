@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = x * Sum_{n>=0} d^n/dx^n x^(2*n-1) * A(x)^n / n!.",
+  "id": "A356848",
+  "mentions": [
+    "A360579"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

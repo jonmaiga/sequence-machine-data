@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=0..n} digsum_4(i)^3, where digsum_4(i) = A053737(i).",
+  "id": "A231666",
+  "mentions": [
+    "A053737",
+    "A231664",
+    "A231665",
+    "A231667"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

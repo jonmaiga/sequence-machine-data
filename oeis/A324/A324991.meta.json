@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the largest number k such that floor(sigma(k)/tau(k)) = n, or 0 if no such number k exists.",
+  "id": "A324991",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A057022",
+    "A162538",
+    "A324990"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

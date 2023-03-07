@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways the first n cubes can be partitioned into three sets with equal sums.",
+  "id": "A327448",
+  "mentions": [
+    "A000537",
+    "A000578",
+    "A007494",
+    "A112972",
+    "A113263",
+    "A275714",
+    "A327449",
+    "A327450"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 23,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

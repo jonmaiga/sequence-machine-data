@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=0} 1/(1-x^(5*k+4))^(5*k+4).",
+  "id": "A285132",
+  "mentions": [
+    "A262811",
+    "A262946",
+    "A285131",
+    "A285214"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

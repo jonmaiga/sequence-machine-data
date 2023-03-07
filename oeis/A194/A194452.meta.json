@@ -1,0 +1,24 @@
+{
+  "description": "Total number of repeated parts in all partitions of n.",
+  "id": "A194452",
+  "mentions": [
+    "A006128",
+    "A024786",
+    "A047967",
+    "A135010",
+    "A138121",
+    "A194544",
+    "A264405"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

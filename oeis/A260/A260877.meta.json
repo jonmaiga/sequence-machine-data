@@ -1,0 +1,28 @@
+{
+  "description": "Square array read by ascending antidiagonals: number of m-shape Euler numbers.",
+  "id": "A260877",
+  "mentions": [
+    "A002115",
+    "A028296",
+    "A030662",
+    "A033999",
+    "A181991",
+    "A211212",
+    "A211213",
+    "A260833",
+    "A260845",
+    "A260875",
+    "A260876"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

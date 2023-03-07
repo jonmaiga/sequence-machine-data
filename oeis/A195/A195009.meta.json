@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, T(n,k) = k^n*A056040(n), n>=0, 0<=k<=n.",
+  "id": "A195009",
+  "mentions": [
+    "A056040",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

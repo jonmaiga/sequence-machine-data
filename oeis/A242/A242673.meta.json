@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the unique real solution of the equation Ei(x)-gamma-log(x) = 1, where Ei is the exponential integral function and gamma the Euler-Mascheroni constant.",
+  "id": "A242673",
+  "mentions": [
+    "A054404",
+    "A242672",
+    "A242674"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

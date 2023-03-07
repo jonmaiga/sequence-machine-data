@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows of coefficients in expansions of (-2 + 3x)^n, where n is nonnegative integer.",
+  "id": "A317498",
+  "mentions": [
+    "A000012",
+    "A013620",
+    "A302747",
+    "A303941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

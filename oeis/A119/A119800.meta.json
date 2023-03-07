@@ -1,0 +1,42 @@
+{
+  "description": "Array of coordination sequences for cubic lattices (rows) and of numbers of L1 forms in cubic lattices (columns) (array read by antidiagonals).",
+  "id": "A119800",
+  "mentions": [
+    "A001105",
+    "A005843",
+    "A005899",
+    "A008412",
+    "A008413",
+    "A008414",
+    "A008415",
+    "A008416",
+    "A008418",
+    "A008420",
+    "A008574",
+    "A035597",
+    "A035598",
+    "A035599",
+    "A035600",
+    "A035601",
+    "A035602",
+    "A035603",
+    "A035607",
+    "A050146",
+    "A113413",
+    "A122542",
+    "A266213"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

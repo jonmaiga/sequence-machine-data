@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of floor(Fibonacci(n)/2).",
+  "id": "A178982",
+  "mentions": [
+    "A004695",
+    "A164397"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:47:32",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

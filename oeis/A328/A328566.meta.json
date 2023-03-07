@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of the elements of the set O_n = {(n-k) OR k, k = 0..n} (where OR denotes the bitwise OR operator).",
+  "id": "A328566",
+  "mentions": [
+    "A002487",
+    "A006583",
+    "A326820",
+    "A328564",
+    "A328565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": -1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

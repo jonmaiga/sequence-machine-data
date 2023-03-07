@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing arrays of n 1..n integers with the sum of their 5th powers equal to sum(i^5,i=1..n)",
+  "id": "A216643",
+  "mentions": [
+    "A216645"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

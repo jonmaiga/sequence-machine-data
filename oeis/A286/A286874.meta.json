@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of binary vectors of length n such that the union (or bitwise OR) of any 2 distinct vectors does not contain any other vector.",
+  "id": "A286874",
+  "mentions": [
+    "A054961",
+    "A303977"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

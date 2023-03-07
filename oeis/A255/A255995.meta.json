@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+4 0..1 arrays with at most one downstep in every n consecutive neighbor pairs.",
+  "id": "A255995",
+  "mentions": [
+    "A255992"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

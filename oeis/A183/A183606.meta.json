@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: [x^(n+1)] A(x)^n = n*(n+1)*{[x^n] A(x)^n} for n>=0.",
+  "id": "A183606",
+  "mentions": [
+    "A183607"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

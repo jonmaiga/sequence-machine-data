@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of descent sequences of length n with exactly k-1 descents, n>=1, 1<=k<=n.",
+  "id": "A225624",
+  "mentions": [
+    "A000332",
+    "A095664",
+    "A225588"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

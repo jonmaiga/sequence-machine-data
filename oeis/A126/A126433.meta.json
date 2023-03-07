@@ -1,0 +1,28 @@
+{
+  "description": "Class+ number of prime(n) according to the Erdős-Selfridge classification of primes.",
+  "id": "A126433",
+  "mentions": [
+    "A000040",
+    "A005105",
+    "A005106",
+    "A005107",
+    "A005108",
+    "A005113",
+    "A081633",
+    "A081639",
+    "A084071",
+    "A090468",
+    "A101253",
+    "A126805"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of T where T = (3n + 1) if n is even and T=(3n + 1)/2 if n is odd.",
+  "id": "A111329",
+  "mentions": [
+    "A000041",
+    "A000546",
+    "A006577",
+    "A070165",
+    "A165355"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

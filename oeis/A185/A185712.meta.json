@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of primes <= n that end in 3.",
+  "id": "A185712",
+  "mentions": [
+    "A185705",
+    "A185706",
+    "A185708",
+    "A185709",
+    "A185711",
+    "A185714",
+    "A185715"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

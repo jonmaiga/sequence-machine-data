@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers listed in three columns: if A004526(n-1) = 0 then row n lists A004526(n-1), A004526(n), 1, otherwise row n lists 1, A004526(n), A004526(n-1).",
+  "id": "A133188",
+  "mentions": [
+    "A004526",
+    "A349704"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

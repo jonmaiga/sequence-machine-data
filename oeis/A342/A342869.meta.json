@@ -1,0 +1,18 @@
+{
+  "description": "Positions of records in A116488.",
+  "id": "A342869",
+  "mentions": [
+    "A001969",
+    "A116488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

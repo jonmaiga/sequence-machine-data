@@ -1,0 +1,17 @@
+{
+  "description": "Number of regular complex polytopes in n-dimensional unitary complex space.",
+  "id": "A133682",
+  "mentions": [
+    "A060296"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

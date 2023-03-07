@@ -1,0 +1,22 @@
+{
+  "description": "Triangle by rows, A027293 * A129372 as infinite lower triangular matrices",
+  "id": "A188139",
+  "mentions": [
+    "A024790",
+    "A027293",
+    "A066897",
+    "A129372"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

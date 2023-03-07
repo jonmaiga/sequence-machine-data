@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n if n <= 3, a(4)=5, otherwise the smallest number not occurring earlier having at least one common factor with a(n-3), but none with a(n-1)*a(n-2).",
+  "id": "A247225",
+  "mentions": [
+    "A084967",
+    "A084970",
+    "A098550",
+    "A247942",
+    "A249167",
+    "A251604",
+    "A254003"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

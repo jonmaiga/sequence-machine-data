@@ -1,0 +1,31 @@
+{
+  "description": "Array read by descending antidiagonals: A(n,k) is the number of chiral pairs of colorings of the edges of a regular n-dimensional simplex using up to k colors.",
+  "id": "A327085",
+  "mentions": [
+    "A000004",
+    "A000292",
+    "A063841",
+    "A325000",
+    "A327083",
+    "A327084",
+    "A327086",
+    "A327089",
+    "A331352",
+    "A337409",
+    "A337413",
+    "A337885",
+    "A337899"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct integers encountered on all possible paths from n to any first encountered powers of 2 (that are excluded from the count), when using the transitions x -> x - (x/p) and x -> x + (x/p) in any order, where p is the largest prime dividing x.",
+  "id": "A335905",
+  "mentions": [
+    "A006530",
+    "A171462",
+    "A209229",
+    "A332809",
+    "A335876",
+    "A335884",
+    "A335885",
+    "A335904",
+    "A335906"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

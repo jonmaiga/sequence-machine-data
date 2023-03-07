@@ -1,0 +1,35 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(p_n) = ludic(1+a(n)), a(c_n) = nonludic(a(n)), where p_n = n-th prime, c_n = n-th composite number and ludic = A003309, nonludic = A192607.",
+  "id": "A255421",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A003309",
+    "A007097",
+    "A008578",
+    "A010051",
+    "A065855",
+    "A192607",
+    "A237126",
+    "A245703",
+    "A245704",
+    "A246377",
+    "A255324",
+    "A255407",
+    "A255408",
+    "A255420",
+    "A255422"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

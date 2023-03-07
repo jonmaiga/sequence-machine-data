@@ -1,0 +1,19 @@
+{
+  "description": "Maximum label within a minimal labeling of n identical 4-sided dice yielding the most possible sums.",
+  "id": "A227589",
+  "mentions": [
+    "A227588"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

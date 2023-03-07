@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = |{1 <= k <= n: n + pi(k^2) is prime}|, where pi(.) is given by A000720.",
+  "id": "A237595",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A237453",
+    "A237496",
+    "A237497",
+    "A237578",
+    "A237582"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

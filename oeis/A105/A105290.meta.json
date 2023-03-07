@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that prime(k+1) == 4 (mod k).",
+  "id": "A105290",
+  "mentions": [
+    "A004649",
+    "A023144",
+    "A092044",
+    "A105286",
+    "A105287",
+    "A105288",
+    "A105329",
+    "A105451"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

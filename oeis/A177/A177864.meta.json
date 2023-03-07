@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nontrivial quadratic residue modulo prime(n), for n >= 3.",
+  "id": "A177864",
+  "mentions": [
+    "A053760",
+    "A063987"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

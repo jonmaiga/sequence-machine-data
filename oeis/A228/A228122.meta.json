@@ -1,0 +1,22 @@
+{
+  "description": "Smallest nonnegative number x such that x^2 + x + 41 has exactly n prime factors counting multiplicities.",
+  "id": "A228122",
+  "mentions": [
+    "A005846",
+    "A007634",
+    "A056561",
+    "A145292",
+    "A145293"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

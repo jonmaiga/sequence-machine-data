@@ -1,0 +1,22 @@
+{
+  "description": "The total number of distinct Pythagorean triples with an area numerically equal to n times their perimeters",
+  "id": "A156688",
+  "mentions": [
+    "A000005",
+    "A068068",
+    "A078644"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

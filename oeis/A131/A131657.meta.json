@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 1, put A_n(z) = Sum_{j>=0} (n*j)!/(j!^n) * z^j and B_n(z) = Sum_{j>=0} (n*j)!/(j!^n) * z^j * (Sum_{k=1..j*n} (1/k)), and let b(n) be the largest integer for which exp(B_n(z)/(b(n)*A_n(z))) has integral coefficients. The sequence is b(n).",
+  "id": "A131657",
+  "mentions": [
+    "A007757",
+    "A056612",
+    "A131658"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

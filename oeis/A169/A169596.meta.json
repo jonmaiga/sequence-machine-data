@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that sigma(p+3) = sigma(p-3).",
+  "id": "A169596",
+  "mentions": [
+    "A067891",
+    "A169595"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

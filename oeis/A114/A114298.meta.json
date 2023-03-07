@@ -1,0 +1,21 @@
+{
+  "description": "First row of Modified Schroeder numbers for q=7 (A114294).",
+  "id": "A114298",
+  "mentions": [
+    "A112833",
+    "A112844",
+    "A114292",
+    "A114294",
+    "A114299"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

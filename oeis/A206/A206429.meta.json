@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of rooted labeled trees on n nodes such that the root node has degree k. n>=2, 1<=k<=n-1.",
+  "id": "A206429",
+  "mentions": [
+    "A000169",
+    "A055541"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

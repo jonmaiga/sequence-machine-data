@@ -1,0 +1,21 @@
+{
+  "description": "Value of concatenation of all suffixes of binary representation of n.",
+  "id": "A241426",
+  "mentions": [
+    "A000079",
+    "A000096",
+    "A007088",
+    "A030308"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

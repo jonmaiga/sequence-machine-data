@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that 2n - 1 divides sigma(k^2), or 0 if no such k exists.",
+  "id": "A283625",
+  "mentions": [
+    "A000203",
+    "A070982",
+    "A227470"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

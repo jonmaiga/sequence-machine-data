@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are a product of distinct numbers in A000285.",
+  "id": "A274282",
+  "mentions": [
+    "A000285",
+    "A160009",
+    "A274288"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

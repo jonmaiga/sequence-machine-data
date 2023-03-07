@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 56/13, the Korn constant for the sphere.",
+  "id": "A244346",
+  "mentions": [
+    "A021329"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:11:19",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

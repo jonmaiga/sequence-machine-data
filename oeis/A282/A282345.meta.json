@@ -1,0 +1,19 @@
+{
+  "description": "Square root of the smallest square referenced in A086982 (Numbers n such that 10^n+1 is not squarefree).",
+  "id": "A282345",
+  "mentions": [
+    "A086982",
+    "A282344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

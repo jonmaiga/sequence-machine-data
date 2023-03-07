@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that both semiprime(k)/prime(j+1) and semiprime(k+1)/prime(j) are prime for some j.",
+  "id": "A176651",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

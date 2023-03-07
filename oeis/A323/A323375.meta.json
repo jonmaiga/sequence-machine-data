@@ -1,0 +1,19 @@
+{
+  "description": "Let f(p, q) denote the pair (p + q, wt(p) + wt(q)). a(n) gives the number of iterations of f starting at (n, 1) needed to make p/q an integer, or if no integer is ever reached then a(n) = -1. (Here wt is binary weight, A000120.)",
+  "id": "A323375",
+  "mentions": [
+    "A000120",
+    "A323275"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

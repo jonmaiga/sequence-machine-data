@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(5+2) 0..1 arrays with no 3x3 subblock diagonal sum equal to the antidiagonal sum",
+  "id": "A258678",
+  "mentions": [
+    "A258681"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

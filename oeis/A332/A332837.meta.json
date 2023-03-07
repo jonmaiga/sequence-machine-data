@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a knight moving on a double spiral numbered board and moving to the lowest available unvisited square at each step.",
+  "id": "A332837",
+  "mentions": [
+    "A220098",
+    "A316667",
+    "A329022",
+    "A332980"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

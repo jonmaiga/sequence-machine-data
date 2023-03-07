@@ -1,0 +1,27 @@
+{
+  "description": "Number of perfect squared squares of order n up to symmetries of the square.",
+  "id": "A217156",
+  "mentions": [
+    "A000103",
+    "A006983",
+    "A014530",
+    "A110148",
+    "A181735",
+    "A217154",
+    "A217155"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

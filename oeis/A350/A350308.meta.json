@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the constant term in the expansion of Product_{j=1..n} (Sum_{k=-j..j} x^k)^j.",
+  "id": "A350308",
+  "mentions": [
+    "A350283",
+    "A350306",
+    "A350307"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

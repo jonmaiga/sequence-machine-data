@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle of the denominators of the unreduced fractions that lead to the second Bernoulli numbers.",
+  "id": "A224964",
+  "mentions": [
+    "A051716",
+    "A051717",
+    "A141044",
+    "A181131",
+    "A190339",
+    "A191302",
+    "A192456",
+    "A212196"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

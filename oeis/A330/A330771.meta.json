@@ -1,0 +1,18 @@
+{
+  "description": "Averages k of twin primes such that adding divisors of k to (k - 1, k + 1) produces record numbers of twin prime pairs.",
+  "id": "A330771",
+  "mentions": [
+    "A014574",
+    "A330768"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

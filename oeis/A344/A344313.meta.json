@@ -1,0 +1,24 @@
+{
+  "description": "Number k such that k and k+1 have the same number of bi-unitary divisors (A286324).",
+  "id": "A344313",
+  "mentions": [
+    "A005237",
+    "A006049",
+    "A286324",
+    "A293183",
+    "A304463",
+    "A343819",
+    "A344312",
+    "A344314"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

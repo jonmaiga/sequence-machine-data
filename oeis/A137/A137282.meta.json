@@ -1,0 +1,20 @@
+{
+  "description": "Final digit of A136408(n).",
+  "id": "A137282",
+  "mentions": [
+    "A136408"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:34:23",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

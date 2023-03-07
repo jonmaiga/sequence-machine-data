@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers which are not prime powers but which have a proper divisor == 1 mod 4.",
+  "id": "A257591",
+  "mentions": [
+    "A061346"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

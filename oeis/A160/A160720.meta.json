@@ -1,0 +1,35 @@
+{
+  "description": "Number of \"ON\" cells at n-th stage in 2-dimensional cellular automaton (see Comments for precise definition).",
+  "id": "A160720",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A147562",
+    "A147582",
+    "A151776",
+    "A159912",
+    "A160117",
+    "A160118",
+    "A160120",
+    "A160410",
+    "A160412",
+    "A160414",
+    "A160416",
+    "A160721",
+    "A160740",
+    "A160796",
+    "A266532",
+    "A267700"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

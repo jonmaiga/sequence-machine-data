@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = 2*(n+1 - mod(n, k+1) - mod(n, n-k+1) ) + (n! - k! - (n-k)!) read by rows.",
+  "id": "A176151",
+  "mentions": [
+    "A155170",
+    "A176149"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

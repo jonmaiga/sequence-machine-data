@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = 1; for n>2: a(n) = a(n-1)^5 + a(n-2)^5.",
+  "id": "A112980",
+  "mentions": [
+    "A000045",
+    "A000283"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

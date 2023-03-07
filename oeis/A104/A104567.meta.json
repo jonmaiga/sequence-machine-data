@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(i,j) = i-j+1 if j is odd; T(i,j) = 2(i-j+1) if j is even (1 <= j <= i).",
+  "id": "A104567",
+  "mentions": [
+    "A001082",
+    "A006578",
+    "A104566",
+    "A104568"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-avoiding polygons with perimeter 2*n and sides = 1 that have vertex angles from the set +-Pi/5, +-3*Pi/5, not counting rotations and reflections as distinct.",
+  "id": "A316195",
+  "mentions": [
+    "A258206",
+    "A266549",
+    "A284869",
+    "A306175"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

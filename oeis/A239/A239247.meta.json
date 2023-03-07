@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^4 can be written as a sum of five distinct positive 4th powers.",
+  "id": "A239247",
+  "mentions": [
+    "A003828",
+    "A096739",
+    "A130022"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

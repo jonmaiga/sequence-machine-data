@@ -1,0 +1,23 @@
+{
+  "description": "2^n mod n^3.",
+  "id": "A233442",
+  "mentions": [
+    "A000079",
+    "A000578",
+    "A066606",
+    "A066607",
+    "A233441",
+    "A233471"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:37",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

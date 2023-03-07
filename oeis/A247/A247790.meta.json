@@ -1,0 +1,27 @@
+{
+  "description": "Primes p such that sigma(sigma(2p-1)) is a prime.",
+  "id": "A247790",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A008438",
+    "A051027",
+    "A247791",
+    "A247820",
+    "A247821",
+    "A247822",
+    "A247823",
+    "A247954"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

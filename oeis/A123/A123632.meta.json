@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of q / (chi(-q) * chi(-q^3) * chi(-q^5) * chi(-q^15)) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A123632",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A094022",
+    "A094023",
+    "A121373",
+    "A132321"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

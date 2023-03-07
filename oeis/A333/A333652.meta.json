@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k), n >= 2, 0 <= k <= floor(n^2/2)-n, read by rows, where T(n,k) is the number of 2*(k+n)-cycles in the n X n grid graph which pass through NW and SW corners.",
+  "id": "A333652",
+  "mentions": [
+    "A000217",
+    "A003763",
+    "A302337",
+    "A333247",
+    "A333651",
+    "A333667",
+    "A333668"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

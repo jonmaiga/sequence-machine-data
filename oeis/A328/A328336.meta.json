@@ -1,0 +1,33 @@
+{
+  "description": "Numbers with no consecutive prime indices relatively prime.",
+  "id": "A328336",
+  "mentions": [
+    "A000837",
+    "A056239",
+    "A078374",
+    "A112798",
+    "A281116",
+    "A289508",
+    "A289509",
+    "A305078",
+    "A318978",
+    "A318981",
+    "A328168",
+    "A328169",
+    "A328172",
+    "A328187",
+    "A328188",
+    "A328220",
+    "A328335"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

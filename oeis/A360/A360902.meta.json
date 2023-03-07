@@ -1,0 +1,33 @@
+{
+  "description": "Numbers with the same number of squarefree divisors and powerful divisors.",
+  "id": "A360902",
+  "mentions": [
+    "A000005",
+    "A001248",
+    "A001694",
+    "A005117",
+    "A005361",
+    "A007947",
+    "A034444",
+    "A057521",
+    "A062503",
+    "A138302",
+    "A178739",
+    "A179747",
+    "A246655",
+    "A360903",
+    "A360904",
+    "A360905"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

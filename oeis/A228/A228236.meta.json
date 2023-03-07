@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which a sum k+bitcount(k) can be also obtained as a sum k2 +bitcount(k2) for some other k2<>k . Here bitcount(k) (A000120) gives the number of 1's in binary representation of nonnegative integer k.",
+  "id": "A228236",
+  "mentions": [
+    "A000120",
+    "A092391",
+    "A228085",
+    "A228090",
+    "A228091",
+    "A228237"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Primes p such that p, p+60, p+120, p+180 are consecutive primes.",
+  "id": "A210683",
+  "mentions": [
+    "A033447",
+    "A033448",
+    "A033451",
+    "A052242",
+    "A052243",
+    "A054800",
+    "A058252",
+    "A058323",
+    "A067388",
+    "A089234",
+    "A126771",
+    "A259224"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

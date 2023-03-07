@@ -1,0 +1,21 @@
+{
+  "description": "Eigentriangle of number triangle A070909.",
+  "id": "A181651",
+  "mentions": [
+    "A038754",
+    "A068911",
+    "A070909",
+    "A181652"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

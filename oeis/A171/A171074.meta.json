@@ -1,0 +1,22 @@
+{
+  "description": "A115112 with initial term changed from 0 to 1.",
+  "id": "A171074",
+  "mentions": [
+    "A031970",
+    "A049235",
+    "A115112",
+    "A170076",
+    "A171075",
+    "A171076"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

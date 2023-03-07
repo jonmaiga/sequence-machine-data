@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Pell(n)*A132973(n) for n>=1, with a(0)=1, where A132973 lists the coefficients in psi(-q)^3/psi(-q^3) and where psi() is a Ramanujan theta function.",
+  "id": "A209450",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A132973",
+    "A204270",
+    "A205970",
+    "A209449",
+    "A209451"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

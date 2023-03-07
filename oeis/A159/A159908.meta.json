@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs (p,q) of primes p <= q <= r=prime(n) such that the cyclotomic polynomial Phi(p*q*r) has no coefficient > 1 in absolute value.",
+  "id": "A159908",
+  "mentions": [
+    "A008486",
+    "A159909"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

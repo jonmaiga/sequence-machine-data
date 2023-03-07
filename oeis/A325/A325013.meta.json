@@ -1,0 +1,32 @@
+{
+  "description": "Array read by descending antidiagonals: A(n,k) is the number of unoriented colorings of the facets of a regular n-dimensional orthoplex using up to k colors.",
+  "id": "A325013",
+  "mentions": [
+    "A000048",
+    "A000217",
+    "A000616",
+    "A001037",
+    "A002817",
+    "A128766",
+    "A128767",
+    "A325000",
+    "A325005",
+    "A325012",
+    "A325014",
+    "A325015",
+    "A325017"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

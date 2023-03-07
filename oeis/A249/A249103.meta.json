@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (Pi^2/15)^(1/3).",
+  "id": "A249103",
+  "mentions": [
+    "A000796",
+    "A005600",
+    "A013661",
+    "A013662",
+    "A182448"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:37",
+    "offset": 0,
+    "size": 94,
+    "source": "joeis"
+  }
+}

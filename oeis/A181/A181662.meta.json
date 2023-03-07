@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integral multiple of 2^n not in the range of the Euler phi function.",
+  "id": "A181662",
+  "mentions": [
+    "A005277",
+    "A007617",
+    "A040076",
+    "A057192",
+    "A058887"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

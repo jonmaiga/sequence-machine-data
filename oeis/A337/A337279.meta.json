@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m>=1, n>=1) is number of alpha-labelings of the complete bipartite graph K_{m,n}.",
+  "id": "A337279",
+  "mentions": [
+    "A337278"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

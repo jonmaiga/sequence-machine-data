@@ -1,0 +1,16 @@
+{
+  "description": "The number of Feynman graphs in phi^4 theory with n vertices, 2 external legs.",
+  "id": "A352173",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

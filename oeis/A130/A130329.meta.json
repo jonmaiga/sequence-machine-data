@@ -1,0 +1,24 @@
+{
+  "description": "A059268 * A130321.",
+  "id": "A130329",
+  "mentions": [
+    "A002450",
+    "A006095",
+    "A059268",
+    "A130238",
+    "A130321",
+    "A130328"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

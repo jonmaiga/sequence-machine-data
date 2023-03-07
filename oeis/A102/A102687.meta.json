@@ -1,0 +1,19 @@
+{
+  "description": "Number of different squares of mappings of a finite set of n elements into itself.",
+  "id": "A102687",
+  "mentions": [
+    "A102709",
+    "A247026"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

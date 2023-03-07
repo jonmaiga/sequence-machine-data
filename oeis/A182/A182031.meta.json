@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of q^(-5/24) * (eta(q^3) * eta(q^6))^3 / (eta(q) * eta(q^2))^4 in powers of q.",
+  "id": "A182031",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002513",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:47:14",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

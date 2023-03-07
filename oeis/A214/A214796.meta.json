@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n-8=A214795(n).",
+  "id": "A214796",
+  "mentions": [
+    "A214795"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

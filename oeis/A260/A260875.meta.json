@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by ascending antidiagonals: number of m-shape complementary Bell numbers.",
+  "id": "A260875",
+  "mentions": [
+    "A000587",
+    "A010763",
+    "A081362",
+    "A260833",
+    "A260876",
+    "A260877",
+    "A260884"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

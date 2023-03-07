@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose binary representation is the concatenation of all the words in one of its possible Huffman encodings.",
+  "id": "A263129",
+  "mentions": [
+    "A126014"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

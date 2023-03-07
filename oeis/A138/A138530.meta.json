@@ -1,0 +1,39 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of digits of n in base k representation, 1<=k<=n.",
+  "id": "A138530",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000120",
+    "A002260",
+    "A007395",
+    "A007953",
+    "A053735",
+    "A053737",
+    "A053824",
+    "A053827",
+    "A053828",
+    "A053829",
+    "A053830",
+    "A053831",
+    "A053832",
+    "A053833",
+    "A053834",
+    "A053835",
+    "A053836",
+    "A131383",
+    "A240236"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

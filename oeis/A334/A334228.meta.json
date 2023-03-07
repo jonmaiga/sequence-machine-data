@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the n-th completed odd-numbered level 2k-1 containing k ON-cells in a triangular wedge in the hexagonal grid of A151723 (i.e., after 2^j >= 2k-1 generations of the automaton in A151723 have been computed).",
+  "id": "A334228",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A004736",
+    "A151723",
+    "A193592"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

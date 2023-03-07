@@ -1,0 +1,19 @@
+{
+  "description": "Secondary diagonal of A139755, the table of q-derangement numbers of type A.",
+  "id": "A141754",
+  "mentions": [
+    "A139755",
+    "A141753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

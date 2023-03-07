@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence over {0,1,2} that has the shortest square subsequence.",
+  "id": "A333325",
+  "mentions": [
+    "A006345",
+    "A007814",
+    "A157238",
+    "A283131",
+    "A333307"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

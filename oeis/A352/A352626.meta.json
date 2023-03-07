@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n+1)*(3*n-2)*C(2*n,n-1)/(4*n-2).",
+  "id": "A352626",
+  "mentions": [
+    "A002457",
+    "A162551"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

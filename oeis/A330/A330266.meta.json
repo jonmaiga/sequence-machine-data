@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to shuffle a deck of 4n cards, with 4 cards in each of n ranks, so that adjacent cards have different ranks.",
+  "id": "A330266",
+  "mentions": [
+    "A321633"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

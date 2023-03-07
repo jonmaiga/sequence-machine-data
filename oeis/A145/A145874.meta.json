@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of the numbers 1, 2, ..., n such that for all 1 <= k <= n the average of the first k numbers is at least the average of all n numbers.",
+  "id": "A145874",
+  "mentions": [
+    "A147681"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

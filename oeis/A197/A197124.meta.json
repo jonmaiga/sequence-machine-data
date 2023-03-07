@@ -1,0 +1,19 @@
+{
+  "description": "Extract positive numbers from the infinite string of prime numbers 235711131719..., constructing the smallest numbers which have not appeared in an earlier extraction.",
+  "id": "A197124",
+  "mentions": [
+    "A032759",
+    "A228595"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

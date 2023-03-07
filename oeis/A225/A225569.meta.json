@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{n>=0} 1/10^(3^n), a transcendental number.",
+  "id": "A225569",
+  "mentions": [
+    "A000244",
+    "A024023",
+    "A036987",
+    "A053735",
+    "A063524",
+    "A154271"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of digits of prime(n) and digits of prime(n+1).",
+  "id": "A319675",
+  "mentions": [
+    "A007605",
+    "A045533"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

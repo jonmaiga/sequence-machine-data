@@ -1,0 +1,25 @@
+{
+  "description": "Near-repdigit palindromes with an odd number of digits and all digits except the middle digit equal.",
+  "id": "A261453",
+  "mentions": [
+    "A001633",
+    "A002113",
+    "A043537",
+    "A055642",
+    "A088882",
+    "A210666"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

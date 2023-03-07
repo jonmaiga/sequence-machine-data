@@ -1,0 +1,20 @@
+{
+  "description": "The third column of the Lucas Fibonacci sum of binomials A175685.",
+  "id": "A175712",
+  "mentions": [
+    "A000045",
+    "A175685",
+    "A175686"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

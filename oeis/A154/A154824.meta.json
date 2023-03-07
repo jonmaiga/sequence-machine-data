@@ -1,0 +1,19 @@
+{
+  "description": "Primes p of the form : p+p^2+p^3-+2=primes and p+p^2+p^3-+8=primes.",
+  "id": "A154824",
+  "mentions": [
+    "A154821",
+    "A154822",
+    "A154823"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

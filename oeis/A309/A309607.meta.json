@@ -1,0 +1,27 @@
+{
+  "description": "Exponents k for which reversal(2^k-1) is prime.",
+  "id": "A309607",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A000225",
+    "A000668",
+    "A001348",
+    "A057708",
+    "A134037",
+    "A134038",
+    "A134039"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

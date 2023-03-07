@@ -1,0 +1,19 @@
+{
+  "description": "Slowest growing sequence of semiprimes such that any accumulating sum is a semiprime.",
+  "id": "A346297",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A116656"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

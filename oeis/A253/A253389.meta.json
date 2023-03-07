@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the repeating digit pattern in penultimate digit of successive powers of n (omitting initial powers without at least two digits).",
+  "id": "A253389",
+  "mentions": [
+    "A160590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

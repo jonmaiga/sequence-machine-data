@@ -1,0 +1,21 @@
+{
+  "description": "Let m = floor(sqrt(n)); if n and m have the same parity, a(n) = n + m, otherwise a(n) = n - m.",
+  "id": "A127366",
+  "mentions": [
+    "A000196",
+    "A127367",
+    "A133280",
+    "A195437"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

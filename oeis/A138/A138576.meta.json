@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^(2*k - 1) - 1 is prime.",
+  "id": "A138576",
+  "mentions": [
+    "A000043",
+    "A146768"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1; then successively add 1, divide by 2, add 2 and then total up the last 4 terms.",
+  "id": "A112027",
+  "mentions": [
+    "A003462",
+    "A024023",
+    "A058481",
+    "A067771"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:15:35",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

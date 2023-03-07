@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{1 <= i, j, k, l <= n} gcd(i,j,k,l).",
+  "id": "A344523",
+  "mentions": [
+    "A082540",
+    "A343498",
+    "A344138",
+    "A344479",
+    "A344522",
+    "A344524",
+    "A344525"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

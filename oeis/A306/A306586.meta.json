@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p(k) such that k*p exceeds 10^n.",
+  "id": "A306586",
+  "mentions": [
+    "A000040",
+    "A090977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

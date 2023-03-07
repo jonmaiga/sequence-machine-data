@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k)=(n+k)!/k! (0<=k<=n-1; n>=1).",
+  "id": "A105725",
+  "mentions": [
+    "A000142",
+    "A000407",
+    "A001761",
+    "A068424",
+    "A092956"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

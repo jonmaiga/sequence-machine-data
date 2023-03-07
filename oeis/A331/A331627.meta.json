@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are (exactly) k-deficient-perfect numbers.",
+  "id": "A331627",
+  "mentions": [
+    "A000203",
+    "A271816",
+    "A331628",
+    "A331629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

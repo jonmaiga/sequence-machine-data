@@ -1,0 +1,29 @@
+{
+  "description": "Denominators of an Egyptian fraction for 1/zeta(2) = 0.607927101854... (A059956).",
+  "id": "A144835",
+  "mentions": [
+    "A001466",
+    "A006487",
+    "A006524",
+    "A006525",
+    "A006526",
+    "A059956",
+    "A069139",
+    "A110820",
+    "A117116",
+    "A118323",
+    "A118324",
+    "A118325"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

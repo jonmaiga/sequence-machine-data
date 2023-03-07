@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m) = binomial(n + m - 1, 2*m) + binomial(2*n - m - 2, 2*(n - m - 1)).",
+  "id": "A156717",
+  "mentions": [
+    "A007318",
+    "A052995"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

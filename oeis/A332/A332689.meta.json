@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct areas of integer-sided triangles whose area equals n times their perimeter.",
+  "id": "A332689",
+  "mentions": [
+    "A007237",
+    "A290451"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

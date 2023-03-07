@@ -1,0 +1,20 @@
+{
+  "description": "Length of the shortest string over the alphabet {1,...,n} such that every subset of {1,...,n} appears as a substring (in some order).",
+  "id": "A348574",
+  "mentions": [
+    "A062714"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

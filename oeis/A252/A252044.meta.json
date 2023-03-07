@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that s + 1/p = 0, where {d(i), i=1..q} are the q distinct prime divisors of n, s = Sum_{i=1..q} (-1)^(i+1)*i/d(i) and p = Product_{i=1..q} d(i).",
+  "id": "A252044",
+  "mentions": [
+    "A007947",
+    "A129521"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

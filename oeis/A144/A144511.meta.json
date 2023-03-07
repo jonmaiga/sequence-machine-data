@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=1..n} Sum_{j=1..n} Sum_{k=1..n} (i+j+k)!/(3!*i!*j!*k!).",
+  "id": "A144511",
+  "mentions": [
+    "A144510",
+    "A144658",
+    "A144660"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

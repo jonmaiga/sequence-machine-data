@@ -1,0 +1,21 @@
+{
+  "description": "Periodic sequence (2, 2, 2, 1, 0, 0, 0, 1).",
+  "id": "A131079",
+  "mentions": [
+    "A131026",
+    "A131074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

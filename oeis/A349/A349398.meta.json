@@ -1,0 +1,28 @@
+{
+  "description": "Dirichlet convolution of A048673 with the Dirichlet inverse of its inverse permutation.",
+  "id": "A349398",
+  "mentions": [
+    "A003961",
+    "A048673",
+    "A064216",
+    "A064989",
+    "A323893",
+    "A349358",
+    "A349376",
+    "A349377",
+    "A349385",
+    "A349397",
+    "A349399"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

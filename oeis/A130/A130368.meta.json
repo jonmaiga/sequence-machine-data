@@ -1,0 +1,19 @@
+{
+  "description": "Row 16 of A122204.",
+  "id": "A130368",
+  "mentions": [
+    "A089860",
+    "A122204",
+    "A130367"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

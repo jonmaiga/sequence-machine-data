@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of coefficients c(n) in product expansion of 1 + tan x = Product_{k>=1} 1 + c(k)*x^k.",
+  "id": "A353583",
+  "mentions": [
+    "A157162",
+    "A170918",
+    "A170919",
+    "A353584",
+    "A353586",
+    "A353587"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

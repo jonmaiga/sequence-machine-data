@@ -1,0 +1,21 @@
+{
+  "description": "Number of even parts appearing among the smallest parts of the partitions of n into 5 parts.",
+  "id": "A309831",
+  "mentions": [
+    "A309787",
+    "A309830",
+    "A309834"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:45",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

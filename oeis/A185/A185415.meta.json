@@ -1,0 +1,27 @@
+{
+  "description": "Table of coefficients of a polynomial sequence of binomial type related to A080635.",
+  "id": "A185415",
+  "mentions": [
+    "A008277",
+    "A080635",
+    "A147309",
+    "A185416",
+    "A185417",
+    "A185419",
+    "A185422",
+    "A185423"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number of compositions of n with uniform Lyndon factorization and uniform co-Lyndon factorization.",
+  "id": "A329398",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000740",
+    "A001037",
+    "A001523",
+    "A008965",
+    "A059204",
+    "A059966",
+    "A060223",
+    "A211100",
+    "A328596",
+    "A329141",
+    "A329312",
+    "A329318",
+    "A329324",
+    "A329396",
+    "A329397",
+    "A329399",
+    "A332578",
+    "A332669",
+    "A332834"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

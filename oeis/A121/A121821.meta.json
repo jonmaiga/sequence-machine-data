@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the Lucas binary number, Sum_{k>0} 1/2^L(k), where L(k) = A000032(k).",
+  "id": "A121821",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A010056",
+    "A084119"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:05:57",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

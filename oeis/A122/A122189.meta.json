@@ -1,0 +1,27 @@
+{
+  "description": "Heptanacci numbers: each term is the sum of the preceding 7 terms, with a(0),...,a(6) = 0,0,0,0,0,0,1.",
+  "id": "A122189",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A000322",
+    "A001591",
+    "A001592",
+    "A063265",
+    "A066178",
+    "A248700"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

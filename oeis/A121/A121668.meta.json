@@ -1,0 +1,20 @@
+{
+  "description": "Products of consecutive Apery numbers, cf. A006221.",
+  "id": "A121668",
+  "mentions": [
+    "A005259",
+    "A006221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

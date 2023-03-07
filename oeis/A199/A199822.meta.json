@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(A(x))=(1-4*x-sqrt(1-8*x))/(8*x).",
+  "id": "A199822",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

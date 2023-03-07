@@ -1,0 +1,21 @@
+{
+  "description": "Number of integer-sided pentagons having perimeter n, modulo rotations but not reflections.",
+  "id": "A293822",
+  "mentions": [
+    "A293819",
+    "A293820",
+    "A293821",
+    "A293823"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 5,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

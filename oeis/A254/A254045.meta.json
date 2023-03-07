@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 0, for n > 1: a(n) = a(A253889(n)) + floor((n modulo 3)/2).",
+  "id": "A254045",
+  "mentions": [
+    "A007051",
+    "A064216",
+    "A080791",
+    "A253786",
+    "A253889",
+    "A253894",
+    "A254044"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

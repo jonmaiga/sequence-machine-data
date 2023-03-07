@@ -1,0 +1,32 @@
+{
+  "description": "Convolution of A115140 with itself.",
+  "id": "A115141",
+  "mentions": [
+    "A000108",
+    "A006232",
+    "A034807",
+    "A053122",
+    "A060165",
+    "A069271",
+    "A110162",
+    "A111125",
+    "A115140",
+    "A115142",
+    "A115149",
+    "A129818",
+    "A158454",
+    "A158909"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

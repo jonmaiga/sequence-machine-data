@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} x/cosh(Pi*x) dx.",
+  "id": "A214174",
+  "mentions": [
+    "A006752",
+    "A020761",
+    "A020821",
+    "A060294",
+    "A143233"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

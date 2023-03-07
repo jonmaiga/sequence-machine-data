@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle with the unique representation of positive integers in the tribonacci ABC-representation.",
+  "id": "A319195",
+  "mentions": [
+    "A000073",
+    "A000201",
+    "A001950",
+    "A003144",
+    "A003145",
+    "A003146",
+    "A189921",
+    "A278038",
+    "A278039",
+    "A278040",
+    "A278041",
+    "A316713",
+    "A316714",
+    "A316715",
+    "A316716",
+    "A316717",
+    "A317206",
+    "A317208"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

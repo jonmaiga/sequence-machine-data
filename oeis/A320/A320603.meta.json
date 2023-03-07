@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; if n is odd, a(n) = Product_{i=0..n-1} a(i); if n is even, a(n) = Sum_{i=0..n-1} a(i).",
+  "id": "A320603",
+  "mentions": [
+    "A011782",
+    "A039941",
+    "A077753",
+    "A122961",
+    "A165420"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

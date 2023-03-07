@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (7/83)^(2/9).",
+  "id": "A210624",
+  "mentions": [
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

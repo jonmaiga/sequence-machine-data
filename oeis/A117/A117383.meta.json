@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers whose Spanish names do not include repeated letters.",
+  "id": "A117383",
+  "mentions": [
+    "A059916",
+    "A354681"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>=1} mu(k)*log(1 + x^k/(1 - 2*x^k - x^(2*k)))/k.",
+  "id": "A308448",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A006206",
+    "A008683",
+    "A060280",
+    "A261329"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

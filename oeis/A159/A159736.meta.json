@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of 6 indistinguishable copies of 1..n arranged in a circle with exactly 1 local maximum.",
+  "id": "A159736",
+  "mentions": [
+    "A159715",
+    "A159721",
+    "A159727",
+    "A159733",
+    "A159738",
+    "A159739",
+    "A159740"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:40:21",
+    "offset": 2,
+    "size": 19,
+    "source": "joeis"
+  }
+}

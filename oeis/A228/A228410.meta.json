@@ -1,0 +1,22 @@
+{
+  "description": "The digits of a(n) and a(n+1) together can be reordered to form a palindrome; lexicographically least injective sequence of positive integers with this property.",
+  "id": "A228410",
+  "mentions": [
+    "A062932",
+    "A228407",
+    "A228412",
+    "A231433",
+    "A231442"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

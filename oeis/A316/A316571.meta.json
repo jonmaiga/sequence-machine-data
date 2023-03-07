@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1: a(n) = smallest number such that (Sum_{k=1..n} a(k)) is divisible by n - 1",
+  "id": "A316571",
+  "mentions": [
+    "A005843",
+    "A020739",
+    "A316156"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:23",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

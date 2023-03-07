@@ -1,0 +1,23 @@
+{
+  "description": "a(2n) = 2*4^n-1, a(2n+1) = (2^(n+1)+1)^2; interlaces A083420 with A028400.",
+  "id": "A107663",
+  "mentions": [
+    "A028400",
+    "A060919",
+    "A062510",
+    "A083420",
+    "A085903"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

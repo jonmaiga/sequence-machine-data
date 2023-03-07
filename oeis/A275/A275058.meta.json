@@ -1,0 +1,18 @@
+{
+  "description": "Primes p for which floor(p/10) is a perfect square.",
+  "id": "A275058",
+  "mentions": [
+    "A226217"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

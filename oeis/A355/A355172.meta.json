@@ -1,0 +1,30 @@
+{
+  "description": "The Fuss-Catalan triangle of order 2, read by rows. Related to ternary trees.",
+  "id": "A355172",
+  "mentions": [
+    "A001764",
+    "A005408",
+    "A006629",
+    "A071355",
+    "A102594",
+    "A102893",
+    "A123110",
+    "A143603",
+    "A230547",
+    "A355173",
+    "A355174",
+    "A355262"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

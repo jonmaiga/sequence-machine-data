@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number k such that A358351(k) = n.",
+  "id": "A358352",
+  "mentions": [
+    "A006064",
+    "A007953",
+    "A007954",
+    "A161351",
+    "A358350",
+    "A358351"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

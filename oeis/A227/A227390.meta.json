@@ -1,0 +1,19 @@
+{
+  "description": "Minimum value of k such that sum_{i=k..k+n-1} i = sum_{i=k..k+n-1} i’, where i’ is the arithmetic derivative of i.",
+  "id": "A227390",
+  "mentions": [
+    "A003415",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

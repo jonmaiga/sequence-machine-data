@@ -1,0 +1,21 @@
+{
+  "description": "Number of idempotent basis elements in partition monoid P_n.",
+  "id": "A256035",
+  "mentions": [
+    "A060639",
+    "A225797",
+    "A256033",
+    "A256034"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

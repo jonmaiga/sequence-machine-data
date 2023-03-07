@@ -1,0 +1,18 @@
+{
+  "description": "Records in A338338.",
+  "id": "A338348",
+  "mentions": [
+    "A338338",
+    "A338349"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

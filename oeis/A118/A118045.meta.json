@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T, read by rows, equal to a diagonal bisection of A118032 such that diagonal n of T equals diagonal 2n+1 of A118032: T(n,k) = A118032(2n+1-k,k); also equals the matrix product of A118032 and SHIFT_UP(A118032).",
+  "id": "A118045",
+  "mentions": [
+    "A118032",
+    "A118040",
+    "A118046",
+    "A118047",
+    "A118048",
+    "A118049"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

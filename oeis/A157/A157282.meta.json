@@ -1,0 +1,21 @@
+{
+  "description": "Maximum cardinality of a weakly triple-free subset of {1, 2, ..., n}.",
+  "id": "A157282",
+  "mentions": [
+    "A003586",
+    "A007310",
+    "A050294",
+    "A050296",
+    "A057561"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

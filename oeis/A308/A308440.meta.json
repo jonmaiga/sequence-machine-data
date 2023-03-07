@@ -1,0 +1,22 @@
+{
+  "description": "Matrix product of triangle of Stirling numbers of second kind A008277 and square of unsigned Lah triangle A105278.",
+  "id": "A308440",
+  "mentions": [
+    "A008277",
+    "A050351",
+    "A105278",
+    "A109092"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

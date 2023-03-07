@@ -1,0 +1,19 @@
+{
+  "description": "Number of first-quadrant Gaussian primes at taxicab distance 2n-1 from the origin.",
+  "id": "A225072",
+  "mentions": [
+    "A002145",
+    "A218858",
+    "A225071"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

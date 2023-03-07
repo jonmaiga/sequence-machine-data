@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers whose representation as Roman Fibonacci numbers has exactly three symbols.",
+  "id": "A105448",
+  "mentions": [
+    "A000045",
+    "A006968",
+    "A105446",
+    "A105447",
+    "A105449",
+    "A105450",
+    "A105455"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

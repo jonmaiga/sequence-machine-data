@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive walks with n steps {-3,-2,-1,0,1,2,3} starting at the origin, ending at altitude 1, and staying strictly above the x-axis.",
+  "id": "A276902",
+  "mentions": [
+    "A276852",
+    "A276901",
+    "A276903",
+    "A276904"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

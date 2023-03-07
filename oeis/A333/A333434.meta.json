@@ -1,0 +1,23 @@
+{
+  "description": "The number of regions inside a diagonal-edged (or diamond-shaped) checkerboard of width and height 2*n-1 formed by the straight line segments mutually connecting any two of the 8*n-4 vertices on the perimeter.",
+  "id": "A333434",
+  "mentions": [
+    "A331452",
+    "A331456",
+    "A331911",
+    "A333458",
+    "A333459",
+    "A333460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

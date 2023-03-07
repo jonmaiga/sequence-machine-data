@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of primes p such that both 2n-p and 2n+2-nextprime(p) are prime numbers.",
+  "id": "A300013",
+  "mentions": [
+    "A000040",
+    "A002372",
+    "A002375",
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

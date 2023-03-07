@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A003961(k) and A276086(k) share a prime factor, where A003961 is fully multiplicative with a(p) = nextprime(p), and A276086 is primorial base exp-function.",
+  "id": "A355822",
+  "mentions": [
+    "A003961",
+    "A005843",
+    "A276086",
+    "A324584",
+    "A355001",
+    "A355002",
+    "A355442",
+    "A355820",
+    "A355821",
+    "A355835"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

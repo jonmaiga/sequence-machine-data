@@ -1,0 +1,27 @@
+{
+  "description": "van Heijst's upper bound on the number of squares inscribed by a real algebraic curve in R^2 of degree n, if the number is finite.",
+  "id": "A239352",
+  "mentions": [
+    "A000217",
+    "A034856",
+    "A088544",
+    "A089058",
+    "A123673",
+    "A123697",
+    "A172225",
+    "A209432",
+    "A231739"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:28:23",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

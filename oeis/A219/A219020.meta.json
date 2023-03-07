@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the cubes of the first n even-indexed Fibonacci numbers divided by the sum of the first n terms.",
+  "id": "A219020",
+  "mentions": [
+    "A001906",
+    "A027941",
+    "A163198",
+    "A219021"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "1 + the number of trailing zeros in n (A122840).",
+  "id": "A160094",
+  "mentions": [
+    "A054899",
+    "A055640",
+    "A055641",
+    "A091090",
+    "A102669",
+    "A115777",
+    "A122840",
+    "A122841",
+    "A160093",
+    "A196563",
+    "A196564"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

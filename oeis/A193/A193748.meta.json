@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts that are squares or triangular numbers (A005214).",
+  "id": "A193748",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A000290",
+    "A001156",
+    "A005214",
+    "A007294",
+    "A193749"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:53",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

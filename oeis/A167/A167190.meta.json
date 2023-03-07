@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 + 85*n + 2232*n^2 + 15276*n^3.",
+  "id": "A167190",
+  "mentions": [
+    "A165806",
+    "A165808",
+    "A165809",
+    "A166957",
+    "A167191"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:21",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

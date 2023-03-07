@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that sigma_2(Fibonacci(k)^2 + 1) == 0 (mod Fibonacci(k)).",
+  "id": "A360107",
+  "mentions": [
+    "A000045",
+    "A001157",
+    "A067719",
+    "A245236",
+    "A245306",
+    "A338762",
+    "A360105"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

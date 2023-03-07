@@ -1,0 +1,36 @@
+{
+  "description": "Rectangular array read by antidiagonals: T(n,k) is the number of distinct sums of k complex n-th roots of 1, n >= 1, k >= 0.",
+  "id": "A299807",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A000290",
+    "A000332",
+    "A000579",
+    "A014820",
+    "A031940",
+    "A103314",
+    "A107753",
+    "A107754",
+    "A107848",
+    "A107861",
+    "A108380",
+    "A108381",
+    "A143008",
+    "A299754",
+    "A354343"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

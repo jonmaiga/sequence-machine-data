@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs of consecutive integers x, x+1 such that both are prime(n)-smooth but both are not prime(n-1)-smooth.",
+  "id": "A145604",
+  "mentions": [
+    "A002071",
+    "A145605",
+    "A145606"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

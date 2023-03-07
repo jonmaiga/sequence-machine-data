@@ -1,0 +1,28 @@
+{
+  "description": "Sum of the fifth largest parts in the partitions of n into 9 primes.",
+  "id": "A326545",
+  "mentions": [
+    "A010051",
+    "A259200",
+    "A326540",
+    "A326541",
+    "A326542",
+    "A326543",
+    "A326544",
+    "A326546",
+    "A326547",
+    "A326548",
+    "A326549"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

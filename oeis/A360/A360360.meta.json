@@ -1,0 +1,21 @@
+{
+  "description": "Given a deck of colored cards, move the top card below the bottom-most card of the same color, with one other card between them. (If the top and bottom cards have the same color, the top card is moved to the bottom of the deck; if there is no other card of the same color, the top card is moved one step down in the deck.) a(n) is the maximum, over all initial color configurations of a deck of n cards, of the length of the eventual cycle when repeatedly applying this move.",
+  "id": "A360360",
+  "mentions": [
+    "A360361",
+    "A360362"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

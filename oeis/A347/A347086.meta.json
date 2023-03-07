@@ -1,0 +1,22 @@
+{
+  "description": "Difference between the Dirichlet inverse of -A168036, n - A003415(n) and the Dirichlet inverse of A129283, n + A003415(n), where A003415 is the Arithmetic derivative of n.",
+  "id": "A347086",
+  "mentions": [
+    "A003415",
+    "A129283",
+    "A168036",
+    "A347082",
+    "A347084"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

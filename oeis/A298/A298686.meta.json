@@ -1,0 +1,23 @@
+{
+  "description": "Numbers i such that Fibonacci(i) is divisible by i+k for k=0,1,2,3,4.",
+  "id": "A298686",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A217738",
+    "A221018",
+    "A225219",
+    "A298684",
+    "A298685"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

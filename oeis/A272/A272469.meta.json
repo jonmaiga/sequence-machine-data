@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of n-step paths of a king moving on an n X n chessboard, starting at a corner and not visiting any cell twice.",
+  "id": "A272469",
+  "mentions": [
+    "A272445"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

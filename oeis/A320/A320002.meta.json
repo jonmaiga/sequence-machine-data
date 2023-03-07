@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = A002828(n) * a(n-A002828(n)), where A002828(n) is the least number of squares that add up to n.",
+  "id": "A320002",
+  "mentions": [
+    "A002828",
+    "A003586",
+    "A255131",
+    "A276573",
+    "A320008",
+    "A320009"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

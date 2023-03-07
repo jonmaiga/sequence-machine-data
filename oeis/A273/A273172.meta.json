@@ -1,0 +1,21 @@
+{
+  "description": "Triangle for denominators of coefficients for integrated odd powers of cos(x) in terms sin((2*m+1)*x).",
+  "id": "A273172",
+  "mentions": [
+    "A273171"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:17:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

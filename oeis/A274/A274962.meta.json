@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(n) and sigma(n) + 2 are both primes.",
+  "id": "A274962",
+  "mentions": [
+    "A000203",
+    "A023194",
+    "A249763",
+    "A274963",
+    "A275237"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

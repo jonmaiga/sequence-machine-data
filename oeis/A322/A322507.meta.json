@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of arches for semi-meanders with n top arches that have exactly two covering arches.",
+  "id": "A322507",
+  "mentions": [
+    "A259689"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

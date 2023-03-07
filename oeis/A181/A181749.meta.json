@@ -1,0 +1,18 @@
+{
+  "description": "The number of paths of a chess rook in a 4D hypercube, from (0..0) to (n..n), where the rook may move in steps that are multiples of (1,0..0), (0,1,0..0), ..., (0..0,1).",
+  "id": "A181749",
+  "mentions": [
+    "A181731"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

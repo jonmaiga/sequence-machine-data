@@ -1,0 +1,21 @@
+{
+  "description": "Second convolution of A111989.",
+  "id": "A111991",
+  "mentions": [
+    "A111989",
+    "A111990",
+    "A112003"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

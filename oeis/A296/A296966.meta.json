@@ -1,0 +1,19 @@
+{
+  "description": "Sum of all the parts in the partitions of n into two distinct parts such that the smaller part divides the larger.",
+  "id": "A296966",
+  "mentions": [
+    "A023645"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:13",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

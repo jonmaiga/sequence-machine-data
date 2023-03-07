@@ -1,0 +1,44 @@
+{
+  "description": "Square array A(n,k) by antidiagonals. A(n,k) is the number of length 2n k-ary words (n,k>=0), either empty or beginning with the first character of the alphabet, that can be built by repeatedly inserting doublets into the initially empty word.",
+  "id": "A183134",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001700",
+    "A004273",
+    "A007318",
+    "A050166",
+    "A057427",
+    "A079273",
+    "A157491",
+    "A183135",
+    "A194716",
+    "A194717",
+    "A194718",
+    "A194719",
+    "A194720",
+    "A194721",
+    "A194722",
+    "A194723",
+    "A194724",
+    "A194725",
+    "A194726",
+    "A194727",
+    "A194728",
+    "A194729",
+    "A194730",
+    "A248828"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

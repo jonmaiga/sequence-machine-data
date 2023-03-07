@@ -1,0 +1,23 @@
+{
+  "description": "Generating function A(5,t)(1+t+t^2)/(1-t)^6, where A(5,t) is an Eulerian polynomial.",
+  "id": "A179995",
+  "mentions": [
+    "A005918",
+    "A008486",
+    "A027602",
+    "A158799",
+    "A160827"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:33",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

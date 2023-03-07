@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals, where A(n,k) is the number of distinct products Product_{j=1..k} b_j with 1 <= b_j<= n.",
+  "id": "A322967",
+  "mentions": [
+    "A001477",
+    "A027424",
+    "A027425",
+    "A100437",
+    "A110713",
+    "A284988"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

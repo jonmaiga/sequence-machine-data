@@ -1,0 +1,28 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n where every vertex, as a multiset of weight 1, is the multiset-meet of some subset of the edges.",
+  "id": "A327017",
+  "mentions": [
+    "A007716",
+    "A059523",
+    "A326961",
+    "A326965",
+    "A326967",
+    "A326972",
+    "A326974",
+    "A326976",
+    "A326977",
+    "A326979",
+    "A327012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

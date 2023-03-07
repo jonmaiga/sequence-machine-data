@@ -1,0 +1,26 @@
+{
+  "description": "The closure under squaring of the nonunit squarefree numbers.",
+  "id": "A340682",
+  "mentions": [
+    "A005117",
+    "A050376",
+    "A072774",
+    "A133492",
+    "A210490",
+    "A331591",
+    "A340674",
+    "A340675",
+    "A340681"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

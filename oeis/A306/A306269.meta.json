@@ -1,0 +1,31 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of unlabeled balanced rooted semi-identity trees with n >= 1 nodes and depth 0 <= k < n.",
+  "id": "A306269",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A048816",
+    "A079500",
+    "A120803",
+    "A184155",
+    "A276625",
+    "A306200",
+    "A306201",
+    "A306202",
+    "A306203",
+    "A306274",
+    "A320222",
+    "A320270"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

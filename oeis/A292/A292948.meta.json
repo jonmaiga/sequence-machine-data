@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where A(0,k) = 1 and A(n,k) = (-1)^(k+1) * Sum_{i=0..n-1} (-1)^i * binomial(n-1,i) * binomial(i+1,k) * A(n-1-i,k) for n > 0.",
+  "id": "A292948",
+  "mentions": [
+    "A000012",
+    "A003725",
+    "A145460",
+    "A292909",
+    "A292910",
+    "A292912",
+    "A292935",
+    "A292950"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

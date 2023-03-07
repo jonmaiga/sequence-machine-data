@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows: T(n,k) = if n<=k then n else Sum(T(n-i,k):1<=i<=k), 1<=k<=n, triangle read by rows.",
+  "id": "A100578",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A001590",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

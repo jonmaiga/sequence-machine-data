@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct composite parts.",
+  "id": "A331924",
+  "mentions": [
+    "A002808",
+    "A023895",
+    "A052284",
+    "A204389",
+    "A219107",
+    "A280544",
+    "A331917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

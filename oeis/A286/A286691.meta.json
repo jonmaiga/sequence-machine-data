@@ -1,0 +1,20 @@
+{
+  "description": "{0->010, 1->110}-transform of the Pell word, A171588.",
+  "id": "A286691",
+  "mentions": [
+    "A171588",
+    "A286692",
+    "A286693"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 1, a(ludic(n)) = (ludic(3+a(n-1))-1)/2, a(nonludic(n)) = A266410(a(n)), where ludic(n) = n-th ludic number A003309, nonludic(n) = n-th nonludic number A192607 and A266410 = numbers n such that 2n+1 is nonludic.",
+  "id": "A266638",
+  "mentions": [
+    "A003309",
+    "A192490",
+    "A192512",
+    "A192607",
+    "A236863",
+    "A237427",
+    "A266409",
+    "A266410",
+    "A266418",
+    "A266637"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

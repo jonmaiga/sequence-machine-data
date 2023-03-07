@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 17^n - 16^n.",
+  "id": "A219284",
+  "mentions": [
+    "A062583"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

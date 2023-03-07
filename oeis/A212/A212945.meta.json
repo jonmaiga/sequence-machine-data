@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3Xn 0..n-1 arrays with no column j greater than or equal to than column j-1 in all rows",
+  "id": "A212945",
+  "mentions": [
+    "A212943"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

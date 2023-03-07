@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n>0 for which n+(17-n)^2 is not prime.",
+  "id": "A260678",
+  "mentions": [
+    "A002837",
+    "A005846",
+    "A007634",
+    "A007635",
+    "A097823",
+    "A260679"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

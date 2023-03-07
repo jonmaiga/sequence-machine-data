@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 225*n^2 - 199*n + 44.",
+  "id": "A156812",
+  "mentions": [
+    "A156813",
+    "A156814"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

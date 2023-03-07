@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are 6-persistent but not 7-persistent.",
+  "id": "A204097",
+  "mentions": [
+    "A051018",
+    "A051019",
+    "A051020",
+    "A051264",
+    "A171102",
+    "A204047",
+    "A204096"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of 2n into parts of exactly n sorts which are introduced in ascending order.",
+  "id": "A258467",
+  "mentions": [
+    "A007820",
+    "A187655",
+    "A187657",
+    "A217899",
+    "A217900",
+    "A226775",
+    "A245109",
+    "A256130",
+    "A319732"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

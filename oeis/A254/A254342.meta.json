@@ -1,0 +1,18 @@
+{
+  "description": "Number of singlets of length 2n written as a product of so(N) traceless completely symmetric representations at large N.",
+  "id": "A254342",
+  "mentions": [
+    "A226919"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

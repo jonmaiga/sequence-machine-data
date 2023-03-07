@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 0..n+3-2 arrays with upper left zero and lower right n+3-2 and each element differing from its horizontal and antidiagonal neighbors by one or two.",
+  "id": "A265461",
+  "mentions": [
+    "A265466"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

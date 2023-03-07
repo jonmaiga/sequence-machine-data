@@ -1,0 +1,18 @@
+{
+  "description": "Exceptional Bobo numbers: terms of A242679 that satisfy frac[e*A242679(n)]<(e-1)/2.",
+  "id": "A277603",
+  "mentions": [
+    "A103762",
+    "A242679"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where T(n,k) is the constant term in the expansion of (-1 + Product_{j=1..n} (1 + x_j + 1/x_j))^k.",
+  "id": "A327751",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A002426",
+    "A016212",
+    "A024023",
+    "A094061",
+    "A126869",
+    "A326920",
+    "A328718",
+    "A328874",
+    "A328875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

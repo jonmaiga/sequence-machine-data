@@ -1,0 +1,22 @@
+{
+  "description": "Number of functions f:{1,2,...,n}->{1,2,...,n} with odd cycles only.",
+  "id": "A116956",
+  "mentions": [
+    "A060281",
+    "A060435",
+    "A070896",
+    "A212599"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

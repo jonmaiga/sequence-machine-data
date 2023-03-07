@@ -1,0 +1,24 @@
+{
+  "description": "(A022839 mod 2)+(A108598 mod 2)",
+  "id": "A191340",
+  "mentions": [
+    "A022839",
+    "A108598",
+    "A191329",
+    "A191336",
+    "A191380",
+    "A191381",
+    "A191382"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 132,
+    "source": "oeis-bfile"
+  }
+}

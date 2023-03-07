@@ -1,0 +1,22 @@
+{
+  "description": "A051838 gives numbers m such that the sum of first m primes divides the product of the first m primes. This sequence gives corresponding values of the sum of first m primes.",
+  "id": "A140763",
+  "mentions": [
+    "A007504",
+    "A051838",
+    "A116536",
+    "A140761",
+    "A159578"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

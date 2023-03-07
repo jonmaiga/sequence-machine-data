@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 3 is a primitive root modulo p while 27 is not.",
+  "id": "A323594",
+  "mentions": [
+    "A000720",
+    "A001122",
+    "A005596",
+    "A019334",
+    "A019353",
+    "A323617",
+    "A323628"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

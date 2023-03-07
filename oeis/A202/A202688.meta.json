@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n>=0} (-1)^(n+1) / n!!.",
+  "id": "A202688",
+  "mentions": [
+    "A006882",
+    "A143280"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

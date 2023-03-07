@@ -1,0 +1,19 @@
+{
+  "description": "A variant of Landau's function (A000793) with a restriction on the length of cycles. a(n) is the largest value of lcm(p_1, ..., p_k), with p_1 + ... + p_k <= n, such that there exist integer offsets f_1, ..., f_k with 0 <= f_i < p_i, for which f_i and f_j are different modulo gcd(p_i, p_j).",
+  "id": "A174234",
+  "mentions": [
+    "A000793"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of Dyck paths p(m) for m<=n, as defined by the rows of A237593, that have common subpaths of positive length with the Dyck path p(n) for the symmetric representation of sigma(n).",
+  "id": "A245192",
+  "mentions": [
+    "A237270",
+    "A237593",
+    "A244145"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

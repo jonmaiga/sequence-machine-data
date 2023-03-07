@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n having k parts with odd multiplicities.",
+  "id": "A264398",
+  "mentions": [
+    "A000041",
+    "A008289",
+    "A035363",
+    "A209423",
+    "A264399",
+    "A264400"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

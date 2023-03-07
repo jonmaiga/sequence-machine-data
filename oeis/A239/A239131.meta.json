@@ -1,0 +1,20 @@
+{
+  "description": "A sequence with period length 54; the companion of x(n) = A239130(n), the smallest positive solution of 3^4*x - 2^n*y = 1 for n >= 0.",
+  "id": "A239131",
+  "mentions": [
+    "A000010",
+    "A239130"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:41",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

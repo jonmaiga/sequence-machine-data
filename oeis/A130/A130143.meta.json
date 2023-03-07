@@ -1,0 +1,18 @@
+{
+  "description": "Gaps between consecutive primes in decimal expansion of Pi (A000796).",
+  "id": "A130143",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

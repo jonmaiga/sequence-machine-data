@@ -1,0 +1,20 @@
+{
+  "description": "Sorted number of vertices of distinct solutions in the mix of regular convex polyhedra.",
+  "id": "A199545",
+  "mentions": [
+    "A053016",
+    "A199546"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "1st Lucas-Wythoff array (w(n,k)), by antidiagonals; see Comments.",
+  "id": "A335499",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A035513",
+    "A335500"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

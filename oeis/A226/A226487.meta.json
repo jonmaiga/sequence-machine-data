@@ -1,0 +1,20 @@
+{
+  "description": "First available increasing palindromes (A002113) found in the decimal expansion of the number e-2 (A001113).",
+  "id": "A226487",
+  "mentions": [
+    "A001113",
+    "A002113",
+    "A226486"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

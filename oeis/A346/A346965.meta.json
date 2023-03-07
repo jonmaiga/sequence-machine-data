@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of ascending subsequences in reducing n to 1 using the Collatz reduction, or -1 if n refutes the Collatz conjecture.",
+  "id": "A346965",
+  "mentions": [
+    "A007814",
+    "A070168",
+    "A078719",
+    "A221469"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

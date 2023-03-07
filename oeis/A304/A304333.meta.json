@@ -1,0 +1,24 @@
+{
+  "description": "Number of positive integers k such that n - L(k) is a positive squarefree number, where L(k) denotes the k-th Lucas number A000204(k).",
+  "id": "A304333",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A005117",
+    "A102460",
+    "A130241",
+    "A304034",
+    "A304081",
+    "A304331"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which can be written in the form x^2 + 10*y^2, where x > 0 and y > 0.",
+  "id": "A216580",
+  "mentions": [
+    "A020673",
+    "A033201"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

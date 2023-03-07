@@ -1,0 +1,23 @@
+{
+  "description": "Number of simple directed graphs on n labeled nodes consisting only of some cycle graphs C_2 and nodes not part of a cycle having directed edges to both nodes in exactly one cycle.",
+  "id": "A133189",
+  "mentions": [
+    "A006882",
+    "A007318",
+    "A135429",
+    "A135458",
+    "A143398",
+    "A145460"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sequence a(n) = (1 + A007805(n))/2, appearing in a certain touching problem for three circles and a chord, together with A007805.",
+  "id": "A246641",
+  "mentions": [
+    "A007805",
+    "A049310",
+    "A115032",
+    "A240926",
+    "A246638"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular matchstick numbers in the class of prime numbers: sum of n-th and next n primes.",
+  "id": "A105720",
+  "mentions": [
+    "A045943",
+    "A166619",
+    "A166620"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

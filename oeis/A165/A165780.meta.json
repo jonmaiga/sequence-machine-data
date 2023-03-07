@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that |2^n-16257| is prime.",
+  "id": "A165780",
+  "mentions": [
+    "A000396",
+    "A096818",
+    "A165778",
+    "A165779"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

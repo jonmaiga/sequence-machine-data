@@ -1,0 +1,20 @@
+{
+  "description": "Ordered nonnegative difference f-4*g, where f and g are positive Fibonacci numbers (A000045).",
+  "id": "A191851",
+  "mentions": [
+    "A000045",
+    "A191850",
+    "A191852",
+    "A191853"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

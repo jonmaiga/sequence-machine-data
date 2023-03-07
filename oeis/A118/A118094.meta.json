@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of unrooted hypermaps on the torus with n darts up to orientation-preserving homeomorphism (darts are semi-edges in the particular case of ordinary maps).",
+  "id": "A118094",
+  "mentions": [
+    "A090371",
+    "A118093"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

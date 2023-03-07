@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows in which each new term is the sum of its two largest neighbors in the structure.",
+  "id": "A278645",
+  "mentions": [
+    "A030237",
+    "A278180",
+    "A278317",
+    "A278619"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

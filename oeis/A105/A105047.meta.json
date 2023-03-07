@@ -1,0 +1,18 @@
+{
+  "description": "Form an addition table of the primes; a(n) is the number of even numbers that appear for the first time in column n.",
+  "id": "A105047",
+  "mentions": [
+    "A102696",
+    "A260580"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

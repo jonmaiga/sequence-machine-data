@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2^(n + 1) * (2^n + 1) - 1.",
+  "id": "A281482",
+  "mentions": [
+    "A085601",
+    "A092431",
+    "A092440",
+    "A129868",
+    "A134169",
+    "A267816",
+    "A281481"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

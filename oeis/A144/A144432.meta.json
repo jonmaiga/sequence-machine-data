@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, T(n, k), read by rows: T(n, k) = t(n, k)^2 - t(n, k) - 1, where t(n,k) = (m*(n-k) + 1)*t(n-1, k-1) + (m*k - (m-1))*t(n-1, k) and m = -1.",
+  "id": "A144432",
+  "mentions": [
+    "A098593",
+    "A144431"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

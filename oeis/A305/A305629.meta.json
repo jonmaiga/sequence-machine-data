@@ -1,0 +1,17 @@
+{
+  "description": "Number of values of k, 0 < k < n, for which (2*n^2 + 2*k*n - k^2 - k)/2 is prime.",
+  "id": "A305629",
+  "mentions": [
+    "A046174"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

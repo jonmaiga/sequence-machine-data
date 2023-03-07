@@ -1,0 +1,19 @@
+{
+  "description": "SENSigma: Multiplicative with a(p^e) = p*(p^e-1)/(p-1) - (-1)^e.",
+  "id": "A125139",
+  "mentions": [
+    "A013662"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

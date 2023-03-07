@@ -1,0 +1,29 @@
+{
+  "description": "A bigomega (A001222) analog based on the Ludic sieve (A255127): a(1) = 0; for n > 1, a(n) = 1 + a(A302032(n)).",
+  "id": "A302037",
+  "mentions": [
+    "A000120",
+    "A001222",
+    "A003309",
+    "A253557",
+    "A255127",
+    "A269379",
+    "A269380",
+    "A269388",
+    "A302026",
+    "A302031",
+    "A302032",
+    "A302038"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The minimum absolute value obtainable by partitioning the first n consecutive integers into two sets and subtracting the two sums of the sets.",
+  "id": "A181176",
+  "mentions": [
+    "A001652",
+    "A181177"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

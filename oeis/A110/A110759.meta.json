@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = tau(N), where N = concatenation 1,2,3,...,n,...,3,2,1. E.g., for n = 4, N = 1234321.",
+  "id": "A110759",
+  "mentions": [
+    "A000005",
+    "A002477",
+    "A055642",
+    "A110756",
+    "A110757",
+    "A110758",
+    "A110760",
+    "A173426"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

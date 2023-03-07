@@ -1,0 +1,18 @@
+{
+  "description": "The sequence gives prime numbers formed from the sum of the squares of composite numbers and the corresponding prime numbers.",
+  "id": "A180233",
+  "mentions": [
+    "A000040",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The sum of the numbers in the columns when the column sums are equal in the Factor balanced number procedure of A343153.",
+  "id": "A343154",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A027746",
+    "A343153"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

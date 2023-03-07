@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that either (a) k-1=i^m for some i and m >= 3 and k+1 is a prime, or (b) k-1 is a prime and k+1 = i^m for some i and m >= 3.",
+  "id": "A329595",
+  "mentions": [
+    "A163492",
+    "A329582"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

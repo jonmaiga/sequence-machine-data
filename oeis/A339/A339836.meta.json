@@ -1,0 +1,21 @@
+{
+  "description": "Number of bicolored graphs on n unlabeled nodes such that every white node is adjacent to a black node.",
+  "id": "A339836",
+  "mentions": [
+    "A000666",
+    "A049312",
+    "A339832",
+    "A339834",
+    "A340021"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

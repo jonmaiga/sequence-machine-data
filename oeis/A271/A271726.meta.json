@@ -1,0 +1,18 @@
+{
+  "description": "Let f(x) = 1 -x^3+ Sum_{j>=2} (x^(2^j)-x^(1+2^j)). Then a(n) is n times the coefficient of x^n in the expansion of log(f(x)).",
+  "id": "A271726",
+  "mentions": [
+    "A138302",
+    "A271727"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

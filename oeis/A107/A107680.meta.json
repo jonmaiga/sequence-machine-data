@@ -1,0 +1,23 @@
+{
+  "description": "Repeating k-th ternary repunit (A003462) 2^k times, k >= 0.",
+  "id": "A107680",
+  "mentions": [
+    "A000523",
+    "A003462",
+    "A007089",
+    "A032924",
+    "A081604",
+    "A107681"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

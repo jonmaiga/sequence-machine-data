@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that the absolute value of the difference between the largest digit and the sum of all the other digits is a cube.",
+  "id": "A280993",
+  "mentions": [
+    "A156753",
+    "A156979"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

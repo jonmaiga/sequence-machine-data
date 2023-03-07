@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the minimum distance between divisors of n occurs only between composite numbers.",
+  "id": "A253266",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A060680"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

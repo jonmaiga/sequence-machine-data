@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m with a divisor d such that d^tau(d) = m.",
+  "id": "A332646",
+  "mentions": [
+    "A000005",
+    "A001248",
+    "A030516",
+    "A062758",
+    "A189991",
+    "A280076"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

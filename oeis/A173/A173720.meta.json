@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{ 4 <= c <= A113646(n) } (n mod c), where c runs over all composites A002808.",
+  "id": "A173720",
+  "mentions": [
+    "A002808",
+    "A113646"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

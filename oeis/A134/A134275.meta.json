@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of numbers obtained from the partition array A134274.",
+  "id": "A134275",
+  "mentions": [
+    "A007696",
+    "A008284",
+    "A008297",
+    "A049029",
+    "A130561",
+    "A134151",
+    "A134274",
+    "A134276",
+    "A134277"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

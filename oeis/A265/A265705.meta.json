@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n,k) = k IMPL n, 0 <= k <= n, bitwise logical IMPL.",
+  "id": "A265705",
+  "mentions": [
+    "A003817",
+    "A007088",
+    "A029578",
+    "A051933",
+    "A053644",
+    "A080098",
+    "A080099",
+    "A089633",
+    "A102037",
+    "A158582",
+    "A247648",
+    "A265716",
+    "A265736",
+    "A265885",
+    "A327490"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

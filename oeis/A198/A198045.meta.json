@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which bigomega(n) divides Fibonacci(n).",
+  "id": "A198045",
+  "mentions": [
+    "A000045",
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

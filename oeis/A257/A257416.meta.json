@@ -1,0 +1,26 @@
+{
+  "description": "Values of n such that there are exactly 9 solutions to x^2 - y^2 = n with x > y >= 0.",
+  "id": "A257416",
+  "mentions": [
+    "A034178",
+    "A257408",
+    "A257409",
+    "A257410",
+    "A257411",
+    "A257412",
+    "A257413",
+    "A257414",
+    "A257415",
+    "A257417"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

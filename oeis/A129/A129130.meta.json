@@ -1,0 +1,20 @@
+{
+  "description": "Number of triples of standard tableaux with the same shape of height less than or equal to three.",
+  "id": "A129130",
+  "mentions": [
+    "A001006",
+    "A003161",
+    "A005802"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

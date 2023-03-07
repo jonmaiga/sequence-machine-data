@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of skew Dyck paths of semilength n having k UU's starting at level 0 (i.e., doublerises at level 1; n >= 0, 0 <= k <= floor(n/2)).",
+  "id": "A129168",
+  "mentions": [
+    "A002212",
+    "A129169"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

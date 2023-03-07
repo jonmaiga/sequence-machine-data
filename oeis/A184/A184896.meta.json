@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = C(2n,n) * (7^n/n!^2) * Product_{k=0..n-1} (7k+1)*(7k+6).",
+  "id": "A184896",
+  "mentions": [
+    "A001421",
+    "A008977",
+    "A184423",
+    "A184892",
+    "A184895",
+    "A184898"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

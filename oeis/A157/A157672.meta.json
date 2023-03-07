@@ -1,0 +1,19 @@
+{
+  "description": "Number of unordered factorizations of n! into two distinct proper factors.",
+  "id": "A157672",
+  "mentions": [
+    "A027423",
+    "A157612"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

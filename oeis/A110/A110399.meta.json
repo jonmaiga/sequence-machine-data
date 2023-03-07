@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (theta_3(q)*theta_3(q^7) - 1)/2 in powers of q.",
+  "id": "A110399",
+  "mentions": [
+    "A033719",
+    "A035162",
+    "A035182",
+    "A096936",
+    "A113406",
+    "A138806"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

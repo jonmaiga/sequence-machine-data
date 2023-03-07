@@ -1,0 +1,23 @@
+{
+  "description": "Correlation triangle for (1+x)^3/(1-x).",
+  "id": "A115292",
+  "mentions": [
+    "A115291",
+    "A115293",
+    "A115294",
+    "A115295"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:47:15",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

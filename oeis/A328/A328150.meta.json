@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-bead necklace structures with no adjacent elements having the same color.",
+  "id": "A328150",
+  "mentions": [
+    "A084423",
+    "A327396"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

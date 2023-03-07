@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 binary arrays with each sum of a(1..i,1..j) no greater than i*j/2 and rows and columns in nondecreasing order.",
+  "id": "A183409",
+  "mentions": [
+    "A183413"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

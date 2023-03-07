@@ -1,0 +1,19 @@
+{
+  "description": "Array A(n,k), n > 0, k = 1,2 read by rows such that (A(n,1), A(n,2)) are the pairs of primes (p, q), p < q, where the decimal digits of q are the 9's complement of the decimal digits of p.",
+  "id": "A185250",
+  "mentions": [
+    "A228629"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

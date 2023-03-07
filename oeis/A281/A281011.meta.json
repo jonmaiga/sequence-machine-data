@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows in which row n lists the boundaries of the subparts of the symmetric representation of sigma(n). (See Comments for precise definition).",
+  "id": "A281011",
+  "mentions": [
+    "A000004",
+    "A196020",
+    "A235791",
+    "A236194",
+    "A237048",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A244050",
+    "A245092",
+    "A249351",
+    "A262626",
+    "A275601",
+    "A279387",
+    "A279693",
+    "A281010"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 132,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of Blandin-Diaz compositional Bernoulli numbers (B^Z^2)_1,n.",
+  "id": "A132099",
+  "mentions": [
+    "A132092",
+    "A132098",
+    "A132106"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

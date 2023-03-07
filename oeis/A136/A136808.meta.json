@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that k and k^2 use only the digits 0, 1 and 2.",
+  "id": "A136808",
+  "mentions": [
+    "A007088",
+    "A007089",
+    "A058411",
+    "A058412",
+    "A136809",
+    "A136810",
+    "A136816",
+    "A136827",
+    "A136831",
+    "A136836",
+    "A137147",
+    "A277946",
+    "A277959",
+    "A278038"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

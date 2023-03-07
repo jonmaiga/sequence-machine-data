@@ -1,0 +1,21 @@
+{
+  "description": "Near-miss counterexample to Fermat's Last Theorem for exponent 3.",
+  "id": "A229383",
+  "mentions": [
+    "A050791",
+    "A229382"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/Sum_{k>=0} x^(k^3).",
+  "id": "A323633",
+  "mentions": [
+    "A010057",
+    "A023358",
+    "A317665"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

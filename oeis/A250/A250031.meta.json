@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the numerator of the density of natural numbers m such that gcd(m,floor(m/n))=1.",
+  "id": "A250031",
+  "mentions": [
+    "A059956",
+    "A072155",
+    "A248499",
+    "A248501",
+    "A250032",
+    "A250033",
+    "A250034"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

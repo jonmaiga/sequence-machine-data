@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 8^n + 7.",
+  "id": "A253211",
+  "mentions": [
+    "A164786",
+    "A226825",
+    "A253208"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:03:38",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

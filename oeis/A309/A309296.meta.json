@@ -1,0 +1,19 @@
+{
+  "description": "(1/4) times the sum of the elements of all subsets of [n] whose sum is divisible by four.",
+  "id": "A309296",
+  "mentions": [
+    "A309280"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

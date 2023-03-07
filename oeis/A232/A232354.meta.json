@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k that divide sigma(k^2) where sigma is the sum of divisors function (A000203).",
+  "id": "A232354",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A065764",
+    "A069520",
+    "A227302",
+    "A232067",
+    "A232703",
+    "A232704"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

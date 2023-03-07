@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = floor(4*log_2(n)).",
+  "id": "A225668",
+  "mentions": [
+    "A000523",
+    "A000583",
+    "A004257",
+    "A029837",
+    "A329193",
+    "A329202"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:51",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

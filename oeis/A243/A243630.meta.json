@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2*p^3 - 3 is also prime.",
+  "id": "A243630",
+  "mentions": [
+    "A023204",
+    "A063908",
+    "A153507",
+    "A174363",
+    "A243595"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k, k + 210*1, k + 210*2, k + 210*3, k + 210*4 are averages of pairs of twin primes.",
+  "id": "A141592",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

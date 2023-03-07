@@ -1,0 +1,21 @@
+{
+  "description": "Length of shortest sequence b with b(0) = 1, b(i+1) = b(i)+d where d|b(i) and b(k) = n.",
+  "id": "A117497",
+  "mentions": [
+    "A003313",
+    "A105017",
+    "A117498",
+    "A352079"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

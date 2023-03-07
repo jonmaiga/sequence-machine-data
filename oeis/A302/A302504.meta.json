@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically first sequence of distinct terms such that any set of nine successive digits can be reordered as {d, d+1, d+2, d+3, d+4, d+5, d+6, d+7, d+8}, d being the smallest of the nine digits.",
+  "id": "A302504",
+  "mentions": [
+    "A228326",
+    "A302173",
+    "A302499",
+    "A302500",
+    "A302501",
+    "A302502",
+    "A302503"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

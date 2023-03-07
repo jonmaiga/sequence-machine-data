@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of elements of rank k in the order complex of the poset P = [n] X [n], n=0, k=0 or n>0, 0<=k<=2n-1.",
+  "id": "A337192",
+  "mentions": [
+    "A052141",
+    "A316674"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

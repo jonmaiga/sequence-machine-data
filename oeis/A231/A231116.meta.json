@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the total number of digits of all the divisors of n written in base 2 is equal to n.",
+  "id": "A231116",
+  "mentions": [
+    "A182622",
+    "A182627"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

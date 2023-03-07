@@ -1,0 +1,17 @@
+{
+  "description": "Positions of the increasingly larger partial quotients in A107952.",
+  "id": "A106643",
+  "mentions": [
+    "A107952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

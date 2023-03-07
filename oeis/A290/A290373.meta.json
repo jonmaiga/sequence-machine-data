@@ -1,0 +1,25 @@
+{
+  "description": "10-adic integer x = ...2943 satisfying x^5 = x.",
+  "id": "A290373",
+  "mentions": [
+    "A018247",
+    "A091661",
+    "A120817",
+    "A120818",
+    "A290372",
+    "A290374",
+    "A290375"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

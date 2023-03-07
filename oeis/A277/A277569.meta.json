@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n/6^m == 3 (mod 6), where 6^m is the greatest power of 6 that divides n.",
+  "id": "A277569",
+  "mentions": [
+    "A000005",
+    "A277544",
+    "A277567",
+    "A277568",
+    "A277570",
+    "A277571",
+    "A277573"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

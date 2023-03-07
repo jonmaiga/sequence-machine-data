@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: columns are finite differences of the INVERT transform of (1, 2, 3, ...) terms.",
+  "id": "A213947",
+  "mentions": [
+    "A001045",
+    "A001906",
+    "A026644",
+    "A101822"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

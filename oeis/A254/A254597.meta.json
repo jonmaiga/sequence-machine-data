@@ -1,0 +1,18 @@
+{
+  "description": "Convert number n to the bases from 2 to 10. For any n, sequence lists the minimum base with the highest product of digits.",
+  "id": "A254597",
+  "mentions": [
+    "A254596"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

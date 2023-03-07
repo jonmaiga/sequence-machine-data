@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer m such that {A000720(k^2): k = 1, ..., m} contains a complete system of residues modulo n, or 0 if such a number m does not exist.",
+  "id": "A237656",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A038107",
+    "A237643"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

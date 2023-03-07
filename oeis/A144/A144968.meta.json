@@ -1,0 +1,22 @@
+{
+  "description": "Number of squares between consecutive cubes.",
+  "id": "A144968",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A010052",
+    "A077115",
+    "A185549"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

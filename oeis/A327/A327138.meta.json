@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that cos(2k) < cos(2k+2).",
+  "id": "A327138",
+  "mentions": [
+    "A026309",
+    "A026317",
+    "A246303",
+    "A327139",
+    "A327140"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Superabundant numbers (A004394) that are not colossally abundant (A004490).",
+  "id": "A189228",
+  "mentions": [
+    "A004394",
+    "A004490",
+    "A112974",
+    "A166735"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

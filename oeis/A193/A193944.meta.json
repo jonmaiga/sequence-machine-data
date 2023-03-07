@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that for all j > k the largest prime factor of j*(j+1)*(j+2) exceeds the largest prime factor of k*(k+1)*(k+2).",
+  "id": "A193944",
+  "mentions": [
+    "A003032",
+    "A193943",
+    "A193945"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

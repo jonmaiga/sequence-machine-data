@@ -1,0 +1,18 @@
+{
+  "description": "Positions of records in A220400.",
+  "id": "A297160",
+  "mentions": [
+    "A055932",
+    "A220400"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

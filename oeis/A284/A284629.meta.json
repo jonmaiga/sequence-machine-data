@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (eta(q)eta(q^10)/(eta(q^2)eta(q^5)))^6 in powers of q.",
+  "id": "A284629",
+  "mentions": [
+    "A058097",
+    "A132130"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

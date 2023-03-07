@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers m such that A020330^k(m) belongs to A344022 for any k >= 0 (where f^k denotes the k-th iterate of f).",
+  "id": "A344145",
+  "mentions": [
+    "A002450",
+    "A020330",
+    "A344022"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let x(1)x(2)... x(q) denote the decimal expansion of a number n with q odd. The sequence lists the squares n such that the central digit equals the sum of the other digits.",
+  "id": "A236181",
+  "mentions": [
+    "A000290",
+    "A033934"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

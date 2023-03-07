@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k > 0 such that k * n contains a digit 1 in its decimal representation.",
+  "id": "A317173",
+  "mentions": [
+    "A011531",
+    "A190302",
+    "A317175"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

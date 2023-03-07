@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 216*p^3, where p is a Pythagorean prime (A002144).",
+  "id": "A305728",
+  "mentions": [
+    "A002144",
+    "A016911",
+    "A080169"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

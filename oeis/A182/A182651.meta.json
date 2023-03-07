@@ -1,0 +1,19 @@
+{
+  "description": "Algorithm: x->[rx] if x even, x->[x/r] if x odd, where r = sqrt(2); a(n) is the number of steps from n to 2.",
+  "id": "A182651",
+  "mentions": [
+    "A182649",
+    "A182650",
+    "A182652"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

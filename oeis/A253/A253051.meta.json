@@ -1,0 +1,18 @@
+{
+  "description": "A compressed version of A253050 (A252867 mod 2): replace every substring 01 in A253050 with 1, every 001 with 2, every 0001 with 3, every 00001 with 4, etc.",
+  "id": "A253051",
+  "mentions": [
+    "A252867",
+    "A253050"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

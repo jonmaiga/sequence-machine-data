@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} sigma_2(k) * floor(n/k).",
+  "id": "A356042",
+  "mentions": [
+    "A000005",
+    "A007433",
+    "A356045"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

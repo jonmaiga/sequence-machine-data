@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of coefficients in the expansion given in A340825 (see Comments).",
+  "id": "A340844",
+  "mentions": [
+    "A340745",
+    "A340824",
+    "A340825",
+    "A340845",
+    "A340875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

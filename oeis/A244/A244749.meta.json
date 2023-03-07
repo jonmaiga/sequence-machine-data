@@ -1,0 +1,31 @@
+{
+  "description": "0-additive sequence: a(n) is the smallest number larger than a(n-1) that is not the sum of any subset of earlier terms, starting with initial values {2, 5}.",
+  "id": "A244749",
+  "mentions": [
+    "A003662",
+    "A003663",
+    "A003664",
+    "A005408",
+    "A026471",
+    "A026474",
+    "A033627",
+    "A051039",
+    "A051040",
+    "A060469",
+    "A060472",
+    "A244151",
+    "A244750"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:36:32",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

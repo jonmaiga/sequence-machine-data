@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A246031.",
+  "id": "A255364",
+  "mentions": [
+    "A160239",
+    "A245542",
+    "A246031",
+    "A246032"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

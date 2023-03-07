@@ -1,0 +1,27 @@
+{
+  "description": "Square table, read by antidiagonals: the g.f. for row n is given recursively by (2*n-1)*x*R(n,x) = 1 + (2*n-3)*x - 1/R(n-1,x) for n >= 1 with the initial value R(0,x) = Sum_{k >= 0} A112934(k+1)*x^k.",
+  "id": "A355721",
+  "mentions": [
+    "A000698",
+    "A001147",
+    "A111528",
+    "A112934",
+    "A355722",
+    "A355723",
+    "A355724",
+    "A355725"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate the positions of digits 9, 8,..., 0 in the decimal representation of n, using 1 for the rightmost digit etc., and 0 when the digit does not occur.",
+  "id": "A260521",
+  "mentions": [
+    "A045918",
+    "A260519",
+    "A260522"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

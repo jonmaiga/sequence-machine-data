@@ -1,0 +1,17 @@
+{
+  "description": "(n-1)! divided by (product phi(d)! ; d divides n).",
+  "id": "A120066",
+  "mentions": [
+    "A120065"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

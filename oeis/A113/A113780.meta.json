@@ -1,0 +1,29 @@
+{
+  "description": "Number of solutions to 24*n+1 = x^2+24*y^2, x a positive integer, y an integer.",
+  "id": "A113780",
+  "mentions": [
+    "A000009",
+    "A000122",
+    "A000700",
+    "A001318",
+    "A010054",
+    "A010815",
+    "A114913",
+    "A121373",
+    "A128580",
+    "A129402",
+    "A134177",
+    "A190615"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:28:39",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

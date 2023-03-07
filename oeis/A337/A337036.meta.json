@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that the elements of all quadruples (x, y, z, w) satisfying x^3 + y^3 + z^3 = w^3 contained in the set of divisors of m are exactly the first k divisors of m for some k.",
+  "id": "A337036",
+  "mentions": [
+    "A328149",
+    "A328204",
+    "A335654"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

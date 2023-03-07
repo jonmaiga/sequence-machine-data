@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: coefficients of the edge cover polynomial for the n-path graph P_n.",
+  "id": "A284938",
+  "mentions": [
+    "A000045",
+    "A030528",
+    "A057094",
+    "A085478",
+    "A098925",
+    "A102426",
+    "A143858",
+    "A258993",
+    "A286912"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

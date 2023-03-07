@@ -1,0 +1,25 @@
+{
+  "description": "Run Length Transform of swinging factorials (A056040).",
+  "id": "A246661",
+  "mentions": [
+    "A056040",
+    "A227349",
+    "A246588",
+    "A246595",
+    "A246596",
+    "A246660",
+    "A278159"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

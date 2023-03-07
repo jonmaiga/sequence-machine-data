@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x^2 + y*(y+1) + z*(4*z+1) with x,y,z nonnegative integers.",
+  "id": "A254629",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A007742",
+    "A254573",
+    "A254574",
+    "A254623"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

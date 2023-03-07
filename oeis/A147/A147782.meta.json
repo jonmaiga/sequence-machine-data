@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 7^p - 2 is prime.",
+  "id": "A147782",
+  "mentions": [
+    "A000040",
+    "A090669"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

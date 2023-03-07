@@ -1,0 +1,26 @@
+{
+  "description": "Primes p with prime(p) - p + 1 and p*(p+1) - prime(p) both prime.",
+  "id": "A235681",
+  "mentions": [
+    "A000040",
+    "A232353",
+    "A234694",
+    "A234695",
+    "A235189",
+    "A235330",
+    "A235613",
+    "A235614",
+    "A235661",
+    "A235682"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

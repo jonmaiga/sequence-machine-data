@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the greatest x satisfying x^2+4x+3=e^x.",
+  "id": "A201926",
+  "mentions": [
+    "A201741",
+    "A201924",
+    "A201925"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

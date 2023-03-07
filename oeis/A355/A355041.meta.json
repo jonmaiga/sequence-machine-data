@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A152763(2^k) < A152763(2^k-1).",
+  "id": "A355041",
+  "mentions": [
+    "A000108",
+    "A038003",
+    "A152763"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

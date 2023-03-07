@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which 7*n + 11 is prime.",
+  "id": "A101123",
+  "mentions": [
+    "A017029",
+    "A101084",
+    "A101086",
+    "A101444"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:51",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

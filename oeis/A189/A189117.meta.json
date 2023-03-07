@@ -1,0 +1,23 @@
+{
+  "description": "Conjectured number of pairs of consecutive perfect powers (A001597) differing by n.",
+  "id": "A189117",
+  "mentions": [
+    "A001597",
+    "A023056",
+    "A023057",
+    "A076427",
+    "A108278",
+    "A189045",
+    "A189047"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

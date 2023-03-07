@@ -1,0 +1,32 @@
+{
+  "description": "Number of normal patterns contiguously matched by integer partitions of n.",
+  "id": "A335838",
+  "mentions": [
+    "A000670",
+    "A056986",
+    "A102726",
+    "A108917",
+    "A333217",
+    "A333257",
+    "A335454",
+    "A335456",
+    "A335457",
+    "A335458",
+    "A335474",
+    "A335516",
+    "A335519",
+    "A335549",
+    "A335550",
+    "A335837"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

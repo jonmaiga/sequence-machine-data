@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered triples (w,x,y) with all terms in {-n,...,0,...,n} and w + x + y = 2.",
+  "id": "A211441",
+  "mentions": [
+    "A002378",
+    "A003215",
+    "A028387",
+    "A028552",
+    "A211422"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

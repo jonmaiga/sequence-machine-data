@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals. Convolution of a(n)= 2*a(n-1)-a(n-2) and 10^n.",
+  "id": "A178643",
+  "mentions": [
+    "A000129",
+    "A014824",
+    "A021083",
+    "A021123",
+    "A178511"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

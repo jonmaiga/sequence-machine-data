@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest number k such that (k + n)' = k', or -1 if no such number exists, where k' is the arithmetic derivative of k.",
+  "id": "A255354",
+  "mentions": [
+    "A003415",
+    "A007015",
+    "A007365",
+    "A015886",
+    "A065559"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} prime(k)/2^prime(k).",
+  "id": "A346173",
+  "mentions": [
+    "A034785",
+    "A098990",
+    "A100127"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

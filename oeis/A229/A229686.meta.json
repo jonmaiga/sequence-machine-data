@@ -1,0 +1,20 @@
+{
+  "description": "The negative number of minimum absolute value not obtainable from 1 in n steps using addition, multiplication, and subtraction.",
+  "id": "A229686",
+  "mentions": [
+    "A141414",
+    "A214872",
+    "A216999"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

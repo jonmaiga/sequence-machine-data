@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding walks that escape an n X n square lattice starting at a given corner.",
+  "id": "A343962",
+  "mentions": [
+    "A341269"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

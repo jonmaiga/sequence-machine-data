@@ -1,0 +1,21 @@
+{
+  "description": "Number of Hi-Lo arrangements HL(m,n) of a deck with n suits and m ranks in each suit, m>=1, n>=1.",
+  "id": "A143381",
+  "mentions": [
+    "A000004",
+    "A007395",
+    "A048163",
+    "A110706"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

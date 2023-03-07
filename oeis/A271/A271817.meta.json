@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k > 1 such that none of k^2 + 0, k^2 + 1, k^2 + 2,..., k^2 + n are squarefree.",
+  "id": "A271817",
+  "mentions": [
+    "A013929",
+    "A045882",
+    "A270442"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

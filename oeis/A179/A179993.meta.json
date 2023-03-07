@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m with the property that, when a and b are positive integers such that a*b = m, |a-b| is prime.",
+  "id": "A179993",
+  "mentions": [
+    "A080715",
+    "A349327"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

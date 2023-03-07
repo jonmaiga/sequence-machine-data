@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of the compositionally inverted power series g:=f^{-1} of a formal power series f with the starting coefficients f_0=0 and f_1=1 expressed as polynomials in the coefficients f_2, f_3, ... of the given power series f(X) = X + f_2*X^2 + f_3*X^3 + ...",
+  "id": "A304462",
+  "mentions": [
+    "A111785"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

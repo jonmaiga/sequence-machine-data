@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n+1)^2 * (n+2)^2 * (2*n+3) / 12.",
+  "id": "A108674",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A000537",
+    "A008354",
+    "A126274",
+    "A132458"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the least decimal digit of n^3.",
+  "id": "A333206",
+  "mentions": [
+    "A052044",
+    "A054054",
+    "A269250",
+    "A291639",
+    "A291640",
+    "A291641",
+    "A291642",
+    "A291643",
+    "A291644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

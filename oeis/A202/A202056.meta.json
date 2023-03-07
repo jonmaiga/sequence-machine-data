@@ -1,0 +1,23 @@
+{
+  "description": "Smallest d such that Mordell's elliptic curve x^3-y^2=d (for positive d) has an integral point in the quadratic extension sqrt(A202057(n)).",
+  "id": "A202056",
+  "mentions": [
+    "A201278",
+    "A202054",
+    "A202055",
+    "A202057"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of coefficients in asymptotic expansion of exp(2*(H_k-gamma))/k^2 in powers of 1/k, where H_k are the harmonic numbers A001008/A002805 and gamma is the Euler-Mascheroni constant A001620.",
+  "id": "A331778",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A093334",
+    "A238813",
+    "A331777"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

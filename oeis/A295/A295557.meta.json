@@ -1,0 +1,18 @@
+{
+  "description": "Let d_1, d_2, d_3, ..., d_tau(n) be the divisors of n; a(n) = number of permutations p of d_1, d_2, d_3, ..., d_tau(n) such that p_(i+1)/p_i is a prime or 1/prime for i = 1,2,...,tau(n)-1.",
+  "id": "A295557",
+  "mentions": [
+    "A173675",
+    "A179926"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

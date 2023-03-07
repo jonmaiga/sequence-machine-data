@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n and n^2 are both a sum of two positive cubes.",
+  "id": "A274128",
+  "mentions": [
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

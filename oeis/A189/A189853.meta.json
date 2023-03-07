@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place n nonattacking composite pieces rook + rider[1,6] on an n X n chessboard.",
+  "id": "A189853",
+  "mentions": [
+    "A000170",
+    "A189837",
+    "A189850",
+    "A189851",
+    "A189852"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

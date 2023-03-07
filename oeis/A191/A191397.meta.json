@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of dispersed Dyck paths of length n (i.e., Motzkin paths of length n with no (1,0)-steps at positive heights) having k DHU's (here U=(1,1), H=(1,0), and D=(1,-1)).",
+  "id": "A191397",
+  "mentions": [
+    "A001405",
+    "A191389",
+    "A191398"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

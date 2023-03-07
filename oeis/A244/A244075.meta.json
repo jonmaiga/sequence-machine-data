@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of nonprime digits between successive single-digit primes in the decimal expansion of e (A001113).",
+  "id": "A244075",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

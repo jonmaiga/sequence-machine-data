@@ -1,0 +1,29 @@
+{
+  "description": "T(n, k) is the result of replacing 2's by k's in the hereditary base-2 expansion of n; square array T(n, k) read by antidiagonals upwards, n, k >= 0.",
+  "id": "A342707",
+  "mentions": [
+    "A000120",
+    "A000312",
+    "A002488",
+    "A014566",
+    "A066068",
+    "A066279",
+    "A222112",
+    "A341907",
+    "A343255",
+    "A345021"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

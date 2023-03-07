@@ -1,0 +1,22 @@
+{
+  "description": "Where zeros occur in A349083. These correspond to rationals, 0 < p/q < 1, that have no solution p/q = 1/x + 1/y + 1/z, 0 < x < y < z.",
+  "id": "A349091",
+  "mentions": [
+    "A002260",
+    "A003057",
+    "A349082",
+    "A349083",
+    "A349090",
+    "A349092"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

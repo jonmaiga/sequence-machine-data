@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = Series_Reversion( x - x*A'(x)*A(x) ).",
+  "id": "A360578",
+  "mentions": [
+    "A213591",
+    "A259606",
+    "A303063"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of constant 1.287194... related to a conjectural Viète-like formula for Pi.",
+  "id": "A282089",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

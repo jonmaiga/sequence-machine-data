@@ -1,0 +1,24 @@
+{
+  "description": "Largest prime factor of numerator of Sum_{k=0...n} 1/k!, with a(0) = 1.",
+  "id": "A102469",
+  "mentions": [
+    "A000522",
+    "A002034",
+    "A006530",
+    "A007917",
+    "A061354",
+    "A096058",
+    "A102468"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

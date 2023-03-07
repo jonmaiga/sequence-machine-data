@@ -1,0 +1,18 @@
+{
+  "description": "Second inverse function (numbers of columns) for pairing function A188568.",
+  "id": "A208234",
+  "mentions": [
+    "A188568"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

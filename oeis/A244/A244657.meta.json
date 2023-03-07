@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of n-node unlabeled rooted trees with thinning limbs and root outdegree (branching factor) k; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.",
+  "id": "A244657",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A124343",
+    "A244703",
+    "A244704",
+    "A244705",
+    "A244706",
+    "A244707",
+    "A244708",
+    "A244709",
+    "A244710",
+    "A244711",
+    "A244712",
+    "A245120",
+    "A245151"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ON cells after n generations of the 2D cellular automaton described in the comments.",
+  "id": "A164982",
+  "mentions": [
+    "A048883",
+    "A072272",
+    "A122108",
+    "A160410",
+    "A247002"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

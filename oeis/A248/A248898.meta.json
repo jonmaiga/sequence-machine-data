@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A246964(k) = 1.",
+  "id": "A248898",
+  "mentions": [
+    "A246964"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

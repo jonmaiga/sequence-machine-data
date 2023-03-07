@@ -1,0 +1,18 @@
+{
+  "description": "Let T(n) = (p, p+2) denote the n-th pair of twin primes. Let S(n) = 2p+2 (see A054735). Then a(n) = number of ways of writing S(n) as S(i) + S(j) with i <= j < m.",
+  "id": "A134143",
+  "mentions": [
+    "A001359",
+    "A054735"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

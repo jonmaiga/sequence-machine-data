@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that sum of the proper divisors of n is the square of the sum of the digits of n.",
+  "id": "A279459",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A007953",
+    "A073040",
+    "A118881",
+    "A145746"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p(i) such that p(i+1)/p(i) > p(k+1)/p(k) for all k>i, where p(i) is the i-th prime.",
+  "id": "A209407",
+  "mentions": [
+    "A002386",
+    "A144104"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

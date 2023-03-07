@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct real eigenvalues of n X n matrices with elements {0, 1, 2}.",
+  "id": "A306795",
+  "mentions": [
+    "A272659",
+    "A306783",
+    "A306792"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

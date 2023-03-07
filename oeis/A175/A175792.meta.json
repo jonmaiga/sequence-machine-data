@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^A000796(k), excess of the number of even over odd digits in the first n digits of Pi.",
+  "id": "A175792",
+  "mentions": [
+    "A000796",
+    "A030657",
+    "A175813",
+    "A196686"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which A003415(k) >= A001065(k), where A003415 gives the arithmetic derivative, and A001065 is the sum of proper divisors.",
+  "id": "A344586",
+  "mentions": [
+    "A001065",
+    "A003415",
+    "A211991",
+    "A212127",
+    "A212128",
+    "A212165",
+    "A344585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

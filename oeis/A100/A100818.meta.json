@@ -1,0 +1,22 @@
+{
+  "description": "For a given unrestricted partition pi, let P(pi)=lambda(pi), if mu(pi)=0. If mu(pi)>0 then let P(pi)=nu(pi), where nu(pi) is the number of parts of pi greater than mu(pi), mu(pi) is the number of ones in pi and lambda(pi) is the largest part of pi.",
+  "id": "A100818",
+  "mentions": [
+    "A000041",
+    "A087787",
+    "A135010",
+    "A138121",
+    "A182712"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

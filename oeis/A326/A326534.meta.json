@@ -1,0 +1,28 @@
+{
+  "description": "MM-numbers of multiset partitions where every part has the same sum.",
+  "id": "A326534",
+  "mentions": [
+    "A035470",
+    "A038041",
+    "A112798",
+    "A298538",
+    "A302242",
+    "A320324",
+    "A321455",
+    "A326518",
+    "A326533",
+    "A326535",
+    "A326536",
+    "A326537"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

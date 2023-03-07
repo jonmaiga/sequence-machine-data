@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (Pi-1)*(2*Pi-1)/12.",
+  "id": "A223709",
+  "mentions": [
+    "A096418",
+    "A096444",
+    "A217909",
+    "A223710"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:11",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

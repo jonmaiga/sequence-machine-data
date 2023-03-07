@@ -1,0 +1,22 @@
+{
+  "description": "Primorial base Niven numbers (A333426) with a record gap to the next primorial base Niven number.",
+  "id": "A347496",
+  "mentions": [
+    "A333426",
+    "A333427",
+    "A337076",
+    "A337077",
+    "A347495"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

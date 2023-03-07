@@ -1,0 +1,39 @@
+{
+  "description": "Number A(n,k) of n X n nonnegative integer matrices with all row and column sums equal to k; square array A(n,k), n >= 0, k >= 0, read by antidiagonals.",
+  "id": "A257493",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A000681",
+    "A001222",
+    "A001496",
+    "A001500",
+    "A002817",
+    "A003438",
+    "A003439",
+    "A008552",
+    "A110058",
+    "A160318",
+    "A160319",
+    "A172806",
+    "A172862",
+    "A172894",
+    "A172919",
+    "A172944",
+    "A172958",
+    "A257463",
+    "A333733"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

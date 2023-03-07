@@ -1,0 +1,27 @@
+{
+  "description": "Numbers p such that p, 2p+1, 3p+2, 4p+3, 5p+4, 6p+5, 7p+6, 8p+7 are primes.",
+  "id": "A101769",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A023272",
+    "A067256",
+    "A067257",
+    "A067258",
+    "A101767",
+    "A101768",
+    "A101770",
+    "A336060"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

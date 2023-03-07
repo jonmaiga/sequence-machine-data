@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that S(n) = prime, where S(n) = S(n-1) + A000040(n)*(-1)^n; S(0)=0.",
+  "id": "A131694",
+  "mentions": [
+    "A000040",
+    "A008347",
+    "A066033"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive solutions x/(2^2*3*89) of the Pell equation x^2 - 73*y^2 = -1.",
+  "id": "A227039",
+  "mentions": [
+    "A049310",
+    "A227040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Terms of A173143 (partial sums of squarefree numbers) that are square.",
+  "id": "A262783",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A173143"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of subsets of {1,...,n} containing n and having at least one set partition into k blocks with equal element sum; triangle T(n,k), n>=1, 1<=k<=floor((n+1)/2), read by rows.",
+  "id": "A248112",
+  "mentions": [
+    "A000079",
+    "A232466",
+    "A232534",
+    "A248113",
+    "A248114",
+    "A248115",
+    "A248116",
+    "A248117",
+    "A248118",
+    "A248119"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

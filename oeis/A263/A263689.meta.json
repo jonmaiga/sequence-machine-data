@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (2*n^6 - 6*n^5 + 5*n^4 - n^2 + 12)/12.",
+  "id": "A263689",
+  "mentions": [
+    "A000124",
+    "A000539",
+    "A000584",
+    "A056520",
+    "A154323"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:23:19",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

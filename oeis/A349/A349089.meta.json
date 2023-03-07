@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor((n-1)/4)} 1 / (4*k+1)!.",
+  "id": "A349089",
+  "mentions": [
+    "A002627",
+    "A009628",
+    "A186763",
+    "A334363",
+    "A337728",
+    "A349088",
+    "A352660"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

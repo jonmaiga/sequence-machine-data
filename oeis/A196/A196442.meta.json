@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = a(2) = 1; for n >= 2, a(n) is the product of number k <= n such that GCQ_A(n, k) >= 2 (see definition in comments).",
+  "id": "A196442",
+  "mentions": [
+    "A000142",
+    "A196437",
+    "A196438",
+    "A196439",
+    "A196440",
+    "A196441",
+    "A196443",
+    "A196444"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

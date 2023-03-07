@@ -1,0 +1,30 @@
+{
+  "description": "a(0) = 1; a(n+1) = Sum_{k=0..n} a(k)*A001147(n-k), where A001147 = double factorial numbers.",
+  "id": "A112934",
+  "mentions": [
+    "A001147",
+    "A028310",
+    "A111106",
+    "A112935",
+    "A112936",
+    "A112937",
+    "A112938",
+    "A112939",
+    "A112940",
+    "A112941",
+    "A112942",
+    "A112943",
+    "A137592"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(n+1)*(n^2 + 21*n + 50)/24.",
+  "id": "A101854",
+  "mentions": [
+    "A101094",
+    "A101853"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:21:49",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

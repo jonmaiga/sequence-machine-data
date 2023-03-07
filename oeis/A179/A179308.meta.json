@@ -1,0 +1,21 @@
+{
+  "description": "List of positive integers, omitting any number n if another number with the same set of digits as n has already been listed.",
+  "id": "A179308",
+  "mentions": [
+    "A179239"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

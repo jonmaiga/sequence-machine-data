@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n+4 0..7 arrays with no five consecutive terms having two times the sum of any three elements equal to three times the sum of the remaining two",
+  "id": "A249000",
+  "mentions": [
+    "A249001"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

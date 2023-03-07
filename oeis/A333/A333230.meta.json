@@ -1,0 +1,38 @@
+{
+  "description": "Positions of weak ascents in the sequence of differences between primes.",
+  "id": "A333230",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A022297",
+    "A036263",
+    "A054819",
+    "A064113",
+    "A084758",
+    "A124765",
+    "A124766",
+    "A124768",
+    "A124769",
+    "A258025",
+    "A258026",
+    "A333212",
+    "A333213",
+    "A333214",
+    "A333215",
+    "A333216",
+    "A333231",
+    "A333252"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

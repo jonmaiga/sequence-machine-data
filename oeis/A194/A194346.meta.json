@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of h_o(1/17), where h_o(x) is the odd infinite power tower function.",
+  "id": "A194346",
+  "mentions": [
+    "A073229",
+    "A073230",
+    "A073243",
+    "A194347"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

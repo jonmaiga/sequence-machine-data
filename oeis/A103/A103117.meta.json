@@ -1,0 +1,21 @@
+{
+  "description": "Berend Jan van der Zwaag's conjectured complete list of numbers that start different \"expanding periodic loops\" under the mapping described in A053392 and A060630.",
+  "id": "A103117",
+  "mentions": [
+    "A053392",
+    "A060630"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

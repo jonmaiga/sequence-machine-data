@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the number of distinct prime factors omega of the product of the composite numbers between p and the next prime after p sets a new record.",
+  "id": "A354219",
+  "mentions": [
+    "A001221",
+    "A076978",
+    "A354217",
+    "A354220"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

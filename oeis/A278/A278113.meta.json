@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) = A278112(n,A000040(k)) for 1 <= k <= A278114(n), read by rows.",
+  "id": "A278113",
+  "mentions": [
+    "A000040",
+    "A277648",
+    "A278112",
+    "A278114",
+    "A278115",
+    "A278118"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

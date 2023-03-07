@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 10*n*(n+1).",
+  "id": "A163761",
+  "mentions": [
+    "A000217",
+    "A002378"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:27",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

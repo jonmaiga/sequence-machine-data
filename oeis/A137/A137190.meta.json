@@ -1,0 +1,18 @@
+{
+  "description": "Lucky numbers (A000959) which are congruent to 1 mod 8.",
+  "id": "A137190",
+  "mentions": [
+    "A000959",
+    "A017077"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+2401)^2 = y^2.",
+  "id": "A118630",
+  "mentions": [
+    "A001652",
+    "A118554",
+    "A118576",
+    "A118611",
+    "A156035",
+    "A156649",
+    "A157247"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:35:53",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

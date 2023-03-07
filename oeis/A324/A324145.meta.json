@@ -1,0 +1,19 @@
+{
+  "description": "Minimal length of a string over the alphabet A = {1,2,...,n} that contains every derangement of A as a substring exactly once.",
+  "id": "A324145",
+  "mentions": [
+    "A000166",
+    "A180632"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

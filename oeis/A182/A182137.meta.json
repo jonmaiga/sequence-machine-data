@@ -1,0 +1,19 @@
+{
+  "description": "Size of the set of b for numbers of the form 2^n*x + b that cannot be the smallest element of a set giving a duration of infinite flight in the Collatz problem.",
+  "id": "A182137",
+  "mentions": [
+    "A014682",
+    "A074473",
+    "A186109"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

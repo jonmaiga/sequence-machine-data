@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k) read by antidiagonals, A(n,n) = -n, otherwise, if n > k, A(n,k) = T(n-k,k), else A(n,k) = T(n,k-n), where T(n,k) is sequence A000027 considered as a two-dimensional table.",
+  "id": "A285732",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A000217",
+    "A002260",
+    "A003989",
+    "A004736",
+    "A072030",
+    "A285721",
+    "A285722",
+    "A285733",
+    "A286100"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

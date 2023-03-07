@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of r-fusc A288003(n-1) + 1;",
+  "id": "A289342",
+  "mentions": [
+    "A288003"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

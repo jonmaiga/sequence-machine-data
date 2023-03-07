@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} ((1+x)^n - 1)^n / (1+x)^(n^2).",
+  "id": "A220352",
+  "mentions": [
+    "A121886",
+    "A187826",
+    "A220353"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

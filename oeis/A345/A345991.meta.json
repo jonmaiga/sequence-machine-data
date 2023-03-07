@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number of the form m*(m+1)*(m+2) that is divisible by n.",
+  "id": "A345991",
+  "mentions": [
+    "A000292",
+    "A007571",
+    "A265647",
+    "A345989",
+    "A345990"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

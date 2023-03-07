@@ -1,0 +1,22 @@
+{
+  "description": "Sturdy numbers: n such that in binary notation k*n has at least as many 1-bits as n for all k>0.",
+  "id": "A125121",
+  "mentions": [
+    "A000225",
+    "A005360",
+    "A143027"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

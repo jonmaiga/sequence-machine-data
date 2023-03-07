@@ -1,0 +1,27 @@
+{
+  "description": "O.g.f. A(x) satisfies: 0 = [x^n] exp( n^4 * Integral 1/A(x) dx ) / A(x), for n > 0.",
+  "id": "A305146",
+  "mentions": [
+    "A305137",
+    "A305138",
+    "A305139",
+    "A305140",
+    "A305141",
+    "A305142",
+    "A305143",
+    "A305144",
+    "A305145",
+    "A305147"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of digraphs on n unlabeled unisolated nodes with k arcs, k = 0..n*(n-1).",
+  "id": "A350908",
+  "mentions": [
+    "A052283",
+    "A053418",
+    "A053598",
+    "A054547",
+    "A054733"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

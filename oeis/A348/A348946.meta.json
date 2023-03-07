@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = gcd(sigma(n), A348944(n)), where A348944 is the arithmetic mean of A003959 and A034448, and sigma is the sum of divisors function.",
+  "id": "A348946",
+  "mentions": [
+    "A000203",
+    "A003959",
+    "A034448",
+    "A344695",
+    "A348047",
+    "A348503",
+    "A348733",
+    "A348944",
+    "A348945",
+    "A348947",
+    "A348948"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

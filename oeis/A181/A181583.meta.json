@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p such that p! contains exactly n 0's (or 0, if no such p exists).",
+  "id": "A181583",
+  "mentions": [
+    "A027869",
+    "A181580"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Number of length-n sequences covering an initial interval of positive integers with exactly two maximal anti-runs, or with one pair of adjacent equal parts.",
+  "id": "A337507",
+  "mentions": [
+    "A000670",
+    "A002133",
+    "A003242",
+    "A005649",
+    "A019472",
+    "A052841",
+    "A060223",
+    "A106351",
+    "A106356",
+    "A106357",
+    "A124762",
+    "A124767",
+    "A238130",
+    "A238279",
+    "A269134",
+    "A333381",
+    "A333382",
+    "A333489",
+    "A333755",
+    "A333769",
+    "A335461",
+    "A337505",
+    "A337506",
+    "A337564",
+    "A337565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p + 22 is also prime.",
+  "id": "A242476",
+  "mentions": [
+    "A033560",
+    "A079021",
+    "A153419"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:12:35",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

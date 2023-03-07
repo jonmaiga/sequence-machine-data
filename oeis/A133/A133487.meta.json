@@ -1,0 +1,20 @@
+{
+  "description": "The first term is 256; each subsequent term in the series is computed by translating the previous term to binary, then reinterpreting the binary expansion as a product of metaprimes. Metaprimes follow the form p^(2^n) where p is a prime number and n is a nonnegative integer. See the link for more detailed explanation.",
+  "id": "A133487",
+  "mentions": [
+    "A052330",
+    "A079708"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

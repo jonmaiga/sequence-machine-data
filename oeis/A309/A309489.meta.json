@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of digits in odd places is equal to the sum of digits in even places in k!.",
+  "id": "A309489",
+  "mentions": [
+    "A000142",
+    "A135499"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

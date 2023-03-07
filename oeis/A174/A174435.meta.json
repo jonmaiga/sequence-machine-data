@@ -1,0 +1,21 @@
+{
+  "description": "lambda(y)/x, where y an odd squarefree semiprime and x = ord(2,y) the smallest positive integer such that 2^x == 1 mod y (the multiplicative order of 2 mod y).",
+  "id": "A174435",
+  "mentions": [
+    "A002322",
+    "A002326",
+    "A046388",
+    "A174240"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

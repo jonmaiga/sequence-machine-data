@@ -1,0 +1,23 @@
+{
+  "description": "A shell model of partitions as a table of partitions.",
+  "id": "A182740",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A182741",
+    "A182742",
+    "A182743"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

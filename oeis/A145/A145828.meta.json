@@ -1,0 +1,22 @@
+{
+  "description": "Squares in A145768 (XOR of squares of the numbers 1...n).",
+  "id": "A145828",
+  "mentions": [
+    "A000290",
+    "A145768",
+    "A145827",
+    "A145829"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

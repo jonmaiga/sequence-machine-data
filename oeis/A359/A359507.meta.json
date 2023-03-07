@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer k such that there exists a strictly increasing integer sequence n = b_1 < b_2 < ... < b_t = n + k with the property that b_1 XOR b_2 XOR ... XOR b_t = 0.",
+  "id": "A359507",
+  "mentions": [
+    "A092487",
+    "A359506"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

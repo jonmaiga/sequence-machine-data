@@ -1,0 +1,25 @@
+{
+  "description": "Largest divisor of A246006(n) whose prime factors are all >= n+2.",
+  "id": "A241601",
+  "mentions": [
+    "A000928",
+    "A001067",
+    "A060054",
+    "A091912",
+    "A120082",
+    "A120337",
+    "A141590",
+    "A246006"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

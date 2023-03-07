@@ -1,0 +1,24 @@
+{
+  "description": "Generalized canyon primes.",
+  "id": "A183087",
+  "mentions": [
+    "A000040",
+    "A134971",
+    "A167853",
+    "A183086"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

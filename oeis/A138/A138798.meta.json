@@ -1,0 +1,23 @@
+{
+  "description": "Values of j corresponding to least possible k>0 with T(k)-T(j)=n, where T(i)>0 are the triangular numbers A000217.",
+  "id": "A138798",
+  "mentions": [
+    "A000217",
+    "A109814",
+    "A118235",
+    "A136107",
+    "A138796",
+    "A138797",
+    "A138799"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

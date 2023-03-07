@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-connected planer cubic graphs with 2*n nodes and the maximum number of edge-Kempe equivalence classes.",
+  "id": "A358288",
+  "mentions": [
+    "A000109"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

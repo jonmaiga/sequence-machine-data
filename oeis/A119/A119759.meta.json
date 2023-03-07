@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest number k larger than a(n-1) such that k*A002110(n)^3 - 1 is prime.",
+  "id": "A119759",
+  "mentions": [
+    "A002110",
+    "A119760"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

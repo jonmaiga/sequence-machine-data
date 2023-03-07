@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that lambda(m) = lambda(m+1), where lambda(n) = A008836(n) is the Liouville function.",
+  "id": "A221280",
+  "mentions": [
+    "A000217",
+    "A008836",
+    "A221281",
+    "A221282"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

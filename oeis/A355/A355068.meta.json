@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by upwards antidiagonals: T(n,k) = k-th digit after the decimal point in decimal expansion of 1/n, for n >= 1 and k >= 1.",
+  "id": "A355068",
+  "mentions": [
+    "A020806",
+    "A021017",
+    "A021018",
+    "A048962",
+    "A061480",
+    "A257927",
+    "A355202"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

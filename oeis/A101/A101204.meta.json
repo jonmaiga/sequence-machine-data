@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of planar trivalent (or cubic) multigraphs with 2n nodes and exactly k double bonds, for 0 <= k <= n.",
+  "id": "A101204",
+  "mentions": [
+    "A005964",
+    "A005966",
+    "A101205",
+    "A101206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

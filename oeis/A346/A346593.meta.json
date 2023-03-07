@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A006577(k^3) sets a new record.",
+  "id": "A346593",
+  "mentions": [
+    "A006577",
+    "A006877",
+    "A244638",
+    "A346591",
+    "A346592"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

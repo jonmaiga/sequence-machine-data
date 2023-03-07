@@ -1,0 +1,21 @@
+{
+  "description": "Number of leaves in all simple labeled connected graphs on n nodes.",
+  "id": "A275462",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A053549",
+    "A095338"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

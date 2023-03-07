@@ -1,0 +1,20 @@
+{
+  "description": "Square root of smallest square formed from n by incorporating all the digits of n in a new decimal number.",
+  "id": "A286300",
+  "mentions": [
+    "A068165",
+    "A091873"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "D-toothpick sequence starting with a cross formed by 4 toothpicks.",
+  "id": "A194432",
+  "mentions": [
+    "A139250",
+    "A194270",
+    "A194433",
+    "A194434",
+    "A194440",
+    "A194442"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

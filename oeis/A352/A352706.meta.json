@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: (1 - x*A(x))^7 = 1 - 7*x - x^7*A(x^7).",
+  "id": "A352706",
+  "mentions": [
+    "A352702",
+    "A352704",
+    "A352705"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

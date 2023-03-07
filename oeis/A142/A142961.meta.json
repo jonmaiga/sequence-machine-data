@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of polynomials related to a family of convolutions of certain central binomial sequences.",
+  "id": "A142961",
+  "mentions": [
+    "A001147",
+    "A046161",
+    "A048993",
+    "A052928"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

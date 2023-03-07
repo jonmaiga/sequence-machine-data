@@ -1,0 +1,25 @@
+{
+  "description": "Consider decimal fractions r = abc/def with b != 0, d != 0 such that r = ac/df, sorted first by def and then by abc; sequence gives the numerators abc.",
+  "id": "A290462",
+  "mentions": [
+    "A159975",
+    "A159976",
+    "A290463",
+    "A291093",
+    "A291094"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "frac",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

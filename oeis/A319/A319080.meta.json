@@ -1,0 +1,19 @@
+{
+  "description": "Sequence, read by rows, encoding an infinite sequence of diamond-shaped arrays of nonnegative integers (see example).",
+  "id": "A319080",
+  "mentions": [
+    "A001477",
+    "A005900"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

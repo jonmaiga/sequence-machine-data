@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of balanced reduced multisystems of depth k whose degrees (atom multiplicities) are the prime indices of n.",
+  "id": "A330727",
+  "mentions": [
+    "A000111",
+    "A002846",
+    "A005121",
+    "A008826",
+    "A112798",
+    "A181821",
+    "A292504",
+    "A305936",
+    "A318284",
+    "A318812",
+    "A318813",
+    "A318846",
+    "A318847",
+    "A318848",
+    "A318849",
+    "A330475",
+    "A330666",
+    "A330667",
+    "A330728",
+    "A330784",
+    "A330935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

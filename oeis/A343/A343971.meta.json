@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of four positive cubes in four or more ways.",
+  "id": "A343971",
+  "mentions": [
+    "A025369",
+    "A025407",
+    "A343968",
+    "A343972",
+    "A343987",
+    "A344034",
+    "A344352"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Size of largest triangle occurring in any of the possible dissections of an equilateral triangle into n equilateral triangles with integer sides, assuming gcd(s_1,s_2,...,s_n)=1, s_k being the side lengths.",
+  "id": "A290697",
+  "mentions": [
+    "A167123",
+    "A290653"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 6,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Epact in Julian calendar for a year n with Golden Number (n mod 19) + 1 = A074805(n).",
+  "id": "A131773",
+  "mentions": [
+    "A074805"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:25",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

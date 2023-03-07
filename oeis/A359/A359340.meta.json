@@ -1,0 +1,19 @@
+{
+  "description": "The primes associated with A339174.",
+  "id": "A359340",
+  "mentions": [
+    "A061092",
+    "A071580",
+    "A339174"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

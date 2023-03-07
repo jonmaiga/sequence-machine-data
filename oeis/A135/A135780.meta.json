@@ -1,0 +1,21 @@
+{
+  "description": "Squares such that another square can be obtained by a cyclic permutation of the digits, excluding leading zeros.",
+  "id": "A135780",
+  "mentions": [
+    "A034289",
+    "A135770"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

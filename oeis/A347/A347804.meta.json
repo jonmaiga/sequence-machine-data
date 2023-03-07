@@ -1,0 +1,17 @@
+{
+  "description": "Primes for which there exists a level 1 modular form of weight less than or equal to (p+3)/2 which is not ordinary (meaning the p-adic valuation of its a_p eigenvalue is not zero).",
+  "id": "A347804",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

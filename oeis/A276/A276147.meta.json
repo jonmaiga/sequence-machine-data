@@ -1,0 +1,21 @@
+{
+  "description": "a(2n+1) = 2n+1, a(2n) = A053669(2n) * a(A111701(2n)).",
+  "id": "A276147",
+  "mentions": [
+    "A053669",
+    "A111701",
+    "A276086",
+    "A276148"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

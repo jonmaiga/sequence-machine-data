@@ -1,0 +1,37 @@
+{
+  "description": "Numbers h such that h and h+1 have same antiharmonic mean of the numbers k < h such that gcd(k, h) = 1.",
+  "id": "A179875",
+  "mentions": [
+    "A023896",
+    "A053818",
+    "A175505",
+    "A175506",
+    "A179871",
+    "A179872",
+    "A179873",
+    "A179874",
+    "A179876",
+    "A179877",
+    "A179878",
+    "A179879",
+    "A179880",
+    "A179882",
+    "A179883",
+    "A179884",
+    "A179885",
+    "A179886",
+    "A179887",
+    "A179890",
+    "A179891"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

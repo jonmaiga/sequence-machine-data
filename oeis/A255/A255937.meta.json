@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct products of distinct factorials up to n!.",
+  "id": "A255937",
+  "mentions": [
+    "A000142",
+    "A001013",
+    "A058295",
+    "A060957"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

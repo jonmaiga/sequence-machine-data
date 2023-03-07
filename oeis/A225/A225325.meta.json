@@ -1,0 +1,30 @@
+{
+  "description": "Partition numbers of the form 5k.",
+  "id": "A225325",
+  "mentions": [
+    "A000041",
+    "A008587",
+    "A052001",
+    "A072871",
+    "A087183",
+    "A127544",
+    "A217725",
+    "A225324",
+    "A225326",
+    "A225327",
+    "A225358",
+    "A225360",
+    "A225361"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

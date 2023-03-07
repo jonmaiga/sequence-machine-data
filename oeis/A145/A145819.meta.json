@@ -1,0 +1,18 @@
+{
+  "description": "Union of A145812 and A145818 with double repetition of 1, so that a(1)=1, a(2)=1",
+  "id": "A145819",
+  "mentions": [
+    "A145812",
+    "A145818"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of minimally prolific free polyominoes, i.e., that can generate the least possible number of children by adding a square.",
+  "id": "A359667",
+  "mentions": [
+    "A000105",
+    "A255890"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

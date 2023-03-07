@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct functions f representable as x -> x^x^...^x with n x's and parentheses inserted in all possible ways giving result f(0)=1, with conventions that 0^0=1^0=1^1=1, 0^1=0.",
+  "id": "A222380",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A055113",
+    "A087803",
+    "A211192",
+    "A215703",
+    "A222379",
+    "A306710"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

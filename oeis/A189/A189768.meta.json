@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle in which row n contains the set of residues of the sequence Fibonacci(i) mod n for i=0,1,2,....",
+  "id": "A189768",
+  "mentions": [
+    "A000045",
+    "A066853",
+    "A079002"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = [A003557(n), A046523(n), A048250(n)] for all other numbers, except f(2^k) = 0 for k >= 2.",
+  "id": "A332230",
+  "mentions": [
+    "A003557",
+    "A046523",
+    "A048250",
+    "A209229",
+    "A291750",
+    "A295300",
+    "A326199",
+    "A332455",
+    "A332459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

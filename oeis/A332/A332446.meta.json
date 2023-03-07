@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which A087808(sigma(k)) is equal to A087808(2*k).",
+  "id": "A332446",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A087808",
+    "A331751",
+    "A331752",
+    "A332208",
+    "A332445"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

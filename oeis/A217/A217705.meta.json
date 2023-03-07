@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number greater than 1 that is happy under bases 2 through n.",
+  "id": "A217705",
+  "mentions": [
+    "A001273",
+    "A007770",
+    "A055629",
+    "A068571",
+    "A094406",
+    "A161871",
+    "A161872",
+    "A161873"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

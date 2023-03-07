@@ -1,0 +1,18 @@
+{
+  "description": "Largest entry in a 2-composition of n, summed over all 2-compositions of n. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "id": "A181339",
+  "mentions": [
+    "A181338"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

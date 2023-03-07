@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on the sequence n(n+1): a(A002378(k))=a(k); a(A078358(k))=1-a(k), a(1)=0.",
+  "id": "A189163",
+  "mentions": [
+    "A002378",
+    "A078358",
+    "A188967",
+    "A189164",
+    "A189165"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:23",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

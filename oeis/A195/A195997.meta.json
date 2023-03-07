@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers a for which there is a primitive (-2/3)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A195997",
+  "mentions": [
+    "A195770",
+    "A195994",
+    "A195998",
+    "A195999"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

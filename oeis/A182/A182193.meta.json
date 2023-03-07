@@ -1,0 +1,24 @@
+{
+  "description": "Sequence of row differences related to table A182355.",
+  "id": "A182193",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A182188",
+    "A182189",
+    "A182191",
+    "A182355"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

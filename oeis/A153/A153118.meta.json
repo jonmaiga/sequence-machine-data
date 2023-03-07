@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p^2 +- 18 are also primes.",
+  "id": "A153118",
+  "mentions": [
+    "A153116"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

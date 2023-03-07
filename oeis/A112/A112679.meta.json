@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers which form exclusively the shortest side of primitive Pythagorean triangles.",
+  "id": "A112679",
+  "mentions": [
+    "A081925",
+    "A081935"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

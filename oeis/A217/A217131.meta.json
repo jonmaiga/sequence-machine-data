@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 7^n - 8 is prime.",
+  "id": "A217131",
+  "mentions": [
+    "A090669",
+    "A096305",
+    "A152213",
+    "A191469",
+    "A217130",
+    "A217132",
+    "A236371"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

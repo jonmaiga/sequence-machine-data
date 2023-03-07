@@ -1,0 +1,20 @@
+{
+  "description": "The representation of n=1,2,3,... in binary is a divisor of the same representation in another base. The sequence is the first such base.",
+  "id": "A155078",
+  "mentions": [
+    "A062846"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

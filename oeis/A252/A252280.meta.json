@@ -1,0 +1,21 @@
+{
+  "description": "For a prime p, denote by s(p,k) the odd part of the digital sum of p^k. Let k_1 be the smallest k such that s(p,k) is divisible by 7. Sequence lists primes p for which s(p,k_1)=7.",
+  "id": "A252280",
+  "mentions": [
+    "A221858",
+    "A225039",
+    "A225093",
+    "A251964"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

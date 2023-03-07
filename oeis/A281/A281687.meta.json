@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 2*n into the sum of two totient numbers (A002202).",
+  "id": "A281687",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A045917",
+    "A280867"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

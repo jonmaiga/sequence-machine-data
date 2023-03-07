@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that require fewer than k steps to reach 1 under the 3x+1 map.",
+  "id": "A346139",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A082984",
+    "A228014"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

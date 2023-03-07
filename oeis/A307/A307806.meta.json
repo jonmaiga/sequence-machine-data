@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of series-reduced labeled graphs on n nodes with k components.",
+  "id": "A307806",
+  "mentions": [
+    "A003514",
+    "A003515"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

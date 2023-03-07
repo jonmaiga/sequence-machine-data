@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways, up to order, of decomposing (Z/nZ)* as the internal direct product of r cyclic subgroups, where r = rank((Z/nZ)*).",
+  "id": "A327791",
+  "mentions": [
+    "A302257",
+    "A327790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

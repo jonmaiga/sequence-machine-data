@@ -1,0 +1,20 @@
+{
+  "description": "Inverse binomial transform of 1, 2, 2, 4, 10, 20, ... = A100088.",
+  "id": "A137470",
+  "mentions": [
+    "A090132",
+    "A100088"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:30:22",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

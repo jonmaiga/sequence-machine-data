@@ -1,0 +1,24 @@
+{
+  "description": "Number of runs of consecutive Fermi-Dirac factors of n (the runs are separated by gaps between indices of factors): a(n) = A069010(A052331(n)).",
+  "id": "A302790",
+  "mentions": [
+    "A001221",
+    "A050376",
+    "A052331",
+    "A064547",
+    "A069010",
+    "A302024",
+    "A302787"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

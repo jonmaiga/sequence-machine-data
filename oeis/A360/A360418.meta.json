@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that, in a listing of all congruence classes of positive integers, the k-th congruence class contains k. Here the class r mod m (with r in {1,...,m}) precedes the class a' mod b' (with r' in {1,...,m'}) iff m < m' or r > r'.",
+  "id": "A360418",
+  "mentions": [
+    "A002024",
+    "A004736",
+    "A007607",
+    "A080856",
+    "A102083",
+    "A360416",
+    "A360417"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

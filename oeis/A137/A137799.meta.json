@@ -1,0 +1,17 @@
+{
+  "description": "Consider the first run of composites that contains at least two numbers whose largest prime factor is prime(n), n >= 2. a(n) is the first of these numbers.",
+  "id": "A137799",
+  "mentions": [
+    "A137800"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of A154685.",
+  "id": "A151675",
+  "mentions": [
+    "A154685",
+    "A162261"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:27",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of length-n phone numbers that can be dialed by a chess knight on a 0-9 keypad that starts on any number and takes n-1 steps.",
+  "id": "A327692",
+  "mentions": [
+    "A169696",
+    "A280594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

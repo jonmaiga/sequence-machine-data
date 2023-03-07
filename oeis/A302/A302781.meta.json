@@ -1,0 +1,37 @@
+{
+  "description": "Divisor-or-multiple permutation of natural numbers constructed from two-dimensional Hilbert curve (A163357) and Fermi-Dirac primes (A050376).",
+  "id": "A302781",
+  "mentions": [
+    "A000695",
+    "A003188",
+    "A050376",
+    "A052330",
+    "A057300",
+    "A059252",
+    "A059253",
+    "A064706",
+    "A064736",
+    "A163356",
+    "A163357",
+    "A207901",
+    "A298480",
+    "A300012",
+    "A302350",
+    "A302782",
+    "A302783",
+    "A302844",
+    "A302846",
+    "A303771"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Values of z in positive solutions to the Diophantine equation 43x+7y+17z=400.",
+  "id": "A135638",
+  "mentions": [
+    "A135636",
+    "A135637"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

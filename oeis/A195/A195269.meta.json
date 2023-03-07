@@ -1,0 +1,27 @@
+{
+  "description": "Smallest n such that 3^n contains n consecutive 0's in its decimal representation.",
+  "id": "A195269",
+  "mentions": [
+    "A131544",
+    "A131545",
+    "A131546",
+    "A131547",
+    "A131548",
+    "A131549",
+    "A131550",
+    "A131551",
+    "A131552"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

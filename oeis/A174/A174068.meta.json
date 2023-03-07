@@ -1,0 +1,21 @@
+{
+  "description": "Convolved with its aerated variant of two zeros between terms = A000041.",
+  "id": "A174068",
+  "mentions": [
+    "A000041",
+    "A174065",
+    "A174066",
+    "A174067"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

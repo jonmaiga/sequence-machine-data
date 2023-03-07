@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers n such that, if k appears in n's prime signature, k-1 appears at least as often as k (for any integer k > 1).",
+  "id": "A179983",
+  "mentions": [
+    "A005117",
+    "A025487",
+    "A054753",
+    "A085987",
+    "A163569",
+    "A181819",
+    "A182862",
+    "A182863"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

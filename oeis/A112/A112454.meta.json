@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically maximal solution of any 9 X 9 sudoku, read by rows.",
+  "id": "A112454",
+  "mentions": [
+    "A107739",
+    "A109741",
+    "A114288"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

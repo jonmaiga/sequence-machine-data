@@ -1,0 +1,17 @@
+{
+  "description": "Number of strings of numbers x(i=1..n) in 0..n with sum i*x(i)^4 equal to n^5",
+  "id": "A184840",
+  "mentions": [
+    "A184848"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:11",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

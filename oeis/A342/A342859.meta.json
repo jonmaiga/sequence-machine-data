@@ -1,0 +1,18 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = max(n,k) if n < 2 or k < 2; T(n,k) = T(n-1,k-1) + T(n-1,k-2) + T(n-2,k-1) otherwise.",
+  "id": "A342859",
+  "mentions": [
+    "A342600"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that c*(c^2-1) divides k!, where c is the n-th perfect power.",
+  "id": "A217678",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

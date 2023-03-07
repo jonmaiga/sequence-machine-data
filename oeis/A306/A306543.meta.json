@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that |p(j)-j| >= k (for all j in [n]); triangle T(n,k), n >= 0, 0 <= k <= floor(n/2), read by rows.",
+  "id": "A306543",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000142",
+    "A000166",
+    "A001883",
+    "A075851",
+    "A075852",
+    "A183242",
+    "A183243",
+    "A183244",
+    "A183245",
+    "A183246",
+    "A183247",
+    "A299789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

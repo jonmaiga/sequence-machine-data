@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1+147*x+1230*x^2+1915*x^3+744*x^4+66*x^5+x^6)/(1-x)^7.",
+  "id": "A160841",
+  "mentions": [
+    "A160747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

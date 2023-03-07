@@ -1,0 +1,23 @@
+{
+  "description": "Numbers x such that x^y + y^x is prime, for some y>1, y",
+  "id": "A162488",
+  "mentions": [
+    "A094133",
+    "A160044",
+    "A162486",
+    "A162487",
+    "A162489",
+    "A162490"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

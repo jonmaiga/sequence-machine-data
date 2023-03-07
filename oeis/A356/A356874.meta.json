@@ -1,0 +1,24 @@
+{
+  "description": "Write n as Sum_{i in S} 2^(i-1), where S is a set of positive integers, then a(n) = Sum_{i in S} F_i, where F_i is the i-th Fibonacci number, A000045(i).",
+  "id": "A356874",
+  "mentions": [
+    "A000045",
+    "A000121",
+    "A000201",
+    "A022290",
+    "A022342",
+    "A287870"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

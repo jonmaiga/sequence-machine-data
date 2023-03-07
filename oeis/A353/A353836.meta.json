@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with k distinct run-sums.",
+  "id": "A353836",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A047966",
+    "A071625",
+    "A116608",
+    "A165413",
+    "A175413",
+    "A275870",
+    "A300273",
+    "A304442",
+    "A325280",
+    "A333755",
+    "A351014",
+    "A353832",
+    "A353833",
+    "A353834",
+    "A353835",
+    "A353837",
+    "A353838",
+    "A353840",
+    "A353846",
+    "A353849",
+    "A353861",
+    "A353864",
+    "A353865",
+    "A353866",
+    "A353867"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "p-INVERT of the central binomial coefficients (A000984), where p(S) = 1 - S - S^2.",
+  "id": "A289800",
+  "mentions": [
+    "A000984",
+    "A033453",
+    "A289780"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

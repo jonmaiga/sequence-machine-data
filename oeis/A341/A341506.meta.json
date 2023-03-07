@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: Product_{i>=1, j>=1} (1 + x^(i*j) / (i*j)!).",
+  "id": "A341506",
+  "mentions": [
+    "A000005",
+    "A007837",
+    "A032315",
+    "A107742",
+    "A318694",
+    "A340903",
+    "A341505",
+    "A341876"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

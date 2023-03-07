@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=4*(a(n-1)a(n-3)-a(n-2)^2)/a(n-4), a(1)=a(2)=a(3)=1, a(4)=-4.",
+  "id": "A160567",
+  "mentions": [
+    "A050512",
+    "A160565"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

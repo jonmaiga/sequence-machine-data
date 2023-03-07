@@ -1,0 +1,21 @@
+{
+  "description": "Number of centered square numbers dividing n.",
+  "id": "A300410",
+  "mentions": [
+    "A001844",
+    "A046951",
+    "A279496",
+    "A300409"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonnegative integer matrices with sum of entries equal to n, no zero rows or columns, and distinct rows (or distinct columns).",
+  "id": "A321586",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A101370",
+    "A120733",
+    "A283877",
+    "A316980",
+    "A321446",
+    "A321587",
+    "A327245"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (-1728)^n.",
+  "id": "A350384",
+  "mentions": [
+    "A000244",
+    "A000578",
+    "A001021",
+    "A008585",
+    "A008588",
+    "A262710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squares that are the hypotenuse of a primitive Pythagorean triangle.",
+  "id": "A360280",
+  "mentions": [
+    "A000290",
+    "A008846",
+    "A020882",
+    "A198436"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

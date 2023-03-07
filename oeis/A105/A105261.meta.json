@@ -1,0 +1,20 @@
+{
+  "description": "Values of n such that phi(n)=c(n)^2, where phi is the Euler totient function and c(n) is the product of the distinct prime factors of n (c(1)=1).",
+  "id": "A105261",
+  "mentions": [
+    "A000010",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

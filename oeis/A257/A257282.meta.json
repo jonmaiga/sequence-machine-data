@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose square is not the sum of two consecutive nonsquares.",
+  "id": "A257282",
+  "mentions": [
+    "A001333",
+    "A256944"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (4/45)*Pi^3.",
+  "id": "A248223",
+  "mentions": [
+    "A236258",
+    "A248224"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

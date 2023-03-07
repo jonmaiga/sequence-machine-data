@@ -1,0 +1,24 @@
+{
+  "description": "Larger prime factor of the smallest semiprime of the form k^prime(n)+1, or 0 if no such semiprime exists.",
+  "id": "A237116",
+  "mentions": [
+    "A001358",
+    "A103795",
+    "A123627",
+    "A123628",
+    "A237040",
+    "A237114",
+    "A237115"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

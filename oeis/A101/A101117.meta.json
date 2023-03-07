@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = the first prime yielding the record value A101116(n).",
+  "id": "A101117",
+  "mentions": [
+    "A000040",
+    "A024785",
+    "A053583",
+    "A101115",
+    "A101116",
+    "A101118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

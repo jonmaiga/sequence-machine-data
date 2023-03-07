@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=0; for n>1, a(n+1)= a(n)- A004648(n) if a(n)>= A004648(n) else a(n) + A004648(n).",
+  "id": "A247254",
+  "mentions": [
+    "A004648"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

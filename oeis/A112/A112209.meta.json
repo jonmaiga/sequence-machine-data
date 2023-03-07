@@ -1,0 +1,18 @@
+{
+  "description": "McKay-Thompson series of class 80a for the Monster group.",
+  "id": "A112209",
+  "mentions": [
+    "A112182"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:36:11",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

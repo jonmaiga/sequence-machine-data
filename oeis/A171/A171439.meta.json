@@ -1,0 +1,19 @@
+{
+  "description": "Doubly Orderly Numbers: composite numbers that are orderly for two values of k.",
+  "id": "A171439",
+  "mentions": [
+    "A167408",
+    "A167409",
+    "A168003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

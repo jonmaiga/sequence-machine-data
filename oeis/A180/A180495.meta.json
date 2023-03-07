@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient a(n) of three-term recurrence relation for solutions of the equation in integers x^2-n*floor(x/sqrt(n))^2=1 such that x(i+2)=a(n)*x(i+1)-x(i). n is a nonsquare number.",
+  "id": "A180495",
+  "mentions": [
+    "A000037",
+    "A033313"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Under Hypothesis(H) (a version of the Generalized Riemann Hypothesis) the only principal real quadratic fields with discriminant d = r^2 + 1 == 1 (mod 4) are the fields Q(sqrt(t)) where t is one of the six numbers listed here.",
+  "id": "A347300",
+  "mentions": [
+    "A003173",
+    "A003174",
+    "A014602",
+    "A050950"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

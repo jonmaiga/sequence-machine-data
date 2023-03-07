@@ -1,0 +1,22 @@
+{
+  "description": "Lengths of runs of identical terms in A251416.",
+  "id": "A251417",
+  "mentions": [
+    "A098550",
+    "A098551",
+    "A247253",
+    "A251416",
+    "A251595"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

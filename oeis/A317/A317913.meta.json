@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=2} (1 + k*x^k).",
+  "id": "A317913",
+  "mentions": [
+    "A022629",
+    "A025147",
+    "A298598",
+    "A317912"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

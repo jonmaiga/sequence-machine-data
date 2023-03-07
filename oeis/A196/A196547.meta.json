@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime numbers m such that the sum of the distinct residues of x^m (mod m) is divisible by m, x=0..m-1.",
+  "id": "A196547",
+  "mentions": [
+    "A195637",
+    "A196546"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

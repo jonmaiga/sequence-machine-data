@@ -1,0 +1,21 @@
+{
+  "description": "The (1,1)-entry in the matrix M^n, where M is the 7 X 7 Cartan matrix [2,-1,0,0,0,0,0; -1,2,-1,0,0,0,0; 0,-1,2,-1,0,0,-1; 0,0,-1,2,-1,0,0; 0,0,0,-1,2,-1,0; 0,0,0,0,-1,2,0; 0,0,-1,0,0,0,2].",
+  "id": "A125501",
+  "mentions": [
+    "A126566",
+    "A126567",
+    "A126569"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:45:25",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Sum of coefficients > 1 in the Stern polynomial B(n,x): a(n) = A275812(A260443(n)).",
+  "id": "A284272",
+  "mentions": [
+    "A002487",
+    "A003961",
+    "A056169",
+    "A125184",
+    "A186891",
+    "A260443",
+    "A275812",
+    "A277013",
+    "A284264",
+    "A284268",
+    "A284271"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

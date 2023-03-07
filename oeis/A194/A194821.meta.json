@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1+floor(sum{<((-1)^k)*k*sqrt(2)> : 1<=k<=n}), where < > = fractional part.",
+  "id": "A194821",
+  "mentions": [
+    "A194822",
+    "A194823",
+    "A194824"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

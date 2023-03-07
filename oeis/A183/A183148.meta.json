@@ -1,0 +1,26 @@
+{
+  "description": "Toothpick sequence on the semi-infinite square grid with toothpicks connected by their endpoints.",
+  "id": "A183148",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A147562",
+    "A151920",
+    "A160172",
+    "A183004",
+    "A183060",
+    "A183126",
+    "A183149"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

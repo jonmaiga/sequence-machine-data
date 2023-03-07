@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k double descents and initial descents (n>=0; 0<=k<=max(0,n-1)) [we say that i is a doubledescent of a permutation p if p(i) > p(i+1) > p(i+2); we say that a permutation p has an initial descent if p(1) > p(2)].",
+  "id": "A162976",
+  "mentions": [
+    "A000142",
+    "A080635",
+    "A162975"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

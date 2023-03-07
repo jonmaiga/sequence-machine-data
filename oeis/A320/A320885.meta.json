@@ -1,0 +1,22 @@
+{
+  "description": "7-smooth but not 5-smooth numbers of the form (ab+1)(ac+1), a > b > c > 0.",
+  "id": "A320885",
+  "mentions": [
+    "A080194",
+    "A180045",
+    "A320883",
+    "A320884"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

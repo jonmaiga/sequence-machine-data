@@ -1,0 +1,18 @@
+{
+  "description": "Solution to stepping stone puzzle if we start with one 1 and n 2's for consecutive primes.",
+  "id": "A351686",
+  "mentions": [
+    "A337663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

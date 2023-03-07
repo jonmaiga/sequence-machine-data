@@ -1,0 +1,22 @@
+{
+  "description": "Sum of Jordan function J_2(n), A007434 and its Dirichlet inverse, A046970.",
+  "id": "A323399",
+  "mentions": [
+    "A007434",
+    "A046970",
+    "A319340",
+    "A322581",
+    "A323364"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

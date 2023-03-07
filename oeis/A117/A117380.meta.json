@@ -1,0 +1,24 @@
+{
+  "description": "Riordan array (1/(1-4*x*c(x)),xc(x)), c(x) the g.f. of A000108.",
+  "id": "A117380",
+  "mentions": [
+    "A000108",
+    "A076025",
+    "A076035",
+    "A117377",
+    "A117381"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

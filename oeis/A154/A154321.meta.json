@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p, p^2 + 2p - 4 and p^2 + 8p - 4 are prime.",
+  "id": "A154321",
+  "mentions": [
+    "A154319",
+    "A154320"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

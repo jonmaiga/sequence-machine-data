@@ -1,0 +1,31 @@
+{
+  "description": "Number of n-vertex, 2-edge multigraphs that are not nesting. Number of n-vertex, 2-edge multigraphs that are not crossing.",
+  "id": "A326278",
+  "mentions": [
+    "A000108",
+    "A000537",
+    "A001519",
+    "A006125",
+    "A016098",
+    "A054726",
+    "A095661",
+    "A117662",
+    "A326210",
+    "A326243",
+    "A326244",
+    "A326247",
+    "A326248",
+    "A326250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:47",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

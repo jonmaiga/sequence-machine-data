@@ -1,0 +1,25 @@
+{
+  "description": "Binary encoding of 0-digits in ternary representation of A254103(n).",
+  "id": "A292240",
+  "mentions": [
+    "A254103",
+    "A291760",
+    "A291770",
+    "A292241",
+    "A292242",
+    "A292250",
+    "A292260"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

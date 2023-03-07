@@ -1,0 +1,19 @@
+{
+  "description": "Devil's Farey: coefficient expansion of a quadratic over quadratic that has 123 roots and a Farey p[1/2]=1 ( correction).",
+  "id": "A113975",
+  "mentions": [
+    "A113923"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

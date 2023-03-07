@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array of coefficients of polynomials p(n,x) = (x + 2)*p(n-1,x) + x, p(0,x) = 1.",
+  "id": "A249758",
+  "mentions": [
+    "A249755",
+    "A249756"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

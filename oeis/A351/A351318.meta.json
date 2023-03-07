@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime prime(k), k > n, such that A036689(k) or A036690(k) is s(n) + s(n+1) + ... + s(j), j < k, where each s(i) is either A036689(i) or A036690(i)",
+  "id": "A351318",
+  "mentions": [
+    "A036689",
+    "A036690",
+    "A036889",
+    "A036890"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

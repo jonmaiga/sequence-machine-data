@@ -1,0 +1,22 @@
+{
+  "description": "The work performed by a function f:{1,...,n} -> {1,...,n} is defined to be work(f) = Sum_{i=1..n} |i - f(i)|; a(n) is equal to sum(work(f)) where the sum is over all functions f:{1,...,n}->{1,...,n}.",
+  "id": "A111868",
+  "mentions": [
+    "A111873",
+    "A111874",
+    "A111903"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

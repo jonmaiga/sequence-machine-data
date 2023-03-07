@@ -1,0 +1,20 @@
+{
+  "description": "Number of admissible graphs of order n.",
+  "id": "A174881",
+  "mentions": [
+    "A000169",
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

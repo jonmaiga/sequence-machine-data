@@ -1,0 +1,39 @@
+{
+  "description": "Number of unimodal negated permutations of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A332741",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A056239",
+    "A112798",
+    "A115981",
+    "A124010",
+    "A181819",
+    "A181821",
+    "A304660",
+    "A318762",
+    "A332280",
+    "A332283",
+    "A332288",
+    "A332294",
+    "A332578",
+    "A332638",
+    "A332639",
+    "A332642",
+    "A332669",
+    "A332672",
+    "A332742",
+    "A333145"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider an empty square array visited by antidiagonals downwards; when the current square is empty, place a 1 X 1 tile or a 1 X 2 tile on it (without overlapping any prior tile) such that the RUNS transform of the sequence of tile widths as they are placed on the grid equals the sequence of tile widths as they are visited; first place a 1 X 1 tile. This sequence corresponds to the tile widths as they are visited.",
+  "id": "A331034",
+  "mentions": [
+    "A000002",
+    "A331104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

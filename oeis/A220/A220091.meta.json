@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n=p+q+(n mod 2)q with p>q and p, q, 6q-1, 6q+1 all prime",
+  "id": "A220091",
+  "mentions": [
+    "A001359",
+    "A002375",
+    "A006512",
+    "A046927",
+    "A218867",
+    "A219055",
+    "A219157",
+    "A219185",
+    "A219966"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

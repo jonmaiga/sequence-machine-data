@@ -1,0 +1,21 @@
+{
+  "description": "Riordan array (f(x), x*g(x)) where f(x) is the g.f. of A157004 and g(x) is the g.f. of A157003.",
+  "id": "A213221",
+  "mentions": [
+    "A157003",
+    "A157004",
+    "A261058"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

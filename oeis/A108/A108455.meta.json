@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = number of factorizations of (n,k) into any number of pairs (i,j) with i > 0, j > 0 (and if i=1 then j=1).",
+  "id": "A108455",
+  "mentions": [
+    "A001055",
+    "A051707",
+    "A108461",
+    "A348157"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:28:17",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

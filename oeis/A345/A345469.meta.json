@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A345468(k) = 2*n-1.",
+  "id": "A345469",
+  "mentions": [
+    "A345468"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

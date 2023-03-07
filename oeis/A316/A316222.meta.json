@@ -1,0 +1,26 @@
+{
+  "description": "Number of positive subset-sum triangles whose composite is a positive subset-sum of an integer partition of n.",
+  "id": "A316222",
+  "mentions": [
+    "A063834",
+    "A262671",
+    "A269134",
+    "A276024",
+    "A281113",
+    "A301934",
+    "A301935",
+    "A316219",
+    "A316220"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

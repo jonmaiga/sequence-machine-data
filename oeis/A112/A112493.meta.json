@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows, T(n, k) = Sum_{j=0..n} C(n-j, n-k)*E2(n, j), where E2 are the second-order Eulerian numbers A201637, for n >= 0 and 0 <= k <= n.",
+  "id": "A112493",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000295",
+    "A006351",
+    "A008278",
+    "A008517",
+    "A048993",
+    "A054589",
+    "A075856",
+    "A112495",
+    "A112496",
+    "A112497",
+    "A124324",
+    "A134991",
+    "A201637",
+    "A356145"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

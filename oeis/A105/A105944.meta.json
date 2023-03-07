@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = C(n+8,n)*C(n+11,8).",
+  "id": "A105944",
+  "mentions": [
+    "A062145"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:47",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

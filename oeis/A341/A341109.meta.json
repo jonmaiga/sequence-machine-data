@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = denominator(p(n, x)) / (n!*denominator(bernoulli(n, x))), where p(n, x) = Sum_{k=0..n} E2(n, k)*binomial(x + k, 2*n), k = 0..n) / Product_{j=1..n} (j - x) and E2(n, k) are the second-order Eulerian numbers A201637.",
+  "id": "A341109",
+  "mentions": [
+    "A007947",
+    "A036689",
+    "A053657",
+    "A100655",
+    "A144845",
+    "A163176",
+    "A195441",
+    "A201637",
+    "A318256",
+    "A324369",
+    "A324370",
+    "A341107",
+    "A341108"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

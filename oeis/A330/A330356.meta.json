@@ -1,0 +1,23 @@
+{
+  "description": "Starting from n: as long as the decimal representation contains a prime number, replace the largest and leftmost such substring with the index of the corresponding prime number; a(n) corresponds to the final value.",
+  "id": "A330356",
+  "mentions": [
+    "A000720",
+    "A007097",
+    "A062115",
+    "A327539",
+    "A329428"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

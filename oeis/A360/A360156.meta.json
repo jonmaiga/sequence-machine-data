@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the sum of the even unitary divisors of 2*n.",
+  "id": "A360156",
+  "mentions": [
+    "A002117",
+    "A034448",
+    "A100008",
+    "A146076",
+    "A171977",
+    "A192066",
+    "A328258"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Sum_{k=1..n} {number of partitions of n into powers k^m where 0<=m",
+  "id": "A102434",
+  "mentions": [
+    "A001700",
+    "A018819",
+    "A062051",
+    "A102430",
+    "A102431",
+    "A102432",
+    "A102433"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

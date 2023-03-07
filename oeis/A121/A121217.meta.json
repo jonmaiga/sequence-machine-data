@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1, a(2)=2, a(3)=3; for n > 3, a(n) is the smallest positive integer which does not occur earlier in the sequence and which is not coprime to a(n-2).",
+  "id": "A121217",
+  "mentions": [
+    "A064413",
+    "A121216",
+    "A251622",
+    "A256414",
+    "A256419",
+    "A256618"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

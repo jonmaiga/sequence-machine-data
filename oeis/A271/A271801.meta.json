@@ -1,0 +1,17 @@
+{
+  "description": "Smallest composite k such that k divides (n^(k-1)-1)/(n-1), n > 1.",
+  "id": "A271801",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

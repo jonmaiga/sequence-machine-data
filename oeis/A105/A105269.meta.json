@@ -1,0 +1,24 @@
+{
+  "description": "\"Long\" prime Roman numerals. Smallest prime whose Roman numeral representation has n characters.",
+  "id": "A105269",
+  "mentions": [
+    "A000040",
+    "A006968",
+    "A007968",
+    "A036746"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

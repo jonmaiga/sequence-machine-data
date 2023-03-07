@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the concatenation of the length of each run of digits in the decimal representation of n.",
+  "id": "A351653",
+  "mentions": [
+    "A001462",
+    "A318921",
+    "A318927"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

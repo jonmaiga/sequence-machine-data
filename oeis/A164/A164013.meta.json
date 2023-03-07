@@ -1,0 +1,23 @@
+{
+  "description": "3 times centered triangular numbers: 9*n*(n+1)/2 + 3.",
+  "id": "A164013",
+  "mentions": [
+    "A005448",
+    "A045943",
+    "A108099",
+    "A164015",
+    "A164016"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:11",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Moebius function of interprimes (A024675).",
+  "id": "A168393",
+  "mentions": [
+    "A008683",
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

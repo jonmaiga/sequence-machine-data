@@ -1,0 +1,27 @@
+{
+  "description": "Positions of nonzero terms in A114592, the list of coefficients in the expansion of Product_{n > 1} (1 - 1/n^s).",
+  "id": "A319237",
+  "mentions": [
+    "A001055",
+    "A045778",
+    "A114592",
+    "A162247",
+    "A190938",
+    "A281116",
+    "A281118",
+    "A303386",
+    "A316441",
+    "A319238",
+    "A319239"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

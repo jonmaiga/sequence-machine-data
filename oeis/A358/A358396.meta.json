@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers k such that sigma(k) + sigma(k+2) < 2*sigma(k+1); even terms in A053229.",
+  "id": "A358396",
+  "mentions": [
+    "A000203",
+    "A053223",
+    "A053229",
+    "A358395"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

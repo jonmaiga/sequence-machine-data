@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive integer that can be represented as the sum of n of its (possibly equal) divisors in the maximum number of ways (=A002966(n)).",
+  "id": "A357765",
+  "mentions": [
+    "A002966",
+    "A006585",
+    "A181700"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

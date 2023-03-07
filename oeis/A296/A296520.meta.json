@@ -1,0 +1,22 @@
+{
+  "description": "Multidigit primes in which the largest digit appears only once.",
+  "id": "A296520",
+  "mentions": [
+    "A028864",
+    "A052015",
+    "A106118",
+    "A106119",
+    "A156666"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

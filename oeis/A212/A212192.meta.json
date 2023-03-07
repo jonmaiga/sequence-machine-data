@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers that are the sum of exactly three distinct powers of 2.",
+  "id": "A212192",
+  "mentions": [
+    "A000120",
+    "A010054",
+    "A014311",
+    "A212190"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

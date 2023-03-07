@@ -1,0 +1,30 @@
+{
+  "description": "Value on the axis \"x\" of the endpoint of the structure of A211000 at n-th stage.",
+  "id": "A211010",
+  "mentions": [
+    "A131731",
+    "A164358",
+    "A210838",
+    "A210841",
+    "A211000",
+    "A211001",
+    "A211002",
+    "A211003",
+    "A211011",
+    "A211020",
+    "A211021",
+    "A211022"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

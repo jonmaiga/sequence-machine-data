@@ -1,0 +1,21 @@
+{
+  "description": "Possible bases for Pepin's primality test for Fermat numbers.",
+  "id": "A129802",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A060377",
+    "A102742"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

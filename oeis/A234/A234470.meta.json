@@ -1,0 +1,34 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 2 such that p(k + phi(m)/2) is prime, where p(.) is the partition function (A000041) and phi(.) is Euler's totient function.",
+  "id": "A234470",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000041",
+    "A049575",
+    "A232504",
+    "A233307",
+    "A233346",
+    "A233918",
+    "A234200",
+    "A234246",
+    "A234309",
+    "A234337",
+    "A234344",
+    "A234347",
+    "A234359",
+    "A234360",
+    "A234451",
+    "A234475"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

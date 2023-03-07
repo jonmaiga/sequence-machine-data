@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = gcd(A003959(n), A034448(n)), where A003959 is multiplicative with a(p^e) = (p+1)^e and A034448 (usigma) is multiplicative with a(p^e) = (p^e)+1.",
+  "id": "A348733",
+  "mentions": [
+    "A003959",
+    "A034448",
+    "A344695",
+    "A348047",
+    "A348503",
+    "A348732",
+    "A348734",
+    "A348735",
+    "A348740",
+    "A348946"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

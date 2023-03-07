@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes with consecutive digits that differ exactly by 1.",
+  "id": "A207954",
+  "mentions": [
+    "A002113",
+    "A033075",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

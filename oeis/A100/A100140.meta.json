@@ -1,0 +1,19 @@
+{
+  "description": "Largest denominator of greedy Egyptian fraction sum for M/N.",
+  "id": "A100140",
+  "mentions": [
+    "A050210",
+    "A098853",
+    "A260618"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

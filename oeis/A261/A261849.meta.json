@@ -1,0 +1,19 @@
+{
+  "description": "Number of squares in an n X n grid that are enclosed in a circle of diameter n (having the same center as the grid).",
+  "id": "A261849",
+  "mentions": [
+    "A085690",
+    "A242118"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

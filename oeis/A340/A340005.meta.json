@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding paths along the edges of a grid with n X n square cells, which do not pass above the diagonal. The paths start at the lower left corner and finish at the upper right corner.",
+  "id": "A340005",
+  "mentions": [
+    "A000108",
+    "A007764",
+    "A340043"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of reduced words of length n in the Weyl group B_15.",
+  "id": "A161875",
+  "mentions": [
+    "A128084",
+    "A161409"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:57",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

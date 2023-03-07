@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(n) shares no digit with a(a(n)) for all n.",
+  "id": "A163501",
+  "mentions": [
+    "A152200",
+    "A152208",
+    "A152209"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

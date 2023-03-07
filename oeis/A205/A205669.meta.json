@@ -1,0 +1,17 @@
+{
+  "description": "\"Fairly optimal\" shellsort sequence for reverse-sorting an ascending sequence of size N=64.",
+  "id": "A205669",
+  "mentions": [
+    "A204772"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

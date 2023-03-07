@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n-1 for n <= 4, otherwise if n is even then a(n) = a(n-5)+2^(n/2), and if n is odd then a(n) = a(n-1)+2^((n-3)/2).",
+  "id": "A200310",
+  "mentions": [
+    "A200311",
+    "A239100",
+    "A260794",
+    "A260795"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:11:55",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

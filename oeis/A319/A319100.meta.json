@@ -1,0 +1,31 @@
+{
+  "description": "Number of solutions to x^6 == 1 (mod n).",
+  "id": "A319100",
+  "mentions": [
+    "A000010",
+    "A046072",
+    "A060594",
+    "A060839",
+    "A066501",
+    "A073103",
+    "A088232",
+    "A247257",
+    "A293483",
+    "A307381",
+    "A319099",
+    "A319101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

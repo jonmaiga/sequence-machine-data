@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 2, k >= 1) is the number of non-crossing connected graphs on n nodes on a circle such that the distance from a fixed node (root) to the next node is k. Rows are indexed 2,3,4,...; columns are indexed 1,2,3, ... .",
+  "id": "A143018",
+  "mentions": [
+    "A007297",
+    "A085614",
+    "A143020"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 2,
+    "size": 45,
+    "source": "joeis"
+  }
+}

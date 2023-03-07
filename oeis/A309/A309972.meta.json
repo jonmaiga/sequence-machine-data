@@ -1,0 +1,23 @@
+{
+  "description": "Product of multinomial coefficients M(n;lambda), where lambda ranges over all partitions of n.",
+  "id": "A309972",
+  "mentions": [
+    "A000041",
+    "A005651",
+    "A036038",
+    "A078760",
+    "A210237",
+    "A309951"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

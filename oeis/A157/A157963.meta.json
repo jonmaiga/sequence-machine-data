@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, read by rows given by [1,q-1,q^2,q^3-q,q^4,q^5-q^2,q^6,q^7-q^3,q^8,...] DELTA [ -1,0,-q,0,-q^2,0,-q^3,0,-q^4,0,-q^5,0,...] (for q=2) = [1,1,4,6,16,28,64,...] DELTA [ -1,0,-2,0,-4,0,-8,0,-16,0,...] where DELTA is the operator defined in A084938.",
+  "id": "A157963",
+  "mentions": [
+    "A006125",
+    "A007179",
+    "A022166",
+    "A084938",
+    "A130595",
+    "A135950",
+    "A157783",
+    "A157784",
+    "A157785",
+    "A157832",
+    "A158474"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

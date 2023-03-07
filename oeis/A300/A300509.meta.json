@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of numbers in the interval [2^(n-1), 2^n-1] that have exactly n divisors.",
+  "id": "A300509",
+  "mentions": [
+    "A000005",
+    "A284398",
+    "A346730"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

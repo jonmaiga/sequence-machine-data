@@ -1,0 +1,23 @@
+{
+  "description": "Number of (w,x,y,z) with all terms in {0,...,n}, w even, and x = y + z.",
+  "id": "A212760",
+  "mentions": [
+    "A001318",
+    "A122576",
+    "A129194",
+    "A211795",
+    "A260706"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:17",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

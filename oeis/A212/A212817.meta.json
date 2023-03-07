@@ -1,0 +1,20 @@
+{
+  "description": "Theta series of direct sum of 2 copies of 4-dimensional lattice QQF.4.i.",
+  "id": "A212817",
+  "mentions": [
+    "A028977",
+    "A030209",
+    "A125514"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

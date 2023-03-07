@@ -1,0 +1,21 @@
+{
+  "description": "Squares that remain squares when the repunit with the same number of digits is added.",
+  "id": "A335598",
+  "mentions": [
+    "A002275",
+    "A048612",
+    "A273229"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

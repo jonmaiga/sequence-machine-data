@@ -1,0 +1,21 @@
+{
+  "description": "Determinant of the inverse of the matrix A_n, where A_n is the n X n matrix defined by A_n[i,j] = 1/C(i+j-2) for 1 <= i,j <= n, and C(k) is the k-th Catalan number (A000108).",
+  "id": "A296056",
+  "mentions": [
+    "A000108",
+    "A005249",
+    "A062381",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

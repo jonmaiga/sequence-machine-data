@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^10+10 is prime.",
+  "id": "A239347",
+  "mentions": [
+    "A049441",
+    "A067201"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

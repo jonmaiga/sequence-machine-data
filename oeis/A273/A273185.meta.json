@@ -1,0 +1,18 @@
+{
+  "description": "Start with a(0) = 0. Thereafter a(n) is the number of m < n with the property that a(m) + n is a perfect square.",
+  "id": "A273185",
+  "mentions": [
+    "A273190"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

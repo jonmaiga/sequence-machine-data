@@ -1,0 +1,20 @@
+{
+  "description": "Take the primes raised to prime exponents, arranged in numerical order (A053810). If A053810(n) = r(n)^q(n), where r(n) and q(n) are primes, then a(n) = q(n)^r(n).",
+  "id": "A145521",
+  "mentions": [
+    "A053810",
+    "A053811",
+    "A053812",
+    "A145522"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

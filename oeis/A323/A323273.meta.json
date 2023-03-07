@@ -1,0 +1,18 @@
+{
+  "description": "Number of orbits of the Conway group Co_0 acting on vectors of norm 2n in the Leech lattice.",
+  "id": "A323273",
+  "mentions": [
+    "A008408"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

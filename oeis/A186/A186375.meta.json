@@ -1,0 +1,23 @@
+{
+  "description": "a(n) equals the sum of the squares of the expansion coefficients for (x + y + 2*z)^n.",
+  "id": "A186375",
+  "mentions": [
+    "A046816",
+    "A186376",
+    "A186377",
+    "A186378",
+    "A318245",
+    "A318417"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

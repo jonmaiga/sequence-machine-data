@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of minimum total dominating sets in the grid graph P_m X P_n.",
+  "id": "A303293",
+  "mentions": [
+    "A300358",
+    "A302654",
+    "A303054",
+    "A303111",
+    "A303118",
+    "A303142"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

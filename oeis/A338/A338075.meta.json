@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal terms in the expansion of (1+x*y*z)/(1-x-y-z).",
+  "id": "A338075",
+  "mentions": [
+    "A000172",
+    "A006480",
+    "A338076"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into tetranacci numbers 1,2,4,8,15,29, ... (A000078).",
+  "id": "A357452",
+  "mentions": [
+    "A000078",
+    "A003107",
+    "A240844",
+    "A287656",
+    "A357453",
+    "A357454"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

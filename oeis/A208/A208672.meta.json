@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor[1/(1-f(n))], where f(n) is the least nonnegative number such that f(n)^n = cos(f(n)).",
+  "id": "A208672",
+  "mentions": [
+    "A003957",
+    "A125578",
+    "A125579",
+    "A177413"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

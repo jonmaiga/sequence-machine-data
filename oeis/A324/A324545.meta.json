@@ -1,0 +1,36 @@
+{
+  "description": "An analog of sigma (A000203) for nonstandard factorization based on the sieve of Eratosthenes (A083221).",
+  "id": "A324545",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A001511",
+    "A003961",
+    "A020639",
+    "A055396",
+    "A078898",
+    "A083221",
+    "A250246",
+    "A252754",
+    "A302044",
+    "A302045",
+    "A302051",
+    "A302055",
+    "A323243",
+    "A324054",
+    "A324535",
+    "A324544",
+    "A324546"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

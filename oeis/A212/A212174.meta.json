@@ -1,0 +1,24 @@
+{
+  "description": "Row n of table represents second signature of A013929(n): list of exponents >= 2 in canonical prime factorization of A013929(n), in nonincreasing order.",
+  "id": "A212174",
+  "mentions": [
+    "A013929",
+    "A212171",
+    "A212172",
+    "A212175",
+    "A212176",
+    "A212177"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

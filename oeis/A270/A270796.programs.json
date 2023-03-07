@@ -1,0 +1,150 @@
+{
+  "oi": 270796,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(nonprime(p(n+1)))",
+      "mt": 67,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "p",
+        "nonprime",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(nonprime(p?[comp[n²]]))",
+      "mt": 67,
+      "px": [
+        "n",
+        "²",
+        "comp",
+        "p?",
+        "nonprime",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "record[nonprime(nonprime(gpf(n+2)))]",
+      "mt": 67,
+      "px": [
+        "n",
+        "2",
+        "+",
+        "gpf",
+        "nonprime",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "record[nonprime(nonprime(lpf(n+2)))]",
+      "mt": 67,
+      "px": [
+        "n",
+        "2",
+        "+",
+        "lpf",
+        "nonprime",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "record[nonprime(nonprime(∑{p}[n+2, #]))]",
+      "mt": 67,
+      "px": [
+        "n",
+        "2",
+        "+",
+        "#",
+        "∑{p}",
+        "nonprime",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2022-06-24",
+      "ix": "nonprime(nonprime(record[∑{p}[n-2, #]]))",
+      "mt": 67,
+      "px": [
+        "n",
+        "2",
+        "sub",
+        "#",
+        "∑{p}",
+        "record",
+        "nonprime",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "record[nonprime(nonprime(p?[rad(n+1)]))]",
+      "mt": 67,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "rad",
+        "p?",
+        "nonprime",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2021-12-06",
+      "ix": "record[nonprime(nonprime(φ(n+1)+1))]",
+      "mt": 67,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "φ",
+        "1",
+        "+",
+        "nonprime",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2021-12-06",
+      "ix": "nonprime(record[nonprime(n+2)/Ω(n+2)])",
+      "mt": 67,
+      "px": [
+        "n",
+        "2",
+        "+",
+        "nonprime",
+        "n",
+        "2",
+        "+",
+        "Ω",
+        "/",
+        "record",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-24",
+      "ix": "nonprime(A078782(n+1))",
+      "mt": 67,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "A078782",
+        "nonprime"
+      ]
+    }
+  ]
+}

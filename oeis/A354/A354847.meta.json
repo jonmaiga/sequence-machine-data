@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary relations on [n] that are idempotent and reduced.",
+  "id": "A354847",
+  "mentions": [
+    "A001035",
+    "A121337"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

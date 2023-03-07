@@ -1,0 +1,20 @@
+{
+  "description": "Number of reduced words of length n in the infinite affine Weyl group (E_6)^{~} on 7 generators.",
+  "id": "A161410",
+  "mentions": [
+    "A154638",
+    "A161409"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:25",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

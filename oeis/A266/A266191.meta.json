@@ -1,0 +1,23 @@
+{
+  "description": "Sequence beginning with a(1)=1, a(2)=2, a(3)=3 and then after each new term a(n) is selected as the least unused number for which a(n)*a(n-1)*a(n-2) is a fibbinary number (A003714), i.e., has no adjacent 1's in its base-2 representation.",
+  "id": "A266191",
+  "mentions": [
+    "A003714",
+    "A003987",
+    "A266117",
+    "A266121",
+    "A266192",
+    "A266195"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

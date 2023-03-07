@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-isomorphic weight-n multiset partitions whose part-sizes are also their vertex-degrees.",
+  "id": "A321736",
+  "mentions": [
+    "A000700",
+    "A007716",
+    "A057150",
+    "A120732",
+    "A319056",
+    "A319616",
+    "A320451",
+    "A321719",
+    "A321721",
+    "A321722",
+    "A321724",
+    "A321732",
+    "A321733",
+    "A321735",
+    "A321739"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

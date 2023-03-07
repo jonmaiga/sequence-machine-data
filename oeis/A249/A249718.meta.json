@@ -1,0 +1,20 @@
+{
+  "description": "The largest prime whose square divides the first nonsquarefree number on row n of Pascal's triangle, 1 if all terms on that row are squarefree.",
+  "id": "A249718",
+  "mentions": [
+    "A249716",
+    "A249717",
+    "A249740"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

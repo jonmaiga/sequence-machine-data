@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = (1/3) * Sum_{k=1..n} binomial(n,k) * (4^k-1) * a(n-k).",
+  "id": "A337556",
+  "mentions": [
+    "A000556",
+    "A002450",
+    "A337555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

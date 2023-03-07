@@ -1,0 +1,28 @@
+{
+  "description": "Langton's ant on a snub trihexagonal tiling: number of black cells after n moves of the ant when starting on a hexagon.",
+  "id": "A309293",
+  "mentions": [
+    "A255938",
+    "A269757",
+    "A308590",
+    "A308937",
+    "A308973",
+    "A309064",
+    "A309166",
+    "A309241",
+    "A309279",
+    "A326167",
+    "A326352"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

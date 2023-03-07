@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that the sum of numbers x<=n not coprime to n divides the sum of numbers y<=n coprime to n.",
+  "id": "A238232",
+  "mentions": [
+    "A050474",
+    "A061367",
+    "A070161",
+    "A142591",
+    "A203966"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

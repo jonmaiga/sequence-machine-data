@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 with x,y,z integers such that x + 3*y + 5*z is a square",
+  "id": "A283269",
+  "mentions": [
+    "A000290",
+    "A005875",
+    "A271518",
+    "A283170",
+    "A283196",
+    "A283204",
+    "A283205",
+    "A283239",
+    "A283273"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

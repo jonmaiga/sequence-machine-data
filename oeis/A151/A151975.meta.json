@@ -1,0 +1,25 @@
+{
+  "description": "The number of ways one can flip seven consecutive tails (or heads) when flipping a coin n times.",
+  "id": "A151975",
+  "mentions": [
+    "A000079",
+    "A011782",
+    "A050231",
+    "A050232",
+    "A050233",
+    "A066178",
+    "A143662"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

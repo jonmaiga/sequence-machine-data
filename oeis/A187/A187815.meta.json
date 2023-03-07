@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations q_1, ..., q_7 of the 7 consecutive primes p_n, p_{n+1}, ..., p_{n+6} with q_1 = p_n and q_7 = p_{n+6}, and with |q_1-q_2|, |q_2-q_3|, ..., |q_6-q_7|, |q_7-q_1| pairwise distinct, where p_k denotes the k-th prime.",
+  "id": "A187815",
+  "mentions": [
+    "A000040",
+    "A185645",
+    "A228728"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

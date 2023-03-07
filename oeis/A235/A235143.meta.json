@@ -1,0 +1,20 @@
+{
+  "description": "Positions of -2 in A235141, the first differences of A234300.",
+  "id": "A235143",
+  "mentions": [
+    "A234300",
+    "A235141",
+    "A235142",
+    "A235386"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

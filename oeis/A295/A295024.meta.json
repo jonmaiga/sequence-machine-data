@@ -1,0 +1,27 @@
+{
+  "description": "Cubes whose largest digit is 9.",
+  "id": "A295024",
+  "mentions": [
+    "A000578",
+    "A278936",
+    "A294663",
+    "A294999",
+    "A295019",
+    "A295021",
+    "A295022",
+    "A295023",
+    "A295025"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

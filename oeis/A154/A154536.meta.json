@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers that can be written as the sum of a positive Pell number and twice a positive Pell number.",
+  "id": "A154536",
+  "mentions": [
+    "A000040",
+    "A000129",
+    "A154257",
+    "A154285",
+    "A154364",
+    "A154417",
+    "A154421",
+    "A156695"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number of connected, unlabeled antichains of nonempty subsets of {1..n} covering n vertices with at least one cut-vertex (vertex-connectivity 1).",
+  "id": "A327436",
+  "mentions": [
+    "A006602",
+    "A014466",
+    "A048143",
+    "A261005",
+    "A261006",
+    "A305028",
+    "A326704",
+    "A326786",
+    "A327112",
+    "A327114",
+    "A327334",
+    "A327336",
+    "A327350",
+    "A327351",
+    "A327356",
+    "A327358",
+    "A327359",
+    "A327426"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

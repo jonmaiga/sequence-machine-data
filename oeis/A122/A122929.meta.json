@@ -1,0 +1,20 @@
+{
+  "description": "Multiplicative order of 2 mod A141232(n).",
+  "id": "A122929",
+  "mentions": [
+    "A001262",
+    "A002326",
+    "A141216",
+    "A141232"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

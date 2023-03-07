@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n, d <= sqrt(n)} (-1)^(d + n/d) * d.",
+  "id": "A348608",
+  "mentions": [
+    "A000593",
+    "A006005",
+    "A046897",
+    "A066839",
+    "A109506",
+    "A305152",
+    "A333782"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

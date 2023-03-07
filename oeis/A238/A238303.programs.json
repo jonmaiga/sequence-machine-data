@@ -1,0 +1,262 @@
+{
+  "oi": 238303,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "2-char[∑[n]]",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "∑",
+        "char",
+        "sub"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(acot(char[∑[n]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "acot",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(acot(char[∑[n]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "acot",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-12-14",
+      "ix": "dr(xor(11, char[∑[n]]))",
+      "mt": 10000,
+      "px": [
+        "11",
+        "n",
+        "∑",
+        "char",
+        "xor",
+        "dr"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "floor(exp(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "exp",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(acos(char[∑[n]]))!",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "acos",
+        "ceil",
+        "!"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(acos(char[∑[n]]))!",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "acos",
+        "round",
+        "!"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(cosh(char[comp[∑[n]]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "comp",
+        "char",
+        "cosh",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(cosh(char[comp[∑[n]]]))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "comp",
+        "char",
+        "cosh",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(tan(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "tan",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(tan(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "tan",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(asin(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "asin",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(acos(sin(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "sin",
+        "acos",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(asin(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "asin",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(acos(sin(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "sin",
+        "acos",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "ceil(sinh(cos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "cos",
+        "sinh",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "floor(cosh(acos(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "acos",
+        "cosh",
+        "floor"
+      ]
+    },
+    {
+      "d": "2022-06-15",
+      "ix": "ceil(acos(atan(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "atan",
+        "acos",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2022-06-15",
+      "ix": "round(acos(atan(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "atan",
+        "acos",
+        "round"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "ceil(acos(tanh(char[∑[n]])))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "∑",
+        "char",
+        "tanh",
+        "acos",
+        "ceil"
+      ]
+    }
+  ]
+}

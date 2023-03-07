@@ -1,0 +1,18 @@
+{
+  "description": "Let S be the set of distinct positive integers whose binary representations are substrings in the binary representation of n. a(n) = the number of elements of S that are coprime to all other elements of S.",
+  "id": "A175245",
+  "mentions": [
+    "A175246"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

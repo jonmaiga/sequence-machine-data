@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum state complexity of the language C(w) of conjugates of w, over all length-n binary strings w.",
+  "id": "A316936",
+  "mentions": [
+    "A317586"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

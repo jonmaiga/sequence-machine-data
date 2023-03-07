@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of compositions of n in which the minimal multiplicity of parts equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A242451",
+  "mentions": [
+    "A000007",
+    "A011782",
+    "A242447",
+    "A243978",
+    "A244164",
+    "A244165",
+    "A244166",
+    "A244167",
+    "A244168",
+    "A244169",
+    "A244170",
+    "A244171",
+    "A244172",
+    "A244173",
+    "A244174"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

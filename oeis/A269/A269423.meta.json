@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the sum of all 0 < m < n for which n == a(m) (mod m).",
+  "id": "A269423",
+  "mentions": [
+    "A269427"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

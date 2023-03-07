@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = (-1)^(bigomega(n) - omega(n)) * Sum_{d|n} (-1)^(bigomega(d) - omega(d)) * d.",
+  "id": "A328181",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A008836",
+    "A046660",
+    "A049060",
+    "A055076",
+    "A061020",
+    "A076479",
+    "A162511"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

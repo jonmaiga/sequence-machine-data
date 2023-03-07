@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered triples satisfying p+L_s+L_t=n, where p is an odd prime, s and t are nonnegative and the Lucas number L_s or L_t is odd.",
+  "id": "A154285",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A154257",
+    "A154258",
+    "A154263",
+    "A156695"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

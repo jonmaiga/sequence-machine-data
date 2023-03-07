@@ -1,0 +1,26 @@
+{
+  "description": "Numbers divisible by their first digit squared (excluding those whose first digit is 1).",
+  "id": "A221651",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A034709",
+    "A034837",
+    "A034838",
+    "A132359",
+    "A225297",
+    "A225683",
+    "A225722"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

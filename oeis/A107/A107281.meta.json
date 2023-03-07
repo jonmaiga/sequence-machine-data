@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(1) = 1, a(2) = 2 and for n >= 1: a(n+1) = SORT[a(n) + a(n-1) + a(n-2)] where SORT places digits in ascending order and deletes 0's.",
+  "id": "A107281",
+  "mentions": [
+    "A000073",
+    "A069638"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

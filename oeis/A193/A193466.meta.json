@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n * Product_{k=1..n} cosh(k*x).",
+  "id": "A193466",
+  "mentions": [
+    "A177385",
+    "A193467",
+    "A193468"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

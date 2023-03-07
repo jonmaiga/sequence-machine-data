@@ -1,0 +1,23 @@
+{
+  "description": "Odd and even positive integers swapped.",
+  "id": "A103889",
+  "mentions": [
+    "A004442",
+    "A005408",
+    "A005843",
+    "A014681",
+    "A176222"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:53",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

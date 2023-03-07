@@ -1,0 +1,20 @@
+{
+  "description": "Least k>1 such that n^k starts with n in base 2.",
+  "id": "A177047",
+  "mentions": [
+    "A051248",
+    "A177048"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

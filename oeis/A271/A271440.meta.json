@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(prime(n)^n) - phi(prime(n)^n).",
+  "id": "A271440",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203",
+    "A051612",
+    "A062457"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

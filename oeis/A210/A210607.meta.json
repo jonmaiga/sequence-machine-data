@@ -1,0 +1,28 @@
+{
+  "description": "Vertex number of an L-toothpick structure which give Recamán's sequence A005132.",
+  "id": "A210607",
+  "mentions": [
+    "A002378",
+    "A005132",
+    "A119632",
+    "A139250",
+    "A160356",
+    "A171175",
+    "A171178",
+    "A172310",
+    "A187210",
+    "A210606",
+    "A210613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

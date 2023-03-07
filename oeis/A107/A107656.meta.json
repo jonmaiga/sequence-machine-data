@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that prime(n)=d(n)*phi(n)+1, where d(n) is number of positive divisors of n.",
+  "id": "A107656",
+  "mentions": [
+    "A104905",
+    "A107657"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

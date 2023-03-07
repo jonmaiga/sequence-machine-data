@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the constant 1.880678543683078094492191765... arising in A082732.",
+  "id": "A144802",
+  "mentions": [
+    "A076393",
+    "A082732",
+    "A144803",
+    "A144804",
+    "A144805",
+    "A144806",
+    "A144807",
+    "A144808",
+    "A144809",
+    "A144810",
+    "A144811",
+    "A144812"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

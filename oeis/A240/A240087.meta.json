@@ -1,0 +1,18 @@
+{
+  "description": "Smallest difference to start a prime arithmetic progression of three or more terms with the n-th prime number.",
+  "id": "A240087",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

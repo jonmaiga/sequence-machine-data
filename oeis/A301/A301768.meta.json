@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to choose a strict rooted partition of each part in a constant rooted partition of n.",
+  "id": "A301768",
+  "mentions": [
+    "A002865",
+    "A063834",
+    "A093637",
+    "A127524",
+    "A279788",
+    "A296132",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: [x^n] (1+x)^(n^4) / A(x) = 0 for n>0.",
+  "id": "A304644",
+  "mentions": [
+    "A304191",
+    "A304399",
+    "A304643"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

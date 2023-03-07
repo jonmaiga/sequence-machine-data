@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that the Fibonacci (or Zeckendorf) representation of n^2 is a palindrome.",
+  "id": "A288252",
+  "mentions": [
+    "A002113",
+    "A014417",
+    "A049684",
+    "A094202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "T(n,k)=((n+k)^2-4*k+3-(-1)^k-(n+k-2)*(-1)^(n+k))/2-1, if k=1 and (n mod 2)=1; T(n,k)=((n+k)^2-4*k+3-(-1)^k-(n+k-2)*(-1)^(n+k))/2, else. Table T(n,k) read by antidiagonals; n, k > 0.",
+  "id": "A216248",
+  "mentions": [
+    "A000384",
+    "A014106",
+    "A033816",
+    "A071355",
+    "A091823",
+    "A100037",
+    "A100038",
+    "A100039",
+    "A130861",
+    "A130883",
+    "A210521",
+    "A213171",
+    "A213197",
+    "A213205"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest m such that A307629(m) = n.",
+  "id": "A307560",
+  "mentions": [
+    "A051885",
+    "A179239",
+    "A307629"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - x - x^2 + x^18 - x^20).",
+  "id": "A185357",
+  "mentions": [
+    "A000045",
+    "A107293",
+    "A117791",
+    "A204631"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

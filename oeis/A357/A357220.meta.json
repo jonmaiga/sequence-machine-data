@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = coefficient of x^n in Sum_{n>=0} x^n/(1 - x*C(x)^n), where C(x) = 1/(1 - x*C(x)) is a g.f. of the Catalan numbers (A000108).",
+  "id": "A357220",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of orderless same-tree-factorizations of n.",
+  "id": "A316790",
+  "mentions": [
+    "A001055",
+    "A001597",
+    "A003238",
+    "A052409",
+    "A052410",
+    "A067824",
+    "A089723",
+    "A281118",
+    "A281145",
+    "A289078",
+    "A292504",
+    "A316789"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

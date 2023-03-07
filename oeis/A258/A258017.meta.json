@@ -1,0 +1,23 @@
+{
+  "description": "Number of one-sided fusenes (not necessarily planar) of perimeter 2n, counted up to rotations.",
+  "id": "A258017",
+  "mentions": [
+    "A000523",
+    "A258013",
+    "A258018",
+    "A258019",
+    "A258204"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

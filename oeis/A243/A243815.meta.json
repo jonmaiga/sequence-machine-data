@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n words on alphabet {0,1} such that the length of every maximal block of 0's (runs) is the same.",
+  "id": "A243815",
+  "mentions": [
+    "A164710"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

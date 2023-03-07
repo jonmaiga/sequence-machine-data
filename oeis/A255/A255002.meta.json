@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of recurrence for rows and columns of A250544 and rows of A250691.",
+  "id": "A255002",
+  "mentions": [
+    "A223069",
+    "A250538",
+    "A250543",
+    "A250544",
+    "A250691",
+    "A250692",
+    "A250698"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

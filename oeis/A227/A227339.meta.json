@@ -1,0 +1,18 @@
+{
+  "description": "Fixed point of the morphism 1 -> 131, 2 -> 312, 3 -> 2.",
+  "id": "A227339",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:51",
+    "offset": 1,
+    "size": 121,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Trisection of A083953 such that the self-convolution cube is congruent modulo 9 to A083953, which consists entirely of 1's, 2's and 3's.",
+  "id": "A110628",
+  "mentions": [
+    "A083953",
+    "A084203",
+    "A104405",
+    "A111582"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

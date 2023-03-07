@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with no digit 1 in their primorial base expansion (A049345).",
+  "id": "A328840",
+  "mentions": [
+    "A049345",
+    "A255411",
+    "A328574",
+    "A329027",
+    "A329028"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

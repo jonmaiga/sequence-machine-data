@@ -1,0 +1,21 @@
+{
+  "description": "Least number with the same prime signature as the n-th number in Perrin sequence: a(n) = A046523(A001608(n)), a(1) = 0.",
+  "id": "A278248",
+  "mentions": [
+    "A001608",
+    "A046523",
+    "A278241",
+    "A278245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

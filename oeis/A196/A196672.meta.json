@@ -1,0 +1,19 @@
+{
+  "description": "Record gaps between Chebyshev primes (of index 1).",
+  "id": "A196672",
+  "mentions": [
+    "A005250",
+    "A182877",
+    "A196673"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

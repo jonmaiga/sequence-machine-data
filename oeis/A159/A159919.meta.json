@@ -1,0 +1,21 @@
+{
+  "description": "A square array of numbers, read by antidiagonals, called Sundaram's sieve.",
+  "id": "A159919",
+  "mentions": [
+    "A159200",
+    "A159920"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

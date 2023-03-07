@@ -1,0 +1,22 @@
+{
+  "description": "A family of squares A(m), m >= 0, read by squares and then by rows; A(0) is [1, 1; 1, 1]; for m >= 0, square A(m+1) is obtained by replacing each subsquare [t, u; v, w] by [t, t+u, t+u, u; t+v, t+u+v, t+u+w, u+w; t+v, t+v+w, u+v+w, u+w; v, v+w, v+w, w] in A(m).",
+  "id": "A356245",
+  "mentions": [
+    "A355855",
+    "A356002",
+    "A356096",
+    "A356097",
+    "A356098"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

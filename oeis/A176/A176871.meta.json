@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers p such that p-q^3 is a prime number, (q is a prime number, q^3=LargestCube, LargestCube <= p).",
+  "id": "A176871",
+  "mentions": [
+    "A135932",
+    "A176864",
+    "A176865",
+    "A176870"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

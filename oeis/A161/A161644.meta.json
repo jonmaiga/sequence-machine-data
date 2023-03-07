@@ -1,0 +1,31 @@
+{
+  "description": "Number of ON states after n generations of cellular automaton based on triangles.",
+  "id": "A161644",
+  "mentions": [
+    "A000695",
+    "A005448",
+    "A139250",
+    "A147562",
+    "A151723",
+    "A151725",
+    "A160120",
+    "A161206",
+    "A161645",
+    "A182632",
+    "A182840",
+    "A250300",
+    "A295559",
+    "A295560"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

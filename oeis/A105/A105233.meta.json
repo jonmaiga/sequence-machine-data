@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured numbers n such that the trajectory of n as defined in A003508 is unique.",
+  "id": "A105233",
+  "mentions": [
+    "A003508",
+    "A105210",
+    "A105211",
+    "A105212",
+    "A105213"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

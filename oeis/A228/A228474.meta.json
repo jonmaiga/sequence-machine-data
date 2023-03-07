@@ -1,0 +1,30 @@
+{
+  "description": "Number of steps required to reach zero in the wrecker ball sequence starting with n: On the k-th step (k = 1, 2, 3, ...) move a distance of k in the direction of zero. If the result has occurred before, move a distance of k away from zero instead. Set a(n) = -1 if 0 is never reached.",
+  "id": "A228474",
+  "mentions": [
+    "A000217",
+    "A001532",
+    "A005132",
+    "A248939",
+    "A248940",
+    "A248941",
+    "A248942",
+    "A248952",
+    "A248953",
+    "A248961",
+    "A248973"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hear",
+    "look",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

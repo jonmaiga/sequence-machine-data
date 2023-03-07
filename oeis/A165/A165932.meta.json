@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers N such that for some integer d => 2 this number is a d-digit palindrome base 10 as well as a d-digit palindrome for some base b different from 10.",
+  "id": "A165932",
+  "mentions": [
+    "A002113",
+    "A173551"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(n) is the least m not already in the sequence whose binary expansion ends with the binary expansion of the binary weight of a(n-1).",
+  "id": "A338209",
+  "mentions": [
+    "A000120",
+    "A049773",
+    "A339024",
+    "A339607"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

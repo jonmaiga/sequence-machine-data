@@ -1,0 +1,44 @@
+{
+  "description": "Decimal expansion of the x-intercept of the shortest segment from the positive x axis through (2,1) to the line y=x.",
+  "id": "A197032",
+  "mentions": [
+    "A195284",
+    "A197008",
+    "A197033",
+    "A197034",
+    "A197035",
+    "A197136",
+    "A197137",
+    "A197138",
+    "A197139",
+    "A197140",
+    "A197141",
+    "A197142",
+    "A197143",
+    "A197144",
+    "A197145",
+    "A197146",
+    "A197147",
+    "A197148",
+    "A197149",
+    "A197150",
+    "A197151",
+    "A197152",
+    "A197153",
+    "A197154",
+    "A197155",
+    "A357469"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ON (black) cells in the n-th iteration of the \"Rule 41\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A266614",
+  "mentions": [
+    "A266608"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:07:13",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 + n^2 + n^3 + n^5.",
+  "id": "A123650",
+  "mentions": [
+    "A002522",
+    "A098547",
+    "A123111",
+    "A123113",
+    "A123651",
+    "A123652"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:43:45",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

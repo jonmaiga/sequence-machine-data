@@ -1,0 +1,17 @@
+{
+  "description": "Least number k such that C(2k,k) is divisible by n^2.",
+  "id": "A111869",
+  "mentions": [
+    "A059097"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

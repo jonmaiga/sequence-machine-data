@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that prime(k+i) (mod 6) takes successively the values 1,5,1,5,... for i = 0, 1,...,n-1 ending with 1 or 5.",
+  "id": "A247969",
+  "mentions": [
+    "A000040",
+    "A247816",
+    "A247967"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

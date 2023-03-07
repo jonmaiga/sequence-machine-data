@@ -1,0 +1,18 @@
+{
+  "description": "Apply the morphism X -> XYX, where Y=1 if X contains an odd number of 1's, otherwise Y = 2 n times to 12, and concatenate the resulting string.",
+  "id": "A317958",
+  "mentions": [
+    "A317959",
+    "A317960"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

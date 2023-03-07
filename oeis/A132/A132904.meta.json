@@ -1,0 +1,24 @@
+{
+  "description": "Numbers formed by concatenating 4 consecutive prime numbers.",
+  "id": "A132904",
+  "mentions": [
+    "A000040",
+    "A007795",
+    "A045533",
+    "A059932",
+    "A091762"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

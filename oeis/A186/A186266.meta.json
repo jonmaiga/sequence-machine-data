@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 2F1( 1/2, 3/2; 4; 16*x ).",
+  "id": "A186266",
+  "mentions": [
+    "A000108",
+    "A000257",
+    "A000888",
+    "A172392"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

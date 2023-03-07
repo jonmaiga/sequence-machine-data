@@ -1,0 +1,18 @@
+{
+  "description": "Smaller of two successive primes using the same digits such that the hundreds digit is the most significant digit to differ.",
+  "id": "A156117",
+  "mentions": [
+    "A069567"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

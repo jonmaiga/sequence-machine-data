@@ -1,0 +1,18 @@
+{
+  "description": "O.g.f.: exp( Sum_{n>=1} A256357(n^2)*x^n/n ), where exp( Sum_{n>=1} A256357(n)*x^n/n ) = 1 + Sum_{n>=1} x^(n^2) + x^(2*n^2).",
+  "id": "A258656",
+  "mentions": [
+    "A256357",
+    "A258655"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

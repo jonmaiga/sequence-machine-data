@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m > 4 such that [m-2..m+2] belong to A327261.",
+  "id": "A345357",
+  "mentions": [
+    "A327259",
+    "A327261",
+    "A327263",
+    "A340748",
+    "A345473",
+    "A345474"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

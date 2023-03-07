@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the fraction of the normal distribution that falls within the 3 sigma error bars.",
+  "id": "A270712",
+  "mentions": [
+    "A110894",
+    "A178647"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:30:39",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-dual noncommutative groupoids with n elements.",
+  "id": "A258719",
+  "mentions": [
+    "A001329",
+    "A001423",
+    "A001428",
+    "A258720"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

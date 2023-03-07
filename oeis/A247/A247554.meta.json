@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of a(F_5), the maximum inradius of all triangles that lie in a regular pentagon of width 1.",
+  "id": "A247554",
+  "mentions": [
+    "A019827"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order is both a reversed necklace and a co-necklace.",
+  "id": "A334273",
+  "mentions": [
+    "A000031",
+    "A008965",
+    "A019536",
+    "A034691",
+    "A059966",
+    "A060223",
+    "A065609",
+    "A066099",
+    "A275692",
+    "A326774",
+    "A328594",
+    "A328595",
+    "A328596",
+    "A329138",
+    "A333764",
+    "A333943",
+    "A334265",
+    "A334266",
+    "A334269",
+    "A334270",
+    "A334271",
+    "A334272",
+    "A334274"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

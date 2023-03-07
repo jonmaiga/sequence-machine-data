@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining parity of n, A003557(n) and A051953(n).",
+  "id": "A319349",
+  "mentions": [
+    "A000035",
+    "A003557",
+    "A007814",
+    "A051953",
+    "A305801",
+    "A319348"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographic first sequence of positive integers such that a(n)*a(n+1) has a digit 7, and no term occurs twice.",
+  "id": "A299997",
+  "mentions": [
+    "A298974",
+    "A298979",
+    "A299402",
+    "A299403",
+    "A299957",
+    "A299969",
+    "A299988",
+    "A299996"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

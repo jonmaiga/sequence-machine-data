@@ -1,0 +1,20 @@
+{
+  "description": "a(2^m + k) = a(k)-th integer among those positive integers not occurring earlier in the sequence, where m >= 0, 1 <= k<= 2^m. a(1) = 1.",
+  "id": "A119474",
+  "mentions": [
+    "A101267",
+    "A119475"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

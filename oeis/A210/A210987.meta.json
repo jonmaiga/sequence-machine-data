@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polyominoes with 2n-1 cells.",
+  "id": "A210987",
+  "mentions": [
+    "A001168",
+    "A210986",
+    "A210989",
+    "A210997"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

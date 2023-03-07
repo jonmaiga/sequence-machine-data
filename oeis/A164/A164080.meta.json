@@ -1,0 +1,21 @@
+{
+  "description": "Perfect squares one less than a triangular number.",
+  "id": "A164080",
+  "mentions": [
+    "A000217",
+    "A001110",
+    "A072221",
+    "A164055"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:10:06",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

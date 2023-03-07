@@ -1,0 +1,28 @@
+{
+  "description": "List of 3 X 3 magic squares made of consecutive primes, in order of increasing magic sum. Only the lexicographically smallest variant of equivalent squares (modulo D4 symmetries) is listed, as a row containing the 3 rows of the square.",
+  "id": "A320873",
+  "mentions": [
+    "A073519",
+    "A073520",
+    "A073521",
+    "A073522",
+    "A104157",
+    "A151799",
+    "A166113",
+    "A256891",
+    "A270305",
+    "A320872"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

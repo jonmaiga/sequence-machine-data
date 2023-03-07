@@ -1,0 +1,30 @@
+{
+  "description": "Array read by ascending antidiagonals. A(n, k) = F(k, n) mod n for n >= 1 and k >= 0, where F(n, k) = A352744(n, k) are the Fibonacci numbers, A(0, k) = 1 for k >= 0.",
+  "id": "A352747",
+  "mentions": [
+    "A002752",
+    "A023172",
+    "A045468",
+    "A074215",
+    "A088209",
+    "A174090",
+    "A212804",
+    "A270313",
+    "A301729",
+    "A352744",
+    "A353280"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

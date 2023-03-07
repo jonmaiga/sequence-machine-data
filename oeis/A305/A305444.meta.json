@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{p is odd and prime and divisor of n} (p - 2).",
+  "id": "A305444",
+  "mentions": [
+    "A173557"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

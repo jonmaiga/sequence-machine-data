@@ -1,0 +1,28 @@
+{
+  "description": "Number of subsets of {2..n} containing all of their integer quotients > 1.",
+  "id": "A326078",
+  "mentions": [
+    "A007865",
+    "A051026",
+    "A054519",
+    "A067992",
+    "A103580",
+    "A325860",
+    "A325994",
+    "A326023",
+    "A326076",
+    "A326079",
+    "A326081"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

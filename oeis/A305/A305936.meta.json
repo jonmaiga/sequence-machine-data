@@ -1,0 +1,37 @@
+{
+  "description": "Irregular triangle whose n-th row is the multiset spanning an initial interval of positive integers with multiplicities equal to the n-th row of A296150 (the prime indices of n in weakly decreasing order).",
+  "id": "A305936",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A056239",
+    "A112798",
+    "A181821",
+    "A182850",
+    "A255906",
+    "A296150",
+    "A304464",
+    "A318283",
+    "A318284",
+    "A318285",
+    "A318286",
+    "A318287",
+    "A318360",
+    "A318361",
+    "A318362",
+    "A318371"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

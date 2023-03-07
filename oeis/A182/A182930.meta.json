@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: Number of set partitions of {1,2,..,n} such that |k| is a block and no block |m| with m < k exists, (1 <= n, 1 <= k <= n).",
+  "id": "A182930",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A020556",
+    "A106436"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

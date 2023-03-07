@@ -1,0 +1,32 @@
+{
+  "description": "Start with first run [0,1] then, for n >= 2, the n-th run has length 2^n and is the concatenation of [a(1),a(2),...,a(2^n/2)] and [n-a(1),n-a(2),...,n-a(2^n/2)].",
+  "id": "A209281",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001792",
+    "A006068",
+    "A010060",
+    "A029837",
+    "A066099",
+    "A089215",
+    "A103204",
+    "A124754",
+    "A272020",
+    "A346633",
+    "A346697",
+    "A346702"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

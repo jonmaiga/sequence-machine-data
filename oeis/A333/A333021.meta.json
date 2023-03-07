@@ -1,0 +1,26 @@
+{
+  "description": "Starts of runs of 4 consecutive even numbers that are all totient numbers (A002202).",
+  "id": "A333021",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A063512",
+    "A083533",
+    "A333019",
+    "A333020",
+    "A333022",
+    "A333023",
+    "A333024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

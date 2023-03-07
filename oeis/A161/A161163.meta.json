@@ -1,0 +1,21 @@
+{
+  "description": "Indices of the isolated primes in the prime sequence, if indices are odd.",
+  "id": "A161163",
+  "mentions": [
+    "A000040",
+    "A005408",
+    "A007510",
+    "A049084"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

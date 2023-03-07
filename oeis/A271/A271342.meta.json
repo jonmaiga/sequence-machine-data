@@ -1,0 +1,23 @@
+{
+  "description": "Sum of all even divisors of all positive integers <= n.",
+  "id": "A271342",
+  "mentions": [
+    "A000203",
+    "A006128",
+    "A024916",
+    "A078471",
+    "A146076",
+    "A271343"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

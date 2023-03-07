@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that (k^3 - 2, k^3 + 2) is a pair of cousin primes (see A178227).",
+  "id": "A178228",
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A090121",
+    "A164834",
+    "A172494",
+    "A174370",
+    "A176130",
+    "A176229",
+    "A178227"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

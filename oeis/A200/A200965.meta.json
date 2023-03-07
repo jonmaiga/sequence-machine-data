@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) = coefficient of x^n in expansion of ((1-sqrt(1-4*x))/((1-x)*2))^k = sum(n>=k, T(n,k) * x^n).",
+  "id": "A200965",
+  "mentions": [
+    "A014137",
+    "A014143"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

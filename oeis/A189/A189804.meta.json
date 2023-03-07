@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of set {1, 2, ..., k} into exactly n blocks, each of size 1, 2 or 3 (n >= 0, 0 <= k <= 3*n).",
+  "id": "A189804",
+  "mentions": [
+    "A144422",
+    "A188896"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

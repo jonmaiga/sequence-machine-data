@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = A000265(sigma(n)) / gcd(sigma(n), A003961(n)), where A003961(n) is fully multiplicative with a(prime(k)) = prime(k+1), and sigma is the sum of divisors function.",
+  "id": "A348992",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A003961",
+    "A161942",
+    "A342671",
+    "A348990",
+    "A348993",
+    "A349161",
+    "A349162",
+    "A349169"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

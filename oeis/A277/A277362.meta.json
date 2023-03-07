@@ -1,0 +1,20 @@
+{
+  "description": "Self-convolution of a(n)/4^n gives factorials (A000142).",
+  "id": "A277362",
+  "mentions": [
+    "A000142",
+    "A000302",
+    "A047053"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

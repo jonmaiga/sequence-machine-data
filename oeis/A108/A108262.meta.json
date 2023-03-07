@@ -1,0 +1,19 @@
+{
+  "description": "Second order recursive series having the property that the product of any two adjacent terms equals 4 times a triangular number. That is a(n)*a(n+1)= 4*T(c) = 2c(c+1), where c = the term a(n+1) of related series A108261.",
+  "id": "A108262",
+  "mentions": [
+    "A046092",
+    "A108261"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:39:24",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

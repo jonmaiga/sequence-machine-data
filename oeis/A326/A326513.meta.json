@@ -1,0 +1,26 @@
+{
+  "description": "Number of set partitions of {1..n} where each block has a different average.",
+  "id": "A326513",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A035470",
+    "A038041",
+    "A275780",
+    "A326512",
+    "A326516",
+    "A326521",
+    "A326537"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

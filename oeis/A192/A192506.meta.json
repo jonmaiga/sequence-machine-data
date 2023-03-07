@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are neither ludic nor prime.",
+  "id": "A192506",
+  "mentions": [
+    "A002808",
+    "A003309",
+    "A010051",
+    "A091212",
+    "A175526",
+    "A192490",
+    "A192503",
+    "A192504",
+    "A192505",
+    "A192607",
+    "A205783",
+    "A257689"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

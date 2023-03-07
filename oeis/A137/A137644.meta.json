@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n+k,k)*C(n+k,n-k).",
+  "id": "A137644",
+  "mentions": [
+    "A063967",
+    "A092566"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

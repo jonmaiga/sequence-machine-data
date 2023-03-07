@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are neither squarefree nor perfect powers.",
+  "id": "A303946",
+  "mentions": [
+    "A000009",
+    "A000837",
+    "A001597",
+    "A005117",
+    "A007916",
+    "A013929",
+    "A047966",
+    "A052409",
+    "A052410",
+    "A059404",
+    "A072774",
+    "A073576",
+    "A126706",
+    "A132350",
+    "A229099"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of unique heights that are achieved by only one starting number in the Collatz (or '3x+1') problem when starting from numbers in the range [2^n, 2^(n+1)).",
+  "id": "A339769",
+  "mentions": [
+    "A006577",
+    "A277109",
+    "A280341"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

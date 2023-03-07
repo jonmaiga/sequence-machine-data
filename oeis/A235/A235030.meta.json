@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that A235027(A235027(n)) <> n; Numbers which are divisible by any of the odd terms of A204219.",
+  "id": "A235030",
+  "mentions": [
+    "A056539",
+    "A204219",
+    "A235027",
+    "A235145",
+    "A235146"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

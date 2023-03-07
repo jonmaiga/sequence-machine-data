@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of the open mirror map of P2.",
+  "id": "A353195",
+  "mentions": [
+    "A006480",
+    "A061401",
+    "A229451"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

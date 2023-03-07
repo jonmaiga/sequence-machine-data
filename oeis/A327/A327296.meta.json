@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the decimal value of the largest binary palindrome that can be obtained from the digits of the binary representation of n.",
+  "id": "A327296",
+  "mentions": [
+    "A006995",
+    "A057148"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

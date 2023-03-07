@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of acyclic orientations of the edges of the n-prism.",
+  "id": "A338153",
+  "mentions": [
+    "A033815",
+    "A058809",
+    "A102080",
+    "A124349",
+    "A284702",
+    "A334247",
+    "A338152",
+    "A338154"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

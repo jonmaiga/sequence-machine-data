@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of axially symmetric tilings of the order-n Aztec Diamond by square tetrominoes and Z-shaped tetrominoes, not counting rotations and reflections as distinct.",
+  "id": "A343595",
+  "mentions": [
+    "A342907"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

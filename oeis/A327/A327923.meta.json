@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: Coefficients of Schick's polynomials P(n, y^2), for n >= 1.",
+  "id": "A327923",
+  "mentions": [
+    "A000079",
+    "A053120",
+    "A261693",
+    "A321369"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

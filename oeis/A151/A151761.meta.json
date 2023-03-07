@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Theta^5, where Theta = Sum_{k>=0} x^(2^k).",
+  "id": "A151761",
+  "mentions": [
+    "A073267",
+    "A151758",
+    "A151759",
+    "A151760",
+    "A151762",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

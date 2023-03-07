@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n = x + y (0 < x <= y) with sigma(x) + phi(y) prime, where sigma(x) is the sum of all (positive) divisors of x and phi is Euler's totient function.",
+  "id": "A232270",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

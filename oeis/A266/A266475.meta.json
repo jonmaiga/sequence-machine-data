@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the parts i_1 + i_2 + ... + i_{A001222(n)} of the unique strict partition with encoding n = Product_{j=1..A001222(n)} prime(i_j-j+1).",
+  "id": "A266475",
+  "mentions": [
+    "A000009",
+    "A001222",
+    "A265146",
+    "A266476"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

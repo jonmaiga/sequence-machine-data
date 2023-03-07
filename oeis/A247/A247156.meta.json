@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are repeated in A001379.",
+  "id": "A247156",
+  "mentions": [
+    "A001379",
+    "A244431"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

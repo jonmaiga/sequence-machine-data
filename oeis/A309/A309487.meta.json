@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers represented by the quadratic form (the discriminant form) Δ = b^2 - 4ac, where a,b,c are consecutive palindromic primes.",
+  "id": "A309487",
+  "mentions": [
+    "A002385",
+    "A028989",
+    "A028990",
+    "A327447"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

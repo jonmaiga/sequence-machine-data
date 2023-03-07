@@ -1,0 +1,18 @@
+{
+  "description": "Successive records for the number of hits by a single batter in a single season of (USA) major league baseball.",
+  "id": "A121379",
+  "mentions": [
+    "A115380"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

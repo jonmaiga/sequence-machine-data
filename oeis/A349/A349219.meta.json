@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the Y-coordinate of the n-th point of the 7-dragon curve; sequence A349218 gives X-coordinates.",
+  "id": "A349219",
+  "mentions": [
+    "A349041",
+    "A349198",
+    "A349218"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

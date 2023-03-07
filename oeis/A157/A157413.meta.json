@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sum_{p = primes = A000040} 1/(p*2^p).",
+  "id": "A157413",
+  "mentions": [
+    "A000040",
+    "A002162",
+    "A034785",
+    "A157414"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

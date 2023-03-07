@@ -1,0 +1,19 @@
+{
+  "description": "Number of starting positions of misère Kayles with n pieces such that the 2nd player can win (P-positions).",
+  "id": "A263454",
+  "mentions": [
+    "A048833",
+    "A263453"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

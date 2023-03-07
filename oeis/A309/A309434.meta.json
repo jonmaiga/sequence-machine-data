@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(n*Im(2*e^(i*Pi/5))/(Im(2*e^(i*Pi/5)) - 1)).",
+  "id": "A309434",
+  "mentions": [
+    "A001950",
+    "A019970",
+    "A104457",
+    "A109235",
+    "A296184",
+    "A335137"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

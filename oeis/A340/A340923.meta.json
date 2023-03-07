@@ -1,0 +1,20 @@
+{
+  "description": "4*a(n) is the maximum possible determinant of a 3 X 3 matrix whose entries are 9 consecutive primes starting with prime(n).",
+  "id": "A340923",
+  "mentions": [
+    "A117330",
+    "A180128",
+    "A340924",
+    "A340925"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Riordan's general Eulerian recursion: T(n,k) = (k+2)*T(n-1, k) + (n-k) * T(n-1, k-1), with T(n,0) = 1, T(n,n) = 0.",
+  "id": "A157012",
+  "mentions": [
+    "A008292",
+    "A008517",
+    "A157011",
+    "A157013"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

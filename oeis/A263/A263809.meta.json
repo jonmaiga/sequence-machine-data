@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of C_{1/2}, a constant related to Kolmogorov's inequalities.",
+  "id": "A263809",
+  "mentions": [
+    "A068465",
+    "A068466",
+    "A093341",
+    "A242822"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

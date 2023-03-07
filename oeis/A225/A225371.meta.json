@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of squares in M(n,2), the ring of n X n matrices over GF(2).",
+  "id": "A225371",
+  "mentions": [
+    "A121231",
+    "A226321",
+    "A266462",
+    "A274313"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of degree-n odd permutations of order dividing 8.",
+  "id": "A308648",
+  "mentions": [
+    "A061131",
+    "A061136",
+    "A061137"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:20:25",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

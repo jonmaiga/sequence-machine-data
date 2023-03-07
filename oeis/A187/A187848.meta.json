@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the moment of order n for the probability density function defined by rho(x)=exp(x-1)/((Ei(x-1))^2+Pi^2) over the interval 1..infinity, with Ei the exponential integral.",
+  "id": "A187848",
+  "mentions": [
+    "A000522",
+    "A003319"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

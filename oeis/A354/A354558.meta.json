@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k and k+1 are both divisible by the square of their largest prime factor.",
+  "id": "A354558",
+  "mentions": [
+    "A006530",
+    "A060355",
+    "A070003",
+    "A071178",
+    "A354559",
+    "A354560",
+    "A354562",
+    "A354563",
+    "A354564",
+    "A354565",
+    "A354566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows based on the Fibonacci sequence A000045: t(n,m) = 1 + Fibonacci[n] - Fibonacci[m] - Fibonacci[n - m].",
+  "id": "A156070",
+  "mentions": [
+    "A000045",
+    "A188538"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

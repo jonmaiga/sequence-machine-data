@@ -1,0 +1,19 @@
+{
+  "description": "Number of numerals to represent n in a base b multiplicative grouping numeral system where b=10.",
+  "id": "A108622",
+  "mentions": [
+    "A002275",
+    "A055640"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

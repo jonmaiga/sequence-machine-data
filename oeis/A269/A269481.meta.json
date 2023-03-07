@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of the Dirichlet eta function at 4.",
+  "id": "A269481",
+  "mentions": [
+    "A013680",
+    "A267315"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:08",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

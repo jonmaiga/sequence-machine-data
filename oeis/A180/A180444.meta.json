@@ -1,0 +1,20 @@
+{
+  "description": "a(n) equals the number of bispecial Sturmian words of length n, that is words which are prefix to two words of length n+1, and likewise suffix. Note that prefix and suffix are not independent, unless the word is also palindromic: see A000010.",
+  "id": "A180444",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A005598"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

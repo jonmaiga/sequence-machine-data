@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of steps needed to reach zero when starting from k = n^2 and repeatedly applying the map that replaces k with k - {the least number of squares (A002828) that add up to k}.",
+  "id": "A260732",
+  "mentions": [
+    "A002828",
+    "A260731",
+    "A260733",
+    "A260734",
+    "A261222"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

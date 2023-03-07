@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of arrangements of n labeled children with exactly k rounds; n >= 2, 1 <= k <= floor(n/2).",
+  "id": "A349280",
+  "mentions": [
+    "A001048",
+    "A001813",
+    "A066166",
+    "A067994"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

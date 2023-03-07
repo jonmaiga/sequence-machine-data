@@ -1,0 +1,21 @@
+{
+  "description": "Even composites m such that A002203(m)==2 (mod m).",
+  "id": "A335668",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A270342",
+    "A270345",
+    "A330276"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

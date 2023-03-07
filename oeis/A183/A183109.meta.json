@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,m) = number of n X m binary matrices with no zero rows or columns (n >= 1, 1 <= m <= n).",
+  "id": "A183109",
+  "mentions": [
+    "A019538",
+    "A048291",
+    "A058481",
+    "A058482"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

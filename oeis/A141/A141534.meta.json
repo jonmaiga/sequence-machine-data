@@ -1,0 +1,34 @@
+{
+  "description": "Derived from the centered polygonal numbers: start with the first triangular number, then the sum of the first square number and the second triangular number, then the sum of first pentagonal number, the second square number and the third triangular number, and so on and so on...",
+  "id": "A141534",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A003154",
+    "A003215",
+    "A005891",
+    "A006522",
+    "A016754",
+    "A060544",
+    "A062786",
+    "A069099",
+    "A069125",
+    "A069126",
+    "A069127",
+    "A086270",
+    "A086272",
+    "A086273"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

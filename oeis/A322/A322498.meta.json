@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle using V (2m+1)-ominoes (m >= 0) in standard orientation.",
+  "id": "A322498",
+  "mentions": [
+    "A322494"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

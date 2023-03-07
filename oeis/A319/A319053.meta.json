@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the exponent of the largest power of 2 that appears in the factorization of the entries in the matrix {{3,1},{1,-1}}^n.",
+  "id": "A319053",
+  "mentions": [
+    "A000045",
+    "A049310",
+    "A063782",
+    "A085449",
+    "A130481",
+    "A319196"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

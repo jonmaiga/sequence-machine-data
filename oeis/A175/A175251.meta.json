@@ -1,0 +1,21 @@
+{
+  "description": "Composites (A002808) with nonprime (A018252) subscripts.",
+  "id": "A175251",
+  "mentions": [
+    "A002808",
+    "A018252",
+    "A022449",
+    "A050435",
+    "A065858"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

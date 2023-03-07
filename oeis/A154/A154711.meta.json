@@ -1,0 +1,19 @@
+{
+  "description": "Squares such that square-+5 are primes.",
+  "id": "A154711",
+  "mentions": [
+    "A144938",
+    "A154709",
+    "A154710"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

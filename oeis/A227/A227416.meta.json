@@ -1,0 +1,17 @@
+{
+  "description": "Magic numbers from Smale’s 7th problem.",
+  "id": "A227416",
+  "mentions": [
+    "A018226"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

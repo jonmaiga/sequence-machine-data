@@ -1,0 +1,28 @@
+{
+  "description": "Primitive cyclic quadrilaterals with integer area.",
+  "id": "A298907",
+  "mentions": [
+    "A131020",
+    "A210250",
+    "A218431",
+    "A219225",
+    "A230136",
+    "A233315",
+    "A242778",
+    "A273691",
+    "A273890",
+    "A297790",
+    "A298860"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

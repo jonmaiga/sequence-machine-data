@@ -1,0 +1,30 @@
+{
+  "description": "Shifted signed Catalan triangle T(n,k) = (-1)^*(n+k+1)*A009766(n,k-n+1) read by rows.",
+  "id": "A176239",
+  "mentions": [
+    "A000096",
+    "A000108",
+    "A001477",
+    "A005557",
+    "A005586",
+    "A005587",
+    "A009766",
+    "A033184",
+    "A034807",
+    "A080956",
+    "A129936",
+    "A140344"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

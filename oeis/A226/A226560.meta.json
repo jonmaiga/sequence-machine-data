@@ -1,0 +1,18 @@
+{
+  "description": "exp( Sum_{n>=1} A226561(n)*x^n/n ), where A226561(n) = Sum_{d|n} d^n*phi(d).",
+  "id": "A226560",
+  "mentions": [
+    "A226458",
+    "A226561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+3)X(n+3) 0..1 matrices with each 4X4 subblock idempotent",
+  "id": "A224560",
+  "mentions": [
+    "A224568"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

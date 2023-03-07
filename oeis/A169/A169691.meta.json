@@ -1,0 +1,23 @@
+{
+  "description": "Let T be the sequence Fibonacci(2n+1), n>=0 (cf. A001519); sequence lists the differences T(j)-T(i) for i",
+  "id": "A169691",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A169677",
+    "A169680",
+    "A169690",
+    "A169692",
+    "A169693"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

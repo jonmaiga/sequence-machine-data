@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3D matrices with positive integer entries such that sum of all entries equals n",
+  "id": "A159297",
+  "mentions": [
+    "A101509"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

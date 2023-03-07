@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + a(n-1) * prime(n), starting a(0) = 1.",
+  "id": "A350895",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A096334",
+    "A135528"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n,k) is the number of invertible n X n matrices over GF(2) such that the dimension of the eigenspace corresponding to eigenvalue 1 is k, 0 <= k <= n, n >= 0.",
+  "id": "A346381",
+  "mentions": [
+    "A001037",
+    "A002820",
+    "A002884"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

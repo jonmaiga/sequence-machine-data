@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(n+2) nonnegative integer arrays with all values the knight distance from the upper left minus as much as 2, with successive minimum path knight move differences either 0 or +1, and any unreachable value zero.",
+  "id": "A253111",
+  "mentions": [
+    "A253119"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

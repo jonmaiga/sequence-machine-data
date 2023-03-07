@@ -1,0 +1,19 @@
+{
+  "description": "Maximum likelihood estimate of the number of distinguishable marbles in an urn if repeated random sampling of one marble with replacement yields n different marbles before the first repeated marble.",
+  "id": "A111097",
+  "mentions": [
+    "A027916",
+    "A083704"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

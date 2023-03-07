@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of 4^n into parts that are at most 4.",
+  "id": "A238631",
+  "mentions": [
+    "A238016"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

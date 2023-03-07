@@ -1,0 +1,29 @@
+{
+  "description": "Number of nonempty subsets S of {1,2,3,...,n} that have the property that no element x of S is a nonnegative integer linear combination of elements of S-{x}.",
+  "id": "A103580",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A051026",
+    "A085489",
+    "A139384",
+    "A151897",
+    "A308546",
+    "A326020",
+    "A326076",
+    "A326080",
+    "A326083",
+    "A326114"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

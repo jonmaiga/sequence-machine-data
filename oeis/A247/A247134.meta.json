@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that 2n+1 = 2^k - p^m for some prime p and integer m > 0, or 0 if no such k exists.",
+  "id": "A247134",
+  "mentions": [
+    "A000079",
+    "A000961"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

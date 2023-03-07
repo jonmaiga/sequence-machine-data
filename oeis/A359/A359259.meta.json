@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that A359194(k) = A032766(n).",
+  "id": "A359259",
+  "mentions": [
+    "A032766",
+    "A359194"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

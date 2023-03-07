@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of pentanomials x^n + x^a + x^b + x^c + 1 that are irreducible over GF(2) for n > a > b > c > 0.",
+  "id": "A344146",
+  "mentions": [
+    "A014580",
+    "A057646"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 4,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

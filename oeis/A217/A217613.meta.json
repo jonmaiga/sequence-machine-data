@@ -1,0 +1,22 @@
+{
+  "description": "Absolute value of difference between the n-th \"emirpimes\" A097393(n) and its reversal.",
+  "id": "A217613",
+  "mentions": [
+    "A001358",
+    "A004086",
+    "A097393"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

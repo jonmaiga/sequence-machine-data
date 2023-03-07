@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n with difference -6 between the number of odd parts and the number of even parts, both counted without multiplicity.",
+  "id": "A242686",
+  "mentions": [
+    "A242618"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 42,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Sum of divisors of the largest unitary divisor of n that is an exponentially odd number.",
+  "id": "A351569",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A005117",
+    "A013662",
+    "A028982",
+    "A268335",
+    "A350389",
+    "A351568",
+    "A351571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

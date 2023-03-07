@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the class number h-tilde_p^{+} of the real cyclotomic field Q(zeta_p + zeta_p^(-1)) is greater than 1.",
+  "id": "A230869",
+  "mentions": [
+    "A000927",
+    "A035113",
+    "A035114",
+    "A035115",
+    "A055513",
+    "A230870"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

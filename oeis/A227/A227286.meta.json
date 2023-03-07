@@ -1,0 +1,27 @@
+{
+  "description": "First primes of arithmetic progressions of 13 primes each with the common difference 30030.",
+  "id": "A227286",
+  "mentions": [
+    "A001359",
+    "A023241",
+    "A023271",
+    "A034386",
+    "A094220",
+    "A156204",
+    "A227281",
+    "A227282",
+    "A227283",
+    "A227284",
+    "A227285"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

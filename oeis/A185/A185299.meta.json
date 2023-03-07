@@ -1,0 +1,18 @@
+{
+  "description": "First n-digit square in the digits of Pi.",
+  "id": "A185299",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

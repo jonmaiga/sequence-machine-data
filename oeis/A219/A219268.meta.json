@@ -1,0 +1,22 @@
+{
+  "description": "Logarithmic derivative of A001142, where A001142(n) = product{k=1..n} k^k/k!.",
+  "id": "A219268",
+  "mentions": [
+    "A000178",
+    "A001142",
+    "A002109",
+    "A074962",
+    "A219266"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

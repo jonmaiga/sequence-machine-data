@@ -1,0 +1,24 @@
+{
+  "description": "A trisection of A001405 (central binomial coefficients: binomial(3*n,floor(3*n/2)), n>=0.",
+  "id": "A187442",
+  "mentions": [
+    "A001405",
+    "A187357",
+    "A187363",
+    "A187365",
+    "A187443",
+    "A187444"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:44:31",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

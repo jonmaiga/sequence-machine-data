@@ -1,0 +1,21 @@
+{
+  "description": "Bases b for which there exists an integer y such that y^3 in base b looks like [c,d,e,c,d,e] for base-b digits c,d,e.",
+  "id": "A290185",
+  "mentions": [
+    "A290172",
+    "A290173",
+    "A290176",
+    "A290177"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

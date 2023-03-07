@@ -1,0 +1,21 @@
+{
+  "description": "Primes between the lower and upper member of the n-th pair of betrothed numbers.",
+  "id": "A166385",
+  "mentions": [
+    "A000040",
+    "A003502",
+    "A003503",
+    "A005276"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that k^k + k^2 + 3*k + 2 is prime.",
+  "id": "A357055",
+  "mentions": [
+    "A058912",
+    "A187605",
+    "A231712"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

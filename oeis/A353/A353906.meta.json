@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the {alternating sum of the digits of n} raised to the power {number of digits of n}.",
+  "id": "A353906",
+  "mentions": [
+    "A055017",
+    "A055642",
+    "A113009",
+    "A353907"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

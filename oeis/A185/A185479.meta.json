@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X 2 binary arrays with every 2 X 2 subblock determinant equal to some horizontal or vertical neighbor 2 X 2 subblock determinant.",
+  "id": "A185479",
+  "mentions": [
+    "A185487"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

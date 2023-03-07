@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of partial sums of a series for the inverse of the arithmetic-geometric mean (agM) of 1 and sqrt(3)/2.",
+  "id": "A130036",
+  "mentions": [
+    "A130035",
+    "A130037"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

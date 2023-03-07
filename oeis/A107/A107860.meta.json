@@ -1,0 +1,17 @@
+{
+  "description": "The sequence described in A107859 for \"seeds\" a(1)=1, a(2)=0.",
+  "id": "A107860",
+  "mentions": [
+    "A107859"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

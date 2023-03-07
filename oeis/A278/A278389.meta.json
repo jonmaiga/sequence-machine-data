@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)/(k*prime(k)).",
+  "id": "A278389",
+  "mentions": [
+    "A078437",
+    "A242301",
+    "A242302",
+    "A242303",
+    "A242304",
+    "A269229",
+    "A275110",
+    "A275712",
+    "A276494"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

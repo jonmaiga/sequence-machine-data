@@ -1,0 +1,32 @@
+{
+  "description": "3 times 12-gonal (or dodecagonal) numbers: 3*n*(5*n-4).",
+  "id": "A153448",
+  "mentions": [
+    "A033428",
+    "A045943",
+    "A051624",
+    "A062741",
+    "A094159",
+    "A152751",
+    "A152759",
+    "A152767",
+    "A152773",
+    "A152965",
+    "A153783",
+    "A153875",
+    "A172117",
+    "A226492"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:11",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

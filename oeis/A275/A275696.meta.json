@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of e^(3*Zeta(3)/(4*log(2)).",
+  "id": "A275696",
+  "mentions": [
+    "A001113",
+    "A086702",
+    "A089729",
+    "A100199",
+    "A275689"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

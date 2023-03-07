@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that Q(sqrt(-21p)) has genus characters chi_{-3} = -1, chi_{-7} = +1.",
+  "id": "A102273",
+  "mentions": [
+    "A102269",
+    "A102275",
+    "A139827",
+    "A140633"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:54:07",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

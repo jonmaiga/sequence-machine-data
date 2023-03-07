@@ -1,0 +1,21 @@
+{
+  "description": "Terms in A162450 which have two representations as concatenation of three squares.",
+  "id": "A162839",
+  "mentions": [
+    "A162450",
+    "A162554"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

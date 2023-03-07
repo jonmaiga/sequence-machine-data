@@ -1,0 +1,20 @@
+{
+  "description": "Arithmetic derivative of the prime-factorization representation of the n-th Stern polynomial: a(n) = A003415(A260443(n)).",
+  "id": "A278544",
+  "mentions": [
+    "A003415",
+    "A260443",
+    "A278530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number triangle with row sums given by quadruple factorial numbers A001813.",
+  "id": "A168422",
+  "mentions": [
+    "A001813",
+    "A079267",
+    "A113025"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

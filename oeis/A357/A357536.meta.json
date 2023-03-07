@@ -1,0 +1,19 @@
+{
+  "description": "Number of colorings of an n X n grid with at most n interchangeable colors under rotational and reflectional symmetry.",
+  "id": "A357536",
+  "mentions": [
+    "A182044",
+    "A264741",
+    "A264742"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

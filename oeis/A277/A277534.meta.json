@@ -1,0 +1,20 @@
+{
+  "description": "Least hypotenuse, c, of a Primitive Pythagorean Triangle (PPT) such that the difference between it, c, and its greater leg, b, is n; or 0 if no such PPT exists.",
+  "id": "A277534",
+  "mentions": [
+    "A008846",
+    "A020882",
+    "A242219"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..7 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other",
+  "id": "A201099",
+  "mentions": [
+    "A201101"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

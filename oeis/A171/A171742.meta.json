@@ -1,0 +1,27 @@
+{
+  "description": "First 4-fold intrinsically n-palindrome (given in base ten).",
+  "id": "A171742",
+  "mentions": [
+    "A171701",
+    "A171702",
+    "A171703",
+    "A171704",
+    "A171705",
+    "A171706",
+    "A171740",
+    "A171741"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

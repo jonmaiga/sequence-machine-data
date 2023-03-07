@@ -1,0 +1,21 @@
+{
+  "description": "Amicable digital pair: the pairs from A262615 ordered by their smallest member.",
+  "id": "A264958",
+  "mentions": [
+    "A262091",
+    "A262092",
+    "A262615",
+    "A264951"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

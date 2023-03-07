@@ -1,0 +1,21 @@
+{
+  "description": "The rows of A169689 converge to 4 times this sequence.",
+  "id": "A169697",
+  "mentions": [
+    "A000120",
+    "A048883",
+    "A169689",
+    "A169698"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

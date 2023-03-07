@@ -1,0 +1,19 @@
+{
+  "description": "Form a triangle: first row is n in base 2, next row is sums of pairs of adjacent digits of previous row, repeat until get a single number which is a(n).",
+  "id": "A309776",
+  "mentions": [
+    "A306607"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

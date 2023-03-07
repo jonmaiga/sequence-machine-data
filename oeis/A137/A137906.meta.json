@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that k*(2^p-1)*(k*(2^p-1)-1)-1 is prime, where 2^p-1 runs through the Mersenne primes.",
+  "id": "A137906",
+  "mentions": [
+    "A137907",
+    "A137908",
+    "A137909"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

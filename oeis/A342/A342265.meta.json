@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that both a(n) and the cumulative sum a(1)+a(2)+...+a(n) have digits in nondecreasing order.",
+  "id": "A342265",
+  "mentions": [
+    "A009994",
+    "A342264",
+    "A342266"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Natural numbers n, other than multiples of 10, such that n, n^2 and n^3 lack the digit 1 in their decimal expansion.",
+  "id": "A255357",
+  "mentions": [
+    "A000027",
+    "A052383",
+    "A067251",
+    "A255398",
+    "A255430",
+    "A255431"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

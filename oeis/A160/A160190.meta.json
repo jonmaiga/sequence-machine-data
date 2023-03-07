@@ -1,0 +1,20 @@
+{
+  "description": "Prime terms multiplied by Fibonacci terms (omitting first two terms of Fibonacci sequence)",
+  "id": "A160190",
+  "mentions": [
+    "A004399",
+    "A160189"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

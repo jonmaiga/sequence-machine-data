@@ -1,0 +1,21 @@
+{
+  "description": "The non-single or nonisolated numbers. The union of non-single (or nonisolated or twin) primes and non-single (or nonisolated) nonprimes.",
+  "id": "A167707",
+  "mentions": [
+    "A001097",
+    "A001477",
+    "A164276",
+    "A167706"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

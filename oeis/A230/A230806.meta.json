@@ -1,0 +1,21 @@
+{
+  "description": "The smallest of 4 consecutive palindromic numbers that are all primes.",
+  "id": "A230806",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A002385",
+    "A032595"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

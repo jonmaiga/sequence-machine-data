@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of six fourth powers in exactly three ways.",
+  "id": "A345815",
+  "mentions": [
+    "A048931",
+    "A344244",
+    "A345560",
+    "A345814",
+    "A345816",
+    "A345825",
+    "A346358"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Write the n-th prime in binary and change all 0's to 1's and all 1's to 0's.",
+  "id": "A171008",
+  "mentions": [
+    "A145382"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: row n gives list of number of zeros following each 1 in binary representation of n.",
+  "id": "A108730",
+  "mentions": [
+    "A000120",
+    "A001787",
+    "A001792",
+    "A005183",
+    "A007088",
+    "A030190",
+    "A066099",
+    "A080791",
+    "A124735"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

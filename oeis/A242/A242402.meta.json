@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the smallest positive root of the equation J_0(t)*I_1(t)+I_0(t)*J_1(t) = 0 (with I_0, I_1, J_0 and J_1, Bessel functions).",
+  "id": "A242402",
+  "mentions": [
+    "A115368"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of smallest disk radius for which six equal disks can cover the unit disk.",
+  "id": "A299695",
+  "mentions": [
+    "A133077"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:25",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

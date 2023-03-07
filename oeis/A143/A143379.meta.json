@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of q^(-7/24) * eta(q) * eta(q^4)^2 / eta(q^2) in powers of q.",
+  "id": "A143379",
+  "mentions": [
+    "A000009",
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A134343",
+    "A143377",
+    "A143380",
+    "A214302",
+    "A214303"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

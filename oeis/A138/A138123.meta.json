@@ -1,0 +1,27 @@
+{
+  "description": "Antidiagonal sums of a triangle of coefficients of recurrences of the Fibonacci sequence.",
+  "id": "A138123",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A005013",
+    "A005247",
+    "A033999",
+    "A075091",
+    "A075270",
+    "A098600",
+    "A108362",
+    "A135992"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

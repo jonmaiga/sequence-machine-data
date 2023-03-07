@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that gcd( n!-1, 2^n-1 ) is neither 1 nor 2n+1.",
+  "id": "A133382",
+  "mentions": [
+    "A068480",
+    "A068483"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

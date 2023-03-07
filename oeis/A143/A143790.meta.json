@@ -1,0 +1,22 @@
+{
+  "description": "Integer Quotients of Lucas Numbers; a rectangular array by downward antidiagonals.",
+  "id": "A143790",
+  "mentions": [
+    "A000032",
+    "A049629",
+    "A049685",
+    "A110391"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

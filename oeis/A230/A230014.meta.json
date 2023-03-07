@@ -1,0 +1,22 @@
+{
+  "description": "Triangle E(n,k), 1<=k<=n, giving the cardinality of optimal binary covering codes of empty spheres of length n and radius k.",
+  "id": "A230014",
+  "mentions": [
+    "A000983",
+    "A060438",
+    "A238305"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

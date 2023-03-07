@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k with n prime factors such that p^k == p (mod k) for every prime p dividing k.",
+  "id": "A294179",
+  "mentions": [
+    "A006931",
+    "A285549",
+    "A294169"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonzero quartic residues modulo the n-th prime.",
+  "id": "A236965",
+  "mentions": [
+    "A000040",
+    "A130290",
+    "A236959",
+    "A306591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

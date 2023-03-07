@@ -1,0 +1,17 @@
+{
+  "description": "G.f. = f(x), where f(x)^2 = o.g.f. for A088313 (with offset 0).",
+  "id": "A109777",
+  "mentions": [
+    "A088313"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

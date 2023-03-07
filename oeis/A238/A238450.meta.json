@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k’s in all partitions of n into an odd number of distinct parts.",
+  "id": "A238450",
+  "mentions": [
+    "A015716",
+    "A067659",
+    "A067661",
+    "A238131",
+    "A238208",
+    "A238209",
+    "A238210",
+    "A238211",
+    "A238212",
+    "A238213",
+    "A238451"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

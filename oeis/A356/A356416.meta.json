@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least start of exactly n consecutive numbers that have an equal sum of even and odd exponents in their prime factorization (A356413), or -1 if no such run of consecutive numbers exists.",
+  "id": "A356416",
+  "mentions": [
+    "A356413",
+    "A356415"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

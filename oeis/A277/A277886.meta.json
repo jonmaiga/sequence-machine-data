@@ -1,0 +1,26 @@
+{
+  "description": "If n is squarefree, a(n) = n, else a(n) = A000040(1+A277885(n)) * (n/(A249739(n)^2)).",
+  "id": "A277886",
+  "mentions": [
+    "A000040",
+    "A048675",
+    "A097246",
+    "A097248",
+    "A249739",
+    "A277885",
+    "A277887",
+    "A277888",
+    "A277896"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

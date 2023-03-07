@@ -1,0 +1,26 @@
+{
+  "description": "Largest positive integer m with n digits and such that omega(m) = bigomega(m) = n.",
+  "id": "A342109",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A036337",
+    "A055642",
+    "A070843",
+    "A167050",
+    "A342108"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

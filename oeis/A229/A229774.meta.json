@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of n X n 0..k arrays with rows in lexicographically nondecreasing order and columns in nonincreasing order",
+  "id": "A229774",
+  "mentions": [
+    "A000027",
+    "A000984",
+    "A071239"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

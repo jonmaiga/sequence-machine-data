@@ -1,0 +1,20 @@
+{
+  "description": "Sum[ i^j^k, {i,1,n}, {j,1,n}, {k,1,n} ].",
+  "id": "A123269",
+  "mentions": [
+    "A039787",
+    "A086787",
+    "A124391"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

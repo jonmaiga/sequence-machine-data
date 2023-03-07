@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of even permutations (of an n-set) with exactly 1 fixed point.",
+  "id": "A145219",
+  "mentions": [
+    "A003221",
+    "A145220",
+    "A145222"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:17:41",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

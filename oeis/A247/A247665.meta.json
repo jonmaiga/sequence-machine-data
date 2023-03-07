@@ -1,0 +1,35 @@
+{
+  "description": "a(1)=2; thereafter a(n) is the smallest number >= 2 not yet used which is compatible with the condition that a(n) is relatively prime to the next n terms.",
+  "id": "A247665",
+  "mentions": [
+    "A064413",
+    "A090252",
+    "A248379",
+    "A248381",
+    "A248387",
+    "A248388",
+    "A248389",
+    "A248390",
+    "A248391",
+    "A248918",
+    "A249033",
+    "A249049",
+    "A249050",
+    "A249058",
+    "A249064",
+    "A249556",
+    "A249559",
+    "A353730"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

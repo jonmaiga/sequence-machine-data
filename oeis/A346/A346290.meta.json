@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k = s * t such that reverse(k) = reverse(s) * reverse(t) where reverse(k) is k with its digits reversed. A single-digit number is its own reversal and neither s nor t has a leading zero. No pair (s, t) has both s and t palindromic or single-digit.",
+  "id": "A346290",
+  "mentions": [
+    "A066531",
+    "A346133"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

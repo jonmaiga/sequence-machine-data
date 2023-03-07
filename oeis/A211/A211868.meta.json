@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as the root-mean-square (RMS) of a set of distinct odd integers.",
+  "id": "A211868",
+  "mentions": [
+    "A000196",
+    "A005408",
+    "A163974",
+    "A164283"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

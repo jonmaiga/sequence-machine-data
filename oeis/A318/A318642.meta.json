@@ -1,0 +1,20 @@
+{
+  "description": "G.f. C(x) satisfies: Sum_{n>=0} (-1)^n * n * ( C(C(x)) - (-1)^n*C(C(-x)) )^n = 0.",
+  "id": "A318642",
+  "mentions": [
+    "A318640",
+    "A318641",
+    "A318643"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

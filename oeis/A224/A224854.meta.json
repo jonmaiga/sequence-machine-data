@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 90*n + 11 and 90*n + 13 are twin prime.",
+  "id": "A224854",
+  "mentions": [
+    "A201804",
+    "A201816"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

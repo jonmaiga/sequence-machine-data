@@ -1,0 +1,21 @@
+{
+  "description": "Nearest k to j such that k*(2^j-1)+1 is prime where j=A000043(n) and 2^j-1 = Mersenne-prime(n) = A000668(n). If there are two k values equidistant from j, each of which produces a prime, the larger of the two gets added to the sequence.",
+  "id": "A159585",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A098556",
+    "A101416"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Minimum over all order two bases for the interval [1, n] of the maximum number of ways some number in the interval [1, n] can be written as a sum of at most two elements of the basis.",
+  "id": "A356852",
+  "mentions": [
+    "A001212",
+    "A265262"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

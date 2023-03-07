@@ -1,0 +1,22 @@
+{
+  "description": "Sum of terms of A293630 after generating the sequence for n steps (see comments).",
+  "id": "A298590",
+  "mentions": [
+    "A291481",
+    "A293630",
+    "A296564",
+    "A297890",
+    "A298606"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

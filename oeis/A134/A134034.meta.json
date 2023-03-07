@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between n^K and (n+1)^K, where K is 1.647862393566467... and n is an integer greater than 0.",
+  "id": "A134034",
+  "mentions": [
+    "A014085",
+    "A060715",
+    "A143898"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of (Khinchin + (4+Khinchin*Khinchin)^(1/2))/2 [A100485], where Khinchin is Khinchin's constant (A002210).",
+  "id": "A100611",
+  "mentions": [
+    "A002210",
+    "A100485"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

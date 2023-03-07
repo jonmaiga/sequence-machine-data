@@ -1,0 +1,20 @@
+{
+  "description": "Fill an infinite square array by following a spiral around the origin; in the central cell enter a(0)=1; thereafter, in the n-th cell, enter the sum of the entries of those earlier cells that can be seen from that cell.",
+  "id": "A280027",
+  "mentions": [
+    "A274640",
+    "A274641",
+    "A278180"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

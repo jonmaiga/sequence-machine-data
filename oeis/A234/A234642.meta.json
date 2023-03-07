@@ -1,0 +1,19 @@
+{
+  "description": "Smallest x such that x mod phi(x) = n, or 0 if no such x exists.",
+  "id": "A234642",
+  "mentions": [
+    "A068494",
+    "A076495"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

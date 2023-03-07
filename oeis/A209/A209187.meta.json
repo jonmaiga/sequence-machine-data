@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors of n minus cototient of n.",
+  "id": "A209187",
+  "mentions": [
+    "A000203",
+    "A051953",
+    "A065387"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

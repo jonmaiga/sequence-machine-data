@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways that a number n can be written as ddd...d where d is a digit in base b with 1 < b < n-1.",
+  "id": "A220136",
+  "mentions": [
+    "A066460",
+    "A125134",
+    "A284758"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

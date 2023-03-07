@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which rank of the elliptic curve y^2=x^3+(k^2+6*k-3)*x^2-16*k*x is 2.",
+  "id": "A309145",
+  "mentions": [
+    "A309144"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

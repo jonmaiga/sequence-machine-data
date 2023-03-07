@@ -1,0 +1,19 @@
+{
+  "description": "Least k > 0 such that n! + k^2 is prime.",
+  "id": "A269485",
+  "mentions": [
+    "A002981",
+    "A033932",
+    "A038202"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

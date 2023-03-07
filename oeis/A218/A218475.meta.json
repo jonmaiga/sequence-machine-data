@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3n-length 5-ary words, either empty or beginning with the first letter of the alphabet, that can be built by repeatedly inserting triples of identical letters into the initially empty word.",
+  "id": "A218475",
+  "mentions": [
+    "A213027"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

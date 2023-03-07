@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = |{0 < k < n: prime(k) is a primitive root modulo prime(n) and also a primitive root modulo prime(2*n)}|.",
+  "id": "A243847",
+  "mentions": [
+    "A000040",
+    "A242345",
+    "A243755",
+    "A243837",
+    "A243839"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

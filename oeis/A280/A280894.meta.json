@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest prime factor of the concatenation of a(n-2) and a(n-1), with a(1)=1 and a(2)=2.",
+  "id": "A280894",
+  "mentions": [
+    "A034969",
+    "A280893"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

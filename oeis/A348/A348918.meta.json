@@ -1,0 +1,22 @@
+{
+  "description": "Noninfinitary harmonic numbers: numbers such that the harmonic mean of their noninfinitary divisors is an integer.",
+  "id": "A348918",
+  "mentions": [
+    "A001248",
+    "A001599",
+    "A006086",
+    "A063947",
+    "A286325",
+    "A319745"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

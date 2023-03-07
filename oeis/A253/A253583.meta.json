@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of cube root of 2 multiplied by square root of 3.",
+  "id": "A253583",
+  "mentions": [
+    "A002194",
+    "A002580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

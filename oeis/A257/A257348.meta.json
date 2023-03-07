@@ -1,0 +1,24 @@
+{
+  "description": "Repeatedly applying the map x -> sigma(x) partitions the natural numbers into a number of disjoint trees; sequence gives the (conjectural) list of minimal representatives of these trees.",
+  "id": "A257348",
+  "mentions": [
+    "A000203",
+    "A007497",
+    "A051572",
+    "A216200",
+    "A257349",
+    "A257669",
+    "A257670"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Column 2 of table A125790; also equals row sums of matrix power A078121^2.",
+  "id": "A125792",
+  "mentions": [
+    "A002575",
+    "A002577",
+    "A078121",
+    "A125790",
+    "A125793",
+    "A125794",
+    "A125795",
+    "A125796",
+    "A125797",
+    "A125798",
+    "A145515",
+    "A152977"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

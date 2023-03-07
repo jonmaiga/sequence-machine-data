@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that both k and k+1 are the product of exactly five distinct primes.",
+  "id": "A318964",
+  "mentions": [
+    "A046387",
+    "A052215",
+    "A140079",
+    "A215217",
+    "A263990",
+    "A318896"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

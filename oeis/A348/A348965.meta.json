@@ -1,0 +1,20 @@
+{
+  "description": "Exponential harmonic numbers of type 2 that are not squarefree.",
+  "id": "A348965",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A348962",
+    "A348964"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of (n+2)X10 binary arrays with each 3X3 subblock having sum 4 or 5",
+  "id": "A186824",
+  "mentions": [
+    "A186825"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

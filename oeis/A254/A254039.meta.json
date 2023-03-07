@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that (p^3 + 2)/3, (p^5 + 2)/3 and (p^7 + 2)/3 are prime.",
+  "id": "A254039",
+  "mentions": [
+    "A241120",
+    "A253940",
+    "A253941",
+    "A253976"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

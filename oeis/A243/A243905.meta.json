@@ -1,0 +1,20 @@
+{
+  "description": "Multiplicative order of 2 modulo prime(n)^2 for n >= 2.",
+  "id": "A243905",
+  "mentions": [
+    "A001220",
+    "A014664",
+    "A016027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

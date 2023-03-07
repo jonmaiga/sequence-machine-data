@@ -1,0 +1,27 @@
+{
+  "description": "A(n, k) = k! [x^k] exp(2*x)*(y*sinh(x*y) + cosh(x*y)) and y = sqrt(n). Square array read by ascending antidiagonals, for n >= 0 and k >= 0.",
+  "id": "A335312",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A001834",
+    "A007070",
+    "A048876",
+    "A118800",
+    "A164908",
+    "A335537",
+    "A335749"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

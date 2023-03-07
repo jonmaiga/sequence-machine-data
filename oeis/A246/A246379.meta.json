@@ -1,0 +1,33 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(p_n) = A003961(1+a(n)), a(c_n) = 2*a(n), where p_n = n-th prime = A000040(n), c_n = n-th composite number = A002808(n), and A003961(n) shifts the prime factorization of n one step towards larger primes.",
+  "id": "A246379",
+  "mentions": [
+    "A000035",
+    "A000040",
+    "A000720",
+    "A002808",
+    "A003961",
+    "A010051",
+    "A065855",
+    "A071904",
+    "A246363",
+    "A246364",
+    "A246365",
+    "A246367",
+    "A246375",
+    "A246377",
+    "A246380",
+    "A246681"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

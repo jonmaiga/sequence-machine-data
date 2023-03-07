@@ -1,0 +1,23 @@
+{
+  "description": "Number of integer partitions of n whose length is equal to the GCD of the parts and whose sum is equal to the LCM of the parts.",
+  "id": "A319330",
+  "mentions": [
+    "A067538",
+    "A074761",
+    "A143773",
+    "A316432",
+    "A319328",
+    "A319329",
+    "A319333"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

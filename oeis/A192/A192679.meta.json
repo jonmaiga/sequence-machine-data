@@ -1,0 +1,18 @@
+{
+  "description": "Floor-Sqrt transform of ordered Bell numbers (A000670).",
+  "id": "A192679",
+  "mentions": [
+    "A000670"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:31:31",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

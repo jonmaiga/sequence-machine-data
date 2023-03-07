@@ -1,0 +1,19 @@
+{
+  "description": "Consider the iteration k -> 3*k mod 10^(number of decimal digits in n). Sequence gives the number of times the iteration has to be applied to n before returning to n.",
+  "id": "A190338",
+  "mentions": [
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct acyclic orientations of the edges of an n-dimensional cube with complete graphs as facets.",
+  "id": "A334304",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A334248"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

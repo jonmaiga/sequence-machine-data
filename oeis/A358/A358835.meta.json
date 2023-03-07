@@ -1,0 +1,34 @@
+{
+  "description": "Number of multiset partitions of integer partitions of n with constant block sizes and constant block sums.",
+  "id": "A358835",
+  "mentions": [
+    "A000219",
+    "A001970",
+    "A007425",
+    "A008284",
+    "A063834",
+    "A141199",
+    "A296122",
+    "A305551",
+    "A319066",
+    "A320324",
+    "A326534",
+    "A327899",
+    "A327908",
+    "A356932",
+    "A358831",
+    "A358832",
+    "A358833"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

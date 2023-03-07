@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 2*Fibonacci(n+2)+((-1)^n-3)/2 is a prime.",
+  "id": "A271729",
+  "mentions": [
+    "A066629"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

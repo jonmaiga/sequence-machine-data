@@ -1,0 +1,24 @@
+{
+  "description": "Records in A110566 (lcm{1,2,...,n}/denominator of harmonic number H(n)).",
+  "id": "A112810",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A003418",
+    "A025529",
+    "A098464",
+    "A110566",
+    "A112809"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

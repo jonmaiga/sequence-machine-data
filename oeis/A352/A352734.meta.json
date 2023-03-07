@@ -1,0 +1,24 @@
+{
+  "description": "Records of the total number of parts in all partitions of a positive integer into consecutive parts.",
+  "id": "A352734",
+  "mentions": [
+    "A001227",
+    "A204217",
+    "A237048",
+    "A286000",
+    "A299765",
+    "A352733"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

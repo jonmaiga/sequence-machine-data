@@ -1,0 +1,20 @@
+{
+  "description": "Number of double palindrome structures of length n using a maximum of four different symbols.",
+  "id": "A328693",
+  "mentions": [
+    "A284877",
+    "A328690",
+    "A328692"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

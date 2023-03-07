@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the forgotten index of the Lucas cube Lambda(n).",
+  "id": "A307307",
+  "mentions": [
+    "A307181",
+    "A307208",
+    "A307212"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

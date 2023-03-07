@@ -1,0 +1,25 @@
+{
+  "description": "Least k such that n divides s(k)-s(j) for some j",
+  "id": "A205153",
+  "mentions": [
+    "A024675",
+    "A204892",
+    "A204980",
+    "A205152",
+    "A205154",
+    "A205372",
+    "A205373",
+    "A205374",
+    "A205375"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:25:16",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

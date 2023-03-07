@@ -1,0 +1,19 @@
+{
+  "description": "Take the list of all binary vectors (including those beginning with 0) in lexicographic order; a(n) is the index of the first occurrence of the n-th binary vector as a subsequence of A038219.",
+  "id": "A308173",
+  "mentions": [
+    "A038219",
+    "A253060",
+    "A253061"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

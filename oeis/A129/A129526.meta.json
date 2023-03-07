@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-bead two-color bracelets with 00 prohibited.",
+  "id": "A129526",
+  "mentions": [
+    "A000358"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Prime numbers containing the string 13.",
+  "id": "A166573",
+  "mentions": [
+    "A000040",
+    "A076805",
+    "A166571",
+    "A166572",
+    "A166579",
+    "A166580",
+    "A166581",
+    "A166582"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

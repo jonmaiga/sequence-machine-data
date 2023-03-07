@@ -1,0 +1,17 @@
+{
+  "description": "Indices of 2's in A090822.",
+  "id": "A157041",
+  "mentions": [
+    "A090822"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

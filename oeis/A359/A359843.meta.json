@@ -1,0 +1,23 @@
+{
+  "description": "Array listed by antidiagonals: row m is the numbers k such that prime(i)+k is prime for i from m to j where prime(j+1) = A360228(m).",
+  "id": "A359843",
+  "mentions": [
+    "A001359",
+    "A022006",
+    "A022008",
+    "A040976",
+    "A360228"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

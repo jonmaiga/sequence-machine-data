@@ -1,0 +1,27 @@
+{
+  "description": "Near-repunit primes.",
+  "id": "A105992",
+  "mentions": [
+    "A000042",
+    "A002275",
+    "A004022",
+    "A034093",
+    "A046053",
+    "A046413",
+    "A065074",
+    "A065083",
+    "A102782",
+    "A118505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

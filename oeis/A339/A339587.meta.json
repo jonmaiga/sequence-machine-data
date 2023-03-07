@@ -1,0 +1,22 @@
+{
+  "description": "Number of trees with n nodes and Z-domination number gamma_{Zg} = gamma.",
+  "id": "A339587",
+  "mentions": [
+    "A000055",
+    "A339585",
+    "A339586",
+    "A339588",
+    "A339589"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of n X n aperiodic binary arrays.",
+  "id": "A323863",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A027375",
+    "A179043",
+    "A265627",
+    "A323351",
+    "A323860",
+    "A323862",
+    "A323864",
+    "A323865",
+    "A323867",
+    "A323869",
+    "A323872"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

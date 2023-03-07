@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(d + 1 + n/d).",
+  "id": "A294608",
+  "mentions": [
+    "A294606"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

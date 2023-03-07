@@ -1,0 +1,22 @@
+{
+  "description": "Largest number that can be obtained by concatenating the two factors of the n-th semiprime.",
+  "id": "A106557",
+  "mentions": [
+    "A001358",
+    "A084797",
+    "A106556"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "T(j,k) = binomial(j^k,k)/j, j <= m, k <= j, written as triangle T(j,k).",
+  "id": "A321697",
+  "mentions": [
+    "A027480"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

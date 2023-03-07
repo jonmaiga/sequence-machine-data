@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/2^(k-omega(k)) where omega(k) is the number of distinct primes dividing k (A001221).",
+  "id": "A335765",
+  "mentions": [
+    "A000225",
+    "A001221",
+    "A005117",
+    "A008683",
+    "A034444",
+    "A065442",
+    "A066766",
+    "A256936",
+    "A335763",
+    "A335764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

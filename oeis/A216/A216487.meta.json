@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime factor of n^(2n) - 1 having the form k*n+1.",
+  "id": "A216487",
+  "mentions": [
+    "A006486",
+    "A007571",
+    "A187022",
+    "A187023",
+    "A216506"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

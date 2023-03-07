@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6^n * (1-4*n).",
+  "id": "A144708",
+  "mentions": [
+    "A000400",
+    "A131098",
+    "A144706"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

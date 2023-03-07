@@ -1,0 +1,18 @@
+{
+  "description": "Smallest member of Sophie Germain pair, wherein each member of the prime pair is the smallest of its prime quadruplets (p, p+2, p+8, p+12).",
+  "id": "A237256",
+  "mentions": [
+    "A005384",
+    "A233540"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

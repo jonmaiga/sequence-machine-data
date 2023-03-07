@@ -1,0 +1,22 @@
+{
+  "description": "Table T(m, n) of number of (0, 1)-necklaces without zigzags with m 1's and n 0's, read by antidiagonals (see reference for precise definition).",
+  "id": "A263657",
+  "mentions": [
+    "A007039",
+    "A263655",
+    "A263656",
+    "A263658",
+    "A263659"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the solution to Product_{k>=1} (1 - x^k) = x.",
+  "id": "A347968",
+  "mentions": [
+    "A010815",
+    "A067687",
+    "A206119"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

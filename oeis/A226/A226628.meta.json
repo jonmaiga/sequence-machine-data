@@ -1,0 +1,23 @@
+{
+  "description": "Index of the first element of row n of A226623.",
+  "id": "A226628",
+  "mentions": [
+    "A226612",
+    "A226623",
+    "A226624",
+    "A226627",
+    "A226629",
+    "A226631",
+    "A226632"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

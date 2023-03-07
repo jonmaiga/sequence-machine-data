@@ -1,0 +1,17 @@
+{
+  "description": "Numbers congruent to some square mod 10^k for all values of k.",
+  "id": "A241971",
+  "mentions": [
+    "A241081"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

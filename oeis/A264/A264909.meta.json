@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of k-ascent sequences of length n with no consecutive repeated letters; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A264909",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A002378",
+    "A138265",
+    "A160378",
+    "A263852",
+    "A263853",
+    "A263854",
+    "A264910",
+    "A264911",
+    "A264912",
+    "A264913",
+    "A264914",
+    "A264915",
+    "A264916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

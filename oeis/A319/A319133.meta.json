@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 2, a(n+2) = Sum_{d|n} tau(n/d)*a(d), where tau = number of divisors (A000005).",
+  "id": "A319133",
+  "mentions": [
+    "A000005",
+    "A003238",
+    "A007439",
+    "A007557",
+    "A318583"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

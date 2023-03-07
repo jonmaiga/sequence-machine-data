@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-celled polytans with holes.",
+  "id": "A350580",
+  "mentions": [
+    "A001419",
+    "A006074"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

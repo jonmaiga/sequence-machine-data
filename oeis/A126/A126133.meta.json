@@ -1,0 +1,22 @@
+{
+  "description": "Number of edge-rooted unlabeled graphs with n edges.",
+  "id": "A126133",
+  "mentions": [
+    "A000664",
+    "A126122",
+    "A303832",
+    "A339063",
+    "A339064"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

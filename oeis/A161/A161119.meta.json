@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of fixed-point-free involutions of {1,2,...,2n} having k cycles with entries of opposite parities (0 <= k <= n).",
+  "id": "A161119",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A001818",
+    "A161120",
+    "A161121",
+    "A161122"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

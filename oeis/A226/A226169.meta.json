@@ -1,0 +1,23 @@
+{
+  "description": "Niven numbers when expressed in bases 1 through 10.",
+  "id": "A226169",
+  "mentions": [
+    "A005349",
+    "A049445",
+    "A118363",
+    "A144261",
+    "A144262"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

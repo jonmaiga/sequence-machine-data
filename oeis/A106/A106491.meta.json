@@ -1,0 +1,26 @@
+{
+  "description": "Total number of bases and exponents in Quetian Superfactorization of n, including the unity-exponents at the tips of branches.",
+  "id": "A106491",
+  "mentions": [
+    "A000961",
+    "A028234",
+    "A064372",
+    "A067029",
+    "A091247",
+    "A106444",
+    "A106490",
+    "A106492",
+    "A106494"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest positive integer that can be expressed as the difference of two positive triangular numbers in at least n ways.",
+  "id": "A334077",
+  "mentions": [
+    "A000217",
+    "A038547",
+    "A052346",
+    "A053587",
+    "A136107",
+    "A136108",
+    "A214771",
+    "A334078"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

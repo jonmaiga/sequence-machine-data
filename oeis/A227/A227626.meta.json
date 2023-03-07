@@ -1,0 +1,18 @@
+{
+  "description": "Consider the spiral of Theodorus (A072895). This sequence is closely related to A224269 and gives the number of k successive revolutions such that the triangles are closer to 360 degrees than any previous triangles.",
+  "id": "A227626",
+  "mentions": [
+    "A072895",
+    "A224269"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

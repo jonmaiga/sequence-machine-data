@@ -1,0 +1,19 @@
+{
+  "description": "First differences contain a(n) n's, in order, starting with a(0)=1.",
+  "id": "A118103",
+  "mentions": [
+    "A001462",
+    "A100143",
+    "A108104"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

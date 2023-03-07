@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of unit perimeter triangles with rational side lengths whose largest denominator is equal to n.",
+  "id": "A338201",
+  "mentions": [
+    "A180360",
+    "A338202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

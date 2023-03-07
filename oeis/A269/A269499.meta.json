@@ -1,0 +1,19 @@
+{
+  "description": "Nontrivial integer solutions s to the equations Sum_{i} ((-1)^i)*binomial(m,i)*binomial(s-m,t-i) = 0 listed in increasing order.",
+  "id": "A269499",
+  "mentions": [
+    "A082639",
+    "A269563"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

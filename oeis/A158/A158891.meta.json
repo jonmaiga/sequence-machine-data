@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that (2/(n+1))*(Concatenated triangular numbers T (n), T(n+1)) is prime.",
+  "id": "A158891",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

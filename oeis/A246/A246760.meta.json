@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 5; a(n) for n > 1 is the smallest prime > a(n-1) that differs from a(n-1) by a square.",
+  "id": "A246760",
+  "mentions": [
+    "A073609",
+    "A073770",
+    "A076201",
+    "A108022",
+    "A108023"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

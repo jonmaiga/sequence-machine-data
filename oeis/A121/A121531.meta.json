@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nondecreasing Dyck paths of semilength n and having k double rises at an even level (n >= 1, k >= 0). A nondecreasing Dyck path is a Dyck path for which the sequence of the altitudes of the valleys is nondecreasing.",
+  "id": "A121531",
+  "mentions": [
+    "A000071",
+    "A001519",
+    "A121529",
+    "A121532"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

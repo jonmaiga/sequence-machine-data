@@ -1,0 +1,22 @@
+{
+  "description": "Primes with locations of right angle turns in Ulam square spiral (primes in A033638).",
+  "id": "A172979",
+  "mentions": [
+    "A016754",
+    "A033638",
+    "A053755",
+    "A054554",
+    "A054569",
+    "A078784"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

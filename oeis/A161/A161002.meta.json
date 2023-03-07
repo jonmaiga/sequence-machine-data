@@ -1,0 +1,17 @@
+{
+  "description": "Least prime of three consecutive primes (p1,p2,p3) such that p2-p1 and p3-p2 are both perfect squares.",
+  "id": "A161002",
+  "mentions": [
+    "A138198"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that there is a cube strictly between n^2 and n^2+n, and a square strictly between n^3 and n^3+n.",
+  "id": "A247628",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A002378",
+    "A002522",
+    "A010057",
+    "A216155"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

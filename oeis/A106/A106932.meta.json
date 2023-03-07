@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form x^2 + xy + 17y^2, with x and y nonnegative.",
+  "id": "A106932",
+  "mentions": [
+    "A106856",
+    "A191041"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

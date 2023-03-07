@@ -1,0 +1,19 @@
+{
+  "description": "Partitioned 2nd-order Eulerian numbers forming an \"Eulerian pyramid\" (tetrahedron).",
+  "id": "A321591",
+  "mentions": [
+    "A008292",
+    "A008517"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

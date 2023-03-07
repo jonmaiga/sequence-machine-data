@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = a(n-1) + (sum of the terms, from among terms a(1) through a(n-1), which divide sum{k=1 to n-1} a(k)).",
+  "id": "A123859",
+  "mentions": [
+    "A104074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

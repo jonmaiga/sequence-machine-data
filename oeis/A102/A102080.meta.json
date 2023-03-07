@@ -1,0 +1,23 @@
+{
+  "description": "Number of matchings in the C_n X P_2 (n-prism) graph.",
+  "id": "A102080",
+  "mentions": [
+    "A033505",
+    "A068397",
+    "A102079",
+    "A287428"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

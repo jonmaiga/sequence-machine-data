@@ -1,0 +1,19 @@
+{
+  "description": "a(n) gives the number of primes of form (2*n+1)*2^m + 1 where m satisfies 2^m <= 2*n+1.",
+  "id": "A331539",
+  "mentions": [
+    "A032360",
+    "A080076",
+    "A134876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of integers k in base n whose squared digits sum to sqrt(k).",
+  "id": "A226352",
+  "mentions": [
+    "A003132",
+    "A007953",
+    "A055012",
+    "A055013",
+    "A055014",
+    "A055015",
+    "A226224",
+    "A226353"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

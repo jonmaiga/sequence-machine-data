@@ -1,0 +1,24 @@
+{
+  "description": "Let m = n-th squarefree number = A005117(n), and consider the smallest pair of consecutive squarefree numbers (r,s) with gcd(r,s) = m; sequence gives values of r.",
+  "id": "A109473",
+  "mentions": [
+    "A005117",
+    "A020754",
+    "A051681",
+    "A109505",
+    "A337914",
+    "A337915"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive solutions x/(3*13) of the Pell equation x^2 - 61*y^2 = -4.",
+  "id": "A226701",
+  "mentions": [
+    "A049310",
+    "A226702"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:21:14",
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

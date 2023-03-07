@@ -1,0 +1,18 @@
+{
+  "description": "2*A181518(n)-A181516(n).",
+  "id": "A181520",
+  "mentions": [
+    "A181516",
+    "A181518"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

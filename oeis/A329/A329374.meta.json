@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) = A000265(A329372(n)), where A329372 is Dirichlet convolution of the identity function with A156552.",
+  "id": "A329374",
+  "mentions": [
+    "A000265",
+    "A061395",
+    "A156552",
+    "A297112",
+    "A297167",
+    "A329372",
+    "A329373"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

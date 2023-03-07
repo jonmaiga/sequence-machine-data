@@ -1,0 +1,23 @@
+{
+  "description": "Consider the Levenshtein distance between k considered as a decimal string and k considered as a binary string. Then a(n) is the greatest number m such that the Levenshtein distance is n or 0 if no such number exists.",
+  "id": "A115779",
+  "mentions": [
+    "A000027",
+    "A007088",
+    "A115777",
+    "A115778"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Sum of 4th powers of divisors of n that are <= sqrt(n).",
+  "id": "A347143",
+  "mentions": [
+    "A001159",
+    "A038548",
+    "A066839",
+    "A095118",
+    "A279363",
+    "A280375",
+    "A347142"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

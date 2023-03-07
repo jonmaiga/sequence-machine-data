@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 20*n + 15.",
+  "id": "A290781",
+  "mentions": [
+    "A001567",
+    "A004767",
+    "A016885",
+    "A017329"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:27:23",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

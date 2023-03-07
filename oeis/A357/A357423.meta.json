@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies A(x) * exp(A(x)) = log(1 + x * exp(A(x))).",
+  "id": "A357423",
+  "mentions": [
+    "A349587",
+    "A357349",
+    "A357350",
+    "A357351"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

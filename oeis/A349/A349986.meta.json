@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be represented as p^2 + p*q + q^2 where p and q are primes.",
+  "id": "A349986",
+  "mentions": [
+    "A024614",
+    "A079705",
+    "A244146",
+    "A349987"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of probabilities in the Newton-Pepys problem.",
+  "id": "A143163",
+  "mentions": [
+    "A143162"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

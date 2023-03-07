@@ -1,0 +1,26 @@
+{
+  "description": "Difference between pi(10^n) and nearest integer to (4*((S(n))^(n-1))) where pi(10^n) = number of primes <= 10^n (A006880) and S(n) = Sum_{i=0..2} (C(i)*(log(log(A*(B+n^(8/3)))))^(2i)) (A225137).",
+  "id": "A225138",
+  "mentions": [
+    "A006880",
+    "A057752",
+    "A057794",
+    "A106313",
+    "A190802",
+    "A215663",
+    "A223166",
+    "A223167",
+    "A225137"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Euler transform of n^n.",
+  "id": "A305754",
+  "mentions": [
+    "A000312",
+    "A112354",
+    "A305787",
+    "A358451"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Smallest k such that k*11^n is a sum of two successive primes.",
+  "id": "A180135",
+  "mentions": [
+    "A179975",
+    "A180130",
+    "A180131",
+    "A180132",
+    "A180133",
+    "A180134",
+    "A180136",
+    "A180137",
+    "A180138"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

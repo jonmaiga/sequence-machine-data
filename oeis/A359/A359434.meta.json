@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k >= 1 such that k * phi(k) / (k + phi(k)) is an integer, where phi(k) = A000010(k).",
+  "id": "A359434",
+  "mentions": [
+    "A000010",
+    "A003586",
+    "A033845"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

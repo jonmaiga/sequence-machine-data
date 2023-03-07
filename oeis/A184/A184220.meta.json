@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = largest k such that A000290(n+1) = A000290(n) + (A000290(n) mod k), or 0 if no such k exists.",
+  "id": "A184220",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001223",
+    "A005408",
+    "A008865",
+    "A117078",
+    "A117563",
+    "A118534",
+    "A133150",
+    "A184221"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

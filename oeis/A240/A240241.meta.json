@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..infinity} x!/x^x dx.",
+  "id": "A240241",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Squareful numbers with both neighbors squarefree.",
+  "id": "A280892",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A067874",
+    "A228649",
+    "A272799",
+    "A281192"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

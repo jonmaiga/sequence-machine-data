@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array A(n, k) = hypergeom([-k, k + n/2 - 1], [1], -4) with row n >= 0 and k >= 0, read by ascending antidiagonals.",
+  "id": "A300945",
+  "mentions": [
+    "A084769",
+    "A243946",
+    "A243947",
+    "A299506",
+    "A299845",
+    "A300946"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

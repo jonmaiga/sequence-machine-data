@@ -1,0 +1,18 @@
+{
+  "description": "Lengths of the B blocks associated with A091787.",
+  "id": "A357063",
+  "mentions": [
+    "A091787",
+    "A357068"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

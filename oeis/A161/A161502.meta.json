@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number of binary digits that when appended to the right side of the binary representation of n, forms a binary palindrome.",
+  "id": "A161502",
+  "mentions": [
+    "A145800",
+    "A161501"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

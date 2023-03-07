@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers that have no Sophie Germain prime and no \"safe prime\" factors.",
+  "id": "A350705",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A053176",
+    "A059500",
+    "A350704",
+    "A350706"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

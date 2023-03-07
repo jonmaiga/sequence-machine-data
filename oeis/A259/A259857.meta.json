@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k), n>=1, 2<=k<=n+1, read by rows, where T(n,k) is the number of self-avoiding square-lattice polygons by area n and perimeter 2*k.",
+  "id": "A259857",
+  "mentions": [
+    "A006724",
+    "A006725",
+    "A006726",
+    "A008855"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

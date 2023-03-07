@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which Ramanujan's function tau(n)=A000594(n) is an odd prime.",
+  "id": "A135430",
+  "mentions": [
+    "A000594",
+    "A007659",
+    "A036454",
+    "A265913"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

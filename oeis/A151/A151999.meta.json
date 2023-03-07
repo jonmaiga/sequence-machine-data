@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that every prime that divides phi(k) also divides k.",
+  "id": "A151999",
+  "mentions": [
+    "A005117",
+    "A007694",
+    "A007947",
+    "A055744",
+    "A073539",
+    "A080400",
+    "A152000",
+    "A204010"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that both m^2-1 and m^2 are refactorable numbers (A033950) and that m^2 has more divisors than m^2-1.",
+  "id": "A342970",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A342969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

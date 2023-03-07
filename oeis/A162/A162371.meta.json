@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest permutation of the natural numbers such that, when seen as a triangle read by rows, for n>1 the sums of rows are prime numbers.",
+  "id": "A162371",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A162372",
+    "A162373",
+    "A162374",
+    "A162375"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

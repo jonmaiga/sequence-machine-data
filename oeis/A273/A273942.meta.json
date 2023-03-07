@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 3^n + n.",
+  "id": "A273942",
+  "mentions": [
+    "A057900",
+    "A104743",
+    "A129962",
+    "A129963"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

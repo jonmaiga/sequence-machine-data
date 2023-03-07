@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest permutation of the positive integers, such that no carry occurs when adjacent terms are added in decimal representation.",
+  "id": "A252022",
+  "mentions": [
+    "A167831",
+    "A251984",
+    "A252001",
+    "A252023",
+    "A252079",
+    "A262604"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

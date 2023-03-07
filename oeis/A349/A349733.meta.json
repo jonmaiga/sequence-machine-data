@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers that are missing from A349194.",
+  "id": "A349733",
+  "mentions": [
+    "A349194",
+    "A349732",
+    "A349865",
+    "A350061"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

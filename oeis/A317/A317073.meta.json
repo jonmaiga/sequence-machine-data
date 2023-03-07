@@ -1,0 +1,28 @@
+{
+  "description": "Number of antichains of multisets with multiset-join a normal multiset of size n.",
+  "id": "A317073",
+  "mentions": [
+    "A048143",
+    "A255906",
+    "A285572",
+    "A303837",
+    "A303838",
+    "A304998",
+    "A305001",
+    "A317074",
+    "A317075",
+    "A317077",
+    "A317079"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

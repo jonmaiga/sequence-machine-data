@@ -1,0 +1,29 @@
+{
+  "description": "Least positive k such that k*n^n - 1 is a prime, or 0 if no such k exists.",
+  "id": "A231818",
+  "mentions": [
+    "A034693",
+    "A035092",
+    "A035093",
+    "A053989",
+    "A057217",
+    "A083663",
+    "A175763",
+    "A193807",
+    "A231119",
+    "A231734",
+    "A231735",
+    "A231819",
+    "A231820"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

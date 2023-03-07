@@ -1,0 +1,20 @@
+{
+  "description": "Minimum perimeter of n-tuples of Heronian triangles with equal perimeter and equal area.",
+  "id": "A198311",
+  "mentions": [
+    "A204559",
+    "A334285"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

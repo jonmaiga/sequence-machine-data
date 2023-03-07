@@ -1,0 +1,20 @@
+{
+  "description": "Binary strings that have 1's where 'evil numbers' occur, 0's elsewhere and every term ends with the n-th evil number index (counting with 0 = first).",
+  "id": "A109431",
+  "mentions": [
+    "A001969",
+    "A109432"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

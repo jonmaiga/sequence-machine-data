@@ -1,0 +1,17 @@
+{
+  "description": "Word binomial coefficient for fib(n+1), fib(n), where fib(n) is the n-th Fibonacci word.",
+  "id": "A322520",
+  "mentions": [
+    "A003849"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Arnoux-Rauzy word sigma_0 x sigma_2 x sigma_1. Fixed point of the morphism 0-> 0201020, 1->1020, 2->201020 starting from a(1)=0.",
+  "id": "A347290",
+  "mentions": [
+    "A058265",
+    "A080843",
+    "A192918",
+    "A286998"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

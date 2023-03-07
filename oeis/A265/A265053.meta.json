@@ -1,0 +1,21 @@
+{
+  "description": "Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.",
+  "id": "A265053",
+  "mentions": [
+    "A265044",
+    "A265047",
+    "A265054"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

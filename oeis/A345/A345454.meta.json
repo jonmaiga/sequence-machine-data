@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: log(1 - log(1 - x) * exp(x)).",
+  "id": "A345454",
+  "mentions": [
+    "A002104",
+    "A009321",
+    "A009324",
+    "A191365",
+    "A346427"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

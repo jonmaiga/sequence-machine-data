@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the maximal determinant of a symmetric n X n matrix using the integers 1 to n*(n+1)/2.",
+  "id": "A351148",
+  "mentions": [
+    "A000217",
+    "A085000",
+    "A351147",
+    "A351609"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

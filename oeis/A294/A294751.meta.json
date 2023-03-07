@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree products of k primes that are symmetrically distributed around their average. Case k = 4.",
+  "id": "A294751",
+  "mentions": [
+    "A006881",
+    "A046386",
+    "A262723",
+    "A294752",
+    "A294776"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd chordless cycles in the (2n+1)-prism graph.",
+  "id": "A301774",
+  "mentions": [
+    "A002878",
+    "A131713",
+    "A301775"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:22:39",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

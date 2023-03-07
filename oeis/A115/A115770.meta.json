@@ -1,0 +1,25 @@
+{
+  "description": "Integers i such that 7*i = A048720bi(11, i), where A048720bi implements the dyadic function given in A048720 (see A001317).",
+  "id": "A115770",
+  "mentions": [
+    "A001317",
+    "A048717",
+    "A048720",
+    "A115767",
+    "A115771",
+    "A115772",
+    "A115774",
+    "A115776",
+    "A115872"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 120*x^2 / (-x^3+899*x^2-899*x+1).",
+  "id": "A157879",
+  "mentions": [
+    "A157014",
+    "A157877",
+    "A157878",
+    "A245031"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

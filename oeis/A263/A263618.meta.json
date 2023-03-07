@@ -1,0 +1,23 @@
+{
+  "description": "Number of palindromic squares with exactly n digits.",
+  "id": "A263618",
+  "mentions": [
+    "A002778",
+    "A002779",
+    "A263617",
+    "A263619",
+    "A263620"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

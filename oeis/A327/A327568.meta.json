@@ -1,0 +1,20 @@
+{
+  "description": "Exponent of the group GL(2, Z_n).",
+  "id": "A327568",
+  "mentions": [
+    "A000252",
+    "A316565",
+    "A327569"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Third column (m=2) of unsigned triangle A111595.",
+  "id": "A111602",
+  "mentions": [
+    "A111595"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:26:55",
+    "offset": 2,
+    "size": 18,
+    "source": "joeis"
+  }
+}

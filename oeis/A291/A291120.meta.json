@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) number of ways of partitioning the (n+5)-element multiset {1,1,1,1,1,1,2,3,...,n} into exactly k nonempty parts, n >= 0 and 1 <= k <= n + 5.",
+  "id": "A291120",
+  "mentions": [
+    "A241500",
+    "A291117",
+    "A291118",
+    "A291119"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

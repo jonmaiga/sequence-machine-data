@@ -1,0 +1,19 @@
+{
+  "description": "Sums of three perfect powers with different exponents: m = a^x + b^y + c^z with a > 0, b > 0, c > 0, x > 1, y > 1, z > 1 and x, y, z are all different, with m not representable with fewer such addends.",
+  "id": "A351066",
+  "mentions": [
+    "A074499",
+    "A351062",
+    "A351063"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

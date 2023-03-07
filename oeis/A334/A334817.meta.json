@@ -1,0 +1,18 @@
+{
+  "description": "Distinct values of A230399(n) - n.",
+  "id": "A334817",
+  "mentions": [
+    "A230374",
+    "A230399"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

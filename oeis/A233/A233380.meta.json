@@ -1,0 +1,17 @@
+{
+  "description": "X-coordinate of the bottom left corner of the n X 1 brick in the greedy tiling of the first quadrant with bricks of height 1 and width 1, 2, 3... (See Comments for precise definition).",
+  "id": "A233380",
+  "mentions": [
+    "A233381"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

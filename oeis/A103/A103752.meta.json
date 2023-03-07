@@ -1,0 +1,21 @@
+{
+  "description": "Erroneous version of: Primes from merging of 10 successive digits in decimal expansion of the Golden Ratio: (1+sqrt(5))/2.",
+  "id": "A103752",
+  "mentions": [
+    "A105383",
+    "A198177"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "changed",
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

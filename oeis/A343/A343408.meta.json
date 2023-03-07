@@ -1,0 +1,23 @@
+{
+  "description": "Sum of proper divisors of n that are triangular numbers.",
+  "id": "A343408",
+  "mentions": [
+    "A000217",
+    "A001065",
+    "A010054",
+    "A185027",
+    "A293235",
+    "A343407"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

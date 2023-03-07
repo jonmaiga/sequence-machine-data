@@ -1,0 +1,43 @@
+{
+  "description": "Number T(n,k) of (binary) max-heaps on n elements from the set {0,1} containing exactly k 0's; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A309049",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000225",
+    "A000295",
+    "A003095",
+    "A024358",
+    "A056971",
+    "A063915",
+    "A091980",
+    "A110654",
+    "A114220",
+    "A137560",
+    "A168542",
+    "A202019",
+    "A309050",
+    "A309051",
+    "A309052",
+    "A326504",
+    "A326505",
+    "A326506",
+    "A326507",
+    "A326508",
+    "A326509",
+    "A326510",
+    "A326511"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

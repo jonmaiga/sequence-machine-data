@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of x^n in the n-th iteration of x/(1-x)^2 for n>=1.",
+  "id": "A119821",
+  "mentions": [
+    "A000169",
+    "A112317",
+    "A119815",
+    "A119817",
+    "A119819",
+    "A119820"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

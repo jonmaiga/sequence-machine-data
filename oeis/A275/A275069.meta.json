@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of set partitions of [n] such that i-j is a multiple of k for all i,j belonging to the same block; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A275069",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000110",
+    "A000351",
+    "A001024",
+    "A124419",
+    "A275070",
+    "A275071",
+    "A275072",
+    "A275073",
+    "A275074",
+    "A275075",
+    "A275076",
+    "A275077"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

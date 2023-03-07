@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest integer >= n such that all the distinct primes that divide n and a(n) together are members of a set of consecutive primes. In other words, a(n) is the smallest integer >= n such that n*a(n) is contained in sequence A073491.",
+  "id": "A143265",
+  "mentions": [
+    "A073491",
+    "A137795"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

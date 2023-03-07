@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers that can be written as concatenation of two composite numbers in decimal representation.",
+  "id": "A121610",
+  "mentions": [
+    "A002808",
+    "A105184",
+    "A121608",
+    "A121609"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

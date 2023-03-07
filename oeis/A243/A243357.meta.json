@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of integers with property that if a vertical line is drawn between any pair of adjacent digits, the number Z formed by the digits to the left of the line is divisible by the final digit of Z.",
+  "id": "A243357",
+  "mentions": [
+    "A244033",
+    "A244034",
+    "A244471",
+    "A244496"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

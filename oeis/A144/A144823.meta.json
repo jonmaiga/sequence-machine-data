@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals, with A(1,k)=1 and sequence a_k of column k shifts left when Dirichlet convolution with a_k (DC:(b,a_k)->a) applied k times.",
+  "id": "A144823",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000290",
+    "A002414",
+    "A038044",
+    "A144316",
+    "A144317",
+    "A144817",
+    "A144818",
+    "A144819",
+    "A144820",
+    "A144821",
+    "A144822"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "eigen",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

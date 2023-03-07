@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not the sum of ten (10) positive cubes.",
+  "id": "A332110",
+  "mentions": [
+    "A003333",
+    "A332107",
+    "A332108",
+    "A332109",
+    "A332111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

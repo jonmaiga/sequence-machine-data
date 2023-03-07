@@ -1,0 +1,20 @@
+{
+  "description": "Irregular array: n-th row consists of nonnegative integers i less than n such that n divides i(i+1).",
+  "id": "A108760",
+  "mentions": [
+    "A012132",
+    "A108752"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

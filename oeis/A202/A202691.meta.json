@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: number of type B snakes according to their last value.",
+  "id": "A202691",
+  "mentions": [
+    "A185356",
+    "A202690",
+    "A202704"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

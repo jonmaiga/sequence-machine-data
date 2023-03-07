@@ -1,0 +1,23 @@
+{
+  "description": "Length of runs in A244221 (Greedy Catalan Base, A014418, reduced modulo 2).",
+  "id": "A244226",
+  "mentions": [
+    "A000012",
+    "A014418",
+    "A244218",
+    "A244219",
+    "A244220",
+    "A244221",
+    "A244227"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

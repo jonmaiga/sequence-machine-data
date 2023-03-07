@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m that divide the sum of cubes of the first m primes A098999(m).",
+  "id": "A122140",
+  "mentions": [
+    "A098999"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

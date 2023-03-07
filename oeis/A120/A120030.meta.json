@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of theta_4(q)^2*theta_4(q^2)^4 in powers of q.",
+  "id": "A120030",
+  "mentions": [
+    "A000122",
+    "A000141",
+    "A000700",
+    "A002173",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A050470",
+    "A056594",
+    "A121373",
+    "A128692"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

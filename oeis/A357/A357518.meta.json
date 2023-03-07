@@ -1,0 +1,22 @@
+{
+  "description": "Unique fixed point of the two-block substitution 00->111, 01->110, 10->101, 11->100.",
+  "id": "A357518",
+  "mentions": [
+    "A010060",
+    "A087088",
+    "A096268",
+    "A354896",
+    "A357448"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

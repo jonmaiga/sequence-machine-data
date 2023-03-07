@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: coefficients of polynomials in Sum_{k = 0..t} k^n*binomial(t,k).",
+  "id": "A209849",
+  "mentions": [
+    "A008275",
+    "A009006",
+    "A059419",
+    "A063376",
+    "A075497",
+    "A079641",
+    "A102573",
+    "A119468",
+    "A154602",
+    "A155585",
+    "A176668",
+    "A195204",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

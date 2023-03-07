@@ -1,0 +1,23 @@
+{
+  "description": "Number of tilings of a 3 X 3 X n box using 3n bricks of shape 3 X 1 X 1.",
+  "id": "A233289",
+  "mentions": [
+    "A006253",
+    "A233291",
+    "A233294",
+    "A233308",
+    "A273474"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

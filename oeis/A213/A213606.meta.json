@@ -1,0 +1,18 @@
+{
+  "description": "Greater of a pair (x,y) of consecutive terms of A045572 which are both semiprimes and such that the prime factors of x are adjacent primes to the factors of y.",
+  "id": "A213606",
+  "mentions": [
+    "A045572",
+    "A213605"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

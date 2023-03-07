@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of regions formed when n points are placed along each edge of a square that divide the edges into n+1 equal parts and a line is continuously drawn from the current point to that k points, 2 <= k <= 2*n, counterclockwise around the square until the starting point is again reached.",
+  "id": "A358556",
+  "mentions": [
+    "A331452",
+    "A345459",
+    "A355798",
+    "A355838",
+    "A357058",
+    "A358407",
+    "A358574",
+    "A358627"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

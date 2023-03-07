@@ -1,0 +1,29 @@
+{
+  "description": "Brazilian numbers which have exactly two Brazilian representations.",
+  "id": "A290015",
+  "mentions": [
+    "A085104",
+    "A119598",
+    "A125134",
+    "A220570",
+    "A220571",
+    "A257521",
+    "A284758",
+    "A288783",
+    "A290016",
+    "A290017",
+    "A290018",
+    "A329383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

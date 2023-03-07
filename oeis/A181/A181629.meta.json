@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers k = p_1^{r_1} ... p_n^{r_n} such that sum_{i=1..n} p_i^{-r_i} >= 1 (Non-Hyperbolic Integers).",
+  "id": "A181629",
+  "mentions": [
+    "A028236"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

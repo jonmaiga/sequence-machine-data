@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle C(n,g) read by rows, counting the connected 6-regular simple graphs on n vertices with girth exactly g.",
+  "id": "A184960",
+  "mentions": [
+    "A006822",
+    "A054760",
+    "A058276",
+    "A184940",
+    "A184950",
+    "A184961",
+    "A184963",
+    "A184964",
+    "A184970",
+    "A184980",
+    "A198303"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

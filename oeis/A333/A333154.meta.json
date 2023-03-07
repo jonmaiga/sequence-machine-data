@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{k>=1} (k^2 * x^(k*(k+1)) / Product_{j=1..k} (1 - x^j)).",
+  "id": "A333154",
+  "mentions": [
+    "A001622",
+    "A003106",
+    "A268188",
+    "A333153",
+    "A333155"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

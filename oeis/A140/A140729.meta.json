@@ -1,0 +1,26 @@
+{
+  "description": "Diagonal A(n,n) of array A(k,n) = Product of first n of k-gonal pyramidal numbers.",
+  "id": "A140729",
+  "mentions": [
+    "A000292",
+    "A000330",
+    "A002411",
+    "A002412",
+    "A002413",
+    "A002414",
+    "A087047",
+    "A130729"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

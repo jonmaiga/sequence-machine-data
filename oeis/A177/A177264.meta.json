@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k as the first entry in the last block (1<=k<=n). A block of a permutation is a maximal sequence of consecutive integers which appear in consecutive positions. For example, the permutation 45123867 has 4 blocks: 45, 123, 8, and 67.",
+  "id": "A177264",
+  "mentions": [
+    "A003422",
+    "A177263"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

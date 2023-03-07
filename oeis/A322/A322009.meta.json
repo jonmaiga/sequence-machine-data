@@ -1,0 +1,21 @@
+{
+  "description": "1/(Integral_{x=0..1} x^(x^(x^n)) dx - 1/2), rounded to the nearest integer.",
+  "id": "A322009",
+  "mentions": [
+    "A000081",
+    "A083648",
+    "A222379",
+    "A222380",
+    "A322008"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

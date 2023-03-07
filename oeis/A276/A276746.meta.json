@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} exp(-n*x) * [ Sum_{k>=1} k^n * x^k/k! ]^n.",
+  "id": "A276746",
+  "mentions": [
+    "A008277",
+    "A276743",
+    "A276747"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

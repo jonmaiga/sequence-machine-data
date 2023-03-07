@@ -1,0 +1,20 @@
+{
+  "description": "Isomorphism classes of connected 2-in 2-out digraphs, allowing parallel edges but not loops.",
+  "id": "A306827",
+  "mentions": [
+    "A219889",
+    "A306892",
+    "A307180"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

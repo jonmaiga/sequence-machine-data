@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(sigma(n)) - sigma(n) - n, where sigma(n) = A000203(n) = sum of the divisors of n.",
+  "id": "A227758",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A051027",
+    "A227756",
+    "A227759",
+    "A227760"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

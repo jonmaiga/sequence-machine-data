@@ -1,0 +1,23 @@
+{
+  "description": "Möbius (or Moebius) partition function of partitions listed in the Abramowitz-Stegun order.",
+  "id": "A286349",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007837",
+    "A008683",
+    "A010815",
+    "A032020"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

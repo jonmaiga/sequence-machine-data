@@ -1,0 +1,18 @@
+{
+  "description": "Iteration of Abelian sandpile model where the n-th matrix expansions occurs. Begins with infinite sand in 1 X 1 matrix.",
+  "id": "A328506",
+  "mentions": [
+    "A249872",
+    "A259013"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + 2*x)/(1 + 4*x^2)^(3/2).",
+  "id": "A331552",
+  "mentions": [
+    "A100071",
+    "A331511"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

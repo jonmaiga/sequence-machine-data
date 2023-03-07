@@ -1,0 +1,18 @@
+{
+  "description": "Minimal number of polygonal pieces in a dissection of a regular n-gon to an equilateral triangle (conjectured).",
+  "id": "A110000",
+  "mentions": [
+    "A110312",
+    "A110356"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

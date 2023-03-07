@@ -1,0 +1,27 @@
+{
+  "description": "Number of free pentagonal polyforms with n cells on the order-4 pentagonal tiling of the hyperbolic plane.",
+  "id": "A330211",
+  "mentions": [
+    "A000105",
+    "A000207",
+    "A000228",
+    "A000577",
+    "A005036",
+    "A119611",
+    "A330659",
+    "A332930",
+    "A333018"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

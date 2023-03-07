@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k > 1 such that tau(k^2-1) + 1 = tau(k^2) = tau(k^2+1) - 1, tau = A000005.",
+  "id": "A352974",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

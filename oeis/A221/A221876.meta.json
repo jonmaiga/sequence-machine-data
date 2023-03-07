@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) is the number of order-preserving full contraction mappings (of an n-chain) with exactly k fixed points.",
+  "id": "A221876",
+  "mentions": [
+    "A001792",
+    "A045623",
+    "A066633",
+    "A221877",
+    "A221878",
+    "A221879",
+    "A221880",
+    "A221881",
+    "A221882"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

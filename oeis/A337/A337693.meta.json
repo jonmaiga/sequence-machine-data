@@ -1,0 +1,23 @@
+{
+  "description": "Number of regions after generation n of Conant's dissection of a square when dissected with diagonal lines and where the starting edges rotate counterclockwise around the square and the dissection halves in size after every generation.",
+  "id": "A337693",
+  "mentions": [
+    "A328078",
+    "A334630",
+    "A335093",
+    "A335703",
+    "A337270",
+    "A337675"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

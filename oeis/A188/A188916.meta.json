@@ -1,0 +1,22 @@
+{
+  "description": "Where squares occur in the union of squares and powers of 2.",
+  "id": "A188916",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A006127",
+    "A010052",
+    "A188915",
+    "A188917"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

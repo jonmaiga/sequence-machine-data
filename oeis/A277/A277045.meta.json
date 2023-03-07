@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows giving the number of partitions of length k such that all of the members of the partition are distinct and in A003586.",
+  "id": "A277045",
+  "mentions": [
+    "A003586",
+    "A237442",
+    "A276380"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n+1) = number of sequences of length n, dominated by the squares, with entries from [0,k] and largest entry k.",
+  "id": "A261897",
+  "mentions": [
+    "A242105",
+    "A261930"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

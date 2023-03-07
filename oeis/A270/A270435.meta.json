@@ -1,0 +1,21 @@
+{
+  "description": "Positions of zeros in A270434; numbers n for which A270432(n) = A270433(n).",
+  "id": "A270435",
+  "mentions": [
+    "A048673",
+    "A064216",
+    "A270432",
+    "A270433",
+    "A270434"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of psi(-x^3) / f(-x^4) in powers of x where psi(), f() are Ramanujan theta functions.",
+  "id": "A143067",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A089801",
+    "A106507",
+    "A121373",
+    "A262064",
+    "A262090"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:31",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

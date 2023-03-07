@@ -1,0 +1,22 @@
+{
+  "description": "Indices of primes occurring in A031134.",
+  "id": "A122413",
+  "mentions": [
+    "A031131",
+    "A031132",
+    "A031133",
+    "A031134",
+    "A122412"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

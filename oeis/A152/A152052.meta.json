@@ -1,0 +1,22 @@
+{
+  "description": "Number of cousin primes < 10^n.",
+  "id": "A152052",
+  "mentions": [
+    "A080840",
+    "A152127",
+    "A333587"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

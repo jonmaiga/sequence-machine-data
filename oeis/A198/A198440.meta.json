@@ -1,0 +1,28 @@
+{
+  "description": "Square root of second term of a triple of squares in arithmetic progression that is not a multiple of another triple in (A198384, A198385, A198386).",
+  "id": "A198440",
+  "mentions": [
+    "A020882",
+    "A198384",
+    "A198385",
+    "A198386",
+    "A198389",
+    "A198409",
+    "A198435",
+    "A198436",
+    "A198439",
+    "A198441",
+    "A222946"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

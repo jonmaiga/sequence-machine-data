@@ -1,0 +1,18 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = fibonacci(k(n-k) + 1) for n>=k>=0.",
+  "id": "A135966",
+  "mentions": [
+    "A135967"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

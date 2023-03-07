@@ -1,0 +1,20 @@
+{
+  "description": "Minimum length of a perfect ruler that contains a segment not shorter than n.",
+  "id": "A104309",
+  "mentions": [
+    "A103294",
+    "A104305",
+    "A104310"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

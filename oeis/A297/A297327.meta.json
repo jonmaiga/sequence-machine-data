@@ -1,0 +1,22 @@
+{
+  "description": "1/36 of the square of the basis of a primitive 3-simplex.",
+  "id": "A297327",
+  "mentions": [
+    "A023185",
+    "A031173",
+    "A031174",
+    "A031175",
+    "A295507"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

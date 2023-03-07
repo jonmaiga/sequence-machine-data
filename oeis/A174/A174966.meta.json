@@ -1,0 +1,21 @@
+{
+  "description": "A symmetrical triangle sequence: q=1;t(n,m,q)=If[q == 1, Binomial[n, m] + Eulerian[n + 1, m] - Binomial[n, m]*Eulerian[n + 1, m], (q - 1) + Binomial[n, m]^q + Eulerian[n + 1, m]^q - q*Binomial[n, m]*Eulerian[n + 1, m]]",
+  "id": "A174966",
+  "mentions": [
+    "A174912",
+    "A174914"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

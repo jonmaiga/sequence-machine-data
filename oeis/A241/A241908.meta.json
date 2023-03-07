@@ -1,0 +1,24 @@
+{
+  "description": "Number of perfect matchings in graph P_{13} X P_{2n}.",
+  "id": "A241908",
+  "mentions": [
+    "A028470",
+    "A028471",
+    "A028472",
+    "A028473",
+    "A028474",
+    "A099390",
+    "A187596"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

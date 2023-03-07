@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=1..9} a(n-k); a(8) = 1, a(n) = 0 for n < 8.",
+  "id": "A104144",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A066178",
+    "A079262",
+    "A255529"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:33:49",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

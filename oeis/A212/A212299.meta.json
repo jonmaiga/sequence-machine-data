@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of exp((gamma - 1)/sqrt(e)).",
+  "id": "A212299",
+  "mentions": [
+    "A001620",
+    "A212300"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

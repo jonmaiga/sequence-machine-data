@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the primorial inflation of k is a sum of distinct primorial numbers.",
+  "id": "A344591",
+  "mentions": [
+    "A002110",
+    "A008578",
+    "A108951",
+    "A276156",
+    "A324886",
+    "A329344",
+    "A344592",
+    "A344593",
+    "A351957",
+    "A351958",
+    "A351959"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

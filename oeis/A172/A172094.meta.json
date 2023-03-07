@@ -1,0 +1,27 @@
+{
+  "description": "The Riordan square of the little Schröder numbers A001003.",
+  "id": "A172094",
+  "mentions": [
+    "A000012",
+    "A001003",
+    "A007318",
+    "A016777",
+    "A084938",
+    "A109980",
+    "A122538",
+    "A239204",
+    "A321620"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

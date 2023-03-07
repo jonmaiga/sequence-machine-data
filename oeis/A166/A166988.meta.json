@@ -1,0 +1,21 @@
+{
+  "description": "Products n of a square of a prime and a cube of a prime such that n-1 and n+1 are semiprimes.",
+  "id": "A166988",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A030078",
+    "A124936",
+    "A143610"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

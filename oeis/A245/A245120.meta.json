@@ -1,0 +1,30 @@
+{
+  "description": "Number T(n,k) of n-node rooted identity trees with thinning limbs and root outdegree (branching factor) k; triangle T(n,k), n>=1, 0<=k<=max-index-of-row(n), read by rows.",
+  "id": "A245120",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A124346",
+    "A244657",
+    "A245121",
+    "A245122",
+    "A245123",
+    "A245124",
+    "A245125",
+    "A245126",
+    "A245127",
+    "A245128",
+    "A245129"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A319018.",
+  "id": "A319019",
+  "mentions": [
+    "A319018",
+    "A322048",
+    "A322049",
+    "A322050"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(n/2) - floor((n+1)/5), n >= 0.",
+  "id": "A286716",
+  "mentions": [
+    "A001622",
+    "A049310",
+    "A059169",
+    "A285870",
+    "A286717"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:17",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

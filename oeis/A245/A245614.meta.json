@@ -1,0 +1,37 @@
+{
+  "description": "Permutation of natural numbers: a(1)=1; thereafter, if n is k-th number whose greatest prime factor has an odd index [i.e., n = A244991(k)], a(n) = A026424(a(k)), otherwise, when n is k-th number whose greatest prime factor has an even index [i.e., n = A244990(1+k)], a(n) = A028260(1+a(k)).",
+  "id": "A245614",
+  "mentions": [
+    "A026424",
+    "A028260",
+    "A066829",
+    "A122111",
+    "A227413",
+    "A237126",
+    "A243288",
+    "A243344",
+    "A243346",
+    "A244321",
+    "A244322",
+    "A244988",
+    "A244989",
+    "A244990",
+    "A244991",
+    "A244992",
+    "A245604",
+    "A245606",
+    "A245613"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

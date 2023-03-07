@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of {1,..,n} into parts of sizes that are multiples of 2 and 3.",
+  "id": "A114918",
+  "mentions": [
+    "A000110",
+    "A007690"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} log(cos(1/n)) (negated).",
+  "id": "A336603",
+  "mentions": [
+    "A013661",
+    "A118817"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

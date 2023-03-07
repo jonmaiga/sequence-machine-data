@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to linearly order the connected components of a simple labeled graph on n nodes.",
+  "id": "A335356",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A335378"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

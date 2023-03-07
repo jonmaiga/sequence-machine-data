@@ -1,0 +1,20 @@
+{
+  "description": "Sum_{k=0..n} ((binomial(3*k,k)*binomial(2*n-k,n))/(2*k+1)).",
+  "id": "A270489",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A092392"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

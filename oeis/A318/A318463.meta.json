@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n, d < n/d} (d AND n/d), where AND is bitwise-and (A004198).",
+  "id": "A318463",
+  "mentions": [
+    "A000203",
+    "A004198",
+    "A318458",
+    "A318460",
+    "A318461",
+    "A318462"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of arrays of n+2 integers in -k..k with sum zero and adjacent elements differing in absolute value",
+  "id": "A202962",
+  "mentions": [
+    "A202069"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

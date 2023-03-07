@@ -1,0 +1,18 @@
+{
+  "description": "Earliest sequence of integers > 1 such that gcd(a(n),a(n+k)) = 1, where k = 1..a(n-1), with a(1) = 1 and a(2) = 2.",
+  "id": "A347619",
+  "mentions": [
+    "A000040",
+    "A027749"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

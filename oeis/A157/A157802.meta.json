@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 27225*n^2 - 51302*n + 24168.",
+  "id": "A157802",
+  "mentions": [
+    "A157803",
+    "A157804"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

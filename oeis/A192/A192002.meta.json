@@ -1,0 +1,26 @@
+{
+  "description": "Counting sequence for Wythoff AB-numbers smaller than n.",
+  "id": "A192002",
+  "mentions": [
+    "A000201",
+    "A003623",
+    "A005206",
+    "A005614",
+    "A060143",
+    "A123740",
+    "A135817",
+    "A189921"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

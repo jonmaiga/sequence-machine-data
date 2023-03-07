@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are sum of the first k consecutive composite numbers and such that the sum of the first consecutive k+1 composites and the sum of the first k+2 consecutive composites are also prime.",
+  "id": "A235165",
+  "mentions": [
+    "A053782",
+    "A234847"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers of the form C = (30n-29)*(60n-59)*(90n-89)*(180n-179), where n is a natural number.",
+  "id": "A182088",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

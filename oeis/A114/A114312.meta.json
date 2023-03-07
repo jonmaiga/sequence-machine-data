@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n with at most 3 odd parts.",
+  "id": "A114312",
+  "mentions": [
+    "A100824",
+    "A100835"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

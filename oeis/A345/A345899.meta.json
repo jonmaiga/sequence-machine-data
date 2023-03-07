@@ -1,0 +1,22 @@
+{
+  "description": "Exponents d of powers of 2, q, such that each of q-1 and q+1 are either a power of prime or a semiprime.",
+  "id": "A345899",
+  "mentions": [
+    "A000961",
+    "A001358",
+    "A345898",
+    "A345900"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

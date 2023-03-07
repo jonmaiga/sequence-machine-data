@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2*prime(p) + 1 = prime(q) for some prime q.",
+  "id": "A261361",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A260886",
+    "A260888",
+    "A261352",
+    "A261354",
+    "A261362"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

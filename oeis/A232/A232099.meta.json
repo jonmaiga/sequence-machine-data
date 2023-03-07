@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that {largest m such that 1, 2, ..., m divide n} is different from {largest m such that m! divides n^2}.",
+  "id": "A232099",
+  "mentions": [
+    "A055874",
+    "A055881",
+    "A055926",
+    "A232098",
+    "A232100",
+    "A232743"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

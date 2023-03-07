@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of three biquadrates (fourth powers) in more than one way.",
+  "id": "A193244",
+  "mentions": [
+    "A000404",
+    "A003337",
+    "A047714",
+    "A085559",
+    "A122540",
+    "A123075",
+    "A193243",
+    "A309762"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

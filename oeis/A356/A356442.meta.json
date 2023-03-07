@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive even number that is the unordered sum of two primes congruent mod 10 in exactly n ways.",
+  "id": "A356442",
+  "mentions": [
+    "A023036"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

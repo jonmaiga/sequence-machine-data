@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = (-1)^k * A119258(n,k) read by rows, 0 <= k <= n.",
+  "id": "A145661",
+  "mentions": [
+    "A112857",
+    "A118801",
+    "A119258",
+    "A135233",
+    "A193844"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n is a product of an even number of distinct primes, otherwise 0.",
+  "id": "A353629",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A030229",
+    "A046523",
+    "A065043",
+    "A104141",
+    "A252233",
+    "A280710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

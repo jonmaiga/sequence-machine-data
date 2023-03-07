@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = denominator of Jtilde_k(n), 1 <= k <= 2*n+2.",
+  "id": "A326748",
+  "mentions": [
+    "A001044",
+    "A056982",
+    "A264542",
+    "A326303"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

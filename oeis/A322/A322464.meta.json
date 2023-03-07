@@ -1,0 +1,22 @@
+{
+  "description": "Reverse runs of ones in binary expansion of n and convert back to decimal.",
+  "id": "A322464",
+  "mentions": [
+    "A000120",
+    "A005811",
+    "A322463"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

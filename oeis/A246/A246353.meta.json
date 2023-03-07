@@ -1,0 +1,24 @@
+{
+  "description": "If n = Sum 2^e_i, e_i distinct, then a(n) = Position of (product prime_{e_i+1}) among squarefree numbers (A005117).",
+  "id": "A246353",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A005940",
+    "A013928",
+    "A019565",
+    "A048672",
+    "A064273"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

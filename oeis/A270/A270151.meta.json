@@ -1,0 +1,17 @@
+{
+  "description": "Discriminator of the Fibonacci numbers; least positive integer r such that F(2), F(3), ..., F(n+1) are all incongruent modulo r",
+  "id": "A270151",
+  "mentions": [
+    "A016726"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

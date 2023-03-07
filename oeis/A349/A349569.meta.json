@@ -1,0 +1,28 @@
+{
+  "description": "Dirichlet convolution of A000027 (identity function) with A349452 (Dirichlet inverse of A011782, 2^(n-1)).",
+  "id": "A349569",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A011782",
+    "A018804",
+    "A034729",
+    "A034738",
+    "A349452",
+    "A349563",
+    "A349565",
+    "A349567",
+    "A349570"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

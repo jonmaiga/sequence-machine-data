@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: row n consists of n and the positive integers m where m-n divides m*n.",
+  "id": "A191973",
+  "mentions": [
+    "A063428",
+    "A127730",
+    "A146564",
+    "A162821",
+    "A162822",
+    "A162823",
+    "A162824",
+    "A162825"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

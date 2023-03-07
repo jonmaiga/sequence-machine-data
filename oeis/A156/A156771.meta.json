@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 729*n - 531.",
+  "id": "A156771",
+  "mentions": [
+    "A156677",
+    "A156773"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

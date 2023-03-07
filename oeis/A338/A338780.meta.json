@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the square root of Sum_{k = 1..A338774(n)} A338774(n - k).",
+  "id": "A338780",
+  "mentions": [
+    "A338774"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

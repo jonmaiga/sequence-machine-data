@@ -1,0 +1,24 @@
+{
+  "description": "Prime numbers with gaps larger than 18 towards both neighboring primes.",
+  "id": "A163111",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A137871",
+    "A137872",
+    "A137873",
+    "A137874",
+    "A137875"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

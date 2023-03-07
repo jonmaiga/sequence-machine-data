@@ -1,0 +1,34 @@
+{
+  "description": "Coefficient triangle for polynomials used for e.g.f.s for unsigned Stirling1 diagonals.",
+  "id": "A112486",
+  "mentions": [
+    "A000142",
+    "A000914",
+    "A001147",
+    "A001705",
+    "A008275",
+    "A008276",
+    "A028246",
+    "A042977",
+    "A112007",
+    "A112487",
+    "A112491",
+    "A133314",
+    "A134685",
+    "A134991",
+    "A135338"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

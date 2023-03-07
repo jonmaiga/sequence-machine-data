@@ -1,0 +1,26 @@
+{
+  "description": "A three-dimensional version of the cellular automaton A160118, using cubes.",
+  "id": "A160119",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A139250",
+    "A139251",
+    "A151785",
+    "A160117",
+    "A160118",
+    "A160379"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

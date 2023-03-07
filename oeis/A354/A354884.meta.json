@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose skew binary representation (A169683) is palindromic.",
+  "id": "A354884",
+  "mentions": [
+    "A000079",
+    "A000295",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A094202",
+    "A144414",
+    "A169683",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087",
+    "A352105",
+    "A352319",
+    "A352341"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

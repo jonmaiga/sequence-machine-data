@@ -1,0 +1,25 @@
+{
+  "description": "Primitive arithmetic numbers: terms of A003601 not of the form m*q where m, q > 1 are both terms of A003601 with gcd(m,q) = 1.",
+  "id": "A342438",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002145",
+    "A002476",
+    "A003601",
+    "A007528",
+    "A030078",
+    "A065091",
+    "A291565"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

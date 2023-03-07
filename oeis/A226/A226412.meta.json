@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing -n..n vectors of length 4 whose dot product with some nondecreasing -n..n vector equals 4",
+  "id": "A226412",
+  "mentions": [
+    "A226410"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

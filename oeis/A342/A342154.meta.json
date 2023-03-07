@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n^5 into two positive squares.",
+  "id": "A342154",
+  "mentions": [
+    "A000404",
+    "A000584",
+    "A025426",
+    "A046080",
+    "A084888"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'c', an asymptotic constant related to a variation of the \"Secretary problem\" with a uniform distribution.",
+  "id": "A243533",
+  "mentions": [
+    "A054404",
+    "A242672"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

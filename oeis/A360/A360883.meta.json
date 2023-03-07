@@ -1,0 +1,20 @@
+{
+  "description": "Smallest powerful (1) number which is at the end of an arithmetic progression of n terms.",
+  "id": "A360883",
+  "mentions": [
+    "A001694",
+    "A005115"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

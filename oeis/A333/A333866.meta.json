@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers, which when mapped onto a square spiral, gives a set without four distinct points forming a square.",
+  "id": "A333866",
+  "mentions": [
+    "A005282",
+    "A174344",
+    "A274923",
+    "A333825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

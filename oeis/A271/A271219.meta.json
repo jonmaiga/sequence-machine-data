@@ -1,0 +1,18 @@
+{
+  "description": "Number n of antichains of P(En) x En*, ordered by lexicographic order, with En a poset of n elements with no pair of elements ordered, and with En* that same set augmented with an (n+1)th element smaller than all others.",
+  "id": "A271219",
+  "mentions": [
+    "A030662"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

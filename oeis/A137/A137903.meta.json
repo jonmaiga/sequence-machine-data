@@ -1,0 +1,26 @@
+{
+  "description": "Limiting sequence when we start with positive integers (A000027) and at step n >= 1 add to the term at position n + a(n) the value a(n) if the term is odd, else divide the term by 2.",
+  "id": "A137903",
+  "mentions": [
+    "A000027",
+    "A136119",
+    "A136259",
+    "A136272",
+    "A137319",
+    "A137417",
+    "A137418",
+    "A137901",
+    "A137902"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

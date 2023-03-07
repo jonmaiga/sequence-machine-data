@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with every element unequal to 2 or 3 horizontally or vertically adjacent elements, with upper left element zero.",
+  "id": "A303630",
+  "mentions": [
+    "A303636"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

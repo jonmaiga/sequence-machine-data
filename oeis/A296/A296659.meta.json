@@ -1,0 +1,26 @@
+{
+  "description": "Length of the final word in the standard Lyndon word factorization of the first n terms of A000002.",
+  "id": "A296659",
+  "mentions": [
+    "A000002",
+    "A027375",
+    "A088568",
+    "A102659",
+    "A228369",
+    "A281013",
+    "A288605",
+    "A296372",
+    "A296657",
+    "A296658"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

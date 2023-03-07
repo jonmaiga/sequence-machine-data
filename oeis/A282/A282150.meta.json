@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with k digits in base x (MSD(n)=d_k, LSD(n)=d_1) such that, chosen one of their digits in position d_k < j < d_1, is Sum_{i=j..k}{(i-j+1)*d_i} = Sum_{i=1..j-1}{(j-i)*d_i}. Case x = 9.",
+  "id": "A282150",
+  "mentions": [
+    "A282107",
+    "A282115",
+    "A282143",
+    "A282149",
+    "A282151"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

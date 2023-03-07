@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients a(k,m) of polynomials a{k}(h) appearing in the product Product_{k >= 1} (1 - a{k}(h)*x^k) = 1 - h*x/(1-x).",
+  "id": "A273866",
+  "mentions": [
+    "A157162",
+    "A196545",
+    "A220418",
+    "A220420",
+    "A273873",
+    "A279785",
+    "A290261",
+    "A290262",
+    "A290971",
+    "A295632"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

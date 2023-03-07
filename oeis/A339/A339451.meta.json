@@ -1,0 +1,19 @@
+{
+  "description": "Gray-code-like sequence in which, at each step, the least significant bit that has never been toggled from the previous value, is toggled.",
+  "id": "A339451",
+  "mentions": [
+    "A182105",
+    "A215020"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

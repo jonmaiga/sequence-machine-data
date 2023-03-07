@@ -1,0 +1,19 @@
+{
+  "description": "Number of paths of a chess Rook in a cube, from (1,1,1) to (n,n,n), where the rook may move in steps that are multiples of (1,0,0), (0,0,1), or (0,0,1).",
+  "id": "A144045",
+  "mentions": [
+    "A051708",
+    "A181731"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

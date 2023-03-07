@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that the first significant digits of 1/n start with a(n).",
+  "id": "A259228",
+  "mentions": [
+    "A052039",
+    "A065924",
+    "A259229"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

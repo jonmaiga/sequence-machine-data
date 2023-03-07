@@ -1,0 +1,20 @@
+{
+  "description": "Limiting reverse row of the array A274196.",
+  "id": "A274201",
+  "mentions": [
+    "A274196",
+    "A274199",
+    "A274200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

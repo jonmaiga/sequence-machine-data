@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with equal number of even and odd digits such that the sum a(n) + a(n+1) has an equal number of even and odd digits too.",
+  "id": "A339714",
+  "mentions": [
+    "A227870",
+    "A339715"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

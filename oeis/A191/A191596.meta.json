@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1+x)^4/(1-x)^7.",
+  "id": "A191596",
+  "mentions": [
+    "A001846",
+    "A001847",
+    "A001848",
+    "A006976",
+    "A008412",
+    "A008415",
+    "A061927",
+    "A069038",
+    "A069039"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:51",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

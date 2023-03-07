@@ -1,0 +1,38 @@
+{
+  "description": "H-toothpick sequence in the first quadrant starting with a D-toothpick placed on the diagonal [(0,1), (1,2)] (see Comments for precise definition).",
+  "id": "A182838",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A153000",
+    "A161206",
+    "A170888",
+    "A172308",
+    "A182632",
+    "A182634",
+    "A182839",
+    "A182840",
+    "A187212",
+    "A194444",
+    "A220524",
+    "A233970",
+    "A267458",
+    "A267694",
+    "A267698",
+    "A360501",
+    "A360512"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

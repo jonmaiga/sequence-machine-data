@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(sqrt(2*n)) - A003056(n).",
+  "id": "A340507",
+  "mentions": [
+    "A003056",
+    "A072785",
+    "A172471"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

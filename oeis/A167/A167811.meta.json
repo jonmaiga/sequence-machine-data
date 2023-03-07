@@ -1,0 +1,24 @@
+{
+  "description": "Number of admissible basis in the postage stamp problem for n denominations and h = 4 stamps.",
+  "id": "A167811",
+  "mentions": [
+    "A008932",
+    "A167809",
+    "A167810",
+    "A167812",
+    "A167813",
+    "A167814"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

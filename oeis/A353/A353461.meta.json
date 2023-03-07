@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet convolution of A003602 (Kimberling's paraphrases) with A323881 (the Dirichlet inverse of A126760).",
+  "id": "A353461",
+  "mentions": [
+    "A003602",
+    "A126760",
+    "A323881",
+    "A349371",
+    "A349393",
+    "A353460",
+    "A353462"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

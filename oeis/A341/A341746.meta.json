@@ -1,0 +1,24 @@
+{
+  "description": "If the runs in the binary expansion of n are (r_1, ..., r_k), then the runs in the binary expansion of a(n) are (r_1 + ... + r_k, r_1, ..., r_{k-1}).",
+  "id": "A341746",
+  "mentions": [
+    "A005811",
+    "A070939",
+    "A090996",
+    "A126646",
+    "A341694",
+    "A341699"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

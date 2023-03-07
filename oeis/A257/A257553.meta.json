@@ -1,0 +1,22 @@
+{
+  "description": "Primes whose squares are not the sums of two consecutive nonsquares.",
+  "id": "A257553",
+  "mentions": [
+    "A000290",
+    "A001601",
+    "A086395",
+    "A088165",
+    "A256944"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

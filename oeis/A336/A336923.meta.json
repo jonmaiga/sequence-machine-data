@@ -1,0 +1,34 @@
+{
+  "description": "a(n) = 1 if sigma(2n) - sigma(n) is a power of 2, otherwise 0.",
+  "id": "A336923",
+  "mentions": [
+    "A000035",
+    "A000203",
+    "A000668",
+    "A002131",
+    "A005087",
+    "A036987",
+    "A046528",
+    "A054784",
+    "A054785",
+    "A062731",
+    "A209229",
+    "A331410",
+    "A335430",
+    "A336477",
+    "A336922",
+    "A359579"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

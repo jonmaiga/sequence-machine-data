@@ -1,0 +1,22 @@
+{
+  "description": "Rearrangement of natural numbers so that next n numbers contain n as substring.",
+  "id": "A337918",
+  "mentions": [
+    "A072484",
+    "A075383",
+    "A337919"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

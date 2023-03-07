@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors of n which are greater than 6.",
+  "id": "A338650",
+  "mentions": [
+    "A000005",
+    "A023645",
+    "A032741",
+    "A135539",
+    "A321014",
+    "A338648",
+    "A338649",
+    "A338651",
+    "A338652",
+    "A338653"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First differences of Ludic numbers: a(n) = A003309(n+1) - A003309(n).",
+  "id": "A260723",
+  "mentions": [
+    "A001223",
+    "A003309",
+    "A031883",
+    "A260722"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

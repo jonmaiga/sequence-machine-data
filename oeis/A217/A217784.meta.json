@@ -1,0 +1,20 @@
+{
+  "description": "Triprimes to triprime powers.",
+  "id": "A217784",
+  "mentions": [
+    "A014612",
+    "A053810",
+    "A113877",
+    "A129539"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

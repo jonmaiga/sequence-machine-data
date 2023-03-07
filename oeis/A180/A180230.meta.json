@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimal number of additions needed to grow to radius n, in the two-dimensional abelian sandpile growth model with h=2.",
+  "id": "A180230",
+  "mentions": [
+    "A056219"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

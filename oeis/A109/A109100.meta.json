@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that n! is the product of exactly 2 smaller factorials (greater than 1).",
+  "id": "A109100",
+  "mentions": [
+    "A001013",
+    "A003135",
+    "A034878",
+    "A058295",
+    "A075082",
+    "A109095",
+    "A109096",
+    "A109097",
+    "A109098",
+    "A109101",
+    "A109102",
+    "A109103"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

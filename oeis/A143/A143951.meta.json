@@ -1,0 +1,22 @@
+{
+  "description": "Number of Dyck paths such that the area between the x-axis and the path is n.",
+  "id": "A143951",
+  "mentions": [
+    "A005169",
+    "A111317",
+    "A129182",
+    "A224704",
+    "A291874"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

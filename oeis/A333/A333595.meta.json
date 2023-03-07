@@ -1,0 +1,18 @@
+{
+  "description": "The minimum positive integer base such that the concatenation of the first n primes in that base is also a prime.",
+  "id": "A333595",
+  "mentions": [
+    "A019518"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

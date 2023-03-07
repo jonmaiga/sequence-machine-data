@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are multiple-digit narcissistic numbers in exactly five bases.",
+  "id": "A256364",
+  "mentions": [
+    "A005188",
+    "A256359",
+    "A256360",
+    "A256361",
+    "A256362",
+    "A256363",
+    "A256365",
+    "A256459"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

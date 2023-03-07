@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of n into k consecutive parts that differ by 3, n >= 1, k >= 1, and the first element of column k is in the row that is the k-th pentagonal number (A000326).",
+  "id": "A330887",
+  "mentions": [
+    "A000325",
+    "A000326",
+    "A051731",
+    "A117277",
+    "A237048",
+    "A303300",
+    "A330888",
+    "A334460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

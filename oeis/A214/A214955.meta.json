@@ -1,0 +1,26 @@
+{
+  "description": "Number of solid standard Young tableaux of shape [[n,n-1],[1]].",
+  "id": "A214955",
+  "mentions": [
+    "A000027",
+    "A000108",
+    "A000217",
+    "A002061",
+    "A006752",
+    "A060747",
+    "A086514",
+    "A214775",
+    "A215002"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

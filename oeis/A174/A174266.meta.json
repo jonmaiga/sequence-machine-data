@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = Sum_{i=0..k} (-1)^i * binomial(3*n+1,i) * binomial(k+3-i,3)^n, 0 <= k <= 3*(n-1).",
+  "id": "A174266",
+  "mentions": [
+    "A000012",
+    "A008292",
+    "A014606",
+    "A060187",
+    "A086020",
+    "A151632",
+    "A151633",
+    "A151634",
+    "A151635",
+    "A151636",
+    "A151637",
+    "A151638",
+    "A151639",
+    "A154283",
+    "A173018",
+    "A174264",
+    "A236463",
+    "A237202",
+    "A237252",
+    "A289254"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

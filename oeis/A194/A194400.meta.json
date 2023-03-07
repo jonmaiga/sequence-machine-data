@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(15) and < > denotes fractional part.",
+  "id": "A194400",
+  "mentions": [
+    "A010472",
+    "A194368",
+    "A194398",
+    "A194399"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:20:55",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

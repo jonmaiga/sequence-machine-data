@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, and for any n > 0, let k > 0 be as small as possible and such that T(3) + ... + T(2+k) >= n (where T(m) denotes A000073(m), the m-th tribonacci number); a(n) = k + a(T(3) + ... + T(2+k) - n).",
+  "id": "A360260",
+  "mentions": [
+    "A000073",
+    "A027084",
+    "A356895",
+    "A360259"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

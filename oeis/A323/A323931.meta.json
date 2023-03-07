@@ -1,0 +1,22 @@
+{
+  "description": "Unbranched catafusenes, mirror-symmetrical.",
+  "id": "A323931",
+  "mentions": [
+    "A003104",
+    "A038142",
+    "A323851",
+    "A323932"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

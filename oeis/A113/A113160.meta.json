@@ -1,0 +1,25 @@
+{
+  "description": "Table read by antidiagonals of continued fractions for log(n).",
+  "id": "A113160",
+  "mentions": [
+    "A000195",
+    "A016441",
+    "A016528",
+    "A016730",
+    "A016740",
+    "A057603"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

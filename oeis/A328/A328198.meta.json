@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of the form N = a+b+c such that N^3 = concat(a,b,c); a, b, c > 0.",
+  "id": "A328198",
+  "mentions": [
+    "A000578",
+    "A006887",
+    "A055642",
+    "A060768",
+    "A291461",
+    "A328199",
+    "A328200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

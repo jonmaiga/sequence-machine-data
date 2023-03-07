@@ -1,0 +1,35 @@
+{
+  "description": "Multifactorial array: A(k,n) = k-tuple factorial of n, for positive n, read by ascending antidiagonals.",
+  "id": "A129116",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A007661",
+    "A007662",
+    "A008546",
+    "A008548",
+    "A047055",
+    "A047056",
+    "A052562",
+    "A085157",
+    "A085158",
+    "A114423",
+    "A114799",
+    "A114800",
+    "A114806",
+    "A288327"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

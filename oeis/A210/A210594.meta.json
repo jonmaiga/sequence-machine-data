@@ -1,0 +1,20 @@
+{
+  "description": "\"Factor-dense\" numbers: integers n where (# of proper divisors of n) / log(n) sets a new record.",
+  "id": "A210594",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A032741",
+    "A189686"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

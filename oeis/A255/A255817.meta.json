@@ -1,0 +1,23 @@
+{
+  "description": "Parity of A000788, which is the total number of ones in 0..n in binary.",
+  "id": "A255817",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A010060",
+    "A115384",
+    "A256379"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that there is no other m such that (Z/mZ)* is isomorphic to (Z/kZ)*, where (Z/kZ)* is the multiplicative group of integers modulo k.",
+  "id": "A319928",
+  "mentions": [
+    "A015126",
+    "A028476",
+    "A296233",
+    "A317993"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose square starts and ends with exactly 3 identical digits.",
+  "id": "A346892",
+  "mentions": [
+    "A039685",
+    "A079035",
+    "A346774",
+    "A346891",
+    "A348832"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

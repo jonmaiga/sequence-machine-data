@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 4th du Bois-Reymond constant.",
+  "id": "A207528",
+  "mentions": [
+    "A062546",
+    "A138730",
+    "A224196",
+    "A243108",
+    "A245333"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:49",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

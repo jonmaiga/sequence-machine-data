@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to tile an n X n X n triangular area with six 2 X 2 X 2 triangular tiles and an appropriate number (= n^2-24) of 1 X 1 X 1 tiles.",
+  "id": "A286441",
+  "mentions": [
+    "A172158",
+    "A286436",
+    "A286437",
+    "A286438",
+    "A286439",
+    "A286440",
+    "A286442"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:07:39",
+    "offset": 5,
+    "size": 22,
+    "source": "joeis"
+  }
+}

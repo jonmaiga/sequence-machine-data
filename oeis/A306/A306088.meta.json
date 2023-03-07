@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies: Sum_{n>=0} Product_{k=1..n} x^(n+1-k) - A(x)^k = 1.",
+  "id": "A306088",
+  "mentions": [
+    "A306089"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

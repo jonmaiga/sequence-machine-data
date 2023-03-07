@@ -1,0 +1,21 @@
+{
+  "description": "Least k > 0 such that A171102(n) + A171102(k) is again a term of A171102, the pandigital numbers (having each digit from '0' to '9' at least once).",
+  "id": "A292570",
+  "mentions": [
+    "A050278",
+    "A171102",
+    "A292569"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Heinz numbers of integer partitions y such that the k-th differences of y are distinct for all k >= 0 and are disjoint from the i-th differences for i != k.",
+  "id": "A325405",
+  "mentions": [
+    "A005117",
+    "A056239",
+    "A112798",
+    "A279945",
+    "A325325",
+    "A325366",
+    "A325367",
+    "A325368",
+    "A325388",
+    "A325397",
+    "A325398",
+    "A325399",
+    "A325400",
+    "A325404",
+    "A325406",
+    "A325467"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

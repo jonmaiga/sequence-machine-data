@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * [x^n] exp(n*x)/sqrt(1 - 2*x).",
+  "id": "A295099",
+  "mentions": [
+    "A001147",
+    "A063170",
+    "A081367",
+    "A084262",
+    "A295098",
+    "A295100"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

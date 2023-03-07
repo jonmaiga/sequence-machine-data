@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n^2 and (n + 1)^2 have the same number of divisors.",
+  "id": "A276553",
+  "mentions": [
+    "A000290",
+    "A048691",
+    "A052213",
+    "A062832",
+    "A276542",
+    "A284378",
+    "A284570"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

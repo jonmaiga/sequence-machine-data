@@ -1,0 +1,21 @@
+{
+  "description": "Discriminants of orders of imaginary quadratic fields with 2 classes per genus, negated.",
+  "id": "A317987",
+  "mentions": [
+    "A003171",
+    "A133676",
+    "A319983"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

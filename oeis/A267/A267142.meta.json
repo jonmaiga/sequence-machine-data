@@ -1,0 +1,27 @@
+{
+  "description": "The characteristic function of the multiples of 9.",
+  "id": "A267142",
+  "mentions": [
+    "A007953",
+    "A008591",
+    "A079978",
+    "A079979",
+    "A079998",
+    "A082784",
+    "A121262",
+    "A168182",
+    "A253513"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:18:15",
+    "offset": 0,
+    "size": 116,
+    "source": "joeis"
+  }
+}

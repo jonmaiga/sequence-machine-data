@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that digit sum of 3^k is a power of 3.",
+  "id": "A118872",
+  "mentions": [
+    "A004166",
+    "A067500"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

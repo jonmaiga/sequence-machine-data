@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers A when the positive roots of r^2 = Ar + B are listed in increasing order.",
+  "id": "A249973",
+  "mentions": [
+    "A006000",
+    "A063929",
+    "A249974"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

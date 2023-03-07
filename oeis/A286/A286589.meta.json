@@ -1,0 +1,18 @@
+{
+  "description": "Restricted growth sequence transform of A286588.",
+  "id": "A286589",
+  "mentions": [
+    "A286588",
+    "A286622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

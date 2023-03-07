@@ -1,0 +1,19 @@
+{
+  "description": "An example of a morphic word: the sorted (by length, then alphabetically) sequence of words of the form a*b* under the action of a finite automaton defined as follows: start state is 0; a and b map states [0, 1, 2, 3] to states [1, 2, 3, 0] and [0, 3, 1, 2], respectively.",
+  "id": "A317948",
+  "mentions": [
+    "A033585"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

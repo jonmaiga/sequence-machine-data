@@ -1,0 +1,25 @@
+{
+  "description": "Self-inverse permutation of natural numbers, \"Blue code\" conjugated by A156552 and its inverse: a(n) = A005940(1+A193231(A156552(n))).",
+  "id": "A332450",
+  "mentions": [
+    "A003961",
+    "A005940",
+    "A057889",
+    "A156552",
+    "A193231",
+    "A293448",
+    "A332449",
+    "A332451"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

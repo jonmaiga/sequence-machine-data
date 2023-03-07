@@ -1,0 +1,18 @@
+{
+  "description": "Floor((x^n - (1-x)^n)/2 +.5) where x = (sqrt(4)+1)/2 = 3/2.",
+  "id": "A136423",
+  "mentions": [
+    "A152011"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:56:07",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

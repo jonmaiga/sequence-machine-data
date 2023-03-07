@@ -1,0 +1,24 @@
+{
+  "description": "Table T(n,m) giving number of partitions of n such that all parts are coprime to m. Read along antidiagonals (increasing n, decreasing m).",
+  "id": "A124094",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000726",
+    "A035959",
+    "A035985",
+    "A096938"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

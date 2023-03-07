@@ -1,0 +1,40 @@
+{
+  "description": "Number A(n,k) of compositions (ordered partitions) of 1 into exactly k*n+1 powers of 1/(k+1); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A294746",
+  "mentions": [
+    "A000012",
+    "A001700",
+    "A007178",
+    "A294747",
+    "A294775",
+    "A294850",
+    "A294851",
+    "A294852",
+    "A294853",
+    "A294854",
+    "A294855",
+    "A294856",
+    "A294857",
+    "A294858",
+    "A294982",
+    "A294983",
+    "A294984",
+    "A294985",
+    "A294986",
+    "A294987",
+    "A294988",
+    "A294989"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes of a Generalized Cunningham chain of length 9 by the function f(p) = 2 * p + 13.",
+  "id": "A176268",
+  "mentions": [
+    "A000040",
+    "A005602",
+    "A005603",
+    "A176223",
+    "A176247"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

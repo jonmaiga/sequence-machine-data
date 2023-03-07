@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of standard Young tableaux for partitions of n into exactly k distinct parts; triangle T(n,k), n>=0, 0<=k<=A003056(n), read by rows.",
+  "id": "A219311",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A003056",
+    "A005118",
+    "A037952",
+    "A047171",
+    "A218293",
+    "A219272",
+    "A219274",
+    "A219316",
+    "A219317",
+    "A219318",
+    "A219319",
+    "A219320",
+    "A219321",
+    "A219322",
+    "A219323"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

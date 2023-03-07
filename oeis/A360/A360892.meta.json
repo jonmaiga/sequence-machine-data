@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x/(1 - x^3)^2 * A(x/(1 - x^3)).",
+  "id": "A360892",
+  "mentions": [
+    "A040027",
+    "A352864",
+    "A360890",
+    "A360893",
+    "A360900"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

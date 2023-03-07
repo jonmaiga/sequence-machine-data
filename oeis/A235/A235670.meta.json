@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by antidiagonals upwards in which the n-th column gives the partial sums of the n-th column of A211970.",
+  "id": "A235670",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000217",
+    "A001318",
+    "A006950",
+    "A008794",
+    "A015128",
+    "A057077",
+    "A085787",
+    "A195152",
+    "A211970",
+    "A211971",
+    "A233969"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

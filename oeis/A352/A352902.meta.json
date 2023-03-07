@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..floor(n/4)} binomial(n+1,4*k+1) * a(k).",
+  "id": "A352902",
+  "mentions": [
+    "A040027",
+    "A051163",
+    "A351971",
+    "A352901"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

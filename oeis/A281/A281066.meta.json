@@ -1,0 +1,24 @@
+{
+  "description": "Concatenation R(n)R(n-1)R(n-2)...R(2)R(1) read mod n, where R(x) is the digit-reversal of x (with leading zeros not omitted).",
+  "id": "A281066",
+  "mentions": [
+    "A004086",
+    "A061963",
+    "A095221",
+    "A114795",
+    "A138793"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

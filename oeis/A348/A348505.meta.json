@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = usigma(n) / gcd(sigma(n), usigma(n)), where sigma is the sum of divisors function, A000203, and usigma is the unitary sigma, A034448.",
+  "id": "A348505",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A034448",
+    "A048146",
+    "A063880",
+    "A344697",
+    "A348049",
+    "A348503",
+    "A348504",
+    "A348506"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

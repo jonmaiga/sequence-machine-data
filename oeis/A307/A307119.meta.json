@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, for n>1, a(n) = dp(n-1) + dp(n) + dp(n+1), where dp(n) is the number of divisors of n less than n (A032741).",
+  "id": "A307119",
+  "mentions": [
+    "A032741",
+    "A307118",
+    "A307120"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

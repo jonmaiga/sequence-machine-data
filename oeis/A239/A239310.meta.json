@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form A001700(n)*k, n>=1, k>=2.",
+  "id": "A239310",
+  "mentions": [
+    "A001700",
+    "A007318",
+    "A029600",
+    "A095666"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

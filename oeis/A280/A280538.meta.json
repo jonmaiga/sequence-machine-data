@@ -1,0 +1,19 @@
+{
+  "description": "Number of essentially different optimal solutions for the n X n X n \"No four in plane\" problem.",
+  "id": "A280538",
+  "mentions": [
+    "A280537"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Twice 12-gonal numbers: a(n) = 2*n*(5*n-4).",
+  "id": "A152965",
+  "mentions": [
+    "A051624",
+    "A226488"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:35",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

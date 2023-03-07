@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-sided polygons, for k>=3, in a square when straight line segments connect the n-1 points between each corner that divide each edge into n equal parts to the n-1 points on the edge on the opposite side of the square.",
+  "id": "A355801",
+  "mentions": [
+    "A255011",
+    "A290131",
+    "A331452",
+    "A335678",
+    "A355798",
+    "A355799",
+    "A355800"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

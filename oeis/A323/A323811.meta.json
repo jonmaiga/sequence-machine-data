@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a knight on a diagonally numbered board and moving to the lowest available unvisited square at each step and if no unvisited squares are available move one step back.",
+  "id": "A323811",
+  "mentions": [
+    "A316328",
+    "A316334",
+    "A316588",
+    "A316667",
+    "A323808",
+    "A323809",
+    "A323810"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of graphs on n labeled nodes with maximal degree exactly 3.",
+  "id": "A136285",
+  "mentions": [
+    "A000085",
+    "A136281",
+    "A136282",
+    "A136286"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

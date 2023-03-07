@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k) * (2^k + 3^k)^k.",
+  "id": "A251671",
+  "mentions": [
+    "A060722",
+    "A251184",
+    "A251661"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "n+p(n)+p(p(n)) is a brilliant number (A078972), where p(n) denotes the n-th prime.",
+  "id": "A116038",
+  "mentions": [
+    "A078972",
+    "A116039"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

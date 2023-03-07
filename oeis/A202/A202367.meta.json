@@ -1,0 +1,20 @@
+{
+  "description": "LCM of denominators of the coefficients of polynomials Q^(2)_m(n) defined by the recursion Q^(2)_0(n)=1; for m >= 1, Q^(2)_m(n) = Sum_{i=1..n} i^2*Q^(2)_(m-1)(i).",
+  "id": "A202367",
+  "mentions": [
+    "A007814",
+    "A053657",
+    "A175669"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

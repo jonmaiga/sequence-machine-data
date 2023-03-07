@@ -1,0 +1,20 @@
+{
+  "description": "Smallest Boolean functions from big equivalence classes (counted by A000616).",
+  "id": "A227723",
+  "mentions": [
+    "A000616",
+    "A051179",
+    "A227722"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

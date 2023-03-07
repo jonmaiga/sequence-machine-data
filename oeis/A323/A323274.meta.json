@@ -1,0 +1,19 @@
+{
+  "description": "Ceiling(1/(e - 1/0! - 1/1! - 1/2! - ... - 1/n!).",
+  "id": "A323274",
+  "mentions": [
+    "A000142",
+    "A001113",
+    "A061354"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

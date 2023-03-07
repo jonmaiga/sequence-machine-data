@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the A-sequence for the Riordan matrix R = (1/(1- x^2 - x^3), x/(1 - x^2 - x^3)) from A104578.",
+  "id": "A319202",
+  "mentions": [
+    "A104578",
+    "A319201"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

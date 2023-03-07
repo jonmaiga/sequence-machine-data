@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers whose graph has no three collinear points.",
+  "id": "A236335",
+  "mentions": [
+    "A185256",
+    "A229037",
+    "A231334",
+    "A236266",
+    "A236336",
+    "A300002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

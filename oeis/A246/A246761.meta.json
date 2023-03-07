@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)^3 * C(2k,k) * C(3k,k) * (3k + 1).",
+  "id": "A246761",
+  "mentions": [
+    "A246459"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

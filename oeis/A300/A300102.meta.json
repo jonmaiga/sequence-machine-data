@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime containing exactly n consecutive 0's.",
+  "id": "A300102",
+  "mentions": [
+    "A037053",
+    "A269230",
+    "A269260"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

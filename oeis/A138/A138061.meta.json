@@ -1,0 +1,20 @@
+{
+  "description": "This sequence is a triangular sequence formed by the substitution: ( French sideways graph) 1->1,2;2->3;3->4;4->1; as a Markov style substitution form. The result is the differential polynomial coefficient form. ( first zero omitted).",
+  "id": "A138061",
+  "mentions": [
+    "A103684"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

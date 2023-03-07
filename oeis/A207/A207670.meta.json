@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that match polynomials with coefficients in {0,1,2} that are not irreducible modulo 3; complement of A207670.",
+  "id": "A207670",
+  "mentions": [
+    "A207669",
+    "A207671"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Records in A105822.",
+  "id": "A104664",
+  "mentions": [
+    "A105822"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

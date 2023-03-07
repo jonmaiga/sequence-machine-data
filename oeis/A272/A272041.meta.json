@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer that can be expressed as the sum of n primes in at least n distinct ways.",
+  "id": "A272041",
+  "mentions": [
+    "A054845",
+    "A054859"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A generalized Narayana triangle for sec(x)^2.",
+  "id": "A180960",
+  "mentions": [
+    "A000182",
+    "A180959"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

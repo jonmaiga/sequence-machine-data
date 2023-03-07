@@ -1,0 +1,22 @@
+{
+  "description": "Numbers N such that concatenation of N, N, and x generates a prime for x=1 and x=3 and x=7 and x=9.",
+  "id": "A210515",
+  "mentions": [
+    "A210511",
+    "A210512",
+    "A210513",
+    "A210514"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

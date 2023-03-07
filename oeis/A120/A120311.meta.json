@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that pi(k) == 0 (mod 4), where pi() = A000720, and such that prime(k) == 3 (mod 4).",
+  "id": "A120311",
+  "mentions": [
+    "A000720",
+    "A080148",
+    "A120309"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose square can be represented in exactly five ways as the sum of a positive square and a positive fourth power.",
+  "id": "A348655",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A111925",
+    "A271576",
+    "A345645",
+    "A345700",
+    "A345968",
+    "A346110",
+    "A346115",
+    "A349324"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

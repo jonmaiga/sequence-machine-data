@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which n+n' is prime, n' being the arithmetic derivative of n.",
+  "id": "A165562",
+  "mentions": [
+    "A003415",
+    "A129283",
+    "A165561"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

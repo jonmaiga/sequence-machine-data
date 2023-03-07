@@ -1,0 +1,22 @@
+{
+  "description": "Composites whose largest digit is prime.",
+  "id": "A154390",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A054055",
+    "A117815",
+    "A155777"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

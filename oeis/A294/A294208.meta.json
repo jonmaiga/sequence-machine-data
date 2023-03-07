@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = reduced numerator of Sum_{p <= n} Sum_{k=1..floor(log(n)/log(p))} 1/p^k, where p runs over the primes.",
+  "id": "A294208",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

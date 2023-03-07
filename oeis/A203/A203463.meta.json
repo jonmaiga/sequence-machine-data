@@ -1,0 +1,20 @@
+{
+  "description": "Where Golay-Rudin-Shapiro sequence A020985 is positive.",
+  "id": "A203463",
+  "mentions": [
+    "A010060",
+    "A020985",
+    "A022155",
+    "A268411"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

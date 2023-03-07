@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed triangular strip polyedges with n edges.",
+  "id": "A213451",
+  "mentions": [
+    "A001334",
+    "A151540",
+    "A151541"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

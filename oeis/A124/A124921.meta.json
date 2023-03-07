@@ -1,0 +1,22 @@
+{
+  "description": "Distributes the number of permutations in the alternating group; cf. A060351.",
+  "id": "A124921",
+  "mentions": [
+    "A001710",
+    "A008292",
+    "A011782",
+    "A060351"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

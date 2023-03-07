@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = nonnegative value y such that (A155135(n), y) is a solution to the Diophantine equation x^3+28*x^2 = y^2.",
+  "id": "A155137",
+  "mentions": [
+    "A153642",
+    "A155135",
+    "A155138"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:11:29",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

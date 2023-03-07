@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} sigma(n)*A000204(n)*x^n/n ).",
+  "id": "A156234",
+  "mentions": [
+    "A000041",
+    "A000045",
+    "A000203",
+    "A000204",
+    "A225528"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

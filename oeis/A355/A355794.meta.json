@@ -1,0 +1,26 @@
+{
+  "description": "Row 1 of A355793.",
+  "id": "A355794",
+  "mentions": [
+    "A008544",
+    "A111528",
+    "A112936",
+    "A355721",
+    "A355793",
+    "A355795",
+    "A355796",
+    "A355797"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

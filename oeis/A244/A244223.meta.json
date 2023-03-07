@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k which have an odd representation in Greedy Catalan Base, i.e., where A014418(k) ends with digit one.",
+  "id": "A244223",
+  "mentions": [
+    "A014418",
+    "A244161",
+    "A244221",
+    "A244222",
+    "A244225",
+    "A244227",
+    "A244228"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(n/d)*2^(d+1), with a(0) = 0.",
+  "id": "A160619",
+  "mentions": [
+    "A034738",
+    "A053635",
+    "A161219"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

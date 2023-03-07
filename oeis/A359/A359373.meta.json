@@ -1,0 +1,27 @@
+{
+  "description": "Nonmultiples of 4 that have an odd number of prime factors (with multiplicity).",
+  "id": "A359373",
+  "mentions": [
+    "A001222",
+    "A008836",
+    "A010873",
+    "A026424",
+    "A042968",
+    "A067019",
+    "A166486",
+    "A358839",
+    "A359371",
+    "A359372"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

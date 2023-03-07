@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that Mordell's equation y^2 = x^3 + k has exactly 5 integral solutions.",
+  "id": "A179149",
+  "mentions": [
+    "A001014",
+    "A054504",
+    "A081119",
+    "A179145",
+    "A179162",
+    "A356711"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

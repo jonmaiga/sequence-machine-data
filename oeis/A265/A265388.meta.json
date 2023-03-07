@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = gcd{k=1..n-1} binomial(2*n, 2*k), a(1) = 0.",
+  "id": "A265388",
+  "mentions": [
+    "A007318",
+    "A014410",
+    "A014963",
+    "A265394",
+    "A265395",
+    "A265401",
+    "A265402",
+    "A265403"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "(n-th 4-almost prime)^(n-th 4-almost prime).",
+  "id": "A114993",
+  "mentions": [
+    "A001358",
+    "A014613",
+    "A051674",
+    "A113877",
+    "A114850"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 4,
+    "source": "joeis"
+  }
+}

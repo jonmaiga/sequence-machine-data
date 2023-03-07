@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A242720(n) = prime(n)*(prime(n)+4)+3 and A242719(n) - A242720(n) = 2*(prime(n)-1).",
+  "id": "A247279",
+  "mentions": [
+    "A242719",
+    "A242720",
+    "A242847",
+    "A242919",
+    "A242920",
+    "A245363",
+    "A246748",
+    "A247280"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

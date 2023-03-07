@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of nonzero digits in factorial base representation of n that hit less significant nonzero digits to the right. See comments for exact definition.",
+  "id": "A276007",
+  "mentions": [
+    "A276004",
+    "A276005",
+    "A276006"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

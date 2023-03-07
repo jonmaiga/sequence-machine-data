@@ -1,0 +1,17 @@
+{
+  "description": "Number of words w of length n such that each letter of the quaternary alphabet is used at least once and for every prefix z of w we have #(z,a_i) = 0 or #(z,a_i) >= #(z,a_j) for all j>i and #(z,a_i) counts the occurrences of the i-th letter in z.",
+  "id": "A321840",
+  "mentions": [
+    "A257783"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

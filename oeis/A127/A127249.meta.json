@@ -1,0 +1,21 @@
+{
+  "description": "A product of Thue-Morse related triangles.",
+  "id": "A127249",
+  "mentions": [
+    "A127243",
+    "A127247",
+    "A127251"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

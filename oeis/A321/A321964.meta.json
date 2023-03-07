@@ -1,0 +1,26 @@
+{
+  "description": "Array of sequences read by descending antidiagonals, row A(n) is Stieltjes generated from the sequence n, n+1, n+2, n+3, ....",
+  "id": "A321964",
+  "mentions": [
+    "A000007",
+    "A000698",
+    "A001147",
+    "A014105",
+    "A167872",
+    "A321960",
+    "A321961",
+    "A321963"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

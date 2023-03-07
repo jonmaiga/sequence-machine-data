@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of {1,2,...,n} such that p(i)-i not in {-1,0,1,2}.",
+  "id": "A292574",
+  "mentions": [
+    "A000271",
+    "A001883",
+    "A270174"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

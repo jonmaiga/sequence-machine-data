@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(n!^2+1, sigma(n!)), where sigma() denotes the sum of the divisors.",
+  "id": "A306507",
+  "mentions": [
+    "A000203",
+    "A020549",
+    "A062569"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to create an angle excess of n degrees using 3 distinct regular polygons with integral internal angles.",
+  "id": "A356663",
+  "mentions": [
+    "A356444"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

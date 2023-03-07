@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(10^n/PrimePi(10^n)) - 1.",
+  "id": "A111499",
+  "mentions": [
+    "A000720",
+    "A006880"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of isomorphism classes of connected (D_4)-fold coverings of a connected graph with circuit rank n.",
+  "id": "A160873",
+  "mentions": [
+    "A160870"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

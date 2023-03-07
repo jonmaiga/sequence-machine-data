@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations q_1,...,q_n of the first n primes p_1,...,p_n with q_1 = p_1 = 2 and q_n = p_n, and with |q_1-q_2|, |q_2-q_3|, ..., |q_{n-1}-q_n|, and |q_n-q_1| (if n>2) pairwise distinct.",
+  "id": "A185645",
+  "mentions": [
+    "A000040",
+    "A187815",
+    "A228626",
+    "A228728",
+    "A228762",
+    "A228766"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

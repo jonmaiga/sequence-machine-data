@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct n-th powers of functions {1, 2, 3, 4, 5, 6} -> {1, 2, 3, 4, 5, 6}.",
+  "id": "A103950",
+  "mentions": [
+    "A102687",
+    "A102709",
+    "A103947",
+    "A103949",
+    "A247026"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

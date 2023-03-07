@@ -1,0 +1,21 @@
+{
+  "description": "Column 1 of triangle A112682; also equals row sums of A112682 (with offset).",
+  "id": "A117160",
+  "mentions": [
+    "A112682",
+    "A117161",
+    "A117165",
+    "A117166",
+    "A117169"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

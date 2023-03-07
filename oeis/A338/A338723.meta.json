@@ -1,0 +1,18 @@
+{
+  "description": "Alternating row sums in triangle A338721.",
+  "id": "A338723",
+  "mentions": [
+    "A338721",
+    "A338722"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

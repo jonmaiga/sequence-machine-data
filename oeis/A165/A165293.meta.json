@@ -1,0 +1,31 @@
+{
+  "description": "Inverse of A038303, and generalization of A130595.",
+  "id": "A165293",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001019",
+    "A001079",
+    "A004189",
+    "A007318",
+    "A010892",
+    "A038303",
+    "A041041",
+    "A054320",
+    "A084938",
+    "A130595",
+    "A138288"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

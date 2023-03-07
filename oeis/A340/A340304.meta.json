@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and the next three numbers after k with the same prime signature as k also have the same set of distinct prime divisors as k.",
+  "id": "A340304",
+  "mentions": [
+    "A007947",
+    "A081761",
+    "A118914",
+    "A340302",
+    "A340303"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

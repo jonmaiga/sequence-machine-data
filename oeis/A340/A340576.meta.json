@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Product_{primes p == 5 (mod 6)} 1/(1-1/p^2).",
+  "id": "A340576",
+  "mentions": [
+    "A143298",
+    "A175646",
+    "A175647",
+    "A248930",
+    "A248938",
+    "A259548",
+    "A301429",
+    "A333240",
+    "A334826",
+    "A335963",
+    "A340577",
+    "A340578"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

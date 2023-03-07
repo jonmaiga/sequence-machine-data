@@ -1,0 +1,28 @@
+{
+  "description": "Rectangular array by antidiagonals: row n is the ordered sequence of numbers k that minimize |d(n+1-k) - d(k)|, where d(i) are the divisors of n.",
+  "id": "A285089",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000290",
+    "A002378",
+    "A005563",
+    "A028552",
+    "A095833",
+    "A163280",
+    "A285090"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

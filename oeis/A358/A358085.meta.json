@@ -1,0 +1,23 @@
+{
+  "description": "Inventory of positions ordered by binary lengths of terms, as an irregular table; the first row contains 1, subsequent rows contains the 1-based positions of terms with binary length 1, followed by positions of terms with binary length 2, 3, etc. in prior rows flattened.",
+  "id": "A358085",
+  "mentions": [
+    "A011782",
+    "A070939",
+    "A342585",
+    "A356784",
+    "A358121"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

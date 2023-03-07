@@ -1,0 +1,19 @@
+{
+  "description": "The pi-based arithmetic derivative of the n-th Fibonacci number.",
+  "id": "A259416",
+  "mentions": [
+    "A000045",
+    "A258851"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

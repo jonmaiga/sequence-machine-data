@@ -1,0 +1,34 @@
+{
+  "description": "Square array T(m,n) giving the number of m X n (0,1)-matrices with pairwise distinct rows and pairwise distinct columns.",
+  "id": "A181230",
+  "mentions": [
+    "A059084",
+    "A059202",
+    "A088309",
+    "A088310",
+    "A088616",
+    "A089673",
+    "A089674",
+    "A093466",
+    "A094000",
+    "A094223",
+    "A116532",
+    "A116539",
+    "A181231",
+    "A181232",
+    "A181233",
+    "A259763"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

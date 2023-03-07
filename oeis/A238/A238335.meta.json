@@ -1,0 +1,18 @@
+{
+  "description": "Square roots of numbers in A238334.",
+  "id": "A238335",
+  "mentions": [
+    "A238334"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite integers m such that A004187(m)^2 == 1 (mod m).",
+  "id": "A338011",
+  "mentions": [
+    "A004187",
+    "A338007",
+    "A338008",
+    "A338009",
+    "A338010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

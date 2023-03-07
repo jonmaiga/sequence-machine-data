@@ -1,0 +1,37 @@
+{
+  "description": "Number T(n,k) of partitions of n into colored blocks of equal parts, such that all colors from a set of size k are used and the colors are introduced in increasing order; triangle T(n,k), n>=0, 0<=k<=A003056(n), read by rows.",
+  "id": "A321878",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000096",
+    "A000217",
+    "A000712",
+    "A003056",
+    "A305106",
+    "A321884",
+    "A322304",
+    "A327285",
+    "A327286",
+    "A327287",
+    "A327288",
+    "A327289",
+    "A327290",
+    "A327291",
+    "A327292",
+    "A327293"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

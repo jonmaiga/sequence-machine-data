@@ -1,0 +1,34 @@
+{
+  "description": "Lengths of maximal strictly increasing subsequences in the sequence of prime gaps (A001223).",
+  "id": "A333253",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A054819",
+    "A064113",
+    "A084758",
+    "A124768",
+    "A258025",
+    "A333212",
+    "A333214",
+    "A333215",
+    "A333216",
+    "A333230",
+    "A333231",
+    "A333252",
+    "A333254",
+    "A333255",
+    "A333382"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

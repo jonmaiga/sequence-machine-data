@@ -1,0 +1,27 @@
+{
+  "description": "Primes congruent to 1 (mod 30).",
+  "id": "A132230",
+  "mentions": [
+    "A002476",
+    "A030430",
+    "A039949",
+    "A057204",
+    "A068228",
+    "A111175",
+    "A129805",
+    "A132231",
+    "A132236"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

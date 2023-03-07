@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k where records occur for phi(k)/phi(k+1), where phi is the Euler totient function (A000010).",
+  "id": "A335070",
+  "mentions": [
+    "A000010",
+    "A335069"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

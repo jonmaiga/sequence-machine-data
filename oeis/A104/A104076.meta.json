@@ -1,0 +1,17 @@
+{
+  "description": "If k(m) is the m-th divisor (when the divisors are ordered by size) of n, then a(n) = gcd(k(1)+k(2), k(2)+k(3), k(3)+k(4), ..., k(j-1)+k(j)), where j is the number of divisors of n.",
+  "id": "A104076",
+  "mentions": [
+    "A143771"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 2,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

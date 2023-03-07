@@ -1,0 +1,21 @@
+{
+  "description": "Starting with the positive numbers, each element subtracts its value, a(n), from the next a(n) elements.",
+  "id": "A212306",
+  "mentions": [
+    "A000027",
+    "A258353",
+    "A258354"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/log_2(r), where r is Otter's rooted tree constant.",
+  "id": "A263183",
+  "mentions": [
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

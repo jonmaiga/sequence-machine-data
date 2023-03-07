@@ -1,0 +1,19 @@
+{
+  "description": "Number of color plane groups of index n.",
+  "id": "A307293",
+  "mentions": [
+    "A004029",
+    "A307292"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes of the form k^3 + n^2 for 0 <= k <= n.",
+  "id": "A319081",
+  "mentions": [
+    "A066649"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

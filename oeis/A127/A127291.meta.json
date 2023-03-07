@@ -1,0 +1,41 @@
+{
+  "description": "Signature-permutation of Elizalde's and Deutsch's 2003 bijection for Dyck paths.",
+  "id": "A127291",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057164",
+    "A057501",
+    "A057502",
+    "A057508",
+    "A057509",
+    "A057510",
+    "A057515",
+    "A057548",
+    "A072795",
+    "A080300",
+    "A127285",
+    "A127287",
+    "A127288",
+    "A127289",
+    "A127292",
+    "A127293",
+    "A127294",
+    "A127295",
+    "A127299",
+    "A127300",
+    "A127307"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

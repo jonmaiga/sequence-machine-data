@@ -1,0 +1,48 @@
+{
+  "description": "Number of multiset partitions of the prime indices of n into multisets of odd numbers. Number of factorizations of n into members of A066208.",
+  "id": "A356931",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A000041",
+    "A000688",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A003963",
+    "A050320",
+    "A050330",
+    "A056239",
+    "A066208",
+    "A073491",
+    "A089259",
+    "A107742",
+    "A112798",
+    "A287170",
+    "A322585",
+    "A324929",
+    "A325534",
+    "A325535",
+    "A340852",
+    "A356069",
+    "A356224",
+    "A356225",
+    "A356233",
+    "A356234",
+    "A356930",
+    "A356936",
+    "A356945"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

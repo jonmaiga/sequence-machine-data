@@ -1,0 +1,19 @@
+{
+  "description": "Smallest area A of Heron triangles with sides (a, b, c) in arithmetic progression of the form b - d(n), b, b + d(n), where d(n) = A091998(n) = 12*n +- 1.",
+  "id": "A229098",
+  "mentions": [
+    "A011945",
+    "A091998",
+    "A188158"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

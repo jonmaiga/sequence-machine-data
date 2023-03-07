@@ -1,0 +1,21 @@
+{
+  "description": "Indices k of records of low value in the ratios A348173(k)/k.",
+  "id": "A348174",
+  "mentions": [
+    "A348003",
+    "A348004",
+    "A348159",
+    "A348173"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

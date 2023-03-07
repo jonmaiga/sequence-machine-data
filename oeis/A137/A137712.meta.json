@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = T(n-1, k-1) - T(n-k, k-1); with left border = the Fibonacci sequence.",
+  "id": "A137712",
+  "mentions": [
+    "A137710",
+    "A137713"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

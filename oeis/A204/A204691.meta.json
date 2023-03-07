@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n contains exactly 5 digits, all distinct, and n^2 contains exactly 9 distinct digits.",
+  "id": "A204691",
+  "mentions": [
+    "A054037"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

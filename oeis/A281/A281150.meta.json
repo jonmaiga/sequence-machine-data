@@ -1,0 +1,21 @@
+{
+  "description": "Elias delta code for n.",
+  "id": "A281150",
+  "mentions": [
+    "A105279",
+    "A140341",
+    "A281149"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

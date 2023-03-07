@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, where row n consists of the r's where r = (n*m)/(n+m) and the m's are positive integers such that (n+m) divides (n*m).",
+  "id": "A127731",
+  "mentions": [
+    "A063428",
+    "A063647",
+    "A127730"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

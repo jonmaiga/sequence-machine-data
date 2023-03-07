@@ -1,0 +1,27 @@
+{
+  "description": "BII-numbers of set-systems with maximum degree 2.",
+  "id": "A327106",
+  "mentions": [
+    "A000120",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A136284",
+    "A326031",
+    "A326701",
+    "A326786",
+    "A327041",
+    "A327103",
+    "A327104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

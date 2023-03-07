@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A116543(k) = A007895(k); i.e., the Lucas and Zeckendorf representations of k have the same length.",
+  "id": "A214974",
+  "mentions": [
+    "A007895",
+    "A116543",
+    "A214973",
+    "A214975",
+    "A214976"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

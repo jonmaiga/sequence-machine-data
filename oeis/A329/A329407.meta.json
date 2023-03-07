@@ -1,0 +1,24 @@
+{
+  "description": "Among the pairwise sums of any five consecutive terms there is exactly one prime sum; lexicographically earliest such sequence of distinct positive numbers.",
+  "id": "A329407",
+  "mentions": [
+    "A329333",
+    "A329405",
+    "A329406",
+    "A329410",
+    "A329411",
+    "A329416",
+    "A329450",
+    "A329452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

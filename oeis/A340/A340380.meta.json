@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose odd part is a squarefree semiprime (A006881); numbers of the form 2^k * p * q, with k >= 0, and distinct odd primes p and q.",
+  "id": "A340380",
+  "mentions": [
+    "A000265",
+    "A006881",
+    "A280710",
+    "A285800",
+    "A340370"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

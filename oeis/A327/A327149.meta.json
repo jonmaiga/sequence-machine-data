@@ -1,0 +1,37 @@
+{
+  "description": "Irregular triangle read by rows with trailing zeros removed where T(n,k) is the number of simple labeled graphs covering n vertices with non-spanning edge-connectivity k.",
+  "id": "A327149",
+  "mentions": [
+    "A001187",
+    "A006129",
+    "A263296",
+    "A322338",
+    "A322395",
+    "A326787",
+    "A327069",
+    "A327070",
+    "A327079",
+    "A327097",
+    "A327099",
+    "A327102",
+    "A327125",
+    "A327126",
+    "A327129",
+    "A327144",
+    "A327148",
+    "A327201"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

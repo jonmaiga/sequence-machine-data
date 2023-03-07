@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies the condition that both G(x) = A(x/G(x)) and H(x) = A(x*H(x)) have zeros for every other coefficient after initial terms; g.f. of dual sequence A157303 satisfies the same condition.",
+  "id": "A157306",
+  "mentions": [
+    "A157302",
+    "A157303",
+    "A157304",
+    "A157305",
+    "A157307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

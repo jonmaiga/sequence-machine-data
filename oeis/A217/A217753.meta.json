@@ -1,0 +1,22 @@
+{
+  "description": "Number of noncongruent polygonal regions with finite area in the exterior of a regular n-gon with all diagonals drawn.",
+  "id": "A217753",
+  "mentions": [
+    "A004526",
+    "A187781",
+    "A217745",
+    "A217746",
+    "A217748",
+    "A217754"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

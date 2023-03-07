@@ -1,0 +1,22 @@
+{
+  "description": "The number of tilings of an 8 X (3n) floor with 2 X 3 hexominoes.",
+  "id": "A236583",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A182097",
+    "A236584"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:51:33",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

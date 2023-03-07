@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] into exactly k blocks where sizes of distinct blocks are coprime; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A280880",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A000292",
+    "A000389",
+    "A051880",
+    "A057427",
+    "A194924",
+    "A280275",
+    "A280881",
+    "A280882",
+    "A280883",
+    "A280884",
+    "A280885",
+    "A280886",
+    "A280887",
+    "A280888",
+    "A280889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of even numbers: a(n) = 2 * A265351(n).",
+  "id": "A265342",
+  "mentions": [
+    "A263273",
+    "A264980",
+    "A265341",
+    "A265351"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

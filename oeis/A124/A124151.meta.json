@@ -1,0 +1,28 @@
+{
+  "description": "Smallest k such that 1 + Sum{j=1..n} k^(2*j-1) is prime.",
+  "id": "A124151",
+  "mentions": [
+    "A006093",
+    "A124154",
+    "A124163",
+    "A124164",
+    "A124178",
+    "A124181",
+    "A124185",
+    "A124187",
+    "A124189",
+    "A124200",
+    "A124205",
+    "A124209"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

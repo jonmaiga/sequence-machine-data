@@ -1,0 +1,24 @@
+{
+  "description": "Inverse binomial transform of (0 followed by A037481).",
+  "id": "A140725",
+  "mentions": [
+    "A000079",
+    "A011782",
+    "A037481",
+    "A083421",
+    "A091003",
+    "A108561",
+    "A140796"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:25:42",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

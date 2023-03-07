@@ -1,0 +1,25 @@
+{
+  "description": "Number of palindromic pentagonal numbers of length n whose index is also palindromic.",
+  "id": "A307753",
+  "mentions": [
+    "A000326",
+    "A002069",
+    "A028386",
+    "A059868",
+    "A263618",
+    "A307717"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

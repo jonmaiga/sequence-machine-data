@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the coefficient of x^k in the expansion of Ramanujan's function R(x) = Sum_{i>=0} x^(i*(i+1)/2)/Product_{j=1..i} (1 + x^j) is zero.",
+  "id": "A302580",
+  "mentions": [
+    "A003406",
+    "A117192",
+    "A117193"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular array read by rows. a(n) is the number of odd elements in the primitive 3x+k cycle associated with A226607(n).",
+  "id": "A226610",
+  "mentions": [
+    "A226607",
+    "A226608",
+    "A226609",
+    "A226611",
+    "A226612",
+    "A226613",
+    "A226626"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

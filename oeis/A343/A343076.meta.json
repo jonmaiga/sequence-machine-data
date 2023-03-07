@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative numbers that are not the sum of distinct terms of A343017.",
+  "id": "A343076",
+  "mentions": [
+    "A343017"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Pseudoprimes to base 2 divisible by 1093^2.",
+  "id": "A247830",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A013929",
+    "A015919",
+    "A158358",
+    "A219346",
+    "A247831"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

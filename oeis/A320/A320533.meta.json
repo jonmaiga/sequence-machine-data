@@ -1,0 +1,30 @@
+{
+  "description": "MM-numbers of labeled multi-hypergraphs with multiset edges and no singletons spanning an initial interval of positive integers.",
+  "id": "A320533",
+  "mentions": [
+    "A003963",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A255906",
+    "A290103",
+    "A302242",
+    "A302478",
+    "A305052",
+    "A320456",
+    "A320462",
+    "A320463",
+    "A320464",
+    "A320532"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

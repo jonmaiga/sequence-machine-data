@@ -1,0 +1,27 @@
+{
+  "description": "God's number for a Rubik's cube of size n X n X n (using the half turn metric).",
+  "id": "A257401",
+  "mentions": [
+    "A054434",
+    "A075152",
+    "A079761",
+    "A079762",
+    "A080601",
+    "A080602",
+    "A256573"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

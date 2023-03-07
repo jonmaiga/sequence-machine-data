@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that phi(n) is the arithmetic mean of n and reversal(n).",
+  "id": "A130001",
+  "mentions": [
+    "A000010",
+    "A004086",
+    "A130000"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

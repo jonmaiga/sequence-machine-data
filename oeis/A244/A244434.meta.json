@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A244433(n) does not belong to the set {A244433(n-1), A244433(n+1)}.",
+  "id": "A244434",
+  "mentions": [
+    "A244433"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

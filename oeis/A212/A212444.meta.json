@@ -1,0 +1,19 @@
+{
+  "description": "Iterates A212439, starting from 0.",
+  "id": "A212444",
+  "mentions": [
+    "A181935",
+    "A212439"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

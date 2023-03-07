@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of numbers used to compute the frequencies of the spectral lines of the hydrogen atom.",
+  "id": "A120070",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A016061",
+    "A019692",
+    "A120072",
+    "A120073",
+    "A133819",
+    "A140978"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

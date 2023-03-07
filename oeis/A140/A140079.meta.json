@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n and n+1 have 5 distinct prime factors.",
+  "id": "A140079",
+  "mentions": [
+    "A074851",
+    "A093548",
+    "A140077",
+    "A140078",
+    "A321495",
+    "A321505"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

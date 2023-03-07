@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the elements of the continued fractions of the harmonic means of the divisors of k and k+1 are anagrams of each other.",
+  "id": "A353345",
+  "mentions": [
+    "A069567",
+    "A099377",
+    "A099378",
+    "A349473",
+    "A349499",
+    "A353346",
+    "A353347"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

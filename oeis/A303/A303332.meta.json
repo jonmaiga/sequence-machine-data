@@ -1,0 +1,19 @@
+{
+  "description": "7-smooth numbers representable as the sum of two relatively prime 7-smooth numbers.",
+  "id": "A303332",
+  "mentions": [
+    "A085153"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

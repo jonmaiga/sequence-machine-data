@@ -1,0 +1,20 @@
+{
+  "description": "Roots of squares generated in A221643. That is, S = i^2 XOR (i+1)^2; increment i; if S is a square then square root of S is appended to a(n). Initially i=0. XOR is the binary logical exclusive-or operator.",
+  "id": "A224511",
+  "mentions": [
+    "A221643",
+    "A224515"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

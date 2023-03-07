@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that k^k ends with 4.",
+  "id": "A322489",
+  "mentions": [
+    "A004526",
+    "A008592",
+    "A017281",
+    "A017329",
+    "A017377",
+    "A056849",
+    "A067870",
+    "A139544",
+    "A235700",
+    "A271346",
+    "A322490"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:57",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n) = min{(n-1-a(n-1));(n-1-i)}, where i (0<=i<=n-2) is the largest number such that a(n-1)=a(i) or i=0 if no such a(i) exists.",
+  "id": "A270755",
+  "mentions": [
+    "A181391",
+    "A267794",
+    "A268584"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

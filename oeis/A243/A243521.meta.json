@@ -1,0 +1,19 @@
+{
+  "description": "The number of states in a Tower of Hanoi puzzle with three pegs and n discs, where a larger disc can be placed directly on top of a smaller one at most once per peg.",
+  "id": "A243521",
+  "mentions": [
+    "A000325"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

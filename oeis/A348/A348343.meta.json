@@ -1,0 +1,28 @@
+{
+  "description": "Smaller member of a noninfinitary amicable pair: numbers (k, m) such that nisigma(k) = m and nisigma(m) = k, where nisigma(k) is the sum of the noninfinitary divisors of k (A348271).",
+  "id": "A348343",
+  "mentions": [
+    "A002025",
+    "A002952",
+    "A126165",
+    "A126169",
+    "A259038",
+    "A292980",
+    "A322541",
+    "A324708",
+    "A327633",
+    "A348271",
+    "A348344"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

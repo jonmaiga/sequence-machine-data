@@ -1,0 +1,21 @@
+{
+  "description": "Number of Cayley graphs on n nodes.",
+  "id": "A185959",
+  "mentions": [
+    "A006792",
+    "A006799",
+    "A319372"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

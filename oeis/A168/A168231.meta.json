@@ -1,0 +1,21 @@
+{
+  "description": "a(n)^2 = digital sum of (A076503(n))^2.",
+  "id": "A168231",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A061910",
+    "A076503"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

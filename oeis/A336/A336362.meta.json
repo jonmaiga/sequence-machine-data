@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of map k -> k*sigma(p^e)/p^e needed to reach a power of 2, where p is the smallest odd prime factor of k and e is its exponent, when starting from k = n. a(n) = -1 if number of the form 2^k is never reached.",
+  "id": "A336362",
+  "mentions": [
+    "A000265",
+    "A209229",
+    "A331410",
+    "A336361",
+    "A336363",
+    "A336650"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

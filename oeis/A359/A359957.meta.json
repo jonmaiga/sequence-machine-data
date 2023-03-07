@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number with exactly n divisors that are greater than or equal to 6.",
+  "id": "A359957",
+  "mentions": [
+    "A005179",
+    "A338649",
+    "A359955",
+    "A359956"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

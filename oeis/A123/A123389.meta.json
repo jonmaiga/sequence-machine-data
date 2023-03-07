@@ -1,0 +1,20 @@
+{
+  "description": "Ratio of each term of the primorial function to the corresponding term of the factorial function (rounded to nearest integer).",
+  "id": "A123389",
+  "mentions": [
+    "A000142",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

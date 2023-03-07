@@ -1,0 +1,25 @@
+{
+  "description": "Least number with the prime signature of n^2 + 1.",
+  "id": "A278162",
+  "mentions": [
+    "A002522",
+    "A005574",
+    "A046523",
+    "A085722",
+    "A278160",
+    "A278244",
+    "A278254",
+    "A278260"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Counterexamples to a conjecture of Ramanujan about congruences related to the partition function.",
+  "id": "A340757",
+  "mentions": [
+    "A000041",
+    "A052462",
+    "A052465",
+    "A052466",
+    "A182719",
+    "A340957"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

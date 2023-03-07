@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k at which points A336456(k) appears multiplicative, but A051027(k) does not.",
+  "id": "A336560",
+  "mentions": [
+    "A000265",
+    "A051027",
+    "A335915",
+    "A336456",
+    "A336546",
+    "A336547",
+    "A336548",
+    "A336549",
+    "A336556",
+    "A336557",
+    "A336559",
+    "A336561"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

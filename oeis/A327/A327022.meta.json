@@ -1,0 +1,29 @@
+{
+  "description": "Partition triangle read by rows. Number of ordered set partitions of the set {1, 2, ..., 2*n} with all block sizes divisible by 2.",
+  "id": "A327022",
+  "mentions": [
+    "A000041",
+    "A000680",
+    "A028296",
+    "A072233",
+    "A080577",
+    "A094088",
+    "A133314",
+    "A178803",
+    "A241171",
+    "A281478",
+    "A327023",
+    "A327024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

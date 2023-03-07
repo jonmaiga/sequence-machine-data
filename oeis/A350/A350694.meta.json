@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be written as p*q+r where p,q,r are primes (not necessarily distinct) such that p+q+r is prime.",
+  "id": "A350694",
+  "mentions": [
+    "A046132"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, A177990 * A070909",
+  "id": "A177994",
+  "mentions": [
+    "A070909",
+    "A101881",
+    "A177990",
+    "A177991"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

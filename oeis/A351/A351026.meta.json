@@ -1,0 +1,21 @@
+{
+  "description": "Possible bases b > 17 which can be used in Pepin's test to check the primality of any Fermat number greater than 5 only in the case when the base b is smaller than the tested number.",
+  "id": "A351026",
+  "mentions": [
+    "A028730",
+    "A129802",
+    "A136804",
+    "A136806"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

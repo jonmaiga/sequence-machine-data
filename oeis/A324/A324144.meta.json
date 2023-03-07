@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1<=k<=n) = number of infinite exponential sequences related to pairs of complementary Fibonacci sequences.",
+  "id": "A324144",
+  "mentions": [
+    "A022424"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

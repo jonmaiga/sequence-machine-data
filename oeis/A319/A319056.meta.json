@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n in which (1) all parts have the same size and (2) each vertex appears the same number of times.",
+  "id": "A319056",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A064573",
+    "A279787",
+    "A283877",
+    "A306017",
+    "A316980",
+    "A316981",
+    "A316983",
+    "A319616",
+    "A322789"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

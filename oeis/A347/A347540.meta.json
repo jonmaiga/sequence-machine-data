@@ -1,0 +1,18 @@
+{
+  "description": "Position within Beyer and Hedetniemi's rooted tree iteration (A346913) of the tree with Matula-Goebel number n.",
+  "id": "A347540",
+  "mentions": [
+    "A346913",
+    "A347539"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

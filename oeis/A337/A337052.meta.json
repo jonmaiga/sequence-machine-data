@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the powerful part of k has an even number of prime divisors counted with multiplicity.",
+  "id": "A337052",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A004709",
+    "A005117",
+    "A028260",
+    "A057521",
+    "A096432",
+    "A138302",
+    "A220218",
+    "A335275",
+    "A336615"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

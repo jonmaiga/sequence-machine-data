@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 - log(1 - x^k) / k).",
+  "id": "A330075",
+  "mentions": [
+    "A000262",
+    "A178682",
+    "A330074"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

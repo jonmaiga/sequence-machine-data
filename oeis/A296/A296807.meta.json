@@ -1,0 +1,25 @@
+{
+  "description": "Take a prime, convert it to base 2. Consider it as a string of digits and delete its leftmost and rightmost digit. Leading zeros are kept. Repeat the process. a(n) is the least prime that, in the first n steps of this process, generates a string that is a prime read in base 2.",
+  "id": "A296807",
+  "mentions": [
+    "A000030",
+    "A004676",
+    "A010879",
+    "A085601",
+    "A296806",
+    "A297928"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

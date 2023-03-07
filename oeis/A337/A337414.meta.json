@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of achiral colorings of the edges of a regular n-dimensional orthoplex (cross polytope) using k or fewer colors.",
+  "id": "A337414",
+  "mentions": [
+    "A000027",
+    "A002411",
+    "A325007",
+    "A327086",
+    "A331351",
+    "A331357",
+    "A337410",
+    "A337411",
+    "A337412",
+    "A337413"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

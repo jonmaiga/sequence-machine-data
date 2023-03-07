@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of possible values of numbers of divisors of numbers k with Omega(k) = n.",
+  "id": "A355027",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A001222",
+    "A355026"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

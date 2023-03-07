@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first value to occur consecutively in the sequence b_n defined by p_2k(b_n(k)) = p_k(n)^2, k=1,2,3,..., where p_k(n) is the n-th k-almost prime.",
+  "id": "A209934",
+  "mentions": [
+    "A058933",
+    "A078840",
+    "A078843",
+    "A091538"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

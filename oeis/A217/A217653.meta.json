@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of unlabeled simple graphs with n nodes that have exactly k isolated nodes, (n>=0, 0<=k<=n).",
+  "id": "A217653",
+  "mentions": [
+    "A000088",
+    "A002494",
+    "A006897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

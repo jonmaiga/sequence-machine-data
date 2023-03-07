@@ -1,0 +1,18 @@
+{
+  "description": "Number of maximal irredundant sets in the 2n-crossed prism graph.",
+  "id": "A291065",
+  "mentions": [
+    "A290708"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

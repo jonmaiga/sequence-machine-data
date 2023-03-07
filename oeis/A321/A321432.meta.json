@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{i>0, j>0, k>0} (1 - x^(i^2 + j^2 + k^2)).",
+  "id": "A321432",
+  "mentions": [
+    "A063691",
+    "A321429",
+    "A321433"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

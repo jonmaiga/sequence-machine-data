@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of odd primes of the form b^(2^n)+1 that are less than A123599(n+1).",
+  "id": "A259835",
+  "mentions": [
+    "A056993",
+    "A088362",
+    "A123599"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

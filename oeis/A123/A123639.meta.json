@@ -1,0 +1,22 @@
+{
+  "description": "Consider the 2^n compositions of n and count only those ending in an even part.",
+  "id": "A123639",
+  "mentions": [
+    "A001045",
+    "A047970",
+    "A065120",
+    "A123638",
+    "A123640",
+    "A123641"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

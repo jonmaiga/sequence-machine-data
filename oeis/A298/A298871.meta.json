@@ -1,0 +1,21 @@
+{
+  "description": "Solution (a(n)) of the system of 3 complementary equations in Comments.",
+  "id": "A298871",
+  "mentions": [
+    "A298872",
+    "A298873",
+    "A298874",
+    "A299634"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

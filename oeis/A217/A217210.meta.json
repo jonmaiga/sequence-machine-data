@@ -1,0 +1,17 @@
+{
+  "description": "Number of strings of n 2's and 3's having a tail of length 1.",
+  "id": "A217210",
+  "mentions": [
+    "A217209"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

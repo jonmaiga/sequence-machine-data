@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent strip arrangements.",
+  "id": "A348154",
+  "mentions": [
+    "A045531"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

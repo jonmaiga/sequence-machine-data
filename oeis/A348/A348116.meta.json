@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of (strict) chains of subspaces with ends 0 and (F_2)^n, counted up to coordinate permutation.",
+  "id": "A348116",
+  "mentions": [
+    "A036038",
+    "A289545",
+    "A348113"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

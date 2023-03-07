@@ -1,0 +1,20 @@
+{
+  "description": "Number of vertices that are connected to two edges in a spiral without holes constructed with n hexagons.",
+  "id": "A182619",
+  "mentions": [
+    "A008458",
+    "A182618",
+    "A257594"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple labeled graphs on 2n nodes with exactly n connected components that are trees or cycles.",
+  "id": "A309313",
+  "mentions": [
+    "A215861"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

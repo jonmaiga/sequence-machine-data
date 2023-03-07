@@ -1,0 +1,19 @@
+{
+  "description": "Number of hill-free Dyck paths of semilength n, having no UUDD's, where U=(1,1) and D=(1,-1) (a hill in a Dyck path is a peak at level 1).",
+  "id": "A105641",
+  "mentions": [
+    "A105640",
+    "A118995"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 2,
+    "size": 28,
+    "source": "joeis"
+  }
+}

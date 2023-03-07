@@ -1,0 +1,18 @@
+{
+  "description": "Square spiral of nonnegative integers built by greedy algorithm such that for any (i, j) <> (0, 0) there is at most one position, say (n, k), such that the values at (n, k) and at (n+i, k+j) are the same.",
+  "id": "A338367",
+  "mentions": [
+    "A337226",
+    "A337804"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

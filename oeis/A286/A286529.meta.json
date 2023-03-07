@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = d(n+d(n)), where d(n) is the number of divisors of n (A000005).",
+  "id": "A286529",
+  "mentions": [
+    "A000005",
+    "A062249",
+    "A175304",
+    "A286479",
+    "A286530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 117,
+    "source": "oeis-bfile"
+  }
+}

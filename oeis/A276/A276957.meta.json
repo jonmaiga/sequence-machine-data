@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers: a(A153880(n)) = A255411(n), a(A273670(n)) = A256450(n).",
+  "id": "A276957",
+  "mentions": [
+    "A153880",
+    "A255411",
+    "A256450",
+    "A266193",
+    "A273663",
+    "A273667",
+    "A273670",
+    "A275845",
+    "A275847",
+    "A276950",
+    "A276958"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

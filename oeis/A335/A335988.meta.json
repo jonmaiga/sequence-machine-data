@@ -1,0 +1,29 @@
+{
+  "description": "Cubefull exponentially odd numbers: numbers whose prime factorization contains only odd exponents that are larger than 1.",
+  "id": "A335988",
+  "mentions": [
+    "A001694",
+    "A007947",
+    "A030078",
+    "A036966",
+    "A050997",
+    "A065487",
+    "A079395",
+    "A092759",
+    "A138031",
+    "A179665",
+    "A268335",
+    "A355038"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

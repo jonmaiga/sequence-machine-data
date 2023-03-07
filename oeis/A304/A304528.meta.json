@@ -1,0 +1,18 @@
+{
+  "description": "Restricted growth sequence transform of A304526, which is Möbius transform of A064664, the inverse of EKG-sequence.",
+  "id": "A304528",
+  "mentions": [
+    "A064664",
+    "A304526"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

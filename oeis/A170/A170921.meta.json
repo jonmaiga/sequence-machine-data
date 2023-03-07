@@ -1,0 +1,18 @@
+{
+  "description": "Write x*cot(x) = Product_{n>=1} (1 + g_n*x^(2*n)); a(n) = denominator(g_n).",
+  "id": "A170921",
+  "mentions": [
+    "A170920"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

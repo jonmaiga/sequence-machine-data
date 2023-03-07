@@ -1,0 +1,19 @@
+{
+  "description": "Domination number for lion's graph on an n X n board.",
+  "id": "A287392",
+  "mentions": [
+    "A075458"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:23:13",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

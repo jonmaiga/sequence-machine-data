@@ -1,0 +1,33 @@
+{
+  "description": "Number of compositions of n with at least one non-contiguous value.",
+  "id": "A335548",
+  "mentions": [
+    "A000670",
+    "A001339",
+    "A003242",
+    "A011782",
+    "A131044",
+    "A261983",
+    "A274174",
+    "A333175",
+    "A335451",
+    "A335460",
+    "A335462",
+    "A335463",
+    "A335470",
+    "A335471",
+    "A335472",
+    "A335473"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

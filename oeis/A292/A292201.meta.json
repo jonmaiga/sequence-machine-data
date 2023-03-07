@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest value c such that prime(n)^c - 2 is prime, where prime(n) is the n-th prime or -1 if no such c exists.",
+  "id": "A292201",
+  "mentions": [
+    "A255707"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

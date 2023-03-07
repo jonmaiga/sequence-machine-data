@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number that is the sum of n positive 4th powers in three ways.",
+  "id": "A343082",
+  "mentions": [
+    "A085559",
+    "A123075",
+    "A342893",
+    "A343077",
+    "A343081",
+    "A343083",
+    "A343086"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:43",
+    "offset": 3,
+    "size": 50,
+    "source": "joeis"
+  }
+}

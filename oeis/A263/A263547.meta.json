@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp( x * real( A(x)^I ) ), where I^2 = -1.",
+  "id": "A263547",
+  "mentions": [
+    "A009424",
+    "A036778",
+    "A058014"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:45",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 18*k - 1 and 18*k + 1 are twin primes.",
+  "id": "A137877",
+  "mentions": [
+    "A124519",
+    "A135023",
+    "A135368",
+    "A137876"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

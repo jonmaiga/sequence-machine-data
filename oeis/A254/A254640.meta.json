@@ -1,0 +1,28 @@
+{
+  "description": "Third partial sums of sixth powers (A001014).",
+  "id": "A254640",
+  "mentions": [
+    "A000292",
+    "A000389",
+    "A000538",
+    "A000578",
+    "A000580",
+    "A000582",
+    "A001014",
+    "A008292",
+    "A101092",
+    "A254460"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:57",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

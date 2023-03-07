@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k<=n} A007955(k) * A008683(n-k+1) = Sum_{k<=n} A007955(k) * mu(n-k+1), where A007955(m) = product of divisors of m.",
+  "id": "A174942",
+  "mentions": [
+    "A007955",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

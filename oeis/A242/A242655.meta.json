@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 2x^2+2xy+3y^2 with x and y nonnegative.",
+  "id": "A242655",
+  "mentions": [
+    "A029718",
+    "A106864",
+    "A106865"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

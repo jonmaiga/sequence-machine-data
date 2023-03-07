@@ -1,0 +1,44 @@
+{
+  "description": "Number of integer partitions of n such that if you repeatedly take the multiset of run-sums (or condensation), you eventually reach an empty set or singleton.",
+  "id": "A353845",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A018818",
+    "A181819",
+    "A225485",
+    "A275870",
+    "A300273",
+    "A304442",
+    "A304465",
+    "A325239",
+    "A325268",
+    "A325277",
+    "A325280",
+    "A326370",
+    "A353832",
+    "A353833",
+    "A353834",
+    "A353837",
+    "A353838",
+    "A353839",
+    "A353840",
+    "A353846",
+    "A353847",
+    "A353858",
+    "A353859",
+    "A353864",
+    "A353865",
+    "A353866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

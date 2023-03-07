@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,m)=floor[(m/n)*row(n)].",
+  "id": "A152969",
+  "mentions": [
+    "A000165"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

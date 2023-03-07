@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of polynomial a[1]=1, a[2]->1+1/(x*a[1]), a[3]->1+1/(2*x*a[2]), a[4]->1+1/(3*x*a[3]),.. giving 1,(1+x)/x,(3+2*x)/(2*(1+x)),(2+11*x+6*x^2)/(3*x*(3+2*x)), .. at x-> -1. Absolute values are equal to A067078(n)/n.",
+  "id": "A130045",
+  "mentions": [
+    "A001053",
+    "A002467",
+    "A003422",
+    "A052169",
+    "A067078",
+    "A093858"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

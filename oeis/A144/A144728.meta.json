@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest positive integer such that b * (Product_{k=1..n} a(k)) + 1 is prime, with a(n) > a(n-1) for n >= 2, and b = 6.",
+  "id": "A144728",
+  "mentions": [
+    "A046966",
+    "A046972",
+    "A144717",
+    "A144718",
+    "A144722",
+    "A144723",
+    "A144724",
+    "A144725",
+    "A144726",
+    "A144727",
+    "A144729",
+    "A144730",
+    "A144731"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:43",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

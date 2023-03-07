@@ -1,0 +1,18 @@
+{
+  "description": "One quarter the number of n X 5 1..4 arrays with no two neighbors of any element equal to each other.",
+  "id": "A183357",
+  "mentions": [
+    "A183362"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

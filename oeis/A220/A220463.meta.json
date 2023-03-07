@@ -1,0 +1,18 @@
+{
+  "description": "Chebyshev numbers C_v(n) for v=1.2: a(n) is the smallest number such that if x>=a(n), then theta(x)-theta(5*x/6)>=n*log(x), where theta(x)=sum_{prime p<=x}log p.",
+  "id": "A220463",
+  "mentions": [
+    "A220293"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

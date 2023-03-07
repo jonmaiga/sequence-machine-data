@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix cube of triangle P = A135880.",
+  "id": "A135888",
+  "mentions": [
+    "A135880",
+    "A135889",
+    "A135890",
+    "A135893",
+    "A135894"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

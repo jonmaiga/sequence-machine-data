@@ -1,0 +1,25 @@
+{
+  "description": "Emirp gaps: Differences between consecutive emirps.",
+  "id": "A185439",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A001223",
+    "A002386",
+    "A005250",
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

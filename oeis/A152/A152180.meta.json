@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A073609(n+1)=nextprime(A073609(n)).",
+  "id": "A152180",
+  "mentions": [
+    "A073609",
+    "A152181"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

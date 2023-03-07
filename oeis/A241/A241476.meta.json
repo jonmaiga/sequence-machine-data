@@ -1,0 +1,21 @@
+{
+  "description": "Least positive primitive root g < prime(n) modulo prime(n) with g - 1 a square, or 0 if such a number g does not exist.",
+  "id": "A241476",
+  "mentions": [
+    "A000040",
+    "A002522",
+    "A239957",
+    "A239963",
+    "A241472"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

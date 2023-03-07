@@ -1,0 +1,22 @@
+{
+  "description": "Fifth diagonal in Table A159572; previous diagonals are A000012, A000217, A000330 and A086602",
+  "id": "A159571",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000330",
+    "A086602",
+    "A159572"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

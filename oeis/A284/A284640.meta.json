@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive subset sums of strict integer partitions of n.",
+  "id": "A284640",
+  "mentions": [
+    "A122768",
+    "A275972",
+    "A276024"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

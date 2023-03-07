@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are nontrivially palindromic in two or more consecutive integer bases with non-constant number of digits .",
+  "id": "A327810",
+  "mentions": [
+    "A279092",
+    "A323742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

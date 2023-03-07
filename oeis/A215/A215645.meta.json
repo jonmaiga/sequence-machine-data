@@ -1,0 +1,21 @@
+{
+  "description": "Depth for {+1,-1} maximal determinant matrices: minimal depth for which a proper submatrix is also a maximal determinant matrix.",
+  "id": "A215645",
+  "mentions": [
+    "A003432",
+    "A003433",
+    "A215644"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

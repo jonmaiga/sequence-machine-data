@@ -1,0 +1,17 @@
+{
+  "description": "Hydropronic numbers: numbers n that can be written as a product of 2 integers whose sum is equal to ceiling(n/ceiling(sqrt(n))) + ceiling(sqrt(n)).",
+  "id": "A259227",
+  "mentions": [
+    "A027434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

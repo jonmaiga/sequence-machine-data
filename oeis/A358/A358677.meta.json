@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle where row n gives the columns of A340316 whose minimum value is in row n of A340316. The lists of column indices are given in abbreviated form, using pairs (x, y) to mean the range [x..y].",
+  "id": "A358677",
+  "mentions": [
+    "A276176",
+    "A340316",
+    "A346617"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Table of Self / Colombian numbers and their descendents.",
+  "id": "A151942",
+  "mentions": [
+    "A003052",
+    "A004207",
+    "A006507",
+    "A007618",
+    "A016052",
+    "A016096",
+    "A036227",
+    "A036228"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

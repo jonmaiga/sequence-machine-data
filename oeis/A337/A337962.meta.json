@@ -1,0 +1,26 @@
+{
+  "description": "Number of achiral colorings of the 12 pentagonal faces of a regular dodecahedron or the 12 vertices of a regular icosahedron using n or fewer colors.",
+  "id": "A337962",
+  "mentions": [
+    "A000545",
+    "A006003",
+    "A252705",
+    "A337897",
+    "A337898",
+    "A337953",
+    "A337960",
+    "A337961"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:11",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

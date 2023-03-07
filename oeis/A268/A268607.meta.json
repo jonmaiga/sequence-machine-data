@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least m > 1 such that 2^n - m is prime.",
+  "id": "A268607",
+  "mentions": [
+    "A002110",
+    "A005235",
+    "A055211",
+    "A263925",
+    "A264050",
+    "A268608"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Real part of n!*Sum_{k=1..n} i^(k-1)/k, where i is sqrt(-1).",
+  "id": "A281964",
+  "mentions": [
+    "A003881",
+    "A024167",
+    "A282132"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 0..1 arrays with exactly floor(nX4/2) elements unequal to at least one king-move neighbor, with new values introduced in row major 0..1 order",
+  "id": "A222324",
+  "mentions": [
+    "A222328"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

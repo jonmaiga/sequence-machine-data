@@ -1,0 +1,21 @@
+{
+  "description": "Start with a square; at each stage add a square at each expandable vertex so that the ratio of the side of the squares at stage n+1 and at stage n is the golden ratio phi=0.618...; a(n) is the number of squares in a portion of the n-th stage (see below).",
+  "id": "A269963",
+  "mentions": [
+    "A269962",
+    "A269964",
+    "A269965"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

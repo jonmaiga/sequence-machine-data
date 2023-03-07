@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographic block-fractal zero-one word with initial block 01.",
+  "id": "A282244",
+  "mentions": [
+    "A280511"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

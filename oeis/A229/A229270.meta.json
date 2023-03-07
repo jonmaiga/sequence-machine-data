@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which n’-n is prime, n' being the arithmetic derivative of n.",
+  "id": "A229270",
+  "mentions": [
+    "A003415",
+    "A165561",
+    "A165562",
+    "A229269",
+    "A229271",
+    "A229272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

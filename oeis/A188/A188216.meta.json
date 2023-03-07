@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1 + Sum_{n>=1} (x^(n^2) / Product_{k>=n} (1 - x^k)).",
+  "id": "A188216",
+  "mentions": [
+    "A003114",
+    "A096403"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

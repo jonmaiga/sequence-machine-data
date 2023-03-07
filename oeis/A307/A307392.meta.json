@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n with at most one part in the interval [i*(i+1)/2, i+(i*(i+1)/2)] for all nonnegative integers i.",
+  "id": "A307392",
+  "mentions": [
+    "A000217",
+    "A057944"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

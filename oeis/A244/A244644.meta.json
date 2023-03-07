@@ -1,0 +1,27 @@
+{
+  "description": "Consider the method used by Archimedes to determine the value of Pi (A000796). This sequence denotes the number of iterations of his algorithm which would result in a difference of less than 1/10^n from that of Pi.",
+  "id": "A244644",
+  "mentions": [
+    "A000796",
+    "A014549",
+    "A093954",
+    "A129187",
+    "A129200",
+    "A188615",
+    "A195621",
+    "A202541"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

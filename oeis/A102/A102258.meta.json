@@ -1,0 +1,18 @@
+{
+  "description": "Begin with 5, multiply each digit by 2.",
+  "id": "A102258",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

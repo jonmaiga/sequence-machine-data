@@ -1,0 +1,22 @@
+{
+  "description": "Maximum number of circles of radius 1 that can be packed into a regular n-gon with side length 2 (conjectured).",
+  "id": "A253570",
+  "mentions": [
+    "A023393",
+    "A051657",
+    "A084616"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

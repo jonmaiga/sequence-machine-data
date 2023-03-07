@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of irreducible Mersenne polynomials in GF(2)[x] that have degree n.",
+  "id": "A335383",
+  "mentions": [
+    "A162570",
+    "A267918",
+    "A272486"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

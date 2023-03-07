@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of primes of the form p*q+(p+q) where p = prime(n) and q is any prime < p.",
+  "id": "A224962",
+  "mentions": [
+    "A224748",
+    "A224908",
+    "A224925"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

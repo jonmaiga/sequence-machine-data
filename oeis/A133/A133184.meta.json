@@ -1,0 +1,20 @@
+{
+  "description": "Let k'' be the result of applying the powertrain map of A133500 twice to k. Sequence gives conjectured list of all possible values of k''.",
+  "id": "A133184",
+  "mentions": [
+    "A002473",
+    "A133185",
+    "A133500"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

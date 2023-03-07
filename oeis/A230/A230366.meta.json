@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..floor(n/2)} (k^2 mod n).",
+  "id": "A230366",
+  "mentions": [
+    "A048153"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

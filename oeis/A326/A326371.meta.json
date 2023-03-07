@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array: row n shows the number of condensations needed to convert all the partitions of n to strict partitions.",
+  "id": "A326371",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A239312",
+    "A326370"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

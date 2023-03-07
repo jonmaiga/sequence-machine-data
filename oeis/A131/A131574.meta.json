@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n that are the product of two distinct odd primes and x^2 + y^2 = n has integer solutions.",
+  "id": "A131574",
+  "mentions": [
+    "A000415",
+    "A121387",
+    "A248649",
+    "A248712",
+    "A264498",
+    "A264499"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Exponential harmonic (or e-harmonic) numbers of type 2: numbers k such that the harmonic mean of the exponential divisors of k is an integer.",
+  "id": "A348964",
+  "mentions": [
+    "A001599",
+    "A005117",
+    "A006086",
+    "A049419",
+    "A063947",
+    "A286325",
+    "A319745",
+    "A322791",
+    "A348961",
+    "A348963",
+    "A348965"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let sequences X and Y consist of the least positive integers such that 2X+Y is the complement of X and X+Y is the complement of Y, starting with X(1)=1 and Y(1)=1; then this sequence equals X, while 2X+Y=A141205, Y=A141206 and X+Y=A141207.",
+  "id": "A141204",
+  "mentions": [
+    "A141205",
+    "A141206",
+    "A141207"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

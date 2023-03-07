@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the traces of all plane partitions of n.",
+  "id": "A276432",
+  "mentions": [
+    "A000203",
+    "A000219",
+    "A089353",
+    "A091360",
+    "A277029",
+    "A340793"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

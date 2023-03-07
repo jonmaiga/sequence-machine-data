@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} ((1 + k^(-s)) / (1 - k^(-s)))^k.",
+  "id": "A328709",
+  "mentions": [
+    "A050367",
+    "A050368",
+    "A328707"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

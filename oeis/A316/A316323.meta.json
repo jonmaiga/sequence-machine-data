@@ -1,0 +1,21 @@
+{
+  "description": "The square array in A305615 read by antidiagonals.",
+  "id": "A316323",
+  "mentions": [
+    "A269501",
+    "A269780",
+    "A305615"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

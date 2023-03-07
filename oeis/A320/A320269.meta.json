@@ -1,0 +1,40 @@
+{
+  "description": "Matula-Goebel numbers of lone-child-avoiding rooted trees in which the non-leaf branches directly under any given node are all equal (semi-achirality).",
+  "id": "A320269",
+  "mentions": [
+    "A002541",
+    "A003238",
+    "A061775",
+    "A070776",
+    "A167865",
+    "A196050",
+    "A214577",
+    "A276625",
+    "A280996",
+    "A291441",
+    "A291636",
+    "A306202",
+    "A317710",
+    "A320222",
+    "A320226",
+    "A320230",
+    "A320268",
+    "A331871",
+    "A331912",
+    "A331916",
+    "A331936",
+    "A331965",
+    "A331966",
+    "A331967"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

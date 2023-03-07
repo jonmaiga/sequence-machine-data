@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that n^2 becomes another square under the map 8<=>9 (acting on the decimal digits).",
+  "id": "A232422",
+  "mentions": [
+    "A175789"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

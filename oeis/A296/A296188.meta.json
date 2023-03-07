@@ -1,0 +1,35 @@
+{
+  "description": "Number of normal semistandard Young tableaux whose shape is the integer partition with Heinz number n.",
+  "id": "A296188",
+  "mentions": [
+    "A000085",
+    "A001222",
+    "A056239",
+    "A063834",
+    "A112798",
+    "A122111",
+    "A138178",
+    "A153452",
+    "A191714",
+    "A210391",
+    "A228125",
+    "A296150",
+    "A296560",
+    "A296561",
+    "A299202",
+    "A299966",
+    "A300056",
+    "A300121"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

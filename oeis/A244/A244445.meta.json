@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ceiling(A002386(n+1)/A002386(n)).",
+  "id": "A244445",
+  "mentions": [
+    "A000040",
+    "A002386"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

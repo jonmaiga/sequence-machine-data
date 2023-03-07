@@ -1,0 +1,21 @@
+{
+  "description": "Nonprime numbers == 1 (mod 4) with a unique partition as a sum of 2 squares x^2 + y^2.",
+  "id": "A124983",
+  "mentions": [
+    "A000161",
+    "A002145",
+    "A124982",
+    "A125018",
+    "A125020"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

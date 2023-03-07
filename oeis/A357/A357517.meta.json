@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the average of two consecutive primorial numbers A002110 plus one.",
+  "id": "A357517",
+  "mentions": [
+    "A002110",
+    "A276939"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

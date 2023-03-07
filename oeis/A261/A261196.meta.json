@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of sqrt(8*x + sqrt(1 + 64*x^2)).",
+  "id": "A261196",
+  "mentions": [
+    "A000108",
+    "A002420",
+    "A098579",
+    "A182122"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2n/sigma(n) - 1 = 1/x for some integer x.",
+  "id": "A222264",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A058007",
+    "A222263"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

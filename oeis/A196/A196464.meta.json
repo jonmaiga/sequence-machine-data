@@ -1,0 +1,17 @@
+{
+  "description": "The \"virtually enumerative invariants\" n^{disk}_d as d runs through the odd numbers.",
+  "id": "A196464",
+  "mentions": [
+    "A196465"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

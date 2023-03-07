@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (prime(n) - 7)^2 * (4*prime(n) - 1).",
+  "id": "A245035",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A030078"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:15",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

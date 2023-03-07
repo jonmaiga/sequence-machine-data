@@ -1,0 +1,23 @@
+{
+  "description": "Half-convolution of the central binomial coefficients A000984 with itself.",
+  "id": "A264960",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A013776",
+    "A112830",
+    "A201204"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

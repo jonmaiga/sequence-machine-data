@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of x*(5+x)/(1-7*x+7*x^2-x^3).",
+  "id": "A212329",
+  "mentions": [
+    "A182441",
+    "A213005"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

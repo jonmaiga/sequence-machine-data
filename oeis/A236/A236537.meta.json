@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose binary and ternary representations are also prime when read in decimal.",
+  "id": "A236537",
+  "mentions": [
+    "A000040",
+    "A065720",
+    "A236365",
+    "A236512"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

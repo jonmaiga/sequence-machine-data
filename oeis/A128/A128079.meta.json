@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A000984(k)*A001263(n+1,k+1), where A000984 is the central binomial coefficients and A001263 is the Narayana triangle.",
+  "id": "A128079",
+  "mentions": [
+    "A000984",
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

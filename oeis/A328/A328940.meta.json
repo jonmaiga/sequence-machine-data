@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k divides A003754(k+1).",
+  "id": "A328940",
+  "mentions": [
+    "A003754",
+    "A014417",
+    "A104326",
+    "A276488"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

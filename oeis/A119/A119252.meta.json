@@ -1,0 +1,22 @@
+{
+  "description": "Odd digits in decreasing order.",
+  "id": "A119252",
+  "mentions": [
+    "A009993",
+    "A009995",
+    "A119253"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Maximum length of a binary sequence S such that every pair of subwords of length n in S is of Hamming distance at least 2.",
+  "id": "A309832",
+  "mentions": [
+    "A052944",
+    "A309833"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

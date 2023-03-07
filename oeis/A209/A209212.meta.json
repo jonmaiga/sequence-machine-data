@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX1 1..7 arrays with every element value z a city block distance of exactly z from another element value z",
+  "id": "A209212",
+  "mentions": [
+    "A209215"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Inverse permutation to A303763.",
+  "id": "A303764",
+  "mentions": [
+    "A303763",
+    "A303766",
+    "A303768"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

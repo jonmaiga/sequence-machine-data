@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=2; for n >= 2, (2n+1)^3*a(n) = 32n^3*a(n-1) + (21n^3 + 22n^2 + 8n + 1)*binomial(2n-1,n)^4.",
+  "id": "A176477",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A173774",
+    "A176285"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

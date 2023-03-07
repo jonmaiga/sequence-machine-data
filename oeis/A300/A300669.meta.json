@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers k with two consecutive ones in the binary representation of 1/k.",
+  "id": "A300669",
+  "mentions": [
+    "A004780",
+    "A300630",
+    "A300653",
+    "A300655"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

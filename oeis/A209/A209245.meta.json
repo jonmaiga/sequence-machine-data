@@ -1,0 +1,25 @@
+{
+  "description": "Main diagonal of the triple recurrence x(i,j,k) = x(i-1,j,k) + x(i,j-1,k) + x(i,j,k-1) with x(i,j,k) = 1 if 0 in {i,j,k}.",
+  "id": "A209245",
+  "mentions": [
+    "A000012",
+    "A005408",
+    "A028387",
+    "A108766",
+    "A134760",
+    "A164039",
+    "A209288",
+    "A210472"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

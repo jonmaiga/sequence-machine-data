@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. cosh( sqrt(k) * log(1-x) ).",
+  "id": "A357712",
+  "mentions": [
+    "A000007",
+    "A105752",
+    "A263687",
+    "A357681",
+    "A357683",
+    "A357703",
+    "A357711"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

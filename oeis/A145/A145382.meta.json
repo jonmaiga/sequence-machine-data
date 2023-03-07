@@ -1,0 +1,20 @@
+{
+  "description": "Write the n-th prime in binary. Change all 0's to 1's and all 1's to 0's. a(n) is the decimal equivalent of the result.",
+  "id": "A145382",
+  "mentions": [
+    "A035327",
+    "A171008"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

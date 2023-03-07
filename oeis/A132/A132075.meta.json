@@ -1,0 +1,19 @@
+{
+  "description": "A conjectured permutation of the positive integers such that for every n, a(n) is the largest number among a(1), a(2), ..., a(n) that when added to a(n+1) gives a prime.",
+  "id": "A132075",
+  "mentions": [
+    "A088643",
+    "A255312"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

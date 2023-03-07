@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of average length of a line segment picked at random in a unit 8-cube.",
+  "id": "A103987",
+  "mentions": [
+    "A103983",
+    "A103984",
+    "A103985",
+    "A103986"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

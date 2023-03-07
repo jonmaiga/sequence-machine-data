@@ -1,0 +1,21 @@
+{
+  "description": "Smallest complementary perimeter, as defined in the comments, among all sets of nonnegative integers whose volume (sum) is n.",
+  "id": "A182298",
+  "mentions": [
+    "A002024",
+    "A025581",
+    "A186053"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

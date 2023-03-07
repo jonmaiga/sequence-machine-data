@@ -1,0 +1,25 @@
+{
+  "description": "Cuboids that fit in square rings from A288486 obtaining a fifth power.",
+  "id": "A288487",
+  "mentions": [
+    "A000584",
+    "A002061",
+    "A002522",
+    "A014206",
+    "A059100",
+    "A082044",
+    "A288486"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

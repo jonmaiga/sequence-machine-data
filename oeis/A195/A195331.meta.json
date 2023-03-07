@@ -1,0 +1,19 @@
+{
+  "description": "A080670 applied to A195330(n).",
+  "id": "A195331",
+  "mentions": [
+    "A080670",
+    "A195330"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

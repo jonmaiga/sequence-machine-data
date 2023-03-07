@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of q^(-1/2) * eta(q^3) * eta(q^10) * eta(q^14) * eta(q^105) in powers of q.",
+  "id": "A286132",
+  "mentions": [
+    "A286135"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

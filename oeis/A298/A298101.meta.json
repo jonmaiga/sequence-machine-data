@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of x*(1 + x)/((1 - x)*(1 - 322*x + x^2)).",
+  "id": "A298101",
+  "mentions": [
+    "A023039",
+    "A049660",
+    "A225786",
+    "A253368",
+    "A298271"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

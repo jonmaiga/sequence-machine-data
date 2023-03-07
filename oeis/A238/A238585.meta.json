@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes p < n with prime(p)^2 + (prime(n)-1)^2 prime.",
+  "id": "A238585",
+  "mentions": [
+    "A000040",
+    "A232465",
+    "A238580"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

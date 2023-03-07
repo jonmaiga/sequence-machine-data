@@ -1,0 +1,19 @@
+{
+  "description": "Toothpick number A139250(n) minus triangular number A000217(n).",
+  "id": "A159790",
+  "mentions": [
+    "A000217",
+    "A000695",
+    "A139250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

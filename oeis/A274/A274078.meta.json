@@ -1,0 +1,30 @@
+{
+  "description": "T(n,m), denominators of coefficients in a power/Fourier series expansion of the plane pendulum's exact differential time dependence.",
+  "id": "A274078",
+  "mentions": [
+    "A000984",
+    "A001790",
+    "A038533",
+    "A038534",
+    "A046161",
+    "A056982",
+    "A273496",
+    "A273506",
+    "A273507",
+    "A274076",
+    "A274130",
+    "A274131"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

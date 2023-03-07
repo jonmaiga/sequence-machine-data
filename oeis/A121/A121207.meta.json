@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows. The definition is by diagonals. The r-th diagonal from the right, for r >= 0, is given by b(0) = b(1) = 1; b(n+1) = Sum_{k=0..n} binomial(n+2,k+r)*a(k).",
+  "id": "A121207",
+  "mentions": [
+    "A000110",
+    "A040027",
+    "A045499",
+    "A045500",
+    "A045501",
+    "A046936",
+    "A124496",
+    "A160185",
+    "A186020",
+    "A297924",
+    "A298804"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

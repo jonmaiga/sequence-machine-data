@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: bracelets on the alphabet {0,1} sorted by length then by lexicographic order of minimum rotation.",
+  "id": "A356922",
+  "mentions": [
+    "A000029",
+    "A356921",
+    "A356923",
+    "A356924"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

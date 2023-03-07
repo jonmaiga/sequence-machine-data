@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x - x/((1 - x^2)^(1/2) - x/((1 - x^3)^(1/3) - x/((1 - x^4)^(1/4) - ...)))), a continued fraction.",
+  "id": "A295836",
+  "mentions": [
+    "A088354"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

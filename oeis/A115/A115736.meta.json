@@ -1,0 +1,20 @@
+{
+  "description": "Primes p whose digits are a substring of the digits of pi(p)^3.",
+  "id": "A115736",
+  "mentions": [
+    "A115734",
+    "A115735",
+    "A115737"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

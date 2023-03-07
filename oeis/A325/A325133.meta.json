@@ -1,0 +1,31 @@
+{
+  "description": "Heinz number of the integer partition obtained by removing the inner lining, or, equivalently, the largest hook, of the integer partition with Heinz number n.",
+  "id": "A325133",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A046660",
+    "A052126",
+    "A056239",
+    "A061395",
+    "A064989",
+    "A093641",
+    "A112798",
+    "A243055",
+    "A252464",
+    "A257990",
+    "A325134",
+    "A325135"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

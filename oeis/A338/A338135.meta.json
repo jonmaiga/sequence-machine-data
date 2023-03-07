@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: Row p gives number of non-overlapping clusters of 2q-plets joining 2p points on a circle, i.e., number of noncrossing partitions from A134264 with h_k for k odd replaced by zero.",
+  "id": "A338135",
+  "mentions": [
+    "A000108",
+    "A108767",
+    "A120986",
+    "A125181",
+    "A134264"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k such that n can be expressed as a signed sum of the first k primes.",
+  "id": "A327467",
+  "mentions": [
+    "A007504",
+    "A140358"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

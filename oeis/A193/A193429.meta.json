@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = minimum value of the largest element of a nonempty set of positive integers > n such that their product is equal to n!, or 0 if no such set exists.",
+  "id": "A193429",
+  "mentions": [
+    "A000142",
+    "A157017"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

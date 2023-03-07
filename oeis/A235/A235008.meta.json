@@ -1,0 +1,18 @@
+{
+  "description": "Primes which become fourth powers when the digits are rotated once to the right.",
+  "id": "A235008",
+  "mentions": [
+    "A235009"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

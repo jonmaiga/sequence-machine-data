@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of double-free integer partitions.",
+  "id": "A320340",
+  "mentions": [
+    "A018819",
+    "A056239",
+    "A087897",
+    "A101417",
+    "A112798",
+    "A120641",
+    "A276431",
+    "A305148",
+    "A319613",
+    "A323092",
+    "A323093"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

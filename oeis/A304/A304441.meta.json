@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 8k, 8k+1 and 8k+2 are the sum of two squares; A082982 / 8.",
+  "id": "A304441",
+  "mentions": [
+    "A001481",
+    "A020684",
+    "A034024",
+    "A082982",
+    "A135571",
+    "A140612",
+    "A155562",
+    "A243180"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

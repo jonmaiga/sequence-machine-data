@@ -1,0 +1,29 @@
+{
+  "description": "12 times pentagonal numbers: a(n) = 6*n*(3*n-1).",
+  "id": "A153792",
+  "mentions": [
+    "A000326",
+    "A008588",
+    "A033579",
+    "A049450",
+    "A062741",
+    "A152743",
+    "A153449",
+    "A153793",
+    "A195160",
+    "A195321",
+    "A291582"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:26:31",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

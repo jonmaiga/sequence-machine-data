@@ -1,0 +1,18 @@
+{
+  "description": "Engel expansion of e to the base Pi.",
+  "id": "A280102",
+  "mentions": [
+    "A232325"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

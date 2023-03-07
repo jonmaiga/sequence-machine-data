@@ -1,0 +1,25 @@
+{
+  "description": "Sum of all numbers having n or fewer digits and having the sum of their digits equal to n.",
+  "id": "A130835",
+  "mentions": [
+    "A000042",
+    "A002275",
+    "A007953",
+    "A167403",
+    "A211072",
+    "A331672",
+    "A331673"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

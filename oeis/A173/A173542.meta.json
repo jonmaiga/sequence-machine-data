@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic Ulam numbers.",
+  "id": "A173542",
+  "mentions": [
+    "A002113",
+    "A002858"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

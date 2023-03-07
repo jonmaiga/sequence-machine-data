@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that tau(k) and phi(k) are the legs of a Pythagorean triple.",
+  "id": "A308664",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A062516",
+    "A063469",
+    "A063470",
+    "A112954"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

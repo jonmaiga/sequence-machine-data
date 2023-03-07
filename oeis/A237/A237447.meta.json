@@ -1,0 +1,35 @@
+{
+  "description": "Infinite square array: row 1 is the positive integers 1, 2, 3, ..., and on any subsequent row n, n is moved to the front: n, 1, ..., n-1, n+1, n+2, ...",
+  "id": "A237447",
+  "mentions": [
+    "A000027",
+    "A000110",
+    "A000217",
+    "A000330",
+    "A002024",
+    "A002260",
+    "A004736",
+    "A007489",
+    "A010054",
+    "A028310",
+    "A054977",
+    "A055089",
+    "A074148",
+    "A195663",
+    "A237265",
+    "A237448"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

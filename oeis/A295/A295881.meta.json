@@ -1,0 +1,30 @@
+{
+  "description": "Reversing binary representation of the deficiency of n, A033879(n).",
+  "id": "A295881",
+  "mentions": [
+    "A000069",
+    "A000396",
+    "A001969",
+    "A005100",
+    "A010060",
+    "A023196",
+    "A033879",
+    "A033880",
+    "A048724",
+    "A065620",
+    "A065621",
+    "A286449",
+    "A295882"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

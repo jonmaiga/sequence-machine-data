@@ -1,0 +1,42 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] into k blocks such that the absolute difference between least elements of consecutive blocks is always > 1; triangle T(n,k), n>=0, 0<=k<=ceiling(n/2), read by rows.",
+  "id": "A298668",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000629",
+    "A000670",
+    "A001710",
+    "A008277",
+    "A028243",
+    "A028244",
+    "A028245",
+    "A028246",
+    "A032180",
+    "A048993",
+    "A057427",
+    "A076726",
+    "A110654",
+    "A136011",
+    "A168604",
+    "A173018",
+    "A228909",
+    "A228910",
+    "A228911",
+    "A228912",
+    "A228913",
+    "A229046"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

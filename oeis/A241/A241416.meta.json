@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p of n such that the number of numbers having multiplicity 1 in p is a part and the number of numbers having multiplicity > 1 is not a part.",
+  "id": "A241416",
+  "mentions": [
+    "A239737",
+    "A241413",
+    "A241414",
+    "A241415",
+    "A241417"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

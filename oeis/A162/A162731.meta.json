@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th triprime (A014612) minus its central prime factor.",
+  "id": "A162731",
+  "mentions": [
+    "A014612",
+    "A162361"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

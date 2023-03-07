@@ -1,0 +1,28 @@
+{
+  "description": "Primes that are the largest member of a Wieferich cycle.",
+  "id": "A289899",
+  "mentions": [
+    "A039951",
+    "A252801",
+    "A252802",
+    "A252812",
+    "A268479",
+    "A269111",
+    "A271100",
+    "A281002",
+    "A288097"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

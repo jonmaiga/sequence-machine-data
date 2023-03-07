@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 4*n+3 and 8*n+7 are prime.",
+  "id": "A244087",
+  "mentions": [
+    "A095278",
+    "A139487"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

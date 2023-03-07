@@ -1,0 +1,19 @@
+{
+  "description": "2nd column of A154960.",
+  "id": "A154961",
+  "mentions": [
+    "A052882",
+    "A154921",
+    "A154960"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

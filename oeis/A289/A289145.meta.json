@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected dominating sets in the n X n black bishop graph.",
+  "id": "A289145",
+  "mentions": [
+    "A289164",
+    "A289169",
+    "A290719"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

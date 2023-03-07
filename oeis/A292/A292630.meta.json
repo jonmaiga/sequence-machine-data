@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. exp(k*x)*(BesselI(0,2*x) + BesselI(1,2*x)).",
+  "id": "A292630",
+  "mentions": [
+    "A001405",
+    "A001700",
+    "A005573",
+    "A005773",
+    "A026378",
+    "A122898",
+    "A292631"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

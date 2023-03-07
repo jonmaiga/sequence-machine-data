@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) is the number of lower triangles of an n X n integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by k or less and triangles differing by a constant counted only once.",
+  "id": "A195220",
+  "mentions": [
+    "A003215"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

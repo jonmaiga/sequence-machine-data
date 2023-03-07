@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of integer sequences b(0..n) of length n+1, with 0 <= b(k) <= k! and monotonic b(k) <= b(k+1).",
+  "id": "A355129",
+  "mentions": [
+    "A000108",
+    "A005269",
+    "A005270",
+    "A008934",
+    "A016121",
+    "A128094",
+    "A242105"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

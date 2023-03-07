@@ -1,0 +1,19 @@
+{
+  "description": "Values of m for which C(m,a) + C(m,a+2) divides C(m,2a+2) for some nonnegative integer a with 2a+2 <= m.",
+  "id": "A140603",
+  "mentions": [
+    "A140601"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

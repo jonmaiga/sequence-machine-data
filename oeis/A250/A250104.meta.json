@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of n with k circular successions (n>=0, 0 <= k <= n).",
+  "id": "A250104",
+  "mentions": [
+    "A000296",
+    "A124323",
+    "A250105",
+    "A250107"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

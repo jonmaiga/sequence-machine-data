@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = number of n-element 0..3 arrays with each element the minimum of k adjacent elements of a random 0..3 array of n+k-1 elements.",
+  "id": "A217954",
+  "mentions": [
+    "A203094",
+    "A217883",
+    "A217949",
+    "A228461"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

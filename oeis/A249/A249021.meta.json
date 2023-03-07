@@ -1,0 +1,18 @@
+{
+  "description": "Value x in the solution of x^2-D*y^2=-1 as D runs through A003654.",
+  "id": "A249021",
+  "mentions": [
+    "A003654",
+    "A130226"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

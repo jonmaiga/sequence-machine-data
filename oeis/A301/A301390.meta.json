@@ -1,0 +1,21 @@
+{
+  "description": "The number of n X k matrices, k=0..n, with nonnegative integer entries and every row and column sum <=3 . Triangle T(n>=0, 0<=k<=n) read by rows.",
+  "id": "A301390",
+  "mentions": [
+    "A000292",
+    "A086885",
+    "A131235"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The first n cyclotomic polynomials are simultaneously prime for these arguments.",
+  "id": "A233512",
+  "mentions": [
+    "A014574",
+    "A087277",
+    "A231612",
+    "A231613",
+    "A231614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

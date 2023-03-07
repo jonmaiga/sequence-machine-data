@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime containing all digits except n.",
+  "id": "A133191",
+  "mentions": [
+    "A073643"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

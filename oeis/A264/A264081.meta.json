@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the 2 X 2 idempotent matrices over Z/nZ is congruent to {{a(n),0}, {0,a(n)}} (mod n).",
+  "id": "A264081",
+  "mentions": [
+    "A226756"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

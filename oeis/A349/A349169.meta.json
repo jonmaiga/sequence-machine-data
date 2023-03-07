@@ -1,0 +1,47 @@
+{
+  "description": "Numbers k such that k * gcd(sigma(k), A003961(k)) is equal to the odd part of {sigma(k) * gcd(k, A003961(k))}, where A003961 shifts the prime factorization one step towards larger primes, and sigma is the sum of divisors function.",
+  "id": "A349169",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A003961",
+    "A007949",
+    "A064987",
+    "A064989",
+    "A104210",
+    "A161942",
+    "A191002",
+    "A191218",
+    "A228058",
+    "A248150",
+    "A319627",
+    "A322361",
+    "A326134",
+    "A329963",
+    "A336702",
+    "A341529",
+    "A342671",
+    "A348748",
+    "A348990",
+    "A348992",
+    "A348993",
+    "A349162",
+    "A349164",
+    "A349174",
+    "A349745",
+    "A349746",
+    "A349749",
+    "A349753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

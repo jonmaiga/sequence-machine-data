@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^6 - a(n-1), a(0)=1.",
+  "id": "A187620",
+  "mentions": [
+    "A152725"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:09",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

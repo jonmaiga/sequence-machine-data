@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows where T(n,d) for d|n is the number of (d + 1)-uniform hypertrees spanning n + 1 vertices.",
+  "id": "A326374",
+  "mentions": [
+    "A000272",
+    "A030019",
+    "A035053",
+    "A038041",
+    "A052888",
+    "A057625",
+    "A061095",
+    "A121860",
+    "A134954",
+    "A236696",
+    "A262843",
+    "A320444"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

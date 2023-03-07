@@ -1,0 +1,21 @@
+{
+  "description": "Lucky numbers which are also unhappy numbers.",
+  "id": "A194041",
+  "mentions": [
+    "A000959",
+    "A007770",
+    "A031177"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

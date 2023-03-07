@@ -1,0 +1,22 @@
+{
+  "description": "Primes p with p*(p+1) - prime(p) prime.",
+  "id": "A235661",
+  "mentions": [
+    "A000040",
+    "A232353",
+    "A234695",
+    "A235592",
+    "A235613",
+    "A235614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

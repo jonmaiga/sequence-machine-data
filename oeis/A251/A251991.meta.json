@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the pentagonal numbers P(n) and P(n+1) is equal to the sum of the hexagonal numbers H(m) and H(m+1) for some m.",
+  "id": "A251991",
+  "mentions": [
+    "A000326",
+    "A000384",
+    "A251990"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

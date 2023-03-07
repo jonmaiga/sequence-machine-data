@@ -1,0 +1,19 @@
+{
+  "description": "Integer values of 4*n-40+360/(n+9) (see A169924).",
+  "id": "A169925",
+  "mentions": [
+    "A169924"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

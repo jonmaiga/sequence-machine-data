@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that if x = sigma(k) - k then k = x - phi(x), where phi(k) is the Euler totient function.",
+  "id": "A239801",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A239802"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

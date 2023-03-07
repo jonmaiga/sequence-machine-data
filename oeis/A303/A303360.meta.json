@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{n>=1} ((1 + 4*x^n)/(1 - 4*x^n))^(1/4).",
+  "id": "A303360",
+  "mentions": [
+    "A015128",
+    "A067855",
+    "A303346",
+    "A303350",
+    "A303361",
+    "A303391",
+    "A303392"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p that do not remain prime if their last digit is replaced by its square.",
+  "id": "A244556",
+  "mentions": [
+    "A244555"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

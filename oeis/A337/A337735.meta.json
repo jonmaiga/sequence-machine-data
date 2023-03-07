@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of the coefficients in the expansion of li^{-1}(x)/x in powers of 1/LambertW(-1,-e/x).",
+  "id": "A337735",
+  "mentions": [
+    "A337734"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

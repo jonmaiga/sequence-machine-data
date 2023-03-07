@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Sum_{i=1..n} A(i) = A(n)*A(n+1)/4, where A(n) = A001969(n).",
+  "id": "A195608",
+  "mentions": [
+    "A001969",
+    "A195467"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

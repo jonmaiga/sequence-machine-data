@@ -1,0 +1,36 @@
+{
+  "description": "Number of semi-lone-child-avoiding locally disjoint rooted trees with n unlabeled leaves.",
+  "id": "A331874",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A001678",
+    "A050381",
+    "A300660",
+    "A316473",
+    "A316495",
+    "A316696",
+    "A316697",
+    "A331678",
+    "A331679",
+    "A331680",
+    "A331682",
+    "A331687",
+    "A331871",
+    "A331872",
+    "A331873",
+    "A331934",
+    "A331935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

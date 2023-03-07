@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into parts with digital root = 5.",
+  "id": "A116375",
+  "mentions": [
+    "A010888",
+    "A114099",
+    "A114102",
+    "A116371",
+    "A116372",
+    "A116373",
+    "A116374",
+    "A116376",
+    "A116377",
+    "A116378",
+    "A147706"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

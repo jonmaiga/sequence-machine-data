@@ -1,0 +1,20 @@
+{
+  "description": "7*9^n+1.",
+  "id": "A199567",
+  "mentions": [
+    "A096046",
+    "A187709"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

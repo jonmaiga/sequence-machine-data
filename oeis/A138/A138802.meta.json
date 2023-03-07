@@ -1,0 +1,21 @@
+{
+  "description": "Number of monomials in discriminant of symbolic Tschirnhausen polynomial of degree n (with three zero coefficients at x^(n-1), x^(n-2) and x^(n-3)).",
+  "id": "A138802",
+  "mentions": [
+    "A007878",
+    "A138787",
+    "A138788",
+    "A138800",
+    "A138801"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

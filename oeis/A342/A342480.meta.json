@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the denominator of the asymptotic density of numbers whose second smallest prime divisor (A119288) is prime(n).",
+  "id": "A342480",
+  "mentions": [
+    "A038110",
+    "A038111",
+    "A119288",
+    "A342479"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

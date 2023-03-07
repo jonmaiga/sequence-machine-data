@@ -1,0 +1,20 @@
+{
+  "description": "Real part of the coefficient [x^n] of the expansion of (1+i)/(1-i*exp(x)) - 1 multiplied by 2*n!, where i is the imaginary unit.",
+  "id": "A163982",
+  "mentions": [
+    "A099023",
+    "A155585",
+    "A163747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

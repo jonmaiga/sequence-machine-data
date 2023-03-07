@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n+1)^2*(n+2)^3*(n+3)/24.",
+  "id": "A108648",
+  "mentions": [
+    "A000217",
+    "A002415",
+    "A108647"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:39",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of proper divisors of n that are deficient (A005100).",
+  "id": "A294926",
+  "mentions": [
+    "A005100",
+    "A032741",
+    "A080226",
+    "A294886",
+    "A294927",
+    "A294928",
+    "A294929",
+    "A294934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

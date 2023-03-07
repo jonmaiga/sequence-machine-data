@@ -1,0 +1,20 @@
+{
+  "description": "The number of F_2 graphs on { 1, 2, ..., n } with a unique cycle of weight 1, which corresponds to the number of reflectable bases of the root system of type D_n.",
+  "id": "A320064",
+  "mentions": [
+    "A000435",
+    "A001863",
+    "A038057"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

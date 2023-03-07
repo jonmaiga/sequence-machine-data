@@ -1,0 +1,21 @@
+{
+  "description": "Positions of primes in A276573, the infinite trunk of least squares beanstalk.",
+  "id": "A277887",
+  "mentions": [
+    "A010051",
+    "A276573",
+    "A277487",
+    "A277888",
+    "A278167"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

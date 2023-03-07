@@ -1,0 +1,23 @@
+{
+  "description": "A ménage triangle.",
+  "id": "A156368",
+  "mentions": [
+    "A000142",
+    "A000271",
+    "A007318",
+    "A155856"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

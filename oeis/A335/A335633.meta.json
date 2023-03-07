@@ -1,0 +1,25 @@
+{
+  "description": "Number of ordered ways of writing the n-th n-gonal number as a sum of n n-gonal numbers (with 0's allowed).",
+  "id": "A335633",
+  "mentions": [
+    "A060354",
+    "A088218",
+    "A196010",
+    "A298329",
+    "A335634",
+    "A337762",
+    "A337763",
+    "A337764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

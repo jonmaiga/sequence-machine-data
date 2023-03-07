@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays avoiding the pattern z+1 z+1 z horizontally and z-1 z-1 z vertically",
+  "id": "A207352",
+  "mentions": [
+    "A207358"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

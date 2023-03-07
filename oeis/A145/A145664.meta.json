@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = numerator of polynomial of genus 1 and level n for m = 6 = A[1,n](6).",
+  "id": "A145664",
+  "mentions": [
+    "A001008",
+    "A145609",
+    "A145640",
+    "A145656",
+    "A145658",
+    "A145660",
+    "A145662"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

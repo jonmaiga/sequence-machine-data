@@ -1,0 +1,24 @@
+{
+  "description": "The triangle in A151338 read by rows upwards.",
+  "id": "A151510",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A001296",
+    "A001297",
+    "A001298",
+    "A151338"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

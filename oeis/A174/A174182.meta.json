@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the first column, n-th row of the table of the Akiyama-Tanigawa transform starting from a top row of Bernoulli numbers.",
+  "id": "A174182",
+  "mentions": [
+    "A000225",
+    "A051049",
+    "A141056",
+    "A174129"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

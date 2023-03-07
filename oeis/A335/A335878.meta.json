@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A329697(k) = A331410(k).",
+  "id": "A335878",
+  "mentions": [
+    "A329697",
+    "A331410",
+    "A335877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

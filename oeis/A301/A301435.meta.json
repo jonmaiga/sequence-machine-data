@@ -1,0 +1,27 @@
+{
+  "description": "G.f. A(x) satisfies: 1 = Sum_{n>=0} ( (1+x)^n - 3*x*A(x) )^n / 2^(n+1).",
+  "id": "A301435",
+  "mentions": [
+    "A301436",
+    "A303288",
+    "A323314",
+    "A323315",
+    "A323316",
+    "A323317",
+    "A323318",
+    "A323319",
+    "A323320",
+    "A323321"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

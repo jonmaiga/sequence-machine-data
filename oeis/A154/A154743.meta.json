@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 2^(1/4) - 2^(-1/4), the ordinate of the point of bisection of the arc of the unit lemniscate (x^2 + y^2)^2 = x^2 - y^2 in the first quadrant.",
+  "id": "A154743",
+  "mentions": [
+    "A085565",
+    "A154739",
+    "A154744",
+    "A154745",
+    "A154746",
+    "A154747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:45",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

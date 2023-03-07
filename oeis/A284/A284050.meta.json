@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(A240751(n) / n), where A240751(n) = the smallest k such that in the prime power factorization of k! there exists at least one exponent n.",
+  "id": "A284050",
+  "mentions": [
+    "A157928",
+    "A240751",
+    "A240755",
+    "A240764",
+    "A284051"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

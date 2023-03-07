@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. The incomplete Bell transform of the Catalan numbers.",
+  "id": "A352366",
+  "mentions": [
+    "A000108",
+    "A352363",
+    "A352367",
+    "A352368",
+    "A352369"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

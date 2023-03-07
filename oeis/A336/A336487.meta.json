@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that the Fibonacci word (A003849) has an abelian cube of order m.",
+  "id": "A336487",
+  "mentions": [
+    "A003849"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

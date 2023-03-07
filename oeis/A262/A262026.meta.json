@@ -1,0 +1,23 @@
+{
+  "description": "The positive odd fundamental solutions y = y0(n) for the Pell equation x^2 - d*y^2 = +1. It turns out that d = d(n) coincides with A007970(n).",
+  "id": "A262026",
+  "mentions": [
+    "A007969",
+    "A007970",
+    "A033317",
+    "A261250",
+    "A262027",
+    "A262028"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

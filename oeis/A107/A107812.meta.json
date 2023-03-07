@@ -1,0 +1,32 @@
+{
+  "description": "a(1) = prime(12), for n >= 2, a(n) is the smallest prime not previously used which contains a digit from a(n-1).",
+  "id": "A107812",
+  "mentions": [
+    "A107353",
+    "A107801",
+    "A107802",
+    "A107803",
+    "A107804",
+    "A107805",
+    "A107806",
+    "A107807",
+    "A107808",
+    "A107809",
+    "A107810",
+    "A107811",
+    "A107813",
+    "A107814"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

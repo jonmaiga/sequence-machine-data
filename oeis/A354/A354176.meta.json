@@ -1,0 +1,27 @@
+{
+  "description": "Product_{n>=1} (1 + x^n)^(a(n)/n!) = 1 + tanh(x).",
+  "id": "A354176",
+  "mentions": [
+    "A000182",
+    "A067856",
+    "A353779",
+    "A353912",
+    "A354066",
+    "A354171",
+    "A354172",
+    "A354173",
+    "A354174",
+    "A354175"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

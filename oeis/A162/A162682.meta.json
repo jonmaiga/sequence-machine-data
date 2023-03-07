@@ -1,0 +1,21 @@
+{
+  "description": "If S is countable finite set, we can define n as number of elements in S. There are n^n distinct functions f(S)->S. Each function has a fixed point, or an orbit in S. This sequence is a number of distinct functions g(S)->S, with largest orbit.",
+  "id": "A162682",
+  "mentions": [
+    "A000793",
+    "A074115",
+    "A074859",
+    "A222029"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

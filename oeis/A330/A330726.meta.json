@@ -1,0 +1,33 @@
+{
+  "description": "Number of balanced reduced multisystems of maximum depth whose atoms are positive integers summing to n.",
+  "id": "A330726",
+  "mentions": [
+    "A000111",
+    "A000669",
+    "A002846",
+    "A005121",
+    "A141268",
+    "A196545",
+    "A213427",
+    "A317145",
+    "A318813",
+    "A320160",
+    "A330663",
+    "A330665",
+    "A330675",
+    "A330676",
+    "A330679",
+    "A330728"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Largest side c of primitive triples, in nondecreasing order, for integer-sided triangles with angles A < B < C = 2*Pi/3 = 120 degrees.",
+  "id": "A357277",
+  "mentions": [
+    "A004611",
+    "A050931",
+    "A088513",
+    "A121940",
+    "A133290",
+    "A335893",
+    "A335895",
+    "A357274",
+    "A357275",
+    "A357276",
+    "A357278"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of triangles on a centered hexagonal grid of size n.",
+  "id": "A241223",
+  "mentions": [
+    "A003215",
+    "A045996",
+    "A240826",
+    "A241222",
+    "A241224",
+    "A241225",
+    "A241226",
+    "A241227",
+    "A241228"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

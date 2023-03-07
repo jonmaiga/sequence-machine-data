@@ -1,0 +1,17 @@
+{
+  "description": "Number of -4..4 arrays of n elements with first through fourth differences also in -4..4",
+  "id": "A202660",
+  "mentions": [
+    "A202664"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 0 such that p = prime(k) + phi(m) and q(p) - 1 are both prime, where phi(.) is Euler's totient function and q(.) is the strict partition function (A000009).",
+  "id": "A234615",
+  "mentions": [
+    "A000009",
+    "A000010",
+    "A000040",
+    "A234475",
+    "A234514",
+    "A234530",
+    "A234567",
+    "A234569",
+    "A234572",
+    "A234644"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

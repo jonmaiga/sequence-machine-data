@@ -1,0 +1,26 @@
+{
+  "description": "E.g.f. A(x) satisfies: A(A(x)) = x*A'(x) with A(0)=0, A'(0)=1.",
+  "id": "A179420",
+  "mentions": [
+    "A179320",
+    "A179421",
+    "A179422",
+    "A179423",
+    "A179424",
+    "A193202",
+    "A221019",
+    "A221020"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

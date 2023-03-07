@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes < 10^n with exactly one odd decimal digit.",
+  "id": "A359813",
+  "mentions": [
+    "A030096",
+    "A068690",
+    "A154764",
+    "A358685",
+    "A358690"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

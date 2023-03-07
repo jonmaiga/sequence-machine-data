@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number k such that A275235(k) = n.",
+  "id": "A354840",
+  "mentions": [
+    "A275235",
+    "A354842"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A list of all finite sequences of distinct positive integers sorted by their maximum value, then lexicographically.",
+  "id": "A338169",
+  "mentions": [
+    "A001339",
+    "A026791",
+    "A228369",
+    "A281912"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

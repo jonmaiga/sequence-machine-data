@@ -1,0 +1,32 @@
+{
+  "description": "Number of unlabeled intersecting set-systems with no singletons on up to n vertices.",
+  "id": "A306001",
+  "mentions": [
+    "A000612",
+    "A001206",
+    "A048143",
+    "A051185",
+    "A058891",
+    "A261005",
+    "A261006",
+    "A304998",
+    "A305854",
+    "A305856",
+    "A305857",
+    "A305935",
+    "A305999",
+    "A306000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

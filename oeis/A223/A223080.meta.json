@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with distinct digits such that the reversal of n divides n.",
+  "id": "A223080",
+  "mentions": [
+    "A214927",
+    "A222810",
+    "A223081",
+    "A223082"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

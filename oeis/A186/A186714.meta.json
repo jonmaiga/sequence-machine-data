@@ -1,0 +1,35 @@
+{
+  "description": "Triangular array C(n, k) = number of connected k-regular graphs, having girth at least 4, with n nodes, 0 <= k <= n div 2.",
+  "id": "A186714",
+  "mentions": [
+    "A014371",
+    "A033886",
+    "A058275",
+    "A058276",
+    "A068934",
+    "A181153",
+    "A181154",
+    "A181170",
+    "A185114",
+    "A186715",
+    "A186716",
+    "A186717",
+    "A186718",
+    "A186719",
+    "A186724",
+    "A186733",
+    "A186734"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

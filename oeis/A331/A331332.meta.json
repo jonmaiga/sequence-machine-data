@@ -1,0 +1,26 @@
+{
+  "description": "Sparse ruler statistics: T(n,k) (0 <= k <= n) is the number of rulers with length n where the length of the first segment appears k times. Triangle read by rows.",
+  "id": "A331332",
+  "mentions": [
+    "A000007",
+    "A011782",
+    "A103294",
+    "A175656",
+    "A331330",
+    "A331606",
+    "A331609",
+    "A332051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

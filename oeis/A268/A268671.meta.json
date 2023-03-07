@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (A268670(n)+1) / 2.",
+  "id": "A268671",
+  "mentions": [
+    "A001317",
+    "A006068",
+    "A268669",
+    "A268670"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

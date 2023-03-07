@@ -1,0 +1,22 @@
+{
+  "description": "A007504(A134126(n)).",
+  "id": "A134128",
+  "mentions": [
+    "A007504",
+    "A134125",
+    "A134126",
+    "A134127",
+    "A134129"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

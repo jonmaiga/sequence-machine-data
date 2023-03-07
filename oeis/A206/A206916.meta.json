@@ -1,0 +1,22 @@
+{
+  "description": "Index of the least binary palindrome >=n; also the \"upper inverse\" of A006995.",
+  "id": "A206916",
+  "mentions": [
+    "A006995",
+    "A206914",
+    "A206915",
+    "A206920"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

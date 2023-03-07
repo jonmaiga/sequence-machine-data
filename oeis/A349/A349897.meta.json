@@ -1,0 +1,17 @@
+{
+  "description": "Start with b(0)=4. a(n) is the smallest integer such that b(n)=a(n)*b(n-1) has twice as many divisors as b(n-1) has.",
+  "id": "A349897",
+  "mentions": [
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

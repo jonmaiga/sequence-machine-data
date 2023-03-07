@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n XOR 6n, where XOR is bitwise XOR.",
+  "id": "A178732",
+  "mentions": [
+    "A048724",
+    "A048725",
+    "A178729",
+    "A178731",
+    "A178733",
+    "A178734",
+    "A178735",
+    "A178736"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

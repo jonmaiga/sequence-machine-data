@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (2k)^3 - 1 is a semiprime.",
+  "id": "A317138",
+  "mentions": [
+    "A096175",
+    "A237037",
+    "A242262"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Residues modulo 24 of curvatures in the Apollonian circle packing A042944.",
+  "id": "A294510",
+  "mentions": [
+    "A042944",
+    "A042945",
+    "A189226",
+    "A218155"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

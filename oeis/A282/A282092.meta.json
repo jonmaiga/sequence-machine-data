@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that there exists at least one integer k < m such that m^2+1 and k^2+1 have the same prime factors.",
+  "id": "A282092",
+  "mentions": [
+    "A002522",
+    "A049532",
+    "A059591",
+    "A059592",
+    "A124809"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

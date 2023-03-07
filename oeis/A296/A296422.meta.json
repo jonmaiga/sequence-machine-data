@@ -1,0 +1,20 @@
+{
+  "description": "Primes that can be represented in the form b^n+1 or b^n-1 where b >= 2 and n >= 2.",
+  "id": "A296422",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A001597",
+    "A121326"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

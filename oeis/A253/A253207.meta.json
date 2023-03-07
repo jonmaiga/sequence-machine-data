@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of permutations of (1,2,...,n) producible by an ordered quadruple of distinct transpositions.",
+  "id": "A253207",
+  "mentions": [
+    "A000914",
+    "A253171"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:13",
+    "offset": 4,
+    "size": 27,
+    "source": "joeis"
+  }
+}

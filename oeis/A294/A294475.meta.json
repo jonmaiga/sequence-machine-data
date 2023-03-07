@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (-1)^n * A294359(n) / (n+1)^2.",
+  "id": "A294475",
+  "mentions": [
+    "A003714",
+    "A294359"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

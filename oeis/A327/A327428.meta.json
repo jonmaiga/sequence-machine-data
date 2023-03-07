@@ -1,0 +1,20 @@
+{
+  "description": "Record gaps between palindromic primes (lower end): primes A002385(k) where A002385(k+1) - A002385(k) exceeds A002385(j+1) - A002385(j) for all j < k.",
+  "id": "A327428",
+  "mentions": [
+    "A002385",
+    "A002386",
+    "A327427"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

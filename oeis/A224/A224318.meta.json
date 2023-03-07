@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-vexillary permutations in S_n, that, permutations whose Stanley symmetric function has at most 2 terms or at most 2 Edelman-Greene tableaux.",
+  "id": "A224318",
+  "mentions": [
+    "A005802",
+    "A223905",
+    "A224287"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least integer k > 1 such that pi(k)^2 + pi(k*n)^2 is a square, where pi(.) is the prime-counting function given by A000720.",
+  "id": "A255677",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A255679",
+    "A259531",
+    "A259789"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

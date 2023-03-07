@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = exp(Sum_{n>=1} A177430(n)*x^n/n) where A177430 is the least monotonically increasing logarithmic derivative consisting of only squares.",
+  "id": "A177432",
+  "mentions": [
+    "A177430",
+    "A177431"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

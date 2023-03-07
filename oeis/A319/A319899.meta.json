@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose number of prime factors with multiplicity (A001222) is the number of distinct prime factors (A001221) in the product of the prime indices (A003963).",
+  "id": "A319899",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003963",
+    "A057151",
+    "A064573",
+    "A112798",
+    "A120732",
+    "A319616",
+    "A319877",
+    "A320325",
+    "A322527",
+    "A322530"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

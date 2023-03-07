@@ -1,0 +1,31 @@
+{
+  "description": "11 times triangular numbers.",
+  "id": "A152740",
+  "mentions": [
+    "A000217",
+    "A022268",
+    "A022269",
+    "A049598",
+    "A051865",
+    "A069125",
+    "A124080",
+    "A180223",
+    "A195149",
+    "A195313",
+    "A211013",
+    "A218530"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:25",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

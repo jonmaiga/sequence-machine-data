@@ -1,0 +1,17 @@
+{
+  "description": "Number of nXnXn triangular 0..5 arrays with some element less than a w, nw or ne neighbor exactly once.",
+  "id": "A271031",
+  "mentions": [
+    "A271034"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

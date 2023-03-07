@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the first digit of the decimal expansion of 2^k is 7.",
+  "id": "A330243",
+  "mentions": [
+    "A000030",
+    "A000079",
+    "A008952",
+    "A067469",
+    "A067497",
+    "A172404"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

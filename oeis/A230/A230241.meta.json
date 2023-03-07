@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n = p + q with p, 3*p - 10 and (p-1)*q - 1 all prime, where q is a positive integer.",
+  "id": "A230241",
+  "mentions": [
+    "A109909",
+    "A227908",
+    "A227909",
+    "A230227",
+    "A230230"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

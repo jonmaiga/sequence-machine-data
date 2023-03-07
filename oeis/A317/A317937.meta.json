@@ -1,0 +1,29 @@
+{
+  "description": "Numerators of sequence whose Dirichlet convolution with itself yields sequence A001221 (omega n) + A063524 (1, 0, 0, 0, ...).",
+  "id": "A317937",
+  "mentions": [
+    "A001221",
+    "A046644",
+    "A063524",
+    "A317831",
+    "A317845",
+    "A317846",
+    "A317925",
+    "A317933",
+    "A317936",
+    "A317938",
+    "A317939"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

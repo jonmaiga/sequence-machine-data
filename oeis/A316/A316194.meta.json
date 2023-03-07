@@ -1,0 +1,23 @@
+{
+  "description": "Number of symmetric self-avoiding polygons on square lattice with perimeter 2*n, not counting rotations and reflections as distinct.",
+  "id": "A316194",
+  "mentions": [
+    "A002931",
+    "A266549",
+    "A316196",
+    "A323188",
+    "A323189"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

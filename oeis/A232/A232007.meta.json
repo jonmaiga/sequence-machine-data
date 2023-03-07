@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of moves needed by a knight to reach every square from a fixed position on an n X n chessboard, or -1 if it is not possible to reach every square.",
+  "id": "A232007",
+  "mentions": [
+    "A004523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:25:59",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

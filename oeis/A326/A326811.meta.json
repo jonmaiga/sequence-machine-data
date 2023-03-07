@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in A326806 whose sum of digits is not a power of 10 and are not of the form 5*10^k or 6*10^k.",
+  "id": "A326811",
+  "mentions": [
+    "A090019",
+    "A093143",
+    "A326806",
+    "A326833"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

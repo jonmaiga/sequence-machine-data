@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that m + (product of digits of m) is never equal to k.",
+  "id": "A230104",
+  "mentions": [
+    "A230099",
+    "A230103",
+    "A230105"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

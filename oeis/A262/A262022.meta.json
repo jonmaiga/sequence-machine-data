@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of partial sums of a reordered alternating harmonic series.",
+  "id": "A262022",
+  "mentions": [
+    "A262023",
+    "A262031"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

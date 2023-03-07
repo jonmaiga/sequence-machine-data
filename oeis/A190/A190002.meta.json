@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + [n*s/r] + [n*t/r]; r=1, s=(sinh(1))^2, t=(cosh(1))^2.",
+  "id": "A190002",
+  "mentions": [
+    "A005408",
+    "A182760",
+    "A189999",
+    "A190003",
+    "A190004"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

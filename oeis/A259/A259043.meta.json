@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = if n < 10 then n else a(floor(n/10) + n mod 10) + n mod 10.",
+  "id": "A259043",
+  "mentions": [
+    "A007953",
+    "A008687",
+    "A076314",
+    "A259046"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

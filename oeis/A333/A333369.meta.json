@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers in which any odd digit, if present, occurs an odd number of times, and any even digit, if present, occurs an even number of times.",
+  "id": "A333369",
+  "mentions": [
+    "A108571",
+    "A353007"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

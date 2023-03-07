@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A318468(k) (bitwise-AND of 2*k and sigma(k)) is equal to 2*k.",
+  "id": "A324652",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A191218",
+    "A318468",
+    "A324643",
+    "A324647",
+    "A324649",
+    "A324658",
+    "A324659",
+    "A324722",
+    "A324726"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

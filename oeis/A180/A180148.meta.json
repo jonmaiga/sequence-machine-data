@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 3*a(n-1) + a(n-2) with a(0)=2 and a(1)=5.",
+  "id": "A180148",
+  "mentions": [
+    "A000602",
+    "A003688",
+    "A006190",
+    "A006497",
+    "A052906",
+    "A052961",
+    "A180142"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

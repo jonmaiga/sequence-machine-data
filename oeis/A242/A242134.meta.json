@@ -1,0 +1,21 @@
+{
+  "description": "Number of semiprimes with n digits.",
+  "id": "A242134",
+  "mentions": [
+    "A001358",
+    "A066265"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

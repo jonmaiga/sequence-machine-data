@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..4 arrays with every 2 X 2 subblock containing exactly one value repeat, and new values 0..4 introduced in row major order.",
+  "id": "A209497",
+  "mentions": [
+    "A209503"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

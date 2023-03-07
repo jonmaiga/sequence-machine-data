@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions of n where neighboring runs have different lengths.",
+  "id": "A335443",
+  "mentions": [
+    "A003242",
+    "A011782",
+    "A329738",
+    "A329739",
+    "A329748",
+    "A329749",
+    "A329766",
+    "A335942"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

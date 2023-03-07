@@ -1,0 +1,20 @@
+{
+  "description": "Minimal number of moves after which a group of stones of one color with exactly n liberties is possible on an infinite board in Go.",
+  "id": "A308414",
+  "mentions": [
+    "A089071",
+    "A275346",
+    "A320666"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of different values taken by sigma(k)/k for k from 1 up to n.",
+  "id": "A214701",
+  "mentions": [
+    "A050973"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

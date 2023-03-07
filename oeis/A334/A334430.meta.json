@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows. Row n gives the cycles of positive integers of the complete modified doubling sequence MDS(b) for b = 2*n + 1, for n >= 1.",
+  "id": "A334430",
+  "mentions": [
+    "A000010",
+    "A003558",
+    "A065941",
+    "A135303",
+    "A332434",
+    "A332435",
+    "A332436"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

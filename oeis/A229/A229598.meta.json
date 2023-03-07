@@ -1,0 +1,19 @@
+{
+  "description": "Voids left when packing boomerangs into n X n coins.",
+  "id": "A229598",
+  "mentions": [
+    "A229093",
+    "A229593"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

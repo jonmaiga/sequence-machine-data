@@ -1,0 +1,17 @@
+{
+  "description": "Product of the radicals of the integers less than n and relatively prime to n.",
+  "id": "A220271",
+  "mentions": [
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle in which row n has the n(n+1)/2 elements of the lower triangular part of the inverse of the n-th order Hilbert matrix.",
+  "id": "A189765",
+  "mentions": [
+    "A000515",
+    "A002457",
+    "A002736",
+    "A002738",
+    "A005249",
+    "A007531",
+    "A054559",
+    "A189766",
+    "A210356"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Minimum number of moves to solve the second Panex puzzle of order n of exchanging the two side towers.",
+  "id": "A109224",
+  "mentions": [
+    "A109175"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

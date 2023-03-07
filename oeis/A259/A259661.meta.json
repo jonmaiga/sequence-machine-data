@@ -1,0 +1,23 @@
+{
+  "description": "Binary representation of the middle column of the \"Rule 54\" elementary cellular automaton starting with a single ON cell.",
+  "id": "A259661",
+  "mentions": [
+    "A071030",
+    "A077854",
+    "A118108",
+    "A118109",
+    "A133872"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

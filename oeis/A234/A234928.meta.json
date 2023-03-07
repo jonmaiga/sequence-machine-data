@@ -1,0 +1,18 @@
+{
+  "description": "Primes which become cubes when the digits are rotated once to the right.",
+  "id": "A234928",
+  "mentions": [
+    "A234929"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

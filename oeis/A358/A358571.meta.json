@@ -1,0 +1,20 @@
+{
+  "description": "Lesser p of a sexy prime pair such that (p-3)/2 is also the lesser prime of a sexy prime pair.",
+  "id": "A358571",
+  "mentions": [
+    "A023201",
+    "A254636",
+    "A255361",
+    "A256386"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

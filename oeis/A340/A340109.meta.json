@@ -1,0 +1,26 @@
+{
+  "description": "Coreful 3-abundant numbers: numbers k such that csigma(k) > 3*k, where csigma(k) is the sum of the coreful divisors of k (A057723).",
+  "id": "A340109",
+  "mentions": [
+    "A005101",
+    "A007947",
+    "A057723",
+    "A068403",
+    "A285615",
+    "A293187",
+    "A300664",
+    "A307112",
+    "A308053",
+    "A328135"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

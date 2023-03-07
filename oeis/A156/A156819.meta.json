@@ -1,0 +1,19 @@
+{
+  "description": "Last digit d of a(n) is present in a(n+1+d); a(1)=0; a(n+1) is always the smallest available integer not already in the sequence and not leading to a contradiction.",
+  "id": "A156819",
+  "mentions": [
+    "A156818"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consecutive values produced by the C++ ranlux24_base random number generator with the default seed (19780503).",
+  "id": "A221559",
+  "mentions": [
+    "A221560",
+    "A221561",
+    "A221562"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

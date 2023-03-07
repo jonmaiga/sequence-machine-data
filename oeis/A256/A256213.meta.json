@@ -1,0 +1,19 @@
+{
+  "description": "Indices of prime terms in A254077.",
+  "id": "A256213",
+  "mentions": [
+    "A010051",
+    "A251239",
+    "A254077"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as an ordered sum of two numbers that are the product of an odd number of distinct primes.",
+  "id": "A285797",
+  "mentions": [
+    "A005117",
+    "A030059",
+    "A098235",
+    "A285796"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

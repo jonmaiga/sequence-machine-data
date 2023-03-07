@@ -1,0 +1,22 @@
+{
+  "description": "Let A={1,4,5,8,10,11,13,...} be the sequence of numbers k>=1 such that k+3 is odious (A000069), and let B be the complement of A. The sequence lists the numbers for which the number of A-divisors equals the number of B-divisors.",
+  "id": "A231177",
+  "mentions": [
+    "A000005",
+    "A000069",
+    "A227891",
+    "A231175",
+    "A231176"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

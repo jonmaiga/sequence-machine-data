@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having nonzero determinant and commuting with every horizontal or vertical neighbor.",
+  "id": "A207142",
+  "mentions": [
+    "A207149"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:18:22",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

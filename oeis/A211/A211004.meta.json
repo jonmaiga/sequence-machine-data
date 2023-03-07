@@ -1,0 +1,31 @@
+{
+  "description": "Number of distinct regions in the set of partitions of n.",
+  "id": "A211004",
+  "mentions": [
+    "A000041",
+    "A001840",
+    "A006128",
+    "A135010",
+    "A141285",
+    "A182244",
+    "A186114",
+    "A186412",
+    "A187219",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A211009"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:41",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

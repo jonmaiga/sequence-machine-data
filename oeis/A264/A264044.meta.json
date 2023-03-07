@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n and n+4 are consecutive semiprimes.",
+  "id": "A264044",
+  "mentions": [
+    "A001358",
+    "A065516",
+    "A123375",
+    "A131109",
+    "A136196",
+    "A175648",
+    "A264043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

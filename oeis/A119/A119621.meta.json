@@ -1,0 +1,19 @@
+{
+  "description": "Wolstenholme numbers A007406 ( numerator of Sum 1/k^2, k = 1..(p-1)/2 ) divided by prime p>3.",
+  "id": "A119621",
+  "mentions": [
+    "A007406"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

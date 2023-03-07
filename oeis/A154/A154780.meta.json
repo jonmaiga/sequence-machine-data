@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k with d digits such that all digits of k and the last d+1 digits of k^2 are prime.",
+  "id": "A154780",
+  "mentions": [
+    "A046034",
+    "A153025",
+    "A154779"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

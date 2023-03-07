@@ -1,0 +1,18 @@
+{
+  "description": "(Number of permutations of {1,2,...,n} for which sums of four consecutive numbers (with wraparound) are all distinct)/2n",
+  "id": "A206478",
+  "mentions": [
+    "A040018"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 5,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

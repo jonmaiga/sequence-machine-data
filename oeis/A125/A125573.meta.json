@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of n-digit terms with different sets of decimal digits in A108571.",
+  "id": "A125573",
+  "mentions": [
+    "A007837",
+    "A034139",
+    "A108571",
+    "A127007"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

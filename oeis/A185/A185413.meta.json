@@ -1,0 +1,21 @@
+{
+  "description": "A000027 written clockwise as spiral and read counterclockwise.",
+  "id": "A185413",
+  "mentions": [
+    "A000027",
+    "A054552",
+    "A090861",
+    "A185586"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

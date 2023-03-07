@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are sums of distinct primorial numbers, A002110, and do not have a factor of the form p^p.",
+  "id": "A328832",
+  "mentions": [
+    "A002110",
+    "A048103",
+    "A129251",
+    "A276085",
+    "A276086",
+    "A276156",
+    "A328114",
+    "A328828",
+    "A328831",
+    "A328833",
+    "A328836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

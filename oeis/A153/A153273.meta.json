@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Product_{i=0..k-2} (i*n + n - 1).",
+  "id": "A153273",
+  "mentions": [
+    "A000027",
+    "A014105",
+    "A033594",
+    "A153187"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

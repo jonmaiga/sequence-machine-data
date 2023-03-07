@@ -1,0 +1,19 @@
+{
+  "description": "Sarrus numbers (A001567) that are the average of two consecutive primes.",
+  "id": "A265684",
+  "mentions": [
+    "A001567",
+    "A024675",
+    "A265669"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

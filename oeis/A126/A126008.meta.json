@@ -1,0 +1,20 @@
+{
+  "description": "Involution of nonnegative integers: composition of involutions A057300 and A126007.",
+  "id": "A126008",
+  "mentions": [
+    "A057300",
+    "A106485",
+    "A126007"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

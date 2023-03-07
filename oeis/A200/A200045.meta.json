@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,m) of ways of 4-coloring an n X m grid so that there is no rectangle with all 4 corners the same color.",
+  "id": "A200045",
+  "mentions": [
+    "A252778",
+    "A252780",
+    "A252839"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

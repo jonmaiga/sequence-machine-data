@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k + 1, 2k + 1, 3k + 1, 4k + 1, and 6k + 1 are all prime.",
+  "id": "A333721",
+  "mentions": [
+    "A005097",
+    "A005098",
+    "A005099",
+    "A006093",
+    "A024892",
+    "A024898",
+    "A024899",
+    "A087370"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

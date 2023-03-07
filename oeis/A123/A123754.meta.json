@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers of the form 4*n^2 - 1 which are not semiprimes.",
+  "id": "A123754",
+  "mentions": [
+    "A000466",
+    "A001358",
+    "A014076",
+    "A037074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

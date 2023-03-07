@@ -1,0 +1,24 @@
+{
+  "description": "Matrix inverse of triangle A122176, where A122176(n,k) = C( k*(k+1)/2 + n-k + 1, n-k) for n>=k>=0.",
+  "id": "A121436",
+  "mentions": [
+    "A098568",
+    "A107876",
+    "A107881",
+    "A107886",
+    "A121435",
+    "A122176"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

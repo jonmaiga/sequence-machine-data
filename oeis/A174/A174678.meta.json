@@ -1,0 +1,20 @@
+{
+  "description": "Sequence A154647 adjusted to leading ones:t(n,m)=A154647(n,m)-A154647(n,0)+1",
+  "id": "A174678",
+  "mentions": [
+    "A154647"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

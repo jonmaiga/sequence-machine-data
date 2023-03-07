@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that q*p+-Mod(p,q) are primes, for q=3.",
+  "id": "A178383",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet convolution of A078899 with itself.",
+  "id": "A305799",
+  "mentions": [
+    "A006530",
+    "A078899",
+    "A305797",
+    "A305798"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

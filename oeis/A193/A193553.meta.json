@@ -1,0 +1,28 @@
+{
+  "description": "Sum of divisors of 4*n.",
+  "id": "A193553",
+  "mentions": [
+    "A000203",
+    "A008438",
+    "A008586",
+    "A062731",
+    "A144613",
+    "A182820",
+    "A224613",
+    "A283078",
+    "A283118",
+    "A283122",
+    "A283123"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

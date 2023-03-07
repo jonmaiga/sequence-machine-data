@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m with a unique subset of the divisors of m that sums to m (A064771) such that sigma(m)/m > sigma(k)/k for all smaller terms k < m of A064771, where sigma(m) is the sum of divisors of m (A000203).",
+  "id": "A330245",
+  "mentions": [
+    "A000203",
+    "A064771",
+    "A068403"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

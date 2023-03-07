@@ -1,0 +1,25 @@
+{
+  "description": "Convert the primorial base expansion of n into its prime product form, then subtract the largest primorial which divides that product: a(n) = A276151(A276086(n)).",
+  "id": "A328476",
+  "mentions": [
+    "A002110",
+    "A053589",
+    "A143293",
+    "A276086",
+    "A276087",
+    "A276151",
+    "A326810",
+    "A328475"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

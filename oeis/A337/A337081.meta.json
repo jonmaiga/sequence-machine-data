@@ -1,0 +1,24 @@
+{
+  "description": "Primitive complement of A337037: terms of A337080 that are not multiples of previous terms.",
+  "id": "A337081",
+  "mentions": [
+    "A001055",
+    "A056472",
+    "A069016",
+    "A074206",
+    "A337037",
+    "A337080",
+    "A337112"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

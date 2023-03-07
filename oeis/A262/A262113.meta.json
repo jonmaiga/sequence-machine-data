@@ -1,0 +1,17 @@
+{
+  "description": "Number of (4+1)X(n+1) 0..2 arrays with each row nonprime and column prime, read as a base 3 number with top and left being the most significant digits.",
+  "id": "A262113",
+  "mentions": [
+    "A262109"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(n^2, n!).",
+  "id": "A170826",
+  "mentions": [
+    "A092043"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

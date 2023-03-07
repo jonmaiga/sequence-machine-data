@@ -1,0 +1,21 @@
+{
+  "description": "Primes among partial sums of floor(Pi*prime(k)), k=1,2,3,....",
+  "id": "A117503",
+  "mentions": [
+    "A098562",
+    "A117504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

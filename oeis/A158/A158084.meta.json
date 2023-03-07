@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers, with a(1)=2, a(n+1) = least prime such that (sum of even digits of a(n)) < (sum of even digits of a(n+1)).",
+  "id": "A158084",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

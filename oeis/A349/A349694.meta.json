@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of the squarefree kernel function (A007947) with itself.",
+  "id": "A349694",
+  "mentions": [
+    "A001620",
+    "A007947",
+    "A065464",
+    "A073002",
+    "A097945",
+    "A176345",
+    "A191750"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

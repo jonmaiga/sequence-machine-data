@@ -1,0 +1,21 @@
+{
+  "description": "Squares in A105720.",
+  "id": "A166708",
+  "mentions": [
+    "A105720",
+    "A166619",
+    "A166620"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n>1, if a(n-1) is composite then a(n) = a(n-1)/A107286(n-1), where A107286(n) = the smallest prime factor of n, otherwise a(n) = a(n-1) + n.",
+  "id": "A337903",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A107286",
+    "A330252",
+    "A336957"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

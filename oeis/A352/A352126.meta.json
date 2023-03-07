@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that, if q is the next prime, both p+q^2 and p^2+q are primes times powers of 10.",
+  "id": "A352126",
+  "mentions": [
+    "A349660",
+    "A352837",
+    "A352851",
+    "A352852"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

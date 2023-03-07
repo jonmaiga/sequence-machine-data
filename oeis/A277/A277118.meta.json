@@ -1,0 +1,27 @@
+{
+  "description": "For a lesser p of twin primes, let B_k be A159559, but with initial term k; then a(n) is the smallest m such that B_(p+2)(m)-B_p(m)>6, where p = A001359(n-1), or a(n) = 0 if there is no such m.",
+  "id": "A277118",
+  "mentions": [
+    "A001359",
+    "A022009",
+    "A159559",
+    "A229019",
+    "A276676",
+    "A276703",
+    "A276767",
+    "A276826",
+    "A276831",
+    "A276848"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..2 arrays with no three equal values forming an isosceles triangle, and new values introduced in 0..2 order.",
+  "id": "A274067",
+  "mentions": [
+    "A274068"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

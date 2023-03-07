@@ -1,0 +1,20 @@
+{
+  "description": "Number of fully-leafed free tree-like 3d-polycubes of size n.",
+  "id": "A304197",
+  "mentions": [
+    "A304195",
+    "A304196",
+    "A304199"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^4 - n^3 - n^2 - n - 1.",
+  "id": "A125082",
+  "mentions": [
+    "A083074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:56:31",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

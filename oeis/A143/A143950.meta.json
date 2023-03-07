@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck n-paths containing k even-length ascents (0 <= k <= floor(n/2)).",
+  "id": "A143950",
+  "mentions": [
+    "A000108",
+    "A014301",
+    "A096793",
+    "A101785"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

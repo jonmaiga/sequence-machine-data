@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number k such that psi(k) = A001615(k) is the product of n distinct primes.",
+  "id": "A291144",
+  "mentions": [
+    "A001615"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

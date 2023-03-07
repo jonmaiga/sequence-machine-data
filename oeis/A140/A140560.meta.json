@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p + 30 is not a prime.",
+  "id": "A140560",
+  "mentions": [
+    "A049481"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Enumeration of partitions by binary representation: each 1 is a part; the part size is 1 more than the number of 0's in the rest of the number.",
+  "id": "A125106",
+  "mentions": [
+    "A000041",
+    "A000120",
+    "A001511",
+    "A001792",
+    "A005811",
+    "A005940",
+    "A008687",
+    "A019565",
+    "A029837",
+    "A029931",
+    "A037016",
+    "A048793",
+    "A049611",
+    "A059893",
+    "A066099",
+    "A070939",
+    "A101211",
+    "A126411",
+    "A161511",
+    "A242628",
+    "A243499",
+    "A272020"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

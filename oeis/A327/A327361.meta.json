@@ -1,0 +1,27 @@
+{
+  "description": "Minimal denominator among the fractions with n-digit numerator and n-digit denominator that best approximate Pi.",
+  "id": "A327361",
+  "mentions": [
+    "A002485",
+    "A002486",
+    "A063673",
+    "A063674",
+    "A072398",
+    "A072399",
+    "A325158",
+    "A325159",
+    "A327360"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

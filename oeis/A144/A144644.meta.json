@@ -1,0 +1,25 @@
+{
+  "description": "Triangle in A144643 read by columns downwards.",
+  "id": "A144644",
+  "mentions": [
+    "A001681",
+    "A111246",
+    "A122848",
+    "A144643",
+    "A151509",
+    "A151511",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

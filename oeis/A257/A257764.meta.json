@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically largest increasing sequence of primes for which the continued square root map (see A257574) produces the decimal expansion of e (Euler's number).",
+  "id": "A257764",
+  "mentions": [
+    "A001113",
+    "A257352",
+    "A257574",
+    "A257582",
+    "A257809"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

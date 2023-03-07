@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of Dirichlet inverse of primorial deflation fraction A319626(n) / A319627(n).",
+  "id": "A354365",
+  "mentions": [
+    "A013929",
+    "A055615",
+    "A064989",
+    "A319626",
+    "A319627",
+    "A349629",
+    "A354350",
+    "A354351",
+    "A354366",
+    "A354827"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

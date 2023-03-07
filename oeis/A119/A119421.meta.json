@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the imaginary part of (-Exp[ -1])^(-Exp[ -1]), negated.",
+  "id": "A119421",
+  "mentions": [
+    "A119418",
+    "A119419",
+    "A119420"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

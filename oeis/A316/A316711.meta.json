@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of s:= t/(t - 1), with the tribonacci constant t = A058265.",
+  "id": "A316711",
+  "mentions": [
+    "A058265",
+    "A158919",
+    "A172278",
+    "A317202",
+    "A357463"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Combining the conditional divide-by-two concept from Collatz sequences with Pascal's triangle, we can arrive at a new kind of triangle. Start with an initial row of just 4. To compute subsequent rows, start by appending a zero to the beginning and end of the previous row. Like Pascal's triangle, add adjacent terms of the previous row to create each of the subsequent terms. The only change is that each term is divided by two if it is even. Then take the center of this triangle. In other words, take the n-th term from the (2n)th row.",
+  "id": "A123403",
+  "mentions": [
+    "A123402"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

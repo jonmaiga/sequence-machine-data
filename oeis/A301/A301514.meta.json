@@ -1,0 +1,19 @@
+{
+  "description": "Infinite nested radical negated: i*sqrt(1+2i*sqrt(1+3i*sqrt(1+4i*sqrt(1+5i*sqrt(1+...))))).",
+  "id": "A301514",
+  "mentions": [
+    "A072449",
+    "A239349"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

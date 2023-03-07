@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest m such that A187824(m) = n, or -1 if A187824 never takes the value n.",
+  "id": "A220890",
+  "mentions": [
+    "A056697",
+    "A187824",
+    "A220891"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Iterates of A122227, starting from A122227(5)=18.",
+  "id": "A122234",
+  "mentions": [
+    "A122227",
+    "A122235"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

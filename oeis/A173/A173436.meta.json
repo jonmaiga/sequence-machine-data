@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place 7 nonattacking knights on an n X n toroidal board.",
+  "id": "A173436",
+  "mentions": [
+    "A172529",
+    "A172530",
+    "A172531",
+    "A172532",
+    "A172533"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:49",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle in which row n contains numbers x such that x'=n, where x' denotes the arithmetic derivative (A003415).",
+  "id": "A189553",
+  "mentions": [
+    "A003415",
+    "A098699",
+    "A099302",
+    "A099303"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 4,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

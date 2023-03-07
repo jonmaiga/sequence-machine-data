@@ -1,0 +1,20 @@
+{
+  "description": "Union of powers of primes and even semiprimes.",
+  "id": "A354925",
+  "mentions": [
+    "A000961",
+    "A100484",
+    "A265128",
+    "A354923"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

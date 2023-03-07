@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3*2^n + 3*4^n + 6^(n+1) + 1.",
+  "id": "A290396",
+  "mentions": [
+    "A005900",
+    "A005902",
+    "A067771",
+    "A274973",
+    "A279512",
+    "A281698"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

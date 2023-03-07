@@ -1,0 +1,20 @@
+{
+  "description": "Partitions with parts repeated at most twice and repetition only allowed if first part has an odd index (first index = 1).",
+  "id": "A227134",
+  "mentions": [
+    "A002620",
+    "A182372",
+    "A227135"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Smallest odious number (A000069) that can be written as a product of n, but not fewer than n, evil numbers (A001969).",
+  "id": "A230454",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A227932",
+    "A230213",
+    "A230226",
+    "A230306",
+    "A230353",
+    "A230384",
+    "A230385",
+    "A230386",
+    "A230387"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X 4 0..3 arrays with equal numbers of 2 X 2 subblocks with sum over 6 and with sum under 6.",
+  "id": "A183752",
+  "mentions": [
+    "A183756"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

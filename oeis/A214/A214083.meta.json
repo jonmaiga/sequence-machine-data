@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(n!^(1/3)).",
+  "id": "A214083",
+  "mentions": [
+    "A055226",
+    "A055228",
+    "A214078",
+    "A214079",
+    "A214080",
+    "A214081"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

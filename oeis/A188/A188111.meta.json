@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,m) read by rows, [A(x)]^m = Sum_{n>=m} T(n,m)*x^n, where A(x) satisfies A(x) = x/(1-A(x)-A(x)^2).",
+  "id": "A188111",
+  "mentions": [
+    "A001002",
+    "A037027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that (2^(n^2)-1)/(2^n-1) is prime.",
+  "id": "A156585",
+  "mentions": [
+    "A051156"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

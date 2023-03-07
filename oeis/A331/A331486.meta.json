@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k which are emirps in more bases 1 < b < k than any previous number.",
+  "id": "A331486",
+  "mentions": [
+    "A006567",
+    "A080790",
+    "A087911",
+    "A107129",
+    "A228768"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

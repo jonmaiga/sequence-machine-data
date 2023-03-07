@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k + x^(3*k)).",
+  "id": "A264905",
+  "mentions": [
+    "A000009",
+    "A000726",
+    "A001935",
+    "A100405",
+    "A266647",
+    "A266648",
+    "A266649",
+    "A266650",
+    "A266686",
+    "A275820"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

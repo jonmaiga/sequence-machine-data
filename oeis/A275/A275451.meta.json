@@ -1,0 +1,21 @@
+{
+  "description": "Number of occurrences of the string n in primorial(n).",
+  "id": "A275451",
+  "mentions": [
+    "A002110",
+    "A275450"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

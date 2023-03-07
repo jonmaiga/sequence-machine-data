@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers m with result 1 under iterations of {r mod (max prime p < r)} starting at r = m.",
+  "id": "A175071",
+  "mentions": [
+    "A175072",
+    "A175073",
+    "A175074"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

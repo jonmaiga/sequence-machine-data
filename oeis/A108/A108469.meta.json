@@ -1,0 +1,17 @@
+{
+  "description": "Main diagonal of A090806.",
+  "id": "A108469",
+  "mentions": [
+    "A090806"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = square-root of the largest proper divisor of A187101(n).",
+  "id": "A185363",
+  "mentions": [
+    "A187101"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

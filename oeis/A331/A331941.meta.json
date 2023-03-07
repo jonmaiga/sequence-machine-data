@@ -1,0 +1,23 @@
+{
+  "description": "Hardy-Littlewood constant for the polynomial x^2 + 1.",
+  "id": "A331941",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A083844",
+    "A206709",
+    "A221712"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

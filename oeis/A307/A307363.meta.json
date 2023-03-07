@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. Sum_{j>=0} log(1 + x)^j / Product_{k=1..j} (1 - k*log(1 + x)).",
+  "id": "A307363",
+  "mentions": [
+    "A000110",
+    "A006252",
+    "A137341",
+    "A307362"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

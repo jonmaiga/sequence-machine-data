@@ -1,0 +1,28 @@
+{
+  "description": "Number of even numbers encountered before (n^2)-1 is reached when starting from k = ((n+1)^2)-1 and iterating map k -> k - A002828(k).",
+  "id": "A277890",
+  "mentions": [
+    "A000035",
+    "A000290",
+    "A002828",
+    "A010052",
+    "A260734",
+    "A276573",
+    "A276574",
+    "A277486",
+    "A277488",
+    "A277889",
+    "A277891"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

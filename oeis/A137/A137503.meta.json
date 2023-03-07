@@ -1,0 +1,19 @@
+{
+  "description": "Number of Frobenius equivalence classes of size n over GF(2^n) with their trace equal to the trace of their inverse.",
+  "id": "A137503",
+  "mentions": [
+    "A000048",
+    "A001037"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

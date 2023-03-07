@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, of the number of left factors of peakless Motzkin paths of length n having k number of U's and D's (i.e., number of paths from (0,0) to the line x=n, consisting of steps U=(1,1), H=(1,0), D=(1,1), that never go below the x-axis and a U step is never followed by a D step).",
+  "id": "A104559",
+  "mentions": [
+    "A091964",
+    "A104557"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

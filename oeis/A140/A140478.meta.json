@@ -1,0 +1,18 @@
+{
+  "description": "In the decimal expansion of Pi, the string \"8\" is found at position 11 counting from the first digit after the decimal point. The string \"11\" is found at position 94, the string \"94\" at position 58, the string \"58\" at position 10, etc.",
+  "id": "A140478",
+  "mentions": [
+    "A097614"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

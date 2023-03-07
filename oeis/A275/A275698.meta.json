@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 2, after that a(n) is 3 plus the least common multiple of previous terms.",
+  "id": "A275698",
+  "mentions": [
+    "A000058",
+    "A000215",
+    "A000289",
+    "A000324",
+    "A001543",
+    "A001544",
+    "A082732",
+    "A129871",
+    "A275664"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

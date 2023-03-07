@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the nearest integer to sqrt(pi(10^n)) (see A006880).",
+  "id": "A221205",
+  "mentions": [
+    "A006880"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

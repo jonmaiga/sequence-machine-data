@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the maximal number of a's that can be produced in a blank document with n \"keystrokes\".",
+  "id": "A193286",
+  "mentions": [
+    "A000792",
+    "A178715",
+    "A193455",
+    "A193456",
+    "A193457"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

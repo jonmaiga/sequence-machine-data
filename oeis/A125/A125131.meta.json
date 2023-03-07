@@ -1,0 +1,21 @@
+{
+  "description": "Product 1-p, where p ranges over the prime factors of n with multiplicity.",
+  "id": "A125131",
+  "mentions": [
+    "A003958",
+    "A008836"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

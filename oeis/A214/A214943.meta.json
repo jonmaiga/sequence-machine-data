@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) = Number of squarefree words of length n in a (k+1)-ary alphabet.",
+  "id": "A214943",
+  "mentions": [
+    "A002378",
+    "A006156",
+    "A011379",
+    "A047929",
+    "A051041",
+    "A214939"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

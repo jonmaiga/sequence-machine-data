@@ -1,0 +1,23 @@
+{
+  "description": "A 2/3-power Fibonacci sequence.",
+  "id": "A114955",
+  "mentions": [
+    "A000283",
+    "A112961",
+    "A112969",
+    "A114793"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:41:23",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. exp( Integral C(x) dx ) = (A(x) + B(x))/7 where A(x) = 3 + Integral B(x)*C(x) dx and B(x) = 4 + Integral A(x)*C(x) dx such that A(x)^2 - 3^2 = B(x)^2 - 4^2 = C(x)^2 - 5^2.",
+  "id": "A323567",
+  "mentions": [
+    "A323563",
+    "A323564",
+    "A323565",
+    "A323566",
+    "A323568",
+    "A323569"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Odd squarefree numbers k > 1 for which bigomega(phi(k)) < bigomega(k-1), where bigomega gives the number of prime divisors, counted with multiplicity.",
+  "id": "A339908",
+  "mentions": [
+    "A000010",
+    "A001222",
+    "A056911",
+    "A339907",
+    "A339909",
+    "A339911",
+    "A339912"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

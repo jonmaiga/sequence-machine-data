@@ -1,0 +1,20 @@
+{
+  "description": "Number of palindromic paths through the subset array of {1,2,...,n}; see Comments.",
+  "id": "A208654",
+  "mentions": [
+    "A208650",
+    "A208652",
+    "A208653",
+    "A208655"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:22:50",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

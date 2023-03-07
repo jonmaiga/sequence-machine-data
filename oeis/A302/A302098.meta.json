@@ -1,0 +1,29 @@
+{
+  "description": "Number of prime factors (with multiplicity) of generalized Fermat number 14^(2^n) + 1.",
+  "id": "A302098",
+  "mentions": [
+    "A001222",
+    "A152587",
+    "A275377",
+    "A275378",
+    "A275379",
+    "A275380",
+    "A275381",
+    "A275382",
+    "A275383",
+    "A302097"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

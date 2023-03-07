@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows, where T(n,k) = (1/n)*Sum_{d|(n,k)} phi(d) * binomial(n/d,k/d)^2 for n >= k > 0, with T(n,0) = 1 for n >= 0.",
+  "id": "A123610",
+  "mentions": [
+    "A000108",
+    "A000891",
+    "A003239",
+    "A005997",
+    "A047996",
+    "A123611",
+    "A123612",
+    "A123613",
+    "A123614",
+    "A123615",
+    "A123616",
+    "A123617",
+    "A123618",
+    "A123619",
+    "A128545"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

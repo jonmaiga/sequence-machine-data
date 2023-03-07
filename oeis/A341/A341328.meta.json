@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the smaller solution (i.e., the solution other than x = 5) to 5^x = x^5.",
+  "id": "A341328",
+  "mentions": [
+    "A166928"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:25",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

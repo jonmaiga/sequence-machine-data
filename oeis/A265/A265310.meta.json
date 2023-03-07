@@ -1,0 +1,17 @@
+{
+  "description": "Least positive k such that the product of divisors of n (A007955) divides k!.",
+  "id": "A265310",
+  "mentions": [
+    "A007955"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

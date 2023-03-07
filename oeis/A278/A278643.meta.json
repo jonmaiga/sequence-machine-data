@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not the sum of 3 or fewer terms of A277238.",
+  "id": "A278643",
+  "mentions": [
+    "A277238"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

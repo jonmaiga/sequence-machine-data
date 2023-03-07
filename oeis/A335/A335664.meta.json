@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = f(n) - f(Sum_{k=1..n-1} a(k)) with a(1) = 1, where f = A000006.",
+  "id": "A335664",
+  "mentions": [
+    "A000006",
+    "A335294"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

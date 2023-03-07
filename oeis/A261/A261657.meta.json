@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with 3 prime factors a < b < c such that 2c = a^4 + b^2.",
+  "id": "A261657",
+  "mentions": [
+    "A261656",
+    "A261658"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Parity of A328386(n), where A328386(n) = A276086(n) mod n, and A276086 is the primorial base exp-function.",
+  "id": "A358224",
+  "mentions": [
+    "A000035",
+    "A276086",
+    "A328386",
+    "A358225",
+    "A358226",
+    "A358227"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

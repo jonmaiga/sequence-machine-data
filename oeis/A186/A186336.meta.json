@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of representing n as the sum of one or more consecutive semiprimes.",
+  "id": "A186336",
+  "mentions": [
+    "A001358",
+    "A112020",
+    "A186337"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

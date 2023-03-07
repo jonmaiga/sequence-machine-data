@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n which appear twice in the sequence starting with n and subsequent terms given by 10c + d where c is the number of times (> 0) the least frequent digit d has appeared so far, smallest d in case of tie.",
+  "id": "A329448",
+  "mentions": [
+    "A329447"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

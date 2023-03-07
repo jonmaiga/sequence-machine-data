@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A175046(n)-n.",
+  "id": "A319407",
+  "mentions": [
+    "A175046",
+    "A319408",
+    "A319409"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

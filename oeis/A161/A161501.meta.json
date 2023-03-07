@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer that is a palindrome when represented in binary, and is made by appending some number (zero or more) of binary digits on the right of n's binary representation.",
+  "id": "A161501",
+  "mentions": [
+    "A006995",
+    "A082216",
+    "A145800",
+    "A161502"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:29",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

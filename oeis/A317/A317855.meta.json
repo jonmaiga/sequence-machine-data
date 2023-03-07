@@ -1,0 +1,36 @@
+{
+  "description": "Decimal expansion of a constant related to the asymptotics of A122400.",
+  "id": "A317855",
+  "mentions": [
+    "A121886",
+    "A122399",
+    "A122400",
+    "A122418",
+    "A122419",
+    "A122420",
+    "A227619",
+    "A232192",
+    "A243802",
+    "A244585",
+    "A248798",
+    "A301584",
+    "A301585",
+    "A301586",
+    "A303056",
+    "A303057",
+    "A317340",
+    "A326010"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n, d odd} binomial(d+n/d-1, d).",
+  "id": "A340626",
+  "mentions": [
+    "A081543",
+    "A338682",
+    "A340625"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Read the infinite chessboard underlying A065188 by successive antidiagonals and record when the queens are encountered. Here the rows and columns are indexed starting at 1 (as in A065188).",
+  "id": "A275898",
+  "mentions": [
+    "A065188",
+    "A275895",
+    "A275897"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

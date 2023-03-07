@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the order of the free linear Heyting algebra on n generators.",
+  "id": "A321571",
+  "mentions": [
+    "A050318",
+    "A050365",
+    "A067765"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

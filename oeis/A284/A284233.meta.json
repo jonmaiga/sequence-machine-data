@@ -1,0 +1,28 @@
+{
+  "description": "Sum of odd prime power divisors of n (not including 1).",
+  "id": "A284233",
+  "mentions": [
+    "A000961",
+    "A005069",
+    "A023888",
+    "A023889",
+    "A038712",
+    "A061345",
+    "A065091",
+    "A087436",
+    "A206787",
+    "A246655",
+    "A284117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

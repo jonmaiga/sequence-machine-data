@@ -1,0 +1,19 @@
+{
+  "description": "Nonprime positive integers of the form k/(prime(k+2)-prime(k+1)) in order of increasing k.",
+  "id": "A141793",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

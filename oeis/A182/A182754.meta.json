@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 21, a(n) = 77*a(n-2) for n>=3.",
+  "id": "A182754",
+  "mentions": [
+    "A038754",
+    "A182751",
+    "A182757"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

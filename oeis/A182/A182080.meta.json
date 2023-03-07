@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal depth of an indecomposable exact cover of an n-set.",
+  "id": "A182080",
+  "mentions": [
+    "A096753"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

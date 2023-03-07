@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest n-digit integer such that, if all numbers formed by inserting the exponentiation symbol between any two digits are added up, the sum is prime.",
+  "id": "A117388",
+  "mentions": [
+    "A113762"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

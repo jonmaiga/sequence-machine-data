@@ -1,0 +1,25 @@
+{
+  "description": "Integers i such that 13*i = A048720bi(21,i).",
+  "id": "A115772",
+  "mentions": [
+    "A048717",
+    "A048720",
+    "A115767",
+    "A115770",
+    "A115773",
+    "A115774",
+    "A115776",
+    "A115872",
+    "A178891"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

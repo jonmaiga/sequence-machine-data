@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the number of digits in the binary representation of n that each either precede and/or follow a similarly valued digit.",
+  "id": "A165316",
+  "mentions": [
+    "A165317"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

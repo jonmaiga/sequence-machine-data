@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows T(n,k) in which row n lists n blocks where the m-th block consists of A000203(m) copies of A000041(n-m), with 1 <= m <= n.",
+  "id": "A341149",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A024916",
+    "A066186",
+    "A221529",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A337209",
+    "A339106",
+    "A340584",
+    "A341148",
+    "A345023"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

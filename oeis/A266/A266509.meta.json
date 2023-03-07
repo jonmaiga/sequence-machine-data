@@ -1,0 +1,25 @@
+{
+  "description": "Terms of A256263 repeated.",
+  "id": "A266509",
+  "mentions": [
+    "A004171",
+    "A011782",
+    "A256263",
+    "A256264",
+    "A256265",
+    "A266510",
+    "A266529",
+    "A266539"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

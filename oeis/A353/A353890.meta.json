@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the period of the binary sequence {b(m)} defined by b(m) = 1 if (m+1)^n - m^n and (m+2)^n - 2*(m+1)^n + m^n are coprime, 0 otherwise.",
+  "id": "A353890",
+  "mentions": [
+    "A001045",
+    "A002587",
+    "A003215",
+    "A005408",
+    "A005914",
+    "A005917",
+    "A007395",
+    "A008588",
+    "A022521",
+    "A022522",
+    "A068236",
+    "A069473",
+    "A069925"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

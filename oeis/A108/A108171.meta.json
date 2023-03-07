@@ -1,0 +1,21 @@
+{
+  "description": "Tribonacci version of A076662 using beta positive real Pisot root of x^3 - x^2 - x - 1.",
+  "id": "A108171",
+  "mentions": [
+    "A000195",
+    "A007066",
+    "A076662"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle with elements A120070(m,n)/A120072(m,n) read by rows, m>=2, 1<=n",
+  "id": "A164561",
+  "mentions": [
+    "A120070",
+    "A120072"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

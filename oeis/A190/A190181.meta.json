@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (15+sqrt(465))/12.",
+  "id": "A190181",
+  "mentions": [
+    "A188635"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

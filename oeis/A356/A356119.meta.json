@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-sided polygons formed, for k>=3, in an equilateral triangle when straight line segments connect the three corner vertices to the points dividing the sides into n equal parts.",
+  "id": "A356119",
+  "mentions": [
+    "A092098",
+    "A331782",
+    "A332376",
+    "A335413"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Partial sums of the 'upper' Lucas Inverse A130242.",
+  "id": "A130244",
+  "mentions": [
+    "A000032",
+    "A104162",
+    "A130233",
+    "A130240",
+    "A130241",
+    "A130242",
+    "A130243",
+    "A130245",
+    "A130246",
+    "A130248",
+    "A130252",
+    "A130258",
+    "A130262"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

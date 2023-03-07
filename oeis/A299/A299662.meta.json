@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with every element equal to 0, 1, 2, 3, 4, 6 or 7 king-move adjacent elements, with upper left element zero.",
+  "id": "A299662",
+  "mentions": [
+    "A299668"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

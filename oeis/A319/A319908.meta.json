@@ -1,0 +1,23 @@
+{
+  "description": "Lesser of twin primes pair p, such that the Mersenne numbers 2^p - 1 and 2^(p+2) - 1 have the same number of prime factors.",
+  "id": "A319908",
+  "mentions": [
+    "A000225",
+    "A001221",
+    "A001222",
+    "A001359",
+    "A065341",
+    "A135975"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

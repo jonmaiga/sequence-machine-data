@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest k < n such that the decimal concatenation n||n-1||n-2||...||n-k is prime, or -1 if no such prime exists.",
+  "id": "A341702",
+  "mentions": [
+    "A052088",
+    "A052089",
+    "A054211",
+    "A341701",
+    "A341715",
+    "A341716",
+    "A341717"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

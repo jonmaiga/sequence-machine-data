@@ -1,0 +1,30 @@
+{
+  "description": "Product of binomial matrix and the Mobius matrix A051731.",
+  "id": "A101508",
+  "mentions": [
+    "A000079",
+    "A000749",
+    "A023531",
+    "A024495",
+    "A051731",
+    "A101509",
+    "A101510",
+    "A128313",
+    "A131577",
+    "A135356",
+    "A139761"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

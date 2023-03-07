@@ -1,0 +1,27 @@
+{
+  "description": "The n-th arithmetic derivative of 5^6.",
+  "id": "A129152",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A068327",
+    "A099309",
+    "A100716",
+    "A129150",
+    "A129151",
+    "A129251",
+    "A129283",
+    "A129286"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

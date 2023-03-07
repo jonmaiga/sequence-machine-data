@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients in 5-adic expansion of 4^(1/3).",
+  "id": "A309443",
+  "mentions": [
+    "A210850",
+    "A210851",
+    "A269591",
+    "A269592",
+    "A290563",
+    "A290566",
+    "A309444"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

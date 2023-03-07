@@ -1,0 +1,19 @@
+{
+  "description": "Starts of runs of 4 consecutive lazy-Fibonacci-Niven numbers (A328212).",
+  "id": "A328215",
+  "mentions": [
+    "A112310",
+    "A141769",
+    "A328212"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

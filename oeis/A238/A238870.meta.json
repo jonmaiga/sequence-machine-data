@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n with c(1) = 1, c(i+1) - c(i) <= 1, and c(i+1) - c(i) != 0.",
+  "id": "A238870",
+  "mentions": [
+    "A001524",
+    "A005169",
+    "A023361",
+    "A186085",
+    "A227310"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

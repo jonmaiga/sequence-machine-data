@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that Sum_{i=1..q} 1/lambda(d(i)) is an integer, where d(i) are the q divisors of m and lambda is the Carmichael lambda function (A002322).",
+  "id": "A268177",
+  "mentions": [
+    "A000010",
+    "A002322"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

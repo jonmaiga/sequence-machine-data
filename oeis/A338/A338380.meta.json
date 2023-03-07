@@ -1,0 +1,18 @@
+{
+  "description": "Replace every term a(n) by the pair [a(n), a(n)] to form a new sequence S: S is the succession of the absolute differences of the starting sequence.",
+  "id": "A338380",
+  "mentions": [
+    "A033485"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

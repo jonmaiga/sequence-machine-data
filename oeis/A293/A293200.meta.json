@@ -1,0 +1,19 @@
+{
+  "description": "Primes p with a primitive root g such that g^3 = g + 1 mod p.",
+  "id": "A293200",
+  "mentions": [
+    "A003147",
+    "A104217",
+    "A293201"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

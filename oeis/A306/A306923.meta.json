@@ -1,0 +1,22 @@
+{
+  "description": "Sum over all partitions of n into distinct parts of the bitwise AND of the parts.",
+  "id": "A306923",
+  "mentions": [
+    "A000009",
+    "A066189",
+    "A306901",
+    "A306924",
+    "A306925"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

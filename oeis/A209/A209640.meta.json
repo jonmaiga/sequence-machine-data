@@ -1,0 +1,22 @@
+{
+  "description": "Global ranking function for restricted totally balanced binary strings given in A209641.",
+  "id": "A209640",
+  "mentions": [
+    "A007318",
+    "A014486",
+    "A053644",
+    "A080300",
+    "A209641",
+    "A209861"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 128,
+    "source": "oeis-entry"
+  }
+}

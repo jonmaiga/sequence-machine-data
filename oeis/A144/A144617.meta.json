@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: numerators of coefficients of the Debye-type polynomial u_n used for asymptotic Airy-type expansions of Bessel functions of arbitrary large order.",
+  "id": "A144617",
+  "mentions": [
+    "A144618",
+    "A144622"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

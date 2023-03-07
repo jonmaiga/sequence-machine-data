@@ -1,0 +1,36 @@
+{
+  "description": "a(n) is the least m >= n such that the Hamming distance D(n,m) = 2.",
+  "id": "A182187",
+  "mentions": [
+    "A007814",
+    "A086799",
+    "A122565",
+    "A182209",
+    "A182336",
+    "A205302",
+    "A205509",
+    "A205510",
+    "A205511",
+    "A205533",
+    "A205649",
+    "A206852",
+    "A206853",
+    "A206960",
+    "A207063",
+    "A209544",
+    "A209554"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number of distinct parts in the n-th composition in standard order.",
+  "id": "A334028",
+  "mentions": [
+    "A000120",
+    "A001037",
+    "A001221",
+    "A059966",
+    "A060223",
+    "A065609",
+    "A066099",
+    "A070939",
+    "A124767",
+    "A138904",
+    "A233564",
+    "A246534",
+    "A272919",
+    "A328594",
+    "A333632",
+    "A333765",
+    "A333939",
+    "A333940"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

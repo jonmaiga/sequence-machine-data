@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = greatest k such that H(k) - H(2) < 1/1 + 1/2; a(2) = greatest k such that H(k) - H(a(1)) < H(a(1)) - H(2); and for n>2, a(n) = greatest k such that H(k) - H(a(n-1) < H(a(n-1)) - H(a(n-2)), where H = harmonic number.",
+  "id": "A227728",
+  "mentions": [
+    "A224820",
+    "A224868",
+    "A225815",
+    "A227729"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

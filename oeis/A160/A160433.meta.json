@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that (k-th prime after n!+1)-n! is not a prime.",
+  "id": "A160433",
+  "mentions": [
+    "A005235",
+    "A037153",
+    "A087202"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

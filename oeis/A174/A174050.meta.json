@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form x^2 + y^2 such that L(x)* L(y) = 1, where L is the Liouville lambda-function A008836.",
+  "id": "A174050",
+  "mentions": [
+    "A002313",
+    "A002819",
+    "A008836",
+    "A026424",
+    "A045637",
+    "A174054"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

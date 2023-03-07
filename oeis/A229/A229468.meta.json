@@ -1,0 +1,20 @@
+{
+  "description": "Number T(n,k) of parts of each size k^2 in all partitions of n^2 into squares; triangle T(n,k), 1 <= k <= n, read by rows.",
+  "id": "A229468",
+  "mentions": [
+    "A037444",
+    "A229239"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

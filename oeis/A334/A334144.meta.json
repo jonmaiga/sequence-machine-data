@@ -1,0 +1,23 @@
+{
+  "description": "Consider the mapping k -> (k - (k/p)), where prime p | k. a(n) = maximum distinct terms at any position j among the various paths to 1.",
+  "id": "A334144",
+  "mentions": [
+    "A064097",
+    "A096825",
+    "A332992",
+    "A332999",
+    "A333123",
+    "A334111",
+    "A334184"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

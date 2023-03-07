@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 3p -+ 4 are primes.",
+  "id": "A124098",
+  "mentions": [
+    "A125215",
+    "A125216",
+    "A125272"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

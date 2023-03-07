@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < k < n: k*phi(n-k) + 1 is a square}|, where phi(.) is Euler's totient function.",
+  "id": "A234246",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A233542",
+    "A233544",
+    "A233547",
+    "A233566",
+    "A233567",
+    "A233867",
+    "A233918",
+    "A234200"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "One half of the radical (squarefree kernel) of the abc-triples (a=1, b(n) = A216323(n), c(n) = 1 + b(n)).",
+  "id": "A216324",
+  "mentions": [
+    "A216323"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

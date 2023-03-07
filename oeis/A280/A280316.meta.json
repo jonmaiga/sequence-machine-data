@@ -1,0 +1,22 @@
+{
+  "description": "Sum of squares of parts of the partitions of 2n into two squarefree parts.",
+  "id": "A280316",
+  "mentions": [
+    "A008683",
+    "A280226",
+    "A280320",
+    "A280322"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

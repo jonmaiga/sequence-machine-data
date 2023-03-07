@@ -1,0 +1,18 @@
+{
+  "description": "Triangle t(n,k)= sum_{m=1..floor(n/2-k)} binomial(n-m-k,m+k), -floor(n/2) <= k <= floor(n/2), read by rows.",
+  "id": "A177351",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

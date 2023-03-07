@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that n*k has the fewest possible ones in its binary expansion.",
+  "id": "A143069",
+  "mentions": [
+    "A086342",
+    "A125121",
+    "A143073"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

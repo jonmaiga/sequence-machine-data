@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n^2 as the sum of n odd numbers, disregarding order.",
+  "id": "A107379",
+  "mentions": [
+    "A000217",
+    "A008284",
+    "A072243",
+    "A152140",
+    "A258191",
+    "A258192",
+    "A258234",
+    "A281489"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

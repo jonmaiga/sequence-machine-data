@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of a constant related to A034691.",
+  "id": "A247003",
+  "mentions": [
+    "A034691",
+    "A034899",
+    "A261043",
+    "A304962",
+    "A319918"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that set a new record for the Hamming weight.",
+  "id": "A278477",
+  "mentions": [
+    "A000668",
+    "A061712",
+    "A211997"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

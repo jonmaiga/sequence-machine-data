@@ -1,0 +1,27 @@
+{
+  "description": "Number of achiral colorings of the 8 triangular faces of a regular octahedron or the 8 vertices of a cube using n or fewer colors.",
+  "id": "A337897",
+  "mentions": [
+    "A000543",
+    "A006003",
+    "A128766",
+    "A325015",
+    "A331351",
+    "A337894",
+    "A337896",
+    "A337898",
+    "A337960",
+    "A337962"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:09",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The fifth power (k=5) of the normalized neo-combinations: t(n,m,k) = ceiling(((n-m)^k*(m+1)^k - 2^(n-1))/n^k).",
+  "id": "A141398",
+  "mentions": [
+    "A003991"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

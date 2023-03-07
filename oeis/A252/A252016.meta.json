@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=2, a(2)=23; thereafter a(n) is the smallest prime which begins with the concatenation a(n-2)a(n-1).",
+  "id": "A252016",
+  "mentions": [
+    "A240563"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Consider the base-5 Kaprekar map n->K(n) defined in A165032. Sequence gives numbers belonging to cycles, including fixed points.",
+  "id": "A165037",
+  "mentions": [
+    "A163205",
+    "A164716",
+    "A164998",
+    "A165017",
+    "A165032",
+    "A165036",
+    "A165038",
+    "A165039",
+    "A165041",
+    "A165043",
+    "A165046",
+    "A165049",
+    "A165056",
+    "A165076",
+    "A165095",
+    "A165115"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

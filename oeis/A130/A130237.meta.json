@@ -1,0 +1,32 @@
+{
+  "description": "The 'lower' Fibonacci Inverse A130233(n) multiplied by n.",
+  "id": "A130237",
+  "mentions": [
+    "A000045",
+    "A130233",
+    "A130234",
+    "A130235",
+    "A130236",
+    "A130238",
+    "A130239",
+    "A130240",
+    "A130243",
+    "A130246",
+    "A130248",
+    "A130251",
+    "A130253",
+    "A130257",
+    "A130261"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

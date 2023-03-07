@@ -1,0 +1,17 @@
+{
+  "description": "Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal, diagonal or antidiagonal neighbor, and containing the value n(n+1)/2-5",
+  "id": "A212024",
+  "mentions": [
+    "A212026"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Total sum of the divisors of the primes p,q such that n=p+q and p>=q.",
+  "id": "A269801",
+  "mentions": [
+    "A000203",
+    "A010051",
+    "A014092",
+    "A061358"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sum{(1/3)^A191330(k): k>=1}.",
+  "id": "A191332",
+  "mentions": [
+    "A191329",
+    "A191330",
+    "A191331",
+    "A191333"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

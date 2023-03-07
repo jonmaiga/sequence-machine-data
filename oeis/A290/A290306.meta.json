@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of the multiset {1,1,2,2,...,2n,2n} having exactly n ascents and no number smaller than k between the two occurrences of any number k.",
+  "id": "A290306",
+  "mentions": [
+    "A008517",
+    "A112007",
+    "A163936",
+    "A201637",
+    "A288874"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

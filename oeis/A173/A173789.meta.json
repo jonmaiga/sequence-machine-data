@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of (0,1) matrices A=(a_{ij}) of size n X (3n) such that each row has exactly three 1's and each column has exactly one 1 and with the restriction that no 1 stands on the diagonal from a_{11} to a_{22}.",
+  "id": "A173789",
+  "mentions": [
+    "A173790",
+    "A173791"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

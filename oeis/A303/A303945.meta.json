@@ -1,0 +1,28 @@
+{
+  "description": "Triangle whose n-th row lists the multiset of prime indices of the n-th number that is not a perfect power A007916(n).",
+  "id": "A303945",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A000837",
+    "A001222",
+    "A005117",
+    "A007916",
+    "A052409",
+    "A052410",
+    "A056239",
+    "A112798",
+    "A296150"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

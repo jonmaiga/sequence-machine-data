@@ -1,0 +1,22 @@
+{
+  "description": "Central terms of pendular triangle A118345.",
+  "id": "A118346",
+  "mentions": [
+    "A005572",
+    "A118345",
+    "A118347",
+    "A118348",
+    "A118349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

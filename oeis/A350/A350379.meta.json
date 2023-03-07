@@ -1,0 +1,22 @@
+{
+  "description": "Consider integer-sided triangles having integer area and let d be the distance between the center of the inscribed circle and the center of the circumscribed circle. The sequence lists the set of distances d which are prime numbers.",
+  "id": "A350379",
+  "mentions": [
+    "A185210",
+    "A208984",
+    "A210207",
+    "A231174",
+    "A350378"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

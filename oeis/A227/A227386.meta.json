@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n - 1 - a(a(n-1)) - a(a(a(n-2))) - a(a(a(a(n-3)))) - a(a(a(a(a(n-4))))) - ... with a(0) = 0.",
+  "id": "A227386",
+  "mentions": [
+    "A227145"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

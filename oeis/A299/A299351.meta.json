@@ -1,0 +1,18 @@
+{
+  "description": "For x=n, iterate the map x -> Product_{k is a prime dividing x} (k + 1), a(n) is the number of steps to see a repeated term for the first time.",
+  "id": "A299351",
+  "mentions": [
+    "A000668",
+    "A299352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

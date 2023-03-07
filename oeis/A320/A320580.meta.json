@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that for any positive integers x,y coprime to k, x^x == y (mod k) iff y^y == x (mod k).",
+  "id": "A320580",
+  "mentions": [
+    "A002322",
+    "A124240"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Arithmetic derivative of prime powers: a(n) = A003415(A000961(n)).",
+  "id": "A192015",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001787",
+    "A002808",
+    "A003415",
+    "A024622",
+    "A025473",
+    "A025474",
+    "A027471",
+    "A051674",
+    "A079705",
+    "A100484",
+    "A192016"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

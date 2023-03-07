@@ -1,0 +1,22 @@
+{
+  "description": "Sum of entries in the first cycles of all permutations of [n].",
+  "id": "A284816",
+  "mentions": [
+    "A180119",
+    "A185105",
+    "A285363",
+    "A285382",
+    "A285439"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

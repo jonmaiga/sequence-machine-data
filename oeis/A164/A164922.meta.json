@@ -1,0 +1,18 @@
+{
+  "description": "Those positive integers that occur at least once as a sum of any two distinct terms of sequence A164921.",
+  "id": "A164922",
+  "mentions": [
+    "A164921",
+    "A164923"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

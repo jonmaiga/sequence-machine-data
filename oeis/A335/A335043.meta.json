@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, the decimal representations of a(2*n-1) and of a(2*n+1) appear as substrings in the decimal representation of a(2*n).",
+  "id": "A335043",
+  "mentions": [
+    "A262323",
+    "A281978"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

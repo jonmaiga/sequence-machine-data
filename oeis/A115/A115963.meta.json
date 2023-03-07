@@ -1,0 +1,28 @@
+{
+  "description": "Numerator of Sum_{i=1..n} 1/prime(i)^3.",
+  "id": "A115963",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A024451",
+    "A034386",
+    "A061015",
+    "A075986",
+    "A075987",
+    "A106830",
+    "A115964"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

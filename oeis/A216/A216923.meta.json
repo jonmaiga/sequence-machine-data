@@ -1,0 +1,18 @@
+{
+  "description": "The denominators of Zagier's modification of the Bernoulli numbers.",
+  "id": "A216923",
+  "mentions": [
+    "A216922"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

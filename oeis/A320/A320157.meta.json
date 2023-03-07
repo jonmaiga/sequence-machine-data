@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of real root of x^5 - 5x^4 + 24x^3 - 108x^2 + 432x - 1296 = 0, x^6*(x + 7) - 6^6 = 0.",
+  "id": "A320157",
+  "mentions": [
+    "A320156",
+    "A320158"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

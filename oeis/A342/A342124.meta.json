@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest potential magic constant for an n X n magic square composed of consecutive primes.",
+  "id": "A342124",
+  "mentions": [
+    "A073520",
+    "A104157",
+    "A342386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

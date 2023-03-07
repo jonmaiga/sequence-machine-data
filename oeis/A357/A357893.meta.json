@@ -1,0 +1,18 @@
+{
+  "description": "a(d) is the minimal integer k such that all Jensen polynomials Jd,nPL(x) associated to MacMahon's plane partition function PL(n) have real roots for x >= k.",
+  "id": "A357893",
+  "mentions": [
+    "A324794"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

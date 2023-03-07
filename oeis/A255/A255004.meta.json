@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest permutation of positive integers such that a(a(n)+a(n+1)) is prime for all n.",
+  "id": "A255004",
+  "mentions": [
+    "A255003",
+    "A256210",
+    "A256212"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

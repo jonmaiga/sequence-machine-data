@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of triangle A125653, in which column k equals the eigensequence of the matrix power A125653^k.",
+  "id": "A125658",
+  "mentions": [
+    "A125653",
+    "A125654",
+    "A125655",
+    "A125656",
+    "A125657",
+    "A125659"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

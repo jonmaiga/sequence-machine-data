@@ -1,0 +1,26 @@
+{
+  "description": "Number A(n,k) of ordered set partitions of {1,2,...,n} such that no part has the same size as any of its k immediate predecessors; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A261959",
+  "mentions": [
+    "A000670",
+    "A032011",
+    "A114902",
+    "A261960",
+    "A261961",
+    "A272431",
+    "A272432",
+    "A272433",
+    "A272434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

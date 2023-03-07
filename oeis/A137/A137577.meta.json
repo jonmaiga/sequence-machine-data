@@ -1,0 +1,31 @@
+{
+  "description": "Largest of the least frequent digits in decimal representation of n!.",
+  "id": "A137577",
+  "mentions": [
+    "A000142",
+    "A027869",
+    "A079680",
+    "A079684",
+    "A079688",
+    "A079690",
+    "A079691",
+    "A079692",
+    "A079693",
+    "A079694",
+    "A079714",
+    "A137578",
+    "A137579",
+    "A137580"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

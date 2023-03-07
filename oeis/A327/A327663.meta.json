@@ -1,0 +1,18 @@
+{
+  "description": "Maximum value of primorials mod n.",
+  "id": "A327663",
+  "mentions": [
+    "A002110",
+    "A062170"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

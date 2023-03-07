@@ -1,0 +1,21 @@
+{
+  "description": "Least number k for which primepi(prime(k+1)/2) - primepi(prime(k)/2) = n.",
+  "id": "A215237",
+  "mentions": [
+    "A215238",
+    "A215239",
+    "A217564"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

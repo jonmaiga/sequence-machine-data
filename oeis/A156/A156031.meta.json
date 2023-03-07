@@ -1,0 +1,21 @@
+{
+  "description": "Alternate A022941 and A143344.",
+  "id": "A156031",
+  "mentions": [
+    "A005228",
+    "A022941",
+    "A030124",
+    "A143344",
+    "A167151"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

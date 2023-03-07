@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of colored digraphs on n nodes with color scheme given by the partitions of n in canonical ordering.",
+  "id": "A328773",
+  "mentions": [
+    "A000041",
+    "A000273",
+    "A053763",
+    "A063008",
+    "A080577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

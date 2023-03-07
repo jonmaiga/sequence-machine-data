@@ -1,0 +1,19 @@
+{
+  "description": "Toothpick sequence starting at the vertex of y=3*abs(x).",
+  "id": "A265384",
+  "mentions": [
+    "A047999",
+    "A139250",
+    "A151566"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

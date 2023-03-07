@@ -1,0 +1,25 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: row 253 of table A122203.",
+  "id": "A123717",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A045629",
+    "A057509",
+    "A089423",
+    "A089854",
+    "A122203",
+    "A123503",
+    "A123718"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

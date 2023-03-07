@@ -1,0 +1,20 @@
+{
+  "description": "Let qf(a,q) = Product(1-a*q^j,j=0..infinity); g.f. is qf(q,q^3)/qf(q^2,q^3).",
+  "id": "A111165",
+  "mentions": [
+    "A111317",
+    "A111375"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

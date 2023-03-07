@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes between prime(n)*prime(n+1) and prime(n+1)^2.",
+  "id": "A256469",
+  "mentions": [
+    "A000040",
+    "A050216",
+    "A256448",
+    "A256468",
+    "A256470"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

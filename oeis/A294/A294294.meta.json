@@ -1,0 +1,23 @@
+{
+  "description": "Conjecturally, all odd numbers greater than a(n) can be represented in more ways by the sum of 3 odd primes p+q+r with p<=q<=r than a(n).",
+  "id": "A294294",
+  "mentions": [
+    "A007963",
+    "A102605",
+    "A139321",
+    "A294295",
+    "A294357",
+    "A294358"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

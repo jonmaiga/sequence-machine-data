@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n + [ns/r] + [nt/r] + [nu/r] + [nv/r] + [nw/r], where r=sinh(x), s=cosh(x), t=tanh(x), u=csch(x), v=sech(x), w=coth(x), where x=Pi/2.",
+  "id": "A190751",
+  "mentions": [
+    "A190752",
+    "A190753",
+    "A190754",
+    "A190755",
+    "A190756"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:35",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

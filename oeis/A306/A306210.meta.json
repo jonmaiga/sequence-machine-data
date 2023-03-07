@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = binomial(n + k, n) - binomial(n + floor(k/2), n) + 1, square array read by descending antidiagonals (n >= 0, k >= 0).",
+  "id": "A306210",
+  "mentions": [
+    "A007318",
+    "A046854",
+    "A322596"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

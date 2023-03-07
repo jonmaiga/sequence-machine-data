@@ -1,0 +1,20 @@
+{
+  "description": "Consider numbers n such that A166133(n) sets a new record and also satisfies A166133(n)=A166133(n-1)^2-1; sequence gives values of A166133(n).",
+  "id": "A256423",
+  "mentions": [
+    "A166133",
+    "A256403",
+    "A256404",
+    "A256422"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

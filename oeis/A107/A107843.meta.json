@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of McCarthy 91 Function until it terminates.",
+  "id": "A107843",
+  "mentions": [
+    "A103847",
+    "A107844"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

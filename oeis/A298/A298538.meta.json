@@ -1,0 +1,29 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees such that every branch of the root has the same number of nodes.",
+  "id": "A298538",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A061775",
+    "A111299",
+    "A214577",
+    "A276625",
+    "A290760",
+    "A291442",
+    "A297571",
+    "A298478",
+    "A298534",
+    "A298536",
+    "A298537"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

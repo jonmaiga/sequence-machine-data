@@ -1,0 +1,25 @@
+{
+  "description": "Minimum number of 2's such that n*[n; 2, ..., 2, n] = [x; ..., x] for some x, where [...] denotes simple continued fractions.",
+  "id": "A262212",
+  "mentions": [
+    "A000057",
+    "A213648",
+    "A213891",
+    "A213899",
+    "A213900",
+    "A261311",
+    "A262211",
+    "A262213",
+    "A262220"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

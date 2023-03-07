@@ -1,0 +1,20 @@
+{
+  "description": "Natural numbers for which all sums Sum_{i=1..u} K(i/n) (with u ranging from 1 to n) are nonnegative, where K(i/n) is Kronecker symbol of i and n.",
+  "id": "A227194",
+  "mentions": [
+    "A095100",
+    "A095102",
+    "A227196",
+    "A227198"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of second differences of arrays of length 4 of numbers in 0..n.",
+  "id": "A228219",
+  "mentions": [
+    "A228218",
+    "A272039"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:25:09",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that n^2 = x^3 + y^3 + z^3, where x, y, z are positive integers, is soluble.",
+  "id": "A271826",
+  "mentions": [
+    "A000290",
+    "A003072",
+    "A112474",
+    "A165454"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:50",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

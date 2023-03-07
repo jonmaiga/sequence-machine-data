@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 3, the least length of a Primitive Pythagorean Triangle (PPT). a(n) is the least hypotenuse of a PPT which has a(n-1) as one of its legs.",
+  "id": "A239381",
+  "mentions": [
+    "A008846",
+    "A018928",
+    "A042965",
+    "A235598"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

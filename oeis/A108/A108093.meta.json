@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients of series whose 24th power is the theta series of the Leech lattice (see A008408).",
+  "id": "A108093",
+  "mentions": [
+    "A008408"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Self referencing version of the \"Kimberling shuffle\" sequence (see Comments).",
+  "id": "A307536",
+  "mentions": [
+    "A006852",
+    "A007063",
+    "A038807",
+    "A307797"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

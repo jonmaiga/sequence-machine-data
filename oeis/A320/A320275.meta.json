@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose distinct prime indices are pairwise indivisible and whose own prime indices are connected and span an initial interval of positive integers.",
+  "id": "A320275",
+  "mentions": [
+    "A003963",
+    "A006126",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A285572",
+    "A286520",
+    "A290103",
+    "A293994",
+    "A302242",
+    "A316476",
+    "A319496",
+    "A319837",
+    "A320456",
+    "A320532"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

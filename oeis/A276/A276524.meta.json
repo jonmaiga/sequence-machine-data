@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the apparent (see Comments) limit of the sum of the alternating series 1/prime(1) - 2/prime(2) + 3/prime(3) - 4/prime(4) + ...",
+  "id": "A276524",
+  "mentions": [
+    "A078437",
+    "A242301",
+    "A242302",
+    "A242303",
+    "A242304",
+    "A275110",
+    "A275712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": -1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

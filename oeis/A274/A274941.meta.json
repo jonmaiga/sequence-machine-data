@@ -1,0 +1,20 @@
+{
+  "description": "Trajectory of 2 under the map x -> A274940(x).",
+  "id": "A274941",
+  "mentions": [
+    "A000203",
+    "A273940",
+    "A274939",
+    "A274940"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

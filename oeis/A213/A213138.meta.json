@@ -1,0 +1,24 @@
+{
+  "description": "Polylogarithm li(-n,-3/5) multiplied by (8^(n+1))/5.",
+  "id": "A213138",
+  "mentions": [
+    "A210246",
+    "A212846",
+    "A212847",
+    "A213127",
+    "A213137",
+    "A213139",
+    "A213157"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x^n in expansion of (1+n*x+(n+1)*x^2)^n.",
+  "id": "A187019",
+  "mentions": [
+    "A092366",
+    "A186925",
+    "A187018"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

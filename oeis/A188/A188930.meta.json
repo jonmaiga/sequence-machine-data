@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sqrt(5)+sqrt(6).",
+  "id": "A188930",
+  "mentions": [
+    "A188640",
+    "A188931"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:41",
+    "offset": 1,
+    "size": 130,
+    "source": "joeis"
+  }
+}

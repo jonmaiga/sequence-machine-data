@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: number of permutation trees of power n and width <= k.",
+  "id": "A179457",
+  "mentions": [
+    "A000325",
+    "A001710",
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{1 <= x_1 <= x_2 <= ... <= x_n <= n} gcd(x_1, x_2, ..., x_n).",
+  "id": "A345230",
+  "mentions": [
+    "A343517",
+    "A343553",
+    "A344525",
+    "A345229"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

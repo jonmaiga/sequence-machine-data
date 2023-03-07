@@ -1,0 +1,19 @@
+{
+  "description": "Average of those twin prime pairs p, q=p+2, for which A335884(p+1) >= A335884(p-1) and A335884(q-1) >= A335884(q+1).",
+  "id": "A335908",
+  "mentions": [
+    "A014574",
+    "A335884",
+    "A335907"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

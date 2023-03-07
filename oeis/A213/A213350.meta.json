@@ -1,0 +1,25 @@
+{
+  "description": "8-quantum transitions in systems of N >= 8 spin 1/2 particles, in columns by combination indices.",
+  "id": "A213350",
+  "mentions": [
+    "A004314",
+    "A051288",
+    "A140325",
+    "A213343",
+    "A213349",
+    "A213351",
+    "A213352"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 8,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

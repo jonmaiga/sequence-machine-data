@@ -1,0 +1,36 @@
+{
+  "description": "Number of patterns of length n matching the pattern (1,1,2).",
+  "id": "A335509",
+  "mentions": [
+    "A000670",
+    "A001710",
+    "A019472",
+    "A034691",
+    "A056986",
+    "A102726",
+    "A238279",
+    "A269134",
+    "A292884",
+    "A333217",
+    "A333755",
+    "A335446",
+    "A335454",
+    "A335456",
+    "A335457",
+    "A335465",
+    "A335470",
+    "A335476",
+    "A335515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

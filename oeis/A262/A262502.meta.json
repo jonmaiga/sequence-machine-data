@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = least k such that A261104(k) = n; positions of records in A261104.",
+  "id": "A262502",
+  "mentions": [
+    "A261089",
+    "A261104",
+    "A262503",
+    "A262504",
+    "A262507"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

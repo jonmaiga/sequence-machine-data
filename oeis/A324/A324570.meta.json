@@ -1,0 +1,30 @@
+{
+  "description": "Numbers where the sum of distinct prime indices (A066328) is equal to the number of prime factors counted with multiplicity (A001222).",
+  "id": "A324570",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A056239",
+    "A066328",
+    "A109298",
+    "A112798",
+    "A114638",
+    "A117144",
+    "A276078",
+    "A324524",
+    "A324525",
+    "A324571",
+    "A324572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

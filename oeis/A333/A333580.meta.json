@@ -1,0 +1,30 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where T(n,k) is the number of Hamiltonian paths in an n X k grid starting at the lower left corner and finishing in the upper right corner.",
+  "id": "A333580",
+  "mentions": [
+    "A000012",
+    "A000035",
+    "A001184",
+    "A011782",
+    "A014523",
+    "A014584",
+    "A271592",
+    "A333581",
+    "A333582",
+    "A333583",
+    "A333584",
+    "A333585"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

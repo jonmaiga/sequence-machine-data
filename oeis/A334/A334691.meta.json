@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 1, 2 <= k <= 2*n) = number of interior vertices in the n-th figure shown in A255011 (meaning the figure with 4n points on the perimeter) where k lines meet.",
+  "id": "A334691",
+  "mentions": [
+    "A255011",
+    "A331449",
+    "A331452",
+    "A334690",
+    "A334692",
+    "A334693",
+    "A334694",
+    "A334697",
+    "A334699"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

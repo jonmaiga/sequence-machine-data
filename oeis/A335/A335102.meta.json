@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: consider the regular n-gon defined in A007678. T(n,k) (n >= 1, k >= 4+2*t where t>=0) is the number of non-boundary vertices in the n-gon at which k polygons meet.",
+  "id": "A335102",
+  "mentions": [
+    "A006561",
+    "A007569",
+    "A007678",
+    "A053126",
+    "A292104",
+    "A333275"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

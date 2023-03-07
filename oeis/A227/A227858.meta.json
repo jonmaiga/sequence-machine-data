@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which start and end with the same digit in decimal.",
+  "id": "A227858",
+  "mentions": [
+    "A002113",
+    "A077652",
+    "A208259"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

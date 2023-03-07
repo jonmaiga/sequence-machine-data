@@ -1,0 +1,20 @@
+{
+  "description": "Trajectory of 1 under the map n -> n + n/gpf(n) + 1 (see A269304).",
+  "id": "A270807",
+  "mentions": [
+    "A006530",
+    "A269304",
+    "A270808",
+    "A271418"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

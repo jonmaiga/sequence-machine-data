@@ -1,0 +1,22 @@
+{
+  "description": "Trajectory of 1 under morphism taking n to sorted divisors of n+1.",
+  "id": "A162696",
+  "mentions": [
+    "A001511",
+    "A007001",
+    "A027750",
+    "A112682",
+    "A117160"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

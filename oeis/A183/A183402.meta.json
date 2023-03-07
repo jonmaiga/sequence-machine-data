@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Half the number of nXk binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors",
+  "id": "A183402",
+  "mentions": [
+    "A007598"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (5^n + 10*(-6)^n)/11.",
+  "id": "A166149",
+  "mentions": [
+    "A001020",
+    "A014992",
+    "A112555",
+    "A166035",
+    "A166036"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number of simple relaxed compacted binary trees of right height at most one with no sequences on level 1 and no final sequences on level 0.",
+  "id": "A316666",
+  "mentions": [
+    "A000032",
+    "A000166",
+    "A000246",
+    "A000255",
+    "A000262",
+    "A001879",
+    "A051577",
+    "A052852",
+    "A096654",
+    "A123023",
+    "A130905",
+    "A176408",
+    "A201203",
+    "A213527",
+    "A288950",
+    "A288952",
+    "A288953"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

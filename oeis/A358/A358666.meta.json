@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the two numbers before and the two numbers after are squarefree semiprimes.",
+  "id": "A358666",
+  "mentions": [
+    "A001358",
+    "A358657",
+    "A358665"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

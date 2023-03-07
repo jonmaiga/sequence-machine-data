@@ -1,0 +1,35 @@
+{
+  "description": "Consider the mapping k -> (k - (k/p)), where p is any of k's prime factors. a(n) is the number of different possible paths from n to 1.",
+  "id": "A333123",
+  "mentions": [
+    "A000079",
+    "A019434",
+    "A064097",
+    "A332809",
+    "A332810",
+    "A332903",
+    "A332904",
+    "A332992",
+    "A332999",
+    "A333000",
+    "A333001",
+    "A333785",
+    "A334111",
+    "A334144",
+    "A334184",
+    "A334230",
+    "A334231"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

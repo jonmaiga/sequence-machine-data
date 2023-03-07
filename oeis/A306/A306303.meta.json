@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that appear in the concatenation in decreasing order of their aliquot parts.",
+  "id": "A306303",
+  "mentions": [
+    "A056538",
+    "A248323"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

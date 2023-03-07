@@ -1,0 +1,18 @@
+{
+  "description": "Not of the form x^2 + P*y^2 for integers x > 0, y > 1, P a prime.",
+  "id": "A229769",
+  "mentions": [
+    "A074885",
+    "A212709"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

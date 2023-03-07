@@ -1,0 +1,19 @@
+{
+  "description": "A positive integer k is included if, when k is represented in binary, it contains the binary representation of every distinct prime dividing k as substrings, without overlapping of the substrings.",
+  "id": "A162721",
+  "mentions": [
+    "A018826",
+    "A162722"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

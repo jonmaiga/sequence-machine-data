@@ -1,0 +1,29 @@
+{
+  "description": "Primes that remain prime when a single \"9\" digit is inserted between any two adjacent digits.",
+  "id": "A217062",
+  "mentions": [
+    "A050674",
+    "A050711",
+    "A050719",
+    "A069246",
+    "A159236",
+    "A215417",
+    "A215419",
+    "A215421",
+    "A217044",
+    "A217047",
+    "A217063",
+    "A217065"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

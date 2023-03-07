@@ -1,0 +1,28 @@
+{
+  "description": "Number of steps to reach a fixed point starting with n and repeatedly taking the quotient by the maximum divisor that is 1, 2, or a nonprime number whose prime indices are pairwise coprime (A327512, A327514).",
+  "id": "A327515",
+  "mentions": [
+    "A000005",
+    "A006530",
+    "A056239",
+    "A112798",
+    "A289509",
+    "A302569",
+    "A302696",
+    "A304711",
+    "A318978",
+    "A327512",
+    "A327514"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

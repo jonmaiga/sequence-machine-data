@@ -1,0 +1,25 @@
+{
+  "description": "Least common multiple of all cycle sizes in range [A000302(n-1)..A024036(n)] of permutation A163355/A163356.",
+  "id": "A163912",
+  "mentions": [
+    "A000302",
+    "A024036",
+    "A163355",
+    "A163356",
+    "A163890",
+    "A163892",
+    "A163904",
+    "A163910",
+    "A163911"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

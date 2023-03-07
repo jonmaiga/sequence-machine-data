@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of three positive cubes in exactly five ways.",
+  "id": "A343970",
+  "mentions": [
+    "A025325",
+    "A343967",
+    "A343969",
+    "A343986",
+    "A344365",
+    "A345084"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

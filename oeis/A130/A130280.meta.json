@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest integer k>1 such that n(k^2-1)+1 is a perfect square, or 0 if no such number exists.",
+  "id": "A130280",
+  "mentions": [
+    "A084702",
+    "A094357",
+    "A130281",
+    "A130282",
+    "A130283",
+    "A130284",
+    "A306767"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

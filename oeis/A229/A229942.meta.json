@@ -1,0 +1,22 @@
+{
+  "description": "Number of exposed toothpick endpoints in the n-th row of the toothpick structure of A229940 (also A229950).",
+  "id": "A229942",
+  "mentions": [
+    "A000005",
+    "A139250",
+    "A139251",
+    "A229940",
+    "A229950",
+    "A229951"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

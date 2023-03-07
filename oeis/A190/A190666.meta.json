@@ -1,0 +1,23 @@
+{
+  "description": "Number of walks from (0,0) to (n+3,n) which take steps from {E, N, NE}.",
+  "id": "A190666",
+  "mentions": [
+    "A002002",
+    "A008288",
+    "A026002",
+    "A113139"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence such that for all i, j, a(i) = a(j) => f(i) = f(j) where f(n) = [A048250(n), A126795(n)] for all other numbers, except f(p) = -(p mod 2) for primes.",
+  "id": "A325382",
+  "mentions": [
+    "A048250",
+    "A126795",
+    "A305801",
+    "A325381",
+    "A325384"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

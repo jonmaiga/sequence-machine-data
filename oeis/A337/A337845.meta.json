@@ -1,0 +1,18 @@
+{
+  "description": "Primes with a digital sum that is less than the digital sum of the previous prime.",
+  "id": "A337845",
+  "mentions": [
+    "A007605"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

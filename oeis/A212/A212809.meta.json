@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of radius of convergence of g.f. for unlabeled trees (A000055).",
+  "id": "A212809",
+  "mentions": [
+    "A000055",
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

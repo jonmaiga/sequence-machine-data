@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 2, a(n) is the smallest positive number such that a(n) plus the sum of all previous terms appears in the string concatenation of a(1)..a(n-1).",
+  "id": "A357880",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A007908",
+    "A337227",
+    "A351753",
+    "A357432",
+    "A357433"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

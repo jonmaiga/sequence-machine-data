@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n!)^n * [x^n] Product_{k>=1} (1 + x^k/(k!)^n).",
+  "id": "A336294",
+  "mentions": [
+    "A007837",
+    "A183229",
+    "A183230",
+    "A215910"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that there are no primes of the form 2^m + 2^k - 1, for 0 < k < m.",
+  "id": "A346146",
+  "mentions": [
+    "A081504"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

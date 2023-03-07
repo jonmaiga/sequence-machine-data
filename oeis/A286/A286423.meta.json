@@ -1,0 +1,21 @@
+{
+  "description": "Number of matchings in the n X n white bishop graph.",
+  "id": "A286423",
+  "mentions": [
+    "A216332",
+    "A234630",
+    "A270228",
+    "A286422",
+    "A287248"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

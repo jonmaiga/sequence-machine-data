@@ -1,0 +1,20 @@
+{
+  "description": "The number of permutations of length n that can be sorted by 3 block transpositions.",
+  "id": "A228393",
+  "mentions": [
+    "A000292",
+    "A228392"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:51",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

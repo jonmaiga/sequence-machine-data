@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = |{0 < k <= n: p(n) + k is prime}|, where p(.) is the partition function (A000041).",
+  "id": "A238457",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A185636"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

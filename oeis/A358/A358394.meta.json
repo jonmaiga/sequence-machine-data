@@ -1,0 +1,26 @@
+{
+  "description": "Number of types of generalized symmetries in orthogonal diagonal Latin squares of order n.",
+  "id": "A358394",
+  "mentions": [
+    "A000041",
+    "A274171",
+    "A287649",
+    "A287650",
+    "A293777",
+    "A357473",
+    "A358515",
+    "A358891"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = smallest prime p such that 2p - 2n + 1 is prime.",
+  "id": "A290838",
+  "mentions": [
+    "A005382",
+    "A020483",
+    "A063908",
+    "A063909",
+    "A063910",
+    "A063911",
+    "A063912",
+    "A063913",
+    "A290839"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

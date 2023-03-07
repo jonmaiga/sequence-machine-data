@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) and k+2 are relatively prime, where sigma gives the sum of divisors of k.",
+  "id": "A339968",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A339963",
+    "A339967"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

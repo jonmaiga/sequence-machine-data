@@ -1,0 +1,19 @@
+{
+  "description": "Primes p == 5 (mod 8) such that p + 2 is also prime.",
+  "id": "A205172",
+  "mentions": [
+    "A071695",
+    "A205171"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

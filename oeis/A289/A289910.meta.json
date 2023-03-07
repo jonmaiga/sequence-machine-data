@@ -1,0 +1,18 @@
+{
+  "description": "The denominator of r(n), where r(n) = 1/r(n-2) + r(n-1); r(1)=r(2)=1/2.",
+  "id": "A289910",
+  "mentions": [
+    "A289909"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

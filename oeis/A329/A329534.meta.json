@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows: for n >= 1 row n lists the k from [1, 2, ... , n] such that A002378(k-1) = (k-1)*k == 0 (mod n).",
+  "id": "A329534",
+  "mentions": [
+    "A000010",
+    "A000225",
+    "A000688",
+    "A000961",
+    "A001221",
+    "A002378",
+    "A006530",
+    "A006881",
+    "A007875",
+    "A020639",
+    "A024619",
+    "A034444",
+    "A077610",
+    "A135972",
+    "A309307"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

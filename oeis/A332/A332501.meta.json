@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the number u' in [0,2 Pi] such that the line normal to the graph of y = sin x at (u', sin u') passes through the point (3 Pi/4,0).",
+  "id": "A332501",
+  "mentions": [
+    "A003957",
+    "A086751",
+    "A177870",
+    "A332500",
+    "A332503"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

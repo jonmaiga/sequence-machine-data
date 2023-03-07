@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the integer logs of all integers strictly between prime(n) and prime(n+1).",
+  "id": "A308485",
+  "mentions": [
+    "A000040",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

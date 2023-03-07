@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways writing n^2 as a sum of four squares: a(n) = A000118(n^2).",
+  "id": "A267326",
+  "mentions": [
+    "A000118",
+    "A000203",
+    "A000265",
+    "A264390"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

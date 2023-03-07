@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least integer j>=0 such that n=Floor[(2^j)/(3^k)] for some integer k>=0.",
+  "id": "A124907",
+  "mentions": [
+    "A124915"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

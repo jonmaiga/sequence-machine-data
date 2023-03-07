@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form: sum of prime 5-tuples (A022007).",
+  "id": "A144940",
+  "mentions": [
+    "A022007"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

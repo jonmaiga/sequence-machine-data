@@ -1,0 +1,26 @@
+{
+  "description": "Fundamental discriminants d uniquely characterizing all complex biquadratic fields Q(sqrt(-3),sqrt(d)) which have 3-class group of type (3,3) and second 3-class group isomorphic to SmallGroup(729,34).",
+  "id": "A250241",
+  "mentions": [
+    "A006832",
+    "A250235",
+    "A250236",
+    "A250237",
+    "A250238",
+    "A250239",
+    "A250240",
+    "A250242"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

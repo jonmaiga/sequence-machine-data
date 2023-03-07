@@ -1,0 +1,17 @@
+{
+  "description": "Look and say for Fibonacci word A003842.",
+  "id": "A264119",
+  "mentions": [
+    "A003842"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

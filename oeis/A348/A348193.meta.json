@@ -1,0 +1,25 @@
+{
+  "description": "(Number of primes == 3 mod 4 less than n^2) - (number of primes == 1 mod 4 less than n^2).",
+  "id": "A348193",
+  "mentions": [
+    "A014085",
+    "A077766",
+    "A077767",
+    "A091295",
+    "A348194",
+    "A348195",
+    "A348196"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

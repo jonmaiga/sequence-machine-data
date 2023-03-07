@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers k such that 10*k+9 is equal to the product of two integers ending with 3 (A346950).",
+  "id": "A346951",
+  "mentions": [
+    "A016873",
+    "A017377",
+    "A324298",
+    "A346950",
+    "A346952",
+    "A346953"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

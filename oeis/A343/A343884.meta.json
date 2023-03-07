@@ -1,0 +1,20 @@
+{
+  "description": "A sequence that produces the graph of itself.",
+  "id": "A343884",
+  "mentions": [
+    "A337405"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

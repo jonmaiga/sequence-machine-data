@@ -1,0 +1,23 @@
+{
+  "description": "Distribution of A060642 in Abramowitz and Stegun order.",
+  "id": "A119443",
+  "mentions": [
+    "A000041",
+    "A048996",
+    "A060642",
+    "A119441"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

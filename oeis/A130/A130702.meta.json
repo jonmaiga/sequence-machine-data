@@ -1,0 +1,20 @@
+{
+  "description": "Possible sides in the Euler V=E-F+2 as roots in a cubic polynomial of the form: P(x)=(x-V)*(x-F)*(x+E) =x^3+(E-V-F)*x^2+(V*F-E(V+F))*x=E*F*V Solves here for F ( Face, Edge, Vertex).",
+  "id": "A130702",
+  "mentions": [
+    "A008458",
+    "A118081"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

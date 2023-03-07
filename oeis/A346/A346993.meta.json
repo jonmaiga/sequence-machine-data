@@ -1,0 +1,23 @@
+{
+  "description": "Record numbers of grid points in a square lattice covered by a continuously growing circular disk if the center of the disk is chosen to cover the maximum possible number of grid points.",
+  "id": "A346993",
+  "mentions": [
+    "A053411",
+    "A053414",
+    "A053415",
+    "A123690",
+    "A346124",
+    "A346994",
+    "A346995"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

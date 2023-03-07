@@ -1,0 +1,20 @@
+{
+  "description": "(n-1)-st elementary symmetric function of (1,16,...,n^4).",
+  "id": "A203229",
+  "mentions": [
+    "A000583",
+    "A203148",
+    "A291556"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:10",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

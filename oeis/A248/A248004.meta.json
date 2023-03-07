@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m with prime(m*n) == 1 (mod m+n).",
+  "id": "A248004",
+  "mentions": [
+    "A000040",
+    "A247824",
+    "A247975"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

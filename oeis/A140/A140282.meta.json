@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A000330(k) is multiple of 3.",
+  "id": "A140282",
+  "mentions": [
+    "A000330",
+    "A010872"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:43",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

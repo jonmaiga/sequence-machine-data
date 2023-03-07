@@ -1,0 +1,28 @@
+{
+  "description": "Lower triangular array called S1hat(1) related to partition number array A107106.",
+  "id": "A144351",
+  "mentions": [
+    "A000142",
+    "A008275",
+    "A008284",
+    "A024419",
+    "A036039",
+    "A107106",
+    "A107107",
+    "A134134",
+    "A144352"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

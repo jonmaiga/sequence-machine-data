@@ -1,0 +1,19 @@
+{
+  "description": "If b(n-1) + b(n-2) < n then a(n) = 0, otherwise a(n) = 1, where b(i) = A096535(i).",
+  "id": "A122276",
+  "mentions": [
+    "A096535",
+    "A122277"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

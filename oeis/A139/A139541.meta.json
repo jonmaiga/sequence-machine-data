@@ -1,0 +1,25 @@
+{
+  "description": "There are 4*n players who wish to play bridge at n tables. Each player must have another player as partner and each pair of partners must have another pair as opponents. The choice of partners and opponents can be made in exactly a(n)=(4*n)!/(n!*8^n) different ways.",
+  "id": "A139541",
+  "mentions": [
+    "A000142",
+    "A001018",
+    "A001147",
+    "A001316",
+    "A008299",
+    "A008977",
+    "A049606",
+    "A100733"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

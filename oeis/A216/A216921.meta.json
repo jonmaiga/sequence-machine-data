@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*n+1 - gpf(denominator(B°(2*n))) where B°(n) are Zagier's modification of the Bernoulli numbers and gpf(n) is the greatest prime factor of n.",
+  "id": "A216921",
+  "mentions": [
+    "A006530",
+    "A216923"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

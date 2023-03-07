@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of evil divisors (A001969) of n.",
+  "id": "A356018",
+  "mentions": [
+    "A000005",
+    "A001969",
+    "A083230",
+    "A087990",
+    "A087991",
+    "A093688",
+    "A093696",
+    "A227872",
+    "A332268",
+    "A355302",
+    "A356019",
+    "A356020"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

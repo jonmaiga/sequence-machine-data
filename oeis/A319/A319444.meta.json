@@ -1,0 +1,32 @@
+{
+  "description": "Total number of factors in a factorization of n into Eisenstein primes.",
+  "id": "A319444",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A002322",
+    "A008683",
+    "A038754",
+    "A078458",
+    "A319442",
+    "A319443",
+    "A319445",
+    "A319446",
+    "A319448",
+    "A319449"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

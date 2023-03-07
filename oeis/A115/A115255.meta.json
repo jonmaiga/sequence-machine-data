@@ -1,0 +1,30 @@
+{
+  "description": "\"Correlation triangle\" of central binomial coefficients A000984.",
+  "id": "A115255",
+  "mentions": [
+    "A000984",
+    "A006134",
+    "A033114",
+    "A082578",
+    "A115256",
+    "A115257",
+    "A193722",
+    "A202453",
+    "A203001",
+    "A203004",
+    "A203005"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:51",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

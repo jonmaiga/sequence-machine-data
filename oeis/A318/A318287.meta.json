@@ -1,0 +1,34 @@
+{
+  "description": "Number of non-isomorphic strict multiset partitions of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A318287",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A045778",
+    "A181821",
+    "A305936",
+    "A316980",
+    "A317533",
+    "A317776",
+    "A317791",
+    "A318283",
+    "A318284",
+    "A318285",
+    "A318286",
+    "A318357",
+    "A318362",
+    "A318371"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

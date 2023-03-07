@@ -1,0 +1,18 @@
+{
+  "description": "Total number of optimal fundamentally different radio labelings summed over all simple (connected) graphs on n nodes.",
+  "id": "A340645",
+  "mentions": [
+    "A340538"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

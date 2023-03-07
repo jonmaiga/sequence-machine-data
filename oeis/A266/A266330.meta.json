@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, of the coefficients in the g.f.: Sum_{n=-oo..+oo} x^n * y^n * (y^n - x^n)^n.",
+  "id": "A266330",
+  "mentions": [
+    "A217668",
+    "A260147"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 377,
+    "source": "oeis-bfile"
+  }
+}

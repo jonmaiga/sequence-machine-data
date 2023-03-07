@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the numbers in the n-th row of the array at A248664.",
+  "id": "A248668",
+  "mentions": [
+    "A000522",
+    "A248664",
+    "A248665",
+    "A248666",
+    "A248669",
+    "A294039"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

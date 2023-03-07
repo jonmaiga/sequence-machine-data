@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonequivalent sets whose translations and reflections cover {1..n}.",
+  "id": "A329128",
+  "mentions": [
+    "A079500",
+    "A096202",
+    "A096203",
+    "A329235"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

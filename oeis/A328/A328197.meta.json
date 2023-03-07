@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime (p) of six consecutive primes (p,q,r,u,v,w) for which the conic section discriminant (Delta) for general conic section px^2 + qy^2 + rz^2 + 2uyz + 2vxz + 2wxy = 0 is a fourth power.",
+  "id": "A328197",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

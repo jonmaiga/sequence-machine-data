@@ -1,0 +1,17 @@
+{
+  "description": "Integers of the form (prime(m) + prime(m+1)/10 for some m.",
+  "id": "A268328",
+  "mentions": [
+    "A001043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

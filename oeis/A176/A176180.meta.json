@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that gcd(p(n)-1, p(n+1)-1) != gcd(p(n)+1, p(n+1)+1).",
+  "id": "A176180",
+  "mentions": [
+    "A063091"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

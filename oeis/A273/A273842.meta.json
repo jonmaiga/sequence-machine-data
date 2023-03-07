@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the double integral int_{0..inf} int_{0..inf} 1/sqrt((1+x^2)(1+y^2)(1+(x+y)^2)) dx dy.",
+  "id": "A273842",
+  "mentions": [
+    "A073005"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; a(2*n) = 3*n; for odd n>1, a(n) is the smallest number not already present which is entailed by the rules (i) k present => 3*k+1 present; (ii) 2*k present => k present.",
+  "id": "A261728",
+  "mentions": [
+    "A109732",
+    "A261690"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Define the array k(n,x) = number of m such that tau(gcd(n,m)) is x where m runs from 1 to n. Also define h(n,x) = Sum_{d|n : tau(d) = x} d. The sequence contains numbers n such that k(n,x)*x = h(n,x) has at least one solution x.",
+  "id": "A197099",
+  "mentions": [
+    "A000005",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

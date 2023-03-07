@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers that are the product of a triangular number and a square number (both greater than 1).",
+  "id": "A253650",
+  "mentions": [
+    "A083374",
+    "A185096",
+    "A188630",
+    "A253651",
+    "A253652",
+    "A253653"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

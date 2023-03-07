@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are not the sum of abundant numbers (not necessarily distinct).",
+  "id": "A283550",
+  "mentions": [
+    "A005101",
+    "A048242",
+    "A271113"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

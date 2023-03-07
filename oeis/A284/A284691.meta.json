@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form (10^c-1)*the product any two (not necessarily distinct) terms of A074992.",
+  "id": "A284691",
+  "mentions": [
+    "A002283",
+    "A074992",
+    "A237424"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

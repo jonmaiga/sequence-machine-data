@@ -1,0 +1,20 @@
+{
+  "description": "a(n) gives y-values solving the Diophantine equation 2*x^2 + (x-1)^2 = y^2 for positive x.",
+  "id": "A189356",
+  "mentions": [
+    "A046174",
+    "A046175",
+    "A081065"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

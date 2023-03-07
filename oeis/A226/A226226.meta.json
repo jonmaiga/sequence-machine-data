@@ -1,0 +1,18 @@
+{
+  "description": "Number of alignments of n points with no singleton cycles",
+  "id": "A226226",
+  "mentions": [
+    "A007840"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

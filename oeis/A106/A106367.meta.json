@@ -1,0 +1,20 @@
+{
+  "description": "Necklaces with n beads of 5 colors, no 2 adjacent beads the same color.",
+  "id": "A106367",
+  "mentions": [
+    "A000031",
+    "A001869",
+    "A208535"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

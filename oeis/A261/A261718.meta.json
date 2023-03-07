@@ -1,0 +1,36 @@
+{
+  "description": "Number A(n,k) of partitions of n where each part i is marked with a word of length i over a k-ary alphabet whose letters appear in alphabetical order; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A261718",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000041",
+    "A001477",
+    "A005449",
+    "A074141",
+    "A144064",
+    "A209668",
+    "A261719",
+    "A261737",
+    "A261738",
+    "A261739",
+    "A261740",
+    "A261741",
+    "A261742",
+    "A261743",
+    "A261744",
+    "A261780"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

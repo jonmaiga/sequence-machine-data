@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the alternating n-th partial sum of the reciprocals of the successive prime gaps.",
+  "id": "A275056",
+  "mentions": [
+    "A001223",
+    "A274828",
+    "A274980"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

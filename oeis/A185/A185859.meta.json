@@ -1,0 +1,18 @@
+{
+  "description": "1/128 the number of (n+2) X 4 binary arrays with no 3 X 3 subblock trace equal to any horizontal or vertical neighbor 3 X 3 subblock trace.",
+  "id": "A185859",
+  "mentions": [
+    "A185866"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

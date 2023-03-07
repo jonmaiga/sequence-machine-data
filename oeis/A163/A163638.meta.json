@@ -1,0 +1,20 @@
+{
+  "description": "Two copies of the sequence A141468, one at prime the other at nonprime indices.",
+  "id": "A163638",
+  "mentions": [
+    "A000040",
+    "A001477",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

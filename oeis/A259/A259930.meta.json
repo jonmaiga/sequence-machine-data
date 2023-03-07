@@ -1,0 +1,24 @@
+{
+  "description": "Value of DIS (Decimal Integer Series) constant based on the sequence of powers of 3.",
+  "id": "A259930",
+  "mentions": [
+    "A000244",
+    "A055642",
+    "A258718",
+    "A259837",
+    "A259838"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

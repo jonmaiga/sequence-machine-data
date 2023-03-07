@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest natural number m such that 4^4^k + m is prime for k=0,1,...,n.",
+  "id": "A129615",
+  "mentions": [
+    "A129613",
+    "A129614"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,m) is the list of numbers k*A002110(n) <= k*t < (k + 1)*A002110(n) such that A001222(k*t) = n, with 1 <= k < prime(n + 1).",
+  "id": "A288784",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002110",
+    "A005117",
+    "A006881",
+    "A033992",
+    "A060735",
+    "A244052"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

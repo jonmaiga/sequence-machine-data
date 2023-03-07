@@ -1,0 +1,20 @@
+{
+  "description": "Values of A007692(n) that are not of the form x^2 + y^2 + z^2 where x, y, z are nonzero integers.",
+  "id": "A273123",
+  "mentions": [
+    "A000408",
+    "A004214",
+    "A007692",
+    "A051952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

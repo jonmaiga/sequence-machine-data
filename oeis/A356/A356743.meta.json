@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+2 both have exactly 6 divisors.",
+  "id": "A356743",
+  "mentions": [
+    "A001359",
+    "A048161",
+    "A049103",
+    "A356742",
+    "A356744"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

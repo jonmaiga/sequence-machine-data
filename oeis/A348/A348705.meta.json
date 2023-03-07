@@ -1,0 +1,41 @@
+{
+  "description": "a(n) is the total length of all line segments in the symmetric representation of sigma(n).",
+  "id": "A348705",
+  "mentions": [
+    "A000203",
+    "A008586",
+    "A139250",
+    "A174973",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A238443",
+    "A239660",
+    "A239931",
+    "A239934",
+    "A245092",
+    "A262259",
+    "A262626",
+    "A279029",
+    "A279228",
+    "A340833",
+    "A340846",
+    "A348854"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of unlabeled simple graphs with n vertices where k is the minimum number of vertices that must be removed (along with any incident edges) to obtain a disconnected or empty graph.",
+  "id": "A327127",
+  "mentions": [
+    "A000088",
+    "A000719",
+    "A052442",
+    "A052443",
+    "A259862",
+    "A322389",
+    "A326786",
+    "A327082",
+    "A327098",
+    "A327100",
+    "A327113",
+    "A327125",
+    "A327126",
+    "A327128",
+    "A327197"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

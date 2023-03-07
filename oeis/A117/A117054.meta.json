@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered ways of writing n = i + j, where i is a prime and j is of the form k*(k+1), k > 0.",
+  "id": "A117054",
+  "mentions": [
+    "A132399",
+    "A144590"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

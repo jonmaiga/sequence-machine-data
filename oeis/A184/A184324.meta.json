@@ -1,0 +1,27 @@
+{
+  "description": "The number of disconnected k-regular simple graphs on 2k+4 vertices.",
+  "id": "A184324",
+  "mentions": [
+    "A000217",
+    "A008483",
+    "A040001",
+    "A051031",
+    "A068933",
+    "A068934",
+    "A165652",
+    "A184325",
+    "A184326"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider a spiral on an infinite hexagonal grid. a(n) is the number of cells in the part of the spiral from 1st to n-th cell that are on the same column or diagonal (in any of three directions) as the n-th cell along the spiral, including that cell itself.",
+  "id": "A300154",
+  "mentions": [
+    "A138099",
+    "A280026"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

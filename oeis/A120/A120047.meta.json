@@ -1,0 +1,31 @@
+{
+  "description": "Number of 6-almost primes less than or equal to 10^n.",
+  "id": "A120047",
+  "mentions": [
+    "A006880",
+    "A014613",
+    "A036352",
+    "A066265",
+    "A109251",
+    "A114106",
+    "A114453",
+    "A116382",
+    "A116430",
+    "A120048",
+    "A120049",
+    "A120050",
+    "A120051",
+    "A120052",
+    "A120053"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

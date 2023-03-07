@@ -1,0 +1,41 @@
+{
+  "description": "The a(n)-th composition in standard order is the odd bisection of the n-th composition in standard order.",
+  "id": "A346702",
+  "mentions": [
+    "A000009",
+    "A000120",
+    "A000302",
+    "A000346",
+    "A003945",
+    "A011782",
+    "A025047",
+    "A029837",
+    "A066099",
+    "A080791",
+    "A083575",
+    "A088218",
+    "A097805",
+    "A124754",
+    "A145037",
+    "A209281",
+    "A290259",
+    "A294175",
+    "A345197",
+    "A346633",
+    "A346697",
+    "A346699",
+    "A346703",
+    "A346705"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

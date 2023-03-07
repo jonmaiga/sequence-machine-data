@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct resistances that can be produced using at most n unit resistors in series, parallel, bridge or fork configurations.",
+  "id": "A341536",
+  "mentions": [
+    "A048211",
+    "A153588",
+    "A174283",
+    "A180414",
+    "A337516"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

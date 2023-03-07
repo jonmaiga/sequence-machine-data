@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a constant related to the asymptotic expansion of the smallest Lebesgue constant corresponding to an optimal interpolation data set.",
+  "id": "A243258",
+  "mentions": [
+    "A001620",
+    "A243257"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

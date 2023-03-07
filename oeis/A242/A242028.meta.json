@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the least common multiple of the anti-divisors of k is less than k.",
+  "id": "A242028",
+  "mentions": [
+    "A096357"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

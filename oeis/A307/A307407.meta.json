@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: rows list terms that map to the nodes in the graph of the \"3x+1\" (or Collatz) problem.",
+  "id": "A307407",
+  "mentions": [
+    "A160016",
+    "A307048",
+    "A322469"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

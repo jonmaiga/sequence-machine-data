@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 1 + sigma(n)^3 + sigma(n)^6.",
+  "id": "A259371",
+  "mentions": [
+    "A000203",
+    "A259369",
+    "A259370"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

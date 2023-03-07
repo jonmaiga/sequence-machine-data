@@ -1,0 +1,32 @@
+{
+  "description": "Number of even divisors of n.",
+  "id": "A183063",
+  "mentions": [
+    "A000005",
+    "A000265",
+    "A000593",
+    "A001227",
+    "A001620",
+    "A007814",
+    "A027750",
+    "A083910",
+    "A125911",
+    "A136655",
+    "A183064",
+    "A195050",
+    "A247795",
+    "A320111"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

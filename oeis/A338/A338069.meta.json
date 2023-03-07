@@ -1,0 +1,19 @@
+{
+  "description": "Even terms A336957(k) which are less than k, divided by 2, in order of appearance.",
+  "id": "A338069",
+  "mentions": [
+    "A336957",
+    "A338062",
+    "A338068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

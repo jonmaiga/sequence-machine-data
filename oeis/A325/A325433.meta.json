@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T read by rows: T(n,k) is the number of partitions of n in which k is the least integer that is not a part and there are more parts > k than there are < k (n >= k > 0).",
+  "id": "A325433",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A325434"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

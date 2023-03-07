@@ -1,0 +1,24 @@
+{
+  "description": "Maximum value of the multinomial coefficients M(n;lambda), where lambda ranges over all partitions of n into distinct parts.",
+  "id": "A290517",
+  "mentions": [
+    "A000009",
+    "A000142",
+    "A000178",
+    "A004736",
+    "A022915",
+    "A290518",
+    "A309992"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

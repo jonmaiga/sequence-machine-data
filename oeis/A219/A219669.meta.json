@@ -1,0 +1,22 @@
+{
+  "description": "Primes neighboring a 5-smooth number.",
+  "id": "A219669",
+  "mentions": [
+    "A000040",
+    "A003586",
+    "A051037",
+    "A219528"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 6n -/+ 1 are twin prime pair and n = r + s where 6r -/+ 1 and 6s -/ 1 are consecutive smaller pairs of twin primes.",
+  "id": "A226652",
+  "mentions": [
+    "A002822",
+    "A225943"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

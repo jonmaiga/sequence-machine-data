@@ -1,0 +1,27 @@
+{
+  "description": "Number of connected multiset partitions of {1, 1, 2, 2, 3, 3, ..., n, n}.",
+  "id": "A316972",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A007717",
+    "A007719",
+    "A020555",
+    "A045778",
+    "A061742",
+    "A094574",
+    "A162247",
+    "A316974"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

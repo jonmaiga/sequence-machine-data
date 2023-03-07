@@ -1,0 +1,17 @@
+{
+  "description": "Let n = prime(1)^c_1 * prime(2)^c_2 * ... * prime(k)^c_k be the prime factorization of n. Set f(n) = n - 1 + c_1 + c_2 + ... + c_k and f_i, i>=0 (f_0(n) = n, f_1=f) is i-th iteration of f. a(n) is the minimal i such that f_i(n) is prime.",
+  "id": "A213980",
+  "mentions": [
+    "A222312"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 2,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

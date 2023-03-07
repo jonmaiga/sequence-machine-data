@@ -1,0 +1,29 @@
+{
+  "description": "Smallest number whose number of partitions into n distinct primes is n, or zero if there are no such partitions.",
+  "id": "A344989",
+  "mentions": [
+    "A000586",
+    "A077914",
+    "A117929",
+    "A125688",
+    "A219180",
+    "A219198",
+    "A219199",
+    "A219200",
+    "A219201",
+    "A219202",
+    "A219203",
+    "A219204"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

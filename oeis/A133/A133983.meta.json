@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic n-element self-dual posets (or partially ordered sets).",
+  "id": "A133983",
+  "mentions": [
+    "A000112"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

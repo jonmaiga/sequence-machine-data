@@ -1,0 +1,26 @@
+{
+  "description": "Period of binary representation of 1/(1+sigma(n)).",
+  "id": "A336693",
+  "mentions": [
+    "A000203",
+    "A007733",
+    "A088580",
+    "A324294",
+    "A332459",
+    "A336691",
+    "A336692",
+    "A336694",
+    "A336695"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

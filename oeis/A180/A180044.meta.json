@@ -1,0 +1,20 @@
+{
+  "description": "Let the n-th Carmichael number A002997(n) = p1*p2*...*pr, where p1 < p2 < ... < pr are primes. Then a(n) = (p1-1) * (p1*p2*...*pr - 1)^(r-2) / ((p2-1)*...*(pr-1)).",
+  "id": "A180044",
+  "mentions": [
+    "A002997",
+    "A104016",
+    "A104017",
+    "A162290"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

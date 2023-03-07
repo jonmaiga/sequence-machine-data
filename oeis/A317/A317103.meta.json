@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. -LambertW(-x) * Product_{k>=1} 1/(1-x^k).",
+  "id": "A317103",
+  "mentions": [
+    "A000041",
+    "A000169",
+    "A252761",
+    "A291332",
+    "A291333",
+    "A317104"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

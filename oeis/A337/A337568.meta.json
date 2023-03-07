@@ -1,0 +1,20 @@
+{
+  "description": "Product of all the parts in the Goldbach partitions (p,q) of 2n (or 1 if no such partition exists).",
+  "id": "A337568",
+  "mentions": [
+    "A010051",
+    "A045917",
+    "A238711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

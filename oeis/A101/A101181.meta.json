@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer that can be represented as sum of a semiprime and a square in exactly n ways.",
+  "id": "A101181",
+  "mentions": [
+    "A000290",
+    "A001358",
+    "A100570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Goodstein sequence starting with 19.",
+  "id": "A211378",
+  "mentions": [
+    "A056193",
+    "A059933",
+    "A215409",
+    "A222117"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

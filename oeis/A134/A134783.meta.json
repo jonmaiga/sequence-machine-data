@@ -1,0 +1,21 @@
+{
+  "description": "McKay-Thompson series of class 15A for the Monster group with a(0) = 1.",
+  "id": "A134783",
+  "mentions": [
+    "A028998",
+    "A030184",
+    "A058498",
+    "A058508"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:39:55",
+    "offset": -1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

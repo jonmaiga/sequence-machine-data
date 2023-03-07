@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose decimal expansion is a concatenation of 2 consecutive increasing nonnegative numbers.",
+  "id": "A127421",
+  "mentions": [
+    "A000027",
+    "A001703",
+    "A001704",
+    "A030458",
+    "A035333",
+    "A103456",
+    "A127423",
+    "A127424",
+    "A127425",
+    "A279204"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

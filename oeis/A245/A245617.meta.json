@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 'chi', a constant appearing in the asymptotic variance of the number of comparisons required for updating a digital search tree, in case of the \"approximate counting\" algorithm.",
+  "id": "A245617",
+  "mentions": [
+    "A065442",
+    "A065443",
+    "A245675"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": -11,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

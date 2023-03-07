@@ -1,0 +1,24 @@
+{
+  "description": "4-almost primes (A014613) whose digit reversal is different and also has 4 prime factors (with multiplicity). \"Emirp Tsomla-4.\".",
+  "id": "A109024",
+  "mentions": [
+    "A006567",
+    "A014613",
+    "A097393",
+    "A109018",
+    "A109023",
+    "A109025",
+    "A109131"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:40:15",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

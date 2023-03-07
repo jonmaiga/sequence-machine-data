@@ -1,0 +1,25 @@
+{
+  "description": "L.g.f.: Sum_{n>=1} (x^n/n) * Product_{d|n} (1 + n*x^d/d).",
+  "id": "A205477",
+  "mentions": [
+    "A205476",
+    "A205479",
+    "A205481",
+    "A205483",
+    "A205485",
+    "A205487",
+    "A205489",
+    "A205491"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

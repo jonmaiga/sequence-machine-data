@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that there is no prime p and index j < k such that A002182(k) = p * A002182(j).",
+  "id": "A272606",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

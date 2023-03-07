@@ -1,0 +1,20 @@
+{
+  "description": "Primes in the sequence A015519.",
+  "id": "A111014",
+  "mentions": [
+    "A015519"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

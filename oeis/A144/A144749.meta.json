@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the golden ratio powered to itself.",
+  "id": "A144749",
+  "mentions": [
+    "A001622",
+    "A092134",
+    "A094214",
+    "A098317",
+    "A104457",
+    "A139339",
+    "A139340",
+    "A144713"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

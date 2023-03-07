@@ -1,0 +1,20 @@
+{
+  "description": "Positions of numbers 4*p when all primes p and products 4*p are arranged in increasing order.",
+  "id": "A298867",
+  "mentions": [
+    "A000040",
+    "A298865",
+    "A298866"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that have a unique triangular proper divisor greater than 1.",
+  "id": "A203468",
+  "mentions": [
+    "A076170"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

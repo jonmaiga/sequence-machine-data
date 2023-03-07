@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2*tau_3(k), where tau_3 is A007425.",
+  "id": "A319088",
+  "mentions": [
+    "A001620",
+    "A007425",
+    "A061201",
+    "A082633",
+    "A318750"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

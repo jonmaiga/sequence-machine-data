@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = B(n+2)-3*B(n+1)+B(n), where B(i) are the Bell numbers A000110.",
+  "id": "A226506",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A225591"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

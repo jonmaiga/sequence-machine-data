@@ -1,0 +1,21 @@
+{
+  "description": "The q-exponential of x, E_q(x,q), evaluated at q=-x.",
+  "id": "A198197",
+  "mentions": [
+    "A152398",
+    "A198199",
+    "A198200",
+    "A198262"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

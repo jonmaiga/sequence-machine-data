@@ -1,0 +1,19 @@
+{
+  "description": "Greatest number k such that A000009(k) <= n.",
+  "id": "A238461",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A198194"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

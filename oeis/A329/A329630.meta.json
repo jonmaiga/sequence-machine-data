@@ -1,0 +1,31 @@
+{
+  "description": "Products of distinct primes of nonprime squarefree index.",
+  "id": "A329630",
+  "mentions": [
+    "A005117",
+    "A056239",
+    "A112798",
+    "A302242",
+    "A302478",
+    "A302494",
+    "A305078",
+    "A316476",
+    "A318991",
+    "A320456",
+    "A320628",
+    "A320630",
+    "A329557",
+    "A329559",
+    "A329629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

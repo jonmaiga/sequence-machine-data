@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the limiting term of the n-th column of the triangle in A188919.",
+  "id": "A188920",
+  "mentions": [
+    "A188919"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

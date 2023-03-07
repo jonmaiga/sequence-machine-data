@@ -1,0 +1,28 @@
+{
+  "description": "An omega (A001221) analog based on the Ludic sieve (A255127): a(1) = 0; for n > 1, a(n) = 1 + a(A302034(n)).",
+  "id": "A302031",
+  "mentions": [
+    "A001221",
+    "A069010",
+    "A255127",
+    "A269379",
+    "A269380",
+    "A269388",
+    "A302026",
+    "A302034",
+    "A302036",
+    "A302037",
+    "A302041"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest centered square number with binary weight n.",
+  "id": "A359316",
+  "mentions": [
+    "A000120",
+    "A001844",
+    "A089998",
+    "A358932",
+    "A359315"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

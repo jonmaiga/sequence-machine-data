@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime factors of A055932(n) with repetition.",
+  "id": "A124831",
+  "mentions": [
+    "A001222",
+    "A036041",
+    "A055932",
+    "A124829"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

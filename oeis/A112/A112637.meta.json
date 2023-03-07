@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = b(n)*lcm{1,2,..,n}^3 where b(n) is a sequence of rationals arising in irrationality proof of zeta(3).",
+  "id": "A112637",
+  "mentions": [
+    "A003418",
+    "A005259",
+    "A059415",
+    "A059416"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

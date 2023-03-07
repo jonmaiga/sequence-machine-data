@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: coefficients of expansion of certain weighted sums P_1(n,k) of Fibonacci numbers as a sum of powers.",
+  "id": "A341723",
+  "mentions": [
+    "A000556",
+    "A341724",
+    "A341726"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

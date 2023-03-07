@@ -1,0 +1,30 @@
+{
+  "description": "Inverse of triangle S(n,m) defined by sequence A156290, n >= 1, 1 <= m <= n.",
+  "id": "A156308",
+  "mentions": [
+    "A000290",
+    "A002415",
+    "A040977",
+    "A053347",
+    "A054334",
+    "A078812",
+    "A111125",
+    "A127677",
+    "A156290",
+    "A208513",
+    "A263916"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

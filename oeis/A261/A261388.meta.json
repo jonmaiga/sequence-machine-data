@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the length of the longest stretch of consecutive primitive roots of the multiplicative group modulo prime(n).",
+  "id": "A261388",
+  "mentions": [
+    "A261438"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

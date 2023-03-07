@@ -1,0 +1,18 @@
+{
+  "description": "Sequence connected with negabinary (A039724) - see comment.",
+  "id": "A268865",
+  "mentions": [
+    "A010060",
+    "A039724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

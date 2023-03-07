@@ -1,0 +1,22 @@
+{
+  "description": "Binary prejudiced single Sierpinski modulo two Pascal shift: Prejudice function: p(n,m)=If[Mod[Binomial[n - 2, m - 1], 2] == 0, Round[Log[2]]/2, 1]; t(n,m)=Binomial[n, m] + If[n > 2, 2*Binomial[n - 2, m - 1]*p(n, m), 0]; Mod[If[n > 2, 2*Binomial[n - 2, m - 1]*p(n,m), 0],2]=0.",
+  "id": "A147649",
+  "mentions": [
+    "A028262",
+    "A146986",
+    "A146987"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

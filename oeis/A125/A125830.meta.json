@@ -1,0 +1,24 @@
+{
+  "description": "Primes for which the level is equal to 1 in A117563.",
+  "id": "A125830",
+  "mentions": [
+    "A006562",
+    "A117563",
+    "A117876",
+    "A118464",
+    "A118467",
+    "A119402",
+    "A125576",
+    "A125623"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

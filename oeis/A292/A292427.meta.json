@@ -1,0 +1,18 @@
+{
+  "description": "Least number k > primorial(n) such that omega(k) = n-1.",
+  "id": "A292427",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "In binary starting with 1, prepend a 1 and as few 0's as required such that the new number is relatively prime to all previous in sequence. Thus binary 1, 11, 111, 10111, 110111, 100110111, 1100110111, 11100110111.",
+  "id": "A168612",
+  "mentions": [
+    "A171134"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

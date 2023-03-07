@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of ( A164555(n)/A027642(n) + 1/(n+1) ).",
+  "id": "A174342",
+  "mentions": [
+    "A027642",
+    "A164555",
+    "A174341"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

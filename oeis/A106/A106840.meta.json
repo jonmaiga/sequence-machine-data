@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that both n and n+1 have odd part of form 4k+1.",
+  "id": "A106840",
+  "mentions": [
+    "A091072",
+    "A106837",
+    "A106841"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

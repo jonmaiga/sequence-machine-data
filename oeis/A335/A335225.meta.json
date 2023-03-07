@@ -1,0 +1,18 @@
+{
+  "description": "Partitions of a stronger form of Goldbach Conjecture: the number of decompositions of an even number 2n into the sum of two odd prime numbers p and q with 0 <= q-p < n.",
+  "id": "A335225",
+  "mentions": [
+    "A002375",
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with 23 divisors.",
+  "id": "A137486",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A030513",
+    "A137485",
+    "A137487"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:25:23",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

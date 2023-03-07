@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=0..n-k} binomial(k, j)*binomial(n-j+1, k+1).",
+  "id": "A104698",
+  "mentions": [
+    "A005900",
+    "A008288",
+    "A008937",
+    "A014820",
+    "A048739",
+    "A081277",
+    "A110271",
+    "A119328",
+    "A142978",
+    "A210222"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

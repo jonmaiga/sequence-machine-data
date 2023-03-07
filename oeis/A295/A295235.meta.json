@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k such that the positions of the ones in the binary representation of k are in arithmetic progression.",
+  "id": "A295235",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000120",
+    "A000225",
+    "A000668",
+    "A000695",
+    "A002450",
+    "A006995",
+    "A007814",
+    "A019434",
+    "A023001",
+    "A029931",
+    "A048645",
+    "A048793",
+    "A054519",
+    "A064896",
+    "A070939",
+    "A291166",
+    "A325328",
+    "A326669",
+    "A326675"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

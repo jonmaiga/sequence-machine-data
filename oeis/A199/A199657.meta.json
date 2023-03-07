@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of lower rational approximants of Pi with the first 5 terms given by Adam Adamandy Kochański in 1685, continued using a reconstruction by Fukś that is highly likely to match Kochański's incompletely published method.",
+  "id": "A199657",
+  "mentions": [
+    "A191642",
+    "A199658",
+    "A199671",
+    "A199672"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

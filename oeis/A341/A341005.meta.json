@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose sum of even digits and sum of odd digits differ by 4.",
+  "id": "A341005",
+  "mentions": [
+    "A036301",
+    "A071650",
+    "A341002",
+    "A341010"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

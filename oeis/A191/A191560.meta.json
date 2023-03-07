@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 25^(4*n+3).",
+  "id": "A191560",
+  "mentions": [
+    "A000351"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

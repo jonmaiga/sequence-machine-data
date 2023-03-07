@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x) = x + A(-x)^2.",
+  "id": "A143045",
+  "mentions": [
+    "A100238",
+    "A143046",
+    "A143048",
+    "A143049",
+    "A213252"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:43:41",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

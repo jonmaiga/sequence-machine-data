@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of B(16) = -3617/510, the 16th Bernoulli number.",
+  "id": "A234355",
+  "mentions": [
+    "A021046",
+    "A234356"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:18:59",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

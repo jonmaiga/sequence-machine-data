@@ -1,0 +1,23 @@
+{
+  "description": "The binary expansions of A352909(n+1, 1) and A352909(n+1, 2) encode respectively the 1's and the -1's in the balanced ternary expansion of a(n).",
+  "id": "A353662",
+  "mentions": [
+    "A005836",
+    "A074330",
+    "A117966",
+    "A352909",
+    "A353660"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

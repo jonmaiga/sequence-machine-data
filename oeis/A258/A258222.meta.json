@@ -1,0 +1,26 @@
+{
+  "description": "A(n,k) is the sum over all Dyck paths of semilength n of products over all peaks p of (k*x_p+y_p)/y_p, where x_p and y_p are the coordinates of peak p; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A258222",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000108",
+    "A000698",
+    "A049450",
+    "A258219",
+    "A258223",
+    "A292694"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

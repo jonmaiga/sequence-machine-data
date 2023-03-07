@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1)^2 - n^(n+1).",
+  "id": "A193637",
+  "mentions": [
+    "A003095",
+    "A007778"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

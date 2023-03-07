@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that match irreducible polynomials over the nonnegative integers.",
+  "id": "A206284",
+  "mentions": [
+    "A003057",
+    "A003989",
+    "A052485",
+    "A106448",
+    "A206285",
+    "A206296",
+    "A206442",
+    "A277316",
+    "A277318",
+    "A277322",
+    "A284010",
+    "A297845"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number that is nontrivially palindromic in n consecutive number bases.",
+  "id": "A308657",
+  "mentions": [
+    "A002113",
+    "A279092",
+    "A279093"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

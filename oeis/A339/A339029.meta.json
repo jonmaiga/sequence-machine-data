@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 + 4*x - 20*x^2 + 8*x^3 + 33*x^4 - 4*x^5 - 33*x^6)/(1 - 2*x)^4.",
+  "id": "A339029",
+  "mentions": [
+    "A333650",
+    "A339252",
+    "A339254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

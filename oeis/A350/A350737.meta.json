@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>=0} (-1)^k * x^(k*(3*k+1)/2) / Product_{j=1..k} (1-x^j).",
+  "id": "A350737",
+  "mentions": [
+    "A039924",
+    "A237979",
+    "A350310",
+    "A350738"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

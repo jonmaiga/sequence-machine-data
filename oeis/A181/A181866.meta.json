@@ -1,0 +1,30 @@
+{
+  "description": "a(1) = 1, a(2) = 2. For n >= 3, a(n) is found by concatenating the fourth powers of the first n-1 terms of the sequence and then dividing the resulting number by a(n-1).",
+  "id": "A181866",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A181754",
+    "A181755",
+    "A181756",
+    "A181864",
+    "A181865",
+    "A181867",
+    "A181868",
+    "A181869",
+    "A181870"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

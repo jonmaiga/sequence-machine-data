@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Rolling cube footprints: number of nXk 0..7 arrays starting with 0 where 0..7 label vertices of a cube and every array movement to a horizontal or antidiagonal neighbor moves along a corresponding cube edge",
+  "id": "A223331",
+  "mentions": [
+    "A000244",
+    "A001018",
+    "A013708",
+    "A222444"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

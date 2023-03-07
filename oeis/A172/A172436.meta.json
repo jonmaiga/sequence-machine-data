@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m such that the Moebius function takes successively, from m, n values 1,0,1,0,... ending with 1 or 0.",
+  "id": "A172436",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A045882"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

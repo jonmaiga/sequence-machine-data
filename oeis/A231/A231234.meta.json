@@ -1,0 +1,24 @@
+{
+  "description": "Denominators related to A206771 and Lorentz gamma factor.",
+  "id": "A231234",
+  "mentions": [
+    "A001790",
+    "A001803",
+    "A006519",
+    "A007814",
+    "A046161",
+    "A206771"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

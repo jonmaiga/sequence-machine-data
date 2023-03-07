@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the cotangent of an arcsecond.",
+  "id": "A346790",
+  "mentions": [
+    "A217572"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 6,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

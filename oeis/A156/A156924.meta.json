@@ -1,0 +1,24 @@
+{
+  "description": "Fifth right hand column (n-m=4) of the A156920 triangle",
+  "id": "A156924",
+  "mentions": [
+    "A000340",
+    "A142963",
+    "A156919",
+    "A156920",
+    "A156922",
+    "A156923"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:15:05",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

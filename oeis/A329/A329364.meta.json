@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, k+2, k+4 are prime powers.",
+  "id": "A329364",
+  "mentions": [
+    "A000961",
+    "A001359",
+    "A120431",
+    "A164572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

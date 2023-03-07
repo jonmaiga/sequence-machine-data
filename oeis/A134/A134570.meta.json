@@ -1,0 +1,25 @@
+{
+  "description": "Array T(n,k) by antidiagonals; T(n,k) = position in row n of k-th occurrence of the Fibonacci number F(2n+1) in A134566.",
+  "id": "A134570",
+  "mentions": [
+    "A001906",
+    "A001950",
+    "A002878",
+    "A003622",
+    "A035337",
+    "A035339",
+    "A134566",
+    "A134571"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle T(n,k) (n >= 1, 0 <= k <= 2^n-2) read by rows: row n = 1 is [0]; thereafter, T(n,k) = 2*T(n-1,k)+(k mod 2) and T(n,k+2^(n-1)-1) = 2*T(n-1,k)+(k+1 mod 2) for k = 0..2^(n-1)-2; T(n,2^n-2) = 2^n-2.",
+  "id": "A352579",
+  "mentions": [
+    "A109812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

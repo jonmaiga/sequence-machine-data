@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of making change for n cents using coins whose values are the previous terms in the sequence, starting with 1,2 cents.",
+  "id": "A267419",
+  "mentions": [
+    "A000008",
+    "A001300",
+    "A089197",
+    "A208216"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

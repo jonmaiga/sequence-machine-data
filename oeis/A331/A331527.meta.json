@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive k such that A100274(n) - k^4 is a fifth power.",
+  "id": "A331527",
+  "mentions": [
+    "A000584",
+    "A100274",
+    "A331435"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

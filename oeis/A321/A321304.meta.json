@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,f): the number of bicolored cubic graphs on 2n vertices with f vertices of the first color.",
+  "id": "A321304",
+  "mentions": [
+    "A002851",
+    "A294783",
+    "A321305"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

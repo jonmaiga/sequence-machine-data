@@ -1,0 +1,19 @@
+{
+  "description": "Integers m that have at least one divisor d such that reverse(d+m/d) is a substring of m.",
+  "id": "A340917",
+  "mentions": [
+    "A339403",
+    "A340916"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

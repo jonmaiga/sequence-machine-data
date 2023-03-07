@@ -1,0 +1,25 @@
+{
+  "description": "Array A(n, k) read by upwards antidiagonals giving the number of representative parallel primitive binary quadratic forms for discriminant Disc(n) = 4*D(n), with D(n) = A000037(n), and for representable integer |k| >= 1.",
+  "id": "A307377",
+  "mentions": [
+    "A000037",
+    "A000194",
+    "A307236",
+    "A307303",
+    "A307359",
+    "A307378",
+    "A324251",
+    "A324252"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

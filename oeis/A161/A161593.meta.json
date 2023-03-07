@@ -1,0 +1,27 @@
+{
+  "description": "Lengths of new periods in the RATS sequence (0 replacing infinity).",
+  "id": "A161593",
+  "mentions": [
+    "A004000",
+    "A036839",
+    "A066710",
+    "A066711",
+    "A114611",
+    "A161590",
+    "A161592",
+    "A161596",
+    "A288537"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

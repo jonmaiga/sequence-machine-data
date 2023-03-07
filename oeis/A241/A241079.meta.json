@@ -1,0 +1,18 @@
+{
+  "description": "If n is a perfect square, a(n) = 0. If n is not a perfect square, a(n) is the number of final digits necessary to rule out n as a perfect square, or -1 if cannot be ruled out as a perfect square using any group of final digits.",
+  "id": "A241079",
+  "mentions": [
+    "A241081"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

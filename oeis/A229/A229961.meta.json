@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) is the number of partitions in each run k of strictly increasing numbers of 2 X 2 squares in the list of partitions of n^2 into squares, where partition sorting order is ascending with larger squares taking higher precedence; irregular triangle T(n,k), 1 <= n, 1 <= k <= A227940(n), read by rows.",
+  "id": "A229961",
+  "mentions": [
+    "A037444",
+    "A227940"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

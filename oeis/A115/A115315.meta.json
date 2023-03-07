@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(L^3*{phi^(3*n-2), phi^(3*n-1), phi^(3*n-2) + phi^(3*n-1)}) where L = (1 + sqrt(5))/(2*sqrt(5)) and phi = (1 + sqrt(5))/2.",
+  "id": "A115315",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

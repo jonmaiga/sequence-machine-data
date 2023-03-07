@@ -1,0 +1,20 @@
+{
+  "description": "a(n) > n is the smallest integer such that there exist integers n < c <= d < a(n) satisfying n^2 + a(n)^2 = c^2 + d^2.",
+  "id": "A360796",
+  "mentions": [
+    "A000404",
+    "A007692",
+    "A360619"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

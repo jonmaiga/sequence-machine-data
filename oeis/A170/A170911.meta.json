@@ -1,0 +1,18 @@
+{
+  "description": "Write exp(-x) = Product_{n>=1} (1 + g_n x^n); a(n) = denominator(g_n).",
+  "id": "A170911",
+  "mentions": [
+    "A170910"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

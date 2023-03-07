@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A324787: distances in A022837 from n-th low point to the next.",
+  "id": "A324789",
+  "mentions": [
+    "A022837",
+    "A324787"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that are congruent to {0, 3, 7, 10} mod 12.",
+  "id": "A319279",
+  "mentions": [
+    "A013574",
+    "A060107",
+    "A082977",
+    "A083026",
+    "A083028",
+    "A083030",
+    "A083031",
+    "A083032",
+    "A083033",
+    "A083034",
+    "A083089",
+    "A083120",
+    "A319280",
+    "A319451",
+    "A319452"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

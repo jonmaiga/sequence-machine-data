@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number m such that f(sqrt(n)) is in the field Q(sqrt(m)), where f(x) is defined from the continued fraction x = [c(0), c(1), ... ] as [c(0) + 1, c(1) + 1, ...].",
+  "id": "A229957",
+  "mentions": [
+    "A229956",
+    "A229958",
+    "A229959"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

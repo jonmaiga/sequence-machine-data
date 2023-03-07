@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{m=1..n} Sum_{k=1..n} [k divides n]*[n/k divides m]*[k divides m + 4].",
+  "id": "A306652",
+  "mentions": [
+    "A008683",
+    "A034444",
+    "A147848",
+    "A298825",
+    "A306653"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Equilateral triangle from the snowflake (or E-toothpick) structure of A161330 (see Comments lines for definition).",
+  "id": "A220478",
+  "mentions": [
+    "A139250",
+    "A160120",
+    "A161328",
+    "A161330",
+    "A161336",
+    "A211964",
+    "A213360",
+    "A220498"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

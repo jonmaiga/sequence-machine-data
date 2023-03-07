@@ -1,0 +1,22 @@
+{
+  "description": "Digital roots of mountain numbers (cf. A134941).",
+  "id": "A178053",
+  "mentions": [
+    "A010888",
+    "A134941",
+    "A178052"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

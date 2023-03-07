@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{j>=1} 1/A031926(j)^2.",
+  "id": "A357528",
+  "mentions": [
+    "A031926",
+    "A085548",
+    "A160910",
+    "A242301",
+    "A356793",
+    "A357059",
+    "A357483"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

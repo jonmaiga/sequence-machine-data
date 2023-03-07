@@ -1,0 +1,22 @@
+{
+  "description": "Riordan array (f(x), x*f(x)) where f(x) is the g.f. of A104455.",
+  "id": "A171589",
+  "mentions": [
+    "A007318",
+    "A104455",
+    "A125906",
+    "A171568"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

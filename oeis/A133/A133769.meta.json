@@ -1,0 +1,22 @@
+{
+  "description": "An example of a sequence composed of two twelve tone substitutions and two binary sequences: c(n) = bn1(n)*a(n) + bn2(n)*b(n) The resulting sequence is a substitution on 24 tones and zero: 25 tones total. Here a(n)=b(n) have been eliminated from the 12 tone substitutions.",
+  "id": "A133769",
+  "mentions": [
+    "A004001",
+    "A005229",
+    "A133269",
+    "A133270"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

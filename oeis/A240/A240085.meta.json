@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n in which no part is unique (every part appears at least twice).",
+  "id": "A240085",
+  "mentions": [
+    "A007690"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

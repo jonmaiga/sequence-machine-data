@@ -1,0 +1,31 @@
+{
+  "description": "Sequence of black numbers on the double zero (American) roulette wheel read clockwise.",
+  "id": "A291161",
+  "mentions": [
+    "A069892",
+    "A069893",
+    "A291151",
+    "A291152",
+    "A291154",
+    "A291155",
+    "A291156",
+    "A291157",
+    "A291158",
+    "A291159",
+    "A291160",
+    "A291162",
+    "A291171"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

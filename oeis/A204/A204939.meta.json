@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that n divides A130328(k-1), the k-th difference between numbers of the form 2^(k-1).",
+  "id": "A204939",
+  "mentions": [
+    "A130328",
+    "A204892",
+    "A204979"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:28:06",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

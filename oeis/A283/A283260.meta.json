@@ -1,0 +1,24 @@
+{
+  "description": "Product of the products of elements of all the nonempty subsets of the sets of numbers from 1 to n.",
+  "id": "A283260",
+  "mentions": [
+    "A000225",
+    "A001788",
+    "A033312",
+    "A067174",
+    "A229338",
+    "A283261"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

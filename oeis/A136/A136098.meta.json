@@ -1,0 +1,21 @@
+{
+  "description": "Prime palindromic cyclops numbers.",
+  "id": "A136098",
+  "mentions": [
+    "A082435",
+    "A134808",
+    "A134809",
+    "A138131"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

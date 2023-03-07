@@ -1,0 +1,18 @@
+{
+  "description": "Number of words, either empty or beginning with the first letter of the cyclic 4-ary alphabet, where each letter of the alphabet occurs n times and letters of neighboring word positions are equal or neighbors in the alphabet.",
+  "id": "A209183",
+  "mentions": [
+    "A208879"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

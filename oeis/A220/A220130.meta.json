@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of an n X 5 rectangle using integer-sided rectangular tiles of area n.",
+  "id": "A220130",
+  "mentions": [
+    "A220122"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:04:05",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

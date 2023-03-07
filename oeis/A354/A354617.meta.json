@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 3*sqrt(5483/2)/50.",
+  "id": "A354617",
+  "mentions": [
+    "A010467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

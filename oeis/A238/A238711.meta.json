@@ -1,0 +1,31 @@
+{
+  "description": "Product of all primes p such that 2n - p is also prime.",
+  "id": "A238711",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A006530",
+    "A008472",
+    "A010051",
+    "A020481",
+    "A020482",
+    "A020639",
+    "A024556",
+    "A027748",
+    "A035026",
+    "A056911",
+    "A171637",
+    "A238778"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

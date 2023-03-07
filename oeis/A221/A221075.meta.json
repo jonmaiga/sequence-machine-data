@@ -1,0 +1,31 @@
+{
+  "description": "Simple continued fraction expansion of an infinite product.",
+  "id": "A221075",
+  "mentions": [
+    "A001353",
+    "A007654",
+    "A045899",
+    "A076139",
+    "A076140",
+    "A098301",
+    "A123480",
+    "A174500",
+    "A217855",
+    "A221073",
+    "A221074",
+    "A221076"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:28:50",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

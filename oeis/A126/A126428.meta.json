@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = smallest number > a(n-1) such that pairwise sums and (absolute) differences of distinct elements are all distinct.",
+  "id": "A126428",
+  "mentions": [
+    "A004210",
+    "A005282"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

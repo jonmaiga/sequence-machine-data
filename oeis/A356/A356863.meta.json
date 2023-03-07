@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the product of two palindromes in two or more ways and are the concatenation of two palindromes, with all the palindromes having the same number of decimal digits.",
+  "id": "A356863",
+  "mentions": [
+    "A002113",
+    "A355148"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

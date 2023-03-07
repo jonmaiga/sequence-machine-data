@@ -1,0 +1,20 @@
+{
+  "description": "Van Eck sequence (cf. A181391) starting with a(1) = 7.",
+  "id": "A171917",
+  "mentions": [
+    "A171911",
+    "A171918",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

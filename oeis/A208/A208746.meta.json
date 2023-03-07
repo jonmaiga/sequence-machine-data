@@ -1,0 +1,17 @@
+{
+  "description": "Size of largest subset of [1..n] containing no three terms in geometric progression.",
+  "id": "A208746",
+  "mentions": [
+    "A003002"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k > 0 such that abs(S(k)P(k)-k) equals n, where S(k) is the sum and P(k) is the product of decimal digits of k or 0 if no such k exists.",
+  "id": "A114457",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A038369"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

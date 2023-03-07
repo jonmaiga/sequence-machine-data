@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, k, m) = round( t(n,m)/(t(k,m)*t(n-k,m)) ), with T(0, k, m) = 1, where t(n, k) = Product_{j=1..n} A129862(k+1, j), t(n, 0) = n!, and m = 2, read by rows.",
+  "id": "A156608",
+  "mentions": [
+    "A007318",
+    "A129862",
+    "A156609",
+    "A156610",
+    "A156612"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "n! never ends in this many 0's in base 13.",
+  "id": "A136773",
+  "mentions": [
+    "A000142",
+    "A000966",
+    "A055938",
+    "A096346",
+    "A136699",
+    "A136763",
+    "A136767",
+    "A136768",
+    "A136769",
+    "A136770",
+    "A136771",
+    "A136772",
+    "A136774"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

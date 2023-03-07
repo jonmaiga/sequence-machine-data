@@ -1,0 +1,21 @@
+{
+  "description": "Beatty sequence for 1+x+x^2, where 1/(1+x) + 1/(1+x+x^2) = 1.",
+  "id": "A330118",
+  "mentions": [
+    "A075778",
+    "A329825",
+    "A330117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

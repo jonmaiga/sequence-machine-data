@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of parts in the k-th column of the mirror of the last shell of the partitions of n.",
+  "id": "A210945",
+  "mentions": [
+    "A000041",
+    "A083751",
+    "A119907",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A182717",
+    "A207379"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

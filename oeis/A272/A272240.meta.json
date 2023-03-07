@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer c such that (n, c-n, c) is an abc-hit and n is the least number in the triple.",
+  "id": "A272240",
+  "mentions": [
+    "A007947",
+    "A120498",
+    "A130510",
+    "A130512",
+    "A225426",
+    "A272234",
+    "A272239"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

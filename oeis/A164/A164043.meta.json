@@ -1,0 +1,23 @@
+{
+  "description": "Numbers divisible by the number of syllables in their (American) English name.",
+  "id": "A164043",
+  "mentions": [
+    "A002810",
+    "A045736",
+    "A075774",
+    "A163648"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "A sixth-order linear divisibility sequence related to the Fibonacci numbers: a(n) := (1/6)*Fibonacci(3*n)*Fibonacci(4*n)/Fibonacci(n).",
+  "id": "A238600",
+  "mentions": [
+    "A000045",
+    "A215466",
+    "A238536",
+    "A238601",
+    "A238602",
+    "A238603"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

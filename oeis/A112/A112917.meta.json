@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic H-graphs H(n:i,j;k,m) on 6n vertices (or nodes) for 1<=i,j,k,m",
+  "id": "A112917",
+  "mentions": [
+    "A107452",
+    "A112918",
+    "A112919",
+    "A112920",
+    "A112921"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

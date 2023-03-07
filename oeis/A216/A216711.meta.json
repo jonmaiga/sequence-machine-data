@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of q * (phi(q) * psi(-q))^8 in powers of q where phi(), psi() are Ramanujan theta functions.",
+  "id": "A216711",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002288",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A134461"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

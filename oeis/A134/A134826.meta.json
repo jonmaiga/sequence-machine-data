@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle A134285, called s2(3)'.",
+  "id": "A134826",
+  "mentions": [
+    "A134285",
+    "A134827"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

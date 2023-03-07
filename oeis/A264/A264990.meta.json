@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = number of occurrences of a most frequent nonzero digit in factorial base representation (A007623) of n.",
+  "id": "A264990",
+  "mentions": [
+    "A007623",
+    "A051903",
+    "A225901",
+    "A257511",
+    "A257684",
+    "A265349",
+    "A265350",
+    "A266117",
+    "A266118",
+    "A275735",
+    "A275811"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

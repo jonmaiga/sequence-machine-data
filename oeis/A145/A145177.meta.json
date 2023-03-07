@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of rational coefficients in series expansion of 1/(Bernoulli trial entropy).",
+  "id": "A145177",
+  "mentions": [
+    "A003418",
+    "A091137",
+    "A145176",
+    "A145178"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

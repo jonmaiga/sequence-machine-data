@@ -1,0 +1,21 @@
+{
+  "description": "Eigentriangle for the Catalan triangle (c(x), xc(x)), A033184.",
+  "id": "A181644",
+  "mentions": [
+    "A033184",
+    "A091768",
+    "A181645"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

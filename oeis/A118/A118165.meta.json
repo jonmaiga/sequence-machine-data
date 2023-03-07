@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m such that A118164(m) = n.",
+  "id": "A118165",
+  "mentions": [
+    "A005243",
+    "A118164",
+    "A118166"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

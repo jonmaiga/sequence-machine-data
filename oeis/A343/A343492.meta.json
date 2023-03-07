@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} 5^(gcd(k, n) - 1).",
+  "id": "A343492",
+  "mentions": [
+    "A000010",
+    "A054612",
+    "A343489"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:21:34",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

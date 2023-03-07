@@ -1,0 +1,33 @@
+{
+  "description": "Expansion of chi(-q) / chi(-q^7) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A113297",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003106",
+    "A003114",
+    "A010054",
+    "A010815",
+    "A081360",
+    "A097793",
+    "A109389",
+    "A121373",
+    "A133563",
+    "A145707",
+    "A261733",
+    "A261734",
+    "A261735",
+    "A261736"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

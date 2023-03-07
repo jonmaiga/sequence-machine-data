@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct resistances that can be obtained by a network of exactly n equal resistors, but not by any network with fewer than n equal resistors.",
+  "id": "A338197",
+  "mentions": [
+    "A051389",
+    "A180414",
+    "A337517",
+    "A338487"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Starting with a(1) = 1, a(n) = smallest nonnegative integer not yet in the sequence such that the first digit of a(n) is the last digit of a(n-1) plus or minus 1, with preference given to -1 when possible. The digit 0 is not allowed.",
+  "id": "A288945",
+  "mentions": [
+    "A288946"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

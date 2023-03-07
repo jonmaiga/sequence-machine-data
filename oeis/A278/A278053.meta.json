@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that sigma(2^(p+1)) is prime.",
+  "id": "A278053",
+  "mentions": [
+    "A000043",
+    "A000203",
+    "A153798",
+    "A278054"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

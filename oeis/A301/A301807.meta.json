@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically first sequence of distinct integers whose concatenation of digits is the same as the concatenation of the digits of the absolute differences between consecutive terms.",
+  "id": "A301807",
+  "mentions": [
+    "A000027",
+    "A100787",
+    "A210025",
+    "A301743"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Maximal m such that a polynomial P = Sum_{k=0..m} x^{d(k)} with 0 = d(0) < ... < d(m) has P^2 = Sum_{k>=0} B(k) x^k with B(k) <= n for all k and B(k) > 0 for k <= d(m).",
+  "id": "A260818",
+  "mentions": [
+    "A260551",
+    "A260817"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

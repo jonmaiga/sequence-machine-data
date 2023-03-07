@@ -1,0 +1,23 @@
+{
+  "description": "Pandigital numbers n with at least 4 nontrivial anagrams divisible by n.",
+  "id": "A167476",
+  "mentions": [
+    "A050278",
+    "A053654",
+    "A161750",
+    "A167461"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

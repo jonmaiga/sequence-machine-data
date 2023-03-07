@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where A(n,k) is Sum_{j=0..floor(n/2)} ((n-j)!/j!)*binomial(n-j,j)*k^(n-2*j).",
+  "id": "A305401",
+  "mentions": [
+    "A000012",
+    "A001040",
+    "A001477",
+    "A036243",
+    "A058331",
+    "A059841",
+    "A305459",
+    "A305465",
+    "A305466"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 - log(1-x) * A(-2 * log(1-x)).",
+  "id": "A355121",
+  "mentions": [
+    "A135750",
+    "A355086",
+    "A355098"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

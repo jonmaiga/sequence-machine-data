@@ -1,0 +1,22 @@
+{
+  "description": "For a rational number p/q let f(p/q) = (p+q) / (A000120(p) + A000120(q)); a(n) is obtained by iterating f, starting at n/1, until an integer is reached (and then a(n) = that integer), or if no integer is ever reached then a(n) = -1.",
+  "id": "A323356",
+  "mentions": [
+    "A000120",
+    "A058971",
+    "A059175",
+    "A323275",
+    "A323375"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

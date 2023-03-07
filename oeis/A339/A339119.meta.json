@@ -1,0 +1,18 @@
+{
+  "description": "Number of cycles in the grid graph P_7 X P_n.",
+  "id": "A339119",
+  "mentions": [
+    "A140517",
+    "A231829"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

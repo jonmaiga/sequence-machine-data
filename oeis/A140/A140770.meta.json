@@ -1,0 +1,17 @@
+{
+  "description": "3D analog of A081113: the number of (n-1)-step paths a 3D chess king can make starting from one face of the n X n X n cube to the opposite one.",
+  "id": "A140770",
+  "mentions": [
+    "A081113"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

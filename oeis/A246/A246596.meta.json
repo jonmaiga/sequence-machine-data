@@ -1,0 +1,29 @@
+{
+  "description": "Run Length Transform of Catalan numbers A000108.",
+  "id": "A246596",
+  "mentions": [
+    "A000108",
+    "A003714",
+    "A005940",
+    "A011782",
+    "A069739",
+    "A071053",
+    "A227349",
+    "A246588",
+    "A246595",
+    "A246660",
+    "A246661",
+    "A246674"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

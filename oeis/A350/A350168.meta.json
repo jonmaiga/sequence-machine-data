@@ -1,0 +1,19 @@
+{
+  "description": "Count from 0 to 1st prime 2, then from 0 to 2nd prime 3, then from 0 to 3rd prime 5, etc ...",
+  "id": "A350168",
+  "mentions": [
+    "A002260",
+    "A002262"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

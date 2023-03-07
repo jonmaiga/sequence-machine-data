@@ -1,0 +1,20 @@
+{
+  "description": "Increasing sequence where a(n) is the smallest integer not yet in the sequence with no digits shared with the term a(n-2), no repeated digits, and no 0-digit allowed.",
+  "id": "A290387",
+  "mentions": [
+    "A290386"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

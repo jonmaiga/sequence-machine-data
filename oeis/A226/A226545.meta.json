@@ -1,0 +1,31 @@
+{
+  "description": "Number A(n,k) of squares in all tilings of a k X n rectangle using integer-sided square tiles; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A226545",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A067331",
+    "A113881",
+    "A219924",
+    "A226546",
+    "A226547",
+    "A226548",
+    "A226549",
+    "A226550",
+    "A226551",
+    "A226552",
+    "A226553",
+    "A226554"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

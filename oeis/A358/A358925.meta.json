@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose first occurrence in Stern's diatomic series (A002487) is later than that of one of their proper multiples.",
+  "id": "A358925",
+  "mentions": [
+    "A002487",
+    "A020946"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

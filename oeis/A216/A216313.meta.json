@@ -1,0 +1,20 @@
+{
+  "description": "Total number of cycles in all partial permutations of {1,2,...,n}.",
+  "id": "A216313",
+  "mentions": [
+    "A002720",
+    "A021009",
+    "A216294"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:09:51",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

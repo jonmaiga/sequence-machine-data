@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n} (d-1)!.",
+  "id": "A358280",
+  "mentions": [
+    "A038507",
+    "A062363",
+    "A321875",
+    "A358279"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

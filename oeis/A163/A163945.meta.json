@@ -1,0 +1,25 @@
+{
+  "description": "Triangle interpolating between (-1)^n (A033999) and the swinging factorial function (A056040) restricted to odd indices (2n+1)$ (A002457).",
+  "id": "A163945",
+  "mentions": [
+    "A002457",
+    "A033999",
+    "A056040",
+    "A098473",
+    "A163649",
+    "A163872",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with the property p = n^2 - 13 and q = n^2 + 13 are primes.",
+  "id": "A177833",
+  "mentions": [
+    "A138375",
+    "A154648",
+    "A176969",
+    "A176978",
+    "A248785"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

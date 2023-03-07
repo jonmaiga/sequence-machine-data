@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n^2,k^2).",
+  "id": "A207140",
+  "mentions": [
+    "A167009",
+    "A206851",
+    "A207136",
+    "A207138",
+    "A207139"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

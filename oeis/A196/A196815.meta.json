@@ -1,0 +1,18 @@
+{
+  "description": "Smallest index k such that prime(k+n) - prime(k) is a perfect square.",
+  "id": "A196815",
+  "mentions": [
+    "A000040",
+    "A196874"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest of the first occurrence of n consecutive integers with all different prime signatures.",
+  "id": "A124058",
+  "mentions": [
+    "A025487",
+    "A034173",
+    "A083788",
+    "A083790"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

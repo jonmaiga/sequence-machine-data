@@ -1,0 +1,37 @@
+{
+  "description": "Numbers with a factorization of length 2^k into factors > 1, where k is the greatest factor.",
+  "id": "A340689",
+  "mentions": [
+    "A001055",
+    "A045778",
+    "A047993",
+    "A106529",
+    "A117409",
+    "A200750",
+    "A316439",
+    "A325134",
+    "A340386",
+    "A340387",
+    "A340596",
+    "A340597",
+    "A340599",
+    "A340607",
+    "A340611",
+    "A340653",
+    "A340654",
+    "A340655",
+    "A340656",
+    "A340657",
+    "A340690"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

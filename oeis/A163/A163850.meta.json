@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that their distance to the nearest cube above p and also their distance to the nearest cube below p are prime.",
+  "id": "A163850",
+  "mentions": [
+    "A000040",
+    "A048762",
+    "A048763",
+    "A146318",
+    "A163848"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of integer partitions whose sum of parts is greater than or equal to their product.",
+  "id": "A325044",
+  "mentions": [
+    "A000720",
+    "A003963",
+    "A056239",
+    "A096276",
+    "A112798",
+    "A175508",
+    "A178503",
+    "A301987",
+    "A319000",
+    "A325032",
+    "A325033",
+    "A325036",
+    "A325037",
+    "A325038",
+    "A325041",
+    "A325042"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

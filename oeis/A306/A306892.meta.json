@@ -1,0 +1,19 @@
+{
+  "description": "Isomorphism classes of connected 2-regular digraphs on n nodes, allowing multiarcs and loops.",
+  "id": "A306892",
+  "mentions": [
+    "A006372",
+    "A306827"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

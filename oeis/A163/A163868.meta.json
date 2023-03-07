@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (4^n + 11)/3.",
+  "id": "A163868",
+  "mentions": [
+    "A002450",
+    "A047849",
+    "A155701",
+    "A156605",
+    "A163834"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

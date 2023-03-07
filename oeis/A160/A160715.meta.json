@@ -1,0 +1,24 @@
+{
+  "description": "Y-toothpick sequence (as A160120) but without internal propagation in the structure.",
+  "id": "A160715",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000695",
+    "A006516",
+    "A139250",
+    "A151710",
+    "A160120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

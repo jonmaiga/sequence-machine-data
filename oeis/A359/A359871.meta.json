@@ -1,0 +1,20 @@
+{
+  "description": "Absolute discriminants of imaginary quadratic number fields with elementary bicyclic 5-class group (5,5)",
+  "id": "A359871",
+  "mentions": [
+    "A242863",
+    "A359291",
+    "A359872"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

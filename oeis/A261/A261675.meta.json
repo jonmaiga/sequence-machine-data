@@ -1,0 +1,22 @@
+{
+  "description": "Minimal number of palindromes in base 10 that add to n.",
+  "id": "A261675",
+  "mentions": [
+    "A002113",
+    "A035137",
+    "A088601",
+    "A260255",
+    "A261422"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Table read by rows: n-th row contains the factors which occur when constructing R. L. Graham's sequence A006255, such that the number of factors and also the product is minimal.",
+  "id": "A245499",
+  "mentions": [
+    "A000040",
+    "A006255",
+    "A006530",
+    "A007913",
+    "A010051",
+    "A010052",
+    "A020639",
+    "A049084",
+    "A066400",
+    "A066401",
+    "A089229",
+    "A151800",
+    "A245508",
+    "A245530",
+    "A277606"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

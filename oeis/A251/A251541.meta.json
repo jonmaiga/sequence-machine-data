@@ -1,0 +1,21 @@
+{
+  "description": "Index of first term in A098550 that is divisible by the n-th prime.",
+  "id": "A251541",
+  "mentions": [
+    "A098550",
+    "A251239",
+    "A251544",
+    "A251716",
+    "A253297"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

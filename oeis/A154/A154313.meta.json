@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that abs(A007605(n) - A007953(n)) < 2.",
+  "id": "A154313",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A007953",
+    "A090431",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

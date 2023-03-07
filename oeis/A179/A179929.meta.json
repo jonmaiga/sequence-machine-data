@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^n*A(n, -1/2), A(n, x) the Eulerian polynomials.",
+  "id": "A179929",
+  "mentions": [
+    "A000629",
+    "A123125",
+    "A173018",
+    "A195205",
+    "A212846"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

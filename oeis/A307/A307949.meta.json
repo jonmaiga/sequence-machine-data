@@ -1,0 +1,20 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the n-transposition graph.",
+  "id": "A307949",
+  "mentions": [
+    "A276518"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

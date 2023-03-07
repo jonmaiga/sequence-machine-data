@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k for which x(k) > Sum_{j=1..k} 1/j, where x(k) is the Newton iterate (starting from x(1)=1) for exp(-P(n,x)) and P(n,x) is the n-th Maclaurin polynomial for exp(x).",
+  "id": "A348126",
+  "mentions": [
+    "A001008",
+    "A002805"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 5 nonattacking kings on a 5 X n board.",
+  "id": "A172204",
+  "mentions": [
+    "A061991",
+    "A061998",
+    "A172202",
+    "A172203"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:23",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

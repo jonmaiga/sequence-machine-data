@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1-2*x)/((1+2*x)*(1-3*x)).",
+  "id": "A232015",
+  "mentions": [
+    "A015441",
+    "A078008",
+    "A091001",
+    "A102901",
+    "A108561",
+    "A165405"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:35",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

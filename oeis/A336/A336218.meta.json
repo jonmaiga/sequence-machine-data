@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the length of the cycle of the purely periodic unitary sigma aliquot cycles listed in A336216.",
+  "id": "A336218",
+  "mentions": [
+    "A034448",
+    "A327157",
+    "A336216",
+    "A336219"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * [x^n] -log(1 - x)/(1 - n*x).",
+  "id": "A300489",
+  "mentions": [
+    "A000254",
+    "A068102",
+    "A069015",
+    "A104150"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

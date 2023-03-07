@@ -1,0 +1,22 @@
+{
+  "description": "Indices n of Riemann zeta zeros for successive records of the normalized delta defined as d(n) = (z(n+1)-z(n))*(log(z(n)/(2Pi))/(2Pi)) where z(n) is the imaginary part of the n-th Riemann zero.",
+  "id": "A329742",
+  "mentions": [
+    "A114856",
+    "A254297",
+    "A255739",
+    "A255742",
+    "A326502",
+    "A328656"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

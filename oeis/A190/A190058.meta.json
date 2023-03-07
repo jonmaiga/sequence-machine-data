@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + [n*r/t] + [n*s/t]; r=1/2, s=sin(Pi/3), t=csc(Pi/3).",
+  "id": "A190058",
+  "mentions": [
+    "A190056",
+    "A190057"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

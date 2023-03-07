@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k in which there are exactly n primes between 10*k and 10*k+9.",
+  "id": "A216289",
+  "mentions": [
+    "A007811",
+    "A032352",
+    "A078494",
+    "A186311"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

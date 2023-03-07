@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers k such that neither 6*k+-1 is prime.",
+  "id": "A171696",
+  "mentions": [
+    "A001477",
+    "A060461"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

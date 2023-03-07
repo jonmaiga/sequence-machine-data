@@ -1,0 +1,19 @@
+{
+  "description": "Distance between n and the next number with the same number of distinct prime factors.",
+  "id": "A188348",
+  "mentions": [
+    "A001221",
+    "A178139"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

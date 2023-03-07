@@ -1,0 +1,37 @@
+{
+  "description": "Number T(n,k) of n-length words w over a k-ary alphabet {a1, a2, ..., ak} such that #(w,a1) >= #(w,a2) >= ... >= #(w,ak) >= 1, where #(w,x) counts the letters x in word w; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "id": "A226874",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A005651",
+    "A057427",
+    "A131632",
+    "A226873",
+    "A226881",
+    "A226882",
+    "A226883",
+    "A226884",
+    "A226885",
+    "A226886",
+    "A226887",
+    "A226888",
+    "A226889",
+    "A285824",
+    "A292222",
+    "A318796",
+    "A327803"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

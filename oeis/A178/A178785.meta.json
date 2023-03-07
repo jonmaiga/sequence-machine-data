@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest n-perfect number of the form 2^(n+1)*L, where L is an odd number with exponents <= n in its prime power factorization, and a(n)=0 if no such n-perfect number exists.",
+  "id": "A178785",
+  "mentions": [
+    "A000040",
+    "A000396",
+    "A007357",
+    "A050376",
+    "A092356"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

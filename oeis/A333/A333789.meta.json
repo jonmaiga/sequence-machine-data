@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A333790(k) < A073934(k).",
+  "id": "A333789",
+  "mentions": [
+    "A020639",
+    "A060681",
+    "A073934",
+    "A333790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

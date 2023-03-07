@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>0} (1 - q^(3*k))^5/((1 - q^k)^3*(1 - q^(6*k))^2).",
+  "id": "A293423",
+  "mentions": [
+    "A293421"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

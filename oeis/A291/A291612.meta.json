@@ -1,0 +1,19 @@
+{
+  "description": "Carmichael numbers k that satisfy 2^d == 2^(k/d) (mod k) for all d|k and are not Super-Poulet numbers (A050217).",
+  "id": "A291612",
+  "mentions": [
+    "A002997",
+    "A050217",
+    "A291602"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

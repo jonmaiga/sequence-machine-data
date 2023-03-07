@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose abundancy index is larger than Pi^2/6.",
+  "id": "A353537",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A005101",
+    "A013661",
+    "A017665",
+    "A017666",
+    "A072355",
+    "A302991",
+    "A330899",
+    "A353538",
+    "A353539",
+    "A353540",
+    "A353541"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

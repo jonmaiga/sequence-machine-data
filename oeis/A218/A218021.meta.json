@@ -1,0 +1,20 @@
+{
+  "description": "Shifts 4 places left under Euler transform with a(0)=0 and a(n)=1 for n < 4.",
+  "id": "A218021",
+  "mentions": [
+    "A144018",
+    "A316076"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

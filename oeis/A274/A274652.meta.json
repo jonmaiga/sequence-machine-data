@@ -1,0 +1,21 @@
+{
+  "description": "Sum of n-th antidiagonal of the square array A274528.",
+  "id": "A274652",
+  "mentions": [
+    "A269526",
+    "A274528",
+    "A274529",
+    "A274530"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

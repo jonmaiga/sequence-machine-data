@@ -1,0 +1,30 @@
+{
+  "description": "Partition numbers of the form 8k.",
+  "id": "A225358",
+  "mentions": [
+    "A000041",
+    "A008590",
+    "A052001",
+    "A072871",
+    "A087183",
+    "A127544",
+    "A222178",
+    "A225324",
+    "A225325",
+    "A225326",
+    "A225327",
+    "A225360",
+    "A225361"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

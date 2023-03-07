@@ -1,0 +1,21 @@
+{
+  "description": "The grid points visible from the central point of an infinite 2D square lattice where all grid points are numbered as in the Ulam spiral.",
+  "id": "A331400",
+  "mentions": [
+    "A063826",
+    "A157426",
+    "A157428",
+    "A325604",
+    "A325606"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

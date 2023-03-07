@@ -1,0 +1,20 @@
+{
+  "description": "A finite set of numbers relevant for the representation of numbers as primitive distinct sums of three squares (0 square allowed).",
+  "id": "A224449",
+  "mentions": [
+    "A051952",
+    "A224447",
+    "A224448"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

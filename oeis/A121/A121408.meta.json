@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) defined by the generating function (in Maple notation): exp(y*arcsin(x))-1 = sum( sum(T(n,k)*y^k, k=1..n)*x^n/n!, n=1..infinity).",
+  "id": "A121408",
+  "mentions": [
+    "A006228",
+    "A091885",
+    "A136630",
+    "A177145",
+    "A182971",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

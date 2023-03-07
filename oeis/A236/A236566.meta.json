@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write 2*n = p + q with p, q and prime(p + 2) + 2 all prime.",
+  "id": "A236566",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A002372",
+    "A002375",
+    "A006512",
+    "A046927",
+    "A236531"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..1 arrays with row sums equal and column sums unequal to adjacent columns",
+  "id": "A202740",
+  "mentions": [
+    "A202742"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

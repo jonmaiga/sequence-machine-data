@@ -1,0 +1,19 @@
+{
+  "description": "Pairs [x.y],[0.2],[2.0],[2.2]... such that 3*x/2+y is prime.",
+  "id": "A177225",
+  "mentions": [
+    "A067076",
+    "A173177",
+    "A173178"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

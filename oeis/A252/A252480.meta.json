@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose decimal representation has at least one '0' digit in a position other than the final digit.",
+  "id": "A252480",
+  "mentions": [
+    "A011540",
+    "A032945",
+    "A051022",
+    "A134808"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

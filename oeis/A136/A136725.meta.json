@@ -1,0 +1,19 @@
+{
+  "description": "Primitive dimensions of Hadamard matrices.",
+  "id": "A136725",
+  "mentions": [
+    "A007299",
+    "A136724"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

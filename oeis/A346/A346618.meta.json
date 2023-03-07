@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 1 iff 2 divides binomial(n,k) but 4 does not (0 <= k <= n).",
+  "id": "A346618",
+  "mentions": [
+    "A007318",
+    "A007814",
+    "A047999",
+    "A346619"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:53:11",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

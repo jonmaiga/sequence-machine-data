@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers t such that t - 4, t - 2, t + 2, t + 4 are four primes.",
+  "id": "A226109",
+  "mentions": [
+    "A000217",
+    "A024675",
+    "A129752",
+    "A130178",
+    "A226196"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

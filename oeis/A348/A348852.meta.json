@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the number of odd nonprimes <= k is equal to the number of primes <= k.",
+  "id": "A348852",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A014076",
+    "A033271"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

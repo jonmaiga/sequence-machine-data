@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k), read by rows 1<=n, 1<=k<=n: Number of cells touched by a unit-width diagonal in a regular n X k grid",
+  "id": "A226246",
+  "mentions": [
+    "A074712",
+    "A199408"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

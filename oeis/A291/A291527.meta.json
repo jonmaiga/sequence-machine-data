@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x,k) satisfies: sn(A(x,k), k) = k * sn(x,k), where sn(,) and cn(,) are Jacobi Elliptic functions.",
+  "id": "A291527",
+  "mentions": [
+    "A001818",
+    "A002754",
+    "A060627",
+    "A060628",
+    "A291560"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

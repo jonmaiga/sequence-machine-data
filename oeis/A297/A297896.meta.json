@@ -1,0 +1,19 @@
+{
+  "description": "Largest integer that cannot be represented as x1^2 + ... + xk^2, where k >= 1, n <= x1 < ... < xk, and 1/x1 + ... + 1/xk = 1.",
+  "id": "A297896",
+  "mentions": [
+    "A297895",
+    "A303400"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m > 1 such that there exists a divisor g > 1 of m which satisfies s_g(m) = g.",
+  "id": "A324456",
+  "mentions": [
+    "A033502",
+    "A087788",
+    "A324315",
+    "A324316",
+    "A324455",
+    "A324457",
+    "A324458",
+    "A324459",
+    "A324460",
+    "A324857",
+    "A324858"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

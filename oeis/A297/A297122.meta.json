@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^5*H(n) where H() is the Hurwitz class number.",
+  "id": "A297122",
+  "mentions": [
+    "A000594",
+    "A259825",
+    "A297127"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Position of n-th partial sum of the harmonic series when all the partial sums are jointly ranked with the set {log(k+1)}; complement of A206912.",
+  "id": "A206911",
+  "mentions": [
+    "A206805",
+    "A206812",
+    "A206815",
+    "A206903",
+    "A206906",
+    "A206912",
+    "A206928"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

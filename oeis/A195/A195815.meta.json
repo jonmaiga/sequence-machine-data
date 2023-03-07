@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 2*(3^n-2*n)+1 is prime.",
+  "id": "A195815",
+  "mentions": [
+    "A195732"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

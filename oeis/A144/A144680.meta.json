@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, lower half of an array formed by A004736 * A144328 (transform).",
+  "id": "A144680",
+  "mentions": [
+    "A004006",
+    "A004736",
+    "A006008",
+    "A027965",
+    "A050407",
+    "A074742",
+    "A144328"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: exp(2*x) * (BesselI(0,2*x) - BesselI(1,2*x)) / (sec(x) + tan(x)).",
+  "id": "A337446",
+  "mentions": [
+    "A000108",
+    "A000111",
+    "A000753"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

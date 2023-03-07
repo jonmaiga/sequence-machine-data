@@ -1,0 +1,19 @@
+{
+  "description": "Fermat pseudoprimes to base 2 with three prime factors divisible by a smaller Fermat pseudoprime to base 2.",
+  "id": "A215944",
+  "mentions": [
+    "A001567",
+    "A215150",
+    "A215672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

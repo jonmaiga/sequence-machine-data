@@ -1,0 +1,19 @@
+{
+  "description": "Numbers a(n) for which there exists k>1 such that the number of partitions of a(n) into k parts is k.",
+  "id": "A209122",
+  "mentions": [
+    "A000041",
+    "A133041"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

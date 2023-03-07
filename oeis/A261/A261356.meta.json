@@ -1,0 +1,22 @@
+{
+  "description": "Pyramid of coefficients in expansion of (1+x+2*y)^n.",
+  "id": "A261356",
+  "mentions": [
+    "A000302",
+    "A046816",
+    "A189225",
+    "A261357"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

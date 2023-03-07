@@ -1,0 +1,21 @@
+{
+  "description": "Numbers not of the form m*(m+1)*(m+2)/6, the non-tetrahedral numbers.",
+  "id": "A145397",
+  "mentions": [
+    "A000040",
+    "A000292",
+    "A014306",
+    "A023533"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:37",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

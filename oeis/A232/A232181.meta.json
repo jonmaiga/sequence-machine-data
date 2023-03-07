@@ -1,0 +1,21 @@
+{
+  "description": "First bisection of harmonic numbers (denominators).",
+  "id": "A232181",
+  "mentions": [
+    "A002805",
+    "A232180"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

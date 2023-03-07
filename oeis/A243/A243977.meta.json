@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest run of identical digits that n^k can end with for some k, or 0 if there is no limit to such runs.",
+  "id": "A243977",
+  "mentions": [
+    "A243911",
+    "A243912",
+    "A244187"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

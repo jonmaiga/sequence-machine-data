@@ -1,0 +1,21 @@
+{
+  "description": "If n is divisible by 4 then 4, if n is divisible by 2 then 2, otherwise n.",
+  "id": "A230089",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A008586"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:47",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A277893(n) = the least k > n for which A277892(k) = A277892(n), 0 if no such number exists.",
+  "id": "A277893",
+  "mentions": [
+    "A048675",
+    "A277892",
+    "A277894",
+    "A277898"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

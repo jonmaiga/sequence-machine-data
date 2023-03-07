@@ -1,0 +1,40 @@
+{
+  "description": "Table of coefficients of polynomials related to the Dirichlet eta function.",
+  "id": "A156919",
+  "mentions": [
+    "A000182",
+    "A000340",
+    "A001147",
+    "A008292",
+    "A012259",
+    "A050488",
+    "A142963",
+    "A142965",
+    "A142966",
+    "A142968",
+    "A156920",
+    "A156922",
+    "A156923",
+    "A156924",
+    "A162005",
+    "A162006",
+    "A162007",
+    "A185410",
+    "A185411",
+    "A186695",
+    "A187075"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Greatest 8th-power-free divisor of n!.",
+  "id": "A248778",
+  "mentions": [
+    "A000142",
+    "A248773",
+    "A248776",
+    "A248777"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

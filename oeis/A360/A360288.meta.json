@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of permutations of [n] whose excedance set is the k-th finite subset of positive integers in standard order; triangle T(n,k), n>=0, 0<=k<=ceiling(2^(n-1))-1, read by rows.",
+  "id": "A360288",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A000225",
+    "A011782",
+    "A029767",
+    "A048793",
+    "A048794",
+    "A152884",
+    "A263756",
+    "A355258",
+    "A360289"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

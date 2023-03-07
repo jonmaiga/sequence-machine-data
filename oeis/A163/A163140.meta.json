@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that in base 2, 3 `1`'s for each `0`.",
+  "id": "A163140",
+  "mentions": [
+    "A000120",
+    "A031443",
+    "A137254"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

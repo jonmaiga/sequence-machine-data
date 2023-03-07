@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered factorizations of n into Fibonacci numbers > 1.",
+  "id": "A308062",
+  "mentions": [
+    "A000045",
+    "A010056",
+    "A065105",
+    "A065108",
+    "A074206"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

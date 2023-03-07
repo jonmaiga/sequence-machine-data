@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = A124927(n,k) + A134058(n,k) - A007318(n,k), read by rows.",
+  "id": "A134060",
+  "mentions": [
+    "A007318",
+    "A052940",
+    "A124927",
+    "A127927",
+    "A134058"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

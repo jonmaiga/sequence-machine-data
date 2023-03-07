@@ -1,0 +1,21 @@
+{
+  "description": "The number of partitions of n into at least 5 parts from which we can form every partition of n into 5 parts by summing elements.",
+  "id": "A236972",
+  "mentions": [
+    "A000041",
+    "A126796",
+    "A236970",
+    "A236971"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

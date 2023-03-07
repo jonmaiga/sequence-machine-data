@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A016052(n)/3.",
+  "id": "A230286",
+  "mentions": [
+    "A004207",
+    "A016052",
+    "A230287"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

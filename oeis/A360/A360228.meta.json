@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime p such that the primes from prime(n) to p contain a complete set of residues modulo at least one of these primes.",
+  "id": "A360228",
+  "mentions": [
+    "A358238"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

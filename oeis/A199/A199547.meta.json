@@ -1,0 +1,24 @@
+{
+  "description": "Primes p for which pi_{4,3}(p) < pi_{4,1}(p), where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "id": "A199547",
+  "mentions": [
+    "A007350",
+    "A038691",
+    "A038698",
+    "A051024",
+    "A051025",
+    "A066520",
+    "A096628"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

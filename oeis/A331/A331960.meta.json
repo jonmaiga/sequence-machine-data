@@ -1,0 +1,18 @@
+{
+  "description": "Integers whose square root has a continued fraction [b(0);[b(1),...,b(p)]] with a period p > 2 such that b(1)=b(2)=...=b(p-1).",
+  "id": "A331960",
+  "mentions": [
+    "A320773"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

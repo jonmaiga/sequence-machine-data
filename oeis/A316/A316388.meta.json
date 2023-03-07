@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(phi(n)) + a(n-phi(n)) with a(1) = a(2) = a(3) = 1.",
+  "id": "A316388",
+  "mentions": [
+    "A000010",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

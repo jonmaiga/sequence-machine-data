@@ -1,0 +1,20 @@
+{
+  "description": "Filter sequence combining the 2-adic valuation of n (A007814) with gcd(n,sigma(n)) (A009194).",
+  "id": "A319338",
+  "mentions": [
+    "A007814",
+    "A009194",
+    "A305801",
+    "A319346"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that the smallest part is divisible by the number of parts.",
+  "id": "A171628",
+  "mentions": [
+    "A168656",
+    "A171625"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

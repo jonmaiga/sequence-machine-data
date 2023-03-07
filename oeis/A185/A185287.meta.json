@@ -1,0 +1,20 @@
+{
+  "description": "R(m,n) is the number of ways to split two strings x and y of length m and n, respectively, into the same number of nonempty parts such that at least one of the corresponding parts has length 1 and such that the parts of the y string have at most size 2.",
+  "id": "A185287",
+  "mentions": [
+    "A180091"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

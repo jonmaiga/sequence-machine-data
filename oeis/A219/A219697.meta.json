@@ -1,0 +1,25 @@
+{
+  "description": "Primes neighboring a 7-smooth number.",
+  "id": "A219697",
+  "mentions": [
+    "A000040",
+    "A002473",
+    "A003586",
+    "A051037",
+    "A080194",
+    "A219528",
+    "A219669"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

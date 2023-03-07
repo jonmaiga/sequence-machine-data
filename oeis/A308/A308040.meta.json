@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k - prevprime(k-1) is prime where prevprime(n) is the largest prime < n.",
+  "id": "A308040",
+  "mentions": [
+    "A014091"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

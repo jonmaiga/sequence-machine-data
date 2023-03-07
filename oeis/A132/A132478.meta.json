@@ -1,0 +1,21 @@
+{
+  "description": "A007318^(-1) * [4*A007318^(2) - 3*A000012].",
+  "id": "A132478",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A132479"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Differences between the Gullwing sequence A187220 and A147562 (Ulam-Warburton cellular automaton).",
+  "id": "A187564",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A147562",
+    "A187220",
+    "A187223"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

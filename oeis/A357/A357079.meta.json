@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows. T(n, k) = A356265(n, k) + A357078(n, k) for 0 <= k <= n.",
+  "id": "A357079",
+  "mentions": [
+    "A003319",
+    "A059438",
+    "A356265",
+    "A357078"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

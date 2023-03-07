@@ -1,0 +1,19 @@
+{
+  "description": "Largest n-digit prime with the most digits equal to 3.",
+  "id": "A178001",
+  "mentions": [
+    "A037059",
+    "A105981"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

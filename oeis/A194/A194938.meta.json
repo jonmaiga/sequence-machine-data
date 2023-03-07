@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: coefficients of polynomials p(x,n) defined by 1/(1-t-t^2)^x = Sum_{n=1..oo} p(x,n)*t^n/n!.",
+  "id": "A194938",
+  "mentions": [
+    "A000045",
+    "A005442",
+    "A039692",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

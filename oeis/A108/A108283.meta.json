@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, generated from (..., 3, 2, 1).",
+  "id": "A108283",
+  "mentions": [
+    "A000217",
+    "A000337",
+    "A014915",
+    "A014916",
+    "A014917",
+    "A059045",
+    "A108284"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

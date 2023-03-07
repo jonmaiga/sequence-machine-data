@@ -1,0 +1,30 @@
+{
+  "description": "Refined triangle A124323: T(n,k) is the number of partitions of an n-set that are of type k (k-th integer partition, defined by A194602).",
+  "id": "A211350",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A007318",
+    "A036040",
+    "A080575",
+    "A102356",
+    "A102465",
+    "A124323",
+    "A178866",
+    "A178867",
+    "A184049",
+    "A194602",
+    "A211360"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

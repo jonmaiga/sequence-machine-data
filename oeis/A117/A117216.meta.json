@@ -1,0 +1,23 @@
+{
+  "description": "Number of points in the standard root system version of the D_4 lattice having L_infinity norm n.",
+  "id": "A117216",
+  "mentions": [
+    "A035878",
+    "A105374",
+    "A110907",
+    "A144965",
+    "A175110"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:15",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

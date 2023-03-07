@@ -1,0 +1,22 @@
+{
+  "description": "Total sum of parts which are powers of 2 in all partitions of n.",
+  "id": "A342231",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A038712",
+    "A066186",
+    "A342230"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

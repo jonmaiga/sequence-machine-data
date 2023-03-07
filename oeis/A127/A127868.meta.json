@@ -1,0 +1,23 @@
+{
+  "description": "Number of square tiles in all tilings of a 3 X n board with 1 X 1 and L-shaped tiles (where the L-shaped tiles cover 3 squares).",
+  "id": "A127868",
+  "mentions": [
+    "A127864",
+    "A127865",
+    "A127866",
+    "A127867",
+    "A127869",
+    "A127870"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

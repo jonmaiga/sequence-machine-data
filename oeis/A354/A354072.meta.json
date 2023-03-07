@@ -1,0 +1,23 @@
+{
+  "description": "Perfect numbers that are the sum of the divisors of some number.",
+  "id": "A354072",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A002191",
+    "A146542",
+    "A354073",
+    "A354074"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

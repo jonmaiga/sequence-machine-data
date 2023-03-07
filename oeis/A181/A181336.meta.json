@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2-compositions of n having k even entries in the top row. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "id": "A181336",
+  "mentions": [
+    "A003480",
+    "A006054",
+    "A181304",
+    "A181337"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

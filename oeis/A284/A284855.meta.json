@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of necklaces with n beads and k colors that are the same when turned over.",
+  "id": "A284855",
+  "mentions": [
+    "A037306",
+    "A056391",
+    "A056486",
+    "A056487",
+    "A056488",
+    "A075195",
+    "A081720",
+    "A119963",
+    "A164090",
+    "A182751",
+    "A277504",
+    "A284856"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

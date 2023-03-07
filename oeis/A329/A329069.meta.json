@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 + mu(k)^2 * x^k).",
+  "id": "A329069",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A048165",
+    "A073576",
+    "A087188",
+    "A292561"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:41",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

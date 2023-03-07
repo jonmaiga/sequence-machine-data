@@ -1,0 +1,20 @@
+{
+  "description": "A triple of positive integers (n,p,k) is admissible if there exist at least two different multisets of k positive integers, {x_1,x_2,...,x_k} and {y_1,y_2,...,y_k}, such that x_1+x_2+...+x_k=y_1+y_2+...+y_k = n and x_1x_2...x_k = y_1y_2...y_k = p. For each n, let A(n)={k:(n,p,k) is admissible for some p}, and let a(n) = |A(n)|.",
+  "id": "A316945",
+  "mentions": [
+    "A060277",
+    "A316946"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

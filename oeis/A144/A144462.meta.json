@@ -1,0 +1,19 @@
+{
+  "description": "A triangle sequence designed as a step function around the determinants: a(n)=A000045(n); t(n,m)=If[m == 0 || m == 1, 2 - m, If[ m < n, Ceiling[(a(m) - 1)/a(n) + 1], a(n) + 1]].",
+  "id": "A144462",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

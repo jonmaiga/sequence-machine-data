@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X(1+2) 0..1 arrays with no 3x3 subblock diagonal sum 1 and no antidiagonal sum 2 and no row sum 0 and no column sum 0",
+  "id": "A255084",
+  "mentions": [
+    "A255091"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

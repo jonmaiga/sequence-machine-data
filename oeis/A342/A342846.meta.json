@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct odd numbers visible as proper substrings of n.",
+  "id": "A342846",
+  "mentions": [
+    "A014263",
+    "A045887",
+    "A045888",
+    "A164766",
+    "A342845"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

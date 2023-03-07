@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which 2 < A257993(A276086(A276086(n))) < A257993(n), where A276086 converts the primorial base expansion of n into its prime product form, and A257993 returns the index of the least prime not present in its argument.",
+  "id": "A328762",
+  "mentions": [
+    "A084967",
+    "A257993",
+    "A276086",
+    "A328578",
+    "A328587",
+    "A328589",
+    "A328632"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

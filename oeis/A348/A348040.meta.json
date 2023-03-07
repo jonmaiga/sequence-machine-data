@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k) = the length of the common prefix in binary expansions of A156552(n) and A156552(k), read by antidiagonals.",
+  "id": "A348040",
+  "mentions": [
+    "A005940",
+    "A156552",
+    "A252464",
+    "A347380",
+    "A347381",
+    "A348041"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

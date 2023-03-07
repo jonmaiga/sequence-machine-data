@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of length n composed of exactly k overlapping adjacent runs (for n >= 1 and 1 <= k <= n).",
+  "id": "A309993",
+  "mentions": [
+    "A307030"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Exponential barely deficient numbers: exponential deficient numbers whose exponential abundancy is closer to 2 than that of any smaller exponential deficient number.",
+  "id": "A336253",
+  "mentions": [
+    "A051377",
+    "A054979",
+    "A129575",
+    "A228450",
+    "A262228",
+    "A302572",
+    "A307122",
+    "A336252",
+    "A336254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

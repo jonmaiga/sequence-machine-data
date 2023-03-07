@@ -1,0 +1,25 @@
+{
+  "description": "Triangle S(n,k) by rows: coefficients of 3^(n/2)*(x^(2/3)*d/dx)^n when n=0,2,4,6,...",
+  "id": "A223526",
+  "mentions": [
+    "A000244",
+    "A007559",
+    "A223168",
+    "A223169",
+    "A223172",
+    "A223511",
+    "A223532"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

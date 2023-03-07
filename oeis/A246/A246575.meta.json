@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (Product_{r>=1} (1-x^r))*x^(k^2) / Product_{i=1..k} (1-x^i)^2 with k=1.",
+  "id": "A246575",
+  "mentions": [
+    "A010815",
+    "A078616",
+    "A246576",
+    "A246577",
+    "A246578"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:21",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

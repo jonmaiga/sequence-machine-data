@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes whose digit sum is a perfect square.",
+  "id": "A244863",
+  "mentions": [
+    "A007953",
+    "A028839",
+    "A048519",
+    "A107288"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

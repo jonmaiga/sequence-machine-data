@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the number of ways to partition an n X k grid into rectangles of integer side lengths with 0 <= k <= n.",
+  "id": "A333476",
+  "mentions": [
+    "A000012",
+    "A011782",
+    "A034999",
+    "A116694",
+    "A182275",
+    "A208215",
+    "A220297",
+    "A220298",
+    "A220299",
+    "A220300",
+    "A220301",
+    "A220302",
+    "A220303",
+    "A333495"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array: T(n,k) = number of partitions (nodes) in the k-th component of the graph G'(n) obtained from the partition graph G(n) by deleting all partitions having repeated parts; G and G' are defined in Comments.",
+  "id": "A241900",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A241150",
+    "A241901"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

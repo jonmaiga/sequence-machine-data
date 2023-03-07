@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 divides n.n.n where dot \".\" means concatenation.",
+  "id": "A243162",
+  "mentions": [
+    "A074992",
+    "A147553",
+    "A147554",
+    "A168624"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} theta_4(x^k), where theta_4() is the Jacobi theta function.",
+  "id": "A320908",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002448",
+    "A288007",
+    "A288098",
+    "A301554",
+    "A320067",
+    "A320068"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

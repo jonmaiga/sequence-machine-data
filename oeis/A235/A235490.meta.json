@@ -1,0 +1,29 @@
+{
+  "description": "Numbers such that none of their prime factors share common 1-bits in the same bit-position and when added (or \"ored\" or \"xored\") together, yield a term of A000225 (a binary \"repunit\").",
+  "id": "A235490",
+  "mentions": [
+    "A000225",
+    "A000668",
+    "A001414",
+    "A050376",
+    "A050415",
+    "A072593",
+    "A178910",
+    "A227843",
+    "A230492",
+    "A235032",
+    "A235050",
+    "A235488"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

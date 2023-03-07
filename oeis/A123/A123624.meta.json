@@ -1,0 +1,19 @@
+{
+  "description": "Smallest multiple m of n such that mu(m) = mu(n), where mu=A008683.",
+  "id": "A123624",
+  "mentions": [
+    "A008683",
+    "A085653",
+    "A123623"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

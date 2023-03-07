@@ -1,0 +1,23 @@
+{
+  "description": "A023001 interleaved with 2*A023001 and 4*A023001.",
+  "id": "A155803",
+  "mentions": [
+    "A000079",
+    "A023001",
+    "A023301",
+    "A033138",
+    "A125835"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A011772.",
+  "id": "A345984",
+  "mentions": [
+    "A011772",
+    "A344005",
+    "A345983"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

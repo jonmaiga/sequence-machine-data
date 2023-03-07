@@ -1,0 +1,33 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of 1/sqrt(1 - 2*(2*k+1)*x + x^2).",
+  "id": "A335333",
+  "mentions": [
+    "A000012",
+    "A001850",
+    "A003154",
+    "A005408",
+    "A006442",
+    "A084768",
+    "A084769",
+    "A144124",
+    "A144126",
+    "A160674",
+    "A307883",
+    "A307884",
+    "A331656",
+    "A331657",
+    "A335338"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

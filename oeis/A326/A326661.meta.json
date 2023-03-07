@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array in 3 columns that solve the complementary equation c(n) = a(n) + b(3n), where a(1) = 1; see Comments.",
+  "id": "A326661",
+  "mentions": [
+    "A067017",
+    "A309157",
+    "A326662",
+    "A326664"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

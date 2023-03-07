@@ -1,0 +1,22 @@
+{
+  "description": "Abelian orders m for which there exist at least 2 groups with order m.",
+  "id": "A350152",
+  "mentions": [
+    "A000001",
+    "A000688",
+    "A001248",
+    "A003277",
+    "A051532"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

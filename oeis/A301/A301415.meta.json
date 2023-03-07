@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms m in A002110 such that A301413(k) * A002110(m) is in A002182.",
+  "id": "A301415",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A002201",
+    "A301413",
+    "A301414"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

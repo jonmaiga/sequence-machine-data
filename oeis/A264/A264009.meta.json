@@ -1,0 +1,18 @@
+{
+  "description": "Table T(i,j) = nonnegative k at which lcm(i+k,j+k) reaches the minimum, read by antidiagonals (i>=1, j>=1).",
+  "id": "A264009",
+  "mentions": [
+    "A003990"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

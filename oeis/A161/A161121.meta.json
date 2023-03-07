@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of fixed-point-free involutions of {1,2,...,2n} having k cycles with entries of the same parity (0 <= k <= 2*floor(n/2)).",
+  "id": "A161121",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A001818",
+    "A161119",
+    "A161120",
+    "A161122"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

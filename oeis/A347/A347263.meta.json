@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of the subparts of the ziggurat diagram of n (described in A347186) that arise from the (2*k-1)-th double-staircase of the double-staircases diagram of n (described in A335616), n >= 1, k >= 1, and the first element of column k is in row A000384(k).",
+  "id": "A347263",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A000384",
+    "A000566",
+    "A001106",
+    "A082647",
+    "A139600",
+    "A139601",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A279387",
+    "A279388",
+    "A279391",
+    "A335616",
+    "A346875",
+    "A347186",
+    "A347529",
+    "A351846"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

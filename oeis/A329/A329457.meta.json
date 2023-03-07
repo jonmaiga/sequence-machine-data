@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer x such that both n*x + n + x and n*x - n - x are primes, or -1 if no such x exists.",
+  "id": "A329457",
+  "mentions": [
+    "A000040",
+    "A196660"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

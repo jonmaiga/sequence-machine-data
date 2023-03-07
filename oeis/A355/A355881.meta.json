@@ -1,0 +1,22 @@
+{
+  "description": "Table read by descending antidiagonals: T(k,n) (k >= 0, n>= 1) is number of ways to (k+2)-color a 3 X n grid ignoring the variations of two colors.",
+  "id": "A355881",
+  "mentions": [
+    "A000012",
+    "A020698",
+    "A355882",
+    "A355883"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

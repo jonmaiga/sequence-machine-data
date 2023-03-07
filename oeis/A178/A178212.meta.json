@@ -1,0 +1,29 @@
+{
+  "description": "Nonsquarefree numbers divisible by exactly three distinct primes.",
+  "id": "A178212",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A007304",
+    "A013929",
+    "A027748",
+    "A033987",
+    "A085987",
+    "A123712",
+    "A124010",
+    "A200511",
+    "A200521"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

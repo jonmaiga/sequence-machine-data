@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients in expansion of (cos x)/(1 + cos(sqrt(x))).",
+  "id": "A279238",
+  "mentions": [
+    "A279239",
+    "A279240"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 12n+7 for which Sum_{i=0..(4n+2)} J(i,12n+7) = 0, where J(i,m) is the Jacobi symbol.",
+  "id": "A165463",
+  "mentions": [
+    "A004767",
+    "A165460",
+    "A165462",
+    "A165603"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

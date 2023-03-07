@@ -1,0 +1,21 @@
+{
+  "description": "Primes that can be obtained from other primes by interchanging the first and last digits. The source prime and the resulting prime are written consecutively.",
+  "id": "A180022",
+  "mentions": [
+    "A007500",
+    "A069706",
+    "A179826",
+    "A180006"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

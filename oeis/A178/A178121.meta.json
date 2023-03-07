@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of coefficient array of orthogonal polynomials P(n,x)=(x-2n)*P(n-1,x)-(2n-3)*P(n-2,x), P(0,x)=1,P(1,x)=x-2.",
+  "id": "A178121",
+  "mentions": [
+    "A178119",
+    "A178120"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

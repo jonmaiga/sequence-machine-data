@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime such that the subsets of { a(1), ..., a(n) } sum up to 2^n different values.",
+  "id": "A138000",
+  "mentions": [
+    "A064934"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

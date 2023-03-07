@@ -1,0 +1,24 @@
+{
+  "description": "Divide n by the largest primorial that divides it and repeat until a fixed point is reached; a(n) is the fixed point.",
+  "id": "A328478",
+  "mentions": [
+    "A002110",
+    "A007814",
+    "A025487",
+    "A053589",
+    "A093411",
+    "A111701",
+    "A328479"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

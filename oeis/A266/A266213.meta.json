@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,r), the number of neighbors at a sharp Manhattan distance r in a finite n-hypercube lattice, read by upwards antidiagonals; A(n,r) = Sum_{k=0..min(n,r)} binomial(r-1,k-1)*binomial(n,k)* 2^k.",
+  "id": "A266213",
+  "mentions": [
+    "A001333",
+    "A008288",
+    "A035607",
+    "A057077",
+    "A113413",
+    "A119800",
+    "A122542"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:55:41",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

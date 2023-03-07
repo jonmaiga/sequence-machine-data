@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 1 if A349905(n) == 2 (mod 4), otherwise 0. Here A349905(n) is the arithmetic derivative applied to the prime shifted n.",
+  "id": "A358752",
+  "mentions": [
+    "A001222",
+    "A003415",
+    "A003961",
+    "A010873",
+    "A065043",
+    "A152822",
+    "A246260",
+    "A349905",
+    "A353495",
+    "A358750",
+    "A358762"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

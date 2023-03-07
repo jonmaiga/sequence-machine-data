@@ -1,0 +1,18 @@
+{
+  "description": "Number of elements in n-th row of A222417.",
+  "id": "A222801",
+  "mentions": [
+    "A222417"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimal edge coverings of the n-triangular honeycomb acute knight graph.",
+  "id": "A351591",
+  "mentions": [
+    "A289904",
+    "A321486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

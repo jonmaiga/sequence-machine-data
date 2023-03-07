@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(m,k) gives the coefficients of x^k of the minimal polynomials of (2*cos(Pi/(2*m)))^2, for m >= 1.",
+  "id": "A334431",
+  "mentions": [
+    "A055034",
+    "A127672",
+    "A187360",
+    "A334429",
+    "A334432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

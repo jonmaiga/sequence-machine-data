@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that (sum of digits)*(number of digits) + 1 is prime.",
+  "id": "A109133",
+  "mentions": [
+    "A110805"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

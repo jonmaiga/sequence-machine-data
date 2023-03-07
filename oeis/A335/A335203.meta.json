@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the packing chromatic number of n-hypercube graph.",
+  "id": "A335203",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers of form n(n+2)(n+4).",
+  "id": "A165892",
+  "mentions": [
+    "A001219",
+    "A165893"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

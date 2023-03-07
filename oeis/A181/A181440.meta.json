@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) = A000217(n)-(sum of previous terms).",
+  "id": "A181440",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A065475",
+    "A171950"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:39:21",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

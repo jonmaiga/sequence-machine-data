@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p-2 or p+2 are semiprimes.",
+  "id": "A207526",
+  "mentions": [
+    "A063637",
+    "A063638",
+    "A063643"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

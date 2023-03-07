@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n-th prime)^4-(n-th prime)^2.",
+  "id": "A138402",
+  "mentions": [
+    "A001248",
+    "A036689",
+    "A036690",
+    "A065471",
+    "A084920"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:05",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

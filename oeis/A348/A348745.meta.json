@@ -1,0 +1,20 @@
+{
+  "description": "Bijection from primes to {1} U primes, a left inverse of A348744.",
+  "id": "A348745",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A348744",
+    "A348747"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

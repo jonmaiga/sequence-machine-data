@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: M*Q, where M = an infinite lower triangular matrix with A140456 in every column: (1, 1, 1, 3, 7, 23, 71, ...) and Q = a matrix with A000085 as the main diagonal the rest zeros.",
+  "id": "A152736",
+  "mentions": [
+    "A000085",
+    "A140456"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "eigen",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

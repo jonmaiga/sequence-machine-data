@@ -1,0 +1,23 @@
+{
+  "description": "The number of people required for there to be at least a 50% chance that at least 3 share a birthday in a year with n days.",
+  "id": "A225852",
+  "mentions": [
+    "A014088",
+    "A033810",
+    "A088141",
+    "A182008",
+    "A182009",
+    "A182010",
+    "A225871"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

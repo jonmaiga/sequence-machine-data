@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number k such that four consecutive prime numbers prime(n), prime(n+1), prime(n+2) and prime(n+3) are divisors of k, k+1, k+2 and k+3 respectively.",
+  "id": "A180096",
+  "mentions": [
+    "A077338",
+    "A180095"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

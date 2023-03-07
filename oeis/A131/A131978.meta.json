@@ -1,0 +1,18 @@
+{
+  "description": "A049614(n)/A131685(n).",
+  "id": "A131978",
+  "mentions": [
+    "A049614",
+    "A131685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

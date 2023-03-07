@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of nonempty subsets of [n] whose element sum is divisible by k; triangle T(n,k), n >= 1, 1 <= k <= n*(n+1)/2, read by rows.",
+  "id": "A309402",
+  "mentions": [
+    "A000009",
+    "A000217",
+    "A000225",
+    "A082550",
+    "A309280",
+    "A309281",
+    "A309403"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

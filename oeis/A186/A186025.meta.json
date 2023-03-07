@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 0^n + 1 - F(n-1)^2 - F(n)^2, where F = A000045.",
+  "id": "A186025",
+  "mentions": [
+    "A000045",
+    "A027941",
+    "A186024"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

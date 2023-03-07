@@ -1,0 +1,22 @@
+{
+  "description": "Each term a(i) can reach a(i+a(i)) and a(i-a(i)) if these terms exist. a(n) is the greatest number of terms among a(1..n-1) that can be reached by starting at a(n-1) and visiting no term more than once; a(0)=0. See example.",
+  "id": "A360593",
+  "mentions": [
+    "A360594",
+    "A360595",
+    "A360744",
+    "A360745",
+    "A360746"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

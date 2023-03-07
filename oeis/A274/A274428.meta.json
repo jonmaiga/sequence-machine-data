@@ -1,0 +1,19 @@
+{
+  "description": "Positions in A274426 of products of distinct Lucas numbers > 1.",
+  "id": "A274428",
+  "mentions": [
+    "A274426",
+    "A274427"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

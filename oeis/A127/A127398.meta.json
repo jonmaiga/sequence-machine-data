@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=0; a(n) = A127397(n-1)+A127397(n), which is j^k, j = any positive integer, k = any integer >= 2.",
+  "id": "A127398",
+  "mentions": [
+    "A127397"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

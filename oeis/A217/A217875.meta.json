@@ -1,0 +1,19 @@
+{
+  "description": "Primes which have the same (base 10) digital sum A007953 as the next smaller and next larger prime.",
+  "id": "A217875",
+  "mentions": [
+    "A007953",
+    "A066540"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

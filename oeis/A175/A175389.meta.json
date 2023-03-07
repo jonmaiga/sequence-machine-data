@@ -1,0 +1,18 @@
+{
+  "description": "Smallest nonnegative number k such that 2^k contains n, 2n and 3n as substrings of its decimal expansion.",
+  "id": "A175389",
+  "mentions": [
+    "A030000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

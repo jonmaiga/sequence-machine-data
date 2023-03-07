@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 2*n^2 + 34*n + 15.",
+  "id": "A217494",
+  "mentions": [
+    "A002145",
+    "A054723",
+    "A176549"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:03:19",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

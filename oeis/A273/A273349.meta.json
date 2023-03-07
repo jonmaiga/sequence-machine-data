@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k level steps (n>=2,k>=0). A level step in a bargraph is any pair of adjacent horizontal steps at the same height.",
+  "id": "A273349",
+  "mentions": [
+    "A025243",
+    "A082582",
+    "A271943"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

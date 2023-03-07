@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array read by antidiagonals: row n shows the numbers k such that p(k) = prime(k-1) + 2n, where prime(k) = k-th prime, with 1 prefixed to row 1.",
+  "id": "A333201",
+  "mentions": [
+    "A000040",
+    "A107770",
+    "A333200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the n X n rook graph.",
+  "id": "A308141",
+  "mentions": [
+    "A096970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

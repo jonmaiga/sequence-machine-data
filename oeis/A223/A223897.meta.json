@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: A(x) = Sum_{n>=0} 1/n! * Product_{k=1..n} -log(1 - sin(k*x)).",
+  "id": "A223897",
+  "mentions": [
+    "A223895",
+    "A223898"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

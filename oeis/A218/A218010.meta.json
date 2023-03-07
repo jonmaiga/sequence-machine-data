@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (24*p + 1)/5, where p is a Fermat pseudoprime to base 2.",
+  "id": "A218010",
+  "mentions": [
+    "A107003",
+    "A142399"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

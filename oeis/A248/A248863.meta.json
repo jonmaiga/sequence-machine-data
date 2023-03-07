@@ -1,0 +1,21 @@
+{
+  "description": "Table of bit patterns: The bits of A011545(n) -- approximations to Pi -- placed into row n in the order MSB to LSB.",
+  "id": "A248863",
+  "mentions": [
+    "A004601",
+    "A011545"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

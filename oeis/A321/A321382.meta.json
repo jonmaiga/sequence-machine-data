@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of 6 copies of 1..n with no element equal to another within a distance of 1.",
+  "id": "A321382",
+  "mentions": [
+    "A190835",
+    "A322093",
+    "A322127",
+    "A322128"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Zero followed by the terms of A023705 arranged to give the unique path to the n-th node of a complete, rooted and ordered ternary tree.",
+  "id": "A245905",
+  "mentions": [
+    "A023705"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

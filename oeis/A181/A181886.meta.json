@@ -1,0 +1,23 @@
+{
+  "description": "Lower Beatty array of the golden ratio, (1+sqrt(5))/2.",
+  "id": "A181886",
+  "mentions": [
+    "A000004",
+    "A000045",
+    "A000201",
+    "A001950",
+    "A049652",
+    "A181661"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

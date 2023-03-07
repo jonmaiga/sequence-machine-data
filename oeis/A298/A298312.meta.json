@@ -1,0 +1,31 @@
+{
+  "description": "The first of three consecutive octagonal numbers the sum of which is equal to the sum of three consecutive primes.",
+  "id": "A298312",
+  "mentions": [
+    "A000040",
+    "A000567",
+    "A054643",
+    "A298073",
+    "A298168",
+    "A298169",
+    "A298222",
+    "A298223",
+    "A298250",
+    "A298251",
+    "A298272",
+    "A298273",
+    "A298301",
+    "A298302",
+    "A298313"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

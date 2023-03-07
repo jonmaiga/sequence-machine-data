@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n+1)(n+2)(n+3)(9n^2 + 26n + 20)/120.",
+  "id": "A110159",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:39",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

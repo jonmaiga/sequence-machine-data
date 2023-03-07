@@ -1,0 +1,22 @@
+{
+  "description": "Squares visited by the white knight when a white knight and a black knight are moving on a diagonally numbered board, always to the lowest available unvisited square; white moves first.",
+  "id": "A342946",
+  "mentions": [
+    "A338288",
+    "A338289",
+    "A338290",
+    "A342947",
+    "A342948"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n-th semiprime + (concatenation of its two factors, smallest factor first).",
+  "id": "A106550",
+  "mentions": [
+    "A001358",
+    "A084126",
+    "A084127",
+    "A106554"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

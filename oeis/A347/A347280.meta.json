@@ -1,0 +1,19 @@
+{
+  "description": "Let P1>3, P2, P3, P4 be 4 consecutive primes with P3-P2 = 2. a(n) = P2 is the earliest occurrence of the 4-tuple with min(P2-P1, P4-P3) = 2*n, or 0 if no such constellation exists.",
+  "id": "A347280",
+  "mentions": [
+    "A001359",
+    "A262935",
+    "A262936"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

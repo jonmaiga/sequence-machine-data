@@ -1,0 +1,32 @@
+{
+  "description": "Three-column array pPT read by rows: subsequence of primitive Pythagorean triples (x, y, z) with x = A153893^2 - A000079^2, y = 2*A153893*A000079, z = A153893^2 + A000079^2, ordered by increasing z.",
+  "id": "A334638",
+  "mentions": [
+    "A000079",
+    "A002144",
+    "A007583",
+    "A010035",
+    "A010036",
+    "A049310",
+    "A052539",
+    "A083329",
+    "A093357",
+    "A127672",
+    "A134057",
+    "A153893",
+    "A171477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:52:20",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

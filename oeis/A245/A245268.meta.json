@@ -1,0 +1,21 @@
+{
+  "description": "Sum of binomial(n,k) over squarefree k.",
+  "id": "A245268",
+  "mentions": [
+    "A013928",
+    "A060431",
+    "A235268",
+    "A245269"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

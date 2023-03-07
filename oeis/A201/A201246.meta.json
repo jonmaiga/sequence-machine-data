@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to place 5 non-attacking ferses on an n X n board.",
+  "id": "A201246",
+  "mentions": [
+    "A172129",
+    "A201243",
+    "A201244",
+    "A201245",
+    "A201247",
+    "A201248"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:29:27",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

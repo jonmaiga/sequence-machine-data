@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of Unlucky array: a(n) = A255543(n,n).",
+  "id": "A255549",
+  "mentions": [
+    "A219178",
+    "A255543",
+    "A255550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

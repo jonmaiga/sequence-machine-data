@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 + Sum_{j=1..n} Product_{k=0..j-1} binomial(2*n-1,n+k) / binomial(2*n-1,k).",
+  "id": "A342967",
+  "mentions": [
+    "A001181",
+    "A005362",
+    "A005363",
+    "A005364",
+    "A005365",
+    "A005366",
+    "A074962",
+    "A116925",
+    "A342972"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

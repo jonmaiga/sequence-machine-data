@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of 4n with equal sums of odd and even parts.",
+  "id": "A249914",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A035294",
+    "A045931",
+    "A255001"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

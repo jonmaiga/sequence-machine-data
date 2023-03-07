@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) = Steffensen's bracket function [n,n-k].",
+  "id": "A241168",
+  "mentions": [
+    "A000096",
+    "A000629",
+    "A002050",
+    "A002051",
+    "A241169",
+    "A241170"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

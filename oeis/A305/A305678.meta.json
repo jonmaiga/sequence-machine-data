@@ -1,0 +1,18 @@
+{
+  "description": "Solutions x of uphi(x)/x = 2/3, where uphi is the unitary phi function (A047994).",
+  "id": "A305678",
+  "mentions": [
+    "A030163",
+    "A047994"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

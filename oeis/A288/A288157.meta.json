@@ -1,0 +1,19 @@
+{
+  "description": "Number of bases b < n where the digits of n are not all different.",
+  "id": "A288157",
+  "mentions": [
+    "A270832"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

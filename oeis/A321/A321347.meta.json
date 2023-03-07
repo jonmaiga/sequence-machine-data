@@ -1,0 +1,31 @@
+{
+  "description": "Number of strict integer partitions of n containing no prime powers (including 1).",
+  "id": "A321347",
+  "mentions": [
+    "A000607",
+    "A000961",
+    "A001597",
+    "A002095",
+    "A023893",
+    "A023894",
+    "A096258",
+    "A246655",
+    "A286221",
+    "A320322",
+    "A321346",
+    "A321378",
+    "A321665",
+    "A322452",
+    "A322454"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

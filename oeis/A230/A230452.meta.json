@@ -1,0 +1,20 @@
+{
+  "description": "Starting values for which the \"comma sum\" sequence (cf. A230288) does not end in 989.",
+  "id": "A230452",
+  "mentions": [
+    "A230288",
+    "A230450",
+    "A230453"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

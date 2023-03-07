@@ -1,0 +1,23 @@
+{
+  "description": "Compound filter (prime signature of n & prime signature of n+d(n)): a(n) = P(A046523(n), A286479(n)), where P(n,k) is sequence A000027 used as a pairing function and d(n) is number of divisors of n (A000005).",
+  "id": "A286480",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A046523",
+    "A282231",
+    "A286479",
+    "A286530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

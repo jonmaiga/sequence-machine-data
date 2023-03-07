@@ -1,0 +1,19 @@
+{
+  "description": "A decimation of the EKG sequence: A064413(10n+9).",
+  "id": "A157917",
+  "mentions": [
+    "A017377",
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

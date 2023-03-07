@@ -1,0 +1,27 @@
+{
+  "description": "3-almost primes whose indices are 3-almost primes.",
+  "id": "A105346",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007097",
+    "A014612",
+    "A091022",
+    "A101349",
+    "A105997",
+    "A105998",
+    "A106350"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

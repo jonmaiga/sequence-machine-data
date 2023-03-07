@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of triangle related to enumeration of minimal 2-covers of a labeled n-set.",
+  "id": "A280753",
+  "mentions": [
+    "A022166",
+    "A057963",
+    "A280752"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "changed",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that exactly half of the first k terms of A337546 are 0's.",
+  "id": "A339976",
+  "mentions": [
+    "A022292",
+    "A337546",
+    "A339975"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

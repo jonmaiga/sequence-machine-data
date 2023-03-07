@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every element both >= and <= some horizontal or antidiagonal neighbor",
+  "id": "A232257",
+  "mentions": [
+    "A232250",
+    "A232251",
+    "A232258",
+    "A232259",
+    "A232260",
+    "A232261",
+    "A232262",
+    "A232263"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

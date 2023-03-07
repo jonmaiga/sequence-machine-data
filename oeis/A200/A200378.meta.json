@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = H(x*A(x)) where H(x) = A(x/H(x)) is the theta series of planar hexagonal lattice A_2 (A004016).",
+  "id": "A200378",
+  "mentions": [
+    "A004016"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

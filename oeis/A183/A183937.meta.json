@@ -1,0 +1,17 @@
+{
+  "description": "Number of strings of n numbers x(i) in -2..2 with sums of x(i) and of x(i)*x(i+1) both zero",
+  "id": "A183937",
+  "mentions": [
+    "A183944"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

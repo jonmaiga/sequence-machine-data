@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1. For n >=2, a(n) = the smallest integer > a(n-1) such that both a(n) and a(n)-a(n-1) have the same number of (non-leading) 0's when they are represented in binary.",
+  "id": "A160825",
+  "mentions": [
+    "A160824"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

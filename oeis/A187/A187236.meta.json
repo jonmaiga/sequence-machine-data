@@ -1,0 +1,22 @@
+{
+  "description": "Number of simple imperfect graphs on n vertices.",
+  "id": "A187236",
+  "mentions": [
+    "A000088",
+    "A052431",
+    "A187237"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

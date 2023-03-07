@@ -1,0 +1,19 @@
+{
+  "description": "Limiting sequence of digits, read from the right, when starting with 5 we repeatedly replace each digit with its square (as in A308170).",
+  "id": "A308171",
+  "mentions": [
+    "A082026",
+    "A308170"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

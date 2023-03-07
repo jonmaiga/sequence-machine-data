@@ -1,0 +1,18 @@
+{
+  "description": "Odd primes p that are not congruent to 2*k modulo prime(k+1) for any positive integer k.",
+  "id": "A359702",
+  "mentions": [
+    "A000668",
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

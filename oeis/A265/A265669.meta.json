@@ -1,0 +1,17 @@
+{
+  "description": "Carmichael numbers that are the average of two consecutive primes.",
+  "id": "A265669",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

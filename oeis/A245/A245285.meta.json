@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest m such that m! > exp(n*m); or where the mean of the logs of the first m integers exceeds n.",
+  "id": "A245285",
+  "mentions": [
+    "A128104"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

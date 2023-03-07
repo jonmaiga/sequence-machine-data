@@ -1,0 +1,18 @@
+{
+  "description": "Largest integer which is both the product of two integers summing to n+1 and the product of two integers summing to n-1.",
+  "id": "A210446",
+  "mentions": [
+    "A085780"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

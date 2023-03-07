@@ -1,0 +1,23 @@
+{
+  "description": "Triangle with interior all 2's and borders 1.",
+  "id": "A154325",
+  "mentions": [
+    "A000129",
+    "A004277",
+    "A103451",
+    "A129765"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:03",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

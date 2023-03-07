@@ -1,0 +1,23 @@
+{
+  "description": "Unreduced numerators in triangle that leads to the Euler numbers A198631(n)/A006519(n+1).",
+  "id": "A238800",
+  "mentions": [
+    "A006519",
+    "A027642",
+    "A164555",
+    "A191302",
+    "A192456",
+    "A198631"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

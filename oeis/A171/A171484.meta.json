@@ -1,0 +1,20 @@
+{
+  "description": "Beukers integral int(int( -log(x*y) / (1-x*y) * P_n(2*x-1) * P_n(2*y-1) ,x=0..1,y=0..1)) = (A(n) + B(n)*zeta(3)) / A003418(n)^3. This sequence gives negated values of A(n).",
+  "id": "A171484",
+  "mentions": [
+    "A003418",
+    "A008316",
+    "A104684",
+    "A171485"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

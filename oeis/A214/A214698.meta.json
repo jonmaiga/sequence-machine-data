@@ -1,0 +1,22 @@
+{
+  "description": "(n^n - n^2)/2.",
+  "id": "A214698",
+  "mentions": [
+    "A000217",
+    "A117694",
+    "A124797",
+    "A214647"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

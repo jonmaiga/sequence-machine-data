@@ -1,0 +1,22 @@
+{
+  "description": "Indices k of Fibonacci numbers F(k) (A000045) that are divisible by k+1.",
+  "id": "A100992",
+  "mentions": [
+    "A000045",
+    "A023162",
+    "A023173",
+    "A045468",
+    "A069106",
+    "A100993"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

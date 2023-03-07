@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that reach 1 in the 3x + 5 variation of Collatz map.",
+  "id": "A330710",
+  "mentions": [
+    "A000079",
+    "A181762"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of twice-factorizations of n. Number of ways to choose a postpositive factorization of each part of a postpositive factorization of n.",
+  "id": "A281113",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A050336",
+    "A063834",
+    "A162247",
+    "A269134",
+    "A281116"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

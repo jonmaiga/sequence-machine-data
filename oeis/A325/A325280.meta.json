@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with adjusted frequency depth k.",
+  "id": "A325280",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A032741",
+    "A116608",
+    "A181819",
+    "A225485",
+    "A225486",
+    "A323014",
+    "A323023",
+    "A325242",
+    "A325245",
+    "A325254",
+    "A325258",
+    "A325268",
+    "A325277"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

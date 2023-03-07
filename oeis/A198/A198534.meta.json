@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of 2nX2k 0..4 arrays with values 0..4 introduced in row major order and each element equal to an odd number of horizontal and vertical neighbors",
+  "id": "A198534",
+  "mentions": [
+    "A198405"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

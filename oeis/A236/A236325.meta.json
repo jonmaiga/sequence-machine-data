@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < k < n: m = phi(k)/2 + phi(n-k)/12 is an integer with m! + prime(m) prime}|, where phi(.) is Euler's totient function.",
+  "id": "A236325",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000142",
+    "A063499",
+    "A064278",
+    "A064401",
+    "A236241",
+    "A236256",
+    "A236263",
+    "A236265"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

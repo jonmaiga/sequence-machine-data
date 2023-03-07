@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k + sigma(k) + sigma(sigma(k)) is a fourth power.",
+  "id": "A116012",
+  "mentions": [
+    "A116013",
+    "A116014",
+    "A116015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+2 are both binary self numbers (A010061).",
+  "id": "A339216",
+  "mentions": [
+    "A010061"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

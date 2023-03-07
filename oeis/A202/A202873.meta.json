@@ -1,0 +1,22 @@
+{
+  "description": "Symmetric matrix based on (1,3,7,15,31,...), by antidiagonals.",
+  "id": "A202873",
+  "mentions": [
+    "A000225",
+    "A000295",
+    "A053208",
+    "A193722",
+    "A202767"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:36:41",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

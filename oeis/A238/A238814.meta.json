@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with prime(p) - p + 1 and prime(q) - q + 1 both prime, where q is the first prime after p.",
+  "id": "A238814",
+  "mentions": [
+    "A000040",
+    "A234694",
+    "A234695",
+    "A238766",
+    "A238776"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

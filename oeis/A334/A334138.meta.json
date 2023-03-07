@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as x^4 + y*(2*y+1) + z*(3*z+1), where x is a nonnegative integer, and y and z are integers.",
+  "id": "A334138",
+  "mentions": [
+    "A000217",
+    "A000583",
+    "A001082",
+    "A001318",
+    "A152749",
+    "A270566",
+    "A334147"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

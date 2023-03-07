@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of primes 2^(n-1) <= p < 2^n with minimal Hamming weight A091935(n-1) in this interval.",
+  "id": "A333878",
+  "mentions": [
+    "A091935",
+    "A091936",
+    "A333876",
+    "A333879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

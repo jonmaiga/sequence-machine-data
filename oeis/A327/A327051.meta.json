@@ -1,0 +1,33 @@
+{
+  "description": "Vertex-connectivity of the set-system with BII-number n.",
+  "id": "A327051",
+  "mentions": [
+    "A000120",
+    "A013922",
+    "A029931",
+    "A048793",
+    "A070939",
+    "A259862",
+    "A322389",
+    "A323818",
+    "A326031",
+    "A326786",
+    "A326787",
+    "A326853",
+    "A327125",
+    "A327144",
+    "A327198",
+    "A327334",
+    "A327336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

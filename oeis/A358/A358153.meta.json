@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers on a square spiral such that each number shares a factor with its four orthogonally nearest neighbors but shares no factor with its four diagonal next-nearest neighbors.",
+  "id": "A358153",
+  "mentions": [
+    "A253279",
+    "A257112",
+    "A335710",
+    "A336799",
+    "A336946",
+    "A336957",
+    "A346294"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

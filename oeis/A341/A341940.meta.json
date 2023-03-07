@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that phi(m)*tau(m) is a square but phi(m)/tau(m) is not the square of an integer.",
+  "id": "A341940",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A327624",
+    "A327831",
+    "A341938",
+    "A341939"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

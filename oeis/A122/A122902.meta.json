@@ -1,0 +1,28 @@
+{
+  "description": "First occurrence of exponent n in A080121 corresponding to the minimum prime of the form (k^(2^n) + (k+1)^(2^n)) = A122900(k).",
+  "id": "A122902",
+  "mentions": [
+    "A019434",
+    "A077659",
+    "A078902",
+    "A080121",
+    "A080134",
+    "A080208",
+    "A122900",
+    "A152913",
+    "A153504",
+    "A194185"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

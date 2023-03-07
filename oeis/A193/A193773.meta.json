@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as 2*x*y - x - y with 1 <= x <= y.",
+  "id": "A193773",
+  "mentions": [
+    "A000005",
+    "A005097",
+    "A047845",
+    "A125203"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

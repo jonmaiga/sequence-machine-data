@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into at most 6 triangular numbers.",
+  "id": "A347628",
+  "mentions": [
+    "A000217",
+    "A002636",
+    "A007294",
+    "A052343",
+    "A110534",
+    "A319816",
+    "A347627"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) with the coefficient [x^k] of the polynomial (1+x^2)^n + 2*n*x*(1+x^2)^(n-1) in row n, column k, 0<=k<=2n.",
+  "id": "A177276",
+  "mentions": [
+    "A001787",
+    "A162246"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

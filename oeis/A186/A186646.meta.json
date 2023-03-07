@@ -1,0 +1,37 @@
+{
+  "description": "Every fourth term of the sequence of natural numbers 1,2,3,4,... is halved.",
+  "id": "A186646",
+  "mentions": [
+    "A000035",
+    "A000224",
+    "A008959",
+    "A011655",
+    "A019554",
+    "A053879",
+    "A060819",
+    "A061037",
+    "A070430",
+    "A070431",
+    "A070432",
+    "A070433",
+    "A070434",
+    "A070435",
+    "A090129",
+    "A142705",
+    "A164115",
+    "A283971"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:47:13",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

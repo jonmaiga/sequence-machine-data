@@ -1,0 +1,25 @@
+{
+  "description": "Third column of triangle A286724: Lah[2,1](n+2, 2), n >= 0.",
+  "id": "A286725",
+  "mentions": [
+    "A000165",
+    "A001620",
+    "A014479",
+    "A051578",
+    "A051580",
+    "A051582",
+    "A286724"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:28:58",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

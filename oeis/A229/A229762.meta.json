@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (n XOR floor(n/2)) AND floor(n/2), where AND and XOR are bitwise logical operators.",
+  "id": "A229762",
+  "mentions": [
+    "A003188",
+    "A048724",
+    "A048735",
+    "A213064",
+    "A213370",
+    "A229763"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:29",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

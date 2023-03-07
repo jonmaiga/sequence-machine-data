@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to divide an n X n grid of squares into edge-connected polygons of equal area.",
+  "id": "A348789",
+  "mentions": [
+    "A348452"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

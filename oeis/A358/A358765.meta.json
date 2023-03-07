@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A003415(n)*A276086(n) mod 60, where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A358765",
+  "mentions": [
+    "A003415",
+    "A016825",
+    "A042965",
+    "A067019",
+    "A235992",
+    "A276086",
+    "A358669",
+    "A358850"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

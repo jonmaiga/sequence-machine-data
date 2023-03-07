@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the base-n number formed by concatenating the base-n numbers 1 2 ... n-1 n n-1 ... 2 1 is prime.",
+  "id": "A260343",
+  "mentions": [
+    "A173426",
+    "A173427",
+    "A260851",
+    "A260852",
+    "A260853",
+    "A260866"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

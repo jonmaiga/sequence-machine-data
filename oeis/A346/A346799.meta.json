@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed polyominoes with n cells that have a horizontal axis of symmetry that passes through the centers of cells.",
+  "id": "A346799",
+  "mentions": [
+    "A030227",
+    "A056877",
+    "A346800"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

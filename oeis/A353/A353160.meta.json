@@ -1,0 +1,21 @@
+{
+  "description": "Product_{n>=1} (1 + x^n)^a(n) = 1 + Sum_{n>=1} prime(n+1) * x^n.",
+  "id": "A353160",
+  "mentions": [
+    "A006005",
+    "A065091",
+    "A305871",
+    "A352609",
+    "A353161"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

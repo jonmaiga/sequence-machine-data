@@ -1,0 +1,18 @@
+{
+  "description": "The smallest prime p that with its successor q gives prime counts of all ten base-10 digits for the expression (q^prime(n))*(p^prime(n+1)).",
+  "id": "A217565",
+  "mentions": [
+    "A217049"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

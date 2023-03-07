@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as w^4 + (x^4 + y^2 + z^2)/81, where w,x,y,z are nonnegative integers with y <= z.",
+  "id": "A350860",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A349942",
+    "A349943",
+    "A350857"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

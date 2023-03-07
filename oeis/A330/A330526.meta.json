@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (p-1)! mod p^3, where p = prime(n).",
+  "id": "A330526",
+  "mentions": [
+    "A030078",
+    "A112660",
+    "A177771"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

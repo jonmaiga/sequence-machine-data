@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [n*(n+1)/2] with distinct lengths of increasing runs.",
+  "id": "A317165",
+  "mentions": [
+    "A000217",
+    "A246292",
+    "A317130",
+    "A317166",
+    "A317273"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

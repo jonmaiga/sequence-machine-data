@@ -1,0 +1,29 @@
+{
+  "description": "D-toothpick sequence of the second kind in the first quadrant.",
+  "id": "A194444",
+  "mentions": [
+    "A139250",
+    "A172310",
+    "A182838",
+    "A194270",
+    "A194432",
+    "A194434",
+    "A194440",
+    "A194442",
+    "A194445",
+    "A212008",
+    "A220524"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

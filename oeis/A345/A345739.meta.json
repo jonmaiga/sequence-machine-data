@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the initial acute angle in radians above the horizon of a projectile's velocity such that length of its trajectory is equal to the length of the vertical trajectory with the same initial speed.",
+  "id": "A345739",
+  "mentions": [
+    "A345737",
+    "A345738"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

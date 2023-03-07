@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximum length of a snake-like polyomino in an n X n square that starts and ends at opposite corners.",
+  "id": "A357234",
+  "mentions": [
+    "A331968",
+    "A357516"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

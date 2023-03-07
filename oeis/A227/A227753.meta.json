@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which do not occur in A226062; numbers which encode Garden of Eden partitions in Bulgarian Solitaire in runlengths of their binary representation.",
+  "id": "A227753",
+  "mentions": [
+    "A123975",
+    "A225794",
+    "A226062",
+    "A227451",
+    "A227752"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

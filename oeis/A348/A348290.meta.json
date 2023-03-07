@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/10)} binomial(n-5*k,5*k).",
+  "id": "A348290",
+  "mentions": [
+    "A000045",
+    "A005252",
+    "A100134",
+    "A348289"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

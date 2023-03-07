@@ -1,0 +1,24 @@
+{
+  "description": "Minimal index k of a Jacobsthal number such that A001045(k) >= n (the 'upper' Jacobsthal inverse).",
+  "id": "A130250",
+  "mentions": [
+    "A001045",
+    "A105348",
+    "A130234",
+    "A130242",
+    "A130249",
+    "A130252",
+    "A130253"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

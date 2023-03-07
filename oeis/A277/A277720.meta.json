@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n > 2 such that lambda(n)^2 divides n-1, where lambda(n) = A002322(n).",
+  "id": "A277720",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A277389"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

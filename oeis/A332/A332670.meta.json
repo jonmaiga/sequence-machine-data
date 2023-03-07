@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of length-k compositions of n whose negation is unimodal.",
+  "id": "A332670",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A011782",
+    "A072233",
+    "A072704",
+    "A072705",
+    "A107429",
+    "A113704",
+    "A115981",
+    "A227038",
+    "A328509",
+    "A332280",
+    "A332282",
+    "A332283",
+    "A332578",
+    "A332638",
+    "A332639",
+    "A332642",
+    "A332669",
+    "A332728",
+    "A332741",
+    "A332742",
+    "A332744",
+    "A332832",
+    "A332870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

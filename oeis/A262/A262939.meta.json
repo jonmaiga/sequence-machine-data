@@ -1,0 +1,17 @@
+{
+  "description": "Quadrisection of A262940: a(n) = A262940(4*n+1) for n>=0.",
+  "id": "A262939",
+  "mentions": [
+    "A262940"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

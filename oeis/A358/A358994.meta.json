@@ -1,0 +1,21 @@
+{
+  "description": "The sum of the numbers that are inside the contour of an n-story Christmas tree drawn at the top of the numerical pyramid containing the positive integers in natural order.",
+  "id": "A358994",
+  "mentions": [
+    "A001844",
+    "A006137",
+    "A022266"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

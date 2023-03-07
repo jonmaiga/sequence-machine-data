@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) = 6^(k*(n-k)), read by rows.",
+  "id": "A158116",
+  "mentions": [
+    "A117401",
+    "A118180",
+    "A118185",
+    "A118190",
+    "A156581",
+    "A158117",
+    "A176627",
+    "A176631",
+    "A176639",
+    "A176641",
+    "A176642",
+    "A176643"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

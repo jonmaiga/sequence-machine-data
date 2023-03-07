@@ -1,0 +1,22 @@
+{
+  "description": "Sum of two (possibly negative) cubes in at least 3 ways (primitive solutions).",
+  "id": "A293650",
+  "mentions": [
+    "A003825",
+    "A047696",
+    "A051383",
+    "A293645",
+    "A293647",
+    "A293651"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

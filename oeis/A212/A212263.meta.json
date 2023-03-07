@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of symmetric array defined by the recurrence T(n,1)=1, T(1,k)=1, for n >= k: T(n,k) = Sum_{i=1..k-1} T(n-i,k), for n < k: T(n,k) = Sum_{i=1..n-1} T(k-i,n).",
+  "id": "A212263",
+  "mentions": [
+    "A023900",
+    "A191898"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

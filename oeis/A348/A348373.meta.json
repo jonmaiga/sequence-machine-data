@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k)^2/2^k, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A348373",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A013661",
+    "A016627",
+    "A076788",
+    "A103930",
+    "A103931",
+    "A253191"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

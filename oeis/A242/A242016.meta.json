@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime factor of A135972(n), the n-th composite Mersenne number.",
+  "id": "A242016",
+  "mentions": [
+    "A020639",
+    "A056608",
+    "A135972",
+    "A242017"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

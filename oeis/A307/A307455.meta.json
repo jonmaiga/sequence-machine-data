@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of canonical polygons with n edges having exactly 1 line of reflection symmetry.",
+  "id": "A307455",
+  "mentions": [
+    "A052436",
+    "A307387",
+    "A307391",
+    "A307426",
+    "A307454",
+    "A307456",
+    "A307519"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

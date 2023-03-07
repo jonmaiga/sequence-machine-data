@@ -1,0 +1,31 @@
+{
+  "description": "Tower of 2's modulo n.",
+  "id": "A245970",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A003401",
+    "A014221",
+    "A027763",
+    "A133612",
+    "A240162",
+    "A245971",
+    "A245972",
+    "A245973",
+    "A245974"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

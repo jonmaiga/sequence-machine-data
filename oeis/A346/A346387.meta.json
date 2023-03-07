@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations f of {1,...,prime(n)-1} with f(prime(n)-1) = prime(n)-1 and f(prime(n)-2) = prime(n)-2 such that 1/(f(1)*f(2)) + 1/(f(2)*f(3)) + ... + 1/(f(prime(n)-2)*f(prime(n)-1)) + 1/(f(prime(n)-1)*f(1)) == 0 (mod prime(n)^2).",
+  "id": "A346387",
+  "mentions": [
+    "A000040",
+    "A322070",
+    "A322099",
+    "A342965",
+    "A346391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

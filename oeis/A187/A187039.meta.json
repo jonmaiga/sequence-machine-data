@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that have equal counts of even and odd exponents of primes in their factorization.",
+  "id": "A187039",
+  "mentions": [
+    "A162641",
+    "A162642"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

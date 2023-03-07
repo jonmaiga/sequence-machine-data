@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) = 6*binomial(n,k) - 5*I(n,k), where I is the identity matrix; triangle T read by rows (n >= 0 and 0 <= k <= n).",
+  "id": "A131114",
+  "mentions": [
+    "A007318",
+    "A048488",
+    "A131110",
+    "A131111",
+    "A131112",
+    "A131113",
+    "A131115"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

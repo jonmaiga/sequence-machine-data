@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of self-generating continued fraction with first term sqrt(2).",
+  "id": "A229923",
+  "mentions": [
+    "A064845",
+    "A064846",
+    "A229779"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

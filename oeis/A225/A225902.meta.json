@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose arithmetic derivatives are a permutation of their digits.",
+  "id": "A225902",
+  "mentions": [
+    "A003415",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

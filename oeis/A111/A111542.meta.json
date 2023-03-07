@@ -1,0 +1,20 @@
+{
+  "description": "Column 1 of triangle A111541, which is the matrix logarithm of A111536.",
+  "id": "A111542",
+  "mentions": [
+    "A111536",
+    "A111538",
+    "A111541",
+    "A111543"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

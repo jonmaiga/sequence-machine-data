@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer factorizations of n into distinct even factors.",
+  "id": "A357860",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000688",
+    "A000961",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A023894",
+    "A050361",
+    "A295935",
+    "A318721",
+    "A340785",
+    "A349906",
+    "A357859"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

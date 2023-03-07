@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal, diagonal or antidiagonal neighbor",
+  "id": "A221244",
+  "mentions": [
+    "A221245"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

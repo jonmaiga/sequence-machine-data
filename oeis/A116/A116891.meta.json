@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(n! + 1, n^n + 1).",
+  "id": "A116891",
+  "mentions": [
+    "A014566",
+    "A038507",
+    "A067658",
+    "A116892",
+    "A116893",
+    "A116894"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of closed binary words of length n.",
+  "id": "A226452",
+  "mentions": [
+    "A094536",
+    "A297183",
+    "A297184",
+    "A297185"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

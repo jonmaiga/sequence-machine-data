@@ -1,0 +1,18 @@
+{
+  "description": "Number of iterations of the map n -> f(n) needed to reach 0 and starting with n, where f(n) is given by the following definition: f(n) = u(n) mod v(n) where u(n) = max (n, reverse(n)) and v(n) = min(n, reverse(n)).",
+  "id": "A225416",
+  "mentions": [
+    "A061917"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

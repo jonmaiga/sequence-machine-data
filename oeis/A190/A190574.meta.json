@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of exp(Pi*sqrt(163)/3).",
+  "id": "A190574",
+  "mentions": [
+    "A190575"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

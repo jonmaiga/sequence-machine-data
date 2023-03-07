@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime p such that all the n numbers dip(p), dip(dip(p)), ..., dip(dip(...(dip(p))...)) are primes. The function dip is defined in the comment lines.",
+  "id": "A244442",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

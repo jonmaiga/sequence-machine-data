@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) = the smallest prime divisor of the number formed by the concatenation of a(1) to a(n-1) that has not previously appeared in the sequence.",
+  "id": "A330293",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A020639",
+    "A240588",
+    "A330290",
+    "A330291"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

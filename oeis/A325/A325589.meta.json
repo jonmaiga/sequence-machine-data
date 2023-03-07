@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions of n whose circular differences are all 1 or -1.",
+  "id": "A325589",
+  "mentions": [
+    "A000079",
+    "A008965",
+    "A034297",
+    "A173258",
+    "A325553",
+    "A325558",
+    "A325590",
+    "A325591"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

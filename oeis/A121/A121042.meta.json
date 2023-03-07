@@ -1,0 +1,19 @@
+{
+  "description": "Smallest divisor of n that is also contained in the decimal representation of n.",
+  "id": "A121042",
+  "mentions": [
+    "A011531",
+    "A121041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

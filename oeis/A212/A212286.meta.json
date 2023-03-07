@@ -1,0 +1,20 @@
+{
+  "description": "Least k > 0 such that nk = x^3 + y^3 for nonnegative coprime x and y.",
+  "id": "A212286",
+  "mentions": [
+    "A004999",
+    "A202679",
+    "A212285"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

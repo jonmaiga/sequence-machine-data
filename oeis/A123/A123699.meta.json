@@ -1,0 +1,19 @@
+{
+  "description": "Smallest b such that all digits are distinct in base b representation of n.",
+  "id": "A123699",
+  "mentions": [
+    "A123700",
+    "A126688"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

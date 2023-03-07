@@ -1,0 +1,19 @@
+{
+  "description": "Number of peakless Motzkin paths of length n having no UHD's starting at level 0; here U=(1,1), H=(1,0), and D=(1,-1).",
+  "id": "A190171",
+  "mentions": [
+    "A001622",
+    "A190170"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

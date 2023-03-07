@@ -1,0 +1,23 @@
+{
+  "description": "Smallest odd prime of the form x^2^n + y^2^n such that x^2^k + y^2^k is prime for k=0,1,...,n-1.",
+  "id": "A100270",
+  "mentions": [
+    "A019434",
+    "A099332",
+    "A100268",
+    "A100269"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

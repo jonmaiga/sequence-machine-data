@@ -1,0 +1,31 @@
+{
+  "description": "A117852*A130595 as lower triangular matrices.",
+  "id": "A171128",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A007318",
+    "A026375",
+    "A081671",
+    "A098409",
+    "A098410",
+    "A104454",
+    "A109187",
+    "A117852",
+    "A126869",
+    "A130595",
+    "A135091"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

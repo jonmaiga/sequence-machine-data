@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of q^(-5/3) * c(q^2)^3 / (9 * c(q)) in powers of q where c() is a cubic AGM theta function.",
+  "id": "A232343",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A033686",
+    "A098098"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:30:13",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

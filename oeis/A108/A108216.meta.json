@@ -1,0 +1,20 @@
+{
+  "description": "Number of semiprimes between 10n and 10n + 9.",
+  "id": "A108216",
+  "mentions": [
+    "A038800",
+    "A064911",
+    "A066265",
+    "A072000"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

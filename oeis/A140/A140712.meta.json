@@ -1,0 +1,20 @@
+{
+  "description": "Number of white corners in all permutations of {1,2,...,n} (for definition see the Eriksson-Linusson references).",
+  "id": "A140712",
+  "mentions": [
+    "A000142",
+    "A140711"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

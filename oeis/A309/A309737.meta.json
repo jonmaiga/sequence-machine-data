@@ -1,0 +1,21 @@
+{
+  "description": "Base conversion sequence: a(1) = 1; a(n) is the concatenation of all the previous terms, evaluated in base n-1, written in base n.",
+  "id": "A309737",
+  "mentions": [
+    "A349918"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

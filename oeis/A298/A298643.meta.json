@@ -1,0 +1,20 @@
+{
+  "description": "Array A(n, k) read by antidiagonals downwards: k-th base-n non-repunit prime p such that all numbers resulting from switching any two adjacent digits in the base-n representation of p are prime, where k runs over the positive integers, i.e., the offset of k is 1.",
+  "id": "A298643",
+  "mentions": [
+    "A107845",
+    "A129338"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

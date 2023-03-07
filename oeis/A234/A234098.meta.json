@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form (p*q + 1)/2, where p and q are distinct primes.",
+  "id": "A234098",
+  "mentions": [
+    "A010051",
+    "A046388",
+    "A233562",
+    "A234095",
+    "A234096"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

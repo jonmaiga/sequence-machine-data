@@ -1,0 +1,19 @@
+{
+  "description": "Sequence A115823 in binary.",
+  "id": "A115824",
+  "mentions": [
+    "A007088",
+    "A115823"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:52:33",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

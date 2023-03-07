@@ -1,0 +1,21 @@
+{
+  "description": "Number of undirected circular permutations i_1,...,i_{n-1} of 1,...,n-1 with i_1 + i_2, i_2 + i_3, ..., i_{n-2} + i_{n-1}, i_{n-1} + i_1 pairwise distinct modulo n.",
+  "id": "A228766",
+  "mentions": [
+    "A185645",
+    "A228728",
+    "A228762",
+    "A228772"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

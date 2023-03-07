@@ -1,0 +1,26 @@
+{
+  "description": "Read A360505(n) as if it were a base-3 string and write it in base 10.",
+  "id": "A360506",
+  "mentions": [
+    "A028898",
+    "A036050",
+    "A048435",
+    "A360502",
+    "A360503",
+    "A360505",
+    "A360507"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

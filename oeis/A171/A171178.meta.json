@@ -1,0 +1,30 @@
+{
+  "description": "Permutation of the natural numbers: 0 together with the partial sums of A171177.",
+  "id": "A171178",
+  "mentions": [
+    "A000027",
+    "A005132",
+    "A161165",
+    "A161166",
+    "A171164",
+    "A171166",
+    "A171172",
+    "A171173",
+    "A171174",
+    "A171175",
+    "A171176",
+    "A171177",
+    "A172310"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

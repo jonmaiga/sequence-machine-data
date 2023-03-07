@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp(x)*(1+tan(x))/((1-tan(x))*(tan(x)+sec(x))).",
+  "id": "A292757",
+  "mentions": [
+    "A000834"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:43:23",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

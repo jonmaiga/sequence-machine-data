@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(17*n - 13)/2.",
+  "id": "A180232",
+  "mentions": [
+    "A051871",
+    "A226488"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (prime(n)-1) / gpf(prime(n)-1) where gpf(m) is the greatest prime factor of m, A006530.",
+  "id": "A339464",
+  "mentions": [
+    "A006093",
+    "A006530",
+    "A052126",
+    "A074781",
+    "A339465",
+    "A339466"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

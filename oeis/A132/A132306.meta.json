@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..2n-1} C(2n-1,k)*trinomial(n,k) for n>0 with a(0)=1.",
+  "id": "A132306",
+  "mentions": [
+    "A027907",
+    "A082759"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

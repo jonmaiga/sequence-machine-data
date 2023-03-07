@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*n^2 + n - (n+1) mod 2.",
+  "id": "A287057",
+  "mentions": [
+    "A033566",
+    "A033567"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:14:07",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

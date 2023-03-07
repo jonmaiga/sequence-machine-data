@@ -1,0 +1,25 @@
+{
+  "description": "Least prime q such that sum_{k=0}^n p(k)*x^{n-k} is irreducible modulo q, where p(k) refers to the partition number A000041(k).",
+  "id": "A224418",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A217788",
+    "A220072",
+    "A223934",
+    "A224197",
+    "A224210",
+    "A224416",
+    "A224417"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

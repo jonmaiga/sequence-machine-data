@@ -1,0 +1,20 @@
+{
+  "description": "Powers of 2 with the digit '0' in their decimal expansion.",
+  "id": "A298607",
+  "mentions": [
+    "A007377",
+    "A027870",
+    "A238938"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

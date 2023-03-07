@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = floor((k-1)*n^2/(2*k)) is an upper bound on the number of edges in the (n-k)-Turán graph.",
+  "id": "A193331",
+  "mentions": [
+    "A198787"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

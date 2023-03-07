@@ -1,0 +1,32 @@
+{
+  "description": "Number of symmetric matrices with nonnegative integer entries and without zero rows or columns such that sum of all entries is equal to n.",
+  "id": "A138178",
+  "mentions": [
+    "A007716",
+    "A057151",
+    "A104601",
+    "A104602",
+    "A120732",
+    "A120733",
+    "A135588",
+    "A138177",
+    "A296188",
+    "A316983",
+    "A320796",
+    "A321401",
+    "A321405",
+    "A321407"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

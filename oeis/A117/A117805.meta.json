@@ -1,0 +1,20 @@
+{
+  "description": "Start with 3. Square the previous term and subtract it.",
+  "id": "A117805",
+  "mentions": [
+    "A005267",
+    "A007018"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

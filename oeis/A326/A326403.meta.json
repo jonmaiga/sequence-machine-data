@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that iphi(k) = iphi(k+1), where iphi(k) is an infinitary analog to the Euler totient function (A091732).",
+  "id": "A326403",
+  "mentions": [
+    "A001274",
+    "A091732",
+    "A287055",
+    "A293184",
+    "A301866"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

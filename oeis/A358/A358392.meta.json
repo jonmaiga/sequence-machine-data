@@ -1,0 +1,30 @@
+{
+  "description": "Number of nonempty subsets of {1, 2, ..., n} with GCD equal to 1 and containing the sum of any two elements whenever it is at most n.",
+  "id": "A358392",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A051026",
+    "A085489",
+    "A103580",
+    "A139384",
+    "A151897",
+    "A308546",
+    "A326020",
+    "A326076",
+    "A326080",
+    "A326083",
+    "A326114"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Recurrence a(n) = 2^n*a(n-1) + a(n-2) with a(0)=0, a(1)=1.",
+  "id": "A225609",
+  "mentions": [
+    "A006116",
+    "A073587",
+    "A073588",
+    "A076131",
+    "A228465",
+    "A228467"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

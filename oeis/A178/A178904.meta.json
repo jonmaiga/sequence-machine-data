@@ -1,0 +1,22 @@
+{
+  "description": "This should be related to the Coxeter transformations of the posets of partitions in rectangular boxes of size m times n.",
+  "id": "A178904",
+  "mentions": [
+    "A022553",
+    "A131868",
+    "A163210",
+    "A178738",
+    "A178749"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

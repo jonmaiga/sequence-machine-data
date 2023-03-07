@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are the sum of five positive cubes in three or more ways.",
+  "id": "A343704",
+  "mentions": [
+    "A025407",
+    "A343702",
+    "A343705",
+    "A344034",
+    "A344243",
+    "A344796",
+    "A345512"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

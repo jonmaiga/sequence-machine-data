@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that no self-avoiding walk that can make turns from the set 0, +-Pi/6, +-2*Pi/6, +-3*Pi/6, +-4*Pi/6, +-5*Pi/6, of length m + 1 fits into the smallest circle that can enclose a walk of length m.",
+  "id": "A346132",
+  "mentions": [
+    "A127399",
+    "A127400",
+    "A127401",
+    "A306182",
+    "A316192",
+    "A346123",
+    "A346131"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

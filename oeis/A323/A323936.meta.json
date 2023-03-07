@@ -1,0 +1,21 @@
+{
+  "description": "Isomers of deoxyalditols.",
+  "id": "A323936",
+  "mentions": [
+    "A001787",
+    "A011782",
+    "A045623"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

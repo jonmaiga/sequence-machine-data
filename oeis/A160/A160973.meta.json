@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of positive integers of the form (n-3k)/(2k+1), 1 <= k <= (n-1)/5.",
+  "id": "A160973",
+  "mentions": [
+    "A006254",
+    "A034953",
+    "A054269",
+    "A067076",
+    "A082749",
+    "A161116"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

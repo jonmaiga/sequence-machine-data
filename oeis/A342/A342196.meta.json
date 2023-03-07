@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} binomial(n,k)^2 * a(k-1).",
+  "id": "A342196",
+  "mentions": [
+    "A023998",
+    "A040027",
+    "A101514",
+    "A102221",
+    "A342197",
+    "A342198",
+    "A342199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

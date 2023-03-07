@@ -1,0 +1,21 @@
+{
+  "description": "Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) = 1 + x^n + x^(2n).",
+  "id": "A192464",
+  "mentions": [
+    "A000045",
+    "A051450",
+    "A192232"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:54:32",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

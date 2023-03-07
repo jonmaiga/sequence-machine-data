@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/Sum_{k>=0} x^(k^4).",
+  "id": "A352529",
+  "mentions": [
+    "A000583",
+    "A317665",
+    "A323633",
+    "A352530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

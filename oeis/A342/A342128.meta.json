@@ -1,0 +1,25 @@
+{
+  "description": "Table read by antidiagonals upwards: T(n,k) is the number of n-colorings of the vertices of the k-dimensional hypercube such that no two adjacent vertices have the same color. n >= 0, k >=0.",
+  "id": "A342128",
+  "mentions": [
+    "A002378",
+    "A091940",
+    "A140986",
+    "A158348",
+    "A307334",
+    "A334278",
+    "A342088"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

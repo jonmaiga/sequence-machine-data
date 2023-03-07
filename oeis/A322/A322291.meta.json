@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T read by rows: T(n, k) = Sum_{i=1..k} binomial(n, floor((n-k)/2)+i).",
+  "id": "A322291",
+  "mentions": [
+    "A000225",
+    "A000247",
+    "A000918",
+    "A001405",
+    "A006126",
+    "A007318",
+    "A052515",
+    "A052516",
+    "A189390",
+    "A263857",
+    "A272352",
+    "A306550"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to reciprocally link elements of an n X n X n triangular array with themselves or a neighbor, with no more than 2 elements linked to themselves.",
+  "id": "A271611",
+  "mentions": [
+    "A271617"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row n gives the arithmetic progression of exactly n primes with minimal final term, cf. A354376.",
+  "id": "A354485",
+  "mentions": [
+    "A006560",
+    "A133277",
+    "A354376",
+    "A354377",
+    "A354484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

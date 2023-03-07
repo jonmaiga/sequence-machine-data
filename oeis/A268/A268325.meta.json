@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-(n+1) 0..6 arrays with new values introduced in sequential order, and with new repeated values introduced in sequential order, both starting with zero.",
+  "id": "A268325",
+  "mentions": [
+    "A268327"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

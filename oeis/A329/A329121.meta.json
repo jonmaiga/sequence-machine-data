@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that m//A002275(n)//m is prime, where // denotes concatenation, A002275(n) is the n-th repunit (R_n) and m = k+10^(A006519(n)-1).",
+  "id": "A329121",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A006519",
+    "A007814",
+    "A263182"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

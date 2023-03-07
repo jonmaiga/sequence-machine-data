@@ -1,0 +1,18 @@
+{
+  "description": "Number of complete triangulations of the Koch chain K_s.",
+  "id": "A352498",
+  "mentions": [
+    "A352496",
+    "A352497"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd composite numbers k that divide the imaginary part of (1+2i)^A201629(k).",
+  "id": "A213337",
+  "mentions": [
+    "A201629",
+    "A212502"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

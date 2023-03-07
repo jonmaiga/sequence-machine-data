@@ -1,0 +1,19 @@
+{
+  "description": "Number of (undirected) Hamiltonian cycles in the n-Mycielski graph.",
+  "id": "A307927",
+  "mentions": [
+    "A143247"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

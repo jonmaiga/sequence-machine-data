@@ -1,0 +1,29 @@
+{
+  "description": "Count of post-period decimal digits up to which the rounded n-th convergent to exp(1) agrees with the exact value.",
+  "id": "A138366",
+  "mentions": [
+    "A001113",
+    "A007676",
+    "A007677",
+    "A084407",
+    "A138335",
+    "A138336",
+    "A138337",
+    "A138339",
+    "A138343",
+    "A138367",
+    "A138369",
+    "A138370"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

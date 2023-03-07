@@ -1,0 +1,27 @@
+{
+  "description": "Number bases n such that all integers m having the commuting property r(m)^2=r(m^2), where r is cyclic replacement of digits d->(d+1) mod n, are of the form m=A^k*B, where B=n/2, A=B-1, and 0<=k<=n-3.",
+  "id": "A192544",
+  "mentions": [
+    "A059558",
+    "A117755",
+    "A124354",
+    "A127856",
+    "A127857",
+    "A127859",
+    "A127860",
+    "A127861"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

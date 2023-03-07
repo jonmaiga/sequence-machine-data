@@ -1,0 +1,22 @@
+{
+  "description": "Number of obtuse triangles on an n X n grid (or geoboard).",
+  "id": "A190020",
+  "mentions": [
+    "A045996",
+    "A077435",
+    "A093072",
+    "A190019",
+    "A280652"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

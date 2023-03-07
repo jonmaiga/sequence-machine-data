@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct tribone tilings of an n-triangle.",
+  "id": "A334875",
+  "mentions": [
+    "A072065",
+    "A155219"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

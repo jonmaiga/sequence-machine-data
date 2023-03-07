@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n) > a(n-1) is the smallest number whose name in English does not contain the first letter of the name of a(n-1).",
+  "id": "A350217",
+  "mentions": [
+    "A277971",
+    "A277972",
+    "A350218"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

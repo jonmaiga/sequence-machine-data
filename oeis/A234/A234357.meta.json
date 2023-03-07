@@ -1,0 +1,27 @@
+{
+  "description": "Array T(n,k) by antidiagonals: T(n,k) = n^k * Fibonacci(k).",
+  "id": "A234357",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A001105",
+    "A063727",
+    "A085449",
+    "A099012",
+    "A099133",
+    "A117642",
+    "A122069"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

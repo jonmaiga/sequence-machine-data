@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/2 * Product_{i>=0, j>=0, k>=0} (1 + x^(i^2 + j^2 + k^2)).",
+  "id": "A321381",
+  "mentions": [
+    "A002102",
+    "A033461",
+    "A321380"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

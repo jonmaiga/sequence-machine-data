@@ -1,0 +1,24 @@
+{
+  "description": "Moves to permute (ufl,ubr)(dfr,dbl) corners in a 3 X 3 X 3 Rubik's Cube.",
+  "id": "A135825",
+  "mentions": [
+    "A135819",
+    "A135820",
+    "A135823",
+    "A135824",
+    "A135826",
+    "A135827"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

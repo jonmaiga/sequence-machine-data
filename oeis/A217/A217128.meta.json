@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (2n)^4 + 1 is not prime.",
+  "id": "A217128",
+  "mentions": [
+    "A000059",
+    "A037896"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

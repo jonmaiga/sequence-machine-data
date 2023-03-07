@@ -1,0 +1,37 @@
+{
+  "description": "Number of partitions of n in which the sequence of the sum of the same summands is nondecreasing.",
+  "id": "A304405",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A047966",
+    "A087980",
+    "A098859",
+    "A100883",
+    "A239312",
+    "A275870",
+    "A304406",
+    "A304428",
+    "A304430",
+    "A304442",
+    "A353832",
+    "A353837",
+    "A353864",
+    "A354584",
+    "A357861",
+    "A357862",
+    "A357864",
+    "A357875",
+    "A357878"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

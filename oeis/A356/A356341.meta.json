@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(2*n, k) * sigma(k).",
+  "id": "A356341",
+  "mentions": [
+    "A000203",
+    "A024916",
+    "A185003",
+    "A351146"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

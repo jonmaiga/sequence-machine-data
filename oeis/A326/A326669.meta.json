@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that the average position of the ones in the binary expansion of k is an integer.",
+  "id": "A326669",
+  "mentions": [
+    "A000120",
+    "A051293",
+    "A070939",
+    "A102627",
+    "A291165",
+    "A291166",
+    "A316413",
+    "A326622",
+    "A326668",
+    "A326672",
+    "A326673"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

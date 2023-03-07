@@ -1,0 +1,26 @@
+{
+  "description": "Arithmetic nondivisor means.",
+  "id": "A140826",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A024816",
+    "A049820",
+    "A065091",
+    "A230605",
+    "A231167"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

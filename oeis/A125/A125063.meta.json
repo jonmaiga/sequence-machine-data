@@ -1,0 +1,18 @@
+{
+  "description": "Numbers expressible as sum or difference of two cubes of primes in at least two ways.",
+  "id": "A125063",
+  "mentions": [
+    "A046894",
+    "A047696"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

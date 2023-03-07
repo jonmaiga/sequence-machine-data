@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the sum of the odd exponents in the prime factorization of n.",
+  "id": "A350387",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A001620",
+    "A083342",
+    "A125073",
+    "A162641",
+    "A268335",
+    "A350386",
+    "A350389"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

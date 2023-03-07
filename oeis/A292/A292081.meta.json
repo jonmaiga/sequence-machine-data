@@ -1,0 +1,19 @@
+{
+  "description": "Let b(k) be A056240(k); this sequence lists numbers b(2n) such that for some m > n, b(2m) < b(2n).",
+  "id": "A292081",
+  "mentions": [
+    "A056240",
+    "A288313",
+    "A288813"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

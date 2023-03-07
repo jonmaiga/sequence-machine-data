@@ -1,0 +1,19 @@
+{
+  "description": "n^2 followed by smallest integer not yet listed.",
+  "id": "A137442",
+  "mentions": [
+    "A000463"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

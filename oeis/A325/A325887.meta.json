@@ -1,0 +1,23 @@
+{
+  "description": "Excess of sum of odd integers up to n and coprime to n over sum of even integers up to n and coprime to n.",
+  "id": "A325887",
+  "mentions": [
+    "A000010",
+    "A002129",
+    "A007947",
+    "A023896",
+    "A038566",
+    "A098903"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

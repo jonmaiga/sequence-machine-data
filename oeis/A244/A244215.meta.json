@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=0, and for n>=1, if n is the k-th Catalan number (A000108(k)), a(n) = k, otherwise the difference of the indices of the two largest Catalan numbers whose sum is less than or equal to n: a(n) = A244160(n) - A244160(n-A081290(n)).",
+  "id": "A244215",
+  "mentions": [
+    "A000108",
+    "A014418",
+    "A081290",
+    "A163510",
+    "A244160",
+    "A244216",
+    "A244217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 133,
+    "source": "oeis-bfile"
+  }
+}

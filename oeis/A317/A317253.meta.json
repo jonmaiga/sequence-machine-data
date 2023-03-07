@@ -1,0 +1,18 @@
+{
+  "description": "Indices m for which A317414(m) = 1.",
+  "id": "A317253",
+  "mentions": [
+    "A317414",
+    "A317627"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

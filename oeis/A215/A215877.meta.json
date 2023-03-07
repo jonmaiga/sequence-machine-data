@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (A(n) - A215817(n))/sqrt(7), where A(n) = (6-sqrt(7))A(n-1) - (12-4*sqrt(7))A(n-2) + (8-3*sqrt(7))A(n-3), with A(0)=3, A(1)=6-sqrt(7), and A(2)=19-4*sqrt(7).",
+  "id": "A215877",
+  "mentions": [
+    "A094429",
+    "A215143",
+    "A215493",
+    "A215494",
+    "A215510",
+    "A215817"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

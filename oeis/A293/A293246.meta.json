@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k > 1 such that A000166(k) is divisible by n!.",
+  "id": "A293246",
+  "mentions": [
+    "A000142",
+    "A000166"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

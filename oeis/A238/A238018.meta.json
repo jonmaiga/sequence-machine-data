@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that the sum triangular(k) + triangular(k+1) +...+ triangular(k+n-1) is a triangular number, or -1 if no such k exists.",
+  "id": "A238018",
+  "mentions": [
+    "A000217",
+    "A129803",
+    "A238017"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

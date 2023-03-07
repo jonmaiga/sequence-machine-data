@@ -1,0 +1,22 @@
+{
+  "description": "The number of numbers m < k/2 such that m/k is a reduced fraction in the Cantor set, where k= A173931(n).",
+  "id": "A173933",
+  "mentions": [
+    "A005823",
+    "A005836",
+    "A007734",
+    "A076481",
+    "A173931",
+    "A173934"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

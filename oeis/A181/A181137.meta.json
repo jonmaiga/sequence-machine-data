@@ -1,0 +1,22 @@
+{
+  "description": "The number of ways to color n balls in a row with 3 colors with no color runs having lengths greater than 3.",
+  "id": "A181137",
+  "mentions": [
+    "A119826",
+    "A135491",
+    "A135492",
+    "A265624"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts congruent to 1 mod 6.",
+  "id": "A339088",
+  "mentions": [
+    "A005708",
+    "A016921",
+    "A032020",
+    "A032021",
+    "A109701",
+    "A280456",
+    "A337547",
+    "A337548",
+    "A339059",
+    "A339060",
+    "A339086",
+    "A339087",
+    "A339089"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

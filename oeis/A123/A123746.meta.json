@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of partial sums of a series for 1/sqrt(2).",
+  "id": "A123746",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A003148",
+    "A046161",
+    "A049606",
+    "A120088",
+    "A120777"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

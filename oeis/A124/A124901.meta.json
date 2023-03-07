@@ -1,0 +1,18 @@
+{
+  "description": "Smallest order of any nonsolvable transitive Galois group for a polynomial of degree n.",
+  "id": "A124901",
+  "mentions": [
+    "A124900",
+    "A186772"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 5,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

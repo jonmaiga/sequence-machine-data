@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T, read by rows, where column k of T equals (k+1)*(column k of T^2) when shifted to have an initial '1'; i.e., T(n,k) = (k+1)*[T^2](n-1,k) for n>k>=0, with T(n,n)=1 for n>=0.",
+  "id": "A123305",
+  "mentions": [
+    "A123306",
+    "A123307",
+    "A123308",
+    "A123309",
+    "A123310",
+    "A123311"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

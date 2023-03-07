@@ -1,0 +1,23 @@
+{
+  "description": "Relative of Hofstadter Q-sequence: a(-701) = 4, a(-700) = 702, a(-699) = 4, a(-698) = 702; thereafter a(n) = a(n-a(n-1)) + a(n-a(n-2)).",
+  "id": "A283902",
+  "mentions": [
+    "A005185",
+    "A283898",
+    "A283899",
+    "A283900",
+    "A283901"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

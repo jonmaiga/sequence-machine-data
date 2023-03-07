@@ -1,0 +1,19 @@
+{
+  "description": "Starting positions of strings of 8 1's in the decimal expansion of Pi.",
+  "id": "A118078",
+  "mentions": [
+    "A083605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

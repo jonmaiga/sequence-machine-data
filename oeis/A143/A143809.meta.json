@@ -1,0 +1,21 @@
+{
+  "description": "Eigentriangle of the Mobius transform, (A054525).",
+  "id": "A143809",
+  "mentions": [
+    "A007554",
+    "A008683",
+    "A054525"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Records of A058249: (Smallest prime >= 2^n) - (largest prime <= 2^n).",
+  "id": "A331620",
+  "mentions": [
+    "A058249"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

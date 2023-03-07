@@ -1,0 +1,18 @@
+{
+  "description": "Least number of odd primes that add up to n, or 0 if no such representation is possible.",
+  "id": "A338630",
+  "mentions": [
+    "A051034",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

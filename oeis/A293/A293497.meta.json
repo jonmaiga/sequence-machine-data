@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: row n >= 1 is the list of integers from 0 to 2n-1.",
+  "id": "A293497",
+  "mentions": [
+    "A002262",
+    "A053186",
+    "A288969"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

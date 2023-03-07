@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Product_{k>=1, j>=1} (1 + x^(k*j)) / (1 - x^(k*j))^2.",
+  "id": "A320238",
+  "mentions": [
+    "A107742",
+    "A158441",
+    "A320236"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

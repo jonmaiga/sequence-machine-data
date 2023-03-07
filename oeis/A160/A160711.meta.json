@@ -1,0 +1,27 @@
+{
+  "description": "Cyclops squares: squares (A000290) that are also cyclops numbers (A134808).",
+  "id": "A160711",
+  "mentions": [
+    "A000290",
+    "A134148",
+    "A134808",
+    "A134809",
+    "A138131",
+    "A153806",
+    "A160712",
+    "A160717",
+    "A239828"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

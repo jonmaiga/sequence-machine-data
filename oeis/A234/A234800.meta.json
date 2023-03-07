@@ -1,0 +1,28 @@
+{
+  "description": "First occurrence of n in A234323: Number of nontrivial zeros of the Riemann zeta function in the interval 1/2 + i[n,n+1).",
+  "id": "A234800",
+  "mentions": [
+    "A002410",
+    "A120401",
+    "A122526",
+    "A234323",
+    "A234802",
+    "A234803",
+    "A234804",
+    "A234805",
+    "A234806",
+    "A234807"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

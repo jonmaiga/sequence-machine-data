@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative, with a(p^k) determined using the same rule as Van Eck's sequence for any prime p and k > 0.",
+  "id": "A352613",
+  "mentions": [
+    "A181391",
+    "A350228"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

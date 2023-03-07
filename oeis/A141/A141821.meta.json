@@ -1,0 +1,17 @@
+{
+  "description": "Least number k < n and coprime to n such that the largest term of the continued fraction of k/n is as small as possible.",
+  "id": "A141821",
+  "mentions": [
+    "A141822"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

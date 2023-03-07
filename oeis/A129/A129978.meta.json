@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A120265(k) = numerator(Sum_{j=1..k} 1/j!) is a prime.",
+  "id": "A129978",
+  "mentions": [
+    "A061354",
+    "A061355",
+    "A120265"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table T(n, k) read by rows; the n-th row contains, in ascending order, the numbers k < n such that for any base b >= 2, the sum of digits of n and k in base b are different.",
+  "id": "A352740",
+  "mentions": [
+    "A216789",
+    "A352671"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

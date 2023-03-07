@@ -1,0 +1,32 @@
+{
+  "description": "Records of minima of positive distance d between an eleventh power of positive integer x and a square of integer y such d = x^11 - y^2 (x<>k^2 and y<>k^11).",
+  "id": "A179793",
+  "mentions": [
+    "A179107",
+    "A179108",
+    "A179109",
+    "A179386",
+    "A179387",
+    "A179388",
+    "A179407",
+    "A179408",
+    "A179784",
+    "A179785",
+    "A179786",
+    "A179790",
+    "A179791",
+    "A179792",
+    "A179794",
+    "A179795"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

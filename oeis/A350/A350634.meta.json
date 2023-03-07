@@ -1,0 +1,20 @@
+{
+  "description": "Products of the parts s,t in each partition of k (= 2,3,..) into two parts, ordered by increasing k and then by increasing values of s*t (see example).",
+  "id": "A350634",
+  "mentions": [
+    "A122197",
+    "A199474",
+    "A339399"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

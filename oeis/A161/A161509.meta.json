@@ -1,0 +1,19 @@
+{
+  "description": "The unique primitive prime factor of 2^n-1 for the n in A161508.",
+  "id": "A161509",
+  "mentions": [
+    "A007615",
+    "A144755",
+    "A161508"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

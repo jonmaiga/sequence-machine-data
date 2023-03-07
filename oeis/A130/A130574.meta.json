@@ -1,0 +1,19 @@
+{
+  "description": "A130572(A130572(n)).",
+  "id": "A130574",
+  "mentions": [
+    "A130572",
+    "A130573",
+    "A130575"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

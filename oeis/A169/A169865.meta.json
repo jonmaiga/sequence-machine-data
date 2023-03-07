@@ -1,0 +1,21 @@
+{
+  "description": "The sequence T of a pair S, T generalizing Golomb's sequence A001462 and the pair A093848, A169863. See Comments for definition.",
+  "id": "A169865",
+  "mentions": [
+    "A001462",
+    "A093848",
+    "A169863",
+    "A169864"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum of the parts congruent to 0 mod k in the partitions of n into equal parts, 1 <= k <= n.",
+  "id": "A329323",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A034718",
+    "A038040",
+    "A126988",
+    "A130540",
+    "A134577",
+    "A244051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

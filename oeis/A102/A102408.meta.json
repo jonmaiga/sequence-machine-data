@@ -1,0 +1,23 @@
+{
+  "description": "Harmonic means associated with A090945.",
+  "id": "A102408",
+  "mentions": [
+    "A000005",
+    "A000043",
+    "A000203",
+    "A000396",
+    "A000668",
+    "A090945"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

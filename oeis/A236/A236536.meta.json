@@ -1,0 +1,25 @@
+{
+  "description": "Array T(n,k) read along antidiagonals: the composites of order of compositeness n in row n.",
+  "id": "A236536",
+  "mentions": [
+    "A002808",
+    "A006508",
+    "A022449",
+    "A059981",
+    "A135044",
+    "A236542"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

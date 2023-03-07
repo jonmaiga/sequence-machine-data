@@ -1,0 +1,20 @@
+{
+  "description": "List of prime pairs of the form (p, p+8).",
+  "id": "A156320",
+  "mentions": [
+    "A023202",
+    "A092402"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

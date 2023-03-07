@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the maximal width of a Reuleaux triangle avoiding all vertices of the integer square lattice.",
+  "id": "A244046",
+  "mentions": [
+    "A060708",
+    "A066666",
+    "A137615"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

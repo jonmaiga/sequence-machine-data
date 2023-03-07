@@ -1,0 +1,22 @@
+{
+  "description": "Maximum determinant of a circulant n X n matrix whose rows are permutations of [1,2,..,n].",
+  "id": "A328030",
+  "mentions": [
+    "A309985",
+    "A328029",
+    "A328031"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

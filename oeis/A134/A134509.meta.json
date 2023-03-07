@@ -1,0 +1,18 @@
+{
+  "description": "Triangular numbers remaining after arranging positive terms of A000217 in a triangle and removing an infinite number of \"^\"-shaped layers as described below.",
+  "id": "A134509",
+  "mentions": [
+    "A000217",
+    "A001844"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

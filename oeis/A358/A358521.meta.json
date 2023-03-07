@@ -1,0 +1,34 @@
+{
+  "description": "Sorted list of positions of first appearances in the sequence of Matula-Goebel numbers of standard ordered trees (A358506).",
+  "id": "A358521",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A014486",
+    "A061775",
+    "A066099",
+    "A127301",
+    "A196050",
+    "A206487",
+    "A214577",
+    "A358371",
+    "A358372",
+    "A358377",
+    "A358378",
+    "A358379",
+    "A358505",
+    "A358506",
+    "A358522"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3600*n^2 + n.",
+  "id": "A157861",
+  "mentions": [
+    "A157862",
+    "A157863"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

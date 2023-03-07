@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1/(2*L), where L is the conjectured Landau's constant A081760.",
+  "id": "A357318",
+  "mentions": [
+    "A073005",
+    "A081760",
+    "A175379",
+    "A203145"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

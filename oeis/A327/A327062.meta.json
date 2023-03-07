@@ -1,0 +1,31 @@
+{
+  "description": "Number of antichains of distinct sets covering a subset of {1..n} whose dual is a weak antichain.",
+  "id": "A327062",
+  "mentions": [
+    "A000372",
+    "A006126",
+    "A293606",
+    "A318099",
+    "A319639",
+    "A319721",
+    "A326704",
+    "A326853",
+    "A326910",
+    "A326950",
+    "A326968",
+    "A327018",
+    "A327020",
+    "A327057"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

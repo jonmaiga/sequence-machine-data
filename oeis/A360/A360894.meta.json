@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x * A(x * (1 - x)).",
+  "id": "A360894",
+  "mentions": [
+    "A127782",
+    "A360896",
+    "A360897"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Smallest number m such that u + (sum of base-5 digits of u) = m has exactly n solutions.",
+  "id": "A230867",
+  "mentions": [
+    "A006064",
+    "A230303",
+    "A230638",
+    "A230640",
+    "A230865",
+    "A230866",
+    "A230868",
+    "A238840",
+    "A238841",
+    "A238842",
+    "A238843"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

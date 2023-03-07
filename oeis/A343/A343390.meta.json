@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 + Product_{d|n, d < n} a(d).",
+  "id": "A343390",
+  "mentions": [
+    "A000058",
+    "A067824",
+    "A068334"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

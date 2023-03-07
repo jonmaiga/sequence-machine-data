@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = 4*a(A252463(n)) + (n mod 4).",
+  "id": "A292384",
+  "mentions": [
+    "A010873",
+    "A252463",
+    "A292243",
+    "A292380",
+    "A292381",
+    "A292382",
+    "A292383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

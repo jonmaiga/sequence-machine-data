@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=1} theta_3(x^(i*j))/theta_4(x^(i*j)), where theta_() is the Jacobi theta function.",
+  "id": "A308288",
+  "mentions": [
+    "A000005",
+    "A000122",
+    "A002448",
+    "A007096",
+    "A007425",
+    "A301554",
+    "A305050",
+    "A308286",
+    "A320967",
+    "A320970"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

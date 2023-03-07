@@ -1,0 +1,17 @@
+{
+  "description": "Primes which are at 2/3 of the distance between their neighbors.",
+  "id": "A267291",
+  "mentions": [
+    "A194581"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

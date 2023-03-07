@@ -1,0 +1,25 @@
+{
+  "description": "Number of chiral pairs of color patterns (set partitions) in a cycle of length n using 3 or fewer colors (subsets).",
+  "id": "A320743",
+  "mentions": [
+    "A002076",
+    "A056353",
+    "A059053",
+    "A182522",
+    "A304972",
+    "A320643",
+    "A320742"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

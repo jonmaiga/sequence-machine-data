@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum over all proper integer partitions of n of the previous terms.",
+  "id": "A214948",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

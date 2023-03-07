@@ -1,0 +1,19 @@
+{
+  "description": "Sigma(n) values in A115920.",
+  "id": "A216372",
+  "mentions": [
+    "A000203",
+    "A115920"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

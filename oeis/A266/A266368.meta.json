@@ -1,0 +1,19 @@
+{
+  "description": "The smallest prime formed by the concatenation of consecutive n-th powers beginning with \"1,\" plus a trailing \"1.\"",
+  "id": "A266368",
+  "mentions": [
+    "A019521",
+    "A019522"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

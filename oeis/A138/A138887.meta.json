@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are not Sophie Germain primes.",
+  "id": "A138887",
+  "mentions": [
+    "A001690",
+    "A005384",
+    "A053176",
+    "A062289",
+    "A138888",
+    "A138889",
+    "A138890",
+    "A138891",
+    "A156660"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

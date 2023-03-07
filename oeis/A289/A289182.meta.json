@@ -1,0 +1,19 @@
+{
+  "description": "Positions of odd semiprimes in A001358.",
+  "id": "A289182",
+  "mentions": [
+    "A001358",
+    "A115392"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

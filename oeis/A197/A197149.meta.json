@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the shortest distance from the x axis through (1,1) to the line y=3x.",
+  "id": "A197149",
+  "mentions": [
+    "A195284",
+    "A197008",
+    "A197032",
+    "A197049",
+    "A197148"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of product_{n=2..infinity} (n^9-1)/(n^9+1).",
+  "id": "A144668",
+  "mentions": [
+    "A090986"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

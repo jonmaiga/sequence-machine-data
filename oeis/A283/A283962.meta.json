@@ -1,0 +1,23 @@
+{
+  "description": "Interspersion of the signature sequence of sqrt(1/2).",
+  "id": "A283962",
+  "mentions": [
+    "A010503",
+    "A022775",
+    "A022776",
+    "A283939"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of \"ups\" and \"downs\" in the permutations of [n] if either a previous counted \"up\" (\"down\") or a \"void\" precedes an \"up\" (\"down\") which then will be counted also.",
+  "id": "A120928",
+  "mentions": [
+    "A028399",
+    "A052582",
+    "A062119",
+    "A097971"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

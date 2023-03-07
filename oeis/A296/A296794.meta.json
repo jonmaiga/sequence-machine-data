@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the arc length of the Golden Spiral inscribed inside a Golden Rectangle with a unit width.",
+  "id": "A296794",
+  "mentions": [
+    "A001622",
+    "A212224",
+    "A212225"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

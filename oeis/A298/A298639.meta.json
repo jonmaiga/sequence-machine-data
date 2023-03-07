@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the digital sum of k and the digital root of k have the same parity.",
+  "id": "A298639",
+  "mentions": [
+    "A007953",
+    "A010888",
+    "A039691",
+    "A113217",
+    "A179081",
+    "A298638"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

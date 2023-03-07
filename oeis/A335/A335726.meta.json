@@ -1,0 +1,19 @@
+{
+  "description": "Mean radius of the orbit of the hydrogen atom's electron, in Bohr radii.",
+  "id": "A335726",
+  "mentions": [
+    "A003671",
+    "A335727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Primorial deflation of the n-th highly composite number: the unique integer k such that A108951(k) = A002182(n).",
+  "id": "A329902",
+  "mentions": [
+    "A001222",
+    "A002182",
+    "A002183",
+    "A056239",
+    "A108951",
+    "A112778",
+    "A112779",
+    "A181815",
+    "A306802",
+    "A319626",
+    "A324381",
+    "A324382",
+    "A324581",
+    "A324582",
+    "A324888",
+    "A329040",
+    "A329605",
+    "A329900",
+    "A330743",
+    "A330748"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

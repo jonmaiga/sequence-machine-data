@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p of n into distinct parts such that max(p) > 1 + 2*(number of parts of p).",
+  "id": "A241093",
+  "mentions": [
+    "A000009",
+    "A241086",
+    "A241089",
+    "A241091",
+    "A241092"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

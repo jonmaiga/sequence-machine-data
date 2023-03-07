@@ -1,0 +1,17 @@
+{
+  "description": "Agreement numbers: number of nX3 arrays of the count of horizontal and vertical neighbors equal to the corresponding element in a random 0..3 nX3 array",
+  "id": "A220784",
+  "mentions": [
+    "A220786"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

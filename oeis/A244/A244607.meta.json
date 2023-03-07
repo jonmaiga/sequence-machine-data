@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (product of digits of k) - 1 is prime.",
+  "id": "A244607",
+  "mentions": [
+    "A007954",
+    "A008864",
+    "A081988",
+    "A089377"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that sigma(sigma(p-1)) is a power of 2.",
+  "id": "A276629",
+  "mentions": [
+    "A000203",
+    "A051027",
+    "A275674"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

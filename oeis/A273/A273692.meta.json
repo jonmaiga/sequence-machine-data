@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the denominator of 2*O(n+1) - O(n+2) where O(n) = n/2^n, the n-th Oresme number.",
+  "id": "A273692",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A000302",
+    "A004171",
+    "A006519",
+    "A016789",
+    "A067745",
+    "A075101",
+    "A075677",
+    "A209308"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

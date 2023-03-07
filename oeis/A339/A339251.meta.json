@@ -1,0 +1,18 @@
+{
+  "description": "List of dimensions for which there exist several non-isomorphic irreducible representations of E7.",
+  "id": "A339251",
+  "mentions": [
+    "A121736",
+    "A181746"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

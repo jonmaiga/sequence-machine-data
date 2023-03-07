@@ -1,0 +1,17 @@
+{
+  "description": "Zero followed by the terms of A032924 arranged to give the unique path to the n-th node of a complete, rooted and ordered binary tree.",
+  "id": "A244591",
+  "mentions": [
+    "A032924"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

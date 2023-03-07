@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(a(n - 1)) + r(n) for n >= 3, where r(3*k) = a(a(k)), r(3*k+1) = a(a(k)) and r(3*k+2) = a(n-a(k)), with a(0) = 0 and a(1) = a(2) = 1.",
+  "id": "A147665",
+  "mentions": [
+    "A004001",
+    "A140473",
+    "A143089",
+    "A143091",
+    "A147871"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

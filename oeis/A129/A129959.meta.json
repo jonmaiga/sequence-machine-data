@@ -1,0 +1,20 @@
+{
+  "description": "A129957(n) - n*(n-1)/2.",
+  "id": "A129959",
+  "mentions": [
+    "A129957",
+    "A129958"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:11",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

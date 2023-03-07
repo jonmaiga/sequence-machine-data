@@ -1,0 +1,22 @@
+{
+  "description": "Quasi-antiperfect numbers.",
+  "id": "A192287",
+  "mentions": [
+    "A066272",
+    "A066417",
+    "A073930",
+    "A192268",
+    "A192288"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

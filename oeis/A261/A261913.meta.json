@@ -1,0 +1,28 @@
+{
+  "description": "The palindromic order of n (defined in Comments).",
+  "id": "A261913",
+  "mentions": [
+    "A002113",
+    "A088601",
+    "A261423",
+    "A261675",
+    "A261907",
+    "A261910",
+    "A261911",
+    "A261912",
+    "A261914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

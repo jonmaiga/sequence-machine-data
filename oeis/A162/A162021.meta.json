@@ -1,0 +1,20 @@
+{
+  "description": "Triple-safe primes which are also triple-Sophie Germain primes.",
+  "id": "A162021",
+  "mentions": [
+    "A023272",
+    "A059767",
+    "A157358",
+    "A162019"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

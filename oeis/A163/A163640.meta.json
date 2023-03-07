@@ -1,0 +1,20 @@
+{
+  "description": "The radical of the swinging factorial A056040 for odd indices.",
+  "id": "A163640",
+  "mentions": [
+    "A056040",
+    "A080397",
+    "A163641",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

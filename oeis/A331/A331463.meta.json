@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k + 1 are both binary hoax numbers (A329936).",
+  "id": "A331463",
+  "mentions": [
+    "A019506",
+    "A050219",
+    "A329935",
+    "A329936",
+    "A331464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

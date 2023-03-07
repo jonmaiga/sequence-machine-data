@@ -1,0 +1,18 @@
+{
+  "description": "T(w,h) is the number of non-congruent triangles with distinct side lengths whose vertices with integer coordinates (x_i, y_i) all lie on the perimeter of a rectangle of width w and height h, with max(x_i)-min(x_i) = w and max(y_i)-min(y_i) = h.",
+  "id": "A354699",
+  "mentions": [
+    "A354700"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

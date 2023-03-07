@@ -1,0 +1,20 @@
+{
+  "description": "Floor of the solutions to c = exp(1 + n/c) for n >= 0, using recursion.",
+  "id": "A234604",
+  "mentions": [
+    "A072334",
+    "A073229",
+    "A141251"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

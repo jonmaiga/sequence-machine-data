@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n^(n+1) + 1.",
+  "id": "A110567",
+  "mentions": [
+    "A000312",
+    "A007519",
+    "A007778",
+    "A014566",
+    "A076951",
+    "A081209",
+    "A081215",
+    "A107218"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

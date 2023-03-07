@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. S(x) satisfies: C(x)^2 - S(x)^2 = 1 and C'(x)^2 + S'(x)^2 = 1, where C(x) is the e.g.f. of A290880.",
+  "id": "A290881",
+  "mentions": [
+    "A153302",
+    "A290879",
+    "A290880",
+    "A290882",
+    "A290883"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

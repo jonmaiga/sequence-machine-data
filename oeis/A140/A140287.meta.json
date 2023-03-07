@@ -1,0 +1,22 @@
+{
+  "description": "Table T(n,k)= -2T(n-1,k)+T(n-1,k+1) = T(n,k-4), 0<=n.",
+  "id": "A140287",
+  "mentions": [
+    "A008776",
+    "A140289",
+    "A140290"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

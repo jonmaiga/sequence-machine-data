@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(0,n) = T(n,n) = 1; and for n > 0, 0 < k < n, T(n,k) = C(n-1,k-1) XOR C(n-1,k), where C(n,k) is binomial coefficient (A007318) and XOR is bitwise-XOR (A003987).",
+  "id": "A285117",
+  "mentions": [
+    "A002262",
+    "A003056",
+    "A003987",
+    "A007318",
+    "A285114",
+    "A285116",
+    "A285118"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

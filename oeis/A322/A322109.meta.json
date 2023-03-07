@@ -1,0 +1,43 @@
+{
+  "description": "Heinz numbers of integer partitions that are the vertex-degrees of some set multipartition (multiset of nonempty sets) with no singletons.",
+  "id": "A322109",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000569",
+    "A025065",
+    "A035363",
+    "A056239",
+    "A058696",
+    "A061395",
+    "A110618",
+    "A112798",
+    "A265640",
+    "A283877",
+    "A300061",
+    "A306005",
+    "A318361",
+    "A320922",
+    "A320923",
+    "A320924",
+    "A320925",
+    "A334201",
+    "A340387",
+    "A344291",
+    "A344296",
+    "A344414",
+    "A344415",
+    "A344416"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

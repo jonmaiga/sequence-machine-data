@@ -1,0 +1,21 @@
+{
+  "description": "Simple continued fraction expansion of Gamma(exp(gamma)+1).",
+  "id": "A328339",
+  "mentions": [
+    "A073004",
+    "A079650",
+    "A094644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

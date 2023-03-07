@@ -1,0 +1,22 @@
+{
+  "description": "Numbers <= 10^6 with valid Luhn mod 10 check digit, sorted first by check digit, then lexicographically.",
+  "id": "A249855",
+  "mentions": [
+    "A093018",
+    "A249854"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

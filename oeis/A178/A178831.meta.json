@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array T(n,k) = binomial(n+1,2)*(n^k - (n-1)^k) read by antidiagonals.",
+  "id": "A178831",
+  "mentions": [
+    "A068156"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

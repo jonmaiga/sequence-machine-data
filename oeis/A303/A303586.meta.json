@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n that contain no isolated singletons.",
+  "id": "A303586",
+  "mentions": [
+    "A211694",
+    "A303587",
+    "A303588"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

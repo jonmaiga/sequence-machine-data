@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the total area that is visible in the perspective view of the stepped pyramid with n levels described in A245092.",
+  "id": "A299692",
+  "mentions": [
+    "A002378",
+    "A024916",
+    "A045943",
+    "A153485",
+    "A196020",
+    "A224880",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A244050",
+    "A245092",
+    "A262626",
+    "A328366"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

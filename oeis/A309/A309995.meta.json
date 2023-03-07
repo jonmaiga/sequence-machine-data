@@ -1,0 +1,21 @@
+{
+  "description": "Balanced septenary enumeration (or balanced septenary representation) of integers; write n in septenary and then replace 4's with (-3),s, 5's with (-2)'s, and 6's with (-1)'s.",
+  "id": "A309995",
+  "mentions": [
+    "A007093",
+    "A117966",
+    "A309991",
+    "A319047"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

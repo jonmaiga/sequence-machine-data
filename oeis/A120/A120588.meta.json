@@ -1,0 +1,24 @@
+{
+  "description": "G.f. is 1 + x*c(x), where c(x) is the g.f. of the Catalan numbers (A000108).",
+  "id": "A120588",
+  "mentions": [
+    "A000108",
+    "A001850",
+    "A026641",
+    "A120589",
+    "A120590",
+    "A120607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

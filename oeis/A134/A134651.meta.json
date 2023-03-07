@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are the sum of two terms from A001043.",
+  "id": "A134651",
+  "mentions": [
+    "A001043",
+    "A134650"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

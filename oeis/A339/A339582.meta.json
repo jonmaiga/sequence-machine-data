@@ -1,0 +1,18 @@
+{
+  "description": "Primes p = 8*r-1 such that all the prime factors of r are 7 mod 12.",
+  "id": "A339582",
+  "mentions": [
+    "A007522",
+    "A339579"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

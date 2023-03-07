@@ -1,0 +1,22 @@
+{
+  "description": "Power ceiling sequence of 2+sqrt(6).",
+  "id": "A218985",
+  "mentions": [
+    "A090017",
+    "A123347",
+    "A214992",
+    "A218984"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

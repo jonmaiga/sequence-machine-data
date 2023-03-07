@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+193)^2 = y^2.",
+  "id": "A185394",
+  "mentions": [
+    "A206426"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

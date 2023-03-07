@@ -1,0 +1,21 @@
+{
+  "description": "Chromatic invariant of the n X n king graph.",
+  "id": "A295177",
+  "mentions": [
+    "A182517",
+    "A212208",
+    "A212209",
+    "A289136"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

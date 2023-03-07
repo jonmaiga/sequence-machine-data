@@ -1,0 +1,21 @@
+{
+  "description": "A triangle sequence of holes in a triangle sequence numbering of n^3+m^3 (A003325) by comparing the n level to the 2*n level.",
+  "id": "A143186",
+  "mentions": [
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

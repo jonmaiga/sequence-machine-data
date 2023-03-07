@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of f(-x) * f(-x^10) / f(-x^4, -x^6) in powers of x where f() is Ramanujan's two-variable theta function.",
+  "id": "A113431",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003106",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:05",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

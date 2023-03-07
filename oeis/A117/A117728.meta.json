@@ -1,0 +1,20 @@
+{
+  "description": "A117726(n)/2.",
+  "id": "A117728",
+  "mentions": [
+    "A005884",
+    "A045834",
+    "A117726"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

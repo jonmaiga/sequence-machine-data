@@ -1,0 +1,30 @@
+{
+  "description": "Starting numbers which reach a new record high value when iterating the map x->A359194(x) (binary complement of 3n).",
+  "id": "A359221",
+  "mentions": [
+    "A035327",
+    "A359194",
+    "A359207",
+    "A359208",
+    "A359209",
+    "A359215",
+    "A359218",
+    "A359219",
+    "A359220",
+    "A359222",
+    "A359255"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

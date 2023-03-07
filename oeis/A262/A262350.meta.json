@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 2. For n>1, let s denote the binary string of a(n-1) with the leftmost 1 and following consecutive 0's removed. Then a(n) is the smallest prime not yet present whose binary representation begins with s.",
+  "id": "A262350",
+  "mentions": [
+    "A000040",
+    "A080165",
+    "A080166",
+    "A262283",
+    "A262284",
+    "A262285",
+    "A262286",
+    "A262287",
+    "A262365"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

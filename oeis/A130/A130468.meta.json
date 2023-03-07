@@ -1,0 +1,20 @@
+{
+  "description": "Primes q of the form a^3+b^2, such that p =A130467(n)= a^2+b^3 is prime and smaller than q; p < q ; b < a.",
+  "id": "A130468",
+  "mentions": [
+    "A000040",
+    "A130467"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

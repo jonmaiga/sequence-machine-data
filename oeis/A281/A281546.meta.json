@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 27*n + 2.",
+  "id": "A281546",
+  "mentions": [
+    "A141949",
+    "A281334"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:33",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

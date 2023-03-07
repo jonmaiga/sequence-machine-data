@@ -1,0 +1,25 @@
+{
+  "description": "Zuckerman numbers which divided by the product of their digits give integers which are also divisible by the product of their digits, and so on, until result is 1.",
+  "id": "A343744",
+  "mentions": [
+    "A002275",
+    "A002473",
+    "A007602",
+    "A114440",
+    "A288069",
+    "A343681"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

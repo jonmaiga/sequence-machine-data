@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the binary length of A324878(n).",
+  "id": "A324862",
+  "mentions": [
+    "A000040",
+    "A000523",
+    "A070939",
+    "A324861",
+    "A324864",
+    "A324874",
+    "A324878"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

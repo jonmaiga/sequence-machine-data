@@ -1,0 +1,18 @@
+{
+  "description": "Numbers such that the outer 2 digits are 9 and the inner digits are 5.",
+  "id": "A108903",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

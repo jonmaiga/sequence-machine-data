@@ -1,0 +1,21 @@
+{
+  "description": "G.f. equals the logarithm of the e.g.f. of A296174.",
+  "id": "A296175",
+  "mentions": [
+    "A296171",
+    "A296173",
+    "A296174",
+    "A296177"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

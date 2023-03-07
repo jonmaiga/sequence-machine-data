@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n having population standard deviation >= 2.",
+  "id": "A238662",
+  "mentions": [
+    "A000041",
+    "A238616",
+    "A238658",
+    "A238659",
+    "A238660",
+    "A238661"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

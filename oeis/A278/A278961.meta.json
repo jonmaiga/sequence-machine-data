@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: row n consists of k, 1<=k<=n, such that binomial(n,k) is divisible by gcd(n,k).",
+  "id": "A278961",
+  "mentions": [
+    "A014847"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite integers m such that A006497(m) == 3 (mod m).",
+  "id": "A335669",
+  "mentions": [
+    "A005845",
+    "A006497",
+    "A330276",
+    "A335670",
+    "A335671"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

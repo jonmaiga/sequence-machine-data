@@ -1,0 +1,17 @@
+{
+  "description": "Central terms of triangle A340934.",
+  "id": "A340936",
+  "mentions": [
+    "A340934"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

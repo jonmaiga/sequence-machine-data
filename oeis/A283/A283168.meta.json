@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of exp( Sum_{n>=1} -sigma(8*n)*x^n/n ) in powers of x.",
+  "id": "A283168",
+  "mentions": [
+    "A115110",
+    "A185654",
+    "A282937",
+    "A282942",
+    "A283120",
+    "A283122",
+    "A283163",
+    "A283164",
+    "A283169"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

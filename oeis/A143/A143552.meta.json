@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^5*A(-x)^2.",
+  "id": "A143552",
+  "mentions": [
+    "A143550",
+    "A143551",
+    "A143553",
+    "A143554"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

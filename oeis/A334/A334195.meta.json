@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0, then after the first differences of A064415.",
+  "id": "A334195",
+  "mentions": [
+    "A003434",
+    "A054725",
+    "A064415",
+    "A334090",
+    "A334091",
+    "A334196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

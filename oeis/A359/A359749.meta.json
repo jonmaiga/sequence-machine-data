@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k and k+1 do not share a common exponent in their prime factorizations.",
+  "id": "A359749",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A001694",
+    "A002496",
+    "A049533",
+    "A060355",
+    "A075408",
+    "A078324",
+    "A078325",
+    "A359747"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

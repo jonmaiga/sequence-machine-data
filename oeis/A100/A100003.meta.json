@@ -1,0 +1,25 @@
+{
+  "description": "Prime numbers p such that the concatenation of all odd primes up through p in decreasing order is prime.",
+  "id": "A100003",
+  "mentions": [
+    "A046284",
+    "A092447",
+    "A092448",
+    "A099070",
+    "A099071",
+    "A099073"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

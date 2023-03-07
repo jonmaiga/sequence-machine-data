@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = sin(A(x)) + cos(A(x)).",
+  "id": "A190392",
+  "mentions": [
+    "A001586",
+    "A012244",
+    "A028296",
+    "A145271"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

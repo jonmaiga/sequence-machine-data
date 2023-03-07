@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered ways to write n as x*(3*x-1)/2 + y*(3*y+1)/2 + z*(3*z+1), where x and y are nonnegative integers and z is an integer.",
+  "id": "A256855",
+  "mentions": [
+    "A000326",
+    "A001318",
+    "A005449",
+    "A253187",
+    "A254573",
+    "A254574"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

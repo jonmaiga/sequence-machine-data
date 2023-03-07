@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest prime > a(n-1) such that a(n)+4n is also prime.",
+  "id": "A237057",
+  "mentions": [
+    "A108184"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest digit of all divisors of n.",
+  "id": "A209929",
+  "mentions": [
+    "A037278",
+    "A054054",
+    "A168046",
+    "A168184",
+    "A176558",
+    "A209928",
+    "A209931"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

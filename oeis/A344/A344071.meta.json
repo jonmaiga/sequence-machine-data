@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-step self-avoiding cycles on the Laves graph.",
+  "id": "A344071",
+  "mentions": [
+    "A001337",
+    "A038620",
+    "A046944",
+    "A344040",
+    "A344070"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

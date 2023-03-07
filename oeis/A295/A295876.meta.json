@@ -1,0 +1,19 @@
+{
+  "description": "Restricted growth sequence transform of A023900, Product_{p|n} (1-p).",
+  "id": "A295876",
+  "mentions": [
+    "A023900",
+    "A092248",
+    "A295877"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

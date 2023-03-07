@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + (n+1)*(n+2)^(n+3).",
+  "id": "A143857",
+  "mentions": [
+    "A007778",
+    "A061250"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

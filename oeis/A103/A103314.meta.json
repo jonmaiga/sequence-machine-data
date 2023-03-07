@@ -1,0 +1,36 @@
+{
+  "description": "Total number of subsets of the n-th roots of 1 that add to zero.",
+  "id": "A103314",
+  "mentions": [
+    "A001037",
+    "A005117",
+    "A006533",
+    "A006561",
+    "A006600",
+    "A007569",
+    "A007678",
+    "A007947",
+    "A070894",
+    "A070925",
+    "A103306",
+    "A107753",
+    "A107754",
+    "A107847",
+    "A107861",
+    "A110981",
+    "A322366"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

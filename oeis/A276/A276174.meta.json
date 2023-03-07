@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that A276173(p) = p.",
+  "id": "A276174",
+  "mentions": [
+    "A030187",
+    "A276173",
+    "A276193"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

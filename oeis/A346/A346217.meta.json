@@ -1,0 +1,19 @@
+{
+  "description": "Integers m, with k digits, such that Sum_{i=1..k} (m without its i-th digit)/(its i-th digit) is an integer.",
+  "id": "A346217",
+  "mentions": [
+    "A052382",
+    "A346206"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

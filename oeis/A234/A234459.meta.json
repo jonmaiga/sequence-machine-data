@@ -1,0 +1,18 @@
+{
+  "description": "Real part of the product of all the integer complex numbers in the square [1,1] to [n,n].",
+  "id": "A234459",
+  "mentions": [
+    "A000142",
+    "A234460"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

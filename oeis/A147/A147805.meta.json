@@ -1,0 +1,26 @@
+{
+  "description": "Least m coprime to 11 minimizing A007947(m*(11^n-m)).",
+  "id": "A147805",
+  "mentions": [
+    "A007947",
+    "A147298",
+    "A147798",
+    "A147799",
+    "A147800",
+    "A147801",
+    "A147802",
+    "A147803",
+    "A147804"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

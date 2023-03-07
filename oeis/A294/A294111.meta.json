@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the smaller parts of the partitions of n into two parts with larger part prime.",
+  "id": "A294111",
+  "mentions": [
+    "A010051",
+    "A294109"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

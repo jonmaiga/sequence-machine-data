@@ -1,0 +1,18 @@
+{
+  "description": "a(1) is 4. a(n) is the least semiprime q (A001358) greater than p = a(n-1), such that p/q is a new minimum.",
+  "id": "A277343",
+  "mentions": [
+    "A001358",
+    "A265418"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

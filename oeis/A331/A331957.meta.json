@@ -1,0 +1,26 @@
+{
+  "description": "Number of rooted chains in set partitions of {1, 2, ..., n}.",
+  "id": "A331957",
+  "mentions": [
+    "A000110",
+    "A006472",
+    "A008277",
+    "A048993",
+    "A058692",
+    "A328044",
+    "A330301",
+    "A330302",
+    "A331956"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of entries in the second last blocks of all set partitions of [n].",
+  "id": "A286433",
+  "mentions": [
+    "A286416"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(n, n - tau(n)).",
+  "id": "A258468",
+  "mentions": [
+    "A000005",
+    "A005563",
+    "A009230"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

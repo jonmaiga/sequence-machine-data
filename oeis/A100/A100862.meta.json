@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-matchings of the corona K'(n) of the complete graph K(n) and the complete graph K(1); in other words, K'(n) is the graph constructed from K(n) by adding for each vertex v a new vertex v' and the edge vv'.",
+  "id": "A100862",
+  "mentions": [
+    "A005425",
+    "A100861",
+    "A107102"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

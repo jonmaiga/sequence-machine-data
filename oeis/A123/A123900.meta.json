@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n+3)!/(d(n)*d(n+1)*d(n+2)) where d(n) = cancellation factor in reducing Sum_{k=0...n} 1/k! to lowest terms.",
+  "id": "A123900",
+  "mentions": [
+    "A000522",
+    "A061354",
+    "A093101",
+    "A123899",
+    "A123901"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

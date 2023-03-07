@@ -1,0 +1,21 @@
+{
+  "description": "Number of strings of n decimal digits that contain at least one \"0\" digit that is not part of a string of two or more consecutive \"0\" digits.",
+  "id": "A255371",
+  "mentions": [
+    "A255372",
+    "A255380"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

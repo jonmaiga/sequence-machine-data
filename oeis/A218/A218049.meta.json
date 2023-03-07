@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that the n numbers k^2 + 1, (k+1)^2 + 1, ..., (k+n-1)^2 + 1 are divisible by a square.",
+  "id": "A218049",
+  "mentions": [
+    "A002522",
+    "A217798",
+    "A218048"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

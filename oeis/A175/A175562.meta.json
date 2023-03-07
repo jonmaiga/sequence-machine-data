@@ -1,0 +1,18 @@
+{
+  "description": "The periodic part of the decimal expansion of 1/Fibonacci(n) with any initial zeros placed at the end of the cycle.",
+  "id": "A175562",
+  "mentions": [
+    "A036275"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "First of a run of 6 consecutive numbers with same prime signature.",
+  "id": "A218455",
+  "mentions": [
+    "A006558",
+    "A034173",
+    "A034174",
+    "A052213",
+    "A052214",
+    "A083790",
+    "A175590",
+    "A218448",
+    "A218865"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle where a(1,1)=1. a(n,m) = GCD of m and sum of terms in row (n-1).",
+  "id": "A113926",
+  "mentions": [
+    "A100675"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

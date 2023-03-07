@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are divisible by 5 and not by 4, and whose reverse is divisible by 4 and not by 5.",
+  "id": "A350233",
+  "mentions": [
+    "A004086",
+    "A008587",
+    "A350232"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the asymptotic density of numbers whose number of divisors is a power of 2 (A036537).",
+  "id": "A327839",
+  "mentions": [
+    "A036537",
+    "A036538"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

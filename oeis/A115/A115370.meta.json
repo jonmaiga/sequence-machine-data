@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of first zero of BesselJ(2,z).",
+  "id": "A115370",
+  "mentions": [
+    "A115368",
+    "A115369",
+    "A115371",
+    "A115372",
+    "A115373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

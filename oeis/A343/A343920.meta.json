@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k=4,6,8,...even} log(k)/(k^2-4) .",
+  "id": "A343920",
+  "mentions": [
+    "A002162",
+    "A340440"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

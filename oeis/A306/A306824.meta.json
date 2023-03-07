@@ -1,0 +1,20 @@
+{
+  "description": "Integer k such that digsum(k) = digsum (k/p(1)) = digsum (k/p(2)) = ... for all prime factors p(i) of k, where digsum(k) = A007953(k) is the digital sum of k.",
+  "id": "A306824",
+  "mentions": [
+    "A007953",
+    "A305548",
+    "A306761"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

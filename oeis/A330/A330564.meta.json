@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for 1-skeleton of small stellated dodecahedron with respect to a trivalent node (a valley).",
+  "id": "A330564",
+  "mentions": [
+    "A298808",
+    "A329500",
+    "A330555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

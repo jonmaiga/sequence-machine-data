@@ -1,0 +1,23 @@
+{
+  "description": "In the primorial base expansion of n, replace each place value, say A002110(k) with k >= 0, by (-1)^k * A002110(k).",
+  "id": "A352112",
+  "mentions": [
+    "A002110",
+    "A053985",
+    "A065369",
+    "A073835",
+    "A108731",
+    "A352111"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

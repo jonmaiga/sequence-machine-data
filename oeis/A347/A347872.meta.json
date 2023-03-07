@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k and A003415(sigma(k)) have the same parity.",
+  "id": "A347872",
+  "mentions": [
+    "A000035",
+    "A000203",
+    "A000396",
+    "A003415",
+    "A342922",
+    "A342925",
+    "A347870",
+    "A347871",
+    "A347873",
+    "A347874",
+    "A347883"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

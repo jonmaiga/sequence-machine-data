@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the complexity index B of the path graph on n vertices (n>=2).",
+  "id": "A206484",
+  "mentions": [
+    "A206485"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

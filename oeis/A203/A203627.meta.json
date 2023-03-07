@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which are both 9-gonal (nonagonal) and 10-gonal (decagonal).",
+  "id": "A203627",
+  "mentions": [
+    "A001106",
+    "A001107",
+    "A203628",
+    "A203629"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:53:49",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

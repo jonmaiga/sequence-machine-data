@@ -1,0 +1,25 @@
+{
+  "description": "Sequence A255412 sorted into ascending order, with duplicates removed.",
+  "id": "A254035",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A159886",
+    "A252997",
+    "A254791",
+    "A255334",
+    "A255335",
+    "A255412"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

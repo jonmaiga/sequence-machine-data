@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*Fibonacci(n) - Sum_{i=0..n-1} Fibonacci(i).",
+  "id": "A190062",
+  "mentions": [
+    "A000071",
+    "A045925",
+    "A122491"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

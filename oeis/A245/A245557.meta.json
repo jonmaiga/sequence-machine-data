@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n>=0, 0 <= k <= 2n) = number of triples (u,v,w) with entries in the range 0 to n which have some pair adding up to k and in which at least one of u,v,w is equal to n.",
+  "id": "A245557",
+  "mentions": [
+    "A082040",
+    "A245556"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

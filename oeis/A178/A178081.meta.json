@@ -1,0 +1,21 @@
+{
+  "description": "A (1,1) Somos-4 sequence.",
+  "id": "A178081",
+  "mentions": [
+    "A174017",
+    "A178080"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

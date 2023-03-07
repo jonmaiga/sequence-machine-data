@@ -1,0 +1,18 @@
+{
+  "description": "Number of terms k such that difference between halving and tripling steps in Collatz (3x+1) trajectory of k is n.",
+  "id": "A213678",
+  "mentions": [
+    "A220071",
+    "A222599"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

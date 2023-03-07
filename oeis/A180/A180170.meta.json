@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, a(n) = n*a(n-1)*A014963(n).",
+  "id": "A180170",
+  "mentions": [
+    "A003418",
+    "A014963"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

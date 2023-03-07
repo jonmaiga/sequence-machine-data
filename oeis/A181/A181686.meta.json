@@ -1,0 +1,18 @@
+{
+  "description": "Primorials (A002110) whose decimal expansion sets a record for having more of any single digit than its predecessor.",
+  "id": "A181686",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

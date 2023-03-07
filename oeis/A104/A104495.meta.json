@@ -1,0 +1,24 @@
+{
+  "description": "Matrix inverse of triangle A099602, read by rows, where row n of A099602 equals the inverse binomial transform of column n of the triangle of trinomial coefficients (A027907).",
+  "id": "A104495",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014143",
+    "A027907",
+    "A099602",
+    "A104496"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

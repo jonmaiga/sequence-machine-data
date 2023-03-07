@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 5 0..1 arrays with row sums and column sums unimodal.",
+  "id": "A223714",
+  "mentions": [
+    "A223716"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

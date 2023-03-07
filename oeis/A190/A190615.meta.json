@@ -1,0 +1,36 @@
+{
+  "description": "Expansion of f(x^2) * f(x^3) / (chi(x) * chi(x^6)) in powers of x where f(), chi() are Ramanujan theta functions.",
+  "id": "A190615",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A113700",
+    "A121373",
+    "A128580",
+    "A128583",
+    "A128591",
+    "A129402",
+    "A134177",
+    "A257920",
+    "A259895",
+    "A259896",
+    "A260089",
+    "A260110",
+    "A260118",
+    "A260308"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:27",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

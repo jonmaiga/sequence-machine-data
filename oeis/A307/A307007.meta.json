@@ -1,0 +1,37 @@
+{
+  "description": "a(n) is defined by the condition that the decimal expansion of the Sum_{n>=1} 1/(n*a(n)) = 1/(1*a(1)) + 1/(2*a(2)) + 1/(3*a(3)) + ... begins with the concatenation of these numbers; also a(1) = 3 and a(n) > a(n-1).",
+  "id": "A307007",
+  "mentions": [
+    "A304288",
+    "A304289",
+    "A305661",
+    "A305662",
+    "A305663",
+    "A305664",
+    "A305665",
+    "A305666",
+    "A305667",
+    "A305668",
+    "A320023",
+    "A320284",
+    "A320306",
+    "A320307",
+    "A320308",
+    "A320309",
+    "A320335",
+    "A320336",
+    "A324222",
+    "A324223"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

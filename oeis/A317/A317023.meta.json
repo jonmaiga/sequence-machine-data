@@ -1,0 +1,38 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by ascending antidiagonals, where the sequence of row n is the expansion of (1-x^(n+1))/((1-x)^(n+1)).",
+  "id": "A317023",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000984",
+    "A005893",
+    "A008486",
+    "A008487",
+    "A008488",
+    "A008489",
+    "A008490",
+    "A008491",
+    "A008492",
+    "A008493",
+    "A008494",
+    "A008495",
+    "A040000",
+    "A087156",
+    "A099036",
+    "A106510",
+    "A173265"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

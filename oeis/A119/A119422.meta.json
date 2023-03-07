@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of coefficients in a continued fraction expansion of the Gamma function.",
+  "id": "A119422",
+  "mentions": [
+    "A119423"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

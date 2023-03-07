@@ -1,0 +1,22 @@
+{
+  "description": "Determinant of n X n matrix containing the first n^2 4-almost primes in increasing order.",
+  "id": "A118779",
+  "mentions": [
+    "A014613",
+    "A067276",
+    "A118713",
+    "A118770",
+    "A118772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

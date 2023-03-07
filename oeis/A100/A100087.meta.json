@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x/(sqrt(1-4*x^2) + x - 1).",
+  "id": "A100087",
+  "mentions": [
+    "A000108",
+    "A100067",
+    "A100088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

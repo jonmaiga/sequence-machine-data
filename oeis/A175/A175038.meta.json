@@ -1,0 +1,22 @@
+{
+  "description": "In the sequence of positive integers A000027, number of digits between successive primes.",
+  "id": "A175038",
+  "mentions": [
+    "A000027",
+    "A006880",
+    "A033873",
+    "A046933",
+    "A113610"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

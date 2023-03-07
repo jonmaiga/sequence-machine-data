@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest binary palindrome of the form floor(n/2^k) with k >= 0.",
+  "id": "A330717",
+  "mentions": [
+    "A006995",
+    "A070939",
+    "A215467"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of divisors of N, where N = concatenation of n taken n times.",
+  "id": "A110758",
+  "mentions": [
+    "A000005",
+    "A000461",
+    "A110756",
+    "A110757",
+    "A110759",
+    "A110760"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Start a spiral of numbers on a hexagonal tiling, with the initial hexagon as a(1) = 1. a(n) is the smallest positive integer not equal to or previously adjacent to its neighbors.",
+  "id": "A272573",
+  "mentions": [
+    "A047932",
+    "A260643"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

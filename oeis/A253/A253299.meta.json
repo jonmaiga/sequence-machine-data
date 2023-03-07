@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of integral_{x=0..1} x^(x^2) dx.",
+  "id": "A253299",
+  "mentions": [
+    "A073009",
+    "A083648",
+    "A253300"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

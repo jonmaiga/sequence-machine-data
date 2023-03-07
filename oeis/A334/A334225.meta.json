@@ -1,0 +1,21 @@
+{
+  "description": "The values n where A334148(n) = n.",
+  "id": "A334225",
+  "mentions": [
+    "A005132",
+    "A334148",
+    "A334149",
+    "A334219"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

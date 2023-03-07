@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (3*n + 1)!/(n!)^3.",
+  "id": "A331322",
+  "mentions": [
+    "A000108",
+    "A117671",
+    "A331431"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

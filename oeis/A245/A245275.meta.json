@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sum_{r in Z}(1/r^2) where Z is the set of all nontrivial zeros r of the Riemann zeta function.",
+  "id": "A245275",
+  "mentions": [
+    "A074760",
+    "A082633",
+    "A195423",
+    "A245276"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

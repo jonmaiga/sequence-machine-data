@@ -1,0 +1,20 @@
+{
+  "description": "Maximum length of 4 finite snakes in the Snake Number Problem with n-periodic instructions in an infinite square grid (see Comments).",
+  "id": "A354916",
+  "mentions": [
+    "A353176",
+    "A353234",
+    "A354915"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 4,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

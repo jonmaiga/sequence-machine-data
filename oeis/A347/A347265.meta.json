@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers in the order of their first appearance in the 3x+1 sequences.",
+  "id": "A347265",
+  "mentions": [
+    "A000027",
+    "A006370",
+    "A263716",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A178609(k-1)=A178609(k)=A178609(k+1).",
+  "id": "A178951",
+  "mentions": [
+    "A178609"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

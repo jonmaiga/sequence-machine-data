@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled rooted trees with n nodes with every leaf at the same height.",
+  "id": "A238372",
+  "mentions": [
+    "A048816"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

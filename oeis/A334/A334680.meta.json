@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the total number of down-steps after the final up-step in all 2-Dyck paths of length 3*n (n up-steps and 2*n down-steps).",
+  "id": "A334680",
+  "mentions": [
+    "A001764",
+    "A062745",
+    "A280759"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:41:07",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

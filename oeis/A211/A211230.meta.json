@@ -1,0 +1,22 @@
+{
+  "description": "Matrix square of lower triangular array A211226.",
+  "id": "A211230",
+  "mentions": [
+    "A211226",
+    "A211227",
+    "A211231"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

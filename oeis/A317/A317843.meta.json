@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of Stern's diatomic sequence (A002487).",
+  "id": "A317843",
+  "mentions": [
+    "A002487",
+    "A317839",
+    "A317841",
+    "A317842"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

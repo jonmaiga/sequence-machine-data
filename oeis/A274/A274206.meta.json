@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the last nonzero digit of n followed by all the trailing zeros of n.",
+  "id": "A274206",
+  "mentions": [
+    "A006519",
+    "A010879",
+    "A037124",
+    "A160094"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

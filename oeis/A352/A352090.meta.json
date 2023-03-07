@@ -1,0 +1,37 @@
+{
+  "description": "Numbers k such that k and k+1 are both tribonacci-Niven numbers (A352089).",
+  "id": "A352090",
+  "mentions": [
+    "A000073",
+    "A042964",
+    "A278038",
+    "A278043",
+    "A328205",
+    "A328209",
+    "A328213",
+    "A330927",
+    "A330931",
+    "A331086",
+    "A331820",
+    "A333427",
+    "A334309",
+    "A342427",
+    "A344342",
+    "A351715",
+    "A351720",
+    "A352089",
+    "A352091",
+    "A352092"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

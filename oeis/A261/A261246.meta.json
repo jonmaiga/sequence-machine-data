@@ -1,0 +1,28 @@
+{
+  "description": "Positive integers D such that the generalized Pell equation X^2 - D Y^2 = 2 is soluble.",
+  "id": "A261246",
+  "mentions": [
+    "A000037",
+    "A000217",
+    "A001132",
+    "A004771",
+    "A007522",
+    "A033313",
+    "A033317",
+    "A038873",
+    "A261247",
+    "A261248",
+    "A263010",
+    "A264352"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

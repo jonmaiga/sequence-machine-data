@@ -1,0 +1,20 @@
+{
+  "description": "Minimal polygon values for a certain polygon problem leading to an approximation of Pi.",
+  "id": "A121500",
+  "mentions": [
+    "A121501",
+    "A121503"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

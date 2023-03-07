@@ -1,0 +1,22 @@
+{
+  "description": "Index of the least significant digit > 1 in the primorial base expansion of A276086(n), 0 if no such digit exists.",
+  "id": "A328829",
+  "mentions": [
+    "A276086",
+    "A276087",
+    "A277885",
+    "A328828",
+    "A328836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

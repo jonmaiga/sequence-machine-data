@@ -1,0 +1,26 @@
+{
+  "description": "Directions of edges in a plane-filling curve of order 13.",
+  "id": "A265671",
+  "mentions": [
+    "A029883",
+    "A035263",
+    "A060236",
+    "A080846",
+    "A156595",
+    "A175337",
+    "A176405",
+    "A176416",
+    "A229214",
+    "A234434"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

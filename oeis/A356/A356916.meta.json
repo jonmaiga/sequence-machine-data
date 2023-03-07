@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle A(n, q) = total number of labeled P_4 - free chordal graphs on n vertices and q edges, read by rows; also companion triangle to A058865.",
+  "id": "A356916",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A058865"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that contain the product of any two adjacent digits as a substring, and have at least one pair of adjacent digits > 1.",
+  "id": "A203566",
+  "mentions": [
+    "A198298",
+    "A203565",
+    "A203569",
+    "A210013",
+    "A210020"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

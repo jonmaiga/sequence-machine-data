@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1) but phi(k) != phi(k+1), where s(k) = phi(k) + phi(phi(k)) + ... + 1 is the sum of iterated phi (A092693).",
+  "id": "A291177",
+  "mentions": [
+    "A001274",
+    "A092693"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

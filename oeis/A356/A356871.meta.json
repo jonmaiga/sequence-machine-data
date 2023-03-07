@@ -1,0 +1,22 @@
+{
+  "description": "Primitive coreful abundant numbers (second definition): coreful abundant numbers (A308053) that are powerful numbers (A001694).",
+  "id": "A356871",
+  "mentions": [
+    "A001694",
+    "A057723",
+    "A307959",
+    "A308053",
+    "A328136",
+    "A339940"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

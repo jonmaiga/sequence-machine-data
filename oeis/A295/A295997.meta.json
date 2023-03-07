@@ -1,0 +1,23 @@
+{
+  "description": "Least composite k such that d^k == d (mod k) for every divisor d of n.",
+  "id": "A295997",
+  "mentions": [
+    "A000790",
+    "A002808",
+    "A002997",
+    "A007947",
+    "A066277",
+    "A108574"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

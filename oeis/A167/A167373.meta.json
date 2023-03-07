@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1+x)*(3*x+1)/(1+x+x^2).",
+  "id": "A167373",
+  "mentions": [
+    "A135929",
+    "A137276",
+    "A138034"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:23",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

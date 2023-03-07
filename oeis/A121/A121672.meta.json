@@ -1,0 +1,21 @@
+{
+  "description": "Real part of (n + i)^5.",
+  "id": "A121672",
+  "mentions": [
+    "A080663",
+    "A121670",
+    "A121671"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:05:55",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

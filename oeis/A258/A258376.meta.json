@@ -1,0 +1,19 @@
+{
+  "description": "Number of edges connecting the subgraph on {1, ..., n} with the complement in the minimal graph on positive natural numbers where degree(n) equals n.",
+  "id": "A258376",
+  "mentions": [
+    "A005206",
+    "A183137"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

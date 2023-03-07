@@ -1,0 +1,18 @@
+{
+  "description": "The number of n X n symmetric real (0,1) matrices whose eigenvalues are all integers.",
+  "id": "A326928",
+  "mentions": [
+    "A003024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

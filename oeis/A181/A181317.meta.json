@@ -1,0 +1,24 @@
+{
+  "description": "Triangle in which n-th row lists all partitions of n, in the order of increasing smallest numbers of prime signatures.",
+  "id": "A181317",
+  "mentions": [
+    "A036036",
+    "A036037",
+    "A080576",
+    "A080577",
+    "A139100",
+    "A181087",
+    "A182937"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

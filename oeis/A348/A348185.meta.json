@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k in a set of three consecutive triangular numbers that are sphenic.",
+  "id": "A348185",
+  "mentions": [
+    "A000217",
+    "A007304",
+    "A128896",
+    "A349696"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

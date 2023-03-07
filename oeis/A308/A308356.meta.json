@@ -1,0 +1,31 @@
+{
+  "description": "A(n,k) = (1/k!) * Sum_{i_1=1..n} Sum_{i_2=1..n} ... Sum_{i_k=1..n} (-1)^(i_1 + i_2 + ... + i_k) * multinomial(i_1 + i_2 + ... + i_k; i_1, i_2, ..., i_k), square array A(n,k) read by antidiagonals, for n >= 0, k >= 0.",
+  "id": "A308356",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000035",
+    "A033999",
+    "A144510",
+    "A278990",
+    "A307349",
+    "A307350",
+    "A307351",
+    "A308327",
+    "A308363",
+    "A308389",
+    "A308390"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

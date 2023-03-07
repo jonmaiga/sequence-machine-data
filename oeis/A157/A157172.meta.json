@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, T(n,k,m) = (m*(n-k)+1)*binomial(n-1, k-1) + (m*k+1)* binomial(n-1, k) - m*k*(n-k)*binomial(n-2, k-1), with m = 2.",
+  "id": "A157172",
+  "mentions": [
+    "A157174"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:14:39",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

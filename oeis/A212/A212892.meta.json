@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^4/8 if n is even, a(n) = (n^2-1)^2/8 if n is odd.",
+  "id": "A212892",
+  "mentions": [
+    "A211795"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

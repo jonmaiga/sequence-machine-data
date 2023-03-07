@@ -1,0 +1,24 @@
+{
+  "description": "Square-chain primes (including square-loop primes).",
+  "id": "A108659",
+  "mentions": [
+    "A007953",
+    "A046704",
+    "A088133",
+    "A088134",
+    "A088135",
+    "A088136",
+    "A108660"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

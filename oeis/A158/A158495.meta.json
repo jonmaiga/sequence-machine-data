@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of ((1-4*x) + sqrt(1-4*x))/(2*(1-2*x)).",
+  "id": "A158495",
+  "mentions": [
+    "A000108",
+    "A014318",
+    "A126966",
+    "A158496",
+    "A246432"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

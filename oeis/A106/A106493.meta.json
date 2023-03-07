@@ -1,0 +1,24 @@
+{
+  "description": "Total number of bases and exponents in GF(2)[X] Superfactorization of n, excluding the unity-exponents at the tips of branches.",
+  "id": "A106493",
+  "mentions": [
+    "A048273",
+    "A048720",
+    "A048723",
+    "A091247",
+    "A106445",
+    "A106490",
+    "A106494",
+    "A106495"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

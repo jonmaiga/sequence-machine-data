@@ -1,0 +1,21 @@
+{
+  "description": "Least k >= 2 such that the base-k digits of n are nondecreasing.",
+  "id": "A273040",
+  "mentions": [
+    "A000225",
+    "A009994",
+    "A023745",
+    "A023757"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

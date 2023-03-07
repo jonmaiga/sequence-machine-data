@@ -1,0 +1,18 @@
+{
+  "description": "Divide the biggest term of the pair [a(n), a(n+1)] by the smallest one and keep the remainder; the successive remainders of the successive pairs rebuild the starting sequence, digit after digit. This is the lexicographically earliest sequence of distinct positive terms with this property.",
+  "id": "A335214",
+  "mentions": [
+    "A334336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

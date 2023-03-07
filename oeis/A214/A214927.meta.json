@@ -1,0 +1,33 @@
+{
+  "description": "Number of n-digit numbers N that do not end with 0 and are such that the reversal of N divides N but is different from N.",
+  "id": "A214927",
+  "mentions": [
+    "A000045",
+    "A001232",
+    "A008918",
+    "A008919",
+    "A031877",
+    "A103609",
+    "A222809",
+    "A222810",
+    "A222811",
+    "A222812",
+    "A222817",
+    "A222818",
+    "A222819",
+    "A222820"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

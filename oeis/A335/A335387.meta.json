@@ -1,0 +1,24 @@
+{
+  "description": "Tri-unitary harmonic numbers: numbers k such that the harmonic mean of the tri-unitary divisors of k is an integer.",
+  "id": "A335387",
+  "mentions": [
+    "A001599",
+    "A006086",
+    "A063947",
+    "A286325",
+    "A319745",
+    "A324706",
+    "A324707",
+    "A335385"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with fewer divisors than the sum of their prime indices.",
+  "id": "A325797",
+  "mentions": [
+    "A000005",
+    "A002033",
+    "A056239",
+    "A112798",
+    "A299702",
+    "A325694",
+    "A325780",
+    "A325781",
+    "A325792",
+    "A325793",
+    "A325794",
+    "A325795",
+    "A325796",
+    "A325798",
+    "A325833"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

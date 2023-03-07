@@ -1,0 +1,20 @@
+{
+  "description": "List of coefficients of reduced chromatic polynomial of dodecahedron, highest order terms first.",
+  "id": "A296918",
+  "mentions": [
+    "A218513",
+    "A296919"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

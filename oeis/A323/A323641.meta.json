@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows in which row n lists the first 2^n terms of A323642, n >= 1.",
+  "id": "A323641",
+  "mentions": [
+    "A000079",
+    "A008776",
+    "A139251",
+    "A147582",
+    "A323642",
+    "A323649",
+    "A323650",
+    "A323651"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

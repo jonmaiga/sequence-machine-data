@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), n>=0, 0 <= k <= n, read by rows, where T(n,k) is the number of self-avoiding paths in (2*n+1) X (2*k+1) grid starting the upper left corner, passing through the center of grid and finishing the lower right corner.",
+  "id": "A333685",
+  "mentions": [
+    "A000012",
+    "A121787",
+    "A333686",
+    "A333689"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

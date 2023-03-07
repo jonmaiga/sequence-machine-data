@@ -1,0 +1,21 @@
+{
+  "description": "Period of the Fibonacci-type sequence described by A015134.",
+  "id": "A179393",
+  "mentions": [
+    "A015134",
+    "A179390",
+    "A179391",
+    "A179392"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

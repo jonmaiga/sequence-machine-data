@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n * A(x)^(n^2).",
+  "id": "A107595",
+  "mentions": [
+    "A107590",
+    "A107594",
+    "A107596",
+    "A176719"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

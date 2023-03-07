@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = a(4) = a(5) = 2, a(3) = 3, a(n) = a(a(n-1)) + a(a(n-a(n-1)) + a(n-a(n-2))) for n > 5.",
+  "id": "A287707",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A287654"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

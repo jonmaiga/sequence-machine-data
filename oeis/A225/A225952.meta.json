@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, giving the even legs of primitive Pythagorean triangles, with zero entries for non-primitive triangles.",
+  "id": "A225952",
+  "mentions": [
+    "A000217",
+    "A008586",
+    "A055034",
+    "A120427",
+    "A222946",
+    "A225949",
+    "A225950",
+    "A225951"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

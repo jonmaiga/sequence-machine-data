@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest semiprime followed by gap (to the next semiprime) equal to n-th semiprime.",
+  "id": "A278349",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

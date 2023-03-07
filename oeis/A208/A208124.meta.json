@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=2, a(n) = (4n/3)*(2n-1)!! (see A001147) for n>1.",
+  "id": "A208124",
+  "mentions": [
+    "A001147"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:13:49",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

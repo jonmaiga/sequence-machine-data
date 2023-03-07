@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = C(n+2,2)*C(n,floor(n/2)).",
+  "id": "A107231",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A001405",
+    "A034828",
+    "A107230"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

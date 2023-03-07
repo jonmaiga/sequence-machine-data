@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = n concatenated with n - 1.",
+  "id": "A127423",
+  "mentions": [
+    "A001704",
+    "A010051",
+    "A054211",
+    "A127421",
+    "A127424",
+    "A248378",
+    "A317947"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

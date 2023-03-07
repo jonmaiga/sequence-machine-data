@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k even-length columns (n>=2,k>=0).",
+  "id": "A273903",
+  "mentions": [
+    "A004149",
+    "A082582",
+    "A273901",
+    "A273902",
+    "A273904"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

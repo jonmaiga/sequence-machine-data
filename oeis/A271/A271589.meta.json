@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: column k lists the 2-Stöhr sequence composed of terms rejected from column k-1.",
+  "id": "A271589",
+  "mentions": [
+    "A033627"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

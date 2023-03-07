@@ -1,0 +1,21 @@
+{
+  "description": "Regular triangle whose rows are the coefficients of the Dominici expansion of f(t,x) = (1/2)*(1 - t^2)^(-x) with respect to t.",
+  "id": "A320842",
+  "mentions": [
+    "A002067",
+    "A002105",
+    "A007019",
+    "A025035"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

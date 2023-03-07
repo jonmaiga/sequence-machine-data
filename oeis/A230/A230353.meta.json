@@ -1,0 +1,21 @@
+{
+  "description": "Products of 3 evil primes (A027699) p,q,r, such that numbers p*q, p*r, q*r, and p*q*r are odious (A000069).",
+  "id": "A230353",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A027699",
+    "A230213"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

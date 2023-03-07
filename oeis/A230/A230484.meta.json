@@ -1,0 +1,18 @@
+{
+  "description": "Strong pseudoprimes (base 2) that become prime when two is added.",
+  "id": "A230484",
+  "mentions": [
+    "A001262",
+    "A230483"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

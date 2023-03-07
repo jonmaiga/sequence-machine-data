@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, T(n,k) = sum_{j=0..n} (-1)^(n+k+j) A(n,j)*C(j,n-k), A(n,j) the Eulerian numbers; n >= 0, k >= 0.",
+  "id": "A225678",
+  "mentions": [
+    "A141720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A walk based on the digits of E = exp(1) (A001113).",
+  "id": "A232242",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

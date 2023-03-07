@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array (T(n,k)), by antidiagonals: T(n,k) = position of k in the ordering of {h/r^m, r = 1/sqrt(2), h >= 1, 0 <= m <= n}.",
+  "id": "A347067",
+  "mentions": [
+    "A003151",
+    "A347065",
+    "A347066",
+    "A347068",
+    "A347069"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

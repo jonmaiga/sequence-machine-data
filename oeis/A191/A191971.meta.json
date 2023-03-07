@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(i,j) related to the square array T(i,j) of A192062",
+  "id": "A191971",
+  "mentions": [
+    "A192062"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

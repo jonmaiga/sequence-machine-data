@@ -1,0 +1,25 @@
+{
+  "description": "Coefficient array for integer polynomial version of minimal polynomials of sin(2*Pi/n). Rising powers of x",
+  "id": "A181871",
+  "mentions": [
+    "A093819",
+    "A178182",
+    "A181872",
+    "A181873",
+    "A181877",
+    "A231188"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

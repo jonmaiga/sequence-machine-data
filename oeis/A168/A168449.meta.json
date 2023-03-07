@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x/A(x)) = C(x)^2 where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108).",
+  "id": "A168449",
+  "mentions": [
+    "A000108",
+    "A154677",
+    "A168448",
+    "A168479"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

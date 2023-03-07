@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which are the sum of three cubes of distinct primes.",
+  "id": "A138854",
+  "mentions": [
+    "A024975",
+    "A030078",
+    "A120398",
+    "A137365",
+    "A138853"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

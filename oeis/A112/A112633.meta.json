@@ -1,0 +1,30 @@
+{
+  "description": "Mersenne prime indices that are also Gaussian primes.",
+  "id": "A112633",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A002145",
+    "A112634",
+    "A112648",
+    "A112649",
+    "A124477",
+    "A139484",
+    "A145039",
+    "A145040",
+    "A145041",
+    "A145042"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Rutherford constant.",
+  "id": "A319188",
+  "mentions": [
+    "A321592"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

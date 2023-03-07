@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..1 n X 3 array.",
+  "id": "A219286",
+  "mentions": [
+    "A219291"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:53:03",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

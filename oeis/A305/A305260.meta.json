@@ -1,0 +1,21 @@
+{
+  "description": "A linear mapping a(n) = x + y*n of pairs of nonnegative integers (x,y), where the pairs are enumerated first by radial coordinate r and in case of ties, by polar angle 0 <= phi <= Pi/2 in a polar coordinate system.",
+  "id": "A305260",
+  "mentions": [
+    "A000925",
+    "A283305",
+    "A283306",
+    "A304584",
+    "A304585"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

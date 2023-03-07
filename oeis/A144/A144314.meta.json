@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3*n*(6*n + 1).",
+  "id": "A144314",
+  "mentions": [
+    "A000217",
+    "A014105",
+    "A033585",
+    "A049453",
+    "A081266",
+    "A144312"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:43",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

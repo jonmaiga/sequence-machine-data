@@ -1,0 +1,23 @@
+{
+  "description": "Limiting values for category table A125697.",
+  "id": "A125701",
+  "mentions": [
+    "A125696",
+    "A125697",
+    "A125700"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

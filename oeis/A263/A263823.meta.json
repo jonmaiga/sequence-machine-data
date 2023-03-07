@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n!*Sum_{k=0..n} Fibonacci(k-1)/k!, where Fibonacci(-1) = 1, Fibonacci(n) = A000045(n) for n>=0.",
+  "id": "A263823",
+  "mentions": [
+    "A000023",
+    "A000045",
+    "A000142",
+    "A000166",
+    "A000522",
+    "A009102",
+    "A009551",
+    "A010844",
+    "A053486",
+    "A111139"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

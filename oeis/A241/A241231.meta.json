@@ -1,0 +1,25 @@
+{
+  "description": "Number of triangles, distinct up to congruence, on a centered hexagonal grid of size n.",
+  "id": "A241231",
+  "mentions": [
+    "A003215",
+    "A028419",
+    "A241223",
+    "A241232",
+    "A241233",
+    "A241234",
+    "A241236",
+    "A241237"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

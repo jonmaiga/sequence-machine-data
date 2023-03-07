@@ -1,0 +1,30 @@
+{
+  "description": "Number of positive special sums of the integer partition with Heinz number n.",
+  "id": "A304795",
+  "mentions": [
+    "A000712",
+    "A056239",
+    "A108917",
+    "A122768",
+    "A276024",
+    "A284640",
+    "A296150",
+    "A299701",
+    "A299702",
+    "A301854",
+    "A301855",
+    "A301957",
+    "A304793",
+    "A304796"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

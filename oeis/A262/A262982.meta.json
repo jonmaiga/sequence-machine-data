@@ -1,0 +1,27 @@
+{
+  "description": "Number of ordered ways to write n as x^4 + phi(y^2) + z*(z+1)/2 with x >= 0, y > 0 and z > 0, where phi(.) is Euler's totient function given by A000010.",
+  "id": "A262982",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A000290",
+    "A000583",
+    "A002618",
+    "A262311",
+    "A262781",
+    "A262785",
+    "A262813",
+    "A262941",
+    "A262979"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

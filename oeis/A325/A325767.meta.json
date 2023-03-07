@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of integer partitions covering an initial interval of positive integers and containing their own multiset of multiplicities (as a submultiset).",
+  "id": "A325767",
+  "mentions": [
+    "A000009",
+    "A055932",
+    "A056239",
+    "A109297",
+    "A112798",
+    "A114640",
+    "A290689",
+    "A325702",
+    "A325708",
+    "A325766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

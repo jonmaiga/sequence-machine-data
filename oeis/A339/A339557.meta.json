@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n > 1, a(n) = a(n-1) - n if a(n) is nonnegative, not already in the sequence, and gcd(a(n-1),n) > 1 or gcd(a(n-2),n) = 1. Otherwise a(n) = a(n-1) + n.",
+  "id": "A339557",
+  "mentions": [
+    "A005132",
+    "A098550",
+    "A165430",
+    "A336957"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

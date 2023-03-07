@@ -1,0 +1,19 @@
+{
+  "description": "Primes for which value of CRT (Cardinality of rooted tree) is equal to 1.",
+  "id": "A175179",
+  "mentions": [
+    "A096827",
+    "A175177",
+    "A175178"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

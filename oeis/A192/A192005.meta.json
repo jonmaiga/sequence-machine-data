@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-cyclic abelian groups of finite order. The order is given by A013929.",
+  "id": "A192005",
+  "mentions": [
+    "A000688",
+    "A013929"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

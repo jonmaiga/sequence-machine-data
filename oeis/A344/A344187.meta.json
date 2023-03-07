@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of two positive fourth powers in exactly one way.",
+  "id": "A344187",
+  "mentions": [
+    "A003336",
+    "A338667",
+    "A344188"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are the arithmetic mean of the squares of four consecutive primes.",
+  "id": "A234364",
+  "mentions": [
+    "A084951",
+    "A093343"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes that can be written in binary representation as concatenation of two primes: p and p+2. That is, primes representable as p * 2^L + p+2, where p and p+2 are primes, and L is the length of binary representation of p+2: L = A070939(p+2).",
+  "id": "A232236",
+  "mentions": [
+    "A000040",
+    "A070939",
+    "A232085",
+    "A232238"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

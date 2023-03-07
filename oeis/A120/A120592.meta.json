@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: 5*A(x) = 4 + 4*x + A(x)^3, starting with [1,2,6].",
+  "id": "A120592",
+  "mentions": [
+    "A120588",
+    "A120591",
+    "A120593",
+    "A120607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:29:20",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

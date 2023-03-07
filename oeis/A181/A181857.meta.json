@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lcm(n^2, n!).",
+  "id": "A181857",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A014973",
+    "A056040",
+    "A170826",
+    "A181860"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

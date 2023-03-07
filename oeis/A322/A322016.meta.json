@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; for n > 0, if A003188(n) > A003188(n-1) then a(n) = n-1, otherwise a(n) = 0.",
+  "id": "A322016",
+  "mentions": [
+    "A003188",
+    "A034947",
+    "A322015",
+    "A322017"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Greatest number m such that the fractional part of (Pi-2)^A153719(m) >= 1-(1/m).",
+  "id": "A153723",
+  "mentions": [
+    "A091560",
+    "A153663",
+    "A153671",
+    "A153679",
+    "A153687",
+    "A153695",
+    "A153711",
+    "A153719",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

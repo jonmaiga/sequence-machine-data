@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) is 3-smooth (has no larger prime factors than 3).",
+  "id": "A354356",
+  "mentions": [
+    "A000203",
+    "A005105",
+    "A046528",
+    "A065333",
+    "A122254",
+    "A354355",
+    "A354357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

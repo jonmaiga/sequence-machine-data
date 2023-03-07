@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n+1)/2 if n occurs among the first n-1 terms of the sequence, otherwise a(n) = 2*n - 1.",
+  "id": "A118966",
+  "mentions": [
+    "A073675",
+    "A118967"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

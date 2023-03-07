@@ -1,0 +1,20 @@
+{
+  "description": "A214330 prefixed by a 0 consists of a concatenation of strings 0111010(01)^n, each such string ending with n >= 0 copies of 10; sequence gives successive values of n.",
+  "id": "A214809",
+  "mentions": [
+    "A214330",
+    "A214331",
+    "A214551",
+    "A214626"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

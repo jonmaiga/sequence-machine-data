@@ -1,0 +1,19 @@
+{
+  "description": "Euler totient function of the arithmetic derivative of n: a(n) = phi(n'), a(1) = 0.",
+  "id": "A229340",
+  "mentions": [
+    "A000010",
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

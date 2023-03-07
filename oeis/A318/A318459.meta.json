@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(n, tau(n), phi(n)), where tau = A000005 and phi = A000010.",
+  "id": "A318459",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A009191",
+    "A009195",
+    "A009213",
+    "A074389"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

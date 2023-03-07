@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes p*q for which p and q are successive primes and their binary representations differ from each other in one bit position only.",
+  "id": "A261080",
+  "mentions": [
+    "A006094",
+    "A205302",
+    "A205511",
+    "A260737",
+    "A261077",
+    "A261079"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

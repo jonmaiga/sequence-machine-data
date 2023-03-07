@@ -1,0 +1,22 @@
+{
+  "description": "Positions of records in A327966.",
+  "id": "A327967",
+  "mentions": [
+    "A003415",
+    "A189760",
+    "A327938",
+    "A327965",
+    "A327966",
+    "A327968"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

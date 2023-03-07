@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j) for all i, j, where f(n) = A046523(A276086(A003415(A276086(n)))).",
+  "id": "A328396",
+  "mentions": [
+    "A003415",
+    "A046523",
+    "A276086",
+    "A278226",
+    "A286626",
+    "A327860",
+    "A328388",
+    "A328392",
+    "A328395"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

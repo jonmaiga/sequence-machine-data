@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers not representable as Pen(x) + Pen(y) + 2*Pen(z), where x, y, z are nonnegative integers, and Pen(k) denotes the pentagonal number k*(3k-1)/2.",
+  "id": "A306382",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A005449",
+    "A008443",
+    "A306383"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

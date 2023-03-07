@@ -1,0 +1,24 @@
+{
+  "description": "Third pi-based antiderivative of n: the least m such that A258851^3(m) equals n.",
+  "id": "A258995",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A258851",
+    "A258853",
+    "A258861",
+    "A258862",
+    "A259016"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

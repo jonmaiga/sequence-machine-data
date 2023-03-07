@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number whose cube begins and ends with the same n digits, and with any other digit(s) in between.",
+  "id": "A202780",
+  "mentions": [
+    "A161355"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

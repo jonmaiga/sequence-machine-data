@@ -1,0 +1,20 @@
+{
+  "description": "Sum of A276150(d) over proper divisors d of n, where A276150 gives the sum of digits in primorial base.",
+  "id": "A319713",
+  "mentions": [
+    "A276150",
+    "A319711",
+    "A319715"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of words on {1,1,2,2,3,3,...,n,n} avoiding the pattern 1234.",
+  "id": "A266734",
+  "mentions": [
+    "A220097",
+    "A266735",
+    "A267479"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

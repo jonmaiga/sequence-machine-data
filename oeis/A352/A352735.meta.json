@@ -1,0 +1,22 @@
+{
+  "description": "Lucky numbers in Chinese: Numbers whose decimal expansion contains 8 but not 4.",
+  "id": "A352735",
+  "mentions": [
+    "A011538",
+    "A052406",
+    "A154160"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

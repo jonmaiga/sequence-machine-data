@@ -1,0 +1,29 @@
+{
+  "description": "Minimal index k of a Lucas number such that Lucas(k)>=n (the 'upper' Lucas (A000032) Inverse).",
+  "id": "A130242",
+  "mentions": [
+    "A000032",
+    "A102460",
+    "A104162",
+    "A130233",
+    "A130240",
+    "A130241",
+    "A130244",
+    "A130245",
+    "A130247",
+    "A130250",
+    "A130256",
+    "A130260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

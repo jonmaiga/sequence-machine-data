@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers p such that both 30 and 105 are quadratic nonresidue (mod p).",
+  "id": "A347815",
+  "mentions": [
+    "A008292",
+    "A038904",
+    "A173018",
+    "A347816"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

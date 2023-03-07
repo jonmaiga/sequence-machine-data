@@ -1,0 +1,17 @@
+{
+  "description": "Number of lower triangles of an n X n 0..5 array with each element unequal to the sum mod 6 of its horizontal and vertical neighbors",
+  "id": "A194502",
+  "mentions": [
+    "A194505"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

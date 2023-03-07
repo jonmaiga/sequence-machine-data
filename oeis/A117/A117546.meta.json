@@ -1,0 +1,22 @@
+{
+  "description": "Number of representations of n as a sum of distinct tribonacci numbers (A000073).",
+  "id": "A117546",
+  "mentions": [
+    "A000073",
+    "A000119",
+    "A003726",
+    "A240844"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

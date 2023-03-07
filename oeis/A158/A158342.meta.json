@@ -1,0 +1,19 @@
+{
+  "description": "List of twin primes p1 and p2 with odd sum of digits of p1 and even sum of digits of p2.",
+  "id": "A158342",
+  "mentions": [
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

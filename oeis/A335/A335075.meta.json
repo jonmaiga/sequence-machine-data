@@ -1,0 +1,17 @@
+{
+  "description": "Positions of 1's when Kolakoski sequence is grouped into four independent numbers as 1, 2, 11, 22.",
+  "id": "A335075",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

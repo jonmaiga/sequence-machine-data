@@ -1,0 +1,25 @@
+{
+  "description": "Number of integer partitions of any number from 1 to n whose product of parts is n.",
+  "id": "A319916",
+  "mentions": [
+    "A001055",
+    "A002865",
+    "A069016",
+    "A096276",
+    "A301987",
+    "A318950",
+    "A319000",
+    "A319005",
+    "A319057"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

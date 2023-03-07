@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A165481.",
+  "id": "A165482",
+  "mentions": [
+    "A165472",
+    "A165477",
+    "A165481",
+    "A165483",
+    "A165484",
+    "A165485",
+    "A165488"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer not yet in the increasing sequence that is obtained when the largest digit from a(n-1) is deleted and the remaining digits are permuted such that no digit in a(n) has the same position it had in a(n-1) (counting from left to right). No repeated digits allowed; a(1)=10.",
+  "id": "A302095",
+  "mentions": [
+    "A107353",
+    "A297418"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

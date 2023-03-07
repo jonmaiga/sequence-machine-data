@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; for n >= 2, a(n) = least positive integer not in {a(1),..., a(n-1), b(1),...,b(n-1)}, where for n >=1, b(n) = n + 2 + least positive integer not in {a(1),..., a(n-1), a(n), b(1),...,b(n-1)}.",
+  "id": "A335999",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A003622",
+    "A022342",
+    "A026351",
+    "A026352",
+    "A336008"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

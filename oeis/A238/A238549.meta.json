@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is one fourth of the total number of free ends of 4 line segments expansion at n iterations (see Comments lines for definition).",
+  "id": "A238549",
+  "mentions": [
+    "A143095",
+    "A256641"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:15:33",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

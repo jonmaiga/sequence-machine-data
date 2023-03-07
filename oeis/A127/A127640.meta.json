@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which row n contains n-1 0's followed by prime(n).",
+  "id": "A127640",
+  "mentions": [
+    "A051731",
+    "A127638",
+    "A127639",
+    "A127641"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

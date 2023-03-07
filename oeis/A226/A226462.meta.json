@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number m such that A226460(m) = n.",
+  "id": "A226462",
+  "mentions": [
+    "A048247",
+    "A067128",
+    "A226460"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

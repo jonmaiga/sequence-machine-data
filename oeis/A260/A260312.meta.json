@@ -1,0 +1,22 @@
+{
+  "description": "Palindromic beastly primes that begin and end with digit '1'.",
+  "id": "A260312",
+  "mentions": [
+    "A046720",
+    "A051003",
+    "A131645",
+    "A186086"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

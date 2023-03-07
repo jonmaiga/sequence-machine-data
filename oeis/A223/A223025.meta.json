@@ -1,0 +1,21 @@
+{
+  "description": "Gives the column number which contains n in the dual Wythoff array (beginning the column count at 1).",
+  "id": "A223025",
+  "mentions": [
+    "A007066",
+    "A035614",
+    "A047924",
+    "A126714",
+    "A167198"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

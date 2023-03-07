@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sum of digits of (2n + 1)^2.",
+  "id": "A268228",
+  "mentions": [
+    "A004159",
+    "A007953",
+    "A016754",
+    "A268227"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

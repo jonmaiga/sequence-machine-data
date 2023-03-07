@@ -1,0 +1,26 @@
+{
+  "description": "For those rows n of A249223 which are weakly increasing, let w(n) denote the maximal entry in the row: sequence gives values of n for which w(n) sets a new record.",
+  "id": "A340506",
+  "mentions": [
+    "A053624",
+    "A053640",
+    "A237270",
+    "A237593",
+    "A249223",
+    "A250068",
+    "A250070",
+    "A250071"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

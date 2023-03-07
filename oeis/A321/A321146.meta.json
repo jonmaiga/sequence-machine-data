@@ -1,0 +1,19 @@
+{
+  "description": "Exponential weird numbers: numbers that are exponential abundant (A129575) but not exponential pseudoperfect (A318100).",
+  "id": "A321146",
+  "mentions": [
+    "A006037",
+    "A129575",
+    "A318100"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

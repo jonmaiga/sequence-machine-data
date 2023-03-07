@@ -1,0 +1,20 @@
+{
+  "description": "Palindromic prime numbers == 8 (mod 9).",
+  "id": "A229881",
+  "mentions": [
+    "A002385",
+    "A229875"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

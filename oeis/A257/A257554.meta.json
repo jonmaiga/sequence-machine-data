@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A007954(k) divides k and k divides A007954(k)^2.",
+  "id": "A257554",
+  "mentions": [
+    "A007602",
+    "A007954",
+    "A128606"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

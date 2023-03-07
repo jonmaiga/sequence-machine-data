@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to express 1 as the sum of unit fractions with odd denominators such that the sum of those denominators is n.",
+  "id": "A270599",
+  "mentions": [
+    "A000009",
+    "A051908",
+    "A201644",
+    "A201646",
+    "A201647",
+    "A201648",
+    "A201649"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Arises in study of A303589-A303591.",
+  "id": "A303592",
+  "mentions": [
+    "A303589",
+    "A303590",
+    "A303591"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

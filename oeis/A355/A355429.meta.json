@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n, k), n >= 0, k > 0, read by antidiagonals, where T(0, k) = A001906(k) for k > 0 and where T(n, k) = n - A130312(n) + A000045(2k + A072649(n)) for n > 0, k > 0.",
+  "id": "A355429",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A072649",
+    "A130312"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

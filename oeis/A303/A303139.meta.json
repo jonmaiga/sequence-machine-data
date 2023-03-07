@@ -1,0 +1,30 @@
+{
+  "description": "Number of integer partitions of n with at least two but not all parts having a common divisor greater than 1.",
+  "id": "A303139",
+  "mentions": [
+    "A000837",
+    "A018783",
+    "A051424",
+    "A078374",
+    "A168532",
+    "A289508",
+    "A289509",
+    "A298748",
+    "A300486",
+    "A302569",
+    "A302696",
+    "A302796",
+    "A303138",
+    "A303140"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the coefficients of (x-1)(x-2)... in the interpolating polynomial through the first n primes.",
+  "id": "A118211",
+  "mentions": [
+    "A092894",
+    "A118203",
+    "A118204",
+    "A118210"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

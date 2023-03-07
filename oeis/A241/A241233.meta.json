@@ -1,0 +1,23 @@
+{
+  "description": "Number of right triangles, distinct up to congruence, on a centered hexagonal grid of size n.",
+  "id": "A241233",
+  "mentions": [
+    "A003215",
+    "A189979",
+    "A241225",
+    "A241231",
+    "A241232",
+    "A241234"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "One half of composite numbers k with the property that the symmetric representation of sigma(k) has two parts.",
+  "id": "A320048",
+  "mentions": [
+    "A101550",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A238524",
+    "A239660",
+    "A239929",
+    "A239932",
+    "A239934",
+    "A240062",
+    "A244894",
+    "A245092",
+    "A262626",
+    "A280107"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

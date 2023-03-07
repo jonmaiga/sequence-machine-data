@@ -1,0 +1,23 @@
+{
+  "description": "Encoded symmetrical antidiagonal square binary matrices with either 1 or 2 ones.",
+  "id": "A261819",
+  "mentions": [
+    "A000217",
+    "A002260",
+    "A158405",
+    "A261195",
+    "A262769",
+    "A262777"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

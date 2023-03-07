@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into 3 distinct triangular numbers.",
+  "id": "A224326",
+  "mentions": [
+    "A000217",
+    "A002243",
+    "A002636",
+    "A025436",
+    "A033761"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Starting with Fibonacci(0), the sum of a(n) successive Fibonacci numbers is prime.",
+  "id": "A214874",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A073684",
+    "A214878"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

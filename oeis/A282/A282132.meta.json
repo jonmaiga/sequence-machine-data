@@ -1,0 +1,20 @@
+{
+  "description": "Imaginary part of n!*Sum_{k=1..n} i^(k-1)/k, where i is sqrt(-1).",
+  "id": "A282132",
+  "mentions": [
+    "A016655",
+    "A024167",
+    "A281964"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

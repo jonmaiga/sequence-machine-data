@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the perimeter of the region that represents the set of points in a unit square that are closer to the center of the square than to the closest edge.",
+  "id": "A355184",
+  "mentions": [
+    "A103712",
+    "A244921",
+    "A254140",
+    "A352453",
+    "A355183"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

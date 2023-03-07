@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose unitary divisors have an even sum which is larger than 2k, but they cannot be partitioned into two disjoint parts whose sums are equal.",
+  "id": "A323341",
+  "mentions": [
+    "A034448",
+    "A034683",
+    "A171641",
+    "A290466",
+    "A323342",
+    "A323343",
+    "A323344"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

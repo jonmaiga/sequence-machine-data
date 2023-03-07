@@ -1,0 +1,17 @@
+{
+  "description": "Let n be even; m = n/2 and p a prime such that p<=m with n-p nonprime. The sequence contains the successive positive maxima of values n with L = primepi(m-1)-primepi(p+1)> 0.",
+  "id": "A293858",
+  "mentions": [
+    "A065978"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

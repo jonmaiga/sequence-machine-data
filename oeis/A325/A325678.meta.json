@@ -1,0 +1,32 @@
+{
+  "description": "Maximum length of a composition of n such that every restriction to a subinterval has a different sum.",
+  "id": "A325678",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A103295",
+    "A108917",
+    "A143823",
+    "A143824",
+    "A169942",
+    "A270813",
+    "A325466",
+    "A325676",
+    "A325677",
+    "A325679",
+    "A325681",
+    "A325683",
+    "A325687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

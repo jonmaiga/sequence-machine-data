@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that pi(p)*q == 1 (mod p) for some prime q < p, where pi(p) is the number of primes not exceeding p.",
+  "id": "A242755",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A242748",
+    "A242750",
+    "A242752",
+    "A242753",
+    "A242754"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

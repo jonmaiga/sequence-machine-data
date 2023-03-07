@@ -1,0 +1,25 @@
+{
+  "description": "Number of sets (in the Hausdorff metric geometry) at each location between two sets defining a polygonal configuration consisting of k 6-gonal polygonal components chained with string components of length 2 as k varies.",
+  "id": "A152933",
+  "mentions": [
+    "A152927",
+    "A152928",
+    "A152929",
+    "A152930",
+    "A152931",
+    "A152932",
+    "A152934",
+    "A152935"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

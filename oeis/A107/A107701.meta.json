@@ -1,0 +1,19 @@
+{
+  "description": "Self-COMPOSE of A107700; thus g.f. A(x) = G(G(x)) = x + 2*G(x)^2, where G(x) is the g.f. of A107700.",
+  "id": "A107701",
+  "mentions": [
+    "A107699",
+    "A107700"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

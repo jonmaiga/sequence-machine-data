@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of the average of distinct prime factors of n (A008472(n)/A001221(n)).",
+  "id": "A323172",
+  "mentions": [
+    "A001221",
+    "A008472",
+    "A123529",
+    "A322591",
+    "A323171"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

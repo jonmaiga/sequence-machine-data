@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes of the form k^2 + 1 less than n.",
+  "id": "A179076",
+  "mentions": [
+    "A000040",
+    "A002496"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

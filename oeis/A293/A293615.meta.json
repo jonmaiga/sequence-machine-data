@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Pochhammer(n, 5) / 2.",
+  "id": "A293615",
+  "mentions": [
+    "A000389",
+    "A265609",
+    "A293475",
+    "A293476",
+    "A293608"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:28:33",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Even numbers that are \"generated\" (in Kaprekar's sense) in all three bases 2, 4, and 6.",
+  "id": "A349832",
+  "mentions": [
+    "A003052",
+    "A010061",
+    "A228082",
+    "A230624",
+    "A349829",
+    "A349830",
+    "A349831",
+    "A349833",
+    "A350601"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Four-column table read by rows: number of nonisomorphic systems of catafusenes in an example (see Cyvin et al. (1994) for precise definition).",
+  "id": "A121178",
+  "mentions": [
+    "A044045",
+    "A045903",
+    "A045905",
+    "A045906"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

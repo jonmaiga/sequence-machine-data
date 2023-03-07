@@ -1,0 +1,19 @@
+{
+  "description": "List of numbers n whose reverse, R(n), is not less than n.",
+  "id": "A131058",
+  "mentions": [
+    "A002113",
+    "A009993"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

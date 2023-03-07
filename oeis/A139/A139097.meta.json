@@ -1,0 +1,21 @@
+{
+  "description": "Form a sequence of words as follows: look to the left, towards the beginning of the sequence and write down the number of letters you see; repeat; then replace the words with the corresponding numbers.",
+  "id": "A139097",
+  "mentions": [
+    "A005589",
+    "A060403",
+    "A139121"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

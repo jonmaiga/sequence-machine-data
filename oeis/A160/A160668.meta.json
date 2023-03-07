@@ -1,0 +1,25 @@
+{
+  "description": "Distance between prime(n) and the next higher power of 10.",
+  "id": "A160668",
+  "mentions": [
+    "A000040",
+    "A055642",
+    "A061601",
+    "A160669",
+    "A160670",
+    "A228628"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

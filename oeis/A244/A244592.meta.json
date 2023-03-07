@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n equals the partial or complete sum of the decimal digits of 1/n, up to the point at which the digits recur or terminate.",
+  "id": "A244592",
+  "mentions": [
+    "A048997"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

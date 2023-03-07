@@ -1,0 +1,22 @@
+{
+  "description": "The number of edges formed when every pair of n points, placed at the vertices of a regular n-gon, are connected by a circle and where the points lie at the ends of the circle's diameter.",
+  "id": "A358783",
+  "mentions": [
+    "A135565",
+    "A344899",
+    "A358746",
+    "A358782",
+    "A359009"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

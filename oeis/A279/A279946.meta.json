@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are both dodecagonal and centered heptagonal.",
+  "id": "A279946",
+  "mentions": [
+    "A051624",
+    "A069099"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+4 0..2 arrays with no five consecutive elements with pattern ababa or abbba (possibly a=b) and new values 0..2 introduced in 0..2 order.",
+  "id": "A244177",
+  "mentions": [
+    "A244185"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

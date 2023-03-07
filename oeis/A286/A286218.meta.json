@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into parts with an odd number of prime divisors (counted with multiplicity).",
+  "id": "A286218",
+  "mentions": [
+    "A001156",
+    "A026424",
+    "A285799",
+    "A286219"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

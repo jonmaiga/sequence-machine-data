@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = coefficients of (1 + x)/(1 + x + x^(k+2)), read by rows.",
+  "id": "A142475",
+  "mentions": [
+    "A078012"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

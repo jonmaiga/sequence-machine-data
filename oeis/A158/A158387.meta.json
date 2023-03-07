@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = -1 if n is a square, 1 if n is not a square.",
+  "id": "A158387",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000040",
+    "A000961",
+    "A006881",
+    "A010052",
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

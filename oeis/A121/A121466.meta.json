@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = is the number of directed column-convex polyominoes of area n having along the lower contour exactly k reentrant corners, i.e., a vertical step that is followed by a horizontal step (n >= 1, k >= 0).",
+  "id": "A121466",
+  "mentions": [
+    "A000079",
+    "A000337",
+    "A001519",
+    "A001870",
+    "A055581"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

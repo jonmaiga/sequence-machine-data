@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the k-th generalized Eulerian number of order n and degree 3, n >= 1.",
+  "id": "A211233",
+  "mentions": [
+    "A008292",
+    "A047682",
+    "A211232",
+    "A211234",
+    "A211235"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

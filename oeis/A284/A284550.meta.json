@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that prime(n) + prime(n+1) + prime(n+2) + prime(n+3) + prime(n)*prime(n+1)*prime(n+2)*prime(n+3) is prime.",
+  "id": "A284550",
+  "mentions": [
+    "A000040",
+    "A096342",
+    "A126199"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

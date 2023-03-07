@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} sigma_3(k)/k!, where sigma_3(k) is the sum of cubes of the divisors of k (A001158).",
+  "id": "A307036",
+  "mentions": [
+    "A001158",
+    "A227988",
+    "A227989"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

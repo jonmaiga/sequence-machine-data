@@ -1,0 +1,22 @@
+{
+  "description": "Positions of A235141, the first differences of A234300, which equal -1.",
+  "id": "A235142",
+  "mentions": [
+    "A000548",
+    "A001481",
+    "A234300",
+    "A235141",
+    "A235386"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

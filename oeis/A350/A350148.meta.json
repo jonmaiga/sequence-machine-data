@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct (left- or right-handed, but not both) two-dimensional, Hilbert-style space-filling curve motifs on the 2n+1 X 2n+1 square subdivision, that, when recursively iterated using strict edge-replacement, create always self-avoiding paths formed of sub-square edges in the lattice.",
+  "id": "A350148",
+  "mentions": [
+    "A000532"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

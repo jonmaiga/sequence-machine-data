@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n for which A060502(n) <= 1; numbers with at most one distinct slope in their factorial representation.",
+  "id": "A276001",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A033312",
+    "A051683",
+    "A060498",
+    "A060502",
+    "A276002",
+    "A276003"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

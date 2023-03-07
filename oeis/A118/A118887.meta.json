@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to place n objects with weights 1,2,...,n evenly spaced around the circumference of a circular disk so that the disk will exactly balance on the center point.",
+  "id": "A118887",
+  "mentions": [
+    "A000961",
+    "A024619",
+    "A063697",
+    "A063699",
+    "A118888",
+    "A326921"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

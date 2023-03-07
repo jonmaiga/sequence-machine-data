@@ -1,0 +1,23 @@
+{
+  "description": "Smallest distance from n to a prime power (as defined in A246547).",
+  "id": "A301296",
+  "mentions": [
+    "A000961",
+    "A025475",
+    "A061670",
+    "A080732",
+    "A246547",
+    "A246655",
+    "A301295"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

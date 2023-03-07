@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(4+2) 0..2 arrays with no 3x3 subblock diagonal sum equal to the antidiagonal sum or central row sum less than the central column sum",
+  "id": "A257383",
+  "mentions": [
+    "A257385"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

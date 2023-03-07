@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k such that the symmetric representation of sigma(k) has only two parts and they meet at the center of the Dyck path.",
+  "id": "A262259",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A014105",
+    "A071561",
+    "A134808",
+    "A174973",
+    "A191363",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239929",
+    "A245092",
+    "A249351",
+    "A262045",
+    "A262048",
+    "A262626"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

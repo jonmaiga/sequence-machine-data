@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as sum of initial terms of a Collatz trajectory starting with a value less than n.",
+  "id": "A139436",
+  "mentions": [
+    "A006370",
+    "A139435",
+    "A139437"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

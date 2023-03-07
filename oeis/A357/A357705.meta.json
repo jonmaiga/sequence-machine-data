@@ -1,0 +1,50 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of reversed integer partitions of n with skew-alternating sum k, where k ranges from -n to n in steps of 2.",
+  "id": "A357705",
+  "mentions": [
+    "A000041",
+    "A004526",
+    "A035363",
+    "A035594",
+    "A053251",
+    "A097805",
+    "A298311",
+    "A344651",
+    "A351005",
+    "A351006",
+    "A357136",
+    "A357189",
+    "A357487",
+    "A357488",
+    "A357621",
+    "A357623",
+    "A357624",
+    "A357629",
+    "A357630",
+    "A357631",
+    "A357632",
+    "A357633",
+    "A357634",
+    "A357636",
+    "A357637",
+    "A357638",
+    "A357639",
+    "A357640",
+    "A357643",
+    "A357644",
+    "A357645",
+    "A357646",
+    "A357704"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

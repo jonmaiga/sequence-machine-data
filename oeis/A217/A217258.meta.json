@@ -1,0 +1,20 @@
+{
+  "description": "Threshold for the P(n)-avoidance edge-coloring game with two colors and fixed tree size restriction, where P(n) denotes the path on n edges (see the comments and reference for precise definition).",
+  "id": "A217258",
+  "mentions": [
+    "A221222"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

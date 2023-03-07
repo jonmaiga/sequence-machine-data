@@ -1,0 +1,19 @@
+{
+  "description": "Numbers equal to the sum of a power of their digits where that power is not equal to the length of the number (i.e., A023052 excluding A005188).",
+  "id": "A161752",
+  "mentions": [
+    "A005188",
+    "A023052"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

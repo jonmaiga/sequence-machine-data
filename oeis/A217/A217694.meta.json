@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-variations of the set {1,2,...,n+1} satisfying p(i)-i in {-2,0,2}, i=1..n (an n-variation of the set N_{n+s} = {1,2,...,n+s} is any 1-to-1 mapping p from the set N_n = {1,2,...,n} into N_{n+s} = {1,2,...,n+s}).",
+  "id": "A217694",
+  "mentions": [
+    "A072827",
+    "A072850",
+    "A072856",
+    "A079955",
+    "A080014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:13:27",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

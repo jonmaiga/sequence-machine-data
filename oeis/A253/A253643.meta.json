@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that n^k is zeroless for k=0,...,3.",
+  "id": "A253643",
+  "mentions": [
+    "A052382",
+    "A104264",
+    "A124648",
+    "A124649",
+    "A252484",
+    "A253644",
+    "A253645",
+    "A253646",
+    "A253647"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

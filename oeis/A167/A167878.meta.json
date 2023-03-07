@@ -1,0 +1,21 @@
+{
+  "description": "A167877(n) + n.",
+  "id": "A167878",
+  "mentions": [
+    "A003817",
+    "A007089",
+    "A167832",
+    "A167877"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

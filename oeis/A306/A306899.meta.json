@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} (2^d - (-1)^d)*phi(3*n/d).",
+  "id": "A306899",
+  "mentions": [
+    "A306888",
+    "A306896",
+    "A306898"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

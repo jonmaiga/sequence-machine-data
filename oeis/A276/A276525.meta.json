@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers m for which L(p(i)/p(j)) = 1 for all i, j, where p(k) are the prime factors of m and L(x/y) is the Legendre symbol of x and y, defined to be 1 if x is a quadratic residue (mod y) and -1 if x is a quadratic non-residue (mod y).",
+  "id": "A276525",
+  "mentions": [
+    "A002144",
+    "A002145"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "description": "Numbers k such that every restriction of the k-th composition in standard order to a subinterval has a different sum.",
+  "id": "A333222",
+  "mentions": [
+    "A000120",
+    "A003022",
+    "A029931",
+    "A036501",
+    "A048793",
+    "A066099",
+    "A070939",
+    "A103295",
+    "A103300",
+    "A108917",
+    "A124770",
+    "A124771",
+    "A143823",
+    "A169942",
+    "A228351",
+    "A233564",
+    "A275972",
+    "A295235",
+    "A299702",
+    "A325676",
+    "A325677",
+    "A325678",
+    "A325680",
+    "A325683",
+    "A325768",
+    "A325779",
+    "A333217",
+    "A333223",
+    "A333224",
+    "A333257"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

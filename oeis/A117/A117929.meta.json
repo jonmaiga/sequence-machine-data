@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into 2 distinct primes.",
+  "id": "A117929",
+  "mentions": [
+    "A010051",
+    "A045917",
+    "A061358",
+    "A073610",
+    "A077914",
+    "A080862",
+    "A166081",
+    "A219180"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

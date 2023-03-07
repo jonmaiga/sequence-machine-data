@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, related to Bell numbers A000110.",
+  "id": "A217205",
+  "mentions": [
+    "A000110",
+    "A032265"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

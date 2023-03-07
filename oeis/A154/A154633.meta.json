@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (4*n+1)*(4*n+3)*(4*n+5)*(4*n+7).",
+  "id": "A154633",
+  "mentions": [
+    "A001539",
+    "A133766",
+    "A157142"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:17",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

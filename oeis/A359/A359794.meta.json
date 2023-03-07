@@ -1,0 +1,21 @@
+{
+  "description": "Union of odd numbers and numbers with an odd 2-adic valuation.",
+  "id": "A359794",
+  "mentions": [
+    "A005408",
+    "A036554",
+    "A048675",
+    "A108269",
+    "A359832"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

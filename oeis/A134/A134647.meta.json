@@ -1,0 +1,18 @@
+{
+  "description": "Let a(1) = 0, a(2) = 1; and a(n) = a(n-1) + [the two-digit integer split by the comma which separates a(n-1) and a(n-2)].",
+  "id": "A134647",
+  "mentions": [
+    "A121805"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

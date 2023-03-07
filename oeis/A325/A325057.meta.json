@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers k <= prime(n)# so that (k mod p_1) < (k mod p_2) < ... < (k mod p_n).",
+  "id": "A325057",
+  "mentions": [
+    "A002110",
+    "A306582",
+    "A306612"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

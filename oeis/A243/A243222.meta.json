@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that p^3 - 2 and p^2 - 2 are both semiprimes.",
+  "id": "A243222",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A062326",
+    "A178251",
+    "A241716",
+    "A241732",
+    "A242260",
+    "A242979"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

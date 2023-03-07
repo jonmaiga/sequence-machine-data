@@ -1,0 +1,18 @@
+{
+  "description": "Number of one-to-one functions f from [n] to [2n] where f(x) may not be equal to x or to 2n+1-x.",
+  "id": "A272261",
+  "mentions": [
+    "A000806"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:09:36",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The sum of exponential semiproper divisors of n.",
+  "id": "A323309",
+  "mentions": [
+    "A007947",
+    "A034448",
+    "A072691",
+    "A323308",
+    "A323310"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

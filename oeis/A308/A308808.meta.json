@@ -1,0 +1,32 @@
+{
+  "description": "Limiting row sequence of Pascal-like triangle A141021 (with index of asymmetry s = 4).",
+  "id": "A308808",
+  "mentions": [
+    "A007318",
+    "A140993",
+    "A140994",
+    "A140995",
+    "A140996",
+    "A140997",
+    "A140998",
+    "A141015",
+    "A141018",
+    "A141020",
+    "A141021",
+    "A141031",
+    "A141065",
+    "A141066",
+    "A141067"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:34:55",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

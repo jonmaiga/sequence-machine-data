@@ -1,0 +1,19 @@
+{
+  "description": "Let f(m) = 10 - last digit of prime(m). Sequence gives numbers n such that (1/n)*Sum( m <= n } f(m) is <= 5.",
+  "id": "A122755",
+  "mentions": [
+    "A101306"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

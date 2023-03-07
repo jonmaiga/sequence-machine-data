@@ -1,0 +1,19 @@
+{
+  "description": "The truncated kernel function of n: the product of distinct primes dividing n, but excluding the largest prime divisor of n.",
+  "id": "A293810",
+  "mentions": [
+    "A006530",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct primes appearing in all partitions of n into prime parts.",
+  "id": "A119707",
+  "mentions": [
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

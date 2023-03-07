@@ -1,0 +1,21 @@
+{
+  "description": "If n is even, a(n) = a(n/2-1), and if n is odd, a(n) = a((n-1)/2) - a((n+1)/2), with a(1) = a(2) = 1.",
+  "id": "A277778",
+  "mentions": [
+    "A000045",
+    "A005590",
+    "A010892",
+    "A190610"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

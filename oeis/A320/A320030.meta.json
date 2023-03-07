@@ -1,0 +1,20 @@
+{
+  "description": "Automaton sum similar to A102376 but using mod 3 instead of mod 2.",
+  "id": "A320030",
+  "mentions": [
+    "A096053",
+    "A102376",
+    "A320100"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

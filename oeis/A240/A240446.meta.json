@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of ways to place six indistinguishable points on an n X n square grid so that no four of them are vertices of a square of any orientation.",
+  "id": "A240446",
+  "mentions": [
+    "A240444",
+    "A240445"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

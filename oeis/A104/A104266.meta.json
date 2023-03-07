@@ -1,0 +1,21 @@
+{
+  "description": "Largest n-digit square with no zero digits.",
+  "id": "A104266",
+  "mentions": [
+    "A052041",
+    "A104264",
+    "A104265"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Let (p(n), p(n)+2) be the n-th twin prime pair. a(n) is the smallest k, such that there is only one prime in the interval (k*p(n), k*(p(n)+2)), or a(n)=0, if there is no such k.",
+  "id": "A218279",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A014574",
+    "A077800",
+    "A166251",
+    "A217561",
+    "A217566",
+    "A217577",
+    "A218275"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

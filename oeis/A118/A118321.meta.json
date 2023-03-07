@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 8/105.",
+  "id": "A118321",
+  "mentions": [
+    "A021025",
+    "A118322"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

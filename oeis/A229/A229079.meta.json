@@ -1,0 +1,39 @@
+{
+  "description": "Number A(n,k) of ascending runs in {1,...,k}^n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A229079",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A005449",
+    "A066373",
+    "A099721",
+    "A229078",
+    "A229146",
+    "A229147",
+    "A229148",
+    "A229149",
+    "A229150",
+    "A229151",
+    "A229152",
+    "A229277",
+    "A229278",
+    "A229279",
+    "A229280",
+    "A229281",
+    "A229282",
+    "A229283",
+    "A229284"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

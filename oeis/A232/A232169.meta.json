@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers (A005117) with prime factors in a prime(k) + k progression.",
+  "id": "A232169",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A232170",
+    "A232171"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

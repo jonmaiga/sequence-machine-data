@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers n such that all 10 numbers n+4*m^2 for m=1,2,...,10 are prime.",
+  "id": "A145742",
+  "mentions": [
+    "A145741",
+    "A145743"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

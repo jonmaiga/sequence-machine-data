@@ -1,0 +1,23 @@
+{
+  "description": "Second row of A276941: a(n) = A003961(A276937(n)).",
+  "id": "A276938",
+  "mentions": [
+    "A003961",
+    "A276078",
+    "A276936",
+    "A276937",
+    "A276941",
+    "A276942"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

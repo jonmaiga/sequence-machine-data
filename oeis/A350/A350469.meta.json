@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = hypergeom([1/2 - n/2, -n/2], [-n], -72).",
+  "id": "A350469",
+  "mentions": [
+    "A350470"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

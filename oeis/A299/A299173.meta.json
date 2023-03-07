@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the maximum number of squared consecutive positive integers into which the integer n can be partitioned.",
+  "id": "A299173",
+  "mentions": [
+    "A034705",
+    "A097812",
+    "A111044",
+    "A130052",
+    "A234304",
+    "A234311",
+    "A296338",
+    "A298467"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

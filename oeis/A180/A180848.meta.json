@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction for Khintchin^Khintchin.",
+  "id": "A180848",
+  "mentions": [
+    "A002210",
+    "A002211"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

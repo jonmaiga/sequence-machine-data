@@ -1,0 +1,22 @@
+{
+  "description": "Number of essentially simple rooted toroidal triangulations with n vertices.",
+  "id": "A308523",
+  "mentions": [
+    "A002293",
+    "A006422",
+    "A289208",
+    "A308524",
+    "A308526"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

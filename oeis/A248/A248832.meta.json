@@ -1,0 +1,21 @@
+{
+  "description": "The sum of denominators of unreduced mediants in Farey sequences of orders 1,2,..,n.",
+  "id": "A248832",
+  "mentions": [
+    "A006843",
+    "A007306",
+    "A213544"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

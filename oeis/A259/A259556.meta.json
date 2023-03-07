@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array, read by antidiagonals: T(h,k) = u(h) + v(k), where u = A000201 (lower Wythoff numbers), v = A001950 (upper Wythoff numbers), and h >= 1, k >= 1.",
+  "id": "A259556",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A259598",
+    "A259600",
+    "A259601"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

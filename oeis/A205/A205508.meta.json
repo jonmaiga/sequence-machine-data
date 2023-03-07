@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Pell(n) * A004018(n) for n>=1 with a(0)=1, where A004018(n) is the number of ways of writing n as a sum of 2 squares.",
+  "id": "A205508",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A004018",
+    "A204270",
+    "A204384",
+    "A205507"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

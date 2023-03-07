@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 3*2^k + 1 is a prime factor of a generalized Fermat number 7^(2^m) + 1 for some m.",
+  "id": "A282943",
+  "mentions": [
+    "A002253",
+    "A078304",
+    "A204620",
+    "A268657",
+    "A268658",
+    "A268659",
+    "A268660",
+    "A282944"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

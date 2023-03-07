@@ -1,0 +1,18 @@
+{
+  "description": "Remaining sequence of step 3 of sieve from A175227.",
+  "id": "A175228",
+  "mentions": [
+    "A099861",
+    "A175227"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

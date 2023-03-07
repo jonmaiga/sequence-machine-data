@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Fibonacci(2n+1) * binomial(2n,n).",
+  "id": "A102307",
+  "mentions": [
+    "A000045",
+    "A000984",
+    "A016095"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Integers that are equal to the multiplicative order of 2 modulo some overpseudoprime to base 2.",
+  "id": "A143584",
+  "mentions": [
+    "A002326",
+    "A014664",
+    "A064078",
+    "A086251",
+    "A122929",
+    "A131952",
+    "A141232",
+    "A161508"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For 1 < k <= n, let m be the largest number such that k^1, k^2, ... k^m are palindromes in base n. a(n) gives the smallest k which has the largest value of m.",
+  "id": "A258757",
+  "mentions": [
+    "A007916"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 2,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

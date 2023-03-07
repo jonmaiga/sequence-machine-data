@@ -1,0 +1,20 @@
+{
+  "description": "Number of balanced orbitals over an odd number of sectors.",
+  "id": "A242087",
+  "mentions": [
+    "A232500",
+    "A241810"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

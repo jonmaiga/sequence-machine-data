@@ -1,0 +1,24 @@
+{
+  "description": "Number of isomorphism classes of connected 4-regular loopless multigraphs of order n.",
+  "id": "A129417",
+  "mentions": [
+    "A000421",
+    "A085549",
+    "A129418",
+    "A129419",
+    "A129421",
+    "A129423",
+    "A129425",
+    "A328682"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

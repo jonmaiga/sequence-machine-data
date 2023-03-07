@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=sqrt((A173631(n))^2-4*P_n), where P_n is product of first n primes, if this value is integer and a(n)=0, otherwise",
+  "id": "A173632",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A173631"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

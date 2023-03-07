@@ -1,0 +1,25 @@
+{
+  "description": "Matula-Goebel number of the planted achiral tree determined by the n-th number whose consecutive prime indices are divisible.",
+  "id": "A318993",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A003238",
+    "A008480",
+    "A061775",
+    "A214577",
+    "A318990",
+    "A318991",
+    "A318992"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

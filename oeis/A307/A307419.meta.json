@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of harmonic numbers T(n, k) = [t^n] Gamma(n+k+t)/Gamma(k+t) for n >= 0 and 0 <= k <= n, read by rows.",
+  "id": "A307419",
+  "mentions": [
+    "A000007",
+    "A000254",
+    "A001008",
+    "A001706",
+    "A001713",
+    "A001719",
+    "A002805",
+    "A087761"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

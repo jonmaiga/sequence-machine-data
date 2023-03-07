@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^n+5^n is semiprime.",
+  "id": "A122116",
+  "mentions": [
+    "A074600",
+    "A094475"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

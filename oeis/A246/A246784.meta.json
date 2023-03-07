@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that both n and n+1 are in the sequence A246782.",
+  "id": "A246784",
+  "mentions": [
+    "A000040",
+    "A182134",
+    "A246782"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

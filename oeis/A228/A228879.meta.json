@@ -1,0 +1,24 @@
+{
+  "description": "a(n+2) = 3*a(n), starting 4,7.",
+  "id": "A228879",
+  "mentions": [
+    "A001353",
+    "A008776",
+    "A021006",
+    "A068911",
+    "A083658",
+    "A227418"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:12:55",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

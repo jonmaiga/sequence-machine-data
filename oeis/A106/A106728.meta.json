@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = ( ((f(n+1) mod 5) mod 4) + ((f(k+1) mod 5) mod 4) ) mod 4, where f(n) = 10 - (prime(n+3) mod 10).",
+  "id": "A106728",
+  "mentions": [
+    "A106727"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

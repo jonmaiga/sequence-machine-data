@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Product_{primes p == 4 (mod 5)} 1/(1-p^(-4)).",
+  "id": "A340809",
+  "mentions": [
+    "A004618",
+    "A030433",
+    "A340127",
+    "A340628",
+    "A340808",
+    "A340926",
+    "A340927"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

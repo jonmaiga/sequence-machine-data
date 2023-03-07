@@ -1,0 +1,18 @@
+{
+  "description": "Write a prime p in binary. Consider the runs (that alternate between those of 1's and those of 0's) in this binary representation. Consider all binary numbers made by rearranging the runs, leaving each individual run intact, and starting each such binary number with a run of 1's, followed by a run of 0's, continuing to alternate runs of 1's and runs of 0's. A prime p is included in sequence A162855 if all such permutations of runs lead to prime values.",
+  "id": "A162855",
+  "mentions": [
+    "A162856"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

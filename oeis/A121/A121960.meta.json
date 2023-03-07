@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. x*(1 +30*x +49*x^2 -71*x^3 -116*x^4)/((1+2*x)*(1-2*x^2) *(1-2*x-4*x^2)).",
+  "id": "A121960",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

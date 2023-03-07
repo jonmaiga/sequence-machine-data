@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers equal to the sum of the squares of their first k divisors for some k.",
+  "id": "A185584",
+  "mentions": [
+    "A064510",
+    "A185873"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

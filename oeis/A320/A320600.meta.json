@@ -1,0 +1,18 @@
+{
+  "description": "Let w = (w_1, w_2, ..., w_n) be a permutation of the integers {1, 2, ..., n}, and let f(k, w) be the length of the longest monotone subsequence of (w_k, w_{k+1}, ..., w_n) starting with w_k. Then a(n) is the number of permutations w in S_n such that Sum_{k=1..n} f(k,w) is minimized.",
+  "id": "A320600",
+  "mentions": [
+    "A327672"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

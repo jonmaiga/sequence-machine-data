@@ -1,0 +1,22 @@
+{
+  "description": "Largest fixed point in base n for the sum of the fourth power of its digits.",
+  "id": "A226064",
+  "mentions": [
+    "A023052",
+    "A046074",
+    "A046197",
+    "A052455",
+    "A226063"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number that has exactly n nonpalindromic divisors (A029742).",
+  "id": "A355695",
+  "mentions": [
+    "A029742",
+    "A087991",
+    "A087997",
+    "A093037",
+    "A333456",
+    "A334391",
+    "A355303",
+    "A355594"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

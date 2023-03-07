@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gpf(2^k - 1) - 1 is not divisible by k.",
+  "id": "A291855",
+  "mentions": [
+    "A000225",
+    "A001153",
+    "A005420",
+    "A006530",
+    "A292199"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

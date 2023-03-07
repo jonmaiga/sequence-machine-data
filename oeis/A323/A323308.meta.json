@@ -1,0 +1,27 @@
+{
+  "description": "The number of exponential semiproper divisors of n.",
+  "id": "A323308",
+  "mentions": [
+    "A001694",
+    "A007947",
+    "A034444",
+    "A061742",
+    "A062503",
+    "A082020",
+    "A323309",
+    "A323310"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "changed",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

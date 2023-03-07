@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into parts divisible by 4,6 or 9.",
+  "id": "A147787",
+  "mentions": [
+    "A007690",
+    "A147783",
+    "A147784",
+    "A147785",
+    "A147786"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

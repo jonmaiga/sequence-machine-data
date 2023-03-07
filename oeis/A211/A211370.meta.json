@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = Sum( n <= i <= m+n-1 ) i!.",
+  "id": "A211370",
+  "mentions": [
+    "A000142",
+    "A007489",
+    "A051683",
+    "A055089"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the common denominator of FA, FB and FC, where F is the Fermat point of the integer-sided triangle ABC with A < B < C < 2*Pi/3 such that FA + FB + FC = A336329(n).",
+  "id": "A351477",
+  "mentions": [
+    "A336328",
+    "A336329",
+    "A336330",
+    "A336331",
+    "A336332",
+    "A336333",
+    "A351476"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

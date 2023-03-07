@@ -1,0 +1,18 @@
+{
+  "description": "Numbers formed by setting bits representing odd primes, where bit_no = (prime - 1)/2. Setting bit number b is the same as OR-ing with 2^b (i.e., bit numbers start at zero).",
+  "id": "A133155",
+  "mentions": [
+    "A061285"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of digits '0' in 3^n (in base 10).",
+  "id": "A305930",
+  "mentions": [
+    "A000244",
+    "A027870",
+    "A030700",
+    "A055641",
+    "A063555",
+    "A305931",
+    "A305933",
+    "A305934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

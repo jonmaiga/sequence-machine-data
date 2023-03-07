@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors (with multiplicity) of the denominator of the harmonic number H(n) = Sum_{k=1..n} 1/k.",
+  "id": "A349049",
+  "mentions": [
+    "A001222",
+    "A002805",
+    "A308967"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

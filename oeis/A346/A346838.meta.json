@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (PolyLog(-n, -i) - exp(i*Pi*n)*PolyLog(-n, i)) * i / exp(i*Pi*n/2).",
+  "id": "A346838",
+  "mentions": [
+    "A000111",
+    "A346839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

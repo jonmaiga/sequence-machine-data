@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of beta = 3/(2*log(alpha/2)), where alpha = A195596.",
+  "id": "A195599",
+  "mentions": [
+    "A195581",
+    "A195582",
+    "A195583",
+    "A195596",
+    "A195597",
+    "A195598",
+    "A195600",
+    "A195601"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

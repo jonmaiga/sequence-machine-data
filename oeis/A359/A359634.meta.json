@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1 and thereafter a(n) is the length of the longest contiguous group of terms in the sequence thus far that add up to n; if no such group exists, set a(n)=0.",
+  "id": "A359634",
+  "mentions": [
+    "A138099",
+    "A331614",
+    "A358537"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

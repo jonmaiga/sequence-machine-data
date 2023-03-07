@@ -1,0 +1,20 @@
+{
+  "description": "Viggo Brun's ternary continued fraction algorithm applied to { log 2, log 3/2, log 5/4 } produces a list of triples (p,q,r); sequence gives q values.",
+  "id": "A359743",
+  "mentions": [
+    "A060986",
+    "A359742",
+    "A359744"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

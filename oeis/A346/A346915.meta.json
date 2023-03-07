@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the limit as N->oo of the mean number of mems per forest taken by Knuth's algorithm O when generating the rooted forests of N vertices.",
+  "id": "A346915",
+  "mentions": [
+    "A051491",
+    "A346913",
+    "A346914",
+    "A346916"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

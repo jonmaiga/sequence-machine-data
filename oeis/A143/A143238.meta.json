@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A000203(n) * A024916(n).",
+  "id": "A143238",
+  "mentions": [
+    "A000203",
+    "A024916",
+    "A143237"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:57",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

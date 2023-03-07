@@ -1,0 +1,23 @@
+{
+  "description": "Deletable primes (A080608) under the stricter rule that leading zeros are disallowed.",
+  "id": "A305352",
+  "mentions": [
+    "A080603",
+    "A080608",
+    "A096235",
+    "A096246",
+    "A125001",
+    "A322474"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Prime powers k that have such a proper divisor d for which A002034(d) = A002034(k).",
+  "id": "A345946",
+  "mentions": [
+    "A000961",
+    "A002034",
+    "A010055",
+    "A345935",
+    "A345945",
+    "A345950"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k + 1 has the same value of A319445, the equivalent of the Euler totient function in the ring of Eisenstein integers.",
+  "id": "A332530",
+  "mentions": [
+    "A001274",
+    "A287055",
+    "A293184",
+    "A319445",
+    "A326403",
+    "A332316"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

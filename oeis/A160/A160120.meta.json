@@ -1,0 +1,34 @@
+{
+  "description": "Y-toothpick sequence (see Comments lines for definition).",
+  "id": "A160120",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000695",
+    "A006516",
+    "A139250",
+    "A147562",
+    "A153006",
+    "A160121",
+    "A160123",
+    "A160167",
+    "A160715",
+    "A161206",
+    "A161328",
+    "A161330",
+    "A161430",
+    "A173066",
+    "A173068",
+    "A253770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

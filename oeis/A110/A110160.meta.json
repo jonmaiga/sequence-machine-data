@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Molien series for 16-dimensional real Clifford group C_4 of genus 4 and order 178362777600.",
+  "id": "A110160",
+  "mentions": [
+    "A001309",
+    "A024186"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

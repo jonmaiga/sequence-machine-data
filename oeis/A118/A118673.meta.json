@@ -1,0 +1,33 @@
+{
+  "description": "Positive solutions x to the equation x^2 + (x+71)^2 = y^2.",
+  "id": "A118673",
+  "mentions": [
+    "A066049",
+    "A066436",
+    "A076296",
+    "A118120",
+    "A118674",
+    "A129836",
+    "A129991",
+    "A129992",
+    "A129993",
+    "A129999",
+    "A130004",
+    "A130005",
+    "A130013",
+    "A130014",
+    "A130017"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

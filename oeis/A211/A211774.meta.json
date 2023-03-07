@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted 2-regular labeled graphs on n nodes.",
+  "id": "A211774",
+  "mentions": [
+    "A001205"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = phi(A354091(n)), where A354091 is fully multiplicative prime shift which replaces the primes of the form 3k+2 by the next larger such prime, while other primes stay as they are, and phi is Euler totient function.",
+  "id": "A354094",
+  "mentions": [
+    "A000010",
+    "A003627",
+    "A003972",
+    "A007949",
+    "A008683",
+    "A010872",
+    "A074942",
+    "A354091",
+    "A354099"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

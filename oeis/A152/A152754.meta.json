@@ -1,0 +1,20 @@
+{
+  "description": "\"Upper positive integers\": n is in the sequence iff in the representation n=A000695(k)+2*A000695(l) satisfies inequality A000695(k) < A000695(l)",
+  "id": "A152754",
+  "mentions": [
+    "A000695",
+    "A059905",
+    "A059906",
+    "A139370"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

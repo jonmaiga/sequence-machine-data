@@ -1,0 +1,20 @@
+{
+  "description": "a(2k-1) = k-th prime congruent to 3 mod 4, a(2k) = k-th prime congruent to 1 mod 4.",
+  "id": "A111745",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A108546"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

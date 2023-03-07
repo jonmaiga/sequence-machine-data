@@ -1,0 +1,19 @@
+{
+  "description": "Squares of numbers in Perrin sequence",
+  "id": "A192932",
+  "mentions": [
+    "A001608"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:30:28",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

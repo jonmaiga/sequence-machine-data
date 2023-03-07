@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - A264977(n).",
+  "id": "A265397",
+  "mentions": [
+    "A023758",
+    "A125184",
+    "A260443",
+    "A264977"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

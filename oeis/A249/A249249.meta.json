@@ -1,0 +1,18 @@
+{
+  "description": "Total number of occurrences of the consecutive step pattern given by the binary expansion of n (where 1=up and 0=down) in all permutations of [n].",
+  "id": "A249249",
+  "mentions": [
+    "A242783"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

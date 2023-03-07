@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of k(q) = r(q) * r(q^2)^2 in powers of q where r() is the Rogers-Ramanujan continued fraction.",
+  "id": "A112274",
+  "mentions": [
+    "A078905",
+    "A112803",
+    "A214341",
+    "A285554",
+    "A285555"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

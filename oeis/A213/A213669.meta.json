@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of dominating subsets with k vertices of the double star graph G(n) obtained by joining with an edge the centers of two star trees each having n+1 vertices (n>=1, k>=2).",
+  "id": "A213669",
+  "mentions": [
+    "A028400",
+    "A212630"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

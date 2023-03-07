@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = numerator of (Zeta(2, 3/4) - Zeta(2, n-1/4))/16 where Zeta(n, a) is the Hurwitz Zeta function.",
+  "id": "A173955",
+  "mentions": [
+    "A006752",
+    "A120268",
+    "A173945",
+    "A173947",
+    "A173948",
+    "A173949",
+    "A173953",
+    "A173954",
+    "A247037"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

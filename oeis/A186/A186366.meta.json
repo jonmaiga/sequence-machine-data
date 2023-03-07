@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of cycle-up-down permutations of {1,2,...,n} having k cycles (1<=k<=n).",
+  "id": "A186366",
+  "mentions": [
+    "A000111",
+    "A186367",
+    "A211602",
+    "A212258",
+    "A212259",
+    "A248120",
+    "A264428",
+    "A344445",
+    "A344532"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

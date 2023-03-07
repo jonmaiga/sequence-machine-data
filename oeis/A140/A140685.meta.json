@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: T = 1 if n is odd and k=(n-1)/2; T = 2 otherwise.",
+  "id": "A140685",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A042948",
+    "A104041"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

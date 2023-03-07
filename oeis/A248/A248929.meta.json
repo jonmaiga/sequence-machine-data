@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = PIP(n,k) is the number of maximal families of sets from {1,2,...,n} with the property that if A and B are sets in the family, then |AB|>=k.",
+  "id": "A248929",
+  "mentions": [
+    "A001206"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

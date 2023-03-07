@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = ((1 - sqrt(3))^n + (1 + sqrt(3))^n)/2^floor((n - 1)/2); n-th row common denominator of A321118.",
+  "id": "A321119",
+  "mentions": [
+    "A000034",
+    "A001834",
+    "A002176",
+    "A002530",
+    "A002531",
+    "A003500",
+    "A005246",
+    "A048788",
+    "A083336",
+    "A125905",
+    "A321118",
+    "A321120"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:50:02",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

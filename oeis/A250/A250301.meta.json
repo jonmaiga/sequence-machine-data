@@ -1,0 +1,27 @@
+{
+  "description": "First differences of A250300.",
+  "id": "A250301",
+  "mentions": [
+    "A011782",
+    "A139251",
+    "A147582",
+    "A151724",
+    "A160121",
+    "A161645",
+    "A182633",
+    "A250300",
+    "A253771"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

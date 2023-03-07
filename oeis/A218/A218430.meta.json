@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n for which sigma(n)/n = k+2/9 with integer k.",
+  "id": "A218430",
+  "mentions": [
+    "A160320",
+    "A160321",
+    "A218414",
+    "A218415",
+    "A218416",
+    "A218417",
+    "A218418"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

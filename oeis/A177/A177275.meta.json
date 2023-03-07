@@ -1,0 +1,25 @@
+{
+  "description": "Primes which are a concatenation of some permutation of the first 5 primes.",
+  "id": "A177275",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A033548",
+    "A051351",
+    "A134966",
+    "A177061"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

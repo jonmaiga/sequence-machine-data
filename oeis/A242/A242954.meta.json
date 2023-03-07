@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{i=1..n} A234957(i).",
+  "id": "A242954",
+  "mentions": [
+    "A054893",
+    "A060818",
+    "A060828",
+    "A234957"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:27:13",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

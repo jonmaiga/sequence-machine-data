@@ -1,0 +1,20 @@
+{
+  "description": "Real fixed point of the function sin(cos(x)) between x=0 and x=1.",
+  "id": "A131691",
+  "mentions": [
+    "A277077"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

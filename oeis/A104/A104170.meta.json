@@ -1,0 +1,20 @@
+{
+  "description": "Number of Smith numbers below 10^n.",
+  "id": "A104170",
+  "mentions": [
+    "A006753"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

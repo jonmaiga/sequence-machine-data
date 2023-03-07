@@ -1,0 +1,21 @@
+{
+  "description": "Balanced ternary numbers with more positive trits than negative trits.",
+  "id": "A174659",
+  "mentions": [
+    "A065363",
+    "A140267",
+    "A174657",
+    "A174658"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

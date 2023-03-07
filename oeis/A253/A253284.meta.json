@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows, T(n,k) = (k+1)*(n+1)!*(n+k)!/((k+1)!^2*(n-k)!) with n >= 0 and 0 <= k <= n.",
+  "id": "A253284",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A001804",
+    "A001813",
+    "A002378",
+    "A006318",
+    "A083374",
+    "A088617",
+    "A253283",
+    "A253285"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

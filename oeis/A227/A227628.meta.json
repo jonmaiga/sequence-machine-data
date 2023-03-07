@@ -1,0 +1,20 @@
+{
+  "description": "Number of Lipschitz quaternions X such that X^2 == X (mod n).",
+  "id": "A227628",
+  "mentions": [
+    "A000118",
+    "A227477",
+    "A227499"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

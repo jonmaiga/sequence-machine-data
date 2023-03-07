@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that phi(n + 10) = phi(n) + 10 where phi(n) = A000010(n) is Euler's totient function.",
+  "id": "A262086",
+  "mentions": [
+    "A000010",
+    "A001838",
+    "A023203",
+    "A056772",
+    "A262084",
+    "A262085"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

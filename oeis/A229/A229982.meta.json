@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the upper limit of the convergents of the continued fraction [1, 1/2, 1/4, 1/8, ... ].",
+  "id": "A229982",
+  "mentions": [
+    "A229981"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

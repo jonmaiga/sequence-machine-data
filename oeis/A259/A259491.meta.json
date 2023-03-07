@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (eta(q)^2 * eta(q^2) * eta(q^4)^3 / eta(q^8)^2)^2 in powers of q.",
+  "id": "A259491",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030211",
+    "A035016",
+    "A121373",
+    "A131999"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:46:33",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

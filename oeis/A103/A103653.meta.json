@@ -1,0 +1,21 @@
+{
+  "description": "Members of A085924 that are not members of A072774.",
+  "id": "A103653",
+  "mentions": [
+    "A072774",
+    "A085924"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Antidiagonal sums of the first quadrant of array A(k,m) = F_k(m), F_k(m) being the k-th Fibonacci polynomial evaluated at m.",
+  "id": "A304357",
+  "mentions": [
+    "A000045",
+    "A084844",
+    "A101494",
+    "A157103",
+    "A172236",
+    "A304359"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

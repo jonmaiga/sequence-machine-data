@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: with a(n,m,k) defined in A091969: T(n,m)=a(n, 2^(n - 1), 2^(m - 1)).",
+  "id": "A143266",
+  "mentions": [
+    "A091969"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

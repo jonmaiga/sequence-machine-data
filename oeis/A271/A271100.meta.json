@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: T(n, k) = k-th largest member of lexicographically earliest Wieferich n-tuple that contains no duplicate members, read by rows, or T(n, k) = 0 if no Wieferich n-tuple exists.",
+  "id": "A271100",
+  "mentions": [
+    "A124121",
+    "A124122",
+    "A253683",
+    "A253684",
+    "A253685",
+    "A266829"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

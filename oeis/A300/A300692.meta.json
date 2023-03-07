@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are the sum of all primes up to some power of 2.",
+  "id": "A300692",
+  "mentions": [
+    "A061397",
+    "A130739"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

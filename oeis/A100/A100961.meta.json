@@ -1,0 +1,23 @@
+{
+  "description": "For a decimal string s, let f(s) = decimal string ijk, where i = number of even digits in s, j = number of odd digits in s, k=i+j (see A171797). Start with s = decimal expansion of n; a(n) = number of applications of f needed to reach the string 123.",
+  "id": "A100961",
+  "mentions": [
+    "A065031",
+    "A073053",
+    "A073054",
+    "A171797",
+    "A308002"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

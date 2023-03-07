@@ -1,0 +1,27 @@
+{
+  "description": "a(0)=1, a(1)=-2; a(n+2) = a(n+1) + a(n) + (period 3: repeat 3, 1, -1).",
+  "id": "A226328",
+  "mentions": [
+    "A001622",
+    "A010872",
+    "A015448",
+    "A022120",
+    "A022353",
+    "A057078",
+    "A156279",
+    "A212804"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

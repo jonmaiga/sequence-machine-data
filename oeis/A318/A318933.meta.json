@@ -1,0 +1,17 @@
+{
+  "description": "For the n-th number k = A318932(n) such that the Diophantine equation y^2 - k = x^3 has a solution, a(n) gives the number of solutions.",
+  "id": "A318933",
+  "mentions": [
+    "A318932"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

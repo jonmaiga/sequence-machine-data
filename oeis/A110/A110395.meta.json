@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1. a(n) = n times (10's complement of a(n-1)).",
+  "id": "A110395",
+  "mentions": [
+    "A110394"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

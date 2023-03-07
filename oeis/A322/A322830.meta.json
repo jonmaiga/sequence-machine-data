@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 32*n^3 + 48*n^2 + 18*n + 1.",
+  "id": "A322830",
+  "mentions": [
+    "A144129",
+    "A322790"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

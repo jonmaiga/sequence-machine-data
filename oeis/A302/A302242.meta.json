@@ -1,0 +1,32 @@
+{
+  "description": "Total weight of the n-th multiset multisystem. Totally additive with a(prime(n)) = Omega(n).",
+  "id": "A302242",
+  "mentions": [
+    "A001222",
+    "A003963",
+    "A007716",
+    "A034691",
+    "A056239",
+    "A061775",
+    "A063834",
+    "A096443",
+    "A249620",
+    "A255397",
+    "A255906",
+    "A275024",
+    "A279789",
+    "A281113",
+    "A299757",
+    "A302243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

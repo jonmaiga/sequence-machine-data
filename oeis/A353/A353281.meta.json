@@ -1,0 +1,20 @@
+{
+  "description": "k is a term if 5 and 6 do not divide k and k does not divide F(n, j) for all j >= 0, where F(n, j) are the Fibonacci numbers.",
+  "id": "A353281",
+  "mentions": [
+    "A093509",
+    "A352744",
+    "A352747",
+    "A353280"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Starts of runs of 5 consecutive numbers with the same total binary weight of their divisors (A093653).",
+  "id": "A338455",
+  "mentions": [
+    "A045933",
+    "A045941",
+    "A049051",
+    "A093653",
+    "A338452",
+    "A338453",
+    "A338454"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

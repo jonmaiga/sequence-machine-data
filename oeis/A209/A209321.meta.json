@@ -1,0 +1,18 @@
+{
+  "description": "Indices n for which A209312(n)=2.",
+  "id": "A209321",
+  "mentions": [
+    "A209312"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

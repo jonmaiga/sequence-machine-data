@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{i >= 1} 1/(4*i^2-1)^4.",
+  "id": "A248896",
+  "mentions": [
+    "A123092",
+    "A248895"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:13",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

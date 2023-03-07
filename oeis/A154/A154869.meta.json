@@ -1,0 +1,19 @@
+{
+  "description": "A triangular sequence: T(n,m) = t1(n,m) + t1(n,n-m) where t1(n,m) = -Sum_{j=0..m+1} (-1)^j * t0(n + 2, j) * (m - j + 1)^(n + 1) and t0(n,m) = Sum_{j=0..m+1} (-1)^j * binomial(n + 2, j) * (m - j + 1)^(n + 1).",
+  "id": "A154869",
+  "mentions": [
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:38:59",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

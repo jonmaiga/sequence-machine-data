@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not containing the rounded up arithmetic mean of their digits, cf. A004427.",
+  "id": "A178402",
+  "mentions": [
+    "A004427",
+    "A178401",
+    "A178403"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

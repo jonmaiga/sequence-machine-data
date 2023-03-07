@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Product_{n>=1} [ (1 - 3^n*x^n) / (1 - (n+3)^n*x^n) ]^(1/n).",
+  "id": "A206765",
+  "mentions": [
+    "A205811",
+    "A205814",
+    "A206763",
+    "A206766"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

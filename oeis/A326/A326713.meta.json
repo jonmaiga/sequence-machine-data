@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m that are neither arithmetic (A003601) nor RMS numbers (A140480).",
+  "id": "A326713",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A003601",
+    "A049642",
+    "A140480",
+    "A327055"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

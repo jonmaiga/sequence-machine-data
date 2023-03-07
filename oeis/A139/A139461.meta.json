@@ -1,0 +1,41 @@
+{
+  "description": "Numbers k such that 2*prime(k+2) + product (first k odd primes) is prime, i.e., k such that primorial(k+1)/2 + 2*prime(k+2) is prime.",
+  "id": "A139461",
+  "mentions": [
+    "A067026",
+    "A067027",
+    "A103514",
+    "A139439",
+    "A139440",
+    "A139441",
+    "A139442",
+    "A139443",
+    "A139444",
+    "A139445",
+    "A139446",
+    "A139447",
+    "A139448",
+    "A139449",
+    "A139450",
+    "A139451",
+    "A139452",
+    "A139453",
+    "A139454",
+    "A139455",
+    "A139456",
+    "A139457",
+    "A139460",
+    "A139462",
+    "A139463"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not the difference of two binary palindromes (A006995).",
+  "id": "A290393",
+  "mentions": [
+    "A006995"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

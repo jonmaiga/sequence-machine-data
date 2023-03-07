@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+967)^2 = y^2.",
+  "id": "A130017",
+  "mentions": [
+    "A001652",
+    "A066436",
+    "A118673",
+    "A118674",
+    "A129836",
+    "A156035",
+    "A159701",
+    "A159702",
+    "A159703"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

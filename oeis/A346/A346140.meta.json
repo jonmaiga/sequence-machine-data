@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that there exist positive integers i <= m and j >= m such that m = Sum_{k=i..j} A001065(k), where A001065(k) = sum of the proper divisors of k, and i and j do not both equal m.",
+  "id": "A346140",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A072188"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

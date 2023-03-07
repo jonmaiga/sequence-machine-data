@@ -1,0 +1,40 @@
+{
+  "description": "Solution of the complementary equation a(n) = a(n-1) + a(n-2) + b(n), where a(0) = 1, a(1) = 3, b(0) = 2, b(1) = 4, b(2) = 5, and (a(n)) and (b(n)) are increasing complementary sequences.",
+  "id": "A295862",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A295860",
+    "A295947",
+    "A295948",
+    "A295949",
+    "A295950",
+    "A295951",
+    "A295952",
+    "A295953",
+    "A295954",
+    "A295955",
+    "A295956",
+    "A295957",
+    "A295958",
+    "A295959",
+    "A295961",
+    "A295962",
+    "A295963",
+    "A295964",
+    "A295965",
+    "A295966"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

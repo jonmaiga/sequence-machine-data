@@ -1,0 +1,22 @@
+{
+  "description": "Strongly graded (3+1)-free partially ordered sets (posets) on n labeled vertices.",
+  "id": "A222863",
+  "mentions": [
+    "A006860",
+    "A047863",
+    "A079145",
+    "A222864",
+    "A222865"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

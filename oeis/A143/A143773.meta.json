@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n such that every part is divisible by number of parts.",
+  "id": "A143773",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A067538",
+    "A298422",
+    "A298423",
+    "A298426"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

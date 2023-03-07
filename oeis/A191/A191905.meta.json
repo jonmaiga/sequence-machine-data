@@ -1,0 +1,22 @@
+{
+  "description": "Composite deficient numbers k such that (product of proper divisors of k) mod (sum of proper divisors of k) is a prime number.",
+  "id": "A191905",
+  "mentions": [
+    "A001065",
+    "A005100",
+    "A007956",
+    "A125493",
+    "A191906"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

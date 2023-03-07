@@ -1,0 +1,18 @@
+{
+  "description": "Number of nontrivial (i.e., containing two or more members) subsets of {1,2,3,...,n} whose geometric mean is an integer.",
+  "id": "A147751",
+  "mentions": [
+    "A147752",
+    "A147753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

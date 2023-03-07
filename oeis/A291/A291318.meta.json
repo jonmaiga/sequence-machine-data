@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes of the form p*q such that p+q-1 is prime.",
+  "id": "A291318",
+  "mentions": [
+    "A001358",
+    "A001359",
+    "A290434"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the maximal prime such that if p_n is the n-th prime then ceiling(sqrt(a(n)*p_n))^2 - a(n)*p_n is a perfect square.",
+  "id": "A145300",
+  "mentions": [
+    "A145236",
+    "A145281"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

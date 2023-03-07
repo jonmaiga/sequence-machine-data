@@ -1,0 +1,20 @@
+{
+  "description": "Odious numbers (A000069) that are the product of exactly two distinct primes.",
+  "id": "A230095",
+  "mentions": [
+    "A000069",
+    "A027697",
+    "A130593"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

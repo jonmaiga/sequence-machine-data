@@ -1,0 +1,20 @@
+{
+  "description": "Number of (undirected) Hamiltonian cycles of the graph of the n-th Johnson solid.",
+  "id": "A343211",
+  "mentions": [
+    "A242731",
+    "A268283"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

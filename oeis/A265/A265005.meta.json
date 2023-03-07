@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k)=Number of nXk arrays containing k copies of 0..n-1 with rows and columns nondecreasing.",
+  "id": "A265005",
+  "mentions": [
+    "A001006",
+    "A004526",
+    "A200987",
+    "A201071",
+    "A201272",
+    "A201447"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

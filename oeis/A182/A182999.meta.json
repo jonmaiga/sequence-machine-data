@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of c^2, c being the speed of light in vacuum in SI units.",
+  "id": "A182999",
+  "mentions": [
+    "A000007",
+    "A003678",
+    "A019694",
+    "A072915",
+    "A081799",
+    "A213610",
+    "A213611",
+    "A213612",
+    "A213613",
+    "A213614"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:15",
+    "offset": 17,
+    "size": 17,
+    "source": "joeis"
+  }
+}

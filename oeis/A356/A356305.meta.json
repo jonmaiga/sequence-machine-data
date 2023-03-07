@@ -1,0 +1,22 @@
+{
+  "description": "The least k >= 0 such that A003415(n) and A276086(n-k) are relatively prime, where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A356305",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A356303",
+    "A356304",
+    "A356311"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

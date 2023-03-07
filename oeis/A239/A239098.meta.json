@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(0,0)=1; T(m,0)=0; otherwise T(m,n) = (m-1)*T(m-1,n)+(m-1+n)*T(m-1,n-1).",
+  "id": "A239098",
+  "mentions": [
+    "A075856"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

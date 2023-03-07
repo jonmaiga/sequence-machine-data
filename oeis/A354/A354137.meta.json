@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(log(1 + x)^5/120).",
+  "id": "A354137",
+  "mentions": [
+    "A327506",
+    "A347004",
+    "A354135",
+    "A354136"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

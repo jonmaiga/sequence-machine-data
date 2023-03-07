@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle which contains in row n those partition numbers A000041(n*prime(m) + m + 1) which are congruent to 0 mod prime(m) for 1 <= m <= n.",
+  "id": "A117749",
+  "mentions": [
+    "A000041",
+    "A117750"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

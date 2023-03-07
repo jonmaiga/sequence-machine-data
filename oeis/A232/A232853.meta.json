@@ -1,0 +1,29 @@
+{
+  "description": "Repeat n+1 times A091137(n).",
+  "id": "A232853",
+  "mentions": [
+    "A002208",
+    "A002209",
+    "A002657",
+    "A091137",
+    "A141417",
+    "A165313",
+    "A174727",
+    "A193546",
+    "A195287"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

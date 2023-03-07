@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=0; thereafter a(n) = largest odd divisor of a(n-1) + prime(n).",
+  "id": "A114216",
+  "mentions": [
+    "A114217",
+    "A114218",
+    "A114221",
+    "A114222",
+    "A114223",
+    "A114224"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 7; for n > 1, a(n) = smallest prime strictly greater than sum of previous terms.",
+  "id": "A165549",
+  "mentions": [
+    "A064934",
+    "A070218"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

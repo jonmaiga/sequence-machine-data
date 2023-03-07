@@ -1,0 +1,22 @@
+{
+  "description": "Pandigital numbers (each digit 0-9 used exactly once) where the first 3 digits plus the next 3 digits equals the last 4 digits.",
+  "id": "A289544",
+  "mentions": [
+    "A050278",
+    "A286846",
+    "A289552"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

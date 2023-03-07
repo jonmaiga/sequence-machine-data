@@ -1,0 +1,18 @@
+{
+  "description": "Index of prime(n) in A068811, or -1 if prime(n) is missing from A068811.",
+  "id": "A359122",
+  "mentions": [
+    "A068811",
+    "A359121"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

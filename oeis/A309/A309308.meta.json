@@ -1,0 +1,21 @@
+{
+  "description": "Least number k with A309004(k) = n.",
+  "id": "A309308",
+  "mentions": [
+    "A025487",
+    "A088860",
+    "A111470",
+    "A309004"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

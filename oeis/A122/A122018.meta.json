@@ -1,0 +1,19 @@
+{
+  "description": "Modulo 2 recursion switch between A000898 and A121966: A000898 first.",
+  "id": "A122018",
+  "mentions": [
+    "A000898",
+    "A121966"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

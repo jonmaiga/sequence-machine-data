@@ -1,0 +1,28 @@
+{
+  "description": "Number of antichains of subsets of {1..n} with different edge-sums.",
+  "id": "A326030",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A006126",
+    "A275780",
+    "A321469",
+    "A326519",
+    "A326535",
+    "A326571",
+    "A326572",
+    "A326573",
+    "A326574"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = product of divisors of n that are not perfect powers.",
+  "id": "A183105",
+  "mentions": [
+    "A001597",
+    "A007955",
+    "A183101",
+    "A183103",
+    "A183104"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

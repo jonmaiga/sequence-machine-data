@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists numbers d-1 that do not divide n, where d divides n.",
+  "id": "A195153",
+  "mentions": [
+    "A018253",
+    "A027750",
+    "A173540",
+    "A195150"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 3,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

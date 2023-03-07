@@ -1,0 +1,22 @@
+{
+  "description": "Let S_5(x) denote the difference in counts of multiples of 5 in the interval [0,x), those with even digit sums in base 4 in one set, those with odd digit sums in base 4 in the other. Then a(n) = (-1)^s_4(n) *(S_5(n) -10*S_5(floor(n/16)) +5*S_5(floor(n/256))), where s_4(n) = A053737(n).",
+  "id": "A218085",
+  "mentions": [
+    "A053737",
+    "A214458",
+    "A217971"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

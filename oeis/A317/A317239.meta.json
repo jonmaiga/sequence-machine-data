@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct parts with an even sum of Hamming weights.",
+  "id": "A317239",
+  "mentions": [
+    "A000009",
+    "A000120",
+    "A316996"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

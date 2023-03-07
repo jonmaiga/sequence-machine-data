@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n = concat(a,b) such that bigomega(n) = bigomega(a) * bigomega(b), where bigomega = A001222.",
+  "id": "A147627",
+  "mentions": [
+    "A001222",
+    "A147616",
+    "A147619",
+    "A147624"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

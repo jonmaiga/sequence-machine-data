@@ -1,0 +1,26 @@
+{
+  "description": "Smallest n-Ramanujan prime that is less than half of the next n-Ramanujan prime, or 0 if none exists.",
+  "id": "A225907",
+  "mentions": [
+    "A000040",
+    "A062234",
+    "A104272",
+    "A192820",
+    "A192821",
+    "A192822",
+    "A192823",
+    "A192824",
+    "A233822"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

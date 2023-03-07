@@ -1,0 +1,21 @@
+{
+  "description": "If n even, a(n) = A000071(n/2+1); if n odd, a(n) = A001610((n-1)/2).",
+  "id": "A339572",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001610",
+    "A053602"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

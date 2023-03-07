@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that f(k) is composite for all m-fold compositions f of the functions 6*x +- 1, 1 <= m <= n.",
+  "id": "A345124",
+  "mentions": [
+    "A003464",
+    "A060461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

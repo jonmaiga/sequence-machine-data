@@ -1,0 +1,26 @@
+{
+  "description": "\"Conway's Converger\": a reordering of the integers (see Comments for definition).",
+  "id": "A170949",
+  "mentions": [
+    "A000290",
+    "A002061",
+    "A002522",
+    "A003059",
+    "A005898",
+    "A009858",
+    "A132411",
+    "A170950"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

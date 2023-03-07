@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the constant given by Sum_{n>=0} A083952(n)/2^(n+1).",
+  "id": "A113737",
+  "mentions": [
+    "A083952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

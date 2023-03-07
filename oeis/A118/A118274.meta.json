@@ -1,0 +1,19 @@
+{
+  "description": "Concatenate the terms of sequence A118275 written in binary. Each binary digit of the concatenated string is a separate term of sequence A118274.",
+  "id": "A118274",
+  "mentions": [
+    "A118275"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

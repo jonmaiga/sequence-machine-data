@@ -1,0 +1,25 @@
+{
+  "description": "Central terms of triangle A125053.",
+  "id": "A125054",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A002439",
+    "A008301",
+    "A125053",
+    "A125055",
+    "A130847",
+    "A210108"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

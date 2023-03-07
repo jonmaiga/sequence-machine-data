@@ -1,0 +1,31 @@
+{
+  "description": "Squarefree numbers whose prime indices are pairwise indivisible. Heinz numbers of strict integer partitions with pairwise indivisible parts.",
+  "id": "A304713",
+  "mentions": [
+    "A000009",
+    "A005117",
+    "A006126",
+    "A056239",
+    "A073576",
+    "A285572",
+    "A285573",
+    "A293606",
+    "A293993",
+    "A302242",
+    "A302696",
+    "A302796",
+    "A303362",
+    "A303365",
+    "A304711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

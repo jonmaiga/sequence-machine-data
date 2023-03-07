@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that 6^n - 2*k*3^n - 1 and 6^n - 2*k*3^n + 1 are twin primes or 0 if no solution, n > 1.",
+  "id": "A216217",
+  "mentions": [
+    "A205322"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

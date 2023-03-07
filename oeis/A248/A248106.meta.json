@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that ((k+1)/(k-1))^k - e^2 < 1/n^2.",
+  "id": "A248106",
+  "mentions": [
+    "A248103",
+    "A248111"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Zero-one sequence based on the central polygonal numbers n^2-n+1: a(A002061(k))=a(k); a(A135668(k))=1-a(k), a(1)=0.",
+  "id": "A189135",
+  "mentions": [
+    "A002061",
+    "A135668",
+    "A188967",
+    "A189133",
+    "A189136",
+    "A189137"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:23",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

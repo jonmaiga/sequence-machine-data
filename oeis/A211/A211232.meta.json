@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the k-th generalized Eulerian number of order n and degree 2, for n >= 1 (the rows start at k=1).",
+  "id": "A211232",
+  "mentions": [
+    "A008292",
+    "A047681",
+    "A211233",
+    "A211234",
+    "A211235"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

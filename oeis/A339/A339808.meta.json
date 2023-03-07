@@ -1,0 +1,21 @@
+{
+  "description": "1 + 1/a(n) is the smallest resistance value of this form that can be obtained from a resistor network of not more than n one-ohm resistors.",
+  "id": "A339808",
+  "mentions": [
+    "A180414",
+    "A337517",
+    "A339548"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

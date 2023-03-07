@@ -1,0 +1,21 @@
+{
+  "description": "Number of (primitive) weird numbers of the form 2^n*p*q, with odd primes p < q.",
+  "id": "A258333",
+  "mentions": [
+    "A002975",
+    "A006037",
+    "A258882"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

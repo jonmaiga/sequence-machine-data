@@ -1,0 +1,20 @@
+{
+  "description": "Number of 0's in the top rows of all 2-compositions of n.",
+  "id": "A181331",
+  "mentions": [
+    "A181292",
+    "A181294",
+    "A181330"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:40:04",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array T read by rows related to the multiplication table.",
+  "id": "A360373",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A003991",
+    "A004737",
+    "A060747",
+    "A075362",
+    "A272125"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

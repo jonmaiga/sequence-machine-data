@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows, number of orbitals classified with respect to the first zero crossing, n>=1, 1<=k<=n.",
+  "id": "A241477",
+  "mentions": [
+    "A000984",
+    "A001448",
+    "A002420",
+    "A002894",
+    "A010370",
+    "A024491",
+    "A028329",
+    "A056040",
+    "A057977",
+    "A126869",
+    "A232500",
+    "A241530",
+    "A241543"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

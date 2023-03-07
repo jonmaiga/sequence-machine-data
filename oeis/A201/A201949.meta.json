@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of row n equals Product_{k=0..n-1} (1 + k*y + y^2) for n>0 with a single '1' in row 0.",
+  "id": "A201949",
+  "mentions": [
+    "A201950",
+    "A201951",
+    "A201952",
+    "A201953",
+    "A324305"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1 + Sum_{n>=1} ( q^(n^2)/Product_{i=1..n} ((1+q^(2*i))^2) ).",
+  "id": "A261401",
+  "mentions": [
+    "A000025",
+    "A053250"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Write the coefficient of x^n/n! in the expansion of (x/(exp(x)-1))^(1/2) as f(n)/g(n); sequence gives g(n).",
+  "id": "A242225",
+  "mentions": [
+    "A222411",
+    "A222412",
+    "A241885",
+    "A350154",
+    "A350194"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

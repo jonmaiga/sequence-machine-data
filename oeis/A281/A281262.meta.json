@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [2n] with exactly n fixed points.",
+  "id": "A281262",
+  "mentions": [
+    "A000166",
+    "A007318",
+    "A008290",
+    "A098825"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

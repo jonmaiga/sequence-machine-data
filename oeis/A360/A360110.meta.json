@@ -1,0 +1,27 @@
+{
+  "description": "Nonmultiples of 4 whose arithmetic derivative is a multiple of 4.",
+  "id": "A360110",
+  "mentions": [
+    "A003415",
+    "A042968",
+    "A046337",
+    "A080774",
+    "A099309",
+    "A235992",
+    "A327864",
+    "A327929",
+    "A327934",
+    "A359829",
+    "A360109"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

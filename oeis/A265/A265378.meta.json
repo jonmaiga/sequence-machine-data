@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n!3 + 3^9 is prime, where n!3 = n!!! is a triple factorial number (A007661).",
+  "id": "A265378",
+  "mentions": [
+    "A007661",
+    "A037082",
+    "A084438",
+    "A123910",
+    "A242994",
+    "A261145",
+    "A265200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

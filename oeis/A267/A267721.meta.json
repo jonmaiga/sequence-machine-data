@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least term of A030461 with gap = 6*n between consecutive primes or 0 if no such term exists.",
+  "id": "A267721",
+  "mentions": [
+    "A030459",
+    "A030460",
+    "A030461",
+    "A058193",
+    "A267692"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

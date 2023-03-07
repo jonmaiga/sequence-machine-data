@@ -1,0 +1,18 @@
+{
+  "description": "Floor(sqrt(3*2^n)).",
+  "id": "A221718",
+  "mentions": [
+    "A007283",
+    "A114183"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:11:31",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

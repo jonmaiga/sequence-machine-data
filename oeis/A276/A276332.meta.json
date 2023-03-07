@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of terms of A001563 needed to sum to n when always choosing the largest term that divides the remaining n, a(0) = 0.",
+  "id": "A276332",
+  "mentions": [
+    "A001563",
+    "A276328",
+    "A276329",
+    "A276330",
+    "A276331"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

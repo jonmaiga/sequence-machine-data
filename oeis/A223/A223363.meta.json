@@ -1,0 +1,18 @@
+{
+  "description": "6 X 6 X 6 triangular graph coloring a rectangular array: number of n X 1 0..20 arrays where 0..20 label nodes of the fully triangulated graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.",
+  "id": "A223363",
+  "mentions": [
+    "A223370"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

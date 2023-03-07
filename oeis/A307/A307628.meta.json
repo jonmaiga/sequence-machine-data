@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 2 is a primitive root modulo p while 32 is not.",
+  "id": "A307628",
+  "mentions": [
+    "A000720",
+    "A001122",
+    "A005596",
+    "A019358",
+    "A307627"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

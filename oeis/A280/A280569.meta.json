@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (-1)^n * 2 if n = 5*k and n!=0, otherwise a(n) = (-1)^n.",
+  "id": "A280569",
+  "mentions": [
+    "A280560"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:03",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

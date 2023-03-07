@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that n+2!, n+2!+3!, n+2!+3!+4!, n+2!+3!+4!+5!, n+2!+3!+4!+5!+6!, and n+2!+3!+4!+5!+6!+7! are all prime.",
+  "id": "A267123",
+  "mentions": [
+    "A054116",
+    "A267125"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

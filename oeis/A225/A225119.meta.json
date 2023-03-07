@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..Pi/2} sin(x)^(3/2) dx.",
+  "id": "A225119",
+  "mentions": [
+    "A068466",
+    "A085565",
+    "A093341"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

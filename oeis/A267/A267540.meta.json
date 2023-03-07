@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p (mod 3) = p (mod 5).",
+  "id": "A267540",
+  "mentions": [
+    "A063118",
+    "A141860",
+    "A216145"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

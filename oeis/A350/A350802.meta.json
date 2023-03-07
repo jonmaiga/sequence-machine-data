@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the numbers k < n such that a(k) AND n = a(k) (where AND denotes the bitwise AND operator).",
+  "id": "A350802",
+  "mentions": [
+    "A350677",
+    "A351887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

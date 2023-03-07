@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle E(n,g) counting not necessarily connected 3-regular simple graphs on 2n vertices with girth exactly g.",
+  "id": "A185130",
+  "mentions": [
+    "A000066",
+    "A005638",
+    "A185133",
+    "A185134",
+    "A185135",
+    "A185136",
+    "A185330"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

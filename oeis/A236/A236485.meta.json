@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that gpf(lpf(m)-1) = gpf(gpf(m)-1), where m = 2^p-1 is Mersenne composite.",
+  "id": "A236485",
+  "mentions": [
+    "A003260",
+    "A016047",
+    "A236128"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

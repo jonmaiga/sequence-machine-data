@@ -1,0 +1,23 @@
+{
+  "description": "a(n) - 2*a(n-1) = period 2: repeat [3, 0] for n > 0, a(0)=5, a(1)=13.",
+  "id": "A322417",
+  "mentions": [
+    "A166920",
+    "A175805",
+    "A177883",
+    "A206372",
+    "A321483"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

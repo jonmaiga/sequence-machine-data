@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the period length P(n) of the Fibonacci sequence mod n is a multiple of n.",
+  "id": "A105953",
+  "mentions": [
+    "A000045",
+    "A001175"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

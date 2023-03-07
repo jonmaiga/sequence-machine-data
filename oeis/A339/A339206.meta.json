@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that a(n) is followed by the a(n)-th digit of the sequence.",
+  "id": "A339206",
+  "mentions": [
+    "A339317"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

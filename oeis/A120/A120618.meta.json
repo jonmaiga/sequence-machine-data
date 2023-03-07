@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent (under \"inversion of variables\") monotone Boolean functions of n or fewer variables.",
+  "id": "A120618",
+  "mentions": [
+    "A006602",
+    "A120587",
+    "A120608"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

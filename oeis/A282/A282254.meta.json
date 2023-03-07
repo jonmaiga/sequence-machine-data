@@ -1,0 +1,31 @@
+{
+  "description": "Coefficients in q-expansion of (3*E_4^3 + 2*E_6^2 - 5*E_2*E_4*E_6)/1584, where E_2, E_4, E_6 are the Eisenstein series shown in A006352, A004009, A013973, respectively.",
+  "id": "A282254",
+  "mentions": [
+    "A000594",
+    "A004009",
+    "A006352",
+    "A008411",
+    "A013957",
+    "A013973",
+    "A064987",
+    "A196292",
+    "A280869",
+    "A281372",
+    "A282050",
+    "A282060",
+    "A282102"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

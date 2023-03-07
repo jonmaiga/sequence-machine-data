@@ -1,0 +1,24 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of strongly connected directed multigraphs with loops with n arcs and up to k vertices.",
+  "id": "A143841",
+  "mentions": [
+    "A129620",
+    "A138107",
+    "A139622",
+    "A139627",
+    "A143842",
+    "A350489"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

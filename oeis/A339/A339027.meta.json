@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: exp(2 * (exp(x) - 1 - x - x^2 / 2 - x^3 / 6 - x^4 / 24)).",
+  "id": "A339027",
+  "mentions": [
+    "A001861",
+    "A057814",
+    "A194689",
+    "A339014",
+    "A339017"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

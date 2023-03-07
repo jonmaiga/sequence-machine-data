@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct divisors of n.",
+  "id": "A331927",
+  "mentions": [
+    "A018818",
+    "A027750",
+    "A033630",
+    "A065205",
+    "A100346",
+    "A210442",
+    "A211111",
+    "A294138",
+    "A331928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

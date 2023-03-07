@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with chained divisors: Numbers k with divisors such that the last digit of every divisor is the same as the first digit of the next divisor.",
+  "id": "A306661",
+  "mentions": [
+    "A045707",
+    "A307858"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "1/6 the number of (n+2)X5 0..2 arrays with each 3X3 subblock containing one of one value, four of another, and four of the last",
+  "id": "A184471",
+  "mentions": [
+    "A184477"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

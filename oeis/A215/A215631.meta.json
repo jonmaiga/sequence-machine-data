@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n^2 + n*k + k^2, 1 <= k <= n.",
+  "id": "A215631",
+  "mentions": [
+    "A002061",
+    "A003215",
+    "A033428",
+    "A070216",
+    "A075362",
+    "A093995",
+    "A133819",
+    "A215646"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:50:35",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

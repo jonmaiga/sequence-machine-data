@@ -1,0 +1,17 @@
+{
+  "description": "Integers arising in A133677.",
+  "id": "A133645",
+  "mentions": [
+    "A133677"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

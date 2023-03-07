@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form q*p+2^p where p is prime, q=13.",
+  "id": "A155844",
+  "mentions": [
+    "A057664",
+    "A155841",
+    "A155842",
+    "A155843"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "The next more significant digit after A329348(n) in the primorial base expansion of A108951(n).",
+  "id": "A331292",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A007949",
+    "A061395",
+    "A108951",
+    "A117366",
+    "A151800",
+    "A246277",
+    "A324886",
+    "A329348",
+    "A331188",
+    "A331293"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

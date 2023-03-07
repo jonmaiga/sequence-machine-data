@@ -1,0 +1,28 @@
+{
+  "description": "Primes containing a digit 6.",
+  "id": "A284291",
+  "mentions": [
+    "A011536",
+    "A056709",
+    "A062673",
+    "A106093",
+    "A208270",
+    "A208272",
+    "A212525",
+    "A257667",
+    "A257668",
+    "A284290",
+    "A284292"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers x such that the binary complement of x is larger than the binary complement of x^2: A035327(x) > A035327(x^2).",
+  "id": "A323192",
+  "mentions": [
+    "A035327"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let D = A014601(n) be the n-th positive integer congruent to 0 or 3 mod 4, then a(n) = b(D) := -Sum_{i=1..D} Kronecker(-D,i)*i, where Kronecker(-D,i) is the Kronecker symbol.",
+  "id": "A329648",
+  "mentions": [
+    "A001221",
+    "A003657",
+    "A014601"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers written in Jacobsthal greedy base.",
+  "id": "A265747",
+  "mentions": [
+    "A001045",
+    "A002450",
+    "A003158",
+    "A007089",
+    "A007961",
+    "A014417",
+    "A014418",
+    "A020988",
+    "A084639",
+    "A130249",
+    "A197911",
+    "A244159",
+    "A265745",
+    "A265746"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

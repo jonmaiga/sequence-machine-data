@@ -1,0 +1,26 @@
+{
+  "description": "Primes that show the distribution of prime numbers using \"0\" for primes and \"1\" for nonprime numbers.",
+  "id": "A139120",
+  "mentions": [
+    "A118255",
+    "A118256",
+    "A118257",
+    "A139101",
+    "A139102",
+    "A139103",
+    "A139104",
+    "A139119",
+    "A139122"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

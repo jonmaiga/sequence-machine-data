@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (i^n)*Sum_{k=0..n} (k+1)*B_k*|s(n+2,k+2)|*(n+2)^k.",
+  "id": "A286483",
+  "mentions": [
+    "A008275"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

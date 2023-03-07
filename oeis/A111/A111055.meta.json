@@ -1,0 +1,24 @@
+{
+  "description": "The set of primes of the form 4n+1 that is minimal in the sense of A071062.",
+  "id": "A111055",
+  "mentions": [
+    "A002144",
+    "A071062",
+    "A071070",
+    "A110600",
+    "A110615"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

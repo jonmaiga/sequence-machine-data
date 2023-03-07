@@ -1,0 +1,18 @@
+{
+  "description": "Nonsquare numbers n for which the smallest y>0 solution of the Pellian equation x^2 - n*y^2 = 1 divides n.",
+  "id": "A277913",
+  "mentions": [
+    "A002349"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

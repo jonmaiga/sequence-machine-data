@@ -1,0 +1,33 @@
+{
+  "description": "Self-inverse and multiplicative permutation of integers: a(0)=0, a(1)=1, a(2)=2, a(3)=5 and a(5)=3, a(p_i) = p_{a(i-1)+1} for primes with index i > 3, and a(u * v) = a(u) * a(v) for u, v > 0.",
+  "id": "A235200",
+  "mentions": [
+    "A000035",
+    "A000040",
+    "A000720",
+    "A008578",
+    "A010051",
+    "A065091",
+    "A072029",
+    "A181351",
+    "A234743",
+    "A234744",
+    "A234840",
+    "A235199",
+    "A235201",
+    "A235487",
+    "A235489"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

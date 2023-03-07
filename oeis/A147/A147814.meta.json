@@ -1,0 +1,22 @@
+{
+  "description": "Number of bits in Elias omega-coded prime numbers.",
+  "id": "A147814",
+  "mentions": [
+    "A000040",
+    "A147764"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

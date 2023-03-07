@@ -1,0 +1,21 @@
+{
+  "description": "Modified Look-and-Say sequence where 2 is the largest number that may be used.",
+  "id": "A110393",
+  "mentions": [
+    "A005150",
+    "A179999"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

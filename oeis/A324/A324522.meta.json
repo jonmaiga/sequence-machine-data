@@ -1,0 +1,30 @@
+{
+  "description": "Numbers > 1 where the minimum prime index is equal to the number of prime factors counted with multiplicity.",
+  "id": "A324522",
+  "mentions": [
+    "A001222",
+    "A006141",
+    "A055396",
+    "A056239",
+    "A106529",
+    "A112798",
+    "A256617",
+    "A324515",
+    "A324517",
+    "A324519",
+    "A324521",
+    "A324560",
+    "A324562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

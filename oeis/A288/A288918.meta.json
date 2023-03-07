@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-cycles in the n X n king graph.",
+  "id": "A288918",
+  "mentions": [
+    "A016742",
+    "A288919",
+    "A288920"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:11:53",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

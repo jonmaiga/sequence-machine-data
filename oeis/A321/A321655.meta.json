@@ -1,0 +1,29 @@
+{
+  "description": "Number of distinct row/column permutations of strict plane partitions of n.",
+  "id": "A321655",
+  "mentions": [
+    "A000219",
+    "A001970",
+    "A007716",
+    "A008480",
+    "A068313",
+    "A114736",
+    "A117433",
+    "A120733",
+    "A319646",
+    "A321645",
+    "A321647",
+    "A321648"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

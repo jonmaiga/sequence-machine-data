@@ -1,0 +1,21 @@
+{
+  "description": "15-adic integer x = ...65762C0520697E8CA1A31469 satisfying x^3 = x.",
+  "id": "A331550",
+  "mentions": [
+    "A091664",
+    "A331548",
+    "A331549"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

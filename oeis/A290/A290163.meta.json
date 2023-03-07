@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that A288814(4*p) - A288814(3*p) = 7.",
+  "id": "A290163",
+  "mentions": [
+    "A259730",
+    "A288814",
+    "A290164"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

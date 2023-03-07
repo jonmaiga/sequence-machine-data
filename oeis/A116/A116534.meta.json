@@ -1,0 +1,18 @@
+{
+  "description": "Start with 1 and 2; if number is even join with last number and divide by 2, if it is odd add 1 and divide by 2.",
+  "id": "A116534",
+  "mentions": [
+    "A131059"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

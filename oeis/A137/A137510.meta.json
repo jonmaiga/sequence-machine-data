@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the divisors of n in the range 1 < d < n; or 0 if there are no such divisors.",
+  "id": "A137510",
+  "mentions": [
+    "A027750",
+    "A027751",
+    "A048050",
+    "A070824",
+    "A264440"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

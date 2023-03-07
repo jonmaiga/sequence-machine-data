@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that the number of parts and the smallest part are not coprime.",
+  "id": "A199889",
+  "mentions": [
+    "A000079",
+    "A199888",
+    "A201025"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

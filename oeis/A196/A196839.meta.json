@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of denominators of the coefficient of x^m in the n-th Bernoulli polynomial, 0 <= m <= n.",
+  "id": "A196839",
+  "mentions": [
+    "A048998",
+    "A048999",
+    "A053382",
+    "A053383",
+    "A196838"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:51:41",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

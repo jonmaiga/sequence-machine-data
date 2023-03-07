@@ -1,0 +1,21 @@
+{
+  "description": "Centered 12-gonal numbers which are semiprimes, intersection of A003154 and A001358.",
+  "id": "A218172",
+  "mentions": [
+    "A001358",
+    "A003154",
+    "A006061",
+    "A078972",
+    "A083749"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

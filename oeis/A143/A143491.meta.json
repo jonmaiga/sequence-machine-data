@@ -1,0 +1,33 @@
+{
+  "description": "Unsigned 2-Stirling numbers of the first kind.",
+  "id": "A143491",
+  "mentions": [
+    "A001705",
+    "A001709",
+    "A001710",
+    "A007318",
+    "A008275",
+    "A029635",
+    "A049444",
+    "A084938",
+    "A094638",
+    "A136124",
+    "A143492",
+    "A143493",
+    "A143494",
+    "A143497"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 2,
+    "size": 49,
+    "source": "joeis"
+  }
+}

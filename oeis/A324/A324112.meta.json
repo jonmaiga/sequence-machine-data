@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers n for which A324108(n) = A324054(n-1), and which themselves are not powers of primes (in A000961).",
+  "id": "A324112",
+  "mentions": [
+    "A000961",
+    "A324054",
+    "A324108",
+    "A324111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Least primitive root g < prime(n) of the n-th prime with g a product of two Fibonacci numbers, or 0 if such a number g does not exist.",
+  "id": "A331506",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A000045",
+    "A001918",
+    "A239957",
+    "A241476",
+    "A241504",
+    "A241568",
+    "A241604"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

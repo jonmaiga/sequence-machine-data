@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of (-1)^(n+1) * (2*n)! * (2^(2*n)+1)/(B_{2*n} * 2^(4*n-1)), where B_{n} is the Bernoulli number.",
+  "id": "A295232",
+  "mentions": [
+    "A002432",
+    "A046988",
+    "A295231"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

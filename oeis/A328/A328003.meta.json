@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ppi(2*n) - ppi(n). Number of prime powers (A246655) in the interval (n, 2*n]. See comments.",
+  "id": "A328003",
+  "mentions": [
+    "A025528",
+    "A108954",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

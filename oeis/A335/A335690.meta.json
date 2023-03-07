@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = a(3) = 2; a(n) = (a(n-1) + a(n-2) + 1)/a(n-3) (for n>3).",
+  "id": "A335690",
+  "mentions": [
+    "A076839",
+    "A076844"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

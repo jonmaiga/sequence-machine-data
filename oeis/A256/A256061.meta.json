@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of 2n-length strings of balanced parentheses of exactly k different types; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A256061",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A001761",
+    "A253180",
+    "A255982",
+    "A258427",
+    "A290605"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of primitive inequivalent oblique sublattices of hexagonal (triangular) lattice of index n (equivalence and symmetry of sublattices are determined using only parent lattice symmetries).",
+  "id": "A157235",
+  "mentions": [
+    "A000086",
+    "A003050",
+    "A003051",
+    "A060594",
+    "A145377",
+    "A154272",
+    "A304182"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

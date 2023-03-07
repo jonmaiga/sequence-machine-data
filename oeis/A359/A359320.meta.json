@@ -1,0 +1,22 @@
+{
+  "description": "Maximal coefficient of (1 + x) * (1 + x^16) * (1 + x^81) * ... * (1 + x^(n^4)).",
+  "id": "A359320",
+  "mentions": [
+    "A000538",
+    "A000583",
+    "A025591",
+    "A160235",
+    "A298859",
+    "A359319"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

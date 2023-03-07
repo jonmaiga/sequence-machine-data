@@ -1,0 +1,22 @@
+{
+  "description": "Numbers representable as x*y*(x+y), b*c+b+c, and d^e+d+e, where d>1, e>1, b>=c>1 and x>=y>1.",
+  "id": "A255804",
+  "mentions": [
+    "A253775",
+    "A254034",
+    "A254671",
+    "A255265",
+    "A255267"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

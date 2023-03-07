@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of rotational row complete Latin squares of order 2n under Gilbert transformations.",
+  "id": "A307852",
+  "mentions": [
+    "A141598"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

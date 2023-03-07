@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = common ratio for row n in A112668.",
+  "id": "A110738",
+  "mentions": [
+    "A074792",
+    "A083503",
+    "A110737",
+    "A110739",
+    "A112668"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

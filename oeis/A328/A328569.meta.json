@@ -1,0 +1,28 @@
+{
+  "description": "Exponent of least prime factor in A276086(A276086(n)), where A276086 converts the primorial base expansion of n into its prime product form.",
+  "id": "A328569",
+  "mentions": [
+    "A003557",
+    "A051903",
+    "A067029",
+    "A276086",
+    "A276087",
+    "A276088",
+    "A328389",
+    "A328400",
+    "A328476",
+    "A328570",
+    "A328579"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

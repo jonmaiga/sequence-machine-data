@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n!)^2 * [x^n] 1 / BesselJ(0,2*sqrt(x))^n.",
+  "id": "A336665",
+  "mentions": [
+    "A000275",
+    "A033935",
+    "A287316",
+    "A336271",
+    "A336638",
+    "A336639",
+    "A340986"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

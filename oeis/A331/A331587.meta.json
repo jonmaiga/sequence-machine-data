@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers of the form k * reverse(k) (where reverse(k) is the binary reversal of k, A030101(k)).",
+  "id": "A331587",
+  "mentions": [
+    "A030101",
+    "A092213",
+    "A192775",
+    "A331588",
+    "A331589"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

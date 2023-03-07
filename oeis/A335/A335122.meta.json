@@ -1,0 +1,41 @@
+{
+  "description": "Irregular triangle whose reversed rows are all integer partitions in graded reverse-lexicographic order.",
+  "id": "A335122",
+  "mentions": [
+    "A000041",
+    "A026791",
+    "A026792",
+    "A036036",
+    "A036037",
+    "A080576",
+    "A080577",
+    "A112798",
+    "A115623",
+    "A129129",
+    "A193073",
+    "A211992",
+    "A228351",
+    "A228531",
+    "A238966",
+    "A296774",
+    "A331581",
+    "A334301",
+    "A334302",
+    "A334435",
+    "A334436",
+    "A334438",
+    "A334439",
+    "A334442"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

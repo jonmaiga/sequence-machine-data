@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of [1, 2, ..., k] into exactly n blocks, each of size 1, 2 or 3 (n >= 0, 0 <= k <= 3n).",
+  "id": "A144385",
+  "mentions": [
+    "A000217",
+    "A001296",
+    "A001680",
+    "A025035",
+    "A027778",
+    "A111246",
+    "A144331",
+    "A144399",
+    "A144402",
+    "A144416",
+    "A144417",
+    "A144516",
+    "A144643"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

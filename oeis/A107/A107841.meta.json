@@ -1,0 +1,23 @@
+{
+  "description": "Series reversion of x(1-3x)/(1-x).",
+  "id": "A107841",
+  "mentions": [
+    "A001003",
+    "A056594",
+    "A086810",
+    "A088617",
+    "A103210"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

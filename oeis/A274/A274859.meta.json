@@ -1,0 +1,28 @@
+{
+  "description": "Number A(n,k) of set partitions of [n] such that the difference between each element and its index (in the partition) is a multiple of k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A274859",
+  "mentions": [
+    "A000110",
+    "A011782",
+    "A274547",
+    "A274860",
+    "A274861",
+    "A274862",
+    "A274863",
+    "A274864",
+    "A274865",
+    "A274866",
+    "A274867"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

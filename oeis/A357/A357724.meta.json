@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows: T(n,k) = Fib(n) mod Fib(k) for 1 <= k <= n, where Fib(k) = A000045(k).",
+  "id": "A357724",
+  "mentions": [
+    "A000045",
+    "A357814"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

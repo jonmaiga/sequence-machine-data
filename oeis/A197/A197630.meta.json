@@ -1,0 +1,20 @@
+{
+  "description": "Lerch quotients of odd primes: ((Sum_{k=1..p-1} q_p(k)) - w_p)/p, where q_p(k) = (k^(p-1)-1)/p is a Fermat quotient, w_p = ((p-1)!+1)/p is a Wilson quotient, and p is the n-th prime, with n > 1.",
+  "id": "A197630",
+  "mentions": [
+    "A007619",
+    "A197631",
+    "A197632"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(6*k)!.",
+  "id": "A332892",
+  "mentions": [
+    "A001113",
+    "A073743",
+    "A143819",
+    "A269296",
+    "A332890"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:59:25",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

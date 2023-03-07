@@ -1,0 +1,17 @@
+{
+  "description": "Smallest representative squarefree composite n with prescribed number of prime factors and prescribed, prime arithmetic average of these factors.",
+  "id": "A191683",
+  "mentions": [
+    "A187073"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

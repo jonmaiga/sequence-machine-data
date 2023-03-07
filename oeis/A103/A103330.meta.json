@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to place n+1 queens and a pawn on an n X n board so that no two queens attack each other.",
+  "id": "A103330",
+  "mentions": [
+    "A000170",
+    "A103331"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

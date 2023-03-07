@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n = k + m (0 < k <= m) with k and m terms of A235592.",
+  "id": "A235613",
+  "mentions": [
+    "A000040",
+    "A235592",
+    "A235614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

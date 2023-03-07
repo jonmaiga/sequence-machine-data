@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that for any n >= 0, a(n) AND a(n+1) is a square (where AND denotes the bitwise AND operator).",
+  "id": "A338500",
+  "mentions": [
+    "A334672",
+    "A335615",
+    "A338501"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

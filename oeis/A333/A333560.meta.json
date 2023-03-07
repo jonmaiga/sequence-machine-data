@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) = Sum_{j = 0..n*k} binomial(n+j-1,j)*2^j; n,k >= 0.",
+  "id": "A333560",
+  "mentions": [
+    "A119259",
+    "A333561",
+    "A333562",
+    "A333563"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

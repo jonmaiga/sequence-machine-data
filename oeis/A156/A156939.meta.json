@@ -1,0 +1,21 @@
+{
+  "description": "General q-Narayana triangle sequence: T(n, k) = Product_{j=0..2} ( q_binomial(n+j, j+k, 2)/q_binomial(n+j-k, j, 2) ).",
+  "id": "A156939",
+  "mentions": [
+    "A001263",
+    "A156916",
+    "A156917"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least prime of the form k^n + n with k>1, 0 if no such prime exists.",
+  "id": "A303122",
+  "mentions": [
+    "A097792",
+    "A303121"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

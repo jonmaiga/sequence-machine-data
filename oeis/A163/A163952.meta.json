@@ -1,0 +1,21 @@
+{
+  "description": "The number of functions in a finite set for which the sequence of composition powers ends in a length 3 cycle.",
+  "id": "A163952",
+  "mentions": [
+    "A163859",
+    "A163947",
+    "A163951",
+    "A222029"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

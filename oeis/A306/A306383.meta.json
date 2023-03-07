@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write n as x*(2x+1) + y*(2y+1) + z*(2z+1), where x,y,z are nonnegative integers with x <= y <= z.",
+  "id": "A306383",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A000384",
+    "A000566",
+    "A005449",
+    "A005475",
+    "A005476",
+    "A008443",
+    "A014105",
+    "A147875",
+    "A306382"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

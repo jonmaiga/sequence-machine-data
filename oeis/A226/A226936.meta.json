@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of squares of size k^2 in all tilings of an n X n square using integer-sided square tiles; triangle T(n,k), n >= 1, 1 <= k <= n, read by rows.",
+  "id": "A226936",
+  "mentions": [
+    "A000012",
+    "A010709",
+    "A045846",
+    "A226554",
+    "A226892"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

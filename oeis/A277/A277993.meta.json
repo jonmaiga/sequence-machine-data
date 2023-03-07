@@ -1,0 +1,20 @@
+{
+  "description": "Sophie Germain primes p such that p + 2 and p - 2 are semiprimes.",
+  "id": "A277993",
+  "mentions": [
+    "A005384",
+    "A063637",
+    "A063638",
+    "A063643"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

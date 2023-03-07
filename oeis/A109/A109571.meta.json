@@ -1,0 +1,21 @@
+{
+  "description": "Prague bus clock sequence #2.",
+  "id": "A109571",
+  "mentions": [
+    "A028354",
+    "A109527"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

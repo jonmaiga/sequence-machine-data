@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n/(smallest odd prime divisor of n), if any.",
+  "id": "A108738",
+  "mentions": [
+    "A078701",
+    "A108514"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

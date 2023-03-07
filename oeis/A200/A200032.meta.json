@@ -1,0 +1,17 @@
+{
+  "description": "Number of -2..2 arrays x(0..n-1) of n elements with sum zero and with zeroth through n-1st differences all nonzero",
+  "id": "A200032",
+  "mentions": [
+    "A200038"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

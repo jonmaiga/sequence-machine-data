@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2 + Sum_{x=n..prime(n)} (-x*(-1)^x).",
+  "id": "A163294",
+  "mentions": [
+    "A000027",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

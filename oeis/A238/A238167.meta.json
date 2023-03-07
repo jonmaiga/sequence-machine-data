@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of sum_(n>=1) H(n,3)/n^5 where H(n,3) = A007408(n)/A007409(n) is the n-th harmonic number of order 3.",
+  "id": "A238167",
+  "mentions": [
+    "A007408",
+    "A007409",
+    "A152648",
+    "A152649",
+    "A152651",
+    "A238166",
+    "A238168",
+    "A238169"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

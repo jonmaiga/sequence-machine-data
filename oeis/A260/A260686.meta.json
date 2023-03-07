@@ -1,0 +1,29 @@
+{
+  "description": "Period 6 zigzag sequence, repeat [0, 1, 2, 3, 2, 1].",
+  "id": "A260686",
+  "mentions": [
+    "A000035",
+    "A007877",
+    "A011655",
+    "A109007",
+    "A130151",
+    "A158289",
+    "A266313",
+    "A271751",
+    "A271832",
+    "A279313",
+    "A279319"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:18:17",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

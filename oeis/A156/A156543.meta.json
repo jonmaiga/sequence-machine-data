@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative closure of primes that are not Sophie Germain primes (A053176).",
+  "id": "A156543",
+  "mentions": [
+    "A007310",
+    "A045979",
+    "A053176",
+    "A156541",
+    "A156542"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

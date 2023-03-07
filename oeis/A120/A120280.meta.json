@@ -1,0 +1,17 @@
+{
+  "description": "Row 4 of array in A105272.",
+  "id": "A120280",
+  "mentions": [
+    "A105272"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

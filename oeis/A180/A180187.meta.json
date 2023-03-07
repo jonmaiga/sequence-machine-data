@@ -1,0 +1,20 @@
+{
+  "description": "Number of successions in all the permutations p of [n] such that p(1)=1 and having no 3-sequences. A succession of a permutation p is a position i such that p(i +1) - p(i) = 1.",
+  "id": "A180187",
+  "mentions": [
+    "A000166",
+    "A180186",
+    "A216718"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

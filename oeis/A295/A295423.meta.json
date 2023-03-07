@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = size of the part containing the diagonal of the symmetric representation of sigma(k) when k is the n-th number with an odd number of parts.",
+  "id": "A295423",
+  "mentions": [
+    "A071562",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A285356",
+    "A295422"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

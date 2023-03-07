@@ -1,0 +1,19 @@
+{
+  "description": "Number of counties per state of the USA in increasing order.",
+  "id": "A112507",
+  "mentions": [
+    "A112506"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

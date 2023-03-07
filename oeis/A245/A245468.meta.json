@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x such that sigma(x)=sigma(T(x)), where sigma(x) is the sum of the divisors of x and T(x) the transform defined in A243993.",
+  "id": "A245468",
+  "mentions": [
+    "A000203",
+    "A243993",
+    "A245252",
+    "A245469"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes of form (prime(n)-r(n)), where A141468(n)=r(n)=n-th nonprime and prime(n)=n-th prime.",
+  "id": "A141560",
+  "mentions": [
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

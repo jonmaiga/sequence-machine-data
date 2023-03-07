@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to fill a Young diagram with positive integers summing to n such that the rows are strictly increasing and the columns are strictly decreasing.",
+  "id": "A323581",
+  "mentions": [
+    "A000085",
+    "A000219",
+    "A003293",
+    "A114736",
+    "A138178",
+    "A299968",
+    "A323436",
+    "A323437",
+    "A323438",
+    "A323439",
+    "A323580"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

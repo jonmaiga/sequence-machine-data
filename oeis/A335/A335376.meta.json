@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of totally co-strong integer partitions.",
+  "id": "A335376",
+  "mentions": [
+    "A100882",
+    "A100883",
+    "A133808",
+    "A181819",
+    "A182850",
+    "A242031",
+    "A305732",
+    "A316496",
+    "A316529",
+    "A317256",
+    "A317257",
+    "A317258",
+    "A329747",
+    "A332275",
+    "A332291",
+    "A332293",
+    "A335377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

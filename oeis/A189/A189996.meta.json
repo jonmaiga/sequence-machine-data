@@ -1,0 +1,19 @@
+{
+  "description": "Bott periodicity: the homotopy groups of the stable orthogonal group are periodic with period 8 and repeat like [2, 2, 1, 0, 1, 1, 1, 0].",
+  "id": "A189996",
+  "mentions": [
+    "A048648"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:39",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

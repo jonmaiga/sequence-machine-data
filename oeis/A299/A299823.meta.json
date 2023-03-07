@@ -1,0 +1,19 @@
+{
+  "description": "To concatenate all terms, to concatenate the odd rank terms or to concatenate the even rank terms produces the same result.",
+  "id": "A299823",
+  "mentions": [
+    "A007931"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

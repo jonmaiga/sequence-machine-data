@@ -1,0 +1,28 @@
+{
+  "description": "Least member of an amicable n-tuple: (x[1],...,x[n]) such that sigma(x[1])=...=sigma(x[n])=x[1]+...+x[n], x[i]",
+  "id": "A233626",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A036471",
+    "A036474",
+    "A116148",
+    "A125490",
+    "A125492",
+    "A137231",
+    "A161005",
+    "A233553"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

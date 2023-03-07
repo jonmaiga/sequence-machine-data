@@ -1,0 +1,22 @@
+{
+  "description": "Zeroless factorials: a(0)=1; thereafter a(n) = noz(n*a(n-1)), where noz(n) = A004719(n) omits the zeros from n.",
+  "id": "A243657",
+  "mentions": [
+    "A000142",
+    "A004719",
+    "A242350",
+    "A243063",
+    "A243658"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

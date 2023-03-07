@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..2 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other.",
+  "id": "A201272",
+  "mentions": [
+    "A201277"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

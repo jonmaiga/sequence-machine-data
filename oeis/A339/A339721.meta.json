@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} 1 / (1 + k^(-s))^6.",
+  "id": "A339721",
+  "mentions": [
+    "A022601",
+    "A316441",
+    "A339338",
+    "A339717",
+    "A339718",
+    "A339719",
+    "A339720",
+    "A339722"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

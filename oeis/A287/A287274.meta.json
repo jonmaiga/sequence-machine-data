@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of dominating sets in the lattice (rook) graph K_m X K_n.",
+  "id": "A287274",
+  "mentions": [
+    "A088699",
+    "A183109",
+    "A191341",
+    "A287065",
+    "A290632"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

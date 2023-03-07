@@ -1,0 +1,19 @@
+{
+  "description": "n_F(n) where F() = Fibonacci numbers A000045.",
+  "id": "A122629",
+  "mentions": [
+    "A000045",
+    "A122618"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

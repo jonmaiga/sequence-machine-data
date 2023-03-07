@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the Diophantine equation y^2 - k = x^3 has a solution.",
+  "id": "A318932",
+  "mentions": [
+    "A054504",
+    "A081119",
+    "A318933"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

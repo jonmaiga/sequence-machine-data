@@ -1,0 +1,18 @@
+{
+  "description": "Set of all natural numbers m such that m < S(m), where the function S is as defined in A257480.",
+  "id": "A254311",
+  "mentions": [
+    "A254312",
+    "A257480"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

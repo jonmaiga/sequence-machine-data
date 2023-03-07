@@ -1,0 +1,25 @@
+{
+  "description": "Table T(n,k), n>=1 and k>=0, read by antidiagonals, related to A111146.",
+  "id": "A113326",
+  "mentions": [
+    "A051295",
+    "A111146",
+    "A113327",
+    "A113328",
+    "A113329",
+    "A113330",
+    "A113331"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

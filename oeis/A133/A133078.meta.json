@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of s(q)^4 in powers of q where s() is a cubic AGM function.",
+  "id": "A133078",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A033690"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x - Sum_{k>=2} sigma(k) * A(x)^k.",
+  "id": "A333956",
+  "mentions": [
+    "A000203",
+    "A050389",
+    "A333957"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

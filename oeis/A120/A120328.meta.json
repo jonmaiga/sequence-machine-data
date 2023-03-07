@@ -1,0 +1,25 @@
+{
+  "description": "Sum of three consecutive squares: a(n) = n^2 + (n + 1)^2 + (n + 2)^2.",
+  "id": "A120328",
+  "mentions": [
+    "A001844",
+    "A005918",
+    "A027574",
+    "A027575",
+    "A027578",
+    "A027602",
+    "A027865"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:32:31",
+    "offset": -1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

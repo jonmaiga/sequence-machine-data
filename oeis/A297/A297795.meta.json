@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n} min(d, n/d)^5.",
+  "id": "A297795",
+  "mentions": [
+    "A117004",
+    "A259825",
+    "A297792",
+    "A297793",
+    "A297794"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

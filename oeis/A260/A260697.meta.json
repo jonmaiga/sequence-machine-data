@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary words w of length n with equal numbers of 010 and 101 subwords such that for every prefix of w the number of occurrences of subword 101 is larger than or equal to the number of occurrences of subword 010.",
+  "id": "A260697",
+  "mentions": [
+    "A118430",
+    "A164146",
+    "A255386",
+    "A260505",
+    "A260668"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

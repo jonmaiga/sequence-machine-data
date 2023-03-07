@@ -1,0 +1,24 @@
+{
+  "description": "T(n,m) = number of k <= A002110(n) such that A001221(k) = m, where k is a term in A025487.",
+  "id": "A307133",
+  "mentions": [
+    "A000012",
+    "A001221",
+    "A002110",
+    "A025487",
+    "A054850",
+    "A098719"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

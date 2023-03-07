@@ -1,0 +1,20 @@
+{
+  "description": "Let m = n-th number that is not a perfect power, A007916(n). Then a(n) = smallest prime having least positive primitive root m.",
+  "id": "A133432",
+  "mentions": [
+    "A001597",
+    "A007916",
+    "A023048",
+    "A133433"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

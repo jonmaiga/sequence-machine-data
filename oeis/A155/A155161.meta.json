@@ -1,0 +1,37 @@
+{
+  "description": "A Fibonacci convolution triangle: Riordan array (1, x/(1 - x - x^2)). Triangle T(n,k), 0 <= k <= n, read by rows.",
+  "id": "A155161",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A000129",
+    "A037027",
+    "A052991",
+    "A059283",
+    "A084938",
+    "A122542",
+    "A155179",
+    "A155181",
+    "A155195",
+    "A155196",
+    "A155197",
+    "A155198",
+    "A155199",
+    "A213684",
+    "A215928",
+    "A321620",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:11:29",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

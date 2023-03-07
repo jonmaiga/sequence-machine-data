@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A060502(n) + A275851(n).",
+  "id": "A275853",
+  "mentions": [
+    "A060498",
+    "A060500",
+    "A060501",
+    "A060502",
+    "A275849",
+    "A275851"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the largest parts in the partitions of n into 6 parts.",
+  "id": "A308873",
+  "mentions": [
+    "A238340",
+    "A306670",
+    "A306671",
+    "A308867",
+    "A308868",
+    "A308869",
+    "A308872"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) (n>=0, 0<=k<=n) read by rows: use T(n,k)=T(n,k-1)+T(n-1,k-1) rule except left edge is the sequence read by rows, initial values are T(0,0)=T(1,0)=1.",
+  "id": "A297495",
+  "mentions": [
+    "A297186",
+    "A297359",
+    "A297496",
+    "A297497",
+    "A297498"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

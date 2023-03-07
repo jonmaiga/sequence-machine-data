@@ -1,0 +1,19 @@
+{
+  "description": "Exponential (2,4)-perfect numbers: numbers m such that esigma(esigma(m)) = 4m, where esigma(m) is the sum of exponential divisors of m (A051377).",
+  "id": "A328133",
+  "mentions": [
+    "A019282",
+    "A051377",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

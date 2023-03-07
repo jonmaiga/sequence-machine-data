@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(2*n+1,k), 0 <= k <= n.",
+  "id": "A122366",
+  "mentions": [
+    "A000045",
+    "A000302",
+    "A001700",
+    "A002457",
+    "A007318",
+    "A008314",
+    "A034868",
+    "A049310",
+    "A052203",
+    "A053120",
+    "A062344",
+    "A111418",
+    "A127673"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:13:41",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

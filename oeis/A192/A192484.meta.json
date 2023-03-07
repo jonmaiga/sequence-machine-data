@@ -1,0 +1,18 @@
+{
+  "description": "Shifts left under XOR-convolution: a(n) = Sum_{k=0..n-1} a(k) XOR a(n-k-1) for n>1 with a(0)=1, a(1)=2.",
+  "id": "A192484",
+  "mentions": [
+    "A007462",
+    "A199770"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

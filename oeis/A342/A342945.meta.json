@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that d(1)^1 + d(2)^2 + ... + d(p)^k = d(1)! + d(2)! + ... + d(k)!, where d(i), i=1..k, are the digits of m.",
+  "id": "A342945",
+  "mentions": [
+    "A002275",
+    "A178354",
+    "A342826",
+    "A342944"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

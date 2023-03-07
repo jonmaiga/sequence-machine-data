@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct connected planar figures that can be formed from n 1 X 2 rectangles (or dominoes).",
+  "id": "A216598",
+  "mentions": [
+    "A056785",
+    "A056786",
+    "A216492",
+    "A216581",
+    "A216583",
+    "A216595"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

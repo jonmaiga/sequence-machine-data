@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^2*binomial(n-k,k)^2*(-16)^k.",
+  "id": "A179537",
+  "mentions": [
+    "A173774",
+    "A178790",
+    "A178791",
+    "A178808",
+    "A179524",
+    "A179535",
+    "A179536"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

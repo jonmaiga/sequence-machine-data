@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (4*n - 3) * 2^(n - 1).",
+  "id": "A118415",
+  "mentions": [
+    "A000079",
+    "A016813",
+    "A058962",
+    "A118413"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

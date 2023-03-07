@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n whose reverse binary representation has the following property: let a 0 mean \"halving\" and a 1 mean \"k -> 3k+1\". The number describes an operation k -> f_n(k). If the equation f_n(k) = k has a positive solution, n is a term in the sequence.",
+  "id": "A125626",
+  "mentions": [
+    "A112695",
+    "A125710",
+    "A125711",
+    "A125754",
+    "A125757"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

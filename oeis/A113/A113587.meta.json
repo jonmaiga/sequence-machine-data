@@ -1,0 +1,20 @@
+{
+  "description": "A113585(A113586(n))/n.",
+  "id": "A113587",
+  "mentions": [
+    "A113585",
+    "A113586"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

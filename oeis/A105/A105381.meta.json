@@ -1,0 +1,18 @@
+{
+  "description": "Primes from merging of 8 successive digits in decimal expansion of Zeta(2) or (Pi^2)/6.",
+  "id": "A105381",
+  "mentions": [
+    "A013661"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:25",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

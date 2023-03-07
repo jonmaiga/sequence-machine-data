@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ordered partitions of {1, 1, 1, 1, 2, 3, ..., n-3}.",
+  "id": "A172111",
+  "mentions": [
+    "A172108",
+    "A172109",
+    "A172110"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

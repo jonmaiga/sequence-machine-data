@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that Sum_{i=3..m} (prime(i) modulo 6) = 3*m, where prime(i) is the i-th prime.",
+  "id": "A336235",
+  "mentions": [
+    "A000040",
+    "A039704"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

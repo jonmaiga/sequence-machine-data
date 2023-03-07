@@ -1,0 +1,19 @@
+{
+  "description": "Position of integer n in the list of first n natural numbers written out in French and arranged in alphabetical order.",
+  "id": "A214095",
+  "mentions": [
+    "A108017"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

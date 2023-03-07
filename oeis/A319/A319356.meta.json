@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{d|n, d",
+  "id": "A319356",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A003415",
+    "A056239",
+    "A064989",
+    "A319357",
+    "A319683",
+    "A319685"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n + n# / n is prime, where n# = product of all primes <= n.",
+  "id": "A220355",
+  "mentions": [
+    "A005117",
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

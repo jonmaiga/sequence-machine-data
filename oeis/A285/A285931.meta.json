@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes q < p such that q^(p-1) == 1 (modulo p^2), where p = prime(n).",
+  "id": "A285931",
+  "mentions": [
+    "A222184",
+    "A222206"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k peaks at odd height.",
+  "id": "A101894",
+  "mentions": [
+    "A002212",
+    "A006318",
+    "A085362",
+    "A101895"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Larger of emirps (pairs) with digits 0 and 1 only.",
+  "id": "A155514",
+  "mentions": [
+    "A006567",
+    "A155512",
+    "A155513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

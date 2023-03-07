@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of times that binomial(n+m, m) mod m = 1, for 0 < m <= n.",
+  "id": "A317872",
+  "mentions": [
+    "A133906"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

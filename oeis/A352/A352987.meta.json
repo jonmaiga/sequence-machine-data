@@ -1,0 +1,19 @@
+{
+  "description": "Carmichael numbers (A002997) that are overpseudoprimes to base 2 (A141232).",
+  "id": "A352987",
+  "mentions": [
+    "A002997",
+    "A141232",
+    "A291637"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

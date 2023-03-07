@@ -1,0 +1,23 @@
+{
+  "description": "Nonhomogeneous Beatty sequence: ceiling((n + 1/2)*Pi/(Pi- 1))",
+  "id": "A258048",
+  "mentions": [
+    "A062380",
+    "A062389",
+    "A246046",
+    "A257984",
+    "A258833"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

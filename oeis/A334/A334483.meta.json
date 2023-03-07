@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the X-coordinate of the n-th point of the Sierpinski arrowhead curve; sequence A334484 gives Y-coordinates.",
+  "id": "A334483",
+  "mentions": [
+    "A262174",
+    "A307672",
+    "A334484"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

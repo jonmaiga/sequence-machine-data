@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically first sequence of primes (with no duplicates) whose absolute first differences are nonprime (with no duplicates).",
+  "id": "A278007",
+  "mentions": [
+    "A277997"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

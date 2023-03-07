@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form 2^(n-1)*(2^n - 1) which aren't perfect numbers.",
+  "id": "A144858",
+  "mentions": [
+    "A000396",
+    "A006516"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into an odd number of cubes.",
+  "id": "A339369",
+  "mentions": [
+    "A000578",
+    "A003108",
+    "A027193",
+    "A292560",
+    "A339365",
+    "A339368"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

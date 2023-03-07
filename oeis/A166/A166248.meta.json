@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the absolute value of n minus sum of all the remainders modulo the numbers below n.",
+  "id": "A166248",
+  "mentions": [
+    "A000027",
+    "A004125",
+    "A163180"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:29",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

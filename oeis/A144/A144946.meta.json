@@ -1,0 +1,17 @@
+{
+  "description": "Least a(n) such that p(n)#*(p(n)#+a(n))-1 is prime with p(i)#=i-th primorial.",
+  "id": "A144946",
+  "mentions": [
+    "A144947"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

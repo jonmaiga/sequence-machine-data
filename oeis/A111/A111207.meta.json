@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are both Sophie Germain semiprimes and semi-Sophie Germain semiprimes.",
+  "id": "A111207",
+  "mentions": [
+    "A001358",
+    "A005384",
+    "A111153",
+    "A111206"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

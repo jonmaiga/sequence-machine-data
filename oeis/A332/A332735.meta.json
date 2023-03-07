@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of graphs which are double triangle descendants of K_5 with four more vertices than triangles.",
+  "id": "A332735",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A007980",
+    "A008619"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:07",
+    "offset": 9,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = median of the largest prime dividing a random n-digit number.",
+  "id": "A124202",
+  "mentions": [
+    "A006530",
+    "A046731",
+    "A126282"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

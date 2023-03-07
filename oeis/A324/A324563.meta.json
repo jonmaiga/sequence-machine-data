@@ -1,0 +1,43 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that k is the maximum of 0 and the number of elements in any integer interval [p(i)..i+n*[i=0, 0<=k<=n, read by rows.",
+  "id": "A324563",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000032",
+    "A000142",
+    "A002467",
+    "A008305",
+    "A324564",
+    "A324621",
+    "A324622",
+    "A324623",
+    "A324624",
+    "A324625",
+    "A324626",
+    "A324627",
+    "A324628",
+    "A324629",
+    "A324630",
+    "A324631",
+    "A324632",
+    "A324633",
+    "A324634",
+    "A324635",
+    "A324636",
+    "A324637",
+    "A324638"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

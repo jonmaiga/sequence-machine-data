@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n + number of previous prime terms, a(1) = 1.",
+  "id": "A122825",
+  "mentions": [
+    "A135731"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

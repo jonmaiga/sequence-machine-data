@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} (2^n - A(x))^n * x^n/n ).",
+  "id": "A202518",
+  "mentions": [
+    "A000108",
+    "A155200",
+    "A163138"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

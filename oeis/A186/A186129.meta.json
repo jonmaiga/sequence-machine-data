@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be partitioned into four parts s, t, u, v such that s+k = t-k = u*k = v/k for some k > 1.",
+  "id": "A186129",
+  "mentions": [
+    "A000041",
+    "A013929",
+    "A046790",
+    "A072903"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

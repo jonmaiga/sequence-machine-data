@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-length ternary words avoiding runs of zeros of length 1 (mod 3).",
+  "id": "A255630",
+  "mentions": [
+    "A099525",
+    "A254598",
+    "A254601",
+    "A254602",
+    "A254663",
+    "A255115",
+    "A255117"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:12:10",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

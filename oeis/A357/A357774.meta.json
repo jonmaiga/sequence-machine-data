@@ -1,0 +1,26 @@
+{
+  "description": "Binary expansions of odd numbers with two zeros in their binary expansion.",
+  "id": "A357774",
+  "mentions": [
+    "A000042",
+    "A000217",
+    "A007088",
+    "A190619",
+    "A267524",
+    "A267705",
+    "A357773"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

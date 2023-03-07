@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the lexically first sequence of distinct nonzero integers such that if S(n) is the string formed from the digits of a(1)a(2)...a(n), then dividing S(n) into substrings with lengths equal to the successive digits of S(n) (treating 0 as 10) results in substrings beginning with the successive digits of Pi (A000796).",
+  "id": "A171059",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

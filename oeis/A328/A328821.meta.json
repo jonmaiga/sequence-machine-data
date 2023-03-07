@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. Let P be the poset of all even sized subsets of [2n] ordered by inclusion. T(n,k) is the number of intervals in P with length k, 0<=k<=n, n>=0.",
+  "id": "A328821",
+  "mentions": [
+    "A054879",
+    "A081294"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

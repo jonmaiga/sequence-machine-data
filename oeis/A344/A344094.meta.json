@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} (1 + n^(k+1)*x^k).",
+  "id": "A344094",
+  "mentions": [
+    "A292305",
+    "A340103",
+    "A344095"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the last square visited by knight moves on a spirally numbered (2n-1) X (2n-1) board, moving to the lowest available unvisited square at each step.",
+  "id": "A308312",
+  "mentions": [
+    "A316667"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

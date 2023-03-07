@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: Sum_{n>=0} a(n)*x^n/(1+x)^(n^2) = 1+x.",
+  "id": "A177447",
+  "mentions": [
+    "A115728",
+    "A133316",
+    "A177448",
+    "A177449",
+    "A177450",
+    "A215241",
+    "A215242",
+    "A215243"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

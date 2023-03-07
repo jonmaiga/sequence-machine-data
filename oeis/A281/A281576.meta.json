@@ -1,0 +1,22 @@
+{
+  "description": "Composite Fermat numbers.",
+  "id": "A281576",
+  "mentions": [
+    "A000215",
+    "A001567",
+    "A002808",
+    "A019434",
+    "A046052",
+    "A152155"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

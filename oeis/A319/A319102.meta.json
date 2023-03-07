@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: The k-th column has alternating blocks of k 1's followed by k 0's (see example).",
+  "id": "A319102",
+  "mentions": [
+    "A010766"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

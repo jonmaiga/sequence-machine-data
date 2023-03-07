@@ -1,0 +1,27 @@
+{
+  "description": "a(n)=0 if n is in the infinite trunk of Carl White's beanstalk (i.e., in A179016), otherwise 1 + number of steps to reach the farthest leaf in that finite branch of the beanstalk.",
+  "id": "A213725",
+  "mentions": [
+    "A055938",
+    "A079559",
+    "A179016",
+    "A213717",
+    "A213719",
+    "A213723",
+    "A213724",
+    "A213726",
+    "A213727",
+    "A213731"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

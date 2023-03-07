@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest nonsquare m such that the second partial quotient in the continued fraction for sqrt(m) equals n.",
+  "id": "A338284",
+  "mentions": [
+    "A002522",
+    "A013945",
+    "A073577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

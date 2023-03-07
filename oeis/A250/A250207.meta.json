@@ -1,0 +1,26 @@
+{
+  "description": "The number of quartic terms in the multiplicative group modulo n.",
+  "id": "A250207",
+  "mentions": [
+    "A000010",
+    "A046073",
+    "A052273",
+    "A073103",
+    "A087692",
+    "A293482",
+    "A293485"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

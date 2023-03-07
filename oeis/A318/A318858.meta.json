@@ -1,0 +1,20 @@
+{
+  "description": "Number of still-lifes synthesizable from n gliders in Conway's game of Life.",
+  "id": "A318858",
+  "mentions": [
+    "A019473",
+    "A056614"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of sizes of remainder sets for n, for any natural number c, given natural number b in (b^c) mod n.",
+  "id": "A280338",
+  "mentions": [
+    "A062821"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 5 0..2 arrays with adjacent row and column sums unequal.",
+  "id": "A202928",
+  "mentions": [
+    "A202931"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

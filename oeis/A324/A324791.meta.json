@@ -1,0 +1,23 @@
+{
+  "description": "Value of A076042 at its n-th low point.",
+  "id": "A324791",
+  "mentions": [
+    "A008348",
+    "A076042",
+    "A309226",
+    "A324782",
+    "A324783",
+    "A324792",
+    "A325056"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

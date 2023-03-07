@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest prime > a(n-1) such that (a(n-1)+a(n)) is a multiple of nextprime(a(n-1)).",
+  "id": "A175487",
+  "mentions": [
+    "A178468"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

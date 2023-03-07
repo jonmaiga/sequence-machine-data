@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that the average path sum is an integer when iterating from m to 1 with nondeterministic map k -> k - k/p, where p is any prime factor of k.",
+  "id": "A333785",
+  "mentions": [
+    "A000079",
+    "A019434",
+    "A333000",
+    "A333001",
+    "A333003",
+    "A333123"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

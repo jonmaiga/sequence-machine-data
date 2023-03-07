@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers n such that the sum of the binary digits of n and n^2 both equal 12.",
+  "id": "A261593",
+  "mentions": [
+    "A077436",
+    "A261586"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

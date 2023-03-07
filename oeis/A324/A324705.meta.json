@@ -1,0 +1,41 @@
+{
+  "description": "Lexicographically earliest sequence containing 1 and all composite numbers divisible by prime(m) for some m already in the sequence.",
+  "id": "A324705",
+  "mentions": [
+    "A000002",
+    "A000720",
+    "A001222",
+    "A001462",
+    "A007097",
+    "A055396",
+    "A061395",
+    "A079000",
+    "A079254",
+    "A109298",
+    "A112798",
+    "A276625",
+    "A277098",
+    "A304360",
+    "A324694",
+    "A324695",
+    "A324696",
+    "A324697",
+    "A324698",
+    "A324699",
+    "A324700",
+    "A324701",
+    "A324702",
+    "A324703",
+    "A324704"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

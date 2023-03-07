@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of partial sums of a series related to Lebesgue's constant L(0) = 1.",
+  "id": "A157165",
+  "mentions": [
+    "A157166",
+    "A157167",
+    "A157168"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

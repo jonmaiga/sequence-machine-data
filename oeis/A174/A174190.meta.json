@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,m) = numerator of 1/n^2-1/(n-m)^2, read by rows.",
+  "id": "A174190",
+  "mentions": [
+    "A061035",
+    "A172370"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

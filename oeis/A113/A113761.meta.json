@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the number of divisors of k equals both the sum and the product of digits of k in base 10.",
+  "id": "A113761",
+  "mentions": [
+    "A034710",
+    "A057531",
+    "A074312"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

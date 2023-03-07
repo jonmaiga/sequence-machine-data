@@ -1,0 +1,27 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) = Sum_{j=0..n} (-1)^(n-j) * multinomial(n+(k-1)*j; n-j, {j}^k).",
+  "id": "A336169",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A033312",
+    "A059841",
+    "A124435",
+    "A229142",
+    "A336170",
+    "A336171",
+    "A336172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

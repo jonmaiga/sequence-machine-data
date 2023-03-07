@@ -1,0 +1,24 @@
+{
+  "description": "The positions of zeros in the top row of A163898 (and A163899).",
+  "id": "A165404",
+  "mentions": [
+    "A025581",
+    "A147600",
+    "A163898",
+    "A163899",
+    "A163901",
+    "A163904",
+    "A165403",
+    "A165406"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

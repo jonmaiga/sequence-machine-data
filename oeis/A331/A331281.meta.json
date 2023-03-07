@@ -1,0 +1,25 @@
+{
+  "description": "If A061395(n) <= A001222(n), then a(n) = 1, otherwise a(n) = 0.",
+  "id": "A331281",
+  "mentions": [
+    "A001222",
+    "A061395",
+    "A065091",
+    "A065901",
+    "A088902",
+    "A324521",
+    "A331168",
+    "A331282"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

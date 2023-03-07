@@ -1,0 +1,22 @@
+{
+  "description": "p-INVERT of the even bisection (A001906) of the Fibonacci numbers, where p(S) = 1 - S - S^2.",
+  "id": "A289803",
+  "mentions": [
+    "A001906",
+    "A033453",
+    "A289780",
+    "A298804"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

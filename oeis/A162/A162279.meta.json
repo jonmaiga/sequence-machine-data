@@ -1,0 +1,22 @@
+{
+  "description": "Minimal numbers with the same values for sigma_0(n) and sigma(n) as one or more other numbers.",
+  "id": "A162279",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A162280",
+    "A162281",
+    "A162282",
+    "A162283"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

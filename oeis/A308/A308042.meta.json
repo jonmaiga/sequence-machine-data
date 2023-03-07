@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of d_3(k)/ud_3(k), where d_3(k) is the number of ordered factorizations of k as product of 3 divisors (A007425) and ud_3(k) = 3^omega(k) is the unitary analog of d_3 (A074816).",
+  "id": "A308042",
+  "mentions": [
+    "A001221",
+    "A007425",
+    "A074816",
+    "A307869"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence which has the property that it lists the position of the even digits in the concatenation of its terms.",
+  "id": "A114309",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

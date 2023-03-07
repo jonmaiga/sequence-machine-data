@@ -1,0 +1,23 @@
+{
+  "description": "Solution (c(n)) of the system of 3 equations in Comments.",
+  "id": "A298876",
+  "mentions": [
+    "A298871",
+    "A298872",
+    "A298873",
+    "A298874",
+    "A298875",
+    "A299634"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

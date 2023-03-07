@@ -1,0 +1,20 @@
+{
+  "description": "Number of simple 3-edge-connected non-isomorphic n-vertex graphs.",
+  "id": "A324226",
+  "mentions": [
+    "A007146",
+    "A052447",
+    "A324088"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

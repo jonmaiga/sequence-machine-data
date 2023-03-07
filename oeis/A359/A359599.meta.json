@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A358777 with record absolute values.",
+  "id": "A359599",
+  "mentions": [
+    "A358777",
+    "A359598",
+    "A359609"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A354575.",
+  "id": "A354679",
+  "mentions": [
+    "A354575",
+    "A354687",
+    "A354688",
+    "A354727",
+    "A354739"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

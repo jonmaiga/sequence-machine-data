@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that p^p divides k for some prime p.",
+  "id": "A100716",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A048103",
+    "A051674",
+    "A054744",
+    "A100717",
+    "A124010",
+    "A129150",
+    "A129152",
+    "A129251",
+    "A129254",
+    "A276079"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:51",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

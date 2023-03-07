@@ -1,0 +1,18 @@
+{
+  "description": "Number of gcds-sortable two-rooted graphs on n vertices such that all vertices have even degree.",
+  "id": "A289483",
+  "mentions": [
+    "A289472"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

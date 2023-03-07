@@ -1,0 +1,24 @@
+{
+  "description": "Smallest multiplication factors f, prime or 1, for all b (mod 24), coprime to 24, so that b*f is a nonzero square mod 8 and mod 3.",
+  "id": "A322271",
+  "mentions": [
+    "A007310",
+    "A322269",
+    "A322272",
+    "A322273",
+    "A322274",
+    "A322275"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

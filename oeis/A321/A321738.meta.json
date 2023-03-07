@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to partition the Young diagram of the integer partition with Heinz number n into vertical sections.",
+  "id": "A321738",
+  "mentions": [
+    "A000110",
+    "A000700",
+    "A000701",
+    "A006052",
+    "A056239",
+    "A122111",
+    "A320328",
+    "A321719",
+    "A321731",
+    "A321737",
+    "A321854"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Practical numbers q with q-1 and q+1 twin primes: \"Sandwiches of the second kind\".",
+  "id": "A258838",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A005153",
+    "A006512",
+    "A014574",
+    "A209236",
+    "A210452",
+    "A210479",
+    "A258836"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

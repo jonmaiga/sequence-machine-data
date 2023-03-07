@@ -1,0 +1,18 @@
+{
+  "description": "Least integer k > n such that all divisors of n are exactly the first divisors of k in increasing order.",
+  "id": "A256017",
+  "mentions": [
+    "A001248"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

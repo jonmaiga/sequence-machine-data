@@ -1,0 +1,18 @@
+{
+  "description": "Let p = prime(n). a(n) = number of primes q less than p, such that both p+q+1 and p+q-1 are primes.",
+  "id": "A224963",
+  "mentions": [
+    "A224748",
+    "A224908"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

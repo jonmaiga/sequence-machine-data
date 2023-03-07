@@ -1,0 +1,26 @@
+{
+  "description": "Inserting a digit '1' between the first two adjacent digits of k, then inserting a digit '2' between the two following adjacent digits of k, ..., then inserting the integer '10' between the tenth and the eleventh digits of k, ... produces a prime number.",
+  "id": "A331116",
+  "mentions": [
+    "A050711",
+    "A050712",
+    "A050713",
+    "A050714",
+    "A050715",
+    "A050716",
+    "A050717",
+    "A050718",
+    "A050719"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

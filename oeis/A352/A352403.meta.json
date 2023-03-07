@@ -1,0 +1,20 @@
+{
+  "description": "Indices of metallic means that are powers of other metallic means.",
+  "id": "A352403",
+  "mentions": [
+    "A002878",
+    "A077444",
+    "A259131",
+    "A267797"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

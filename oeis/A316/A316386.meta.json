@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of [0, 1, 2, -3, -4, 5, 6, -7, -8, ...].",
+  "id": "A316386",
+  "mentions": [
+    "A009545",
+    "A140230"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

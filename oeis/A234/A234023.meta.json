@@ -1,0 +1,19 @@
+{
+  "description": "Positions n where abs(A234022(n)-A234022(n+1)) > 1.",
+  "id": "A234023",
+  "mentions": [
+    "A007088",
+    "A193231",
+    "A234022"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

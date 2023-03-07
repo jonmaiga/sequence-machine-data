@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, 0 <= k < n, n >= 2: T(n,k) is the eventual period of the modified Fibonacci sequence x(j) (or 0 if x(j) never enters a cycle) defined as follows: x(0) = 0, x(1) = 1, and for j > 1 x(j) is obtained from x(j-1) + x(j-2) by deleting all occurrences of the digit k in base n.",
+  "id": "A306773",
+  "mentions": [
+    "A011655",
+    "A243063"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular table read by rows: T(m,n) is the number of non-isomorphic groups G such that G is the semidirect product of C_m and C_n, where C_m is a normal subgroup of G and C_n is a subgroup of G, 1 <= n <= A002322(m).",
+  "id": "A327925",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002322",
+    "A051194",
+    "A060594",
+    "A060839",
+    "A073103",
+    "A319099",
+    "A319100",
+    "A319101",
+    "A327924"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

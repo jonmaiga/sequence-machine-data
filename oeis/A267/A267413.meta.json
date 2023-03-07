@@ -1,0 +1,27 @@
+{
+  "description": "Dropping any binary digit gives a prime number.",
+  "id": "A267413",
+  "mentions": [
+    "A000668",
+    "A001359",
+    "A005811",
+    "A019434",
+    "A034895",
+    "A051362",
+    "A057733",
+    "A104066"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

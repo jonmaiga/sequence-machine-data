@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number representable in exactly n ways as a sum of 3 palindromes (each of them >= 0).",
+  "id": "A115337",
+  "mentions": [
+    "A115336"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of isomorphism classes of connected 3-regular loopless simple graphs with n vertices and with semi-edges allowed.",
+  "id": "A243393",
+  "mentions": [
+    "A121941",
+    "A243391",
+    "A243392",
+    "A243394",
+    "A303032"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

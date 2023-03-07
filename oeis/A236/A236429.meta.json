@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of 0 as a sum of numbers d*k with d in {-1,1} and k in {1,2,...,n}, where the sum of the numbers k is 2n.",
+  "id": "A236429",
+  "mentions": [
+    "A235130",
+    "A236430"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

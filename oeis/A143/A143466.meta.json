@@ -1,0 +1,20 @@
+{
+  "description": "Odious count triangle, T(n,k) = A010060(n) * A010060(k); 1 <= k <= n.",
+  "id": "A143466",
+  "mentions": [
+    "A000012",
+    "A010060",
+    "A102390"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

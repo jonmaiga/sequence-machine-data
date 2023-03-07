@@ -1,0 +1,22 @@
+{
+  "description": "Lenny Conundrum #168: Neopet species in alphabetical order, converted to digits by the phone keypad code.",
+  "id": "A119568",
+  "mentions": [
+    "A119567"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "dumb",
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

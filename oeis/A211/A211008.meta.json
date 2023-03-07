@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of squares and rectangles of area 2^(k-1) after n-th stage in the toothpick structure of A139250, n>=1, k>=1, assuming the toothpicks have length 2.",
+  "id": "A211008",
+  "mentions": [
+    "A139250",
+    "A159786",
+    "A160124",
+    "A160125",
+    "A168131",
+    "A187210",
+    "A188346",
+    "A211016",
+    "A211017",
+    "A211019"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

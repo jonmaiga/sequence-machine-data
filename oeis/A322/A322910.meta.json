@@ -1,0 +1,22 @@
+{
+  "description": "The lesser of the two solutions to x - log(x) = e.",
+  "id": "A322910",
+  "mentions": [
+    "A001113",
+    "A202348",
+    "A226572",
+    "A226574"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

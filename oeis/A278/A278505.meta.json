@@ -1,0 +1,30 @@
+{
+  "description": "Square array constructed from Flavius sieve: Each row n (n >= 1) starts with A000960(n), followed by all numbers removed at the stage n of the sieve.",
+  "id": "A278505",
+  "mentions": [
+    "A000960",
+    "A002260",
+    "A004736",
+    "A099259",
+    "A100287",
+    "A255545",
+    "A278503",
+    "A278506",
+    "A278507",
+    "A278511",
+    "A278538",
+    "A278539"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

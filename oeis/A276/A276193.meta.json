@@ -1,0 +1,18 @@
+{
+  "description": "P-defects p - N(p) of the congruence y^2 + x*y + y == x^3 + 4*x - 6 (mod p) for primes p, where N(p) is the number of solutions given for p = prime(n) by A276173(n).",
+  "id": "A276193",
+  "mentions": [
+    "A276173"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

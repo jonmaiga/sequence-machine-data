@@ -1,0 +1,30 @@
+{
+  "description": "a(1) = 2, a(2) = 1. For n >= 3, a(n) is found by concatenating the cubes of the first n-1 terms of the sequence in reverse order and then dividing the resulting number by a(n-1).",
+  "id": "A181870",
+  "mentions": [
+    "A006190",
+    "A052991",
+    "A181754",
+    "A181755",
+    "A181756",
+    "A181864",
+    "A181865",
+    "A181866",
+    "A181867",
+    "A181868",
+    "A181869"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

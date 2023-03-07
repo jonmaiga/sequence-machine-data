@@ -1,0 +1,30 @@
+{
+  "description": "Primes p for which there does not exist any such integer k that k - A002828(k) = p.",
+  "id": "A278494",
+  "mentions": [
+    "A000040",
+    "A002828",
+    "A004215",
+    "A010051",
+    "A045352",
+    "A072401",
+    "A255131",
+    "A263091",
+    "A277888",
+    "A278216",
+    "A278487",
+    "A278490",
+    "A278495",
+    "A278496"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

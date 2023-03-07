@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n minus (number of 1's in Zeckendorf expansion of n).",
+  "id": "A219641",
+  "mentions": [
+    "A007895",
+    "A011371",
+    "A014417",
+    "A022342",
+    "A035336",
+    "A219637",
+    "A219639",
+    "A219640",
+    "A219642",
+    "A219651"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

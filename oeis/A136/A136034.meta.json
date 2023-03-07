@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = smallest number k such that number of distinct prime factors of 2^k-1 is exactly n.",
+  "id": "A136034",
+  "mentions": [
+    "A000225",
+    "A003260",
+    "A016047",
+    "A046051",
+    "A046800",
+    "A049479",
+    "A088863",
+    "A136030",
+    "A136031",
+    "A136032",
+    "A136033"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

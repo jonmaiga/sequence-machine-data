@@ -1,0 +1,20 @@
+{
+  "description": "Abundance d = sigma(N) - 2*N = A033880(N) of numbers N = A153501(n), i.e., N has d > 0 as divisor.",
+  "id": "A182142",
+  "mentions": [
+    "A033880",
+    "A153501",
+    "A181595"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

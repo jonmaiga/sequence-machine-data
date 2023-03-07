@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (ceiling(n/k) mod 2).",
+  "id": "A330926",
+  "mentions": [
+    "A002541",
+    "A006218",
+    "A048272",
+    "A059851",
+    "A075997",
+    "A120885",
+    "A320226",
+    "A325939",
+    "A332682",
+    "A333194"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

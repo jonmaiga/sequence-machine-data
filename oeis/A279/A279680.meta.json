@@ -1,0 +1,19 @@
+{
+  "description": "Definition: m < n is an extradivisor of n if for some positive k < n, m | n | k^(n+1) + m and n | (n-k)^(n+1) + m. This sequence gives the smallest number with n extradivisors.",
+  "id": "A279680",
+  "mentions": [
+    "A272538",
+    "A279024"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

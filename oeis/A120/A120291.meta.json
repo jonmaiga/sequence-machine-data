@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of determinant of n X n matrix with elements M[i,j] = (1+Prime[i])/Prime[i] if i=j and 1 otherwise.",
+  "id": "A120291",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A024528",
+    "A053845",
+    "A121744"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

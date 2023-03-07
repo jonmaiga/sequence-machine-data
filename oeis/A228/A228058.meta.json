@@ -1,0 +1,46 @@
+{
+  "description": "Odd numbers of the form p^(1+4k) * r^2, where p is prime of the form 1+4m, r > 1, and gcd(p,r) = 1. (Euler's criteria for odd perfect numbers).",
+  "id": "A228058",
+  "mentions": [
+    "A001065",
+    "A005408",
+    "A027748",
+    "A033879",
+    "A034460",
+    "A124010",
+    "A191218",
+    "A228056",
+    "A228057",
+    "A228059",
+    "A324213",
+    "A324647",
+    "A324898",
+    "A325313",
+    "A325314",
+    "A325319",
+    "A325320",
+    "A325375",
+    "A325376",
+    "A325377",
+    "A325378",
+    "A325379",
+    "A325380",
+    "A325814",
+    "A325819",
+    "A325822",
+    "A325823",
+    "A325824",
+    "A326137"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

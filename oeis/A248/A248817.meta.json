@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are equal to the arithmetic derivative of their cototient.",
+  "id": "A248817",
+  "mentions": [
+    "A003415",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the base-10 representation of k^2 has the structure dmmd, where d is a single digit and m is a string of digits.",
+  "id": "A116499",
+  "mentions": [
+    "A116500",
+    "A116501",
+    "A305719"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

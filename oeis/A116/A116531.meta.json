@@ -1,0 +1,18 @@
+{
+  "description": "Number of letters in common in the English names for the numbers n and n+1.",
+  "id": "A116531",
+  "mentions": [
+    "A109382"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

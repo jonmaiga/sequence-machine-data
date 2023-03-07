@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest prime number, with sum of digits equals n and a(n) is greater than previous nonzero terms, except if this is not possible in which case a(n)=0",
+  "id": "A282342",
+  "mentions": [
+    "A067180"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

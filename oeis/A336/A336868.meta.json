@@ -1,0 +1,44 @@
+{
+  "description": "Indicator function for numbers k such that k! has distinct prime multiplicities.",
+  "id": "A336868",
+  "mentions": [
+    "A000142",
+    "A007489",
+    "A022559",
+    "A027423",
+    "A048656",
+    "A048742",
+    "A071626",
+    "A098859",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A325272",
+    "A325273",
+    "A325617",
+    "A327498",
+    "A336414",
+    "A336415",
+    "A336416",
+    "A336423",
+    "A336424",
+    "A336499",
+    "A336500",
+    "A336568",
+    "A336571",
+    "A336866",
+    "A336867"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

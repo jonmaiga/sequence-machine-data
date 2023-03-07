@@ -1,0 +1,29 @@
+{
+  "description": "Digit above the least significant 01 digit pair in the Zeckendorf representation of n.",
+  "id": "A354321",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A003714",
+    "A005206",
+    "A014417",
+    "A038189",
+    "A066628",
+    "A086483",
+    "A189920",
+    "A348853"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

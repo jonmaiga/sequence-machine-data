@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that the sequence of digits has alternating parity, and the same holds for the digits of the sequence a(n) + a(n+1).",
+  "id": "A307129",
+  "mentions": [
+    "A097962",
+    "A098951",
+    "A307130"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

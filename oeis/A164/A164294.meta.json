@@ -1,0 +1,27 @@
+{
+  "description": "Primes prime(k) such that all integers in [(prime(k-1)+1)/2,(prime(k)-1)/2] are composite, excluding those primes in A080359.",
+  "id": "A164294",
+  "mentions": [
+    "A000040",
+    "A001262",
+    "A001567",
+    "A062568",
+    "A080359",
+    "A104272",
+    "A141232",
+    "A164288",
+    "A164333",
+    "A164368"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

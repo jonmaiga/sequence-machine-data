@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least k such that 3*k*2^n-1 or 3*k*2^n+1 (or both) is prime.",
+  "id": "A152145",
+  "mentions": [
+    "A152141"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

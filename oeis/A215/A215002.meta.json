@@ -1,0 +1,18 @@
+{
+  "description": "Number of all solid standard Young tableaux of shape [[n,k],[n-k]] for 0<=k<=n.",
+  "id": "A215002",
+  "mentions": [
+    "A214775"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

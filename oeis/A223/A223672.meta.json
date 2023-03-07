@@ -1,0 +1,18 @@
+{
+  "description": "Number of 5 X n 0..1 arrays with rows, diagonals and antidiagonals unimodal.",
+  "id": "A223672",
+  "mentions": [
+    "A223669"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

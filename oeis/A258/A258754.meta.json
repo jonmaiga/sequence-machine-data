@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Ls_8(Pi), the value of the 8th basic generalized log-sine integral at Pi.",
+  "id": "A258754",
+  "mentions": [
+    "A258749",
+    "A258750",
+    "A258751",
+    "A258752",
+    "A258753"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 4,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

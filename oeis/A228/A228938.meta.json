@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: (2 + exp(3*x)) / (4 - exp(3*x)).",
+  "id": "A228938",
+  "mentions": [
+    "A190818"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:49:31",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

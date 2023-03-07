@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/2)*A357283(n).",
+  "id": "A357284",
+  "mentions": [
+    "A274230",
+    "A357283"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

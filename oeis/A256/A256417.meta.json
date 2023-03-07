@@ -1,0 +1,19 @@
+{
+  "description": "The EKG sequence (A064413) smoothed by replacing each prime p with 2p and each thrice-prime 3p also with 2p.",
+  "id": "A256417",
+  "mentions": [
+    "A064413",
+    "A256415",
+    "A256416"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

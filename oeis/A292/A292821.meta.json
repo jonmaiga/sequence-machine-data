@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} (1 + exp(-2*Pi*k)).",
+  "id": "A292821",
+  "mentions": [
+    "A259149",
+    "A259150",
+    "A292819",
+    "A292820",
+    "A292822",
+    "A292825",
+    "A292829"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:12",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

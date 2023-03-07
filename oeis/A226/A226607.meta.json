@@ -1,0 +1,24 @@
+{
+  "description": "Irregular array read by rows in which row floor(k/3)+1, where gcd(k,6)=1, lists the smallest elements, in ascending order, of conjecturally all primitive cycles of positive integers under iteration by the 3x+k function.",
+  "id": "A226607",
+  "mentions": [
+    "A226608",
+    "A226609",
+    "A226610",
+    "A226611",
+    "A226612",
+    "A226613",
+    "A226623"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

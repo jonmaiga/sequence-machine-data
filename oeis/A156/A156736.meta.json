@@ -1,0 +1,22 @@
+{
+  "description": "Signed greedy Egyptian fraction for Pi/2",
+  "id": "A156736",
+  "mentions": [
+    "A001466",
+    "A001467",
+    "A156269",
+    "A156618",
+    "A156750"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

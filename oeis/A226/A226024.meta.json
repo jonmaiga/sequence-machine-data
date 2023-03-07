@@ -1,0 +1,22 @@
+{
+  "description": "Integers n such that (sum of digits of 10234*n) = n.",
+  "id": "A226024",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A113315"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

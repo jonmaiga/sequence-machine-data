@@ -1,0 +1,21 @@
+{
+  "description": "Values of bsigma(k) = bsigma(k+1), where bsigma is the sum of the bi-unitary divisors (A188999).",
+  "id": "A294029",
+  "mentions": [
+    "A053215",
+    "A188999",
+    "A290303",
+    "A293183"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

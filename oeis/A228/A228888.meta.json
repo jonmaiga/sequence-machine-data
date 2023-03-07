@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(3*n + 2, 3).",
+  "id": "A228888",
+  "mentions": [
+    "A000326",
+    "A006566",
+    "A228887",
+    "A228889",
+    "A316224"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:43",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

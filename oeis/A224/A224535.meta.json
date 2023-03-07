@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers that are the sum of three distinct prime numbers.",
+  "id": "A224535",
+  "mentions": [
+    "A124867",
+    "A224534"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

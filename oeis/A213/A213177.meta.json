@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of parts in all partitions of n with largest multiplicity k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A213177",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A006128",
+    "A015723",
+    "A063524",
+    "A091602",
+    "A210485",
+    "A320372",
+    "A320373",
+    "A320374",
+    "A320375",
+    "A320376",
+    "A320377",
+    "A320378",
+    "A320379",
+    "A320380",
+    "A320381"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The result of the integration of (-rho*exp(-rho*s*t)*t^j*s*log(1+t),t=0..infinity) can be written as (F(u,j)*exp(u)*Ei(1,u) + G(u,j))/u^j, where rho>0, s>0, and u=rho*s. Sequence is the regular triangle corresponding to G(u,j).",
+  "id": "A121922",
+  "mentions": [
+    "A000254",
+    "A001563",
+    "A008279",
+    "A068424"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

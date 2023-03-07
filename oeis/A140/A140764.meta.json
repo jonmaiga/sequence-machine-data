@@ -1,0 +1,20 @@
+{
+  "description": "Numbers equal to the sum of the squares of their duodecimal digit factorials.",
+  "id": "A140764",
+  "mentions": [
+    "A014080"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

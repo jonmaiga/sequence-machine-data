@@ -1,0 +1,18 @@
+{
+  "description": "We represent square arrays of single-digit entries by the single number formed by reading them row-by-row, top-to-bottom. Sequence gives list of k X k square grids formed from single-digit numbers having property that reading across each row and each column gives a square number.",
+  "id": "A260305",
+  "mentions": [
+    "A105074"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "a(n) is the number of primitive nondeficient numbers (A006039) dividing n.",
+  "id": "A337690",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A006039",
+    "A023196",
+    "A071395",
+    "A080224",
+    "A294927",
+    "A302110",
+    "A337479",
+    "A337539",
+    "A337688",
+    "A337689",
+    "A337691",
+    "A341604",
+    "A341618",
+    "A341619",
+    "A341620"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

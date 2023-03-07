@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of 236364091*E_24/Delta^2 where Delta is the generating function of Ramanujan's tau function (A000594).",
+  "id": "A289981",
+  "mentions": [
+    "A000521",
+    "A000594",
+    "A013971",
+    "A028515",
+    "A029831",
+    "A288837"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": -2,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

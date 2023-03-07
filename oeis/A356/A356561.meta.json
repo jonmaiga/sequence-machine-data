@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>0} 1/(1 - k^3 * x^k)^(1/k^3).",
+  "id": "A356561",
+  "mentions": [
+    "A265837",
+    "A294462",
+    "A294469",
+    "A308689",
+    "A356530",
+    "A356560"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of E_10*Delta^2 where Delta is the generating function of Ramanujan's tau function (A000594).",
+  "id": "A290181",
+  "mentions": [
+    "A000594",
+    "A013974",
+    "A290048",
+    "A290178",
+    "A290180",
+    "A290182"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 2,
+    "size": 18,
+    "source": "joeis"
+  }
+}

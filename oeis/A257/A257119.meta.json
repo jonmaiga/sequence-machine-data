@@ -1,0 +1,19 @@
+{
+  "description": "Smallest member of four consecutive prime numbers each of which is the sum of two squares.",
+  "id": "A257119",
+  "mentions": [
+    "A257117",
+    "A257118"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

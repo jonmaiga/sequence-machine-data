@@ -1,0 +1,19 @@
+{
+  "description": "Composite hypotenuses of primitive Pythagorean triangles (A120961) that are not circumdiameters of non-Pythagorean primitive Heronian triangles (A285579).",
+  "id": "A329148",
+  "mentions": [
+    "A002144",
+    "A120961",
+    "A285579"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

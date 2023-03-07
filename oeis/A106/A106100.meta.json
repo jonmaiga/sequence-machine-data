@@ -1,0 +1,28 @@
+{
+  "description": "Primes with maximal digit = 2.",
+  "id": "A106100",
+  "mentions": [
+    "A036953",
+    "A106093",
+    "A106094",
+    "A106095",
+    "A106096",
+    "A106097",
+    "A106098",
+    "A106099",
+    "A209928",
+    "A221697",
+    "A221698"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

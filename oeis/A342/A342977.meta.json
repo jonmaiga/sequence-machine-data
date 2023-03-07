@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of (Pi - 2) / 4.",
+  "id": "A342977",
+  "mentions": [
+    "A000796",
+    "A003881",
+    "A019669",
+    "A019678",
+    "A020761",
+    "A020806",
+    "A068028",
+    "A268682",
+    "A309091"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:56:53",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

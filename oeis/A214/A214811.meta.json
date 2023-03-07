@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n lists prime factors of (p^p-1)/(p-1) where p = prime(n).",
+  "id": "A214811",
+  "mentions": [
+    "A001039",
+    "A054767",
+    "A125135",
+    "A214810",
+    "A214812"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

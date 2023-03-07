@@ -1,0 +1,27 @@
+{
+  "description": "Numbers N such that gcd(N - d, N*d) >= d^2, where d = A000005(N) is the number of divisors of N.",
+  "id": "A353012",
+  "mentions": [
+    "A000005",
+    "A007519",
+    "A033950",
+    "A049820",
+    "A068228",
+    "A129805",
+    "A146566",
+    "A215848",
+    "A352482",
+    "A352483"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

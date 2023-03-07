@@ -1,0 +1,30 @@
+{
+  "description": "The first 3-fold intrinsically n-palindromic number (given in base ten).",
+  "id": "A171741",
+  "mentions": [
+    "A029965",
+    "A029966",
+    "A053740",
+    "A053780",
+    "A171701",
+    "A171702",
+    "A171703",
+    "A171704",
+    "A171705",
+    "A171706",
+    "A171740",
+    "A171742"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the sum of 3 nonzero squares (A000408) and the sum of 2 positive cubes (A003325).",
+  "id": "A267702",
+  "mentions": [
+    "A000408",
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

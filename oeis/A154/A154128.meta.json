@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 5^n*(n+4)!/n!.",
+  "id": "A154128",
+  "mentions": [
+    "A000142",
+    "A000351",
+    "A006043",
+    "A006044",
+    "A036071",
+    "A052762",
+    "A152818",
+    "A154120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

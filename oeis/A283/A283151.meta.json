@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: Riordan array (1/(1-9x)^(2/3), x/(9x-1)).",
+  "id": "A283151",
+  "mentions": [
+    "A004988",
+    "A025748",
+    "A046521",
+    "A081577",
+    "A248324",
+    "A264772",
+    "A283150"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers in A138123.",
+  "id": "A142248",
+  "mentions": [
+    "A138123"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers satisfying Korselt's criterion: squarefree numbers n such that for every prime divisor p of n, p-1 divides n-1.",
+  "id": "A324050",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A005117",
+    "A008578",
+    "A015919",
+    "A087441"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

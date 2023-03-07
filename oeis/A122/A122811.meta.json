@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime factors (counted with multiplicity) of the smallest odd number with exactly n divisors.",
+  "id": "A122811",
+  "mentions": [
+    "A001222",
+    "A038547",
+    "A059975",
+    "A122376"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

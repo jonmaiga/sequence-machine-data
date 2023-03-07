@@ -1,0 +1,19 @@
+{
+  "description": "Smallest n-digit decimal string that contains each of the first A294267(n) primes as a subsequence.",
+  "id": "A294268",
+  "mentions": [
+    "A294267"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

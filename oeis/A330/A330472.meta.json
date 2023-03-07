@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of non-isomorphic k-element multisets of nonempty multisets of nonempty multisets (all finite).",
+  "id": "A330472",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A007713",
+    "A007716",
+    "A050336",
+    "A061260",
+    "A269134",
+    "A292504",
+    "A306186",
+    "A317533",
+    "A317791",
+    "A318566",
+    "A330473",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

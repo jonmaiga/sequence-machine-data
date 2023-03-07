@@ -1,0 +1,24 @@
+{
+  "description": "Continued fraction expansion of e^(1/5).",
+  "id": "A267318",
+  "mentions": [
+    "A003417",
+    "A058281",
+    "A078688",
+    "A078689",
+    "A092514"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:29",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

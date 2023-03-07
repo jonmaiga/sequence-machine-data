@@ -1,0 +1,18 @@
+{
+  "description": "Number of prime Eisenstein integers z = x - y*w^2 with |z| <= n and where w = -1/2 + i*sqrt(3)/2 is a primitive cube root of unity.",
+  "id": "A300416",
+  "mentions": [
+    "A055667",
+    "A062711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

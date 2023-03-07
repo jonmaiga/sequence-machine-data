@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k such that k and k+1 are both lazy-tribonacci-Niven numbers (A352107).",
+  "id": "A352108",
+  "mentions": [
+    "A328205",
+    "A328209",
+    "A328213",
+    "A330927",
+    "A330931",
+    "A331086",
+    "A331820",
+    "A333427",
+    "A334309",
+    "A342427",
+    "A344342",
+    "A351715",
+    "A351720",
+    "A352090",
+    "A352103",
+    "A352104",
+    "A352107",
+    "A352109",
+    "A352110"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

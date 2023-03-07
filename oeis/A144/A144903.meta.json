@@ -1,0 +1,36 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of x/((1-x-x^3)*(1-x)^(k-1)).",
+  "id": "A144903",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000217",
+    "A000930",
+    "A001477",
+    "A027658",
+    "A050228",
+    "A050407",
+    "A077868",
+    "A078012",
+    "A135851",
+    "A144898",
+    "A144899",
+    "A144900",
+    "A144901",
+    "A144902",
+    "A144904",
+    "A226405"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of factorizations of (n+1)! into k distinct factors.",
+  "id": "A157836",
+  "mentions": [
+    "A157612",
+    "A157672"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

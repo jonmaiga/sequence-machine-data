@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that there exists at least one tetrahedral number with exactly k divisors.",
+  "id": "A279083",
+  "mentions": [
+    "A000292",
+    "A279081",
+    "A279082"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

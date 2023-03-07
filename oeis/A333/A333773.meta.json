@@ -1,0 +1,26 @@
+{
+  "description": "Replace 2's with (-1)'s in ternary representation of n and sum nonzero terms with alternating signs.",
+  "id": "A333773",
+  "mentions": [
+    "A004488",
+    "A024023",
+    "A065620",
+    "A117966",
+    "A132141",
+    "A157671",
+    "A160384",
+    "A333780"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; for n > 1, let d be the largest divisor of n appearing in all previous terms and k the largest value such that a(k) = d, then a(n) = n - k.",
+  "id": "A348217",
+  "mentions": [
+    "A027750",
+    "A181391",
+    "A341679"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is n + the number of digits in the decimal expansion of n.",
+  "id": "A337843",
+  "mentions": [
+    "A055642",
+    "A062028",
+    "A081552",
+    "A101947",
+    "A110803",
+    "A230099"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

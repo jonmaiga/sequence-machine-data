@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal k such that nextprime(2k+1) - 2k = prime(n) where nextprime(n) is least prime > n.",
+  "id": "A229512",
+  "mentions": [
+    "A000040",
+    "A002386",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

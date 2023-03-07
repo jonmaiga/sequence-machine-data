@@ -1,0 +1,22 @@
+{
+  "description": "n multiplied by the least nonzero digit missing from its factorial base representation: a(n) = n * A257079(n).",
+  "id": "A257080",
+  "mentions": [
+    "A255411",
+    "A257079",
+    "A257081"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

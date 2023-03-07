@@ -1,0 +1,17 @@
+{
+  "description": "Trajectory of 0 under the morphism 0 -> 0001101, 1 -> 0011001.",
+  "id": "A274950",
+  "mentions": [
+    "A191818"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

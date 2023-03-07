@@ -1,0 +1,18 @@
+{
+  "description": "Number at end of segment n of A117073.",
+  "id": "A117075",
+  "mentions": [
+    "A117073",
+    "A117074"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

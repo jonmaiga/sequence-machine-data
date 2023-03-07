@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the GCD of the solutions x of sigma(x) = n; sigma(n) = A000203(n) = sum of divisors of n.",
+  "id": "A240667",
+  "mentions": [
+    "A000203",
+    "A007369",
+    "A007370",
+    "A211656",
+    "A241479"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

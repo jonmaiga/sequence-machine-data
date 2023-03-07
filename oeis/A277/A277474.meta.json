@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: -exp(-x)*LambertW(-x).",
+  "id": "A277474",
+  "mentions": [
+    "A000169",
+    "A069856",
+    "A086331",
+    "A277473"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

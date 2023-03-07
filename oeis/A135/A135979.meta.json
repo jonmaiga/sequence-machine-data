@@ -1,0 +1,29 @@
+{
+  "description": "Indices n such that 2^prime(n)-1 has exactly 2 distinct prime factors.",
+  "id": "A135979",
+  "mentions": [
+    "A000225",
+    "A001221",
+    "A001348",
+    "A049084",
+    "A054723",
+    "A065341",
+    "A134852",
+    "A135975",
+    "A135976",
+    "A135977",
+    "A135978"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

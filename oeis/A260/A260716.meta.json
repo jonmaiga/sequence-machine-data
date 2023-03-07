@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of iterations of A234742 needed when starting from A091209(n) before a fixed point is reached.",
+  "id": "A260716",
+  "mentions": [
+    "A091209",
+    "A234742",
+    "A260441",
+    "A260712",
+    "A260713"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

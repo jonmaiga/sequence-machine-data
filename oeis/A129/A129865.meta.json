@@ -1,0 +1,17 @@
+{
+  "description": "List of pairs {n-th prime == 7 mod 18, n-th pair == -7 mod 18}.",
+  "id": "A129865",
+  "mentions": [
+    "A129807"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

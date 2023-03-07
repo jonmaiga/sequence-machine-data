@@ -1,0 +1,21 @@
+{
+  "description": "A162956 convolved with (1, 3, 0, 0, 0, ...).",
+  "id": "A162957",
+  "mentions": [
+    "A151548",
+    "A160552",
+    "A162956",
+    "A162958"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

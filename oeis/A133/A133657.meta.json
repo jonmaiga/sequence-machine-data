@@ -1,0 +1,31 @@
+{
+  "description": "Expansion of q * (phi(q) * psi(q^4))^2 in powers of q where phi(), psi() are Ramanujan theta functions.",
+  "id": "A133657",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A008438",
+    "A010054",
+    "A010815",
+    "A097723",
+    "A112160",
+    "A112610",
+    "A113411",
+    "A121373",
+    "A121455",
+    "A133690",
+    "A222068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

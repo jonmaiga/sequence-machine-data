@@ -1,0 +1,19 @@
+{
+  "description": "The cube of the g.f. equals the g.f. of A196306.",
+  "id": "A196307",
+  "mentions": [
+    "A106219",
+    "A196306",
+    "A196308"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

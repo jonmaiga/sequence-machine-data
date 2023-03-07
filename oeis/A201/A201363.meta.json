@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that (2^n - n - 1)*2^n - 1 is prime.",
+  "id": "A201363",
+  "mentions": [
+    "A201356",
+    "A201357",
+    "A201358",
+    "A201359",
+    "A201360",
+    "A201361",
+    "A201362"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

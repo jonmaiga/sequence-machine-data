@@ -1,0 +1,37 @@
+{
+  "description": "a(n) = least k such that the remainder when 16^k is divided by k is n.",
+  "id": "A128156",
+  "mentions": [
+    "A036236",
+    "A078457",
+    "A119678",
+    "A119679",
+    "A119714",
+    "A119715",
+    "A127816",
+    "A127817",
+    "A127818",
+    "A127819",
+    "A127820",
+    "A127821",
+    "A128149",
+    "A128150",
+    "A128154",
+    "A128155",
+    "A128157",
+    "A128158",
+    "A128159",
+    "A128160"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p whose smallest positive quadratic nonresidue is not a primitive root of p.",
+  "id": "A222717",
+  "mentions": [
+    "A001918",
+    "A047936",
+    "A053760",
+    "A223036"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

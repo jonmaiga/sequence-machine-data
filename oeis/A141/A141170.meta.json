@@ -1,0 +1,29 @@
+{
+  "description": "Primes of the form x^2+4*x*y-2*y^2 (as well as of the form 3*x^2+6*x*y+y^2).",
+  "id": "A141170",
+  "mentions": [
+    "A002476",
+    "A033203",
+    "A038872",
+    "A038873",
+    "A038883",
+    "A038889",
+    "A068228",
+    "A106950",
+    "A141111",
+    "A141112",
+    "A141123",
+    "A141171",
+    "A242661"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

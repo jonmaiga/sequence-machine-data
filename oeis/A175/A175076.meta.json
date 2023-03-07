@@ -1,0 +1,18 @@
+{
+  "description": "Composites c which end at 2 under iterations of {r mod (max prime p < r)} starting at r = c.",
+  "id": "A175076",
+  "mentions": [
+    "A175072",
+    "A175075"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

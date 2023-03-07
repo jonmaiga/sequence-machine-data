@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array associated with Schroeder numbers: T(0,0) = 1, T(n,0) = 0 for n > 0; T(n,k) = 0 if k < n; T(n,k) = T(n,k-1) + T(n-1,k-1) + T(n-1,k).",
+  "id": "A106579",
+  "mentions": [
+    "A001003",
+    "A001844",
+    "A006318",
+    "A033877",
+    "A103137"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

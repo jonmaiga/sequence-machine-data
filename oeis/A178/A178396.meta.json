@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(n) = a(n-1)*1000 + 11^(n-1) for n>=2.",
+  "id": "A178396",
+  "mentions": [
+    "A000931",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

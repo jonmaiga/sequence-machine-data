@@ -1,0 +1,23 @@
+{
+  "description": "Prime numbers such that, in base 10, all their proper prefixes and suffixes represent composites.",
+  "id": "A254754",
+  "mentions": [
+    "A202260",
+    "A254750",
+    "A254751",
+    "A254752",
+    "A254753",
+    "A254755"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that the numbers of negabinary evil primes and negabinary odious primes not exceeding p are equal (see comment).",
+  "id": "A269458",
+  "mentions": [
+    "A027697",
+    "A027699",
+    "A039724",
+    "A268272",
+    "A268273",
+    "A268483",
+    "A269027"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

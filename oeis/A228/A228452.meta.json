@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime k such that k*2^n-1 , k*2^n-1+2*j , k*2^n-1+4*j or k*2^n-1-2*j , k*2^n-1 , k*2^n-1+2*j are consecutive primes in arithmetic progression for some j.",
+  "id": "A228452",
+  "mentions": [
+    "A227888"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

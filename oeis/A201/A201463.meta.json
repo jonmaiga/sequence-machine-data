@@ -1,0 +1,22 @@
+{
+  "description": "A list of 25 distinct numbers such that the sum of their reciprocals is 1 and each number is of the form p^i*q^j where p and q are distinct primes.",
+  "id": "A201463",
+  "mentions": [
+    "A201464",
+    "A201514",
+    "A201650",
+    "A237051"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

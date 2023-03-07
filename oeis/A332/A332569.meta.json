@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(n/k) * ceiling(n/k).",
+  "id": "A332569",
+  "mentions": [
+    "A000203",
+    "A006218",
+    "A006590",
+    "A024916",
+    "A049697",
+    "A085383",
+    "A222548",
+    "A332490"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of the set {1,2,...,n} having k adjacent blocks of size 2, i.e., blocks of the form (i,i+1) (0 <= k <= floor(n/2)).",
+  "id": "A184174",
+  "mentions": [
+    "A000110",
+    "A052889",
+    "A124323",
+    "A184175",
+    "A184176",
+    "A184177"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

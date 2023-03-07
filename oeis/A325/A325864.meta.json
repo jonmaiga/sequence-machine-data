@@ -1,0 +1,29 @@
+{
+  "description": "Number of subsets of {1..n} of which every subset has a different sum.",
+  "id": "A325864",
+  "mentions": [
+    "A002033",
+    "A108917",
+    "A143823",
+    "A196723",
+    "A275972",
+    "A325860",
+    "A325865",
+    "A325866",
+    "A325867",
+    "A325877",
+    "A325878",
+    "A325879",
+    "A325880"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

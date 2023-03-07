@@ -1,0 +1,27 @@
+{
+  "description": "A P_5-stuttered arithmetic progression with a(n+1) = a(n) if n is a pentagonal number, a(n+1) = a(n)+4 otherwise.",
+  "id": "A122798",
+  "mentions": [
+    "A001614",
+    "A045929",
+    "A122793",
+    "A122794",
+    "A122795",
+    "A122796",
+    "A122797",
+    "A122799",
+    "A122800"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:26:57",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

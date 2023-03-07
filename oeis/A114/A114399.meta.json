@@ -1,0 +1,20 @@
+{
+  "description": "Squares in A000695.",
+  "id": "A114399",
+  "mentions": [
+    "A000290",
+    "A000695",
+    "A114398",
+    "A114400"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

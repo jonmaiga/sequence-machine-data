@@ -1,0 +1,22 @@
+{
+  "description": "Number k such that k and k+1 have the same number of exponential divisors (A049419).",
+  "id": "A344312",
+  "mentions": [
+    "A005237",
+    "A006049",
+    "A049419",
+    "A343819",
+    "A344313",
+    "A344314"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

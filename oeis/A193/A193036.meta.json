@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: x = Sum_{n>=1} x^n*A(-x)^A006519(n), where A006519(n) is the highest power of 2 dividing n.",
+  "id": "A193036",
+  "mentions": [
+    "A006519",
+    "A193037",
+    "A193038",
+    "A193039",
+    "A193040"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

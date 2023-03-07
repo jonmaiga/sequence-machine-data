@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{j>=1} (1 + x^j*Product_{k>=1} (1 + x^k)^j).",
+  "id": "A307569",
+  "mentions": [
+    "A000009",
+    "A238440",
+    "A307128"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that digitsum(n) is a whole number when n is represented in the fractional base 1.5 = 3/2.",
+  "id": "A256785",
+  "mentions": [
+    "A007953",
+    "A054683",
+    "A054684"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

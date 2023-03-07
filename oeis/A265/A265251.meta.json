@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that there is exactly one part which occurs three times, while all other parts occur only once.",
+  "id": "A265251",
+  "mentions": [
+    "A015723",
+    "A090858",
+    "A090867",
+    "A266477"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

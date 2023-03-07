@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = A324180(n) for n > 1 and f(1) = -1.",
+  "id": "A324181",
+  "mentions": [
+    "A000040",
+    "A061395",
+    "A156552",
+    "A297112",
+    "A297167",
+    "A300827",
+    "A323914",
+    "A324120",
+    "A324180",
+    "A324203"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

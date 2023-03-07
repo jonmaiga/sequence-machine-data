@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the smallest pseudoprime ( > k ) to base k, A007535(k), is a Carmichael number.",
+  "id": "A293512",
+  "mentions": [
+    "A002997",
+    "A007535",
+    "A090086"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

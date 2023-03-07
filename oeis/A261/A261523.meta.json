@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n+1)! / (prime(n+1) - prime(n))!.",
+  "id": "A261523",
+  "mentions": [
+    "A039716",
+    "A058077"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

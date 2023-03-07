@@ -1,0 +1,20 @@
+{
+  "description": "Length of n-th doubling run in A114183.",
+  "id": "A221716",
+  "mentions": [
+    "A114183",
+    "A189419",
+    "A213220",
+    "A221715"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies: Sum_{n>=0} (-x)^n/n! * Product_{k=0..n} (n+1-k) - (k+1)*A(x) = 0.",
+  "id": "A306065",
+  "mentions": [
+    "A306066",
+    "A306067",
+    "A306090"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

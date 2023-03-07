@@ -1,0 +1,24 @@
+{
+  "description": "The Riordan square of the large Schröder numbers, triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A321623",
+  "mentions": [
+    "A000007",
+    "A006318",
+    "A084938",
+    "A133367",
+    "A321574",
+    "A321620"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

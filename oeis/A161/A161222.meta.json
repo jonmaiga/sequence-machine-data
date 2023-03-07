@@ -1,0 +1,19 @@
+{
+  "description": "Consider necklaces with n beads, each of one of four colors (say C1, C2, C3, C4), where the n segments of cord between the beads are each colored red or green; a(n) is the number of different necklaces under the action of the dihedral group D_{2n}.",
+  "id": "A161222",
+  "mentions": [
+    "A054627",
+    "A161221"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

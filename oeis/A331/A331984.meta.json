@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct square pyramidal numbers.",
+  "id": "A331984",
+  "mentions": [
+    "A000330",
+    "A279220",
+    "A298246",
+    "A322340",
+    "A331844",
+    "A331919"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that prime(k) - k and prime(k) + k are palindromes.",
+  "id": "A115901",
+  "mentions": [
+    "A115884",
+    "A115885"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

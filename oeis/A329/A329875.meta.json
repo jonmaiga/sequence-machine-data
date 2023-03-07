@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, for n > 0, a(n+1) is the least prime number > a(n) whose binary expansion ends with the binary expansion of a(n).",
+  "id": "A329875",
+  "mentions": [
+    "A053582",
+    "A329877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

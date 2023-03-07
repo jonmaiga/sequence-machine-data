@@ -1,0 +1,19 @@
+{
+  "description": "Consider the primes which are congruent to 2 or 3 modulo 5. List the sum of any consecutive pair if that sum is congruent to 0 modulo 10.",
+  "id": "A135557",
+  "mentions": [
+    "A138018",
+    "A138019"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

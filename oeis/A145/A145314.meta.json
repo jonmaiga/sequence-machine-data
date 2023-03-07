@@ -1,0 +1,20 @@
+{
+  "description": "A 3 X 3 palindromic magic square read by rows.",
+  "id": "A145314",
+  "mentions": [
+    "A123154"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

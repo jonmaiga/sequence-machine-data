@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite integers m such that A004187(2*m-J(m,45)) == J(m,45) (mod m) and gcd(m,45)=1, where J(m,45) is the Jacobi symbol.",
+  "id": "A340124",
+  "mentions": [
+    "A004187",
+    "A071904",
+    "A340099",
+    "A340122",
+    "A340123"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

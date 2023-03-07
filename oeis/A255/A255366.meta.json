@@ -1,0 +1,26 @@
+{
+  "description": "Total number of ON cells at stage n of two-dimensional cellular automaton defined by the rules of the \"Ulam-Warburton\" two-dimensional cellular automaton (A147562) for two of its wedges and defined by \"Rule 750\" using the von Neumann neighborhood (A169707) for the two other wedges.",
+  "id": "A255366",
+  "mentions": [
+    "A001235",
+    "A048645",
+    "A139250",
+    "A147562",
+    "A160164",
+    "A162795",
+    "A169707",
+    "A169709"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

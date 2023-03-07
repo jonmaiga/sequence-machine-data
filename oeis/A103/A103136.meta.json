@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of the Delannoy triangle.",
+  "id": "A103136",
+  "mentions": [
+    "A006318",
+    "A008288",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

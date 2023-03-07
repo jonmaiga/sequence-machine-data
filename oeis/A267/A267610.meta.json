@@ -1,0 +1,32 @@
+{
+  "description": "Total number of OFF (white) cells after n iterations of the \"Rule 182\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A267610",
+  "mentions": [
+    "A000120",
+    "A006218",
+    "A070939",
+    "A071038",
+    "A080572",
+    "A267700",
+    "A325101",
+    "A325103",
+    "A325104",
+    "A325106",
+    "A325109",
+    "A325110",
+    "A325123",
+    "A325124"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:28:13",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Shift operator, right.",
+  "id": "A129184",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A002450",
+    "A003462",
+    "A010054",
+    "A129185",
+    "A129186",
+    "A167374"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:13",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

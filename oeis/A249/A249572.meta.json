@@ -1,0 +1,27 @@
+{
+  "description": "Least positive integer whose decimal digits divide the plane into n+1 regions. Equivalently, least positive integer with n holes in its decimal digits.",
+  "id": "A249572",
+  "mentions": [
+    "A000079",
+    "A001743",
+    "A001744",
+    "A001745",
+    "A001746",
+    "A002282",
+    "A011557",
+    "A250256"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

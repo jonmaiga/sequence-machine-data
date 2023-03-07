@@ -1,0 +1,21 @@
+{
+  "description": "Restricted growth functions for set partitions.",
+  "id": "A120698",
+  "mentions": [
+    "A000110",
+    "A085693",
+    "A120699",
+    "A193023"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

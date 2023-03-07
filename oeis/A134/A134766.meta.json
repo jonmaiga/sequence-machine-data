@@ -1,0 +1,20 @@
+{
+  "description": "Primes among variant of permutational numbers A134750.",
+  "id": "A134766",
+  "mentions": [
+    "A134640",
+    "A134641",
+    "A134750",
+    "A134767"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

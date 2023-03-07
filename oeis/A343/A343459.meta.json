@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be expressed both as the product of two consecutive composite numbers and as the product of three consecutive composite numbers.",
+  "id": "A343459",
+  "mentions": [
+    "A342876"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

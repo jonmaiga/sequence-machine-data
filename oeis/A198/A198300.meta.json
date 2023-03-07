@@ -1,0 +1,48 @@
+{
+  "description": "Square array M(k,g), read by antidiagonals, of the Moore lower bound on the order of a (k,g)-cage.",
+  "id": "A198300",
+  "mentions": [
+    "A000027",
+    "A002522",
+    "A005843",
+    "A020725",
+    "A027383",
+    "A051890",
+    "A053698",
+    "A053699",
+    "A053700",
+    "A053716",
+    "A054760",
+    "A060885",
+    "A060887",
+    "A061547",
+    "A062318",
+    "A094626",
+    "A102909",
+    "A103623",
+    "A104376",
+    "A104682",
+    "A105067",
+    "A105312",
+    "A188377",
+    "A198306",
+    "A198307",
+    "A198308",
+    "A198309",
+    "A198310"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

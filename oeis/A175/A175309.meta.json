@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = the smallest prime prime(k) such that prime(k+j) - prime(k+j-1) = prime(n+k+1-j) - prime(n+k-j) for all j with 1 <= j <= n.",
+  "id": "A175309",
+  "mentions": [
+    "A006562",
+    "A051795",
+    "A055382",
+    "A081235",
+    "A081415",
+    "A096710"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

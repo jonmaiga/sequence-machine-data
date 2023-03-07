@@ -1,0 +1,18 @@
+{
+  "description": "Difference sequence of A219096.",
+  "id": "A218249",
+  "mentions": [
+    "A219096"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

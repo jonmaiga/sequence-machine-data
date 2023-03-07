@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that least positive primitive root of p is equal to number of 1's in binary representation of p.",
+  "id": "A214179",
+  "mentions": [
+    "A001918",
+    "A014499"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

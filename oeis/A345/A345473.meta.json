@@ -1,0 +1,20 @@
+{
+  "description": "Given the associative array U(n,k) described below, numbers m > 5 such that [m-3..m+3] are not in U(n,k) (excluding the first row and column).",
+  "id": "A345473",
+  "mentions": [
+    "A327263",
+    "A340748",
+    "A345357",
+    "A345474"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

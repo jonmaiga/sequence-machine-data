@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with 4 distinct digits {1,2,3,4} such that all adjacent digits(as well as first and last digits) are coprime.",
+  "id": "A104971",
+  "mentions": [
+    "A104972",
+    "A104973"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^4 - x^2*A(x)^5.",
+  "id": "A200754",
+  "mentions": [
+    "A001764",
+    "A200753",
+    "A200755"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

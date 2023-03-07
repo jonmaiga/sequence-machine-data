@@ -1,0 +1,37 @@
+{
+  "description": "Array read by antidiagonals downwards: T(b,n) = number of words of length n over an alphabet of size b that are in standard order.",
+  "id": "A278984",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000110",
+    "A007051",
+    "A007581",
+    "A008290",
+    "A056272",
+    "A056273",
+    "A099262",
+    "A099263",
+    "A124302",
+    "A124303",
+    "A137855",
+    "A164863",
+    "A164864",
+    "A203641",
+    "A203646",
+    "A203647",
+    "A278985"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

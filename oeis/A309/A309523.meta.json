@@ -1,0 +1,19 @@
+{
+  "description": "Start with a(1) = 1 and apply certain patterns of operations on a(n-1) to obtain a(n) as described in comments.",
+  "id": "A309523",
+  "mentions": [
+    "A308709"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:43:32",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

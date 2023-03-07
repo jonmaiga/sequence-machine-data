@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number x satisfying x+e=exp(-x).",
+  "id": "A202354",
+  "mentions": [
+    "A202322"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:36:09",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

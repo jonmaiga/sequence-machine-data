@@ -1,0 +1,29 @@
+{
+  "description": "Numbers equal to the sum of their aliquot parts, each of them increased by 6.",
+  "id": "A304278",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A304276",
+    "A304277",
+    "A304279",
+    "A304280",
+    "A304281",
+    "A304282",
+    "A304283",
+    "A304284"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

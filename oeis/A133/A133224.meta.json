@@ -1,0 +1,22 @@
+{
+  "description": "Let P(A) be the power set of an n-element set A and let B be the Cartesian product of P(A) with itself. Remove (y,x) from B when (x,y) is in B and x <> y and let R35 denote the reduced set B. Then a(n) = the sum of the sizes of the union of x and y for every (x,y) in R35.",
+  "id": "A133224",
+  "mentions": [
+    "A002697",
+    "A027471",
+    "A082134",
+    "A212698"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

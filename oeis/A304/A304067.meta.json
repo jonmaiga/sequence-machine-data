@@ -1,0 +1,21 @@
+{
+  "description": "Number of trees with n vertices rooted at a non-edge.",
+  "id": "A304067",
+  "mentions": [
+    "A000055",
+    "A027852",
+    "A303833",
+    "A304068"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

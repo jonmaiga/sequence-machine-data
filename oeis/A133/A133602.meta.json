@@ -1,0 +1,24 @@
+{
+  "description": "The matrix-vector product A133080 * A000108.",
+  "id": "A133602",
+  "mentions": [
+    "A000108",
+    "A005807",
+    "A048990",
+    "A097806",
+    "A133080",
+    "A133603"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

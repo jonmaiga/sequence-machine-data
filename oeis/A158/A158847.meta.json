@@ -1,0 +1,21 @@
+{
+  "description": "Removed primes according to algorithm of A156284 beginning with m=6",
+  "id": "A158847",
+  "mentions": [
+    "A156284",
+    "A158756",
+    "A158759",
+    "A158846"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

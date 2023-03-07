@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which (2^k + 1)/F is prime where F is a Fermat number.",
+  "id": "A242076",
+  "mentions": [
+    "A000215",
+    "A038550",
+    "A066263",
+    "A092559"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

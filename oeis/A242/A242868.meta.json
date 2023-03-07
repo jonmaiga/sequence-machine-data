@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sum of the factorial of digits of n is semiprime.",
+  "id": "A242868",
+  "mentions": [
+    "A001358",
+    "A061602",
+    "A165451"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by \"Rule 3\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A269913",
+  "mentions": [
+    "A269910"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

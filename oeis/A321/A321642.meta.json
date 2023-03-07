@@ -1,0 +1,25 @@
+{
+  "description": "Number of (7-n)-faces of the 4_21 polytope.",
+  "id": "A321642",
+  "mentions": [
+    "A321635",
+    "A321636",
+    "A321637",
+    "A321638",
+    "A321639",
+    "A321640",
+    "A321641"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

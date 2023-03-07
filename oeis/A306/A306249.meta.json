@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as x*(2x-1) + y*(3y-1) + z*(4z-1) + w*(5w-1), where x,y,z are nonnegative integers and w is 0 or 1.",
+  "id": "A306249",
+  "mentions": [
+    "A000326",
+    "A000384",
+    "A002378",
+    "A033991",
+    "A049450",
+    "A255350",
+    "A306225",
+    "A306227",
+    "A306239",
+    "A306242"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

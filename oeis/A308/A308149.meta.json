@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers with Collatz trajectories that do not include the number 5.",
+  "id": "A308149",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A033481",
+    "A070165"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that prime(i) + prime(i-1) < prime(2*i-n) for all i>=m.",
+  "id": "A214096",
+  "mentions": [
+    "A000040",
+    "A002809",
+    "A159685"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array of least knight's moves to points (n,0), (n-1,1), ..., (1,n-1) on infinite chessboard.",
+  "id": "A183049",
+  "mentions": [
+    "A018837",
+    "A065775",
+    "A183050",
+    "A183051"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

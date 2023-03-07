@@ -1,0 +1,22 @@
+{
+  "description": "Discriminant of Chebyshev C-polynomials.",
+  "id": "A193678",
+  "mentions": [
+    "A000079",
+    "A000312",
+    "A127670",
+    "A127672"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

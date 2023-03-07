@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,m) = 1 + abs(n-2*m), read by rows, 0<=m<=n.",
+  "id": "A143182",
+  "mentions": [
+    "A000027",
+    "A049581",
+    "A074148",
+    "A187760",
+    "A220073"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:57",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

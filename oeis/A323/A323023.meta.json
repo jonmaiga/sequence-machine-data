@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows where row n is the omega-sequence of n.",
+  "id": "A323023",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A024619",
+    "A056239",
+    "A067340",
+    "A071625",
+    "A118914",
+    "A181819",
+    "A181821",
+    "A182850",
+    "A182857",
+    "A304464",
+    "A304465",
+    "A323014",
+    "A323022"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

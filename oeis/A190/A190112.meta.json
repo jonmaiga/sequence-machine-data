@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2:3:sqrt(13) proportioned triangles on a (n+1)X(n+1) grid",
+  "id": "A190112",
+  "mentions": [
+    "A190113"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

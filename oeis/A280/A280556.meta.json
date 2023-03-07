@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2 * (k+1)!.",
+  "id": "A280556",
+  "mentions": [
+    "A052520",
+    "A055533"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

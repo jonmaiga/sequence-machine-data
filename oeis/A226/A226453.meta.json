@@ -1,0 +1,17 @@
+{
+  "description": "Integer areas of integer-sided triangles where at least one side is of prime length.",
+  "id": "A226453",
+  "mentions": [
+    "A188158"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

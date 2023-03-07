@@ -1,0 +1,20 @@
+{
+  "description": "6^n*5^(n^2).",
+  "id": "A135349",
+  "mentions": [
+    "A000400",
+    "A060758",
+    "A130977"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:10:22",
+    "offset": 0,
+    "size": 8,
+    "source": "joeis"
+  }
+}

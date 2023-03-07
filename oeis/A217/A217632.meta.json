@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..1 nX3 array",
+  "id": "A217632",
+  "mentions": [
+    "A217637"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers generated with the sieve algorithm described in the comment lines.",
+  "id": "A138612",
+  "mentions": [
+    "A000027",
+    "A002262",
+    "A138606",
+    "A138609",
+    "A166017",
+    "A166018",
+    "A166019",
+    "A166020"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

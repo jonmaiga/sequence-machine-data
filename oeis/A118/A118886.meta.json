@@ -1,0 +1,25 @@
+{
+  "description": "Numbers expressible as x^2 + x*y + y^2, 0 <= x <= y, in 2 or more ways.",
+  "id": "A118886",
+  "mentions": [
+    "A003136",
+    "A024606",
+    "A088534",
+    "A118882",
+    "A198772",
+    "A198773",
+    "A198774",
+    "A198775"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

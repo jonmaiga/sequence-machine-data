@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j), for all i, j >= 1, with f(1) = 2 and f(n) = A004490(n)/A004490(n-1) when n > 1, where A004490(n) is the n-th colossally abundant number.",
+  "id": "A342011",
+  "mentions": [
+    "A000720",
+    "A004490",
+    "A073751",
+    "A342010",
+    "A342012",
+    "A342013"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

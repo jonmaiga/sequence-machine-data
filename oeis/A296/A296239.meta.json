@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = distance from n to nearest Fibonacci number.",
+  "id": "A296239",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A004695",
+    "A051699",
+    "A053188",
+    "A053615",
+    "A053616",
+    "A053646",
+    "A061489",
+    "A061670",
+    "A074989",
+    "A081134",
+    "A105446"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

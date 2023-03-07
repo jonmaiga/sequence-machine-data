@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = m, 0<=k<=n, read by rows, where each decimal digit d of the integer m is the minimum of the corresponding decimal digits of n and k.",
+  "id": "A163351",
+  "mentions": [
+    "A002262",
+    "A051885",
+    "A080098",
+    "A163352"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integer values of n!!/sum(i=0..n,n), with n>=1.",
+  "id": "A130332",
+  "mentions": [
+    "A108552",
+    "A126695",
+    "A130318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

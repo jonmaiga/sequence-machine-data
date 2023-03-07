@@ -1,0 +1,20 @@
+{
+  "description": "The p(n) sequence that is associated with the Zeta triangle A160474",
+  "id": "A160478",
+  "mentions": [
+    "A160474",
+    "A160476"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

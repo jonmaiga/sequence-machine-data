@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is defined by Product_{i>=1} (1-a(i)*x^i) = Sum_{i>=0} möbius(i+1)*x^i.",
+  "id": "A266949",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least number having n orderless representations as p^2 + q^2, where p and q are primes.",
+  "id": "A214511",
+  "mentions": [
+    "A016032",
+    "A045636",
+    "A045698",
+    "A088919",
+    "A214512",
+    "A214513",
+    "A214723"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

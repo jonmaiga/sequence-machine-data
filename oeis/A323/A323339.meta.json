@@ -1,0 +1,28 @@
+{
+  "description": "Numerator of the sum of inverse products of parts in all compositions of n.",
+  "id": "A323339",
+  "mentions": [
+    "A011782",
+    "A177208",
+    "A177209",
+    "A322364",
+    "A322365",
+    "A322380",
+    "A322381",
+    "A323290",
+    "A323291",
+    "A323340"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

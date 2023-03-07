@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 13n+5.",
+  "id": "A102732",
+  "mentions": [
+    "A144562"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:16:41",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

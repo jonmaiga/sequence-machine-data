@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients of series whose 16th power is the theta series of the 16-dimensional Barnes-Wall lattice (see A008409).",
+  "id": "A108094",
+  "mentions": [
+    "A008409"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

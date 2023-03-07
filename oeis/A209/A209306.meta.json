@@ -1,0 +1,18 @@
+{
+  "description": "Binomial self-convolution of sequence k -> A209305(k+1).",
+  "id": "A209306",
+  "mentions": [
+    "A209305"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

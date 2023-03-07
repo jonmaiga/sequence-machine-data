@@ -1,0 +1,25 @@
+{
+  "description": "Let P(x) = Product_{p_k|n}(x-p_k), p_k are all the primes dividing n with multiplicity. Consider the absolute values of the coefficients in P(x), then a(n) is the maximum of these.",
+  "id": "A356253",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A024451",
+    "A065048",
+    "A070918",
+    "A083348",
+    "A109388",
+    "A260613"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

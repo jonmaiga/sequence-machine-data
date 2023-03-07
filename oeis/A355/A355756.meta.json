@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: A(n,k) is the intersection number of the Turán graph T(n,k), 1 <= k <= n.",
+  "id": "A355756",
+  "mentions": [
+    "A002620",
+    "A008133",
+    "A355754"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

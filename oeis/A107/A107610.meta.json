@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that round(k/pi(k)) = n.",
+  "id": "A107610",
+  "mentions": [
+    "A000720",
+    "A107609",
+    "A107614",
+    "A272231"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

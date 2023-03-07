@@ -1,0 +1,20 @@
+{
+  "description": "Least number of symbols required to fill a grid of size n X n row by row in the greedy way such that in any row or column or rectangular 2 X 2 block no symbol occurs twice.",
+  "id": "A292672",
+  "mentions": [
+    "A292670",
+    "A292671",
+    "A292673",
+    "A292679"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

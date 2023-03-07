@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form p=floor(T/4), T are Triangular numbers.",
+  "id": "A171574",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n such that (least part) > (multiplicity of least part).",
+  "id": "A240176",
+  "mentions": [
+    "A000041",
+    "A096403",
+    "A188216",
+    "A240175",
+    "A240177"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

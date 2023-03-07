@@ -1,0 +1,23 @@
+{
+  "description": "Primes with d digits (d>0) which have more than 2d distinct primes as substrings.",
+  "id": "A168169",
+  "mentions": [
+    "A012884",
+    "A069490",
+    "A093301",
+    "A131648",
+    "A168167",
+    "A168168"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

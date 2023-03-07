@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose base-9 representation is a square in base 10.",
+  "id": "A267821",
+  "mentions": [
+    "A241246",
+    "A267490",
+    "A267769",
+    "A267817"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

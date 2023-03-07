@@ -1,0 +1,18 @@
+{
+  "description": "Each number is the average of the numbers formed by all the possible permutations of the digits of that number.",
+  "id": "A160818",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

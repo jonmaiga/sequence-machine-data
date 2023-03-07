@@ -1,0 +1,24 @@
+{
+  "description": "Y = X = 'i + .25(ii + jj + kk + e); Z = 'i - i' + .5(jj + kk - jk + kj) + e. See pdf-file for an exact definition (this sequence gives an initial term 1); Version \"jes\".",
+  "id": "A119953",
+  "mentions": [
+    "A108618",
+    "A119954",
+    "A119955",
+    "A119956",
+    "A119957",
+    "A119958",
+    "A119959"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hear",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

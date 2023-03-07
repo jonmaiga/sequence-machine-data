@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime q > prime(n+3) such that the number p = prime(n)^2 + prime(n+1)^2 + prime(n+2)^2 + prime(n+3)^2 + q^2 is also prime.",
+  "id": "A263725",
+  "mentions": [
+    "A263724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

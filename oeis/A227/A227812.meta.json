@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted identity trees with n nodes and exactly 8 subtrees from the root.",
+  "id": "A227812",
+  "mentions": [
+    "A227774"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 30,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

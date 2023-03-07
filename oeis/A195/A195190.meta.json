@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that there is only one prime number between semiprime(p) and semiprime(p+1).",
+  "id": "A195190",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

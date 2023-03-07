@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2-compositions of n having length k (0 <= k <= n).",
+  "id": "A181289",
+  "mentions": [
+    "A000297",
+    "A001003",
+    "A003480",
+    "A006636",
+    "A006637",
+    "A033282",
+    "A086810",
+    "A132440",
+    "A133437",
+    "A145271",
+    "A181290",
+    "A218272",
+    "A253722",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

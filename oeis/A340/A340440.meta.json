@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} log(k)/(k^2-1).",
+  "id": "A340440",
+  "mentions": [
+    "A073002",
+    "A261506",
+    "A340484",
+    "A340485"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

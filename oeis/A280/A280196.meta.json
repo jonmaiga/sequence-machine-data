@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that a^(n-1) == 1 (mod n^2) has no solutions with 1 < a < n^2-1.",
+  "id": "A280196",
+  "mentions": [
+    "A000244",
+    "A185103",
+    "A209211",
+    "A280199"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

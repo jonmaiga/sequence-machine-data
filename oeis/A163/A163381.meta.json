@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the (decimal equivalent of the) smallest integer that can be made by rotating the binary digits of n any number of positions to the left or right. a(n) in binary may contain fewer digits, after leading 0's are removed, than n written in binary has.",
+  "id": "A163381",
+  "mentions": [
+    "A163380",
+    "A163382"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

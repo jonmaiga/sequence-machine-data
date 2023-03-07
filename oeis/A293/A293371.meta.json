@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n where each part i is marked with a word of length i over a septenary alphabet whose letters appear in alphabetical order and all seven letters occur at least once in the partition.",
+  "id": "A293371",
+  "mentions": [
+    "A261719"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

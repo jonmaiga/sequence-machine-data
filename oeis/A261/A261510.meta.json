@@ -1,0 +1,18 @@
+{
+  "description": "Triangle-congruent primes greater than 10 with a single digit at the center.",
+  "id": "A261510",
+  "mentions": [
+    "A050758"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

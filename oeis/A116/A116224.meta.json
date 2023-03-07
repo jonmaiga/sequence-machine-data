@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k concatenated with k+9 gives the product of two numbers which differ by 9.",
+  "id": "A116224",
+  "mentions": [
+    "A116216",
+    "A116223",
+    "A116355"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

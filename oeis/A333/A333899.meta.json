@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonequivalent n X n binary matrices with 3 ones in every row and column up to permutation of rows.",
+  "id": "A333899",
+  "mentions": [
+    "A254243",
+    "A260340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

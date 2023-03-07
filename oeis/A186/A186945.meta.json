@@ -1,0 +1,21 @@
+{
+  "description": "The smallest integer x > 0 such that the number of terms of A050376 in (x/2,x] equals n.",
+  "id": "A186945",
+  "mentions": [
+    "A050376",
+    "A080359",
+    "A228520",
+    "A228592"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

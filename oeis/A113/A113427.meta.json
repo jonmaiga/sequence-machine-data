@@ -1,0 +1,20 @@
+{
+  "description": "If d(n) is the sequence of prime differences, d(n) = prime(n+1) - prime(n), then a(n) is the subsequence of d(n) such that d(n) is nonprime and squarefree. Except for the initial term of 1, the terms are k-semiprime for some k >= 2.",
+  "id": "A113427",
+  "mentions": [
+    "A000040",
+    "A000469",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

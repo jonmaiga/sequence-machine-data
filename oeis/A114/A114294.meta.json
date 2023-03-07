@@ -1,0 +1,22 @@
+{
+  "description": "Modified Schroeder numbers for q=7.",
+  "id": "A114294",
+  "mentions": [
+    "A112833",
+    "A112839",
+    "A112844",
+    "A114292",
+    "A114299"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

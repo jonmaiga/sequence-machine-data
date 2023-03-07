@@ -1,0 +1,18 @@
+{
+  "description": "Related to number of mesh patterns of length 2 that avoid the pattern 321.",
+  "id": "A289612",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

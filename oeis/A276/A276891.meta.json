@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of ordered set partitions of [n] where k is minimal such that for each block b the smallest integer interval containing b has at most k elements; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A276891",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000670",
+    "A276727",
+    "A276890",
+    "A276892",
+    "A320615",
+    "A320616",
+    "A320617",
+    "A320618",
+    "A320619",
+    "A320620",
+    "A320621",
+    "A320622",
+    "A320623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

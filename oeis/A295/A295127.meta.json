@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of Sum_{d|n} mu(n/d)/d, where mu is the Möbius function A008683.",
+  "id": "A295127",
+  "mentions": [
+    "A007913",
+    "A008683",
+    "A023900",
+    "A173557",
+    "A191898",
+    "A295126"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

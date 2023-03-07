@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of skew Dyck paths of semilength n such that the area between the x-axis and the path is k (n >= 0, 0 <= k <= n^2).",
+  "id": "A129172",
+  "mentions": [
+    "A000045",
+    "A002212",
+    "A129173",
+    "A274372"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

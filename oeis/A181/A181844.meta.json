@@ -1,0 +1,24 @@
+{
+  "description": "Sum over all partitions of n of the LCM of the parts.",
+  "id": "A181844",
+  "mentions": [
+    "A078392",
+    "A181842",
+    "A181843",
+    "A256067",
+    "A256553",
+    "A256554",
+    "A306956"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

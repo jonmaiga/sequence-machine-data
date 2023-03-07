@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the largest k < n for which A277892(k) = A277892(n), 0 if no such number exists, a(0) = a(1) = 0.",
+  "id": "A277894",
+  "mentions": [
+    "A008578",
+    "A277892",
+    "A277893",
+    "A277895"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

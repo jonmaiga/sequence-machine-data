@@ -1,0 +1,23 @@
+{
+  "description": "The infinite trunk of greedy cubes beanstalk with reversed subsections.",
+  "id": "A276614",
+  "mentions": [
+    "A000578",
+    "A010057",
+    "A048766",
+    "A261225",
+    "A276612",
+    "A276613"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

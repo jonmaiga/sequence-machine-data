@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that x - lambda(x) = n has no solution, where lambda(x) = A002322(x).",
+  "id": "A276674",
+  "mentions": [
+    "A002322",
+    "A005278",
+    "A277127"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

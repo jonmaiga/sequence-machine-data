@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of the z-sequence for the Sheffer matrix S2*P = A048993*A007318 = A049020.",
+  "id": "A288867",
+  "mentions": [
+    "A006232",
+    "A006233",
+    "A007318",
+    "A048993",
+    "A049020",
+    "A288868"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

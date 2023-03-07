@@ -1,0 +1,24 @@
+{
+  "description": "The cost of all leaves in the Fibonacci tree of order n.",
+  "id": "A178521",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A023607",
+    "A099920",
+    "A136376",
+    "A354044"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

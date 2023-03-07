@@ -1,0 +1,28 @@
+{
+  "description": "Consider the nontrivial zeros of the Riemann zeta function on the critical line 1/2 + i*t and the gap, or first difference, between two consecutive such zeros; a(n) is the lesser of the two zeros at a place where the gap attains a new minimum.",
+  "id": "A254297",
+  "mentions": [
+    "A002410",
+    "A058303",
+    "A065434",
+    "A065452",
+    "A065453",
+    "A100060",
+    "A117538",
+    "A153595",
+    "A161914",
+    "A192492",
+    "A326502"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

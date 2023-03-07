@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = if n even then P((n-2)/2)+P(n/2) otherwise 3*P((n+1)/2)+P((n-1)/2) where P(i) are the Pell numbers (A000129).",
+  "id": "A189050",
+  "mentions": [
+    "A000129",
+    "A001333"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

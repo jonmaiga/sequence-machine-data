@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n, gcd(k,n)=1} mu(k), where mu(k) = A008683(k) (the Moebius function).",
+  "id": "A112399",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:45:15",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

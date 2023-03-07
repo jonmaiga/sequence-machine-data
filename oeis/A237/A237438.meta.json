@@ -1,0 +1,22 @@
+{
+  "description": "Double Hex-primes: let f(n) = A102489(n); then sequence lists primes p such that f(p) and f(f(p)) are also primes.",
+  "id": "A237438",
+  "mentions": [
+    "A102489",
+    "A103144",
+    "A237439",
+    "A237440",
+    "A237441"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

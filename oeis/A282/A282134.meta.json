@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A045876.",
+  "id": "A282134",
+  "mentions": [
+    "A045876"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

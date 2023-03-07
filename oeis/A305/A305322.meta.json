@@ -1,0 +1,21 @@
+{
+  "description": "Repdigit numbers that are divisible by 3.",
+  "id": "A305322",
+  "mentions": [
+    "A008585",
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "n minus totally additive with a(p)=PrimePi(p), where PrimePi(n)=A000720(n).",
+  "id": "A178503",
+  "mentions": [
+    "A000027",
+    "A000720",
+    "A056239"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

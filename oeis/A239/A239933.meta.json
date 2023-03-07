@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows in which row n lists the parts of the symmetric representation of sigma(4n-1).",
+  "id": "A239933",
+  "mentions": [
+    "A000203",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239053",
+    "A239660",
+    "A239931",
+    "A239932",
+    "A239934",
+    "A244050",
+    "A245092",
+    "A262626"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

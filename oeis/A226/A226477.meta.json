@@ -1,0 +1,38 @@
+{
+  "description": "Table (read by rows) of the natural numbers (in ascending order) whose reciprocals have only periodic decimals of length k.",
+  "id": "A226477",
+  "mentions": [
+    "A018282",
+    "A018766",
+    "A027889",
+    "A027890",
+    "A027891",
+    "A027892",
+    "A027893",
+    "A027894",
+    "A027895",
+    "A027896",
+    "A027897",
+    "A059892",
+    "A084680",
+    "A106305",
+    "A109933",
+    "A111117",
+    "A111211",
+    "A113116",
+    "A113522"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

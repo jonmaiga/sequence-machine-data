@@ -1,0 +1,20 @@
+{
+  "description": "Regard the terms of A004290 as binary numbers and convert to base 10.",
+  "id": "A257345",
+  "mentions": [
+    "A004290",
+    "A079339",
+    "A131577"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number of times prime(n) (the n-th prime) occurs as the least prime factor among numbers 1 .. (prime(n)^2 * prime(n+1)): a(n) = A078898(A251720(n)).",
+  "id": "A250477",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006094",
+    "A008683",
+    "A008836",
+    "A020639",
+    "A078898",
+    "A249821",
+    "A249822",
+    "A250474",
+    "A250478",
+    "A251720",
+    "A256446",
+    "A256447",
+    "A256448",
+    "A281890"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

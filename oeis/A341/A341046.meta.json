@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that the fractional part of the decimal expansion of k*Pi begins with n zeros.",
+  "id": "A341046",
+  "mentions": [
+    "A000796",
+    "A341047"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

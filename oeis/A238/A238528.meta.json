@@ -1,0 +1,19 @@
+{
+  "description": "Record prime values of A238525.",
+  "id": "A238528",
+  "mentions": [
+    "A238525",
+    "A238526",
+    "A238527"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

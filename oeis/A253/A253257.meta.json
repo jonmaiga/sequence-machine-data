@@ -1,0 +1,25 @@
+{
+  "description": "Least positive integer k such that prime(k*n) has the form p^2 - 2 with p prime, or 0 if no such k exists.",
+  "id": "A253257",
+  "mentions": [
+    "A000040",
+    "A049002",
+    "A060429",
+    "A060800",
+    "A062326",
+    "A179262",
+    "A237367",
+    "A237413",
+    "A259731"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of strict integer partitions of n with pairwise indivisible and squarefree parts.",
+  "id": "A303364",
+  "mentions": [
+    "A000009",
+    "A000837",
+    "A003238",
+    "A005117",
+    "A006126",
+    "A051424",
+    "A073576",
+    "A285572",
+    "A285573",
+    "A293606",
+    "A293993",
+    "A303362",
+    "A303365"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

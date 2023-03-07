@@ -1,0 +1,20 @@
+{
+  "description": "Number of years after which an entire year can have the same calendar, in the Gregorian calendar.",
+  "id": "A230996",
+  "mentions": [
+    "A230995",
+    "A231001",
+    "A231014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

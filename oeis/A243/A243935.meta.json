@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that 5 divides A000041(m).",
+  "id": "A243935",
+  "mentions": [
+    "A000041",
+    "A001560",
+    "A027827",
+    "A035700",
+    "A071750",
+    "A083214",
+    "A237278",
+    "A243936"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 15:56:56",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

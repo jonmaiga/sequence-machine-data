@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that n divides the k-th difference between distinct double factorials.",
+  "id": "A204913",
+  "mentions": [
+    "A204892",
+    "A204982"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:54:54",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

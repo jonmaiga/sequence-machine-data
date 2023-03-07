@@ -1,0 +1,29 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n whose incidence matrix has all distinct entries.",
+  "id": "A321662",
+  "mentions": [
+    "A000219",
+    "A007716",
+    "A008289",
+    "A059201",
+    "A114736",
+    "A117433",
+    "A120733",
+    "A121860",
+    "A321653",
+    "A321659",
+    "A321660",
+    "A321661"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

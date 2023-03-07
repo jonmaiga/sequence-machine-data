@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest increasing sequence such that n-th term is divisible by all positive integers up to n.",
+  "id": "A309233",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

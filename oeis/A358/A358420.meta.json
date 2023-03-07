@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the concatenation p|q of two primes p and q with the same number of digits, where r = (p+q)/2, r|q and p|r are all primes.",
+  "id": "A358420",
+  "mentions": [
+    "A358421"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

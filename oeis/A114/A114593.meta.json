@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of hill-free Dyck paths of semilength n, having k ascents of length at least 2 (1 <= k <= floor(n/2), n >= 2).",
+  "id": "A114593",
+  "mentions": [
+    "A000957",
+    "A001793",
+    "A114594"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

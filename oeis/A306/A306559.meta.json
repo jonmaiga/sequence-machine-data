@@ -1,0 +1,19 @@
+{
+  "description": "A self-describing sequence mostly made of 1's and 0's emerging when written in English words (see the Comments section for an explanation).",
+  "id": "A306559",
+  "mentions": [
+    "A039982"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

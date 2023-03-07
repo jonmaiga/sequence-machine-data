@@ -1,0 +1,21 @@
+{
+  "description": "Sum of mu(d)*phi(d) over divisors d of n.",
+  "id": "A276833",
+  "mentions": [
+    "A097945",
+    "A166586"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

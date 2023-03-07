@@ -1,0 +1,19 @@
+{
+  "description": "In base 3, 0, together with numbers of the form i00j00k00m00... where i = 1 or 2 and j,k,m,... are 0, 1, or 2.",
+  "id": "A261660",
+  "mentions": [
+    "A261661",
+    "A261662"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

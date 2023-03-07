@@ -1,0 +1,19 @@
+{
+  "description": "The Wiener index of the Fibonacci tree of order n.",
+  "id": "A180567",
+  "mentions": [
+    "A178522",
+    "A180566"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

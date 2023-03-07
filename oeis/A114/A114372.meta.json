@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into parts with an odd number of prime factors that are all distinct.",
+  "id": "A114372",
+  "mentions": [
+    "A000607",
+    "A030059",
+    "A073576"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

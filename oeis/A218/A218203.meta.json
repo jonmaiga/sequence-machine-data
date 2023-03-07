@@ -1,0 +1,17 @@
+{
+  "description": "Hilltop maps: number of nX5 binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or vertical neighbor in a random 0..2 nX5 array",
+  "id": "A218203",
+  "mentions": [
+    "A218206"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

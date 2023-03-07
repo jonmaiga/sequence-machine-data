@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are 1+prime and have 4 proper divisors.",
+  "id": "A259980",
+  "mentions": [
+    "A005381",
+    "A008864"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Length of the period of the continued fraction expansion of phi/n where phi is the golden ratio.",
+  "id": "A290013",
+  "mentions": [
+    "A001622",
+    "A019863",
+    "A134943",
+    "A134944",
+    "A134946"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

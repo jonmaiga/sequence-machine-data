@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that k-1, k, k+1 are the sum of two nonzero squares in exactly n ways.",
+  "id": "A274591",
+  "mentions": [
+    "A064716",
+    "A274548"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

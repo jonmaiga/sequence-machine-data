@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] (5040 / Sum_{k=0..n} (k+7)!*x^k)^(1/4).",
+  "id": "A303672",
+  "mentions": [
+    "A077607",
+    "A303671",
+    "A303673"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

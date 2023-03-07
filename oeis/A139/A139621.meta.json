@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of connected directed multigraphs with loops and no vertex of degree 0, with n arcs and k vertices.",
+  "id": "A139621",
+  "mentions": [
+    "A000238",
+    "A129620",
+    "A136564",
+    "A137975",
+    "A139622"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

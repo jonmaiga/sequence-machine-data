@@ -1,0 +1,22 @@
+{
+  "description": "Number of integer partitions of n using Jacobsthal numbers.",
+  "id": "A296371",
+  "mentions": [
+    "A000041",
+    "A001045",
+    "A003158",
+    "A018819",
+    "A050377",
+    "A197911"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

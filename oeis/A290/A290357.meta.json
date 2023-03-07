@@ -1,0 +1,19 @@
+{
+  "description": "The eighth Euler transform of the sequence with g.f. 1+x.",
+  "id": "A290357",
+  "mentions": [
+    "A290353",
+    "A290356"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

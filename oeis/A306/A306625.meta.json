@@ -1,0 +1,20 @@
+{
+  "description": "Regular triangle T(n,k) = binomial(2*n-2*k,n-k)*((n+1)/k)*Sum_{k=0..floor((k-1)/2)} (-1)^k*binomial(2*k,k)*binomial(n+3*k-2*k,k-2*k-1), read by rows.",
+  "id": "A306625",
+  "mentions": [
+    "A000225",
+    "A000984",
+    "A069723"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

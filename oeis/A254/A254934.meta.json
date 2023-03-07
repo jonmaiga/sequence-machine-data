@@ -1,0 +1,27 @@
+{
+  "description": "Fundamental positive solution x = x1(n) of the first class of the Pell equation x^2 - 2*y^2 = -A007519(n), n>=1 (primes congruent to 1 mod 8).",
+  "id": "A254934",
+  "mentions": [
+    "A001109",
+    "A007519",
+    "A254760",
+    "A254935",
+    "A254936",
+    "A254937",
+    "A254938",
+    "A255232",
+    "A255235"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

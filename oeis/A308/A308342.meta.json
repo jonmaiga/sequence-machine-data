@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write 2*n as phi(x^2) + phi(y^2) + phi(z^2), where x,y,z are positive integers with x <= y <= z, and phi(.) is Euler's totient function (A000010).",
+  "id": "A308342",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000290",
+    "A002618",
+    "A262311",
+    "A262982",
+    "A262985"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

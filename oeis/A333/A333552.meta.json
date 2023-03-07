@@ -1,0 +1,23 @@
+{
+  "description": "List of numbers k defined by property that when the Recamán term A005132(k) is being computed, we are unable to subtract k from A005132(k-1) because, although A003132(k-1) >= k, the result of the subtraction, A005132(k-1)-k, is already in A005132.",
+  "id": "A333552",
+  "mentions": [
+    "A003132",
+    "A005132",
+    "A187921",
+    "A187922",
+    "A333548",
+    "A333549",
+    "A334494"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

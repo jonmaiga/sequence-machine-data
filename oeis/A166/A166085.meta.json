@@ -1,0 +1,18 @@
+{
+  "description": "Number of times Sum_{i=1..u} J(i,4n+1) obtains value zero when u ranges from 1 to (4n+1). Here J(i,k) is the Jacobi symbol.",
+  "id": "A166085",
+  "mentions": [
+    "A005843",
+    "A166040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(2) = 2; a(3) = 3; for n > 3, a(n) is the smallest positive number not occurring earlier that shares a factor with Sum_{k=1..n-1} A001065(k), where A001065(k) is the sum of the proper divisors of k.",
+  "id": "A358208",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A024916",
+    "A064413",
+    "A356851",
+    "A358209"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

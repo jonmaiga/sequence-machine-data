@@ -1,0 +1,19 @@
+{
+  "description": "Variant of A253028 using only odd numbers: a mirror symmetric array of odd numbers where the n-th term is equal to the number of terms in the n-th row of the array.",
+  "id": "A354576",
+  "mentions": [
+    "A253028",
+    "A354577"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

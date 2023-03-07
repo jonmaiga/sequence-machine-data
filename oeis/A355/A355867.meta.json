@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in the even function A(x) = Sum_{n>=0} a(n)*x^(2*n) such that: 2 = Sum_{n=-oo..+oo} x^n * (x^n + i*sqrt(A(x)))^n, where i^2 = -1.",
+  "id": "A355867",
+  "mentions": [
+    "A355868"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

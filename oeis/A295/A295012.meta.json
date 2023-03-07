@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(12n - 1)/12, where sigma = sum of divisors (A000203).",
+  "id": "A295012",
+  "mentions": [
+    "A000203",
+    "A033686",
+    "A097723",
+    "A098098",
+    "A258831",
+    "A258835",
+    "A280098"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

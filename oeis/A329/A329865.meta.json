@@ -1,0 +1,35 @@
+{
+  "description": "Numbers whose binary expansion has the same runs-resistance as cuts-resistance.",
+  "id": "A329865",
+  "mentions": [
+    "A000975",
+    "A003242",
+    "A107907",
+    "A164707",
+    "A318921",
+    "A318928",
+    "A319411",
+    "A319416",
+    "A319420",
+    "A319421",
+    "A329738",
+    "A329744",
+    "A329767",
+    "A329860",
+    "A329861",
+    "A329864",
+    "A329866",
+    "A329867",
+    "A329868"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

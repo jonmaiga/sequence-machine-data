@@ -1,0 +1,19 @@
+{
+  "description": "Number of geometric lattices on n nodes.",
+  "id": "A281574",
+  "mentions": [
+    "A229202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

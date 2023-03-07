@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that n! divides sigma(k!) (k > 0).",
+  "id": "A275369",
+  "mentions": [
+    "A000142",
+    "A062569"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

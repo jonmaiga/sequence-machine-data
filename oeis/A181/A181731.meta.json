@@ -1,0 +1,33 @@
+{
+  "description": "Table A(d,n) of the number of paths of a chess rook in a d-dimensional hypercube from (0...0) to (n...n) where the rook may move in steps that are multiples of (1,0..0), (0,1,0..0), ..., (0..0,1).",
+  "id": "A181731",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A011782",
+    "A051708",
+    "A105749",
+    "A144045",
+    "A181724",
+    "A181725",
+    "A181726",
+    "A181727",
+    "A181728",
+    "A181749",
+    "A181750",
+    "A181751",
+    "A181752",
+    "A246623"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

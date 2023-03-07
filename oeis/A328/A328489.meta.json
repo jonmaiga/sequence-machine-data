@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers k such that the four consecutive odd numbers starting with k have a total of 5 prime factors counting multiplicity.",
+  "id": "A328489",
+  "mentions": [
+    "A001222",
+    "A190577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

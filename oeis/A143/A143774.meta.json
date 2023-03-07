@@ -1,0 +1,21 @@
+{
+  "description": "Eigentriangle of triangle A022166.",
+  "id": "A143774",
+  "mentions": [
+    "A022166",
+    "A125812"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

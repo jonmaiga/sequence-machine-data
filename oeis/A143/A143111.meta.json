@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n,k) = largest proper divisor of A127093(n,k) where (largest proper divisor)(n) = A032742(n) if n>0 and 0 if n=0.",
+  "id": "A143111",
+  "mentions": [
+    "A031742",
+    "A032742",
+    "A051731",
+    "A127093",
+    "A143112"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

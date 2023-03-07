@@ -1,0 +1,33 @@
+{
+  "description": "Lexicographically earliest sequence containing 2 and all squarefree numbers > 2 whose prime indices already belong to the sequence.",
+  "id": "A324855",
+  "mentions": [
+    "A000002",
+    "A000720",
+    "A001462",
+    "A007097",
+    "A079254",
+    "A109298",
+    "A112798",
+    "A276625",
+    "A290822",
+    "A324697",
+    "A324698",
+    "A324736",
+    "A324748",
+    "A324753",
+    "A324843",
+    "A324850",
+    "A324854"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

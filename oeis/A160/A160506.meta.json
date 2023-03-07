@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients in the expansion of C^4/B^5, in Watson's notation of page 106.",
+  "id": "A160506",
+  "mentions": [
+    "A071734",
+    "A160458",
+    "A160460",
+    "A160461",
+    "A160462",
+    "A160463",
+    "A160521",
+    "A278555",
+    "A278556",
+    "A278557",
+    "A278558"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:50:57",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

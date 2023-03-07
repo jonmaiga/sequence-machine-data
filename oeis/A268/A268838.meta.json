@@ -1,0 +1,21 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the torus grid graph C_n X C_n.",
+  "id": "A268838",
+  "mentions": [
+    "A003763",
+    "A120443",
+    "A222199",
+    "A268894"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

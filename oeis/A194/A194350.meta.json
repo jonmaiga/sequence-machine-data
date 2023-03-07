@@ -1,0 +1,20 @@
+{
+  "description": "Numbers covering A000027: a(n)=(1, 1, 2, 5) * A011557(n)).",
+  "id": "A194350",
+  "mentions": [
+    "A000027",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:16:16",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

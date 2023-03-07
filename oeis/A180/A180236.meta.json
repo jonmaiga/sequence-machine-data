@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-2)+a(n-4); a(1)=a(4)=101, a(2)=a(3)=10.",
+  "id": "A180236",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A115339"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

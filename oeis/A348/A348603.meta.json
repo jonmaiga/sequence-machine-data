@@ -1,0 +1,28 @@
+{
+  "description": "Larger member of a nonexponential amicable pair: numbers (k, m) such that nesigma(k) = m and nesigma(m) = k, where nesigma(k) is the sum of the nonexponential divisors of k (A160135).",
+  "id": "A348603",
+  "mentions": [
+    "A002046",
+    "A002953",
+    "A126166",
+    "A126170",
+    "A160135",
+    "A259039",
+    "A292981",
+    "A322542",
+    "A324709",
+    "A348344",
+    "A348601",
+    "A348602"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

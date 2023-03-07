@@ -1,0 +1,21 @@
+{
+  "description": "Upper ends of record gaps between numbers that are either primes or semiprimes.",
+  "id": "A275014",
+  "mentions": [
+    "A037143",
+    "A111087",
+    "A275013",
+    "A275108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of f(-x^12) * phi(-x) in powers of x where f(), phi() are Ramanujan theta functions.",
+  "id": "A204010",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:04:27",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

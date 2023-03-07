@@ -1,0 +1,20 @@
+{
+  "description": "Maximum sum of elements of an n X n matrix filled with numbers such that if a(j,k)=i, then all numbers 1 ... i-1 are represented in (a(j-1,k), a(j+1,k), a(j,k-1), a(j,k+1)).",
+  "id": "A228882",
+  "mentions": [
+    "A337433",
+    "A337434"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

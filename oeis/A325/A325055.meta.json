@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1; a(2*n) = a(n-1) + a(n), a(2*n+1) = a(n+1) - a(n).",
+  "id": "A325055",
+  "mentions": [
+    "A001196",
+    "A002487",
+    "A005590",
+    "A075825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

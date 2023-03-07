@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime factor of n-th Bell number A000110(n) (or 1 if A000110(n) = 1).",
+  "id": "A144293",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Simple continued fraction expansion of a constant t with partial denominators a(n) such that the continued fraction with fractional partial denominators (2*a(n) + 3)/3 yields the same value t.",
+  "id": "A319464",
+  "mentions": [
+    "A319463"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 150,
+    "source": "oeis-bfile"
+  }
+}

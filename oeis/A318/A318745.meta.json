@@ -1,0 +1,28 @@
+{
+  "description": "Number of Lyndon compositions (aperiodic necklaces of positive integers) with sum n and adjacent parts (including the last with the first part) being coprime.",
+  "id": "A318745",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A059966",
+    "A100953",
+    "A167606",
+    "A296302",
+    "A318728",
+    "A318731",
+    "A318746",
+    "A318747",
+    "A328669"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of the set {1,2,...,n} having k adjacent blocks of size 3, i.e., blocks of the form (i,i+1,i+2) (0 <= k <= floor(n/3)).",
+  "id": "A184176",
+  "mentions": [
+    "A000110",
+    "A052889",
+    "A184174",
+    "A184175",
+    "A184177"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

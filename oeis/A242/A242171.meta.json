@@ -1,0 +1,22 @@
+{
+  "description": "Least prime divisor of B(n) which does not divide any B(k) with k < n, or 1 if such a primitive prime divisor of B(n) does not exist, where B(n) is the n-th Bell number given by A000110.",
+  "id": "A242171",
+  "mentions": [
+    "A000040",
+    "A000110",
+    "A000166",
+    "A242169",
+    "A242170",
+    "A242173"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

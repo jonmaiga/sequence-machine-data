@@ -1,0 +1,27 @@
+{
+  "description": "Repeating part of A220664: First differences of the numbers given as concatenation of permutations of (1,...,m) for sufficiently large m.",
+  "id": "A219664",
+  "mentions": [
+    "A003422",
+    "A007489",
+    "A030299",
+    "A033029",
+    "A107346",
+    "A209280",
+    "A217626",
+    "A220655",
+    "A220664"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

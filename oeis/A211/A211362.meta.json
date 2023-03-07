@@ -1,0 +1,22 @@
+{
+  "description": "Inversion sets of finite permutations interpreted as binary numbers.",
+  "id": "A211362",
+  "mentions": [
+    "A007623",
+    "A018900",
+    "A034968",
+    "A055089",
+    "A195663",
+    "A211363"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: A(i, j) = abs(i - j) if min(i, j) < max(i, j) <= 2*min(i, j), and otherwise 0, with i >= 0 and j >= 0.",
+  "id": "A352967",
+  "mentions": [
+    "A003983",
+    "A049581",
+    "A051125",
+    "A307018",
+    "A353452",
+    "A353453"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

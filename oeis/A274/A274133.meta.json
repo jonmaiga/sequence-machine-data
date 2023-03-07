@@ -1,0 +1,20 @@
+{
+  "description": "Numbers representable as ror(x)+rol(x) in two or more ways, where ror(x)=A038572(x) is x rotated one binary place to the right, rol(x)=A006257(x) is x rotated one binary place to the left.",
+  "id": "A274133",
+  "mentions": [
+    "A006257",
+    "A038572",
+    "A273105"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

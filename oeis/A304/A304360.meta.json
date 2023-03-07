@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest infinite sequence of numbers m > 1 with the property that none of the prime indices of m are in the sequence.",
+  "id": "A304360",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A079000",
+    "A079254",
+    "A214577",
+    "A276625",
+    "A277098",
+    "A280996",
+    "A303431",
+    "A317963",
+    "A317964"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

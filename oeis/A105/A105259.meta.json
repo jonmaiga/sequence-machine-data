@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime divisors of 99..91 (with n 9's).",
+  "id": "A105259",
+  "mentions": [
+    "A001221",
+    "A093177",
+    "A170955"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

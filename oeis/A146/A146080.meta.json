@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1-x*(1-10*x)).",
+  "id": "A146080",
+  "mentions": [
+    "A109466"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

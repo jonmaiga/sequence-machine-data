@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the number of preceding terms having the same digit sum as a(n-1).",
+  "id": "A356348",
+  "mentions": [
+    "A007953",
+    "A137671",
+    "A342585"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that gcd(n, phi(n)) = gcd(phi(n), sigma(n)) = gcd(sigma(n), n) = tau(n).",
+  "id": "A217301",
+  "mentions": [
+    "A069810"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

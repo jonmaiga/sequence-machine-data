@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers y such that y^2 is of the form x^2+(x+727)^2 with integer x.",
+  "id": "A159893",
+  "mentions": [
+    "A001653",
+    "A028871",
+    "A130646",
+    "A156035",
+    "A159894",
+    "A159895"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

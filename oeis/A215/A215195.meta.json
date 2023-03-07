@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A143615(n) = sigma(n) where sigma(n) = A000203(n).",
+  "id": "A215195",
+  "mentions": [
+    "A000203",
+    "A143615"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

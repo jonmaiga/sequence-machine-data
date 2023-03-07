@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with the property that the product of the digits of k starts k.",
+  "id": "A352463",
+  "mentions": [
+    "A203565",
+    "A352461",
+    "A352464"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

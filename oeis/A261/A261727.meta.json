@@ -1,0 +1,20 @@
+{
+  "description": "Length of longest prefix of n-th row in A261712 coinciding with row n+1.",
+  "id": "A261727",
+  "mentions": [
+    "A261416",
+    "A261646",
+    "A261712"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

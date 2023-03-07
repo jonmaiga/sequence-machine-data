@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that f(p), f(f(p)), f(f(f(p))), and f(f(f(f(p)))) are all prime, where f(x) = x^2+3x+1.",
+  "id": "A244113",
+  "mentions": [
+    "A094210",
+    "A153590",
+    "A250027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

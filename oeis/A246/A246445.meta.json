@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form (x^y - x)/y for positive x,y.",
+  "id": "A246445",
+  "mentions": [
+    "A000217",
+    "A007290",
+    "A037205",
+    "A208536",
+    "A208537"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

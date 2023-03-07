@@ -1,0 +1,19 @@
+{
+  "description": "Number of Post functions of n variables which fail to satisfy Post's second condition.",
+  "id": "A262546",
+  "mentions": [
+    "A002543",
+    "A002857"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

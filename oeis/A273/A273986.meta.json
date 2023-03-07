@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the odd Bessel moment s(5,5) (see the referenced paper about the elliptic integral evaluations of Bessel moments).",
+  "id": "A273986",
+  "mentions": [
+    "A073010",
+    "A121839",
+    "A222068",
+    "A244854",
+    "A273959",
+    "A273984",
+    "A273985"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

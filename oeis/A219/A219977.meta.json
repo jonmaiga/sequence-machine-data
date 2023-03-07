@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1+x+x^2+x^3).",
+  "id": "A219977",
+  "mentions": [
+    "A036765",
+    "A038505",
+    "A049347",
+    "A077962",
+    "A133872"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:59:55",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

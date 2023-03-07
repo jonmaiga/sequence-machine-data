@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum over i and j with j<=i and i=1.. sopf(n) of binomial(d(i), d(j)), where d(i) are the prime divisors of n and sopf(n) = sum of the distinct primes dividing n (A008472).",
+  "id": "A242404",
+  "mentions": [
+    "A000079",
+    "A000351",
+    "A000420",
+    "A008472",
+    "A025475",
+    "A033845"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

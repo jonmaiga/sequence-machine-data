@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k == 1 or -1 (mod 6) but k does not divide the numerator of Bernoulli(2*k).",
+  "id": "A286854",
+  "mentions": [
+    "A000367",
+    "A286853"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

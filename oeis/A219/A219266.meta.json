@@ -1,0 +1,22 @@
+{
+  "description": "Logarithmic derivative of the superfactorials (A000178).",
+  "id": "A219266",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A219267",
+    "A219268",
+    "A219269"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

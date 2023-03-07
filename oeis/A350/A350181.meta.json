@@ -1,0 +1,30 @@
+{
+  "description": "Numbers of multiplicative persistence 2 which are themselves the product of digits of a number.",
+  "id": "A350181",
+  "mentions": [
+    "A002473",
+    "A003001",
+    "A007954",
+    "A031346",
+    "A031347",
+    "A046511",
+    "A350180",
+    "A350182",
+    "A350183",
+    "A350184",
+    "A350185",
+    "A350186",
+    "A350187"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

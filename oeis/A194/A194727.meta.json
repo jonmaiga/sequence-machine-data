@@ -1,0 +1,21 @@
+{
+  "description": "Number of 7-ary words either empty or beginning with the first character of the alphabet, that can be built by inserting n doublets into the initially empty word.",
+  "id": "A194727",
+  "mentions": [
+    "A183134",
+    "A194723",
+    "A194728",
+    "A194729"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

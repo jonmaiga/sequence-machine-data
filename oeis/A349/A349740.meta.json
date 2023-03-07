@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of set [n] in a set of <= k noncrossing subsets. Number of Dyck n-paths with at most k peaks. Both with 0 <= k <= n, read by rows.",
+  "id": "A349740",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A000124",
+    "A001453",
+    "A065097",
+    "A088218",
+    "A090181",
+    "A106396",
+    "A116701",
+    "A116844",
+    "A137940"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

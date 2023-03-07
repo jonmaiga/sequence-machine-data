@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array of numerators of the positive rational numbers ordered as in Comments.",
+  "id": "A243926",
+  "mentions": [
+    "A243925",
+    "A243927"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

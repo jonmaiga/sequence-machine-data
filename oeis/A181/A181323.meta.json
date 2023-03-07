@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of placing n rods of length 3 in a 3x3x3 cubic lattice without any two rods intersecting (0 <= n <= 9).",
+  "id": "A181323",
+  "mentions": [
+    "A185697"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

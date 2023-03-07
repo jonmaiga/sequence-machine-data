@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that there exists a pair x,y, where x",
+  "id": "A273969",
+  "mentions": [
+    "A259302",
+    "A259303",
+    "A259304",
+    "A259305",
+    "A259306",
+    "A273970",
+    "A273971"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

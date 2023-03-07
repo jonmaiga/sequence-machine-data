@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n into 8 distinct nonzero triangular numbers.",
+  "id": "A341025",
+  "mentions": [
+    "A000217",
+    "A007331",
+    "A010054",
+    "A307597",
+    "A307598",
+    "A319818",
+    "A340953",
+    "A341021",
+    "A341022",
+    "A341023",
+    "A341024",
+    "A341026",
+    "A341027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 120,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

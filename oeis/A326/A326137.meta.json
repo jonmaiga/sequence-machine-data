@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with at least five distinct prime factors that satisfy Euler's criterion (A228058) for odd perfect numbers.",
+  "id": "A326137",
+  "mentions": [
+    "A001221",
+    "A228058",
+    "A325981",
+    "A326064",
+    "A326074",
+    "A326141",
+    "A326148"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

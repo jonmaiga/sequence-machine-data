@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that every block of ten consecutive digits starting from a(1) contains the digits 0 to 9.",
+  "id": "A345227",
+  "mentions": [
+    "A120125",
+    "A171901",
+    "A291266",
+    "A333832",
+    "A351993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of series-reduced rooted trees with n leaves of k colors.",
+  "id": "A319254",
+  "mentions": [
+    "A000669",
+    "A050381",
+    "A141610",
+    "A220823",
+    "A220824",
+    "A220825",
+    "A242249",
+    "A255517",
+    "A256064",
+    "A256068",
+    "A319369",
+    "A319376"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

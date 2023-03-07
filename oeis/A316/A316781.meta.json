@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the Sprague-Grundy value of the Node-Kayles game played on the graph of n diamonds linked at vertices of degree three.",
+  "id": "A316781",
+  "mentions": [
+    "A002187",
+    "A286332",
+    "A316533",
+    "A316629",
+    "A316632"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

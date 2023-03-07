@@ -1,0 +1,28 @@
+{
+  "description": "Number of upper triangular zero-one matrices with n ones and no zero rows or columns.",
+  "id": "A138265",
+  "mentions": [
+    "A005321",
+    "A022493",
+    "A079144",
+    "A104602",
+    "A135588",
+    "A137252",
+    "A193357",
+    "A193548",
+    "A242153",
+    "A264909"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

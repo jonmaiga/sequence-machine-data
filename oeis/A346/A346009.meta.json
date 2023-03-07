@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the numerator of the average number of distinct prime factors of the divisors of n.",
+  "id": "A346009",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A006881",
+    "A013939",
+    "A062799",
+    "A077761",
+    "A346010",
+    "A346011"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

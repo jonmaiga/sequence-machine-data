@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k < prime(n) such that k + k' is a square, where k' is the unique integer with 0 < k < prime(n) and k*k' == 1 (mod prime(n)), or 0 if such a number k does not exist.",
+  "id": "A308376",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000290",
+    "A242425",
+    "A242441",
+    "A242444"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = exp(-1) * Sum_{k>=0} (4*k + 2)^n / k!.",
+  "id": "A355162",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A126390",
+    "A284859",
+    "A284864",
+    "A285064",
+    "A355163"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

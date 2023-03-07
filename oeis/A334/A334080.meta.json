@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of Pythagorean triples contained in the divisors of the multiples of 60.",
+  "id": "A334080",
+  "mentions": [
+    "A000005",
+    "A009003",
+    "A014442",
+    "A081752",
+    "A089120",
+    "A144255",
+    "A169823"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

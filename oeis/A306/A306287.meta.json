@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k), 1 <= n, 1 <= k <= (1/6)*(4+5*2^(2*n)), read by rows: T(n,k) determines absolute directions along the perimeter of the n-th Y-type Hilbert Tree.",
+  "id": "A306287",
+  "mentions": [
+    "A001511",
+    "A163540",
+    "A246559",
+    "A306288"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

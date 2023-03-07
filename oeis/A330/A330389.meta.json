@@ -1,0 +1,20 @@
+{
+  "description": "Maximal order of an element in the n X n X n Rubik's cube group.",
+  "id": "A330389",
+  "mentions": [
+    "A007458",
+    "A054434",
+    "A075152",
+    "A257401"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:29",
+    "offset": 2,
+    "size": 22,
+    "source": "joeis"
+  }
+}

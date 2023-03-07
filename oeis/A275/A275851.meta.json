@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of elements in range [1..(1+A084558(n))] fixed by the permutation with rank n of permutation list A060117 (or A060118).",
+  "id": "A275851",
+  "mentions": [
+    "A056169",
+    "A060117",
+    "A060118",
+    "A060129",
+    "A084558",
+    "A275725",
+    "A275852"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

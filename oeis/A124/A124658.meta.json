@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers k such that if a person is born in year k and lives not more than 100 years, then he never celebrates his prime birthday on a prime year.",
+  "id": "A124658",
+  "mentions": [
+    "A007921"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

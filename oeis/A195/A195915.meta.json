@@ -1,0 +1,22 @@
+{
+  "description": "Table with T(n,1) = n, otherwise T(n,k) = xor(T(n-1,k-1), T(n-1,k)).",
+  "id": "A195915",
+  "mentions": [
+    "A003987",
+    "A195916"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

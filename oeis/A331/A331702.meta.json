@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct intersections among all circles that can be constructed on vertices of an n-sided regular polygon, using only a compass.",
+  "id": "A331702",
+  "mentions": [
+    "A093353",
+    "A358746",
+    "A359046",
+    "A359047",
+    "A359061"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

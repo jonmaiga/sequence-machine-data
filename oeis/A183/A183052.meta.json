@@ -1,0 +1,21 @@
+{
+  "description": "Sums of knight's moves from (0,0) to points on the square |i|+|j|=n on infinite chessboard.",
+  "id": "A183052",
+  "mentions": [
+    "A065775",
+    "A183050",
+    "A183051",
+    "A183053"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

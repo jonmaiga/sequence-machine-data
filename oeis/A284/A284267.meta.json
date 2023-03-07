@@ -1,0 +1,25 @@
+{
+  "description": "Number of terms with coefficient 1 in the Stern polynomial B(2n+1,x): a(n) = A056169(A277324(n))",
+  "id": "A284267",
+  "mentions": [
+    "A003961",
+    "A007306",
+    "A056169",
+    "A125184",
+    "A260443",
+    "A277324",
+    "A284268",
+    "A284271"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

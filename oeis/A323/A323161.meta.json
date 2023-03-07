@@ -1,0 +1,35 @@
+{
+  "description": "Lexicographically earliest sequence such that a(i) = a(j) => f(i) = f(j) for all i, j, where f(n<=3) = -n, f(n) = 0 if n-1 is an odd prime, and f(n) = floor((n-1)/2) for all other numbers.",
+  "id": "A323161",
+  "mentions": [
+    "A005381",
+    "A010051",
+    "A029834",
+    "A049076",
+    "A049084",
+    "A062590",
+    "A063377",
+    "A064891",
+    "A078442",
+    "A093515",
+    "A175663",
+    "A175682",
+    "A269668",
+    "A292936",
+    "A305801",
+    "A305900",
+    "A322809",
+    "A323162"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

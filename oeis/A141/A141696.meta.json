@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n, k) = ( ( 6 * Sum_{j=0..k+1} (-1)^j * binomial(n+1, j) * (k-j+1)^n ) - 4 * binomial(n-1, k) ) / 2.",
+  "id": "A141696",
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A141697"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangular table: T(n,k) = 0 if k does not divide n, otherwise T(n,k) = P(phi(k), n/k), where P is sequence A000027 used as a pairing function N x N -> N, and phi is Euler totient function, A000010. Table is read by rows as T(1,1), T(2,1), T(2,2), etc.",
+  "id": "A286237",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000124",
+    "A000217",
+    "A002024",
+    "A002260",
+    "A004736",
+    "A051731",
+    "A053635",
+    "A054610",
+    "A286235",
+    "A286236",
+    "A286239",
+    "A286247"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

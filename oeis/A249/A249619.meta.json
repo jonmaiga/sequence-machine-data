@@ -1,0 +1,36 @@
+{
+  "description": "Triangle T(m,n) = number of permutations of a multiset with m elements and signature corresponding to n-th integer partition (A194602).",
+  "id": "A249619",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000142",
+    "A001405",
+    "A001710",
+    "A001715",
+    "A001720",
+    "A001725",
+    "A001730",
+    "A005651",
+    "A036038",
+    "A037955",
+    "A049388",
+    "A078760",
+    "A133799",
+    "A173333",
+    "A187783",
+    "A194602",
+    "A249620"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Consider Post's tag system applied to the word (100)^n; a(n) = position of the longest word in the orbit, or -1 if the orbit is unbounded.",
+  "id": "A291796",
+  "mentions": [
+    "A284116"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

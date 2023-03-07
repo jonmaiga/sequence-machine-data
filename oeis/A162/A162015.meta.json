@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that the sum of the digits of n is substring of n and of n^2.",
+  "id": "A162015",
+  "mentions": [
+    "A052018"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

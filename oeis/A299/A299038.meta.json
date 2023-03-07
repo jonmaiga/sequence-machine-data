@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of rooted trees with n nodes where each node has at most k children; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A299038",
+  "mentions": [
+    "A000012",
+    "A000081",
+    "A000598",
+    "A001190",
+    "A036718",
+    "A036721",
+    "A036722",
+    "A182378",
+    "A244372",
+    "A292553",
+    "A292554",
+    "A292555",
+    "A292556",
+    "A299039"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

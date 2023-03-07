@@ -1,0 +1,36 @@
+{
+  "description": "Square array read by antidiagonals upwards: M(n,k) is the initial occurrence of first prime p1 of consecutive primes p1, p2, where p2 - p1 = 2*k, and p1, p2 span a multiple of 10^n, n>=1, k>=1.",
+  "id": "A287050",
+  "mentions": [
+    "A001359",
+    "A023201",
+    "A023203",
+    "A031924",
+    "A031925",
+    "A031928",
+    "A046117",
+    "A046132",
+    "A060229",
+    "A158277",
+    "A158861",
+    "A160370",
+    "A160440",
+    "A160500",
+    "A287049",
+    "A288021",
+    "A288022",
+    "A288024"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

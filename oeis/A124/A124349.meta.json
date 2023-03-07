@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of directed Hamiltonian cycles on the n-prism graph.",
+  "id": "A124349",
+  "mentions": [
+    "A014681",
+    "A124350",
+    "A270273"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:34:27",
+    "offset": 3,
+    "size": 63,
+    "source": "joeis"
+  }
+}

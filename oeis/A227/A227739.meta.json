@@ -1,0 +1,36 @@
+{
+  "description": "Irregular table where row n lists in nondecreasing order the parts of unordered partition encoded in the runlengths of binary expansion of n; nonzero terms of A227189.",
+  "id": "A227739",
+  "mentions": [
+    "A000225",
+    "A005811",
+    "A036036",
+    "A036037",
+    "A080576",
+    "A080577",
+    "A112798",
+    "A136480",
+    "A227183",
+    "A227184",
+    "A227185",
+    "A227189",
+    "A227368",
+    "A227736",
+    "A227737",
+    "A227738",
+    "A227740"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

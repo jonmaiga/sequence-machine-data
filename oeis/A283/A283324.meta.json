@@ -1,0 +1,18 @@
+{
+  "description": "Number of ON cells at generation n in the reversible cellular automaton RCA(2) when started with a single ON cell at generation 0.",
+  "id": "A283324",
+  "mentions": [
+    "A284232",
+    "A284234"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

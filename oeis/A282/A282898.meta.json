@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the coefficients of the series expansion of the Riemann-Siegel theta function at infinity.",
+  "id": "A282898",
+  "mentions": [
+    "A036282",
+    "A114721",
+    "A282899"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (1/A055642(k)^A055642(k)) where A055642(k) is the number of digits of the integer k.",
+  "id": "A308314",
+  "mentions": [
+    "A055642",
+    "A138908"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

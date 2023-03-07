@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled centered trees with n nodes that have exactly one diametral path (up to direction of traversal).",
+  "id": "A356375",
+  "mentions": [
+    "A000676",
+    "A007401"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

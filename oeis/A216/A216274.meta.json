@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k) = maximal number of regions into which k-space can be divided by n hyperplanes (k >= 1, n >= 0), read by antidiagonals.",
+  "id": "A216274",
+  "mentions": [
+    "A000124",
+    "A000125",
+    "A059214",
+    "A145111"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Fractal sequence of the Stolarsky array, A035506.",
+  "id": "A133299",
+  "mentions": [
+    "A003603",
+    "A035506",
+    "A098861",
+    "A195164"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

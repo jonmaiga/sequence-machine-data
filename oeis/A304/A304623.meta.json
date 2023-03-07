@@ -1,0 +1,33 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of aperiodic multisets with maximum k that fit within some normal multiset of weight n.",
+  "id": "A304623",
+  "mentions": [
+    "A000740",
+    "A000837",
+    "A001597",
+    "A007716",
+    "A007916",
+    "A027941",
+    "A178472",
+    "A210554",
+    "A301700",
+    "A303431",
+    "A303546",
+    "A303551",
+    "A303945",
+    "A303974",
+    "A303976"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

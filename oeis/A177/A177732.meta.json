@@ -1,0 +1,21 @@
+{
+  "description": "The sums of two or more consecutive positive numbers, the largest being even.",
+  "id": "A177732",
+  "mentions": [
+    "A014105",
+    "A014107",
+    "A177712",
+    "A177713",
+    "A177731"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

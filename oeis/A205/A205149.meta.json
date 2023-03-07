@@ -1,0 +1,18 @@
+{
+  "description": "The number s(j) such that n divides s(k)-s(j), where s(j)=prime(j)*prime(j+1) and k is the least positive integer for which such a j exists.",
+  "id": "A205149",
+  "mentions": [
+    "A204892",
+    "A205146"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:55:25",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that k^2 - n^2 is a prime power (A000961), or 0 if no such k exists.",
+  "id": "A300903",
+  "mentions": [
+    "A000961",
+    "A005097",
+    "A024352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

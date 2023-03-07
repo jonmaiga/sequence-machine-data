@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A011546(k-1) is a prime.",
+  "id": "A282974",
+  "mentions": [
+    "A000796",
+    "A005042",
+    "A011546",
+    "A060421",
+    "A282973"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

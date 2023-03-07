@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any v > 0, the value v appears up to v times, and the associate function f defined by f(n) = Sum_{k = 1..n} a(k) * i^k for n >= 0 is injective (where i denotes the imaginary unit).",
+  "id": "A330779",
+  "mentions": [
+    "A000027",
+    "A000265",
+    "A008619",
+    "A008620",
+    "A330780",
+    "A331002",
+    "A331003"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

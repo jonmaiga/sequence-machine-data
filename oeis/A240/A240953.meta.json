@@ -1,0 +1,20 @@
+{
+  "description": "Constant in Sathe's theorem: Product_{p prime} (1 - 1/p)*e^(1/p).",
+  "id": "A240953",
+  "mentions": [
+    "A001222",
+    "A143524"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

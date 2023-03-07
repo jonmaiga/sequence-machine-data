@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: odd-valued terms of A094728(n+1).",
+  "id": "A264798",
+  "mentions": [
+    "A014255",
+    "A024598",
+    "A085046",
+    "A094728",
+    "A120070",
+    "A167268",
+    "A249947",
+    "A261046"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

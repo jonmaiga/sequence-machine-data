@@ -1,0 +1,26 @@
+{
+  "description": "Powers p^m, m >= 0, of palindromic primes p (A002385).",
+  "id": "A192139",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A004086",
+    "A084092",
+    "A084317",
+    "A192137",
+    "A192138",
+    "A192140",
+    "A192141"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

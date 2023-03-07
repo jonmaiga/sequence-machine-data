@@ -1,0 +1,27 @@
+{
+  "description": "The number of numbers with the same prime signature and set of distinct prime factors as n (including n).",
+  "id": "A309004",
+  "mentions": [
+    "A000142",
+    "A006939",
+    "A008480",
+    "A072774",
+    "A088860",
+    "A111470",
+    "A181819",
+    "A309308",
+    "A309309",
+    "A318762"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

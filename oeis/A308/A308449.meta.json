@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 25*10^(2*k) + 5*10^k + 1 are prime.",
+  "id": "A308449",
+  "mentions": [
+    "A309738"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

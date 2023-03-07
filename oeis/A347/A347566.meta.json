@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways 1/n can be expressed as the sum of five distinct unit fractions: 1/n = 1/p + 1/q + 1/r + 1/s + 1/t, with 0 < p < q < r < s < t.",
+  "id": "A347566",
+  "mentions": [
+    "A002966",
+    "A073546",
+    "A227610",
+    "A241883",
+    "A347569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

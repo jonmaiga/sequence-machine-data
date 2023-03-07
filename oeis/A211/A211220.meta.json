@@ -1,0 +1,21 @@
+{
+  "description": "For any partition of n consider the sum of the sigma of each element. Sequence gives the maximum of such values.",
+  "id": "A211220",
+  "mentions": [
+    "A000203",
+    "A085884",
+    "A211217",
+    "A211219",
+    "A211221"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

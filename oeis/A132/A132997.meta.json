@@ -1,0 +1,22 @@
+{
+  "description": "Divisors of 299792458, the speed of light (meters/second).",
+  "id": "A132997",
+  "mentions": [
+    "A003678",
+    "A018780"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

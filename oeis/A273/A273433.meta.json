@@ -1,0 +1,18 @@
+{
+  "description": "Smallest base b > 1 such that p = prime(n) satisfies b^(p-1) == 1 (mod p^n).",
+  "id": "A273433",
+  "mentions": [
+    "A257833"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

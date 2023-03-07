@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (k+1)^2*binomial(n,k) (0 <= k <= n).",
+  "id": "A125092",
+  "mentions": [
+    "A001793"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:56:31",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

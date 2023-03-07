@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform of A004524 starting at 1.",
+  "id": "A132402",
+  "mentions": [
+    "A004524",
+    "A009545",
+    "A038503"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:37:23",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

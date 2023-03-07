@@ -1,0 +1,27 @@
+{
+  "description": "Numbers which divided by the sum of their digits (Harshad or Niven numbers) give integers which are also divisible by the sum of their digits (until a single-digit Harshad remains).",
+  "id": "A114440",
+  "mentions": [
+    "A005349",
+    "A097569",
+    "A235600",
+    "A235601",
+    "A236295",
+    "A236362",
+    "A236363",
+    "A236385"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

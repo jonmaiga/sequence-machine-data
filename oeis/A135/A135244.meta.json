@@ -1,0 +1,28 @@
+{
+  "description": "Aliquot predecessors with the largest values.",
+  "id": "A135244",
+  "mentions": [
+    "A001065",
+    "A005114",
+    "A037020",
+    "A057709",
+    "A057710",
+    "A063769",
+    "A063990",
+    "A080907",
+    "A121507",
+    "A125601",
+    "A126016",
+    "A135245"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

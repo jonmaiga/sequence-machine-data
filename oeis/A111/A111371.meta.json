@@ -1,0 +1,17 @@
+{
+  "description": "A number k is included if at least one prime dividing k is equal to an exponent of the highest power of any prime dividing k.",
+  "id": "A111371",
+  "mentions": [
+    "A078514"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

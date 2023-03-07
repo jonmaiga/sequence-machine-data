@@ -1,0 +1,37 @@
+{
+  "description": "Triangle of coefficients in expansion of (14 + x)^n.",
+  "id": "A147716",
+  "mentions": [
+    "A001024",
+    "A007318",
+    "A023531",
+    "A027465",
+    "A027466",
+    "A027467",
+    "A038207",
+    "A038231",
+    "A038243",
+    "A038255",
+    "A038279",
+    "A038291",
+    "A038303",
+    "A038315",
+    "A038327",
+    "A084938",
+    "A130595",
+    "A133371"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:17:01",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

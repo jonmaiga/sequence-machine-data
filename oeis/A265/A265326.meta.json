@@ -1,0 +1,26 @@
+{
+  "description": "n-th prime minus its binary reversal.",
+  "id": "A265326",
+  "mentions": [
+    "A000040",
+    "A007053",
+    "A014234",
+    "A016041",
+    "A055945",
+    "A068396",
+    "A098957"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

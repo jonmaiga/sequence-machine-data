@@ -1,0 +1,41 @@
+{
+  "description": "Triangle read by rows. T(n, k) = (n - k + 1)! * H(k, n - k), where H are the hyperharmonic numbers. For 0 <= k <= n.",
+  "id": "A165675",
+  "mentions": [
+    "A000142",
+    "A000254",
+    "A001705",
+    "A001711",
+    "A001716",
+    "A001721",
+    "A051524",
+    "A051545",
+    "A051560",
+    "A051562",
+    "A051564",
+    "A080663",
+    "A093345",
+    "A105954",
+    "A138771",
+    "A165674",
+    "A165676",
+    "A165677",
+    "A165678",
+    "A165679",
+    "A165680",
+    "A203147"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

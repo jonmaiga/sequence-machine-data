@@ -1,0 +1,19 @@
+{
+  "description": "N-positions for game of misere version of Mark.",
+  "id": "A171944",
+  "mentions": [
+    "A053661",
+    "A171945"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

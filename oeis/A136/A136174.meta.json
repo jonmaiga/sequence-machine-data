@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci numbers that contain all the digits 0 to 9 at least once.",
+  "id": "A136174",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

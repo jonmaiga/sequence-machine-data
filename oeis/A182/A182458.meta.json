@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1, a(1)=2, a(n) = (a(n-2)*a(n-1)+1) mod n.",
+  "id": "A182458",
+  "mentions": [
+    "A182457",
+    "A182472"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

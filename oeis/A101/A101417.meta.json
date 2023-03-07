@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into parts without powers of 2.",
+  "id": "A101417",
+  "mentions": [
+    "A000041",
+    "A000123",
+    "A018819",
+    "A087897",
+    "A102430",
+    "A276431",
+    "A321346",
+    "A323053",
+    "A323092",
+    "A323093"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

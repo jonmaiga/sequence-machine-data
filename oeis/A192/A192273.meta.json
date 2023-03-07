@@ -1,0 +1,19 @@
+{
+  "description": "Zumkeller numbers using anti-divisors (or anti-Zumkeller numbers)",
+  "id": "A192273",
+  "mentions": [
+    "A066272",
+    "A083207",
+    "A192274"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

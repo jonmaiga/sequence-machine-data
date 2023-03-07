@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 6, a(1) = 17, a(n+1) = a(n) + a(n-1) for n>0.",
+  "id": "A166025",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

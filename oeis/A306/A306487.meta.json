@@ -1,0 +1,21 @@
+{
+  "description": "Poulet numbers which are not super-Poulet numbers.",
+  "id": "A306487",
+  "mentions": [
+    "A001567",
+    "A006935",
+    "A050217",
+    "A080747",
+    "A215672"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

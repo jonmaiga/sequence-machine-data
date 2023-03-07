@@ -1,0 +1,18 @@
+{
+  "description": "Start with a(1)=1. Thereafter, to get a(n), write a(n-1) in binary, write down all its run lengths, and concatenate them in binary, getting k. Then a(n) = k unless k is already in the sequence, in which case a(n) = smallest missing number.",
+  "id": "A339723",
+  "mentions": [
+    "A175930"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

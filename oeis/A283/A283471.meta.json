@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n > 2 such that A004001(A004001(n-1)) = A004001(n-A004001(n-1)).",
+  "id": "A283471",
+  "mentions": [
+    "A004001",
+    "A080677",
+    "A283468",
+    "A283470",
+    "A283473",
+    "A283482"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

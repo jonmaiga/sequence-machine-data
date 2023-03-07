@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose representation in base (2), base (3), base (4) and base (5) are also prime when read in decimal.",
+  "id": "A236512",
+  "mentions": [
+    "A000040",
+    "A065720",
+    "A236365"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

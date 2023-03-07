@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest factor among all the products A307720(k) * A307720(k+1) equal to n.",
+  "id": "A348582",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348581"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

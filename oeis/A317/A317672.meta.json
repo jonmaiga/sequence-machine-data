@@ -1,0 +1,31 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of clutters (connected antichains) on n + 1 vertices with k maximal blobs (2-connected components).",
+  "id": "A317672",
+  "mentions": [
+    "A000272",
+    "A001187",
+    "A002218",
+    "A013922",
+    "A030019",
+    "A048143",
+    "A134954",
+    "A275307",
+    "A293510",
+    "A317631",
+    "A317632",
+    "A317634",
+    "A317635",
+    "A317671"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

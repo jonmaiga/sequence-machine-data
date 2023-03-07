@@ -1,0 +1,27 @@
+{
+  "description": "Consider coefficients U(m,l,k) defined by the identity Sum_{k=1..l} Sum_{j=0..m} A302971(m,j)/A304042(m,j) * k^j * (T-k)^j = Sum_{k=0..m} (-1)^(m-k) * U(m,l,k) * T^k that holds for all positive integers l,m,T. This sequence gives 2-column table read by rows, where n-th row lists coefficients U(1,n,k) for k = 0, 1 and n >= 1.",
+  "id": "A320047",
+  "mentions": [
+    "A028896",
+    "A275709",
+    "A287326",
+    "A300656",
+    "A300785",
+    "A302971",
+    "A304042",
+    "A316349",
+    "A316387"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

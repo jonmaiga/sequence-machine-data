@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..6 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements",
+  "id": "A203879",
+  "mentions": [
+    "A203887"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

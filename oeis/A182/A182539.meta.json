@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + (a(n-2) AND n).",
+  "id": "A182539",
+  "mentions": [
+    "A182537"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:57",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

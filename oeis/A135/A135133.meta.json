@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(S2(n)/3) mod 2, where S2(n) denotes the binary weight of n.",
+  "id": "A135133",
+  "mentions": [
+    "A000120",
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Integer powers of primorial numbers.",
+  "id": "A100778",
+  "mentions": [
+    "A000961",
+    "A001597",
+    "A002110",
+    "A007947",
+    "A025487",
+    "A055932",
+    "A056239",
+    "A057588",
+    "A072774",
+    "A072777",
+    "A112798",
+    "A304250",
+    "A319169",
+    "A322792",
+    "A322793"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the number of ways that at least two distinct primes <= prime(n) sum to a prime.",
+  "id": "A262765",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A071810"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

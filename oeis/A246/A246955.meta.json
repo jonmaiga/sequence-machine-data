@@ -1,0 +1,35 @@
+{
+  "description": "Numbers j for which the symmetric representation of sigma(j) has two parts, each of width one.",
+  "id": "A246955",
+  "mentions": [
+    "A000203",
+    "A001747",
+    "A001749",
+    "A014210",
+    "A019434",
+    "A033676",
+    "A065091",
+    "A191363",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A239929",
+    "A241008",
+    "A241010",
+    "A247687",
+    "A250068",
+    "A250070",
+    "A250071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

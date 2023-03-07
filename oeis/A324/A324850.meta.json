@@ -1,0 +1,35 @@
+{
+  "description": "Numbers divisible by the product of their prime indices.",
+  "id": "A324850",
+  "mentions": [
+    "A003963",
+    "A036844",
+    "A112798",
+    "A120383",
+    "A324756",
+    "A324758",
+    "A324847",
+    "A324848",
+    "A324849",
+    "A324852",
+    "A324853",
+    "A324856",
+    "A324923",
+    "A324924",
+    "A324925",
+    "A324931",
+    "A324933",
+    "A324934"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

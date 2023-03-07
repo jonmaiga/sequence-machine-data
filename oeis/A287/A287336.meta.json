@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k, not ending in 0, such that inserting a 0 between each pair of adjacent digits results in a multiple of k.",
+  "id": "A287336",
+  "mentions": [
+    "A100706",
+    "A285176"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

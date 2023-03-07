@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (diagonal)/(shortest side) of 2nd electrum rectangle.",
+  "id": "A188619",
+  "mentions": [
+    "A121601",
+    "A188593",
+    "A188618"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

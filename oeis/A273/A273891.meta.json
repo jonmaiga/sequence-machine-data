@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-bead bracelets with exactly k different colored beads.",
+  "id": "A273891",
+  "mentions": [
+    "A008277",
+    "A019537",
+    "A056342",
+    "A056343",
+    "A056344",
+    "A056345",
+    "A056346",
+    "A057427",
+    "A081720",
+    "A087854",
+    "A305540",
+    "A305541"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Z(n,-1), where Z(n,x) is the n-th Zeckendorf polynomial.",
+  "id": "A207869",
+  "mentions": [
+    "A003714",
+    "A007895",
+    "A060140",
+    "A207813",
+    "A207870",
+    "A207871",
+    "A207872",
+    "A207873"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

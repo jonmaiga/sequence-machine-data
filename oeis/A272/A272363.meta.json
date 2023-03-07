@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to group the first 2*n natural numbers into n pairs (xi,yi) with yi>xi, and such that the 2*n numbers xi+yi and xi-yi are all different.",
+  "id": "A272363",
+  "mentions": [
+    "A002968",
+    "A007631",
+    "A060963"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

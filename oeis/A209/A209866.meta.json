@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = least common multiple of all cycle sizes in range [2^(n-1),(2^n)-1] of permutation A209861/A209862.",
+  "id": "A209866",
+  "mentions": [
+    "A209861",
+    "A209862",
+    "A209863",
+    "A209864",
+    "A209865",
+    "A209867"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

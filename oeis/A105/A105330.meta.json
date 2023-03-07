@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^(n+1)+2n+1 is prime.",
+  "id": "A105330",
+  "mentions": [
+    "A083874",
+    "A105331"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

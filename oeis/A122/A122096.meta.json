@@ -1,0 +1,33 @@
+{
+  "description": "Number of fusenes with 23 hexagons, C_(2h) symmetry and containing n carbon atoms.",
+  "id": "A122096",
+  "mentions": [
+    "A121964",
+    "A122539",
+    "A122736",
+    "A123044",
+    "A123104",
+    "A123105",
+    "A123106",
+    "A123142",
+    "A123205",
+    "A123209",
+    "A123277",
+    "A123284",
+    "A123285",
+    "A123286",
+    "A123287",
+    "A123288",
+    "A123289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 66,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

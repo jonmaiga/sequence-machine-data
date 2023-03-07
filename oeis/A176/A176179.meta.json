@@ -1,0 +1,22 @@
+{
+  "description": "Primes such that the sum of digits, the sum of the squares of digits and the sum of 3rd powers of their digits is also a prime.",
+  "id": "A176179",
+  "mentions": [
+    "A046704",
+    "A052034",
+    "A091365",
+    "A091366",
+    "A109181"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

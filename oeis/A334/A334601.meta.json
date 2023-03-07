@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers m such that sum of cubes of the digits of m, t=A055012(m), is a multiple of m (m/A055012(m) is an integer >= 1).",
+  "id": "A334601",
+  "mentions": [
+    "A005188",
+    "A046197",
+    "A046459",
+    "A055012",
+    "A055642",
+    "A101337",
+    "A306354",
+    "A306360",
+    "A306361",
+    "A329291"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

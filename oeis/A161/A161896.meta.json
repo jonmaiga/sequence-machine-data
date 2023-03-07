@@ -1,0 +1,26 @@
+{
+  "description": "Integers n for which k = (9^n - 3 * 3^n - 4n) / (2n * (2n + 1)) is an integer.",
+  "id": "A161896",
+  "mentions": [
+    "A000040",
+    "A002515",
+    "A002943",
+    "A005384",
+    "A145918",
+    "A158034",
+    "A158035",
+    "A158036",
+    "A161897"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

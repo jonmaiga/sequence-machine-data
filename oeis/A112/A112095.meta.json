@@ -1,0 +1,33 @@
+{
+  "description": "Positive integers sorted by rote weight, rote height and rote wayage.",
+  "id": "A112095",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A007097",
+    "A014221",
+    "A050924",
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A106177",
+    "A109300",
+    "A109301",
+    "A111791",
+    "A111793",
+    "A111800",
+    "A112096"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

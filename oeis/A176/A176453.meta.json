@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 4+2*sqrt(5).",
+  "id": "A176453",
+  "mentions": [
+    "A002163",
+    "A010476",
+    "A010698",
+    "A020762",
+    "A134974"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:37",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

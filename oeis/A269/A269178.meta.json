@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that have a unique finite predecessor in Wolfram's Rule 124 cellular automaton; numbers n for which A269175(n) = 1.",
+  "id": "A269178",
+  "mentions": [
+    "A269174",
+    "A269175",
+    "A269177"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

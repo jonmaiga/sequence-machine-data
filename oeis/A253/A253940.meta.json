@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that (p^2 + 5)/6, (p^4 + 5)/6, and (p^8 + 5)/6 are prime.",
+  "id": "A253940",
+  "mentions": [
+    "A118915",
+    "A247478",
+    "A253925",
+    "A253939"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

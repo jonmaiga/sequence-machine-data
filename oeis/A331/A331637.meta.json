@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary matrices with nonzero rows, a total of n ones and each column with the same number of ones.",
+  "id": "A331637",
+  "mentions": [
+    "A262809"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

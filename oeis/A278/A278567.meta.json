@@ -1,0 +1,23 @@
+{
+  "description": "Maximal coefficient (in absolute value) of cyclotomic polynomial C(N,x), where N = n-th number which is a product of exactly three distinct primes = A007304(n).",
+  "id": "A278567",
+  "mentions": [
+    "A007304",
+    "A013595",
+    "A160340",
+    "A262404",
+    "A262405",
+    "A278570",
+    "A278571"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

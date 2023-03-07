@@ -1,0 +1,20 @@
+{
+  "description": "The arithmetic mean of (2k+1)(-1)^k*A_k (k=0,...,n-1), where A_0, A_1,... are Apéry numbers given by A005259.",
+  "id": "A178791",
+  "mentions": [
+    "A005259",
+    "A173774",
+    "A178790"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct squares > 1.",
+  "id": "A331983",
+  "mentions": [
+    "A000290",
+    "A006456",
+    "A032020",
+    "A032021",
+    "A032022",
+    "A033461",
+    "A078134",
+    "A280129",
+    "A280542",
+    "A331844",
+    "A331918"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least exponent k > 0 of the n-th prime such that (Product_{j=1..n-1} prime(j)) * prime(n)^k + 1 is a Euclid-Pocklington prime (A053341).",
+  "id": "A345706",
+  "mentions": [
+    "A053341"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

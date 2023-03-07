@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers that cannot be written in the form k - gpf(k) +- 1 for some integer k, where gpf(k) is the greatest prime factor of k.",
+  "id": "A342609",
+  "mentions": [
+    "A006530",
+    "A076563"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

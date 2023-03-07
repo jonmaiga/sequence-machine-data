@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the period of the binary expansion of n (with leading zeros allowed).",
+  "id": "A302295",
+  "mentions": [
+    "A059711",
+    "A302291"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

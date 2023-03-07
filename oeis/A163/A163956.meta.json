@@ -1,0 +1,23 @@
+{
+  "description": "Multiplicative order of 2 in Z/mZ with m = A002997(n).",
+  "id": "A163956",
+  "mentions": [
+    "A002326",
+    "A002997",
+    "A007733",
+    "A104016",
+    "A162990",
+    "A165139"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

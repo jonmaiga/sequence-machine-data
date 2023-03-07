@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of psi(q^6) * f(-q^12) / (psi(-q) * psi(q^9)) in powers of q where psi(), f() are Ramanujan theta functions.",
+  "id": "A261154",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A186115",
+    "A212484",
+    "A233693"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:22:19",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

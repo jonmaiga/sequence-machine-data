@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 8, 3 <= k <= floor(n/2)-1) = number of binary vectors of length <= n that start with 1^k, 0, end with 1, 0^k, and the factor between 1^k and 0^k does not contain 0^k or 1^k.",
+  "id": "A283838",
+  "mentions": [
+    "A094686",
+    "A283834",
+    "A283837",
+    "A283839"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 8,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

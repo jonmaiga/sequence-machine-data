@@ -1,0 +1,19 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of min{1+(j mod i), 1+( i mod j)} (A204014).",
+  "id": "A204015",
+  "mentions": [
+    "A202605",
+    "A204014"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:01:50",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

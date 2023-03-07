@@ -1,0 +1,21 @@
+{
+  "description": "Consider the array of sequences defined to be \"the least previously nonoccurring positive integer such that partial sum + k is prime\" beginning with k=0. This sequence is that array read by successive antidiagonals.",
+  "id": "A122867",
+  "mentions": [
+    "A054408",
+    "A121861",
+    "A121862",
+    "A122866"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

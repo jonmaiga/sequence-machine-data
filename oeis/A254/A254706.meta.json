@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Catalan(2*n) mod prime(n).",
+  "id": "A254706",
+  "mentions": [
+    "A000040",
+    "A000108",
+    "A246714"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

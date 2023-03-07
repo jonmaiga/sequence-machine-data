@@ -1,0 +1,20 @@
+{
+  "description": "Number a(n) of forests with two components in the complete bipartite graph K_{n,n}.",
+  "id": "A100070",
+  "mentions": [
+    "A000272",
+    "A069087",
+    "A083483"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Absolute discriminants of complex quadratic fields with 3-class rank 3 and thus with infinite class tower.",
+  "id": "A244574",
+  "mentions": [
+    "A242862",
+    "A244575"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

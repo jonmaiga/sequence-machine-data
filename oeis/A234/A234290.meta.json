@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. satisfies: A(x) = 1 + A(x)^3 * Integral 1/A(x) dx.",
+  "id": "A234290",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A058562",
+    "A095839",
+    "A234289",
+    "A234291"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:38:57",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

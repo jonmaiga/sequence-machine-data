@@ -1,0 +1,21 @@
+{
+  "description": "A115510(n) written in base 2.",
+  "id": "A353728",
+  "mentions": [
+    "A064413",
+    "A064743",
+    "A064744",
+    "A115510"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

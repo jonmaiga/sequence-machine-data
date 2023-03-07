@@ -1,0 +1,26 @@
+{
+  "description": "6-almost prime gaps. First differences of A046306.",
+  "id": "A114406",
+  "mentions": [
+    "A046306",
+    "A065516",
+    "A111870",
+    "A111871",
+    "A114403",
+    "A114411",
+    "A114412",
+    "A114422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

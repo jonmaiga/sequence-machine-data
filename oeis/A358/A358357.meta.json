@@ -1,0 +1,22 @@
+{
+  "description": "Maximum length of an induced path (or chordless path) in the n-folded cube graph.",
+  "id": "A358357",
+  "mentions": [
+    "A099155",
+    "A357619",
+    "A358355",
+    "A358358"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

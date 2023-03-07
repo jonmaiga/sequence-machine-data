@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of -(2*x*sqrt(1-8*x^2)-2*x) / (16*x^3+sqrt(1-8*x^2)*(4*x^2+2*x-1)-8*x^2-2*x+1).",
+  "id": "A243019",
+  "mentions": [
+    "A000108",
+    "A128418"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

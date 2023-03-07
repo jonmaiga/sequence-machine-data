@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array: T(k,j)=prime(k)(mod prime(j)), 1<=j",
+  "id": "A207409",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A033955",
+    "A039731"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

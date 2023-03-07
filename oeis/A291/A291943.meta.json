@@ -1,0 +1,26 @@
+{
+  "description": "a(0)=0; for n>0, a(n) = (2n)-th digit after the decimal point in the decimal expansion of 1/(2n+1).",
+  "id": "A291943",
+  "mentions": [
+    "A002371",
+    "A003060",
+    "A006883",
+    "A036275",
+    "A051626",
+    "A061480",
+    "A114205",
+    "A121090",
+    "A270392"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of Conway's POLYGAME.",
+  "id": "A350664",
+  "mentions": [
+    "A203363",
+    "A350556",
+    "A350663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "frac",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

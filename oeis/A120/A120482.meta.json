@@ -1,0 +1,33 @@
+{
+  "description": "Recurrence sequence derived from the digits of the square root of 3 after its decimal point.",
+  "id": "A120482",
+  "mentions": [
+    "A097614",
+    "A098266",
+    "A098289",
+    "A098290",
+    "A098319",
+    "A098320",
+    "A098321",
+    "A098322",
+    "A098323",
+    "A098324",
+    "A098325",
+    "A098326",
+    "A098327",
+    "A098328",
+    "A189893"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

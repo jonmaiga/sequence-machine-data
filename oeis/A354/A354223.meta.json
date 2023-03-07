@@ -1,0 +1,23 @@
+{
+  "description": "The initial sequence of the positive integers gradually becomes interspersed with the copies of its terms and so is transformed into this sequence. The method is described in the Comments section.",
+  "id": "A354223",
+  "mentions": [
+    "A000027",
+    "A089309",
+    "A090739",
+    "A120738",
+    "A132045",
+    "A195986"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 121,
+    "source": "joeis"
+  }
+}

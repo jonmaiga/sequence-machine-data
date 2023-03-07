@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope",
+  "id": "A223047",
+  "mentions": [
+    "A223048"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

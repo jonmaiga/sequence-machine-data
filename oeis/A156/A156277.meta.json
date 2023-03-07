@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet inverse of A011655, characteristic function of numbers that are not multiples of 3; Numbers appearing at every third row in the third column of A156241.",
+  "id": "A156277",
+  "mentions": [
+    "A008683",
+    "A011655",
+    "A154271",
+    "A156241",
+    "A355689",
+    "A359377",
+    "A359378"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

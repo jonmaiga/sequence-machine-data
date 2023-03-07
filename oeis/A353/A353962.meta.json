@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by descending antidiagonals: The n-th row gives the decimal expansion of the base-n Champernowne constant.",
+  "id": "A353962",
+  "mentions": [
+    "A033307",
+    "A063945",
+    "A066716",
+    "A077771"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

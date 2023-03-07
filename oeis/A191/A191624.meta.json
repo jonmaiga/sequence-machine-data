@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime factor of n^n - n^(n-1) - n^(n-2) - ... - n^2 - n - 1.",
+  "id": "A191624",
+  "mentions": [
+    "A006530",
+    "A191690"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

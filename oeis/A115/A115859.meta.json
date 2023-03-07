@@ -1,0 +1,22 @@
+{
+  "description": "Largest natural number m < n, such that there exists nonzero solutions to a cross-domain congruence m*i = n X i, zero if no such integer exists.",
+  "id": "A115859",
+  "mentions": [
+    "A048720",
+    "A115857",
+    "A115860",
+    "A115861",
+    "A115869",
+    "A115871"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

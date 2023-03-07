@@ -1,0 +1,36 @@
+{
+  "description": "Numbers that are the sum of 2 (not-distinct) numbers; nonzero power3 and power5, including repetitions.",
+  "id": "A155472",
+  "mentions": [
+    "A001235",
+    "A004431",
+    "A024507",
+    "A024508",
+    "A024670",
+    "A025313",
+    "A025314",
+    "A025315",
+    "A025316",
+    "A025317",
+    "A025318",
+    "A025319",
+    "A025320",
+    "A088677",
+    "A088687",
+    "A088703",
+    "A088719",
+    "A155468",
+    "A155469",
+    "A155470"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

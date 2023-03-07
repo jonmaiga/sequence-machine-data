@@ -1,0 +1,24 @@
+{
+  "description": "Total number of nonagons in a variant of a nonagon expansion (\"side-to-side\", two consecutive sides) after n iterations.",
+  "id": "A254835",
+  "mentions": [
+    "A061777",
+    "A179178",
+    "A253547",
+    "A253687",
+    "A253688",
+    "A253895",
+    "A253896"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:59",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

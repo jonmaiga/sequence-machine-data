@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows in which row n lists the compositions of n ordered first by decreasing length and then lexicographically.",
+  "id": "A296773",
+  "mentions": [
+    "A066099",
+    "A101211",
+    "A108730",
+    "A124734",
+    "A228369",
+    "A281013",
+    "A294859",
+    "A296302",
+    "A296656",
+    "A296772",
+    "A296774"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

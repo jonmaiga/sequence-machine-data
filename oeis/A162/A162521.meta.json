@@ -1,0 +1,27 @@
+{
+  "description": "Magic numbers A018226 divided by 2.",
+  "id": "A162521",
+  "mentions": [
+    "A018226",
+    "A130517",
+    "A130556",
+    "A130598",
+    "A130602",
+    "A162522",
+    "A162523",
+    "A162524",
+    "A162525"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

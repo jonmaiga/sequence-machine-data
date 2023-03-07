@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers k such that A292270((k-1)/2) is a square.",
+  "id": "A292939",
+  "mentions": [
+    "A000225",
+    "A001122",
+    "A292270",
+    "A292379",
+    "A292938",
+    "A292940"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

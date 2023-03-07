@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k == 119 (mod 120) such that 2^((k-1)/2), 3^((k-1)/2) and 5^((k-1)/2) are congruent to 1 (mod k).",
+  "id": "A294092",
+  "mentions": [
+    "A001567"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

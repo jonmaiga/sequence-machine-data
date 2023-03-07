@@ -1,0 +1,21 @@
+{
+  "description": "The set of numbers of the form A003173(n)+1 with odd A003173(n) or of the form 2*(A003173(n)+1) with even A003173(n).",
+  "id": "A118563",
+  "mentions": [
+    "A003173",
+    "A109043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

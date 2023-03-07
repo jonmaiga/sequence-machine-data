@@ -1,0 +1,27 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the binary interpretation of the k-th row of the XOR-triangle with first row generated from the binary expansion of n. 1 <= k <= A070939(n).",
+  "id": "A334594",
+  "mentions": [
+    "A038554",
+    "A070939",
+    "A334556",
+    "A334591",
+    "A334592",
+    "A334593",
+    "A334595",
+    "A334596"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

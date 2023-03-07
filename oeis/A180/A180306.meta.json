@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the largest integer k for which the Frobenius equation a_1*x_1 + a_2*x_2 + ... + a_n*x_n == k has no nonnegative integer solutions, where the a_i are consecutive primes beginning with the n-th prime.",
+  "id": "A180306",
+  "mentions": [
+    "A007414"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

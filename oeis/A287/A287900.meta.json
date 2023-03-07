@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are sums of 2,4,6,8 consecutive primes.",
+  "id": "A287900",
+  "mentions": [
+    "A001043",
+    "A034963",
+    "A127333",
+    "A127335"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

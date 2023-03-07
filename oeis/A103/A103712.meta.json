@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the expected distance from a randomly selected point in the unit square to its center: (sqrt(2) + log(1 + sqrt(2)))/6.",
+  "id": "A103712",
+  "mentions": [
+    "A002193",
+    "A091648",
+    "A103710",
+    "A103711"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:34",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "description": "Zero-based weighted sum of compositions in standard order.",
+  "id": "A124757",
+  "mentions": [
+    "A000120",
+    "A001788",
+    "A003714",
+    "A011782",
+    "A023416",
+    "A029931",
+    "A030190",
+    "A030308",
+    "A048793",
+    "A059015",
+    "A065359",
+    "A066099",
+    "A069010",
+    "A070939",
+    "A073642",
+    "A083652",
+    "A230877",
+    "A359359",
+    "A359400",
+    "A359402",
+    "A359674",
+    "A359677",
+    "A359678",
+    "A359756"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

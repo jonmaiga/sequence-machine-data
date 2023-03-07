@@ -1,0 +1,20 @@
+{
+  "description": "Number of irredundant sets in the n X n white bishop graph.",
+  "id": "A290712",
+  "mentions": [
+    "A290713",
+    "A290714",
+    "A291060"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n is the substring identical to the most significant bits of its base 2 representation.",
+  "id": "A181929",
+  "mentions": [
+    "A007088",
+    "A038102",
+    "A181891",
+    "A258107"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

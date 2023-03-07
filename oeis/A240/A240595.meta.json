@@ -1,0 +1,18 @@
+{
+  "description": "Look-and-Say table, where in row(n+1) the sorted list of distinct terms of row(n) is preceded by the list of numbers of their occurrences.",
+  "id": "A240595",
+  "mentions": [
+    "A034002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

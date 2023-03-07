@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that m = 4k^2 + 2k + 17 and 4m - 3 are both primes.",
+  "id": "A321871",
+  "mentions": [
+    "A001107",
+    "A001567",
+    "A321870"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

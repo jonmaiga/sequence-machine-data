@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of segments in nonintersecting increasing path on n X n hexagonal (isogonal) grid.",
+  "id": "A253620",
+  "mentions": [
+    "A226595"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

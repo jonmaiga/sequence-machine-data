@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer solutions to a^2 + b^2 + 2*c^2 + 14*d^2 = n.",
+  "id": "A320136",
+  "mentions": [
+    "A097057",
+    "A320124",
+    "A320125",
+    "A320126",
+    "A320127",
+    "A320128",
+    "A320130",
+    "A320131",
+    "A320132",
+    "A320133",
+    "A320134",
+    "A320135"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Complement of A056991.",
+  "id": "A268226",
+  "mentions": [
+    "A056991"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:48:49",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

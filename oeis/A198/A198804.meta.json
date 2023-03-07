@@ -1,0 +1,21 @@
+{
+  "description": "Number of closed paths of length n whose steps are 16th roots of unity, U_16(n).",
+  "id": "A198804",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A039699",
+    "A126869"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

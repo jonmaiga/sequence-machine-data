@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write a nonnegative rational integer n as a sum of three squares in the ring of integers of Q(sqrt(3)).",
+  "id": "A281352",
+  "mentions": [
+    "A005875",
+    "A280802"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

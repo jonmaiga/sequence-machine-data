@@ -1,0 +1,21 @@
+{
+  "description": "Total number of consecutive triples matching the pattern 132 in all faro permutations of length n.",
+  "id": "A340568",
+  "mentions": [
+    "A001405",
+    "A107373",
+    "A340567",
+    "A340569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:12:06",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

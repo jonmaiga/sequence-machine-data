@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n squarefree ternary words having no occurrences of either 010 or 020.",
+  "id": "A330258",
+  "mentions": [
+    "A330257",
+    "A330259"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

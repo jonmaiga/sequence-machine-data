@@ -1,0 +1,19 @@
+{
+  "description": "Least splitter of the harmonic numbers H(n) and H(n+1).",
+  "id": "A227629",
+  "mentions": [
+    "A227630",
+    "A227631"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

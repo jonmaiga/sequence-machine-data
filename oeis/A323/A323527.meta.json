@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose sum of prime indices is not a perfect square.",
+  "id": "A323527",
+  "mentions": [
+    "A000037",
+    "A000720",
+    "A001248",
+    "A026478",
+    "A056239",
+    "A112798",
+    "A323520",
+    "A323521",
+    "A323525",
+    "A323526",
+    "A323528"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

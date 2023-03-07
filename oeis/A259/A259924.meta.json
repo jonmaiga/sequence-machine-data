@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(n) - n = sum_{k divides n, k < n} k', where sigma(n) is the sum of the divisors of n and k' is the arithmetic derivative of k.",
+  "id": "A259924",
+  "mentions": [
+    "A001065",
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

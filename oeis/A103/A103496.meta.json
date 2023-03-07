@@ -1,0 +1,18 @@
+{
+  "description": "Multiplicative suborder of 10 (mod 2n+1) = sord(10, 2n+1).",
+  "id": "A103496",
+  "mentions": [
+    "A003558"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

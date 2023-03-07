@@ -1,0 +1,21 @@
+{
+  "description": "(sum of all odd parts of all strict partitions of n) - (sum of all even parts of all strict partitions of n); for \"strict\", see Comments.",
+  "id": "A239292",
+  "mentions": [
+    "A000009",
+    "A116682",
+    "A116684"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

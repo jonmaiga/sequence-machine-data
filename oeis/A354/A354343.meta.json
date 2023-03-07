@@ -1,0 +1,36 @@
+{
+  "description": "Number of distinct sums of n complex 6th power roots of unity.",
+  "id": "A354343",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A000290",
+    "A000332",
+    "A000579",
+    "A003215",
+    "A014820",
+    "A103314",
+    "A107753",
+    "A107754",
+    "A107848",
+    "A107861",
+    "A108380",
+    "A108381",
+    "A143008",
+    "A299754",
+    "A299807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

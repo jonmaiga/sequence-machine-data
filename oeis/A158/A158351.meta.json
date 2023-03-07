@@ -1,0 +1,18 @@
+{
+  "description": "Primes p0 such that p0+p1+p2-+2 are primes; p0,p1,p2 are three consecutive primes.",
+  "id": "A158351",
+  "mentions": [
+    "A099349",
+    "A158350"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

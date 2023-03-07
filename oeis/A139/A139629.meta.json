@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of A139624, number of connected directed multigraphs with loops and no vertex of degree 0, with n arcs, which are transitive (the existence of a path between two points implies the existence of an arc between those two points).",
+  "id": "A139629",
+  "mentions": [
+    "A139624",
+    "A139628",
+    "A139630"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

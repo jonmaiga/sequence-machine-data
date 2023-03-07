@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 12spt(n) + (24n - 1)p(n), with a(0) = -1.",
+  "id": "A220481",
+  "mentions": [
+    "A000041",
+    "A092269",
+    "A183010",
+    "A183011",
+    "A211609",
+    "A220908"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

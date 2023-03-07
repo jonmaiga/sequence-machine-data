@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the cubes of the first n cubefree numbers.",
+  "id": "A114286",
+  "mentions": [
+    "A000217",
+    "A000537",
+    "A004709",
+    "A005117",
+    "A013929",
+    "A046099",
+    "A111715",
+    "A111732",
+    "A114287"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

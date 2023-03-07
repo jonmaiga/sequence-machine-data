@@ -1,0 +1,24 @@
+{
+  "description": "Records in the number of ways to express a number of the form n^2 + 1 as j^2 + k^2 with j > k > 1.",
+  "id": "A300163",
+  "mentions": [
+    "A060306",
+    "A071385",
+    "A299707",
+    "A299708",
+    "A300161",
+    "A300162",
+    "A300168"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

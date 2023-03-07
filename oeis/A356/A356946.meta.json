@@ -1,0 +1,21 @@
+{
+  "description": "Number of stable digits of the integer tetration n^^n (i.e., maximum nonnegative integer m such that n^^n is congruent modulo 10^m to n^^(n + 1)).",
+  "id": "A356946",
+  "mentions": [
+    "A317824",
+    "A317903",
+    "A317905",
+    "A349425"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

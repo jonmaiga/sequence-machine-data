@@ -1,0 +1,21 @@
+{
+  "description": "Primes with a prime number of letters (A005589) in their (American) English name.",
+  "id": "A231075",
+  "mentions": [
+    "A005589",
+    "A072686",
+    "A163648",
+    "A231073"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

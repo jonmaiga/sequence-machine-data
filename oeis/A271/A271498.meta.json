@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number in the trajectory of n under repeated application of the map k -> A271497(k).",
+  "id": "A271498",
+  "mentions": [
+    "A271497"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (sum_{k=0}^{n-1}(3k^2+3k+1)*C(n-1,k)^2*C(n+k,k)^2)/n^3, where C(n,k) denotes the binomial coefficient n!/(k!*(n-k)!).",
+  "id": "A246512",
+  "mentions": [
+    "A020639",
+    "A246065",
+    "A246138",
+    "A246459",
+    "A246460",
+    "A246461",
+    "A246462",
+    "A246511"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

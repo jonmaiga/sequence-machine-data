@@ -1,0 +1,22 @@
+{
+  "description": "Quotients of consecutive terms of A328549.",
+  "id": "A328852",
+  "mentions": [
+    "A000705",
+    "A073751",
+    "A328549"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

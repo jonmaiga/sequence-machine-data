@@ -1,0 +1,26 @@
+{
+  "description": "Starts of runs of 4 consecutive numbers that are divisible by the total binary weight of their divisors (A093653).",
+  "id": "A338516",
+  "mentions": [
+    "A000120",
+    "A093653",
+    "A093705",
+    "A141769",
+    "A330933",
+    "A334372",
+    "A338454",
+    "A338514",
+    "A338515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

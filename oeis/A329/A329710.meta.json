@@ -1,0 +1,23 @@
+{
+  "description": "The number of edges inside a pentagon formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A329710",
+  "mentions": [
+    "A274586",
+    "A330845",
+    "A330847",
+    "A331765",
+    "A331929",
+    "A331939",
+    "A332600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

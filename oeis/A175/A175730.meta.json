@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with deficiency of 42.",
+  "id": "A175730",
+  "mentions": [
+    "A033879"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

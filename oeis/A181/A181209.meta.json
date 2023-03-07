@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 5 binary matrices with no two 1's adjacent diagonally or antidiagonally.",
+  "id": "A181209",
+  "mentions": [
+    "A181212"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

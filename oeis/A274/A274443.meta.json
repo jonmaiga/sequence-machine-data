@@ -1,0 +1,34 @@
+{
+  "description": "Least composite squarefree number k such that (p-n) | (k-1) for all primes p dividing n.",
+  "id": "A274443",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225720",
+    "A226020",
+    "A226111",
+    "A226114",
+    "A226364",
+    "A226448",
+    "A228299",
+    "A228302",
+    "A229273",
+    "A229276",
+    "A229321",
+    "A229324",
+    "A274444",
+    "A274445",
+    "A274446"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

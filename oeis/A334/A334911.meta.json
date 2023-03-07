@@ -1,0 +1,18 @@
+{
+  "description": "Census-taker numbers: Numbers k such that exactly two unordered triples of positive numbers have product k and equal sums.",
+  "id": "A334911",
+  "mentions": [
+    "A060292",
+    "A337080"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

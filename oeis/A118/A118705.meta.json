@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = determinant of n X n circulant matrix whose first row is the first n triangular numbers A000217(0), A000217(1), ... A000217(n-1).",
+  "id": "A118705",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A048954",
+    "A052182",
+    "A066933",
+    "A086459",
+    "A086569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

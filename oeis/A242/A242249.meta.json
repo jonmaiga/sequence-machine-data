@@ -1,0 +1,38 @@
+{
+  "description": "Number A(n,k) of rooted trees with n nodes and k-colored non-root nodes; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A242249",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000081",
+    "A000151",
+    "A001477",
+    "A005449",
+    "A006964",
+    "A051491",
+    "A052763",
+    "A052788",
+    "A063524",
+    "A242375",
+    "A245870",
+    "A246235",
+    "A246236",
+    "A246237",
+    "A246238",
+    "A246239",
+    "A255517",
+    "A256064"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

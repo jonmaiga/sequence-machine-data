@@ -1,0 +1,25 @@
+{
+  "description": "Filter combining the sum of divisors (A000203) and prime-signature (A101296) of n; restricted growth sequence transform of A286360.",
+  "id": "A296090",
+  "mentions": [
+    "A000203",
+    "A046523",
+    "A101296",
+    "A286034",
+    "A286360",
+    "A295300",
+    "A295880",
+    "A295888",
+    "A296089"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

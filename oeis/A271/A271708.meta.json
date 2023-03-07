@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{p in P(n,k)} Aut(p) where P(n,k) are the partitions of n with largest part k and Aut(p) = 1^j[1]*j[1]!*...*n^j[n]*j[n]! where j[m] is the number of parts in the partition p equal to m; for n>=0 and 0<=k<=n.",
+  "id": "A271708",
+  "mentions": [
+    "A110143",
+    "A126074"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

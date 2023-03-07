@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of generalized Eulerian numbers T(n,k) = _2 read by rows, n >= 1, 0 <= k < 2*n.",
+  "id": "A269742",
+  "mentions": [
+    "A000012",
+    "A000295",
+    "A000681",
+    "A008292",
+    "A260575",
+    "A260582",
+    "A260585",
+    "A269743",
+    "A269744",
+    "A332729"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

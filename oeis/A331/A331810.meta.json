@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer x such that prime(n) divides 1 + x + x^2 + ... + x^(q-1) where q = A023503(n), or 0 if no such x exists.",
+  "id": "A331810",
+  "mentions": [
+    "A023503"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

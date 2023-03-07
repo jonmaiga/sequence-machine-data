@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of K(k) * (6 * E(k) - (1 + 4*k'^2) * K(k)) / (Pi/2)^2 in powers of q where E(k), K(k) are complete elliptic integrals and q = exp(-Pi * K(k') / K(k)).",
+  "id": "A143337",
+  "mentions": [
+    "A006352",
+    "A143348"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:19",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

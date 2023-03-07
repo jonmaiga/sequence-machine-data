@@ -1,0 +1,25 @@
+{
+  "description": "Quasi-Carmichael numbers to exactly six bases.",
+  "id": "A257756",
+  "mentions": [
+    "A257750",
+    "A257751",
+    "A257752",
+    "A257753",
+    "A257754",
+    "A257755",
+    "A257757",
+    "A257758",
+    "A258842"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

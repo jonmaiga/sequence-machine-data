@@ -1,0 +1,27 @@
+{
+  "description": "Trapezoid of dot products of row 5 (signs alternating) with sequential 6-tuples read by rows in Pascal's triangle A007318: T(n,k) is the linear combination of the 6-tuples (C(5,0), -C(5,1), ..., -C(5,5)) and (C(n-1,k-5), C(n-1,k-4), ..., C(n-1,k)), n >= 1, 0 <= k <= n+4.",
+  "id": "A230208",
+  "mentions": [
+    "A007318",
+    "A008482",
+    "A112467",
+    "A182533",
+    "A230206",
+    "A230207",
+    "A230209",
+    "A230212"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

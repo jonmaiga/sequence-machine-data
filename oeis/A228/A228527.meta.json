@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum of all parts of size k of the n-th section of the set of compositions ( ordered partitions) of any integer >= n.",
+  "id": "A228527",
+  "mentions": [
+    "A001792",
+    "A011782",
+    "A045891",
+    "A135010",
+    "A207383",
+    "A221876",
+    "A228350",
+    "A228366",
+    "A228370",
+    "A228524",
+    "A228525",
+    "A228526"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of partitions of n that have k parts smaller than the largest part (n>=1, k>=0).",
+  "id": "A116685",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A008805",
+    "A049820",
+    "A097364",
+    "A116686",
+    "A117989",
+    "A128508",
+    "A218567",
+    "A218568",
+    "A218569",
+    "A218570",
+    "A218571",
+    "A218572",
+    "A218573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

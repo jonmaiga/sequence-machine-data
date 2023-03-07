@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of f(i,j)=(2i-1 if i=j and 1 otherwise) for i>=1 and j>=1 (as in A204131).",
+  "id": "A204132",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204131"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:20:41",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

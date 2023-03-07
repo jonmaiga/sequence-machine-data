@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (3*n-4, 3*n-2) is a twin prime pair.",
+  "id": "A177139",
+  "mentions": [
+    "A001359",
+    "A014574",
+    "A167379"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:13",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

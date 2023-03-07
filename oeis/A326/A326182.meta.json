@@ -1,0 +1,23 @@
+{
+  "description": "Numbers for which A003961(n) <= A064989(sigma(A003961(n))).",
+  "id": "A326182",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A003961",
+    "A064989",
+    "A286385",
+    "A326042",
+    "A326183"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

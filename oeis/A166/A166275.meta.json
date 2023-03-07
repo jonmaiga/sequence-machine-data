@@ -1,0 +1,18 @@
+{
+  "description": "Positions of zeros in A126441.",
+  "id": "A166275",
+  "mentions": [
+    "A126441",
+    "A166274"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

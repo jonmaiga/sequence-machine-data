@@ -1,0 +1,44 @@
+{
+  "description": "Monic integer version of Chebyshev T-polynomials (increasing powers).",
+  "id": "A127672",
+  "mentions": [
+    "A000032",
+    "A000178",
+    "A000265",
+    "A000290",
+    "A000330",
+    "A002415",
+    "A005408",
+    "A005585",
+    "A040977",
+    "A049310",
+    "A050486",
+    "A053120",
+    "A053347",
+    "A054333",
+    "A054334",
+    "A057079",
+    "A057788",
+    "A099837",
+    "A108045",
+    "A111125",
+    "A114525",
+    "A127677",
+    "A187360",
+    "A193678",
+    "A263916"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

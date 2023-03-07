@@ -1,0 +1,30 @@
+{
+  "description": "T(n,k) = Hilltop maps: number of n X k binary arrays indicating the locations of corresponding elements not exceeded by any king-move neighbor in a random 0..1 n X k array.",
+  "id": "A218663",
+  "mentions": [
+    "A000213",
+    "A133791",
+    "A218354",
+    "A218426",
+    "A218657",
+    "A218658",
+    "A218659",
+    "A218660",
+    "A218661",
+    "A218662",
+    "A219078",
+    "A221446"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

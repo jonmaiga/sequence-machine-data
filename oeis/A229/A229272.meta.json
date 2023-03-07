@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which n' + n and n' - n are both prime, n' being the arithmetic derivative of n.",
+  "id": "A229272",
+  "mentions": [
+    "A003415",
+    "A165561",
+    "A165562",
+    "A229269",
+    "A229270",
+    "A229271"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

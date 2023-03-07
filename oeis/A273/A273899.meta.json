@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: for n>=1, 0<=k<=n-1, T(n,k) is the number of bargraphs of semiperimeter n having k columns of length 1.",
+  "id": "A273899",
+  "mentions": [
+    "A082582",
+    "A273900"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

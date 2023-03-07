@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of Product_{j>=1} 1/(1 - j^k*x^j)^(j^k).",
+  "id": "A294585",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A266941",
+    "A294586"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n is divisible by (10^k - digitsum(n)), where k equals the number of digits of digitsum(n).",
+  "id": "A260348",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A113315"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

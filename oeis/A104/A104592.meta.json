@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled non-planar projective-planar 2-connected graphs without a K_{3,3}-subdivision and with n vertices.",
+  "id": "A104592",
+  "mentions": [
+    "A104593",
+    "A135340"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 5,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

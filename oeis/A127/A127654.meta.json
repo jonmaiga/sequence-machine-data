@@ -1,0 +1,25 @@
+{
+  "description": "Unitary aspiring numbers.",
+  "id": "A127654",
+  "mentions": [
+    "A063991",
+    "A097010",
+    "A097032",
+    "A097036",
+    "A097037",
+    "A098185",
+    "A127652",
+    "A127653"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

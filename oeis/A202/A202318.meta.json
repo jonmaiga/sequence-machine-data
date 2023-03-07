@@ -1,0 +1,22 @@
+{
+  "description": "Let (n)_p denote the exponent of prime p in the prime power factorization of n. Then a(n) is defined by the formulas a(1)=1; for n >= 2, (a(n))_2 = (n)_2, (a(n))_3 = (n)_3 and, for p >= 5, (a(n))_p = 1 + ((2n)/(p-1))_p if p-1|2*n, and (a(n))_p = 0 otherwise.",
+  "id": "A202318",
+  "mentions": [
+    "A002445",
+    "A036283",
+    "A045979",
+    "A053657",
+    "A127922"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

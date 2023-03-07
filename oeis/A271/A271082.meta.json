@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, the coefficients of the (3x+1)-polynomials.",
+  "id": "A271082",
+  "mentions": [
+    "A075680",
+    "A171870"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

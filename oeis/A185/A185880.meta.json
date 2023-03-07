@@ -1,0 +1,27 @@
+{
+  "description": "Second accumulation array of A185877, by antidiagonals.",
+  "id": "A185880",
+  "mentions": [
+    "A003215",
+    "A037235",
+    "A056106",
+    "A056108",
+    "A144112",
+    "A144391",
+    "A185877",
+    "A185878",
+    "A185879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

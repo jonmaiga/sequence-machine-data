@@ -1,0 +1,18 @@
+{
+  "description": "Number of chiral pairs of length n words with integer entries that cover an initial interval of positive integers.",
+  "id": "A327091",
+  "mentions": [
+    "A305622"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

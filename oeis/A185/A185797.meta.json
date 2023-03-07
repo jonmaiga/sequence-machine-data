@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X 9 binary arrays with no 2 X 2 subblock sum equal to any horizontal or vertical neighbor 2 X 2 subblock sum.",
+  "id": "A185797",
+  "mentions": [
+    "A185798"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

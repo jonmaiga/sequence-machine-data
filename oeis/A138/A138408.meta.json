@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n)^6 - prime(n).",
+  "id": "A138408",
+  "mentions": [
+    "A000040",
+    "A030516"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:05",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

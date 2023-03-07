@@ -1,0 +1,20 @@
+{
+  "description": "Maximum bowling score for a game with exactly n strikes.",
+  "id": "A127994",
+  "mentions": [
+    "A060853",
+    "A127993"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

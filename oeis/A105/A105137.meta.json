@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 128n+65 is prime.",
+  "id": "A105137",
+  "mentions": [
+    "A002145",
+    "A007521",
+    "A032766",
+    "A095278",
+    "A105126",
+    "A105132",
+    "A105133",
+    "A105140"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:25",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

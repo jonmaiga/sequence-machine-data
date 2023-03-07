@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that cos(k) = sin(d(1)*d(2)*...*d(q)) where d(1)d(2)...d(q) denotes the decimal expansion of k and the angles are in degrees.",
+  "id": "A237131",
+  "mentions": [
+    "A019861",
+    "A237129"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

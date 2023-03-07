@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquarefree numbers n such that 2n+1 is also nonsquarefree (A013929).",
+  "id": "A115228",
+  "mentions": [
+    "A013929",
+    "A013939",
+    "A065474",
+    "A115170"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

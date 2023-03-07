@@ -1,0 +1,31 @@
+{
+  "description": "Full q-signature of n. Irregular triangle read by rows where T(n,k) is the multiplicity of q(k) in the q-factorization of n.",
+  "id": "A325613",
+  "mentions": [
+    "A007097",
+    "A061395",
+    "A061775",
+    "A067255",
+    "A109082",
+    "A109129",
+    "A196050",
+    "A317713",
+    "A324922",
+    "A324923",
+    "A324924",
+    "A325614",
+    "A325615",
+    "A325660"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

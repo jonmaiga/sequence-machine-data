@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction expansion of the constant (A114550) equal to Sum_{n>=0} 1/A112373(n) such that the partial quotients satisfy a(2n) = A112373(n) for n > 0 and a(2n+1) = A112373(n+1)/A112373(n) for n >= 0.",
+  "id": "A114551",
+  "mentions": [
+    "A112373",
+    "A114550",
+    "A114552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

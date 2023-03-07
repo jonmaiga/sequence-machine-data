@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that the sum of the first n divisors of k is a prime number.",
+  "id": "A289776",
+  "mentions": [
+    "A000040",
+    "A027750",
+    "A240698"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "a(p^e) = p^(e-1) for prime powers, a(n) = 0 for all other n; Dirichlet convolution of A003415 (arithmetic derivative of n) with A055615 (Dirichlet inverse of n).",
+  "id": "A349394",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A003415",
+    "A003557",
+    "A010051",
+    "A055615",
+    "A063524",
+    "A069359",
+    "A069513",
+    "A100995",
+    "A120007",
+    "A129283",
+    "A246655",
+    "A300251",
+    "A319684",
+    "A327564",
+    "A349340",
+    "A349396",
+    "A349434",
+    "A349618",
+    "A349619",
+    "A349620",
+    "A349621"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

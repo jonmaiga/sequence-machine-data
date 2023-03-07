@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the sum of all numbers formed by deleting one digit from n is equal to n.",
+  "id": "A131639",
+  "mentions": [
+    "A093882"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

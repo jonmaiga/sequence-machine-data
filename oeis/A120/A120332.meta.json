@@ -1,0 +1,18 @@
+{
+  "description": "If n is among earlier terms of sequence, then replace each prime power in the prime-factorization of n with the next lower prime-power to get a(n). If n is not among earlier terms of sequence, then replace each prime power in the prime-factorization of n with the next higher prime-power to get a(n).",
+  "id": "A120332",
+  "mentions": [
+    "A120635",
+    "A120636"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

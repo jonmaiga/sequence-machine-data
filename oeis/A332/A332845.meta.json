@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (-1)^omega(n) * Sum_{k=1..n} (-1)^omega(n/gcd(n, k)), where omega = A001221.",
+  "id": "A332845",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A016825",
+    "A049060",
+    "A058026",
+    "A074722",
+    "A076479",
+    "A307868"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

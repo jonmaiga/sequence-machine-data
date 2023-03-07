@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the number of arcs describing the set partitions of {1,2,...,n}.",
+  "id": "A200660",
+  "mentions": [
+    "A011971",
+    "A200580",
+    "A200673"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least number p that is zero or an odd prime, such that n - p is a generalized pentagonal number.",
+  "id": "A256119",
+  "mentions": [
+    "A000040",
+    "A001318",
+    "A256071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

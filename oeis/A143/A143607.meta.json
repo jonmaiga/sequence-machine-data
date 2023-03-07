@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of principal and intermediate convergents to 2^(1/2).",
+  "id": "A143607",
+  "mentions": [
+    "A002965",
+    "A082766",
+    "A119016"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Triangle for hypotenuses of primitive Pythagorean triangles.",
+  "id": "A222946",
+  "mentions": [
+    "A001844",
+    "A020882",
+    "A055034",
+    "A055096",
+    "A063524",
+    "A198440",
+    "A198441",
+    "A225949",
+    "A225950",
+    "A225951",
+    "A225952",
+    "A249866",
+    "A249869",
+    "A258149",
+    "A278717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

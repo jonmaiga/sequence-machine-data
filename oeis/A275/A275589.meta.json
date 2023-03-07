@@ -1,0 +1,20 @@
+{
+  "description": "The almost-natural numbers with prime digits removed.",
+  "id": "A275589",
+  "mentions": [
+    "A007376",
+    "A033307",
+    "A275542"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

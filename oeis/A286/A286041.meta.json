@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n with parts differing by at least two and with an even number of parts.",
+  "id": "A286041",
+  "mentions": [
+    "A001622",
+    "A003114",
+    "A039924",
+    "A286316"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

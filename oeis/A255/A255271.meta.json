@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Product_{k>=1} 1/(1-x^k)^(3*k+1).",
+  "id": "A255271",
+  "mentions": [
+    "A002117",
+    "A005380",
+    "A074962",
+    "A120844",
+    "A255803",
+    "A255836"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

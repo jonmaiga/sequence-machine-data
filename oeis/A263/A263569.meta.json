@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct prime divisors p of 2*n such that lpf(2*n - p) = p, where lpf = least prime factor (A020639).",
+  "id": "A263569",
+  "mentions": [
+    "A020639",
+    "A061228"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

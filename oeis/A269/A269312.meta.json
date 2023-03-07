@@ -1,0 +1,24 @@
+{
+  "description": "Consider a number x. Take the sum of its digits. Repeat the process deleting the first addendum and adding the previous sum. The sequence lists the numbers that after some iterations reach the arithmetic derivative of x.",
+  "id": "A269312",
+  "mentions": [
+    "A003415",
+    "A007629",
+    "A269307",
+    "A269308",
+    "A269309",
+    "A269310",
+    "A269311"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

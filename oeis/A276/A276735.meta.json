@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations p of (1..n) such that k+p(k) is a semiprime for 1 <= k <= n.",
+  "id": "A276735",
+  "mentions": [
+    "A001358",
+    "A073364",
+    "A095986",
+    "A096904",
+    "A097082"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

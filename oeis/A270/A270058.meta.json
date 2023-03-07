@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk 0..4 arrays with some element plus some horizontally or vertically adjacent neighbor totalling four exactly once.",
+  "id": "A270058",
+  "mentions": [
+    "A269822"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

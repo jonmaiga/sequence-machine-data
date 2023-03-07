@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of exp( Sum_{n >= 1} A005259(n)*x^n/n ).",
+  "id": "A267220",
+  "mentions": [
+    "A005259",
+    "A267219"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

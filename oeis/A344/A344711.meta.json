@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (A000330(n) mod k^2).",
+  "id": "A344711",
+  "mentions": [
+    "A000330"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ordered trees with n edges and path length k; 0 <= k <= n(n+1)/2.",
+  "id": "A138158",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A000346",
+    "A005169",
+    "A047998",
+    "A227543",
+    "A274291"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

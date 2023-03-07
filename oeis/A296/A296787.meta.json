@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. exp(x*arctan(x)) (even powers only).",
+  "id": "A296787",
+  "mentions": [
+    "A002019",
+    "A009252",
+    "A009273",
+    "A010050",
+    "A102059",
+    "A166356",
+    "A259647",
+    "A293192",
+    "A296788",
+    "A296789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:59:35",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

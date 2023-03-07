@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = A209874(n)/2: Least m > 0 such that 4*m^2 = -1 modulo the Pythagorean prime A002144(n).",
+  "id": "A209877",
+  "mentions": [
+    "A002144",
+    "A002314",
+    "A002496",
+    "A014442",
+    "A085722",
+    "A089120",
+    "A144255",
+    "A177979",
+    "A193432",
+    "A209874"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

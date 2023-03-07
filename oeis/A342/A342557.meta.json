@@ -1,0 +1,20 @@
+{
+  "description": "T(n,m) is the number of unlabeled connected graphs without endpoints on m nodes with n edges, where T(n,m), m <= n, is a triangle read by rows.",
+  "id": "A342557",
+  "mentions": [
+    "A004108",
+    "A083920",
+    "A342556"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

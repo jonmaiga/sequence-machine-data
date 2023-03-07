@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays x(0..5) of 6 elements with zero sum and no two or three adjacent elements summing to zero.",
+  "id": "A200433",
+  "mentions": [
+    "A200430"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:26:23",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th term of the sequence that shifts left by one position when Weigh transform is applied n times; a(0) = 0.",
+  "id": "A316102",
+  "mentions": [
+    "A305725",
+    "A316101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

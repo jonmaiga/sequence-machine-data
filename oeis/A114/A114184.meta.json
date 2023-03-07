@@ -1,0 +1,18 @@
+{
+  "description": "Binomial coefficient binomial(F(n+1)*F(n),F(n)*F(n-1)-1), where F(n) = Fibonacci number. A090162 is the bisection (shifted by 1) of this sequence.",
+  "id": "A114184",
+  "mentions": [
+    "A001906",
+    "A090162"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

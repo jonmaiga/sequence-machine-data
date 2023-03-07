@@ -1,0 +1,21 @@
+{
+  "description": "Number triangle T(n,k)=sum{j=0..n, C(j,k)C(j,n-k)}.",
+  "id": "A119307",
+  "mentions": [
+    "A014300",
+    "A028387",
+    "A112029"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

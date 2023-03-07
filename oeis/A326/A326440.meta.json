@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 1 - tau(1) + tau(2) - tau(3) + ... + (-1)^n tau(n), where tau = A000005 is number of divisors.",
+  "id": "A326440",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A008683",
+    "A054519",
+    "A071321",
+    "A195017",
+    "A268387",
+    "A307704",
+    "A316523",
+    "A316524",
+    "A319273"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

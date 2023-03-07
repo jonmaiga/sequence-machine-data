@@ -1,0 +1,20 @@
+{
+  "description": "With a(1) = 1, a(n) is the smallest number not already in the sequence such that -1 + Product_{i=1..n} a(i) is a square.",
+  "id": "A259255",
+  "mentions": [
+    "A083275",
+    "A094353"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

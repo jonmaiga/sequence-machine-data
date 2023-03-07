@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that the continuants of their binary representations defined in A072347 equal 1.",
+  "id": "A227992",
+  "mentions": [
+    "A072347"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

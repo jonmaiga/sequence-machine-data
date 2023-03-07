@@ -1,0 +1,17 @@
+{
+  "description": "Unchanging value maps: number of nX5 binary arrays indicating the locations of corresponding elements unequal to no horizontal, antidiagonal or vertical neighbor in a random 0..1 nX5 array",
+  "id": "A219153",
+  "mentions": [
+    "A219156"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

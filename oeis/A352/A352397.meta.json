@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of partial sums of the Madhava series for Pi/(2*sqrt(3)) = A093766.",
+  "id": "A352397",
+  "mentions": [
+    "A020760",
+    "A093766",
+    "A352398"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

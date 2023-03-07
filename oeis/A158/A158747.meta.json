@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,m)=prime( 1+prime(n+1)-prime(m+1) ).",
+  "id": "A158747",
+  "mentions": [
+    "A000040",
+    "A086800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

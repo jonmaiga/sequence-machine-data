@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the index m such that A036966(m) = prime(n)^3.",
+  "id": "A258600",
+  "mentions": [
+    "A000040",
+    "A030078",
+    "A036966",
+    "A258568",
+    "A258599",
+    "A258601",
+    "A258602",
+    "A258603"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

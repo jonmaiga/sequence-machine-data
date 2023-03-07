@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonzero digits in A134847(n).",
+  "id": "A134849",
+  "mentions": [
+    "A134843",
+    "A134844",
+    "A134845",
+    "A134846",
+    "A134847"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

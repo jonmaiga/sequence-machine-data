@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of permutation A234746.",
+  "id": "A234749",
+  "mentions": [
+    "A118666",
+    "A193231",
+    "A234746",
+    "A234751",
+    "A234752"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

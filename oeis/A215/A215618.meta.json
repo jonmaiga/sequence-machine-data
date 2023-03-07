@@ -1,0 +1,18 @@
+{
+  "description": "Sum of digits of n^2 is a square.",
+  "id": "A215618",
+  "mentions": [
+    "A004159"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

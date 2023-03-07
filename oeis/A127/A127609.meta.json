@@ -1,0 +1,19 @@
+{
+  "description": "Sequence arising from the factorization of F(n)= A091914(n-1) and L(n)= A127262. F(0)=0, F(1)=1, F(n)=2*F(n-1)+12*F(n-2), L(0)=2, L(1)=2, L(n)=2*L(n-1)+12*L(n-2).",
+  "id": "A127609",
+  "mentions": [
+    "A091914",
+    "A127262"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

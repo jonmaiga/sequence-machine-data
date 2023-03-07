@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime permutational numbers A134640.",
+  "id": "A134642",
+  "mentions": [
+    "A134640",
+    "A134641"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

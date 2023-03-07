@@ -1,0 +1,20 @@
+{
+  "description": "The interspersion T(3,2,0), by antidiagonals.",
+  "id": "A125152",
+  "mentions": [
+    "A125156",
+    "A125160"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

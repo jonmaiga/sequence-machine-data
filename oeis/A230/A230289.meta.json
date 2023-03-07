@@ -1,0 +1,19 @@
+{
+  "description": "Let m = n-th number not divisible by 3 (A001651); a(n) = position of m in A065075, or -1 if never appears in A065075.",
+  "id": "A230289",
+  "mentions": [
+    "A001651",
+    "A065075"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-move paths on a 3 X 3 chessboard of a queen starting or ending in a corner or side square.",
+  "id": "A180030",
+  "mentions": [
+    "A015555",
+    "A180028",
+    "A180031",
+    "A180032"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

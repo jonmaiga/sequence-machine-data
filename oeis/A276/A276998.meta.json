@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of polynomials arising from applying the complete Bell polynomials to k!B_k(x) where B_k(x) are the Bernoulli polynomials.",
+  "id": "A276998",
+  "mentions": [
+    "A048803",
+    "A276996",
+    "A276997",
+    "A277174"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

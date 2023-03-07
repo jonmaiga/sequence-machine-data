@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix square of triangle A118229.",
+  "id": "A118231",
+  "mentions": [
+    "A118229",
+    "A118233"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "The integers (shown from -50 on).",
+  "id": "A256958",
+  "mentions": [
+    "A000027",
+    "A001057",
+    "A001477",
+    "A022958",
+    "A022996",
+    "A023443",
+    "A023477",
+    "A023479",
+    "A023482",
+    "A053615",
+    "A130472",
+    "A196199"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:15",
+    "offset": -50,
+    "size": 101,
+    "source": "joeis"
+  }
+}

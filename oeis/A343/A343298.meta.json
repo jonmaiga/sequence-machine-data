@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest m such that the only non-basic multiset of positive integers of cardinality m where the sum equals the product has n nonunit elements, or zero if no such m exists.",
+  "id": "A343298",
+  "mentions": [
+    "A033178",
+    "A033179",
+    "A343297"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, A014963(n) * 0^(n-k); 1<=k<=n.",
+  "id": "A140579",
+  "mentions": [
+    "A008683",
+    "A014963",
+    "A048671",
+    "A140580",
+    "A140664"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:33",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

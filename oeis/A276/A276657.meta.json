@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to occupy n unlabeled phone booths in a circle one by one, each time picking a phone booth adjacent to the smallest number of previously occupied phone booths.",
+  "id": "A276657",
+  "mentions": [
+    "A095236",
+    "A192008",
+    "A192009"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

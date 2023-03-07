@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = |{0 < k <= n/2: phi(k^2)*phi(n-k) - 1 is a Sophie Germain prime}|, where phi(.) is Euler's totient function.",
+  "id": "A234308",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A005384",
+    "A014574",
+    "A233542",
+    "A233547",
+    "A233566",
+    "A233867",
+    "A233918",
+    "A234200",
+    "A234246"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

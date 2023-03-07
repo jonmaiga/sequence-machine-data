@@ -1,0 +1,20 @@
+{
+  "description": "Smallest of n^2 consecutive primes that form an n X n semimagic square with the least magic sum, or 0 if no such magic square exists.",
+  "id": "A270830",
+  "mentions": [
+    "A104157",
+    "A265139",
+    "A265614",
+    "A270829"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

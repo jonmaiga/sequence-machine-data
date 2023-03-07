@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n is the average of four consecutive primes n-5, n-1, n+1 and n+5.",
+  "id": "A258088",
+  "mentions": [
+    "A014574",
+    "A052378",
+    "A077800",
+    "A256753"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

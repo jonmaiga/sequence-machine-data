@@ -1,0 +1,17 @@
+{
+  "description": "Twin prime pair averages n such that 3*n and 9*n are also averages of twin prime pairs.",
+  "id": "A132992",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

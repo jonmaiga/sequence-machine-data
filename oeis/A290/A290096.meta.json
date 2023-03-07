@@ -1,0 +1,26 @@
+{
+  "description": "Filter-sequence related to cycle-structure of permutations listed in table A055089: Least number with the same prime signature as A290095.",
+  "id": "A290096",
+  "mentions": [
+    "A046523",
+    "A055089",
+    "A060126",
+    "A278225",
+    "A278234",
+    "A278235",
+    "A278236",
+    "A290095",
+    "A290097"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with the property that n is both of the form p^2 + q^2 + r^2 + s^2 for some primes p, q, r, and s, and not of the form a^2 + b^2 + c^2 for any integers a, b, and c.",
+  "id": "A270781",
+  "mentions": [
+    "A000225",
+    "A004215",
+    "A214515",
+    "A270783"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

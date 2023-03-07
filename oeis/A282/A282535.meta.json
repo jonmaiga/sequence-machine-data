@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum number of \"describing\"-steps for an n-chain before entering a loop.",
+  "id": "A282535",
+  "mentions": [
+    "A046043",
+    "A108551"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 4,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

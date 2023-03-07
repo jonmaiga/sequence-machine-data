@@ -1,0 +1,30 @@
+{
+  "description": "Number of \"hyperforests\" on n unlabeled nodes, i.e., hypergraphs that have no cycles, assuming that each edge contains at least two vertices.",
+  "id": "A134955",
+  "mentions": [
+    "A007563",
+    "A030019",
+    "A035053",
+    "A048143",
+    "A054921",
+    "A134954",
+    "A134957",
+    "A144959",
+    "A245566",
+    "A304716",
+    "A304717",
+    "A304867",
+    "A304911"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

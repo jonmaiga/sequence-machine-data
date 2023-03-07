@@ -1,0 +1,18 @@
+{
+  "description": "Decompose the multiplicative group of integers modulo n as a product of cyclic groups C_{k_1} X C_{k_2} X ... X C_{k_r}, where k_i > 1, k_i divides k_j for i < j; then a(n) = Product_{i=1..r} phi(k_i), phi = A000010.",
+  "id": "A327790",
+  "mentions": [
+    "A000010",
+    "A327791"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

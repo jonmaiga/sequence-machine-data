@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n where records occur for d(n+1)/d(n), where d(n) is A000005(n).",
+  "id": "A282531",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

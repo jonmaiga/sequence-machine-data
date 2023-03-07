@@ -1,0 +1,17 @@
+{
+  "description": "Number of maximal triangle-free graphs with n vertices.",
+  "id": "A216783",
+  "mentions": [
+    "A280020"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

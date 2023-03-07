@@ -1,0 +1,20 @@
+{
+  "description": "Single (or isolated or non-twin) primes of form 6n-1.",
+  "id": "A121762",
+  "mentions": [
+    "A007510",
+    "A007528",
+    "A121763",
+    "A121764"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

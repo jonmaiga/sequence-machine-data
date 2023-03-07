@@ -1,0 +1,21 @@
+{
+  "description": "Maximal level size of arcs in divisor lattice in canonical order.",
+  "id": "A238968",
+  "mentions": [
+    "A063008",
+    "A238946",
+    "A238955"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

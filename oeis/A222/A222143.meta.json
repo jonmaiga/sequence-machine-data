@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..4 arrays with no entry increasing mod 5 by 4 rightwards or downwards, starting with upper left zero",
+  "id": "A222143",
+  "mentions": [
+    "A222144"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

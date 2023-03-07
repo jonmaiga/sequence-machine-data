@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the integer k in the interval [2,n] at which log(n)*log(k) is closest to an integer.",
+  "id": "A341651",
+  "mentions": [
+    "A341577",
+    "A341652",
+    "A341653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

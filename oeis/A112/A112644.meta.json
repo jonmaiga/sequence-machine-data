@@ -1,0 +1,23 @@
+{
+  "description": "Odd and squarefree abundant numbers not divisible by 5.",
+  "id": "A112644",
+  "mentions": [
+    "A005231",
+    "A046391",
+    "A047802",
+    "A087248",
+    "A112640",
+    "A112642",
+    "A112643"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

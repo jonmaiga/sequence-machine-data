@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number k>1 such that k*(n-th triangular number) is also a triangular number.",
+  "id": "A188621",
+  "mentions": [
+    "A000217",
+    "A060544",
+    "A068084",
+    "A069752",
+    "A137281"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

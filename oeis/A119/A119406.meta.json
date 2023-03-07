@@ -1,0 +1,25 @@
+{
+  "description": "Years in which there are five Sundays in the month of February.",
+  "id": "A119406",
+  "mentions": [
+    "A008685",
+    "A011763",
+    "A011770",
+    "A135795",
+    "A141039",
+    "A141287",
+    "A143994",
+    "A143995"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

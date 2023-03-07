@@ -1,0 +1,20 @@
+{
+  "description": "Maximal size of a subset of Z_n with distinct sums of any two elements.",
+  "id": "A260999",
+  "mentions": [
+    "A004135",
+    "A004136",
+    "A260998"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

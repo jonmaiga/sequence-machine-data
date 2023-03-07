@@ -1,0 +1,20 @@
+{
+  "description": "Consider the tiling of the plane with squares of two different sizes as in Fig. 2.4.2(g) of Grünbaum and Shephard, p. 74. a(n) is the number of connected figures that can be formed on this tiling, from n big squares and n small squares.",
+  "id": "A121195",
+  "mentions": [
+    "A121196",
+    "A121197",
+    "A121198"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of c = 2.4149..., a random mapping statistics constant such that the asymptotic expectation of the maximum rho length (graph diameter) in a random n-mapping is c*sqrt(n).",
+  "id": "A244261",
+  "mentions": [
+    "A084945",
+    "A244067",
+    "A244258"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

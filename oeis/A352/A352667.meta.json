@@ -1,0 +1,24 @@
+{
+  "description": "Maximum number of induced copies of the paw graph in an n-node graph.",
+  "id": "A352667",
+  "mentions": [
+    "A028723",
+    "A111384",
+    "A352665",
+    "A352666",
+    "A352668",
+    "A352669"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

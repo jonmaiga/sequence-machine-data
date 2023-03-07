@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a constant related to the asymptotics of A000107.",
+  "id": "A340310",
+  "mentions": [
+    "A000107",
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

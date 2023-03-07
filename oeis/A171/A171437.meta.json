@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) is the Wiener index of the prism graph C(m) x P(n) (m>=3, n>=1). The Wiener index of a connected graph is the sum of distances between all unordered pairs of vertices in the graph.",
+  "id": "A171437",
+  "mentions": [
+    "A138179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

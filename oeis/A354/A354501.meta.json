@@ -1,0 +1,22 @@
+{
+  "description": "The inverse Rijndael S-box used in the Advanced Encryption Standard (AES); inverse permutation of A354500.",
+  "id": "A354501",
+  "mentions": [
+    "A354500",
+    "A355891"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

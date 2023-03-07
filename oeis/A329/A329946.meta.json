@@ -1,0 +1,24 @@
+{
+  "description": "Primes that are not of the form u(u+1)/2 - v(v-3)/2 for any u >= v >= 1.",
+  "id": "A329946",
+  "mentions": [
+    "A000040",
+    "A000096",
+    "A000217",
+    "A007528",
+    "A019434",
+    "A187399",
+    "A330501",
+    "A330502"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

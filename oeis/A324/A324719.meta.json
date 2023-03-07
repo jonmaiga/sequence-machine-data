@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers n for which bitor(2n,sigma(n)) = 2*bitor(n,sigma(n)-n), where bitor is bitwise-OR, A003986.",
+  "id": "A324719",
+  "mentions": [
+    "A003986",
+    "A191218",
+    "A318456",
+    "A318466",
+    "A324718",
+    "A324727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

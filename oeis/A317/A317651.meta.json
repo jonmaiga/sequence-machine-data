@@ -1,0 +1,17 @@
+{
+  "description": "Sequence related to the Taylor expansion of the Jacobi theta_3 constant.",
+  "id": "A317651",
+  "mentions": [
+    "A175573"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

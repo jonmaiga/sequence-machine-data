@@ -1,0 +1,24 @@
+{
+  "description": "For a base n>1: consider the lexicographically least strictly increasing sequence c_n such that, for any m>0, Sum_{k=1..m} c_n(k) can be computed without carries in base n; the sequence c_n is (conjecturally) eventually linear, and a(n) gives its order.",
+  "id": "A278743",
+  "mentions": [
+    "A000079",
+    "A000124",
+    "A278742",
+    "A279732",
+    "A280051",
+    "A280052"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of 5^n.",
+  "id": "A248730",
+  "mentions": [
+    "A068413",
+    "A070177",
+    "A248728",
+    "A248731",
+    "A248732",
+    "A248734"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

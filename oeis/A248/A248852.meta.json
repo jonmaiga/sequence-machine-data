@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of a variant of the Komornik-Loreti constant.",
+  "id": "A248852",
+  "mentions": [
+    "A010060",
+    "A055060",
+    "A248853"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

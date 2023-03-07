@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number that starts a run of exactly n consecutive numbers in A126706, or -1 if no such number exists.",
+  "id": "A356322",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001223",
+    "A005250",
+    "A013929",
+    "A024619",
+    "A126706"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

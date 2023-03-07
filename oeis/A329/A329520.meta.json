@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of completed steps before being trapped for a knight moving on a square-spiral numbered board where the knight moves to an unvisited square with the lowest spiral number and with n or fewer visited neighbors. It only moves to squares with n+1 or more visited neighbors when no other squares are available, and if two or more such squares are present it chooses the square with the fewest visited neighbors, then the square with the lowest spiral number if still tied.",
+  "id": "A329520",
+  "mentions": [
+    "A316667",
+    "A329518",
+    "A329519"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

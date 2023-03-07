@@ -1,0 +1,21 @@
+{
+  "description": "Eigentriangle by rows, termwise products of A078812 and its eigensequence, A125274.",
+  "id": "A144254",
+  "mentions": [
+    "A078812",
+    "A125274",
+    "A144253"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest number in the interval (1, 2^(2^(n-1))) that is a member of a pair of integers the sum of whose squares is equal to the Fermat number 2^(2^n) + 1, or 0 if no such number exists.",
+  "id": "A242620",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A242619"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

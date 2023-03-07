@@ -1,0 +1,21 @@
+{
+  "description": "Least b such that Phi_n(b, b-1) is prime.",
+  "id": "A250201",
+  "mentions": [
+    "A058013",
+    "A072226",
+    "A085398",
+    "A103794",
+    "A253633"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

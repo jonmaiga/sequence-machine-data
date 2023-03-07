@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of iterated increasing power sums. This sums are in some way a generalization of iterated triangle sums.",
+  "id": "A115242",
+  "mentions": [
+    "A115243"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

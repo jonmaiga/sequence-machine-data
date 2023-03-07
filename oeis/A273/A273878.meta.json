@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of (2*(n+1)!/(n+2)).",
+  "id": "A273878",
+  "mentions": [
+    "A085250",
+    "A090585",
+    "A090586",
+    "A110468",
+    "A128059",
+    "A128060",
+    "A163931"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Pierce expansion of (5 - sqrt(21))/2.",
+  "id": "A219507",
+  "mentions": [
+    "A006275",
+    "A006276",
+    "A219160",
+    "A219506",
+    "A219508"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

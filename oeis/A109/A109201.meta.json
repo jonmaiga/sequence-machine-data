@@ -1,0 +1,24 @@
+{
+  "description": "Minimal value of k>0 such that n^6 + k^2 is a semiprime.",
+  "id": "A109201",
+  "mentions": [
+    "A001358",
+    "A108714",
+    "A109197",
+    "A109198",
+    "A109199",
+    "A109200"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

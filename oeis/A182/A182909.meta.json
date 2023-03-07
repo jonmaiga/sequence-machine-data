@@ -1,0 +1,19 @@
+{
+  "description": "Ranks of composite numbers when all prime powers p^n for n>=1 are jointly ranked.",
+  "id": "A182909",
+  "mentions": [
+    "A000961",
+    "A024620",
+    "A027883"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] with exactly floor(n/2) increasing runs of length two.",
+  "id": "A317139",
+  "mentions": [
+    "A000364",
+    "A004767",
+    "A097592",
+    "A317140"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

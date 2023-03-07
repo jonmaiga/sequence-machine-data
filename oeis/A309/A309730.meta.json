@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>=1} x^k * (1 - x^(3*k))/(1 - x^k)^4.",
+  "id": "A309730",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A005448",
+    "A007437",
+    "A059358"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

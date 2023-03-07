@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows T(n, k) = Sum_{h>=0} Bernoulli(h)*binomial(n, h)*Stirling2(n-h, k)*k^h for n>=1 and 1<=k<=n.",
+  "id": "A339208",
+  "mentions": [
+    "A007318",
+    "A008277",
+    "A027641",
+    "A027642",
+    "A339207",
+    "A339209"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

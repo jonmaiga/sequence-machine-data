@@ -1,0 +1,22 @@
+{
+  "description": "Factorials representable as b^2 + triangular(c).",
+  "id": "A230363",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A000290",
+    "A014133"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

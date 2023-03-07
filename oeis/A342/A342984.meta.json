@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonseparable tree-rooted planar maps with n edges and k faces, n >= 0, k = 1..n+1.",
+  "id": "A342984",
+  "mentions": [
+    "A004304",
+    "A006411",
+    "A006412",
+    "A006413",
+    "A342982",
+    "A342985",
+    "A342987"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

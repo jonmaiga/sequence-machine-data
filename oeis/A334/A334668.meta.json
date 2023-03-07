@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of Sum_{k=1..n} (-1)^(k+1)/k^7.",
+  "id": "A334668",
+  "mentions": [
+    "A013665",
+    "A275710",
+    "A334669"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:05",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

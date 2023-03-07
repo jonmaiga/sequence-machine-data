@@ -1,0 +1,18 @@
+{
+  "description": "Products of four distinct primes between products of two primes.",
+  "id": "A351878",
+  "mentions": [
+    "A001358",
+    "A046386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

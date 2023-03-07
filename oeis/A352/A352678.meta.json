@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of sqrt(2) in base phi where phi = (1+sqrt(5))/2.",
+  "id": "A352678",
+  "mentions": [
+    "A001622",
+    "A002193",
+    "A004539"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

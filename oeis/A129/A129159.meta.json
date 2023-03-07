@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of skew Dyck paths of semilength n and having abscissa of the first return to the x-axis equal to 2k (1 <= k <= n).",
+  "id": "A129159",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A108198",
+    "A129160"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

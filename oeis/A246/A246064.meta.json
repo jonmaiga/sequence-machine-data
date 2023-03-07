@@ -1,0 +1,20 @@
+{
+  "description": "A variation of the Farey sequence read by rows; the row of order n is defined by the greatest whole numbers less than or equal to the values generated when the numerators of the Farey sequence (order n) are replaced by n itself.",
+  "id": "A246064",
+  "mentions": [
+    "A005728",
+    "A006843"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

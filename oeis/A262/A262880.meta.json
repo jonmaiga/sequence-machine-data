@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered ways to write n as w*(w+1)/2 + x^3 + y^3 + 2*z^3 with w > 0, 0 <= x <= y and z >= 0.",
+  "id": "A262880",
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A262813",
+    "A262824",
+    "A262857"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

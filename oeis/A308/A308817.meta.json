@@ -1,0 +1,24 @@
+{
+  "description": "Total number of parts in all m-color dihedral compositions of n (that is, the total number of parts in all dihedral compositions of n where a part of size m may be colored with one of m colors).",
+  "id": "A308817",
+  "mentions": [
+    "A000045",
+    "A030267",
+    "A032198",
+    "A032287",
+    "A088305",
+    "A307415",
+    "A308723"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

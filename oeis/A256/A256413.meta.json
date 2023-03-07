@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-dimensional Bravais lattices.",
+  "id": "A256413",
+  "mentions": [
+    "A004029",
+    "A004030"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

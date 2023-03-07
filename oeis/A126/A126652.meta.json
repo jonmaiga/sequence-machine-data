@@ -1,0 +1,22 @@
+{
+  "description": "A 3 X 3 magic square with magic sum 75: the Loh-Shu square A033812 multiplied by 5.",
+  "id": "A126652",
+  "mentions": [
+    "A033812",
+    "A126653"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

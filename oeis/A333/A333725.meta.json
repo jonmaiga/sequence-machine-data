@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between pairs of consecutive highly composite numbers (A002182).",
+  "id": "A333725",
+  "mentions": [
+    "A000720",
+    "A002182",
+    "A262501"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

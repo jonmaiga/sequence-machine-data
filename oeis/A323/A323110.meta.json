@@ -1,0 +1,17 @@
+{
+  "description": "Aggregate values of n-th stage of growth for two-dimensional cellular automaton defined by \"Rule 614\", based on the 5-celled von Neumann neighborhood, calculated via even-zeroing instead of mod 2.",
+  "id": "A323110",
+  "mentions": [
+    "A072272"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

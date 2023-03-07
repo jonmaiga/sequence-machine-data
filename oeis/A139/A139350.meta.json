@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of csc((1+sqrt(5))/2), where (1+sqrt(5))/2 is the golden ratio.",
+  "id": "A139350",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A094214",
+    "A098317",
+    "A104457",
+    "A139339",
+    "A139340",
+    "A139341",
+    "A139342",
+    "A139345",
+    "A139346",
+    "A139347",
+    "A139348",
+    "A139349"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:37",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

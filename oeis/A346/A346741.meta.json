@@ -1,0 +1,50 @@
+{
+  "description": "Irregular triangle read by rows which is constructed in row n replacing the first A000070(n-1) terms of A336811 with their divisors.",
+  "id": "A346741",
+  "mentions": [
+    "A000012",
+    "A000034",
+    "A000041",
+    "A000070",
+    "A002260",
+    "A006128",
+    "A007870",
+    "A010684",
+    "A010686",
+    "A027750",
+    "A066186",
+    "A066633",
+    "A069705",
+    "A135010",
+    "A138785",
+    "A181187",
+    "A206561",
+    "A210947",
+    "A210948",
+    "A221529",
+    "A221649",
+    "A237593",
+    "A302246",
+    "A302247",
+    "A336811",
+    "A336812",
+    "A338156",
+    "A340011",
+    "A340031",
+    "A340032",
+    "A340035",
+    "A340056",
+    "A340057"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

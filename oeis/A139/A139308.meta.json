@@ -1,0 +1,19 @@
+{
+  "description": "Lucky numbers that are pure (perfect) powers with exponent greater than 2.",
+  "id": "A139308",
+  "mentions": [
+    "A000959",
+    "A031162",
+    "A076467"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

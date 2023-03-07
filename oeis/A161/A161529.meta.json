@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of negative of constant M(3,1) arising in Mertens and Meissel-Mertens constants for sums over arithmetic progressions.",
+  "id": "A161529",
+  "mentions": [
+    "A001620",
+    "A301429"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

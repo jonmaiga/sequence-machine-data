@@ -1,0 +1,17 @@
+{
+  "description": "Least k(n)>1 such that n*(k(n)^2)+n*k(n)+1 is a prime > (n-1)*((k(n-1)^2)+(n-1)*k(n-1)+1 or 0 if n=4 as no prime possible.",
+  "id": "A104994",
+  "mentions": [
+    "A104995"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

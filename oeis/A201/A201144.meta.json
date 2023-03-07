@@ -1,0 +1,18 @@
+{
+  "description": "The pebble sequence: a(n) is the length of the longest non-repeating sequence of pebble-moves among the partitions of n.",
+  "id": "A201144",
+  "mentions": [
+    "A054531",
+    "A183110"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

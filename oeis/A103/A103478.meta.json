@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k for which 1 + 5*2^(k+2) divides the Fermat number 1 + 2^2^k.",
+  "id": "A103478",
+  "mentions": [
+    "A000215",
+    "A083575",
+    "A103477",
+    "A103479"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

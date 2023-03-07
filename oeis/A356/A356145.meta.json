@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of the inverse refined Eulerian partition polynomials [E]^{-1}, partitional inverse to A145271. Irregular triangle read by row with lengths A000041.",
+  "id": "A356145",
+  "mentions": [
+    "A000041",
+    "A006351",
+    "A112493",
+    "A124324",
+    "A133314",
+    "A134685",
+    "A134991",
+    "A145271",
+    "A356144"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

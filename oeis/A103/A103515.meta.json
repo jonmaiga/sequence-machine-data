@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form primorial P(k)*2^n-1 with minimal n, n>=0, k>=2.",
+  "id": "A103515",
+  "mentions": [
+    "A002110",
+    "A005234",
+    "A006794",
+    "A014545",
+    "A018239",
+    "A057704",
+    "A057705",
+    "A103153",
+    "A103154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

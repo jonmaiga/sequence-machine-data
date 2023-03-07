@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: 2*cos(1) - Sum_{n>=0} (x^n + i)^n * exp(-i*x^n) / n!, where i^2 = -1.",
+  "id": "A326425",
+  "mentions": [
+    "A326426",
+    "A326427",
+    "A326428",
+    "A326429"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

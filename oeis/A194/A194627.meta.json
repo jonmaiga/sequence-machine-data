@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1, a(n+1) = p(n)^2 + q(n)^2 + 1, where p(n) and q(n) are the number of prime and nonprime numbers respectively in the sequence so far.",
+  "id": "A194627",
+  "mentions": [
+    "A079545"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

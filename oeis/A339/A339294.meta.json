@@ -1,0 +1,23 @@
+{
+  "description": "Number of essentially series unoriented series-parallel networks with n elements and without multiple unit elements in parallel.",
+  "id": "A339294",
+  "mentions": [
+    "A339157",
+    "A339288",
+    "A339290",
+    "A339291",
+    "A339295",
+    "A339296"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

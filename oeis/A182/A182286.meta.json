@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k is equal to the sum of the proper divisors of k that are greater than k^(1/4).",
+  "id": "A182286",
+  "mentions": [
+    "A182311"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest odd prime p such that p divides the generalized left factorial !^(A016813(n)) p.",
+  "id": "A268252",
+  "mentions": [
+    "A016813",
+    "A258944"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

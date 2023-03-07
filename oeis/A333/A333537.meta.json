@@ -1,0 +1,25 @@
+{
+  "description": "Greatest prime factor of A332559.",
+  "id": "A333537",
+  "mentions": [
+    "A006530",
+    "A061836",
+    "A332558",
+    "A332559",
+    "A332560",
+    "A332561",
+    "A333538",
+    "A333541",
+    "A333542"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

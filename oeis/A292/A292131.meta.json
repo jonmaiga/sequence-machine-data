@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of Product_{j>=1} (1 - k*x^j).",
+  "id": "A292131",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A010815",
+    "A070877",
+    "A246935",
+    "A286957",
+    "A292128",
+    "A292132"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

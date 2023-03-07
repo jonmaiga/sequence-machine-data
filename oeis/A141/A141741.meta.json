@@ -1,0 +1,21 @@
+{
+  "description": "Starting from the 1 in the first line of triangle A141727 choose one of the three digits below it. Repeat down to the other rows. Sequence gives the numbers in base 10 expressed by the collected digits that cannot be reached following any possible path.",
+  "id": "A141741",
+  "mentions": [
+    "A141727",
+    "A141740",
+    "A141742",
+    "A141746"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

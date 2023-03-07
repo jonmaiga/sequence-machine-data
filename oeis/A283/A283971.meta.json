@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n except a(4*n + 2) = 2*n + 1.",
+  "id": "A283971",
+  "mentions": [
+    "A005408",
+    "A010121",
+    "A022998",
+    "A051176",
+    "A060819",
+    "A186646"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:31",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

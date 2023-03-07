@@ -1,0 +1,29 @@
+{
+  "description": "Alternating sum of digits of n.",
+  "id": "A225693",
+  "mentions": [
+    "A004086",
+    "A007953",
+    "A055017",
+    "A061470",
+    "A061471",
+    "A061472",
+    "A061479",
+    "A115261",
+    "A135499",
+    "A257588"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

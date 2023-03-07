@@ -1,0 +1,25 @@
+{
+  "description": "Numbers multiplied by 4 and written backwards.",
+  "id": "A132064",
+  "mentions": [
+    "A036447",
+    "A045539",
+    "A132078",
+    "A132113",
+    "A132114",
+    "A133361",
+    "A163632"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

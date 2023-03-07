@@ -1,0 +1,32 @@
+{
+  "description": "Number of simple graphs with n vertices and distinct rotations.",
+  "id": "A324461",
+  "mentions": [
+    "A000088",
+    "A000740",
+    "A003436",
+    "A006125",
+    "A027375",
+    "A192314",
+    "A192332",
+    "A306669",
+    "A306715",
+    "A323860",
+    "A323864",
+    "A323867",
+    "A324462",
+    "A324463",
+    "A324464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that the geometric mean of tau(m) and phi(m) is an integer where phi is the Euler totient function (A000010) and tau is the number of divisors function (A000005).",
+  "id": "A341938",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002496",
+    "A011257",
+    "A020488",
+    "A090698",
+    "A327830",
+    "A341939",
+    "A341940"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

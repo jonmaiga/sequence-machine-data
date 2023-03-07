@@ -1,0 +1,22 @@
+{
+  "description": "128*n^7-192*n^5+80*n^3-8*n.",
+  "id": "A242852",
+  "mentions": [
+    "A144138",
+    "A144139",
+    "A242850",
+    "A242851"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:24:25",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of resistance values R=x/y that can be obtained by a network of at most n one-ohm resistors such that a network of more than n one-ohm resistors is needed to obtain the resistance y/x.",
+  "id": "A339547",
+  "mentions": [
+    "A180414",
+    "A338573",
+    "A338581",
+    "A338582",
+    "A338591",
+    "A338592",
+    "A338601",
+    "A338602"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

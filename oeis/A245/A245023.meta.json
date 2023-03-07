@@ -1,0 +1,22 @@
+{
+  "description": "Number of cases of tie (no winner) in the n-person rock-paper-scissors game.",
+  "id": "A245023",
+  "mentions": [
+    "A000392",
+    "A008277",
+    "A036040",
+    "A101052"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:26:48",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

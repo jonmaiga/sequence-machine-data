@@ -1,0 +1,19 @@
+{
+  "description": "a(n) gives the number of primes in the interval I_j = [(j^2 + 3*j - 2)/2, j*(j + 5)/2] = [A034856(j), A095998(j)], for j >= 1.",
+  "id": "A309121",
+  "mentions": [
+    "A034856",
+    "A095998",
+    "A307213"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

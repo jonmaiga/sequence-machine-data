@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. The Riordan square of the tetranacci numbers (A000078).",
+  "id": "A353593",
+  "mentions": [
+    "A000078",
+    "A160175",
+    "A321620"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

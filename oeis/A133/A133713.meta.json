@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals, giving the sizes pi_l(c_l(m,n)) of minimal covers (see reference for precise definition).",
+  "id": "A133713",
+  "mentions": [
+    "A000217",
+    "A001296",
+    "A002623",
+    "A133710",
+    "A133714",
+    "A133717",
+    "A133718"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m)= binomial(n, m)/Beta(m + 1, n - m + 1) read by rows.",
+  "id": "A178343",
+  "mentions": [
+    "A008459",
+    "A011379",
+    "A037965"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

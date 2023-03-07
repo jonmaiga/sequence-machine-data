@@ -1,0 +1,19 @@
+{
+  "description": "Number of vertices of degree 1 in all non-crossing connected graphs on n points on a circle.",
+  "id": "A143021",
+  "mentions": [
+    "A007297",
+    "A089436"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

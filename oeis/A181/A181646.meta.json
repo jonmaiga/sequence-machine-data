@@ -1,0 +1,18 @@
+{
+  "description": "y(n) is the corresponding value of a(n) in sequence A181643. For a given n it is the minimum value such that a(n)*[a(n)+n]*[a(n)+n+n]=y*y",
+  "id": "A181646",
+  "mentions": [
+    "A115878",
+    "A181643"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

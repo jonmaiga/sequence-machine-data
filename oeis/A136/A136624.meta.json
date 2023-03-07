@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: classify each numeric partition by sum of its parts and by the size of the staircase Ferrers board required to contain it. The triangle gives the number of partitions in each class, cf. A136102 and A136103.",
+  "id": "A136624",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A006939",
+    "A025487",
+    "A071724",
+    "A136102",
+    "A136103",
+    "A136625"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

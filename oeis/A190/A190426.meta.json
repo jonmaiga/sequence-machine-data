@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A132271 not in A132271.",
+  "id": "A190426",
+  "mentions": [
+    "A132271"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

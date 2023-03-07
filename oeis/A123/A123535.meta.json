@@ -1,0 +1,27 @@
+{
+  "description": "Recurrence from values at floor of a third and two-thirds.",
+  "id": "A123535",
+  "mentions": [
+    "A000040",
+    "A000337",
+    "A001768",
+    "A001855",
+    "A003071",
+    "A029837",
+    "A030190",
+    "A030308",
+    "A061168"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

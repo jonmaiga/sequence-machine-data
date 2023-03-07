@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of independent collections of subsets of [n] having exactly k members, n>=0, 0<=k<=A347025(n).",
+  "id": "A355315",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A102896",
+    "A134057",
+    "A347025"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

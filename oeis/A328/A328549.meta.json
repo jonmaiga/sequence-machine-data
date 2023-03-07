@@ -1,0 +1,27 @@
+{
+  "description": "1, together with the numbers that are simultaneously superior highly composite (A002201), colossally abundant (A004490), deeply composite (A095848), and miserable average divisor numbers (A263572).",
+  "id": "A328549",
+  "mentions": [
+    "A002201",
+    "A004490",
+    "A065385",
+    "A095848",
+    "A095849",
+    "A210594",
+    "A224078",
+    "A263572",
+    "A328852"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

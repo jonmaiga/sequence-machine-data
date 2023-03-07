@@ -1,0 +1,18 @@
+{
+  "description": "The triangular number T(j) such that n divides T(k)-T(j)>0, where k is the least positive integer for which such a j exists.",
+  "id": "A205005",
+  "mentions": [
+    "A204892",
+    "A205002"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

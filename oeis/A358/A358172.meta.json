@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: if n has weakly increasing prime indices (a,b,...,y,z) then row n is (z-a+1, z-b+1, ..., z-y+1).",
+  "id": "A358172",
+  "mentions": [
+    "A001222",
+    "A008578",
+    "A055396",
+    "A056239",
+    "A112798",
+    "A124010",
+    "A241916",
+    "A243055",
+    "A243503",
+    "A246277",
+    "A253565",
+    "A325351",
+    "A325352",
+    "A326844",
+    "A355534",
+    "A355536",
+    "A356958",
+    "A358137",
+    "A358195"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

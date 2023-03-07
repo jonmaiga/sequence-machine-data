@@ -1,0 +1,27 @@
+{
+  "description": "Multiplicative with a(p^e) = p^2 - 1.",
+  "id": "A322360",
+  "mentions": [
+    "A001221",
+    "A007434",
+    "A008683",
+    "A046970",
+    "A048250",
+    "A055491",
+    "A066086",
+    "A173557",
+    "A322359"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

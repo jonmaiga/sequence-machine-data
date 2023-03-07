@@ -1,0 +1,29 @@
+{
+  "description": "Number of permutations of the multiset of prime factors of n > 1 that are Lyndon words.",
+  "id": "A298941",
+  "mentions": [
+    "A000740",
+    "A001037",
+    "A001222",
+    "A008480",
+    "A008965",
+    "A059966",
+    "A060223",
+    "A096443",
+    "A112798",
+    "A215366",
+    "A275024",
+    "A294859",
+    "A298947"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

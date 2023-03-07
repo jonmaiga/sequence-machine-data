@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX1 0..3 arrays avoiding the pattern z z+1 z in any row, column, diagonal or antidiagonal",
+  "id": "A206790",
+  "mentions": [
+    "A206797"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

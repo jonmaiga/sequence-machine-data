@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = 1; for n >= 2, a(n+1) = (a(n)^7 + 1)/a(n-1).",
+  "id": "A351916",
+  "mentions": [
+    "A003818",
+    "A003819",
+    "A003821",
+    "A076839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

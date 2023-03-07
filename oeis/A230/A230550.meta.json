@@ -1,0 +1,32 @@
+{
+  "description": "Voids left after packing twin hearts patterns into n X n coins.",
+  "id": "A230550",
+  "mentions": [
+    "A001399",
+    "A002620",
+    "A008795",
+    "A074148",
+    "A227906",
+    "A228949",
+    "A229093",
+    "A229154",
+    "A229593",
+    "A229598",
+    "A230267",
+    "A230276",
+    "A230370",
+    "A230548",
+    "A230549"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

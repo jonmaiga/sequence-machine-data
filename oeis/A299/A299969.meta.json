@@ -1,0 +1,32 @@
+{
+  "description": "Lexicographic first sequence of nonnegative integers such that a(n) + a(n+1) has a digit 9, and no term occurs twice.",
+  "id": "A299969",
+  "mentions": [
+    "A298974",
+    "A298975",
+    "A298978",
+    "A298979",
+    "A299402",
+    "A299403",
+    "A299957",
+    "A299970",
+    "A299979",
+    "A299980",
+    "A299981",
+    "A299982",
+    "A299988",
+    "A299996",
+    "A299997"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

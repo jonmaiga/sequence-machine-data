@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Product_{n>=1} B(x^n) where B(x) = exp(exp(x)-1) = e.g.f. of Bell numbers.",
+  "id": "A209903",
+  "mentions": [
+    "A057625",
+    "A209902",
+    "A330199"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Replace all prime factors p of n with n/p, then take the integer logarithm (A001414).",
+  "id": "A356174",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A001414",
+    "A003415",
+    "A014612",
+    "A072195",
+    "A328303"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Number of partitions p of n such that (number of distinct parts of p) <= max(p) - min(p).",
+  "id": "A239955",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000070",
+    "A001227",
+    "A003114",
+    "A008284",
+    "A025157",
+    "A034296",
+    "A065201",
+    "A073491",
+    "A073492",
+    "A090858",
+    "A116931",
+    "A116932",
+    "A137793",
+    "A144300",
+    "A183558",
+    "A239954",
+    "A239956",
+    "A239958",
+    "A321440",
+    "A325284",
+    "A350839",
+    "A350841"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

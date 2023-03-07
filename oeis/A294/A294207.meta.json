@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of lattice paths from (0,0) to (n,k), 0 <= 3k <= 2n, that are below the line 3y=2x, only touching at the end points.",
+  "id": "A294207",
+  "mentions": [
+    "A009766",
+    "A293946"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

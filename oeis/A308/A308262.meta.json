@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that A048385(m) ends with m.",
+  "id": "A308262",
+  "mentions": [
+    "A003226",
+    "A007088",
+    "A048385",
+    "A052419"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

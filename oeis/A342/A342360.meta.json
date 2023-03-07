@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/(Omega+1)^2, where Omega=LambertW(1) is the Omega constant.",
+  "id": "A342360",
+  "mentions": [
+    "A030178",
+    "A030797",
+    "A115287",
+    "A342359",
+    "A342361"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

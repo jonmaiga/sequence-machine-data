@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of length n primitive (aperiodic) palindromes using exactly k different symbols, 1 <= k <= ceiling(n/2).",
+  "id": "A327873",
+  "mentions": [
+    "A056463",
+    "A056464",
+    "A056465",
+    "A056466",
+    "A056467",
+    "A284823",
+    "A327874",
+    "A327878"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

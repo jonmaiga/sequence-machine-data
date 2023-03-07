@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n whose deficiency is 12: 2n - sigma(n) = 12.",
+  "id": "A141549",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A033880",
+    "A101223",
+    "A102633",
+    "A125246",
+    "A125247",
+    "A125248",
+    "A141545",
+    "A141548",
+    "A141550",
+    "A191363",
+    "A223607",
+    "A223608"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

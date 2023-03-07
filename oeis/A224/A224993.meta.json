@@ -1,0 +1,20 @@
+{
+  "description": "Non-crossing, non-nesting, 4-colored permutations on {1,2,...,n}.",
+  "id": "A224993",
+  "mentions": [
+    "A225029",
+    "A225033"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

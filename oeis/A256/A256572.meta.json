@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples (x,x+1,x+2) with 1 < x <= p-3 of consecutive integers less than p whose product is 1 modulo p, where p = prime(n).",
+  "id": "A256572",
+  "mentions": [
+    "A256567"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 168,
+    "source": "oeis-bfile"
+  }
+}

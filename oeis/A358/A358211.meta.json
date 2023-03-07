@@ -1,0 +1,21 @@
+{
+  "description": "Self-locating strings within e: numbers k such that the string k is at position k (after the decimal point) in the decimal digits of e, where 7 is the 0th digit.",
+  "id": "A358211",
+  "mentions": [
+    "A001113",
+    "A064810",
+    "A205648"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

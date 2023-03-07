@@ -1,0 +1,23 @@
+{
+  "description": "Primes having primitive roots 2, 3, 5, 7, 11, and 13.",
+  "id": "A241047",
+  "mentions": [
+    "A001122",
+    "A019334",
+    "A019335",
+    "A019337",
+    "A019339",
+    "A019341",
+    "A213052"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

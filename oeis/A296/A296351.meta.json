@@ -1,0 +1,19 @@
+{
+  "description": "List of nonzero determinants of Bordered Lights Out matrices BL_k.",
+  "id": "A296351",
+  "mentions": [
+    "A296350",
+    "A296352",
+    "A296353"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangular matrix A105535, in which diagonal n equals A105535^(n+1) when flattened as read by rows.",
+  "id": "A105536",
+  "mentions": [
+    "A105535"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

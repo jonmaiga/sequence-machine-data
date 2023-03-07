@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 + x^5) / ((1 - x) * (1 + x^4)) in powers of x.",
+  "id": "A257179",
+  "mentions": [
+    "A010877",
+    "A259042"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

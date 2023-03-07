@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that product{(k^2 + h)/(k^2 - h), h = 1..k} - e < 1/n.",
+  "id": "A247985",
+  "mentions": [
+    "A247986",
+    "A247987"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

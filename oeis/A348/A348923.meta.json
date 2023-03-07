@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are both unitary and nonunitary harmonic numbers.",
+  "id": "A348923",
+  "mentions": [
+    "A006086",
+    "A034444",
+    "A034448",
+    "A048105",
+    "A048146",
+    "A319745",
+    "A348715",
+    "A348922"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

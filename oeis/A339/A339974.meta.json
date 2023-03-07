@@ -1,0 +1,27 @@
+{
+  "description": "Odd primes that do not occur as the greatest prime divisor of any such odd composite k for which the odd part of phi(k) divides k-1.",
+  "id": "A339974",
+  "mentions": [
+    "A000523",
+    "A002144",
+    "A006530",
+    "A053575",
+    "A336466",
+    "A339869",
+    "A339870",
+    "A339880",
+    "A339973"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

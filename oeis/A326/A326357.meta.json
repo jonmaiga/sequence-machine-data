@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of partitions of n that occur more than once among the condensed partitions of n; see A239312.",
+  "id": "A326357",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A239312"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

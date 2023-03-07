@@ -1,0 +1,21 @@
+{
+  "description": "(A001147(n+1)-1)/2, equals the index of A249348(n) within the triangular numbers A000217.",
+  "id": "A249349",
+  "mentions": [
+    "A000217",
+    "A001147",
+    "A060544",
+    "A249348"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:20:16",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

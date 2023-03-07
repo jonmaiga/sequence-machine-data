@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of n-digit squares such that the final (n-1) digits of the first square coincide with the initial (n-1) digits of the second.",
+  "id": "A344570",
+  "mentions": [
+    "A343855"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

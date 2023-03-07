@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the X-coordinate of the n-th point of the space filling curve A defined in Comments section; A341164 gives Y-coordinates.",
+  "id": "A341163",
+  "mentions": [
+    "A341018",
+    "A341164"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

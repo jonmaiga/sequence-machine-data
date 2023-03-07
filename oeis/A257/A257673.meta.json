@@ -1,0 +1,36 @@
+{
+  "description": "Triangle T(n,k), n>=0, 0<=k<=n, read by rows: row n is the inverse binomial transform of the n-th row of array A255961, which has the Euler transform of (j->j*k) in column k.",
+  "id": "A257673",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000219",
+    "A008585",
+    "A081266",
+    "A255961",
+    "A257674",
+    "A257675",
+    "A321947",
+    "A321948",
+    "A321949",
+    "A321950",
+    "A321951",
+    "A321952",
+    "A321953",
+    "A321954",
+    "A321955",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

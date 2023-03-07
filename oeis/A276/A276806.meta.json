@@ -1,0 +1,20 @@
+{
+  "description": "Height of the shortest binary factorization tree of n.",
+  "id": "A276806",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005171"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

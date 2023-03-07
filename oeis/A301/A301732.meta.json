@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of rational coefficients arising from the Kashaev invariant for the 4_1 knot.",
+  "id": "A301732",
+  "mentions": [
+    "A301733"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

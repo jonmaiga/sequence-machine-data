@@ -1,0 +1,23 @@
+{
+  "description": "Total number of polydivisible numbers in base n.",
+  "id": "A271374",
+  "mentions": [
+    "A109032",
+    "A109783",
+    "A144688",
+    "A271373"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

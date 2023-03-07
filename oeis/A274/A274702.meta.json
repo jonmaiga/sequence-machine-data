@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of arrangements of n circles in the affine plane in which all circles share part of their boundary with the boundary of the union of all the circles.",
+  "id": "A274702",
+  "mentions": [
+    "A249752",
+    "A250001"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

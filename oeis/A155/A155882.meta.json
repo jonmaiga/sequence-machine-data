@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive prime number such that a(n)-2n is also prime, a(n) < a(n+1), and the differences a(n)-2n must increase with n.",
+  "id": "A155882",
+  "mentions": [
+    "A020484",
+    "A108184"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

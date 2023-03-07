@@ -1,0 +1,21 @@
+{
+  "description": "Riordan array (((1+x)/(1-x-x^2))^m, x*A000108(x)), m=3.",
+  "id": "A185678",
+  "mentions": [
+    "A000108",
+    "A185675",
+    "A185676"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

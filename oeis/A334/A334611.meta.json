@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the total number of down-steps after the final up-step in all 4_2-Dyck paths of length 5*n (n up-steps and 4*n down-steps).",
+  "id": "A334611",
+  "mentions": [
+    "A334610",
+    "A334612",
+    "A334719",
+    "A334786"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:25:49",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

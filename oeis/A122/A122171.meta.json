@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m such that there are exactly n primes of form m+p for primes p",
+  "id": "A122171",
+  "mentions": [
+    "A122170"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

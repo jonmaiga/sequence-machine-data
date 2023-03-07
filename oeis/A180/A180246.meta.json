@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = Sum_{j=0..k} (-1)^j *binomial(n+1,j)*(k+2-j)^n, 0 <= k < n.",
+  "id": "A180246",
+  "mentions": [
+    "A008292",
+    "A156984",
+    "A157011"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

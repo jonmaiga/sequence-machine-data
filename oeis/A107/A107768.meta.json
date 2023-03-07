@@ -1,0 +1,21 @@
+{
+  "description": "Integers p*q*r such that p*q and q*r are both golden semiprimes (A108540). Integers p*q*r such that p = A108541(j), q = A108542(j) = A108541(k) and r = A108542(k).",
+  "id": "A107768",
+  "mentions": [
+    "A014612",
+    "A108540",
+    "A108541",
+    "A108542"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

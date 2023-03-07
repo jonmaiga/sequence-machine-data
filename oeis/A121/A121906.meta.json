@@ -1,0 +1,21 @@
+{
+  "description": "Excess of n-th 3-almost prime A014612 over previous prime.",
+  "id": "A121906",
+  "mentions": [
+    "A000040",
+    "A014612",
+    "A109067",
+    "A114403"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

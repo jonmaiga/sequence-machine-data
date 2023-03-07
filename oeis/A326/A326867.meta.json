@@ -1,0 +1,28 @@
+{
+  "description": "Number of unlabeled connectedness systems on n vertices.",
+  "id": "A326867",
+  "mentions": [
+    "A072444",
+    "A072445",
+    "A072446",
+    "A072447",
+    "A102896",
+    "A306445",
+    "A326866",
+    "A326869",
+    "A326870",
+    "A326871",
+    "A326872"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

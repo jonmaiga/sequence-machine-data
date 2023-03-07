@@ -1,0 +1,19 @@
+{
+  "description": "List of nonzero determinants of Unbordered Lights Out matrices UBL_k.",
+  "id": "A296353",
+  "mentions": [
+    "A296350",
+    "A296351",
+    "A296352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

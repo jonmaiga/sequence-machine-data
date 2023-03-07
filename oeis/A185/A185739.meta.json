@@ -1,0 +1,27 @@
+{
+  "description": "Accumulation array of A185738, by antidiagonals.",
+  "id": "A185739",
+  "mentions": [
+    "A000217",
+    "A000247",
+    "A000295",
+    "A028562",
+    "A068293",
+    "A098847",
+    "A140675",
+    "A185738",
+    "A185740"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

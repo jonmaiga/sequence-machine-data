@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted trees with n nodes having some subtrees replaced by cycles.",
+  "id": "A213683",
+  "mentions": [
+    "A000081",
+    "A213674",
+    "A213682"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

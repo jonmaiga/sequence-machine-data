@@ -1,0 +1,31 @@
+{
+  "description": "Coefficients for normal ordering of (x + D)^n and for the unsigned, probabilist's (or Chebyshev) Hermite polynomials H_n(x+y).",
+  "id": "A344678",
+  "mentions": [
+    "A000217",
+    "A001147",
+    "A002378",
+    "A002620",
+    "A005425",
+    "A007318",
+    "A074909",
+    "A094305",
+    "A099174",
+    "A135278",
+    "A344565",
+    "A344911"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

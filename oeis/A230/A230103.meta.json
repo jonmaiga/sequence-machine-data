@@ -1,0 +1,20 @@
+{
+  "description": "Number of m such that m + (product of digits of m) equals n.",
+  "id": "A230103",
+  "mentions": [
+    "A230099",
+    "A230104",
+    "A230105"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

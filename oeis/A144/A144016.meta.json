@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the largest positive integer m such that the binary representations of all positive integers <= m are found within the binary representation of n.",
+  "id": "A144016",
+  "mentions": [
+    "A213629",
+    "A261461",
+    "A261467"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

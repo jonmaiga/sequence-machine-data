@@ -1,0 +1,21 @@
+{
+  "description": "Numbers N such that A328919(N) < A051903(N); numbers N such that {sigma_k(N) mod N: k >= m} is purely periodic with some m < e, where e is the maximal exponent in prime factorization of N.",
+  "id": "A328930",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A051903",
+    "A328919",
+    "A328934"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

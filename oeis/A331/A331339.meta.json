@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: 1 / (1 + log(1 - x - x^2)).",
+  "id": "A331339",
+  "mentions": [
+    "A000204",
+    "A007840",
+    "A039647"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:21:49",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

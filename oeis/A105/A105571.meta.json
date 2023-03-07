@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that m - 2 and m + 2 are semiprimes.",
+  "id": "A105571",
+  "mentions": [
+    "A001222",
+    "A014574",
+    "A054735",
+    "A063643",
+    "A064911",
+    "A105572",
+    "A105573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

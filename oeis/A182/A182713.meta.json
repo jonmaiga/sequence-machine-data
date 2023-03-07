@@ -1,0 +1,27 @@
+{
+  "description": "Number of 3's in the last section of the set of partitions of n.",
+  "id": "A182713",
+  "mentions": [
+    "A000041",
+    "A024787",
+    "A135010",
+    "A138121",
+    "A174455",
+    "A182703",
+    "A182712",
+    "A182714",
+    "A194812",
+    "A240056"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:24:04",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

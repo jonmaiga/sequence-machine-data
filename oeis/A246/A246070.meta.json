@@ -1,0 +1,23 @@
+{
+  "description": "Number A(n,k) of endofunctions f on [2n] satisfying f^k(i) = i for all i in [n]; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A246070",
+  "mentions": [
+    "A062971",
+    "A085534",
+    "A245141",
+    "A245959",
+    "A246071",
+    "A246072"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to a hexagonal number H(m) for some m.",
+  "id": "A251924",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A008844",
+    "A076708"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

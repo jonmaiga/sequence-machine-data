@@ -1,0 +1,21 @@
+{
+  "description": "Arises in enumerating Huffman codes, compact trees, and sums of unit fractions.",
+  "id": "A194628",
+  "mentions": [
+    "A002572",
+    "A176485",
+    "A176503",
+    "A294775"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

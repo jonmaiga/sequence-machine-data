@@ -1,0 +1,19 @@
+{
+  "description": "Number of unrooted binary leaf-multi-labeled trees with n leaves on the label set [2].",
+  "id": "A220826",
+  "mentions": [
+    "A083563",
+    "A220829",
+    "A339649"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

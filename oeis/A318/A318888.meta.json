@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining the 2-adic valuation of n (A007814) with the differences between odd primes in the prime factorization of n.",
+  "id": "A318888",
+  "mentions": [
+    "A000265",
+    "A007814",
+    "A305801",
+    "A305891",
+    "A318500",
+    "A318885",
+    "A318887"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

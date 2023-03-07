@@ -1,0 +1,20 @@
+{
+  "description": "Primes as they appear in sequence {A258083(n)/3}.",
+  "id": "A258370",
+  "mentions": [
+    "A000040",
+    "A258083",
+    "A258225"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

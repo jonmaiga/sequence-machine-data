@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows. T(n, k) = k^n * BellPolynomial(n, -1/k) for k > 0, if k = 0 then T(n, k) = k^n.",
+  "id": "A350261",
+  "mentions": [
+    "A000587",
+    "A318183",
+    "A350256",
+    "A350257",
+    "A350258",
+    "A350259",
+    "A350260",
+    "A350262",
+    "A350263"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

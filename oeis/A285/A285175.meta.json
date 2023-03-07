@@ -1,0 +1,34 @@
+{
+  "description": "Number of normal generalized Young tableaux, of shape the integer partition with Heinz number n, with all rows and columns strictly increasing.",
+  "id": "A285175",
+  "mentions": [
+    "A000085",
+    "A001221",
+    "A005117",
+    "A006958",
+    "A015128",
+    "A056239",
+    "A138178",
+    "A153452",
+    "A238690",
+    "A296150",
+    "A296188",
+    "A297388",
+    "A299925",
+    "A299926",
+    "A299968",
+    "A300118",
+    "A300120",
+    "A300122"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

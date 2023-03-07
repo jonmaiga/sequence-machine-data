@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of compositions of n into parts with multiplicity not larger than k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A243081",
+  "mentions": [
+    "A000007",
+    "A011782",
+    "A032020",
+    "A232432",
+    "A232464",
+    "A232605",
+    "A242447",
+    "A243082",
+    "A243083",
+    "A243084",
+    "A243085",
+    "A243086",
+    "A243087",
+    "A243088"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

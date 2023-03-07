@@ -1,0 +1,20 @@
+{
+  "description": "The number of distinct n X n panmagic = pandiagonal = diabolic = Nasik squares, not counting rotations, reflections, or row/column cyclings of others, with the additional property that each i X j rectangle, including each \"wrap-around\" i X j rectangle, where i and j are positive integers whose product is n, also sums to the magic constant A006003(n) = n(n^2+1)/2.",
+  "id": "A160540",
+  "mentions": [
+    "A006003",
+    "A027567"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

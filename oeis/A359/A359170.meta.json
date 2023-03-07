@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if n is not a multiple of 3 and has an even number of prime factors (with multiplicity), otherwise a(n) = 0.",
+  "id": "A359170",
+  "mentions": [
+    "A001222",
+    "A010872",
+    "A011655",
+    "A065043",
+    "A359171",
+    "A359172",
+    "A359370",
+    "A359378"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

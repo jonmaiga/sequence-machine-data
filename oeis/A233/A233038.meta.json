@@ -1,0 +1,19 @@
+{
+  "description": "Primes p in prime septuplets (p, p+2, p+8, p+12, p+14, p+18, p+20) at the end of the maximal gaps in A201251.",
+  "id": "A233038",
+  "mentions": [
+    "A022010",
+    "A201251",
+    "A201252"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

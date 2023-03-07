@@ -1,0 +1,17 @@
+{
+  "description": "Let M[n] be the 2 X 2 matrix {{0, -3}, {(n - 1), 5*(n - 1)}} and let v[1] = {0, 1}', v[n] = M[n]*v[n - 1]'. Then a[n] is the first entry of v[n].",
+  "id": "A108210",
+  "mentions": [
+    "A000166"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

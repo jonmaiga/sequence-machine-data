@@ -1,0 +1,17 @@
+{
+  "description": "Number of regular n-dimensional simplices that can be inscribed on the vertices of an n-dimensional hypercube.",
+  "id": "A124505",
+  "mentions": [
+    "A108973"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

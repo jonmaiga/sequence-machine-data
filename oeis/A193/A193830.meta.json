@@ -1,0 +1,24 @@
+{
+  "description": "Even partition numbers of prime numbers.",
+  "id": "A193830",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A052001",
+    "A058698",
+    "A154796",
+    "A154798",
+    "A163997",
+    "A193831"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [Pi]+[2*Pi]+...+[n*Pi], where []=floor.",
+  "id": "A184969",
+  "mentions": [
+    "A000796",
+    "A022844"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:23",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

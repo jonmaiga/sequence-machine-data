@@ -1,0 +1,17 @@
+{
+  "description": "It seems that the n-th prime p appears in A098550 at around position 2*p; if in fact A098550(w) = p then set a(n) =w-2*p.",
+  "id": "A352195",
+  "mentions": [
+    "A098550"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..3 matrices with each 2X2 permanent equal",
+  "id": "A224967",
+  "mentions": [
+    "A224975"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

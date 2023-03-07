@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=a(1)=a(2)=1; thereafter a(n) = gpf(a(n-1)+a(n-3)), where gpf = \"greatest prime factor\".",
+  "id": "A214320",
+  "mentions": [
+    "A000930",
+    "A006530",
+    "A177904",
+    "A214551"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:54:15",
+    "offset": 0,
+    "size": 121,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sigma(n) - d(n) - pi(n).",
+  "id": "A152992",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000720",
+    "A065608",
+    "A152770",
+    "A152991"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

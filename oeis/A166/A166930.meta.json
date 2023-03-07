@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers m such that m^4 = a^2 + b^2 and a + b = c^2 for some positive coprime integers a, b, c.",
+  "id": "A166930",
+  "mentions": [
+    "A166929",
+    "A167437",
+    "A167438"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

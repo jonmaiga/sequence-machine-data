@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers that are not the sum of 3 squares and a nonnegative (2n + 1)-st power.",
+  "id": "A322122",
+  "mentions": [
+    "A004215",
+    "A273915",
+    "A296579",
+    "A297788",
+    "A297970",
+    "A299796"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

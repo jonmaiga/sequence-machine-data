@@ -1,0 +1,24 @@
+{
+  "description": "Distinct values of A218787 in the order of appearance.",
+  "id": "A218609",
+  "mentions": [
+    "A014486",
+    "A057163",
+    "A179016",
+    "A218610",
+    "A218611",
+    "A218613",
+    "A218787"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of total solutions (minus the n-th prime) to x^y == y^x (mod p) where 0 < x,y <= p and p is the n-th prime.",
+  "id": "A355486",
+  "mentions": [
+    "A000040",
+    "A355419"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

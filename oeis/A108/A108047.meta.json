@@ -1,0 +1,25 @@
+{
+  "description": "Concatenation of the previous pair of numbers, with the first two terms both 1.",
+  "id": "A108047",
+  "mentions": [
+    "A000042",
+    "A000045",
+    "A037842",
+    "A131293",
+    "A214326",
+    "A214679"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

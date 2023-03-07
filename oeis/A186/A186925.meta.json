@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient of x^n in (1+n*x+x^2)^n.",
+  "id": "A186925",
+  "mentions": [
+    "A070910",
+    "A092366",
+    "A187018",
+    "A187019",
+    "A187021",
+    "A292627",
+    "A292629"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

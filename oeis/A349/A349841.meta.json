@@ -1,0 +1,35 @@
+{
+  "description": "Triangle T(n,k) built by placing all ones on the left edge, [1,0,0,0,0] repeated on the right edge, and filling the body using the Pascal recurrence T(n,k) = T(n-1,k) + T(n-1,k-1).",
+  "id": "A349841",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000292",
+    "A000332",
+    "A001477",
+    "A002266",
+    "A007318",
+    "A008732",
+    "A059259",
+    "A079998",
+    "A118923",
+    "A122047",
+    "A323228",
+    "A349839",
+    "A349842",
+    "A349843"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

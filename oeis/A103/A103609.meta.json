@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci numbers repeated (cf. A000045).",
+  "id": "A103609",
+  "mentions": [
+    "A000045",
+    "A065941",
+    "A094707",
+    "A180662",
+    "A214927"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

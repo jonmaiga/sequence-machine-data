@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the slope (negative) at the point of tangency of the curves y=c/x and y=sin(x), where c is given by A196765.",
+  "id": "A196766",
+  "mentions": [
+    "A196504",
+    "A196765"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

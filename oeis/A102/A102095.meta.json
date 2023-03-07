@@ -1,0 +1,18 @@
+{
+  "description": "Greatest edge length of a cuboid having integer edge lengths, volume n and minimal surface area under those restrictions.",
+  "id": "A102095",
+  "mentions": [
+    "A102096",
+    "A102097"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

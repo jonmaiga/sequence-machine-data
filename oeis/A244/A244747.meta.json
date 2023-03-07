@@ -1,0 +1,19 @@
+{
+  "description": "Positions at which powers of 2 occur in A051145.",
+  "id": "A244747",
+  "mentions": [
+    "A051145",
+    "A051147",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

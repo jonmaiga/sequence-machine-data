@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that T(n) + T(n+1) + ... + T(n+36) is a square, where T = A000217 (triangular numbers).",
+  "id": "A257710",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001110",
+    "A077415",
+    "A116476",
+    "A176541",
+    "A176542",
+    "A257293",
+    "A257707",
+    "A257708",
+    "A257709"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

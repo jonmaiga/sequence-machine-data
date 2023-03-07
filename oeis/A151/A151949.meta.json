@@ -1,0 +1,34 @@
+{
+  "description": "a(n) = image of n under the Kaprekar map n -> (n with digits sorted into descending order) - (n with digits sorted into ascending order).",
+  "id": "A151949",
+  "mentions": [
+    "A004185",
+    "A004186",
+    "A010785",
+    "A069746",
+    "A099009",
+    "A151950",
+    "A151959",
+    "A164884",
+    "A164993",
+    "A165012",
+    "A165032",
+    "A165051",
+    "A165071",
+    "A165090",
+    "A165110",
+    "A347688"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} x/(exp(x)-1) dx.",
+  "id": "A341908",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A120082",
+    "A120083"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

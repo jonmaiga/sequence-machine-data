@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, defined by: T(n,k) = 1/((k+1)n-1) binomial((k+1)n-1,n) for n,k>0.",
+  "id": "A162382",
+  "mentions": [
+    "A000108",
+    "A006013",
+    "A006632",
+    "A118971"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

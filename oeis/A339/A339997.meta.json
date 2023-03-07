@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of an odd cube s and an even cube t such that 0 < s < t.",
+  "id": "A339997",
+  "mentions": [
+    "A010057"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

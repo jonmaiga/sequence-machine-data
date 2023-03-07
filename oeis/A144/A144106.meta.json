@@ -1,0 +1,20 @@
+{
+  "description": "Eigentriangle, row sums = (2n + 1).",
+  "id": "A144106",
+  "mentions": [
+    "A005408",
+    "A078050"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

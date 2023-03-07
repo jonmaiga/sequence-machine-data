@@ -1,0 +1,27 @@
+{
+  "description": "Logarithmic derivative of A112934 such that a(n)=(1/2)*A112934(n+1) for n>0, where A112934 equals the INVERT transform of double factorials A001147.",
+  "id": "A112935",
+  "mentions": [
+    "A001147",
+    "A112934",
+    "A112936",
+    "A112937",
+    "A112938",
+    "A112939",
+    "A112940",
+    "A112941",
+    "A112942",
+    "A112943"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

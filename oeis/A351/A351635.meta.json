@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of perfect matchings of an edge-labeled 2 X n Klein bottle grid graph, or equivalently the number of domino tilings of a 2 X n Klein bottle grid. (The twist is on the length-n side.)",
+  "id": "A351635",
+  "mentions": [
+    "A000129",
+    "A001835",
+    "A003499",
+    "A005248",
+    "A068397",
+    "A103999",
+    "A162483",
+    "A162484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

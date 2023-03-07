@@ -1,0 +1,20 @@
+{
+  "description": "Least number k > n - 2 such that k*n^k - 1 is prime.",
+  "id": "A327661",
+  "mentions": [
+    "A240234",
+    "A240235",
+    "A327660"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Greatest number m such that the fractional part of (101/100)^A153671(m) >= 1-(1/m).",
+  "id": "A153675",
+  "mentions": [
+    "A153663",
+    "A153667",
+    "A153671",
+    "A153683",
+    "A153691",
+    "A153699",
+    "A153707",
+    "A153715",
+    "A153723",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

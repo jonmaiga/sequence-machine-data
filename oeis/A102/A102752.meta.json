@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n, k) = ((n+2)^k-(n-1)^k)/3.",
+  "id": "A102752",
+  "mentions": [
+    "A000244",
+    "A001045",
+    "A002450",
+    "A016127",
+    "A016137",
+    "A016150",
+    "A016162",
+    "A016172",
+    "A016181",
+    "A016187",
+    "A016191"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:39:53",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

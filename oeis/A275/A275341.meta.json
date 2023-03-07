@@ -1,0 +1,20 @@
+{
+  "description": "Positions of ones in A275737.",
+  "id": "A275341",
+  "mentions": [
+    "A046654",
+    "A275579",
+    "A275737"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

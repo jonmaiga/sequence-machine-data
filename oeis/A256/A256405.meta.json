@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest missing number after seeing A166133(n).",
+  "id": "A256405",
+  "mentions": [
+    "A005563",
+    "A027750",
+    "A166133",
+    "A256408",
+    "A256409"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer k such that prime(k)-k, prime(k)+k, prime(k*n)-k*n, prime(k*n)+k*n, prime(k)+k*n and prime(k*n)+k are all prime.",
+  "id": "A259492",
+  "mentions": [
+    "A000040",
+    "A258803",
+    "A258836",
+    "A259487",
+    "A259540"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

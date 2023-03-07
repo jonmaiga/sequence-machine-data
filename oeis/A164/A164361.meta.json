@@ -1,0 +1,18 @@
+{
+  "description": "The number of elements in S_5\\det^{-1}(n)/GL(5,\\Z), where we take det : M_{5 \\x 5}(\\Z) \\rightarrow \\Z.",
+  "id": "A164361",
+  "mentions": [
+    "A162158",
+    "A162159"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

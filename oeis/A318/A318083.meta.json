@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that sigma(sigma(m))/sigma(m) <= sigma(m)/m.",
+  "id": "A318083",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666",
+    "A051027",
+    "A318059",
+    "A318060",
+    "A318084"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

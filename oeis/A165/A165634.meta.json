@@ -1,0 +1,20 @@
+{
+  "description": "Start with x=1 and repeat: if x is a prime number then (append i and then x, with x=prime(i)) else (only append x), continue with x:=x+1.",
+  "id": "A165634",
+  "mentions": [
+    "A000040",
+    "A049084",
+    "A095116",
+    "A095117"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} Product_{k=1..n} ((1+x)^k - 1)/(1 - x^k).",
+  "id": "A207652",
+  "mentions": [
+    "A207651",
+    "A207653",
+    "A207654"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

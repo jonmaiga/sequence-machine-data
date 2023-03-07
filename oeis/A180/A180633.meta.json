@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of iterations of function f(x) = phi(x)-1 needed before zero is reached, when starting from the initial value x = n.",
+  "id": "A180633",
+  "mentions": [
+    "A000010",
+    "A049108"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

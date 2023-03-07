@@ -1,0 +1,35 @@
+{
+  "description": "Numbers with an even number of prime factors (counted with multiplicity) that cannot be factored into distinct semiprimes.",
+  "id": "A320892",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A001358",
+    "A005117",
+    "A006881",
+    "A007717",
+    "A025487",
+    "A028260",
+    "A045778",
+    "A300892",
+    "A318871",
+    "A318953",
+    "A320462",
+    "A320655",
+    "A320656",
+    "A320891",
+    "A320893",
+    "A320894",
+    "A322353"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

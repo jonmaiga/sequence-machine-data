@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers b for which there is a (1/5)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196349",
+  "mentions": [
+    "A195770",
+    "A196348",
+    "A196351",
+    "A196352"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

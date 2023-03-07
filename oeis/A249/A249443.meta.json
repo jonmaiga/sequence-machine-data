@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with digits in nondecreasing order and digital sum not larger than the product of the digits.",
+  "id": "A249443",
+  "mentions": [
+    "A002275",
+    "A007953",
+    "A007954",
+    "A009994",
+    "A034710",
+    "A052382",
+    "A061672",
+    "A062998",
+    "A249334"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

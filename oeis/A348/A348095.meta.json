@@ -1,0 +1,21 @@
+{
+  "description": "Number of free n-polysticks embedded in the square lattice with at least one cycle.",
+  "id": "A348095",
+  "mentions": [
+    "A019988",
+    "A056841"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of strict multiset partitions of normal multisets of size n into k blocks, where a multiset is normal if it spans an initial interval of positive integers.",
+  "id": "A330787",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A239473",
+    "A317532",
+    "A317776",
+    "A327116"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

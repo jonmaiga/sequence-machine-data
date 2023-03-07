@@ -1,0 +1,22 @@
+{
+  "description": "A positive integer n is included if the number of 0's in the binary representation of n is a power of 2 (including being possibly 1).",
+  "id": "A143070",
+  "mentions": [
+    "A023416",
+    "A143071",
+    "A143072",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

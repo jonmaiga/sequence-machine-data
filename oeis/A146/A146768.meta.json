@@ -1,0 +1,20 @@
+{
+  "description": "Number k such that 2^(2k+1) - 1 = A000668(n+1).",
+  "id": "A146768",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A061652"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

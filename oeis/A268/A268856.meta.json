@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest magic sum of any 3 X 3 magic square which contains exactly n numbers that are triangular or square.",
+  "id": "A268856",
+  "mentions": [
+    "A221669",
+    "A268854",
+    "A268855",
+    "A269231"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

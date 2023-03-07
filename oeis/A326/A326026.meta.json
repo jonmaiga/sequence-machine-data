@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n where each part has a different length.",
+  "id": "A326026",
+  "mentions": [
+    "A007716",
+    "A007837",
+    "A303546",
+    "A306017",
+    "A316980",
+    "A316983",
+    "A319560",
+    "A326514",
+    "A326517",
+    "A326533",
+    "A332260"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

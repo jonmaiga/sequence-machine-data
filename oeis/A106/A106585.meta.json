@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: even-numbered rows of A106580.",
+  "id": "A106585",
+  "mentions": [
+    "A106580",
+    "A106595"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

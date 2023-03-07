@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of arclength between (0,1) and (1,1/2) on y = 1/2^x.",
+  "id": "A332632",
+  "mentions": [
+    "A332630",
+    "A333202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

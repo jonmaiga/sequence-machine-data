@@ -1,0 +1,20 @@
+{
+  "description": "Array T(n, k), n, k > 0, read by antidiagonals; T(n, k) is the number of rotationally symmetric self-avoiding rook paths joining opposite corners of an n X k board.",
+  "id": "A342936",
+  "mentions": [
+    "A064298"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

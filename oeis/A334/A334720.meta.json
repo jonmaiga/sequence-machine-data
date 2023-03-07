@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2-dimensional closed-loop self-avoiding paths on a square lattice where each path consists of steps with incrementing length from 1 to n.",
+  "id": "A334720",
+  "mentions": [
+    "A002931",
+    "A010566",
+    "A334756",
+    "A334877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

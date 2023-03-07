@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p + (product of digits of p) is prime and p - (product of digits of p) is prime.",
+  "id": "A227217",
+  "mentions": [
+    "A007954",
+    "A056709",
+    "A157677",
+    "A225319"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

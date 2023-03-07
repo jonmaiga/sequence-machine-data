@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = n if n <= 2, otherwise the smallest number not occurring earlier having in its binary representation at least one bit in common with a(n-2), but none with a(n-1).",
+  "id": "A252867",
+  "mentions": [
+    "A048793",
+    "A098550",
+    "A109812",
+    "A252865",
+    "A252868",
+    "A253050",
+    "A253051",
+    "A253581",
+    "A253582",
+    "A253589",
+    "A253603",
+    "A303596",
+    "A303597",
+    "A303598",
+    "A303599",
+    "A305368",
+    "A305369",
+    "A305372"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

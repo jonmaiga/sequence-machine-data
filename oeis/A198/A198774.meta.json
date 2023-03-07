@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having exactly three representations by the quadratic form x^2+xy+y^2 with 0<=x<=y.",
+  "id": "A198774",
+  "mentions": [
+    "A003136",
+    "A088534",
+    "A118886",
+    "A198772",
+    "A198773",
+    "A198775"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

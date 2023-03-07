@@ -1,0 +1,22 @@
+{
+  "description": "A sequence related to Le Corbusier's Modulor: round(phi^(-13 + n)*175).",
+  "id": "A227572",
+  "mentions": [
+    "A001622",
+    "A080105",
+    "A080106",
+    "A228779"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

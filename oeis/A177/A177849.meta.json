@@ -1,0 +1,19 @@
+{
+  "description": "The number of ways of minimal weight to make change for n cents using fairly valued United States coins (copper 1-cent coin, a nickel 5-cent coin, and silver 10-cent and 25-cent coins) assuming that silver is more valuable than nickel and that nickel is more valuable than copper.",
+  "id": "A177849",
+  "mentions": [
+    "A008616"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:09",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

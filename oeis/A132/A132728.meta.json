@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, k) = 4 - 3*(-1)^k, read by rows.",
+  "id": "A132728",
+  "mentions": [
+    "A010688",
+    "A047393",
+    "A132742"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:50:05",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

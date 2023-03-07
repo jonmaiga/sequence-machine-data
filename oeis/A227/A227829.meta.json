@@ -1,0 +1,21 @@
+{
+  "description": "Primes occurring in the Fibonacci sequences 2, 3, 5, ...; 5, 12, 29, ...; 10, 33, 109, ...; 17, 72, 305, ...; ..., where F(n) = m*F(n-1) + F(n-2) (n>2), with F(1) = 1, F(2) = positive integer m.",
+  "id": "A227829",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001076",
+    "A002496",
+    "A006190"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

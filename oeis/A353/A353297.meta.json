@@ -1,0 +1,19 @@
+{
+  "description": "The i-values of pairs (i,j) listed in A353296.",
+  "id": "A353297",
+  "mentions": [
+    "A353296",
+    "A353298"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

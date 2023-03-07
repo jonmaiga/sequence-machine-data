@@ -1,0 +1,34 @@
+{
+  "description": "Square array read by descending antidiagonals: A(1,k) = A188163(k), and for n > 1, A(n,k) = A087686(1+A(n-1,k)).",
+  "id": "A265903",
+  "mentions": [
+    "A002260",
+    "A004001",
+    "A004736",
+    "A051135",
+    "A087686",
+    "A162598",
+    "A188163",
+    "A265332",
+    "A265900",
+    "A265901",
+    "A265909",
+    "A266109",
+    "A267103",
+    "A267104",
+    "A267111",
+    "A267112"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

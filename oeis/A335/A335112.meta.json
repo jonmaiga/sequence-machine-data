@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest k > 0 such that Sum_{j=1..n} j*k^j/(k+n) is integer, for n > 1.",
+  "id": "A335112",
+  "mentions": [
+    "A335113",
+    "A335114"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

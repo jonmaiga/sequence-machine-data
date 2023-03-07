@@ -1,0 +1,34 @@
+{
+  "description": "Area between two valleys at height 0 under the infinite Dyck path related to partitions in which the k-th ascending line segment has A141285(k) steps and the k-th descending line segment has A194446(k) steps, k >= 1, multiplied by 2.",
+  "id": "A244968",
+  "mentions": [
+    "A000041",
+    "A135010",
+    "A141285",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A211009",
+    "A211978",
+    "A220517",
+    "A225600",
+    "A225610",
+    "A228109",
+    "A228110",
+    "A228350",
+    "A230440",
+    "A233968"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

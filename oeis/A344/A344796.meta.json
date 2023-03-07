@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five squares in three or more ways.",
+  "id": "A344796",
+  "mentions": [
+    "A025368",
+    "A294737",
+    "A343704",
+    "A344795",
+    "A344797",
+    "A344807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

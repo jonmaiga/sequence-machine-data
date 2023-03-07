@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-dual negacyclic codes of length 4n over GF(3), where 4n runs through the numbers congruent to 4 or 8 mod 12 (cf. A092259).",
+  "id": "A264605",
+  "mentions": [
+    "A092259"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

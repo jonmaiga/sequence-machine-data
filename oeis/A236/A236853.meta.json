@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Number of times n occurs in A234742.",
+  "id": "A236853",
+  "mentions": [
+    "A014580",
+    "A048720",
+    "A091206",
+    "A091209",
+    "A234732",
+    "A234741",
+    "A234742",
+    "A236833",
+    "A236842",
+    "A236844",
+    "A236845",
+    "A236862"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

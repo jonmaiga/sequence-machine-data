@@ -1,0 +1,22 @@
+{
+  "description": "Sequence gives the denominators, in increasing values from the second term on, of Egyptian fractions whose sum has the concatenation of these denominators as decimal part. Case a(1) = 5.",
+  "id": "A304287",
+  "mentions": [
+    "A302932",
+    "A302933",
+    "A303388",
+    "A304285",
+    "A304286"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

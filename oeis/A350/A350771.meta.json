@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (2^(n-k-1) + 2^k - 2)*binomial(n-1, k), 0 <= k <= n-1.",
+  "id": "A350771",
+  "mentions": [
+    "A000225",
+    "A001047",
+    "A056182",
+    "A350770"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

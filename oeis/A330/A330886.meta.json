@@ -1,0 +1,17 @@
+{
+  "description": "Sum of lengths of SB (shortest border) factorizations over all binary strings of length n.",
+  "id": "A330886",
+  "mentions": [
+    "A330884"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

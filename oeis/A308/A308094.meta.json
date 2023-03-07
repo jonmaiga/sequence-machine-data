@@ -1,0 +1,18 @@
+{
+  "description": "Arrange distinct numbers in a single square spiral so that the absolute difference between each number and its eight neighbors is unique.",
+  "id": "A308094",
+  "mentions": [
+    "A175498",
+    "A257339"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

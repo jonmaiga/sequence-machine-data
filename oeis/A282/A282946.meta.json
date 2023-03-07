@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 5*2^k + 1 is a prime factor of a generalized Fermat number 11^(2^m) + 1 for some m.",
+  "id": "A282946",
+  "mentions": [
+    "A002254",
+    "A199592",
+    "A226366",
+    "A268661",
+    "A268662",
+    "A268663",
+    "A268664",
+    "A282945"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

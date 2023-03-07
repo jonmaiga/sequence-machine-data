@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = floor(sqrt(a(n-1))) if that number is not already in the sequence, otherwise a(n) = 2a(n-1).",
+  "id": "A114183",
+  "mentions": [
+    "A000196",
+    "A000523",
+    "A189419",
+    "A213218",
+    "A221715",
+    "A221716",
+    "A222193",
+    "A222194"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

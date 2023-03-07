@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of a rational triangle related to 1/sqrt(1-x).",
+  "id": "A137896",
+  "mentions": [
+    "A137897"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

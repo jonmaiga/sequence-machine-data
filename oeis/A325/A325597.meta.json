@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number not 2a(m) + a(m-1) for any m < n.",
+  "id": "A325597",
+  "mentions": [
+    "A325417",
+    "A325598",
+    "A325599",
+    "A325600",
+    "A325601"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

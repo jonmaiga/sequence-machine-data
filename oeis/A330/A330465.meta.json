@@ -1,0 +1,38 @@
+{
+  "description": "Number of non-isomorphic series-reduced rooted trees whose leaves are multisets with a total of n elements.",
+  "id": "A330465",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A004114",
+    "A005804",
+    "A007716",
+    "A141268",
+    "A281118",
+    "A289501",
+    "A292504",
+    "A316651",
+    "A316652",
+    "A318231",
+    "A318812",
+    "A319312",
+    "A330467",
+    "A330469",
+    "A330470",
+    "A330471",
+    "A330474",
+    "A330624",
+    "A330625",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

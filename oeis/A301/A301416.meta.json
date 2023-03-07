@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k in A301413 such that k * A002110 (m) is in A002201.",
+  "id": "A301416",
+  "mentions": [
+    "A000705",
+    "A002110",
+    "A002201",
+    "A301413",
+    "A301414"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primitive part of A006190(n), n >= 1.",
+  "id": "A253807",
+  "mentions": [
+    "A000010",
+    "A006190",
+    "A008555",
+    "A008683",
+    "A013595",
+    "A061446",
+    "A105603"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

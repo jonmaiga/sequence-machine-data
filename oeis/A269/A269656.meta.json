@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) = number of length-n 0..k arrays with no adjacent pair x,x+1 repeated: infinite square array read by falling antidiagonals.",
+  "id": "A269656",
+  "mentions": [
+    "A000027",
+    "A000125",
+    "A000290",
+    "A000578",
+    "A269657",
+    "A269658",
+    "A269659",
+    "A269660"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

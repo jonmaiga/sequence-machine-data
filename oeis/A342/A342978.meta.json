@@ -1,0 +1,20 @@
+{
+  "description": "Zeroless numbers k ordered according to k/A007954(k), and in case of ties by k, where A007954(k) is the product of digits of k.",
+  "id": "A342978",
+  "mentions": [
+    "A007954",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

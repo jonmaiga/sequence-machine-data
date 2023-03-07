@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} Stirling2(n,k) * gcd(n,k).",
+  "id": "A329969",
+  "mentions": [
+    "A003989",
+    "A008277",
+    "A159068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

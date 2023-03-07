@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (a(n-1) AND a(n-2)) XOR n.",
+  "id": "A182560",
+  "mentions": [
+    "A000695",
+    "A182389",
+    "A182538"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

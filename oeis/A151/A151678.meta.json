@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sum_{k >= 0} binomial(wt(n+k),2*k), where wt() = A000120().",
+  "id": "A151678",
+  "mentions": [
+    "A000120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

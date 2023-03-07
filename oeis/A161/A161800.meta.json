@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: A(q) = exp( Sum_{n>=1} A002129(n) * 2*A006519(n) * q^n/n ).",
+  "id": "A161800",
+  "mentions": [
+    "A000123",
+    "A002129",
+    "A006519",
+    "A127392",
+    "A161801",
+    "A161802"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

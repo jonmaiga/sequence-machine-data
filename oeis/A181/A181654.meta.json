@@ -1,0 +1,20 @@
+{
+  "description": "An eigentriangle of the number triangle A181653.",
+  "id": "A181654",
+  "mentions": [
+    "A181653",
+    "A181655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

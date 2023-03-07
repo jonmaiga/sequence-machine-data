@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonnegative solutions to (x,y) = 1 and x^3 + y^3 = n.",
+  "id": "A295976",
+  "mentions": [
+    "A173677",
+    "A202679",
+    "A225530",
+    "A295819",
+    "A295977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

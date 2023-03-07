@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that k^k == k+1 (mod m), or 0 if no such k exists, where m = A007310(n).",
+  "id": "A191833",
+  "mentions": [
+    "A000010",
+    "A007310",
+    "A191834"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

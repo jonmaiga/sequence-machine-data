@@ -1,0 +1,22 @@
+{
+  "description": "Triangular sequence of coefficients of a polynomial recursion for C_n and B_n Cartan matrices: p(x, n) = (-2 + x)*p(x, n - 1) - p(x, n - 2) p(x,n)=x2-4*x+4-m:m=4;(related sequence: A_n:m=1,G_n,m=3,B_n,C_n,m=2) This triangular sequence is an extension to the Cartan pattern of matrices.",
+  "id": "A136329",
+  "mentions": [
+    "A053122",
+    "A110162",
+    "A136674"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

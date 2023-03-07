@@ -1,0 +1,26 @@
+{
+  "description": "Let c(s) denote A109812(s). Suppose c(s) = 2^n - 1, and define m(n), p(n), r(n) by m(n) = c(s-1)/2^n, p(n) = c(s+1)/2^n, r(n) = max(m(n), p(n)); sequence gives r(n).",
+  "id": "A352923",
+  "mentions": [
+    "A109812",
+    "A113233",
+    "A352203",
+    "A352204",
+    "A352336",
+    "A352359",
+    "A352917",
+    "A352920",
+    "A352922"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

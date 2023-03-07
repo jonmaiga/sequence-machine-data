@@ -1,0 +1,20 @@
+{
+  "description": "Goldbach's problem extended to squares of nonnegative differences of primes: smallest integer >= ((A112823(n) - A234345(n))^2)/n for n >= 2.",
+  "id": "A277581",
+  "mentions": [
+    "A002374",
+    "A112823",
+    "A234345",
+    "A277583"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

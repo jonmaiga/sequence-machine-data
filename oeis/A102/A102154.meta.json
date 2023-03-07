@@ -1,0 +1,24 @@
+{
+  "description": "Iccanobirt primes (4 of 15): Prime numbers in A102114.",
+  "id": "A102154",
+  "mentions": [
+    "A000040",
+    "A102114",
+    "A102134",
+    "A102151",
+    "A102165"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:08:27",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

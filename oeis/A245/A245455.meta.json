@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimax elements in the affine Weyl group of the Lie algebra so(2n).",
+  "id": "A245455",
+  "mentions": [
+    "A005773"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

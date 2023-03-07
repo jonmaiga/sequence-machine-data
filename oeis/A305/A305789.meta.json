@@ -1,0 +1,22 @@
+{
+  "description": "Filter-sequence combining prime signature of n (A046523) and similar signature for GF(2)[X]-factorization (A278233).",
+  "id": "A305789",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A278233",
+    "A305788",
+    "A305790",
+    "A305802"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

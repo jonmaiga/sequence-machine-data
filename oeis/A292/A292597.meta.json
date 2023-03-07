@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = c(n) + 2*a(floor(n/2)), where c(n) is the characteristic function of odd composites, A071904.",
+  "id": "A292597",
+  "mentions": [
+    "A000035",
+    "A010051",
+    "A014076",
+    "A071904",
+    "A292596",
+    "A292598"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

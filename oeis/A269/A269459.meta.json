@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are equal to the sum of the number of divisors of their first k arithmetic derivatives, for some k.",
+  "id": "A269459",
+  "mentions": [
+    "A000005",
+    "A003415",
+    "A270389",
+    "A270713"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest digit in any base b expansion of n, 2 <= b <= sqrt(n).",
+  "id": "A123584",
+  "mentions": [
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

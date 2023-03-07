@@ -1,0 +1,18 @@
+{
+  "description": "Prime Fibonacci 6-step numbers, A001592.",
+  "id": "A105759",
+  "mentions": [
+    "A001592",
+    "A105758"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

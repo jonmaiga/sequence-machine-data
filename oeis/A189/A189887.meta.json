@@ -1,0 +1,19 @@
+{
+  "description": "Dimension of homogeneous component of degree n in x in the Malcev-Poisson superalgebra S^tilde(M).",
+  "id": "A189887",
+  "mentions": [
+    "A047415"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:57:05",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

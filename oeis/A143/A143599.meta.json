@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp( x*sqrt(A(x)/A(-x)) ).",
+  "id": "A143599",
+  "mentions": [
+    "A007106",
+    "A058014",
+    "A143600",
+    "A143601"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

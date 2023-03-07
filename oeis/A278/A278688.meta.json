@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows T(n, k) = number of non-equivalent ways to place k non-attacking ferses on an n X n board.",
+  "id": "A278688",
+  "mentions": [
+    "A008805",
+    "A093005",
+    "A232567",
+    "A278682",
+    "A278683",
+    "A278684",
+    "A278685",
+    "A278686",
+    "A278687"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

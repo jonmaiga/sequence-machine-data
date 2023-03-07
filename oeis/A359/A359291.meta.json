@@ -1,0 +1,20 @@
+{
+  "description": "Absolute discriminants of imaginary quadratic fields with elementary bicyclic 5-class group and capitulation type the identity permutation.",
+  "id": "A359291",
+  "mentions": [
+    "A359296",
+    "A359871"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

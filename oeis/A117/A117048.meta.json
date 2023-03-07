@@ -1,0 +1,27 @@
+{
+  "description": "Prime numbers that are expressible as the sum of two positive triangular numbers.",
+  "id": "A117048",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A002243",
+    "A002244",
+    "A002636",
+    "A020756",
+    "A051533",
+    "A053614",
+    "A060773",
+    "A117112"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

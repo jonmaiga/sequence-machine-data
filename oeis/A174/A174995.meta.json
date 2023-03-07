@@ -1,0 +1,21 @@
+{
+  "description": "Products of decimal digits.",
+  "id": "A174995",
+  "mentions": [
+    "A002473",
+    "A079904"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

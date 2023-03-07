@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the Bateman-Grosswald constant zeta(2/3)/zeta(2), a constant (negated) arising in the asymptotic evaluation of the number of square-full numbers (also called \"powerful\" numbers).",
+  "id": "A244000",
+  "mentions": [
+    "A001694",
+    "A033150",
+    "A059956",
+    "A090699"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

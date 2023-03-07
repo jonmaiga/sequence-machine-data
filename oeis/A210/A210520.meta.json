@@ -1,0 +1,20 @@
+{
+  "description": "Number of cuban primes < 10^(n/2).",
+  "id": "A210520",
+  "mentions": [
+    "A002407",
+    "A113478",
+    "A221794"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

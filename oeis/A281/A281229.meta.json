@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k of the form x^2 + y^2 with 0 <= x <= y such that gcd(x, y) = 1, x + y = n, and k has no other decompositions into a sum of two squares.",
+  "id": "A281229",
+  "mentions": [
+    "A002144",
+    "A068486",
+    "A159351"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

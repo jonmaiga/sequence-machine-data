@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (Sum_{k>=0} x^(k*(k+1)*(k+2)/6))^5.",
+  "id": "A282172",
+  "mentions": [
+    "A000292",
+    "A000797",
+    "A008439",
+    "A104246"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of the map of quadratic residues x -> x^2 (mod prime(n)) with the initial term x = n^2 (mod prime(n)) needed to reach the end of the cycle.",
+  "id": "A307551",
+  "mentions": [
+    "A000040",
+    "A000224",
+    "A046071",
+    "A063987",
+    "A096008",
+    "A307550"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

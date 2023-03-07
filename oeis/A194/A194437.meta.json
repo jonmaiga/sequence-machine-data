@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of parts in the k-th region of n.",
+  "id": "A194437",
+  "mentions": [
+    "A000041",
+    "A046746",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A186114",
+    "A186412",
+    "A193870",
+    "A194436",
+    "A194438",
+    "A194439",
+    "A194446",
+    "A194447"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

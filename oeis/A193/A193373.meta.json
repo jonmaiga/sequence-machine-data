@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi/(2 + sqrt(2)).",
+  "id": "A193373",
+  "mentions": [
+    "A193355"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

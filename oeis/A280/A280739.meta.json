@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest composite number > a(n-1) for which the sum of the prime factors (counted with multiplicity) is n.",
+  "id": "A280739",
+  "mentions": [
+    "A046343"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 4,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

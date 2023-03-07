@@ -1,0 +1,28 @@
+{
+  "description": "Number of chains in partitions of [n] ordered by refinement.",
+  "id": "A330804",
+  "mentions": [
+    "A000110",
+    "A006472",
+    "A007047",
+    "A008277",
+    "A048993",
+    "A131407",
+    "A143494",
+    "A328044",
+    "A330301",
+    "A330302",
+    "A331955"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

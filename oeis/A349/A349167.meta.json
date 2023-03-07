@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if sigma(n) and A003961(n) are relatively prime, otherwise 0.",
+  "id": "A349167",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A342671",
+    "A348737",
+    "A349163",
+    "A349165",
+    "A349166"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

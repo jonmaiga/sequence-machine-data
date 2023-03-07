@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary partitions of n in which exactly one of the powers of 2 is used an odd number of times.",
+  "id": "A307148",
+  "mentions": [
+    "A000123",
+    "A307149"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 - x^(7*k+4)) in powers of x.",
+  "id": "A284502",
+  "mentions": [
+    "A281456",
+    "A284445",
+    "A284499",
+    "A284500",
+    "A284501",
+    "A284503",
+    "A284504"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

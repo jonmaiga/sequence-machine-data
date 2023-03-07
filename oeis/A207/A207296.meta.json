@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X3 0..3 arrays with rows and columns of determinants of all 2X2 subblocks lexicographically nondecreasing",
+  "id": "A207296",
+  "mentions": [
+    "A207300"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

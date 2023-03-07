@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the position in digits of Pi where k(n) is for the first time leader in the race of digits of Pi. k(n) = 0, 1, ..., 9, 00, 01, ..., 99, 000, 001, ...",
+  "id": "A342325",
+  "mentions": [
+    "A000796",
+    "A195835"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

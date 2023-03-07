@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers k such that A156552(k) is not a power of prime, and for which A323243(k) = sigma(A156552(k)) is congruent to 2 modulo 8.",
+  "id": "A332229",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A156552",
+    "A323243",
+    "A324814",
+    "A332225",
+    "A332228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,m) = Sum_{k=1..n-m} (k*(-1)^k*binomial(m+k-1,k)*binomial(2*(n-m),n-m-k))/(n-m), with T(n,n)=1.",
+  "id": "A271875",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:50",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

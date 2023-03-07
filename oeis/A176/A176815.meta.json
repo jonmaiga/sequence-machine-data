@@ -1,0 +1,17 @@
+{
+  "description": "Radius of the second-shortest interval (of positive length) centered at prime(n) that has prime endpoints, (zero if no solution exists).",
+  "id": "A176815",
+  "mentions": [
+    "A078611"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

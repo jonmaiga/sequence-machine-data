@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as C(w+2,2) + C(x+3,4) + C(y+5,6) + C(z+7,8) with w,x,y,z nonnegative integers, where C(m,k) denotes the binomial coefficient m!/(k!*(m-k)!).",
+  "id": "A306477",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A000579",
+    "A000581",
+    "A306459",
+    "A306460",
+    "A306462",
+    "A306471"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

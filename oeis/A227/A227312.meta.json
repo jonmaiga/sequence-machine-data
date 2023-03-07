@@ -1,0 +1,20 @@
+{
+  "description": "L.g.f.: log(1 + 2*Sum_{n>=1} 2^n * x^(n^2)).",
+  "id": "A227312",
+  "mentions": [
+    "A000203",
+    "A227311",
+    "A227313",
+    "A227315"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

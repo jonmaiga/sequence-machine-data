@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: (1/n) * C(2n+k,k-1) * C(n,k).",
+  "id": "A102537",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A003168",
+    "A005563",
+    "A013698",
+    "A120986",
+    "A243662"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

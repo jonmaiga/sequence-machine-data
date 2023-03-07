@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime number p such that p + 2#, p + 3#, ..., p + prime(n)# are all prime, where x# = A034386(x) is the primorial.",
+  "id": "A115786",
+  "mentions": [
+    "A001359",
+    "A002110",
+    "A022004",
+    "A034386",
+    "A115785"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

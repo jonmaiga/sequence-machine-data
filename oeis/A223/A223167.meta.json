@@ -1,0 +1,23 @@
+{
+  "description": "Difference between nearest integer to (Li(10^n)-Li(3)) and pi(10^n), where Li(10^n)-Li(3) = integral(3.. 10^n, dt/log(t)) (A223166) and pi(10^n) = number of primes <= 10^n (A006880).",
+  "id": "A223167",
+  "mentions": [
+    "A006880",
+    "A057752",
+    "A057754",
+    "A106313",
+    "A190802",
+    "A223166"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

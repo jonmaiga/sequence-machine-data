@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes of the form 6n + 1.",
+  "id": "A112771",
+  "mentions": [
+    "A091300",
+    "A108164",
+    "A108166",
+    "A112775"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

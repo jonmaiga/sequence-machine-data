@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} sigma_3(k)*sigma_7(n-k).",
+  "id": "A279964",
+  "mentions": [
+    "A000594",
+    "A001158",
+    "A001160",
+    "A013955",
+    "A279889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

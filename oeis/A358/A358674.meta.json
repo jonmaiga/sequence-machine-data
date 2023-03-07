@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k for which there is a factorization of k into such a pair of natural numbers x and y, that the sum (x * y') + (x' * y) will generate at least one carry when the addition is done in the primorial base. Here n' stands for A003415(n), the arithmetic derivative of n.",
+  "id": "A358674",
+  "mentions": [
+    "A003415",
+    "A016754",
+    "A038548",
+    "A276086",
+    "A327936",
+    "A329041",
+    "A358235",
+    "A358672",
+    "A358673",
+    "A358675"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

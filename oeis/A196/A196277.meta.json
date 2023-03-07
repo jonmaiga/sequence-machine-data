@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that A196274(m) > 1.",
+  "id": "A196277",
+  "mentions": [
+    "A047846",
+    "A196274",
+    "A196276"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

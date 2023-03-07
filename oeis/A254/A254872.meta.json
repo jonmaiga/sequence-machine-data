@@ -1,0 +1,30 @@
+{
+  "description": "Seventh partial sums of sixth powers (A001014).",
+  "id": "A254872",
+  "mentions": [
+    "A000540",
+    "A001014",
+    "A022522",
+    "A101093",
+    "A254472",
+    "A254640",
+    "A254645",
+    "A254647",
+    "A254683",
+    "A254869",
+    "A254870",
+    "A254871"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:59",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

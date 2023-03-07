@@ -1,0 +1,24 @@
+{
+  "description": "Complement of A175967(n), where A175967(n) = the lexicographically earliest sequence with first differences as increasing sequence of nonprimes A018252(n).",
+  "id": "A175968",
+  "mentions": [
+    "A014284",
+    "A018252",
+    "A051349",
+    "A175965",
+    "A175966",
+    "A175967",
+    "A175969",
+    "A175970"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

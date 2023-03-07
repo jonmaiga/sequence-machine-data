@@ -1,0 +1,20 @@
+{
+  "description": "Number of digits in decimal representation of A104350(n).",
+  "id": "A104351",
+  "mentions": [
+    "A034886",
+    "A055642",
+    "A104350"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

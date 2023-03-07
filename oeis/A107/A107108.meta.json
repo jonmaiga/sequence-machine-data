@@ -1,0 +1,19 @@
+{
+  "description": "Shorthand of n-th smallest n-digit prime, see comments.",
+  "id": "A107108",
+  "mentions": [
+    "A069100"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

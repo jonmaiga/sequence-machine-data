@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(n*log(n)/2).",
+  "id": "A316681",
+  "mentions": [
+    "A050504"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:23",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

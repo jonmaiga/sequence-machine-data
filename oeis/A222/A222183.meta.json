@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 0} 1/(4*k+1)^2.",
+  "id": "A222183",
+  "mentions": [
+    "A006752",
+    "A013661",
+    "A111003",
+    "A214550",
+    "A222068"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

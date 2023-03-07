@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms starting with a(1) = 1 (\"one\") such that the letter count of a(n) + the letter count of a(n+1) = the letter count of [a(n) + a(n+1)].",
+  "id": "A330365",
+  "mentions": [
+    "A213006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

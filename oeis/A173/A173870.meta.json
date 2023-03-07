@@ -1,0 +1,24 @@
+{
+  "description": "Consider each term k contained in A114994; write 2k if and only if 2k is not a member of A114994.",
+  "id": "A173870",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A114994",
+    "A117989",
+    "A125106",
+    "A126441",
+    "A161924"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

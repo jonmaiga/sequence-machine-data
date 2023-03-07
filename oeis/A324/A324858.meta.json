@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m > 1 such that there exists a composite divisor c of m with s_c(m) = c.",
+  "id": "A324858",
+  "mentions": [
+    "A002997",
+    "A087788",
+    "A324456",
+    "A324857"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

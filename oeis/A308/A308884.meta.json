@@ -1,0 +1,19 @@
+{
+  "description": "Follow along the squares in the square spiral (as in A274641); in each square write the smallest nonnegative number that a knight placed at that square cannot see.",
+  "id": "A308884",
+  "mentions": [
+    "A274641",
+    "A308885",
+    "A308895"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

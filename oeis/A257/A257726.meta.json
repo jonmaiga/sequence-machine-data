@@ -1,0 +1,32 @@
+{
+  "description": "a(0)=0; a(2n) = unlucky(a(n)), a(2n+1) = lucky(a(n)+1), where lucky = A000959, unlucky = A050505.",
+  "id": "A257726",
+  "mentions": [
+    "A000959",
+    "A005408",
+    "A005843",
+    "A050505",
+    "A183089",
+    "A237126",
+    "A246378",
+    "A257725",
+    "A257728",
+    "A257731",
+    "A257733",
+    "A257735",
+    "A257738",
+    "A257801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes from merging of 3 successive digits in decimal expansion of exp(Pi).",
+  "id": "A105008",
+  "mentions": [
+    "A039661"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:17",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

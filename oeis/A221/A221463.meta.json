@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k)=Number of 0..k arrays of length n with each element unequal to at least one neighbor, starting with 0",
+  "id": "A221463",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A000290",
+    "A011379",
+    "A028860",
+    "A094013",
+    "A106435",
+    "A106565"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

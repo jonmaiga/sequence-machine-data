@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n} d * floor(sqrt(d)).",
+  "id": "A344460",
+  "mentions": [
+    "A000196",
+    "A086671"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

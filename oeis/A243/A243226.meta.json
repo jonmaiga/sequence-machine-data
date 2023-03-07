@@ -1,0 +1,19 @@
+{
+  "description": "Let s(m) = Sum_{j=1..m} sigma(j)/j where sigma(j) is the sum of divisors of j. Sequence consists of numbers k such that denominator(s(k)) < denominator(s(k-1)).",
+  "id": "A243226",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum of pyramid weights of all dispersed Dyck paths of length n (i.e., of all Motzkin paths of length n with no (1,0) steps at positive heights).",
+  "id": "A191319",
+  "mentions": [
+    "A191318"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

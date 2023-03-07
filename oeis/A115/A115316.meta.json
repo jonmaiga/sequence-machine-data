@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest permutation of the natural numbers such that each prime number is followed by exactly two composite numbers.",
+  "id": "A115316",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A018252",
+    "A073846",
+    "A115317",
+    "A115318",
+    "A115319"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

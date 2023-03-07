@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A331440.",
+  "id": "A331441",
+  "mentions": [
+    "A331440"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

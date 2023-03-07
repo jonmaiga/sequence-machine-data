@@ -1,0 +1,22 @@
+{
+  "description": "Nontrivial products of three lucky numbers.",
+  "id": "A128530",
+  "mentions": [
+    "A000959",
+    "A001358",
+    "A014612",
+    "A128462"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

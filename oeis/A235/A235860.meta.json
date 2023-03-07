@@ -1,0 +1,22 @@
+{
+  "description": "Minimal representation (considered minimal in any canonical base b >= 3) of n in a binary system using two distinct digits \"1\" and \"2\", not allowing zeros, where a digit d in position p (p = 1,2,3,...,n) represents the value d^p.",
+  "id": "A235860",
+  "mentions": [
+    "A007931",
+    "A236547",
+    "A237454",
+    "A237662",
+    "A237816"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

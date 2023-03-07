@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that A000110(k) is divisible by k.",
+  "id": "A325630",
+  "mentions": [
+    "A000110",
+    "A014847",
+    "A016089",
+    "A023172",
+    "A051130",
+    "A051177",
+    "A056848",
+    "A066562",
+    "A073877",
+    "A113883",
+    "A280727",
+    "A325935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

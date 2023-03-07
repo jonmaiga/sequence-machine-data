@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: exp( Integral (theta_3(x)^8-1)/(16x) dx ), where theta_3(x) = 1 + Sum_{n>=1} 2*x^(n^2) is a Jacobi theta function.",
+  "id": "A177155",
+  "mentions": [
+    "A000143",
+    "A001935",
+    "A008457",
+    "A138503",
+    "A307462"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

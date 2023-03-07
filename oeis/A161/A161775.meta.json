@@ -1,0 +1,19 @@
+{
+  "description": "The number of pattern sequences if the \"sum the fourth powers of the digits\" pattern is applied in bases 2 through 10.",
+  "id": "A161775",
+  "mentions": [
+    "A161772",
+    "A161773"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

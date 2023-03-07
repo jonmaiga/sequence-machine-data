@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is formed by concatenating the first n terms of A219749.",
+  "id": "A219750",
+  "mentions": [
+    "A219749"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

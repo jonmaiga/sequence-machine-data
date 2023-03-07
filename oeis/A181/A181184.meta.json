@@ -1,0 +1,20 @@
+{
+  "description": "| (n-th digit of Pi) - (n-th digit of phi (golden ratio)) |.",
+  "id": "A181184",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A073223"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

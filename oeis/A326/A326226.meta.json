@@ -1,0 +1,30 @@
+{
+  "description": "Number of unlabeled n-vertex Hamiltonian digraphs (with loops).",
+  "id": "A326226",
+  "mentions": [
+    "A000595",
+    "A002416",
+    "A003087",
+    "A003216",
+    "A057864",
+    "A246446",
+    "A326204",
+    "A326208",
+    "A326215",
+    "A326221",
+    "A326223",
+    "A326225"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A variation on Recamán's sequence (A005132): a(n) is the first positive number of the form a(n-1)-n*k, k>0 not already in the sequence; and if no such number exists, then a(n) is the first number of the form a(n-1)+n*k, k>0 not already in the sequence.",
+  "id": "A274648",
+  "mentions": [
+    "A005132",
+    "A273148",
+    "A274647"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

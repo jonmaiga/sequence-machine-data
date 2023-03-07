@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(n+2) + 3^n + 10.",
+  "id": "A254365",
+  "mentions": [
+    "A140504",
+    "A254366",
+    "A254367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

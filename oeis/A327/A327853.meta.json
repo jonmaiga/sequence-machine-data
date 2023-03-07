@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, Sierpinski's gasket, A047999 * (0,1,2,3,4,...) diagonalized.",
+  "id": "A327853",
+  "mentions": [
+    "A000217",
+    "A001317",
+    "A003056",
+    "A007318",
+    "A047999",
+    "A080099",
+    "A166555",
+    "A327889"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

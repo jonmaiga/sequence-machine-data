@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime factor of the concatenation of terms of the n-th row of the Stirling's number of the second kind.",
+  "id": "A100757",
+  "mentions": [
+    "A008277",
+    "A020639",
+    "A061113",
+    "A100755",
+    "A100756",
+    "A100758"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

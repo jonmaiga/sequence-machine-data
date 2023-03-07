@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive divisors of A000032(n).",
+  "id": "A272377",
+  "mentions": [
+    "A000005",
+    "A000032",
+    "A063375"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

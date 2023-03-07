@@ -1,0 +1,21 @@
+{
+  "description": "Number of Jacobsthal-Lucas numbers m <= n.",
+  "id": "A345380",
+  "mentions": [
+    "A014551",
+    "A108852",
+    "A130245",
+    "A130253"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

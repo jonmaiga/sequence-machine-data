@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct values of the sum of a*b+a*c+b*c over 1 sets of three a,b,c 0..n integers.",
+  "id": "A225268",
+  "mentions": [
+    "A225267"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

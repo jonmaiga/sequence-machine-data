@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are one more or one less than the sum of four consecutive composite numbers.",
+  "id": "A318157",
+  "mentions": [
+    "A296012"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

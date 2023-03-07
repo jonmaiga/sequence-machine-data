@@ -1,0 +1,17 @@
+{
+  "description": "Smaller of two consecutive prime numbers such that p0+p1=average of twin prime pairs and p0*p1+7=average of twin prime pairs.",
+  "id": "A153374",
+  "mentions": [
+    "A099349"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

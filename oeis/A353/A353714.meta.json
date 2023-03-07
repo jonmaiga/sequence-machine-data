@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1; for n>0, smallest missing number after A109812(n) has been calculated.",
+  "id": "A353714",
+  "mentions": [
+    "A109812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

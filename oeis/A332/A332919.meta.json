@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the sum of the sums of squared digits of all n-digit numbers.",
+  "id": "A332919",
+  "mentions": [
+    "A000330",
+    "A003132",
+    "A333034"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

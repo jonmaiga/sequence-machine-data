@@ -1,0 +1,18 @@
+{
+  "description": "A113695(n-1) concatenated with A113695(n+1) divided by A113695(n).",
+  "id": "A113696",
+  "mentions": [
+    "A113695"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

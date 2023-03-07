@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n, phi(n) and cototient(n) are all perfect powers.",
+  "id": "A281016",
+  "mentions": [
+    "A000010",
+    "A001597",
+    "A051953",
+    "A054754",
+    "A166955"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The odd terms (a1,a3,a5,...) are in an arithmetic progression (1,2,3,...), while the even terms (a2,a4,a6,...) give the number of letters of the given odd term.",
+  "id": "A181672",
+  "mentions": [
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

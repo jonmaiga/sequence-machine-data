@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that every digit of n and sqrt(n) contains a loop (only digits 0,4,6,8,9 in n and sqrt(n)).",
+  "id": "A107627",
+  "mentions": [
+    "A001744",
+    "A107624",
+    "A107625",
+    "A107626"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "dumb",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

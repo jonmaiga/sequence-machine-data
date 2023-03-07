@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{k>=0} (1 + k*x)^k * x^(3*k).",
+  "id": "A360707",
+  "mentions": [
+    "A360592",
+    "A360699",
+    "A360747"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

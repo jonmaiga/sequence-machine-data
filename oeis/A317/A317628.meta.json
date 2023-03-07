@@ -1,0 +1,21 @@
+{
+  "description": "Take a number z of x digits and consider any concatenation z = concat(y_1, y_2, ..., y_i) where y_1, y_2, ..., y_i have the same number of digits. Then be g(z) the product of the sums y_1 + y_2 + ... + y_i for all those concatenations. Sequence lists numbers z such that g(g(z)) = z. (See example.)",
+  "id": "A317628",
+  "mentions": [
+    "A000005",
+    "A066230",
+    "A317593"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

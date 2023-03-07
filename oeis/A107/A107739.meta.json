@@ -1,0 +1,24 @@
+{
+  "description": "Number of (completed) sudokus (or Sudokus) of size n^2 X n^2.",
+  "id": "A107739",
+  "mentions": [
+    "A108395",
+    "A109741",
+    "A114288",
+    "A198297",
+    "A285178",
+    "A285180"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

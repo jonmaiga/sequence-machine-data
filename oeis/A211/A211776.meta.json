@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{d | n} tau(d).",
+  "id": "A211776",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A007425"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

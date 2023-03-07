@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = x/Series_Reversion(x*G(x)) where G(x) = Sum_{n>=0} (n+1)^n*x^n.",
+  "id": "A180749",
+  "mentions": [
+    "A180747",
+    "A182957",
+    "A242749"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

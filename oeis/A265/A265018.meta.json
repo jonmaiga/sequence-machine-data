@@ -1,0 +1,24 @@
+{
+  "description": "Total sum T(n,k) of number of lambda-parking functions of partitions lambda of n into distinct parts with largest part k; triangle T(n,k), n>=0, floor(sqrt(2n)+1/2)<=k<=n, read by rows.",
+  "id": "A265018",
+  "mentions": [
+    "A000217",
+    "A000272",
+    "A002024",
+    "A265016",
+    "A265019",
+    "A265130"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

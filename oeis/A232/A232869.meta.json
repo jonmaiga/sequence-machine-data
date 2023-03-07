@@ -1,0 +1,30 @@
+{
+  "description": "Primes p such that the average of the fourth powers of primes up to p is an integer.",
+  "id": "A232869",
+  "mentions": [
+    "A111441",
+    "A125907",
+    "A171399",
+    "A217599",
+    "A223936",
+    "A224083",
+    "A232733",
+    "A232822",
+    "A232865",
+    "A232962",
+    "A233132"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

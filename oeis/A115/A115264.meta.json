@@ -1,0 +1,26 @@
+{
+  "description": "Diagonal sums of correlation triangle for floor((n+2)/2).",
+  "id": "A115264",
+  "mentions": [
+    "A001399",
+    "A045513",
+    "A056594",
+    "A099837",
+    "A115263",
+    "A164680",
+    "A210068",
+    "A210631"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:51",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

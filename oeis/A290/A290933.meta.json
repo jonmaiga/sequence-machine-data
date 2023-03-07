@@ -1,0 +1,19 @@
+{
+  "description": "Number of edge covers in the n-sun graph.",
+  "id": "A290933",
+  "mentions": [
+    "A192856",
+    "A290763"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

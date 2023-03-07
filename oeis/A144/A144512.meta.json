@@ -1,0 +1,28 @@
+{
+  "description": "Array read by upwards antidiagonals: T(n,k) = total number of partitions of [1, 2, ..., k] into exactly n blocks, each of size 1, 2, ..., k+1, for 0 <= k <= (k+1)*n.",
+  "id": "A144512",
+  "mentions": [
+    "A001515",
+    "A048775",
+    "A144416",
+    "A144508",
+    "A144509",
+    "A144510",
+    "A144511",
+    "A144662",
+    "A147984",
+    "A149187",
+    "A281901"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

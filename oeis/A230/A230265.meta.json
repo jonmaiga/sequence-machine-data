@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of eta(2*n)/Pi^(2*n), where eta(n) is the Dirichlet eta function.",
+  "id": "A230265",
+  "mentions": [
+    "A036280",
+    "A036281",
+    "A060055"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:01:33",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

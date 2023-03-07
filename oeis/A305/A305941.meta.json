@@ -1,0 +1,21 @@
+{
+  "description": "Smallest power of n having at least one digit 0 (when written in base 10).",
+  "id": "A305941",
+  "mentions": [
+    "A011540",
+    "A071531"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

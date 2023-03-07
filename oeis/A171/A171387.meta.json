@@ -1,0 +1,23 @@
+{
+  "description": "The characteristic function of primes > 3: 1 if n is prime such that neither prime+-1 is prime else 0.",
+  "id": "A171387",
+  "mentions": [
+    "A000007",
+    "A010051",
+    "A063524",
+    "A080545",
+    "A169546",
+    "A171386"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

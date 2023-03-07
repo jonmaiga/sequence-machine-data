@@ -1,0 +1,21 @@
+{
+  "description": "If n=0 (mod 3) then a(n)=0, otherwise a(n)=9^(-1) in Z/nZ*.",
+  "id": "A226787",
+  "mentions": [
+    "A092092",
+    "A226782",
+    "A226786"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

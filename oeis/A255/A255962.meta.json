@@ -1,0 +1,19 @@
+{
+  "description": "Number of repeating products of any subset of {1, 2, 3, ..., n}.",
+  "id": "A255962",
+  "mentions": [
+    "A000225",
+    "A060957"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

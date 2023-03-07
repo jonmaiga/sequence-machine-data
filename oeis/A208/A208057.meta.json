@@ -1,0 +1,21 @@
+{
+  "description": "Triangle by rows, generated from the odd integers and related to A000165.",
+  "id": "A208057",
+  "mentions": [
+    "A000165",
+    "A002866",
+    "A158405"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

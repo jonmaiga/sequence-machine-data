@@ -1,0 +1,23 @@
+{
+  "description": "Number of toothpicks in a toothpick spiral around n cells on hexagonal net.",
+  "id": "A182617",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A182618",
+    "A182619",
+    "A182632",
+    "A182840"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

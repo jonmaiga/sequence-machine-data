@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with a record number of distinct values of the Euler totient function applied to their divisors (A319696).",
+  "id": "A328858",
+  "mentions": [
+    "A000010",
+    "A102190",
+    "A319696"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

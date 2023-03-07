@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers that cannot be formed by the concatenation of previous terms.",
+  "id": "A141409",
+  "mentions": [
+    "A141033"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

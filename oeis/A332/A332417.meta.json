@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: Take a decagon with all diagonals drawn, as in A333139. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A332417",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A331452",
+    "A331929",
+    "A332418",
+    "A332419",
+    "A333139"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

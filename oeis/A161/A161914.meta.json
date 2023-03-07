@@ -1,0 +1,23 @@
+{
+  "description": "Gaps between the nontrivial zeros of Riemann zeta function, rounded to nearest integers, with a(1)=14.",
+  "id": "A161914",
+  "mentions": [
+    "A002410",
+    "A162774",
+    "A162780",
+    "A162782",
+    "A208436",
+    "A210447",
+    "A221974"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

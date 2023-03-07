@@ -1,0 +1,32 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1; a(2n) = A088359(a(n)), a(2n+1) = A087686(1+a(n)), where A088359 & A087686 = numbers that occur only once & more than once in A004001.",
+  "id": "A276442",
+  "mentions": [
+    "A003188",
+    "A004001",
+    "A054429",
+    "A087686",
+    "A088359",
+    "A233276",
+    "A233278",
+    "A267110",
+    "A267112",
+    "A276344",
+    "A276346",
+    "A276441",
+    "A276444"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

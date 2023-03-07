@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers k such that k^2 = A^2+B^2+C^2 and A^3+B^3+C^3 = m^3, where gcd(A,B,C) = 1 and A, B, C, m are positive integers.",
+  "id": "A337251",
+  "mentions": [
+    "A096910"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polyominoes with n cells having simply-connected interiors.",
+  "id": "A342537",
+  "mentions": [
+    "A000104",
+    "A000105"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A145646.",
+  "id": "A145647",
+  "mentions": [
+    "A081821",
+    "A145646"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:21",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

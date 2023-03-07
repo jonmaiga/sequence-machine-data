@@ -1,0 +1,19 @@
+{
+  "description": "First occurrence of a run of exactly n consecutive integers with an odd number of prime factors.",
+  "id": "A275509",
+  "mentions": [
+    "A005408",
+    "A066794",
+    "A066829"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

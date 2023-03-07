@@ -1,0 +1,25 @@
+{
+  "description": "Square array A read by antidiagonals: the columns are given by A(n,1)=1, A(n,2)=n+1, A(n,3) = n^2+2n+3, A(n,4) = n^3+3*n^2+6*n+4, A(n,5) = n^4+4*n^3+10*n^2+12*n+7, ..., whose coefficients are given by A104509 (see also A118981).",
+  "id": "A309220",
+  "mentions": [
+    "A006497",
+    "A014448",
+    "A087130",
+    "A099425",
+    "A104509",
+    "A117938",
+    "A118980",
+    "A118981"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

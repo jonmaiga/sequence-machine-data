@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least k with Sum_{j = n..k} 1/j >= 1.",
+  "id": "A103762",
+  "mentions": [
+    "A022843",
+    "A081881",
+    "A136616",
+    "A136617",
+    "A242679",
+    "A277603",
+    "A289183"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

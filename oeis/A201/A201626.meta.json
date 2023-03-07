@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place n nonattacking wazirs on an n X n toroidal board.",
+  "id": "A201626",
+  "mentions": [
+    "A027683",
+    "A201511"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

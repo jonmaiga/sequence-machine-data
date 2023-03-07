@@ -1,0 +1,21 @@
+{
+  "description": "Number of free polyominoes with n cells containing a complete self-avoiding walk.",
+  "id": "A252653",
+  "mentions": [
+    "A000105",
+    "A213376",
+    "A283162"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

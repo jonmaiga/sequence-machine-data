@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: row n gives coefficients in expansion of Product_{k=1..n} (1 + x^(2*k + 1)) for n >= 0.",
+  "id": "A142724",
+  "mentions": [
+    "A178580",
+    "A178600",
+    "A178602",
+    "A178651",
+    "A178665",
+    "A178666",
+    "A178686",
+    "A178687",
+    "A178691",
+    "A178692",
+    "A178695",
+    "A178696",
+    "A178697"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

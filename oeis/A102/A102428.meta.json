@@ -1,0 +1,21 @@
+{
+  "description": "Central column of triangle A102427.",
+  "id": "A102428",
+  "mentions": [
+    "A011973",
+    "A102426",
+    "A102427",
+    "A102429"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

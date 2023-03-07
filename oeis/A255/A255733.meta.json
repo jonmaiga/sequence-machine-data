@@ -1,0 +1,18 @@
+{
+  "description": "Numbers x such that the sum of remainders of x mod k, where k runs through the anti-divisors of x, divides x.",
+  "id": "A255733",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

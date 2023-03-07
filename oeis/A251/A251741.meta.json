@@ -1,0 +1,25 @@
+{
+  "description": "8-step Fibonacci sequence starting with 0,0,0,0,1,0,0,0.",
+  "id": "A251741",
+  "mentions": [
+    "A079262",
+    "A105754",
+    "A251672",
+    "A251740",
+    "A251742",
+    "A251744",
+    "A251745"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

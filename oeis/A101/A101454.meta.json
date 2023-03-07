@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent solutions to toroidal (8n+1)-queen problem under the symmetry operator R45(x,y)=( (x-y)/sqrt(2), (x+y)/sqrt(2) ), divided by 2^n.",
+  "id": "A101454",
+  "mentions": [
+    "A007705",
+    "A057126"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (14+4*sqrt(14))/7.",
+  "id": "A176217",
+  "mentions": [
+    "A010471",
+    "A010712"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

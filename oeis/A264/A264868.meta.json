@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted tandem duplication trees on n gene segments.",
+  "id": "A264868",
+  "mentions": [
+    "A086521",
+    "A264869",
+    "A264870",
+    "A291680"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime whose digital sum is equal to the n-th composite number not congruent to 0 (modulo 3).",
+  "id": "A111380",
+  "mentions": [
+    "A073867",
+    "A157695"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number m such that k*m - 1 is prime for all k=3,4,...,n.",
+  "id": "A125839",
+  "mentions": [
+    "A088250",
+    "A088651",
+    "A125838"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

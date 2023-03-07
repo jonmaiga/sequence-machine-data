@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of matrix polynomials: m(n)=antisymmeticmatix(n).pseudotranspose[antisymmeticmatix(n)].",
+  "id": "A158336",
+  "mentions": [
+    "A119467"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

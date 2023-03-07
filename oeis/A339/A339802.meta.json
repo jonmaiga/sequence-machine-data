@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the imaginary part of harmonic number H(1/2 + i*sqrt(3)/2) where i=sqrt(-1).",
+  "id": "A339802",
+  "mentions": [
+    "A256919",
+    "A338815",
+    "A339135",
+    "A339529",
+    "A339530",
+    "A339605",
+    "A339606",
+    "A339801"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:37",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

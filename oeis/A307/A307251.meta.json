@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A319100(k) sets a new record.",
+  "id": "A307251",
+  "mentions": [
+    "A002476",
+    "A007528",
+    "A307252",
+    "A319100"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

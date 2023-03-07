@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = a(2) = 1; a(n) = n - a(a(n-2)) - a(n-a(n-2)) for n > 2.",
+  "id": "A305557",
+  "mentions": [
+    "A005229",
+    "A287422",
+    "A305845"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

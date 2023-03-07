@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by antidiagonals (upwards): A(n,k) = (k^Fibonacci(n) - 1) / (k - 1) for k >= 0 and n >= 0 with lim_{k -> 1} A(n,k) = A(n,1) = Fibonacci(n).",
+  "id": "A342689",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000027",
+    "A000032",
+    "A000045",
+    "A002061",
+    "A011655",
+    "A053699",
+    "A053717",
+    "A057427",
+    "A060887",
+    "A063896"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of omega-values for two consecutive indices where they equal the omega-value at the sum of the two indices.",
+  "id": "A192688",
+  "mentions": [
+    "A001221",
+    "A059957",
+    "A092523"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

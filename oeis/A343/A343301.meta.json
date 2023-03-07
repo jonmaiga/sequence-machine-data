@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 6*k+1 through 6*k+5 are all deficient (in A005100).",
+  "id": "A343301",
+  "mentions": [
+    "A005100",
+    "A343302",
+    "A343306"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

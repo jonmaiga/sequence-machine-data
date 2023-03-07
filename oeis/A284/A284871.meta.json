@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of primitive (aperiodic) reversible strings of length n using a maximum of k different symbols.",
+  "id": "A284871",
+  "mentions": [
+    "A045625",
+    "A056314",
+    "A056315",
+    "A056316",
+    "A056317",
+    "A056391",
+    "A143324",
+    "A277504"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

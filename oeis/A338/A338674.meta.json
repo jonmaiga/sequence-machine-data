@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 - 5^(k-1)*x^k).",
+  "id": "A338674",
+  "mentions": [
+    "A008284",
+    "A075900",
+    "A246937",
+    "A300579",
+    "A338673",
+    "A338675",
+    "A338676",
+    "A338677",
+    "A338678",
+    "A338679"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:33:11",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

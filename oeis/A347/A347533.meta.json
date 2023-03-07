@@ -1,0 +1,37 @@
+{
+  "description": "Array A(n,k) where A(n,0) = n and A(n,k) = (k*n + 1)^2 - A(n,k-1), n > 0, read by ascending antidiagonals.",
+  "id": "A347533",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A002061",
+    "A016754",
+    "A016778",
+    "A016814",
+    "A016862",
+    "A016922",
+    "A016994",
+    "A017078",
+    "A017174",
+    "A017282",
+    "A017402",
+    "A017534",
+    "A028896",
+    "A085473",
+    "A134934",
+    "A195605"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

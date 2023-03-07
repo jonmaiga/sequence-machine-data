@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected graphs on n nodes with edge chromatic number 4.",
+  "id": "A126734",
+  "mentions": [
+    "A126732"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

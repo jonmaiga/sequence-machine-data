@@ -1,0 +1,23 @@
+{
+  "description": "Degree of the algebraic number 2*sin(4*Pi/n).",
+  "id": "A232626",
+  "mentions": [
+    "A000010",
+    "A055034",
+    "A093819",
+    "A231190",
+    "A232625"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

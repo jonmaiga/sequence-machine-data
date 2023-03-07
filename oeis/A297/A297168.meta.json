@@ -1,0 +1,28 @@
+{
+  "description": "Difference between A156552 and its Moebius transform: a(n) = A156552(n) - A297112(n).",
+  "id": "A297168",
+  "mentions": [
+    "A000079",
+    "A008683",
+    "A033265",
+    "A061395",
+    "A064989",
+    "A156552",
+    "A297112",
+    "A297113",
+    "A297167",
+    "A297169",
+    "A300827"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

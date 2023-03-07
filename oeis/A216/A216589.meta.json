@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n which don't have a preimage for A216556, i.e., such that A216587(n)=-1.",
+  "id": "A216589",
+  "mentions": [
+    "A216556",
+    "A216557",
+    "A216587"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

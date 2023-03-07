@@ -1,0 +1,27 @@
+{
+  "description": "A(n,k) = n! * [x^n] (Sum_{j=0..n} k^(j*(j+1)/2) * x^j/j!)^(1/k) if k>0, A(n,0) = 0^n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A346061",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A002061",
+    "A023813",
+    "A057427",
+    "A178315",
+    "A178319",
+    "A342578"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

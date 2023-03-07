@@ -1,0 +1,25 @@
+{
+  "description": "Compound filter (for the structure of the multiplicative group of integers modulo n & prime signature of n): a(n) = P(A289626(n), A101296(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A289628",
+  "mentions": [
+    "A000027",
+    "A046523",
+    "A101296",
+    "A286160",
+    "A286454",
+    "A289622",
+    "A289625",
+    "A289626"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Produced by same formula that gives A000568 (unlabeled tournaments), but with LCM instead of GCD in the exponent.",
+  "id": "A151879",
+  "mentions": [
+    "A000568"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative terms such that whenever a(k_1) = ... = a(k_m) with k_1 < ... < k_m, the sum k_1 + ... + k_m can be computed without carries in factorial base.",
+  "id": "A336207",
+  "mentions": [
+    "A279125",
+    "A279732",
+    "A336206"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

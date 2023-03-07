@@ -1,0 +1,20 @@
+{
+  "description": "The difference between the number of letters and the number of syllables in n in English. (Omit \"and\" in both.)",
+  "id": "A249030",
+  "mentions": [
+    "A005589",
+    "A075774"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; thereafter a(n+1) > a(n) is the smallest multiple of a(n) using only odd digits but not divisible by 9.",
+  "id": "A329764",
+  "mentions": [
+    "A078221",
+    "A078223",
+    "A329762"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

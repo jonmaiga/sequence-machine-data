@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the k-th Fibonacci polynomial evaluated at k is prime.",
+  "id": "A290864",
+  "mentions": [
+    "A000045",
+    "A011973",
+    "A084844",
+    "A117715",
+    "A162515",
+    "A168561"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

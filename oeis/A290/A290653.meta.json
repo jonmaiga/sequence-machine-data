@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect dissections of equilateral triangles into n equilateral triangles with integer sides.",
+  "id": "A290653",
+  "mentions": [
+    "A167123",
+    "A290697"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 15,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

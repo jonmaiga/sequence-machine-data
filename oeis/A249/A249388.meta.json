@@ -1,0 +1,19 @@
+{
+  "description": "Put a [+] b = A(A(a) + A(b)), where A=A007913. The sequence lists consecutive row \"sums\" of triangle A248473, using [+].",
+  "id": "A249388",
+  "mentions": [
+    "A007913",
+    "A248470",
+    "A248473"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Total number of ON states after n generations of cellular automaton of A151723 based on hexagons, if we only look at two opposite 120-degree wedges, including the central cell.",
+  "id": "A256138",
+  "mentions": [
+    "A151723",
+    "A169707",
+    "A169779",
+    "A169780",
+    "A170898",
+    "A246333",
+    "A246335",
+    "A256139"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

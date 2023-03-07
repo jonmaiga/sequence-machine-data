@@ -1,0 +1,20 @@
+{
+  "description": "core(A143176(n))",
+  "id": "A144362",
+  "mentions": [
+    "A002110",
+    "A007913",
+    "A143176",
+    "A144361"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

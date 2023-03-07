@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that A340745(k) - k = n.",
+  "id": "A340825",
+  "mentions": [
+    "A340745",
+    "A340824",
+    "A340844",
+    "A340845",
+    "A340875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(2*n-1) = 2*n-1; otherwise a(n) is the smallest even number not already present which is obtained from the existing terms by the rules of (3*n+1)-problem.",
+  "id": "A261831",
+  "mentions": [
+    "A047253",
+    "A109732",
+    "A261690",
+    "A261728"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

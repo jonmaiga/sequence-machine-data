@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p = 1 (mod n) which divides Fibonacci((p-1)/n).",
+  "id": "A168171",
+  "mentions": [
+    "A001583",
+    "A047652",
+    "A122487",
+    "A125252",
+    "A125253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

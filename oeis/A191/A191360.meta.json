@@ -1,0 +1,21 @@
+{
+  "description": "Number of the diagonal of the Wythoff array that contains n.",
+  "id": "A191360",
+  "mentions": [
+    "A035513",
+    "A114327",
+    "A191361",
+    "A191362"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

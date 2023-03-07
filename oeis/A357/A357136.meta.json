@@ -1,0 +1,45 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer compositions of n with alternating sum k = 0..n. Part of the full triangle A097805.",
+  "id": "A357136",
+  "mentions": [
+    "A000120",
+    "A003242",
+    "A011782",
+    "A025047",
+    "A032020",
+    "A051159",
+    "A070939",
+    "A097805",
+    "A103919",
+    "A114220",
+    "A114901",
+    "A124754",
+    "A233564",
+    "A238279",
+    "A242882",
+    "A260492",
+    "A262046",
+    "A262977",
+    "A333489",
+    "A335404",
+    "A335405",
+    "A344651",
+    "A345167",
+    "A348614",
+    "A357182",
+    "A357183",
+    "A357184",
+    "A357185"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

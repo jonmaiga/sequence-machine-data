@@ -1,0 +1,19 @@
+{
+  "description": "The number of subsets of the set of divisors of n in which elements are pairwise coprime.",
+  "id": "A225520",
+  "mentions": [
+    "A000005",
+    "A048691",
+    "A076078"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} (-1)^(n+1) / sigma(n)^n.",
+  "id": "A215141",
+  "mentions": [
+    "A000203",
+    "A215140"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^k / ((2*k)!)^2.",
+  "id": "A334632",
+  "mentions": [
+    "A334379"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

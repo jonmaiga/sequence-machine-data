@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of e*Pi*erfc(1).",
+  "id": "A257526",
+  "mentions": [
+    "A099287",
+    "A108088"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:03",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

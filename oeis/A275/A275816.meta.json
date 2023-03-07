@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that the number of its divisors is n times, with n>1, the number of its prime factors, counted without multiplicity.",
+  "id": "A275816",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A275819"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

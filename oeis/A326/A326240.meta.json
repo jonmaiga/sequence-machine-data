@@ -1,0 +1,28 @@
+{
+  "description": "Number of Hamiltonian labeled n-vertex graphs with loops.",
+  "id": "A326240",
+  "mentions": [
+    "A000088",
+    "A003216",
+    "A006125",
+    "A057864",
+    "A283420",
+    "A326204",
+    "A326208",
+    "A326215",
+    "A326219",
+    "A326239"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

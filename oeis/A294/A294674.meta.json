@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the product of any number of consecutive odd primes.",
+  "id": "A294674",
+  "mentions": [
+    "A056911",
+    "A065091",
+    "A073485",
+    "A294472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes not of the form p*q + p + q for any primes p and q.",
+  "id": "A198273",
+  "mentions": [
+    "A000040",
+    "A049084",
+    "A066938",
+    "A067432"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

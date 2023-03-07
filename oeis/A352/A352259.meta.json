@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as w^6 + x^2 + 2*y^2 + 3*z^2 + x*y*z, where w,x,y,z are nonnegative integers.",
+  "id": "A352259",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A000584",
+    "A001014",
+    "A351617",
+    "A351723",
+    "A351902",
+    "A352286"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

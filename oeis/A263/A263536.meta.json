@@ -1,0 +1,21 @@
+{
+  "description": "Row sum of an equilateral triangle tiled with the 3,4,5 Pythagorean triple.",
+  "id": "A263536",
+  "mentions": [
+    "A008854",
+    "A136289",
+    "A259052"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:05",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

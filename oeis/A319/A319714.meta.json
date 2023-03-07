@@ -1,0 +1,21 @@
+{
+  "description": "Filter sequence combining the largest proper divisor of n (A032742) with n's residue modulo 4 (A010873).",
+  "id": "A319714",
+  "mentions": [
+    "A010873",
+    "A032742",
+    "A286473",
+    "A286474",
+    "A319704"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

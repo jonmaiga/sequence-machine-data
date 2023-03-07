@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer x satisfying the Pell equation x^2-ny^2=-1 for the values of n given in A031396.",
+  "id": "A130226",
+  "mentions": [
+    "A031396",
+    "A094048"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

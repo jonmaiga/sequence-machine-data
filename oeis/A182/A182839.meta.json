@@ -1,0 +1,32 @@
+{
+  "description": "Number of toothpicks and D-toothpicks added at n-th stage to the H-toothpick structure of A182838.",
+  "id": "A182839",
+  "mentions": [
+    "A000079",
+    "A000695",
+    "A010673",
+    "A011782",
+    "A139250",
+    "A139251",
+    "A161207",
+    "A182633",
+    "A182635",
+    "A182838",
+    "A182841",
+    "A296612"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways of writing the n-th n-gonal number as a sum of n nonzero n-gonal numbers.",
+  "id": "A335634",
+  "mentions": [
+    "A060354",
+    "A298330",
+    "A298858",
+    "A335633",
+    "A337762",
+    "A337763",
+    "A337764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows. T(n,k) (n >= 0) is a statistic on orbital systems over n sectors: the number of orbitals which have an integral whose absolute value is k.",
+  "id": "A274706",
+  "mentions": [
+    "A056040",
+    "A232500",
+    "A241477",
+    "A241810",
+    "A242087",
+    "A274708",
+    "A274709",
+    "A274710",
+    "A274878",
+    "A274879",
+    "A274880",
+    "A274881"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k > 0} (-1)^k*log(k)^2/k.",
+  "id": "A242494",
+  "mentions": [
+    "A091812"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Total number of odd divisors of all positive integers <= n, minus the total number of middle divisors of all positive integers <= n.",
+  "id": "A285999",
+  "mentions": [
+    "A060831",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A240542",
+    "A245092",
+    "A279387",
+    "A281009",
+    "A285901",
+    "A285902"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

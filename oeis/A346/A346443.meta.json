@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the function value corresponding to A346442, negated.",
+  "id": "A346443",
+  "mentions": [
+    "A346442",
+    "A346444",
+    "A346445",
+    "A346663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

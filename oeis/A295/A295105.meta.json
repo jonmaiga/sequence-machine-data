@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/n) times the n-th derivative of the fifth tetration of x (power tower of order 5) x^^5 at x=1.",
+  "id": "A295105",
+  "mentions": [
+    "A179505",
+    "A295028"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Length of the smallest (i.e., rightmost) Lyndon word in the Lyndon factorization of the binary representation of n.",
+  "id": "A211095",
+  "mentions": [
+    "A211096",
+    "A211099",
+    "A211100"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

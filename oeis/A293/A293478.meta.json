@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k = concat(x,LSD(k)) such that k' = x', where k' is the arithmetic derivative of k.",
+  "id": "A293478",
+  "mentions": [
+    "A003415",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

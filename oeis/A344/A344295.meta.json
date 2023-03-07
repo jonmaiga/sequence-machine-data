@@ -1,0 +1,41 @@
+{
+  "description": "Heinz numbers of partitions of 2*n with at most n parts, none greater than 3, for some n.",
+  "id": "A344295",
+  "mentions": [
+    "A001358",
+    "A001399",
+    "A025065",
+    "A030229",
+    "A035363",
+    "A051037",
+    "A056239",
+    "A080193",
+    "A110618",
+    "A112798",
+    "A244990",
+    "A261144",
+    "A266755",
+    "A279622",
+    "A300061",
+    "A334433",
+    "A340387",
+    "A344291",
+    "A344293",
+    "A344294",
+    "A344296",
+    "A344297",
+    "A344413",
+    "A344414"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}
